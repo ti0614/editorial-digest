@@ -14,11 +14,12 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 import sys
 import time
 import urllib.robotparser as robotparser
 from dataclasses import dataclass, asdict
-from datetime import date
+from datetime import date, timedelta
 from pathlib import Path
 from urllib.parse import urljoin, urlparse
 
@@ -29,8 +30,87 @@ from bs4 import BeautifulSoup
 USER_AGENT = "EditorialDigestBot/0.1 (personal research use; contact: set-your-contact-here)"
 REQUEST_TIMEOUT = 15
 REQUEST_INTERVAL_SEC = 2.0  # 同一実行内でもサイトに負荷をかけすぎないための間隔
+DIGEST_WINDOW_DAYS = 7  # 直近何日分の記事のみを対象とするか
 SOURCES_FILE = Path(__file__).parent / "sources.yaml"
 OUTPUT_DIR = Path(__file__).parent / "output"
+
+# 各紙の published 表記は書式がバラバラ（例: "2026年7月22日 05時00分",
+# "2026/7/22 02:02", "7月22日", "7/22 05:10", "22日", "05:00" のみ 等）。
+# reference_date を基準に、年月が省略された表記を補完して実日付へ正規化する。
+_DATE_PATTERNS = [
+    re.compile(r"(?P<y>\d{4})年(?P<m>\d{1,2})月(?P<d>\d{1,2})日"),
+    re.compile(r"(?P<y>\d{4})/(?P<m>\d{1,2})/(?P<d>\d{1,2})"),
+    re.compile(r"(?P<m>\d{1,2})月(?P<d>\d{1,2})日"),
+    re.compile(r"(?P<m>\d{1,2})/(?P<d>\d{1,2})(?:\s|$)"),
+]
+_DAY_ONLY_PATTERN = re.compile(r"^(?P<d>\d{1,2})日")
+_TIME_ONLY_PATTERN = re.compile(r"^\d{1,2}:\d{2}$")
+_FUTURE_TOLERANCE_DAYS = 2  # スクレイピング時刻とJSTのずれによる誤差の許容幅
+
+
+def parse_published_date(published: str | None, reference_date: date) -> date | None:
+    """published文字列をreference_date基準で実日付に正規化する。
+
+    年・月が省略されている表記は reference_date から補い、結果が未来日に
+    なる場合は前年・前月とみなして補正する（ただしスクレイピング実行時刻と
+    各紙サイトのタイムゾーン差により1日程度先の日付は正常にあり得るため、
+    _FUTURE_TOLERANCE_DAYS を超えて未来の場合のみ補正する）。時刻のみの
+    表記（年月日の手がかりが一切ない）は「直近の記事」とみなし
+    reference_date を返す。どうしても解釈できない場合は None を返す
+    （フィルタでは除外しない＝取りこぼしを避ける）。
+    """
+    if not published:
+        return None
+    future_limit = reference_date + timedelta(days=_FUTURE_TOLERANCE_DAYS)
+    for pat in _DATE_PATTERNS:
+        m = pat.search(published)
+        if not m:
+            continue
+        g = m.groupdict()
+        year = int(g["y"]) if g.get("y") else reference_date.year
+        month, day = int(g["m"]), int(g["d"])
+        try:
+            d = date(year, month, day)
+        except ValueError:
+            continue
+        if not g.get("y") and d > future_limit:
+            d = date(year - 1, month, day)
+        return d
+    m = _DAY_ONLY_PATTERN.match(published)
+    if m:
+        day = int(m.group("d"))
+        year, month = reference_date.year, reference_date.month
+        try:
+            d = date(year, month, day)
+        except ValueError:
+            return None
+        if d > future_limit:
+            prev_month = month - 1 or 12
+            prev_year = year if month > 1 else year - 1
+            try:
+                d = date(prev_year, prev_month, day)
+            except ValueError:
+                pass
+        return d
+    if _TIME_ONLY_PATTERN.match(published):
+        return reference_date
+    return None
+
+
+def within_digest_window(published: str | None, reference_date: date) -> bool:
+    """直近 DIGEST_WINDOW_DAYS 日以内の記事かどうか判定する。
+
+    スクレイピング実行時刻と各紙サイトのタイムゾーン（JST）のずれにより、
+    reference_date より1日先の日付が付いた記事が現れることがあるため、
+    上限側には1日分の余裕を持たせている。日付を解釈できなかった場合は
+    安全側に倒して対象に含める。
+    """
+    parsed = parse_published_date(published, reference_date)
+    if parsed is None:
+        return True
+    window_start = reference_date - timedelta(days=DIGEST_WINDOW_DAYS - 1)
+    window_end = reference_date + timedelta(days=1)
+    return window_start <= parsed <= window_end
 
 _robots_cache: dict[str, robotparser.RobotFileParser] = {}
 
@@ -82,7 +162,7 @@ def fetch_html(url: str) -> str:
     return resp.text
 
 
-def extract_items(html: str, base_url: str, source: dict) -> list[Item]:
+def extract_items(html: str, base_url: str, source: dict, reference_date: date) -> list[Item]:
     soup = BeautifulSoup(html, "html.parser")
     nodes = soup.select(source["item_selector"])
     items: list[Item] = []
@@ -102,11 +182,13 @@ def extract_items(html: str, base_url: str, source: dict) -> list[Item]:
             continue
         link = urljoin(base_url, href)
         published = date_node.get_text(strip=True) if date_node is not None else None
+        if not within_digest_window(published, reference_date):
+            continue
         items.append(Item(title=title, link=link, published=published))
     return items
 
 
-def process_source(source: dict) -> SourceResult:
+def process_source(source: dict, reference_date: date) -> SourceResult:
     name = source["name"]
     index_url = source["index_url"]
     category = source.get("category", "社説")
@@ -119,7 +201,7 @@ def process_source(source: dict) -> SourceResult:
 
     try:
         html = fetch_html(index_url)
-        items = extract_items(html, index_url, source)
+        items = extract_items(html, index_url, source, reference_date)
         return SourceResult(name=name, category=category, index_url=index_url, items=items)
     except Exception as exc:  # noqa: BLE001 - 1ソースの失敗で全体を止めない
         return SourceResult(name=name, category=category, index_url=index_url, items=[], error=str(exc))
@@ -130,9 +212,10 @@ def run_check(only: list[str] | None) -> int:
     if only:
         sources = [s for s in sources if s["name"] in only]
 
+    reference_date = date.today()
     had_problem = False
     for i, source in enumerate(sources):
-        result = process_source(source)
+        result = process_source(source, reference_date)
         status = (
             "ROBOTS_DISALLOWED" if result.skipped_by_robots else
             f"ERROR: {result.error}" if result.error else
@@ -153,7 +236,7 @@ def run_digest(only: list[str] | None, run_date: date) -> int:
 
     results: list[SourceResult] = []
     for i, source in enumerate(sources):
-        results.append(process_source(source))
+        results.append(process_source(source, run_date))
         if i < len(sources) - 1:
             time.sleep(REQUEST_INTERVAL_SEC)
 
