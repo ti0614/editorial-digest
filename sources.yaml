@@ -1,0 +1,142 @@
+# 各紙の社説（オピニオン）一覧ページの設定
+#
+# 注意: このツールをビルドした環境（サンドボックス）は各新聞社サイトへの
+# ネットワークアクセスができないため、下記の URL / CSS セレクタは
+# 学習知識に基づく「best effort」の初期値であり、実機での動作確認ができていません。
+# 実際に使う前に、必ず `python main.py check` でネットワークにアクセスできる
+# 環境（自分のPCなど）から検証・修正してください。サイトリニューアルで
+# 構造が変わっている可能性があります。
+#
+# 各項目の意味:
+#   name        : 新聞社名（表示用）
+#   category    : この社の論説コラムの呼称（社説 / 主張 など）
+#   index_url   : 社説一覧ページのURL
+#   item_selector  : 一覧ページ内の「記事1件」を指すCSSセレクタ
+#   title_selector : item_selector の中でタイトルを含む要素（省略時はitem自体のテキスト）
+#   link_selector  : item_selector の中でリンク(<a>)を指すセレクタ（省略時はitem自体がaタグ）
+#   date_selector  : 日付を含む要素（任意、なければ省略可）
+#   verified    : false の場合、実機未検証（要確認）であることを示す
+
+sources:
+  # ---- 全国紙（主要5紙） ----
+  - name: 朝日新聞
+    category: 社説
+    index_url: https://www.asahi.com/rensai/list_syasetsu.html
+    item_selector: "ul.List li"
+    title_selector: "a"
+    link_selector: "a"
+    date_selector: "span.Time"
+    verified: false
+
+  - name: 毎日新聞
+    category: 社説
+    index_url: https://mainichi.jp/editorial/
+    item_selector: "ul li article"
+    title_selector: "h2, h3, .title"
+    link_selector: "a"
+    date_selector: "time"
+    verified: false
+
+  - name: 読売新聞
+    category: 社説
+    index_url: https://www.yomiuri.co.jp/editorial/
+    item_selector: "div.p-list-item, li.p-list-item"
+    title_selector: ".p-list-item__title, h3"
+    link_selector: "a"
+    date_selector: ".p-list-item__date, time"
+    verified: false
+
+  - name: 日本経済新聞
+    category: 社説
+    index_url: https://www.nikkei.com/opinion/editorial/
+    item_selector: "article, .k-card"
+    title_selector: ".k-card__title, h3"
+    link_selector: "a"
+    date_selector: "time"
+    verified: false
+    note: "本文は会員限定（有料）。タイトル・リンクのみ取得想定。"
+
+  - name: 産経新聞
+    category: 主張
+    index_url: https://www.sankei.com/newstopics/editorial/
+    item_selector: "article, li.article-card"
+    title_selector: ".article-card__title, h3"
+    link_selector: "a"
+    date_selector: "time"
+    verified: false
+    note: "産経では社説にあたるコラムは「主張」という名称。"
+
+  # ---- 地方紙・専門紙（順次拡充） ----
+  - name: 東京新聞
+    category: 社説
+    index_url: https://www.tokyo-np.co.jp/list/editorial
+    item_selector: "li.list-article"
+    title_selector: ".title, h3"
+    link_selector: "a"
+    date_selector: "time"
+    verified: false
+    note: "中日新聞（東京本社）。中日新聞と社説を共有。"
+
+  - name: 中日新聞
+    category: 社説
+    index_url: https://www.chunichi.co.jp/list/syasetsu/
+    item_selector: "li.list-article"
+    title_selector: ".title, h3"
+    link_selector: "a"
+    date_selector: "time"
+    verified: false
+    note: "東京新聞と同一の社説を掲載。"
+
+  - name: 北海道新聞
+    category: 社説
+    index_url: https://www.hokkaido-np.co.jp/list/editorial
+    item_selector: "li.article-list-item"
+    title_selector: ".headline, h3"
+    link_selector: "a"
+    date_selector: "time"
+    verified: false
+
+  - name: 西日本新聞
+    category: 社説
+    index_url: https://www.nishinippon.co.jp/theme/editorial/
+    item_selector: "li.p-articleList-item"
+    title_selector: ".p-articleList-title, h3"
+    link_selector: "a"
+    date_selector: "time"
+    verified: false
+
+  - name: 京都新聞
+    category: 社説
+    index_url: https://www.kyoto-np.co.jp/list/editorial
+    item_selector: "li.article-list-item"
+    title_selector: ".headline, h3"
+    link_selector: "a"
+    date_selector: "time"
+    verified: false
+
+  - name: 神戸新聞
+    category: 社説
+    index_url: https://www.kobe-np.co.jp/rensai/syasetsu/
+    item_selector: "li.article-list-item"
+    title_selector: ".headline, h3"
+    link_selector: "a"
+    date_selector: "time"
+    verified: false
+
+  - name: 河北新報
+    category: 社説
+    index_url: https://kahoku.news/tag/editorial/
+    item_selector: "article, li.article-list-item"
+    title_selector: ".title, h3"
+    link_selector: "a"
+    date_selector: "time"
+    verified: false
+
+  - name: 中国新聞
+    category: 社説
+    index_url: https://www.chugoku-np.co.jp/list/editorial/
+    item_selector: "li.article-list-item"
+    title_selector: ".headline, h3"
+    link_selector: "a"
+    date_selector: "time"
+    verified: false
