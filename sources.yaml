@@ -1,11 +1,9 @@
 # 各紙の社説（オピニオン）一覧ページの設定
 #
-# 注意: このツールをビルドした環境（サンドボックス）は各新聞社サイトへの
-# ネットワークアクセスができないため、下記の URL / CSS セレクタは
-# 学習知識に基づく「best effort」の初期値であり、実機での動作確認ができていません。
-# 実際に使う前に、必ず `python main.py check` でネットワークにアクセスできる
-# 環境（自分のPCなど）から検証・修正してください。サイトリニューアルで
-# 構造が変わっている可能性があります。
+# 2026-07-21: ネットワークアクセス可能な環境で実際の各紙HTMLを取得し、
+# URL・CSSセレクタを実機確認・修正済み（verified: true の項目）。
+# ただしニュースサイトはリニューアルでHTML構造が変わることがあるため、
+# 定期的に `python main.py check` で疎通確認することを推奨します。
 #
 # 各項目の意味:
 #   name        : 新聞社名（表示用）
@@ -15,122 +13,129 @@
 #   title_selector : item_selector の中でタイトルを含む要素（省略時はitem自体のテキスト）
 #   link_selector  : item_selector の中でリンク(<a>)を指すセレクタ（省略時はitem自体がaタグ）
 #   date_selector  : 日付を含む要素（任意、なければ省略可）
+#   title_exclude_selector : タイトル内から除去する要素（任意。"New"バッジ等の混入除去用）
 #   verified    : false の場合、実機未検証（要確認）であることを示す
 
 sources:
   # ---- 全国紙（主要5紙） ----
   - name: 朝日新聞
     category: 社説
-    index_url: https://www.asahi.com/rensai/list_syasetsu.html
-    item_selector: "ul.List li"
-    title_selector: "a"
+    index_url: https://www.asahi.com/rensai/list.html?id=16
+    item_selector: "li:has(h3)"
+    title_selector: "h3"
     link_selector: "a"
-    date_selector: "span.Time"
-    verified: false
+    date_selector: "p:last-of-type span"
+    verified: true
 
   - name: 毎日新聞
     category: 社説
     index_url: https://mainichi.jp/editorial/
-    item_selector: "ul li article"
-    title_selector: "h2, h3, .title"
+    item_selector: "ul.articlelist li"
+    title_selector: "h3.articlelist-title"
     link_selector: "a"
-    date_selector: "time"
-    verified: false
+    date_selector: "span.articletag-date"
+    verified: true
 
   - name: 読売新聞
     category: 社説
     index_url: https://www.yomiuri.co.jp/editorial/
-    item_selector: "div.p-list-item, li.p-list-item"
-    title_selector: ".p-list-item__title, h3"
-    link_selector: "a"
-    date_selector: ".p-list-item__date, time"
-    verified: false
+    item_selector: "div.list div.item"
+    title_selector: "h3.title"
+    link_selector: "h3.title a"
+    date_selector: "time"
+    verified: true
 
   - name: 日本経済新聞
     category: 社説
     index_url: https://www.nikkei.com/opinion/editorial/
-    item_selector: "article, .k-card"
-    title_selector: ".k-card__title, h3"
-    link_selector: "a"
+    item_selector: "article"
+    title_selector: "h2"
+    link_selector: "h2 a"
     date_selector: "time"
-    verified: false
-    note: "本文は会員限定（有料）。タイトル・リンクのみ取得想定。"
+    verified: true
+    note: "本文は会員限定（有料）。タイトル・リンクのみ取得想定。robots.txtはCCBot/GPTBot等AI学習系クローラーを明示的に拒否しているが、User-agent: * では本ページを許可しているため取得対象としている。"
 
   - name: 産経新聞
     category: 主張
-    index_url: https://www.sankei.com/newstopics/editorial/
-    item_selector: "article, li.article-card"
-    title_selector: ".article-card__title, h3"
-    link_selector: "a"
-    date_selector: "time"
-    verified: false
-    note: "産経では社説にあたるコラムは「主張」という名称。"
+    index_url: https://www.sankei.com/column/editorial/
+    item_selector: "article.storycard"
+    title_selector: "h3.headline"
+    link_selector: "h3.headline a"
+    date_selector: "time.storycard__time"
+    verified: true
+    note: "産経では社説にあたるコラムは「主張」という名称。旧URL（/newstopics/editorial/）は廃止されており、正しくは /column/editorial/ 。"
 
   # ---- 地方紙・専門紙（順次拡充） ----
   - name: 東京新聞
     category: 社説
-    index_url: https://www.tokyo-np.co.jp/list/editorial
-    item_selector: "li.list-article"
-    title_selector: ".title, h3"
-    link_selector: "a"
-    date_selector: "time"
-    verified: false
-    note: "中日新聞（東京本社）。中日新聞と社説を共有。"
+    index_url: https://www.tokyo-np.co.jp/n/column/editorial
+    item_selector: 'div.detail:has(a[href*="rct=editorial"])'
+    title_selector: "p.detail-ttl"
+    link_selector: "p.detail-ttl a"
+    date_selector: "span.detail-info-txt"
+    verified: true
+    note: "中日新聞（東京本社）。中日新聞と社説を共有。旧URL（/list/editorial）は廃止。div.detail はページ内の関連記事枠にも使われるため、リンクに rct=editorial を含むものだけに絞っている。"
 
   - name: 中日新聞
     category: 社説
-    index_url: https://www.chunichi.co.jp/list/syasetsu/
-    item_selector: "li.list-article"
-    title_selector: ".title, h3"
-    link_selector: "a"
-    date_selector: "time"
-    verified: false
-    note: "東京新聞と同一の社説を掲載。"
+    index_url: https://www.chunichi.co.jp/wadai/opinion/editorial
+    item_selector: 'div.detail:has(a[href*="rct=editorial"])'
+    title_selector: "p.detail-ttl"
+    link_selector: "p.detail-ttl a"
+    date_selector: "span.detail-info-txt"
+    verified: true
+    note: "東京新聞と同一の社説を掲載。旧URL（/list/syasetsu/）は廃止。div.detail は関連記事枠にも使われるため rct=editorial で絞り込み。"
 
   - name: 北海道新聞
     category: 社説
-    index_url: https://www.hokkaido-np.co.jp/list/editorial
-    item_selector: "li.article-list-item"
-    title_selector: ".headline, h3"
-    link_selector: "a"
-    date_selector: "time"
-    verified: false
+    index_url: https://www.hokkaido-np.co.jp/tags/editorial/
+    item_selector: "div.post_list.post_list-type_thm_bg-m div.post_item"
+    title_selector: "div.post_title"
+    link_selector: "div.post_title a"
+    date_selector: "div.post_date"
+    verified: true
+    note: "旧URL（/list/editorial）は廃止、正しくは /tags/editorial/ 。div.post_item はページ下部のアクセスランキング等にも使われるため、社説一覧本体のコンテナに絞り込んでいる。"
 
   - name: 西日本新聞
     category: 社説
-    index_url: https://www.nishinippon.co.jp/theme/editorial/
-    item_selector: "li.p-articleList-item"
-    title_selector: ".p-articleList-title, h3"
-    link_selector: "a"
-    date_selector: "time"
-    verified: false
+    index_url: https://www.nishinippon.co.jp/category/column/editorial/
+    item_selector: "article"
+    title_selector: "h2"
+    title_exclude_selector: "span"
+    link_selector: "h2 a"
+    date_selector: "div.gap-x-1 span"
+    verified: true
+    note: "旧URL（/theme/editorial/）は廃止、正しくは /category/column/editorial/ 。新着記事には見出し内に「New」バッジ（span）が付き、そのままだとタイトル末尾に混入するため title_exclude_selector で除去している。"
 
   - name: 京都新聞
     category: 社説
-    index_url: https://www.kyoto-np.co.jp/list/editorial
-    item_selector: "li.article-list-item"
-    title_selector: ".headline, h3"
+    index_url: https://www.kyoto-np.co.jp/category/editorial
+    item_selector: 'article.m-articles-item:not([class*="--"])'
+    title_selector: "h3.m-articles-item__info-ttl"
     link_selector: "a"
-    date_selector: "time"
-    verified: false
+    date_selector: "time.m-articles-item__info-date"
+    verified: true
+    note: "ページ内には関連ランキング等（class末尾に --ranking 等の修飾子付き）も同居しているため、修飾子なしの記事のみに絞るセレクタにしている。"
 
   - name: 神戸新聞
     category: 社説
-    index_url: https://www.kobe-np.co.jp/rensai/syasetsu/
-    item_selector: "li.article-list-item"
-    title_selector: ".headline, h3"
-    link_selector: "a"
-    date_selector: "time"
-    verified: false
+    index_url: https://www.kobe-np.co.jp/rentoku/shasetsu/
+    item_selector: 'div.detail:has(a.caption[href*="/opinion/"])'
+    title_selector: "a.caption"
+    link_selector: "a.caption"
+    date_selector: "time.meta-time"
+    verified: true
+    note: "旧URL（/rensai/syasetsu/）は廃止、正しくは /rentoku/shasetsu/ 。div.detail はページ下部の一般ニュース枠にも使われるため、記事リンクが /opinion/ 配下のものだけに絞っている。"
 
   - name: 河北新報
     category: 社説
-    index_url: https://kahoku.news/tag/editorial/
-    item_selector: "article, li.article-list-item"
-    title_selector: ".title, h3"
-    link_selector: "a"
+    index_url: https://kahoku.news/tag/%E7%A4%BE%E8%AA%AC
+    item_selector: "li.vr2_articleslist__item"
+    title_selector: "h2.vr2_articleslist__title"
+    link_selector: "a.vr2_articleslist__unit"
     date_selector: "time"
     verified: false
+    note: "URL・セレクタ自体は実機確認済みだが、robots.txt が /tag/ 配下を（一部タグを除き）禁止しており「社説」タグは許可リストに無いため、本ツールは robots.txt に従い自動的にスキップする（意図した動作）。取得したい場合は運営元に許諾を確認してください。"
 
   - name: 中国新聞
     category: 社説
@@ -140,3 +145,4 @@ sources:
     link_selector: "a"
     date_selector: "time"
     verified: false
+    note: "社説単独の一覧ページを発見できなかった（要調査）。トップページの「オピニオン」枠には社説が単発で表示されるが、専用の一覧URLは見つからず、/feature/genre/オピニオン はコラム等混在のジャンルページで社説のみに絞れない。ネットワークアクセス可能な環境で再調査が必要。"
