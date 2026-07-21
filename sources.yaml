@@ -58,12 +58,12 @@ sources:
   - name: 産経新聞
     category: 主張
     index_url: https://www.sankei.com/column/editorial/
-    item_selector: "article.storycard"
+    item_selector: "div.col-container.col-12 article.storycard"
     title_selector: "h3.headline"
     link_selector: "h3.headline a"
     date_selector: "time.storycard__time"
     verified: true
-    note: "産経では社説にあたるコラムは「主張」という名称。旧URL（/newstopics/editorial/）は廃止されており、正しくは /column/editorial/ 。"
+    note: "産経では社説にあたるコラムは「主張」という名称。旧URL（/newstopics/editorial/）は廃止されており、正しくは /column/editorial/ 。article.storycard はページ内の「おすすめ記事」枠（3カラムグリッド）にも使われるため、本文一覧のコンテナ（col-12の1カラム部分）に絞り込んでいる。"
 
   # ---- 地方紙・専門紙（順次拡充） ----
   - name: 東京新聞
