@@ -8,6 +8,9 @@
 # 各項目の意味:
 #   name        : 新聞社名（表示用）
 #   category    : この社の論説コラムの呼称（社説 / 主張 など）
+#   tier        : national（全国紙）/ regional（ブロック紙・地方紙）。
+#                 生成するWebページで「全国紙をメイン表示、他はトグルで表示」
+#                 を切り分けるために使う。省略時は regional 扱い。
 #   index_url   : 社説一覧ページのURL
 #   item_selector  : 一覧ページ内の「記事1件」を指すCSSセレクタ
 #   title_selector : item_selector の中でタイトルを含む要素（省略時はitem自体のテキスト）
@@ -20,6 +23,7 @@ sources:
   # ---- 全国紙（主要5紙） ----
   - name: 朝日新聞
     category: 社説
+    tier: national
     index_url: https://www.asahi.com/rensai/list.html?id=16
     item_selector: "li:has(h3)"
     title_selector: "h3"
@@ -29,6 +33,7 @@ sources:
 
   - name: 毎日新聞
     category: 社説
+    tier: national
     index_url: https://mainichi.jp/editorial/
     item_selector: "ul.articlelist li"
     title_selector: "h3.articlelist-title"
@@ -38,6 +43,7 @@ sources:
 
   - name: 読売新聞
     category: 社説
+    tier: national
     index_url: https://www.yomiuri.co.jp/editorial/
     item_selector: "div.list div.item"
     title_selector: "h3.title"
@@ -47,6 +53,7 @@ sources:
 
   - name: 日本経済新聞
     category: 社説
+    tier: national
     index_url: https://www.nikkei.com/opinion/editorial/
     item_selector: "article"
     title_selector: "h2"
@@ -57,6 +64,7 @@ sources:
 
   - name: 産経新聞
     category: 主張
+    tier: national
     index_url: https://www.sankei.com/column/editorial/
     item_selector: "div.col-container.col-12 article.storycard"
     title_selector: "h3.headline"
@@ -68,6 +76,7 @@ sources:
   # ---- 地方紙・専門紙（順次拡充） ----
   - name: 東京新聞
     category: 社説
+    tier: regional
     index_url: https://www.tokyo-np.co.jp/n/column/editorial
     item_selector: 'div.detail:has(a[href*="rct=editorial"])'
     title_selector: "p.detail-ttl"
@@ -78,6 +87,7 @@ sources:
 
   - name: 中日新聞
     category: 社説
+    tier: regional
     index_url: https://www.chunichi.co.jp/wadai/opinion/editorial
     item_selector: 'div.detail:has(a[href*="rct=editorial"])'
     title_selector: "p.detail-ttl"
@@ -88,6 +98,7 @@ sources:
 
   - name: 北海道新聞
     category: 社説
+    tier: regional
     index_url: https://www.hokkaido-np.co.jp/tags/editorial/
     item_selector: "div.post_list.post_list-type_thm_bg-m div.post_item"
     title_selector: "div.post_title"
@@ -98,6 +109,7 @@ sources:
 
   - name: 西日本新聞
     category: 社説
+    tier: regional
     index_url: https://www.nishinippon.co.jp/category/column/editorial/
     item_selector: "article"
     title_selector: "h2"
@@ -109,6 +121,7 @@ sources:
 
   - name: 京都新聞
     category: 社説
+    tier: regional
     index_url: https://www.kyoto-np.co.jp/category/editorial
     item_selector: 'article.m-articles-item:not([class*="--"])'
     title_selector: "h3.m-articles-item__info-ttl"
@@ -119,6 +132,7 @@ sources:
 
   - name: 神戸新聞
     category: 社説
+    tier: regional
     index_url: https://www.kobe-np.co.jp/rentoku/shasetsu/
     item_selector: 'div.detail:has(a.caption[href*="/opinion/"])'
     title_selector: "a.caption"
@@ -129,6 +143,7 @@ sources:
 
   - name: 河北新報
     category: 社説
+    tier: regional
     index_url: https://kahoku.news/tag/%E7%A4%BE%E8%AA%AC
     item_selector: "li.vr2_articleslist__item"
     title_selector: "h2.vr2_articleslist__title"
@@ -139,6 +154,7 @@ sources:
 
   - name: 中国新聞
     category: 社説
+    tier: regional
     index_url: https://www.chugoku-np.co.jp/list/editorial/
     item_selector: "li.article-list-item"
     title_selector: ".headline, h3"
