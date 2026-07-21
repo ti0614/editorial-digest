@@ -93,6 +93,9 @@ def extract_items(html: str, base_url: str, source: dict) -> list[Item]:
 
         if title_node is None or link_node is None:
             continue
+        if source.get("title_exclude_selector"):
+            for bad in title_node.select(source["title_exclude_selector"]):
+                bad.decompose()
         title = title_node.get_text(strip=True)
         href = link_node.get("href")
         if not title or not href:
