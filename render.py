@@ -351,6 +351,7 @@ def render_html(results: list, run_date: date) -> str:
     <p>社説まとめツールが自動生成 / 基準日: {run_date.isoformat()}。各リンクは記事本文へ遷移します。</p>
     <p>「会員限定」表示は参考情報です。表示が無くても無料と保証するものではありません。</p>
     {unavailable_footer}
+    <p>本サイトは非公式のリンク集で、各記事の著作権は各社に帰属します。</p>
   </footer>
 </div>
 
