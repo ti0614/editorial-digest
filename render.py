@@ -369,7 +369,7 @@ def render_html(results: list, run_date: date) -> str:
   </main>
 
   <footer>
-    <p>editorial-digest（社説まとめツール）の出力を元に生成 / 基準日: {run_date.isoformat()}。各リンクは記事本文へ遷移します。</p>
+    <p>社説まとめツールが自動生成 / 基準日: {run_date.isoformat()}。各リンクは記事本文へ遷移します。</p>
     <p>「会員限定」表示は参考情報です。表示が無くても無料と保証するものではありません。</p>
   </footer>
 </div>
