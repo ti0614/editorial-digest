@@ -180,7 +180,7 @@ _SCRIPT_TEMPLATE = """
   function updateCounts() {
     var active = activeTiers();
     var grandTotal = 0;
-    document.querySelectorAll('section.dategroup[data-nat]').forEach(function (sec) {
+    document.querySelectorAll('section.dategroup[data-national]').forEach(function (sec) {
       var visible = 0;
       TIERS.forEach(function (t) {
         if (active[t]) visible += parseInt(sec.getAttribute('data-' + t), 10) || 0;
@@ -311,11 +311,9 @@ def render_html(results: list, run_date: date) -> str:
     special_by_tier: dict[str, list[str]] = {t: [] for t in TIERS}
     for r in results:
         if r.skipped_by_robots:
-            note = f'<p class="note note-skip"><strong>{_esc(r.name)}</strong>：robots.txt の指定により取得を見送りました（意図した動作）。</p>'
-        elif r.error:
-            note = f'<p class="note note-error"><strong>{_esc(r.name)}</strong>：取得できませんでした（{_esc(r.error)}）。</p>'
-        elif not r.items:
-            note = f'<p class="note note-error"><strong>{_esc(r.name)}</strong>：現在のセレクタでは記事を取得できませんでした（要調査、sources.yaml を確認してください）。</p>'
+            note = f'<p class="note note-skip"><strong>{_esc(r.name)}</strong>：サイト運営者の意向により、このページでは取得していません。</p>'
+        elif r.error or not r.items:
+            note = f'<p class="note note-error"><strong>{_esc(r.name)}</strong>：現在、記事を取得できませんでした（サイト側の変更や一時的な不具合の可能性があります）。</p>'
         else:
             continue
         special_by_tier[norm_tier(r.tier)].append(note)
@@ -349,8 +347,8 @@ def render_html(results: list, run_date: date) -> str:
   <header class="masthead">
     <p class="eyebrow">EDITORIAL DIGEST · WEEKLY</p>
     <h1>社説まとめ<br>週間ダイジェスト</h1>
-    <p class="summary">{range_label}（過去1週間）・全国紙 <strong id="total-count">{tier_totals["national"]}</strong>件</p>
-    <p class="disclaimer">タイトル・リンク・日付のみを収集しています。本文は各紙サイトでお読みください。「会員限定」表示は一部の新聞社のみ判定しており、表示が無くても無料とは限りません。</p>
+    <p class="summary">{range_label}（過去1週間）・表示中 <strong id="total-count">{tier_totals["national"]}</strong>件</p>
+    <p class="disclaimer">タイトル・リンク・日付のみを収集しています。本文は各紙サイトでお読みください。</p>
     <div class="scope-toggle">
       <span class="scope-label">表示する範囲</span>
       <div class="tier-chips">
@@ -371,7 +369,8 @@ def render_html(results: list, run_date: date) -> str:
   </main>
 
   <footer>
-    <p>editorial-digest（社説まとめツール）の出力を元に生成 / 基準日: {run_date.isoformat()}。各リンクは記事本文へ遷移します。</p>
+    <p>社説まとめツールが自動生成 / 基準日: {run_date.isoformat()}。各リンクは記事本文へ遷移します。</p>
+    <p>「会員限定」表示は参考情報です。表示が無くても無料と保証するものではありません。</p>
   </footer>
 </div>
 
