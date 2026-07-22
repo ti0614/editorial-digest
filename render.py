@@ -272,6 +272,8 @@ def render_html(results: list, run_date: date) -> str:
             note = f'<p class="note note-skip"><strong>{_esc(r.name)}</strong>：robots.txt の指定により取得を見送りました（意図した動作）。</p>'
         elif r.error:
             note = f'<p class="note note-error"><strong>{_esc(r.name)}</strong>：取得できませんでした（{_esc(r.error)}）。</p>'
+        elif not r.items:
+            note = f'<p class="note note-error"><strong>{_esc(r.name)}</strong>：現在のセレクタでは記事を取得できませんでした（要調査、sources.yaml を確認してください）。</p>'
         else:
             continue
         (national_special if r.tier == "national" else regional_special).append(note)

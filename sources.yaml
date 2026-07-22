@@ -162,3 +162,59 @@ sources:
     date_selector: "time"
     verified: false
     note: "社説単独の一覧ページを発見できなかった（要調査）。トップページの「オピニオン」枠には社説が単発で表示されるが、専用の一覧URLは見つからず、/feature/genre/オピニオン はコラム等混在のジャンルページで社説のみに絞れない。ネットワークアクセス可能な環境で再調査が必要。"
+
+  # ---- 地方紙（東北ブロック、県紙を1紙ずつ） ----
+  - name: 東奥日報
+    category: 時論
+    tier: regional
+    index_url: https://www.toonippo.co.jp/category/editorial
+    item_selector: "ul.article-list li.article"
+    title_selector: "span.title"
+    link_selector: "a"
+    date_selector: "span.date"
+    verified: true
+    note: "青森県。論説コラムの呼称は「時論」。/category/editorial は時論専用ページで他コラムとの混在なし。"
+
+  - name: 秋田魁新報
+    category: 社説
+    tier: regional
+    index_url: https://www.sakigake.jp/news/list/scd/100003000/
+    item_selector: 'div.p-articles__item:has(h2.c-article-module__heading:-soup-contains("社説"))'
+    title_selector: "h2.c-article-module__heading"
+    link_selector: "a.c-article-module__link"
+    date_selector: "time.c-article-module__note"
+    verified: true
+    note: "秋田県。このURLは「社説・コラム」混在ページ（コラム「北斗星」等も含む）のため、見出しに「社説」を含む記事だけに絞り込んでいる。"
+
+  - name: 山形新聞
+    category: 社説
+    tier: regional
+    index_url: https://www.yamagata-np.jp/column/
+    item_selector: "#shasetsu_area"
+    title_selector: "h3"
+    link_selector: "p a"
+    date_selector: "h2 span"
+    verified: true
+    note: "山形県。このページは「本日の社説」1件のみを表示する形式（一覧ページではない）で、他紙のように直近1週間分がまとめて並んでいるわけではない。1回の取得につき最新1件のみ取得できる。"
+
+  - name: 福島民報
+    category: 論説
+    tier: regional
+    index_url: https://www.minpo.jp/subcategory/ronsetsu
+    item_selector: "article.m-article-list__item"
+    title_selector: "h2.m-article__ttl"
+    link_selector: "a.m-article"
+    date_selector: "time.c-time"
+    verified: true
+    note: "福島県。論説コラムの呼称は「論説」。同名紙に福島民友（minyu-net.com）もあるが、本ツールで採用しているのは福島民報（minpo.jp）。最新1件のみ日付が「22時間前」等の相対表記になっており日付が解釈できない場合があるが、取りこぼしを避けるため対象に含めている。"
+
+  - name: 岩手日報
+    category: 社説
+    tier: regional
+    index_url: https://www.iwate-np.co.jp/
+    item_selector: "li.article"
+    title_selector: "span.title"
+    link_selector: "a"
+    date_selector: "span.date"
+    verified: false
+    note: "岩手県。社説・論説の専用一覧ページを発見できなかった（要調査）。ホームページ内にも社説へのリンクが見当たらず、/article/category/{editorial,syasetsu,ronsetsu,column,opinion} 等の候補URLもすべて404。ネットワークアクセス可能な環境で構造の再調査が必要。"
