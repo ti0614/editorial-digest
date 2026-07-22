@@ -1,13 +1,15 @@
 #!/usr/bin/env python3
-"""新聞各社の社説一覧ページを巡回し、タイトル・リンク・日付をまとめて
-Markdown/JSONダイジェストを生成するツール。
+"""新聞各社の社説一覧ページを巡回し、直近1週間分のタイトル・リンク・日付を
+まとめたWebページ（output/digest.html）を生成するツール。
 
 著作権・利用規約への配慮として、記事本文は取得・保存しない
-（タイトル・リンク・日付のみを収集する）。
+（タイトル・リンク・日付のみを収集する）。生成したHTMLはそのままブラウザで
+開くか、任意の静的ホスティング（Claude Artifacts、GitHub Pages 等）に
+公開して閲覧する想定。
 
 使い方:
     python main.py check          # 各ソースの疎通確認（取得件数/エラーを表示するだけ）
-    python main.py run            # 全ソースを取得し output/YYYY-MM-DD.{md,json} を生成
+    python main.py run            # 全ソースを取得し output/digest.html と digest.json を生成
     python main.py run --only 朝日新聞 毎日新聞
 """
 from __future__ import annotations
@@ -17,7 +19,7 @@ import json
 import sys
 import time
 import urllib.robotparser as robotparser
-from dataclasses import dataclass, asdict
+from dataclasses import dataclass, asdict, field
 from datetime import date
 from pathlib import Path
 from urllib.parse import urljoin, urlparse
@@ -25,6 +27,9 @@ from urllib.parse import urljoin, urlparse
 import requests
 import yaml
 from bs4 import BeautifulSoup
+
+import render
+from pubdate import within_digest_window
 
 USER_AGENT = "EditorialDigestBot/0.1 (personal research use; contact: set-your-contact-here)"
 REQUEST_TIMEOUT = 15
@@ -46,8 +51,9 @@ class Item:
 class SourceResult:
     name: str
     category: str
+    tier: str
     index_url: str
-    items: list[Item]
+    items: list[Item] = field(default_factory=list)
     error: str | None = None
     skipped_by_robots: bool = False
 
@@ -58,7 +64,7 @@ def load_sources() -> list[dict]:
     return data["sources"]
 
 
-def robots_allows(url: str) -> bool:
+def _get_robot_parser(url: str) -> robotparser.RobotFileParser:
     parsed = urlparse(url)
     origin = f"{parsed.scheme}://{parsed.netloc}"
     rp = _robots_cache.get(origin)
@@ -66,13 +72,41 @@ def robots_allows(url: str) -> bool:
         rp = robotparser.RobotFileParser()
         rp.set_url(urljoin(origin, "/robots.txt"))
         try:
-            rp.read()
+            # rp.read() は urllib 経由でUTF-8決め打ちのデコードを行い、
+            # Shift-JIS等で配信されているrobots.txt（例: 奈良新聞）で
+            # UnicodeDecodeError になることがあるため、fetch_html と同じ
+            # requests ベースの文字コード自動判定で自前取得してから渡す。
+            resp = requests.get(rp.url, headers={"User-Agent": USER_AGENT}, timeout=REQUEST_TIMEOUT)
+            resp.encoding = resp.apparent_encoding or resp.encoding
+            rp.parse(resp.text.splitlines())
         except Exception:
-            # robots.txt が読めない場合は安全側に倒して許可しない
-            _robots_cache[origin] = rp
-            return False
+            pass
         _robots_cache[origin] = rp
+    return rp
+
+
+def robots_allows(url: str) -> bool:
+    rp = _get_robot_parser(url)
+    if rp.mtime() == 0:
+        # robots.txt が読めなかった場合は安全側に倒して許可しない
+        return False
     return rp.can_fetch(USER_AGENT, url)
+
+
+def crawl_delay_sec(url: str) -> float:
+    """robots.txt が Crawl-delay を指定している場合はその秒数を返す（無指定なら0）。"""
+    rp = _get_robot_parser(url)
+    delay = rp.crawl_delay(USER_AGENT)
+    return float(delay) if delay else 0.0
+
+
+def interval_after(source: dict) -> float:
+    """このソースを取得した直後に空けるべき待機秒数。
+
+    既定の REQUEST_INTERVAL_SEC を基本としつつ、サイトの robots.txt が
+    Crawl-delay を指定している場合はそちらを優先する（例: 茨城新聞は30秒）。
+    """
+    return max(REQUEST_INTERVAL_SEC, crawl_delay_sec(source["index_url"]))
 
 
 def fetch_html(url: str) -> str:
@@ -82,7 +116,7 @@ def fetch_html(url: str) -> str:
     return resp.text
 
 
-def extract_items(html: str, base_url: str, source: dict) -> list[Item]:
+def extract_items(html: str, base_url: str, source: dict, reference_date: date) -> list[Item]:
     soup = BeautifulSoup(html, "html.parser")
     nodes = soup.select(source["item_selector"])
     items: list[Item] = []
@@ -102,27 +136,30 @@ def extract_items(html: str, base_url: str, source: dict) -> list[Item]:
             continue
         link = urljoin(base_url, href)
         published = date_node.get_text(strip=True) if date_node is not None else None
+        if not within_digest_window(published, reference_date):
+            continue
         items.append(Item(title=title, link=link, published=published))
     return items
 
 
-def process_source(source: dict) -> SourceResult:
+def process_source(source: dict, reference_date: date) -> SourceResult:
     name = source["name"]
     index_url = source["index_url"]
     category = source.get("category", "社説")
+    tier = source.get("tier", "regional")
 
     if not robots_allows(index_url):
         return SourceResult(
-            name=name, category=category, index_url=index_url,
-            items=[], skipped_by_robots=True,
+            name=name, category=category, tier=tier, index_url=index_url,
+            skipped_by_robots=True,
         )
 
     try:
         html = fetch_html(index_url)
-        items = extract_items(html, index_url, source)
-        return SourceResult(name=name, category=category, index_url=index_url, items=items)
+        items = extract_items(html, index_url, source, reference_date)
+        return SourceResult(name=name, category=category, tier=tier, index_url=index_url, items=items)
     except Exception as exc:  # noqa: BLE001 - 1ソースの失敗で全体を止めない
-        return SourceResult(name=name, category=category, index_url=index_url, items=[], error=str(exc))
+        return SourceResult(name=name, category=category, tier=tier, index_url=index_url, error=str(exc))
 
 
 def run_check(only: list[str] | None) -> int:
@@ -130,9 +167,10 @@ def run_check(only: list[str] | None) -> int:
     if only:
         sources = [s for s in sources if s["name"] in only]
 
+    reference_date = date.today()
     had_problem = False
     for i, source in enumerate(sources):
-        result = process_source(source)
+        result = process_source(source, reference_date)
         status = (
             "ROBOTS_DISALLOWED" if result.skipped_by_robots else
             f"ERROR: {result.error}" if result.error else
@@ -142,7 +180,7 @@ def run_check(only: list[str] | None) -> int:
             had_problem = True
         print(f"[{result.name}] {status}  <- {result.index_url}")
         if i < len(sources) - 1:
-            time.sleep(REQUEST_INTERVAL_SEC)
+            time.sleep(interval_after(source))
     return 1 if had_problem else 0
 
 
@@ -153,38 +191,20 @@ def run_digest(only: list[str] | None, run_date: date) -> int:
 
     results: list[SourceResult] = []
     for i, source in enumerate(sources):
-        results.append(process_source(source))
+        results.append(process_source(source, run_date))
         if i < len(sources) - 1:
-            time.sleep(REQUEST_INTERVAL_SEC)
+            time.sleep(interval_after(source))
 
     OUTPUT_DIR.mkdir(exist_ok=True)
-    md_path = OUTPUT_DIR / f"{run_date.isoformat()}.md"
     json_path = OUTPUT_DIR / f"{run_date.isoformat()}.json"
+    html_path = OUTPUT_DIR / "digest.html"
 
-    write_markdown(md_path, run_date, results)
     write_json(json_path, run_date, results)
+    html_path.write_text(render.render_html(results, run_date), encoding="utf-8")
 
     ok = sum(1 for r in results if not r.error and not r.skipped_by_robots and r.items)
-    print(f"{len(results)} 紙中 {ok} 紙を取得しました -> {md_path}")
+    print(f"{len(results)} 紙中 {ok} 紙を取得しました -> {html_path}")
     return 0
-
-
-def write_markdown(path: Path, run_date: date, results: list[SourceResult]) -> None:
-    lines = [f"# 社説まとめ {run_date.isoformat()}", ""]
-    for r in results:
-        lines.append(f"## {r.name}（{r.category}）")
-        if r.skipped_by_robots:
-            lines.append("- robots.txt により取得を見送りました。")
-        elif r.error:
-            lines.append(f"- 取得エラー: {r.error}")
-        elif not r.items:
-            lines.append("- 記事が見つかりませんでした（セレクタ要確認）。")
-        else:
-            for item in r.items:
-                date_part = f"（{item.published}）" if item.published else ""
-                lines.append(f"- [{item.title}]({item.link}){date_part}")
-        lines.append("")
-    path.write_text("\n".join(lines), encoding="utf-8")
 
 
 def write_json(path: Path, run_date: date, results: list[SourceResult]) -> None:
@@ -194,6 +214,7 @@ def write_json(path: Path, run_date: date, results: list[SourceResult]) -> None:
             {
                 "name": r.name,
                 "category": r.category,
+                "tier": r.tier,
                 "index_url": r.index_url,
                 "error": r.error,
                 "skipped_by_robots": r.skipped_by_robots,
@@ -212,9 +233,9 @@ def main() -> int:
     check_p = sub.add_parser("check", help="各ソースの疎通確認のみ行う（ファイル出力なし）")
     check_p.add_argument("--only", nargs="*", help="対象を新聞社名で絞り込む")
 
-    run_p = sub.add_parser("run", help="全ソースを取得しダイジェストを生成する")
+    run_p = sub.add_parser("run", help="全ソースを取得し output/digest.html を生成する")
     run_p.add_argument("--only", nargs="*", help="対象を新聞社名で絞り込む")
-    run_p.add_argument("--date", type=date.fromisoformat, default=date.today(), help="出力ファイル名に使う日付 (YYYY-MM-DD)")
+    run_p.add_argument("--date", type=date.fromisoformat, default=date.today(), help="基準日 (YYYY-MM-DD)。省略時は本日")
 
     args = parser.parse_args()
 
