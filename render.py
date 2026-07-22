@@ -54,7 +54,15 @@ body {
 .wrap { max-width: 640px; margin: 0 auto; padding: 0 0 4rem; }
 header.masthead { position: relative; padding: 2.25rem 1.25rem 1.25rem; border-bottom: 1px solid var(--rule); }
 .eyebrow { font-size: 0.72rem; letter-spacing: 0.14em; color: var(--ink-faint); text-transform: uppercase; margin: 0 0 0.5rem; }
-.updated-at { position: absolute; top: 1.1rem; right: 1.25rem; margin: 0; font-size: 0.7rem; color: var(--ink-faint); font-variant-numeric: tabular-nums; }
+.updated-at {
+  position: absolute; top: 1rem; right: 1.25rem; margin: 0;
+  display: inline-flex; align-items: center; gap: 0.4rem;
+  background: var(--accent-soft); color: var(--accent); border-radius: 999px;
+  padding: 0.28rem 0.7rem 0.28rem 0.6rem; font-size: 0.7rem; font-variant-numeric: tabular-nums;
+}
+.updated-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--accent); flex: none; animation: pulse-dot 2s ease-in-out infinite; }
+@keyframes pulse-dot { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
+@media (prefers-reduced-motion: reduce) { .updated-dot { animation: none; } }
 h1 {
   font-family: "Hiragino Mincho ProN","Yu Mincho","Noto Serif JP",serif;
   font-weight: 600; font-size: 1.85rem; line-height: 1.35; margin: 0 0 0.65rem; text-wrap: balance; letter-spacing: 0.01em;
@@ -347,7 +355,7 @@ def render_html(results: list, run_date: date, generated_at: datetime | None = N
     range_label = f"{min_date.month}/{min_date.day} 〜 {max_date.month}/{max_date.day}"
 
     updated_at_html = (
-        f'<p class="updated-at">更新: {generated_at.month}/{generated_at.day} '
+        f'<p class="updated-at"><span class="updated-dot"></span>更新 {generated_at.month}/{generated_at.day} '
         f'{generated_at.hour:02d}:{generated_at.minute:02d}</p>'
         if generated_at is not None else ""
     )
