@@ -57,6 +57,7 @@ class SourceResult:
     items: list[Item] = field(default_factory=list)
     error: str | None = None
     skipped_by_robots: bool = False
+    unavailable_reason: str | None = None
 
 
 def load_sources() -> list[dict]:
@@ -158,19 +159,26 @@ def process_source(source: dict, reference_date: date) -> SourceResult:
     index_url = source["index_url"]
     category = source.get("category", "社説")
     tier = source.get("tier", "regional")
+    unavailable_reason = source.get("unavailable_reason")
 
     if not robots_allows(index_url):
         return SourceResult(
             name=name, category=category, tier=tier, index_url=index_url,
-            skipped_by_robots=True,
+            skipped_by_robots=True, unavailable_reason=unavailable_reason,
         )
 
     try:
         html = fetch_html(index_url)
         items = extract_items(html, index_url, source, reference_date)
-        return SourceResult(name=name, category=category, tier=tier, index_url=index_url, items=items)
+        return SourceResult(
+            name=name, category=category, tier=tier, index_url=index_url,
+            items=items, unavailable_reason=unavailable_reason,
+        )
     except Exception as exc:  # noqa: BLE001 - 1ソースの失敗で全体を止めない
-        return SourceResult(name=name, category=category, tier=tier, index_url=index_url, error=str(exc))
+        return SourceResult(
+            name=name, category=category, tier=tier, index_url=index_url,
+            error=str(exc), unavailable_reason=unavailable_reason,
+        )
 
 
 def run_check(only: list[str] | None) -> int:
@@ -229,6 +237,7 @@ def write_json(path: Path, run_date: date, results: list[SourceResult]) -> None:
                 "index_url": r.index_url,
                 "error": r.error,
                 "skipped_by_robots": r.skipped_by_robots,
+                "unavailable_reason": r.unavailable_reason,
                 "items": [asdict(i) for i in r.items],
             }
             for r in results
