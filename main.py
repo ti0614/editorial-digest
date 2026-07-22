@@ -121,6 +121,7 @@ def extract_items(html: str, base_url: str, source: dict, reference_date: date) 
     soup = BeautifulSoup(html, "html.parser")
     nodes = soup.select(source["item_selector"])
     items: list[Item] = []
+    seen_titles: set[str] = set()
     for node in nodes:
         title_node = node.select_one(source["title_selector"]) if source.get("title_selector") else node
         link_node = node.select_one(source["link_selector"]) if source.get("link_selector") else node
@@ -139,6 +140,11 @@ def extract_items(html: str, base_url: str, source: dict, reference_date: date) 
         published = date_node.get_text(strip=True) if date_node is not None else None
         if not within_digest_window(published, reference_date):
             continue
+        if title in seen_titles:
+            # 同じ紙の一覧内に同一見出しが複数URLで重複掲載されることがある
+            # （例: 北國新聞は同じ社説が別記事IDで2件並ぶ）。先勝ちで1件に絞る。
+            continue
+        seen_titles.add(title)
         paid = bool(source.get("paid_selector")) and node.select_one(source["paid_selector"]) is not None
         items.append(Item(title=title, link=link, published=published, paid=paid))
     return items
