@@ -285,3 +285,69 @@ sources:
     date_selector: "span.date"
     verified: false
     note: "千葉県。調査時点でサイトが 500/504 エラーを返し続けており、ホームページ自体を取得できなかった（一時的な障害の可能性。後日再調査が必要）。"
+
+  # ---- 地方紙（甲信越・北陸ブロック） ----
+  - name: 新潟日報
+    category: 社説
+    tier: regional
+    index_url: https://www.niigata-nippo.co.jp/category/editorial
+    item_selector: "div.m-article"
+    title_selector: "a.m-article__ttl"
+    link_selector: "a.m-article__ttl"
+    date_selector: "time.c-date"
+    verified: true
+    note: "新潟県。"
+
+  - name: 北日本新聞
+    category: 社説
+    tier: regional
+    index_url: "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC"
+    item_selector: "article.m-article-list"
+    title_selector: "div.m-article-list-ttl"
+    link_selector: "a"
+    date_selector: "div.m-article-list-date"
+    verified: true
+    note: "富山県。デジタル版ブランド名は「webun」。タイトル要素に「社説」ラベルと本文が改行区切りで同居しており、取得結果は先頭に「社説」が付く。"
+
+  - name: 北國新聞
+    category: 社説
+    tier: regional
+    index_url: https://www.hokkoku.co.jp/category/editorial
+    item_selector: 'a.u-block-link.u-no-underline.u-no-opacity:has(div.m-articles-item)'
+    title_selector: "h3"
+    date_selector: "time.m-articles-item__info-date"
+    verified: true
+    note: "石川県。item自体が記事へのリンク(<a>)のため link_selector は省略。1日に2本社説を掲載することが多い（重複ではなく別記事）。"
+
+  - name: 福井新聞
+    category: 論説
+    tier: regional
+    index_url: https://www.fukuishimbun.co.jp/category/editorial
+    item_selector: "div.article.clearfix"
+    title_selector: "div.title span.main-title"
+    link_selector: "div.title a"
+    date_selector: "div.title span.date"
+    verified: true
+    note: "福井県。論説コラムの呼称は「論説」。"
+
+  - name: 山梨日日新聞
+    category: 論説
+    tier: regional
+    index_url: https://www.sannichi.co.jp/news/ronsetsu
+    item_selector: "li.article"
+    title_selector: "span.title"
+    link_selector: "a"
+    date_selector: "span.date"
+    verified: false
+    note: "山梨県。AWS WAF（x-amzn-waf-action: challenge）によりbotアクセスがブロックされ、通常のHTTPリクエストではページを取得できない（要JS実行環境）。ブラウザ自動化なしでの回避は行っていない。"
+
+  - name: 信濃毎日新聞
+    category: 社説
+    tier: regional
+    index_url: https://www.shinmai.co.jp/top/opinion
+    item_selector: "li.article"
+    title_selector: "span.title"
+    link_selector: "a"
+    date_selector: "span.date"
+    verified: false
+    note: "長野県。ページ内に「オピニオン」一覧の入り口はあるものの、記事データがNext.jsのハイドレーション用JSON（__APOLLO_STATE__）に埋め込まれており、静的HTML上にCSSセレクタで拾えるタイトル・リンクが存在しない（要調査、JSON解析による別実装が必要）。"
