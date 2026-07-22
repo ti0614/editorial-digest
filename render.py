@@ -52,9 +52,9 @@ body {
   font-size: 16px; line-height: 1.7; -webkit-font-smoothing: antialiased; overflow-x: hidden;
 }
 .wrap { max-width: 640px; margin: 0 auto; padding: 0 0 4rem; }
-header.masthead { padding: 2.25rem 1.25rem 1.25rem; border-bottom: 1px solid var(--rule); }
+header.masthead { position: relative; padding: 2.25rem 1.25rem 1.25rem; border-bottom: 1px solid var(--rule); }
 .eyebrow { font-size: 0.72rem; letter-spacing: 0.14em; color: var(--ink-faint); text-transform: uppercase; margin: 0 0 0.5rem; }
-.updated-at { font-size: 0.72rem; color: var(--ink-faint); margin: 0 0 0.6rem; font-variant-numeric: tabular-nums; }
+.updated-at { position: absolute; top: 1.1rem; right: 1.25rem; margin: 0; font-size: 0.7rem; color: var(--ink-faint); font-variant-numeric: tabular-nums; }
 h1 {
   font-family: "Hiragino Mincho ProN","Yu Mincho","Noto Serif JP",serif;
   font-weight: 600; font-size: 1.85rem; line-height: 1.35; margin: 0 0 0.65rem; text-wrap: balance; letter-spacing: 0.01em;
