@@ -21,7 +21,7 @@ import sys
 import time
 import urllib.robotparser as robotparser
 from dataclasses import dataclass, asdict, field
-from datetime import date
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from urllib.parse import urljoin, urlparse
 
@@ -37,6 +37,7 @@ from pubdate import within_digest_window, parse_published_time, parse_published_
 _DATETIME_TEXT_PATTERN = re.compile(
     r"\d{4}[年/.]\d{1,2}[月/.]\d{1,2}日?[^\d]{0,10}\d{1,2}[:時]\d{2}分?"
 )
+_JST = timezone(timedelta(hours=9))
 
 USER_AGENT = "EditorialDigestBot/0.1 (personal research use; contact: set-your-contact-here)"
 REQUEST_TIMEOUT = 15
@@ -161,18 +162,42 @@ def extract_items(html: str, base_url: str, source: dict, reference_date: date) 
     return items
 
 
+def _time_from_datetime_attr(value: str | None) -> str | None:
+    """<time> タグの datetime 属性から時刻(JST, HH:MM)を取り出す。
+
+    末尾が "Z"（UTC）の場合はJSTに変換してから返す。それ以外
+    （オフセット付き・オフセットなしのローカル時刻表記）はそのまま
+    HH:MM部分を読み取る（日本の新聞サイトなので基本的にJST表記）。
+    """
+    if not value:
+        return None
+    v = value.strip()
+    if v.endswith("Z"):
+        try:
+            dt = datetime.fromisoformat(v.replace("Z", "+00:00")).astimezone(_JST)
+            return f"{dt.hour:02d}:{dt.minute:02d}"
+        except ValueError:
+            return None
+    return parse_published_time(v)
+
+
 def _find_time_in_article(html: str, item: Item, reference_date: date) -> str | None:
     """記事個別ページのHTMLから、その記事自身の時刻を探す。
 
-    まず <time> タグを試し、無ければ本文中の「日付+時刻」表記
+    まず <time> タグを試す。タグの表示テキスト（人間が読む表記なので
+    基本的にJST）を優先し、テキストから読み取れない場合のみ datetime
+    属性にフォールバックする（Nikkei等はdatetime属性がUTC表記のため、
+    テキストより先に読むと9時間ずれた誤った時刻を拾ってしまう）。
+    <time> タグで見つからなければ、本文中の「日付+時刻」表記
     （例:「2026年7月22日 05時05分」）にフォールバックする。後者は
     サイドバー等の無関係な日時を拾わないよう、一覧ページ側で分かって
     いるこの記事自身の日付と一致する候補だけを採用する。
     """
     soup = BeautifulSoup(html, "html.parser")
     for tag in soup.find_all("time"):
-        candidate = tag.get("datetime") or tag.get_text(strip=True)
-        found = parse_published_time(candidate)
+        found = parse_published_time(tag.get_text(strip=True))
+        if not found:
+            found = _time_from_datetime_attr(tag.get("datetime"))
         if found:
             return found
 
