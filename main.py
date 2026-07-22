@@ -16,6 +16,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 import sys
 import time
 import urllib.robotparser as robotparser
@@ -29,7 +30,13 @@ import yaml
 from bs4 import BeautifulSoup
 
 import render
-from pubdate import within_digest_window
+from pubdate import within_digest_window, parse_published_time, parse_published_date
+
+# <time>タグが無いサイト向けのフォールバック: 本文中の「日付+時刻」表記
+# （例: 「2026年7月22日 05時05分」「2026/07/22(水) 03:00」）を拾う。
+_DATETIME_TEXT_PATTERN = re.compile(
+    r"\d{4}[年/.]\d{1,2}[月/.]\d{1,2}日?[^\d]{0,10}\d{1,2}[:時]\d{2}分?"
+)
 
 USER_AGENT = "EditorialDigestBot/0.1 (personal research use; contact: set-your-contact-here)"
 REQUEST_TIMEOUT = 15
@@ -154,7 +161,61 @@ def extract_items(html: str, base_url: str, source: dict, reference_date: date) 
     return items
 
 
-def process_source(source: dict, reference_date: date) -> SourceResult:
+def _find_time_in_article(html: str, item: Item, reference_date: date) -> str | None:
+    """記事個別ページのHTMLから、その記事自身の時刻を探す。
+
+    まず <time> タグを試し、無ければ本文中の「日付+時刻」表記
+    （例:「2026年7月22日 05時05分」）にフォールバックする。後者は
+    サイドバー等の無関係な日時を拾わないよう、一覧ページ側で分かって
+    いるこの記事自身の日付と一致する候補だけを採用する。
+    """
+    soup = BeautifulSoup(html, "html.parser")
+    for tag in soup.find_all("time"):
+        candidate = tag.get("datetime") or tag.get_text(strip=True)
+        found = parse_published_time(candidate)
+        if found:
+            return found
+
+    item_date = parse_published_date(item.published, reference_date)
+    if item_date is None:
+        return None
+    text = re.sub(r"\s+", " ", soup.get_text())
+    for m in _DATETIME_TEXT_PATTERN.finditer(text):
+        candidate = m.group(0)
+        if parse_published_date(candidate, reference_date) == item_date:
+            found = parse_published_time(candidate)
+            if found:
+                return found
+    return None
+
+
+def enrich_missing_times(items: list[Item], source: dict, reference_date: date) -> None:
+    """一覧ページの日付表記に時刻が含まれない記事について、記事個別ページから
+    時刻を補い published に追記する。
+
+    一覧ページは当日分のみ時刻付きで、それより前の日の記事は日付のみの
+    表記になっているサイトが多い（例: 京都新聞は一覧で「7月17日」だが、
+    記事ページには <time datetime="2026-07-17 16:05"> がある）。この関数は
+    そうした記事だけを対象に個別ページを取得するため、時刻が既に取れて
+    いる記事については追加のアクセスをしない。
+    """
+    for item in items:
+        if parse_published_time(item.published):
+            continue
+        if not robots_allows(item.link):
+            continue
+        try:
+            html = fetch_html(item.link)
+        except Exception:
+            continue
+        finally:
+            time.sleep(interval_after(source))
+        found_time = _find_time_in_article(html, item, reference_date)
+        if found_time:
+            item.published = f"{item.published} {found_time}" if item.published else found_time
+
+
+def process_source(source: dict, reference_date: date, fetch_times: bool = False) -> SourceResult:
     name = source["name"]
     index_url = source["index_url"]
     category = source.get("category", "社説")
@@ -170,6 +231,8 @@ def process_source(source: dict, reference_date: date) -> SourceResult:
     try:
         html = fetch_html(index_url)
         items = extract_items(html, index_url, source, reference_date)
+        if fetch_times:
+            enrich_missing_times(items, source, reference_date)
         return SourceResult(
             name=name, category=category, tier=tier, index_url=index_url,
             items=items, unavailable_reason=unavailable_reason,
@@ -210,7 +273,7 @@ def run_digest(only: list[str] | None, run_date: date) -> int:
 
     results: list[SourceResult] = []
     for i, source in enumerate(sources):
-        results.append(process_source(source, run_date))
+        results.append(process_source(source, run_date, fetch_times=True))
         if i < len(sources) - 1:
             time.sleep(interval_after(source))
 
