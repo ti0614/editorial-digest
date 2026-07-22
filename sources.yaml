@@ -476,3 +476,91 @@ sources:
     date_selector: "span.date"
     verified: false
     note: "香川県。ホームページ内に社説・論説へのリンクが見当たらず、候補URLもすべてトップページと同一の骨組みだけを返す実質404で、専用ページを特定できなかった（要調査）。"
+
+  # ---- 地方紙（九州・沖縄ブロック、福岡は既存の西日本新聞で対応済み） ----
+  - name: 熊本日日新聞
+    category: 社説
+    tier: regional
+    index_url: https://kumanichi.com/opinion/syasetsu
+    item_selector: "ul.y2024-news-list li"
+    title_selector: "span.y2024-box__list-text-01"
+    link_selector: "a"
+    date_selector: "span.y2024-box__list-text-02"
+    verified: true
+    note: "熊本県。"
+
+  - name: 大分合同新聞
+    category: 論説
+    tier: regional
+    index_url: https://www.oita-press.co.jp/column/ronsetsu
+    item_selector: "div.zokuhouBlocks_2col"
+    title_selector: "h3 a"
+    link_selector: "h3 a"
+    date_selector: "li.sub-today"
+    verified: true
+    note: "大分県。論説コラムの呼称は「論説」。"
+
+  - name: 宮崎日日新聞
+    category: 社説
+    tier: regional
+    index_url: https://www.the-miyanichi.co.jp/column/syasetsu
+    item_selector: "li.c-list1__item"
+    title_selector: "div.c-item5__title"
+    link_selector: "a"
+    date_selector: "div.c-item5__date"
+    verified: true
+    note: "宮崎県。robots.txt が Crawl-delay: 5 を指定している。"
+
+  - name: 南日本新聞
+    category: 社説
+    tier: regional
+    index_url: https://373news.com/lineup/syasetsu/
+    item_selector: "body"
+    title_selector: "h1.syasetsu_title"
+    link_selector: 'a[href="https://373news.com/lineup/syasetsu/"]'
+    date_selector: "div.syasetsu_date"
+    verified: true
+    note: "鹿児島県。このURLは常に「最新の社説1件」を表示するページ（過去分の一覧ではない）で、茨城新聞と同様 item_selector は body 全体を1件として扱っている。日付ごとの過去分アーカイブ（/lineup/syasetsu/YYYYMMDD/）も存在するが、複数日を横断取得する仕組みは本ツールには無いため今回は対応していない。"
+
+  - name: 沖縄タイムス
+    category: 社説
+    tier: regional
+    index_url: https://www.okinawatimes.co.jp/category/editorial
+    item_selector: "a.c-card.c-card--vertical"
+    title_selector: "div.c-card__title"
+    date_selector: "time.c-card__text"
+    verified: true
+    note: "沖縄県。itemが記事へのリンク(<a>)自体のため link_selector は省略。"
+
+  - name: 琉球新報
+    category: 社説
+    tier: regional
+    index_url: https://ryukyushimpo.jp/editorial
+    item_selector: 'div.border-b-gray-gainsboro:has(h4)'
+    title_selector: "h4"
+    link_selector: 'a[href*="entry-"]'
+    date_selector: "span"
+    verified: true
+    note: "沖縄県。先頭（最新）の1件だけ周辺のクラス構成が異なるため、共通して存在する border-b-gray-gainsboro（記事どうしの区切り線）に絞り込んでいる。"
+
+  - name: 佐賀新聞
+    category: 社説
+    tier: regional
+    index_url: https://www.saga-s.co.jp/feature/opinion
+    item_selector: "li.article"
+    title_selector: "span.title"
+    link_selector: "a"
+    date_selector: "span.date"
+    verified: false
+    note: "佐賀県。このURLは「オピニオン」混在ページで、記者コラム（記者日記等）や連載（有明抄）と社説相当の記事が同居しているが、他紙のような一貫した接頭辞が無く、タイトル文字列だけでは安全に判別できなかった（要調査）。"
+
+  - name: 長崎新聞
+    category: 時評
+    tier: regional
+    index_url: https://www.nagasaki-np.co.jp/feature/nagasaki-jihyo/
+    item_selector: "li.article"
+    title_selector: "span.title"
+    link_selector: "a"
+    date_selector: "span.date"
+    verified: false
+    note: "長崎県。論説コラムの呼称は「ながさき時評」。記事一覧がJavaScriptのAJAX呼び出し（getKiji）で取得・描画される方式のため、静的HTMLには記事データが含まれておらずCSSセレクタでは取得できない（要調査、API解析による別実装が必要）。"
