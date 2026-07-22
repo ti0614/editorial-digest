@@ -145,9 +145,6 @@ a.article time {
   white-space:nowrap; padding-top:0.2rem;
 }
 
-.unavailable { padding: 1rem 1.25rem 0; }
-.unavailable-h { font-size:0.72rem; letter-spacing:0.04em; color:var(--ink-faint); margin:0 0 0.4rem; }
-.unavailable-line { margin:0.2rem 0; font-size:0.76rem; line-height:1.5; color:var(--ink-faint); }
 
 footer { padding:1.75rem 1.25rem 0; color:var(--ink-faint); font-size:0.78rem; line-height:1.7; }
 html { scroll-behavior: smooth; }
@@ -302,28 +299,15 @@ def render_html(results: list, run_date: date) -> str:
   <ul class="article-list">{"".join(rows)}</ul>
 </section>''')
 
-    unavailable_by_reason: dict[str, list[str]] = defaultdict(list)
-    for r in results:
-        reason = getattr(r, "unavailable_reason", None)
-        if r.skipped_by_robots:
-            reason = reason or "サイト運営者の意向により取得していません"
-        elif r.error or not r.items:
-            reason = reason or "サイト側の変更や不具合により取得できません"
-        else:
-            continue
-        unavailable_by_reason[reason].append(r.name)
+    unavailable_names = [
+        r.name for r in results
+        if r.skipped_by_robots or r.error or not r.items
+    ]
 
-    special_sections = ""
-    if unavailable_by_reason:
-        lines = "".join(
-            f'<p class="unavailable-line">{_esc("・".join(names))}：{_esc(reason)}</p>'
-            for reason, names in unavailable_by_reason.items()
-        )
-        special_sections = (
-            '<div class="unavailable">'
-            '<p class="unavailable-h">取得できなかった新聞社</p>'
-            + lines + "</div>"
-        )
+    unavailable_footer = (
+        f'<p>現在取得できていない新聞社：{_esc("・".join(unavailable_names))}（{len(unavailable_names)}紙）</p>'
+        if unavailable_names else ""
+    )
 
     tier_names = {t: [r.name for r in results if norm_tier(r.tier) == t] for t in TIERS}
     tier_totals = {t: sum(1 for x in items_flat if x["tier"] == t) for t in TIERS}
@@ -361,12 +345,12 @@ def render_html(results: list, run_date: date) -> str:
 
   <main>
 {"".join(sections)}
-{special_sections}
   </main>
 
   <footer>
     <p>社説まとめツールが自動生成 / 基準日: {run_date.isoformat()}。各リンクは記事本文へ遷移します。</p>
     <p>「会員限定」表示は参考情報です。表示が無くても無料と保証するものではありません。</p>
+    {unavailable_footer}
   </footer>
 </div>
 
