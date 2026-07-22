@@ -8,10 +8,16 @@ Artifacts・GitHub Pages など任意の静的ホスティングに公開して�
 
 ## サイトの構成
 
-- **全国紙（読売・朝日・毎日・日経・産経）を既定表示**。ブロック紙・
-  地方紙（東京・中日・北海道・西日本・京都・神戸・河北新報・中国新聞）は
-  ページ内の「ブロック紙・地方紙も見る」ボタンで必要なときだけ表示します
-  （`sources.yaml` の `tier: national` / `regional` で判定）。
+- **全国紙・ブロック紙・地方紙を個別にオン/オフできる3つのチップボタン**
+  を用意（`sources.yaml` の `tier: national` / `block` / `regional` で
+  判定）。既定表示は全国紙（読売・朝日・毎日・日経・産経）のみで、ブロック紙
+  （東京・中日・北海道・西日本）・地方紙（それ以外の都道府県紙）は必要な
+  ときだけチップをタップして表示します。選択状態はブラウザに保存され、
+  次回訪問時も維持されます。
+- 各紙が発行元サイトで「鍵アイコン」等により会員限定を明示している場合、
+  記事タイトルの横に「会員限定」バッジを表示します（`sources.yaml` の
+  `paid_selector` で判定。一部の新聞社のみ対応、バッジが無くても無料とは
+  限りません）。
 - 直近7日分を日付ごとにグルーピングして表示。日付ピルをタップすると
   その日のセクションへジャンプします。
 - モバイル最適化、ライト/ダークモード両対応、外部CDN・Webフォント不使用
@@ -131,13 +137,14 @@ Artifacts・GitHub Pages 等に公開してください。
 ```yaml
 - name: 新聞社名
   category: 社説            # その社での呼称（産経は「主張」など）
-  tier: regional             # national（全国紙）/ regional（ブロック紙・地方紙）
+  tier: regional             # national（全国紙）/ block（ブロック紙）/ regional（地方紙）
   index_url: https://.../editorial/   # 社説一覧ページ
   item_selector: "li.article"          # 一覧内の1記事を指すセレクタ
   title_selector: "h3"                 # タイトル要素（item内の相対セレクタ）
   title_exclude_selector: "span.new"   # タイトルから除去する要素（任意、"New"バッジ等）
   link_selector: "a"                   # リンク要素
   date_selector: "time"                # 日付要素（任意）
+  paid_selector: "span.lock-icon"      # 会員限定を示す要素（任意、鍵アイコン等）
   verified: false
 ```
 

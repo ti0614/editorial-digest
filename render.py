@@ -2,8 +2,9 @@
 社説ダイジェストをまとめたモバイル向けWebページ (output/digest.html) を
 生成するモジュール。
 
-全国紙（tier: national）を既定表示、ブロック紙・地方紙（tier: regional）は
-ページ内トグルで表示する構成。外部CDN・Webフォントは使わず自己完結。
+全国紙（tier: national）を既定表示、ブロック紙（tier: block）・地方紙
+（tier: regional）はページ内のチップボタンでそれぞれ独立に表示切り替え
+できる構成。外部CDN・Webフォントは使わず自己完結。
 """
 from __future__ import annotations
 
@@ -14,6 +15,8 @@ from datetime import date
 from pubdate import parse_published_date, parse_published_time
 
 WEEKDAY_JP = ["月", "火", "水", "木", "金", "土", "日"]
+TIERS = ["national", "block", "regional"]
+TIER_LABEL = {"national": "全国紙", "block": "ブロック紙", "regional": "地方紙"}
 
 # ダークモード両対応・自己完結のCSS。f-string化するとブレースの二重化が
 # 必要になり可読性が落ちるため、動的な値を含まないこのブロックだけ独立した
@@ -60,21 +63,24 @@ h1 {
 .disclaimer { font-size:0.82rem; color:var(--ink-faint); margin:0 0 1rem; line-height:1.6; }
 
 .scope-toggle {
-  display: flex; align-items: center; justify-content: space-between; gap: 0.75rem;
   background: var(--surface); border: 1px solid var(--rule); border-radius: 10px;
   padding: 0.7rem 0.9rem;
 }
-.scope-toggle .scope-label { font-size: 0.85rem; line-height: 1.5; color: var(--ink-muted); }
-.scope-toggle .scope-label b { color: var(--ink); font-weight: 600; }
-button.scope-btn {
-  flex: none; font: inherit; font-size: 0.82rem; font-weight: 600;
-  padding: 0.5rem 0.85rem; border-radius: 8px; border: 1px solid var(--accent);
-  background: transparent; color: var(--accent); cursor: pointer;
-  white-space: nowrap;
+.scope-toggle .scope-label {
+  display: block; font-size: 0.72rem; letter-spacing: 0.06em; color: var(--ink-faint);
+  margin: 0 0 0.55rem;
 }
-button.scope-btn:hover { background: var(--accent-soft); }
-button.scope-btn[aria-pressed="true"] { background: var(--accent); color: var(--surface); }
-button.scope-btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.tier-chips { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+button.tier-chip {
+  flex: 1 1 auto; font: inherit; font-size: 0.82rem; font-weight: 600;
+  padding: 0.5rem 0.7rem; border-radius: 8px; border: 1px solid var(--accent);
+  background: transparent; color: var(--accent); cursor: pointer;
+  white-space: nowrap; display: inline-flex; align-items: baseline; justify-content: center; gap: 0.35rem;
+}
+button.tier-chip .tier-chip-count { font-size: 0.72rem; opacity: 0.75; font-variant-numeric: tabular-nums; }
+button.tier-chip:hover { background: var(--accent-soft); }
+button.tier-chip[aria-pressed="true"] { background: var(--accent); color: var(--surface); }
+button.tier-chip:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 
 nav.quicknav {
   position: sticky; top: 0; z-index: 5; background: var(--bg);
@@ -113,11 +119,13 @@ section.dategroup:last-child { border-bottom: none; }
 ul.article-list { list-style:none; margin:0.6rem 0 0; padding:0; }
 ul.article-list li { border-top:1px solid var(--rule); }
 ul.article-list li:first-child { border-top:none; }
-li.regional { display: none; }
-body.show-regional li.regional { display: list-item; }
+body:not(.show-national) li.tier-national { display: none; }
+body:not(.show-block) li.tier-block { display: none; }
+body:not(.show-regional) li.tier-regional { display: none; }
 
-.regional-block { display: none; }
-body.show-regional .regional-block { display: block; }
+body:not(.show-national) .special-national { display: none; }
+body:not(.show-block) .special-block { display: none; }
+body:not(.show-regional) .special-regional { display: none; }
 
 a.article {
   display:flex; justify-content:space-between; align-items:flex-start; gap:0.9rem;
@@ -130,8 +138,14 @@ a.article:focus-visible { outline:2px solid var(--accent); outline-offset:2px; b
   font-size:0.72rem; color:var(--accent); background:var(--accent-soft);
   border-radius:4px; padding:0.05rem 0.4rem; width:fit-content; letter-spacing:0.02em;
 }
+.src-tag-block { color: var(--accent); background: transparent; border: 1px solid var(--accent); }
 .src-tag-regional { color: var(--ink-muted); background: transparent; border: 1px solid var(--rule); }
 .article-title { font-size:0.98rem; line-height:1.55; }
+.paid-badge {
+  font-size:0.68rem; color: var(--warn); border: 1px solid var(--warn); border-radius: 4px;
+  padding: 0 0.3rem; margin-left: 0.4rem; letter-spacing: 0.02em; white-space: nowrap;
+  vertical-align: 0.1em;
+}
 a.article time {
   flex:none; font-size:0.76rem; color:var(--ink-faint); font-variant-numeric: tabular-nums;
   white-space:nowrap; padding-top:0.2rem;
@@ -148,43 +162,63 @@ html { scroll-behavior: smooth; }
 
 _SCRIPT_TEMPLATE = """
 (function () {
+  var TIERS = ['national', 'block', 'regional'];
+  var DEFAULT_ON = { national: true, block: false, regional: false };
   var body = document.body;
-  var btn = document.getElementById('regional-toggle');
-  var label = document.querySelector('.scope-label');
   var totalEl = document.getElementById('total-count');
-  var natLabel = %(nat_label)s;
-  var natTotal = %(nat_total)d;
-  var allTotal = %(all_total)d;
+  var chips = {};
+  TIERS.forEach(function (t) {
+    chips[t] = document.querySelector('.tier-chip[data-tier="' + t + '"]');
+  });
 
-  function updateCounts(showRegional) {
+  function activeTiers() {
+    var active = {};
+    TIERS.forEach(function (t) { active[t] = body.classList.contains('show-' + t); });
+    return active;
+  }
+
+  function updateCounts() {
+    var active = activeTiers();
+    var grandTotal = 0;
     document.querySelectorAll('section.dategroup[data-nat]').forEach(function (sec) {
-      var nat = parseInt(sec.getAttribute('data-nat'), 10);
-      var total = parseInt(sec.getAttribute('data-total'), 10);
+      var visible = 0;
+      TIERS.forEach(function (t) {
+        if (active[t]) visible += parseInt(sec.getAttribute('data-' + t), 10) || 0;
+      });
+      grandTotal += visible;
       var countEl = sec.querySelector('.date-count');
-      if (countEl) countEl.textContent = (showRegional ? total : nat) + '件';
+      if (countEl) countEl.textContent = visible + '件';
       var pill = document.querySelector('.pill[href="#' + sec.id + '"] .pill-count');
-      if (pill) pill.textContent = showRegional ? total : nat;
+      if (pill) pill.textContent = visible;
     });
-    if (totalEl) totalEl.textContent = showRegional ? allTotal : natTotal;
+    if (totalEl) totalEl.textContent = grandTotal;
   }
 
-  function apply(showRegional) {
-    body.classList.toggle('show-regional', showRegional);
-    btn.setAttribute('aria-pressed', showRegional ? 'true' : 'false');
-    btn.textContent = showRegional ? '全国紙のみに戻す' : 'ブロック紙・地方紙も見る';
-    label.innerHTML = showRegional
-      ? '<b>全国紙＋ブロック紙・地方紙</b>を表示中'
-      : '<b>全国紙</b>（' + natLabel + '）を表示中';
-    updateCounts(showRegional);
-    try { localStorage.setItem('editorial-digest-show-regional', showRegional ? '1' : '0'); } catch (e) {}
+  function apply(tier, on) {
+    body.classList.toggle('show-' + tier, on);
+    if (chips[tier]) chips[tier].setAttribute('aria-pressed', on ? 'true' : 'false');
   }
 
-  var initial = false;
-  try { initial = localStorage.getItem('editorial-digest-show-regional') === '1'; } catch (e) {}
-  apply(initial);
+  function applyAll(state) {
+    TIERS.forEach(function (t) { apply(t, !!state[t]); });
+    updateCounts();
+    try { localStorage.setItem('editorial-digest-tiers', JSON.stringify(state)); } catch (e) {}
+  }
 
-  btn.addEventListener('click', function () {
-    apply(!body.classList.contains('show-regional'));
+  var initial = DEFAULT_ON;
+  try {
+    var saved = localStorage.getItem('editorial-digest-tiers');
+    if (saved) initial = JSON.parse(saved);
+  } catch (e) {}
+  applyAll(initial);
+
+  TIERS.forEach(function (t) {
+    if (!chips[t]) return;
+    chips[t].addEventListener('click', function () {
+      var state = activeTiers();
+      state[t] = !state[t];
+      applyAll(state);
+    });
   });
 })();
 """
@@ -201,16 +235,22 @@ def render_html(results: list, run_date: date) -> str:
     items / error / skipped_by_robots 属性を持つ）であればよい。items の各
     要素も同様に title / link / published 属性を持つ Item 互換オブジェクト。
     main.py 側で既に直近7日間へフィルタ済みである前提（ここでは日付ごとの
-    グルーピングのみ行い、再フィルタはしない）。
+    グルーピングのみ行い、再フィルタはしない）。tier は national / block /
+    regional の3種類（未知の値は regional 扱い）。
     """
+    def norm_tier(t: str) -> str:
+        return t if t in TIERS else "regional"
+
     items_flat = []
     for r in results:
+        tier = norm_tier(r.tier)
         for it in r.items:
             d = parse_published_date(it.published, run_date) or run_date
             t = parse_published_time(it.published)
             items_flat.append({
-                "name": r.name, "tier": r.tier, "title": it.title,
+                "name": r.name, "tier": tier, "title": it.title,
                 "link": it.link, "published": it.published, "date": d, "time": t,
+                "paid": getattr(it, "paid", False),
             })
 
     by_date: dict[date, list[dict]] = defaultdict(list)
@@ -228,45 +268,47 @@ def render_html(results: list, run_date: date) -> str:
 
     sorted_dates = sorted(by_date.keys(), reverse=True)
 
+    tag_class = {"national": "src-tag", "block": "src-tag src-tag-block", "regional": "src-tag src-tag-regional"}
+
     nav_pills = []
     sections = []
     for d in sorted_dates:
         items = by_date[d]
-        nat_count = sum(1 for it in items if it["tier"] == "national")
-        total_count = len(items)
+        tier_counts = {t: sum(1 for it in items if it["tier"] == t) for t in TIERS}
+        default_count = tier_counts["national"]
         anchor = f"d-{d.isoformat()}"
         nav_pills.append(
             f'<a class="pill" href="#{anchor}">{d.month}/{d.day}'
-            f'<span class="pill-count">{nat_count}</span></a>'
+            f'<span class="pill-count">{default_count}</span></a>'
         )
 
         rows = []
         for it in items:
-            is_national = it["tier"] == "national"
+            tier = it["tier"]
             title = _esc(it["title"])
             link = _esc(it["link"])
             src = _esc(it["name"])
             time_html = f'<time>{it["time"]}</time>' if it["time"] else ""
-            li_class = "article-item" if is_national else "article-item regional"
-            tag_class = "src-tag" if is_national else "src-tag src-tag-regional"
+            paid_html = '<span class="paid-badge">会員限定</span>' if it["paid"] else ""
             rows.append(
-                f'<li class="{li_class}"><a class="article" href="{link}" target="_blank" rel="noopener noreferrer">'
-                f'<span class="article-main"><span class="{tag_class}">{src}</span>'
-                f'<span class="article-title">{title}</span></span>{time_html}</a></li>'
+                f'<li class="article-item tier-{tier}"><a class="article" href="{link}" target="_blank" rel="noopener noreferrer">'
+                f'<span class="article-main"><span class="{tag_class[tier]}">{src}</span>'
+                f'<span class="article-title">{title}{paid_html}</span></span>{time_html}</a></li>'
             )
 
         wd = WEEKDAY_JP[d.weekday()]
         latest_flag = ' <span class="latest-flag">最新</span>' if d == max_date else ""
+        data_attrs = " ".join(f'data-{t}="{tier_counts[t]}"' for t in TIERS)
         sections.append(f'''
-<section class="dategroup" id="{anchor}" data-nat="{nat_count}" data-total="{total_count}">
+<section class="dategroup" id="{anchor}" {data_attrs}>
   <div class="date-head">
     <h2>{d.month}<span class="slash">/</span>{d.day}<span class="wd">（{wd}）</span></h2>
-    <span class="date-count">{nat_count}件</span>{latest_flag}
+    <span class="date-count">{default_count}件</span>{latest_flag}
   </div>
   <ul class="article-list">{"".join(rows)}</ul>
 </section>''')
 
-    national_special, regional_special = [], []
+    special_by_tier: dict[str, list[str]] = {t: [] for t in TIERS}
     for r in results:
         if r.skipped_by_robots:
             note = f'<p class="note note-skip"><strong>{_esc(r.name)}</strong>：robots.txt の指定により取得を見送りました（意図した動作）。</p>'
@@ -276,32 +318,28 @@ def render_html(results: list, run_date: date) -> str:
             note = f'<p class="note note-error"><strong>{_esc(r.name)}</strong>：現在のセレクタでは記事を取得できませんでした（要調査、sources.yaml を確認してください）。</p>'
         else:
             continue
-        (national_special if r.tier == "national" else regional_special).append(note)
+        special_by_tier[norm_tier(r.tier)].append(note)
 
     special_sections = ""
-    if national_special:
+    for t in TIERS:
+        notes = special_by_tier[t]
+        if not notes:
+            continue
         special_sections += (
-            '<section class="dategroup special"><div class="date-head">'
-            '<h2 class="special-h">取得できなかった新聞社</h2></div>'
-            + "".join(national_special) + "</section>"
-        )
-    if regional_special:
-        special_sections += (
-            '<section class="dategroup special regional-block" id="special-block">'
-            '<div class="date-head"><h2 class="special-h">取得できなかった新聞社（ブロック紙・地方紙）</h2></div>'
-            + "".join(regional_special) + "</section>"
+            f'<section class="dategroup special special-{t}">'
+            f'<div class="date-head"><h2 class="special-h">取得できなかった新聞社（{TIER_LABEL[t]}）</h2></div>'
+            + "".join(notes) + "</section>"
         )
 
-    national_names = [r.name for r in results if r.tier == "national"]
-    total_national = sum(1 for x in items_flat if x["tier"] == "national")
-    total_regional = sum(1 for x in items_flat if x["tier"] != "national")
+    tier_names = {t: [r.name for r in results if norm_tier(r.tier) == t] for t in TIERS}
+    tier_totals = {t: sum(1 for x in items_flat if x["tier"] == t) for t in TIERS}
     range_label = f"{min_date.month}/{min_date.day} 〜 {max_date.month}/{max_date.day}"
 
-    script = _SCRIPT_TEMPLATE % {
-        "nat_label": '"' + "・".join(national_names) + '"',
-        "nat_total": total_national,
-        "all_total": total_national + total_regional,
-    }
+    chips_html = "".join(
+        f'<button type="button" class="tier-chip" data-tier="{t}" aria-pressed="{"true" if t == "national" else "false"}">'
+        f'{TIER_LABEL[t]}<span class="tier-chip-count">{len(tier_names[t])}紙</span></button>'
+        for t in TIERS
+    )
 
     return f'''<title>社説まとめ 週間ダイジェスト</title>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -311,13 +349,13 @@ def render_html(results: list, run_date: date) -> str:
   <header class="masthead">
     <p class="eyebrow">EDITORIAL DIGEST · WEEKLY</p>
     <h1>社説まとめ<br>週間ダイジェスト</h1>
-    <p class="summary">{range_label}（過去1週間）・全国紙 <strong id="total-count">{total_national}</strong>件</p>
-    <p class="disclaimer">タイトル・リンク・日付のみを収集しています。本文は各紙サイトでお読みください。</p>
+    <p class="summary">{range_label}（過去1週間）・全国紙 <strong id="total-count">{tier_totals["national"]}</strong>件</p>
+    <p class="disclaimer">タイトル・リンク・日付のみを収集しています。本文は各紙サイトでお読みください。「会員限定」表示は一部の新聞社のみ判定しており、表示が無くても無料とは限りません。</p>
     <div class="scope-toggle">
-      <span class="scope-label"><b>全国紙</b>（{"・".join(national_names)}）を表示中</span>
-      <button type="button" class="scope-btn" id="regional-toggle" aria-pressed="false">
-        ブロック紙・地方紙も見る
-      </button>
+      <span class="scope-label">表示する範囲</span>
+      <div class="tier-chips">
+{chips_html}
+      </div>
     </div>
   </header>
 
@@ -337,5 +375,5 @@ def render_html(results: list, run_date: date) -> str:
   </footer>
 </div>
 
-<script>{script}</script>
+<script>{_SCRIPT_TEMPLATE}</script>
 '''
