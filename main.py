@@ -29,7 +29,7 @@ import yaml
 from bs4 import BeautifulSoup
 
 import render
-from pubdate import within_digest_window
+from pubdate import within_digest_window, parse_published_time
 
 USER_AGENT = "EditorialDigestBot/0.1 (personal research use; contact: set-your-contact-here)"
 REQUEST_TIMEOUT = 15
@@ -154,7 +154,39 @@ def extract_items(html: str, base_url: str, source: dict, reference_date: date) 
     return items
 
 
-def process_source(source: dict, reference_date: date) -> SourceResult:
+def enrich_missing_times(items: list[Item], source: dict) -> None:
+    """一覧ページの日付表記に時刻が含まれない記事について、記事個別ページの
+    <time> タグから時刻を補い published に追記する。
+
+    一覧ページは当日分のみ時刻付きで、それより前の日の記事は日付のみの
+    表記になっているサイトが多い（例: 京都新聞は一覧で「7月17日」だが、
+    記事ページには <time datetime="2026-07-17 16:05"> がある）。この関数は
+    そうした記事だけを対象に個別ページを取得するため、時刻が既に取れて
+    いる記事については追加のアクセスをしない。
+    """
+    for item in items:
+        if parse_published_time(item.published):
+            continue
+        if not robots_allows(item.link):
+            continue
+        try:
+            html = fetch_html(item.link)
+        except Exception:
+            continue
+        finally:
+            time.sleep(interval_after(source))
+        soup = BeautifulSoup(html, "html.parser")
+        found_time = None
+        for tag in soup.find_all("time"):
+            candidate = tag.get("datetime") or tag.get_text(strip=True)
+            found_time = parse_published_time(candidate)
+            if found_time:
+                break
+        if found_time:
+            item.published = f"{item.published} {found_time}" if item.published else found_time
+
+
+def process_source(source: dict, reference_date: date, fetch_times: bool = False) -> SourceResult:
     name = source["name"]
     index_url = source["index_url"]
     category = source.get("category", "社説")
@@ -170,6 +202,8 @@ def process_source(source: dict, reference_date: date) -> SourceResult:
     try:
         html = fetch_html(index_url)
         items = extract_items(html, index_url, source, reference_date)
+        if fetch_times:
+            enrich_missing_times(items, source)
         return SourceResult(
             name=name, category=category, tier=tier, index_url=index_url,
             items=items, unavailable_reason=unavailable_reason,
@@ -210,7 +244,7 @@ def run_digest(only: list[str] | None, run_date: date) -> int:
 
     results: list[SourceResult] = []
     for i, source in enumerate(sources):
-        results.append(process_source(source, run_date))
+        results.append(process_source(source, run_date, fetch_times=True))
         if i < len(sources) - 1:
             time.sleep(interval_after(source))
 
