@@ -41,7 +41,9 @@ sources:
     title_selector: "h3"
     link_selector: "a"
     date_selector: "p:last-of-type span"
+    always_paid: true
     verified: true
+    note: "一覧ページには目印が無いが、記事個別ページを開くと本文が「有料会員になると会員限定の有料記事もお読みいただけます」の案内のみに置き換わり、本文が一切表示されない（2026-07-22、5記事で確認）。"
 
   - name: 毎日新聞
     category: 社説
@@ -206,8 +208,9 @@ sources:
     title_selector: "h3"
     link_selector: "p a"
     date_selector: "h2 span"
+    always_paid: true
     verified: true
-    note: "山形県。このページは「本日の社説」1件のみを表示する形式（一覧ページではない）で、他紙のように直近1週間分がまとめて並んでいるわけではない。1回の取得につき最新1件のみ取得できる。"
+    note: "山形県。このページは「本日の社説」1件のみを表示する形式（一覧ページではない）で、他紙のように直近1週間分がまとめて並んでいるわけではない。1回の取得につき最新1件のみ取得できる。また、記事個別ページでは冒頭数行のみ表示され「[全文を読む]」で電子版会員登録が必要（2026-07-22確認）。"
 
   - name: 福島民報
     category: 論説
@@ -458,8 +461,9 @@ sources:
     title_selector: "span.textlink__item_big--tit, span.textlink__item--tit"
     link_selector: "a"
     date_selector: "span.textlink__item_big--days, span.textlink__item--days"
+    always_paid: true
     verified: true
-    note: "愛媛県。先頭（最新）の1件だけクラス名が textlink__item_big--* になり、2件目以降は textlink__item--* になるため両方を許容している。li.textlink__item はページ内の「おすすめ記事」「アクセスランキング」等（article.article_box）にも使われ無関係記事が混入するため、社説一覧本体のコンテナ（article.mb2）に絞り込んでいる。"
+    note: "愛媛県。先頭（最新）の1件だけクラス名が textlink__item_big--* になり、2件目以降は textlink__item--* になるため両方を許容している。li.textlink__item はページ内の「おすすめ記事」「アクセスランキング」等（article.article_box）にも使われ無関係記事が混入するため、社説一覧本体のコンテナ（article.mb2）に絞り込んでいる。記事個別ページでは「残り◯◯文字／全文：◯◯文字」の表示で本文が途中で切られ、会員登録が必要（2026-07-22、2記事で確認）。"
 
   - name: 高知新聞
     category: 社説
@@ -515,8 +519,9 @@ sources:
     title_selector: "h3 a"
     link_selector: "h3 a"
     date_selector: "li.sub-today"
+    always_paid: true
     verified: true
-    note: "大分県。論説コラムの呼称は「論説」。"
+    note: "大分県。論説コラムの呼称は「論説」。記事個別ページでは「この記事はGate会員限定の記事です。全文を読むにはGate会員登録が必要です」と明記され、本文が途中で切られる（2026-07-22、2記事で確認）。"
 
   - name: 宮崎日日新聞
     category: 社説
@@ -526,8 +531,9 @@ sources:
     title_selector: "div.c-item5__title"
     link_selector: "a"
     date_selector: "div.c-item5__date"
+    always_paid: true
     verified: true
-    note: "宮崎県。robots.txt が Crawl-delay: 5 を指定している。"
+    note: "宮崎県。robots.txt が Crawl-delay: 5 を指定している。記事個別ページでは冒頭数行のみ表示され「全文記事を読むには会員登録」の案内で本文が途中で切られる（2026-07-22、2記事で確認）。"
 
   - name: 南日本新聞
     category: 社説
