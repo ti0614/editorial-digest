@@ -41,9 +41,8 @@ sources:
     title_selector: "h3"
     link_selector: "a"
     date_selector: "p:last-of-type span"
-    always_paid: true
     verified: true
-    note: "一覧ページには目印が無いが、記事個別ページを開くと本文が「有料会員になると会員限定の有料記事もお読みいただけます」の案内のみに置き換わり、本文が一切表示されない（2026-07-22、5記事で確認）。"
+    note: "2026-07-22訂正: 一時期 always_paid にしていたが誤り。記事個別ページ上部の「有料会員になると会員限定の有料記事もお読みいただけます」は購読促進バナーであり、本文自体は別のdiv（クラス名 nfyQp 等）に完全な形で存在し無料で読める（5記事で確認）。"
 
   - name: 毎日新聞
     category: 社説
@@ -440,8 +439,9 @@ sources:
     title_selector: "h2.m-articles-item__ttl a"
     link_selector: "h2.m-articles-item__ttl a"
     date_selector: "time.m-articles-item__pubdate"
+    always_paid: true
     verified: true
-    note: "島根県。論説コラムの呼称は「論説」。鳥取県東部・岡山県西部の一部もカバー。"
+    note: "島根県。論説コラムの呼称は「論説」。鳥取県東部・岡山県西部の一部もカバー。一覧ページには目印が無いが、記事個別ページでは「…残り1176文字（全文：1306文字）続きを読むには会員登録が必要です」のように残り文字数が明示され本文が途中で切られる（2026-07-22、3記事で確認）。"
 
   - name: 徳島新聞
     category: 社説
@@ -450,8 +450,9 @@ sources:
     item_selector: "a.m-article-list-default__link"
     title_selector: "span.u-hover-txt02__target"
     date_selector: "time"
+    always_paid: true
     verified: true
-    note: "徳島県。itemが記事へのリンク(<a>)自体のため link_selector は省略。"
+    note: "徳島県。itemが記事へのリンク(<a>)自体のため link_selector は省略。一覧ページには目印が無いが、記事個別ページでは「…この記事コンテンツは有料会員限定です(残り710文字)今すぐ会員登録して記事を読む」のように本文が途中で切られる（2026-07-22、2記事で確認）。"
 
   - name: 愛媛新聞
     category: 社説
