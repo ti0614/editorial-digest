@@ -180,7 +180,7 @@ _SCRIPT_TEMPLATE = """
   function updateCounts() {
     var active = activeTiers();
     var grandTotal = 0;
-    document.querySelectorAll('section.dategroup[data-nat]').forEach(function (sec) {
+    document.querySelectorAll('section.dategroup[data-national]').forEach(function (sec) {
       var visible = 0;
       TIERS.forEach(function (t) {
         if (active[t]) visible += parseInt(sec.getAttribute('data-' + t), 10) || 0;
