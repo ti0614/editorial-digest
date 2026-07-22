@@ -311,11 +311,9 @@ def render_html(results: list, run_date: date) -> str:
     special_by_tier: dict[str, list[str]] = {t: [] for t in TIERS}
     for r in results:
         if r.skipped_by_robots:
-            note = f'<p class="note note-skip"><strong>{_esc(r.name)}</strong>：robots.txt の指定により取得を見送りました（意図した動作）。</p>'
-        elif r.error:
-            note = f'<p class="note note-error"><strong>{_esc(r.name)}</strong>：取得できませんでした（{_esc(r.error)}）。</p>'
-        elif not r.items:
-            note = f'<p class="note note-error"><strong>{_esc(r.name)}</strong>：現在のセレクタでは記事を取得できませんでした（要調査、sources.yaml を確認してください）。</p>'
+            note = f'<p class="note note-skip"><strong>{_esc(r.name)}</strong>：サイト運営者の意向により、このページでは取得していません。</p>'
+        elif r.error or not r.items:
+            note = f'<p class="note note-error"><strong>{_esc(r.name)}</strong>：現在、記事を取得できませんでした（サイト側の変更や一時的な不具合の可能性があります）。</p>'
         else:
             continue
         special_by_tier[norm_tier(r.tier)].append(note)
