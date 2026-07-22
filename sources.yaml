@@ -399,3 +399,80 @@ sources:
     date_selector: "span.date"
     verified: false
     note: "和歌山県（北部）。ホームページ内・Web検索のいずれでも社説・コラムの専用一覧ページを発見できなかった（要調査）。"
+
+  # ---- 地方紙（中国・四国ブロック、広島は既存の中国新聞で対応試み済み） ----
+  - name: 山陽新聞
+    category: 社説
+    tier: regional
+    index_url: https://www.sanyonews.jp/opinion/shasetsu/
+    item_selector: "div.post_list.post_list-type_thm_bg-m div.post_item"
+    title_selector: "h3.post_title"
+    link_selector: "h3.post_title a"
+    date_selector: "div.post_date"
+    verified: true
+    note: "岡山県。デジタル版「さんデジ」。北海道新聞・北國新聞と同系のCMSと見られる（クラス名が酷似）。"
+
+  - name: 山陰中央新報
+    category: 論説
+    tier: regional
+    index_url: https://www.sanin-chuo.co.jp/category/editorial
+    item_selector: "article.m-articles-item"
+    title_selector: "h2.m-articles-item__ttl a"
+    link_selector: "h2.m-articles-item__ttl a"
+    date_selector: "time.m-articles-item__pubdate"
+    verified: true
+    note: "島根県。論説コラムの呼称は「論説」。鳥取県東部・岡山県西部の一部もカバー。"
+
+  - name: 徳島新聞
+    category: 社説
+    tier: regional
+    index_url: https://www.topics.or.jp/category/editorial
+    item_selector: "a.m-article-list-default__link"
+    title_selector: "span.u-hover-txt02__target"
+    date_selector: "time"
+    verified: true
+    note: "徳島県。itemが記事へのリンク(<a>)自体のため link_selector は省略。"
+
+  - name: 愛媛新聞
+    category: 社説
+    tier: regional
+    index_url: https://www.ehime-np.co.jp/online/editorial/
+    item_selector: "li.textlink__item"
+    title_selector: "span.textlink__item_big--tit, span.textlink__item--tit"
+    link_selector: "a"
+    date_selector: "span.textlink__item_big--days, span.textlink__item--days"
+    verified: true
+    note: "愛媛県。先頭（最新）の1件だけクラス名が textlink__item_big--* になり、2件目以降は textlink__item--* になるため両方を許容している。"
+
+  - name: 高知新聞
+    category: 社説
+    tier: regional
+    index_url: https://www.kochinews.co.jp/tag/detail/editorial
+    item_selector: "div.articlesList.col3 article"
+    title_selector: "p.tit"
+    link_selector: "a"
+    date_selector: "p.data"
+    verified: true
+    note: "高知県。item内の表示カテゴリは「高知のニュース」等の一般表記になるが、URL自体が /tag/detail/editorial （社説タグ専用）のため内容は社説のみ。素の article セレクタだとページ下部の「アクセスランキング」枠（articlesList col-ranking）にも同じ構造が使われ無関係記事が混入するため、col3 のコンテナに絞り込んでいる。"
+
+  - name: 日本海新聞
+    category: 論説
+    tier: regional
+    index_url: "https://www.nnn.co.jp/list/%E3%82%B3%E3%83%A9%E3%83%A0%E3%83%BB%E8%AB%96%E8%AA%AC"
+    item_selector: "li.article"
+    title_selector: "span.title"
+    link_selector: "a"
+    date_selector: "span.date"
+    verified: false
+    note: "鳥取県。このURLは「コラム・論説」混在ページで、短文コラム（海潮音・山陰抄等）と論説記事が同居しているが、他紙のような「社説」等の一貫した接頭辞が無く、タイトル文字列だけでは論説記事のみを安全に判別できなかった（要調査）。なお大阪日日新聞の後継事業（週刊版）もこの日本海新聞グループが運営している。"
+
+  - name: 四国新聞
+    category: 社説
+    tier: regional
+    index_url: https://www.shikoku-np.co.jp/
+    item_selector: "li.article"
+    title_selector: "span.title"
+    link_selector: "a"
+    date_selector: "span.date"
+    verified: false
+    note: "香川県。ホームページ内に社説・論説へのリンクが見当たらず、候補URLもすべてトップページと同一の骨組みだけを返す実質404で、専用ページを特定できなかった（要調査）。"
