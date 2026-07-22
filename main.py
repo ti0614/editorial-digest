@@ -45,6 +45,7 @@ class Item:
     title: str
     link: str
     published: str | None
+    paid: bool = False
 
 
 @dataclass
@@ -138,7 +139,8 @@ def extract_items(html: str, base_url: str, source: dict, reference_date: date) 
         published = date_node.get_text(strip=True) if date_node is not None else None
         if not within_digest_window(published, reference_date):
             continue
-        items.append(Item(title=title, link=link, published=published))
+        paid = bool(source.get("paid_selector")) and node.select_one(source["paid_selector"]) is not None
+        items.append(Item(title=title, link=link, published=published, paid=paid))
     return items
 
 

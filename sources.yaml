@@ -8,15 +8,19 @@
 # 各項目の意味:
 #   name        : 新聞社名（表示用）
 #   category    : この社の論説コラムの呼称（社説 / 主張 など）
-#   tier        : national（全国紙）/ regional（ブロック紙・地方紙）。
-#                 生成するWebページで「全国紙をメイン表示、他はトグルで表示」
-#                 を切り分けるために使う。省略時は regional 扱い。
+#   tier        : national（全国紙）/ block（ブロック紙、複数県にまたがる
+#                 広域紙）/ regional（地方紙、都道府県紙）。生成するWebページ
+#                 で3種類の表示切り替えに使う。省略時は regional 扱い。
 #   index_url   : 社説一覧ページのURL
 #   item_selector  : 一覧ページ内の「記事1件」を指すCSSセレクタ
 #   title_selector : item_selector の中でタイトルを含む要素（省略時はitem自体のテキスト）
 #   link_selector  : item_selector の中でリンク(<a>)を指すセレクタ（省略時はitem自体がaタグ）
 #   date_selector  : 日付を含む要素（任意、なければ省略可）
 #   title_exclude_selector : タイトル内から除去する要素（任意。"New"バッジ等の混入除去用）
+#   paid_selector : item内に存在すれば「会員限定記事」とみなす要素（任意、
+#                 CSSセレクタ）。各紙が使っている鍵アイコン等のクラスを指定する。
+#                 未設定の場合は「会員限定かどうか判定していない」ことを意味し、
+#                 無料記事と断定しているわけではない点に注意（未調査なだけ）。
 #   verified    : false の場合、実機未検証（要確認）であることを示す
 
 sources:
@@ -76,7 +80,7 @@ sources:
   # ---- 地方紙・専門紙（順次拡充） ----
   - name: 東京新聞
     category: 社説
-    tier: regional
+    tier: block
     index_url: https://www.tokyo-np.co.jp/n/column/editorial
     item_selector: 'div.detail:has(a[href*="rct=editorial"])'
     title_selector: "p.detail-ttl"
@@ -87,7 +91,7 @@ sources:
 
   - name: 中日新聞
     category: 社説
-    tier: regional
+    tier: block
     index_url: https://www.chunichi.co.jp/wadai/opinion/editorial
     item_selector: 'div.detail:has(a[href*="rct=editorial"])'
     title_selector: "p.detail-ttl"
@@ -98,7 +102,7 @@ sources:
 
   - name: 北海道新聞
     category: 社説
-    tier: regional
+    tier: block
     index_url: https://www.hokkaido-np.co.jp/tags/editorial/
     item_selector: "div.post_list.post_list-type_thm_bg-m div.post_item"
     title_selector: "div.post_title"
@@ -109,7 +113,7 @@ sources:
 
   - name: 西日本新聞
     category: 社説
-    tier: regional
+    tier: block
     index_url: https://www.nishinippon.co.jp/category/column/editorial/
     item_selector: "article"
     title_selector: "h2"
@@ -205,8 +209,9 @@ sources:
     title_selector: "h2.m-article__ttl"
     link_selector: "a.m-article"
     date_selector: "time.c-time"
+    paid_selector: "div.c-paid-icon"
     verified: true
-    note: "福島県。論説コラムの呼称は「論説」。同名紙に福島民友（minyu-net.com）もあるが、本ツールで採用しているのは福島民報（minpo.jp）。最新1件のみ日付が「22時間前」等の相対表記になっており日付が解釈できない場合があるが、取りこぼしを避けるため対象に含めている。"
+    note: "福島県。論説コラムの呼称は「論説」。同名紙に福島民友（minyu-net.com）もあるが、本ツールで採用しているのは福島民報（minpo.jp）。最新1件のみ日付が「22時間前」等の相対表記になっており日付が解釈できない場合があるが、取りこぼしを避けるため対象に含めている。掲載分は全て会員限定（有料）。"
 
   - name: 岩手日報
     category: 社説
@@ -239,8 +244,9 @@ sources:
     title_selector: "h3.hdg span.title"
     link_selector: "a"
     date_selector: "p.info"
+    paid_selector: "h3.hdg span.title.lock"
     verified: true
-    note: "カナロコ by 神奈川新聞。section.cont はこのページの他要素にも使われるが、h3.hdg（記事タイトル）を持たない要素は main.py 側で自動的にスキップされるため実害はない。"
+    note: "カナロコ by 神奈川新聞。section.cont はこのページの他要素にも使われるが、h3.hdg（記事タイトル）を持たない要素は main.py 側で自動的にスキップされるため実害はない。掲載分は全て会員限定（有料）。"
 
   - name: 茨城新聞
     category: 論説
@@ -316,8 +322,9 @@ sources:
     item_selector: 'a.u-block-link.u-no-underline.u-no-opacity:has(div.m-articles-item)'
     title_selector: "h3"
     date_selector: "time.m-articles-item__info-date"
+    paid_selector: "span.c-paid"
     verified: true
-    note: "石川県。item自体が記事へのリンク(<a>)のため link_selector は省略。1日に2本社説を掲載することが多い（重複ではなく別記事）。"
+    note: "石川県。item自体が記事へのリンク(<a>)のため link_selector は省略。1日に2本社説を掲載することが多い（重複ではなく別記事）。掲載分は全て会員限定（有料）。"
 
   - name: 福井新聞
     category: 論説
@@ -486,8 +493,9 @@ sources:
     title_selector: "span.y2024-box__list-text-01"
     link_selector: "a"
     date_selector: "span.y2024-box__list-text-02"
+    paid_selector: "i.el_icon__custom-lock-paid"
     verified: true
-    note: "熊本県。"
+    note: "熊本県。掲載分は全て会員限定（有料）。"
 
   - name: 大分合同新聞
     category: 論説
@@ -529,8 +537,9 @@ sources:
     item_selector: "a.c-card.c-card--vertical"
     title_selector: "div.c-card__title"
     date_selector: "time.c-card__text"
+    paid_selector: "span.c-mark--paid"
     verified: true
-    note: "沖縄県。itemが記事へのリンク(<a>)自体のため link_selector は省略。"
+    note: "沖縄県。itemが記事へのリンク(<a>)自体のため link_selector は省略。掲載後しばらく経つと会員限定に切り替わる（新しい記事は無料）。"
 
   - name: 琉球新報
     category: 社説
