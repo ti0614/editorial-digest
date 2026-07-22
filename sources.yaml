@@ -218,3 +218,70 @@ sources:
     date_selector: "span.date"
     verified: false
     note: "岩手県。社説・論説の専用一覧ページを発見できなかった（要調査）。ホームページ内にも社説へのリンクが見当たらず、/article/category/{editorial,syasetsu,ronsetsu,column,opinion} 等の候補URLもすべて404。ネットワークアクセス可能な環境で構造の再調査が必要。"
+
+  # ---- 地方紙（関東ブロック、東京は既存の東京新聞で対応済み） ----
+  - name: 下野新聞
+    category: 論説
+    tier: regional
+    index_url: https://www.shimotsuke.co.jp/category/column-opinion-Editorial
+    item_selector: "ul.article-category-list li"
+    title_selector: "p.title"
+    link_selector: "a"
+    date_selector: "p.date"
+    verified: true
+    note: "栃木県。論説コラムの呼称は「論説」。"
+
+  - name: 神奈川新聞
+    category: 社説
+    tier: regional
+    index_url: https://www.kanaloco.jp/special/discourse/editorial/
+    item_selector: "section.cont"
+    title_selector: "h3.hdg span.title"
+    link_selector: "a"
+    date_selector: "p.info"
+    verified: true
+    note: "カナロコ by 神奈川新聞。section.cont はこのページの他要素にも使われるが、h3.hdg（記事タイトル）を持たない要素は main.py 側で自動的にスキップされるため実害はない。"
+
+  - name: 茨城新聞
+    category: 論説
+    tier: regional
+    index_url: "https://ibarakinews.jp/news/newsdetail.php?elem=ronsetu"
+    item_selector: "body"
+    title_selector: "h1.post-title"
+    link_selector: 'a[href="https://ibarakinews.jp/news/newsdetail.php?elem=ronsetu"]'
+    date_selector: "div.post-updated"
+    verified: true
+    note: "茨城新聞クロスアイ。論説コラムの呼称は「論説」。このURLは常に「最新の論説1件」を表示するページ（過去分の一覧ではない）で、記事本体へのパーマリンクも見当たらないため、item_selector は body 全体を1件として扱っている。robots.txt が Crawl-delay: 30 を指定しているため、他紙より間隔を空けてアクセスすること。"
+
+  - name: 上毛新聞
+    category: 社説
+    tier: regional
+    index_url: https://www.jomo-news.co.jp/
+    item_selector: "li.article"
+    title_selector: "span.title"
+    link_selector: "a"
+    date_selector: "span.date"
+    verified: false
+    note: "群馬県。社説の専用一覧ページを発見できなかった（要調査）。ホームページ内に社説・論説へのリンクが見当たらず、候補URL（/category/editorial 等）もすべて404。"
+
+  - name: 埼玉新聞
+    category: 社説
+    tier: regional
+    index_url: https://www.saitama-np.co.jp/
+    item_selector: "li.article"
+    title_selector: "span.title"
+    link_selector: "a"
+    date_selector: "span.date"
+    verified: false
+    note: "埼玉県。ホームページ内に「社説」「論説」の文言が一切見当たらず、専用ページを特定できなかった（要調査）。"
+
+  - name: 千葉日報
+    category: 社説
+    tier: regional
+    index_url: https://www.chibanippo.co.jp/
+    item_selector: "li.article"
+    title_selector: "span.title"
+    link_selector: "a"
+    date_selector: "span.date"
+    verified: false
+    note: "千葉県。調査時点でサイトが 500/504 エラーを返し続けており、ホームページ自体を取得できなかった（一時的な障害の可能性。後日再調査が必要）。"

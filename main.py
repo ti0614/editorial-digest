@@ -64,7 +64,7 @@ def load_sources() -> list[dict]:
     return data["sources"]
 
 
-def robots_allows(url: str) -> bool:
+def _get_robot_parser(url: str) -> robotparser.RobotFileParser:
     parsed = urlparse(url)
     origin = f"{parsed.scheme}://{parsed.netloc}"
     rp = _robots_cache.get(origin)
@@ -74,11 +74,33 @@ def robots_allows(url: str) -> bool:
         try:
             rp.read()
         except Exception:
-            # robots.txt が読めない場合は安全側に倒して許可しない
-            _robots_cache[origin] = rp
-            return False
+            pass
         _robots_cache[origin] = rp
+    return rp
+
+
+def robots_allows(url: str) -> bool:
+    rp = _get_robot_parser(url)
+    if rp.mtime() == 0:
+        # robots.txt が読めなかった場合は安全側に倒して許可しない
+        return False
     return rp.can_fetch(USER_AGENT, url)
+
+
+def crawl_delay_sec(url: str) -> float:
+    """robots.txt が Crawl-delay を指定している場合はその秒数を返す（無指定なら0）。"""
+    rp = _get_robot_parser(url)
+    delay = rp.crawl_delay(USER_AGENT)
+    return float(delay) if delay else 0.0
+
+
+def interval_after(source: dict) -> float:
+    """このソースを取得した直後に空けるべき待機秒数。
+
+    既定の REQUEST_INTERVAL_SEC を基本としつつ、サイトの robots.txt が
+    Crawl-delay を指定している場合はそちらを優先する（例: 茨城新聞は30秒）。
+    """
+    return max(REQUEST_INTERVAL_SEC, crawl_delay_sec(source["index_url"]))
 
 
 def fetch_html(url: str) -> str:
@@ -152,7 +174,7 @@ def run_check(only: list[str] | None) -> int:
             had_problem = True
         print(f"[{result.name}] {status}  <- {result.index_url}")
         if i < len(sources) - 1:
-            time.sleep(REQUEST_INTERVAL_SEC)
+            time.sleep(interval_after(source))
     return 1 if had_problem else 0
 
 
@@ -165,7 +187,7 @@ def run_digest(only: list[str] | None, run_date: date) -> int:
     for i, source in enumerate(sources):
         results.append(process_source(source, run_date))
         if i < len(sources) - 1:
-            time.sleep(REQUEST_INTERVAL_SEC)
+            time.sleep(interval_after(source))
 
     OUTPUT_DIR.mkdir(exist_ok=True)
     json_path = OUTPUT_DIR / f"{run_date.isoformat()}.json"
