@@ -6,9 +6,10 @@ main.py（取得・直近7日間フィルタ）と render.py（Webページの�
 from __future__ import annotations
 
 import re
-from datetime import date, timedelta
+from datetime import date, timedelta, timezone
 
 DIGEST_WINDOW_DAYS = 7  # 直近何日分の記事を対象とするか
+JST = timezone(timedelta(hours=9))
 
 # 観測された表記例:
 #   "2026年7月22日 05時00分" / "2026/7/22 02:02" / "2026.07.21" / "7月22日"
