@@ -349,7 +349,7 @@ def render_html(results: list, run_date: date) -> str:
   <header class="masthead">
     <p class="eyebrow">EDITORIAL DIGEST · WEEKLY</p>
     <h1>社説まとめ<br>週間ダイジェスト</h1>
-    <p class="summary">{range_label}（過去1週間）・全国紙 <strong id="total-count">{tier_totals["national"]}</strong>件</p>
+    <p class="summary">{range_label}（過去1週間）・表示中 <strong id="total-count">{tier_totals["national"]}</strong>件</p>
     <p class="disclaimer">タイトル・リンク・日付のみを収集しています。本文は各紙サイトでお読みください。「会員限定」表示は一部の新聞社のみ判定しており、表示が無くても無料とは限りません。</p>
     <div class="scope-toggle">
       <span class="scope-label">表示する範囲</span>
