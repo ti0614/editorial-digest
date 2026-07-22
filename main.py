@@ -145,7 +145,10 @@ def extract_items(html: str, base_url: str, source: dict, reference_date: date) 
             # （例: 北國新聞は同じ社説が別記事IDで2件並ぶ）。先勝ちで1件に絞る。
             continue
         seen_titles.add(title)
-        paid = bool(source.get("paid_selector")) and node.select_one(source["paid_selector"]) is not None
+        if source.get("always_paid"):
+            paid = True
+        else:
+            paid = bool(source.get("paid_selector")) and node.select_one(source["paid_selector"]) is not None
         items.append(Item(title=title, link=link, published=published, paid=paid))
     return items
 
