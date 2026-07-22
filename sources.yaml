@@ -19,8 +19,11 @@
 #   title_exclude_selector : タイトル内から除去する要素（任意。"New"バッジ等の混入除去用）
 #   paid_selector : item内に存在すれば「会員限定記事」とみなす要素（任意、
 #                 CSSセレクタ）。各紙が使っている鍵アイコン等のクラスを指定する。
-#                 未設定の場合は「会員限定かどうか判定していない」ことを意味し、
-#                 無料記事と断定しているわけではない点に注意（未調査なだけ）。
+#                 2026-07-22時点で verified: true の全紙について実機確認済み
+#                 （7紙で会員限定マークを発見、それ以外は未検出＝無料と判断）。
+#                 verified: false の紙（記事を取得できていない紙）は
+#                 未調査のまま。今後サイト側の仕様変更で再調査が必要になる
+#                 可能性がある。
 #   verified    : false の場合、実機未検証（要確認）であることを示す
 
 sources:
@@ -256,8 +259,9 @@ sources:
     title_selector: "h1.post-title"
     link_selector: 'a[href="https://ibarakinews.jp/news/newsdetail.php?elem=ronsetu"]'
     date_selector: "div.post-updated"
+    paid_selector: "div.pay-wall-title"
     verified: true
-    note: "茨城新聞クロスアイ。論説コラムの呼称は「論説」。このURLは常に「最新の論説1件」を表示するページ（過去分の一覧ではない）で、記事本体へのパーマリンクも見当たらないため、item_selector は body 全体を1件として扱っている。robots.txt が Crawl-delay: 30 を指定しているため、他紙より間隔を空けてアクセスすること。"
+    note: "茨城新聞クロスアイ。論説コラムの呼称は「論説」。このURLは常に「最新の論説1件」を表示するページ（過去分の一覧ではない）で、記事本体へのパーマリンクも見当たらないため、item_selector は body 全体を1件として扱っている。robots.txt が Crawl-delay: 30 を指定しているため、他紙より間隔を空けてアクセスすること。掲載分は会員限定（有料）。"
 
   - name: 上毛新聞
     category: 社説
@@ -527,8 +531,9 @@ sources:
     title_selector: "h1.syasetsu_title"
     link_selector: 'a[href="https://373news.com/lineup/syasetsu/"]'
     date_selector: "div.syasetsu_date"
+    paid_selector: "div#Paywall"
     verified: true
-    note: "鹿児島県。このURLは常に「最新の社説1件」を表示するページ（過去分の一覧ではない）で、茨城新聞と同様 item_selector は body 全体を1件として扱っている。日付ごとの過去分アーカイブ（/lineup/syasetsu/YYYYMMDD/）も存在するが、複数日を横断取得する仕組みは本ツールには無いため今回は対応していない。"
+    note: "鹿児島県。このURLは常に「最新の社説1件」を表示するページ（過去分の一覧ではない）で、茨城新聞と同様 item_selector は body 全体を1件として扱っている。日付ごとの過去分アーカイブ（/lineup/syasetsu/YYYYMMDD/）も存在するが、複数日を横断取得する仕組みは本ツールには無いため今回は対応していない。掲載分は会員限定（有料）。"
 
   - name: 沖縄タイムス
     category: 社説
