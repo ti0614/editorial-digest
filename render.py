@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import html
 from collections import defaultdict
+from dataclasses import dataclass
 from datetime import date, datetime
 
 from pubdate import parse_published_date, parse_published_time
@@ -252,6 +253,88 @@ def _esc(s: str) -> str:
     return html.escape(s, quote=True)
 
 
+def _normalize_tier(tier: str) -> str:
+    return tier if tier in TIERS else "regional"
+
+
+@dataclass
+class _FlatItem:
+    name: str
+    tier: str
+    title: str
+    link: str
+    time: str | None
+    date: date
+    paid: bool
+
+
+def _flatten_items(results: list, run_date: date) -> list[_FlatItem]:
+    flat = []
+    for r in results:
+        tier = _normalize_tier(r.tier)
+        for it in r.items:
+            flat.append(_FlatItem(
+                name=r.name, tier=tier, title=it.title, link=it.link,
+                time=parse_published_time(it.published),
+                date=parse_published_date(it.published, run_date) or run_date,
+                paid=getattr(it, "paid", False),
+            ))
+    return flat
+
+
+def _group_by_date(items_flat: list[_FlatItem]) -> dict[date, list[_FlatItem]]:
+    by_date: dict[date, list[_FlatItem]] = defaultdict(list)
+    for item in items_flat:
+        by_date[item.date].append(item)
+    for items in by_date.values():
+        items.sort(key=lambda x: (x.time is None, x.time or "", x.name))
+    return by_date
+
+
+_TAG_CLASS = {"national": "src-tag", "block": "src-tag src-tag-block", "regional": "src-tag src-tag-regional"}
+
+
+def _render_article_row(item: _FlatItem) -> str:
+    title = _esc(item.title)
+    link = _esc(item.link)
+    src = _esc(item.name)
+    time_html = f'<time>{item.time}</time>' if item.time else ""
+    paid_html = '<span class="paid-badge">会員限定</span>' if item.paid else ""
+    paid_class = " paid-item" if item.paid else ""
+    return (
+        f'<li class="article-item tier-{item.tier}{paid_class}"><a class="article" href="{link}" target="_blank" rel="noopener noreferrer">'
+        f'<span class="article-main"><span class="{_TAG_CLASS[item.tier]}">{src}</span>'
+        f'<span class="article-title">{title}{paid_html}</span></span>{time_html}</a></li>'
+    )
+
+
+def _render_date_section(d: date, items: list[_FlatItem], max_date: date) -> tuple[str, str]:
+    """指定日のナビゲーションピルとセクションHTMLを組み立てて返す。
+
+    件数は既定表示である全国紙分のみを数える（他tierを表示した際の実際の
+    件数は、クライアント側のJS (updateCounts) が表示要素数から再計算する）。
+    """
+    anchor = f"d-{d.isoformat()}"
+    default_count = sum(1 for it in items if it.tier == "national")
+    pill = (
+        f'<a class="pill" href="#{anchor}">{d.month}/{d.day}'
+        f'<span class="pill-count">{default_count}</span></a>'
+    )
+
+    rows = "".join(_render_article_row(it) for it in items)
+    wd = WEEKDAY_JP[d.weekday()]
+    latest_flag = ' <span class="latest-flag">最新</span>' if d == max_date else ""
+    section = f'''
+<section class="dategroup" id="{anchor}">
+  <div class="date-head">
+    <h2>{d.month}<span class="slash">/</span>{d.day}<span class="wd">（{wd}）</span></h2>
+    <span class="date-count">{default_count}件</span>{latest_flag}
+  </div>
+  <ul class="article-list">{rows}</ul>
+</section>'''
+    return pill, section
+
+
 def render_html(results: list, run_date: date, generated_at: datetime | None = None) -> str:
     """SourceResult のリストから週間ダイジェストHTMLを組み立てる。
 
@@ -263,24 +346,8 @@ def render_html(results: list, run_date: date, generated_at: datetime | None = N
     regional の3種類（未知の値は regional 扱い）。
     generated_at はページ生成時刻（JST想定）。省略時はヘッダーに時刻を表示しない。
     """
-    def norm_tier(t: str) -> str:
-        return t if t in TIERS else "regional"
-
-    items_flat = []
-    for r in results:
-        tier = norm_tier(r.tier)
-        for it in r.items:
-            d = parse_published_date(it.published, run_date) or run_date
-            t = parse_published_time(it.published)
-            items_flat.append({
-                "name": r.name, "tier": tier, "title": it.title,
-                "link": it.link, "published": it.published, "date": d, "time": t,
-                "paid": getattr(it, "paid", False),
-            })
-
-    by_date: dict[date, list[dict]] = defaultdict(list)
-    for x in items_flat:
-        by_date[x["date"]].append(x)
+    items_flat = _flatten_items(results, run_date)
+    by_date = _group_by_date(items_flat)
 
     if by_date:
         max_date = max(by_date)
@@ -288,50 +355,12 @@ def render_html(results: list, run_date: date, generated_at: datetime | None = N
     else:
         max_date = min_date = run_date
 
-    for items in by_date.values():
-        items.sort(key=lambda x: (x["time"] is None, x["time"] or "", x["name"]))
-
-    sorted_dates = sorted(by_date.keys(), reverse=True)
-
-    tag_class = {"national": "src-tag", "block": "src-tag src-tag-block", "regional": "src-tag src-tag-regional"}
-
     nav_pills = []
     sections = []
-    for d in sorted_dates:
-        items = by_date[d]
-        tier_counts = {t: sum(1 for it in items if it["tier"] == t) for t in TIERS}
-        default_count = tier_counts["national"]
-        anchor = f"d-{d.isoformat()}"
-        nav_pills.append(
-            f'<a class="pill" href="#{anchor}">{d.month}/{d.day}'
-            f'<span class="pill-count">{default_count}</span></a>'
-        )
-
-        rows = []
-        for it in items:
-            tier = it["tier"]
-            title = _esc(it["title"])
-            link = _esc(it["link"])
-            src = _esc(it["name"])
-            time_html = f'<time>{it["time"]}</time>' if it["time"] else ""
-            paid_html = '<span class="paid-badge">会員限定</span>' if it["paid"] else ""
-            paid_class = " paid-item" if it["paid"] else ""
-            rows.append(
-                f'<li class="article-item tier-{tier}{paid_class}"><a class="article" href="{link}" target="_blank" rel="noopener noreferrer">'
-                f'<span class="article-main"><span class="{tag_class[tier]}">{src}</span>'
-                f'<span class="article-title">{title}{paid_html}</span></span>{time_html}</a></li>'
-            )
-
-        wd = WEEKDAY_JP[d.weekday()]
-        latest_flag = ' <span class="latest-flag">最新</span>' if d == max_date else ""
-        sections.append(f'''
-<section class="dategroup" id="{anchor}">
-  <div class="date-head">
-    <h2>{d.month}<span class="slash">/</span>{d.day}<span class="wd">（{wd}）</span></h2>
-    <span class="date-count">{default_count}件</span>{latest_flag}
-  </div>
-  <ul class="article-list">{"".join(rows)}</ul>
-</section>''')
+    for d in sorted(by_date, reverse=True):
+        pill, section = _render_date_section(d, by_date[d], max_date)
+        nav_pills.append(pill)
+        sections.append(section)
 
     unavailable_names = [
         r.name for r in results
@@ -343,8 +372,8 @@ def render_html(results: list, run_date: date, generated_at: datetime | None = N
         if unavailable_names else ""
     )
 
-    tier_names = {t: [r.name for r in results if norm_tier(r.tier) == t] for t in TIERS}
-    tier_totals = {t: sum(1 for x in items_flat if x["tier"] == t) for t in TIERS}
+    tier_names = {t: [r.name for r in results if _normalize_tier(r.tier) == t] for t in TIERS}
+    national_total = sum(1 for x in items_flat if x.tier == "national")
     range_label = f"{min_date.month}/{min_date.day} 〜 {max_date.month}/{max_date.day}"
 
     updated_at_html = (
@@ -370,7 +399,7 @@ def render_html(results: list, run_date: date, generated_at: datetime | None = N
       {updated_at_html}
     </div>
     <h1>社説まとめ<br>週間ダイジェスト</h1>
-    <p class="summary">{range_label}（過去1週間）・表示中 <strong id="total-count">{tier_totals["national"]}</strong>件</p>
+    <p class="summary">{range_label}（過去1週間）・表示中 <strong id="total-count">{national_total}</strong>件</p>
     <p class="disclaimer">タイトル・リンク・日付のみを収集しています。本文は各紙サイトでお読みください。</p>
     <div class="scope-toggle">
       <span class="scope-label">表示する範囲</span>

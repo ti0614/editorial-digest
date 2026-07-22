@@ -66,7 +66,7 @@ Artifacts・GitHub Pages など任意の静的ホスティングに公開して�
 - 一覧ページの日付表記に時刻が含まれない記事（多くのサイトで、当日分は
   時刻付きだがそれ以前の日は日付のみになる）については、`python main.py
   run` 実行時に記事個別ページを追加で取得し、`<time>` タグから時刻を
-  補います（`main.py` の `enrich_missing_times`）。この追加アクセスにも
+  補います（`extract.py` の `enrich_missing_times`）。この追加アクセスにも
   同じ待機時間・`robots.txt` チェックを適用します。記事ページに `<time>`
   タグが無いサイトでは時刻を補えない場合があります。
 - 出力対象は **直近7日分の記事のみ**（`pubdate.py` の `DIGEST_WINDOW_DAYS`
@@ -84,8 +84,8 @@ Artifacts・GitHub Pages など任意の静的ホスティングに公開して�
   あるため、定期的に `python main.py check` で疎通確認することを推奨します。
 - 一部のサイト（例: 茨城新聞クロスアイ）は `robots.txt` で `Crawl-delay`
   を指定しています。本ツールはこれを検出すると、既定の待機時間（2秒）
-  より長く空けてからそのサイトへアクセスします（`main.py` の
-  `crawl_delay_sec` / `interval_after`）。
+  より長く空けてからそのサイトへアクセスします（`robots.py` の
+  `RobotsChecker.crawl_delay_sec` / `interval_after`）。
 - `robots.txt` の取得・解析は Python標準の `urlopen`（UTF-8決め打ち）では
   なく `requests` の文字コード自動判定を使っています。奈良新聞のように
   Shift-JIS等で配信しているサイトを `UnicodeDecodeError` で誤って
@@ -165,7 +165,10 @@ Artifacts・GitHub Pages 等に公開してください。
 
 | ファイル | 役割 |
 |---|---|
-| `main.py` | CLI本体。各紙サイトを取得し `sources.yaml` のセレクタで抽出、`render.py` を呼んでHTMLを書き出す |
+| `main.py` | CLIエントリーポイント。ソースの読み込み・巡回ループを制御し、`render.py` を呼んでHTMLを書き出す |
+| `robots.py` | `robots.txt` の許可判定・`Crawl-delay` をオリジンごとに管理する `RobotsChecker` |
+| `fetch.py` | HTTP取得の薄いラッパー（User-Agent・タイムアウト・文字コード自動判定） |
+| `extract.py` | 一覧ページのHTMLから記事(`Item`)を抽出し、不足する時刻を記事個別ページから補う |
 | `pubdate.py` | 各紙バラバラの日付表記を正規化・直近7日間フィルタする共通ロジック |
 | `render.py` | 取得結果からWebページ（`output/digest.html`）を組み立てるテンプレート |
 | `sources.yaml` | 各紙のURL・CSSセレクタ・`tier`（national/regional）などの設定 |
