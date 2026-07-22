@@ -82,6 +82,16 @@ button.tier-chip:hover { background: var(--accent-soft); }
 button.tier-chip[aria-pressed="true"] { background: var(--accent); color: var(--surface); }
 button.tier-chip:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 
+button.paid-toggle {
+  margin-top: 0.6rem; width: 100%; font: inherit; font-size: 0.78rem; font-weight: 600;
+  padding: 0.45rem 0.7rem; border-radius: 8px; border: 1px solid var(--rule);
+  background: transparent; color: var(--ink-muted); cursor: pointer;
+}
+button.paid-toggle:hover { background: var(--warn-soft); }
+button.paid-toggle[aria-pressed="true"] { background: var(--warn-soft); color: var(--warn); border-color: var(--warn); }
+button.paid-toggle:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+body.hide-paid li.paid-item { display: none; }
+
 nav.quicknav {
   position: sticky; top: 0; z-index: 5; background: var(--bg);
   border-bottom: 1px solid var(--rule); padding: 0.6rem 0; overflow-x: auto;
@@ -169,18 +179,17 @@ _SCRIPT_TEMPLATE = """
   }
 
   function updateCounts() {
-    var active = activeTiers();
     var grandTotal = 0;
-    document.querySelectorAll('section.dategroup[data-national]').forEach(function (sec) {
-      var visible = 0;
-      TIERS.forEach(function (t) {
-        if (active[t]) visible += parseInt(sec.getAttribute('data-' + t), 10) || 0;
+    document.querySelectorAll('section.dategroup').forEach(function (sec) {
+      var count = 0;
+      sec.querySelectorAll('li.article-item').forEach(function (li) {
+        if (li.offsetParent !== null) count++;
       });
-      grandTotal += visible;
+      grandTotal += count;
       var countEl = sec.querySelector('.date-count');
-      if (countEl) countEl.textContent = visible + '件';
+      if (countEl) countEl.textContent = count + '件';
       var pill = document.querySelector('.pill[href="#' + sec.id + '"] .pill-count');
-      if (pill) pill.textContent = visible;
+      if (pill) pill.textContent = count;
     });
     if (totalEl) totalEl.textContent = grandTotal;
   }
@@ -211,6 +220,28 @@ _SCRIPT_TEMPLATE = """
       applyAll(state);
     });
   });
+
+  var paidToggle = document.getElementById('paid-toggle');
+  var hidePaid = false;
+  function applyPaidToggle() {
+    body.classList.toggle('hide-paid', hidePaid);
+    if (paidToggle) {
+      paidToggle.setAttribute('aria-pressed', hidePaid ? 'true' : 'false');
+      paidToggle.textContent = hidePaid ? '会員限定記事: 非表示中' : '会員限定記事: 表示中';
+    }
+    updateCounts();
+    try { localStorage.setItem('editorial-digest-hide-paid', hidePaid ? '1' : '0'); } catch (e) {}
+  }
+  try {
+    hidePaid = localStorage.getItem('editorial-digest-hide-paid') === '1';
+  } catch (e) {}
+  applyPaidToggle();
+  if (paidToggle) {
+    paidToggle.addEventListener('click', function () {
+      hidePaid = !hidePaid;
+      applyPaidToggle();
+    });
+  }
 })();
 """
 
@@ -281,17 +312,17 @@ def render_html(results: list, run_date: date) -> str:
             src = _esc(it["name"])
             time_html = f'<time>{it["time"]}</time>' if it["time"] else ""
             paid_html = '<span class="paid-badge">会員限定</span>' if it["paid"] else ""
+            paid_class = " paid-item" if it["paid"] else ""
             rows.append(
-                f'<li class="article-item tier-{tier}"><a class="article" href="{link}" target="_blank" rel="noopener noreferrer">'
+                f'<li class="article-item tier-{tier}{paid_class}"><a class="article" href="{link}" target="_blank" rel="noopener noreferrer">'
                 f'<span class="article-main"><span class="{tag_class[tier]}">{src}</span>'
                 f'<span class="article-title">{title}{paid_html}</span></span>{time_html}</a></li>'
             )
 
         wd = WEEKDAY_JP[d.weekday()]
         latest_flag = ' <span class="latest-flag">最新</span>' if d == max_date else ""
-        data_attrs = " ".join(f'data-{t}="{tier_counts[t]}"' for t in TIERS)
         sections.append(f'''
-<section class="dategroup" id="{anchor}" {data_attrs}>
+<section class="dategroup" id="{anchor}">
   <div class="date-head">
     <h2>{d.month}<span class="slash">/</span>{d.day}<span class="wd">（{wd}）</span></h2>
     <span class="date-count">{default_count}件</span>{latest_flag}
@@ -334,6 +365,7 @@ def render_html(results: list, run_date: date) -> str:
       <div class="tier-chips">
 {chips_html}
       </div>
+      <button type="button" class="paid-toggle" id="paid-toggle" aria-pressed="false">会員限定記事: 表示中</button>
     </div>
   </header>
 
