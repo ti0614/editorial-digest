@@ -52,10 +52,11 @@ body {
   font-size: 16px; line-height: 1.7; -webkit-font-smoothing: antialiased; overflow-x: hidden;
 }
 .wrap { max-width: 640px; margin: 0 auto; padding: 0 0 4rem; }
-header.masthead { position: relative; padding: 2.25rem 1.25rem 1.25rem; border-bottom: 1px solid var(--rule); }
-.eyebrow { font-size: 0.72rem; letter-spacing: 0.14em; color: var(--ink-faint); text-transform: uppercase; margin: 0 0 0.5rem; }
+header.masthead { padding: 2.25rem 1.25rem 1.25rem; border-bottom: 1px solid var(--rule); }
+.masthead-top { display: flex; align-items: center; justify-content: space-between; gap: 0.75rem; margin: 0 0 0.5rem; }
+.eyebrow { font-size: 0.72rem; letter-spacing: 0.14em; color: var(--ink-faint); text-transform: uppercase; margin: 0; }
 .updated-at {
-  position: absolute; top: 1rem; right: 1.25rem; margin: 0;
+  margin: 0; flex: none;
   display: inline-flex; align-items: center; gap: 0.4rem;
   background: var(--accent-soft); color: var(--accent); border-radius: 999px;
   padding: 0.28rem 0.7rem 0.28rem 0.6rem; font-size: 0.7rem; font-variant-numeric: tabular-nums;
@@ -355,7 +356,7 @@ def render_html(results: list, run_date: date, generated_at: datetime | None = N
     range_label = f"{min_date.month}/{min_date.day} 〜 {max_date.month}/{max_date.day}"
 
     updated_at_html = (
-        f'<p class="updated-at"><span class="updated-dot"></span>更新 {generated_at.month}/{generated_at.day} '
+        f'<p class="updated-at"><span class="updated-dot"></span>UPDATED {generated_at.month}/{generated_at.day} '
         f'{generated_at.hour:02d}:{generated_at.minute:02d}</p>'
         if generated_at is not None else ""
     )
@@ -372,8 +373,10 @@ def render_html(results: list, run_date: date, generated_at: datetime | None = N
 
 <div class="wrap">
   <header class="masthead">
-    <p class="eyebrow">EDITORIAL DIGEST · WEEKLY</p>
-    {updated_at_html}
+    <div class="masthead-top">
+      <p class="eyebrow">EDITORIAL DIGEST · WEEKLY</p>
+      {updated_at_html}
+    </div>
     <h1>社説まとめ<br>週間ダイジェスト</h1>
     <p class="summary">{range_label}（過去1週間）・表示中 <strong id="total-count">{tier_totals["national"]}</strong>件</p>
     <p class="disclaimer">タイトル・リンク・日付のみを収集しています。本文は各紙サイトでお読みください。</p>
