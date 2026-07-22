@@ -307,7 +307,8 @@ def run_digest(only: list[str] | None, run_date: date) -> int:
     html_path = OUTPUT_DIR / "digest.html"
 
     write_json(json_path, run_date, results)
-    html_path.write_text(render.render_html(results, run_date), encoding="utf-8")
+    generated_at = datetime.now(_JST)
+    html_path.write_text(render.render_html(results, run_date, generated_at), encoding="utf-8")
 
     ok = sum(1 for r in results if not r.error and not r.skipped_by_robots and r.items)
     print(f"{len(results)} 紙中 {ok} 紙を取得しました -> {html_path}")

@@ -10,7 +10,7 @@ from __future__ import annotations
 
 import html
 from collections import defaultdict
-from datetime import date
+from datetime import date, datetime
 
 from pubdate import parse_published_date, parse_published_time
 
@@ -54,6 +54,7 @@ body {
 .wrap { max-width: 640px; margin: 0 auto; padding: 0 0 4rem; }
 header.masthead { padding: 2.25rem 1.25rem 1.25rem; border-bottom: 1px solid var(--rule); }
 .eyebrow { font-size: 0.72rem; letter-spacing: 0.14em; color: var(--ink-faint); text-transform: uppercase; margin: 0 0 0.5rem; }
+.updated-at { font-size: 0.72rem; color: var(--ink-faint); margin: 0 0 0.6rem; font-variant-numeric: tabular-nums; }
 h1 {
   font-family: "Hiragino Mincho ProN","Yu Mincho","Noto Serif JP",serif;
   font-weight: 600; font-size: 1.85rem; line-height: 1.35; margin: 0 0 0.65rem; text-wrap: balance; letter-spacing: 0.01em;
@@ -250,7 +251,7 @@ def _esc(s: str) -> str:
     return html.escape(s, quote=True)
 
 
-def render_html(results: list, run_date: date) -> str:
+def render_html(results: list, run_date: date, generated_at: datetime | None = None) -> str:
     """SourceResult のリストから週間ダイジェストHTMLを組み立てる。
 
     results の各要素は main.py の SourceResult 互換（name / category / tier /
@@ -259,6 +260,7 @@ def render_html(results: list, run_date: date) -> str:
     main.py 側で既に直近7日間へフィルタ済みである前提（ここでは日付ごとの
     グルーピングのみ行い、再フィルタはしない）。tier は national / block /
     regional の3種類（未知の値は regional 扱い）。
+    generated_at はページ生成時刻（JST想定）。省略時はヘッダーに時刻を表示しない。
     """
     def norm_tier(t: str) -> str:
         return t if t in TIERS else "regional"
@@ -344,6 +346,12 @@ def render_html(results: list, run_date: date) -> str:
     tier_totals = {t: sum(1 for x in items_flat if x["tier"] == t) for t in TIERS}
     range_label = f"{min_date.month}/{min_date.day} 〜 {max_date.month}/{max_date.day}"
 
+    updated_at_html = (
+        f'<p class="updated-at">更新: {generated_at.month}/{generated_at.day} '
+        f'{generated_at.hour:02d}:{generated_at.minute:02d}</p>'
+        if generated_at is not None else ""
+    )
+
     chips_html = "".join(
         f'<button type="button" class="tier-chip" data-tier="{t}" aria-pressed="{"true" if t == "national" else "false"}">'
         f'{TIER_LABEL[t]}<span class="tier-chip-count">{len(tier_names[t])}紙</span></button>'
@@ -357,6 +365,7 @@ def render_html(results: list, run_date: date) -> str:
 <div class="wrap">
   <header class="masthead">
     <p class="eyebrow">EDITORIAL DIGEST · WEEKLY</p>
+    {updated_at_html}
     <h1>社説まとめ<br>週間ダイジェスト</h1>
     <p class="summary">{range_label}（過去1週間）・表示中 <strong id="total-count">{tier_totals["national"]}</strong>件</p>
     <p class="disclaimer">タイトル・リンク・日付のみを収集しています。本文は各紙サイトでお読みください。</p>
