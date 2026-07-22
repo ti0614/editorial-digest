@@ -146,6 +146,10 @@ a.article:focus-visible { outline:2px solid var(--accent); outline-offset:2px; b
   padding: 0 0.3rem; margin-left: 0.4rem; letter-spacing: 0.02em; white-space: nowrap;
   vertical-align: 0.1em;
 }
+a.article time {
+  flex:none; font-size:0.76rem; color:var(--ink-faint); font-variant-numeric: tabular-nums;
+  white-space:nowrap; padding-top:0.2rem;
+}
 
 .note { margin:0.6rem 0 0; padding:0.7rem 0.85rem; border-radius:6px; font-size:0.88rem; line-height:1.6; }
 .note-skip { background: var(--warn-soft); color: var(--warn); }
@@ -284,11 +288,12 @@ def render_html(results: list, run_date: date) -> str:
             title = _esc(it["title"])
             link = _esc(it["link"])
             src = _esc(it["name"])
+            time_html = f'<time>{it["time"]}</time>' if it["time"] else ""
             paid_html = '<span class="paid-badge">会員限定</span>' if it["paid"] else ""
             rows.append(
                 f'<li class="article-item tier-{tier}"><a class="article" href="{link}" target="_blank" rel="noopener noreferrer">'
                 f'<span class="article-main"><span class="{tag_class[tier]}">{src}</span>'
-                f'<span class="article-title">{title}{paid_html}</span></span></a></li>'
+                f'<span class="article-title">{title}{paid_html}</span></span>{time_html}</a></li>'
             )
 
         wd = WEEKDAY_JP[d.weekday()]
