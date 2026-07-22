@@ -42,6 +42,10 @@ Artifacts・GitHub Pages など任意の静的ホスティングに公開して�
   を指定しています。本ツールはこれを検出すると、既定の待機時間（2秒）
   より長く空けてからそのサイトへアクセスします（`main.py` の
   `crawl_delay_sec` / `interval_after`）。
+- `robots.txt` の取得・解析は Python標準の `urlopen`（UTF-8決め打ち）では
+  なく `requests` の文字コード自動判定を使っています。奈良新聞のように
+  Shift-JIS等で配信しているサイトを `UnicodeDecodeError` で誤って
+  「読めない＝拒否」と扱わないようにするためです。
 - 以下の8紙は未解決です（`verified: false`）。取得できてもエラー扱いでも
   ないため、生成されたページ上では「取得できなかった新聞社」欄に理由付きで
   表示されます。

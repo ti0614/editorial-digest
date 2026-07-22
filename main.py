@@ -72,7 +72,13 @@ def _get_robot_parser(url: str) -> robotparser.RobotFileParser:
         rp = robotparser.RobotFileParser()
         rp.set_url(urljoin(origin, "/robots.txt"))
         try:
-            rp.read()
+            # rp.read() は urllib 経由でUTF-8決め打ちのデコードを行い、
+            # Shift-JIS等で配信されているrobots.txt（例: 奈良新聞）で
+            # UnicodeDecodeError になることがあるため、fetch_html と同じ
+            # requests ベースの文字コード自動判定で自前取得してから渡す。
+            resp = requests.get(rp.url, headers={"User-Agent": USER_AGENT}, timeout=REQUEST_TIMEOUT)
+            resp.encoding = resp.apparent_encoding or resp.encoding
+            rp.parse(resp.text.splitlines())
         except Exception:
             pass
         _robots_cache[origin] = rp
