@@ -114,18 +114,12 @@ section.dategroup:last-child { border-bottom: none; }
   font-size:0.7rem; color:var(--accent); border:1px solid var(--accent); border-radius:4px;
   padding:0.02rem 0.4rem; letter-spacing:0.04em;
 }
-.special-h { color: var(--ink-muted) !important; font-size:1.15rem !important; }
-
 ul.article-list { list-style:none; margin:0.6rem 0 0; padding:0; }
 ul.article-list li { border-top:1px solid var(--rule); }
 ul.article-list li:first-child { border-top:none; }
 body:not(.show-national) li.tier-national { display: none; }
 body:not(.show-block) li.tier-block { display: none; }
 body:not(.show-regional) li.tier-regional { display: none; }
-
-body:not(.show-national) .special-national { display: none; }
-body:not(.show-block) .special-block { display: none; }
-body:not(.show-regional) .special-regional { display: none; }
 
 a.article {
   display:flex; justify-content:space-between; align-items:flex-start; gap:0.9rem;
@@ -151,9 +145,6 @@ a.article time {
   white-space:nowrap; padding-top:0.2rem;
 }
 
-.note { margin:0.6rem 0 0; padding:0.7rem 0.85rem; border-radius:6px; font-size:0.88rem; line-height:1.6; }
-.note-skip { background: var(--warn-soft); color: var(--warn); }
-.note-error { background: var(--danger-soft); color: var(--danger); }
 
 footer { padding:1.75rem 1.25rem 0; color:var(--ink-faint); font-size:0.78rem; line-height:1.7; }
 html { scroll-behavior: smooth; }
@@ -308,29 +299,15 @@ def render_html(results: list, run_date: date) -> str:
   <ul class="article-list">{"".join(rows)}</ul>
 </section>''')
 
-    special_by_tier: dict[str, list[str]] = {t: [] for t in TIERS}
-    for r in results:
-        reason = getattr(r, "unavailable_reason", None)
-        if r.skipped_by_robots:
-            reason = reason or "サイト運営者の意向により、このページでは取得していません。"
-            note = f'<p class="note note-skip"><strong>{_esc(r.name)}</strong>：{_esc(reason)}</p>'
-        elif r.error or not r.items:
-            reason = reason or "現在、記事を取得できませんでした（サイト側の変更や一時的な不具合の可能性があります）。"
-            note = f'<p class="note note-error"><strong>{_esc(r.name)}</strong>：{_esc(reason)}</p>'
-        else:
-            continue
-        special_by_tier[norm_tier(r.tier)].append(note)
+    unavailable_names = [
+        r.name for r in results
+        if r.skipped_by_robots or r.error or not r.items
+    ]
 
-    special_sections = ""
-    for t in TIERS:
-        notes = special_by_tier[t]
-        if not notes:
-            continue
-        special_sections += (
-            f'<section class="dategroup special special-{t}">'
-            f'<div class="date-head"><h2 class="special-h">取得できなかった新聞社（{TIER_LABEL[t]}）</h2></div>'
-            + "".join(notes) + "</section>"
-        )
+    unavailable_footer = (
+        f'<p>現在取得できていない新聞社：{_esc("・".join(unavailable_names))}（{len(unavailable_names)}紙）</p>'
+        if unavailable_names else ""
+    )
 
     tier_names = {t: [r.name for r in results if norm_tier(r.tier) == t] for t in TIERS}
     tier_totals = {t: sum(1 for x in items_flat if x["tier"] == t) for t in TIERS}
@@ -368,12 +345,12 @@ def render_html(results: list, run_date: date) -> str:
 
   <main>
 {"".join(sections)}
-{special_sections}
   </main>
 
   <footer>
     <p>社説まとめツールが自動生成 / 基準日: {run_date.isoformat()}。各リンクは記事本文へ遷移します。</p>
     <p>「会員限定」表示は参考情報です。表示が無くても無料と保証するものではありません。</p>
+    {unavailable_footer}
   </footer>
 </div>
 
