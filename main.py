@@ -58,7 +58,8 @@ def load_sources(only: list[str] | None = None) -> list[dict]:
 
 
 def process_source(
-    source: dict, reference_date: date, robots: RobotsChecker, fetch_times: bool = False
+    source: dict, reference_date: date, robots: RobotsChecker, fetch_times: bool = False,
+    same_day_only: bool = False,
 ) -> SourceResult:
     name = source["name"]
     index_url = source["index_url"]
@@ -75,6 +76,10 @@ def process_source(
     try:
         html = fetch_html(index_url)
         items = extract_items(html, index_url, source, reference_date)
+        if same_day_only:
+            # 当日版では対象外の記事のために個別ページへ追加アクセスしない
+            # よう、時刻補完(enrich_missing_times)の前に当日分へ絞り込む。
+            items = [it for it in items if is_same_day(it.published, reference_date)]
         if fetch_times:
             enrich_missing_times(items, robots, reference_date)
         return SourceResult(
@@ -89,7 +94,8 @@ def process_source(
 
 
 def _iter_results(
-    sources: list[dict], reference_date: date, robots: RobotsChecker, fetch_times: bool
+    sources: list[dict], reference_date: date, robots: RobotsChecker, fetch_times: bool,
+    same_day_only: bool = False,
 ) -> Iterator[SourceResult]:
     """全ソースを順に取得し、結果を1件ずつ返す。
 
@@ -97,7 +103,7 @@ def _iter_results(
     RobotsChecker の待機秒数）だけ待機し、サイトへの負荷を抑える。
     """
     for i, source in enumerate(sources):
-        yield process_source(source, reference_date, robots, fetch_times=fetch_times)
+        yield process_source(source, reference_date, robots, fetch_times=fetch_times, same_day_only=same_day_only)
         if i < len(sources) - 1:
             time.sleep(robots.interval_after(source["index_url"]))
 
@@ -138,17 +144,10 @@ def run_digest(only: list[str] | None, run_date: date) -> int:
     return 0
 
 
-def _filter_to_same_day(results: list[SourceResult], run_date: date) -> None:
-    """各ソースのitemsを、run_date当日分のみに絞り込む(当日版サイト用)。"""
-    for r in results:
-        r.items = [it for it in r.items if is_same_day(it.published, run_date)]
-
-
 def run_today(only: list[str] | None, run_date: date) -> int:
     sources = load_sources(only)
     robots = RobotsChecker()
-    results = list(_iter_results(sources, run_date, robots, fetch_times=True))
-    _filter_to_same_day(results, run_date)
+    results = list(_iter_results(sources, run_date, robots, fetch_times=True, same_day_only=True))
 
     OUTPUT_DIR.mkdir(exist_ok=True)
     json_path = OUTPUT_DIR / f"{run_date.isoformat()}-today.json"
