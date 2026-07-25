@@ -11,6 +11,7 @@
     python main.py check          # 各ソースの疎通確認（取得件数/エラーを表示するだけ）
     python main.py run            # 全ソースを取得し output/digest.html と digest.json を生成
     python main.py run --only 朝日新聞 毎日新聞
+    python main.py today          # 全ソースを取得し当日分のみの output/today.html を生成
 """
 from __future__ import annotations
 
@@ -28,7 +29,7 @@ import yaml
 import render
 from extract import Item, enrich_missing_times, extract_items
 from fetch import fetch_html
-from pubdate import JST
+from pubdate import JST, is_same_day
 from robots import RobotsChecker
 
 SOURCES_FILE = Path(__file__).parent / "sources.yaml"
@@ -137,6 +138,32 @@ def run_digest(only: list[str] | None, run_date: date) -> int:
     return 0
 
 
+def _filter_to_same_day(results: list[SourceResult], run_date: date) -> None:
+    """各ソースのitemsを、run_date当日分のみに絞り込む(当日版サイト用)。"""
+    for r in results:
+        r.items = [it for it in r.items if is_same_day(it.published, run_date)]
+
+
+def run_today(only: list[str] | None, run_date: date) -> int:
+    sources = load_sources(only)
+    robots = RobotsChecker()
+    results = list(_iter_results(sources, run_date, robots, fetch_times=True))
+    _filter_to_same_day(results, run_date)
+
+    OUTPUT_DIR.mkdir(exist_ok=True)
+    json_path = OUTPUT_DIR / f"{run_date.isoformat()}-today.json"
+    html_path = OUTPUT_DIR / "today.html"
+
+    write_json(json_path, run_date, results)
+    generated_at = datetime.now(JST)
+    html_path.write_text(render.render_today_html(results, run_date, generated_at), encoding="utf-8")
+
+    total_items = sum(len(r.items) for r in results)
+    ok = sum(1 for r in results if not r.error and not r.skipped_by_robots)
+    print(f"{len(results)} 紙中 {ok} 紙を取得（本日分 {total_items} 件）-> {html_path}")
+    return 0
+
+
 def write_json(path: Path, run_date: date, results: list[SourceResult]) -> None:
     payload = {
         "date": run_date.isoformat(),
@@ -172,12 +199,18 @@ def main() -> int:
     _add_only_argument(run_p)
     run_p.add_argument("--date", type=date.fromisoformat, default=date.today(), help="基準日 (YYYY-MM-DD)。省略時は本日")
 
+    today_p = sub.add_parser("today", help="全ソースを取得し当日分のみの output/today.html を生成する")
+    _add_only_argument(today_p)
+    today_p.add_argument("--date", type=date.fromisoformat, default=date.today(), help="基準日 (YYYY-MM-DD)。省略時は本日")
+
     args = parser.parse_args()
 
     if args.command == "check":
         return run_check(args.only)
     if args.command == "run":
         return run_digest(args.only, args.date)
+    if args.command == "today":
+        return run_today(args.only, args.date)
     return 1
 
 

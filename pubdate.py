@@ -103,3 +103,15 @@ def within_digest_window(published: str | None, reference_date: date) -> bool:
     window_start = reference_date - timedelta(days=DIGEST_WINDOW_DAYS - 1)
     window_end = reference_date + timedelta(days=_FUTURE_TOLERANCE_DAYS)
     return window_start <= parsed <= window_end
+
+
+def is_same_day(published: str | None, reference_date: date) -> bool:
+    """reference_date当日（同日）の記事かどうか判定する（当日版サイト用）。
+
+    日付を解釈できなかった場合は取りこぼしを避けるため対象に含める
+    （within_digest_window と同じ方針）。
+    """
+    parsed = parse_published_date(published, reference_date)
+    if parsed is None:
+        return True
+    return parsed == reference_date
