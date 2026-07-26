@@ -442,8 +442,8 @@
       "category": "社説",
       "tier": "regional",
       "index_url": "https://www.at-s.com/",
-      "error": "405 Client Error: Not Allowed for url: https://www.at-s.com/",
-      "skipped_by_robots": false,
+      "error": null,
+      "skipped_by_robots": true,
       "unavailable_reason": "サイトの自動アクセス防止の仕組みにより、記事を取得できません。",
       "items": []
     },
