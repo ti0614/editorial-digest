@@ -104,6 +104,13 @@ volume.
   skipped (`SourceResult.skipped_by_robots`), not force-fetched.
   `sources.yaml`/README document specific papers whose `robots.txt` blocks
   Claude/Anthropic crawlers by name — those are deliberately left unimplemented
-  rather than worked around.
+  rather than worked around. This holds even though the tool's own User-Agent
+  (`EditorialDigestBot/0.1`) isn't literally matched by those rules, and even
+  though production runs are intended to happen via GitHub Actions rather than
+  a live Claude session — the site's stated preference is about Anthropic/Claude
+  involvement, not about which infrastructure fires the request, and building the
+  scraper (choosing selectors, etc.) still requires a Claude session to fetch the
+  page directly. Don't add these sources to `sources.yaml`, and don't revisit this
+  without the user explicitly raising it again.
   - Only title/link/date are ever extracted; article body HTML is not stored.
 - Requests are throttled (default 2s between sources, more if `Crawl-delay` says so).
