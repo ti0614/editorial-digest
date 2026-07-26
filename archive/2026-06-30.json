@@ -1,0 +1,523 @@
+{
+  "date": "2026-06-30",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "読売新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.yomiuri.co.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "東京新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.tokyo-np.co.jp/n/column/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "中日新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.chunichi.co.jp/wadai/opinion/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "北海道新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.hokkaido-np.co.jp/tags/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "神戸新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kobe-np.co.jp/rentoku/shasetsu/",
+      "error": null,
+      "skipped_by_robots": true,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "河北新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://kahoku.news/tag/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": true,
+      "unavailable_reason": "社説一覧ページの取得がサイト側の設定で許可されていないため、取得していません。",
+      "items": []
+    },
+    {
+      "name": "中国新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.chugoku-np.co.jp/list/editorial/",
+      "error": "404 Client Error: Not Found for url: https://www.chugoku-np.co.jp/list/editorial/",
+      "skipped_by_robots": false,
+      "unavailable_reason": "社説だけをまとめた専用の一覧ページが見つからず、取得できていません。",
+      "items": []
+    },
+    {
+      "name": "東奥日報",
+      "category": "時論",
+      "tier": "regional",
+      "index_url": "https://www.toonippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "裁判官は詳細に証言せよ／大川原冤罪と人質司法",
+          "link": "https://www.toonippo.co.jp/articles/-/2306825",
+          "published": "6/30  9:14更新",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "秋田魁新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.sakigake.jp/news/list/scd/100003000/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "山形新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.yamagata-np.jp/column/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "岩手日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.iwate-np.co.jp/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": "社説だけをまとめた専用の一覧ページが見つからず、取得できていません。",
+      "items": []
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "戦略１７分野　産業化通じ課題解決を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1284848.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2026年6月30日(火)  09:30",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "茨城新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://ibarakinews.jp/news/newsdetail.php?elem=ronsetu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "上毛新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.jomo-news.co.jp/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": "社説だけをまとめた専用の一覧ページが見つからず、取得できていません。",
+      "items": []
+    },
+    {
+      "name": "埼玉新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.saitama-np.co.jp/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": "社説だけをまとめた専用の一覧ページが見つからず、取得できていません。",
+      "items": []
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "福井新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.fukuishimbun.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "山梨日日新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sannichi.co.jp/news/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": "サイトの自動アクセス防止の仕組みにより、記事を取得できません。",
+      "items": []
+    },
+    {
+      "name": "信濃毎日新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.shinmai.co.jp/top/opinion",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": "記事が特殊な仕組みで表示されており、現在の方法では取得できません。",
+      "items": []
+    },
+    {
+      "name": "静岡新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.at-s.com/",
+      "error": null,
+      "skipped_by_robots": true,
+      "unavailable_reason": "サイトの自動アクセス防止の仕組みにより、記事を取得できません。",
+      "items": []
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "奈良新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.nara-np.co.jp/news/col.html",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": "社説に相当する専用のコーナーが見当たらず、取得できていません。",
+      "items": []
+    },
+    {
+      "name": "わかやま新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://wakayamashimpo.co.jp/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": "社説だけをまとめた専用の一覧ページが見つからず、取得できていません。",
+      "items": []
+    },
+    {
+      "name": "山陽新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.sanyonews.jp/opinion/shasetsu/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "愛媛新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.ehime-np.co.jp/online/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "日本海新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.nnn.co.jp/list/%E3%82%B3%E3%83%A9%E3%83%A0%E3%83%BB%E8%AB%96%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": "コラムなど他の記事と混在しており、論説記事だけを安全に区別する方法が見つからず、取得できていません。",
+      "items": []
+    },
+    {
+      "name": "四国新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.shikoku-np.co.jp/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": "社説だけをまとめた専用の一覧ページが見つからず、取得できていません。",
+      "items": []
+    },
+    {
+      "name": "熊本日日新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://kumanichi.com/opinion/syasetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "大分合同新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.oita-press.co.jp/column/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "出水期の水害対策　防災タイムラインの策定を",
+          "link": "https://www.oita-press.co.jp/1042000000/2042002000/2026/06/JDC2026061901127",
+          "published": "2026年6月30日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "宮崎日日新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.the-miyanichi.co.jp/column/syasetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "ＬＧＢＴ基本計画",
+          "link": "https://www.the-miyanichi.co.jp/column/syasetsu/879011.html",
+          "published": "2026.06.30｜社説",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "南日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://373news.com/lineup/syasetsu/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "佐賀新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.saga-s.co.jp/feature/opinion",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": "コラムなど他の記事と混在しており、社説記事だけを安全に区別する方法が見つからず、取得できていません。",
+      "items": []
+    },
+    {
+      "name": "長崎新聞",
+      "category": "時評",
+      "tier": "regional",
+      "index_url": "https://www.nagasaki-np.co.jp/feature/nagasaki-jihyo/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": "記事が特殊な仕組みで表示されており、現在の方法では取得できません。",
+      "items": []
+    }
+  ]
+}
