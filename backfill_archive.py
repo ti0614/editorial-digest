@@ -8,7 +8,12 @@
 
 一覧ページに実際に残っている範囲より過去には遡れない（本文を保存しない
 方針上、それ以上の情報源が無いため）。取得できるのは実行時点で各紙サイトが
-公開している範囲まで。
+公開している範囲まで。ただし`sources.yaml`で`pagination_param`（例: "page"）
+を指定した紙については、ウィンドウ分を使い切るまで次ページを自動で追加
+取得する（朝日新聞は?id=16&page=Nで151ページ、西日本新聞は?page=Nで157
+ページまで一覧ページ自体が持っていることを2026-07-26に確認）。通常の
+check/run/todayコマンドは直近1週間程度しか見ないため1ページ目のみで足り、
+この機構はbackfill専用（main.process_sourceは変更しない）。
 
 時刻補完（enrich_missing_times）は行わない —— 対象記事数が通常運用の
 数倍〜十数倍になり、記事個別ページへの追加アクセスが大きく増えてしまうため。
@@ -30,12 +35,70 @@ from dataclasses import asdict
 from datetime import date
 from pathlib import Path
 
+from extract import extract_items
+from fetch import fetch_html
 from main import SourceResult, load_sources, process_source
 from pubdate import parse_published_date
 from robots import RobotsChecker
 
 BACKFILL_WINDOW_DAYS = 21
+MAX_PAGINATION_PAGES = 60  # 無限ループ防止の安全上限
 ARCHIVE_DIR = Path(__file__).parent / "archive"
+
+
+def _paginated_url(index_url: str, param: str, page: int) -> str:
+    sep = "&" if "?" in index_url else "?"
+    return f"{index_url}{sep}{param}={page}"
+
+
+def _fetch_with_pagination(
+    source: dict, reference_date: date, robots: RobotsChecker, window_days: int,
+) -> SourceResult:
+    """pagination_paramが指定されたソースについて、ウィンドウを使い切るか
+    記事が尽きるまで次ページを追加取得する。extract_itemsが既にwindow_days
+    で絞り込むため、あるページで新規記事が0件になった時点でそれより古い
+    ページを見ても意味が無い（日付降順に並んでいるため）と判断して止める。
+    """
+    name = source["name"]
+    index_url = source["index_url"]
+    category = source.get("category", "社説")
+    tier = source.get("tier", "regional")
+    unavailable_reason = source.get("unavailable_reason")
+    param = source["pagination_param"]
+
+    if not robots.allows(index_url):
+        return SourceResult(
+            name=name, category=category, tier=tier, index_url=index_url,
+            skipped_by_robots=True, unavailable_reason=unavailable_reason,
+        )
+
+    items = []
+    seen_titles: set[str] = set()
+    page = 1
+    try:
+        while page <= MAX_PAGINATION_PAGES:
+            url = index_url if page == 1 else _paginated_url(index_url, param, page)
+            if page > 1 and not robots.allows(url):
+                break
+            html = fetch_html(url)
+            page_items = extract_items(html, url, source, reference_date, window_days=window_days)
+            new_items = [it for it in page_items if it.title not in seen_titles]
+            if not new_items:
+                break
+            seen_titles.update(it.title for it in new_items)
+            items.extend(new_items)
+            page += 1
+            if page <= MAX_PAGINATION_PAGES:
+                time.sleep(robots.interval_after(url))
+        return SourceResult(
+            name=name, category=category, tier=tier, index_url=index_url,
+            items=items, unavailable_reason=unavailable_reason,
+        )
+    except Exception as exc:  # noqa: BLE001 - 1ソースの失敗で全体を止めない
+        return SourceResult(
+            name=name, category=category, tier=tier, index_url=index_url,
+            items=items, error=str(exc), unavailable_reason=unavailable_reason,
+        )
 
 
 def _split_by_date(results: list[SourceResult], reference_date: date) -> dict[date, list[SourceResult]]:
@@ -102,7 +165,10 @@ def main() -> int:
 
     results: list[SourceResult] = []
     for i, source in enumerate(sources):
-        result = process_source(source, reference_date, robots, fetch_times=False, window_days=args.window_days)
+        if source.get("pagination_param"):
+            result = _fetch_with_pagination(source, reference_date, robots, window_days=args.window_days)
+        else:
+            result = process_source(source, reference_date, robots, fetch_times=False, window_days=args.window_days)
         status = (
             "ROBOTS_DISALLOWED" if result.skipped_by_robots else
             f"ERROR: {result.error}" if result.error else
