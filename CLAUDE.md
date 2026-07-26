@@ -123,11 +123,13 @@ python main.py archive-page
 ショットはリポジトリに残らない（GitHub Pagesへのデプロイも毎回総入れ替え
 のため、CI実行が終わると前日以前のデータは消える）。横断検索用のアーカイブは
 これとは別に、CIワークフロー（`deploy-today.yml`）が`output/{date}-today.json`
-を`archive/{date}.json`としてコピーし、`.gitignore`対象外の`archive/`配下に
-コミット・pushすることで永続化している。このコミットはmainブランチの
-ルールセット保護（PRレビュー必須）の対象になるため、GitHub Actionsの
-ボットアカウントだけをBypassリストに追加してある（人間による通常のコード
-変更はレビュー必須のまま）。
+を`archive/{date}.json`としてコピーし、専用の**`data`ブランチ**にコミット・
+pushすることで永続化している。`main`はコード用ブランチとして
+PRレビュー必須のルールセット保護がかかっているが、`data`はそのルールセットの
+対象外（`main`のみ対象）なので、bypass設定を一切追加せずにCIから直接push
+できる。デプロイのたびに`data`ブランチの`archive/`一式を`_site/archive`へ
+コピーしてGitHub Pagesに公開する（`build_archive_index.py`がその都度
+`archive/index.json`＝日付一覧を再生成する）。
 
 ### コードに組み込まれたコンプライアンス方針
 

@@ -29,22 +29,36 @@ jobs:
 
       - run: python main.py today
 
-      - name: 当日分のスナップショットをarchive/に保存
+      - name: アーカイブスナップショットをdataブランチに保存
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
-          mkdir -p archive
           src=$(ls output/*-today.json)
-          cp "$src" "archive/$(basename "$src" -today.json).json"
-          python build_archive_index.py
+          fname="$(basename "$src" -today.json).json"
+          data_dir="$RUNNER_TEMP/data-branch"
+          repo_url="https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
 
-      - name: archive/の変更をmainにコミット
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add archive/
-          if ! git diff --cached --quiet; then
-            git commit -m "chore: アーカイブスナップショットを追加"
-            git push origin HEAD:main
+          if git ls-remote --exit-code --heads origin data > /dev/null 2>&1; then
+            git clone --branch data --single-branch "$repo_url" "$data_dir"
+          else
+            git clone --single-branch "$repo_url" "$data_dir"
+            git -C "$data_dir" checkout --orphan data
+            git -C "$data_dir" rm -rf . > /dev/null
           fi
+
+          mkdir -p "$data_dir/archive"
+          cp "$src" "$data_dir/archive/$fname"
+          python build_archive_index.py "$data_dir/archive"
+
+          git -C "$data_dir" config user.name "github-actions[bot]"
+          git -C "$data_dir" config user.email "github-actions[bot]@users.noreply.github.com"
+          git -C "$data_dir" add archive/
+          if ! git -C "$data_dir" diff --cached --quiet; then
+            git -C "$data_dir" commit -m "chore: アーカイブスナップショットを追加 ($fname)"
+            git -C "$data_dir" push origin data
+          fi
+
+          echo "DATA_DIR=$data_dir" >> "$GITHUB_ENV"
 
       - run: python main.py archive-page
 
@@ -52,7 +66,7 @@ jobs:
           mkdir -p _site
           cp output/today.html _site/index.html
           cp output/archive.html _site/archive.html
-          cp -r archive _site/archive
+          cp -r "$DATA_DIR/archive" _site/archive
           cp static/robots.txt _site/robots.txt
           cp static/sitemap.xml _site/sitemap.xml
 
