@@ -60,6 +60,10 @@ sources:
     title_selector: "h3.articlelist-title"
     link_selector: "a"
     date_selector: "span.articletag-date"
+    pagination_path_template: "/editorial/{page}"
+    pagination_headers:
+      X-Requested-With: XMLHttpRequest
+    pagination_wrap_fragment: true
     verified: true
 
   - name: 読売新聞
@@ -511,8 +515,9 @@ sources:
     title_selector: "p.tit"
     link_selector: "a"
     date_selector: "p.data"
+    pagination_param: page
     verified: true
-    note: "高知県。item内の表示カテゴリは「高知のニュース」等の一般表記になるが、URL自体が /tag/detail/editorial （社説タグ専用）のため内容は社説のみ。素の article セレクタだとページ下部の「アクセスランキング」枠（articlesList col-ranking）にも同じ構造が使われ無関係記事が混入するため、col3 のコンテナに絞り込んでいる。"
+    note: "高知県。item内の表示カテゴリは「高知のニュース」等の一般表記になるが、URL自体が /tag/detail/editorial （社説タグ専用）のため内容は社説のみ。素の article セレクタだとページ下部の「アクセスランキング」枠（articlesList col-ranking）にも同じ構造が使われ無関係記事が混入するため、col3 のコンテナに絞り込んでいる。ページ送りは?page=Nのクエリパラメータ方式（index_url自体がpage=1相当、data-last=71で71ページ目まで確認、2026-07-26）。"
 
   - name: 日本海新聞
     category: 論説
@@ -571,9 +576,10 @@ sources:
     title_selector: "div.c-item5__title"
     link_selector: "a"
     date_selector: "div.c-item5__date"
+    pagination_path_template: "/column/syasetsu/page/{page}"
     always_paid: true
     verified: true
-    note: "宮崎県。robots.txt が Crawl-delay: 5 を指定している。記事個別ページでは冒頭数行のみ表示され「全文記事を読むには会員登録」の案内で本文が途中で切られる（2026-07-22、2記事で確認）。"
+    note: "宮崎県。robots.txt が Crawl-delay: 5 を指定している。記事個別ページでは冒頭数行のみ表示され「全文記事を読むには会員登録」の案内で本文が途中で切られる（2026-07-22、2記事で確認）。ページ送りはWordPress標準の/page/N形式（2026-07-26確認、10ページ目までnextpostslinkあり）。"
 
   - name: 南日本新聞
     category: 社説
@@ -607,8 +613,9 @@ sources:
     title_selector: "h4"
     link_selector: 'a[href*="entry-"]'
     date_selector: "span"
+    pagination_path_template: "/editorial/page/{page}"
     verified: true
-    note: "沖縄県。先頭（最新）の1件だけ周辺のクラス構成が異なるため、共通して存在する border-b-gray-gainsboro（記事どうしの区切り線）に絞り込んでいる。"
+    note: "沖縄県。先頭（最新）の1件だけ周辺のクラス構成が異なるため、共通して存在する border-b-gray-gainsboro（記事どうしの区切り線）に絞り込んでいる。ページ送りはWordPress標準の/page/N形式（2026-07-26確認）。"
 
   - name: 佐賀新聞
     category: 社説

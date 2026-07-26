@@ -8,8 +8,12 @@ USER_AGENT = "EditorialDigestBot/0.1 (personal research use; contact: set-your-c
 REQUEST_TIMEOUT = 15
 
 
-def fetch_html(url: str) -> str:
-    resp = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=REQUEST_TIMEOUT)
+def fetch_html(url: str, extra_headers: dict[str, str] | None = None) -> str:
+    """extra_headersは、一部サイトのページ送りがXHRリクエストかどうかで
+    応答内容を変える場合（例: 毎日新聞、X-Requested-With: XMLHttpRequestが
+    必要）に使う追加ヘッダー。"""
+    headers = {"User-Agent": USER_AGENT, **(extra_headers or {})}
+    resp = requests.get(url, headers=headers, timeout=REQUEST_TIMEOUT)
     resp.raise_for_status()
     if not get_encoding_from_headers(resp.headers):
         # HTTPヘッダーがcharsetを明示していないサイト（Shift-JIS等をヘッダーでは

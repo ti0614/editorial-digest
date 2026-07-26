@@ -8,10 +8,17 @@
 
 一覧ページに実際に残っている範囲より過去には遡れない（本文を保存しない
 方針上、それ以上の情報源が無いため）。取得できるのは実行時点で各紙サイトが
-公開している範囲まで。ただし`sources.yaml`で`pagination_param`（例: "page"）
-を指定した紙については、ウィンドウ分を使い切るまで次ページを自動で追加
-取得する（朝日新聞は?id=16&page=Nで151ページ、西日本新聞は?page=Nで157
-ページまで一覧ページ自体が持っていることを2026-07-26に確認）。通常の
+公開している範囲まで。ただし`sources.yaml`でページ送り設定を持つ紙に
+ついては、ウィンドウ分を使い切るまで次ページを自動で追加取得する。ページ送り
+方式は2通り対応している —— クエリパラメータ方式（`pagination_param`、例:
+"page"、朝日新聞は?id=16&page=Nで151ページ、西日本新聞は?page=Nで157ページ
+まで一覧ページ自体が持っていることを2026-07-26に確認）と、パス方式
+（`pagination_path_template`、例: "/editorial/{page}"、毎日新聞・宮崎日日
+新聞・琉球新報等）。パス方式のうち毎日新聞はページ送りがXHRリクエストで、
+`pagination_headers`（例: X-Requested-With: XMLHttpRequest）が無いと通常の
+HTMLが返り、かつXHR応答は一覧の外側コンテナ（<ul class="articlelist">）を
+含まない断片HTMLなので`pagination_wrap_fragment: true`でitem_selectorの
+先頭トークンから外側コンテナを組み立てて包み直している。通常の
 check/run/todayコマンドは直近1週間程度しか見ないため1ページ目のみで足り、
 この機構はbackfill専用（main.process_sourceは変更しない）。
 
@@ -30,11 +37,13 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 import time
 from collections import defaultdict
 from dataclasses import asdict
 from datetime import date
 from pathlib import Path
+from urllib.parse import urljoin
 
 import requests
 
@@ -50,12 +59,37 @@ RATE_LIMIT_RETRY_DELAYS_SEC = (15, 30, 60)  # 403時のリトライ待機秒数�
 ARCHIVE_DIR = Path(__file__).parent / "archive"
 
 
-def _paginated_url(index_url: str, param: str, page: int) -> str:
+def _paginated_url(source: dict, page: int) -> str:
+    """ページ送り先のURLを組み立てる。
+
+    大半のサイトはクエリパラメータ方式（pagination_param、例: ?page=2）だが、
+    毎日新聞や宮崎日日新聞等はパス方式（pagination_path_template、例:
+    /editorial/{page}）。両対応にしている。
+    """
+    if "pagination_path_template" in source:
+        return urljoin(source["index_url"], source["pagination_path_template"].format(page=page))
+    param = source["pagination_param"]
+    index_url = source["index_url"]
     sep = "&" if "?" in index_url else "?"
     return f"{index_url}{sep}{param}={page}"
 
 
-def _fetch_html_with_retry(url: str) -> str:
+def _wrap_fragment_html(html: str, item_selector: str) -> str:
+    """XHRページ送りが外側コンテナ抜きの断片HTMLを返すサイト向け（例: 毎日新聞、
+    通常は<ul class="articlelist">の中身の<li>群だが、ページ2以降のXHR応答には
+    <ul class="articlelist">自体が含まれない）。item_selectorの先頭トークン
+    （例: "ul.articlelist"）から外側コンテナを組み立てて断片を包み直し、
+    通常のextract_itemsがそのまま使えるようにする。
+    """
+    container = item_selector.split()[0]
+    m = re.match(r"([a-zA-Z0-9]+)((?:\.[\w-]+)*)", container)
+    tag = m.group(1)
+    classes = m.group(2).lstrip(".").replace(".", " ")
+    class_attr = f' class="{classes}"' if classes else ""
+    return f"<{tag}{class_attr}>{html}</{tag}>"
+
+
+def _fetch_html_with_retry(url: str, extra_headers: dict[str, str] | None = None) -> str:
     """403（レート制限の疑い）は間隔を空けてリトライする。
 
     朝日新聞のページ送りバックフィル中、25ページ目付近で403を受け取ったが
@@ -67,7 +101,7 @@ def _fetch_html_with_retry(url: str) -> str:
         if delay:
             time.sleep(delay)
         try:
-            return fetch_html(url)
+            return fetch_html(url, extra_headers=extra_headers)
         except requests.HTTPError as exc:
             status = exc.response.status_code if exc.response is not None else None
             if status != 403:
@@ -94,7 +128,7 @@ def _fetch_with_pagination(
     category = source.get("category", "社説")
     tier = source.get("tier", "regional")
     unavailable_reason = source.get("unavailable_reason")
-    param = source["pagination_param"]
+    extra_headers = source.get("pagination_headers")
 
     if not robots.allows(index_url):
         return SourceResult(
@@ -107,11 +141,11 @@ def _fetch_with_pagination(
     page = 1
     try:
         while page <= max_pages:
-            url = index_url if page == 1 else _paginated_url(index_url, param, page)
+            url = index_url if page == 1 else _paginated_url(source, page)
             if page > 1 and not robots.allows(url):
                 break
             try:
-                html = _fetch_html_with_retry(url)
+                html = _fetch_html_with_retry(url, extra_headers=extra_headers if page > 1 else None)
             except requests.HTTPError as exc:
                 if exc.response is not None and exc.response.status_code == 404:
                     # 一覧ページ自体の終端に達した。単に「もう次のページが
@@ -119,6 +153,8 @@ def _fetch_with_pagination(
                     # 打ち切る。
                     break
                 raise  # 403のリトライも尽きた場合等はエラーとして記録する
+            if page > 1 and source.get("pagination_wrap_fragment"):
+                html = _wrap_fragment_html(html, source["item_selector"])
             page_items = extract_items(html, url, source, reference_date, window_days=window_days)
             new_items = [it for it in page_items if it.title not in seen_titles]
             if not new_items:
@@ -204,7 +240,7 @@ def main() -> int:
 
     results: list[SourceResult] = []
     for i, source in enumerate(sources):
-        if source.get("pagination_param"):
+        if source.get("pagination_param") or source.get("pagination_path_template"):
             result = _fetch_with_pagination(source, reference_date, robots, window_days=args.window_days, max_pages=args.max_pages)
         else:
             result = process_source(source, reference_date, robots, fetch_times=False, window_days=args.window_days)
