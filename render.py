@@ -323,6 +323,25 @@ def _render_tier_chips() -> str:
     )
 
 
+def _render_summary(label: str, total: int) -> str:
+    return (
+        f'    <p class="summary">{label}・表示中 <strong id="total-count">{total}</strong>件</p>\n'
+        '    <p class="disclaimer">タイトル・リンク・日付のみ収集。本文は各紙サイトでご覧ください。</p>'
+    )
+
+
+def _render_footer(run_date: date, note: str, unavailable_footer: str = "") -> str:
+    extra_line = f'    {unavailable_footer}\n' if unavailable_footer else ""
+    return (
+        f'    <p>社説まとめツールが自動生成 / 基準日: {run_date.isoformat()}{note}。'
+        '個人利用目的の非公式リンク集で、著作権は各社に帰属します。</p>\n'
+        '    <p>内容の正確性は保証しません（記事削除等でリンク切れの場合あり）。「会員限定」表示も参考情報です。</p>\n'
+        '    <p>一部の新聞社は、サイト側の意向により対象外としています。</p>\n'
+        f'{extra_line}'
+        f'    <p>ご連絡・削除のご依頼は <a href="mailto:{CONTACT_EMAIL}">{CONTACT_EMAIL}</a> まで。</p>'
+    )
+
+
 def _render_updated_at(generated_at: datetime | None) -> str:
     if generated_at is None:
         return ""
@@ -462,10 +481,7 @@ def render_html(results: list, run_date: date, generated_at: datetime | None = N
     national_total = sum(1 for x in items_flat if x.tier == "national")
     range_label = f"{min_date.month}/{min_date.day} 〜 {max_date.month}/{max_date.day}"
 
-    summary_html = (
-        f'    <p class="summary">{range_label}（過去1週間）・表示中 <strong id="total-count">{national_total}</strong>件</p>\n'
-        '    <p class="disclaimer">タイトル・リンク・日付のみ収集。本文は各紙サイトでご覧ください。</p>'
-    )
+    summary_html = _render_summary(f"{range_label}（過去1週間）", national_total)
     nav_html = f'''
   <nav class="quicknav" aria-label="日付へジャンプ">
     <div class="pill-row">
@@ -473,13 +489,7 @@ def render_html(results: list, run_date: date, generated_at: datetime | None = N
     </div>
   </nav>
 '''
-    footer_html = (
-        f'    <p>社説まとめツールが自動生成 / 基準日: {run_date.isoformat()}。個人利用目的の非公式リンク集で、著作権は各社に帰属します。</p>\n'
-        '    <p>内容の正確性は保証しません（記事削除等でリンク切れの場合あり）。「会員限定」表示も参考情報です。</p>\n'
-        '    <p>一部の新聞社は、サイト側の意向により対象外としています。</p>\n'
-        f'    {unavailable_footer}\n'
-        f'    <p>ご連絡・削除のご依頼は <a href="mailto:{CONTACT_EMAIL}">{CONTACT_EMAIL}</a> まで。</p>'
-    )
+    footer_html = _render_footer(run_date, "", unavailable_footer)
 
     return _render_page(
         title="社説まとめ 週間ダイジェスト",
@@ -522,17 +532,8 @@ def render_today_html(results: list, run_date: date, generated_at: datetime | No
   {empty_html}
 </section>'''
 
-    summary_html = (
-        f'    <p class="summary">{date_label}・表示中 <strong id="total-count">{national_total}</strong>件</p>\n'
-        '    <p class="disclaimer">タイトル・リンク・日付のみ収集。本文は各紙サイトでご覧ください。</p>'
-    )
-    footer_html = (
-        f'    <p>社説まとめツールが自動生成 / 基準日: {run_date.isoformat()}（当日分のみ）。'
-        '個人利用目的の非公式リンク集で、著作権は各社に帰属します。</p>\n'
-        '    <p>内容の正確性は保証しません（記事削除等でリンク切れの場合あり）。「会員限定」表示も参考情報です。</p>\n'
-        '    <p>一部の新聞社は、サイト側の意向により対象外としています。</p>\n'
-        f'    <p>ご連絡・削除のご依頼は <a href="mailto:{CONTACT_EMAIL}">{CONTACT_EMAIL}</a> まで。</p>'
-    )
+    summary_html = _render_summary(date_label, national_total)
+    footer_html = _render_footer(run_date, "（当日分のみ）")
 
     return _render_page(
         title="社説まとめ 当日版",

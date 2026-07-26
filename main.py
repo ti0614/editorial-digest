@@ -126,37 +126,40 @@ def run_check(only: list[str] | None) -> int:
     return 1 if had_problem else 0
 
 
-def run_digest(only: list[str] | None, run_date: date) -> int:
+def _fetch_and_write(
+    only: list[str] | None, run_date: date, *, same_day_only: bool,
+    json_suffix: str, html_filename: str, render_fn,
+) -> tuple[list[SourceResult], Path]:
+    """ソースを取得し、JSONスナップショットとHTMLを書き出す（run_digest/run_todayの共通処理）。"""
     sources = load_sources(only)
     robots = RobotsChecker()
-    results = list(_iter_results(sources, run_date, robots, fetch_times=True))
+    results = list(_iter_results(sources, run_date, robots, fetch_times=True, same_day_only=same_day_only))
 
     OUTPUT_DIR.mkdir(exist_ok=True)
-    json_path = OUTPUT_DIR / f"{run_date.isoformat()}.json"
-    html_path = OUTPUT_DIR / "digest.html"
+    json_path = OUTPUT_DIR / f"{run_date.isoformat()}{json_suffix}.json"
+    html_path = OUTPUT_DIR / html_filename
 
     write_json(json_path, run_date, results)
     generated_at = datetime.now(JST)
-    html_path.write_text(render.render_html(results, run_date, generated_at), encoding="utf-8")
+    html_path.write_text(render_fn(results, run_date, generated_at), encoding="utf-8")
+    return results, html_path
 
+
+def run_digest(only: list[str] | None, run_date: date) -> int:
+    results, html_path = _fetch_and_write(
+        only, run_date, same_day_only=False,
+        json_suffix="", html_filename="digest.html", render_fn=render.render_html,
+    )
     ok = sum(1 for r in results if not r.error and not r.skipped_by_robots and r.items)
     print(f"{len(results)} 紙中 {ok} 紙を取得しました -> {html_path}")
     return 0
 
 
 def run_today(only: list[str] | None, run_date: date) -> int:
-    sources = load_sources(only)
-    robots = RobotsChecker()
-    results = list(_iter_results(sources, run_date, robots, fetch_times=True, same_day_only=True))
-
-    OUTPUT_DIR.mkdir(exist_ok=True)
-    json_path = OUTPUT_DIR / f"{run_date.isoformat()}-today.json"
-    html_path = OUTPUT_DIR / "today.html"
-
-    write_json(json_path, run_date, results)
-    generated_at = datetime.now(JST)
-    html_path.write_text(render.render_today_html(results, run_date, generated_at), encoding="utf-8")
-
+    results, html_path = _fetch_and_write(
+        only, run_date, same_day_only=True,
+        json_suffix="-today", html_filename="today.html", render_fn=render.render_today_html,
+    )
     total_items = sum(len(r.items) for r in results)
     ok = sum(1 for r in results if not r.error and not r.skipped_by_robots)
     print(f"{len(results)} 紙中 {ok} 紙を取得（本日分 {total_items} 件）-> {html_path}")
@@ -187,6 +190,10 @@ def _add_only_argument(subparser: argparse.ArgumentParser) -> None:
     subparser.add_argument("--only", nargs="*", help="対象を新聞社名で絞り込む")
 
 
+def _add_date_argument(subparser: argparse.ArgumentParser) -> None:
+    subparser.add_argument("--date", type=date.fromisoformat, default=date.today(), help="基準日 (YYYY-MM-DD)。省略時は本日")
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = parser.add_subparsers(dest="command", required=True)
@@ -196,11 +203,11 @@ def main() -> int:
 
     run_p = sub.add_parser("run", help="全ソースを取得し output/digest.html を生成する")
     _add_only_argument(run_p)
-    run_p.add_argument("--date", type=date.fromisoformat, default=date.today(), help="基準日 (YYYY-MM-DD)。省略時は本日")
+    _add_date_argument(run_p)
 
     today_p = sub.add_parser("today", help="全ソースを取得し当日分のみの output/today.html を生成する")
     _add_only_argument(today_p)
-    today_p.add_argument("--date", type=date.fromisoformat, default=date.today(), help="基準日 (YYYY-MM-DD)。省略時は本日")
+    _add_date_argument(today_p)
 
     args = parser.parse_args()
 
