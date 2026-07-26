@@ -6,10 +6,17 @@
       "category": "社説",
       "tier": "national",
       "index_url": "https://www.asahi.com/rensai/list.html?id=16",
-      "error": null,
+      "error": "403 Client Error: Forbidden for url: https://www.asahi.com/rensai/list.html?id=16&page=14",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "（社説）ヘイトなき社会　毅然たる意志で共につくる",
+          "link": "https://www.asahi.com/articles/DA3S16491990.html?iref=pc_rensai_long_16_article",
+          "published": "2026年06月29日 05時00分",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "毎日新聞",
@@ -89,7 +96,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "【社説】日本のロケット　H3成功を信頼につなげ",
+          "link": "https://www.nishinippon.co.jp/item/1509443/",
+          "published": "2026/06/29 06:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "京都新聞",
@@ -99,7 +113,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "社説：郵便への国費投入　不祥事体質の改革妨げぬか",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1741703",
+          "published": "6月29日",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "神戸新聞",

@@ -1,0 +1,62 @@
+{
+  "date": "2026-06-14",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": "403 Client Error: Forbidden for url: https://www.asahi.com/rensai/list.html?id=16&page=14",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）派遣カルテル疑い　賃上げに水差す背信だ",
+          "link": "https://www.asahi.com/articles/DA3S16482971.html?iref=pc_rensai_long_16_article",
+          "published": "2026年06月14日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）安保自民提言　財源後回しは無責任",
+          "link": "https://www.asahi.com/articles/DA3S16482974.html?iref=pc_rensai_long_16_article",
+          "published": "2026年06月14日 05時00分",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】BS4K放送　迷走を教訓に政策見直せ",
+          "link": "https://www.nishinippon.co.jp/item/1503800/",
+          "published": "2026/06/14 06:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：カスハラ対策　官民連携で実効性高めたい",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1732539",
+          "published": "6月14日",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

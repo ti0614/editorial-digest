@@ -1,0 +1,62 @@
+{
+  "date": "2026-06-01",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": "403 Client Error: Forbidden for url: https://www.asahi.com/rensai/list.html?id=16&page=14",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）日比関係格上げ　安保に偏らぬ連携を",
+          "link": "https://www.asahi.com/articles/DA3S16473962.html?iref=pc_rensai_long_16_article",
+          "published": "2026年06月01日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）補正予算案　国会は精査を厳しく",
+          "link": "https://www.asahi.com/articles/DA3S16473961.html?iref=pc_rensai_long_16_article",
+          "published": "2026年06月01日 05時00分",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】先端AIの脅威　安全確保へ国際ルールを",
+          "link": "https://www.nishinippon.co.jp/item/1498576/",
+          "published": "2026/06/01 06:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：住宅街の土砂災害　身近な「擁壁」の危険に目を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1724115",
+          "published": "6月1日",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

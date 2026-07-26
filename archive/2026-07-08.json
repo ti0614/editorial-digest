@@ -6,10 +6,23 @@
       "category": "社説",
       "tier": "national",
       "index_url": "https://www.asahi.com/rensai/list.html?id=16",
-      "error": null,
+      "error": "403 Client Error: Forbidden for url: https://www.asahi.com/rensai/list.html?id=16&page=14",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "（社説）中国のミサイル　緊張を高めていいのか",
+          "link": "https://www.asahi.com/articles/DA3S16498710.html?iref=pc_rensai_long_16_article",
+          "published": "2026年07月08日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）スポーツと政治　無法の独善　熱戦に冷水",
+          "link": "https://www.asahi.com/articles/DA3S16498709.html?iref=pc_rensai_long_16_article",
+          "published": "2026年07月08日 05時00分",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "毎日新聞",
@@ -106,7 +119,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "社説：コメ離れ　「猫の目農政」問い直せ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1747457",
+          "published": "7月8日",
+          "paid": false
+        },
+        {
+          "title": "社説：部活移動の安全　各校で点検、課題議論を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1747456",
+          "published": "7月8日",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "神戸新聞",

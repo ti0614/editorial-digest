@@ -1,0 +1,56 @@
+{
+  "date": "2026-06-21",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": "403 Client Error: Forbidden for url: https://www.asahi.com/rensai/list.html?id=16&page=14",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）国旗損壊罪　不要な立法　自由を侵す",
+          "link": "https://www.asahi.com/articles/DA3S16487183.html?iref=pc_rensai_long_16_article",
+          "published": "2026年06月21日 05時00分",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】G7サミット　結束固めて存在意義示せ",
+          "link": "https://www.nishinippon.co.jp/item/1506408/",
+          "published": "2026/06/21 06:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：犯罪被害者の参加　「知りたい」に応える裁判へ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1736601",
+          "published": "6月21日",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

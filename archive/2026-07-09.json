@@ -6,10 +6,23 @@
       "category": "社説",
       "tier": "national",
       "index_url": "https://www.asahi.com/rensai/list.html?id=16",
-      "error": null,
+      "error": "403 Client Error: Forbidden for url: https://www.asahi.com/rensai/list.html?id=16&page=14",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "（社説）国会の混乱　首相に責任　稚拙さ露呈",
+          "link": "https://www.asahi.com/articles/DA3S16499520.html?iref=pc_rensai_long_16_article",
+          "published": "2026年07月09日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）老朽原発　危うさ　再考するべきだ",
+          "link": "https://www.asahi.com/articles/DA3S16499521.html?iref=pc_rensai_long_16_article",
+          "published": "2026年07月09日 05時00分",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "毎日新聞",
@@ -106,7 +119,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "社説：成長投資戦略　国主導の失敗重ねるな",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1748149",
+          "published": "7月9日",
+          "paid": false
+        },
+        {
+          "title": "社説：自動運転の調査　安全性を高める手段に",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1748148",
+          "published": "7月9日",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "神戸新聞",

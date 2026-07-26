@@ -1,0 +1,56 @@
+{
+  "date": "2026-05-25",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": "403 Client Error: Forbidden for url: https://www.asahi.com/rensai/list.html?id=16&page=14",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）ＦＲＢ議長交代　政策の独立性守れるか",
+          "link": "https://www.asahi.com/articles/DA3S16469162.html?iref=pc_rensai_long_16_article",
+          "published": "2026年05月25日 05時00分",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】熱中症の予防　早めの対策を心がけよう",
+          "link": "https://www.nishinippon.co.jp/item/1495861/",
+          "published": "2026/05/25 06:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：地方鉄道の苦境　国も人口減下の維持策示せ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1720042",
+          "published": "5月25日",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

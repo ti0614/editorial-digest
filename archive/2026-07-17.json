@@ -6,10 +6,23 @@
       "category": "社説",
       "tier": "national",
       "index_url": "https://www.asahi.com/rensai/list.html?id=16",
-      "error": null,
+      "error": "403 Client Error: Forbidden for url: https://www.asahi.com/rensai/list.html?id=16&page=14",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "（社説）個人情報保護法　人々の不安　置き去りに",
+          "link": "https://www.asahi.com/articles/DA3S16505741.html?iref=pc_rensai_long_16_article",
+          "published": "2026年07月17日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）社保国民会議　給付の元手はどこから",
+          "link": "https://www.asahi.com/articles/DA3S16505740.html?iref=pc_rensai_long_16_article",
+          "published": "2026年07月17日 05時00分",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "毎日新聞",

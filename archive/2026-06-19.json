@@ -1,0 +1,68 @@
+{
+  "date": "2026-06-19",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": "403 Client Error: Forbidden for url: https://www.asahi.com/rensai/list.html?id=16&page=14",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）Ｇ７の課題　法の支配　守る意思示せ",
+          "link": "https://www.asahi.com/articles/DA3S16485712.html?iref=pc_rensai_long_16_article",
+          "published": "2026年06月19日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）観光船事故　安全軽視生まぬ社会に",
+          "link": "https://www.asahi.com/articles/DA3S16485713.html?iref=pc_rensai_long_16_article",
+          "published": "2026年06月19日 05時00分",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】知床事故で実刑　安全管理のずさんさ断罪",
+          "link": "https://www.nishinippon.co.jp/item/1505677/",
+          "published": "2026/06/19 06:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：滋賀知事選告示　「交通税」逃げず論戦を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1735504",
+          "published": "6月19日",
+          "paid": false
+        },
+        {
+          "title": "社説：拘禁刑導入１年　再犯防止へつなげたい",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1735499",
+          "published": "6月19日",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

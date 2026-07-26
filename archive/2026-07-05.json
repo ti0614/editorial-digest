@@ -6,10 +6,17 @@
       "category": "社説",
       "tier": "national",
       "index_url": "https://www.asahi.com/rensai/list.html?id=16",
-      "error": null,
+      "error": "403 Client Error: Forbidden for url: https://www.asahi.com/rensai/list.html?id=16&page=14",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "（社説）先端ＡＩ　ルールづくりへ連帯を",
+          "link": "https://www.asahi.com/articles/DA3S16496627.html?iref=pc_rensai_long_16_article",
+          "published": "2026年07月05日 05時00分",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "毎日新聞",
@@ -89,7 +96,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "【社説】私立大の縮減案　国の論理だけで進めるな",
+          "link": "https://www.nishinippon.co.jp/item/1511845/",
+          "published": "2026/07/05 06:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "京都新聞",
@@ -99,7 +113,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "社説：就職氷河期の支援　社会の担い手へ実効策要る",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1745722",
+          "published": "7月5日",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "神戸新聞",

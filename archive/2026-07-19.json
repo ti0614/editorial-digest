@@ -6,10 +6,23 @@
       "category": "社説",
       "tier": "national",
       "index_url": "https://www.asahi.com/rensai/list.html?id=16",
-      "error": null,
+      "error": "403 Client Error: Forbidden for url: https://www.asahi.com/rensai/list.html?id=16&page=14",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "（社説）再審法制見直し　冤罪重ねた反省　不十分",
+          "link": "https://www.asahi.com/articles/DA3S16507416.html?iref=pc_rensai_long_16_article",
+          "published": "2026年07月19日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）国旗損壊罪　違憲の声相次ぐ欠陥法",
+          "link": "https://www.asahi.com/articles/DA3S16507412.html?iref=pc_rensai_long_16_article",
+          "published": "2026年07月19日 05時00分",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "毎日新聞",

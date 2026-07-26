@@ -1,0 +1,68 @@
+{
+  "date": "2026-05-14",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": "403 Client Error: Forbidden for url: https://www.asahi.com/rensai/list.html?id=16&page=14",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）中道選挙総括　党再建へ厳しい道のり",
+          "link": "https://www.asahi.com/articles/DA3S16461937.html?iref=pc_rensai_long_16_article",
+          "published": "2026年05月14日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）ファンド融資　リスク軽視せず警戒を",
+          "link": "https://www.asahi.com/articles/DA3S16461940.html?iref=pc_rensai_long_16_article",
+          "published": "2026年05月14日 05時00分",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】政府の為替介入　円安構造に改善のメスを",
+          "link": "https://www.nishinippon.co.jp/item/1491798/",
+          "published": "2026/05/14 06:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：ふるさと納税　根本欠陥ただす改革を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1713272",
+          "published": "5月14日",
+          "paid": false
+        },
+        {
+          "title": "社説：高校国語再編案　論理と感性養う教科に",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1713271",
+          "published": "5月14日",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

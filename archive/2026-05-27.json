@@ -1,0 +1,62 @@
+{
+  "date": "2026-05-27",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": "403 Client Error: Forbidden for url: https://www.asahi.com/rensai/list.html?id=16&page=14",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）辺野古巡る学習　違法認定に大きな疑問",
+          "link": "https://www.asahi.com/articles/DA3S16470932.html?iref=pc_rensai_long_16_article",
+          "published": "2026年05月27日 05時00分",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】党首討論　運用改善は待ったなしだ",
+          "link": "https://www.nishinippon.co.jp/item/1496684/",
+          "published": "2026/05/27 06:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：八幡市長の産休　取るのが当然の社会に",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1721281",
+          "published": "5月27日",
+          "paid": false
+        },
+        {
+          "title": "社説：ＮＰＴまた決裂　核軍縮への道粘り強く",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1721280",
+          "published": "5月27日",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

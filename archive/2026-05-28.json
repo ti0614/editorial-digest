@@ -1,0 +1,68 @@
+{
+  "date": "2026-05-28",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": "403 Client Error: Forbidden for url: https://www.asahi.com/rensai/list.html?id=16&page=14",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）情報強化法成立　歯止め後回しへの懸念",
+          "link": "https://www.asahi.com/articles/DA3S16471653.html?iref=pc_rensai_long_16_article",
+          "published": "2026年05月28日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）防災気象情報　理解深め命守る行動を",
+          "link": "https://www.asahi.com/articles/DA3S16471654.html?iref=pc_rensai_long_16_article",
+          "published": "2026年05月28日 05時00分",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】バスケ長崎初V　地域の誇り　共に育てよう",
+          "link": "https://www.nishinippon.co.jp/item/1497115/",
+          "published": "2026/05/28 06:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：高額療養費　必要な治療　損ねないか",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1721870",
+          "published": "5月28日",
+          "paid": false
+        },
+        {
+          "title": "社説：精神科の虐待　人権侵害　放置許されぬ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1721869",
+          "published": "5月28日",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

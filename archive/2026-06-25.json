@@ -1,0 +1,68 @@
+{
+  "date": "2026-06-25",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": "403 Client Error: Forbidden for url: https://www.asahi.com/rensai/list.html?id=16&page=14",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）食品消費税１％案　首相の「悲願」ありきか",
+          "link": "https://www.asahi.com/articles/DA3S16489616.html?iref=pc_rensai_long_16_article",
+          "published": "2026年06月25日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）再審法制の整備　日野町の例は救えるか",
+          "link": "https://www.asahi.com/articles/DA3S16489621.html?iref=pc_rensai_long_16_article",
+          "published": "2026年06月25日 05時00分",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】教団の解散確定　政治との関係も清算せよ",
+          "link": "https://www.nishinippon.co.jp/item/1507865/",
+          "published": "2026/06/25 06:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：日野事件無罪へ　早期確定と法修正こそ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1739088",
+          "published": "6月25日",
+          "paid": false
+        },
+        {
+          "title": "社説：「教団」解散命令　着実な救済、要因解明を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1739087",
+          "published": "6月25日",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

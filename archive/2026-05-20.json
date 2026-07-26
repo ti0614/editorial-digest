@@ -1,0 +1,68 @@
+{
+  "date": "2026-05-20",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": "403 Client Error: Forbidden for url: https://www.asahi.com/rensai/list.html?id=16&page=14",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）記者への脅迫　政治家が誘因許されぬ",
+          "link": "https://www.asahi.com/articles/DA3S16466069.html?iref=pc_rensai_long_16_article",
+          "published": "2026年05月20日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）ホルムズ海峡　開放急ぎ船員の命守れ",
+          "link": "https://www.asahi.com/articles/DA3S16466068.html?iref=pc_rensai_long_16_article",
+          "published": "2026年05月20日 05時00分",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】皇室の将来像　旧宮家の養子案は疑問だ",
+          "link": "https://www.nishinippon.co.jp/item/1494012/",
+          "published": "2026/05/20 06:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：補正予算の検討　的を絞った家計支援に",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1717046",
+          "published": "5月20日",
+          "paid": false
+        },
+        {
+          "title": "社説：新たな防災情報　命を守る行動へ活用を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1717045",
+          "published": "5月20日",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "date": "2026-06-05",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": "403 Client Error: Forbidden for url: https://www.asahi.com/rensai/list.html?id=16&page=14",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）広陵いじめ調査　学校は会見して説明を",
+          "link": "https://www.asahi.com/articles/DA3S16477106.html?iref=pc_rensai_long_16_article",
+          "published": "2026年06月05日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）選挙とＳＮＳ　収益化一時停止が必要",
+          "link": "https://www.asahi.com/articles/DA3S16477105.html?iref=pc_rensai_long_16_article",
+          "published": "2026年06月05日 05時00分",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】日比の連携　安保にとどまらず拡大を",
+          "link": "https://www.nishinippon.co.jp/item/1500393/",
+          "published": "2026/06/05 06:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：派遣業カルテル　ピンハネなら許されぬ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1727055",
+          "published": "6月5日",
+          "paid": false
+        },
+        {
+          "title": "社説：原発裁判の「壁」　安全性の評価避けるな",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1727050",
+          "published": "6月5日",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

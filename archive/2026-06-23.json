@@ -1,0 +1,62 @@
+{
+  "date": "2026-06-23",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": "403 Client Error: Forbidden for url: https://www.asahi.com/rensai/list.html?id=16&page=14",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）沖縄慰霊の日　継承の形を探り続ける",
+          "link": "https://www.asahi.com/articles/DA3S16488191.html?iref=pc_rensai_long_16_article",
+          "published": "2026年06月23日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）皇室典範改正　国民の総意かなうよう",
+          "link": "https://www.asahi.com/articles/DA3S16488192.html?iref=pc_rensai_long_16_article",
+          "published": "2026年06月23日 05時00分",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】沖縄慰霊の日　再び戦場にしない決意を",
+          "link": "https://www.nishinippon.co.jp/item/1506980/",
+          "published": "2026/06/23 06:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：沖縄慰霊の日　国は広がる溝埋める努力を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1737655",
+          "published": "6月23日",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

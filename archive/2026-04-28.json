@@ -1,0 +1,49 @@
+{
+  "date": "2026-04-28",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": "403 Client Error: Forbidden for url: https://www.asahi.com/rensai/list.html?id=16&page=14",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】米イラン協議　戦闘の終結へ歩み寄りを",
+          "link": "https://www.nishinippon.co.jp/item/1486645/",
+          "published": "2026/04/28 06:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：排出量取引制度　実効性ある肉付け策が要る",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1704176",
+          "published": "4月28日",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

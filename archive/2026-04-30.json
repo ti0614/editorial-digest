@@ -1,0 +1,49 @@
+{
+  "date": "2026-04-30",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": "403 Client Error: Forbidden for url: https://www.asahi.com/rensai/list.html?id=16&page=14",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】労働時間見直し　働く人の意向を尊重せよ",
+          "link": "https://www.nishinippon.co.jp/item/1487383/",
+          "published": "2026/04/30 06:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：水俣病７０年　公害の苦難、対応の不備　刻め",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1705581",
+          "published": "4月30日",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

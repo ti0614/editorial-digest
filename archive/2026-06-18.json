@@ -1,0 +1,62 @@
+{
+  "date": "2026-06-18",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": "403 Client Error: Forbidden for url: https://www.asahi.com/rensai/list.html?id=16&page=14",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）消費税と社会保障　歴史を背負い、将来に責任を",
+          "link": "https://www.asahi.com/articles/DA3S16484977.html?iref=pc_rensai_long_16_article",
+          "published": "2026年06月18日 05時00分",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】日銀利上げ　物価安定へ適切に判断を",
+          "link": "https://www.nishinippon.co.jp/item/1505192/",
+          "published": "2026/06/18 06:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：奨学金の負担　「学生ローン」実態正せ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1734821",
+          "published": "6月18日",
+          "paid": false
+        },
+        {
+          "title": "社説：Ｈ３再打ち上げ　成功を重ね信頼獲得を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1734815",
+          "published": "6月18日",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

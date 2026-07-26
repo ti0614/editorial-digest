@@ -1,0 +1,56 @@
+{
+  "date": "2026-06-08",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": "403 Client Error: Forbidden for url: https://www.asahi.com/rensai/list.html?id=16&page=14",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）都構想と副首都　姑息な手段　重ねるのか",
+          "link": "https://www.asahi.com/articles/DA3S16478606.html?iref=pc_rensai_long_16_article",
+          "published": "2026年06月08日 05時00分",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】部活の地域展開　生徒のやりがい最優先に",
+          "link": "https://www.nishinippon.co.jp/item/1501262/",
+          "published": "2026/06/08 06:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：私立大４割削減案　地方支える役割　見据えねば",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1728561",
+          "published": "6月8日",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

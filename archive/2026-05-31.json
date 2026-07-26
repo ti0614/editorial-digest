@@ -1,0 +1,62 @@
+{
+  "date": "2026-05-31",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": "403 Client Error: Forbidden for url: https://www.asahi.com/rensai/list.html?id=16&page=14",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）給付に一本化　あんこ詰める議論　急務",
+          "link": "https://www.asahi.com/articles/DA3S16473781.html?iref=pc_rensai_long_16_article",
+          "published": "2026年05月31日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）今村騎手優勝　ガラスの天井破る快走",
+          "link": "https://www.asahi.com/articles/DA3S16473782.html?iref=pc_rensai_long_16_article",
+          "published": "2026年05月31日 05時00分",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】新幹線談合疑い　計画の信頼揺るがす事態",
+          "link": "https://www.nishinippon.co.jp/item/1498382/",
+          "published": "2026/05/31 06:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：高校生の凶行　匿流の「捨て駒」にさせぬよう",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1723747",
+          "published": "5月31日",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

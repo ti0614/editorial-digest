@@ -1,0 +1,62 @@
+{
+  "date": "2026-06-09",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": "403 Client Error: Forbidden for url: https://www.asahi.com/rensai/list.html?id=16&page=14",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）皇族数の確保　養子案には疑問が残る",
+          "link": "https://www.asahi.com/articles/DA3S16479387.html?iref=pc_rensai_long_16_article",
+          "published": "2026年06月09日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）民放のこれから　「放送」である足場は",
+          "link": "https://www.asahi.com/articles/DA3S16479388.html?iref=pc_rensai_long_16_article",
+          "published": "2026年06月09日 05時00分",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】首相と中傷動画　誠実な調査と説明求める",
+          "link": "https://www.nishinippon.co.jp/item/1501713/",
+          "published": "2026/06/09 06:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：消費税「１％」案　物価高を助長しかねぬ奇策",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1729353",
+          "published": "6月9日",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

@@ -6,10 +6,23 @@
       "category": "社説",
       "tier": "national",
       "index_url": "https://www.asahi.com/rensai/list.html?id=16",
-      "error": null,
+      "error": "403 Client Error: Forbidden for url: https://www.asahi.com/rensai/list.html?id=16&page=14",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "（社説）皇室典範改正　無体な可決　中道の不実",
+          "link": "https://www.asahi.com/articles/DA3S16501197.html?iref=pc_rensai_long_16_article",
+          "published": "2026年07月11日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）高齢者の医療　世代間対立を避けよう",
+          "link": "https://www.asahi.com/articles/DA3S16501198.html?iref=pc_rensai_long_16_article",
+          "published": "2026年07月11日 05時00分",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "毎日新聞",
@@ -106,7 +119,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "社説：中部電の不正隠し　原発動かす資格ない悪質さ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1749630",
+          "published": "7月11日",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "神戸新聞",

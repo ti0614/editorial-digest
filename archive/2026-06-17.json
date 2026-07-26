@@ -1,0 +1,68 @@
+{
+  "date": "2026-06-17",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": "403 Client Error: Forbidden for url: https://www.asahi.com/rensai/list.html?id=16&page=14",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）日銀利上げ１％　リスクを見定め着実に",
+          "link": "https://www.asahi.com/articles/DA3S16484288.html?iref=pc_rensai_long_16_article",
+          "published": "2026年06月17日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）アルメニア選挙　ロシアの威嚇　許されぬ",
+          "link": "https://www.asahi.com/articles/DA3S16484289.html?iref=pc_rensai_long_16_article",
+          "published": "2026年06月17日 05時00分",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】サッカーW杯　政治の影はね返す熱戦を",
+          "link": "https://www.nishinippon.co.jp/item/1504766/",
+          "published": "2026/06/17 06:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：利上げ１％に　物価抑制へ妥当な判断",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1734065",
+          "published": "6月17日",
+          "paid": false
+        },
+        {
+          "title": "社説：宮津市長３選　市民参加、文化で活力を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1734060",
+          "published": "6月17日",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

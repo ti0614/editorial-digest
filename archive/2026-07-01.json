@@ -6,10 +6,23 @@
       "category": "社説",
       "tier": "national",
       "index_url": "https://www.asahi.com/rensai/list.html?id=16",
-      "error": null,
+      "error": "403 Client Error: Forbidden for url: https://www.asahi.com/rensai/list.html?id=16&page=14",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "（社説）消費減税と財源　意見に耳を傾け撤回を",
+          "link": "https://www.asahi.com/articles/DA3S16493487.html?iref=pc_rensai_long_16_article",
+          "published": "2026年07月01日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）教団の解散　同じ過ち生まぬ契機に",
+          "link": "https://www.asahi.com/articles/DA3S16493488.html?iref=pc_rensai_long_16_article",
+          "published": "2026年07月01日 05時00分",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "毎日新聞",
@@ -89,7 +102,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "【社説】九州の人口急減　希望が持てる縮小社会に",
+          "link": "https://www.nishinippon.co.jp/item/1510231/",
+          "published": "2026/07/01 06:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "京都新聞",
@@ -99,7 +119,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "社説：相次ぐ地震    いつ どこでもに備えを",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1742937",
+          "published": "7月1日",
+          "paid": false
+        },
+        {
+          "title": "社説：最低賃金の改定　物価に負けぬ底上げへ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1742930",
+          "published": "7月1日",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "神戸新聞",

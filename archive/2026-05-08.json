@@ -1,0 +1,55 @@
+{
+  "date": "2026-05-08",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": "403 Client Error: Forbidden for url: https://www.asahi.com/rensai/list.html?id=16&page=14",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】インド太平洋構想　法の支配貫く連携強化を",
+          "link": "https://www.nishinippon.co.jp/item/1489831/",
+          "published": "2026/05/08 06:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：「匿流」対策　資金の流れ断つ制度に",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1709877",
+          "published": "5月8日",
+          "paid": false
+        },
+        {
+          "title": "社説：はしかの急増　京滋でも感染に注意を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1709888",
+          "published": "5月8日",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

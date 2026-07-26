@@ -1,0 +1,62 @@
+{
+  "date": "2026-06-20",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": "403 Client Error: Forbidden for url: https://www.asahi.com/rensai/list.html?id=16&page=14",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）デジタル教科書　課題は多い　準備入念に",
+          "link": "https://www.asahi.com/articles/DA3S16486465.html?iref=pc_rensai_long_16_article",
+          "published": "2026年06月20日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）米イラン覚書　粘り強く最終合意を",
+          "link": "https://www.asahi.com/articles/DA3S16486464.html?iref=pc_rensai_long_16_article",
+          "published": "2026年06月20日 05時00分",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】米イラン覚書　海峡開放と核放棄実現を",
+          "link": "https://www.nishinippon.co.jp/item/1506163/",
+          "published": "2026/06/20 06:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：Ｇ７サミット　融和演出では役割果たせぬ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1736288",
+          "published": "6月20日",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

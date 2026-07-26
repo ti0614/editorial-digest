@@ -1,0 +1,62 @@
+{
+  "date": "2026-06-07",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": "403 Client Error: Forbidden for url: https://www.asahi.com/rensai/list.html?id=16&page=14",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）部活で続く自殺　異常事態に歯止め急務",
+          "link": "https://www.asahi.com/articles/DA3S16478425.html?iref=pc_rensai_long_16_article",
+          "published": "2026年06月07日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）ＤＮＡ鑑定不正　第三者による検証を",
+          "link": "https://www.asahi.com/articles/DA3S16478424.html?iref=pc_rensai_long_16_article",
+          "published": "2026年06月07日 05時00分",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】FRB新体制　独立性守り金融の安定を",
+          "link": "https://www.nishinippon.co.jp/item/1501072/",
+          "published": "2026/06/07 06:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：避けられぬ人口減　直視し、巧みに縮む戦略こそ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1728149",
+          "published": "6月7日",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

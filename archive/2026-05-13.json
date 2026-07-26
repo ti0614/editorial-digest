@@ -1,0 +1,68 @@
+{
+  "date": "2026-05-13",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": "403 Client Error: Forbidden for url: https://www.asahi.com/rensai/list.html?id=16&page=14",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）南極条約会議　平和利用の重み　共有を",
+          "link": "https://www.asahi.com/articles/DA3S16461140.html?iref=pc_rensai_long_16_article",
+          "published": "2026年05月13日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）校外活動の事故　対策の穴　洗い出し急務",
+          "link": "https://www.asahi.com/articles/DA3S16461141.html?iref=pc_rensai_long_16_article",
+          "published": "2026年05月13日 05時00分",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】有人の宇宙開発　国際協調を軸に進めたい",
+          "link": "https://www.nishinippon.co.jp/item/1491404/",
+          "published": "2026/05/13 06:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：「酷暑」への警戒　熱中症に早期の備えを",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1712577",
+          "published": "5月13日",
+          "paid": false
+        },
+        {
+          "title": "社説：相次ぐ生保不正　病巣絶つ改革が必要だ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1712576",
+          "published": "5月13日",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

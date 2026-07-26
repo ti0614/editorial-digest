@@ -1,0 +1,68 @@
+{
+  "date": "2026-06-10",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": "403 Client Error: Forbidden for url: https://www.asahi.com/rensai/list.html?id=16&page=14",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）中朝首脳会談　非核化を忘れたのか",
+          "link": "https://www.asahi.com/articles/DA3S16480098.html?iref=pc_rensai_long_16_article",
+          "published": "2026年06月10日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）個人情報保護法　不安見据え　審議尽くせ",
+          "link": "https://www.asahi.com/articles/DA3S16480093.html?iref=pc_rensai_long_16_article",
+          "published": "2026年06月10日 05時00分",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】皇族確保案　国民に広く理解されるか",
+          "link": "https://www.nishinippon.co.jp/item/1502151/",
+          "published": "2026/06/10 06:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：衆院比例削減案　批判そらし、焼け太りか",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1729963",
+          "published": "6月10日",
+          "paid": false
+        },
+        {
+          "title": "社説：サッカーＷ杯　「８強の壁」越えに期待",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1729960",
+          "published": "6月10日",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}
