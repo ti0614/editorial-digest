@@ -558,16 +558,9 @@
       "tier": "regional",
       "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
       "error": null,
-      "skipped_by_robots": false,
+      "skipped_by_robots": true,
       "unavailable_reason": null,
-      "items": [
-        {
-          "title": "【副首都法成立】党利党略の疑念拭えず",
-          "link": "https://www.kochinews.co.jp/article/detail/1028601",
-          "published": "2026.07.26 05:00",
-          "paid": false
-        }
-      ]
+      "items": []
     },
     {
       "name": "日本海新聞",
