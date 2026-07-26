@@ -4,9 +4,7 @@ from __future__ import annotations
 import urllib.robotparser as robotparser
 from urllib.parse import urljoin, urlparse
 
-import requests
-
-from fetch import REQUEST_TIMEOUT, USER_AGENT
+from fetch import USER_AGENT, fetch_html
 
 DEFAULT_REQUEST_INTERVAL_SEC = 2.0  # 同一実行内でもサイトに負荷をかけすぎないための間隔
 
@@ -28,11 +26,9 @@ class RobotsChecker:
             try:
                 # rp.read() は urllib 経由でUTF-8決め打ちのデコードを行い、
                 # Shift-JIS等で配信されているrobots.txt（例: 奈良新聞）で
-                # UnicodeDecodeError になることがあるため、fetch_html と同じ
-                # requests ベースの文字コード自動判定で自前取得してから渡す。
-                resp = requests.get(rp.url, headers={"User-Agent": USER_AGENT}, timeout=REQUEST_TIMEOUT)
-                resp.encoding = resp.apparent_encoding or resp.encoding
-                rp.parse(resp.text.splitlines())
+                # UnicodeDecodeError になることがあるため、fetch_html を使って
+                # 自前取得してから渡す。
+                rp.parse(fetch_html(rp.url).splitlines())
             except Exception:
                 pass
             self._cache[origin] = rp
