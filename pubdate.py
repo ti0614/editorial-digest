@@ -6,10 +6,21 @@ main.py（取得・直近7日間フィルタ）と render.py（Webページの�
 from __future__ import annotations
 
 import re
-from datetime import date, timedelta, timezone
+from datetime import date, datetime, timedelta, timezone
 
 DIGEST_WINDOW_DAYS = 7  # 直近何日分の記事を対象とするか
 JST = timezone(timedelta(hours=9))
+
+
+def today_jst() -> date:
+    """JST基準の「今日」を返す。
+
+    date.today()はサーバーのローカルタイムゾーン（GitHub Actionsのランナー
+    ではUTC）を使うため、JSTで日付が変わってからUTCで日付が変わるまでの間
+    （00:00〜08:59 JST）は前日の日付になってしまう。「当日」の基準日は
+    常にJSTで判定する必要があるため、date.today()の代わりにこちらを使う。
+    """
+    return datetime.now(JST).date()
 
 # 観測された表記例:
 #   "2026年7月22日 05時00分" / "2026/7/22 02:02" / "2026.07.21" / "7月22日"

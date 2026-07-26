@@ -29,7 +29,7 @@ import yaml
 import render
 from extract import Item, enrich_missing_times, extract_items
 from fetch import fetch_html
-from pubdate import DIGEST_WINDOW_DAYS, JST, is_same_day
+from pubdate import DIGEST_WINDOW_DAYS, JST, is_same_day, today_jst
 from robots import RobotsChecker
 
 SOURCES_FILE = Path(__file__).parent / "sources.yaml"
@@ -114,7 +114,7 @@ def _iter_results(
 def run_check(only: list[str] | None) -> int:
     sources = load_sources(only)
     robots = RobotsChecker()
-    reference_date = date.today()
+    reference_date = today_jst()
 
     had_problem = False
     for result in _iter_results(sources, reference_date, robots, fetch_times=False):
@@ -209,7 +209,7 @@ def _add_only_argument(subparser: argparse.ArgumentParser) -> None:
 
 
 def _add_date_argument(subparser: argparse.ArgumentParser) -> None:
-    subparser.add_argument("--date", type=date.fromisoformat, default=date.today(), help="基準日 (YYYY-MM-DD)。省略時は本日")
+    subparser.add_argument("--date", type=date.fromisoformat, default=today_jst(), help="基準日 (YYYY-MM-DD)。省略時は本日（JST基準）")
 
 
 def main() -> int:
