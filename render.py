@@ -791,6 +791,7 @@ def render_archive_html(generated_at: datetime | None = None) -> str:
     """
     main_html = '''
 <input type="search" class="archive-search" id="archive-search" placeholder="タイトルで検索（例: 憲法、選挙）" autocomplete="off" />
+<p class="disclaimer">検索対象はタイトルのみです（本文は収集していないため検索できません）。</p>
 <p class="archive-status" id="archive-status">読み込み中…</p>
 <div id="archive-results"></div>
 <button type="button" class="load-more" id="load-more" hidden>さらに過去分を読み込む</button>'''
