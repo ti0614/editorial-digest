@@ -425,6 +425,7 @@ def render_html(results: list, run_date: date, generated_at: datetime | None = N
   <footer>
     <p>社説まとめツールが自動生成 / 基準日: {run_date.isoformat()}。個人利用目的の非公式リンク集で、著作権は各社に帰属します。</p>
     <p>内容の正確性は保証しません（記事削除等でリンク切れの場合あり）。「会員限定」表示も参考情報です。</p>
+    <p>robots.txtでClaude/Anthropic系クローラーを名指し拒否している新聞社の社説は取得していません。</p>
     {unavailable_footer}
     <p>ご連絡・削除のご依頼は <a href="mailto:{CONTACT_EMAIL}">{CONTACT_EMAIL}</a> まで。</p>
   </footer>
@@ -504,6 +505,7 @@ def render_today_html(results: list, run_date: date, generated_at: datetime | No
   <footer>
     <p>社説まとめツールが自動生成 / 基準日: {run_date.isoformat()}（当日分のみ）。個人利用目的の非公式リンク集で、著作権は各社に帰属します。</p>
     <p>内容の正確性は保証しません（記事削除等でリンク切れの場合あり）。「会員限定」表示も参考情報です。</p>
+    <p>robots.txtでClaude/Anthropic系クローラーを名指し拒否している新聞社の社説は取得していません。</p>
     <p>ご連絡・削除のご依頼は <a href="mailto:{CONTACT_EMAIL}">{CONTACT_EMAIL}</a> まで。</p>
   </footer>
 </div>
