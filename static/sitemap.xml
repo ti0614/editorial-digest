@@ -4,4 +4,8 @@
     <loc>https://ti0614.github.io/editorial-digest/</loc>
     <changefreq>daily</changefreq>
   </url>
+  <url>
+    <loc>https://ti0614.github.io/editorial-digest/archive.html</loc>
+    <changefreq>daily</changefreq>
+  </url>
 </urlset>

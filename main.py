@@ -166,6 +166,21 @@ def run_today(only: list[str] | None, run_date: date) -> int:
     return 0
 
 
+def run_archive_page() -> int:
+    """output/archive.html（アーカイブ検索ページの骨格）を生成する。
+
+    このページ自体はスクレイピング結果を埋め込まず、archive/配下のJSON
+    スナップショットをブラウザ側でfetchして検索・表示する（render.render_archive_html
+    のdocstring参照）ため、ソース取得は行わない。
+    """
+    OUTPUT_DIR.mkdir(exist_ok=True)
+    html_path = OUTPUT_DIR / "archive.html"
+    generated_at = datetime.now(JST)
+    html_path.write_text(render.render_archive_html(generated_at), encoding="utf-8")
+    print(f"アーカイブ検索ページを生成しました -> {html_path}")
+    return 0
+
+
 def write_json(path: Path, run_date: date, results: list[SourceResult]) -> None:
     payload = {
         "date": run_date.isoformat(),
@@ -209,6 +224,8 @@ def main() -> int:
     _add_only_argument(today_p)
     _add_date_argument(today_p)
 
+    sub.add_parser("archive-page", help="output/archive.html（アーカイブ検索ページの骨格）を生成する（ソース取得なし）")
+
     args = parser.parse_args()
 
     if args.command == "check":
@@ -217,6 +234,8 @@ def main() -> int:
         return run_digest(args.only, args.date)
     if args.command == "today":
         return run_today(args.only, args.date)
+    if args.command == "archive-page":
+        return run_archive_page()
     return 1
 
 

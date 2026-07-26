@@ -7,7 +7,7 @@ on:
   workflow_dispatch: {}
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -29,9 +29,30 @@ jobs:
 
       - run: python main.py today
 
+      - name: 当日分のスナップショットをarchive/に保存
+        run: |
+          mkdir -p archive
+          src=$(ls output/*-today.json)
+          cp "$src" "archive/$(basename "$src" -today.json).json"
+          python build_archive_index.py
+
+      - name: archive/の変更をmainにコミット
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add archive/
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: アーカイブスナップショットを追加"
+            git push origin HEAD:main
+          fi
+
+      - run: python main.py archive-page
+
       - run: |
           mkdir -p _site
           cp output/today.html _site/index.html
+          cp output/archive.html _site/archive.html
+          cp -r archive _site/archive
           cp static/robots.txt _site/robots.txt
           cp static/sitemap.xml _site/sitemap.xml
 
