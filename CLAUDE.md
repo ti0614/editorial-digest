@@ -38,6 +38,10 @@ python main.py run --only 朝日新聞 読売新聞 --date 2026-07-21
 # output/YYYY-MM-DD-today.json を生成
 python main.py today
 python main.py today --only 朝日新聞 読売新聞 --date 2026-07-21
+
+# output/archive.html（アーカイブ検索ページの骨格）のみ生成する
+# （ソース取得は行わない。archive/配下のJSONはブラウザ側でfetchする）
+python main.py archive-page
 ```
 
 このリポジトリにはテストスイート・リンター・ビルド手順はありません ——
@@ -98,7 +102,13 @@ python main.py today --only 朝日新聞 読売新聞 --date 2026-07-21
   表示/非表示を保存）。`render_today_html()`が当日版（`today.html`）を生成する
   —— セクションは1つのみで日付ナビは無く、週間ダイジェストと違い、ある紙が
   0件でも失敗扱いにはしない（新聞社によっては毎日社説を掲載するとは限らない
-  ため）。
+  ため）。`render_archive_html()`が横断検索用の`archive.html`を生成する ——
+  他の2つと違い記事データをビルド時に埋め込まず、`archive/index.json`・
+  `archive/{date}.json`をブラウザ側でfetchして検索・表示する完全に静的な
+  ページ（詳細は後述）。
+- **`build_archive_index.py`** — `archive/`配下にあるスナップショットJSONの
+  ファイル名一覧から`archive/index.json`を再生成する小さなCLIスクリプト。
+  CIが当日分を`archive/{date}.json`としてコミットした直後に実行する。
 
 ### 当日版 vs 週間版
 
@@ -106,6 +116,20 @@ python main.py today --only 朝日新聞 読売新聞 --date 2026-07-21
 絞り込みが`enrich_missing_times()`より*前*に行われるため、当日版では、
 どのみち捨てられる古い記事のために記事個別ページへ余計なリクエストを送らずに
 済む —— この順序は正確性・リクエスト数の両方に関わる。
+
+### アーカイブの永続化
+
+`output/`は`.gitignore`対象で、`main.py run`/`today`が生成するJSONスナップ
+ショットはリポジトリに残らない（GitHub Pagesへのデプロイも毎回総入れ替え
+のため、CI実行が終わると前日以前のデータは消える）。横断検索用のアーカイブは
+これとは別に、CIワークフロー（`deploy-today.yml`）が`output/{date}-today.json`
+を`archive/{date}.json`としてコピーし、専用の**`data`ブランチ**にコミット・
+pushすることで永続化している。`main`はコード用ブランチとして
+PRレビュー必須のルールセット保護がかかっているが、`data`はそのルールセットの
+対象外（`main`のみ対象）なので、bypass設定を一切追加せずにCIから直接push
+できる。デプロイのたびに`data`ブランチの`archive/`一式を`_site/archive`へ
+コピーしてGitHub Pagesに公開する（`build_archive_index.py`がその都度
+`archive/index.json`＝日付一覧を再生成する）。
 
 ### コードに組み込まれたコンプライアンス方針
 

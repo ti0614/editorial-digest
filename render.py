@@ -165,6 +165,22 @@ a.article time {
 
 .empty-today { color: var(--ink-faint); font-size: 0.88rem; padding: 1.5rem 0.15rem; }
 
+.archive-search {
+  width:100%; font: inherit; font-size:0.95rem; padding:0.65rem 0.8rem; border-radius:8px;
+  border:1px solid var(--rule); background:var(--surface); color:var(--ink); margin:0.9rem 0 0.5rem;
+}
+.archive-search:focus-visible { outline:2px solid var(--accent); outline-offset:2px; }
+.archive-status { font-size:0.8rem; color:var(--ink-faint); margin:0 0 1rem; }
+li.article-item.search-hide { display:none; }
+button.load-more {
+  display:block; width:100%; font:inherit; font-size:0.85rem; font-weight:600; padding:0.65rem;
+  margin-top:1.5rem; border-radius:8px; border:1px solid var(--rule); background:transparent;
+  color:var(--ink-muted); cursor:pointer;
+}
+button.load-more:hover { background: var(--accent-soft); color: var(--accent); }
+button.load-more:focus-visible { outline:2px solid var(--accent); outline-offset:2px; }
+button.load-more[hidden] { display:none; }
+
 footer { padding:1.75rem 1.25rem 0; color:var(--ink-faint); font-size:0.78rem; line-height:1.7; }
 footer a { color: var(--accent); }
 html { scroll-behavior: smooth; }
@@ -252,6 +268,218 @@ _SCRIPT_TEMPLATE = """
       applyPaidToggle();
     });
   }
+})();
+"""
+
+# アーカイブ検索ページ専用のスクリプト。他の2ページと違いサーバー側で記事を
+# 埋め込まず、archive/index.json・archive/{date}.json をブラウザ側でfetchして
+# 組み立てる。tier/会員限定トグルは_SCRIPT_TEMPLATEと同じロジックだが、
+# 動的に追加されるセクションに対してupdateCountsを呼び直す必要があるため
+# 独立したスクリプトにしている。
+_ARCHIVE_SCRIPT_TEMPLATE = r"""
+(function () {
+  var TIERS = ['national', 'block', 'regional'];
+  var DEFAULT_ON = { national: true, block: false, regional: false };
+  var WEEKDAY_JP = ['月', '火', '水', '木', '金', '土', '日'];
+  var PAGE_SIZE = 30;
+
+  var body = document.body;
+  var totalEl = document.getElementById('total-count');
+  var resultsEl = document.getElementById('archive-results');
+  var searchInput = document.getElementById('archive-search');
+  var loadMoreBtn = document.getElementById('load-more');
+  var statusEl = document.getElementById('archive-status');
+  var chips = {};
+  TIERS.forEach(function (t) { chips[t] = document.querySelector('.tier-chip[data-tier="' + t + '"]'); });
+
+  var allDates = [];
+  var loadedCount = 0;
+
+  function esc(s) {
+    return String(s).replace(/[&<>"']/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+    });
+  }
+
+  function pad(n) { n = parseInt(n, 10); return (n < 10 ? '0' : '') + n; }
+
+  function extractTime(published) {
+    if (!published) return null;
+    var m = published.match(/(\d{1,2})時(\d{1,2})分/);
+    if (m) return pad(m[1]) + ':' + pad(m[2]);
+    m = published.match(/(\d{1,2}):(\d{2})(?!\d)/);
+    if (m) return pad(m[1]) + ':' + m[2];
+    return null;
+  }
+
+  function weekdayOf(dateStr) {
+    var d = new Date(dateStr + 'T00:00:00+09:00');
+    return WEEKDAY_JP[(d.getDay() + 6) % 7];
+  }
+
+  function tierTagClass(tier) {
+    if (tier === 'block') return 'src-tag src-tag-block';
+    if (tier === 'regional') return 'src-tag src-tag-regional';
+    return 'src-tag';
+  }
+
+  function flattenDateData(data) {
+    var out = [];
+    (data.sources || []).forEach(function (src) {
+      var tier = TIERS.indexOf(src.tier) >= 0 ? src.tier : 'regional';
+      (src.items || []).forEach(function (it) {
+        out.push({
+          name: src.name, tier: tier, title: it.title, link: it.link,
+          time: extractTime(it.published), paid: !!it.paid,
+        });
+      });
+    });
+    return out;
+  }
+
+  function renderRow(it) {
+    var timeHtml = it.time ? '<time>' + it.time + '</time>' : '';
+    var paidHtml = it.paid ? '<span class="paid-badge">会員限定</span>' : '';
+    var paidClass = it.paid ? ' paid-item' : '';
+    return '<li class="article-item tier-' + it.tier + paidClass + '" data-title="' + esc(it.title.toLowerCase()) + '">' +
+      '<a class="article" href="' + esc(it.link) + '" target="_blank" rel="noopener noreferrer">' +
+      '<span class="article-main"><span class="' + tierTagClass(it.tier) + '">' + esc(it.name) + '</span>' +
+      '<span class="article-title">' + esc(it.title) + paidHtml + '</span></span>' + timeHtml + '</a></li>';
+  }
+
+  function renderSection(dateStr, items) {
+    var section = document.createElement('section');
+    section.className = 'dategroup';
+    section.id = 'd-' + dateStr;
+    var parts = dateStr.split('-');
+    section.innerHTML =
+      '<div class="date-head"><h2>' + parseInt(parts[1], 10) + '<span class="slash">/</span>' + parseInt(parts[2], 10) +
+      '<span class="wd">（' + weekdayOf(dateStr) + '）</span></h2>' +
+      '<span class="date-count">' + items.length + '件</span></div>' +
+      '<ul class="article-list">' + items.map(renderRow).join('') + '</ul>';
+    return section;
+  }
+
+  function updateCounts() {
+    var grandTotal = 0;
+    resultsEl.querySelectorAll('section.dategroup').forEach(function (sec) {
+      var count = 0;
+      sec.querySelectorAll('li.article-item').forEach(function (li) {
+        if (li.offsetParent !== null) count++;
+      });
+      grandTotal += count;
+      var countEl = sec.querySelector('.date-count');
+      if (countEl) countEl.textContent = count + '件';
+      sec.hidden = count === 0;
+    });
+    if (totalEl) totalEl.textContent = grandTotal;
+  }
+
+  function activeTiers() {
+    var active = {};
+    TIERS.forEach(function (t) { active[t] = body.classList.contains('show-' + t); });
+    return active;
+  }
+
+  function apply(tier, on) {
+    body.classList.toggle('show-' + tier, on);
+    if (chips[tier]) chips[tier].setAttribute('aria-pressed', on ? 'true' : 'false');
+  }
+
+  function applyAll(state) {
+    TIERS.forEach(function (t) { apply(t, !!state[t]); });
+    updateCounts();
+    try { localStorage.setItem('editorial-digest-tiers', JSON.stringify(state)); } catch (e) {}
+  }
+
+  var initialTiers = DEFAULT_ON;
+  try {
+    var savedTiers = localStorage.getItem('editorial-digest-tiers');
+    if (savedTiers) initialTiers = JSON.parse(savedTiers);
+  } catch (e) {}
+  applyAll(initialTiers);
+
+  TIERS.forEach(function (t) {
+    if (!chips[t]) return;
+    chips[t].addEventListener('click', function () {
+      var state = activeTiers();
+      state[t] = !state[t];
+      applyAll(state);
+    });
+  });
+
+  var paidToggle = document.getElementById('paid-toggle');
+  var hidePaid = false;
+  function applyPaidToggle() {
+    body.classList.toggle('hide-paid', hidePaid);
+    if (paidToggle) {
+      paidToggle.setAttribute('aria-pressed', hidePaid ? 'true' : 'false');
+      paidToggle.textContent = hidePaid ? '会員限定記事: 非表示中' : '会員限定記事: 表示中';
+    }
+    updateCounts();
+    try { localStorage.setItem('editorial-digest-hide-paid', hidePaid ? '1' : '0'); } catch (e) {}
+  }
+  try {
+    hidePaid = localStorage.getItem('editorial-digest-hide-paid') === '1';
+  } catch (e) {}
+  applyPaidToggle();
+  if (paidToggle) {
+    paidToggle.addEventListener('click', function () {
+      hidePaid = !hidePaid;
+      applyPaidToggle();
+    });
+  }
+
+  function finishLoading() {
+    statusEl.textContent = allDates.length ? ('全' + allDates.length + '日分を表示中') : 'まだアーカイブがありません。';
+    loadMoreBtn.hidden = true;
+  }
+
+  function loadNextPage() {
+    var batch = allDates.slice(loadedCount, loadedCount + PAGE_SIZE);
+    if (batch.length === 0) { finishLoading(); return; }
+    statusEl.textContent = '読み込み中…';
+    loadMoreBtn.hidden = true;
+    Promise.all(batch.map(function (d) {
+      return fetch('archive/' + d + '.json').then(function (r) { return r.ok ? r.json() : null; })
+        .then(function (data) { return data ? { date: d, items: flattenDateData(data) } : null; })
+        .catch(function () { return null; });
+    })).then(function (results) {
+      results.forEach(function (r) {
+        if (r) resultsEl.appendChild(renderSection(r.date, r.items));
+      });
+      loadedCount += batch.length;
+      updateCounts();
+      if (loadedCount >= allDates.length) {
+        finishLoading();
+      } else {
+        statusEl.textContent = loadedCount + ' / ' + allDates.length + '日分を表示中';
+        loadMoreBtn.hidden = false;
+      }
+    });
+  }
+
+  if (loadMoreBtn) {
+    loadMoreBtn.addEventListener('click', function () { loadNextPage(); });
+  }
+
+  if (searchInput) {
+    searchInput.addEventListener('input', function () {
+      var q = searchInput.value.trim().toLowerCase();
+      resultsEl.querySelectorAll('li.article-item').forEach(function (li) {
+        var match = !q || li.getAttribute('data-title').indexOf(q) !== -1;
+        li.classList.toggle('search-hide', !match);
+      });
+      updateCounts();
+    });
+  }
+
+  fetch('archive/index.json').then(function (r) { return r.json(); }).then(function (data) {
+    allDates = (data.dates || []).slice().sort().reverse();
+    loadNextPage();
+  }).catch(function () {
+    statusEl.textContent = 'アーカイブの読み込みに失敗しました。時間をおいて再度お試しください。';
+  });
 })();
 """
 
@@ -354,11 +582,13 @@ def _render_updated_at(generated_at: datetime | None) -> str:
 def _render_page(
     *, title: str, description: str, canonical_path: str, eyebrow: str, heading: str,
     summary_html: str, nav_html: str, main_html: str, footer_html: str,
-    generated_at: datetime | None,
+    generated_at: datetime | None, script: str = _SCRIPT_TEMPLATE,
 ) -> str:
-    """週間ダイジェスト・当日版に共通のページ骨格（head/masthead/footer/script）を
-    組み立てる。両ページで異なる部分（見出し・概要・ナビ・本文・フッター文言）は
-    呼び出し側が文字列として渡す。
+    """週間ダイジェスト・当日版・アーカイブ検索に共通のページ骨格（head/masthead/
+    footer/script）を組み立てる。異なる部分（見出し・概要・ナビ・本文・フッター
+    文言）は呼び出し側が文字列として渡す。scriptは既定でtier/会員限定トグルの
+    共通スクリプトだが、アーカイブページのように動的読み込みが絡むページは
+    独自のスクリプトに差し替える。
     """
     canonical_url = f"{SITE_URL}{canonical_path}"
     desc_attr = _esc(description)
@@ -408,7 +638,7 @@ def _render_page(
   </footer>
 </div>
 
-<script>{_SCRIPT_TEMPLATE}</script>
+<script>{script}</script>
 </body>
 </html>
 '''
@@ -544,4 +774,41 @@ def render_today_html(results: list, run_date: date, generated_at: datetime | No
         heading="本日の社説<br>まとめ", summary_html=summary_html,
         nav_html="", main_html=section, footer_html=footer_html,
         generated_at=generated_at,
+    )
+
+
+def render_archive_html(generated_at: datetime | None = None) -> str:
+    """アーカイブ検索ページ (output/archive.html) を組み立てる。
+
+    週間ダイジェスト・当日版と異なり、記事データはビルド時に埋め込まない。
+    archive/index.json・archive/{date}.json（CIがコミットする日次スナップショット、
+    main.py の write_json と同じ形式）をブラウザ側がfetchして検索・一覧表示する
+    完全に静的なページなので、results は受け取らない。
+    """
+    main_html = '''
+<input type="search" class="archive-search" id="archive-search" placeholder="タイトルで検索（例: 憲法、選挙）" autocomplete="off" />
+<p class="archive-status" id="archive-status">読み込み中…</p>
+<div id="archive-results"></div>
+<button type="button" class="load-more" id="load-more" hidden>さらに過去分を読み込む</button>'''
+
+    summary_html = (
+        '    <p class="summary">過去の社説を横断検索・表示中 <strong id="total-count">0</strong>件</p>\n'
+        '    <p class="disclaimer">タイトル・リンク・日付のみ収集。本文は各紙サイトでご覧ください。</p>'
+    )
+    footer_html = (
+        '    <p>社説まとめツールが自動生成。個人利用目的の非公式リンク集で、著作権は各社に帰属します。</p>\n'
+        '    <p>内容の正確性は保証しません（記事削除等でリンク切れの場合あり）。「会員限定」表示も参考情報です。</p>\n'
+        '    <p>一部の新聞社は、サイト側の意向により対象外としています。</p>\n'
+        f'    <p>ご連絡・削除のご依頼は <a href="mailto:{CONTACT_EMAIL}">{CONTACT_EMAIL}</a> まで。</p>'
+    )
+
+    return _render_page(
+        title="社説まとめ アーカイブ検索",
+        description="全国紙・地方紙の社説（オピニオン）を過去分まで横断検索できる非公式アーカイブ。"
+                     "タイトル・リンク・日付のみを収集し、本文は掲載していません。",
+        canonical_path="archive.html",
+        eyebrow="EDITORIAL DIGEST · ARCHIVE",
+        heading="社説まとめ<br>アーカイブ検索", summary_html=summary_html,
+        nav_html="", main_html=main_html, footer_html=footer_html,
+        generated_at=generated_at, script=_ARCHIVE_SCRIPT_TEMPLATE,
     )
