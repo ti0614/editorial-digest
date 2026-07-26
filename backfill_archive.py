@@ -46,12 +46,34 @@ from robots import RobotsChecker
 
 BACKFILL_WINDOW_DAYS = 21
 MAX_PAGINATION_PAGES = 60  # 無限ループ防止の安全上限
+RATE_LIMIT_RETRY_DELAYS_SEC = (15, 30, 60)  # 403時のリトライ待機秒数（段階的に伸ばす）
 ARCHIVE_DIR = Path(__file__).parent / "archive"
 
 
 def _paginated_url(index_url: str, param: str, page: int) -> str:
     sep = "&" if "?" in index_url else "?"
     return f"{index_url}{sep}{param}={page}"
+
+
+def _fetch_html_with_retry(url: str) -> str:
+    """403（レート制限の疑い）は間隔を空けてリトライする。
+
+    朝日新聞のページ送りバックフィル中、25ページ目付近で403を受け取ったが
+    15秒待って再取得すると成功した実績があり、一時的なレート制限と判断できる。
+    リトライを尽くしても403のままの場合や、403以外のHTTPError（404等）は
+    そのまま呼び出し側に伝播させる。
+    """
+    for delay in (0, *RATE_LIMIT_RETRY_DELAYS_SEC):
+        if delay:
+            time.sleep(delay)
+        try:
+            return fetch_html(url)
+        except requests.HTTPError as exc:
+            status = exc.response.status_code if exc.response is not None else None
+            if status != 403:
+                raise
+            last_exc = exc
+    raise last_exc
 
 
 def _fetch_with_pagination(
@@ -62,7 +84,10 @@ def _fetch_with_pagination(
     記事が尽きるまで次ページを追加取得する。extract_itemsが既にwindow_days
     で絞り込むため、あるページで新規記事が0件になった時点でそれより古い
     ページを見ても意味が無い（日付降順に並んでいるため）と判断して止める。
-    一覧ページ自体の終端（404等）に達した場合もそこで打ち切る。
+    一覧ページ自体の終端（404）に達した場合もそこで打ち切る。403はレート
+    制限とみなしリトライし（_fetch_html_with_retry）、それでも解消しなければ
+    ここまでの結果を保ったままエラーとして記録する（404と違い、まだ続きが
+    ある可能性が高いため静かに「完了」扱いにはしない）。
     """
     name = source["name"]
     index_url = source["index_url"]
@@ -86,12 +111,14 @@ def _fetch_with_pagination(
             if page > 1 and not robots.allows(url):
                 break
             try:
-                html = fetch_html(url)
-            except requests.HTTPError:
-                # 一覧ページ自体の終端（404等）に達した。単に「もう次の
-                # ページが無い」だけなので、エラー扱いにはせずここまでの
-                # 結果で打ち切る（それ以外の通信エラーは外側で処理する）。
-                break
+                html = _fetch_html_with_retry(url)
+            except requests.HTTPError as exc:
+                if exc.response is not None and exc.response.status_code == 404:
+                    # 一覧ページ自体の終端に達した。単に「もう次のページが
+                    # 無い」だけなので、エラー扱いにはせずここまでの結果で
+                    # 打ち切る。
+                    break
+                raise  # 403のリトライも尽きた場合等はエラーとして記録する
             page_items = extract_items(html, url, source, reference_date, window_days=window_days)
             new_items = [it for it in page_items if it.title not in seen_titles]
             if not new_items:
