@@ -1,0 +1,680 @@
+{
+  "date": "2026-07-15",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "ホルムズ海峡の再封鎖　米イランは自制し交渉を",
+          "link": "https://mainichi.jp/articles/20260715/ddm/005/070/058000c",
+          "published": "2026/7/15 02:01",
+          "paid": false
+        },
+        {
+          "title": "中国の対日圧力強化　不毛な対立終わらせねば",
+          "link": "https://mainichi.jp/articles/20260715/ddm/005/070/056000c",
+          "published": "2026/7/15 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "読売新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.yomiuri.co.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "全東信破綻　零細業者の連鎖的な倒産防げ",
+          "link": "https://www.yomiuri.co.jp/editorial/20260714-GYT1T00427/",
+          "published": "2026/07/15 05:00",
+          "paid": false
+        },
+        {
+          "title": "ホルムズ海峡　米もイランも支配権などない",
+          "link": "https://www.yomiuri.co.jp/editorial/20260714-GYT1T00426/",
+          "published": "2026/07/15 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "東京新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.tokyo-np.co.jp/n/column/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "〈社説〉在留手数料上げ　外国人差別を助長する",
+          "link": "https://www.tokyo-np.co.jp/article/501524?rct=editorial",
+          "published": "7月15日 07時56分",
+          "paid": false
+        },
+        {
+          "title": "〈社説〉犯罪被害者支援　刑事手続きを「希望」に",
+          "link": "https://www.tokyo-np.co.jp/article/501523?rct=editorial",
+          "published": "7月15日 07時55分",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "中日新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.chunichi.co.jp/wadai/opinion/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "犯罪被害者支援　刑事手続きを「希望」に",
+          "link": "https://www.chunichi.co.jp/article/1281348?rct=editorial",
+          "published": "7月15日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北海道新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.hokkaido-np.co.jp/tags/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】個人情報の利用　AI開発に偏りはないか",
+          "link": "https://www.nishinippon.co.jp/item/1515562/",
+          "published": "2026/07/15 06:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：クレカ代行破産　中小店の不安連鎖防げ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1752082",
+          "published": "7月15日",
+          "paid": false
+        },
+        {
+          "title": "社説：緊張高める中国　危うい力の誇示やめよ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1752074",
+          "published": "7月15日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神戸新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kobe-np.co.jp/rentoku/shasetsu/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞上地結衣選手／日本女子初の快挙に拍手",
+          "link": "https://www.kobe-np.co.jp/opinion/202607/0020590754.shtml",
+          "published": "7/15 05:10",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "河北新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://kahoku.news/tag/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": true,
+      "unavailable_reason": "社説一覧ページの取得がサイト側の設定で許可されていないため、取得していません。",
+      "items": []
+    },
+    {
+      "name": "中国新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.chugoku-np.co.jp/list/editorial/",
+      "error": "404 Client Error: Not Found for url: https://www.chugoku-np.co.jp/list/editorial/",
+      "skipped_by_robots": false,
+      "unavailable_reason": "社説だけをまとめた専用の一覧ページが見つからず、取得できていません。",
+      "items": []
+    },
+    {
+      "name": "東奥日報",
+      "category": "時論",
+      "tier": "regional",
+      "index_url": "https://www.toonippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "弱者守る丁寧な議論を／高齢者医療負担",
+          "link": "https://www.toonippo.co.jp/articles/-/2317434",
+          "published": "7/15  9:00更新",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "秋田魁新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.sakigake.jp/news/list/scd/100003000/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "山形新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.yamagata-np.jp/column/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【防災士登録拡大】「磐梯方式」に注目（７月１４日）",
+          "link": "https://www.minpo.jp/articles/-/180829",
+          "published": "2026/07/15 11:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岩手日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.iwate-np.co.jp/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": "社説だけをまとめた専用の一覧ページが見つからず、取得できていません。",
+      "items": []
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【小山の地域新電力会社】域内で資源、経済循環を",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1384802",
+          "published": "7/15  8:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "郵便局網維持に国費　抜本的な改革が必要だ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1289023.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2026年7月15日(水)  09:40",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "茨城新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://ibarakinews.jp/news/newsdetail.php?elem=ronsetu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "上毛新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.jomo-news.co.jp/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": "社説だけをまとめた専用の一覧ページが見つからず、取得できていません。",
+      "items": []
+    },
+    {
+      "name": "埼玉新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.saitama-np.co.jp/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": "社説だけをまとめた専用の一覧ページが見つからず、取得できていません。",
+      "items": []
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "日本国旗損壊罪　自由制限する不要な法だ",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/867921",
+          "published": "7/15",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説女性首長の産休／「当たり前」の第一歩に",
+          "link": "https://webun.jp/articles/-/1055827",
+          "published": "2026.07.15",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "福井新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.fukuishimbun.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "ＳＮＳ利用年齢確認へ　子ども守る対策　知恵絞れ",
+          "link": "https://www.fukuishimbun.co.jp/articles/-/2651172",
+          "published": "（2026年7月15日 午前7時30分）",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "山梨日日新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sannichi.co.jp/news/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": "サイトの自動アクセス防止の仕組みにより、記事を取得できません。",
+      "items": []
+    },
+    {
+      "name": "信濃毎日新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.shinmai.co.jp/top/opinion",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": "記事が特殊な仕組みで表示されており、現在の方法では取得できません。",
+      "items": []
+    },
+    {
+      "name": "静岡新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.at-s.com/",
+      "error": null,
+      "skipped_by_robots": true,
+      "unavailable_reason": "サイトの自動アクセス防止の仕組みにより、記事を取得できません。",
+      "items": []
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "高齢者医療費",
+          "link": "https://www.gifu-np.co.jp/articles/-/738689",
+          "published": "2026年7月15日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "奈良新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.nara-np.co.jp/news/col.html",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": "社説に相当する専用のコーナーが見当たらず、取得できていません。",
+      "items": []
+    },
+    {
+      "name": "わかやま新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://wakayamashimpo.co.jp/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": "社説だけをまとめた専用の一覧ページが見つからず、取得できていません。",
+      "items": []
+    },
+    {
+      "name": "山陽新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.sanyonews.jp/opinion/shasetsu/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "広がる宿泊税　納得感得られる使い道を",
+          "link": "https://www.sanyonews.jp/article/1954736",
+          "published": "2026年7月15日 08:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　鳥取で全国知事会議　人口減少打開へ団結を",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/1041666",
+          "published": "2026/7/15 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】米イラン再び緊迫　攻撃の大規模化避けよ",
+          "link": "https://www.topics.or.jp/articles/-/1462995",
+          "published": "2026/7/15 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "愛媛新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.ehime-np.co.jp/online/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【熱中症】ことしも災害級と警戒を",
+          "link": "https://www.kochinews.co.jp/article/detail/1024999",
+          "published": "2026.07.15 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本海新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.nnn.co.jp/list/%E3%82%B3%E3%83%A9%E3%83%A0%E3%83%BB%E8%AB%96%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": "コラムなど他の記事と混在しており、論説記事だけを安全に区別する方法が見つからず、取得できていません。",
+      "items": []
+    },
+    {
+      "name": "四国新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.shikoku-np.co.jp/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": "社説だけをまとめた専用の一覧ページが見つからず、取得できていません。",
+      "items": []
+    },
+    {
+      "name": "熊本日日新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://kumanichi.com/opinion/syasetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "大分合同新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.oita-press.co.jp/column/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "高齢者医療３割負担　弱者守る丁寧な議論を",
+          "link": "https://www.oita-press.co.jp/1042000000/2042002000/2026/07/JDC2026071402453",
+          "published": "2026年7月15日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "宮崎日日新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.the-miyanichi.co.jp/column/syasetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "改正郵政民営化法",
+          "link": "https://www.the-miyanichi.co.jp/column/syasetsu/916028.html",
+          "published": "2026.07.15｜社説",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "南日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://373news.com/lineup/syasetsu/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］知事選構図固まる　具体策競う論戦活発に",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1880671",
+          "published": "2026年7月15日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞辺野古原告適格認める　国の論点ずらし許されぬ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-5387700.html",
+          "published": "2026/07/15",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "佐賀新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.saga-s.co.jp/feature/opinion",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": "コラムなど他の記事と混在しており、社説記事だけを安全に区別する方法が見つからず、取得できていません。",
+      "items": []
+    },
+    {
+      "name": "長崎新聞",
+      "category": "時評",
+      "tier": "regional",
+      "index_url": "https://www.nagasaki-np.co.jp/feature/nagasaki-jihyo/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": "記事が特殊な仕組みで表示されており、現在の方法では取得できません。",
+      "items": []
+    }
+  ]
+}

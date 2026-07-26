@@ -1,0 +1,699 @@
+{
+  "date": "2026-07-16",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "高市首相の国会対応　説明責任果たさぬままか",
+          "link": "https://mainichi.jp/articles/20260716/ddm/005/070/146000c",
+          "published": "2026/7/16 02:01",
+          "paid": false
+        },
+        {
+          "title": "「副首都」衆院を通過　大阪ありきの欠陥法案だ",
+          "link": "https://mainichi.jp/articles/20260716/ddm/005/070/143000c",
+          "published": "2026/7/16 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "読売新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.yomiuri.co.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "日本棋院経営難　囲碁人気を高める工夫が要る",
+          "link": "https://www.yomiuri.co.jp/editorial/20260715-GYT1T00462/",
+          "published": "2026/07/16 05:00",
+          "paid": false
+        },
+        {
+          "title": "党首討論　実のある説明を避けた首相",
+          "link": "https://www.yomiuri.co.jp/editorial/20260715-GYT1T00471/",
+          "published": "2026/07/16 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］サイバー防御なくして顧客は守れない",
+          "link": "https://www.nikkei.com/article/DGXZQODK167NR0W6A710C2000000/",
+          "published": "16日",
+          "paid": false
+        },
+        {
+          "title": "［社説］人口減時代の下水道再設計を",
+          "link": "https://www.nikkei.com/article/DGXZQODK157XI0V10C26A7000000/",
+          "published": "16日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "東京新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.tokyo-np.co.jp/n/column/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "〈社説〉党首討論と首相　立場を使い分け逃げるな",
+          "link": "https://www.tokyo-np.co.jp/article/501740?rct=editorial",
+          "published": "7月16日 08時05分",
+          "paid": false
+        },
+        {
+          "title": "〈社説〉欧州の熱波　「常識通じぬ」を教訓に",
+          "link": "https://www.tokyo-np.co.jp/article/501739?rct=editorial",
+          "published": "7月16日 08時05分",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "中日新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.chunichi.co.jp/wadai/opinion/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "欧州の熱波　「常識通じぬ」を教訓に",
+          "link": "https://www.chunichi.co.jp/article/1281861?rct=editorial",
+          "published": "7月16日",
+          "paid": false
+        },
+        {
+          "title": "党首討論と首相　立場使い分け逃げるな",
+          "link": "https://www.chunichi.co.jp/article/1281860?rct=editorial",
+          "published": "7月16日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北海道新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.hokkaido-np.co.jp/tags/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】政治とカネ　裏金の反省を忘れたのか",
+          "link": "https://www.nishinippon.co.jp/item/1516026/",
+          "published": "2026/07/16 06:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：「副首都」法案　無理筋の「大阪ありき」",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1752772",
+          "published": "7月16日",
+          "paid": false
+        },
+        {
+          "title": "社説：英国の混迷　内政安定と外交前進を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1752770",
+          "published": "7月16日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神戸新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kobe-np.co.jp/rentoku/shasetsu/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞中国のSLBM／緊張高める威嚇をやめよ",
+          "link": "https://www.kobe-np.co.jp/opinion/202607/0020595090.shtml",
+          "published": "7/16 05:10",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "河北新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://kahoku.news/tag/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": true,
+      "unavailable_reason": "社説一覧ページの取得がサイト側の設定で許可されていないため、取得していません。",
+      "items": []
+    },
+    {
+      "name": "中国新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.chugoku-np.co.jp/list/editorial/",
+      "error": "404 Client Error: Not Found for url: https://www.chugoku-np.co.jp/list/editorial/",
+      "skipped_by_robots": false,
+      "unavailable_reason": "社説だけをまとめた専用の一覧ページが見つからず、取得できていません。",
+      "items": []
+    },
+    {
+      "name": "東奥日報",
+      "category": "時論",
+      "tier": "regional",
+      "index_url": "https://www.toonippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "説明責任を軽んじるな／首相と党首討論",
+          "link": "https://www.toonippo.co.jp/articles/-/2318270",
+          "published": "7/16  8:44更新",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "秋田魁新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.sakigake.jp/news/list/scd/100003000/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "山形新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.yamagata-np.jp/column/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【二本松少年隊】哀史、一層の発信を（７月１６日）",
+          "link": "https://www.minpo.jp/articles/-/181775",
+          "published": "2026/07/16 11:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岩手日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.iwate-np.co.jp/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": "社説だけをまとめた専用の一覧ページが見つからず、取得できていません。",
+      "items": []
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【高次脳機能障害者】支援法で理解底上げを",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1385538",
+          "published": "7/16  8:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "資源循環経済　日本発の事業モデルを",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1289344.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2026年7月16日(木)  09:30",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "茨城新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://ibarakinews.jp/news/newsdetail.php?elem=ronsetu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "上毛新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.jomo-news.co.jp/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": "社説だけをまとめた専用の一覧ページが見つからず、取得できていません。",
+      "items": []
+    },
+    {
+      "name": "埼玉新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.saitama-np.co.jp/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": "社説だけをまとめた専用の一覧ページが見つからず、取得できていません。",
+      "items": []
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "改正個人情報法　漏えい防ぐ対策を早急に",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/868646",
+          "published": "7/16",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説延伸ルート「桂川」決定／理解得て着実に進めよ",
+          "link": "https://webun.jp/articles/-/1056582",
+          "published": "2026.07.16",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "福井新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.fukuishimbun.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "永平寺町・近助タクシー　次代見据え運転手確保を",
+          "link": "https://www.fukuishimbun.co.jp/articles/-/2652076",
+          "published": "（2026年7月16日 午前7時30分）",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "山梨日日新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sannichi.co.jp/news/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": "サイトの自動アクセス防止の仕組みにより、記事を取得できません。",
+      "items": []
+    },
+    {
+      "name": "信濃毎日新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.shinmai.co.jp/top/opinion",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": "記事が特殊な仕組みで表示されており、現在の方法では取得できません。",
+      "items": []
+    },
+    {
+      "name": "静岡新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.at-s.com/",
+      "error": null,
+      "skipped_by_robots": true,
+      "unavailable_reason": "サイトの自動アクセス防止の仕組みにより、記事を取得できません。",
+      "items": []
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "党首討論",
+          "link": "https://www.gifu-np.co.jp/articles/-/739244",
+          "published": "2026年7月16日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "奈良新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.nara-np.co.jp/news/col.html",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": "社説に相当する専用のコーナーが見当たらず、取得できていません。",
+      "items": []
+    },
+    {
+      "name": "わかやま新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://wakayamashimpo.co.jp/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": "社説だけをまとめた専用の一覧ページが見つからず、取得できていません。",
+      "items": []
+    },
+    {
+      "name": "山陽新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.sanyonews.jp/opinion/shasetsu/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "検察の取り調べ　暴言や威圧は根絶せねば",
+          "link": "https://www.sanyonews.jp/article/1955591",
+          "published": "2026年7月16日 08:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　米イランの対立　交渉再開に道筋つけて",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/1042424",
+          "published": "2026/7/16 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "皇室典範改正案　男系固執は禍根を残す",
+          "link": "https://www.topics.or.jp/articles/-/1463674",
+          "published": "2026/7/16 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "愛媛新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.ehime-np.co.jp/online/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【党首討論】国会審議を軽視するな",
+          "link": "https://www.kochinews.co.jp/article/detail/1025380",
+          "published": "2026.07.16 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本海新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.nnn.co.jp/list/%E3%82%B3%E3%83%A9%E3%83%A0%E3%83%BB%E8%AB%96%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": "コラムなど他の記事と混在しており、論説記事だけを安全に区別する方法が見つからず、取得できていません。",
+      "items": []
+    },
+    {
+      "name": "四国新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.shikoku-np.co.jp/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": "社説だけをまとめた専用の一覧ページが見つからず、取得できていません。",
+      "items": []
+    },
+    {
+      "name": "熊本日日新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://kumanichi.com/opinion/syasetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "大分合同新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.oita-press.co.jp/column/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "首相と党首討論　説明責任を軽んじるな",
+          "link": "https://www.oita-press.co.jp/1042000000/2042002000/2026/07/JDC2026071503335",
+          "published": "2026年7月16日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "宮崎日日新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.the-miyanichi.co.jp/column/syasetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "高齢者医療３割負担",
+          "link": "https://www.the-miyanichi.co.jp/column/syasetsu/919331.html",
+          "published": "2026.07.16｜社説",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "南日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://373news.com/lineup/syasetsu/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］高校生失明で中傷再燃　理不尽な暴言を許すな",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1881540",
+          "published": "2026年7月16日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞玉城知事への問責決議　再発防止に万全尽くせ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-5389908.html",
+          "published": "2026/07/16",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "佐賀新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.saga-s.co.jp/feature/opinion",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": "コラムなど他の記事と混在しており、社説記事だけを安全に区別する方法が見つからず、取得できていません。",
+      "items": []
+    },
+    {
+      "name": "長崎新聞",
+      "category": "時評",
+      "tier": "regional",
+      "index_url": "https://www.nagasaki-np.co.jp/feature/nagasaki-jihyo/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": "記事が特殊な仕組みで表示されており、現在の方法では取得できません。",
+      "items": []
+    }
+  ]
+}

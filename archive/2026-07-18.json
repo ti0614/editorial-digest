@@ -1,0 +1,689 @@
+{
+  "date": "2026-07-18",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "改正皇室典範が成立　象徴天皇の土台揺るがす",
+          "link": "https://mainichi.jp/articles/20260718/ddm/005/070/113000c",
+          "published": "2026/7/18 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "読売新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.yomiuri.co.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "皇室典範改正　象徴天皇制の根幹を傷つけた",
+          "link": "https://www.yomiuri.co.jp/editorial/20260717-GYT1T00497/",
+          "published": "2026/07/18 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］本丸の給付付き税額控除を棚上げするな",
+          "link": "https://www.nikkei.com/article/DGXZQODK175LU0X10C26A7000000/",
+          "published": "18日",
+          "paid": false
+        },
+        {
+          "title": "［社説］北陸新幹線延伸へ合意形成を",
+          "link": "https://www.nikkei.com/article/DGXZQODK1774J0X10C26A7000000/",
+          "published": "18日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "東京新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.tokyo-np.co.jp/n/column/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "〈社説〉改正皇室典範が成立　象徴天皇制揺るがす暴挙",
+          "link": "https://www.tokyo-np.co.jp/article/502221?rct=editorial",
+          "published": "7月18日 07時44分",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "中日新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.chunichi.co.jp/wadai/opinion/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "象徴天皇制揺るがす暴挙　　改正皇室典範が成立",
+          "link": "https://www.chunichi.co.jp/article/1282847?rct=editorial",
+          "published": "7月18日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北海道新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.hokkaido-np.co.jp/tags/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞男系固執の改正皇室典範　象徴制揺るがし歴史に禍根",
+          "link": "https://www.hokkaido-np.co.jp/article/1339305/",
+          "published": "2026年7月18日 4:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】皇室典範改正　国民の総意とは言えない",
+          "link": "https://www.nishinippon.co.jp/item/1516928/",
+          "published": "2026/07/18 06:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：北陸新幹線延伸　駅ずらしても問題解決しない",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1754232",
+          "published": "7月18日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神戸新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kobe-np.co.jp/rentoku/shasetsu/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞皇室典範改正／「国民の総意」とは程遠い",
+          "link": "https://www.kobe-np.co.jp/opinion/202607/0020603187.shtml",
+          "published": "7/18 05:10",
+          "paid": false
+        },
+        {
+          "title": "＜社説＞国会会期延長／「数の力」で押し切るのか",
+          "link": "https://www.kobe-np.co.jp/opinion/202607/0020603185.shtml",
+          "published": "7/18 05:10",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "河北新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://kahoku.news/tag/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": true,
+      "unavailable_reason": "社説一覧ページの取得がサイト側の設定で許可されていないため、取得していません。",
+      "items": []
+    },
+    {
+      "name": "中国新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.chugoku-np.co.jp/list/editorial/",
+      "error": "404 Client Error: Not Found for url: https://www.chugoku-np.co.jp/list/editorial/",
+      "skipped_by_robots": false,
+      "unavailable_reason": "社説だけをまとめた専用の一覧ページが見つからず、取得できていません。",
+      "items": []
+    },
+    {
+      "name": "東奥日報",
+      "category": "時論",
+      "tier": "regional",
+      "index_url": "https://www.toonippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "養子巡る議論をやり直せ／改正皇室典範が成立",
+          "link": "https://www.toonippo.co.jp/articles/-/2319968",
+          "published": "7/18  9:21更新",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "秋田魁新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.sakigake.jp/news/list/scd/100003000/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：国会会期延長　国民理解深まる審議を",
+          "link": "https://www.sakigake.jp/news/article/20260718AK0003/",
+          "published": "2026/7/18",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "山形新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.yamagata-np.jp/column/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【震災１５年　廃炉の状況発信】連携深め内容強化を",
+          "link": "https://www.minpo.jp/articles/-/183593",
+          "published": "2026/07/18 11:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岩手日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.iwate-np.co.jp/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": "社説だけをまとめた専用の一覧ページが見つからず、取得できていません。",
+      "items": []
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "内密出産　困難抱える女性支援を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1290016.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2026年7月18日(土)  10:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "茨城新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://ibarakinews.jp/news/newsdetail.php?elem=ronsetu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "上毛新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.jomo-news.co.jp/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": "社説だけをまとめた専用の一覧ページが見つからず、取得できていません。",
+      "items": []
+    },
+    {
+      "name": "埼玉新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.saitama-np.co.jp/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": "社説だけをまとめた専用の一覧ページが見つからず、取得できていません。",
+      "items": []
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "改正皇室典範成立　皇位継承は一から議論を",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/870142",
+          "published": "7/18",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説夏休み 子どもの安全／あらゆる危険 再確認を",
+          "link": "https://webun.jp/articles/-/1057963",
+          "published": "2026.07.18",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "福井新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.fukuishimbun.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "高齢者医療３割負担　弱者保護の視点で議論を",
+          "link": "https://www.fukuishimbun.co.jp/articles/-/2653971",
+          "published": "（2026年7月18日 午前7時30分）",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "山梨日日新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sannichi.co.jp/news/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": "サイトの自動アクセス防止の仕組みにより、記事を取得できません。",
+      "items": []
+    },
+    {
+      "name": "信濃毎日新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.shinmai.co.jp/top/opinion",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": "記事が特殊な仕組みで表示されており、現在の方法では取得できません。",
+      "items": []
+    },
+    {
+      "name": "静岡新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.at-s.com/",
+      "error": null,
+      "skipped_by_robots": true,
+      "unavailable_reason": "サイトの自動アクセス防止の仕組みにより、記事を取得できません。",
+      "items": []
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "皇室典範改正",
+          "link": "https://www.gifu-np.co.jp/articles/-/740318",
+          "published": "2026年7月18日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "奈良新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.nara-np.co.jp/news/col.html",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": "社説に相当する専用のコーナーが見当たらず、取得できていません。",
+      "items": []
+    },
+    {
+      "name": "わかやま新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://wakayamashimpo.co.jp/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": "社説だけをまとめた専用の一覧ページが見つからず、取得できていません。",
+      "items": []
+    },
+    {
+      "name": "山陽新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.sanyonews.jp/opinion/shasetsu/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "皇室典範の改正　「国民の総意」と言えるか",
+          "link": "https://www.sanyonews.jp/article/1956825",
+          "published": "2026年7月18日 08:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　皇室典範改正　改めて議論を尽くせ",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/1043882",
+          "published": "2026/7/18 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】交通空白地区拡大　移動サービスの構築急げ",
+          "link": "https://www.topics.or.jp/articles/-/1464880",
+          "published": "2026/7/18 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "愛媛新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.ehime-np.co.jp/online/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【改正皇室典範】男系維持へ「総意」逸脱",
+          "link": "https://www.kochinews.co.jp/article/detail/1026177",
+          "published": "2026.07.18 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本海新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.nnn.co.jp/list/%E3%82%B3%E3%83%A9%E3%83%A0%E3%83%BB%E8%AB%96%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": "コラムなど他の記事と混在しており、論説記事だけを安全に区別する方法が見つからず、取得できていません。",
+      "items": []
+    },
+    {
+      "name": "四国新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.shikoku-np.co.jp/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": "社説だけをまとめた専用の一覧ページが見つからず、取得できていません。",
+      "items": []
+    },
+    {
+      "name": "熊本日日新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://kumanichi.com/opinion/syasetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "防災庁創設へ　「司令塔」に値する組織に",
+          "link": "https://kumanichi.com/articles/2015168",
+          "published": "2026年07月18日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "大分合同新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.oita-press.co.jp/column/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "熱中症対策　予防法を確認して命守れ",
+          "link": "https://www.oita-press.co.jp/1042000000/2042002000/2026/07/JDC2026071601423",
+          "published": "2026年7月18日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "宮崎日日新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.the-miyanichi.co.jp/column/syasetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "皇室典範改正",
+          "link": "https://www.the-miyanichi.co.jp/column/syasetsu/925886.html",
+          "published": "2026.07.18｜社説",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "南日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://373news.com/lineup/syasetsu/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］国論二分法案　熟議なき「数の横暴」だ",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1883188",
+          "published": "2026年7月18日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞改正皇室典範成立　憲法の破壊止める議論を",
+          "link": "https://ryukyushimpo.jp/editorial/entry-5394166.html",
+          "published": "2026/07/18",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "佐賀新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.saga-s.co.jp/feature/opinion",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": "コラムなど他の記事と混在しており、社説記事だけを安全に区別する方法が見つからず、取得できていません。",
+      "items": []
+    },
+    {
+      "name": "長崎新聞",
+      "category": "時評",
+      "tier": "regional",
+      "index_url": "https://www.nagasaki-np.co.jp/feature/nagasaki-jihyo/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": "記事が特殊な仕組みで表示されており、現在の方法では取得できません。",
+      "items": []
+    }
+  ]
+}
