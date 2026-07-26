@@ -1,6 +1,9 @@
-"""main.py が取得した結果 (SourceResult のリスト) から、直近1週間分の
-社説ダイジェストをまとめたモバイル向けWebページ (output/digest.html) を
-生成するモジュール。
+"""main.py が取得した結果 (SourceResult のリスト) から、モバイル向けの
+自己完結型Webページを生成するモジュール。`render_html()`が週間ダイジェスト
+(output/digest.html)、`render_today_html()`が当日版(output/today.html)を
+生成する。両者は`_render_page()`が組み立てる共通のページ骨格（head/masthead/
+footer/script）を共有し、見出し・概要・ナビ・本文・フッター文言など
+異なる部分だけを差し替える。
 
 全国紙（tier: national）を既定表示、ブロック紙（tier: block）・地方紙
 （tier: regional）はページ内のチップボタンでそれぞれ独立に表示切り替え
@@ -311,6 +314,65 @@ def _render_article_row(item: _FlatItem) -> str:
     )
 
 
+def _render_tier_chips() -> str:
+    return "".join(
+        f'<button type="button" class="tier-chip" data-tier="{t}" aria-pressed="{"true" if t == "national" else "false"}">'
+        f'{TIER_LABEL[t]}</button>'
+        for t in TIERS
+    )
+
+
+def _render_updated_at(generated_at: datetime | None) -> str:
+    if generated_at is None:
+        return ""
+    return (
+        f'<p class="updated-at">UPDATED {generated_at.month}/{generated_at.day} '
+        f'{generated_at.hour:02d}:{generated_at.minute:02d}</p>'
+    )
+
+
+def _render_page(
+    *, title: str, eyebrow: str, heading: str, summary_html: str,
+    nav_html: str, main_html: str, footer_html: str, generated_at: datetime | None,
+) -> str:
+    """週間ダイジェスト・当日版に共通のページ骨格（head/masthead/footer/script）を
+    組み立てる。両ページで異なる部分（見出し・概要・ナビ・本文・フッター文言）は
+    呼び出し側が文字列として渡す。
+    """
+    return f'''<title>{title}</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>{_CSS}</style>
+
+<div class="wrap">
+  <header class="masthead">
+    <div class="masthead-top">
+      <p class="eyebrow">{eyebrow}</p>
+      {_render_updated_at(generated_at)}
+    </div>
+    <h1>{heading}</h1>
+{summary_html}
+    <div class="scope-toggle">
+      <span class="scope-label">表示する範囲</span>
+      <div class="tier-chips">
+{_render_tier_chips()}
+      </div>
+      <button type="button" class="paid-toggle" id="paid-toggle" aria-pressed="false">会員限定記事: 表示中</button>
+    </div>
+  </header>
+{nav_html}
+  <main>
+{main_html}
+  </main>
+
+  <footer>
+{footer_html}
+  </footer>
+</div>
+
+<script>{_SCRIPT_TEMPLATE}</script>
+'''
+
+
 def _render_date_section(d: date, items: list[_FlatItem], max_date: date) -> tuple[str, str]:
     """指定日のナビゲーションピルとセクションHTMLを組み立てて返す。
 
@@ -378,61 +440,31 @@ def render_html(results: list, run_date: date, generated_at: datetime | None = N
     national_total = sum(1 for x in items_flat if x.tier == "national")
     range_label = f"{min_date.month}/{min_date.day} 〜 {max_date.month}/{max_date.day}"
 
-    updated_at_html = (
-        f'<p class="updated-at">UPDATED {generated_at.month}/{generated_at.day} '
-        f'{generated_at.hour:02d}:{generated_at.minute:02d}</p>'
-        if generated_at is not None else ""
+    summary_html = (
+        f'    <p class="summary">{range_label}（過去1週間）・表示中 <strong id="total-count">{national_total}</strong>件</p>\n'
+        '    <p class="disclaimer">タイトル・リンク・日付のみ収集。本文は各紙サイトでご覧ください。</p>'
     )
-
-    chips_html = "".join(
-        f'<button type="button" class="tier-chip" data-tier="{t}" aria-pressed="{"true" if t == "national" else "false"}">'
-        f'{TIER_LABEL[t]}</button>'
-        for t in TIERS
-    )
-
-    return f'''<title>社説まとめ 週間ダイジェスト</title>
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<style>{_CSS}</style>
-
-<div class="wrap">
-  <header class="masthead">
-    <div class="masthead-top">
-      <p class="eyebrow">EDITORIAL DIGEST · WEEKLY</p>
-      {updated_at_html}
-    </div>
-    <h1>社説まとめ<br>週間ダイジェスト</h1>
-    <p class="summary">{range_label}（過去1週間）・表示中 <strong id="total-count">{national_total}</strong>件</p>
-    <p class="disclaimer">タイトル・リンク・日付のみ収集。本文は各紙サイトでご覧ください。</p>
-    <div class="scope-toggle">
-      <span class="scope-label">表示する範囲</span>
-      <div class="tier-chips">
-{chips_html}
-      </div>
-      <button type="button" class="paid-toggle" id="paid-toggle" aria-pressed="false">会員限定記事: 表示中</button>
-    </div>
-  </header>
-
+    nav_html = f'''
   <nav class="quicknav" aria-label="日付へジャンプ">
     <div class="pill-row">
 {"".join(nav_pills)}
     </div>
   </nav>
-
-  <main>
-{"".join(sections)}
-  </main>
-
-  <footer>
-    <p>社説まとめツールが自動生成 / 基準日: {run_date.isoformat()}。個人利用目的の非公式リンク集で、著作権は各社に帰属します。</p>
-    <p>内容の正確性は保証しません（記事削除等でリンク切れの場合あり）。「会員限定」表示も参考情報です。</p>
-    <p>一部の新聞社は、サイト側の意向により対象外としています。</p>
-    {unavailable_footer}
-    <p>ご連絡・削除のご依頼は <a href="mailto:{CONTACT_EMAIL}">{CONTACT_EMAIL}</a> まで。</p>
-  </footer>
-</div>
-
-<script>{_SCRIPT_TEMPLATE}</script>
 '''
+    footer_html = (
+        f'    <p>社説まとめツールが自動生成 / 基準日: {run_date.isoformat()}。個人利用目的の非公式リンク集で、著作権は各社に帰属します。</p>\n'
+        '    <p>内容の正確性は保証しません（記事削除等でリンク切れの場合あり）。「会員限定」表示も参考情報です。</p>\n'
+        '    <p>一部の新聞社は、サイト側の意向により対象外としています。</p>\n'
+        f'    {unavailable_footer}\n'
+        f'    <p>ご連絡・削除のご依頼は <a href="mailto:{CONTACT_EMAIL}">{CONTACT_EMAIL}</a> まで。</p>'
+    )
+
+    return _render_page(
+        title="社説まとめ 週間ダイジェスト", eyebrow="EDITORIAL DIGEST · WEEKLY",
+        heading="社説まとめ<br>週間ダイジェスト", summary_html=summary_html,
+        nav_html=nav_html, main_html="".join(sections), footer_html=footer_html,
+        generated_at=generated_at,
+    )
 
 
 def render_today_html(results: list, run_date: date, generated_at: datetime | None = None) -> str:
@@ -452,18 +484,6 @@ def render_today_html(results: list, run_date: date, generated_at: datetime | No
     wd = WEEKDAY_JP[run_date.weekday()]
     date_label = f"{run_date.month}/{run_date.day}（{wd}）"
 
-    updated_at_html = (
-        f'<p class="updated-at">UPDATED {generated_at.month}/{generated_at.day} '
-        f'{generated_at.hour:02d}:{generated_at.minute:02d}</p>'
-        if generated_at is not None else ""
-    )
-
-    chips_html = "".join(
-        f'<button type="button" class="tier-chip" data-tier="{t}" aria-pressed="{"true" if t == "national" else "false"}">'
-        f'{TIER_LABEL[t]}</button>'
-        for t in TIERS
-    )
-
     rows = "".join(_render_article_row(it) for it in items_today)
     empty_html = (
         '<p class="empty-today">本日分の社説はまだ掲載されていません。発行が夜間・早朝の紙や、'
@@ -476,39 +496,21 @@ def render_today_html(results: list, run_date: date, generated_at: datetime | No
   {empty_html}
 </section>'''
 
-    return f'''<title>社説まとめ 当日版</title>
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<style>{_CSS}</style>
+    summary_html = (
+        f'    <p class="summary">{date_label}・表示中 <strong id="total-count">{national_total}</strong>件</p>\n'
+        '    <p class="disclaimer">タイトル・リンク・日付のみ収集。本文は各紙サイトでご覧ください。</p>'
+    )
+    footer_html = (
+        f'    <p>社説まとめツールが自動生成 / 基準日: {run_date.isoformat()}（当日分のみ）。'
+        '個人利用目的の非公式リンク集で、著作権は各社に帰属します。</p>\n'
+        '    <p>内容の正確性は保証しません（記事削除等でリンク切れの場合あり）。「会員限定」表示も参考情報です。</p>\n'
+        '    <p>一部の新聞社は、サイト側の意向により対象外としています。</p>\n'
+        f'    <p>ご連絡・削除のご依頼は <a href="mailto:{CONTACT_EMAIL}">{CONTACT_EMAIL}</a> まで。</p>'
+    )
 
-<div class="wrap">
-  <header class="masthead">
-    <div class="masthead-top">
-      <p class="eyebrow">EDITORIAL DIGEST · TODAY</p>
-      {updated_at_html}
-    </div>
-    <h1>本日の社説<br>まとめ</h1>
-    <p class="summary">{date_label}・表示中 <strong id="total-count">{national_total}</strong>件</p>
-    <p class="disclaimer">タイトル・リンク・日付のみ収集。本文は各紙サイトでご覧ください。</p>
-    <div class="scope-toggle">
-      <span class="scope-label">表示する範囲</span>
-      <div class="tier-chips">
-{chips_html}
-      </div>
-      <button type="button" class="paid-toggle" id="paid-toggle" aria-pressed="false">会員限定記事: 表示中</button>
-    </div>
-  </header>
-
-  <main>
-{section}
-  </main>
-
-  <footer>
-    <p>社説まとめツールが自動生成 / 基準日: {run_date.isoformat()}（当日分のみ）。個人利用目的の非公式リンク集で、著作権は各社に帰属します。</p>
-    <p>内容の正確性は保証しません（記事削除等でリンク切れの場合あり）。「会員限定」表示も参考情報です。</p>
-    <p>一部の新聞社は、サイト側の意向により対象外としています。</p>
-    <p>ご連絡・削除のご依頼は <a href="mailto:{CONTACT_EMAIL}">{CONTACT_EMAIL}</a> まで。</p>
-  </footer>
-</div>
-
-<script>{_SCRIPT_TEMPLATE}</script>
-'''
+    return _render_page(
+        title="社説まとめ 当日版", eyebrow="EDITORIAL DIGEST · TODAY",
+        heading="本日の社説<br>まとめ", summary_html=summary_html,
+        nav_html="", main_html=section, footer_html=footer_html,
+        generated_at=generated_at,
+    )
