@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ti0614.github.io/editorial-digest/sitemap.xml

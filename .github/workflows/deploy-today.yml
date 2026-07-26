@@ -32,6 +32,8 @@ jobs:
       - run: |
           mkdir -p _site
           cp output/today.html _site/index.html
+          cp static/robots.txt _site/robots.txt
+          cp static/sitemap.xml _site/sitemap.xml
 
       - uses: actions/upload-pages-artifact@v3
         with:

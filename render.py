@@ -22,6 +22,7 @@ WEEKDAY_JP = ["月", "火", "水", "木", "金", "土", "日"]
 TIERS = ["national", "block", "regional"]
 TIER_LABEL = {"national": "全国紙", "block": "ブロック紙", "regional": "地方紙"}
 CONTACT_EMAIL = "t.iizuka188@gmail.com"
+SITE_URL = "https://ti0614.github.io/editorial-digest/"
 
 # ダークモード両対応・自己完結のCSS。f-string化するとブレースの二重化が
 # 必要になり可読性が落ちるため、動的な値を含まないこのブロックだけ独立した
@@ -332,17 +333,36 @@ def _render_updated_at(generated_at: datetime | None) -> str:
 
 
 def _render_page(
-    *, title: str, eyebrow: str, heading: str, summary_html: str,
-    nav_html: str, main_html: str, footer_html: str, generated_at: datetime | None,
+    *, title: str, description: str, canonical_path: str, eyebrow: str, heading: str,
+    summary_html: str, nav_html: str, main_html: str, footer_html: str,
+    generated_at: datetime | None,
 ) -> str:
     """週間ダイジェスト・当日版に共通のページ骨格（head/masthead/footer/script）を
     組み立てる。両ページで異なる部分（見出し・概要・ナビ・本文・フッター文言）は
     呼び出し側が文字列として渡す。
     """
-    return f'''<title>{title}</title>
+    canonical_url = f"{SITE_URL}{canonical_path}"
+    desc_attr = _esc(description)
+    title_attr = _esc(title)
+    return f'''<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8" />
+<title>{title}</title>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="{desc_attr}" />
+<link rel="canonical" href="{canonical_url}" />
+<meta property="og:type" content="website" />
+<meta property="og:locale" content="ja_JP" />
+<meta property="og:title" content="{title_attr}" />
+<meta property="og:description" content="{desc_attr}" />
+<meta property="og:url" content="{canonical_url}" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="{title_attr}" />
+<meta name="twitter:description" content="{desc_attr}" />
 <style>{_CSS}</style>
-
+</head>
+<body>
 <div class="wrap">
   <header class="masthead">
     <div class="masthead-top">
@@ -370,6 +390,8 @@ def _render_page(
 </div>
 
 <script>{_SCRIPT_TEMPLATE}</script>
+</body>
+</html>
 '''
 
 
@@ -460,7 +482,11 @@ def render_html(results: list, run_date: date, generated_at: datetime | None = N
     )
 
     return _render_page(
-        title="社説まとめ 週間ダイジェスト", eyebrow="EDITORIAL DIGEST · WEEKLY",
+        title="社説まとめ 週間ダイジェスト",
+        description="全国紙・地方紙の社説（オピニオン）を直近1週間分まとめて掲載する非公式リンク集。"
+                     "タイトル・リンク・日付のみを収集し、本文は掲載していません。",
+        canonical_path="digest.html",
+        eyebrow="EDITORIAL DIGEST · WEEKLY",
         heading="社説まとめ<br>週間ダイジェスト", summary_html=summary_html,
         nav_html=nav_html, main_html="".join(sections), footer_html=footer_html,
         generated_at=generated_at,
@@ -509,7 +535,11 @@ def render_today_html(results: list, run_date: date, generated_at: datetime | No
     )
 
     return _render_page(
-        title="社説まとめ 当日版", eyebrow="EDITORIAL DIGEST · TODAY",
+        title="社説まとめ 当日版",
+        description="全国紙・地方紙の社説（オピニオン）を毎日まとめる非公式リンク集。"
+                     "本日分のタイトル・リンク・日付のみを掲載し、本文は各紙サイトでご覧いただけます。",
+        canonical_path="",
+        eyebrow="EDITORIAL DIGEST · TODAY",
         heading="本日の社説<br>まとめ", summary_html=summary_html,
         nav_html="", main_html=section, footer_html=footer_html,
         generated_at=generated_at,
