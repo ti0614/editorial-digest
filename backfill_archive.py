@@ -41,7 +41,7 @@ import requests
 from extract import extract_items
 from fetch import fetch_html
 from main import SourceResult, load_sources, process_source
-from pubdate import parse_published_date
+from pubdate import parse_published_date, today_jst
 from robots import RobotsChecker
 
 BACKFILL_WINDOW_DAYS = 21
@@ -173,7 +173,7 @@ def main() -> int:
 
     sources = load_sources(args.only)
     robots = RobotsChecker()
-    reference_date = date.today()
+    reference_date = today_jst()
 
     results: list[SourceResult] = []
     for i, source in enumerate(sources):
