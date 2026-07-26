@@ -29,7 +29,7 @@ import yaml
 import render
 from extract import Item, enrich_missing_times, extract_items
 from fetch import fetch_html
-from pubdate import JST, is_same_day
+from pubdate import DIGEST_WINDOW_DAYS, JST, is_same_day
 from robots import RobotsChecker
 
 SOURCES_FILE = Path(__file__).parent / "sources.yaml"
@@ -59,7 +59,7 @@ def load_sources(only: list[str] | None = None) -> list[dict]:
 
 def process_source(
     source: dict, reference_date: date, robots: RobotsChecker, fetch_times: bool = False,
-    same_day_only: bool = False,
+    same_day_only: bool = False, window_days: int = DIGEST_WINDOW_DAYS,
 ) -> SourceResult:
     name = source["name"]
     index_url = source["index_url"]
@@ -75,7 +75,7 @@ def process_source(
 
     try:
         html = fetch_html(index_url)
-        items = extract_items(html, index_url, source, reference_date)
+        items = extract_items(html, index_url, source, reference_date, window_days=window_days)
         if same_day_only:
             # 当日版では対象外の記事のために個別ページへ追加アクセスしない
             # よう、時刻補完(enrich_missing_times)の前に当日分へ絞り込む。
@@ -95,7 +95,7 @@ def process_source(
 
 def _iter_results(
     sources: list[dict], reference_date: date, robots: RobotsChecker, fetch_times: bool,
-    same_day_only: bool = False,
+    same_day_only: bool = False, window_days: int = DIGEST_WINDOW_DAYS,
 ) -> Iterator[SourceResult]:
     """全ソースを順に取得し、結果を1件ずつ返す。
 
@@ -103,7 +103,10 @@ def _iter_results(
     RobotsChecker の待機秒数）だけ待機し、サイトへの負荷を抑える。
     """
     for i, source in enumerate(sources):
-        yield process_source(source, reference_date, robots, fetch_times=fetch_times, same_day_only=same_day_only)
+        yield process_source(
+            source, reference_date, robots, fetch_times=fetch_times,
+            same_day_only=same_day_only, window_days=window_days,
+        )
         if i < len(sources) - 1:
             time.sleep(robots.interval_after(source["index_url"]))
 
