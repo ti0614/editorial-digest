@@ -412,8 +412,9 @@ sources:
     title_strip_pattern: '^社説\s*|[（(〈][^）)〉]*[）)〉]\s*$'
     link_selector: "a.m-article__ttl"
     date_selector: "time.m-article__date"
+    always_paid: true
     verified: true
-    note: "岐阜県。専用の社説一覧ページは無いが、サイト内全文検索（?fulltext=社説）の結果を index_url に使うことで取得可能（2026-07-26確認）。検索結果には無関係な記事（例:「会社説明会」）も混ざるため title_prefix で除外し、title_strip_pattern でタイトルの接頭辞「社説」と末尾の埋め込み日付を除去している。"
+    note: "岐阜県。専用の社説一覧ページは無いが、サイト内全文検索（?fulltext=社説）の結果を index_url に使うことで取得可能（2026-07-26確認）。検索結果には無関係な記事（例:「会社説明会」）も混ざるため title_prefix で除外し、title_strip_pattern でタイトルの接頭辞「社説」と末尾の埋め込み日付を除去している。一覧（検索結果）ページには鍵アイコン等の目印が無いが、記事個別ページを開くと必ず「デジタルプラン」等の会員登録を要求される（2記事で確認、北日本新聞と同様のパターン）ため always_paid: true としている。"
 
   - name: 奈良新聞
     category: 社説
