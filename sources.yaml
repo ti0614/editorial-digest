@@ -48,8 +48,9 @@ sources:
     title_selector: "h3"
     link_selector: "a"
     date_selector: "p:last-of-type span"
+    pagination_param: page
     verified: true
-    note: "2026-07-22訂正: 一時期 always_paid にしていたが誤り。記事個別ページ上部の「有料会員になると会員限定の有料記事もお読みいただけます」は購読促進バナーであり、本文自体は別のdiv（クラス名 nfyQp 等）に完全な形で存在し無料で読める（5記事で確認）。"
+    note: "2026-07-22訂正: 一時期 always_paid にしていたが誤り。記事個別ページ上部の「有料会員になると会員限定の有料記事もお読みいただけます」は購読促進バナーであり、本文自体は別のdiv（クラス名 nfyQp 等）に完全な形で存在し無料で読める（5記事で確認）。2026-07-26: 一覧ページに?id=16&page=Nのページ送りがあり151ページまで確認（pagination_param: page）。backfill_archive.py実行時のみ使用、通常のcheck/run/todayでは1ページ目のみで足りるため使わない。"
 
   - name: 毎日新聞
     category: 社説
@@ -136,8 +137,9 @@ sources:
     title_exclude_selector: "span"
     link_selector: "h2 a"
     date_selector: "div.gap-x-1 span"
+    pagination_param: page
     verified: true
-    note: "旧URL（/theme/editorial/）は廃止、正しくは /category/column/editorial/ 。新着記事には見出し内に「New」バッジ（span）が付き、そのままだとタイトル末尾に混入するため title_exclude_selector で除去している。"
+    note: "旧URL（/theme/editorial/）は廃止、正しくは /category/column/editorial/ 。新着記事には見出し内に「New」バッジ（span）が付き、そのままだとタイトル末尾に混入するため title_exclude_selector で除去している。2026-07-26: ?page=Nのページ送りがあり157ページまで確認（pagination_param: page）。"
 
   - name: 京都新聞
     category: 社説
@@ -147,8 +149,9 @@ sources:
     title_selector: "h3.m-articles-item__info-ttl"
     link_selector: "a"
     date_selector: "time.m-articles-item__info-date"
+    pagination_param: page
     verified: true
-    note: "ページ内には関連ランキング等（class末尾に --ranking 等の修飾子付き）も同居しているため、修飾子なしの記事のみに絞るセレクタにしている。"
+    note: "ページ内には関連ランキング等（class末尾に --ranking 等の修飾子付き）も同居しているため、修飾子なしの記事のみに絞るセレクタにしている。2026-07-26: ?page=Nのページ送りを確認（pagination_param: page）。"
 
   - name: 神戸新聞
     category: 社説
