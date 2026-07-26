@@ -90,17 +90,18 @@ def parse_published_date(published: str | None, reference_date: date) -> date | 
     return None
 
 
-def within_digest_window(published: str | None, reference_date: date) -> bool:
-    """直近 DIGEST_WINDOW_DAYS 日以内の記事かどうか判定する。
+def within_digest_window(published: str | None, reference_date: date, window_days: int = DIGEST_WINDOW_DAYS) -> bool:
+    """直近window_days日以内の記事かどうか判定する（既定はDIGEST_WINDOW_DAYS＝週間ダイジェスト用）。
 
     上限側には _FUTURE_TOLERANCE_DAYS 分の余裕を持たせている（スクレイピング
     実行時刻と各紙サイトのタイムゾーンのずれを吸収するため）。日付を解釈
-    できなかった場合は安全側に倒して対象に含める。
+    できなかった場合は安全側に倒して対象に含める。window_daysを広げると、
+    一覧ページに残っている過去分の一括バックフィル（backfill_archive.py）にも使える。
     """
     parsed = parse_published_date(published, reference_date)
     if parsed is None:
         return True
-    window_start = reference_date - timedelta(days=DIGEST_WINDOW_DAYS - 1)
+    window_start = reference_date - timedelta(days=window_days - 1)
     window_end = reference_date + timedelta(days=_FUTURE_TOLERANCE_DAYS)
     return window_start <= parsed <= window_end
 
