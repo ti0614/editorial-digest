@@ -80,7 +80,6 @@ button.tier-chip {
   background: transparent; color: var(--accent); cursor: pointer;
   white-space: nowrap; display: inline-flex; align-items: baseline; justify-content: center; gap: 0.35rem;
 }
-button.tier-chip .tier-chip-count { font-size: 0.72rem; opacity: 0.75; font-variant-numeric: tabular-nums; }
 button.tier-chip:hover { background: var(--accent-soft); }
 button.tier-chip[aria-pressed="true"] { background: var(--accent); color: var(--surface); }
 button.tier-chip:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
@@ -374,7 +373,6 @@ def render_html(results: list, run_date: date, generated_at: datetime | None = N
         if unavailable_names else ""
     )
 
-    tier_names = {t: [r.name for r in results if _normalize_tier(r.tier) == t] for t in TIERS}
     national_total = sum(1 for x in items_flat if x.tier == "national")
     range_label = f"{min_date.month}/{min_date.day} 〜 {max_date.month}/{max_date.day}"
 
@@ -386,7 +384,7 @@ def render_html(results: list, run_date: date, generated_at: datetime | None = N
 
     chips_html = "".join(
         f'<button type="button" class="tier-chip" data-tier="{t}" aria-pressed="{"true" if t == "national" else "false"}">'
-        f'{TIER_LABEL[t]}<span class="tier-chip-count">{len(tier_names[t])}紙</span></button>'
+        f'{TIER_LABEL[t]}</button>'
         for t in TIERS
     )
 
@@ -454,7 +452,6 @@ def render_today_html(results: list, run_date: date, generated_at: datetime | No
         if unavailable_names else ""
     )
 
-    tier_names = {t: [r.name for r in results if _normalize_tier(r.tier) == t] for t in TIERS}
     national_total = sum(1 for x in items_today if x.tier == "national")
     wd = WEEKDAY_JP[run_date.weekday()]
     date_label = f"{run_date.month}/{run_date.day}（{wd}）"
@@ -467,7 +464,7 @@ def render_today_html(results: list, run_date: date, generated_at: datetime | No
 
     chips_html = "".join(
         f'<button type="button" class="tier-chip" data-tier="{t}" aria-pressed="{"true" if t == "national" else "false"}">'
-        f'{TIER_LABEL[t]}<span class="tier-chip-count">{len(tier_names[t])}紙</span></button>'
+        f'{TIER_LABEL[t]}</button>'
         for t in TIERS
     )
 
