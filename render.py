@@ -439,18 +439,11 @@ def render_today_html(results: list, run_date: date, generated_at: datetime | No
     results の items は呼び出し側（main.py の run_today）で既に run_date
     当日分のみに絞り込み済みである前提。週間ダイジェスト（render_html）と
     異なり、ある紙が0件でも取得失敗とはみなさない（1日ごとに必ず社説が
-    掲載されるとは限らないため）。そのため「取得できていない新聞社」欄は
-    robots.txt 拒否・取得エラーの紙のみを対象とする。
+    掲載されるとは限らないため）。
     """
     items_flat = _flatten_items(results, run_date)
     by_date = _group_by_date(items_flat)
     items_today = by_date.get(run_date, [])
-
-    unavailable_names = [r.name for r in results if r.skipped_by_robots or r.error]
-    unavailable_footer = (
-        f'<p>取得できなかった新聞社：{_esc("・".join(unavailable_names))}（{len(unavailable_names)}紙）</p>'
-        if unavailable_names else ""
-    )
 
     national_total = sum(1 for x in items_today if x.tier == "national")
     wd = WEEKDAY_JP[run_date.weekday()]
@@ -509,8 +502,6 @@ def render_today_html(results: list, run_date: date, generated_at: datetime | No
   <footer>
     <p>社説まとめツールが自動生成 / 基準日: {run_date.isoformat()}（当日分のみ）。各リンクは記事本文へ遷移します。</p>
     <p>「会員限定」表示は参考情報です。表示が無くても無料と保証するものではありません。</p>
-    <p>本日分が0件の紙は、取得エラーではなく単に本日未掲載（休載・発行前）の場合があります。</p>
-    {unavailable_footer}
     <p>本サイトは非公式のリンク集で、各記事の著作権は各社に帰属します。</p>
   </footer>
 </div>
