@@ -55,7 +55,11 @@ Pipeline: `sources.yaml` → `main.py` (orchestration) → `fetch.py`/`robots.py
   `tier` (`national`/`block`/`regional`), and flags like `always_paid` or
   `unavailable_reason`. Adding a newspaper is normally just adding an entry here —
   no code changes needed. `verified: true/false` tracks whether the selectors have
-  been checked against live HTML recently.
+  been checked against live HTML recently. For papers with no dedicated editorial
+  list page, `index_url` can point at the site's full-text search results instead
+  (e.g. 岐阜新聞's `?fulltext=社説`); `title_prefix` filters out unrelated hits that
+  merely contain the search term, and `title_strip_pattern` (regex) cleans up
+  title text the search UI embeds (a "社説" prefix, a trailing bracketed date).
 - **`main.py`** — CLI entrypoint (`check` / `run` / `today` subcommands). Loads
   sources, iterates them via `_iter_results`/`process_source`, and writes the JSON
   snapshot + HTML. `process_source` fails a single source into `SourceResult.error`
