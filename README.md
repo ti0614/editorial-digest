@@ -220,9 +220,14 @@ python main.py today --only 朝日新聞 読売新聞 --date 2026-07-21
 セレクタは実際のページの HTML を見ながら調整してください
 （ブラウザの開発者ツールで一覧ページを開き、記事1件を囲む要素を探すのが早いです）。
 
-## 定期実行したい場合
+## 定期実行・GitHub Pages公開
 
-このリポジトリ自体には定期実行の仕組みは含めていません。GitHub Actions の
-`schedule` トリガーや、自分のマシンの cron から `python main.py run` を
-呼び出し、生成された `output/digest.html` を毎回同じ場所（GitHub Pages
-など）に上書き公開する形で定期更新を追加できます。
+`.github/workflows/deploy-today.yml` で、当日版（`today.html`）を1日2回
+（05:10 / 19:10 JST）自動生成し、GitHub Pagesに公開する設定を含めています
+（`workflow_dispatch` で手動実行も可能）。利用するには、リポジトリの
+**Settings > Pages > Build and deployment > Source** を「GitHub Actions」に
+設定してください（これだけは手動での一度きりの設定が必要です）。
+
+週間ダイジェスト（`digest.html`）を定期公開したい場合は、同様の
+ワークフローを追加するか、既存のワークフローで `python main.py today` の
+代わりに `python main.py run` を呼び出すよう変更してください。
