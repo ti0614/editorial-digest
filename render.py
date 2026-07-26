@@ -353,7 +353,19 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
       '<span class="article-title">' + esc(it.title) + paidHtml + '</span></span>' + timeHtml + '</a></li>';
   }
 
+  function sortByTimeDesc(items) {
+    // 新しい時刻順（降順）。時刻不明は新旧の判断が付かないため常に末尾に置く。
+    return items.slice().sort(function (a, b) {
+      if (!a.time && !b.time) return 0;
+      if (!a.time) return 1;
+      if (!b.time) return -1;
+      if (a.time === b.time) return 0;
+      return a.time > b.time ? -1 : 1;
+    });
+  }
+
   function renderSection(dateStr, items) {
+    items = sortByTimeDesc(items);
     var section = document.createElement('section');
     section.className = 'dategroup';
     section.id = 'd-' + dateStr;
@@ -603,12 +615,22 @@ def _flatten_items(results: list, run_date: date) -> list[_FlatItem]:
     return flat
 
 
+def _time_sort_key(item: _FlatItem) -> tuple[bool, int, str]:
+    """新しい時刻順（降順）で並べるためのキー。時刻不明は新旧の判断が
+    付かないため常に末尾に置く。
+    """
+    if item.time is None:
+        return (True, 0, item.name)
+    h, m = item.time.split(":")
+    return (False, -(int(h) * 60 + int(m)), item.name)
+
+
 def _group_by_date(items_flat: list[_FlatItem]) -> dict[date, list[_FlatItem]]:
     by_date: dict[date, list[_FlatItem]] = defaultdict(list)
     for item in items_flat:
         by_date[item.date].append(item)
     for items in by_date.values():
-        items.sort(key=lambda x: (x.time is None, x.time or "", x.name))
+        items.sort(key=_time_sort_key)
     return by_date
 
 
