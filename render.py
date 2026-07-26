@@ -363,6 +363,10 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
   function updateCounts() {
     var grandTotal = 0;
     resultsEl.querySelectorAll('section.dategroup').forEach(function (sec) {
+      // offsetParentは祖先がhiddenだと常にnullになるため、計測前に一旦
+      // hiddenを解除しておく（そうしないと一度0件と判定されたセクションが
+      // 以後ずっと0件のまま隠れ続けてしまう）。
+      sec.hidden = false;
       var count = 0;
       sec.querySelectorAll('li.article-item').forEach(function (li) {
         if (li.offsetParent !== null) count++;
