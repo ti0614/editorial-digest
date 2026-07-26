@@ -1,0 +1,28 @@
+{
+  "date": "2024-05-17",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）スロバキア銃撃　憎悪の連鎖から決別を",
+          "link": "https://www.asahi.com/articles/DA3S15935750.html?iref=pc_rensai_long_16_article",
+          "published": "2024年05月17日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）企業の好決算　賃上げ定着につなげよ",
+          "link": "https://www.asahi.com/articles/DA3S15935752.html?iref=pc_rensai_long_16_article",
+          "published": "2024年05月17日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "date": "2026-02-04",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）暴力動画拡散　ネットで解決の危うさ",
+          "link": "https://www.asahi.com/articles/DA3S16396395.html?iref=pc_rensai_long_16_article",
+          "published": "2026年02月04日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）衆院選　沖縄の基地　負担軽減に具体策を",
+          "link": "https://www.asahi.com/articles/DA3S16396394.html?iref=pc_rensai_long_16_article",
+          "published": "2026年02月04日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

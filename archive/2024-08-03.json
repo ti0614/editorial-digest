@@ -1,0 +1,28 @@
+{
+  "date": "2024-08-03",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）全国学力調査　新たな格差　生まぬため",
+          "link": "https://www.asahi.com/articles/DA3S16001331.html?iref=pc_rensai_long_16_article",
+          "published": "2024年08月03日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）ベネズエラ選挙　強権政治の混迷を憂う",
+          "link": "https://www.asahi.com/articles/DA3S16001332.html?iref=pc_rensai_long_16_article",
+          "published": "2024年08月03日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

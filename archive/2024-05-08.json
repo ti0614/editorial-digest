@@ -1,0 +1,28 @@
+{
+  "date": "2024-05-08",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）米学生のデモ　命守る訴えに耳傾けよ",
+          "link": "https://www.asahi.com/articles/DA3S15929470.html?iref=pc_rensai_long_16_article",
+          "published": "2024年05月08日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）コロナ５類１年　検証し、教訓の継承を",
+          "link": "https://www.asahi.com/articles/DA3S15929469.html?iref=pc_rensai_long_16_article",
+          "published": "2024年05月08日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "date": "2025-02-27",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）広域避難の功罪　選択できる態勢作りを",
+          "link": "https://www.asahi.com/articles/DA3S16158500.html?iref=pc_rensai_long_16_article",
+          "published": "2025年02月27日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）鬼怒川判決　国の瑕疵を再び認めた",
+          "link": "https://www.asahi.com/articles/DA3S16158499.html?iref=pc_rensai_long_16_article",
+          "published": "2025年02月27日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "date": "2024-02-19",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）ナワリヌイ氏　弾圧国家が恐れた勇気",
+          "link": "https://www.asahi.com/articles/DA3S15866497.html?iref=pc_rensai_long_16_article",
+          "published": "2024年02月19日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）京大吉田寮　自治守り、対話再開を",
+          "link": "https://www.asahi.com/articles/DA3S15866498.html?iref=pc_rensai_long_16_article",
+          "published": "2024年02月19日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

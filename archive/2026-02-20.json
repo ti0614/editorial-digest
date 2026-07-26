@@ -1,0 +1,28 @@
+{
+  "date": "2026-02-20",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）「欠格条項」判決　壁を取り除くためには",
+          "link": "https://www.asahi.com/articles/DA3S16408202.html?iref=pc_rensai_long_16_article",
+          "published": "2026年02月20日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）対米投資第１弾　各国との連携も着実に",
+          "link": "https://www.asahi.com/articles/DA3S16408203.html?iref=pc_rensai_long_16_article",
+          "published": "2026年02月20日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

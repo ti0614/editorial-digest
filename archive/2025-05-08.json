@@ -1,0 +1,28 @@
+{
+  "date": "2025-05-08",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）コロナ５類２年　専門家の役割再確認を",
+          "link": "https://www.asahi.com/articles/DA3S16209276.html?iref=pc_rensai_long_16_article",
+          "published": "2025年05月08日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）学術会議改組　法案審議で深まる懸念",
+          "link": "https://www.asahi.com/articles/DA3S16209275.html?iref=pc_rensai_long_16_article",
+          "published": "2025年05月08日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

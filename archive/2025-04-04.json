@@ -1,0 +1,28 @@
+{
+  "date": "2025-04-04",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）ガザの記者殺害　戦場の真実　封じる蛮行",
+          "link": "https://www.asahi.com/articles/DA3S16179232.html?iref=pc_rensai_long_16_article",
+          "published": "2025年04月04日 16時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）トランプ関税と世界　歴史の教訓思い起こす時だ",
+          "link": "https://www.asahi.com/articles/DA3S16186628.html?iref=pc_rensai_long_16_article",
+          "published": "2025年04月04日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

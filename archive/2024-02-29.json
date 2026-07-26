@@ -1,0 +1,28 @@
+{
+  "date": "2024-02-29",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）ＮＡＴＯ拡大　ロシアと意思疎通図れ",
+          "link": "https://www.asahi.com/articles/DA3S15874741.html?iref=pc_rensai_long_16_article",
+          "published": "2024年02月29日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）政倫審の迷走　不信の上塗り許されぬ",
+          "link": "https://www.asahi.com/articles/DA3S15874740.html?iref=pc_rensai_long_16_article",
+          "published": "2024年02月29日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

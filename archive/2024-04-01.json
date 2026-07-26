@@ -1,0 +1,28 @@
+{
+  "date": "2024-04-01",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）能登の復興　東日本の教訓を生かす",
+          "link": "https://www.asahi.com/articles/DA3S15900987.html?iref=pc_rensai_long_16_article",
+          "published": "2024年04月01日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）シェルター整備　有事招かぬ外交努力も",
+          "link": "https://www.asahi.com/articles/DA3S15900988.html?iref=pc_rensai_long_16_article",
+          "published": "2024年04月01日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

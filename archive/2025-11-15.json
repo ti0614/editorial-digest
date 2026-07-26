@@ -1,0 +1,28 @@
+{
+  "date": "2025-11-15",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）デフリンピック　壁をこえていくために",
+          "link": "https://www.asahi.com/articles/DA3S16344321.html?iref=pc_rensai_long_16_article",
+          "published": "2025年11月15日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）結党７０年の自民　「国民政党」揺らぐ看板",
+          "link": "https://www.asahi.com/articles/DA3S16344322.html?iref=pc_rensai_long_16_article",
+          "published": "2025年11月15日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

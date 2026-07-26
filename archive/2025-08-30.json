@@ -1,0 +1,28 @@
+{
+  "date": "2025-08-30",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）朝鮮人虐殺　今こそ向き合う姿勢を",
+          "link": "https://www.asahi.com/articles/DA3S16291583.html?iref=pc_rensai_long_16_article",
+          "published": "2025年08月30日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）防衛概算要求　続く膨張　精査が不可欠",
+          "link": "https://www.asahi.com/articles/DA3S16291580.html?iref=pc_rensai_long_16_article",
+          "published": "2025年08月30日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

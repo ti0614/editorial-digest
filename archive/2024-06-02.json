@@ -1,0 +1,28 @@
+{
+  "date": "2024-06-02",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）マイナンバー活用　かけ声だけでは進まぬ",
+          "link": "https://www.asahi.com/articles/DA3S15948926.html?iref=pc_rensai_long_16_article",
+          "published": "2024年06月02日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）トランプ氏有罪　法治への信頼を守れ",
+          "link": "https://www.asahi.com/articles/DA3S15948925.html?iref=pc_rensai_long_16_article",
+          "published": "2024年06月02日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

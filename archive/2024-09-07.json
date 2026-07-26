@@ -1,0 +1,28 @@
+{
+  "date": "2024-09-07",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）公益通報と調査　知事の失態は明らかだ",
+          "link": "https://www.asahi.com/articles/DA3S16028296.html?iref=pc_rensai_long_16_article",
+          "published": "2024年09月07日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）自民党総裁選　反省抜きに総括できぬ",
+          "link": "https://www.asahi.com/articles/DA3S16028295.html?iref=pc_rensai_long_16_article",
+          "published": "2024年09月07日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

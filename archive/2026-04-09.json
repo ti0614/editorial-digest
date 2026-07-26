@@ -1,0 +1,28 @@
+{
+  "date": "2026-04-09",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）ストーカー犯罪　根本に迫る策　考えたい",
+          "link": "https://www.asahi.com/articles/DA3S16440435.html?iref=pc_rensai_long_16_article",
+          "published": "2026年04月09日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）米イラン合意　不信を解き戦争終結を",
+          "link": "https://www.asahi.com/articles/DA3S16440430.html?iref=pc_rensai_long_16_article",
+          "published": "2026年04月09日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

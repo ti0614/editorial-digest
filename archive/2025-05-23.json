@@ -1,0 +1,28 @@
+{
+  "date": "2025-05-23",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）台湾頼政権１年　民主政の真価問われる",
+          "link": "https://www.asahi.com/articles/DA3S16219600.html?iref=pc_rensai_long_16_article",
+          "published": "2025年05月23日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）ＷＨＯ条約採択　米不在下の意義と懸念",
+          "link": "https://www.asahi.com/articles/DA3S16219599.html?iref=pc_rensai_long_16_article",
+          "published": "2025年05月23日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

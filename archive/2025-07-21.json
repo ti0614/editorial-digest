@@ -1,0 +1,22 @@
+{
+  "date": "2025-07-21",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）自公大幅減と進む多党化　戦後政治の大きな転換点",
+          "link": "https://www.asahi.com/articles/DA3S16263040.html?iref=pc_rensai_long_16_article",
+          "published": "2025年07月21日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

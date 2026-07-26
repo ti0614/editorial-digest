@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-15",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）東電の再建計画　原発頼みの苦境　直視を",
+          "link": "https://www.asahi.com/articles/DA3S16404794.html?iref=pc_rensai_long_16_article",
+          "published": "2026年02月15日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

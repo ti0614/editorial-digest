@@ -1,0 +1,28 @@
+{
+  "date": "2025-04-12",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）トランプ関税　世界を翻弄する無分別",
+          "link": "https://www.asahi.com/articles/DA3S16192385.html?iref=pc_rensai_long_16_article",
+          "published": "2025年04月12日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）万博あす開幕　成熟国で催す意義は",
+          "link": "https://www.asahi.com/articles/DA3S16192379.html?iref=pc_rensai_long_16_article",
+          "published": "2025年04月12日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "date": "2024-09-23",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）能登の豪雨　全力で被災地の支援を",
+          "link": "https://www.asahi.com/articles/DA3S16040654.html?iref=pc_rensai_long_16_article",
+          "published": "2024年09月23日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）解雇規制見直し　粗雑な提案　認められぬ",
+          "link": "https://www.asahi.com/articles/DA3S16040655.html?iref=pc_rensai_long_16_article",
+          "published": "2024年09月23日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

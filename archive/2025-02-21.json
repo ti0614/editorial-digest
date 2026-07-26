@@ -1,0 +1,28 @@
+{
+  "date": "2025-02-21",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）授業料と給食費　拙速な決着は疑問残す",
+          "link": "https://www.asahi.com/articles/DA3S16154220.html?iref=pc_rensai_long_16_article",
+          "published": "2025年02月21日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）下請け圧迫　悪習絶ち　賃上げ広げよ",
+          "link": "https://www.asahi.com/articles/DA3S16154221.html?iref=pc_rensai_long_16_article",
+          "published": "2025年02月21日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

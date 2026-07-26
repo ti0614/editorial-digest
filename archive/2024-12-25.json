@@ -1,0 +1,28 @@
+{
+  "date": "2024-12-25",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）ＮＨＫ経営委　市民の監視　無力でない",
+          "link": "https://www.asahi.com/articles/DA3S16113606.html?iref=pc_rensai_long_16_article",
+          "published": "2024年12月25日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）少数与党国会　熟議への歩みを進めよ",
+          "link": "https://www.asahi.com/articles/DA3S16113605.html?iref=pc_rensai_long_16_article",
+          "published": "2024年12月25日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

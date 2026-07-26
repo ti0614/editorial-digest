@@ -1,0 +1,28 @@
+{
+  "date": "2025-02-20",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）日本版ＧＰＳ　利用普及と理念共有を",
+          "link": "https://www.asahi.com/articles/DA3S16153333.html?iref=pc_rensai_long_16_article",
+          "published": "2025年02月20日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）首相襲撃判決　暴挙許さず自由を守る",
+          "link": "https://www.asahi.com/articles/DA3S16153332.html?iref=pc_rensai_long_16_article",
+          "published": "2025年02月20日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

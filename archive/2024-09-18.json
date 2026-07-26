@@ -1,0 +1,28 @@
+{
+  "date": "2024-09-18",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）自民党と教団　「組織的な関係」検証を",
+          "link": "https://www.asahi.com/articles/DA3S16036688.html?iref=pc_rensai_long_16_article",
+          "published": "2024年09月18日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）総裁選と財政　「持続性」語らぬ無責任",
+          "link": "https://www.asahi.com/articles/DA3S16036689.html?iref=pc_rensai_long_16_article",
+          "published": "2024年09月18日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

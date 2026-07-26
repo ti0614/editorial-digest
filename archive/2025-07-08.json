@@ -1,0 +1,28 @@
+{
+  "date": "2025-07-08",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）参院選　賃上げと成長　実効性ある対策競え",
+          "link": "https://www.asahi.com/articles/DA3S16252017.html?iref=pc_rensai_long_16_article",
+          "published": "2025年07月08日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）オスプレイ配備　住民の不安　軽視するな",
+          "link": "https://www.asahi.com/articles/DA3S16252018.html?iref=pc_rensai_long_16_article",
+          "published": "2025年07月08日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

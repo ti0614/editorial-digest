@@ -1,0 +1,22 @@
+{
+  "date": "2026-01-11",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）つなぐ’２６　戦争に向き合う欧州　守るべき価値を見定める",
+          "link": "https://www.asahi.com/articles/DA3S16379451.html?iref=pc_rensai_long_16_article",
+          "published": "2026年01月11日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

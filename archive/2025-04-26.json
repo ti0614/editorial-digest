@@ -1,0 +1,28 @@
+{
+  "date": "2025-04-26",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）万博赤旗問題　不透明な運用を戒めよ",
+          "link": "https://www.asahi.com/articles/DA3S16201954.html?iref=pc_rensai_long_16_article",
+          "published": "2025年04月26日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）日米財務相会談　為替問題　毅然と対応を",
+          "link": "https://www.asahi.com/articles/DA3S16201953.html?iref=pc_rensai_long_16_article",
+          "published": "2025年04月26日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

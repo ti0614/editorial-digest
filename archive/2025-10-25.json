@@ -1,0 +1,28 @@
+{
+  "date": "2025-10-25",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）中国４中全会　人々の不安に応えるか",
+          "link": "https://www.asahi.com/articles/DA3S16330397.html?iref=pc_rensai_long_16_article",
+          "published": "2025年10月25日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）初の所信表明　責任ある姿まだ見えぬ",
+          "link": "https://www.asahi.com/articles/DA3S16330395.html?iref=pc_rensai_long_16_article",
+          "published": "2025年10月25日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

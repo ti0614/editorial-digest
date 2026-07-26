@@ -1,0 +1,28 @@
+{
+  "date": "2026-03-18",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）中東危機の拡大　米の迷走　連携で止めよ",
+          "link": "https://www.asahi.com/articles/DA3S16424856.html?iref=pc_rensai_long_16_article",
+          "published": "2026年03月18日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）交通警察の不正　自己目的化防ぐ検証を",
+          "link": "https://www.asahi.com/articles/DA3S16424857.html?iref=pc_rensai_long_16_article",
+          "published": "2026年03月18日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

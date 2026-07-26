@@ -1,0 +1,28 @@
+{
+  "date": "2024-11-12",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）石破少数内閣　活路は丁寧な合意形成",
+          "link": "https://www.asahi.com/articles/DA3S16080871.html?iref=pc_rensai_long_16_article",
+          "published": "2024年11月12日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）松本氏の裁判　疑惑に正面から説明を",
+          "link": "https://www.asahi.com/articles/DA3S16080872.html?iref=pc_rensai_long_16_article",
+          "published": "2024年11月12日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2026-01-19",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）経済と技術革新　「果実」分かち合う成長を",
+          "link": "https://www.asahi.com/articles/DA3S16384151.html?iref=pc_rensai_long_16_article",
+          "published": "2026年01月19日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "date": "2025-06-10",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）企業の宇宙開発　月をめざす意義と課題",
+          "link": "https://www.asahi.com/articles/DA3S16231811.html?iref=pc_rensai_long_16_article",
+          "published": "2025年06月10日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）東欧の選挙　対決でなく対話の道を",
+          "link": "https://www.asahi.com/articles/DA3S16231810.html?iref=pc_rensai_long_16_article",
+          "published": "2025年06月10日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

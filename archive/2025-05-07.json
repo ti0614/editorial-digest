@@ -1,0 +1,28 @@
+{
+  "date": "2025-05-07",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）冤罪の教訓　検察官は証拠を公正に",
+          "link": "https://www.asahi.com/articles/DA3S16208462.html?iref=pc_rensai_long_16_article",
+          "published": "2025年05月07日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）原発の廃炉　廃棄物の現実直視せよ",
+          "link": "https://www.asahi.com/articles/DA3S16208461.html?iref=pc_rensai_long_16_article",
+          "published": "2025年05月07日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

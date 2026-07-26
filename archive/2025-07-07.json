@@ -1,0 +1,28 @@
+{
+  "date": "2025-07-07",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）アスベスト被害　救済の縮小　ありえない",
+          "link": "https://www.asahi.com/articles/DA3S16250752.html?iref=pc_rensai_long_16_article",
+          "published": "2025年07月07日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）米中協議の行方　貿易ルールの再構築を",
+          "link": "https://www.asahi.com/articles/DA3S16250751.html?iref=pc_rensai_long_16_article",
+          "published": "2025年07月07日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "date": "2024-06-23",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）沖縄慰霊の日　記憶をつなぐために",
+          "link": "https://www.asahi.com/articles/DA3S15965232.html?iref=pc_rensai_long_16_article",
+          "published": "2024年06月23日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）骨太の方針　看板倒れの懸念が募る",
+          "link": "https://www.asahi.com/articles/DA3S15965233.html?iref=pc_rensai_long_16_article",
+          "published": "2024年06月23日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "date": "2025-01-30",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）トランプ新政権　強権政治へ向かうのか",
+          "link": "https://www.asahi.com/articles/DA3S16137969.html?iref=pc_rensai_long_16_article",
+          "published": "2025年01月30日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）中国の司法　真相解明が置き去りだ",
+          "link": "https://www.asahi.com/articles/DA3S16137970.html?iref=pc_rensai_long_16_article",
+          "published": "2025年01月30日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

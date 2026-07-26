@@ -1,0 +1,28 @@
+{
+  "date": "2026-01-16",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）冒頭解散と政策　後回しの不安に説明を",
+          "link": "https://www.asahi.com/articles/DA3S16382535.html?iref=pc_rensai_long_16_article",
+          "published": "2026年01月16日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）立憲・公明の新党　政権の対抗軸示せるか",
+          "link": "https://www.asahi.com/articles/DA3S16382536.html?iref=pc_rensai_long_16_article",
+          "published": "2026年01月16日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

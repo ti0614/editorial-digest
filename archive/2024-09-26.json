@@ -1,0 +1,28 @@
+{
+  "date": "2024-09-26",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）ロシア機の侵犯　危険な挑発は許されぬ",
+          "link": "https://www.asahi.com/articles/DA3S16043618.html?iref=pc_rensai_long_16_article",
+          "published": "2024年09月26日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）社会保障政策　議論深まらぬ総裁選",
+          "link": "https://www.asahi.com/articles/DA3S16043617.html?iref=pc_rensai_long_16_article",
+          "published": "2024年09月26日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

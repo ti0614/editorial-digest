@@ -1,0 +1,28 @@
+{
+  "date": "2025-10-12",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）ノーベル平和賞　民主主義後退への警鐘",
+          "link": "https://www.asahi.com/articles/DA3S16321848.html?iref=pc_rensai_long_16_article",
+          "published": "2025年10月12日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）政治家の言葉　社会を蝕まないために",
+          "link": "https://www.asahi.com/articles/DA3S16321849.html?iref=pc_rensai_long_16_article",
+          "published": "2025年10月12日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

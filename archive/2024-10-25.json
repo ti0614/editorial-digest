@@ -1,0 +1,28 @@
+{
+  "date": "2024-10-25",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）福井中３殺害　検察は再審に応じよ",
+          "link": "https://www.asahi.com/articles/DA3S16067466.html?iref=pc_rensai_long_16_article",
+          "published": "2024年10月25日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）非公認側に資金　裏金の反省が疑われる",
+          "link": "https://www.asahi.com/articles/DA3S16067465.html?iref=pc_rensai_long_16_article",
+          "published": "2024年10月25日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

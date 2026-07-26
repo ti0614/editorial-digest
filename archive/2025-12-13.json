@@ -1,0 +1,28 @@
+{
+  "date": "2025-12-13",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）サイバー被害　アサヒ教訓に対策急げ",
+          "link": "https://www.asahi.com/articles/DA3S16363271.html?iref=pc_rensai_long_16_article",
+          "published": "2025年12月13日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）政治資金問題　論点ずらさずに直視を",
+          "link": "https://www.asahi.com/articles/DA3S16363270.html?iref=pc_rensai_long_16_article",
+          "published": "2025年12月13日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

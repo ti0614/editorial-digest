@@ -1,0 +1,28 @@
+{
+  "date": "2025-05-01",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）首相アジア訪問　国際秩序維持へ連携を",
+          "link": "https://www.asahi.com/articles/DA3S16205242.html?iref=pc_rensai_long_16_article",
+          "published": "2025年05月01日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）水俣病の被害　環境省は実態　直視せよ",
+          "link": "https://www.asahi.com/articles/DA3S16205243.html?iref=pc_rensai_long_16_article",
+          "published": "2025年05月01日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

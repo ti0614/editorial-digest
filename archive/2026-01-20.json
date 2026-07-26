@@ -1,0 +1,22 @@
+{
+  "date": "2026-01-20",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）大義なき冒頭解散　国民より首相の「自己都合」優先",
+          "link": "https://www.asahi.com/articles/DA3S16385200.html?iref=pc_rensai_long_16_article",
+          "published": "2026年01月20日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

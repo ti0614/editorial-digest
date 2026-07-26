@@ -1,0 +1,28 @@
+{
+  "date": "2024-10-21",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）政権中枢襲撃　許されぬ政治への暴力",
+          "link": "https://www.asahi.com/articles/DA3S16063298.html?iref=pc_rensai_long_16_article",
+          "published": "2024年10月21日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）衆院選　財政健全化　将来の責任忘れるな",
+          "link": "https://www.asahi.com/articles/DA3S16063299.html?iref=pc_rensai_long_16_article",
+          "published": "2024年10月21日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "date": "2026-03-31",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）年度内成立断念　国会軽視　首相は改めよ",
+          "link": "https://www.asahi.com/articles/DA3S16434240.html?iref=pc_rensai_long_16_article",
+          "published": "2026年03月31日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）中国大使館侵入　対応のまずさが目立つ",
+          "link": "https://www.asahi.com/articles/DA3S16434241.html?iref=pc_rensai_long_16_article",
+          "published": "2026年03月31日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

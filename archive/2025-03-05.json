@@ -1,0 +1,28 @@
+{
+  "date": "2025-03-05",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）百条委報告書　斎藤氏は責任を免れぬ",
+          "link": "https://www.asahi.com/articles/DA3S16162900.html?iref=pc_rensai_long_16_article",
+          "published": "2025年03月05日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）予算案衆院通過　問題置き去りの「修正」",
+          "link": "https://www.asahi.com/articles/DA3S16162899.html?iref=pc_rensai_long_16_article",
+          "published": "2025年03月05日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "date": "2025-01-24",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）障害と逸失利益　「障壁」のない社会に",
+          "link": "https://www.asahi.com/articles/DA3S16133436.html?iref=pc_rensai_long_16_article",
+          "published": "2025年01月24日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）辺野古移設　地盤調査なぜ尽くさぬ",
+          "link": "https://www.asahi.com/articles/DA3S16133437.html?iref=pc_rensai_long_16_article",
+          "published": "2025年01月24日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

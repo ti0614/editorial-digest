@@ -1,0 +1,22 @@
+{
+  "date": "2025-06-29",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）下請法改正　対等な関係築く契機に",
+          "link": "https://www.asahi.com/articles/DA3S16245486.html?iref=pc_rensai_long_16_article",
+          "published": "2025年06月29日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "date": "2024-08-08",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）自民党総裁選　信頼回復への岐路だ",
+          "link": "https://www.asahi.com/articles/DA3S16005568.html?iref=pc_rensai_long_16_article",
+          "published": "2024年08月08日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）原発建設支援　国民負担で特別扱いか",
+          "link": "https://www.asahi.com/articles/DA3S16005569.html?iref=pc_rensai_long_16_article",
+          "published": "2024年08月08日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

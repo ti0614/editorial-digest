@@ -1,0 +1,28 @@
+{
+  "date": "2025-04-05",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）尹大統領罷免　分断超える政治の道を",
+          "link": "https://www.asahi.com/articles/DA3S16187361.html?iref=pc_rensai_long_16_article",
+          "published": "2025年04月05日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）後半国会　熟議の真価が問われる",
+          "link": "https://www.asahi.com/articles/DA3S16187362.html?iref=pc_rensai_long_16_article",
+          "published": "2025年04月05日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

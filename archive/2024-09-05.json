@@ -1,0 +1,28 @@
+{
+  "date": "2024-09-05",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）ワクチン「休戦」　ガザ停戦こそ命救う道",
+          "link": "https://www.asahi.com/articles/DA3S16026580.html?iref=pc_rensai_long_16_article",
+          "published": "2024年09月05日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）名古屋市教委　内向き体質を一掃せよ",
+          "link": "https://www.asahi.com/articles/DA3S16026581.html?iref=pc_rensai_long_16_article",
+          "published": "2024年09月05日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "date": "2025-12-03",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）定数削減法案　「結論ありき」の乱暴",
+          "link": "https://www.asahi.com/articles/DA3S16356381.html?iref=pc_rensai_long_16_article",
+          "published": "2025年12月03日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）韓国の戒厳１年　危機の芽と向き合って",
+          "link": "https://www.asahi.com/articles/DA3S16356382.html?iref=pc_rensai_long_16_article",
+          "published": "2025年12月03日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

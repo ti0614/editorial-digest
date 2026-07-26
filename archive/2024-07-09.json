@@ -1,0 +1,28 @@
+{
+  "date": "2024-07-09",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）イラン新大統領　民意支えに融和実現を",
+          "link": "https://www.asahi.com/articles/DA3S15978367.html?iref=pc_rensai_long_16_article",
+          "published": "2024年07月09日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）首都の選択　政党不信　直視してこそ",
+          "link": "https://www.asahi.com/articles/DA3S15978366.html?iref=pc_rensai_long_16_article",
+          "published": "2024年07月09日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

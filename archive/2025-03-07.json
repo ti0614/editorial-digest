@@ -1,0 +1,28 @@
+{
+  "date": "2025-03-07",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）斎藤氏の会見　知事の資質　改めて問う",
+          "link": "https://www.asahi.com/articles/DA3S16164627.html?iref=pc_rensai_long_16_article",
+          "published": "2025年03月07日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）原発事故「無罪」　東電の責任は揺るがず",
+          "link": "https://www.asahi.com/articles/DA3S16164626.html?iref=pc_rensai_long_16_article",
+          "published": "2025年03月07日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

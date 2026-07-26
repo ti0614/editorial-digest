@@ -1,0 +1,28 @@
+{
+  "date": "2025-02-13",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）国民民主党　重責踏まえた行動を",
+          "link": "https://www.asahi.com/articles/DA3S16147989.html?iref=pc_rensai_long_16_article",
+          "published": "2025年02月13日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）ＰＦＡＳ基準　自治体への支援　丁寧に",
+          "link": "https://www.asahi.com/articles/DA3S16147990.html?iref=pc_rensai_long_16_article",
+          "published": "2025年02月13日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

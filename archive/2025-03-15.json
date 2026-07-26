@@ -1,0 +1,28 @@
+{
+  "date": "2025-03-15",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）商品券の配布　あきれた首相の弁明",
+          "link": "https://www.asahi.com/articles/DA3S16170493.html?iref=pc_rensai_long_16_article",
+          "published": "2025年03月15日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）春闘と価格転嫁　成果分かち合う経済に",
+          "link": "https://www.asahi.com/articles/DA3S16170436.html?iref=pc_rensai_long_16_article",
+          "published": "2025年03月15日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

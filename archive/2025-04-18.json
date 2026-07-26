@@ -1,0 +1,28 @@
+{
+  "date": "2025-04-18",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）日米関税交渉　包括戦略を練り上げよ",
+          "link": "https://www.asahi.com/articles/DA3S16196607.html?iref=pc_rensai_long_16_article",
+          "published": "2025年04月18日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）イラン核協議　脅し控え冷静な交渉を",
+          "link": "https://www.asahi.com/articles/DA3S16196608.html?iref=pc_rensai_long_16_article",
+          "published": "2025年04月18日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

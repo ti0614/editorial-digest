@@ -1,0 +1,28 @@
+{
+  "date": "2024-09-12",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）ＪＲ九州高速船　許されない安全の軽視",
+          "link": "https://www.asahi.com/articles/DA3S16031781.html?iref=pc_rensai_long_16_article",
+          "published": "2024年09月12日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）大雨と温暖化　激甚化へ備え強めよう",
+          "link": "https://www.asahi.com/articles/DA3S16031782.html?iref=pc_rensai_long_16_article",
+          "published": "2024年09月12日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

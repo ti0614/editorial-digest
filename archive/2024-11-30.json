@@ -1,0 +1,28 @@
+{
+  "date": "2024-11-30",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）首相所信表明　問われる「熟議」の実行",
+          "link": "https://www.asahi.com/articles/DA3S16095949.html?iref=pc_rensai_long_16_article",
+          "published": "2024年11月30日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）能登の教訓　明日はわが身の覚悟を",
+          "link": "https://www.asahi.com/articles/DA3S16095963.html?iref=pc_rensai_long_16_article",
+          "published": "2024年11月30日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

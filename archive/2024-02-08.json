@@ -1,0 +1,28 @@
+{
+  "date": "2024-02-08",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）災害廃棄物　処理へ支援を幅広く",
+          "link": "https://www.asahi.com/articles/DA3S15858748.html?iref=pc_rensai_long_16_article",
+          "published": "2024年02月08日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）中国不動産市場　より踏み込んだ対策を",
+          "link": "https://www.asahi.com/articles/DA3S15858749.html?iref=pc_rensai_long_16_article",
+          "published": "2024年02月08日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

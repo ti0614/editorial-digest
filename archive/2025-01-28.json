@@ -1,0 +1,28 @@
+{
+  "date": "2025-01-28",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）救急搬送の逼迫　自治体の試み　注視して",
+          "link": "https://www.asahi.com/articles/DA3S16136395.html?iref=pc_rensai_long_16_article",
+          "published": "2025年01月28日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）靖国合祀判決　「時の壁」に逃げた司法",
+          "link": "https://www.asahi.com/articles/DA3S16136394.html?iref=pc_rensai_long_16_article",
+          "published": "2025年01月28日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

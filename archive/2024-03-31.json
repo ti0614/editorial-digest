@@ -1,0 +1,28 @@
+{
+  "date": "2024-03-31",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）宝塚歌劇団　「外部の目」は十分か",
+          "link": "https://www.asahi.com/articles/DA3S15900865.html?iref=pc_rensai_long_16_article",
+          "published": "2024年03月31日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）東電の再稼働　同意求められる段階か",
+          "link": "https://www.asahi.com/articles/DA3S15900864.html?iref=pc_rensai_long_16_article",
+          "published": "2024年03月31日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

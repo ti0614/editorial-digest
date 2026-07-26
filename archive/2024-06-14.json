@@ -1,0 +1,28 @@
+{
+  "date": "2024-06-14",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）ＳＮＳ詐欺広告　ＩＴ大手の責任は重い",
+          "link": "https://www.asahi.com/articles/DA3S15958204.html?iref=pc_rensai_long_16_article",
+          "published": "2024年06月14日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）財政再建目標　中長期の道筋　明示せよ",
+          "link": "https://www.asahi.com/articles/DA3S15958205.html?iref=pc_rensai_long_16_article",
+          "published": "2024年06月14日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

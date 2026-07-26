@@ -1,0 +1,28 @@
+{
+  "date": "2025-11-06",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）企業統治指針　株主優先の功罪　検証を",
+          "link": "https://www.asahi.com/articles/DA3S16338325.html?iref=pc_rensai_long_16_article",
+          "published": "2025年11月06日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）医療事故調査　「患者安全」意識広げて",
+          "link": "https://www.asahi.com/articles/DA3S16338324.html?iref=pc_rensai_long_16_article",
+          "published": "2025年11月06日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

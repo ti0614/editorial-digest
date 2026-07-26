@@ -1,0 +1,28 @@
+{
+  "date": "2025-01-20",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）都議会自民裏金　党の体質が問われる",
+          "link": "https://www.asahi.com/articles/DA3S16129728.html?iref=pc_rensai_long_16_article",
+          "published": "2025年01月20日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）中国の経済　中長期視点で改革を",
+          "link": "https://www.asahi.com/articles/DA3S16129729.html?iref=pc_rensai_long_16_article",
+          "published": "2025年01月20日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

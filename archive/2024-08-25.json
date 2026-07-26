@@ -1,0 +1,28 @@
+{
+  "date": "2024-08-25",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）鹿児島県警　議会が百条委で解明を",
+          "link": "https://www.asahi.com/articles/DA3S16018183.html?iref=pc_rensai_long_16_article",
+          "published": "2024年08月25日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）東電再建計画　原発頼みから脱却図れ",
+          "link": "https://www.asahi.com/articles/DA3S16018184.html?iref=pc_rensai_long_16_article",
+          "published": "2024年08月25日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

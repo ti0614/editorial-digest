@@ -1,0 +1,28 @@
+{
+  "date": "2025-09-12",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）立憲の再出発　自民への対抗軸　明示を",
+          "link": "https://www.asahi.com/articles/DA3S16300605.html?iref=pc_rensai_long_16_article",
+          "published": "2025年09月12日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）軽油カルテル　疑惑解明し取引適正に",
+          "link": "https://www.asahi.com/articles/DA3S16300606.html?iref=pc_rensai_long_16_article",
+          "published": "2025年09月12日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

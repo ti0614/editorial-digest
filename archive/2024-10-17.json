@@ -1,0 +1,28 @@
+{
+  "date": "2024-10-17",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）中国軍事演習　許されぬ威嚇の常態化",
+          "link": "https://www.asahi.com/articles/DA3S16060443.html?iref=pc_rensai_long_16_article",
+          "published": "2024年10月17日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）私大の定員割れ　学生に成長促す連携を",
+          "link": "https://www.asahi.com/articles/DA3S16060444.html?iref=pc_rensai_long_16_article",
+          "published": "2024年10月17日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

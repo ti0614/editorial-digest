@@ -1,0 +1,28 @@
+{
+  "date": "2024-09-04",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）ＤＮＡ抹消判決　法律定め社会の信頼を",
+          "link": "https://www.asahi.com/articles/DA3S16025701.html?iref=pc_rensai_long_16_article",
+          "published": "2024年09月04日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）損保情報漏洩　体質を根本から改めよ",
+          "link": "https://www.asahi.com/articles/DA3S16025702.html?iref=pc_rensai_long_16_article",
+          "published": "2024年09月04日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "date": "2024-05-02",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）食料有事法案　統制抑え合理的手法に",
+          "link": "https://www.asahi.com/articles/DA3S15925517.html?iref=pc_rensai_long_16_article",
+          "published": "2024年05月02日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）「阪神」襲撃３７年　他者への不寛容を憂う",
+          "link": "https://www.asahi.com/articles/DA3S15925516.html?iref=pc_rensai_long_16_article",
+          "published": "2024年05月02日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

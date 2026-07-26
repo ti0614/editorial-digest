@@ -1,0 +1,28 @@
+{
+  "date": "2025-10-27",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）生活保護と車　制限緩めて保有拡大を",
+          "link": "https://www.asahi.com/articles/DA3S16331117.html?iref=pc_rensai_long_16_article",
+          "published": "2025年10月27日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）安倍氏銃撃裁判　真相へと近づく審理に",
+          "link": "https://www.asahi.com/articles/DA3S16331118.html?iref=pc_rensai_long_16_article",
+          "published": "2025年10月27日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

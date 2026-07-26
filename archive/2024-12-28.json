@@ -1,0 +1,28 @@
+{
+  "date": "2024-12-28",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）政府予算案　楽観排し健全化の道を",
+          "link": "https://www.asahi.com/articles/DA3S16116137.html?iref=pc_rensai_long_16_article",
+          "published": "2024年12月28日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）代執行１年　強硬姿勢は容認できぬ",
+          "link": "https://www.asahi.com/articles/DA3S16116138.html?iref=pc_rensai_long_16_article",
+          "published": "2024年12月28日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

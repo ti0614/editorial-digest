@@ -1,0 +1,28 @@
+{
+  "date": "2025-11-28",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）大分の大火事　全国で備えの再確認を",
+          "link": "https://www.asahi.com/articles/DA3S16353281.html?iref=pc_rensai_long_16_article",
+          "published": "2025年11月28日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）生活保護の対応　「蒸し返し」批判免れぬ",
+          "link": "https://www.asahi.com/articles/DA3S16353285.html?iref=pc_rensai_long_16_article",
+          "published": "2025年11月28日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

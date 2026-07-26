@@ -1,0 +1,28 @@
+{
+  "date": "2025-06-04",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）福島の除染土　社会的な合意へ熟慮を",
+          "link": "https://www.asahi.com/articles/DA3S16228093.html?iref=pc_rensai_long_16_article",
+          "published": "2025年06月04日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）長嶋さん逝く　時代の波動　映した生涯",
+          "link": "https://www.asahi.com/articles/DA3S16228094.html?iref=pc_rensai_long_16_article",
+          "published": "2025年06月04日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

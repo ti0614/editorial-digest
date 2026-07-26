@@ -1,0 +1,28 @@
+{
+  "date": "2025-09-15",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）小田選手の快挙　壁をなくすために",
+          "link": "https://www.asahi.com/articles/DA3S16302204.html?iref=pc_rensai_long_16_article",
+          "published": "2025年09月15日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）敬老の日に　失敗恥じず相談こそ力",
+          "link": "https://www.asahi.com/articles/DA3S16302203.html?iref=pc_rensai_long_16_article",
+          "published": "2025年09月15日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "date": "2025-07-09",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）参院選　女性候補擁立　「均等」の理念に遠く",
+          "link": "https://www.asahi.com/articles/DA3S16252821.html?iref=pc_rensai_long_16_article",
+          "published": "2025年07月09日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）関税交渉延長　威圧の限界　米は直視を",
+          "link": "https://www.asahi.com/articles/DA3S16252820.html?iref=pc_rensai_long_16_article",
+          "published": "2025年07月09日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

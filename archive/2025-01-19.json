@@ -1,0 +1,28 @@
+{
+  "date": "2025-01-19",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）財政再建目標　「未達」は放漫の帰結だ",
+          "link": "https://www.asahi.com/articles/DA3S16129584.html?iref=pc_rensai_long_16_article",
+          "published": "2025年01月19日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）テレビと芸能　業界の透明化へ調査を",
+          "link": "https://www.asahi.com/articles/DA3S16129583.html?iref=pc_rensai_long_16_article",
+          "published": "2025年01月19日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

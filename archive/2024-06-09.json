@@ -1,0 +1,28 @@
+{
+  "date": "2024-06-09",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）創作者の権利　交渉のあり方見直す時",
+          "link": "https://www.asahi.com/articles/DA3S15954560.html?iref=pc_rensai_long_16_article",
+          "published": "2024年06月09日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）サイバー防衛　権利侵害防ぐ仕組みを",
+          "link": "https://www.asahi.com/articles/DA3S15954561.html?iref=pc_rensai_long_16_article",
+          "published": "2024年06月09日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

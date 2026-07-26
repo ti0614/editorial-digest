@@ -1,0 +1,28 @@
+{
+  "date": "2024-02-18",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）地震と原発　地元の不安を直視せよ",
+          "link": "https://www.asahi.com/articles/DA3S15866375.html?iref=pc_rensai_long_16_article",
+          "published": "2024年02月18日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）Ｈ３ロケット　信頼獲得へ一歩ずつ",
+          "link": "https://www.asahi.com/articles/DA3S15866376.html?iref=pc_rensai_long_16_article",
+          "published": "2024年02月18日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

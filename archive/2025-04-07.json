@@ -1,0 +1,28 @@
+{
+  "date": "2025-04-07",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）南海トラフ地震　一喜一憂せずに対策を",
+          "link": "https://www.asahi.com/articles/DA3S16188283.html?iref=pc_rensai_long_16_article",
+          "published": "2025年04月07日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）中国軍の演習　威嚇を繰り返す愚かさ",
+          "link": "https://www.asahi.com/articles/DA3S16188284.html?iref=pc_rensai_long_16_article",
+          "published": "2025年04月07日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

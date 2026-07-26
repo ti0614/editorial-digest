@@ -1,0 +1,22 @@
+{
+  "date": "2026-01-13",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）逆風下の再エネ　課題乗り越え、再び加速を＝訂正・おわびあり",
+          "link": "https://www.asahi.com/articles/DA3S16380058.html?iref=pc_rensai_long_16_article",
+          "published": "2026年01月13日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

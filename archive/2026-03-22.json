@@ -1,0 +1,28 @@
+{
+  "date": "2026-03-22",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）博物館と美術館　頼るのに軽んじるとは",
+          "link": "https://www.asahi.com/articles/DA3S16427883.html?iref=pc_rensai_long_16_article",
+          "published": "2026年03月22日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）夫婦の姓　「旧姓単記」という迷走",
+          "link": "https://www.asahi.com/articles/DA3S16427882.html?iref=pc_rensai_long_16_article",
+          "published": "2026年03月22日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "date": "2024-11-20",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）医師偏在対策　先送りできない課題だ",
+          "link": "https://www.asahi.com/articles/DA3S16087916.html?iref=pc_rensai_long_16_article",
+          "published": "2024年11月20日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）民主派に実刑　香港自治　否定する暴挙",
+          "link": "https://www.asahi.com/articles/DA3S16087917.html?iref=pc_rensai_long_16_article",
+          "published": "2024年11月20日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

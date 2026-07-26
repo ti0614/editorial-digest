@@ -1,0 +1,28 @@
+{
+  "date": "2024-03-02",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）ビキニ事件７０年　非核の連帯を広げよう",
+          "link": "https://www.asahi.com/articles/DA3S15876500.html?iref=pc_rensai_long_16_article",
+          "published": "2024年03月02日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）政倫審　予算案強行の踏み台か",
+          "link": "https://www.asahi.com/articles/DA3S15876499.html?iref=pc_rensai_long_16_article",
+          "published": "2024年03月02日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

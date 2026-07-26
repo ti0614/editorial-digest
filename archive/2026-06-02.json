@@ -6,19 +6,19 @@
       "category": "社説",
       "tier": "national",
       "index_url": "https://www.asahi.com/rensai/list.html?id=16",
-      "error": "403 Client Error: Forbidden for url: https://www.asahi.com/rensai/list.html?id=16&page=14",
+      "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
       "items": [
         {
-          "title": "（社説）外為法の審査　投資妨げない透明性を",
-          "link": "https://www.asahi.com/articles/DA3S16474956.html?iref=pc_rensai_long_16_article",
+          "title": "（社説）米のアジア戦略　同盟国の信頼　築き直せ",
+          "link": "https://www.asahi.com/articles/DA3S16474955.html?iref=pc_rensai_long_16_article",
           "published": "2026年06月02日 05時00分",
           "paid": false
         },
         {
-          "title": "（社説）米のアジア戦略　同盟国の信頼　築き直せ",
-          "link": "https://www.asahi.com/articles/DA3S16474955.html?iref=pc_rensai_long_16_article",
+          "title": "（社説）外為法の審査　投資妨げない透明性を",
+          "link": "https://www.asahi.com/articles/DA3S16474956.html?iref=pc_rensai_long_16_article",
           "published": "2026年06月02日 05時00分",
           "paid": false
         }

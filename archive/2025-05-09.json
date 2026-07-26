@@ -1,0 +1,28 @@
+{
+  "date": "2025-05-09",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）西田昌議員発言　沖縄戦の歴史ゆがめる",
+          "link": "https://www.asahi.com/articles/DA3S16210043.html?iref=pc_rensai_long_16_article",
+          "published": "2025年05月09日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）川崎女性死亡　危機感は十分だったか",
+          "link": "https://www.asahi.com/articles/DA3S16210044.html?iref=pc_rensai_long_16_article",
+          "published": "2025年05月09日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

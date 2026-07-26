@@ -1,0 +1,28 @@
+{
+  "date": "2025-04-14",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）非人道兵器　廃絶の歩みを止めるな",
+          "link": "https://www.asahi.com/articles/DA3S16193311.html?iref=pc_rensai_long_16_article",
+          "published": "2025年04月14日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）カスハラ対策　官民挙げ働き手を守れ",
+          "link": "https://www.asahi.com/articles/DA3S16193312.html?iref=pc_rensai_long_16_article",
+          "published": "2025年04月14日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

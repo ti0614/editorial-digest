@@ -1,0 +1,28 @@
+{
+  "date": "2026-04-01",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）ネパール新首相　若者の夢　かなえる道を",
+          "link": "https://www.asahi.com/articles/DA3S16435015.html?iref=pc_rensai_long_16_article",
+          "published": "2026年04月01日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）シェルター整備　住民の安全を守るには",
+          "link": "https://www.asahi.com/articles/DA3S16435014.html?iref=pc_rensai_long_16_article",
+          "published": "2026年04月01日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

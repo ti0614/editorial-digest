@@ -1,0 +1,28 @@
+{
+  "date": "2024-10-01",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）新政権と経済　働き手への分配強めよ",
+          "link": "https://www.asahi.com/articles/DA3S16047717.html?iref=pc_rensai_long_16_article",
+          "published": "2024年10月01日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）新幹線６０年　安全守り　時代で変化を",
+          "link": "https://www.asahi.com/articles/DA3S16047720.html?iref=pc_rensai_long_16_article",
+          "published": "2024年10月01日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

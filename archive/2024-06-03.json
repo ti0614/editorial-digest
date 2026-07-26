@@ -1,0 +1,28 @@
+{
+  "date": "2024-06-03",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）天安門３５年　避けられぬ改革への道",
+          "link": "https://www.asahi.com/articles/DA3S15949095.html?iref=pc_rensai_long_16_article",
+          "published": "2024年06月03日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）警察密着番組　問題繰り返さぬために",
+          "link": "https://www.asahi.com/articles/DA3S15949096.html?iref=pc_rensai_long_16_article",
+          "published": "2024年06月03日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

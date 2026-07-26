@@ -1,0 +1,28 @@
+{
+  "date": "2025-07-22",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）国の指示権　乱用への懸念は消えぬ",
+          "link": "https://www.asahi.com/articles/DA3S16263965.html?iref=pc_rensai_long_16_article",
+          "published": "2025年07月22日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）既成政党不信　国民との回路　再構築を",
+          "link": "https://www.asahi.com/articles/DA3S16263963.html?iref=pc_rensai_long_16_article",
+          "published": "2025年07月22日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

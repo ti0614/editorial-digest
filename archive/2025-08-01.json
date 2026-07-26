@@ -1,0 +1,28 @@
+{
+  "date": "2025-08-01",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）大統領とＦＲＢ　経済乱す圧力許されぬ",
+          "link": "https://www.asahi.com/articles/DA3S16272329.html?iref=pc_rensai_long_16_article",
+          "published": "2025年08月01日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）津波からの避難　酷暑下の対策は十分か",
+          "link": "https://www.asahi.com/articles/DA3S16272328.html?iref=pc_rensai_long_16_article",
+          "published": "2025年08月01日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

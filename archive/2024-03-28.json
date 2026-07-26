@@ -1,0 +1,28 @@
+{
+  "date": "2024-03-28",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）同性パートナー　保護に踏み出した司法",
+          "link": "https://www.asahi.com/articles/DA3S15897861.html?iref=pc_rensai_long_16_article",
+          "published": "2024年03月28日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）飢餓迫るガザ　惨事防ぐ停戦を急げ",
+          "link": "https://www.asahi.com/articles/DA3S15897860.html?iref=pc_rensai_long_16_article",
+          "published": "2024年03月28日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

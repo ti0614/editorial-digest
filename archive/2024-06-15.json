@@ -1,0 +1,28 @@
+{
+  "date": "2024-06-15",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）政治資金改革　会期延長し穴をふさげ",
+          "link": "https://www.asahi.com/articles/DA3S15958988.html?iref=pc_rensai_long_16_article",
+          "published": "2024年06月15日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）雪崩事故裁判　過ちを生まない環境に",
+          "link": "https://www.asahi.com/articles/DA3S15958989.html?iref=pc_rensai_long_16_article",
+          "published": "2024年06月15日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

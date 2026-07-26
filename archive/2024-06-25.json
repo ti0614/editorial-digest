@@ -1,0 +1,28 @@
+{
+  "date": "2024-06-25",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）「女性が父親」　多様さ　どう受け止める＝訂正・おわびあり",
+          "link": "https://www.asahi.com/articles/DA3S15966444.html?iref=pc_rensai_long_16_article",
+          "published": "2024年06月25日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）３年ぶり開催　党首討論を再起動せよ",
+          "link": "https://www.asahi.com/articles/DA3S15966445.html?iref=pc_rensai_long_16_article",
+          "published": "2024年06月25日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

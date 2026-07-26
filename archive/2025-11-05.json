@@ -1,0 +1,28 @@
+{
+  "date": "2025-11-05",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）首相初の論戦　衆議重視　問われる実践",
+          "link": "https://www.asahi.com/articles/DA3S16337583.html?iref=pc_rensai_long_16_article",
+          "published": "2025年11月05日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）ドジャース連覇　魅力を支える多様性",
+          "link": "https://www.asahi.com/articles/DA3S16337584.html?iref=pc_rensai_long_16_article",
+          "published": "2025年11月05日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

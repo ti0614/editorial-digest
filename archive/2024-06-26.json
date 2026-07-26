@@ -1,0 +1,28 @@
+{
+  "date": "2024-06-26",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）大学授業料　公費支出増へ議論急げ",
+          "link": "https://www.asahi.com/articles/DA3S15967171.html?iref=pc_rensai_long_16_article",
+          "published": "2024年06月26日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）ハンセン病　「負の歴史」徹底検証を",
+          "link": "https://www.asahi.com/articles/DA3S15967172.html?iref=pc_rensai_long_16_article",
+          "published": "2024年06月26日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

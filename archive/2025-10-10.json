@@ -1,0 +1,28 @@
+{
+  "date": "2025-10-10",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）北川氏に化学賞　未来をひらく「伏流性」",
+          "link": "https://www.asahi.com/articles/DA3S16320432.html?iref=pc_rensai_long_16_article",
+          "published": "2025年10月10日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）ガザ停戦へ合意　順守し人道危機終えよ",
+          "link": "https://www.asahi.com/articles/DA3S16320431.html?iref=pc_rensai_long_16_article",
+          "published": "2025年10月10日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

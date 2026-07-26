@@ -1,0 +1,22 @@
+{
+  "date": "2025-07-04",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）参院選　「負担減」一色の公約　財政と将来への責任を語れ",
+          "link": "https://www.asahi.com/articles/DA3S16248968.html?iref=pc_rensai_long_16_article",
+          "published": "2025年07月04日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

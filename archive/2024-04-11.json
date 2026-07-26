@@ -1,0 +1,28 @@
+{
+  "date": "2024-04-11",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）被災者台帳　平時から態勢の整備を",
+          "link": "https://www.asahi.com/articles/DA3S15909396.html?iref=pc_rensai_long_16_article",
+          "published": "2024年04月11日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）米中経済対話　自由貿易を立脚点に",
+          "link": "https://www.asahi.com/articles/DA3S15909397.html?iref=pc_rensai_long_16_article",
+          "published": "2024年04月11日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

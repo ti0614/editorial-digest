@@ -1,0 +1,28 @@
+{
+  "date": "2024-12-24",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）ウクライナ　長期的な支援に備えを",
+          "link": "https://www.asahi.com/articles/DA3S16112855.html?iref=pc_rensai_long_16_article",
+          "published": "2024年12月24日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）ロケット開発　厳しい試練と現実と",
+          "link": "https://www.asahi.com/articles/DA3S16112856.html?iref=pc_rensai_long_16_article",
+          "published": "2024年12月24日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

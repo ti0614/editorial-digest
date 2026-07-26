@@ -1,0 +1,28 @@
+{
+  "date": "2024-10-31",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）同性婚訴訟　違憲是正へ議論始めよ",
+          "link": "https://www.asahi.com/articles/DA3S16072721.html?iref=pc_rensai_long_16_article",
+          "published": "2024年10月31日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）女性当選最多　均等へ取り組み強化を",
+          "link": "https://www.asahi.com/articles/DA3S16072722.html?iref=pc_rensai_long_16_article",
+          "published": "2024年10月31日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

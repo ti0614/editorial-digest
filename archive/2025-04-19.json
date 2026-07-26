@@ -1,0 +1,28 @@
+{
+  "date": "2025-04-19",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）経済対策の迷走　必要性の見極め怠るな",
+          "link": "https://www.asahi.com/articles/DA3S16197355.html?iref=pc_rensai_long_16_article",
+          "published": "2025年04月19日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）無痛分娩助成　安全性の確保　最優先で",
+          "link": "https://www.asahi.com/articles/DA3S16197356.html?iref=pc_rensai_long_16_article",
+          "published": "2025年04月19日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "date": "2025-11-26",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）ウクライナ和平　米は被害国に寄り添え",
+          "link": "https://www.asahi.com/articles/DA3S16351715.html?iref=pc_rensai_long_16_article",
+          "published": "2025年11月26日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）ＣＯＰ３０閉幕　逆風に対策遅らせるな",
+          "link": "https://www.asahi.com/articles/DA3S16351710.html?iref=pc_rensai_long_16_article",
+          "published": "2025年11月26日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

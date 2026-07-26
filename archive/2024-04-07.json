@@ -1,0 +1,28 @@
+{
+  "date": "2024-04-07",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）緊張高まる中東　ガザの戦闘　止める時だ",
+          "link": "https://www.asahi.com/articles/DA3S15906554.html?iref=pc_rensai_long_16_article",
+          "published": "2024年04月07日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）ブラタモリ　独自の探究を楽しもう",
+          "link": "https://www.asahi.com/articles/DA3S15906553.html?iref=pc_rensai_long_16_article",
+          "published": "2024年04月07日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

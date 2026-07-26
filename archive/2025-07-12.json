@@ -1,0 +1,28 @@
+{
+  "date": "2025-07-12",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）弁護士弾圧１０年　中国の深刻な人権無視",
+          "link": "https://www.asahi.com/articles/DA3S16255623.html?iref=pc_rensai_long_16_article",
+          "published": "2025年07月12日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）参院選　政治資金改革　裏金問題もう風化か",
+          "link": "https://www.asahi.com/articles/DA3S16255622.html?iref=pc_rensai_long_16_article",
+          "published": "2025年07月12日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

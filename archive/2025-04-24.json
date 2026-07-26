@@ -1,0 +1,28 @@
+{
+  "date": "2025-04-24",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）ガソリン高値　補助の「出口」はどこへ",
+          "link": "https://www.asahi.com/articles/DA3S16200452.html?iref=pc_rensai_long_16_article",
+          "published": "2025年04月24日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）党首討論　意義踏まえ定着確実に",
+          "link": "https://www.asahi.com/articles/DA3S16200451.html?iref=pc_rensai_long_16_article",
+          "published": "2025年04月24日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

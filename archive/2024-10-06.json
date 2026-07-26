@@ -1,0 +1,28 @@
+{
+  "date": "2024-10-06",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）御嶽噴火１０年　火山防災の足場固めよ",
+          "link": "https://www.asahi.com/articles/DA3S16052160.html?iref=pc_rensai_long_16_article",
+          "published": "2024年10月06日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）東京科学大学　相乗効果を生むために",
+          "link": "https://www.asahi.com/articles/DA3S16052159.html?iref=pc_rensai_long_16_article",
+          "published": "2024年10月06日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

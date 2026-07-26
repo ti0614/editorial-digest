@@ -1,0 +1,28 @@
+{
+  "date": "2024-11-17",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）鹿児島県警　幕引きとはいかない",
+          "link": "https://www.asahi.com/articles/DA3S16085734.html?iref=pc_rensai_long_16_article",
+          "published": "2024年11月17日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）日中首脳会談　対話活性化の機会に",
+          "link": "https://www.asahi.com/articles/DA3S16085733.html?iref=pc_rensai_long_16_article",
+          "published": "2024年11月17日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "date": "2024-09-30",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）中国軍との緊張　力の誇示よりも対話を",
+          "link": "https://www.asahi.com/articles/DA3S16046451.html?iref=pc_rensai_long_16_article",
+          "published": "2024年09月30日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）兵庫知事選へ　疑惑解明は終わらない",
+          "link": "https://www.asahi.com/articles/DA3S16046450.html?iref=pc_rensai_long_16_article",
+          "published": "2024年09月30日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

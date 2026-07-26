@@ -1,0 +1,28 @@
+{
+  "date": "2026-02-14",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）中道の出直し　野党の存在意義　起点に",
+          "link": "https://www.asahi.com/articles/DA3S16404123.html?iref=pc_rensai_long_16_article",
+          "published": "2026年02月14日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）診療報酬改定　患者も知って備えよう",
+          "link": "https://www.asahi.com/articles/DA3S16404124.html?iref=pc_rensai_long_16_article",
+          "published": "2026年02月14日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

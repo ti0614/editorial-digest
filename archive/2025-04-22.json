@@ -1,0 +1,28 @@
+{
+  "date": "2025-04-22",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）グーグルに命令　寡占の弊害に歯止めを",
+          "link": "https://www.asahi.com/articles/DA3S16198768.html?iref=pc_rensai_long_16_article",
+          "published": "2025年04月22日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）備蓄米の放出　消費者の不安解消急げ",
+          "link": "https://www.asahi.com/articles/DA3S16198767.html?iref=pc_rensai_long_16_article",
+          "published": "2025年04月22日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

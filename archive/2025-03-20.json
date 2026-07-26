@@ -1,0 +1,22 @@
+{
+  "date": "2025-03-20",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）地下鉄サリン事件３０年　教訓共有し、語り継ぐ大切さ",
+          "link": "https://www.asahi.com/articles/DA3S16174414.html?iref=pc_rensai_long_16_article",
+          "published": "2025年03月20日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

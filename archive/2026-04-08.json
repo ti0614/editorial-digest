@@ -1,0 +1,28 @@
+{
+  "date": "2026-04-08",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）石油不足の懸念　需要抑制に舵切るとき",
+          "link": "https://www.asahi.com/articles/DA3S16439680.html?iref=pc_rensai_long_16_article",
+          "published": "2026年04月08日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）異例ずくめの予算　政権運営の独善改めよ",
+          "link": "https://www.asahi.com/articles/DA3S16439679.html?iref=pc_rensai_long_16_article",
+          "published": "2026年04月08日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

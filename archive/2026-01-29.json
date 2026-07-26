@@ -1,0 +1,28 @@
+{
+  "date": "2026-01-29",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）衆院選　個人の生き方　国家にのまれぬよう",
+          "link": "https://www.asahi.com/articles/DA3S16391987.html?iref=pc_rensai_long_16_article",
+          "published": "2026年01月29日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）春闘と賃上げ　実質賃金増　当たり前に",
+          "link": "https://www.asahi.com/articles/DA3S16391999.html?iref=pc_rensai_long_16_article",
+          "published": "2026年01月29日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

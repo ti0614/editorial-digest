@@ -1,0 +1,28 @@
+{
+  "date": "2025-12-20",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）日銀の利上げ　影響見極め　きめ細かに",
+          "link": "https://www.asahi.com/articles/DA3S16367502.html?iref=pc_rensai_long_16_article",
+          "published": "2025年12月20日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）安倍氏銃撃裁判　鮮明になった教団の影",
+          "link": "https://www.asahi.com/articles/DA3S16367503.html?iref=pc_rensai_long_16_article",
+          "published": "2025年12月20日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

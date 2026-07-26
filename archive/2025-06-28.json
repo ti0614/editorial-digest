@@ -1,0 +1,28 @@
+{
+  "date": "2025-06-28",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）地震のうわさ　専門機関は情報発信を",
+          "link": "https://www.asahi.com/articles/DA3S16244732.html?iref=pc_rensai_long_16_article",
+          "published": "2025年06月28日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）生活保護判決　利用者に謝罪と救済を",
+          "link": "https://www.asahi.com/articles/DA3S16244733.html?iref=pc_rensai_long_16_article",
+          "published": "2025年06月28日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "date": "2025-11-16",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）経済財政の会議　偏った追認を危ぶむ",
+          "link": "https://www.asahi.com/articles/DA3S16345093.html?iref=pc_rensai_long_16_article",
+          "published": "2025年11月16日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）ファクトチェック　公権力が判定する怖さ",
+          "link": "https://www.asahi.com/articles/DA3S16345092.html?iref=pc_rensai_long_16_article",
+          "published": "2025年11月16日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

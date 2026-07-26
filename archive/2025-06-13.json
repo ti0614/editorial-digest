@@ -1,0 +1,28 @@
+{
+  "date": "2025-06-13",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）ロスの抗議デモ　分断をあおる軍の動員",
+          "link": "https://www.asahi.com/articles/DA3S16234149.html?iref=pc_rensai_long_16_article",
+          "published": "2025年06月13日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）都議選告示　「裏金」など広く議論を",
+          "link": "https://www.asahi.com/articles/DA3S16234148.html?iref=pc_rensai_long_16_article",
+          "published": "2025年06月13日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

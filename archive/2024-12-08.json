@@ -1,0 +1,28 @@
+{
+  "date": "2024-12-08",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）文化と世界遺産　登録目指す原点忘れず",
+          "link": "https://www.asahi.com/articles/DA3S16101901.html?iref=pc_rensai_long_16_article",
+          "published": "2024年12月08日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）原発と避難　複合災害で不安消えぬ",
+          "link": "https://www.asahi.com/articles/DA3S16101900.html?iref=pc_rensai_long_16_article",
+          "published": "2024年12月08日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "date": "2026-02-26",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）当選祝い配布　違法でなければよいか",
+          "link": "https://www.asahi.com/articles/DA3S16411492.html?iref=pc_rensai_long_16_article",
+          "published": "2026年02月26日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）中国の対日禁輸　曲解は放置できない",
+          "link": "https://www.asahi.com/articles/DA3S16411493.html?iref=pc_rensai_long_16_article",
+          "published": "2026年02月26日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

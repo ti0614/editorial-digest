@@ -1,0 +1,28 @@
+{
+  "date": "2026-02-21",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）尹氏に無期懲役　「内乱」への判決の重み",
+          "link": "https://www.asahi.com/articles/DA3S16408991.html?iref=pc_rensai_long_16_article",
+          "published": "2026年02月21日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）施政方針演説　言葉より具体的中身を",
+          "link": "https://www.asahi.com/articles/DA3S16408985.html?iref=pc_rensai_long_16_article",
+          "published": "2026年02月21日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

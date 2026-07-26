@@ -1,0 +1,28 @@
+{
+  "date": "2025-01-10",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）カーター氏死去　人権外交　朽ちぬ重み",
+          "link": "https://www.asahi.com/articles/DA3S16122978.html?iref=pc_rensai_long_16_article",
+          "published": "2025年01月10日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）教員の「心の病」　早急に効果的な対策を",
+          "link": "https://www.asahi.com/articles/DA3S16122979.html?iref=pc_rensai_long_16_article",
+          "published": "2025年01月10日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

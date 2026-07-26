@@ -1,0 +1,28 @@
+{
+  "date": "2026-03-03",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）予算審議と首相　大勝の慢心ではないか",
+          "link": "https://www.asahi.com/articles/DA3S16414755.html?iref=pc_rensai_long_16_article",
+          "published": "2026年03月03日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）警察と組織犯罪　癒着と暴力　再発防止を",
+          "link": "https://www.asahi.com/articles/DA3S16414759.html?iref=pc_rensai_long_16_article",
+          "published": "2026年03月03日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

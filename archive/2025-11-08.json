@@ -1,0 +1,28 @@
+{
+  "date": "2025-11-08",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）下請法違反　トヨタは悪習の根絶を",
+          "link": "https://www.asahi.com/articles/DA3S16339871.html?iref=pc_rensai_long_16_article",
+          "published": "2025年11月08日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）存立危機事態　歯止め緩める首相答弁",
+          "link": "https://www.asahi.com/articles/DA3S16339870.html?iref=pc_rensai_long_16_article",
+          "published": "2025年11月08日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

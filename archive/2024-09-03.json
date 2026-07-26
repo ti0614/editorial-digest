@@ -1,0 +1,28 @@
+{
+  "date": "2024-09-03",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）エムポックス　流行の抑制　国際協力で",
+          "link": "https://www.asahi.com/articles/DA3S16024950.html?iref=pc_rensai_long_16_article",
+          "published": "2024年09月03日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）被災学校支援　派遣教員増える環境を",
+          "link": "https://www.asahi.com/articles/DA3S16024949.html?iref=pc_rensai_long_16_article",
+          "published": "2024年09月03日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

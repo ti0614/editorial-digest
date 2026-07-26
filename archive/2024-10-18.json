@@ -1,0 +1,28 @@
+{
+  "date": "2024-10-18",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）イスラエル　国連敵視は見過ごせぬ",
+          "link": "https://www.asahi.com/articles/DA3S16061345.html?iref=pc_rensai_long_16_article",
+          "published": "2024年10月18日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）衆院選　社会保障政策　信頼に値する論議を",
+          "link": "https://www.asahi.com/articles/DA3S16061344.html?iref=pc_rensai_long_16_article",
+          "published": "2024年10月18日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

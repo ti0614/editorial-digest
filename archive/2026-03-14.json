@@ -1,0 +1,22 @@
+{
+  "date": "2026-03-14",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）津波被災地の復興　一人ひとりの歩みをより前へ",
+          "link": "https://www.asahi.com/articles/DA3S16422717.html?iref=pc_rensai_long_16_article",
+          "published": "2026年03月14日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

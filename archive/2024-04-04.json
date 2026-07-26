@@ -1,0 +1,28 @@
+{
+  "date": "2024-04-04",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）なごや平和の日　議会を動かした若い力",
+          "link": "https://www.asahi.com/articles/DA3S15903954.html?iref=pc_rensai_long_16_article",
+          "published": "2024年04月04日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）裁判官の罷免　制度への国民の責任",
+          "link": "https://www.asahi.com/articles/DA3S15903953.html?iref=pc_rensai_long_16_article",
+          "published": "2024年04月04日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

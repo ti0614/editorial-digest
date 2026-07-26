@@ -1,0 +1,28 @@
+{
+  "date": "2024-12-15",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）美容医療　実効性ある報告制度に",
+          "link": "https://www.asahi.com/articles/DA3S16106542.html?iref=pc_rensai_long_16_article",
+          "published": "2024年12月15日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）尹大統領弾劾　国政正常化へ対話急げ",
+          "link": "https://www.asahi.com/articles/DA3S16106541.html?iref=pc_rensai_long_16_article",
+          "published": "2024年12月15日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

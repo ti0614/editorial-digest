@@ -1,0 +1,28 @@
+{
+  "date": "2024-04-27",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）アイヌ漁業権　問われる未清算の過去",
+          "link": "https://www.asahi.com/articles/DA3S15921856.html?iref=pc_rensai_long_16_article",
+          "published": "2024年04月27日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）中国人学者不明　民間交流が窒息する",
+          "link": "https://www.asahi.com/articles/DA3S15921857.html?iref=pc_rensai_long_16_article",
+          "published": "2024年04月27日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

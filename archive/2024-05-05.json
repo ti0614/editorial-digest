@@ -1,0 +1,28 @@
+{
+  "date": "2024-05-05",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）河村市長の発言　戦争は道徳で語れない",
+          "link": "https://www.asahi.com/articles/DA3S15927565.html?iref=pc_rensai_long_16_article",
+          "published": "2024年05月05日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）適性評価制度　もっと具体的に説明を",
+          "link": "https://www.asahi.com/articles/DA3S15927564.html?iref=pc_rensai_long_16_article",
+          "published": "2024年05月05日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

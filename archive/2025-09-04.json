@@ -1,0 +1,28 @@
+{
+  "date": "2025-09-04",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）「抗日戦勝８０年」　説得力なき歴史の利用",
+          "link": "https://www.asahi.com/articles/DA3S16294833.html?iref=pc_rensai_long_16_article",
+          "published": "2025年09月04日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）マダニ感染症　拡大に警戒を強めて",
+          "link": "https://www.asahi.com/articles/DA3S16294834.html?iref=pc_rensai_long_16_article",
+          "published": "2025年09月04日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

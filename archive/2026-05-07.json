@@ -6,10 +6,23 @@
       "category": "社説",
       "tier": "national",
       "index_url": "https://www.asahi.com/rensai/list.html?id=16",
-      "error": "403 Client Error: Forbidden for url: https://www.asahi.com/rensai/list.html?id=16&page=14",
+      "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "（社説）人口減と福祉　中山間地を守るには",
+          "link": "https://www.asahi.com/articles/DA3S16457664.html?iref=pc_rensai_long_16_article",
+          "published": "2026年05月07日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）安保有識者会議　政府追認では意味ない",
+          "link": "https://www.asahi.com/articles/DA3S16457663.html?iref=pc_rensai_long_16_article",
+          "published": "2026年05月07日 05時00分",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "西日本新聞",

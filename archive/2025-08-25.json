@@ -1,0 +1,28 @@
+{
+  "date": "2025-08-25",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）大学とスポーツ　特待生制度を透明に",
+          "link": "https://www.asahi.com/articles/DA3S16287648.html?iref=pc_rensai_long_16_article",
+          "published": "2025年08月25日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）空襲被害者救済　分断を放置するな",
+          "link": "https://www.asahi.com/articles/DA3S16287647.html?iref=pc_rensai_long_16_article",
+          "published": "2025年08月25日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

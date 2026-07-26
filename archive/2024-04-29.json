@@ -1,0 +1,28 @@
+{
+  "date": "2024-04-29",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）学術会議改革　真摯な対話　政府に責任",
+          "link": "https://www.asahi.com/articles/DA3S15922922.html?iref=pc_rensai_long_16_article",
+          "published": "2024年04月29日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）自民補選全敗　裏金対応　信を得られず",
+          "link": "https://www.asahi.com/articles/DA3S15922921.html?iref=pc_rensai_long_16_article",
+          "published": "2024年04月29日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

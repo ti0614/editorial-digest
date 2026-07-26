@@ -1,0 +1,28 @@
+{
+  "date": "2025-09-20",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）ＦＲＢの利下げ　世界経済脅かす大統領",
+          "link": "https://www.asahi.com/articles/DA3S16306075.html?iref=pc_rensai_long_16_article",
+          "published": "2025年09月20日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）災害と都道府県　責任と役割、再確認を",
+          "link": "https://www.asahi.com/articles/DA3S16306074.html?iref=pc_rensai_long_16_article",
+          "published": "2025年09月20日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

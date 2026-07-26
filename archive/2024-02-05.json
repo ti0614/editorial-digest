@@ -1,0 +1,28 @@
+{
+  "date": "2024-02-05",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）立憲党大会　敵失頼みでなく地力を",
+          "link": "https://www.asahi.com/articles/DA3S15855837.html?iref=pc_rensai_long_16_article",
+          "published": "2024年02月05日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）ライドシェア　働き手保護が不可欠だ",
+          "link": "https://www.asahi.com/articles/DA3S15855836.html?iref=pc_rensai_long_16_article",
+          "published": "2024年02月05日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

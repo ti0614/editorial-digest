@@ -1,0 +1,28 @@
+{
+  "date": "2024-10-05",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）初の所信表明　「納得と共感」に程遠い",
+          "link": "https://www.asahi.com/articles/DA3S16051208.html?iref=pc_rensai_long_16_article",
+          "published": "2024年10月05日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）大谷選手の進化　打走の二刀流で新境地",
+          "link": "https://www.asahi.com/articles/DA3S16051209.html?iref=pc_rensai_long_16_article",
+          "published": "2024年10月05日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

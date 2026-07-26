@@ -1,0 +1,28 @@
+{
+  "date": "2024-08-14",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）書店のこれから　「守る」の先望む未来は",
+          "link": "https://www.asahi.com/articles/DA3S16010453.html?iref=pc_rensai_long_16_article",
+          "published": "2024年08月14日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）核燃料の貯蔵　「約束」に責任負えるか",
+          "link": "https://www.asahi.com/articles/DA3S16010465.html?iref=pc_rensai_long_16_article",
+          "published": "2024年08月14日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

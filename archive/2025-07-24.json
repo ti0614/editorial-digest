@@ -1,0 +1,28 @@
+{
+  "date": "2025-07-24",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）日米関税合意　全力で輸出産業支えよ",
+          "link": "https://www.asahi.com/articles/DA3S16265839.html?iref=pc_rensai_long_16_article",
+          "published": "2025年07月24日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）首相の進退　政権居座りは許されぬ",
+          "link": "https://www.asahi.com/articles/DA3S16265840.html?iref=pc_rensai_long_16_article",
+          "published": "2025年07月24日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

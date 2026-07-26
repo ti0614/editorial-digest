@@ -1,0 +1,28 @@
+{
+  "date": "2025-06-26",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）日本郵便処分　統治不全の根を絶て",
+          "link": "https://www.asahi.com/articles/DA3S16243194.html?iref=pc_rensai_long_16_article",
+          "published": "2025年06月26日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）公文書の公開　脱「のり弁」が法の精神",
+          "link": "https://www.asahi.com/articles/DA3S16243195.html?iref=pc_rensai_long_16_article",
+          "published": "2025年06月26日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

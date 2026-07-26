@@ -1,0 +1,28 @@
+{
+  "date": "2024-07-20",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）政治家の香典　金かける活動見直しを",
+          "link": "https://www.asahi.com/articles/DA3S15988231.html?iref=pc_rensai_long_16_article",
+          "published": "2024年07月20日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）猛暑の夏休み　博物館　のぞいてみたら",
+          "link": "https://www.asahi.com/articles/DA3S15988232.html?iref=pc_rensai_long_16_article",
+          "published": "2024年07月20日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2025-10-03",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）３０代と考える税の姿　「戦後１００年」へ踏み出す合意を",
+          "link": "https://www.asahi.com/articles/DA3S16315433.html?iref=pc_rensai_long_16_article",
+          "published": "2025年10月03日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

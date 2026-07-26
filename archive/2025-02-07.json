@@ -1,0 +1,28 @@
+{
+  "date": "2025-02-07",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）「ガザ所有」発言　法と尊厳　無視は論外だ",
+          "link": "https://www.asahi.com/articles/DA3S16144349.html?iref=pc_rensai_long_16_article",
+          "published": "2025年02月07日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）優生政策の過ち　謝罪と補償　届ける責務",
+          "link": "https://www.asahi.com/articles/DA3S16144348.html?iref=pc_rensai_long_16_article",
+          "published": "2025年02月07日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

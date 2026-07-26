@@ -1,0 +1,28 @@
+{
+  "date": "2025-01-31",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）国の予算審議　是正の責任は各党に",
+          "link": "https://www.asahi.com/articles/DA3S16138873.html?iref=pc_rensai_long_16_article",
+          "published": "2025年01月31日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）国連機関拠出　女性委除外は筋が違う",
+          "link": "https://www.asahi.com/articles/DA3S16138872.html?iref=pc_rensai_long_16_article",
+          "published": "2025年01月31日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

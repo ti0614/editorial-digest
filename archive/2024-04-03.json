@@ -1,0 +1,28 @@
+{
+  "date": "2024-04-03",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）辺野古の工費　精査して丁寧に説明を",
+          "link": "https://www.asahi.com/articles/DA3S15903175.html?iref=pc_rensai_long_16_article",
+          "published": "2024年04月03日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）ガソリン補助　一律支援はもうやめよ",
+          "link": "https://www.asahi.com/articles/DA3S15903177.html?iref=pc_rensai_long_16_article",
+          "published": "2024年04月03日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2024-10-10",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）石破新政権　審判へ　政治への信頼取り戻せるか",
+          "link": "https://www.asahi.com/articles/DA3S16055062.html?iref=pc_rensai_long_16_article",
+          "published": "2024年10月10日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

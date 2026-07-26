@@ -1,0 +1,22 @@
+{
+  "date": "2024-08-15",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）岸田首相　再選を断念　国民の信失った政権の限界",
+          "link": "https://www.asahi.com/articles/DA3S16011143.html?iref=pc_rensai_long_16_article",
+          "published": "2024年08月15日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

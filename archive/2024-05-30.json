@@ -1,0 +1,28 @@
+{
+  "date": "2024-05-30",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）高浜原発認可　老朽炉を使い続けるな",
+          "link": "https://www.asahi.com/articles/DA3S15946406.html?iref=pc_rensai_long_16_article",
+          "published": "2024年05月30日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）規正法改正案　小手先修正では済まぬ",
+          "link": "https://www.asahi.com/articles/DA3S15946407.html?iref=pc_rensai_long_16_article",
+          "published": "2024年05月30日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

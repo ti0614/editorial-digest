@@ -1,0 +1,28 @@
+{
+  "date": "2026-04-16",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）核のごみ処分　徹底調査と説明責任を",
+          "link": "https://www.asahi.com/articles/DA3S16444571.html?iref=pc_rensai_long_16_article",
+          "published": "2026年04月16日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）自民党と自衛隊　揺らぐ政治的中立性",
+          "link": "https://www.asahi.com/articles/DA3S16444570.html?iref=pc_rensai_long_16_article",
+          "published": "2026年04月16日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

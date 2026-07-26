@@ -1,0 +1,28 @@
+{
+  "date": "2024-05-21",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）放送法改正　目指す「公共」の姿は",
+          "link": "https://www.asahi.com/articles/DA3S15938897.html?iref=pc_rensai_long_16_article",
+          "published": "2024年05月21日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）台湾頼政権発足　中台対話の再開めざせ",
+          "link": "https://www.asahi.com/articles/DA3S15938896.html?iref=pc_rensai_long_16_article",
+          "published": "2024年05月21日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

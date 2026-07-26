@@ -1,0 +1,28 @@
+{
+  "date": "2025-11-02",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）部活の指導者　言葉の暴力　防ぐ研修を",
+          "link": "https://www.asahi.com/articles/DA3S16335913.html?iref=pc_rensai_long_16_article",
+          "published": "2025年11月02日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）国際宇宙基地　技術を将来につなげて",
+          "link": "https://www.asahi.com/articles/DA3S16335914.html?iref=pc_rensai_long_16_article",
+          "published": "2025年11月02日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

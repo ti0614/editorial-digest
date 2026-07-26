@@ -1,0 +1,28 @@
+{
+  "date": "2025-10-04",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）下水道の老朽化　優先順位つけて対策を",
+          "link": "https://www.asahi.com/articles/DA3S16316237.html?iref=pc_rensai_long_16_article",
+          "published": "2025年10月04日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）竜巻の被災地　生活再建へ支援加速を",
+          "link": "https://www.asahi.com/articles/DA3S16316238.html?iref=pc_rensai_long_16_article",
+          "published": "2025年10月04日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

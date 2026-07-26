@@ -1,0 +1,28 @@
+{
+  "date": "2024-02-14",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）小澤さん逝く　音楽で世界を近づけた",
+          "link": "https://www.asahi.com/articles/DA3S15862757.html?iref=pc_rensai_long_16_article",
+          "published": "2024年02月14日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）核のごみ調査　疑問や懸念を直視して",
+          "link": "https://www.asahi.com/articles/DA3S15862755.html?iref=pc_rensai_long_16_article",
+          "published": "2024年02月14日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

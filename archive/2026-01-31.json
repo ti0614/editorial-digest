@@ -1,0 +1,28 @@
+{
+  "date": "2026-01-31",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）衆院選　社会保障　「将来の私」想像して",
+          "link": "https://www.asahi.com/articles/DA3S16393603.html?iref=pc_rensai_long_16_article",
+          "published": "2026年01月31日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）衆院選　対中外交　打開の姿勢が見えぬ",
+          "link": "https://www.asahi.com/articles/DA3S16393604.html?iref=pc_rensai_long_16_article",
+          "published": "2026年01月31日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

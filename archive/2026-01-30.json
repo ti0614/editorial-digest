@@ -1,0 +1,28 @@
+{
+  "date": "2026-01-30",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）菊池事件と司法　責任が問われ続ける",
+          "link": "https://www.asahi.com/articles/DA3S16392802.html?iref=pc_rensai_long_16_article",
+          "published": "2026年01月30日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）衆院選　安保政策　厳格な歯止め　議論を",
+          "link": "https://www.asahi.com/articles/DA3S16392801.html?iref=pc_rensai_long_16_article",
+          "published": "2026年01月30日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

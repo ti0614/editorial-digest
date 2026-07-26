@@ -1,0 +1,28 @@
+{
+  "date": "2024-02-04",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）米国の報復攻撃　紛争の拡大　防ぐ自制を",
+          "link": "https://www.asahi.com/articles/DA3S15855809.html?iref=pc_rensai_long_16_article",
+          "published": "2024年02月04日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）自律致死兵器　規制への機運を逃すな",
+          "link": "https://www.asahi.com/articles/DA3S15855810.html?iref=pc_rensai_long_16_article",
+          "published": "2024年02月04日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

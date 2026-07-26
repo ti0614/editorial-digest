@@ -1,0 +1,28 @@
+{
+  "date": "2025-08-10",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）冤罪捜査の過ち　「身内」の検証の限界だ",
+          "link": "https://www.asahi.com/articles/DA3S16279077.html?iref=pc_rensai_long_16_article",
+          "published": "2025年08月10日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）被爆地と政権　核廃絶へ道筋が見えぬ",
+          "link": "https://www.asahi.com/articles/DA3S16279076.html?iref=pc_rensai_long_16_article",
+          "published": "2025年08月10日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

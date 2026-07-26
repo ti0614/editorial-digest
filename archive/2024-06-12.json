@@ -1,0 +1,28 @@
+{
+  "date": "2024-06-12",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）憲法審査会　丁寧な合意形成優先を",
+          "link": "https://www.asahi.com/articles/DA3S15956355.html?iref=pc_rensai_long_16_article",
+          "published": "2024年06月12日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）欧州議会選　統合の理念を見失うな",
+          "link": "https://www.asahi.com/articles/DA3S15956356.html?iref=pc_rensai_long_16_article",
+          "published": "2024年06月12日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

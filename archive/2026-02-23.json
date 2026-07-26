@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-23",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）ウクライナ侵攻４年　大国の非道　許さぬ結束を",
+          "link": "https://www.asahi.com/articles/DA3S16409798.html?iref=pc_rensai_long_16_article",
+          "published": "2026年02月23日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

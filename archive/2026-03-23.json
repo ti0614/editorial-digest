@@ -1,0 +1,28 @@
+{
+  "date": "2026-03-23",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）エプスタイン事件　人道犯罪の全容解明を",
+          "link": "https://www.asahi.com/articles/DA3S16428051.html?iref=pc_rensai_long_16_article",
+          "published": "2026年03月23日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）原油価格の急騰　中東の安定へ説得急げ",
+          "link": "https://www.asahi.com/articles/DA3S16428050.html?iref=pc_rensai_long_16_article",
+          "published": "2026年03月23日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

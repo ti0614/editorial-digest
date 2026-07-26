@@ -1,0 +1,28 @@
+{
+  "date": "2025-05-25",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）米国の大学圧迫　科学大国の凋落を招く",
+          "link": "https://www.asahi.com/articles/DA3S16221126.html?iref=pc_rensai_long_16_article",
+          "published": "2025年05月25日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）日米関税交渉　すべて撤回へ粘り強く",
+          "link": "https://www.asahi.com/articles/DA3S16221127.html?iref=pc_rensai_long_16_article",
+          "published": "2025年05月25日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

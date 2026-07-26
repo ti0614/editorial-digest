@@ -1,0 +1,28 @@
+{
+  "date": "2026-02-03",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）衆院選　労働政策　なぜいま規制緩和か",
+          "link": "https://www.asahi.com/articles/DA3S16395516.html?iref=pc_rensai_long_16_article",
+          "published": "2026年02月03日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）衆院選　対米関係　力の支配　許さぬ道を",
+          "link": "https://www.asahi.com/articles/DA3S16395515.html?iref=pc_rensai_long_16_article",
+          "published": "2026年02月03日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

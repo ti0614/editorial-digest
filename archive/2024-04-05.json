@@ -1,0 +1,28 @@
+{
+  "date": "2024-04-05",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）川勝知事の発言　他者の知性　敬ってこそ",
+          "link": "https://www.asahi.com/articles/DA3S15904867.html?iref=pc_rensai_long_16_article",
+          "published": "2024年04月05日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）自民党の処分　「けじめ」にはほど遠い",
+          "link": "https://www.asahi.com/articles/DA3S15904866.html?iref=pc_rensai_long_16_article",
+          "published": "2024年04月05日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

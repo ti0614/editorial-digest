@@ -1,0 +1,28 @@
+{
+  "date": "2026-04-27",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）記者会の銃声　政治への暴力　止める時",
+          "link": "https://www.asahi.com/articles/DA3S16451724.html?iref=pc_rensai_long_16_article",
+          "published": "2026年04月27日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）核不拡散条約　大国が守るべき約束",
+          "link": "https://www.asahi.com/articles/DA3S16451725.html?iref=pc_rensai_long_16_article",
+          "published": "2026年04月27日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

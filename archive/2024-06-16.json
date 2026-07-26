@@ -1,0 +1,28 @@
+{
+  "date": "2024-06-16",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）大阪地検特捜部　冤罪事件の反省どこへ",
+          "link": "https://www.asahi.com/articles/DA3S15959934.html?iref=pc_rensai_long_16_article",
+          "published": "2024年06月16日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）Ｇ７サミット　足元に迫る試練克服を",
+          "link": "https://www.asahi.com/articles/DA3S15959933.html?iref=pc_rensai_long_16_article",
+          "published": "2024年06月16日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

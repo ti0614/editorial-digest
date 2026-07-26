@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-10",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）自民単独で３分の２　巨大与党への監視が不可欠",
+          "link": "https://www.asahi.com/articles/DA3S16400963.html?iref=pc_rensai_long_16_article",
+          "published": "2026年02月10日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

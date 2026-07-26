@@ -1,0 +1,28 @@
+{
+  "date": "2024-06-28",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）米兵の起訴　犯罪なくす努力　本気で",
+          "link": "https://www.asahi.com/articles/DA3S15968995.html?iref=pc_rensai_long_16_article",
+          "published": "2024年06月28日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）「コロンブス」　鈍感さを生んだものは",
+          "link": "https://www.asahi.com/articles/DA3S15968994.html?iref=pc_rensai_long_16_article",
+          "published": "2024年06月28日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

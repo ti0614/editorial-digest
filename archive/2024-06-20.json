@@ -1,0 +1,28 @@
+{
+  "date": "2024-06-20",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）抜本改革見送り　政治資金　信頼回復遠く",
+          "link": "https://www.asahi.com/articles/DA3S15962674.html?iref=pc_rensai_long_16_article",
+          "published": "2024年06月20日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）鹿児島県警　捜索の理由　説明求める",
+          "link": "https://www.asahi.com/articles/DA3S15962675.html?iref=pc_rensai_long_16_article",
+          "published": "2024年06月20日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

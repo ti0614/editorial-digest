@@ -1,0 +1,28 @@
+{
+  "date": "2025-05-02",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）阪神支局襲撃　事実伝える重み今こそ",
+          "link": "https://www.asahi.com/articles/DA3S16205914.html?iref=pc_rensai_long_16_article",
+          "published": "2025年05月02日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）長引く原発審査　事故を忘れず理念貫け",
+          "link": "https://www.asahi.com/articles/DA3S16205915.html?iref=pc_rensai_long_16_article",
+          "published": "2025年05月02日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "date": "2025-08-13",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）気候変動勧告　重く受け止め対策急げ",
+          "link": "https://www.asahi.com/articles/DA3S16280320.html?iref=pc_rensai_long_16_article",
+          "published": "2025年08月13日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）日航機事故４０年　安全最優先　省みる機会",
+          "link": "https://www.asahi.com/articles/DA3S16280319.html?iref=pc_rensai_long_16_article",
+          "published": "2025年08月13日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "date": "2024-02-09",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）米軍ＰＦＡＳ　調査と対策　住民本位で",
+          "link": "https://www.asahi.com/articles/DA3S15859710.html?iref=pc_rensai_long_16_article",
+          "published": "2024年02月09日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）危機のガザ支援　国連への拠出は命綱だ",
+          "link": "https://www.asahi.com/articles/DA3S15859709.html?iref=pc_rensai_long_16_article",
+          "published": "2024年02月09日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

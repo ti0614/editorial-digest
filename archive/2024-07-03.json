@@ -1,0 +1,28 @@
+{
+  "date": "2024-07-03",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）官民ファンド　巨額損失の徹底検証を",
+          "link": "https://www.asahi.com/articles/DA3S15973003.html?iref=pc_rensai_long_16_article",
+          "published": "2024年07月03日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）羽田空港事故　再発防止へ広い視野も",
+          "link": "https://www.asahi.com/articles/DA3S15973004.html?iref=pc_rensai_long_16_article",
+          "published": "2024年07月03日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

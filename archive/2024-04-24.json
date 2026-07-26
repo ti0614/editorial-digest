@@ -1,0 +1,28 @@
+{
+  "date": "2024-04-24",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）基金の見直し　規律強める法制度を",
+          "link": "https://www.asahi.com/articles/DA3S15919214.html?iref=pc_rensai_long_16_article",
+          "published": "2024年04月24日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）知床事故２年　安全対策　徹底が急務だ",
+          "link": "https://www.asahi.com/articles/DA3S15919213.html?iref=pc_rensai_long_16_article",
+          "published": "2024年04月24日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

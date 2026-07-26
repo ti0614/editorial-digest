@@ -1,0 +1,28 @@
+{
+  "date": "2025-03-16",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）ウクライナ停戦案　責任はロシア側にある",
+          "link": "https://www.asahi.com/articles/DA3S16171295.html?iref=pc_rensai_long_16_article",
+          "published": "2025年03月16日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）企業・団体献金　温存では不信は拭えぬ",
+          "link": "https://www.asahi.com/articles/DA3S16171296.html?iref=pc_rensai_long_16_article",
+          "published": "2025年03月16日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

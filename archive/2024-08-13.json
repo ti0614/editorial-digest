@@ -1,0 +1,28 @@
+{
+  "date": "2024-08-13",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）パリ五輪閉幕　変化と継承の間で",
+          "link": "https://www.asahi.com/articles/DA3S16009224.html?iref=pc_rensai_long_16_article",
+          "published": "2024年08月13日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）子どもの命　救うため　有効な調査を",
+          "link": "https://www.asahi.com/articles/DA3S16009225.html?iref=pc_rensai_long_16_article",
+          "published": "2024年08月13日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

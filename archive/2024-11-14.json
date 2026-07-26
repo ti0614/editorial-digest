@@ -1,0 +1,28 @@
+{
+  "date": "2024-11-14",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）インサイダー疑惑　職業倫理　失われたのか",
+          "link": "https://www.asahi.com/articles/DA3S16083075.html?iref=pc_rensai_long_16_article",
+          "published": "2024年11月14日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）教育への投資　財源確保へ本格議論を",
+          "link": "https://www.asahi.com/articles/DA3S16083074.html?iref=pc_rensai_long_16_article",
+          "published": "2024年11月14日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

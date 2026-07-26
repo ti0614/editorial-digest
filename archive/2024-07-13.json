@@ -1,0 +1,28 @@
+{
+  "date": "2024-07-13",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）美容医療　規制視野に実態把握を",
+          "link": "https://www.asahi.com/articles/DA3S15982292.html?iref=pc_rensai_long_16_article",
+          "published": "2024年07月13日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）自衛隊大量処分　何のための特定秘密か",
+          "link": "https://www.asahi.com/articles/DA3S15982291.html?iref=pc_rensai_long_16_article",
+          "published": "2024年07月13日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "date": "2024-05-18",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）国の指示権　地方の危機感が見えぬ",
+          "link": "https://www.asahi.com/articles/DA3S15936620.html?iref=pc_rensai_long_16_article",
+          "published": "2024年05月18日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）中国とロシア　侵略支える関係見直せ",
+          "link": "https://www.asahi.com/articles/DA3S15936621.html?iref=pc_rensai_long_16_article",
+          "published": "2024年05月18日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "date": "2025-11-29",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）コメ政策逆戻り　長期視点で増産進めよ",
+          "link": "https://www.asahi.com/articles/DA3S16353914.html?iref=pc_rensai_long_16_article",
+          "published": "2025年11月29日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）日中対立と米　事態収拾へ動かぬ首相",
+          "link": "https://www.asahi.com/articles/DA3S16353913.html?iref=pc_rensai_long_16_article",
+          "published": "2025年11月29日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

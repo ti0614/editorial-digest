@@ -1,0 +1,28 @@
+{
+  "date": "2024-12-17",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）定員内不合格　子のため　第一に判断を",
+          "link": "https://www.asahi.com/articles/DA3S16107766.html?iref=pc_rensai_long_16_article",
+          "published": "2024年12月17日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）兵庫の公益通報　調査尽くして見解示せ",
+          "link": "https://www.asahi.com/articles/DA3S16107767.html?iref=pc_rensai_long_16_article",
+          "published": "2024年12月17日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

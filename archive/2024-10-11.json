@@ -1,0 +1,28 @@
+{
+  "date": "2024-10-11",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）ＡＩとノーベル賞　人類への貢献の光と影",
+          "link": "https://www.asahi.com/articles/DA3S16056000.html?iref=pc_rensai_long_16_article",
+          "published": "2024年10月11日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）「防災庁」構想　細部の議論が足りない",
+          "link": "https://www.asahi.com/articles/DA3S16056005.html?iref=pc_rensai_long_16_article",
+          "published": "2024年10月11日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

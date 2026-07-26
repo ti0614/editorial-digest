@@ -1,0 +1,28 @@
+{
+  "date": "2025-05-10",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）国立劇場　空白を長引かせないで",
+          "link": "https://www.asahi.com/articles/DA3S16210794.html?iref=pc_rensai_long_16_article",
+          "published": "2025年05月10日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）ロシア戦勝８０年　時代の逆行は許されぬ",
+          "link": "https://www.asahi.com/articles/DA3S16210793.html?iref=pc_rensai_long_16_article",
+          "published": "2025年05月10日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

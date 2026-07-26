@@ -1,0 +1,28 @@
+{
+  "date": "2025-10-14",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）大阪万博閉幕　多様にひとつを将来へ",
+          "link": "https://www.asahi.com/articles/DA3S16322615.html?iref=pc_rensai_long_16_article",
+          "published": "2025年10月14日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）経済政策の行方　「積極財政」潜む危うさ",
+          "link": "https://www.asahi.com/articles/DA3S16322620.html?iref=pc_rensai_long_16_article",
+          "published": "2025年10月14日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

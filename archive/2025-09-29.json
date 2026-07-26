@@ -1,0 +1,28 @@
+{
+  "date": "2025-09-29",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）性別変更決定　尊厳守る法改正が急務",
+          "link": "https://www.asahi.com/articles/DA3S16311963.html?iref=pc_rensai_long_16_article",
+          "published": "2025年09月29日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）外国人政策　排外許さず共生を語れ",
+          "link": "https://www.asahi.com/articles/DA3S16311962.html?iref=pc_rensai_long_16_article",
+          "published": "2025年09月29日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

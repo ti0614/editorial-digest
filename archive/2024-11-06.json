@@ -1,0 +1,28 @@
+{
+  "date": "2024-11-06",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）観光「二重価格」　合理的な理由と説明を",
+          "link": "https://www.asahi.com/articles/DA3S16077194.html?iref=pc_rensai_long_16_article",
+          "published": "2024年11月06日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）女川原発稼働　「活用」の節目ではない",
+          "link": "https://www.asahi.com/articles/DA3S16077193.html?iref=pc_rensai_long_16_article",
+          "published": "2024年11月06日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

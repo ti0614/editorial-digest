@@ -1,0 +1,28 @@
+{
+  "date": "2025-06-19",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）Ｇ７サミット　日・欧・加の結束深化を",
+          "link": "https://www.asahi.com/articles/DA3S16238250.html?iref=pc_rensai_long_16_article",
+          "published": "2025年06月19日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）日銀の国債減額　正常化へ透明性高めよ",
+          "link": "https://www.asahi.com/articles/DA3S16238251.html?iref=pc_rensai_long_16_article",
+          "published": "2025年06月19日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

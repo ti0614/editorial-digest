@@ -1,0 +1,28 @@
+{
+  "date": "2025-09-17",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）太陽光パネル　リサイクル進む制度を",
+          "link": "https://www.asahi.com/articles/DA3S16303370.html?iref=pc_rensai_long_16_article",
+          "published": "2025年09月17日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）仏政治の混迷　足元の民主主義　確かに",
+          "link": "https://www.asahi.com/articles/DA3S16303371.html?iref=pc_rensai_long_16_article",
+          "published": "2025年09月17日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "date": "2025-08-07",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）最低賃金の改定　根拠に基づく審議　望む",
+          "link": "https://www.asahi.com/articles/DA3S16276719.html?iref=pc_rensai_long_16_article",
+          "published": "2025年08月07日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）戦後８０年と首相　歴史の教訓　臆せず示せ",
+          "link": "https://www.asahi.com/articles/DA3S16276720.html?iref=pc_rensai_long_16_article",
+          "published": "2025年08月07日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

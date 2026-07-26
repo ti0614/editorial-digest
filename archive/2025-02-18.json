@@ -1,0 +1,28 @@
+{
+  "date": "2025-02-18",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）トランプ関税　各国の結束で撤回促せ",
+          "link": "https://www.asahi.com/articles/DA3S16151749.html?iref=pc_rensai_long_16_article",
+          "published": "2025年02月18日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）日米韓の会談　価値観共にする連携を",
+          "link": "https://www.asahi.com/articles/DA3S16151750.html?iref=pc_rensai_long_16_article",
+          "published": "2025年02月18日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

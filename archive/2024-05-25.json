@@ -1,0 +1,28 @@
+{
+  "date": "2024-05-25",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）規正法改正　自民の譲歩が不可欠だ",
+          "link": "https://www.asahi.com/articles/DA3S15942465.html?iref=pc_rensai_long_16_article",
+          "published": "2024年05月25日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）中国軍事演習　武力による威嚇やめよ",
+          "link": "https://www.asahi.com/articles/DA3S15942466.html?iref=pc_rensai_long_16_article",
+          "published": "2024年05月25日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

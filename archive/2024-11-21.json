@@ -1,0 +1,28 @@
+{
+  "date": "2024-11-21",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）ロシアの核政策　侵略継続を狙う脅しだ",
+          "link": "https://www.asahi.com/articles/DA3S16088744.html?iref=pc_rensai_long_16_article",
+          "published": "2024年11月21日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）谷川さん逝く　言葉への疑いに学ぶ",
+          "link": "https://www.asahi.com/articles/DA3S16088745.html?iref=pc_rensai_long_16_article",
+          "published": "2024年11月21日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

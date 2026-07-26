@@ -1,0 +1,28 @@
+{
+  "date": "2024-08-12",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）国際課税協力　条約結実へ努力さらに",
+          "link": "https://www.asahi.com/articles/DA3S16008575.html?iref=pc_rensai_long_16_article",
+          "published": "2024年08月12日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）トヨタ是正命令　不正の事実に向き合え",
+          "link": "https://www.asahi.com/articles/DA3S16008577.html?iref=pc_rensai_long_16_article",
+          "published": "2024年08月12日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

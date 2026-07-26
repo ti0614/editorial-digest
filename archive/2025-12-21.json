@@ -1,0 +1,28 @@
+{
+  "date": "2025-12-21",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）税制改正大綱　財源置き去り　妥協優先",
+          "link": "https://www.asahi.com/articles/DA3S16368191.html?iref=pc_rensai_long_16_article",
+          "published": "2025年12月21日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）バルカンの緊張　和解へ息長い関与を",
+          "link": "https://www.asahi.com/articles/DA3S16368192.html?iref=pc_rensai_long_16_article",
+          "published": "2025年12月21日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "date": "2025-05-13",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）米中関税協議　正常化への一歩とせよ",
+          "link": "https://www.asahi.com/articles/DA3S16212131.html?iref=pc_rensai_long_16_article",
+          "published": "2025年05月13日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）印パ停戦合意　長年の対立解く契機に",
+          "link": "https://www.asahi.com/articles/DA3S16212132.html?iref=pc_rensai_long_16_article",
+          "published": "2025年05月13日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "date": "2025-06-22",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）日韓国交正常化６０年　理解と努力で共に築く未来",
+          "link": "https://www.asahi.com/articles/DA3S16240716.html?iref=pc_rensai_long_16_article",
+          "published": "2025年06月22日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

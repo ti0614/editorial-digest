@@ -1,0 +1,28 @@
+{
+  "date": "2026-01-14",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）イランの弾圧　力ずくでは解決できぬ",
+          "link": "https://www.asahi.com/articles/DA3S16380992.html?iref=pc_rensai_long_16_article",
+          "published": "2026年01月14日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）浜岡原発不正　規制委は幅広く確認を",
+          "link": "https://www.asahi.com/articles/DA3S16380993.html?iref=pc_rensai_long_16_article",
+          "published": "2026年01月14日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

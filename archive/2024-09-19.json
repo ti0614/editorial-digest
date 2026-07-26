@@ -1,0 +1,28 @@
+{
+  "date": "2024-09-19",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）公安警察　住民運動の敵視　反省を",
+          "link": "https://www.asahi.com/articles/DA3S16037753.html?iref=pc_rensai_long_16_article",
+          "published": "2024年09月19日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）中国の定年延長　高齢化　開かれた議論で",
+          "link": "https://www.asahi.com/articles/DA3S16037754.html?iref=pc_rensai_long_16_article",
+          "published": "2024年09月19日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

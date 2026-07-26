@@ -1,0 +1,28 @@
+{
+  "date": "2025-06-16",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）違法捜査検証　第三者の目が不可欠だ",
+          "link": "https://www.asahi.com/articles/DA3S16235774.html?iref=pc_rensai_long_16_article",
+          "published": "2025年06月16日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）全国民に給付　結局は公金ばらまきか",
+          "link": "https://www.asahi.com/articles/DA3S16235777.html?iref=pc_rensai_long_16_article",
+          "published": "2025年06月16日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

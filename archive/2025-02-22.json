@@ -1,0 +1,28 @@
+{
+  "date": "2025-02-22",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）維新と立花氏　党の責任が問われる",
+          "link": "https://www.asahi.com/articles/DA3S16155062.html?iref=pc_rensai_long_16_article",
+          "published": "2025年02月22日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）公選法改正案　自由と公正の両立を",
+          "link": "https://www.asahi.com/articles/DA3S16155061.html?iref=pc_rensai_long_16_article",
+          "published": "2025年02月22日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

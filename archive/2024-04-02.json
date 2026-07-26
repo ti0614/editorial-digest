@@ -1,0 +1,34 @@
+{
+  "date": "2024-04-02",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）ローカル線協議　合意めざし熟議尽くせ",
+          "link": "https://www.asahi.com/articles/DA3S15902348.html?iref=pc_rensai_long_16_article",
+          "published": "2024年04月02日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）名古屋市教委　情けない身内の論理",
+          "link": "https://www.asahi.com/articles/DA3S15902347.html?iref=pc_rensai_long_16_article",
+          "published": "2024年04月02日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（声）社説を２００字にまとめて５７年",
+          "link": "https://www.asahi.com/articles/DA3S15902352.html?iref=pc_rensai_long_16_article",
+          "published": "2024年04月02日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

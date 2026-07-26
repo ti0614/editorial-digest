@@ -1,0 +1,28 @@
+{
+  "date": "2024-03-16",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）同性婚訴訟　「違憲の法」いつ正す",
+          "link": "https://www.asahi.com/articles/DA3S15888218.html?iref=pc_rensai_long_16_article",
+          "published": "2024年03月16日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）春闘と賃上げ　中小に広げ持続的に",
+          "link": "https://www.asahi.com/articles/DA3S15888220.html?iref=pc_rensai_long_16_article",
+          "published": "2024年03月16日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

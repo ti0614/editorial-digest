@@ -1,0 +1,28 @@
+{
+  "date": "2025-07-23",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）クマ被害対策　安全優先と共存環境を",
+          "link": "https://www.asahi.com/articles/DA3S16264976.html?iref=pc_rensai_long_16_article",
+          "published": "2025年07月23日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）関電の建設検討　原発頼みを固定するな",
+          "link": "https://www.asahi.com/articles/DA3S16264975.html?iref=pc_rensai_long_16_article",
+          "published": "2025年07月23日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

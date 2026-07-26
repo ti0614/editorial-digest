@@ -1,0 +1,22 @@
+{
+  "date": "2024-07-04",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）優生施策と国の責任　過ちを直視し、差別と決別を",
+          "link": "https://www.asahi.com/articles/DA3S15973823.html?iref=pc_rensai_long_16_article",
+          "published": "2024年07月04日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

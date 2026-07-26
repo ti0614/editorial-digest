@@ -6,10 +6,23 @@
       "category": "社説",
       "tier": "national",
       "index_url": "https://www.asahi.com/rensai/list.html?id=16",
-      "error": "403 Client Error: Forbidden for url: https://www.asahi.com/rensai/list.html?id=16&page=14",
+      "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "（社説）広がる二重価格　根拠の説明を尽くして",
+          "link": "https://www.asahi.com/articles/DA3S16458452.html?iref=pc_rensai_long_16_article",
+          "published": "2026年05月08日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）対アジア外交　「法の支配」主導が使命",
+          "link": "https://www.asahi.com/articles/DA3S16458451.html?iref=pc_rensai_long_16_article",
+          "published": "2026年05月08日 05時00分",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "西日本新聞",

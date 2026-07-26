@@ -1,0 +1,28 @@
+{
+  "date": "2025-09-03",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）ミャンマー国軍　茶番の選挙は許されぬ",
+          "link": "https://www.asahi.com/articles/DA3S16294083.html?iref=pc_rensai_long_16_article",
+          "published": "2025年09月03日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）自民参院選総括　再生の道筋が見えない",
+          "link": "https://www.asahi.com/articles/DA3S16294082.html?iref=pc_rensai_long_16_article",
+          "published": "2025年09月03日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

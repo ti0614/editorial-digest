@@ -1,0 +1,28 @@
+{
+  "date": "2025-01-16",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）インフル流行　猛威抑え乗り切るには",
+          "link": "https://www.asahi.com/articles/DA3S16127061.html?iref=pc_rensai_long_16_article",
+          "published": "2025年01月16日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）尹大統領拘束　権力の暴走　防ぐ究明を",
+          "link": "https://www.asahi.com/articles/DA3S16127060.html?iref=pc_rensai_long_16_article",
+          "published": "2025年01月16日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

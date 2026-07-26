@@ -1,0 +1,28 @@
+{
+  "date": "2025-05-31",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）経団連新体制　賃上げと分配の前進を",
+          "link": "https://www.asahi.com/articles/DA3S16225402.html?iref=pc_rensai_long_16_article",
+          "published": "2025年05月31日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）学術会議法案　ごり押しは許されない",
+          "link": "https://www.asahi.com/articles/DA3S16225401.html?iref=pc_rensai_long_16_article",
+          "published": "2025年05月31日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

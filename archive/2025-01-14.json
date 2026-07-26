@@ -1,0 +1,22 @@
+{
+  "date": "2025-01-14",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）デジタル化社会を生きる　「人間であること」という一線",
+          "link": "https://www.asahi.com/articles/DA3S16125210.html?iref=pc_rensai_long_16_article",
+          "published": "2025年01月14日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

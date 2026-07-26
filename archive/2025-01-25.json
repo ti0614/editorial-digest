@@ -1,0 +1,28 @@
+{
+  "date": "2025-01-25",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）通常国会開会　与野党で熟議の成果を",
+          "link": "https://www.asahi.com/articles/DA3S16134244.html?iref=pc_rensai_long_16_article",
+          "published": "2025年01月25日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）日銀の利上げ　求められる精緻な判断",
+          "link": "https://www.asahi.com/articles/DA3S16134245.html?iref=pc_rensai_long_16_article",
+          "published": "2025年01月25日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

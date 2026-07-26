@@ -6,10 +6,23 @@
       "category": "社説",
       "tier": "national",
       "index_url": "https://www.asahi.com/rensai/list.html?id=16",
-      "error": "403 Client Error: Forbidden for url: https://www.asahi.com/rensai/list.html?id=16&page=14",
+      "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "（社説）女性検事の辞表　外の目で徹底検証を",
+          "link": "https://www.asahi.com/articles/DA3S16455501.html?iref=pc_rensai_long_16_article",
+          "published": "2026年05月02日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）明日も喋ろう　襲撃の日　決意を新たに",
+          "link": "https://www.asahi.com/articles/DA3S16455500.html?iref=pc_rensai_long_16_article",
+          "published": "2026年05月02日 05時00分",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "西日本新聞",

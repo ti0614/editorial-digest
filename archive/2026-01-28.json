@@ -1,0 +1,28 @@
+{
+  "date": "2026-01-28",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）中国軍高官失脚　「習主席一強」の危うさ",
+          "link": "https://www.asahi.com/articles/DA3S16391034.html?iref=pc_rensai_long_16_article",
+          "published": "2026年01月28日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）衆院選　経済政策　将来への責任を語れ",
+          "link": "https://www.asahi.com/articles/DA3S16391033.html?iref=pc_rensai_long_16_article",
+          "published": "2026年01月28日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

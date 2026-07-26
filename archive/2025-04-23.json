@@ -1,0 +1,28 @@
+{
+  "date": "2025-04-23",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）ローマ教皇死去　分断に橋を架け続けた",
+          "link": "https://www.asahi.com/articles/DA3S16199651.html?iref=pc_rensai_long_16_article",
+          "published": "2025年04月23日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）自民党と裏金　解明と改革　手を抜くな",
+          "link": "https://www.asahi.com/articles/DA3S16199650.html?iref=pc_rensai_long_16_article",
+          "published": "2025年04月23日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "date": "2024-09-08",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）立憲代表選　政権選択肢示す論戦を",
+          "link": "https://www.asahi.com/articles/DA3S16029216.html?iref=pc_rensai_long_16_article",
+          "published": "2024年09月08日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）プーチン氏外遊　法治の国際秩序を守れ",
+          "link": "https://www.asahi.com/articles/DA3S16029217.html?iref=pc_rensai_long_16_article",
+          "published": "2024年09月08日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

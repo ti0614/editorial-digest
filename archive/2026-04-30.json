@@ -6,10 +6,17 @@
       "category": "社説",
       "tier": "national",
       "index_url": "https://www.asahi.com/rensai/list.html?id=16",
-      "error": "403 Client Error: Forbidden for url: https://www.asahi.com/rensai/list.html?id=16&page=14",
+      "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "（社説）ナフサ供給不安　節約要請　始めるときだ",
+          "link": "https://www.asahi.com/articles/DA3S16454157.html?iref=pc_rensai_long_16_article",
+          "published": "2026年04月30日 05時00分",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "西日本新聞",

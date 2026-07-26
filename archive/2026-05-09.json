@@ -6,10 +6,23 @@
       "category": "社説",
       "tier": "national",
       "index_url": "https://www.asahi.com/rensai/list.html?id=16",
-      "error": "403 Client Error: Forbidden for url: https://www.asahi.com/rensai/list.html?id=16&page=14",
+      "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "（社説）軍民両用研究　なし崩しに拡大の懸念",
+          "link": "https://www.asahi.com/articles/DA3S16459163.html?iref=pc_rensai_long_16_article",
+          "published": "2026年05月09日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）ラグビー選手枠　改めて多様性の議論を",
+          "link": "https://www.asahi.com/articles/DA3S16459164.html?iref=pc_rensai_long_16_article",
+          "published": "2026年05月09日 05時00分",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "西日本新聞",

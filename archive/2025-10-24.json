@@ -1,0 +1,28 @@
+{
+  "date": "2025-10-24",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）クマ死者最多　すみわけ対策の加速を",
+          "link": "https://www.asahi.com/articles/DA3S16329501.html?iref=pc_rensai_long_16_article",
+          "published": "2025年10月24日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）公益通報の強化　兵庫県問題　放置できぬ",
+          "link": "https://www.asahi.com/articles/DA3S16329507.html?iref=pc_rensai_long_16_article",
+          "published": "2025年10月24日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

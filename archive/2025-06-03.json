@@ -1,0 +1,28 @@
+{
+  "date": "2025-06-03",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）教員環境改善　法改正だけでは不十分",
+          "link": "https://www.asahi.com/articles/DA3S16227311.html?iref=pc_rensai_long_16_article",
+          "published": "2025年06月03日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）中国禁輸解除へ　まだ落着とはいえない",
+          "link": "https://www.asahi.com/articles/DA3S16227310.html?iref=pc_rensai_long_16_article",
+          "published": "2025年06月03日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

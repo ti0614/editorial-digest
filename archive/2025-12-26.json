@@ -1,0 +1,28 @@
+{
+  "date": "2025-12-26",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）武器輸出自制　原則骨抜きの瀬戸際",
+          "link": "https://www.asahi.com/articles/DA3S16371472.html?iref=pc_rensai_long_16_article",
+          "published": "2025年12月26日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）中央アジア外交　首脳対話の定着めざせ",
+          "link": "https://www.asahi.com/articles/DA3S16371473.html?iref=pc_rensai_long_16_article",
+          "published": "2025年12月26日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

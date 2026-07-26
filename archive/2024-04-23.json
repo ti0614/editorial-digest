@@ -1,0 +1,28 @@
+{
+  "date": "2024-04-23",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）米ウクライナ支援　孤立外交で道は開けぬ",
+          "link": "https://www.asahi.com/articles/DA3S15918354.html?iref=pc_rensai_long_16_article",
+          "published": "2024年04月23日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）海自ヘリ墜落　再発防止へ原因究明を",
+          "link": "https://www.asahi.com/articles/DA3S15918355.html?iref=pc_rensai_long_16_article",
+          "published": "2024年04月23日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

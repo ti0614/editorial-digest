@@ -1,0 +1,22 @@
+{
+  "date": "2026-02-22",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）米関税判決　三権分立の意義示した",
+          "link": "https://www.asahi.com/articles/DA3S16409649.html?iref=pc_rensai_long_16_article",
+          "published": "2026年02月22日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

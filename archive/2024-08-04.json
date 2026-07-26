@@ -1,0 +1,28 @@
+{
+  "date": "2024-08-04",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）ふるさと納税　抜本的是正が急務だ",
+          "link": "https://www.asahi.com/articles/DA3S16002491.html?iref=pc_rensai_long_16_article",
+          "published": "2024年08月04日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）高校野球の改革　選手本位で不断に",
+          "link": "https://www.asahi.com/articles/DA3S16002492.html?iref=pc_rensai_long_16_article",
+          "published": "2024年08月04日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "date": "2025-08-03",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）ガソリン減税　脱炭素と財源忘れるな",
+          "link": "https://www.asahi.com/articles/DA3S16273853.html?iref=pc_rensai_long_16_article",
+          "published": "2025年08月03日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）教員の児童盗撮　徹底した調査と対策を",
+          "link": "https://www.asahi.com/articles/DA3S16273852.html?iref=pc_rensai_long_16_article",
+          "published": "2025年08月03日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

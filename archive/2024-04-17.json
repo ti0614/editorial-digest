@@ -1,0 +1,28 @@
+{
+  "date": "2024-04-17",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）災害時の連携　熊本の取り組みに学ぶ",
+          "link": "https://www.asahi.com/articles/DA3S15913518.html?iref=pc_rensai_long_16_article",
+          "published": "2024年04月17日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）スーダン内戦　紛争を見過ごさぬ責任",
+          "link": "https://www.asahi.com/articles/DA3S15913519.html?iref=pc_rensai_long_16_article",
+          "published": "2024年04月17日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

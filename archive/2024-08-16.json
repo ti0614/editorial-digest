@@ -1,0 +1,22 @@
+{
+  "date": "2024-08-16",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）戦後７９年に問う　戦争の犠牲にどう向き合うか",
+          "link": "https://www.asahi.com/articles/DA3S16011901.html?iref=pc_rensai_long_16_article",
+          "published": "2024年08月16日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

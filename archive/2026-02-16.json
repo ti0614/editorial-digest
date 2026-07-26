@@ -1,0 +1,28 @@
+{
+  "date": "2026-02-16",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）ミャンマー国軍　選挙結果はまやかしだ",
+          "link": "https://www.asahi.com/articles/DA3S16404967.html?iref=pc_rensai_long_16_article",
+          "published": "2026年02月16日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）黎智英氏に量刑　釈放を改めて求める",
+          "link": "https://www.asahi.com/articles/DA3S16404966.html?iref=pc_rensai_long_16_article",
+          "published": "2026年02月16日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

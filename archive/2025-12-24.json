@@ -1,0 +1,28 @@
+{
+  "date": "2025-12-24",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）Ｈ３ロケット　信頼回復へ　道のり遠く",
+          "link": "https://www.asahi.com/articles/DA3S16369992.html?iref=pc_rensai_long_16_article",
+          "published": "2025年12月24日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）税収格差是正　一体的見直しに知恵を",
+          "link": "https://www.asahi.com/articles/DA3S16369993.html?iref=pc_rensai_long_16_article",
+          "published": "2025年12月24日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

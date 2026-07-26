@@ -1,0 +1,28 @@
+{
+  "date": "2024-09-01",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）公益通報と処分　知事の関わり　解明急げ",
+          "link": "https://www.asahi.com/articles/DA3S16023603.html?iref=pc_rensai_long_16_article",
+          "published": "2024年09月01日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）防衛費概算要求　膨張の一途　持続可能か",
+          "link": "https://www.asahi.com/articles/DA3S16023602.html?iref=pc_rensai_long_16_article",
+          "published": "2024年09月01日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

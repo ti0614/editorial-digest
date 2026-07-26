@@ -1,0 +1,28 @@
+{
+  "date": "2024-05-24",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）小泉訪朝２０年　平壌宣言の精神今こそ",
+          "link": "https://www.asahi.com/articles/DA3S15941581.html?iref=pc_rensai_long_16_article",
+          "published": "2024年05月24日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）森林環境税　使途と効果が問われる",
+          "link": "https://www.asahi.com/articles/DA3S15941582.html?iref=pc_rensai_long_16_article",
+          "published": "2024年05月24日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

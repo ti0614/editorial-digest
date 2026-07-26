@@ -1,0 +1,28 @@
+{
+  "date": "2024-07-27",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）最低賃金　引き上げの歩み継続を",
+          "link": "https://www.asahi.com/articles/DA3S15994863.html?iref=pc_rensai_long_16_article",
+          "published": "2024年07月27日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）新基準不適合　原電は廃炉を決断せよ",
+          "link": "https://www.asahi.com/articles/DA3S15994862.html?iref=pc_rensai_long_16_article",
+          "published": "2024年07月27日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "date": "2026-03-28",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）高校教科書　生きた社会　学ぶ起点に",
+          "link": "https://www.asahi.com/articles/DA3S16432300.html?iref=pc_rensai_long_16_article",
+          "published": "2026年03月28日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）特例公債法案　財政の信認　高めるなら",
+          "link": "https://www.asahi.com/articles/DA3S16432305.html?iref=pc_rensai_long_16_article",
+          "published": "2026年03月28日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

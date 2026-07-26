@@ -1,0 +1,28 @@
+{
+  "date": "2025-10-18",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）村山元首相死去　戦後５０年に刻んだ功罪",
+          "link": "https://www.asahi.com/articles/DA3S16325774.html?iref=pc_rensai_long_16_article",
+          "published": "2025年10月18日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）薄氷のガザ停戦　崩壊させぬ冷静さ保て",
+          "link": "https://www.asahi.com/articles/DA3S16325786.html?iref=pc_rensai_long_16_article",
+          "published": "2025年10月18日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

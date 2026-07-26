@@ -1,0 +1,28 @@
+{
+  "date": "2025-03-25",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）統合司令部発足　一体運用　実効性がカギ",
+          "link": "https://www.asahi.com/articles/DA3S16178332.html?iref=pc_rensai_long_16_article",
+          "published": "2025年03月25日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）修学支援制度　地方の声ふまえ特例を",
+          "link": "https://www.asahi.com/articles/DA3S16178333.html?iref=pc_rensai_long_16_article",
+          "published": "2025年03月25日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

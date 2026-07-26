@@ -1,0 +1,28 @@
+{
+  "date": "2025-06-07",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）アベノマスク　非常識な不開示　決別を",
+          "link": "https://www.asahi.com/articles/DA3S16230427.html?iref=pc_rensai_long_16_article",
+          "published": "2025年06月07日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）東電株主訴訟　甘い判断　問わぬ理不尽",
+          "link": "https://www.asahi.com/articles/DA3S16230426.html?iref=pc_rensai_long_16_article",
+          "published": "2025年06月07日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "date": "2024-12-20",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）貸金庫の被害　ずさんな管理　責任重く",
+          "link": "https://www.asahi.com/articles/DA3S16110049.html?iref=pc_rensai_long_16_article",
+          "published": "2024年12月20日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）学術会議の将来　禍根を残さぬ決着探れ",
+          "link": "https://www.asahi.com/articles/DA3S16110048.html?iref=pc_rensai_long_16_article",
+          "published": "2024年12月20日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

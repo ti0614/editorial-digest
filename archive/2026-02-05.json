@@ -1,0 +1,28 @@
+{
+  "date": "2026-02-05",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）衆院選　スパイ防止法　権利侵害を懸念する",
+          "link": "https://www.asahi.com/articles/DA3S16397198.html?iref=pc_rensai_long_16_article",
+          "published": "2026年02月05日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）再審法制の整備　冤罪を見逃さない姿に",
+          "link": "https://www.asahi.com/articles/DA3S16397192.html?iref=pc_rensai_long_16_article",
+          "published": "2026年02月05日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

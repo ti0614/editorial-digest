@@ -1,0 +1,28 @@
+{
+  "date": "2024-06-13",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）東京都知事選　国政も占う首都の選択",
+          "link": "https://www.asahi.com/articles/DA3S15957422.html?iref=pc_rensai_long_16_article",
+          "published": "2024年06月13日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）パンデミック条約　公平な分配　妥協点を",
+          "link": "https://www.asahi.com/articles/DA3S15957423.html?iref=pc_rensai_long_16_article",
+          "published": "2024年06月13日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

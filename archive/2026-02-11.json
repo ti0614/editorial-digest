@@ -1,0 +1,28 @@
+{
+  "date": "2026-02-11",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）積極財政の責任　謙虚に矛盾を見つめて",
+          "link": "https://www.asahi.com/articles/DA3S16402091.html?iref=pc_rensai_long_16_article",
+          "published": "2026年02月11日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）大阪の都構想　我田引水が目に余る",
+          "link": "https://www.asahi.com/articles/DA3S16402092.html?iref=pc_rensai_long_16_article",
+          "published": "2026年02月11日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

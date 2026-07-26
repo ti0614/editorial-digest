@@ -1,0 +1,28 @@
+{
+  "date": "2026-04-25",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）中福祉低負担　守る魔法の杖はない",
+          "link": "https://www.asahi.com/articles/DA3S16450810.html?iref=pc_rensai_long_16_article",
+          "published": "2026年04月25日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）情報強化法案　監視強化への懸念残る",
+          "link": "https://www.asahi.com/articles/DA3S16450809.html?iref=pc_rensai_long_16_article",
+          "published": "2026年04月25日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

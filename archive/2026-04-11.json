@@ -1,0 +1,28 @@
+{
+  "date": "2026-04-11",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）再審法制の整備　冤罪見逃さない法案に",
+          "link": "https://www.asahi.com/articles/DA3S16441799.html?iref=pc_rensai_long_16_article",
+          "published": "2026年04月11日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）個人情報保護法　ＡＩ支援に残る懸念",
+          "link": "https://www.asahi.com/articles/DA3S16441800.html?iref=pc_rensai_long_16_article",
+          "published": "2026年04月11日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

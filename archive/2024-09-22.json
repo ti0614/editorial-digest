@@ -1,0 +1,28 @@
+{
+  "date": "2024-09-22",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）ポケベル爆弾　緊張高める無差別攻撃",
+          "link": "https://www.asahi.com/articles/DA3S16040629.html?iref=pc_rensai_long_16_article",
+          "published": "2024年09月22日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）被爆体験者救済　「線引き行政」見直す時",
+          "link": "https://www.asahi.com/articles/DA3S16040623.html?iref=pc_rensai_long_16_article",
+          "published": "2024年09月22日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

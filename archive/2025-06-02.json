@@ -1,0 +1,28 @@
+{
+  "date": "2025-06-02",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）拘禁刑の導入　出所後に生きる処遇を",
+          "link": "https://www.asahi.com/articles/DA3S16226241.html?iref=pc_rensai_long_16_article",
+          "published": "2025年06月02日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）外免切り替え　安全守るための制度に",
+          "link": "https://www.asahi.com/articles/DA3S16226240.html?iref=pc_rensai_long_16_article",
+          "published": "2025年06月02日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

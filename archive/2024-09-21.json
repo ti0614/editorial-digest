@@ -1,0 +1,28 @@
+{
+  "date": "2024-09-21",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）兵庫斎藤知事　辞職以外に道はない",
+          "link": "https://www.asahi.com/articles/DA3S16039586.html?iref=pc_rensai_long_16_article",
+          "published": "2024年09月21日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）日米金融政策　転換の影響　見極めを",
+          "link": "https://www.asahi.com/articles/DA3S16039587.html?iref=pc_rensai_long_16_article",
+          "published": "2024年09月21日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

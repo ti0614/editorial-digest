@@ -1,0 +1,28 @@
+{
+  "date": "2024-11-29",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）エネルギー計画　原発依存度低減　堅持を",
+          "link": "https://www.asahi.com/articles/DA3S16095059.html?iref=pc_rensai_long_16_article",
+          "published": "2024年11月29日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）レバノン停戦　ガザの合意につなげよ",
+          "link": "https://www.asahi.com/articles/DA3S16095060.html?iref=pc_rensai_long_16_article",
+          "published": "2024年11月29日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

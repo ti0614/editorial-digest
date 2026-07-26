@@ -1,0 +1,28 @@
+{
+  "date": "2024-06-06",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）万博の爆発事故　安全への備え　総点検を",
+          "link": "https://www.asahi.com/articles/DA3S15951872.html?iref=pc_rensai_long_16_article",
+          "published": "2024年06月06日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）規正法修正案　生煮えのまま通すのか",
+          "link": "https://www.asahi.com/articles/DA3S15951871.html?iref=pc_rensai_long_16_article",
+          "published": "2024年06月06日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

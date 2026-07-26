@@ -1,0 +1,28 @@
+{
+  "date": "2024-05-14",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）危険な踏切　解消へ自治体も関与を",
+          "link": "https://www.asahi.com/articles/DA3S15933224.html?iref=pc_rensai_long_16_article",
+          "published": "2024年05月14日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）自然エネ財団　調査急ぎ「宙づり」防げ",
+          "link": "https://www.asahi.com/articles/DA3S15933225.html?iref=pc_rensai_long_16_article",
+          "published": "2024年05月14日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

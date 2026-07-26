@@ -1,0 +1,28 @@
+{
+  "date": "2024-07-05",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）年金財政検証　楽観排し不断の改革を",
+          "link": "https://www.asahi.com/articles/DA3S15974783.html?iref=pc_rensai_long_16_article",
+          "published": "2024年07月05日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）ＩＣＣと日本　法の支配　実現の一助に",
+          "link": "https://www.asahi.com/articles/DA3S15974784.html?iref=pc_rensai_long_16_article",
+          "published": "2024年07月05日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

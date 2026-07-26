@@ -1,0 +1,28 @@
+{
+  "date": "2025-03-14",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）刑事ＩＴ化法案　権利保障の後退招くな",
+          "link": "https://www.asahi.com/articles/DA3S16169592.html?iref=pc_rensai_long_16_article",
+          "published": "2025年03月14日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）東日本と能登　地域の将来　共に考える",
+          "link": "https://www.asahi.com/articles/DA3S16169593.html?iref=pc_rensai_long_16_article",
+          "published": "2025年03月14日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

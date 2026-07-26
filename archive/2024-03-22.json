@@ -1,0 +1,28 @@
+{
+  "date": "2024-03-22",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）防災集団移転　事前復興に教訓生かせ",
+          "link": "https://www.asahi.com/articles/DA3S15892557.html?iref=pc_rensai_long_16_article",
+          "published": "2024年03月22日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）香港の治安条例　社会と経済が窒息する",
+          "link": "https://www.asahi.com/articles/DA3S15892556.html?iref=pc_rensai_long_16_article",
+          "published": "2024年03月22日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

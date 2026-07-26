@@ -1,0 +1,28 @@
+{
+  "date": "2025-08-02",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）パレスチナ問題　２国家解決の扉を開け",
+          "link": "https://www.asahi.com/articles/DA3S16273235.html?iref=pc_rensai_long_16_article",
+          "published": "2025年08月02日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）海自と川重　癒着根絶へ抜本改革を",
+          "link": "https://www.asahi.com/articles/DA3S16273227.html?iref=pc_rensai_long_16_article",
+          "published": "2025年08月02日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

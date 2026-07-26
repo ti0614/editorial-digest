@@ -1,0 +1,28 @@
+{
+  "date": "2026-04-02",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）戦争反対の声　「デモできる社会」の意義",
+          "link": "https://www.asahi.com/articles/DA3S16435840.html?iref=pc_rensai_long_16_article",
+          "published": "2026年04月02日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）米相互関税１年　力の支配に抗う連携を",
+          "link": "https://www.asahi.com/articles/DA3S16435841.html?iref=pc_rensai_long_16_article",
+          "published": "2026年04月02日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

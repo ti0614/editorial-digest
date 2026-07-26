@@ -1,0 +1,28 @@
+{
+  "date": "2024-05-10",
+  "sources": [
+    {
+      "name": "朝日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.asahi.com/rensai/list.html?id=16",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "（社説）入管法改正案　共生社会の理念を貫け",
+          "link": "https://www.asahi.com/articles/DA3S15931126.html?iref=pc_rensai_long_16_article",
+          "published": "2024年05月10日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）石炭火力発電　孤立深める日本の独善",
+          "link": "https://www.asahi.com/articles/DA3S15931127.html?iref=pc_rensai_long_16_article",
+          "published": "2024年05月10日 05時00分",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}
