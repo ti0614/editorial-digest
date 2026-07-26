@@ -79,8 +79,8 @@ Artifacts・GitHub Pages など任意の静的ホスティングに公開して�
 ## 重要な注意（必ず読んでください）
 
 - `sources.yaml` の URL・CSS セレクタは、ネットワークアクセス可能な環境で
-  実際の各紙HTMLを取得して検証済みです（2026-07-22時点、`verified: true`
-  の49紙中34紙）。ニュースサイトはリニューアルでHTML構造が変わることが
+  実際の各紙HTMLを取得して検証済みです（2026-07-26時点、`verified: true`
+  の49紙中35紙）。ニュースサイトはリニューアルでHTML構造が変わることが
   あるため、定期的に `python main.py check` で疎通確認することを推奨します。
 - 一部のサイト（例: 茨城新聞クロスアイ）は `robots.txt` で `Crawl-delay`
   を指定しています。本ツールはこれを検出すると、既定の待機時間（2秒）
@@ -90,7 +90,7 @@ Artifacts・GitHub Pages など任意の静的ホスティングに公開して�
   なく `requests` の文字コード自動判定を使っています。奈良新聞のように
   Shift-JIS等で配信しているサイトを `UnicodeDecodeError` で誤って
   「読めない＝拒否」と扱わないようにするためです。
-- 以下の15紙は未解決です（`verified: false`）。取得できてもエラー扱いでも
+- 以下の14紙は未解決です（`verified: false`）。取得できてもエラー扱いでも
   ないため、生成されたページ上では「取得できなかった新聞社」欄に理由付きで
   表示されます。
   - **河北新報・中国新聞・岩手日報・上毛新聞・奈良新聞・四国新聞・日本海
@@ -98,18 +98,21 @@ Artifacts・GitHub Pages など任意の静的ホスティングに公開して�
     な理由（社説専用の一覧ページが見つからない、混在ページで論説記事だけを
     安全に判別できない、JavaScriptでの動的描画など）に加えて、`robots.txt`
     で `ClaudeBot`・`anthropic-ai`・`Claude-Web` 等のClaude/Anthropic系
-    クローラーを名指しで拒否していることを2026-07-22に確認しました。本
-    ツールが使う User-Agent（`EditorialDigestBot/0.1`）はこれらの名指し
-    対象ではありませんが、実際にこのツールを保守しているのがClaude自身
-    であることを踏まえ、対応を見送っています（河北新報は元々 `/tag/`
-    配下の robots.txt 拒否により意図的にスキップ、長崎新聞は記事一覧を
-    描画するAJAX API（`getKiji` / `/api/nor/get_nor_data.php`）を直接
-    呼び出せば技術的には取得可能なことを確認済みですが、同様の理由で
-    実装は見送りました）。
-  - **岐阜新聞・わかやま新報・埼玉新聞**: 2026-07-22に再調査しましたが、
-    社説・論説専用の一覧ページはやはり見つかりませんでした（カテゴリ一覧
-    やWeb検索でも確認できず）。この3紙の `robots.txt` にはClaude/Anthropic
-    系クローラーの名指し拒否はありません。
+    クローラーを名指しで拒否していることを2026-07-22（2026-07-26に再確認、
+    変わらず）確認しました。本ツールが使う User-Agent
+    （`EditorialDigestBot/0.1`）はこれらの名指し対象ではありませんが、実際
+    にこのツールを保守しているのがClaude自身であることを踏まえ、対応を
+    見送っています（河北新報は元々 `/tag/` 配下の robots.txt 拒否により
+    意図的にスキップ、長崎新聞は記事一覧を描画するAJAX API（`getKiji` /
+    `/api/nor/get_nor_data.php`）を直接呼び出せば技術的には取得可能なこと
+    を確認済みですが、同様の理由で実装は見送りました）。この方針はGitHub
+    Actions等で本番運用を切り離した場合でも変えません。実装のためのセレクタ
+    調査自体をClaudeが行うことに変わりはなく、本番の実行主体を分けても
+    サイト側が意図するAnthropic/Claude系クローラーの排除には反するためです。
+  - **わかやま新報・埼玉新聞**: 2026-07-22に再調査しましたが、社説・論説
+    専用の一覧ページはやはり見つかりませんでした（カテゴリ一覧やWeb検索
+    でも確認できず）。この2紙の `robots.txt` にはClaude/Anthropic系
+    クローラーの名指し拒否はありません。
   - **山梨日日新聞・静岡新聞**: bot対策（AWS WAFのチャレンジ、または
     Human Verificationページ）によりブロックされ、通常のHTTPリクエスト
     では取得できません（2026-07-22再確認でも変わらず）。ブラウザ自動化
@@ -121,6 +124,14 @@ Artifacts・GitHub Pages など任意の静的ホスティングに公開して�
     （以前は500/504エラーでホームページ自体を取得できませんでしたが、
     ナビゲーション上「論説」と表記されている `/serial` ページから取得
     しています。掲載分は全て会員限定）。
+  - **岐阜新聞**: 2026-07-26の再調査で解消し、取得できるようになりました。
+    社説専用の一覧ページは無いものの、サイト内全文検索
+    （`/search?fulltext=社説`、robots.txtでも拒否されていない）の結果を
+    index_urlに使うことで取得しています。全文検索のため無関係な記事
+    （「会社説明会」等）も混ざるので、`sources.yaml` の新フィールド
+    `title_prefix`（タイトルが「社説」で始まらない記事を除外）と
+    `title_strip_pattern`（タイトルの接頭辞「社説」と末尾の埋め込み日付を
+    除去する正規表現）で対応しています。
 - **山形新聞・茨城新聞・南日本新聞**は他紙と異なり「本日の社説（論説）」
   1件のみを表示するページのため、1回の取得につき最新1件しか取得できません
   （過去1週間分の一覧ではない点に注意）。南日本新聞は日付ごとの過去分
@@ -156,10 +167,24 @@ python main.py run
 
 # 対象を絞る／基準日を指定する
 python main.py run --only 朝日新聞 読売新聞 --date 2026-07-21
+
+# 当日分のみを取得して output/today.html（当日版サイト）と
+# output/YYYY-MM-DD-today.json を生成
+python main.py today
+
+# today も --only / --date に対応
+python main.py today --only 朝日新聞 読売新聞 --date 2026-07-21
 ```
 
-生成された `output/digest.html` をブラウザで直接開くか、Claude
-Artifacts・GitHub Pages 等に公開してください。
+生成された `output/digest.html`（週間ダイジェスト）や `output/today.html`
+（当日版）をブラウザで直接開くか、Claude Artifacts・GitHub Pages 等に
+公開してください。
+
+`today` は `run` と同じ巡回・抽出ロジックを使いますが、基準日と同じ日付の
+記事だけに絞り込んで表示します（`pubdate.py` の `is_same_day`）。ある紙の
+掲載が0件でも、`run` と異なり取得失敗とはみなしません（発行が遅い時間帯の
+紙や、その日は社説を掲載しない紙があり得るため）。「取得できなかった
+新聞社」欄には `robots.txt` 拒否・取得エラーが発生した紙のみを表示します。
 
 ## ファイル構成
 
@@ -169,8 +194,8 @@ Artifacts・GitHub Pages 等に公開してください。
 | `robots.py` | `robots.txt` の許可判定・`Crawl-delay` をオリジンごとに管理する `RobotsChecker` |
 | `fetch.py` | HTTP取得の薄いラッパー（User-Agent・タイムアウト・文字コード自動判定） |
 | `extract.py` | 一覧ページのHTMLから記事(`Item`)を抽出し、不足する時刻を記事個別ページから補う |
-| `pubdate.py` | 各紙バラバラの日付表記を正規化・直近7日間フィルタする共通ロジック |
-| `render.py` | 取得結果からWebページ（`output/digest.html`）を組み立てるテンプレート |
+| `pubdate.py` | 各紙バラバラの日付表記を正規化・直近7日間/当日フィルタする共通ロジック |
+| `render.py` | 取得結果からWebページ（`output/digest.html` / `output/today.html`）を組み立てるテンプレート |
 | `sources.yaml` | 各紙のURL・CSSセレクタ・`tier`（national/regional）などの設定 |
 
 ## 新聞社を追加・修正する
@@ -195,9 +220,14 @@ Artifacts・GitHub Pages 等に公開してください。
 セレクタは実際のページの HTML を見ながら調整してください
 （ブラウザの開発者ツールで一覧ページを開き、記事1件を囲む要素を探すのが早いです）。
 
-## 定期実行したい場合
+## 定期実行・GitHub Pages公開
 
-このリポジトリ自体には定期実行の仕組みは含めていません。GitHub Actions の
-`schedule` トリガーや、自分のマシンの cron から `python main.py run` を
-呼び出し、生成された `output/digest.html` を毎回同じ場所（GitHub Pages
-など）に上書き公開する形で定期更新を追加できます。
+`.github/workflows/deploy-today.yml` で、当日版（`today.html`）を1日2回
+（05:10 / 19:10 JST）自動生成し、GitHub Pagesに公開する設定を含めています
+（`workflow_dispatch` で手動実行も可能）。利用するには、リポジトリの
+**Settings > Pages > Build and deployment > Source** を「GitHub Actions」に
+設定してください（これだけは手動での一度きりの設定が必要です）。
+
+週間ダイジェスト（`digest.html`）を定期公開したい場合は、同様の
+ワークフローを追加するか、既存のワークフローで `python main.py today` の
+代わりに `python main.py run` を呼び出すよう変更してください。

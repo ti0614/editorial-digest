@@ -11,6 +11,7 @@
     python main.py check          # 各ソースの疎通確認（取得件数/エラーを表示するだけ）
     python main.py run            # 全ソースを取得し output/digest.html と digest.json を生成
     python main.py run --only 朝日新聞 毎日新聞
+    python main.py today          # 全ソースを取得し当日分のみの output/today.html を生成
 """
 from __future__ import annotations
 
@@ -28,7 +29,7 @@ import yaml
 import render
 from extract import Item, enrich_missing_times, extract_items
 from fetch import fetch_html
-from pubdate import JST
+from pubdate import JST, is_same_day
 from robots import RobotsChecker
 
 SOURCES_FILE = Path(__file__).parent / "sources.yaml"
@@ -57,7 +58,8 @@ def load_sources(only: list[str] | None = None) -> list[dict]:
 
 
 def process_source(
-    source: dict, reference_date: date, robots: RobotsChecker, fetch_times: bool = False
+    source: dict, reference_date: date, robots: RobotsChecker, fetch_times: bool = False,
+    same_day_only: bool = False,
 ) -> SourceResult:
     name = source["name"]
     index_url = source["index_url"]
@@ -74,6 +76,10 @@ def process_source(
     try:
         html = fetch_html(index_url)
         items = extract_items(html, index_url, source, reference_date)
+        if same_day_only:
+            # 当日版では対象外の記事のために個別ページへ追加アクセスしない
+            # よう、時刻補完(enrich_missing_times)の前に当日分へ絞り込む。
+            items = [it for it in items if is_same_day(it.published, reference_date)]
         if fetch_times:
             enrich_missing_times(items, robots, reference_date)
         return SourceResult(
@@ -88,7 +94,8 @@ def process_source(
 
 
 def _iter_results(
-    sources: list[dict], reference_date: date, robots: RobotsChecker, fetch_times: bool
+    sources: list[dict], reference_date: date, robots: RobotsChecker, fetch_times: bool,
+    same_day_only: bool = False,
 ) -> Iterator[SourceResult]:
     """全ソースを順に取得し、結果を1件ずつ返す。
 
@@ -96,7 +103,7 @@ def _iter_results(
     RobotsChecker の待機秒数）だけ待機し、サイトへの負荷を抑える。
     """
     for i, source in enumerate(sources):
-        yield process_source(source, reference_date, robots, fetch_times=fetch_times)
+        yield process_source(source, reference_date, robots, fetch_times=fetch_times, same_day_only=same_day_only)
         if i < len(sources) - 1:
             time.sleep(robots.interval_after(source["index_url"]))
 
@@ -137,6 +144,25 @@ def run_digest(only: list[str] | None, run_date: date) -> int:
     return 0
 
 
+def run_today(only: list[str] | None, run_date: date) -> int:
+    sources = load_sources(only)
+    robots = RobotsChecker()
+    results = list(_iter_results(sources, run_date, robots, fetch_times=True, same_day_only=True))
+
+    OUTPUT_DIR.mkdir(exist_ok=True)
+    json_path = OUTPUT_DIR / f"{run_date.isoformat()}-today.json"
+    html_path = OUTPUT_DIR / "today.html"
+
+    write_json(json_path, run_date, results)
+    generated_at = datetime.now(JST)
+    html_path.write_text(render.render_today_html(results, run_date, generated_at), encoding="utf-8")
+
+    total_items = sum(len(r.items) for r in results)
+    ok = sum(1 for r in results if not r.error and not r.skipped_by_robots)
+    print(f"{len(results)} 紙中 {ok} 紙を取得（本日分 {total_items} 件）-> {html_path}")
+    return 0
+
+
 def write_json(path: Path, run_date: date, results: list[SourceResult]) -> None:
     payload = {
         "date": run_date.isoformat(),
@@ -172,12 +198,18 @@ def main() -> int:
     _add_only_argument(run_p)
     run_p.add_argument("--date", type=date.fromisoformat, default=date.today(), help="基準日 (YYYY-MM-DD)。省略時は本日")
 
+    today_p = sub.add_parser("today", help="全ソースを取得し当日分のみの output/today.html を生成する")
+    _add_only_argument(today_p)
+    today_p.add_argument("--date", type=date.fromisoformat, default=date.today(), help="基準日 (YYYY-MM-DD)。省略時は本日")
+
     args = parser.parse_args()
 
     if args.command == "check":
         return run_check(args.only)
     if args.command == "run":
         return run_digest(args.only, args.date)
+    if args.command == "today":
+        return run_today(args.only, args.date)
     return 1
 
 

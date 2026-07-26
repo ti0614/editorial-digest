@@ -18,6 +18,7 @@ from pubdate import parse_published_date, parse_published_time
 WEEKDAY_JP = ["月", "火", "水", "木", "金", "土", "日"]
 TIERS = ["national", "block", "regional"]
 TIER_LABEL = {"national": "全国紙", "block": "ブロック紙", "regional": "地方紙"}
+CONTACT_EMAIL = "t.iizuka188@gmail.com"
 
 # ダークモード両対応・自己完結のCSS。f-string化するとブレースの二重化が
 # 必要になり可読性が落ちるため、動的な値を含まないこのブロックだけ独立した
@@ -80,7 +81,6 @@ button.tier-chip {
   background: transparent; color: var(--accent); cursor: pointer;
   white-space: nowrap; display: inline-flex; align-items: baseline; justify-content: center; gap: 0.35rem;
 }
-button.tier-chip .tier-chip-count { font-size: 0.72rem; opacity: 0.75; font-variant-numeric: tabular-nums; }
 button.tier-chip:hover { background: var(--accent-soft); }
 button.tier-chip[aria-pressed="true"] { background: var(--accent); color: var(--surface); }
 button.tier-chip:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
@@ -159,7 +159,10 @@ a.article time {
 }
 
 
+.empty-today { color: var(--ink-faint); font-size: 0.88rem; padding: 1.5rem 0.15rem; }
+
 footer { padding:1.75rem 1.25rem 0; color:var(--ink-faint); font-size:0.78rem; line-height:1.7; }
+footer a { color: var(--accent); }
 html { scroll-behavior: smooth; }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 """
@@ -372,7 +375,6 @@ def render_html(results: list, run_date: date, generated_at: datetime | None = N
         if unavailable_names else ""
     )
 
-    tier_names = {t: [r.name for r in results if _normalize_tier(r.tier) == t] for t in TIERS}
     national_total = sum(1 for x in items_flat if x.tier == "national")
     range_label = f"{min_date.month}/{min_date.day} 〜 {max_date.month}/{max_date.day}"
 
@@ -384,7 +386,7 @@ def render_html(results: list, run_date: date, generated_at: datetime | None = N
 
     chips_html = "".join(
         f'<button type="button" class="tier-chip" data-tier="{t}" aria-pressed="{"true" if t == "national" else "false"}">'
-        f'{TIER_LABEL[t]}<span class="tier-chip-count">{len(tier_names[t])}紙</span></button>'
+        f'{TIER_LABEL[t]}</button>'
         for t in TIERS
     )
 
@@ -400,7 +402,7 @@ def render_html(results: list, run_date: date, generated_at: datetime | None = N
     </div>
     <h1>社説まとめ<br>週間ダイジェスト</h1>
     <p class="summary">{range_label}（過去1週間）・表示中 <strong id="total-count">{national_total}</strong>件</p>
-    <p class="disclaimer">タイトル・リンク・日付のみを収集しています。本文は各紙サイトでお読みください。</p>
+    <p class="disclaimer">タイトル・リンク・日付のみ収集。本文は各紙サイトでご覧ください。</p>
     <div class="scope-toggle">
       <span class="scope-label">表示する範囲</span>
       <div class="tier-chips">
@@ -421,10 +423,90 @@ def render_html(results: list, run_date: date, generated_at: datetime | None = N
   </main>
 
   <footer>
-    <p>社説まとめツールが自動生成 / 基準日: {run_date.isoformat()}。各リンクは記事本文へ遷移します。</p>
-    <p>「会員限定」表示は参考情報です。表示が無くても無料と保証するものではありません。</p>
+    <p>社説まとめツールが自動生成 / 基準日: {run_date.isoformat()}。個人利用目的の非公式リンク集で、著作権は各社に帰属します。</p>
+    <p>内容の正確性は保証しません（記事削除等でリンク切れの場合あり）。「会員限定」表示も参考情報です。</p>
+    <p>一部の新聞社は、サイト側の意向により対象外としています。</p>
     {unavailable_footer}
-    <p>本サイトは非公式のリンク集で、各記事の著作権は各社に帰属します。</p>
+    <p>ご連絡・削除のご依頼は <a href="mailto:{CONTACT_EMAIL}">{CONTACT_EMAIL}</a> まで。</p>
+  </footer>
+</div>
+
+<script>{_SCRIPT_TEMPLATE}</script>
+'''
+
+
+def render_today_html(results: list, run_date: date, generated_at: datetime | None = None) -> str:
+    """SourceResult のリストから run_date当日分のみのWebページ (output/today.html) を
+    組み立てる。
+
+    results の items は呼び出し側（main.py の run_today）で既に run_date
+    当日分のみに絞り込み済みである前提。週間ダイジェスト（render_html）と
+    異なり、ある紙が0件でも取得失敗とはみなさない（1日ごとに必ず社説が
+    掲載されるとは限らないため）。
+    """
+    items_flat = _flatten_items(results, run_date)
+    by_date = _group_by_date(items_flat)
+    items_today = by_date.get(run_date, [])
+
+    national_total = sum(1 for x in items_today if x.tier == "national")
+    wd = WEEKDAY_JP[run_date.weekday()]
+    date_label = f"{run_date.month}/{run_date.day}（{wd}）"
+
+    updated_at_html = (
+        f'<p class="updated-at">UPDATED {generated_at.month}/{generated_at.day} '
+        f'{generated_at.hour:02d}:{generated_at.minute:02d}</p>'
+        if generated_at is not None else ""
+    )
+
+    chips_html = "".join(
+        f'<button type="button" class="tier-chip" data-tier="{t}" aria-pressed="{"true" if t == "national" else "false"}">'
+        f'{TIER_LABEL[t]}</button>'
+        for t in TIERS
+    )
+
+    rows = "".join(_render_article_row(it) for it in items_today)
+    empty_html = (
+        '<p class="empty-today">本日分の社説はまだ掲載されていません。発行が夜間・早朝の紙や、'
+        '本日休載の紙がある場合があります。時間をおいて再取得してください。</p>'
+        if not items_today else ""
+    )
+    section = f'''
+<section class="dategroup" id="d-{run_date.isoformat()}">
+  <ul class="article-list">{rows}</ul>
+  {empty_html}
+</section>'''
+
+    return f'''<title>社説まとめ 当日版</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>{_CSS}</style>
+
+<div class="wrap">
+  <header class="masthead">
+    <div class="masthead-top">
+      <p class="eyebrow">EDITORIAL DIGEST · TODAY</p>
+      {updated_at_html}
+    </div>
+    <h1>本日の社説<br>まとめ</h1>
+    <p class="summary">{date_label}・表示中 <strong id="total-count">{national_total}</strong>件</p>
+    <p class="disclaimer">タイトル・リンク・日付のみ収集。本文は各紙サイトでご覧ください。</p>
+    <div class="scope-toggle">
+      <span class="scope-label">表示する範囲</span>
+      <div class="tier-chips">
+{chips_html}
+      </div>
+      <button type="button" class="paid-toggle" id="paid-toggle" aria-pressed="false">会員限定記事: 表示中</button>
+    </div>
+  </header>
+
+  <main>
+{section}
+  </main>
+
+  <footer>
+    <p>社説まとめツールが自動生成 / 基準日: {run_date.isoformat()}（当日分のみ）。個人利用目的の非公式リンク集で、著作権は各社に帰属します。</p>
+    <p>内容の正確性は保証しません（記事削除等でリンク切れの場合あり）。「会員限定」表示も参考情報です。</p>
+    <p>一部の新聞社は、サイト側の意向により対象外としています。</p>
+    <p>ご連絡・削除のご依頼は <a href="mailto:{CONTACT_EMAIL}">{CONTACT_EMAIL}</a> まで。</p>
   </footer>
 </div>
 

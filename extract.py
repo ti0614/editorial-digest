@@ -35,6 +35,8 @@ def extract_items(html: str, base_url: str, source: dict, reference_date: date) 
     nodes = soup.select(source["item_selector"])
     items: list[Item] = []
     seen_titles: set[str] = set()
+    title_prefix = source.get("title_prefix")
+    title_strip_pattern = source.get("title_strip_pattern")
     for node in nodes:
         title_node = node.select_one(source["title_selector"]) if source.get("title_selector") else node
         link_node = node.select_one(source["link_selector"]) if source.get("link_selector") else node
@@ -46,6 +48,12 @@ def extract_items(html: str, base_url: str, source: dict, reference_date: date) 
             for bad in title_node.select(source["title_exclude_selector"]):
                 bad.decompose()
         title = title_node.get_text(strip=True)
+        if title_prefix and not title.startswith(title_prefix):
+            # 一覧が専用ページでなく全文検索結果の紙向け: 無関係な記事
+            # （例: 岐阜新聞で「社説」を検索すると「会社説明会」等も混ざる）を除外する。
+            continue
+        if title_strip_pattern:
+            title = re.sub(title_strip_pattern, "", title).strip()
         href = link_node.get("href")
         if not title or not href:
             continue

@@ -17,6 +17,13 @@
 #   link_selector  : item_selector の中でリンク(<a>)を指すセレクタ（省略時はitem自体がaタグ）
 #   date_selector  : 日付を含む要素（任意、なければ省略可）
 #   title_exclude_selector : タイトル内から除去する要素（任意。"New"バッジ等の混入除去用）
+#   title_prefix  : 指定すると、タイトルがこの文字列で始まらない記事を除外する（任意）。
+#                 社説専用の一覧ページが無く、サイト内全文検索の結果を index_url に
+#                 使う紙向け（例: 岐阜新聞の検索結果には「会社説明会」等、社説と
+#                 無関係な記事も紛れ込むため、これで弾く）。
+#   title_strip_pattern : タイトルから正規表現にマッチした部分を除去する（任意）。
+#                 全文検索結果はタイトルに「社説　」という接頭辞や「〈2026 7.26〉」
+#                 のような日付が埋め込まれていることがあり、他紙と表記を揃えるために使う。
 #   paid_selector : item内に存在すれば「会員限定記事」とみなす要素（任意、
 #                 CSSセレクタ）。各紙が使っている鍵アイコン等のクラスを指定する。
 #                 2026-07-22時点で verified: true の全紙について実機確認済み
@@ -396,16 +403,17 @@ sources:
     note: "静岡県。デジタル版「アットエス」。ボット判定ページ（Human Verification、HTTP 405）が返り、通常のHTTPリクエストではトップページすら取得できない（要JS実行環境。2026-07-22再確認でも変わらずブロックされた）。ブラウザ自動化なしでの回避は行っていない。"
 
   - name: 岐阜新聞
-    category: 論説
+    category: 社説
     tier: regional
-    index_url: https://www.gifu-np.co.jp/
-    item_selector: "li.article"
-    title_selector: "span.title"
-    link_selector: "a"
-    date_selector: "span.date"
-    verified: false
-    unavailable_reason: "社説だけをまとめた専用の一覧ページが見つからず、取得できていません。"
-    note: "岐阜県。ホームページ内・Web検索のいずれでも社説・論説の専用一覧ページを発見できなかった（2026-07-22再調査でも変わらず。カテゴリ一覧には主要・政治・経済・社会・国際・スポーツ・文化芸能・暮らし話題・医療健康・科学環境等はあるが社説・論説に相当するものが無い。/tag/、/opinion 等の候補URLも404）。"
+    index_url: "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC"
+    item_selector: "article.l-articles__item"
+    title_selector: "a.m-article__ttl"
+    title_prefix: "社説"
+    title_strip_pattern: '^社説\s*|[（(〈][^）)〉]*[）)〉]\s*$'
+    link_selector: "a.m-article__ttl"
+    date_selector: "time.m-article__date"
+    verified: true
+    note: "岐阜県。専用の社説一覧ページは無いが、サイト内全文検索（?fulltext=社説）の結果を index_url に使うことで取得可能（2026-07-26確認）。検索結果には無関係な記事（例:「会社説明会」）も混ざるため title_prefix で除外し、title_strip_pattern でタイトルの接頭辞「社説」と末尾の埋め込み日付を除去している。"
 
   - name: 奈良新聞
     category: 社説
