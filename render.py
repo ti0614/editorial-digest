@@ -570,6 +570,7 @@ def _render_footer(run_date: date, note: str, unavailable_footer: str = "") -> s
         '    <p>内容の正確性は保証しません（記事削除等でリンク切れの場合あり）。「会員限定」表示も参考情報です。</p>\n'
         '    <p>一部の新聞社は、サイト側の意向により対象外としています。</p>\n'
         f'{extra_line}'
+        '    <p><a href="archive.html">過去の社説をアーカイブ検索</a></p>\n'
         f'    <p>ご連絡・削除のご依頼は <a href="mailto:{CONTACT_EMAIL}">{CONTACT_EMAIL}</a> まで。</p>'
     )
 
