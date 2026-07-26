@@ -165,11 +165,11 @@ a.article time {
 
 .empty-today { color: var(--ink-faint); font-size: 0.88rem; padding: 1.5rem 0.15rem; }
 
-.archive-search {
+.archive-search, .archive-date {
   width:100%; font: inherit; font-size:0.95rem; padding:0.65rem 0.8rem; border-radius:8px;
   border:1px solid var(--rule); background:var(--surface); color:var(--ink); margin:0.9rem 0 0.5rem;
 }
-.archive-search:focus-visible { outline:2px solid var(--accent); outline-offset:2px; }
+.archive-search:focus-visible, .archive-date:focus-visible { outline:2px solid var(--accent); outline-offset:2px; }
 .archive-status { font-size:0.8rem; color:var(--ink-faint); margin:0 0 1rem; }
 li.article-item.search-hide { display:none; }
 button.load-more {
@@ -287,6 +287,7 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
   var totalEl = document.getElementById('total-count');
   var resultsEl = document.getElementById('archive-results');
   var searchInput = document.getElementById('archive-search');
+  var dateFilterInput = document.getElementById('archive-date-filter');
   var loadMoreBtn = document.getElementById('load-more');
   var statusEl = document.getElementById('archive-status');
   var chips = {};
@@ -294,6 +295,7 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
 
   var allDates = [];
   var loadedCount = 0;
+  var dateFilter = null;
 
   function esc(s) {
     return String(s).replace(/[&<>"']/g, function (c) {
@@ -313,8 +315,12 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
   }
 
   function weekdayOf(dateStr) {
-    var d = new Date(dateStr + 'T00:00:00+09:00');
-    return WEEKDAY_JP[(d.getDay() + 6) % 7];
+    // new Date(...).getDay()は実行環境のローカルタイムゾーンで解釈されるため、
+    // JST以外のタイムゾーンで開くと曜日がずれる。タイムゾーンに依存しない
+    // Date.UTC + getUTCDay()でY/M/Dの曜日だけを求める。
+    var parts = dateStr.split('-').map(function (n) { return parseInt(n, 10); });
+    var d = new Date(Date.UTC(parts[0], parts[1] - 1, parts[2]));
+    return WEEKDAY_JP[(d.getUTCDay() + 6) % 7];
   }
 
   function tierTagClass(tier) {
@@ -363,6 +369,9 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
   function updateCounts() {
     var grandTotal = 0;
     resultsEl.querySelectorAll('section.dategroup').forEach(function (sec) {
+      // 日付フィルタで除外中のセクションはhidden状態を保ったまま完全にスキップする
+      // （offsetParentベースの計測対象に含めない・以下のhidden解除もしない）。
+      if (sec.classList.contains('date-filtered-out')) { return; }
       // offsetParentは祖先がhiddenだと常にnullになるため、計測前に一旦
       // hiddenを解除しておく（そうしないと一度0件と判定されたセクションが
       // 以後ずっと0件のまま隠れ続けてしまう）。
@@ -450,9 +459,18 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
         .catch(function () { return null; });
     })).then(function (results) {
       results.forEach(function (r) {
-        if (r) resultsEl.appendChild(renderSection(r.date, r.items));
+        // 日付フィルタによる直接取得で既にレンダリング済みの日付は
+        // 重複して追加しない。
+        if (r && !document.getElementById('d-' + r.date)) {
+          resultsEl.appendChild(renderSection(r.date, r.items));
+        }
       });
       loadedCount += batch.length;
+      if (dateFilter) {
+        // 読み込み中に日付フィルタが設定された場合、新規追加分にも適用する。
+        showOnlyDate(dateFilter);
+        return;
+      }
       updateCounts();
       if (loadedCount >= allDates.length) {
         finishLoading();
@@ -478,8 +496,72 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
     });
   }
 
+  function updateLoadMoreVisibility() {
+    if (loadedCount >= allDates.length) {
+      loadMoreBtn.hidden = true;
+    } else {
+      statusEl.textContent = loadedCount + ' / ' + allDates.length + '日分を表示中';
+      loadMoreBtn.hidden = false;
+    }
+  }
+
+  function applyDateFilter(dateStr) {
+    dateFilter = dateStr || null;
+
+    if (!dateFilter) {
+      resultsEl.querySelectorAll('section.dategroup').forEach(function (sec) {
+        sec.classList.remove('date-filtered-out');
+      });
+      updateCounts();
+      if (loadedCount >= allDates.length) { finishLoading(); } else { updateLoadMoreVisibility(); }
+      return;
+    }
+
+    var existing = document.getElementById('d-' + dateFilter);
+    if (existing) {
+      showOnlyDate(dateFilter);
+      return;
+    }
+
+    statusEl.textContent = '読み込み中…';
+    loadMoreBtn.hidden = true;
+    fetch('archive/' + dateFilter + '.json').then(function (r) { return r.ok ? r.json() : null; })
+      .then(function (data) {
+        if (dateFilter !== dateStr) { return; } // 取得中に別の日付へ変更された
+        if (data && !document.getElementById('d-' + dateFilter)) {
+          resultsEl.appendChild(renderSection(dateFilter, flattenDateData(data)));
+        }
+        showOnlyDate(dateFilter);
+      })
+      .catch(function () {
+        statusEl.textContent = 'この日付のデータを読み込めませんでした。';
+      });
+  }
+
+  function showOnlyDate(dateStr) {
+    resultsEl.querySelectorAll('section.dategroup').forEach(function (sec) {
+      var match = sec.id === 'd-' + dateStr;
+      sec.classList.toggle('date-filtered-out', !match);
+      sec.hidden = !match;
+    });
+    updateCounts();
+    loadMoreBtn.hidden = true;
+    var parts = dateStr.split('-');
+    statusEl.textContent = parseInt(parts[1], 10) + '/' + parseInt(parts[2], 10) + '（' + weekdayOf(dateStr) + '）のみ表示中';
+  }
+
+  if (dateFilterInput) {
+    dateFilterInput.addEventListener('change', function () {
+      applyDateFilter(dateFilterInput.value);
+    });
+  }
+
   fetch('archive/index.json').then(function (r) { return r.json(); }).then(function (data) {
     allDates = (data.dates || []).slice().sort().reverse();
+    if (dateFilterInput && allDates.length) {
+      dateFilterInput.min = allDates[allDates.length - 1];
+      dateFilterInput.max = allDates[0];
+    }
     loadNextPage();
   }).catch(function () {
     statusEl.textContent = 'アーカイブの読み込みに失敗しました。時間をおいて再度お試しください。';
@@ -793,6 +875,7 @@ def render_archive_html(generated_at: datetime | None = None) -> str:
     main_html = '''
 <input type="search" class="archive-search" id="archive-search" placeholder="タイトルで検索（例: 憲法、選挙）" autocomplete="off" />
 <p class="disclaimer">検索対象はタイトルのみです（本文は収集していないため検索できません）。</p>
+<input type="date" class="archive-date" id="archive-date-filter" aria-label="日付で絞り込み" />
 <p class="archive-status" id="archive-status">読み込み中…</p>
 <div id="archive-results"></div>
 <button type="button" class="load-more" id="load-more" hidden>さらに過去分を読み込む</button>'''
