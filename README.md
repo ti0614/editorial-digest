@@ -232,8 +232,8 @@ python main.py today --only 朝日新聞 読売新聞 --date 2026-07-21
 
 ## 定期実行・GitHub Pages公開
 
-`.github/workflows/deploy-today.yml` で、当日版（`today.html`）を1日2回
-（05:10 / 19:10 JST）自動生成し、GitHub Pagesに公開する設定を含めています
+`.github/workflows/deploy-today.yml` で、当日版（`today.html`）を1日3回
+（05:10 / 11:10 / 19:10 JST）自動生成し、GitHub Pagesに公開する設定を含めています
 （`workflow_dispatch` で手動実行も可能）。利用するには、リポジトリの
 **Settings > Pages > Build and deployment > Source** を「GitHub Actions」に
 設定してください（これだけは手動での一度きりの設定が必要です）。
