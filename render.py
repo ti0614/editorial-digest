@@ -18,6 +18,7 @@ from pubdate import parse_published_date, parse_published_time
 WEEKDAY_JP = ["月", "火", "水", "木", "金", "土", "日"]
 TIERS = ["national", "block", "regional"]
 TIER_LABEL = {"national": "全国紙", "block": "ブロック紙", "regional": "地方紙"}
+CONTACT_EMAIL = "t.iizuka188@gmail.com"
 
 # ダークモード両対応・自己完結のCSS。f-string化するとブレースの二重化が
 # 必要になり可読性が落ちるため、動的な値を含まないこのブロックだけ独立した
@@ -161,6 +162,7 @@ a.article time {
 .empty-today { color: var(--ink-faint); font-size: 0.88rem; padding: 1.5rem 0.15rem; }
 
 footer { padding:1.75rem 1.25rem 0; color:var(--ink-faint); font-size:0.78rem; line-height:1.7; }
+footer a { color: var(--accent); }
 html { scroll-behavior: smooth; }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 """
@@ -400,7 +402,7 @@ def render_html(results: list, run_date: date, generated_at: datetime | None = N
     </div>
     <h1>社説まとめ<br>週間ダイジェスト</h1>
     <p class="summary">{range_label}（過去1週間）・表示中 <strong id="total-count">{national_total}</strong>件</p>
-    <p class="disclaimer">タイトル・リンク・日付のみを収集しています。本文は各紙サイトでお読みください。</p>
+    <p class="disclaimer">タイトル・リンク・日付のみ収集。本文は各紙サイトでご覧ください。</p>
     <div class="scope-toggle">
       <span class="scope-label">表示する範囲</span>
       <div class="tier-chips">
@@ -421,10 +423,10 @@ def render_html(results: list, run_date: date, generated_at: datetime | None = N
   </main>
 
   <footer>
-    <p>社説まとめツールが自動生成 / 基準日: {run_date.isoformat()}。各リンクは記事本文へ遷移します。</p>
-    <p>「会員限定」表示は参考情報です。表示が無くても無料と保証するものではありません。</p>
+    <p>社説まとめツールが自動生成 / 基準日: {run_date.isoformat()}。個人利用目的の非公式リンク集で、著作権は各社に帰属します。</p>
+    <p>内容の正確性は保証しません（記事削除等でリンク切れの場合あり）。「会員限定」表示も参考情報です。</p>
     {unavailable_footer}
-    <p>本サイトは非公式のリンク集で、各記事の著作権は各社に帰属します。</p>
+    <p>ご連絡・削除のご依頼は <a href="mailto:{CONTACT_EMAIL}">{CONTACT_EMAIL}</a> まで。</p>
   </footer>
 </div>
 
@@ -485,7 +487,7 @@ def render_today_html(results: list, run_date: date, generated_at: datetime | No
     </div>
     <h1>本日の社説<br>まとめ</h1>
     <p class="summary">{date_label}・表示中 <strong id="total-count">{national_total}</strong>件</p>
-    <p class="disclaimer">タイトル・リンク・日付のみを収集しています。本文は各紙サイトでお読みください。</p>
+    <p class="disclaimer">タイトル・リンク・日付のみ収集。本文は各紙サイトでご覧ください。</p>
     <div class="scope-toggle">
       <span class="scope-label">表示する範囲</span>
       <div class="tier-chips">
@@ -500,9 +502,9 @@ def render_today_html(results: list, run_date: date, generated_at: datetime | No
   </main>
 
   <footer>
-    <p>社説まとめツールが自動生成 / 基準日: {run_date.isoformat()}（当日分のみ）。各リンクは記事本文へ遷移します。</p>
-    <p>「会員限定」表示は参考情報です。表示が無くても無料と保証するものではありません。</p>
-    <p>本サイトは非公式のリンク集で、各記事の著作権は各社に帰属します。</p>
+    <p>社説まとめツールが自動生成 / 基準日: {run_date.isoformat()}（当日分のみ）。個人利用目的の非公式リンク集で、著作権は各社に帰属します。</p>
+    <p>内容の正確性は保証しません（記事削除等でリンク切れの場合あり）。「会員限定」表示も参考情報です。</p>
+    <p>ご連絡・削除のご依頼は <a href="mailto:{CONTACT_EMAIL}">{CONTACT_EMAIL}</a> まで。</p>
   </footer>
 </div>
 
