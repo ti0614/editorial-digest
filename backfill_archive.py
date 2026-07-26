@@ -24,6 +24,7 @@ check/run/todayコマンドは直近1週間程度しか見ないため1ページ
     python backfill_archive.py --only 朝日新聞 毎日新聞
     python backfill_archive.py --window-days 14
     python backfill_archive.py --force                # 既存の日付ファイルも上書き
+    python backfill_archive.py --only 朝日新聞 --window-days 1000 --max-pages 155
 """
 from __future__ import annotations
 
@@ -34,6 +35,8 @@ from collections import defaultdict
 from dataclasses import asdict
 from datetime import date
 from pathlib import Path
+
+import requests
 
 from extract import extract_items
 from fetch import fetch_html
@@ -53,11 +56,13 @@ def _paginated_url(index_url: str, param: str, page: int) -> str:
 
 def _fetch_with_pagination(
     source: dict, reference_date: date, robots: RobotsChecker, window_days: int,
+    max_pages: int = MAX_PAGINATION_PAGES,
 ) -> SourceResult:
     """pagination_paramが指定されたソースについて、ウィンドウを使い切るか
     記事が尽きるまで次ページを追加取得する。extract_itemsが既にwindow_days
     で絞り込むため、あるページで新規記事が0件になった時点でそれより古い
     ページを見ても意味が無い（日付降順に並んでいるため）と判断して止める。
+    一覧ページ自体の終端（404等）に達した場合もそこで打ち切る。
     """
     name = source["name"]
     index_url = source["index_url"]
@@ -76,11 +81,17 @@ def _fetch_with_pagination(
     seen_titles: set[str] = set()
     page = 1
     try:
-        while page <= MAX_PAGINATION_PAGES:
+        while page <= max_pages:
             url = index_url if page == 1 else _paginated_url(index_url, param, page)
             if page > 1 and not robots.allows(url):
                 break
-            html = fetch_html(url)
+            try:
+                html = fetch_html(url)
+            except requests.HTTPError:
+                # 一覧ページ自体の終端（404等）に達した。単に「もう次の
+                # ページが無い」だけなので、エラー扱いにはせずここまでの
+                # 結果で打ち切る（それ以外の通信エラーは外側で処理する）。
+                break
             page_items = extract_items(html, url, source, reference_date, window_days=window_days)
             new_items = [it for it in page_items if it.title not in seen_titles]
             if not new_items:
@@ -88,7 +99,7 @@ def _fetch_with_pagination(
             seen_titles.update(it.title for it in new_items)
             items.extend(new_items)
             page += 1
-            if page <= MAX_PAGINATION_PAGES:
+            if page <= max_pages:
                 time.sleep(robots.interval_after(url))
         return SourceResult(
             name=name, category=category, tier=tier, index_url=index_url,
@@ -155,6 +166,7 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--only", nargs="*", help="対象を新聞社名で絞り込む")
     parser.add_argument("--window-days", type=int, default=BACKFILL_WINDOW_DAYS, help=f"何日分遡るか（既定 {BACKFILL_WINDOW_DAYS}）")
+    parser.add_argument("--max-pages", type=int, default=MAX_PAGINATION_PAGES, help=f"pagination_param指定ソースで最大何ページ追うか（既定 {MAX_PAGINATION_PAGES}）")
     parser.add_argument("--archive-dir", type=Path, default=ARCHIVE_DIR, help="書き出し先ディレクトリ（既定 archive/）")
     parser.add_argument("--force", action="store_true", help="既に存在する日付ファイルも上書きする")
     args = parser.parse_args()
@@ -166,7 +178,7 @@ def main() -> int:
     results: list[SourceResult] = []
     for i, source in enumerate(sources):
         if source.get("pagination_param"):
-            result = _fetch_with_pagination(source, reference_date, robots, window_days=args.window_days)
+            result = _fetch_with_pagination(source, reference_date, robots, window_days=args.window_days, max_pages=args.max_pages)
         else:
             result = process_source(source, reference_date, robots, fetch_times=False, window_days=args.window_days)
         status = (
