@@ -150,7 +150,7 @@ a.article time {
 
 .empty-today { color: var(--ink-faint); font-size: 0.88rem; padding: 1.5rem 0.15rem; }
 
-.search-panel { background: var(--surface); border: 1px solid var(--rule); border-radius: 10px; padding: 0.9rem; }
+.search-panel { background: var(--surface); border: 1px solid var(--rule); border-radius: 10px; padding: 0.9rem; margin-top: 1rem; }
 .search-panel-label {
   display: flex; align-items: baseline; justify-content: space-between; gap: 0.5rem;
   font-size: 0.72rem; letter-spacing: 0.06em; color: var(--ink-faint); margin: 0 0 0.7rem;
