@@ -22,6 +22,37 @@ _DATETIME_TEXT_PATTERN = re.compile(
 )
 
 
+def _published_from_date_node(date_node) -> str | None:
+    """date_selectorが指す要素からpublished文字列を得る。
+
+    <time>要素のdatetime属性（年を含むISO 8601）があれば可視テキストより
+    優先して使う。一覧ページの可視テキストは年を省略することが多く
+    （例: 千葉日報の「7/28 5:00」）、pubdate.parse_published_dateは省略された
+    年をreference_dateから推測するため、1年以上前の記事がたまたま「未来日」
+    にならない月日だと誤って今年の記事と解釈してしまう（千葉日報の
+    /serial一覧に2025年の記事が再掲され、2026年の記事として取り込まれた
+    実例あり）。datetime属性はこの推測が要らず年が確定するため優先する。
+    UTC表記（末尾Z、日本経済新聞など）はJSTに変換してから使う。
+    datetime属性が無い/解釈できない場合は可視テキストにフォールバックする。
+    """
+    if date_node is None:
+        return None
+    raw = date_node.get("datetime")
+    if raw:
+        v = raw.strip()
+        if v.endswith("Z"):
+            v = v[:-1] + "+00:00"
+        try:
+            dt = datetime.fromisoformat(v)
+        except ValueError:
+            dt = None
+        if dt is not None:
+            if dt.tzinfo is not None:
+                dt = dt.astimezone(JST)
+            return f"{dt.year}/{dt.month}/{dt.day} {dt.hour}:{dt.minute:02d}"
+    return date_node.get_text(strip=True)
+
+
 @dataclass
 class Item:
     title: str
@@ -61,7 +92,7 @@ def extract_items(
         if not title or not href:
             continue
         link = urljoin(base_url, href)
-        published = date_node.get_text(strip=True) if date_node is not None else None
+        published = _published_from_date_node(date_node)
         if not within_window(published, reference_date, window_days=window_days):
             continue
         if title in seen_titles:
