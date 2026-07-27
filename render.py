@@ -509,7 +509,7 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
   }
 
   function finishLoading() {
-    statusEl.textContent = allDates.length ? ('全' + allDates.length + '日分を表示中') : 'まだアーカイブがありません。';
+    statusEl.textContent = allDates.length ? 'すべて表示中' : 'まだアーカイブがありません。';
     loadMoreBtn.hidden = true;
   }
 
@@ -540,7 +540,7 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
       if (loadedCount >= allDates.length) {
         finishLoading();
       } else {
-        statusEl.textContent = loadedCount + ' / ' + allDates.length + '日分を表示中';
+        statusEl.textContent = loadedCount + '日分を表示中';
         loadMoreBtn.hidden = false;
       }
     });
@@ -560,7 +560,7 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
     if (loadedCount >= allDates.length) {
       loadMoreBtn.hidden = true;
     } else {
-      statusEl.textContent = loadedCount + ' / ' + allDates.length + '日分を表示中';
+      statusEl.textContent = loadedCount + '日分を表示中';
       loadMoreBtn.hidden = false;
     }
   }
