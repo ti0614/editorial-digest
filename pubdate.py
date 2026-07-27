@@ -1,7 +1,8 @@
 """各紙の published 表記（書式がバラバラ）を実日付に正規化するユーティリティ。
 
-main.py（取得・直近7日間フィルタ）と render.py（Webページの日付見出し
-グルーピング）の両方から共通で使う。
+main.py（取得時の絞り込み。checkは直近7日分、todayは当日分のみ）、
+backfill_archive.py（過去分バックフィルの独自ウィンドウでの絞り込み）、
+render.py（Webページの日付見出しグルーピング）から共通で使う。
 """
 from __future__ import annotations
 
@@ -21,6 +22,25 @@ def today_jst() -> date:
     常にJSTで判定する必要があるため、date.today()の代わりにこちらを使う。
     """
     return datetime.now(JST).date()
+
+
+def parse_iso8601_utc(raw: str) -> datetime | None:
+    """ISO 8601形式の日時文字列をdatetimeに変換する（末尾がZならUTCとみなし
+    JSTへ変換してから返す）。
+
+    <time>要素のdatetime属性や、一部サイトのJSON APIが返す日時フィールド
+    （例: 日本経済新聞、産経新聞のcontent-api）で使う。オフセット無しの
+    ローカル時刻表記（日本の新聞サイトなので基本的にJST）はそのまま返す。
+    解釈できない場合はNoneを返す（呼び出し側でのフォールバックに委ねる）。
+    """
+    try:
+        dt = datetime.fromisoformat(raw.replace("Z", "+00:00"))
+    except ValueError:
+        return None
+    if dt.tzinfo is not None:
+        dt = dt.astimezone(JST)
+    return dt
+
 
 # 観測された表記例:
 #   "2026年7月22日 05時00分" / "2026/7/22 02:02" / "2026.07.21" / "7月22日"

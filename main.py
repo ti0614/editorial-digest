@@ -56,21 +56,28 @@ def load_sources(only: list[str] | None = None) -> list[dict]:
     return sources
 
 
+def source_meta(source: dict) -> dict:
+    """sources.yamlの1エントリから、SourceResultに常に必要な5フィールドを
+    取り出す。main.py・backfill_archive.pyの両方から使う（後者は`main`から
+    import）。"""
+    return dict(
+        name=source["name"],
+        category=source.get("category", "社説"),
+        tier=source.get("tier", "regional"),
+        index_url=source["index_url"],
+        unavailable_reason=source.get("unavailable_reason"),
+    )
+
+
 def process_source(
     source: dict, reference_date: date, robots: RobotsChecker, fetch_times: bool = False,
     same_day_only: bool = False, window_days: int = DEFAULT_WINDOW_DAYS,
 ) -> SourceResult:
-    name = source["name"]
-    index_url = source["index_url"]
-    category = source.get("category", "社説")
-    tier = source.get("tier", "regional")
-    unavailable_reason = source.get("unavailable_reason")
+    meta = source_meta(source)
+    index_url = meta["index_url"]
 
     if not robots.allows(index_url):
-        return SourceResult(
-            name=name, category=category, tier=tier, index_url=index_url,
-            skipped_by_robots=True, unavailable_reason=unavailable_reason,
-        )
+        return SourceResult(**meta, skipped_by_robots=True)
 
     try:
         html = fetch_html(index_url)
@@ -81,15 +88,9 @@ def process_source(
             items = [it for it in items if is_same_day(it.published, reference_date)]
         if fetch_times:
             enrich_missing_times(items, robots, reference_date)
-        return SourceResult(
-            name=name, category=category, tier=tier, index_url=index_url,
-            items=items, unavailable_reason=unavailable_reason,
-        )
+        return SourceResult(**meta, items=items)
     except Exception as exc:  # noqa: BLE001 - 1ソースの失敗で全体を止めない
-        return SourceResult(
-            name=name, category=category, tier=tier, index_url=index_url,
-            error=str(exc), unavailable_reason=unavailable_reason,
-        )
+        return SourceResult(**meta, error=str(exc))
 
 
 def _iter_results(
@@ -110,6 +111,14 @@ def _iter_results(
             time.sleep(robots.interval_after(source["index_url"]))
 
 
+def source_status_label(result: SourceResult) -> str:
+    return (
+        "ROBOTS_DISALLOWED" if result.skipped_by_robots else
+        f"ERROR: {result.error}" if result.error else
+        f"OK ({len(result.items)} 件)"
+    )
+
+
 def run_check(only: list[str] | None) -> int:
     sources = load_sources(only)
     robots = RobotsChecker()
@@ -117,14 +126,9 @@ def run_check(only: list[str] | None) -> int:
 
     had_problem = False
     for result in _iter_results(sources, reference_date, robots, fetch_times=False):
-        status = (
-            "ROBOTS_DISALLOWED" if result.skipped_by_robots else
-            f"ERROR: {result.error}" if result.error else
-            f"OK ({len(result.items)} 件)"
-        )
         if result.skipped_by_robots or result.error or not result.items:
             had_problem = True
-        print(f"[{result.name}] {status}  <- {result.index_url}")
+        print(f"[{result.name}] {source_status_label(result)}  <- {result.index_url}")
     return 1 if had_problem else 0
 
 

@@ -6,13 +6,13 @@ from __future__ import annotations
 import re
 import time
 from dataclasses import dataclass
-from datetime import date, datetime
+from datetime import date
 from urllib.parse import urljoin
 
 from bs4 import BeautifulSoup
 
 from fetch import fetch_html
-from pubdate import DEFAULT_WINDOW_DAYS, JST, parse_published_date, parse_published_time, within_window
+from pubdate import DEFAULT_WINDOW_DAYS, parse_iso8601_utc, parse_published_date, parse_published_time, within_window
 from robots import RobotsChecker
 
 # <time>タグが無いサイト向けのフォールバック: 本文中の「日付+時刻」表記
@@ -39,16 +39,8 @@ def _published_from_date_node(date_node) -> str | None:
         return None
     raw = date_node.get("datetime")
     if raw:
-        v = raw.strip()
-        if v.endswith("Z"):
-            v = v[:-1] + "+00:00"
-        try:
-            dt = datetime.fromisoformat(v)
-        except ValueError:
-            dt = None
+        dt = parse_iso8601_utc(raw.strip())
         if dt is not None:
-            if dt.tzinfo is not None:
-                dt = dt.astimezone(JST)
             return f"{dt.year}/{dt.month}/{dt.day} {dt.hour}:{dt.minute:02d}"
     return date_node.get_text(strip=True)
 
@@ -119,11 +111,8 @@ def _time_from_datetime_attr(value: str | None) -> str | None:
         return None
     v = value.strip()
     if v.endswith("Z"):
-        try:
-            dt = datetime.fromisoformat(v.replace("Z", "+00:00")).astimezone(JST)
-            return f"{dt.hour:02d}:{dt.minute:02d}"
-        except ValueError:
-            return None
+        dt = parse_iso8601_utc(v)
+        return f"{dt.hour:02d}:{dt.minute:02d}" if dt is not None else None
     return parse_published_time(v)
 
 
