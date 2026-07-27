@@ -20,7 +20,7 @@ import sys
 import time
 from collections.abc import Iterator
 from dataclasses import asdict, dataclass, field
-from datetime import date, datetime
+from datetime import date
 from pathlib import Path
 
 import yaml
@@ -28,7 +28,7 @@ import yaml
 import render
 from extract import Item, enrich_missing_times, extract_items
 from fetch import fetch_html
-from pubdate import DEFAULT_WINDOW_DAYS, JST, is_same_day, today_jst
+from pubdate import DEFAULT_WINDOW_DAYS, is_same_day, today_jst
 from robots import RobotsChecker
 
 SOURCES_FILE = Path(__file__).parent / "sources.yaml"
@@ -138,8 +138,7 @@ def run_today(only: list[str] | None, run_date: date) -> int:
     html_path = OUTPUT_DIR / "today.html"
 
     write_json(json_path, run_date, results)
-    generated_at = datetime.now(JST)
-    html_path.write_text(render.render_today_html(results, run_date, generated_at), encoding="utf-8")
+    html_path.write_text(render.render_today_html(results, run_date), encoding="utf-8")
 
     total_items = sum(len(r.items) for r in results)
     ok = sum(1 for r in results if not r.error and not r.skipped_by_robots)
@@ -156,8 +155,7 @@ def run_archive_page() -> int:
     """
     OUTPUT_DIR.mkdir(exist_ok=True)
     html_path = OUTPUT_DIR / "archive.html"
-    generated_at = datetime.now(JST)
-    html_path.write_text(render.render_archive_html(generated_at), encoding="utf-8")
+    html_path.write_text(render.render_archive_html(), encoding="utf-8")
     print(f"アーカイブ検索ページを生成しました -> {html_path}")
     return 0
 

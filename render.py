@@ -14,7 +14,7 @@ from __future__ import annotations
 import html
 from collections import defaultdict
 from dataclasses import dataclass
-from datetime import date, datetime
+from datetime import date
 
 from pubdate import parse_published_date, parse_published_time
 
@@ -61,7 +61,9 @@ body {
 header.masthead { padding: 2.25rem 1.25rem 1.25rem; border-bottom: 1px solid var(--rule); }
 .masthead-top { display: flex; align-items: center; justify-content: space-between; gap: 0.75rem; margin: 0 0 0.5rem; }
 .eyebrow { font-size: 0.72rem; letter-spacing: 0.14em; color: var(--ink-faint); text-transform: uppercase; margin: 0; }
-.updated-at { margin: 0; flex: none; font-size: 0.72rem; color: var(--ink-faint); font-variant-numeric: tabular-nums; }
+.crosslink { margin: 0; flex: none; font-size: 0.72rem; }
+.crosslink a { color: var(--accent); text-decoration: none; font-weight: 600; }
+.crosslink a:hover { text-decoration: underline; }
 h1 {
   font-family: "Hiragino Mincho ProN","Yu Mincho","Noto Serif JP",serif;
   font-weight: 600; font-size: 1.85rem; line-height: 1.35; margin: 0 0 0.65rem; text-wrap: balance; letter-spacing: 0.01em;
@@ -722,25 +724,18 @@ def _render_footer(run_date: date, note: str, unavailable_footer: str = "") -> s
         '    <p>内容の正確性は保証しません（記事削除等でリンク切れの場合あり）。「会員限定」表示も参考情報です。</p>\n'
         '    <p>一部の新聞社は、サイト側の意向により対象外としています。</p>\n'
         f'{extra_line}'
-        '    <p><a href="archive.html">過去の社説をアーカイブ検索</a></p>\n'
         f'    <p>ご連絡・削除のご依頼は <a href="mailto:{CONTACT_EMAIL}">{CONTACT_EMAIL}</a> まで。</p>'
     )
 
 
-def _render_updated_at(generated_at: datetime | None) -> str:
-    if generated_at is None:
-        return ""
-    return (
-        f'<p class="updated-at">UPDATED {generated_at.month}/{generated_at.day} '
-        f'{generated_at.hour:02d}:{generated_at.minute:02d}</p>'
-    )
+def _render_crosslink(href: str, label: str) -> str:
+    return f'<p class="crosslink"><a href="{href}">{label}</a></p>'
 
 
 def _render_page(
     *, title: str, description: str, canonical_path: str, eyebrow: str, heading: str,
-    summary_html: str, nav_html: str, main_html: str, footer_html: str,
-    generated_at: datetime | None, script: str = _SCRIPT_TEMPLATE,
-    scope_toggle_html: str | None = None,
+    crosslink_html: str, summary_html: str, nav_html: str, main_html: str, footer_html: str,
+    script: str = _SCRIPT_TEMPLATE, scope_toggle_html: str | None = None,
 ) -> str:
     """当日版・アーカイブ検索に共通のページ骨格（head/masthead/
     footer/script）を組み立てる。異なる部分（見出し・概要・ナビ・本文・フッター
@@ -786,7 +781,7 @@ def _render_page(
   <header class="masthead">
     <div class="masthead-top">
       <p class="eyebrow">{eyebrow}</p>
-      {_render_updated_at(generated_at)}
+      {crosslink_html}
     </div>
     <h1>{heading}</h1>
 {summary_html}
@@ -808,7 +803,7 @@ def _render_page(
 '''
 
 
-def render_today_html(results: list, run_date: date, generated_at: datetime | None = None) -> str:
+def render_today_html(results: list, run_date: date) -> str:
     """SourceResult のリストから run_date当日分のみのWebページ (output/today.html) を
     組み立てる。
 
@@ -845,13 +840,13 @@ def render_today_html(results: list, run_date: date, generated_at: datetime | No
                      "本日分のタイトル・リンク・日付のみを掲載し、本文は各紙サイトでご覧いただけます。",
         canonical_path="",
         eyebrow="EDITORIAL DIGEST · TODAY",
+        crosslink_html=_render_crosslink("archive.html", "アーカイブ検索へ"),
         heading="本日の社説<br>まとめ", summary_html=summary_html,
         nav_html="", main_html=section, footer_html=footer_html,
-        generated_at=generated_at,
     )
 
 
-def render_archive_html(generated_at: datetime | None = None) -> str:
+def render_archive_html() -> str:
     """アーカイブ検索ページ (output/archive.html) を組み立てる。
 
     当日版と異なり、記事データはビルド時に埋め込まない。
@@ -895,7 +890,6 @@ def render_archive_html(generated_at: datetime | None = None) -> str:
         '    <p>社説まとめツールが自動生成。個人利用目的の非公式リンク集で、著作権は各社に帰属します。</p>\n'
         '    <p>内容の正確性は保証しません（記事削除等でリンク切れの場合あり）。「会員限定」表示も参考情報です。</p>\n'
         '    <p>一部の新聞社は、サイト側の意向により対象外としています。</p>\n'
-        '    <p><a href=".">本日の社説まとめへ</a></p>\n'
         f'    <p>ご連絡・削除のご依頼は <a href="mailto:{CONTACT_EMAIL}">{CONTACT_EMAIL}</a> まで。</p>'
     )
 
@@ -905,8 +899,9 @@ def render_archive_html(generated_at: datetime | None = None) -> str:
                      "タイトル・リンク・日付のみを収集し、本文は掲載していません。",
         canonical_path="archive.html",
         eyebrow="EDITORIAL DIGEST · ARCHIVE",
+        crosslink_html=_render_crosslink(".", "本日の社説まとめへ"),
         heading="社説まとめ<br>アーカイブ検索", summary_html=summary_html,
         nav_html="", main_html=main_html, footer_html=footer_html,
-        generated_at=generated_at, script=_ARCHIVE_SCRIPT_TEMPLATE,
+        script=_ARCHIVE_SCRIPT_TEMPLATE,
         scope_toggle_html="",
     )
