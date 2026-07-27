@@ -215,6 +215,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞中国軍の演習　無謀な台湾封鎖許されぬ",
+          "link": "https://www.sankei.com/article/20250406-AABUQBRERRK3ZB3QLSVSP5SXAY/",
+          "published": "2025/4/6 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞日本郵政　統治の不全が目にあまる",
+          "link": "https://www.sankei.com/article/20250406-PGWTTDXCXRMGVKFB7BYIEPHLXY/",
+          "published": "2025/4/6 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

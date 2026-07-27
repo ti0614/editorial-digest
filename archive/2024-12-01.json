@@ -219,6 +219,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞中国総領事の投稿　日本の選挙に干渉するな",
+          "link": "https://www.sankei.com/article/20241201-6PUETGF7UBJV3J6NLU3IR3IE5M/",
+          "published": "2024/12/1 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞基礎年金の底上げ　課題隠さず丁寧な説明を",
+          "link": "https://www.sankei.com/article/20241201-ZJMM3BUTR5IUDPLDNGUU6OHX2Y/",
+          "published": "2024/12/1 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

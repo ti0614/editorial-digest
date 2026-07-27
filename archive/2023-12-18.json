@@ -139,6 +139,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【主張】いじめに「花丸」　被害の訴え蔑ろにするな",
+          "link": "https://www.sankei.com/article/20231218-7KZMNH4KEZI7PNNVOMFLNPOEOM/",
+          "published": "2023/12/18 5:00",
+          "paid": false
+        },
+        {
+          "title": "【主張】学術会議法人化案　反省なき税金投入だめだ",
+          "link": "https://www.sankei.com/article/20231218-D2KE5AU725IV3AGF4HEDWX2OOU/",
+          "published": "2023/12/18 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

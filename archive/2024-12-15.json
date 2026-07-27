@@ -225,6 +225,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞尹氏の弾劾可決　北の工作への警戒強めよ",
+          "link": "https://www.sankei.com/article/20241215-6CQZPKTKRVIDPP4RNA5PCNCDWM/",
+          "published": "2024/12/15 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞認知症基本計画　本人参加できる街を作れ",
+          "link": "https://www.sankei.com/article/20241215-G2YABVRMXFKKNAIUS266FG6CUY/",
+          "published": "2024/12/15 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

@@ -254,6 +254,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞国安法施行5年　香港抵抗の火は消せない",
+          "link": "https://www.sankei.com/article/20250629-4CRYJYGATNPKHEJRDMPRRIVWBE/",
+          "published": "2025/6/29 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞中東の停戦　国内厳重警備を緩めるな",
+          "link": "https://www.sankei.com/article/20250629-NPIEBNPOQ5PL5DSVT343XZOL3Y/",
+          "published": "2025/6/29 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

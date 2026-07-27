@@ -242,6 +242,23 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞臨時国会閉幕　問題先送りで大丈夫か　安全保障をもっと議論せよ",
+          "link": "https://www.sankei.com/article/20241225-XMBKNAOJZZKY5DMOMA7ASDSE4I/",
+          "published": "2024/12/25 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

@@ -290,6 +290,52 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "読売新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.yomiuri.co.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "首都直下地震　「電気火災」をいかに減らすか",
+          "link": "https://www.yomiuri.co.jp/editorial/20260621-GYT1T00266/",
+          "published": "2026/6/22 5:00",
+          "paid": false
+        },
+        {
+          "title": "派遣業カルテル　賃上げの機運に乗じた不正だ",
+          "link": "https://www.yomiuri.co.jp/editorial/20260621-GYT1T00263/",
+          "published": "2026/6/22 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞検察「立証せず」　なぜ決断を先送りしたか",
+          "link": "https://www.sankei.com/article/20260622-6N3E7JRM7NKYNOIBZXTNIH4PCU/",
+          "published": "2026/6/22 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞首都直下地震　国は減災の実現に責任を",
+          "link": "https://www.sankei.com/article/20260622-LQZ7VF65B5IRJKUBRPK33GHWDY/",
+          "published": "2026/6/22 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

@@ -266,6 +266,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞統合作戦司令部　抑止力向上へつなげたい",
+          "link": "https://www.sankei.com/article/20250325-CAR3OBSPRVPWHNAHNKAYGFVF3M/",
+          "published": "2025/3/25 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞「風邪」を5類に　未知の感染症迅速把握を",
+          "link": "https://www.sankei.com/article/20250325-XTLVELABANPZTOIST65RHR6WEU/",
+          "published": "2025/3/25 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

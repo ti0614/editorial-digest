@@ -289,6 +289,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞ハーバード大圧迫　留学生まで巻き込むのか",
+          "link": "https://www.sankei.com/article/20250530-3LK5IGM5TZNUZAQMCK4LYX2YG4/",
+          "published": "2025/5/30 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞経団連の新会長　賃上げの継続を主導せよ",
+          "link": "https://www.sankei.com/article/20250530-YNIOAIH6ZRIAZOVJMHSPJYZNVI/",
+          "published": "2025/5/30 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

@@ -259,6 +259,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞政治とカネ　再発防止策も丁寧に語れ",
+          "link": "https://www.sankei.com/article/20241011-DR2B2U63YFPI3ED6H4HTFQGRQA/",
+          "published": "2024/10/11 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞東大の授業料　値上げに見合う競争力を",
+          "link": "https://www.sankei.com/article/20241011-VY3H6Z5DPNICXBOS2PKWMG2BEE/",
+          "published": "2024/10/11 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

@@ -306,6 +306,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞抗日軍事パレード　中露朝の秩序変更許すな",
+          "link": "https://www.sankei.com/article/20250904-232XCPPL7VISVLHBHIIFACVU5Y/",
+          "published": "2025/9/4 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞WBCネット独占　茶の間の視聴守る方策を",
+          "link": "https://www.sankei.com/article/20250904-SLL4XSQYPFKMJBY6YVFLR5FOXY/",
+          "published": "2025/9/4 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

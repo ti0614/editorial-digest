@@ -253,6 +253,23 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞国民の審判　首相の居座りは許されぬ　直ちに辞職し新総裁選出を",
+          "link": "https://www.sankei.com/article/20241029-CEB23AAJIJPI7NMIRKWA2U4OUQ/",
+          "published": "2024/10/29 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

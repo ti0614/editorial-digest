@@ -232,6 +232,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞日米防衛相会談　同盟の力で対中抑止図れ",
+          "link": "https://www.sankei.com/article/20250331-WPEB3PKDS5PNXO7MPVKQCJYQQM/",
+          "published": "2025/3/31 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞ミャンマー大地震　国際社会は全力で救援を",
+          "link": "https://www.sankei.com/article/20250331-NK2JSRQ46RNU3FRFSLS4RPZ7QI/",
+          "published": "2025/3/31 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

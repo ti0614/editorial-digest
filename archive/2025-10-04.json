@@ -283,6 +283,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞再制裁下のイラン　核計画放棄へ協議に戻れ",
+          "link": "https://www.sankei.com/article/20251004-BYRPUGIRVZJTTON2CYJLQQJ7HU/",
+          "published": "2025/10/4 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞危険運転の基準　社会常識との乖離解消を",
+          "link": "https://www.sankei.com/article/20251004-LNGX74LJOVJ6VJI3UOMLRI7IBU/",
+          "published": "2025/10/4 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

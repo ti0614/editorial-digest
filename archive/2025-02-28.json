@@ -289,6 +289,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞国連の決議　侵略者への配慮は無用だ",
+          "link": "https://www.sankei.com/article/20250228-2AXZSOM53JNKRDRZ4PXAOSVYFQ/",
+          "published": "2025/2/28 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞会計責任者の発言　自民党は重く受け止めよ",
+          "link": "https://www.sankei.com/article/20250228-JFBIJZAQRRMPFHY3SWZFDZJZUE/",
+          "published": "2025/2/28 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

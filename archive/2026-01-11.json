@@ -289,6 +289,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞日韓首脳が会談へ　中国の分断攻勢を退けよ",
+          "link": "https://www.sankei.com/article/20260111-AALHSTJUARPZPEGJVZDNXS6UCU/",
+          "published": "2026/1/11 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞冒頭解散論が浮上　政策推進力得る選択肢だ",
+          "link": "https://www.sankei.com/article/20260111-NCYQCOOW45MRNCNMQMZ5CGEFRE/",
+          "published": "2026/1/11 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

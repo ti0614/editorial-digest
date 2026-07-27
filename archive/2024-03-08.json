@@ -196,6 +196,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞日産が下請法違反　業界全体で重くとらえよ　",
+          "link": "https://www.sankei.com/article/20240308-M44N63MXH5JEDORB7P2GB2QD2Y/",
+          "published": "2024/3/8 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞国際女性デー　能力発揮しやすい社会に",
+          "link": "https://www.sankei.com/article/20240308-YCWFTTQAGVKL7KHK3REFRH2UDY/",
+          "published": "2024/3/8 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

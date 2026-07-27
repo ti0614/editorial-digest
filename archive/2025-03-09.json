@@ -203,6 +203,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞新幹線の連結分離　安全神話揺るがす事故だ",
+          "link": "https://www.sankei.com/article/20250309-BNG75U56ZJNNPHJB6LY3YZRCAY/",
+          "published": "2025/3/9 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞東京大空襲「80年」　惨禍許さぬ誓いと対策を",
+          "link": "https://www.sankei.com/article/20250309-GVHKXXPSCVICPAL4BKAEQPSYTI/",
+          "published": "2025/3/9 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

@@ -179,6 +179,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞中間貯蔵施設　核燃サイクルの助っ人だ",
+          "link": "https://www.sankei.com/article/20240825-CXC57FFTIBLABKXRDGHJHMLTUY/",
+          "published": "2024/8/25 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞全面侵攻2年半　結束強めウクライナ守れ",
+          "link": "https://www.sankei.com/article/20240825-TCVL6DI4ZFNZPAQE76YCTFMRUQ/",
+          "published": "2024/8/25 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

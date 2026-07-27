@@ -207,6 +207,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞未解決事件　突破口は必ずあるはずだ",
+          "link": "https://www.sankei.com/article/20241231-Q73UKZGWFNPTJKA65LVDIINRLA/",
+          "published": "2024/12/31 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞マカオ返還25年　香港統治の先例にするな",
+          "link": "https://www.sankei.com/article/20241231-RGQ6XKQ4URMUBNYEF4EJ3SAEHQ/",
+          "published": "2024/12/31 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

@@ -283,6 +283,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞山手線ストップ　鉄道の「本業」に立ち戻れ　揺らぐ「安全神話」",
+          "link": "https://www.sankei.com/article/20260118-ODLUXAGORVNQDJ4MAVZQWD52CQ/",
+          "published": "2026/1/18 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞大阪ダブル選　都構想挑戦急ぎすぎでは",
+          "link": "https://www.sankei.com/article/20260118-Y5TDNPLOENNMBC2A6TCJ3XTVKM/",
+          "published": "2026/1/18 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

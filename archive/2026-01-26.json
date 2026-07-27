@@ -260,6 +260,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞日本のレアアース　資源大国への一大転機に",
+          "link": "https://www.sankei.com/article/20260126-PONBUGTZK5IFXBXFC5O3S4KW3I/",
+          "published": "2026/1/26 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞次期学習指導要領　防衛の大切さ明記したい",
+          "link": "https://www.sankei.com/article/20260126-7APIEHGU6NLS3CNNJTVMFOYSA4/",
+          "published": "2026/1/26 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

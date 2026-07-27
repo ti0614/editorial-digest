@@ -207,6 +207,23 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞自民総裁に石破氏　保守の精神踏まえ前進を　外交安保政策の継承が重要だ",
+          "link": "https://www.sankei.com/article/20240928-ZQWPFHRUFBPALP3NUGABOBDVAI/",
+          "published": "2024/9/28 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

@@ -196,6 +196,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞日比２プラス２　新協定で対中抑止強化を",
+          "link": "https://www.sankei.com/article/20240709-NHPJVK45TJKHRHKBBU4WEKFPFM/",
+          "published": "2024/7/9 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞障害者ホーム不正　チェック体制見直し図れ",
+          "link": "https://www.sankei.com/article/20240709-SXHDJWAGRNJZZDXKAOYEDN5D34/",
+          "published": "2024/7/9 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

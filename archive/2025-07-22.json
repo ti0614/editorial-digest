@@ -294,6 +294,23 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞首相が続投表明　即時退陣を改めて求める　立民は不信任案提出へ動け",
+          "link": "https://www.sankei.com/article/20250722-JTFH7FO75FL5BPFTT2RZFCJERY/",
+          "published": "2025/7/22 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

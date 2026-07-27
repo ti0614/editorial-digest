@@ -289,6 +289,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞フジHD株主総会　新体制で着実に再生図れ",
+          "link": "https://www.sankei.com/article/20250626-77MBQBUBU5NPJCB5MBBA6AU4BA/",
+          "published": "2025/6/26 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞市販品類似薬　保険適用の見直し急務だ",
+          "link": "https://www.sankei.com/article/20250626-NVOJW5TERBIS7LA46P7YSQRS3E/",
+          "published": "2025/6/26 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

@@ -283,6 +283,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞別姓法案審議入り　立民と国民案に反対する",
+          "link": "https://www.sankei.com/article/20250531-SSDNEQSGRVN4NKVPIDDMIK5L44/",
+          "published": "2025/5/31 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞沖ノ鳥島　中国は不当な活動やめよ",
+          "link": "https://www.sankei.com/article/20250531-YG4AT3F35RLJJDRO7WE2MM4UNU/",
+          "published": "2025/5/31 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

@@ -327,6 +327,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞後発地震情報　油断せず避難に備えたい",
+          "link": "https://www.sankei.com/article/20260422-34F7AYIOR5OLBPG6F2AQSLMR5I/",
+          "published": "2026/4/22 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞武器輸出の解禁　平和守る決定を歓迎する",
+          "link": "https://www.sankei.com/article/20260422-XQTVWWR6MVN7BODME6Y7FCBFBA/",
+          "published": "2026/4/22 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

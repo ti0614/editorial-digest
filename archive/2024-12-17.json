@@ -259,6 +259,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞英国のTPP加盟　地政学上の意義も大きい",
+          "link": "https://www.sankei.com/article/20241217-BCUIRQUBZNLPJAFVS3EDJ5E7GQ/",
+          "published": "2024/12/17 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞中学生殺傷　絶対に検挙すべき事件だ",
+          "link": "https://www.sankei.com/article/20241217-RP2UNBCNHJLC3IJ23UTODTK3JM/",
+          "published": "2024/12/17 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

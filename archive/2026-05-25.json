@@ -283,6 +283,52 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "読売新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.yomiuri.co.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "ふるさと納税　地域活性化の原点に立ち返れ",
+          "link": "https://www.yomiuri.co.jp/editorial/20260524-GYT1T00230/",
+          "published": "2026/5/25 5:00",
+          "paid": false
+        },
+        {
+          "title": "航空宇宙自衛隊　組織再編を監視能力の向上に",
+          "link": "https://www.yomiuri.co.jp/editorial/20260524-GYT1T00229/",
+          "published": "2026/5/25 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞日本郵便の汚職　統治不全の根が深すぎる",
+          "link": "https://www.sankei.com/article/20260525-OXT47IBIARNQTDTMQCNPG3PTIU/",
+          "published": "2026/5/25 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞米の市長を訴追　中国のスパイに用心せよ",
+          "link": "https://www.sankei.com/article/20260525-FWXHGUJ6DJLDVNT4RTDIRSQRJU/",
+          "published": "2026/5/25 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

@@ -352,6 +352,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞ガソリン減税合意　与野党は財源に責任持て",
+          "link": "https://www.sankei.com/article/20251106-MJFOURUS4NKBLCVBPJ3CQO3UHE/",
+          "published": "2025/11/6 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞外国人政策の会議　毅然とした姿勢で行動を",
+          "link": "https://www.sankei.com/article/20251106-VAMDFTUH2VPYPP2PTK65YWE6KM/",
+          "published": "2025/11/6 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

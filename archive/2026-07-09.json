@@ -55,7 +55,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "皇室典範改正案　審議を徹底して問題点ただせ",
+          "link": "https://www.yomiuri.co.jp/editorial/20260708-GYT1T00517/",
+          "published": "2026/7/9 5:00",
+          "paid": false
+        },
+        {
+          "title": "ベネズエラ地震　災難続く人々へ支援急ぎたい",
+          "link": "https://www.yomiuri.co.jp/editorial/20260708-GYT1T00520/",
+          "published": "2026/7/9 5:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "日本経済新聞",
@@ -88,7 +101,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "＜主張＞リニア着工容認　国と自治体は積極支援を",
+          "link": "https://www.sankei.com/article/20260709-L4THABG7TNPE5MIVW32ML6URJM/",
+          "published": "2026/7/9 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞終盤国会　皇室典範の改正を確実に",
+          "link": "https://www.sankei.com/article/20260709-PEFO6DAG3NJ75JWIG46RAZ22HY/",
+          "published": "2026/7/9 5:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "東京新聞",

@@ -202,6 +202,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞海自艦の初通過　台湾海峡航行の自由守れ",
+          "link": "https://www.sankei.com/article/20240930-OJS2JABNR5OK5OCH6HLAITAGUA/",
+          "published": "2024/9/30 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞EV電池への投資　半導体の失敗を忘れずに",
+          "link": "https://www.sankei.com/article/20240930-TP5KYLHEMRN5RKLPNEORCFG7IU/",
+          "published": "2024/9/30 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

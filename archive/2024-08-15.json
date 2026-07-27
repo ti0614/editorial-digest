@@ -173,6 +173,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞岸田氏が不出馬へ　総裁選で信頼回復を図れ　首相は外交安保で業績挙げた",
+          "link": "https://www.sankei.com/article/20240815-2AGKVEDHWRKM3HO42QFVVV5FKQ/",
+          "published": "2024/8/15 5:00",
+          "paid": false
+        },
+        {
+          "title": "全ての御霊安らかなれ　靖国神社参拝は戦没者との約束だ　論説委員長　榊原智　",
+          "link": "https://www.sankei.com/article/20240815-VSTWEVBTLBPBJEK457UC4LR4W4/",
+          "published": "2024/8/15 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

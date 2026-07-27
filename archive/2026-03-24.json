@@ -334,6 +334,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞ホンダが初の赤字　EV戦略の練り直し急げ",
+          "link": "https://www.sankei.com/article/20260324-Z5PTEDUJVJLEJPNL7M5I776LEA/",
+          "published": "2026/3/24 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞米上院の同盟決議　超党派の採択を歓迎する",
+          "link": "https://www.sankei.com/article/20260324-5UYK47YL7ZJ7JG6OBZ3CU53ZFA/",
+          "published": "2026/3/24 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

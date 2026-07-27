@@ -219,6 +219,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞中国の核戦力増強　先制使用の脅威に備えよ",
+          "link": "https://www.sankei.com/article/20241223-3VR37D75NBMN7DWAU3J7E6MPT4/",
+          "published": "2024/12/23 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞貸金庫窃盗　三菱UFJの責任は重い",
+          "link": "https://www.sankei.com/article/20241223-DX64D2PAUJLTZEMWFLGLCRV5OY/",
+          "published": "2024/12/23 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

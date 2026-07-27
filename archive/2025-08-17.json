@@ -260,6 +260,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞米露首脳会談　プーチン氏を喜ばせるな",
+          "link": "https://www.sankei.com/article/20250817-5RMUJ6DZWZJTTHIULWR7JTDQEY/",
+          "published": "2025/8/17 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞増える水の事故　プールの授業で身を守れ",
+          "link": "https://www.sankei.com/article/20250817-FIWLV76FQBNK7AC4DRCJTCZMEQ/",
+          "published": "2025/8/17 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

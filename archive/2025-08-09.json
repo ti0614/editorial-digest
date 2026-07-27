@@ -288,6 +288,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞ソ連の対日参戦　露の不法行為を忘れるな",
+          "link": "https://www.sankei.com/article/20250809-2LM3GTBRYFISBHGI77H4ZRYSKQ/",
+          "published": "2025/8/9 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞米の対日関税修正　合意の履行へ火種は残る",
+          "link": "https://www.sankei.com/article/20250809-XVUL4KN4ARO47ID5U7I3HLT24I/",
+          "published": "2025/8/9 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

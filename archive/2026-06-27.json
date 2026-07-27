@@ -55,7 +55,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "株主総会　経営陣との建設的な討議に",
+          "link": "https://www.yomiuri.co.jp/editorial/20260627-GYT1T00034/",
+          "published": "2026/6/27 5:00",
+          "paid": false
+        },
+        {
+          "title": "ＳＮＳと選挙　広告収入の法規制も検討急げ",
+          "link": "https://www.yomiuri.co.jp/editorial/20260627-GYT1T00035/",
+          "published": "2026/6/27 5:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "日本経済新聞",
@@ -88,7 +101,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "＜主張＞旧統一教会　解散命令確定で清算急げ",
+          "link": "https://www.sankei.com/article/20260627-PTG65KISZNIHLAEE5F6YBQ4XAI/",
+          "published": "2026/6/27 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞官民投資370兆円　効果見極め戦略的展開を",
+          "link": "https://www.sankei.com/article/20260627-7A3UXJJYG5NGBBNSFMBRZTTAYM/",
+          "published": "2026/6/27 5:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "東京新聞",

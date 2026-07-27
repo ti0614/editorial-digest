@@ -346,6 +346,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞東電の新再建計画　収益力高め「責任」果たせ",
+          "link": "https://www.sankei.com/article/20260213-4YQ3N3DVLRNHTJYREQEBXWFDPA/",
+          "published": "2026/2/13 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞新START失効　中国も軍縮協議に応じよ",
+          "link": "https://www.sankei.com/article/20260213-BQVYYJDQEBNMVLN52OB7OXQWZI/",
+          "published": "2026/2/13 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

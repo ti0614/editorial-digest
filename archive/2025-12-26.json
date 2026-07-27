@@ -317,6 +317,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞留学生の学費　支援拡充へ値上げ妥当だ",
+          "link": "https://www.sankei.com/article/20251226-UTW6KAMRX5N5JGSY4DEYBTTPSY/",
+          "published": "2025/12/26 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞尾崎将司さん死去　スポーツ界の巨星を悼む　ゴルフを国民的娯楽に押し上げた",
+          "link": "https://www.sankei.com/article/20251226-4HSQXVS4ZRNULNH4Y7BYLDSJJI/",
+          "published": "2025/12/26 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

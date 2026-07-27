@@ -289,6 +289,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞朝鮮労働党大会　核の保有は認められない",
+          "link": "https://www.sankei.com/article/20260309-JCZMIPTAZNMLNBSQFLPGKHEA4E/",
+          "published": "2026/3/9 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞日本への世論工作　外国勢力の干渉を許すな",
+          "link": "https://www.sankei.com/article/20260309-YB6BS7FEPZK43BY64ZR2NKQWRQ/",
+          "published": "2026/3/9 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

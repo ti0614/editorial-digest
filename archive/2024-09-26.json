@@ -219,6 +219,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞原子力規制委　効率性と対等性の新風を",
+          "link": "https://www.sankei.com/article/20240926-AQHBAUMRHNLZVFVJHEETKKZXU4/",
+          "published": "2024/9/26 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞日本人児童刺殺　中国政府の態度は誤りだ",
+          "link": "https://www.sankei.com/article/20240926-Z5CMF3YNN5N2DNEWG6VIYGEZSA/",
+          "published": "2024/9/26 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

@@ -329,6 +329,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞ガザの人質解放　停戦崩壊させてはならぬ",
+          "link": "https://www.sankei.com/article/20251015-2ITE7EXIKRMRHHN6ZHWJTCDVTE/",
+          "published": "2025/10/15 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞国際教員調査　情熱を削がぬ改革進めよ",
+          "link": "https://www.sankei.com/article/20251015-5SM7U53RYJK63FEK645HY4FMYI/",
+          "published": "2025/10/15 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

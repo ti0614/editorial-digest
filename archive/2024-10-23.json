@@ -259,6 +259,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞衆院選と憲法改正　国民を守る議論が必要だ",
+          "link": "https://www.sankei.com/article/20241023-4TSIMX5DMBJVRJQT6WMJYJJZVI/",
+          "published": "2024/10/23 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞闇バイト強盗多発　凶悪犯とならないために",
+          "link": "https://www.sankei.com/article/20241023-TI6BY4RUSFLENGFSADKTKMOR7Y/",
+          "published": "2024/10/23 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

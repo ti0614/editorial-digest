@@ -242,6 +242,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞日本学術会議　抜本改革になっていない",
+          "link": "https://www.sankei.com/article/20241224-UXJ6HYNTTRKVJBKXCLUIDU54DI/",
+          "published": "2024/12/24 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞シー・シェパード　釈放は日本外交の敗北だ",
+          "link": "https://www.sankei.com/article/20241224-WEKHGEL2OJNTFITS4WXWJG7OXI/",
+          "published": "2024/12/24 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

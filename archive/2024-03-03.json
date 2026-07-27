@@ -179,6 +179,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞ハッカー組織摘発　国際連携強め「脅威」叩け",
+          "link": "https://www.sankei.com/article/20240303-JJAMGIEP3ZMS3AGR3ORBCHDZFI/",
+          "published": "2024/3/3 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞出生数最少７５万人　首相はもっと危機感持て",
+          "link": "https://www.sankei.com/article/20240303-ZHZUEU7MFNIPLK5QHXOIWCCZTE/",
+          "published": "2024/3/3 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

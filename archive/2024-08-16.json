@@ -190,6 +190,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞南海トラフ地震　「半割れ」への対応進めよ",
+          "link": "https://www.sankei.com/article/20240816-JB5KYHBFL5OELLXHLZVFG2H6K4/",
+          "published": "2024/8/16 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞戦没者の遺骨　一柱でも多く帰国実現を",
+          "link": "https://www.sankei.com/article/20240816-PXF6MTMP3ZM5RKMEZC372O2I64/",
+          "published": "2024/8/16 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

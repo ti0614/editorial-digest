@@ -259,6 +259,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞能登地震の検証　被災者の命と尊厳を守れ",
+          "link": "https://www.sankei.com/article/20241127-7BA4KK3MPNODNG5RLBCR3JZUSE/",
+          "published": "2024/11/27 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞ロシアの核威嚇　プーチン氏の暴走許せぬ",
+          "link": "https://www.sankei.com/article/20241127-CMOTF3R47BMJNOIIBMBVBZ7AXU/",
+          "published": "2024/11/27 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

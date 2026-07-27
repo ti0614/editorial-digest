@@ -340,6 +340,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞年度内成立見送り　参院の存在感見せられず",
+          "link": "https://www.sankei.com/article/20260331-SRUN7S3FDFJITISCF6F2QR7ZOY/",
+          "published": "2026/3/31 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞ストーカー殺人　被害者守る制度見直しを",
+          "link": "https://www.sankei.com/article/20260331-I6MEJDGVFNK2FNZZOB76L6MVLI/",
+          "published": "2026/3/31 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

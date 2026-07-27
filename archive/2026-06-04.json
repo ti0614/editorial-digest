@@ -322,6 +322,52 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "読売新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.yomiuri.co.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "大阪都構想　維新の「奇策」に違和感が残る",
+          "link": "https://www.yomiuri.co.jp/editorial/20260603-GYT1T00381/",
+          "published": "2026/6/4 5:00",
+          "paid": false
+        },
+        {
+          "title": "補正予算案決定　燃料代補助の縮小明確にせよ",
+          "link": "https://www.yomiuri.co.jp/editorial/20260603-GYT1T00384/",
+          "published": "2026/6/4 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞ふるさと納税　趣旨に沿う見直し必要だ",
+          "link": "https://www.sankei.com/article/20260604-YT4KORHQFBIQ7KLZRT4NL6ZLWY/",
+          "published": "2026/6/4 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞天安門事件37年　中国こそ歴史を直視せよ",
+          "link": "https://www.sankei.com/article/20260604-ZSLH6PL35RNIFPJ4MXH54WSBUA/",
+          "published": "2026/6/4 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

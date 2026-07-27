@@ -329,6 +329,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞高木と坂本の引退　拍手を偉業とその経緯に",
+          "link": "https://www.sankei.com/article/20260408-XIKNXCGRW5PDPMFN4QUDWXI3UQ/",
+          "published": "2026/4/8 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞8年度予算成立　首相はエネ情勢で会見を",
+          "link": "https://www.sankei.com/article/20260408-RYMJLFZ5TRMWRN5CJ3UTEKDKJM/",
+          "published": "2026/4/8 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

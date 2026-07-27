@@ -219,6 +219,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞バングラの混乱　民主政権の発足へ支援を",
+          "link": "https://www.sankei.com/article/20240827-F7U72RTN75IH5LEB3MBOPBHKM4/",
+          "published": "2024/8/27 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞教員「残業代」増　指導力の向上が不可欠だ",
+          "link": "https://www.sankei.com/article/20240827-IUNXK4G57VKLDBJPRMPI44LI7Y/",
+          "published": "2024/8/27 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

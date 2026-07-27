@@ -277,6 +277,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞外来生物法20年　侵略的植物から稲作守れ",
+          "link": "https://www.sankei.com/article/20251006-JR63RBCJQZOSHKKQZHB4L4Y6BY/",
+          "published": "2025/10/6 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞ガザの和平案　人質全員の解放が必要だ",
+          "link": "https://www.sankei.com/article/20251006-MXA7ECW6KVLW3AW4BQINP2CC6U/",
+          "published": "2025/10/6 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

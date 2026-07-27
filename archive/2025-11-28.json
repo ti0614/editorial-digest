@@ -335,6 +335,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞デフリンピック　大会が残す課題を財産に",
+          "link": "https://www.sankei.com/article/20251128-YOBWV7GVTNKTJMBJDCRDA7PJMQ/",
+          "published": "2025/11/28 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞G20首脳会議　分断で利するのはどこか",
+          "link": "https://www.sankei.com/article/20251128-SMWR4W7GMRMJLBFHEOO5HMKBVM/",
+          "published": "2025/11/28 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

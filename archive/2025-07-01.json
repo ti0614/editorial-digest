@@ -294,6 +294,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞生活保護判決　政府は丁寧な手順尽くせ",
+          "link": "https://www.sankei.com/article/20250701-KABR4TZD4JMVDKCKZOHGC2YCGQ/",
+          "published": "2025/7/1 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞橋本体制のJOC　半端な改革でごまかすな",
+          "link": "https://www.sankei.com/article/20250701-XRCB5GER2VPKLAGZYIC2OB7Y3Y/",
+          "published": "2025/7/1 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

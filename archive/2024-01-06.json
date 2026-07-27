@@ -156,6 +156,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞ネットの虚偽情報　救助活動阻む投稿一掃を",
+          "link": "https://www.sankei.com/article/20240106-2IY4QY7KYVPUFKJM4JCONGVZAE/",
+          "published": "2024/1/6 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞能登半島地震　医療の提供に全力挙げよ",
+          "link": "https://www.sankei.com/article/20240106-QW4LIKOZKJIZPPJAOFJQYXJTGE/",
+          "published": "2024/1/6 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

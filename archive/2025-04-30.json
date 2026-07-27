@@ -260,6 +260,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞共産の人殺し発言　自衛隊への侮辱許されぬ",
+          "link": "https://www.sankei.com/article/20250430-5CNGTHGMYVMQ3PXRSIG5WYQQUE/",
+          "published": "2025/4/30 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞北朝鮮の派兵公表　対露朝制裁を最大化せよ",
+          "link": "https://www.sankei.com/article/20250430-Y7BARAQ2VNPFRCUM7BJWBQCJGY/",
+          "published": "2025/4/30 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

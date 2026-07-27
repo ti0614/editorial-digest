@@ -340,6 +340,35 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "衆院選で与党圧勝　「戦後政治の大転換を」と産経　朝毎日東「白紙委任ではない」",
+          "link": "https://www.sankei.com/article/20260218-Z2SGRTSGUBO3VDSJF4OG5JXSNQ/",
+          "published": "2026/2/18 13:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞ルフィ幹部「無期」　非道の全貌明らかにせよ",
+          "link": "https://www.sankei.com/article/20260218-IPFAZZOAEFPL5FCGDZRNA5TAJE/",
+          "published": "2026/2/18 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞五輪史刻む大逆転　あきらめない尊さを学ぶ",
+          "link": "https://www.sankei.com/article/20260218-747OLQZKPRJ4XAFAN5AOQGIXXM/",
+          "published": "2026/2/18 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

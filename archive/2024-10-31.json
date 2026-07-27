@@ -225,6 +225,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞野田氏の支持要請　現実路線なしでは空論だ",
+          "link": "https://www.sankei.com/article/20241031-L4VASTN36ZJOBF4YXY6QB5RHE4/",
+          "published": "2024/10/31 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞再審長期化　検察の「不服」は見直しを",
+          "link": "https://www.sankei.com/article/20241031-RLJN6X2QONLKBODN34JY4VCUBM/",
+          "published": "2024/10/31 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

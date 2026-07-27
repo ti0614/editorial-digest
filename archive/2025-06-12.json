@@ -283,6 +283,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞公安の上告断念　速やかに謝罪し検証せよ",
+          "link": "https://www.sankei.com/article/20250612-M3GBACWITBLBRMLLOQL6EAALR4/",
+          "published": "2025/6/12 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞党首討論　回数増やし力量競い合え",
+          "link": "https://www.sankei.com/article/20250612-VBSBPZ3PGVOWTONLMAT2QXUUNM/",
+          "published": "2025/6/12 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

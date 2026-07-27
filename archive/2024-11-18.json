@@ -208,6 +208,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞危険運転致死傷罪　遺族感情に応える改正を",
+          "link": "https://www.sankei.com/article/20241118-4UPVNVBPQFJYXLR3R5DIIXNA7A/",
+          "published": "2024/11/18 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞兵庫知事に斎藤氏　疑惑対応と県政両立せよ",
+          "link": "https://www.sankei.com/article/20241118-CPPFSQYMVBOFTHBJLG2JVYH7D4/",
+          "published": "2024/11/18 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

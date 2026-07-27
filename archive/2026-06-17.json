@@ -346,6 +346,52 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "読売新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.yomiuri.co.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "首相のＧ７外交　備蓄策含め協調を主導せよ",
+          "link": "https://www.yomiuri.co.jp/editorial/20260616-GYT1T00369/",
+          "published": "2026/6/17 5:00",
+          "paid": false
+        },
+        {
+          "title": "日銀利上げ１％　物価高の抑制を重視した決断",
+          "link": "https://www.yomiuri.co.jp/editorial/20260616-GYT1T00372/",
+          "published": "2026/6/17 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞立民議員の妄言　自衛隊侮辱の神経を疑う",
+          "link": "https://www.sankei.com/article/20260617-REFXOLUOZ5NAFMYOCXWBBMJTKA/",
+          "published": "2026/6/17 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞日銀が利上げ　中東の影響見極め柔軟に",
+          "link": "https://www.sankei.com/article/20260617-5DOUNM7G55IXLGOQ37DFQWVHBQ/",
+          "published": "2026/6/17 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

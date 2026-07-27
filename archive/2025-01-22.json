@@ -253,6 +253,23 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞トランプ氏就任　米国は秩序の守護者たれ　石破氏は訪米急ぎ関係構築を",
+          "link": "https://www.sankei.com/article/20250122-5LECRM6V7FMSBOGQIW7VQTMT5M/",
+          "published": "2025/1/22 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

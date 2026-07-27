@@ -55,7 +55,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "南米ＥＰＡ交渉　日本主導で自由貿易広げたい",
+          "link": "https://www.yomiuri.co.jp/editorial/20260627-GYT1T00381/",
+          "published": "2026/6/28 5:00",
+          "paid": false
+        },
+        {
+          "title": "施設員の性加害　知的障害につけ込む卑劣さ",
+          "link": "https://www.yomiuri.co.jp/editorial/20260627-GYT1T00384/",
+          "published": "2026/6/28 5:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "日本経済新聞",
@@ -88,7 +101,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "＜主張＞熱帯性の感染症　清潔な環境整えて予防を",
+          "link": "https://www.sankei.com/article/20260628-E32MRWHJINPYRJ5DG6RF7S5N6E/",
+          "published": "2026/6/28 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞立民県議の暴言　自衛隊侮辱なぜ止まらぬ",
+          "link": "https://www.sankei.com/article/20260628-ZTC6Z2GK6VL65OOY2F6BBPVZOI/",
+          "published": "2026/6/28 5:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "東京新聞",

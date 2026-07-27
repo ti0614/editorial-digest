@@ -156,6 +156,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【主張】辺野古で代執行　国は着実に工事を進めよ",
+          "link": "https://www.sankei.com/article/20231229-EADLUDCVNRIUVEGCYV3GNFCJAY/",
+          "published": "2023/12/29 5:00",
+          "paid": false
+        },
+        {
+          "title": "【主張】柿沢議員を逮捕　徹底捜査で「買収」解明を",
+          "link": "https://www.sankei.com/article/20231229-PFMIGZ6TXVKYHOCUDUHEPBJFQY/",
+          "published": "2023/12/29 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

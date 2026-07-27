@@ -253,6 +253,23 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞第2次石破内閣　外交安全保障を忘れるな　信なき首相の続投は残念だ",
+          "link": "https://www.sankei.com/article/20241112-BIB4HX3FOBIO3FPQQTDDUGYGJY/",
+          "published": "2024/11/12 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

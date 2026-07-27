@@ -255,6 +255,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞日本人の入国禁止　露は理不尽な措置やめよ",
+          "link": "https://www.sankei.com/article/20251117-FLJAJFZXORIEFEH65E72DGR4HE/",
+          "published": "2025/11/17 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞首相の台湾発言　国民守る抑止力を高めた",
+          "link": "https://www.sankei.com/article/20251117-WREKP4CVSJPHBFZYQ3D4NQOQDA/",
+          "published": "2025/11/17 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

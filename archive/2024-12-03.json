@@ -259,6 +259,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞イプシロン事故　背景検証し信頼回復せよ",
+          "link": "https://www.sankei.com/article/20241203-PVGYEQPODNLUXMVCZ3HOYT3MCI/",
+          "published": "2024/12/3 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞マイナ保険証移行　混乱回避へ丁寧な説明を",
+          "link": "https://www.sankei.com/article/20241203-XD4LRTYSJBNTLBFHQRXCQ6DLYE/",
+          "published": "2024/12/3 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

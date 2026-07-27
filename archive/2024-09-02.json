@@ -190,6 +190,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞子供の自殺　安心な「居場所」を地域に",
+          "link": "https://www.sankei.com/article/20240902-AY2P2GQPJVJNJPZGBKVIPIQWRI/",
+          "published": "2024/9/2 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞柏崎刈羽原発　政府主導で再稼働進めよ",
+          "link": "https://www.sankei.com/article/20240902-ZOZDXS5QBRIYTBMWFVGMOTPXJE/",
+          "published": "2024/9/2 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

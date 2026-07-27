@@ -289,6 +289,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞米中関税引き下げ　混乱の収束へ進む協議を",
+          "link": "https://www.sankei.com/article/20250514-5YPMEL7HVNOA7PLZTZG2RQT6PU/",
+          "published": "2025/5/14 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞無差別殺傷　相次ぐ凶行から身を守れ",
+          "link": "https://www.sankei.com/article/20250514-HH5B52ERXBKJVDRDYO4IKW6LVE/",
+          "published": "2025/5/14 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

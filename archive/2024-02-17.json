@@ -196,6 +196,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞４歳女児を殺害　この命は救えなかったか",
+          "link": "https://www.sankei.com/article/20240217-6OSQCPR6HJMPTC6NOLT3NWJPKQ/",
+          "published": "2024/2/17 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞自民不記載報告書　政倫審の開催で合意せよ",
+          "link": "https://www.sankei.com/article/20240217-O5K66P2AVFIS7PGKZSMC7ODOOU/",
+          "published": "2024/2/17 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

@@ -289,6 +289,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞クアッドの結束　対中抑止を後退させるな",
+          "link": "https://www.sankei.com/article/20251012-7YR3XQYCTBM47FZ4IYSU2YHPSU/",
+          "published": "2025/10/12 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞サイバー攻撃被害　アサヒは総力挙げ復旧を",
+          "link": "https://www.sankei.com/article/20251012-KU3LI2FEEFLRPNGT674FOGN7IE/",
+          "published": "2025/10/12 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

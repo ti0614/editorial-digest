@@ -340,6 +340,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞ミラノ冬季五輪　IOCの対露姿勢疑問だ",
+          "link": "https://www.sankei.com/article/20260214-SGWJ4N2HG5NHDB7CODQO32TK3A/",
+          "published": "2026/2/14 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞中道代表に小川氏　再建の道は極めて厳しい",
+          "link": "https://www.sankei.com/article/20260214-Y7OEXUUKJFMBNI3FVM3H5JVN5Q/",
+          "published": "2026/2/14 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

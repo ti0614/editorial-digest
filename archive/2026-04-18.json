@@ -327,6 +327,23 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞柏崎原発営業運転　日本の原子力の再出発だ　国際情勢とAI時代に備えよ",
+          "link": "https://www.sankei.com/article/20260418-BMDM2HFMPNJQRE753QXLBBK6RU/",
+          "published": "2026/4/18 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

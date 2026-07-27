@@ -294,6 +294,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞公明の連立離脱　26年間の安定が崩壊した",
+          "link": "https://www.sankei.com/article/20251011-T3A67QQE5RKXTLRI76JDVR7LJA/",
+          "published": "2025/10/11 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞戦後80年所感　平板なリポートのようだ",
+          "link": "https://www.sankei.com/article/20251011-Y6DSBVFHEVLOTBMJ57AE64WVDY/",
+          "published": "2025/10/11 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

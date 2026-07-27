@@ -260,6 +260,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞参院の憲法審会長　自民は党是を捨てたのか",
+          "link": "https://www.sankei.com/article/20250804-DQUUY5VKANLDXHLADRZMASMJIQ/",
+          "published": "2025/8/4 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞デブリ回収に遅れ　政府が前面に出て推進を",
+          "link": "https://www.sankei.com/article/20250804-T2FIWMIYVBKDXBVY6SASQNLDBY/",
+          "published": "2025/8/4 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

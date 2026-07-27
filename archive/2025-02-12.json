@@ -247,6 +247,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞PFAS　不安を解消する対応急げ",
+          "link": "https://www.sankei.com/article/20250212-4DNTBTU7HFPGTJUTZUSQDKA6UY/",
+          "published": "2025/2/12 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞給付金詐欺摘発　中国料理店の背景解明を",
+          "link": "https://www.sankei.com/article/20250212-FEQIY4EVLNLKPMU3M2P64FPM3A/",
+          "published": "2025/2/12 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

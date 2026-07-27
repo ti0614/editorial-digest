@@ -173,6 +173,23 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞能登地震から半年　教訓生かす連携を築こう　長期的な被災者支援が重要だ",
+          "link": "https://www.sankei.com/article/20240701-OIN7HIAKTFIBNOXK7G72U3H2AU/",
+          "published": "2024/7/1 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

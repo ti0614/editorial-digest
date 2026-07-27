@@ -283,6 +283,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞観光立国の新計画　腰据えて課題解決進めよ",
+          "link": "https://www.sankei.com/article/20260405-BISXESO73ZMJFCYURBL6VH4SFM/",
+          "published": "2026/4/5 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞民族団結法施行へ　中国は固有の文化奪うな",
+          "link": "https://www.sankei.com/article/20260405-QWELR6I2XNNLZFIBLDS34JCUO4/",
+          "published": "2026/4/5 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

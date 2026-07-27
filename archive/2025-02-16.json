@@ -242,6 +242,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞与那国の中国ブイ　日本政府は直ちに撤去を",
+          "link": "https://www.sankei.com/article/20250216-C2IN4T425VMAZLTNWQVLESNQ5Y/",
+          "published": "2025/2/16 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞司法取引　地道な裏付けを欠かすな",
+          "link": "https://www.sankei.com/article/20250216-QNRXJNUSJRPQRDG4RVCNZCO7VM/",
+          "published": "2025/2/16 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

@@ -340,6 +340,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞平和評議会　まずガザで着実な成果を",
+          "link": "https://www.sankei.com/article/20260228-SN6JLT5FCFL2BKEUN5BLNLCBYU/",
+          "published": "2026/2/28 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞国民会議が初会合　責任のある議論を尽くせ",
+          "link": "https://www.sankei.com/article/20260228-7AZM3OAAGFJDDP2D4EDUQODLYY/",
+          "published": "2026/2/28 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

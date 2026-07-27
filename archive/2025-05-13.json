@@ -283,6 +283,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞巨人選手を送検　犯罪に厳しい姿勢を示せ",
+          "link": "https://www.sankei.com/article/20250513-GCGHI4A3BVKCDCBR2BBCZJSL2I/",
+          "published": "2025/5/13 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞カシミール停戦　印パは自制し合意順守を",
+          "link": "https://www.sankei.com/article/20250513-RWDQC4M3SFI6HHAW3562OSRSNE/",
+          "published": "2025/5/13 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

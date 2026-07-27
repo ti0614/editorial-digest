@@ -346,6 +346,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞東京大の連続汚職　倫理逸脱は異常で根深い",
+          "link": "https://www.sankei.com/article/20260130-AP7FU65THZITLP4LQ45HMH3XAI/",
+          "published": "2026/1/30 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞衆院選と春闘交渉　実質賃金の上昇が必要だ",
+          "link": "https://www.sankei.com/article/20260130-22N6GTGHHJMA7HU3FFUGWGDILQ/",
+          "published": "2026/1/30 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

@@ -139,6 +139,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【主張】税制改正　負担に臨む姿勢が見えぬ",
+          "link": "https://www.sankei.com/article/20231216-6BN4HZO6Q5K2HJS2NP7RMDUKJI/",
+          "published": "2023/12/16 5:00",
+          "paid": false
+        },
+        {
+          "title": "【主張】プーチン氏会見　侵略を正当化する茶番だ",
+          "link": "https://www.sankei.com/article/20231216-B6JAYNHUEJIT7IUQ4Y7CKP7HDY/",
+          "published": "2023/12/16 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

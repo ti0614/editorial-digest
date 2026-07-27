@@ -55,7 +55,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "皇室典範改正案　「旧宮家」へ皇統が移る恐れも",
+          "link": "https://www.yomiuri.co.jp/editorial/20260630-GYT1T00454/",
+          "published": "2026/7/1 5:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "日本経済新聞",
@@ -88,7 +95,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "＜主張＞W杯日本代表敗退　王国一丸の力を我が手に",
+          "link": "https://www.sankei.com/article/20260701-GGZKNZPLCNIPTLYTPM5MWGUCUE/",
+          "published": "2026/7/1 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞皇位継承と皇族数　「典範改正案」を最優先で",
+          "link": "https://www.sankei.com/article/20260701-24SWUYZNUJLXBPMA7H2LPPZVCI/",
+          "published": "2026/7/1 5:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "東京新聞",

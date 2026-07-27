@@ -55,7 +55,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "中国が禁輸拡大　経済的威圧への対抗を怠るな",
+          "link": "https://www.yomiuri.co.jp/editorial/20260701-GYT1T00431/",
+          "published": "2026/7/2 5:00",
+          "paid": false
+        },
+        {
+          "title": "Ｗ杯日本敗退　磨いた団結力は進化の証しだ",
+          "link": "https://www.yomiuri.co.jp/editorial/20260701-GYT1T00434/",
+          "published": "2026/7/2 5:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "日本経済新聞",
@@ -88,7 +101,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "＜主張＞糖尿病治療薬　安易な痩身利用は危ない",
+          "link": "https://www.sankei.com/article/20260702-ATUONAXNFVIIHOLB53HPR42O3Y/",
+          "published": "2026/7/2 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞中国の禁輸拡大　相次ぐ「威圧」が目に余る",
+          "link": "https://www.sankei.com/article/20260702-E6ULF5KOXFKMNDXEV6VDGGZUSE/",
+          "published": "2026/7/2 5:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "東京新聞",

@@ -300,6 +300,23 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞日米首脳会談　「黄金時代」へ絆を固めた　同盟強化の具体策を推進せよ",
+          "link": "https://www.sankei.com/article/20251029-PMGZB56VDBPJXM5QPAOCPPHA7A/",
+          "published": "2025/10/29 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

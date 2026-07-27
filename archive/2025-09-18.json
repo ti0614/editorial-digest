@@ -329,6 +329,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞沖縄の左派勢力　自衛隊への妨害目に余る",
+          "link": "https://www.sankei.com/article/20250918-5B2E532IVZNSTP2LW4VNE5PB3Y/",
+          "published": "2025/9/18 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞公明党の斉藤代表　自民への口出し不見識だ",
+          "link": "https://www.sankei.com/article/20250918-Z5RSO4DNWFP2PCL3VUCKNZF2OA/",
+          "published": "2025/9/18 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

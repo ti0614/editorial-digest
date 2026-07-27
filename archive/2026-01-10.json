@@ -328,6 +328,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞議員の国保逃れ　維新は厳正な処分を下せ",
+          "link": "https://www.sankei.com/article/20260110-3AWFS4R2F5IA5MU3T6NZBITZ5Y/",
+          "published": "2026/1/10 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞米の国際機関脱退　中国の影響力増大を招く",
+          "link": "https://www.sankei.com/article/20260110-2ENGJ32RWJLSRMIM5F2KN3Z46M/",
+          "published": "2026/1/10 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

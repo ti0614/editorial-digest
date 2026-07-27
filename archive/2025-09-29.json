@@ -295,6 +295,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞0歳0日の虐待死　妊婦の孤立に支援強めよ",
+          "link": "https://www.sankei.com/article/20250929-AW7GF4IABBONVIAS4HT3MIATGY/",
+          "published": "2025/9/29 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞「海ゆかば」封殺　鎮魂歌の歴史を忘れまい",
+          "link": "https://www.sankei.com/article/20250929-WX4KSW6GUNKFNP3L7HIVEORSTI/",
+          "published": "2025/9/29 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

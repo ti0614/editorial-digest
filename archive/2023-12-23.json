@@ -156,6 +156,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【主張】上皇陛下ご卒寿　元気なお姿は国民の願い",
+          "link": "https://www.sankei.com/article/20231223-2MLTQB75U5ISXP6367O4BKJZMY/",
+          "published": "2023/12/23 5:00",
+          "paid": false
+        },
+        {
+          "title": "【主張】６年度予算案　歳出構造改革が不十分だ",
+          "link": "https://www.sankei.com/article/20231223-YBYUKHBQXFLS7GORXDKDIOP4JU/",
+          "published": "2023/12/23 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

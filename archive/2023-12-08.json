@@ -156,6 +156,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【主張】派閥パーティー　首相が説明を迫るときだ",
+          "link": "https://www.sankei.com/article/20231208-NXGSAPZ63BI7BBQMHFGLAPLQ3I/",
+          "published": "2023/12/8 5:00",
+          "paid": false
+        },
+        {
+          "title": "【主張】愛知県警の勾留死　留置管理の矜持はどこへ",
+          "link": "https://www.sankei.com/article/20231208-VS6CILLG7NIG3GFS4VWMJB2OLM/",
+          "published": "2023/12/8 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

@@ -259,6 +259,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞海底ケーブル切断　深刻な脅威と見て対応を",
+          "link": "https://www.sankei.com/article/20250110-LX3CFAOZ5RPN7MBU2EBUAAMAUE/",
+          "published": "2025/1/10 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞警報級の大雪　備えを徹底し命守りたい",
+          "link": "https://www.sankei.com/article/20250110-NCOWTANLONPYPNWW2NQOM5F3KQ/",
+          "published": "2025/1/10 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

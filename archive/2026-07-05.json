@@ -43,7 +43,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "ＡＩの利用　英語の学びは教員と子供で",
+          "link": "https://www.yomiuri.co.jp/editorial/20260704-GYT1T00295/",
+          "published": "2026/7/5 5:00",
+          "paid": false
+        },
+        {
+          "title": "日銀６月短観　物価上昇リスクに警戒が要る",
+          "link": "https://www.yomiuri.co.jp/editorial/20260704-GYT1T00296/",
+          "published": "2026/7/5 5:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "日本経済新聞",
@@ -76,7 +89,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "＜主張＞ソロモン諸島　中国傾斜から脱却進めよ",
+          "link": "https://www.sankei.com/article/20260705-6557VBTGVRJB7PMCDOULS6BSUY/",
+          "published": "2026/7/5 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞東京の火葬場問題　公営化視野に抜本対策を",
+          "link": "https://www.sankei.com/article/20260705-SJHKNKOYRRPUPI6DFTVOOVTLQ4/",
+          "published": "2026/7/5 5:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "東京新聞",

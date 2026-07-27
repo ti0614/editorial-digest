@@ -236,6 +236,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞国会の制服組排除　文民統制を履き違えるな",
+          "link": "https://www.sankei.com/article/20250217-IPVIRNPHKFOUDOTQVFM55LOBFA/",
+          "published": "2025/2/17 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞「アメリカ湾」　無理通れば道理引っ込む",
+          "link": "https://www.sankei.com/article/20250217-VDRKW5W5F5I5POH4GDGL22HXBE/",
+          "published": "2025/2/17 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

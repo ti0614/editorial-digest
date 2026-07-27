@@ -300,6 +300,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞オウム後継団体　事件は今も継続している",
+          "link": "https://www.sankei.com/article/20250725-FEMYLHLUWJLIHJNVTOWKHKCW54/",
+          "published": "2025/7/25 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞多発するクマ被害　生息数の把握を急ぎたい",
+          "link": "https://www.sankei.com/article/20250725-PS4OCABLTZK7JC6SS4C2VLUEJY/",
+          "published": "2025/7/25 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

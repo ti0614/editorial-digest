@@ -339,6 +339,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞養蚕業の衰退　文化継承へ振興策講じよ",
+          "link": "https://www.sankei.com/article/20260519-UBLVIX75L5KPNGOV4ZIMOWNEHQ/",
+          "published": "2026/5/19 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞栃木の強盗殺人　なぜ情報生かせなかった",
+          "link": "https://www.sankei.com/article/20260519-WZ2RAQYEYFKCRDPJJU6MO5BFEM/",
+          "published": "2026/5/19 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

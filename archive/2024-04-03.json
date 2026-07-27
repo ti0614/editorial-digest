@@ -179,6 +179,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞対北安保理パネル　露は拒否権行使を恥じよ",
+          "link": "https://www.sankei.com/article/20240403-GZTCDXWNHFJZFNKOHCPRC423GI/",
+          "published": "2024/4/3 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞翻訳本発売に脅迫　言論封じの暴挙許されぬ",
+          "link": "https://www.sankei.com/article/20240403-UUEWIZDP5FIVBFRQC4OQS4X46M/",
+          "published": "2024/4/3 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

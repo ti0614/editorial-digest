@@ -276,6 +276,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞イチロー殿堂入り　野球の魅力の伝道師たれ",
+          "link": "https://www.sankei.com/article/20250123-6L7BKPRNKNIAHI6OYAWMJ7DA7A/",
+          "published": "2025/1/23 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞フジテレビの調査　信頼回復へ厳正な解明を",
+          "link": "https://www.sankei.com/article/20250123-7WKGFSHLTRLOBHETVYOCJMMM4I/",
+          "published": "2025/1/23 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

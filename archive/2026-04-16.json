@@ -339,6 +339,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞高齢者虐待の増加　有料ホーム管理見直しを",
+          "link": "https://www.sankei.com/article/20260416-AGZHWBBFHBLERGNZ5DHZYROQKA/",
+          "published": "2026/4/16 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞熊本地震10年　災害関連死の対策を急げ",
+          "link": "https://www.sankei.com/article/20260416-VA6B5BLVP5OBFDRL5EKEXNAEYU/",
+          "published": "2026/4/16 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

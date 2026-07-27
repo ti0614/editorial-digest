@@ -59,13 +59,13 @@
         {
           "title": "個人情報保護法　漏洩防止よりＡＩ開発優先か",
           "link": "https://www.yomiuri.co.jp/editorial/20260714-GYT1T00014/",
-          "published": "2026/07/14 05:00",
+          "published": "2026/7/14 5:00",
           "paid": false
         },
         {
           "title": "最低賃金１５００円　中小企業の経営踏まえ着実に",
           "link": "https://www.yomiuri.co.jp/editorial/20260714-GYT1T00015/",
-          "published": "2026/07/14 05:00",
+          "published": "2026/7/14 5:00",
           "paid": false
         }
       ]
@@ -101,7 +101,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "＜主張＞証拠誤り開示せず　検察官の不誠実許されぬ",
+          "link": "https://www.sankei.com/article/20260714-2UDMAHVFYFPWZBSFFMFKCAEC4I/",
+          "published": "2026/7/14 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞南シナ海裁定10年　中国は判断を受け入れよ",
+          "link": "https://www.sankei.com/article/20260714-HVTDQ4CNIBKGBCLYOQPVIQKH2U/",
+          "published": "2026/7/14 5:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "東京新聞",

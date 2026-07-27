@@ -259,6 +259,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞北九州事件逮捕　動機追及し防犯へ共有を",
+          "link": "https://www.sankei.com/article/20241220-4TJWEPTIG5KHBNYDIE4IBUBRTY/",
+          "published": "2024/12/20 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞衆参政倫審　還流の真相解明を尽くせ",
+          "link": "https://www.sankei.com/article/20241220-PPGCQNE5J5KJVKVRKOYUAKQYAM/",
+          "published": "2024/12/20 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

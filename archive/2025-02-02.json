@@ -242,6 +242,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞空自の演奏会中止　沖縄教組の圧力許されぬ",
+          "link": "https://www.sankei.com/article/20250202-GJSPVXA72NJAFDMQ2CACK73RJQ/",
+          "published": "2025/2/2 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞被害者の心情伝達　不断の見直しで定着図れ",
+          "link": "https://www.sankei.com/article/20250202-ZJWOE5TS5RKHPA5KC6UGVHIW2A/",
+          "published": "2025/2/2 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

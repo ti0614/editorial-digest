@@ -282,6 +282,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞鉄鋼への関税　米の独善に毅然と対処を",
+          "link": "https://www.sankei.com/article/20250213-B5RUT6VBNZJBPBNSXZ7MNFQJOI/",
+          "published": "2025/2/13 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞国民民主党　働く人の政策を追求せよ",
+          "link": "https://www.sankei.com/article/20250213-FZVMDN6WMNKEHG27WZQUHJE3IM/",
+          "published": "2025/2/13 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

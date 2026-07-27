@@ -254,6 +254,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞泊原発3号機合格　北海道の電源強化を急げ",
+          "link": "https://www.sankei.com/article/20250814-VVL3IRFKMNOAXP7MRG6ZLKCQDU/",
+          "published": "2025/8/14 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞米労働省局長解任　統計の信頼を貶めないか",
+          "link": "https://www.sankei.com/article/20250814-WSXZ2XP4URJXNHEYQQ3OQZCP5M/",
+          "published": "2025/8/14 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

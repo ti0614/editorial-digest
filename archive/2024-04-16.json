@@ -179,6 +179,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞イランの攻撃　中東戦争への拡大を防げ",
+          "link": "https://www.sankei.com/article/20240416-4XKWN6VCSZKBZKLO3S2U4PTEBY/",
+          "published": "2024/4/16 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞岸田首相襲撃１年　「警戒の空白」埋まったか",
+          "link": "https://www.sankei.com/article/20240416-53355IB3FRM77ICMCWDNIZJWXM/",
+          "published": "2024/4/16 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

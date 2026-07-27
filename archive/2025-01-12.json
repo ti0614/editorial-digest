@@ -213,6 +213,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞石破首相の外遊　なぜ米訪問を延ばすのか",
+          "link": "https://www.sankei.com/article/20250112-2TGXBKATYBMWLOPMDE7KNHSJ74/",
+          "published": "2025/1/12 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞大阪・関西万博　国内外に広く意義発信を",
+          "link": "https://www.sankei.com/article/20250112-3Q4DWGT7QVKK7MCD6FFFOS2DMI/",
+          "published": "2025/1/12 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

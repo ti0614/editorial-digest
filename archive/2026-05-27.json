@@ -339,6 +339,52 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "読売新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.yomiuri.co.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "中東危機と肥料　食料安定供給を脅かさぬよう",
+          "link": "https://www.yomiuri.co.jp/editorial/20260526-GYT1T00397/",
+          "published": "2026/5/27 5:00",
+          "paid": false
+        },
+        {
+          "title": "阿部監督辞任　暴力を振るった事実は重い",
+          "link": "https://www.yomiuri.co.jp/editorial/20260526-GYT1T00400/",
+          "published": "2026/5/27 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞iPS細胞治療　本承認へ前進を期待する",
+          "link": "https://www.sankei.com/article/20260527-OGQRXZPMXFL4PC2OBCASKSMFYU/",
+          "published": "2026/5/27 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞カンヌとGⅠ　女性初の快挙を祝したい",
+          "link": "https://www.sankei.com/article/20260527-WHFFGPQKEBKJNBHYVCD53EBSKQ/",
+          "published": "2026/5/27 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

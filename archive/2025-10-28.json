@@ -334,6 +334,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞立憲民主党　一体どこが「中道」なのか",
+          "link": "https://www.sankei.com/article/20251028-35KZVM7SBFJOBCA3QN266OCIBU/",
+          "published": "2025/10/28 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞犯罪被害者月間　心思いやる温かい社会に",
+          "link": "https://www.sankei.com/article/20251028-A25Y76CWYVPBXNNEO2ECGRMNSY/",
+          "published": "2025/10/28 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

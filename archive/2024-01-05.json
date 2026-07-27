@@ -156,6 +156,23 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞首相年頭会見　総力挙げて被災地を救え　政治改革で信頼取り戻したい",
+          "link": "https://www.sankei.com/article/20240105-XUEC6G5GMBMUVK3IBT74XLO24Y/",
+          "published": "2024/1/5 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

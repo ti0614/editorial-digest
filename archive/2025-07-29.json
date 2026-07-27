@@ -300,6 +300,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞イチロー殿堂入り　目標達成の努力を知ろう",
+          "link": "https://www.sankei.com/article/20250729-IUHPH4SD3RJHBOPXK4LUWEOZPA/",
+          "published": "2025/7/29 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞自民両院懇　続投表明の説得力ゼロだ",
+          "link": "https://www.sankei.com/article/20250729-LWRLVT7QTNKJHP6ZEVWSMWUUCI/",
+          "published": "2025/7/29 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

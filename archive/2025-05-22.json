@@ -272,6 +272,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞農水相更迭　コメ価格の抑制は急務だ",
+          "link": "https://www.sankei.com/article/20250522-5VJPQFJ2QRD7PB4E74FQIFJSWY/",
+          "published": "2025/5/22 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞先島の避難計画　早期に大規模実動訓練を",
+          "link": "https://www.sankei.com/article/20250522-EBEECXBNSRJRDB6KWY24DOLBVU/",
+          "published": "2025/5/22 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

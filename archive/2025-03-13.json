@@ -289,6 +289,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞大手の春闘回答　中小にも賃上げの波及を",
+          "link": "https://www.sankei.com/article/20250313-LF7VVJ5W2NJXLCXNCOSCNU44W4/",
+          "published": "2025/3/13 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞大阪万博　関心高める工夫をこらせ",
+          "link": "https://www.sankei.com/article/20250313-WWX767H2RFJN5MNHRPB35AB56U/",
+          "published": "2025/3/13 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

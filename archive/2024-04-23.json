@@ -196,6 +196,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞高齢単身世帯　急増見越した態勢構築を",
+          "link": "https://www.sankei.com/article/20240423-5RTFWVTUGJME5LEG2J2HLZWZQU/",
+          "published": "2024/4/23 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞ウクライナ支援　米下院の議決を歓迎する",
+          "link": "https://www.sankei.com/article/20240423-QF72KPQ2ONM5DE5R3IZKNU4DYI/",
+          "published": "2024/4/23 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

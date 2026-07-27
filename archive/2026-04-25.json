@@ -333,6 +333,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞モバイル電池規制　安全な空の旅路のために",
+          "link": "https://www.sankei.com/article/20260425-JNVLI43OSRPJDKGCEJ5GZWGWSY/",
+          "published": "2026/4/25 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞岩手の山林火災　生活圏保護へ延焼阻止を",
+          "link": "https://www.sankei.com/article/20260425-YWALLI4WBFJAJJAAZTBUCZF64E/",
+          "published": "2026/4/25 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

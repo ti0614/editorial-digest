@@ -306,6 +306,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞最低賃金63円上げ　好循環につながる支援を",
+          "link": "https://www.sankei.com/article/20250808-5K5OYJITAJL2LHO5HY5QB43TYA/",
+          "published": "2025/8/8 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞「大川原」捜査検証　批判証言の良心が救いだ",
+          "link": "https://www.sankei.com/article/20250808-PDJQZQNLHJNBLBOM2NSMFOZQAU/",
+          "published": "2025/8/8 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

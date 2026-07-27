@@ -282,6 +282,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞前首相襲撃に判決　懲役10年は妥当だろうか",
+          "link": "https://www.sankei.com/article/20250220-GXCHSCGAGFM4ZGTRH7ATLHAFL4/",
+          "published": "2025/2/20 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞エネ基と温対計画　ともに原発活用が鍵握る",
+          "link": "https://www.sankei.com/article/20250220-UH7PDQQQPZKKNFHSLZ4SBEI6XA/",
+          "published": "2025/2/20 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

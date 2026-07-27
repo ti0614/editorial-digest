@@ -213,6 +213,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞中国系ハッカー　能動サイバー防御を急げ",
+          "link": "https://www.sankei.com/article/20250113-N5I2PWDH75L4LOLR5HYIZOGG54/",
+          "published": "2025/1/13 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞成人の日　雪間の「春」を見つけよう",
+          "link": "https://www.sankei.com/article/20250113-ZKIMJIDCCVIVRPVJ2QZ5SXKW3A/",
+          "published": "2025/1/13 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

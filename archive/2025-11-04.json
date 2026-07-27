@@ -300,6 +300,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞新政権と社会保障　給付と負担の議論尽くせ",
+          "link": "https://www.sankei.com/article/20251104-IKORDA4YSFIH3IUPICB6VFKPZE/",
+          "published": "2025/11/4 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞起訴後の事件滞留　裁判開始があまりに遅い",
+          "link": "https://www.sankei.com/article/20251104-ZV6RVAHN2VL47GXCYCRLY52D74/",
+          "published": "2025/11/4 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

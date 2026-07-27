@@ -316,6 +316,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞ブロッコリー登録　指定野菜で食の国産化を　",
+          "link": "https://www.sankei.com/article/20260507-2H5F5KVVJFN4ZISHNCEELWYEXQ/",
+          "published": "2026/5/7 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞アフガン人の移送　米政権は方針を再考せよ　",
+          "link": "https://www.sankei.com/article/20260507-RR3FCD4ENNOR5K4BYLA5GKUEH4/",
+          "published": "2026/5/7 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

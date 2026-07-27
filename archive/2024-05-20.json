@@ -173,6 +173,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞エネ計画の改定　原発の積極活用を目指せ",
+          "link": "https://www.sankei.com/article/20240520-GQVVF5675ZMSVPAJIA2JGT6KRQ/",
+          "published": "2024/5/20 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞少子化の参院審議　財源を明確にするときだ",
+          "link": "https://www.sankei.com/article/20240520-REPO7LNIS5I4PKQ3PARPSVXYZM/",
+          "published": "2024/5/20 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

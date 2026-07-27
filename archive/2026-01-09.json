@@ -340,6 +340,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞知事のセクハラ　権力者の犯罪を告発せよ",
+          "link": "https://www.sankei.com/article/20260109-CRQUAY3VZRIT7FELOYSZDX3C2Q/",
+          "published": "2026/1/9 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞浜岡原発で不正　信頼の基本裏切る事案だ",
+          "link": "https://www.sankei.com/article/20260109-QDEG4IX6MZO3TP6NCBDKCAH3LA/",
+          "published": "2026/1/9 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

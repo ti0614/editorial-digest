@@ -249,6 +249,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞宿直医の兼務　病院再編に逆行しないか",
+          "link": "https://www.sankei.com/article/20250602-BMT5DIW3JFMUBHRMLASHDXSUWE/",
+          "published": "2025/6/2 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞新国宝と重文　近現代のレガシー後世に",
+          "link": "https://www.sankei.com/article/20250602-K6NXIU3XGVMRXBA35QA6FLIGIQ/",
+          "published": "2025/6/2 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

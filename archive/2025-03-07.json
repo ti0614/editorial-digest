@@ -272,6 +272,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞トランプ氏演説　なぜ侵略と呼ばないのか",
+          "link": "https://www.sankei.com/article/20250307-24JXVRDPTZNRTKSY6LW3MJADLM/",
+          "published": "2025/3/7 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞岡村勲さん死去　被害者支援の遺志を継げ",
+          "link": "https://www.sankei.com/article/20250307-HUUFPHGBBVKPBD766RC6ZM4VCY/",
+          "published": "2025/3/7 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

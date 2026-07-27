@@ -213,6 +213,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞デジタル教科書　学力低下を招きかねない",
+          "link": "https://www.sankei.com/article/20250203-DO5AFGMTOJO4FLZMAOHXGLPCXU/",
+          "published": "2025/2/3 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞皇位の安定継承　女性宮家は皇統を損なう",
+          "link": "https://www.sankei.com/article/20250203-JKTHBDJB7RI6THS54AE4BRZALU/",
+          "published": "2025/2/3 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

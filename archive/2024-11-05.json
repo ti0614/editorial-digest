@@ -236,6 +236,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞在日中国人に弾圧　見て見ぬふりはできない",
+          "link": "https://www.sankei.com/article/20241105-FEV5VPFS5BPPPNKKHJXXKIULWY/",
+          "published": "2024/11/5 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞同性婚判決　社会の根幹を壊しかねぬ",
+          "link": "https://www.sankei.com/article/20241105-GZUIQKFCLRIFTHVKT7J4Z2G7NA/",
+          "published": "2024/11/5 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

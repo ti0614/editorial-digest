@@ -300,6 +300,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞前川さん無罪確定　教訓を法制審に反映せよ",
+          "link": "https://www.sankei.com/article/20250802-5BF5N7PIYJOFFPLYDN7K5ZRFEI/",
+          "published": "2025/8/2 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞ガソリン減税　与野党で課題解決万全に",
+          "link": "https://www.sankei.com/article/20250802-BUCZWVLA65KNXNO222RZKINLKU/",
+          "published": "2025/8/2 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

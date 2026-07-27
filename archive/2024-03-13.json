@@ -173,6 +173,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞ドラッグ店の再編　人口減に先手打つ戦略を",
+          "link": "https://www.sankei.com/article/20240313-B6PP7HZZHNO4LBMTXAFXKLU3FE/",
+          "published": "2024/3/13 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞千代田区汚職　「都心の利権構造」に迫れ",
+          "link": "https://www.sankei.com/article/20240313-WK35MJRWP5NLNNIHH7TH3NDFLQ/",
+          "published": "2024/3/13 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

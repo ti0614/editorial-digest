@@ -283,6 +283,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞新浪氏の会長辞任　薬物事案への反省を語れ",
+          "link": "https://www.sankei.com/article/20250903-5U3OEDWOXVLFPE67IXUAHPGCPI/",
+          "published": "2025/9/3 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞自民執行部が辞意　首相は受理し自ら退陣を",
+          "link": "https://www.sankei.com/article/20250903-OB4FJODHL5IJZLS7FV5JVAKHIA/",
+          "published": "2025/9/3 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

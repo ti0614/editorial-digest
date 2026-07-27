@@ -311,6 +311,23 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞衆院の解散　危機乗り切る首相は誰か　日本守り抜く論戦を期待する",
+          "link": "https://www.sankei.com/article/20260124-Y3X3OMLZJJKEXFKNTENM7ZOAXA/",
+          "published": "2026/1/24 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

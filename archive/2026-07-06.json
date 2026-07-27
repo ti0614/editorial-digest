@@ -49,7 +49,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "クールジャパン　巨額赤字の責任を明確にせよ",
+          "link": "https://www.yomiuri.co.jp/editorial/20260705-GYT1T00255/",
+          "published": "2026/7/6 5:00",
+          "paid": false
+        },
+        {
+          "title": "マンション修繕　住民の負担増招く悪質な談合",
+          "link": "https://www.yomiuri.co.jp/editorial/20260705-GYT1T00252/",
+          "published": "2026/7/6 5:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "日本経済新聞",
@@ -82,7 +95,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "＜主張＞W杯巡る中傷投稿　なぜ選手に敬意払えぬか",
+          "link": "https://www.sankei.com/article/20260706-Y25BNSHNMJN55ME3CQBIJFGFUM/",
+          "published": "2026/7/6 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞米建国250年　世界秩序の維持に役割を",
+          "link": "https://www.sankei.com/article/20260706-ZSWIAAZ33JKTXKS7YISKZUE5LQ/",
+          "published": "2026/7/6 5:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "東京新聞",

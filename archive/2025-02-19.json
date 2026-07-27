@@ -282,6 +282,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞米国務省HP変更　台湾圧迫拒むシグナルだ",
+          "link": "https://www.sankei.com/article/20250219-I7HZACRMS5KHDOMYCQRYXWNXT4/",
+          "published": "2025/2/19 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞米国の相互関税　露骨に脅す手法をやめよ",
+          "link": "https://www.sankei.com/article/20250219-QJSLGAEK6JINLJ2XPKETXG4R4Q/",
+          "published": "2025/2/19 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

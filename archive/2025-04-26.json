@@ -283,6 +283,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞日米財務相会談　市場ゆがめぬ姿勢を貫け",
+          "link": "https://www.sankei.com/article/20250426-KGM2KPXB65M45DJ4UV5AN3KVHU/",
+          "published": "2025/4/26 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞捜索先から逃走　絶対に二次被害を出すな",
+          "link": "https://www.sankei.com/article/20250426-WC4EEPEA7RPF3ARSIANFT5WQS4/",
+          "published": "2025/4/26 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

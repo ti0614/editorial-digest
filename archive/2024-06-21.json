@@ -196,6 +196,23 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞露朝同盟の成立　日本への脅威が高まった　ウクライナ侵略加担許されぬ",
+          "link": "https://www.sankei.com/article/20240621-7UOQPKA5MVNMPFMF5F2EEZ3H5U/",
+          "published": "2024/6/21 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

@@ -219,6 +219,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞再度の暗殺未遂　米国の民主主義が危うい",
+          "link": "https://www.sankei.com/article/20240918-54IROWRTSRP3FDWO7SPZT3WUSE/",
+          "published": "2024/9/18 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞「将軍」にエミー賞　時代劇が世界を席巻した",
+          "link": "https://www.sankei.com/article/20240918-NDEEZ7VHDFMRPF5NNRJYB44ZZU/",
+          "published": "2024/9/18 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

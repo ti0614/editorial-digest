@@ -173,6 +173,23 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞能登地震１カ月　国民一体で被災者支援を　「複合」への備えを怠るまい",
+          "link": "https://www.sankei.com/article/20240201-OLK5YBLRHFOMNLKSJEGG4OBULU/",
+          "published": "2024/2/1 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

@@ -346,6 +346,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞米一般教書演説　外交安保をもっと明確に",
+          "link": "https://www.sankei.com/article/20260227-5DHKOYY2RFIUXD4EYWMDGE5W4I/",
+          "published": "2026/2/27 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞「死後再審」決定　検察官抗告に再考迫った",
+          "link": "https://www.sankei.com/article/20260227-WDBTJKKMMBMU3AZT4AF5P6ITPQ/",
+          "published": "2026/2/27 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

@@ -323,6 +323,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞自民と維新　「基本政策」進めるべきだ",
+          "link": "https://www.sankei.com/article/20251018-5S7AFE53NNPALEZLPUPXIJUML4/",
+          "published": "2025/10/18 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞影の船団　露の不正阻止へ摘発せよ",
+          "link": "https://www.sankei.com/article/20251018-OP4T6QRHPVLPPBXOALE247F32M/",
+          "published": "2025/10/18 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

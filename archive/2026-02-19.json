@@ -341,6 +341,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞初の対米投資案件　日本の利益確保も確実に",
+          "link": "https://www.sankei.com/article/20260219-VD4B4VTJQBOMREA3DN7FLI5OZA/",
+          "published": "2026/2/19 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞第2次高市内閣　民意背景に政策の実行を",
+          "link": "https://www.sankei.com/article/20260219-6K5KNVITZVJKZJPMVTCQW43SOQ/",
+          "published": "2026/2/19 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

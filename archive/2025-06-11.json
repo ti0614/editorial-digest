@@ -289,6 +289,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞日本郵便を処分　組織の不全は見過ごせぬ",
+          "link": "https://www.sankei.com/article/20250611-EFT2G5GF5VOT3IQH2JVML7RWQU/",
+          "published": "2025/6/11 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞富士山のヘリ救助　有料化で無謀な登山防げ",
+          "link": "https://www.sankei.com/article/20250611-XW6GKPC2RVLYBE2MC4A7GRNIQI/",
+          "published": "2025/6/11 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

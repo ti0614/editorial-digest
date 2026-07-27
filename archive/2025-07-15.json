@@ -294,6 +294,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞外国人政策　議論を着実に進める時だ",
+          "link": "https://www.sankei.com/article/20250715-E5VWF5MMHFIOTH4YDL3H3IJETE/",
+          "published": "2025/7/15 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞石破政権　対中姿勢で国益損なうな",
+          "link": "https://www.sankei.com/article/20250715-NXDWNMW5HZKPPGVUSAVETIUFKI/",
+          "published": "2025/7/15 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

@@ -236,6 +236,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞美容医療トラブル　安全担保へ厳格な管理を",
+          "link": "https://www.sankei.com/article/20250120-G56AJG3KCFLK5OMEKD3NESKEB4/",
+          "published": "2025/1/20 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞軍艦島とNHK　検証番組で虚偽払拭せよ",
+          "link": "https://www.sankei.com/article/20250120-TCOKERTGAFJVNDYG27U2AVP6YY/",
+          "published": "2025/1/20 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

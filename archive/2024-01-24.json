@@ -173,6 +173,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞北の対南姿勢　偽装捨て本性露わにした",
+          "link": "https://www.sankei.com/article/20240124-FFNDDHJZXBPZRO3NFXQN4GI2SU/",
+          "published": "2024/1/24 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞適格性評価制度　官民で機密を守る設計に",
+          "link": "https://www.sankei.com/article/20240124-XUG3CK6JORO4RD3MUBFCBI4JXA/",
+          "published": "2024/1/24 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

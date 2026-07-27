@@ -334,6 +334,52 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "読売新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.yomiuri.co.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "知床沈没で有罪　安全を現場任せにした無責任",
+          "link": "https://www.yomiuri.co.jp/editorial/20260617-GYT1T00459/",
+          "published": "2026/6/18 5:00",
+          "paid": false
+        },
+        {
+          "title": "衆院選挙制度　与野党で熟議を重ねる問題だ",
+          "link": "https://www.yomiuri.co.jp/editorial/20260617-GYT1T00456/",
+          "published": "2026/6/18 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞南米とEPA交渉　経済安保に資する協定に",
+          "link": "https://www.sankei.com/article/20260618-FIEM74NAVFLSDJYHMREEPHXMLE/",
+          "published": "2026/6/18 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞知床事故に実刑　判決を重大と受け止めよ",
+          "link": "https://www.sankei.com/article/20260618-YBBXK36ZFBKCZNWYDWRZG3NVTI/",
+          "published": "2026/6/18 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

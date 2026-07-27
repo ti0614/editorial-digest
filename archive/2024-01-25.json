@@ -173,6 +173,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞新幹線停電　復旧に時間かかり過ぎだ",
+          "link": "https://www.sankei.com/article/20240125-DY4Q6E3LR5JUTGUY7TBYSI7THY/",
+          "published": "2024/1/25 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞自民政治改革案　連座制導入なぜ明記せぬ",
+          "link": "https://www.sankei.com/article/20240125-QFO6TTIUIVN43OVS5BUPD4TVEQ/",
+          "published": "2024/1/25 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

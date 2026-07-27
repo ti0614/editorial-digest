@@ -334,6 +334,46 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "読売新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.yomiuri.co.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "中朝首脳会談　北の核開発を不問に付すのか",
+          "link": "https://www.yomiuri.co.jp/editorial/20260610-GYT1T00482/",
+          "published": "2026/6/11 5:00",
+          "paid": false
+        },
+        {
+          "title": "サッカーＷ杯　最強のサムライが世界に挑む",
+          "link": "https://www.yomiuri.co.jp/editorial/20260610-GYT1T00485/",
+          "published": "2026/6/11 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞立法府の総意　皇統護る結論を歓迎する　森議長は論理的必然を語った　",
+          "link": "https://www.sankei.com/article/20260611-AMFMPPNWRNN2PJEODZZ6UKEZSM/",
+          "published": "2026/6/11 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

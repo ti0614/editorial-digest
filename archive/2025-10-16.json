@@ -329,6 +329,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞ブラジル戦勝利　世の中に不可能な事なし",
+          "link": "https://www.sankei.com/article/20251016-6COLKGLTRBL3HHSOR7PCWK7JTQ/",
+          "published": "2025/10/16 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞野党の連立交渉　「基本政策」が違いすぎる",
+          "link": "https://www.sankei.com/article/20251016-GTJHAYBL7ZJ6RD6K5BQS63ZO7I/",
+          "published": "2025/10/16 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

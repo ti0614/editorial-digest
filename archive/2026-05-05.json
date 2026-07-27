@@ -298,6 +298,23 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞こどもの日　自分について考えよう　悩んだときの助けになる",
+          "link": "https://www.sankei.com/article/20260505-KKRI4S32ZNPVVD3KXDVB2O4DGY/",
+          "published": "2026/5/5 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

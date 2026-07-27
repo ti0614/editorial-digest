@@ -156,6 +156,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞警視庁創設１５０年　治安環境に応じ進化せよ",
+          "link": "https://www.sankei.com/article/20240128-4W6MIXGLFBJ3FDWUGGNDMKT5WE/",
+          "published": "2024/1/28 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞輪島市の火災　「複合」視野に対策強化を",
+          "link": "https://www.sankei.com/article/20240128-ZPMYIEUIDZMVVIXT7NS4DX2HAY/",
+          "published": "2024/1/28 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

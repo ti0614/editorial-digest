@@ -302,6 +302,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞維新党大会　憲法改正の牽引役果たせ",
+          "link": "https://www.sankei.com/article/20260323-CY5WA73UFJO7DHIWBBYRX65MGA/",
+          "published": "2026/3/23 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞皇位継承と皇族数　正統の流れ堅持が前提だ",
+          "link": "https://www.sankei.com/article/20260323-N6JK5TB5ZRI67FP4NGT6VRKLRE/",
+          "published": "2026/3/23 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

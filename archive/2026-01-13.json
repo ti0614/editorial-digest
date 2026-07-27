@@ -311,6 +311,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞不破哲三氏死去　時代を見ぬ革命家だった",
+          "link": "https://www.sankei.com/article/20260113-XEXGR5D36FJWHKV6XXD3XUQEDY/",
+          "published": "2026/1/13 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞ウクライナ侵略　公正な和平着実に実現を",
+          "link": "https://www.sankei.com/article/20260113-N34TYG4BSZKVLDM7OIYNCMCJNU/",
+          "published": "2026/1/13 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

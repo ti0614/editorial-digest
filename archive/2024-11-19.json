@@ -259,6 +259,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞国際男性デー　心身の健康考える機会に",
+          "link": "https://www.sankei.com/article/20241119-CY5RG3Q2Q5IIXOVK2EF6ASPL7E/",
+          "published": "2024/11/19 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞国の会計検査　税金の無駄遣い許されぬ",
+          "link": "https://www.sankei.com/article/20241119-YK5P5J3KENLATGDVYZU2NRUOHM/",
+          "published": "2024/11/19 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

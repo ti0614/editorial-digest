@@ -329,6 +329,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞石井氏「在宅起訴」　捜査説明がもっと必要だ",
+          "link": "https://www.sankei.com/article/20251002-MOMQZ7J3PNIP7CR2OYYXRIAY3M/",
+          "published": "2025/10/2 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞パラのロシア容認　理不尽な決定を撤回せよ",
+          "link": "https://www.sankei.com/article/20251002-WZASVAZFOJMARPF6CAT5P4ZJVA/",
+          "published": "2025/10/2 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

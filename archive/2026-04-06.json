@@ -290,6 +290,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞五輪出場資格　遺伝子検査導入は妥当だ",
+          "link": "https://www.sankei.com/article/20260406-7UANADZZAJNSDK6V5MHXBGLWDU/",
+          "published": "2026/4/6 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞核持ち込み容認へ　フィンランドに注目する",
+          "link": "https://www.sankei.com/article/20260406-B2UMM6RXJJP3RLLYYFEXS6CYMQ/",
+          "published": "2026/4/6 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

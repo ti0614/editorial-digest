@@ -179,6 +179,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞インド与党勝利　国際秩序の擁護者となれ",
+          "link": "https://www.sankei.com/article/20240606-DC7E4TLRX5KZHAFPWV2RKSNRZI/",
+          "published": "2024/6/6 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞規正法衆院通過へ　信頼回復急ぎ成立確実に",
+          "link": "https://www.sankei.com/article/20240606-E35EY6RHWNORTLKXFHRIEJBYEQ/",
+          "published": "2024/6/6 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

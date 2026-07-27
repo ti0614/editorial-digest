@@ -333,6 +333,52 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "読売新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.yomiuri.co.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "カンヌ女優賞　国境越えた対話劇が心に響く",
+          "link": "https://www.yomiuri.co.jp/editorial/20260525-GYT1T00324/",
+          "published": "2026/5/26 5:00",
+          "paid": false
+        },
+        {
+          "title": "ＮＰＴ会議決裂　核管理体制の立て直しを急げ",
+          "link": "https://www.yomiuri.co.jp/editorial/20260525-GYT1T00321/",
+          "published": "2026/5/26 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞再審法審議入りへ　「目的外禁止」を修正せよ",
+          "link": "https://www.sankei.com/article/20260526-5EOB27HEXNNZZFT4DIEGZ2GMGQ/",
+          "published": "2026/5/26 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞NPT会議決裂　核抑止の重要性を示した",
+          "link": "https://www.sankei.com/article/20260526-JQOXTS6IAJM5NAP36UD7E43E5E/",
+          "published": "2026/5/26 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

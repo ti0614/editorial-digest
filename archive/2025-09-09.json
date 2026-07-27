@@ -266,6 +266,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞日航機長の飲酒　御巣鷹の決意に立ち返れ",
+          "link": "https://www.sankei.com/article/20250909-46VT2Y4NJVLMLDU3J36DJLUA5Q/",
+          "published": "2025/9/9 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞小田凱人の快挙　果てなき夢に期待膨らむ",
+          "link": "https://www.sankei.com/article/20250909-6CLFCGECMVKLHNHUSVCYTO46EM/",
+          "published": "2025/9/9 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

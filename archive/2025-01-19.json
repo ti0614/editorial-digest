@@ -242,6 +242,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞ファクトチェック　廃止で中立性保てるのか",
+          "link": "https://www.sankei.com/article/20250119-R3IC3KHMGJKQXHIUOQ25US4ALA/",
+          "published": "2025/1/19 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞基礎的収支の赤字　首相は財政改善に責任を",
+          "link": "https://www.sankei.com/article/20250119-Y5VKLMBIDFOLDANMQV4OQM5W7A/",
+          "published": "2025/1/19 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

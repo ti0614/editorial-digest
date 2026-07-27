@@ -289,6 +289,52 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "読売新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.yomiuri.co.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "国内線の苦境　地方の空路を守る協調方法は",
+          "link": "https://www.yomiuri.co.jp/editorial/20260606-GYT1T00270/",
+          "published": "2026/6/7 5:00",
+          "paid": false
+        },
+        {
+          "title": "島嶼国海洋会議　温暖化対策通じ関係深めたい",
+          "link": "https://www.yomiuri.co.jp/editorial/20260606-GYT1T00267/",
+          "published": "2026/6/7 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞スポーツ界と薬物　無自覚な行動が情けない",
+          "link": "https://www.sankei.com/article/20260607-HKLGVNQBHRI2ZO5MEIIIYBM4PI/",
+          "published": "2026/6/7 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞改正外為法　対日投資の適正な審査を",
+          "link": "https://www.sankei.com/article/20260607-QBRCJCVGIJPT5DFUBZ6L5DBYXU/",
+          "published": "2026/6/7 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

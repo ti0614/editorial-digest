@@ -162,6 +162,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞沖縄慰霊の日　史実を歪めず追悼したい",
+          "link": "https://www.sankei.com/article/20240623-IPPDTEFI4NP35EH2M4YLND2UFM/",
+          "published": "2024/6/23 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞通常国会の閉幕　「国の根幹」進まなかった",
+          "link": "https://www.sankei.com/article/20240623-U3XRSIZPX5NJ7OXR3P2VP5ZH5A/",
+          "published": "2024/6/23 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

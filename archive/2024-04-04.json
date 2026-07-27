@@ -196,6 +196,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞川勝静岡県知事　県民のため今すぐ辞職を",
+          "link": "https://www.sankei.com/article/20240404-36QVHYF435NJBLZRDJUKYM5ICI/",
+          "published": "2024/4/4 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞台湾で大地震　効果的な支援を届けたい",
+          "link": "https://www.sankei.com/article/20240404-BM7GJPORDVO3HHG2B2RYAZ6NWE/",
+          "published": "2024/4/4 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

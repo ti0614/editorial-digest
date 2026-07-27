@@ -156,6 +156,23 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞能登半島地震　救命救助に全力尽くせ　国民一体で被災者を支えよう",
+          "link": "https://www.sankei.com/article/20240103-4TLUJDWLFFJ5TIIM3B2XHW4RU4/",
+          "published": "2024/1/3 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

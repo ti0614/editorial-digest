@@ -196,6 +196,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞裁判員裁判１５年　公判前手続きを改善せよ",
+          "link": "https://www.sankei.com/article/20240514-MYEMNLH2ZBKSTMXBZ3P3R65JII/",
+          "published": "2024/5/14 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞認知症の将来推計　環境整備し改善を目指せ",
+          "link": "https://www.sankei.com/article/20240514-W7GCJURNRJICFIK4DVHJND4WD4/",
+          "published": "2024/5/14 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

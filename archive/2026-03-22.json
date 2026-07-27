@@ -283,6 +283,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞はしかの増加　ワクチン2回接種徹底を",
+          "link": "https://www.sankei.com/article/20260322-P5IGRBL2LFNFPBYIOIA4VR5E7Y/",
+          "published": "2026/3/22 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞日野町事件の再審　「脅迫的な調べ」は事実か　うやむやにしてはならない",
+          "link": "https://www.sankei.com/article/20260322-E2LEXFFFXFMSTPLWTS5KIS6KVI/",
+          "published": "2026/3/22 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

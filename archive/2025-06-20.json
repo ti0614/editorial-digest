@@ -289,6 +289,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞学術会議法が成立　変われないなら再改革だ",
+          "link": "https://www.sankei.com/article/20250620-5OKVA7Z7LRO3FE4R3XZSZBJ3XY/",
+          "published": "2025/6/20 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞日野とふそう統合　世界で勝てる競争力磨け",
+          "link": "https://www.sankei.com/article/20250620-P6IOSWWYPJOPLN3Y2LBVH6RRWQ/",
+          "published": "2025/6/20 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

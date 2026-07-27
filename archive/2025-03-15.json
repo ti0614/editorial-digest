@@ -266,6 +266,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞日本にも追加関税　米の独善認めぬ姿勢貫け",
+          "link": "https://www.sankei.com/article/20250315-54Q7RI62QJNBRKY2EDDXJI6UDU/",
+          "published": "2025/3/15 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞首相の商品券配布　これはアウトではないか",
+          "link": "https://www.sankei.com/article/20250315-AMI3VHQOKFNYLGO6UZQ5CYPFDE/",
+          "published": "2025/3/15 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

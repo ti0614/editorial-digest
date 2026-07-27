@@ -230,6 +230,23 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞正念場の日本経済　新たな成長産業の創出を　賃上げ継続で好循環目指せ",
+          "link": "https://www.sankei.com/article/20250104-WMHDYMW2VVPOBEMYDJFIJ2MBBA/",
+          "published": "2025/1/4 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

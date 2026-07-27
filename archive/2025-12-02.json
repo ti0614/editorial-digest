@@ -340,6 +340,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞ウナギ規制回避　稚魚利用半減に良策あり",
+          "link": "https://www.sankei.com/article/20251202-7RJNTPVSVZNNHC3T5JCKBCFO5A/",
+          "published": "2025/12/2 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞いわき信組の不正　反社絡む底なしの腐敗だ　",
+          "link": "https://www.sankei.com/article/20251202-F5HHIB56QZMSJHH5DQQ3NRXQFM/",
+          "published": "2025/12/2 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

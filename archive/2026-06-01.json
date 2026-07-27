@@ -289,6 +289,52 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "読売新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.yomiuri.co.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "車と動物の衝突　クマ出没で危険が増している",
+          "link": "https://www.yomiuri.co.jp/editorial/20260531-GYT1T00269/",
+          "published": "2026/6/1 5:00",
+          "paid": false
+        },
+        {
+          "title": "郵便事業の苦境　積極的な構造改革が不可欠だ",
+          "link": "https://www.yomiuri.co.jp/editorial/20260531-GYT1T00270/",
+          "published": "2026/6/1 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞防災気象情報　警戒度に応じ早期避難を",
+          "link": "https://www.sankei.com/article/20260601-GLOIHYDKUZNDDKG2HKEWGH3BQM/",
+          "published": "2026/6/1 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞立法府の総意案　危うい「女性宮家」避けよ",
+          "link": "https://www.sankei.com/article/20260602-J3J5XI7LQBIXFA4F4OVYN3F7HA/",
+          "published": "2026/6/1 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

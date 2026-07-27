@@ -179,6 +179,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞団体球技の快挙　パリ五輪へ期待が膨らむ",
+          "link": "https://www.sankei.com/article/20240502-66W5BY2YEFMLVBM4S4QUZHTEEE/",
+          "published": "2024/5/2 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞円安の進行　過度の変動に警戒解けぬ",
+          "link": "https://www.sankei.com/article/20240502-TBJLCAYXGFPRNLP6HEKIWZTLJE/",
+          "published": "2024/5/2 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

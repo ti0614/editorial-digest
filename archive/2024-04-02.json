@@ -202,6 +202,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞女子医大捜索　架空報酬疑惑の先に何が",
+          "link": "https://www.sankei.com/article/20240402-DIME4ZHDE5KONAN46DKIKOFHTU/",
+          "published": "2024/4/2 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞ライドシェア解禁　安全守りつつ定着目指せ",
+          "link": "https://www.sankei.com/article/20240402-XVSD4C52IFOLPIEYRNUU45NWDI/",
+          "published": "2024/4/2 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

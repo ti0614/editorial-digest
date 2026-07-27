@@ -289,6 +289,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞3尉侵入で逮捕　外国公館の警備強化せよ",
+          "link": "https://www.sankei.com/article/20260329-M4XCD4GFXZPHZOE7RP65EGH3DI/",
+          "published": "2026/3/29 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞特定失踪者　目撃証言を拉致の打開に",
+          "link": "https://www.sankei.com/article/20260329-YTE5QXADKNOADIXM52D7PRPRGA/",
+          "published": "2026/3/29 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

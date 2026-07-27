@@ -196,6 +196,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞日銀が追加利上げ　景気への目配りを万全に",
+          "link": "https://www.sankei.com/article/20240801-4YGELKAW7JIB7F6GCK34453TKY/",
+          "published": "2024/8/1 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞秘書給与の詐取　国民に対する背信行為だ",
+          "link": "https://www.sankei.com/article/20240801-UR4YTIEHKRJNJLJLZHNI4LFRCQ/",
+          "published": "2024/8/1 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

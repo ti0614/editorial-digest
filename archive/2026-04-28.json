@@ -327,6 +327,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞マラソン世界新　人間の限界突破に胸躍る",
+          "link": "https://www.sankei.com/article/20260428-F4326GWDYVKTZKVFEYDIAIFS7E/",
+          "published": "2026/4/28 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞米大統領標的か　テロは絶対に容認できぬ",
+          "link": "https://www.sankei.com/article/20260428-XXEW3C5IBVNSXPIED2YUUBDKMU/",
+          "published": "2026/4/28 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

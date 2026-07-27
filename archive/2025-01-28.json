@@ -276,6 +276,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞フジ社長ら辞任　信頼回復へ全力を尽くせ",
+          "link": "https://www.sankei.com/article/20250128-6Z5VVCFTUBLTZAAI7LX7VLKQ2I/",
+          "published": "2025/1/28 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞米のパリ協定離脱　多様な意味が読み取れる",
+          "link": "https://www.sankei.com/article/20250128-XY2ZPAVMMNIT5FAYDRPWPOSX24/",
+          "published": "2025/1/28 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

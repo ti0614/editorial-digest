@@ -196,6 +196,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞共同親権導入へ　健やかな成長守る環境を",
+          "link": "https://www.sankei.com/article/20240206-HFQK35PWLRJPVNLJLVQVVVCI54/",
+          "published": "2024/2/6 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞米国の報復攻撃　イラン側の自制が重要だ",
+          "link": "https://www.sankei.com/article/20240206-KNOT47V5QFJQPBPHYSASIPXPTM/",
+          "published": "2024/2/6 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

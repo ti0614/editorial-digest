@@ -254,6 +254,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞抹茶ブーム　緑に秘めた魅力を世界へ",
+          "link": "https://www.sankei.com/article/20250824-5JEHQEFC6ZIAFP6NL4PHP2Q3FE/",
+          "published": "2025/8/24 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞日韓首脳会談　対中抑止なぜ打ち出さぬ",
+          "link": "https://www.sankei.com/article/20250824-AHJIBC32MNL6NH32EIFZWDBFPU/",
+          "published": "2025/8/24 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

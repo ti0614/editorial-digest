@@ -196,6 +196,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞花粉症シーズン　国民病克服へ対策強めよ",
+          "link": "https://www.sankei.com/article/20240309-5HQ6SGFB2BNSHO26SW4S3RV67E/",
+          "published": "2024/3/9 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞農業基本法の改正　食料安保に資する基盤を",
+          "link": "https://www.sankei.com/article/20240309-T5QQPPC4UFKOHLUBMQTUBP5GZI/",
+          "published": "2024/3/9 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

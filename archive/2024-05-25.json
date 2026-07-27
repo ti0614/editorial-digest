@@ -196,6 +196,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞台湾包囲の演習　中国は粗暴な行動を慎め",
+          "link": "https://www.sankei.com/article/20240525-BJ5SDFMYGNIW7GYCOAGGPTYZJ4/",
+          "published": "2024/5/25 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞自治体への指示権　「想定外」への備え必要だ",
+          "link": "https://www.sankei.com/article/20240525-O3YA43ACLFOLFHMP5OBZISAGOM/",
+          "published": "2024/5/25 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

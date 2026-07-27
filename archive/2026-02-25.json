@@ -346,6 +346,23 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞ウクライナ侵略　公正な和平へ全力尽くせ　日本の安全保障と無縁でない",
+          "link": "https://www.sankei.com/article/20260225-4XG7AJFZYVJIJGDIMH55RY5RVA/",
+          "published": "2026/2/25 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

@@ -139,6 +139,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞新総統に頼氏　台湾の自由と民主を守れ",
+          "link": "https://www.sankei.com/article/20240114-KOQZ3ZV555NHFKKRQ3SSLB2M3A/",
+          "published": "2024/1/14 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞能登半島地震　復興への中期目標提示を",
+          "link": "https://www.sankei.com/article/20240114-VTQNMULVSNPH7CRTGSTFRG46GM/",
+          "published": "2024/1/14 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

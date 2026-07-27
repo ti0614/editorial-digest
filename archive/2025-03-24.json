@@ -249,6 +249,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞富士山の噴火対策　首都機能の維持へ備えを",
+          "link": "https://www.sankei.com/article/20250324-CP56EAWOAFLZPARTIP45SXM5HY/",
+          "published": "2025/3/24 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞対露の有志連合　米国の後ろ盾が不可欠だ",
+          "link": "https://www.sankei.com/article/20250324-X67MPHOKJ5PMRK7FH2VBDDPMFM/",
+          "published": "2025/3/24 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

@@ -236,6 +236,23 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞ロシアの侵略3年　ウクライナの立場を守れ　トランプ氏は言動を改めよ",
+          "link": "https://www.sankei.com/article/20250224-JE6JJ3FHNRIDLEF6CVQG4NEKWQ/",
+          "published": "2025/2/24 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

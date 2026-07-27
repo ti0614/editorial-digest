@@ -156,6 +156,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【主張】学術会議法人化へ　税金投入は最小限にせよ",
+          "link": "https://www.sankei.com/article/20231228-44TA4HH2DVPVNDK5QBGQLWMZQI/",
+          "published": "2023/12/28 5:00",
+          "paid": false
+        },
+        {
+          "title": "【主張】公安に違法判決　輸出管理捜査を立て直せ",
+          "link": "https://www.sankei.com/article/20231228-DDOKHKZ7I5ICZFAH3RCZCAEOS4/",
+          "published": "2023/12/28 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

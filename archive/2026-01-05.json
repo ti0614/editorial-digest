@@ -288,6 +288,23 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞刑事司法の分岐点　再審法改正の方向誤るな　死刑制度の崩壊につながる",
+          "link": "https://www.sankei.com/article/20260105-UHU4RGQDQRPOBHHJ6S4ORXD5WA/",
+          "published": "2026/1/5 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

@@ -179,6 +179,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞ナワリヌイ氏急死　露は世界の疑念に応えよ",
+          "link": "https://www.sankei.com/article/20240219-QGVFFRRZYNNKVEQC3T3QK4BTE4/",
+          "published": "2024/2/19 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞文献調査の報告書　次のステップに進みたい",
+          "link": "https://www.sankei.com/article/20240219-S72WEPYBXVJFNEG67XYTWZEBPY/",
+          "published": "2024/2/19 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

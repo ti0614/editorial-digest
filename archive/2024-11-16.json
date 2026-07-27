@@ -253,6 +253,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞年収の壁　首相は議論整理し説明を",
+          "link": "https://www.sankei.com/article/20241116-DOPGVECZCVKUHNAOUPQ3XWSA6I/",
+          "published": "2024/11/16 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞三笠宮妃殿下薨去　激動の時代生き抜かれた",
+          "link": "https://www.sankei.com/article/20241116-PT2VIANG65JQXKLCHXZ3FIFBWE/",
+          "published": "2024/11/16 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

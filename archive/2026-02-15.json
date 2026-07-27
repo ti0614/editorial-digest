@@ -283,6 +283,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞診療報酬改定　医療の選択と集中確実に",
+          "link": "https://www.sankei.com/article/20260215-AABNTYYIMVACFJOXELNTDXB3UU/",
+          "published": "2026/2/15 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞冬のダブル表彰台　五輪の価値を再認識する",
+          "link": "https://www.sankei.com/article/20260215-HOZPYTYCRJMOBOPEL556BHTWQA/",
+          "published": "2026/2/15 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

@@ -272,6 +272,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞首相の越比訪問　安保協力を確実に進めよ",
+          "link": "https://www.sankei.com/article/20250501-27QNMPZCAZO3ZMQOKKNBIP6AXY/",
+          "published": "2025/5/1 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞米価高騰　国民不安拭う最善の手を",
+          "link": "https://www.sankei.com/article/20250501-XTBSLSB7UJO67BUHNIV3HJE3FI/",
+          "published": "2025/5/1 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

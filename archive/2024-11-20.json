@@ -259,6 +259,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞セブン非上場化案　価値向上に資する改革を",
+          "link": "https://www.sankei.com/article/20241120-2ZCJF2ED4VKKRAUHFWPVYMS53E/",
+          "published": "2024/11/20 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞増える独居世帯　高齢者の「共助」が必要だ",
+          "link": "https://www.sankei.com/article/20241120-7FO2SN5H7JMVVFCNFA5HCONDKU/",
+          "published": "2024/11/20 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

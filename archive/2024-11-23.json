@@ -242,6 +242,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞勤労感謝の日　働きやすい環境づくりを",
+          "link": "https://www.sankei.com/article/20241123-EDGVSLD3SRKBFKK2AJKWB3FX3E/",
+          "published": "2024/11/23 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞大谷のMVP　無限の可能性に絶句する",
+          "link": "https://www.sankei.com/article/20241123-T7LR7WUJMZPZPE65M6I7YVC6XE/",
+          "published": "2024/11/23 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

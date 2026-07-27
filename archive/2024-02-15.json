@@ -190,6 +190,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞最悪の特殊詐欺　捜査突きあげ「上」を割れ",
+          "link": "https://www.sankei.com/article/20240215-M36EDFG6ZJPVLEHPT5X7OL6PHE/",
+          "published": "2024/2/15 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞地下シェルター　数値目標掲げ整備進めよ",
+          "link": "https://www.sankei.com/article/20240215-U4S7XYAZ7NLARJQI3LYO2TQ7XI/",
+          "published": "2024/2/15 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

@@ -196,6 +196,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞宝塚パワハラ問題　真摯に向き合う姿勢示せ",
+          "link": "https://www.sankei.com/article/20240229-E2UUK7UF2JN6ZHJ44DTRD5FZZU/",
+          "published": "2024/2/29 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞戦闘機合意先送り　公明は平和履き違えるな",
+          "link": "https://www.sankei.com/article/20240229-EH4ACUXENFIPNOGWVRTDWIE5GU/",
+          "published": "2024/2/29 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

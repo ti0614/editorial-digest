@@ -294,6 +294,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞原子力白書　重要課題の記述が平板だ",
+          "link": "https://www.sankei.com/article/20250726-B2F7XWOBMJKLBDOZKF3MSZTGUU/",
+          "published": "2025/7/26 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞「セブン買収」撤回　価値向上に資する戦略を",
+          "link": "https://www.sankei.com/article/20250726-HABXTPIUANMJFODPA65YHAJCRM/",
+          "published": "2025/7/26 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

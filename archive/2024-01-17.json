@@ -156,6 +156,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞阪神大震災２９年　能登の支援に教訓生かせ",
+          "link": "https://www.sankei.com/article/20240117-6FAPMDVUJFJUHO2D2RLFUGWJ5Q/",
+          "published": "2024/1/17 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞米大統領選　民主主義の力示す論戦を",
+          "link": "https://www.sankei.com/article/20240117-7YCS7RS6YRIMHIHOLLGU3V6MAI/",
+          "published": "2024/1/17 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

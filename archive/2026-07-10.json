@@ -49,7 +49,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "リニア静岡工区　科学的見地で地元理解を得た",
+          "link": "https://www.yomiuri.co.jp/editorial/20260709-GYT1T00392/",
+          "published": "2026/7/10 5:00",
+          "paid": false
+        },
+        {
+          "title": "ＮＡＴＯ会議　米欧同盟の刷新を進める時だ",
+          "link": "https://www.yomiuri.co.jp/editorial/20260709-GYT1T00389/",
+          "published": "2026/7/10 5:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "日本経済新聞",
@@ -82,7 +95,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "＜主張＞W杯への疑念　スポーツの価値を壊すな",
+          "link": "https://www.sankei.com/article/20260710-DOHB4ST6LJIXVMJVGZKD5DFD4I/",
+          "published": "2026/7/10 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞NATO首脳会議　欧州は一層の責任拡大を",
+          "link": "https://www.sankei.com/article/20260710-3TCFCCCJFJMUPPWBYPFMV2UR3I/",
+          "published": "2026/7/10 5:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "東京新聞",

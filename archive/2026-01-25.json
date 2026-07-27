@@ -289,6 +289,23 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞衆院選と経済　責任自覚し消費税論じよ　実効性ある成長戦略が重要だ",
+          "link": "https://www.sankei.com/article/20260125-UJQC35L67BLZDKCSWW6TFJTNHU/",
+          "published": "2026/1/25 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

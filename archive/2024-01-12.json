@@ -156,6 +156,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞被災地の受験生　進学諦めぬ手厚い支援を",
+          "link": "https://www.sankei.com/article/20240112-3WNFC6RXCBID3HKIAFWSGHXJKA/",
+          "published": "2024/1/12 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞自民刷新本部　抜本改革なしに未来ない",
+          "link": "https://www.sankei.com/article/20240112-AWG5A3DSVJMJLIGYIV3XD2EGXU/",
+          "published": "2024/1/12 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

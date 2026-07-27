@@ -196,6 +196,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞ＮＡＴＯ北方拡大　対露抑止力の強化を図れ",
+          "link": "https://www.sankei.com/article/20240228-3DL4TDTYY5L2HNWOKBDIRT4XKI/",
+          "published": "2024/2/28 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞桐島容疑者を送検　公安警察の敗北を悔やむ",
+          "link": "https://www.sankei.com/article/20240228-BH7CC4UBWVMHFENHIR7DNFWC6I/",
+          "published": "2024/2/28 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

@@ -329,6 +329,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞中国の4中総会　強硬崩さぬ姿勢に警戒を",
+          "link": "https://www.sankei.com/article/20251025-EWORNJKKIVLS5GEC3JCPUCLZAU/",
+          "published": "2025/10/25 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞所信表明演説　安保強化方針を評価する",
+          "link": "https://www.sankei.com/article/20251025-4OKENHHK7ZOTXNZ2ORPCAE5UNA/",
+          "published": "2025/10/25 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

@@ -346,6 +346,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞憲法改正　与党は条文起草に尽力を",
+          "link": "https://www.sankei.com/article/20251114-RJSFY2QPUBLUHAO43VCNB4MV7U/",
+          "published": "2025/11/14 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞中国が英大に圧力　ウイグル研究干渉するな",
+          "link": "https://www.sankei.com/article/20251114-YQ25CNAYSFMRRIAMQBZDX4OJU4/",
+          "published": "2025/11/14 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

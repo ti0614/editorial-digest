@@ -339,6 +339,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞有人月探査　日本の技術で存在感示せ",
+          "link": "https://www.sankei.com/article/20260417-SDKR3LPV2NJVVJDQH3EJIJLS7Y/",
+          "published": "2026/4/17 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞男系堅持が大勢　皇室典範の今国会改正を",
+          "link": "https://www.sankei.com/article/20260417-5VO5BXC36BKEPC363YEJA75BUQ/",
+          "published": "2026/4/17 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

@@ -49,7 +49,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "海外留学の低迷　円安と就活が「内向き」に拍車",
+          "link": "https://www.yomiuri.co.jp/editorial/20260706-GYT1T00492/",
+          "published": "2026/7/7 5:00",
+          "paid": false
+        },
+        {
+          "title": "危険な盛り土　自治体の主導で撤去を急げ",
+          "link": "https://www.yomiuri.co.jp/editorial/20260706-GYT1T00489/",
+          "published": "2026/7/7 5:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "日本経済新聞",
@@ -82,7 +95,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "＜主張＞また検事「付審判」　刑事司法に資する審理を",
+          "link": "https://www.sankei.com/article/20260707-HVLF6EOQKRPEFB2YQCRTS7AEFE/",
+          "published": "2026/7/7 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞はやぶさ2の快挙　地球防衛へ技術力を磨け",
+          "link": "https://www.sankei.com/article/20260707-LOD2D5CLHBOO3N3J736ZU4LOH4/",
+          "published": "2026/7/7 5:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "東京新聞",

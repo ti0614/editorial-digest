@@ -249,6 +249,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞新幹線延伸遅れ　在来線強化に方針転換を",
+          "link": "https://www.sankei.com/article/20250316-JRRIKB2PIVIL7BEVPKUOXZ67GY/",
+          "published": "2025/3/16 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞死刑の世論調査　国民の制度支持は底堅い",
+          "link": "https://www.sankei.com/article/20250316-NHKSMR5C4ZI6DHWDNXJKCVJKS4/",
+          "published": "2025/3/16 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

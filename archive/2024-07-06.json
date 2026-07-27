@@ -196,6 +196,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞英国の政権交代　安保協力の継続が重要だ",
+          "link": "https://www.sankei.com/article/20240706-AGFWKLWTIBI7PC7BS6WLS4ZKJI/",
+          "published": "2024/7/6 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞旭川いじめ自殺　市教委と学校の責任重い",
+          "link": "https://www.sankei.com/article/20240706-KBI32CHYPFL7DE72TFENWRRJPM/",
+          "published": "2024/7/6 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

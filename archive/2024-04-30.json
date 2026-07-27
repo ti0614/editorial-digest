@@ -196,6 +196,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞宇宙非核化決議案　露の拒否権行使許されぬ",
+          "link": "https://www.sankei.com/article/20240430-HBTSMWJCIRMJBLXZQFUXMDIHQ4/",
+          "published": "2024/4/30 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞クマ捕獲交付金　殺処分減らす対応徹底を",
+          "link": "https://www.sankei.com/article/20240430-NDXGNH6TIFNQRFCQE55NLLLNCI/",
+          "published": "2024/4/30 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

@@ -219,6 +219,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞長崎被爆体験者　首相は言葉の責任果たせ",
+          "link": "https://www.sankei.com/article/20240914-I7LCAHG5IVPZRM3STSAOKWRBMI/",
+          "published": "2024/9/14 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞兵庫県知事　身を引く決断するときだ",
+          "link": "https://www.sankei.com/article/20240914-NHX53YZBMBIEBFS5332JLVEWUE/",
+          "published": "2024/9/14 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

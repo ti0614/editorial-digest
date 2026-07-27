@@ -190,6 +190,23 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞天皇陛下即位５年　重きお務めに感謝したい　伝統守り男系継承を確実に",
+          "link": "https://www.sankei.com/article/20240501-L4WCFGHRSJNANDAFAMJ3NFGCU4/",
+          "published": "2024/5/1 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

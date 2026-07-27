@@ -259,6 +259,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞施政方針演説　為政者の心構えあるのか",
+          "link": "https://www.sankei.com/article/20250125-6AUC4BAE4ZKZLEX7EFU5G7FULI/",
+          "published": "2025/1/25 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞ネットの誹謗中傷　事実をぶつけて駆逐せよ",
+          "link": "https://www.sankei.com/article/20250125-LW6R3X7NYBKCFAHAKBBESII3TI/",
+          "published": "2025/1/25 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

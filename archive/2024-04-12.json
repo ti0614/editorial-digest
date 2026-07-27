@@ -185,6 +185,23 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞日米首脳会談　抑止力向上の合意実践を　首相の積極姿勢を評価する",
+          "link": "https://www.sankei.com/article/20240412-YPNKYVLTCRIEJJ7K53GBD2KGM4/",
+          "published": "2024/4/12 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

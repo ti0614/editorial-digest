@@ -55,7 +55,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "骨太の方針原案　強い経済は市場の信認が前提",
+          "link": "https://www.yomiuri.co.jp/editorial/20260702-GYT1T00431/",
+          "published": "2026/7/3 5:00",
+          "paid": false
+        },
+        {
+          "title": "日印首脳会談　経済と防衛で相互協力深めよ",
+          "link": "https://www.yomiuri.co.jp/editorial/20260702-GYT1T00428/",
+          "published": "2026/7/3 5:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "日本経済新聞",
@@ -88,7 +101,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "＜主張＞8年度の最低賃金　着実な引き上げが必要だ",
+          "link": "https://www.sankei.com/article/20260703-RHHE5A27FZJBVGHPEQ5XE6HHEY/",
+          "published": "2026/7/3 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞日印首脳会談　「FOIP」の推進を図れ",
+          "link": "https://www.sankei.com/article/20260703-CXENQVWEFBIC3HK2CGY4O2N2A4/",
+          "published": "2026/7/3 5:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "東京新聞",

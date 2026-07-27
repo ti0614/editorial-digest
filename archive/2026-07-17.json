@@ -59,13 +59,13 @@
         {
           "title": "南太平洋島嶼国　過度な対中傾斜の脱却進むか",
           "link": "https://www.yomiuri.co.jp/editorial/20260716-GYT1T00363/",
-          "published": "2026/07/17 05:00",
+          "published": "2026/7/17 5:00",
           "paid": false
         },
         {
           "title": "食品消費税１％　先送りより撤回決断の時だ",
           "link": "https://www.yomiuri.co.jp/editorial/20260716-GYT1T00360/",
-          "published": "2026/07/17 05:00",
+          "published": "2026/7/17 5:00",
           "paid": false
         }
       ]
@@ -95,7 +95,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "＜主張＞北陸新幹線の延伸　京都府・市は全面協力を",
+          "link": "https://www.sankei.com/article/20260717-55LH7PQ2EFNXTCUYK42QU4DMOE/",
+          "published": "2026/7/17 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞所得連動給付　負担軽減へ財源を明確に",
+          "link": "https://www.sankei.com/article/20260717-3A2ZUD6JQBOZTDPU667O3NEKMY/",
+          "published": "2026/7/17 5:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "東京新聞",

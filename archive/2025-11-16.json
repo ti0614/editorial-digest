@@ -289,6 +289,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞コメ農政の混乱　消費者目線で高値是正を",
+          "link": "https://www.sankei.com/article/20251116-6VWDSMFKYJPJ7BPMRDFHAY4KHI/",
+          "published": "2025/11/16 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞大谷のMVP　地球上最高選手の価値だ",
+          "link": "https://www.sankei.com/article/20251116-QPH2Z2G3H5MJHP4YHZ54FZFXVE/",
+          "published": "2025/11/16 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

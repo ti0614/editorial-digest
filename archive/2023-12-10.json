@@ -122,6 +122,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【主張】深夜の津波注意報　避難意識の共有と実行を",
+          "link": "https://www.sankei.com/article/20231210-7KAT4LAHTJLABPWWPR6SCB4HQY/",
+          "published": "2023/12/10 5:00",
+          "paid": false
+        },
+        {
+          "title": "【主張】松野氏更迭へ　後手の対応が混乱深めた",
+          "link": "https://www.sankei.com/article/20231210-FESD6XI35VNCZJIIN67NACJ2DA/",
+          "published": "2023/12/10 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

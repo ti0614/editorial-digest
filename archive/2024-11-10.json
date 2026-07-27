@@ -179,6 +179,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞自殺対策白書　事前のサインを見逃すな",
+          "link": "https://www.sankei.com/article/20241110-JTBK7ZPGIBPY5J7Z4IEAB6RF5I/",
+          "published": "2024/11/10 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞中小企業の賃上げ　価格転嫁進め格差是正を",
+          "link": "https://www.sankei.com/article/20241110-KTIVBTLWJVPMLHBGV6HNTGJYZQ/",
+          "published": "2024/11/10 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

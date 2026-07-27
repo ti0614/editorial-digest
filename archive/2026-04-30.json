@@ -293,6 +293,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞オンラインカジノ　「海外対策」まだ手ぬるい",
+          "link": "https://www.sankei.com/article/20260430-6WU5BPX53ZJA7KQDAKZ4HPP3AI/",
+          "published": "2026/4/30 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞アジアの原油調達　日本の協力で危機克服を",
+          "link": "https://www.sankei.com/article/20260430-P46XP2HIINNXXDIJFSURASUXQI/",
+          "published": "2026/4/30 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

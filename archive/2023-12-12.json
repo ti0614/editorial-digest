@@ -156,6 +156,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【主張】大谷の異次元契約　「世界最高」の評価を喜ぶ",
+          "link": "https://www.sankei.com/article/20231212-AVXROPSXURJZHBZPQRTPL5MMQM/",
+          "published": "2023/12/12 5:00",
+          "paid": false
+        },
+        {
+          "title": "【主張】周庭氏の亡命　中国当局の報復を許すな",
+          "link": "https://www.sankei.com/article/20231212-V32VHMBQGBLARLCWNAGIWYP72Y/",
+          "published": "2023/12/12 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

@@ -190,6 +190,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞GDP600兆円　消費が支える成長確実に",
+          "link": "https://www.sankei.com/article/20240820-HCZYIJN45RLZBGPWZES556WE7Q/",
+          "published": "2024/8/20 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞北陸新幹線の延伸　現実に即し検討すべきだ",
+          "link": "https://www.sankei.com/article/20240820-Z5PRDDSLSFLWTLGCZ3UMX7WFVM/",
+          "published": "2024/8/20 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

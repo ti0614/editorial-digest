@@ -328,6 +328,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞JR東値上げ　国鉄の二の舞い演じるな",
+          "link": "https://www.sankei.com/article/20260314-O3YMJ6GALVM65BQS3U6AEJVYG4/",
+          "published": "2026/3/14 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞国家情報会議法案　今国会での成立を確実に",
+          "link": "https://www.sankei.com/article/20260314-PSQ5RBMQENIQZMGBXYJ76GMX5Q/",
+          "published": "2026/3/14 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

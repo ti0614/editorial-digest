@@ -259,6 +259,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞COP29閉幕　中印の脱途上国が必要だ",
+          "link": "https://www.sankei.com/article/20241126-GHZG75TOOJJE5BSLODBI63GHYE/",
+          "published": "2024/11/26 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞佐渡金山の追悼式　韓国の反日病にあきれる",
+          "link": "https://www.sankei.com/article/20241126-O7V4WMJZWVJNLNJJMA3B2E2E7A/",
+          "published": "2024/11/26 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

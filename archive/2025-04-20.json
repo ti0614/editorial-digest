@@ -203,6 +203,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞生成AIの悪用　「脅威」との危機感を持て",
+          "link": "https://www.sankei.com/article/20250420-2LXJLLK2AVIUJLRXCXV5M6RZKQ/",
+          "published": "2025/4/20 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞習氏3カ国歴訪　反米共闘の戦略に警戒を",
+          "link": "https://www.sankei.com/article/20250420-DVLE2Z6X3ZI43GL3P352YBWRH4/",
+          "published": "2025/4/20 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

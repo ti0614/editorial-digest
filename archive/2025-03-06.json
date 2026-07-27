@@ -255,6 +255,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞中国全人代開幕　「協調」の欺瞞性に警戒を",
+          "link": "https://www.sankei.com/article/20250306-3JDH6JNIWZJ3DAD236TJOQMX5I/",
+          "published": "2025/3/6 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞兵庫の百条委報告　知事は責任をどう考える",
+          "link": "https://www.sankei.com/article/20250306-MXLJMRXPMZOCNC6ERTJWEIQF6U/",
+          "published": "2025/3/6 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

@@ -259,6 +259,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞香港民主派に実刑　人権弾圧を強く非難する",
+          "link": "https://www.sankei.com/article/20241121-6PIETLFSLVOO7EIJV675J4SYLI/",
+          "published": "2024/11/21 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞G20首脳会議　保護主義阻む覚悟みえぬ",
+          "link": "https://www.sankei.com/article/20241121-LZ2J27DF55NARIMNWWVYK64XYI/",
+          "published": "2024/11/21 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

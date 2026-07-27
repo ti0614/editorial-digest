@@ -265,6 +265,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞オンラインカジノ　違法という啓発足りない",
+          "link": "https://www.sankei.com/article/20250221-TCUX5G3UFRJMFDD2DA4DOJQJWY/",
+          "published": "2025/2/21 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞核禁条約の会議　「不参加」の判断は妥当だ",
+          "link": "https://www.sankei.com/article/20250221-ZBR7DTJHN5N2FLAPSHKEB4A3NI/",
+          "published": "2025/2/21 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

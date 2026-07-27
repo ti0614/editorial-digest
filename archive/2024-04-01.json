@@ -179,6 +179,23 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞再エネ資料にロゴ　中国の影響力工作を疑え　河野担当相の責任は重大だ",
+          "link": "https://www.sankei.com/article/20240401-OK3BL3MXVFNBDKYMXUGDBPMHLQ/",
+          "published": "2024/4/1 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

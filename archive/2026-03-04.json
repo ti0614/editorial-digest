@@ -352,6 +352,35 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "首相の施政方針演説　産経「皇室典範と憲法の改正を」　朝毎東は防衛予算の増額を警戒",
+          "link": "https://www.sankei.com/article/20260304-D4GGLDE3V5NDPKXVAE6LKJFYXA/",
+          "published": "2026/3/4 13:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞日本の造船業　官民挙げて再生に全力を",
+          "link": "https://www.sankei.com/article/20260304-ERT2C5OA75MMXOS2SZ5GSXCQJM/",
+          "published": "2026/3/4 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞出生数最少　若者の所得底上げ確実に",
+          "link": "https://www.sankei.com/article/20260304-3XHZ3CWZJNMDLDHLIAAGEWIL2Y/",
+          "published": "2026/3/4 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

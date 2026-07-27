@@ -321,6 +321,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞下水道管の老朽化　優先順位付け対策進めよ",
+          "link": "https://www.sankei.com/article/20260515-V2VNQGASHRNJRG6UMF2WDYXJ34/",
+          "published": "2026/5/15 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞米中首脳会談　「一時的な安定」選んだか",
+          "link": "https://www.sankei.com/article/20260515-HWEAXOADRFOLRLL2JJAEEJV3DA/",
+          "published": "2026/5/15 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

@@ -196,6 +196,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞国立劇場建て替え　文化百年の計を考えたい",
+          "link": "https://www.sankei.com/article/20240227-K6YH36FVJ5I2DDJDTQQELFDYGY/",
+          "published": "2024/2/27 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞宮城野親方の降格　「元大横綱」を甘やかすな",
+          "link": "https://www.sankei.com/article/20240227-WNSZQTGBAFKZDCR5OJIACO2ANQ/",
+          "published": "2024/2/27 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

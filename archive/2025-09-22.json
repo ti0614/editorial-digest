@@ -289,6 +289,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞防衛有識者会議　国民守る方策の実現急げ",
+          "link": "https://www.sankei.com/article/20250922-OBL2WNTKY5MG5KZZSW4PTIVVGE/",
+          "published": "2025/9/22 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞うらしま8000　日本の資源を深海探査で",
+          "link": "https://www.sankei.com/article/20250922-VPKUTIB4RZK43NJMAWB3PIY2RY/",
+          "published": "2025/9/22 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

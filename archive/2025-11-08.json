@@ -340,6 +340,23 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞COP30開幕へ　温暖化対策問い直す時だ　中国の負の影響力排除したい",
+          "link": "https://www.sankei.com/article/20251108-R3YZK34JLZOQTPFUPPJZFNM34E/",
+          "published": "2025/11/8 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

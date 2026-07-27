@@ -329,6 +329,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞欧州のEV政策　日本車の戦略が問われる",
+          "link": "https://www.sankei.com/article/20251224-VOY7USCRYJP7JI32WKFJFII3PU/",
+          "published": "2025/12/24 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞官邸筋の保有発言　核論議の封殺は許されぬ",
+          "link": "https://www.sankei.com/article/20251224-QXU5S4K7FFJNTJRY4GFZU5V5GE/",
+          "published": "2025/12/24 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

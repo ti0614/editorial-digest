@@ -289,6 +289,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞子供の自殺最多　大人は責任を肝に銘じよ",
+          "link": "https://www.sankei.com/article/20250401-JSQMULUYZRJOLPS536QXAJYNYA/",
+          "published": "2025/4/2 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞前半国会終わる　石破政権は熟慮が足りぬ",
+          "link": "https://www.sankei.com/article/20250402-XOUFDVQMR5OITAAJHPDJEWJDF4/",
+          "published": "2025/4/2 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

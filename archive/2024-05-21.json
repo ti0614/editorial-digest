@@ -196,6 +196,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞介護保険料の上昇　予防の取り組み活性化を",
+          "link": "https://www.sankei.com/article/20240521-TXHZCYNEQRLPFNCHO3DHF7O5GU/",
+          "published": "2024/5/21 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞頼総統の就任　抑止力強化で台湾を守れ",
+          "link": "https://www.sankei.com/article/20240521-WBOUJ4CYDROKZPZ6XIENICAALY/",
+          "published": "2024/5/21 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

@@ -259,6 +259,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞令和7年春闘　中小の価格転嫁を進めよ",
+          "link": "https://www.sankei.com/article/20250124-GFCMVJU66JPNFJZHJNNFCLDSYQ/",
+          "published": "2025/1/24 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞長野で3人殺傷　無差別襲撃に自衛意識を",
+          "link": "https://www.sankei.com/article/20250124-ZTMQOI63FBJNZAAF3HHLNEJ2RY/",
+          "published": "2025/1/24 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

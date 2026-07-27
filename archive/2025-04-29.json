@@ -277,6 +277,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞逆走死亡事故　危険根絶の抜本対策急げ",
+          "link": "https://www.sankei.com/article/20250429-ABGGGA3QLVL4XFTKVQFBIKK6DQ/",
+          "published": "2025/4/29 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞昭和の日　激動の時代を語り継ごう",
+          "link": "https://www.sankei.com/article/20250429-WCUK3K4MBFNFXCSKTDO527BV2E/",
+          "published": "2025/4/29 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

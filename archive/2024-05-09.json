@@ -196,6 +196,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞環境省と水俣病　思いやりの心はないのか",
+          "link": "https://www.sankei.com/article/20240509-5FNDNXG5DVIM7BLWV2CLMPNANE/",
+          "published": "2024/5/9 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞プーチン氏５期目　全露軍撤退へ圧力強めよ",
+          "link": "https://www.sankei.com/article/20240509-H5INJHSQQJIJVGUOXSS7SOLTE4/",
+          "published": "2024/5/9 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

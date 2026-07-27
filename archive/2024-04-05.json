@@ -196,6 +196,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞岡口判事を罷免　国民常識にかなう判断だ",
+          "link": "https://www.sankei.com/article/20240405-36OFVUMYYBOSPD66BXLA3A6CZE/",
+          "published": "2024/4/5 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞自民党の処分　これでけじめになるのか",
+          "link": "https://www.sankei.com/article/20240405-QEWWGH5IVJODVOXDSXBU3Q3IIY/",
+          "published": "2024/4/5 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

@@ -266,6 +266,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞台湾支援の法成立　米国は公的接触の拡大を",
+          "link": "https://www.sankei.com/article/20251207-PDL532IYD5JJXDZAOCCVLKGW3Y/",
+          "published": "2025/12/7 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞強盗指示犯を逮捕　匿名に隠れる「悪」許さぬ",
+          "link": "https://www.sankei.com/article/20251207-KSSBH4QNMNNKBFP6P5NE3HQ3XE/",
+          "published": "2025/12/7 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

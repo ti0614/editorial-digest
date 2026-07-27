@@ -219,6 +219,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞プーチン氏不逮捕　モンゴル教訓に再発阻め",
+          "link": "https://www.sankei.com/article/20240905-5JMAUJV7ANIVXOYNT7XDEN6Y6Q/",
+          "published": "2024/9/5 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞男性育休3割超　取得しやすい環境整備を",
+          "link": "https://www.sankei.com/article/20240905-YYNWOIX2V5IF3FZYROI5MJQS3M/",
+          "published": "2024/9/5 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

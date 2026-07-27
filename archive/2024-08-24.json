@@ -196,6 +196,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞ハリス氏の演説　自らの言葉で安保を語れ",
+          "link": "https://www.sankei.com/article/20240824-37JQBZNEAFI6VF3JFUOUX56T2Q/",
+          "published": "2024/8/24 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞処理水放出1年　中国は禁輸の即時撤廃を",
+          "link": "https://www.sankei.com/article/20240824-OLGVMD2XMNK4TK3QSPJOMCGT3M/",
+          "published": "2024/8/24 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

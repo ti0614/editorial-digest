@@ -346,6 +346,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞ストーカー規制法　法改正だけでは守れない",
+          "link": "https://www.sankei.com/article/20251113-AXZPV5YOKZOIZDAQ6GEGLNOHNA/",
+          "published": "2025/11/13 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞不登校が過去最多　学校の魅力高める対策を",
+          "link": "https://www.sankei.com/article/20251113-HPZS4XQHEFKYTAN3WX6JUPIP4M/",
+          "published": "2025/11/13 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

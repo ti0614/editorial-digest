@@ -305,6 +305,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞上海で邦人負傷　中国は「真相」を明示せよ",
+          "link": "https://www.sankei.com/article/20260521-VNB7KNZNUFMRBBDAEVAI3UWKME/",
+          "published": "2026/5/21 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞党首討論　細切れで深まらなかった",
+          "link": "https://www.sankei.com/article/20260521-4SSO5LKZUBJ2TMDJSWCBF4QHWA/",
+          "published": "2026/5/21 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

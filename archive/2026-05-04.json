@@ -271,6 +271,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞子供とスポーツ　体を動かす喜び教えよう",
+          "link": "https://www.sankei.com/article/20260504-IEMPOXACKJO4RDQLSQ5WKJBEME/",
+          "published": "2026/5/4 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞北の派兵記念館　露朝同盟に最大限警戒を",
+          "link": "https://www.sankei.com/article/20260504-SCLU5L6SDRJ2BF4LYKHIIRED3Q/",
+          "published": "2026/5/4 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

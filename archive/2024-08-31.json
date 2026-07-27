@@ -213,6 +213,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞英国の反移民暴動　日本も厳しい現実直視を",
+          "link": "https://www.sankei.com/article/20240831-DKC22ZGCHNKEDLMNGCPIQWBN3A/",
+          "published": "2024/8/31 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞初尋問の兵庫知事　事態収拾へ進退判断せよ",
+          "link": "https://www.sankei.com/article/20240831-QXDP25EOWBPXXBJVDGR4RWILXI/",
+          "published": "2024/8/31 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

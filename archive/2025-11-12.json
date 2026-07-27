@@ -346,6 +346,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞国会審議　常識に反した運用やめよ",
+          "link": "https://www.sankei.com/article/20251112-GFYFRP7H2BIDBDOICG4AHZFDHE/",
+          "published": "2025/11/12 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞デフリンピック　聴覚障害に理解深めたい",
+          "link": "https://www.sankei.com/article/20251112-GZSH4C47N5NPLJRLLILPQTEZXU/",
+          "published": "2025/11/12 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

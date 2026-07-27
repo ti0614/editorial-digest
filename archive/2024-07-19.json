@@ -196,6 +196,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞中国の台湾人拘束　自由阻む脅しは許されぬ",
+          "link": "https://www.sankei.com/article/20240719-4EC5UWS76BPUTJ3DAEU7PUEJ5Y/",
+          "published": "2024/7/19 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞香典疑惑　政治不信を加速させるな",
+          "link": "https://www.sankei.com/article/20240719-NUHXI7ZQ65L4DAGHREUGKEIBII/",
+          "published": "2024/7/19 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

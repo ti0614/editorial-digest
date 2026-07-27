@@ -335,6 +335,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞党首討論　野田氏の安保認識を疑う",
+          "link": "https://www.sankei.com/article/20251127-3FHA63BC6NPFLNCFH76R7QUAGI/",
+          "published": "2025/11/27 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞ウクライナ和平案　被害国の主権こそ尊重を",
+          "link": "https://www.sankei.com/article/20251127-CIB575QKV5NHLBJDD2J5LNC4WE/",
+          "published": "2025/11/27 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

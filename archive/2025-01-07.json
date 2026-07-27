@@ -253,6 +253,23 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞トランプ氏と世界　同盟国との分断回避を　ウクライナ対応が試金石だ",
+          "link": "https://www.sankei.com/article/20250107-YDYLMY5JVRO35HVF427ELDLTAY/",
+          "published": "2025/1/7 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

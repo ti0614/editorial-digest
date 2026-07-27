@@ -283,6 +283,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞選択的夫婦別姓　経団連は提言取り下げを",
+          "link": "https://www.sankei.com/article/20250415-5PUPCYLNJFOBVINKTMM4C7ZHYM/",
+          "published": "2025/4/15 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞米イラン協議開始　核保有に歯止めをかけよ",
+          "link": "https://www.sankei.com/article/20250415-GQBJEDRI45N2HO5RXZEXROQ72E/",
+          "published": "2025/4/15 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

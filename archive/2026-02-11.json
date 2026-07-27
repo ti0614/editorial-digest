@@ -335,6 +335,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞建国記念の日　誇りを持ち語り継ぎたい",
+          "link": "https://www.sankei.com/article/20260211-XMSVZDY2YJIZDIDZIKRGFW6QMQ/",
+          "published": "2026/2/11 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞柏崎刈羽の再稼働　試練糧に基幹電力の道を",
+          "link": "https://www.sankei.com/article/20260211-JF7V5A7D7FKVXOGL5PRAWUIMOY/",
+          "published": "2026/2/11 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

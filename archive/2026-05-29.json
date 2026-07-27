@@ -339,6 +339,52 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "読売新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.yomiuri.co.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "防災気象情報　新名称で避難行動を促したい",
+          "link": "https://www.yomiuri.co.jp/editorial/20260528-GYT1T00434/",
+          "published": "2026/5/29 5:00",
+          "paid": false
+        },
+        {
+          "title": "国家情報会議　認知戦への対処能力を高めよ",
+          "link": "https://www.yomiuri.co.jp/editorial/20260528-GYT1T00431/",
+          "published": "2026/5/29 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞クマの都市域出没　春から頻発に警戒一段と",
+          "link": "https://www.sankei.com/article/20260529-SO7DG7XUYZIJLCYOOSK66WNLSU/",
+          "published": "2026/5/29 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞中国がTPP行事　「独断」開催に懸念大きい",
+          "link": "https://www.sankei.com/article/20260529-NQH46UV3CFLA5LLAIMZWLPC7SI/",
+          "published": "2026/5/29 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

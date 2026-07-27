@@ -49,7 +49,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "検察の取り調べ　自白偏重の体質から脱却せよ",
+          "link": "https://www.yomiuri.co.jp/editorial/20260710-GYT1T00402/",
+          "published": "2026/7/11 5:00",
+          "paid": false
+        },
+        {
+          "title": "皇室典範改正案　根幹変える質疑が３時間とは",
+          "link": "https://www.yomiuri.co.jp/editorial/20260710-GYT1T00401/",
+          "published": "2026/7/11 5:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "日本経済新聞",
@@ -82,7 +95,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "＜主張＞露への制裁解除　IOCは二枚舌を使うな",
+          "link": "https://www.sankei.com/article/20260711-RHYLEMEV2FK7ZDQR7SZ4HPLVC4/",
+          "published": "2026/7/11 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞衆院で可決　改正典範成立へ前進した",
+          "link": "https://www.sankei.com/article/20260711-Z4RLATIVG5IANFJBL6TPDJ5JDE/",
+          "published": "2026/7/11 5:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "東京新聞",

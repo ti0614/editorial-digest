@@ -346,6 +346,52 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "読売新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.yomiuri.co.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "英首相辞任へ　短命政権が相次ぐ異例の事態",
+          "link": "https://www.yomiuri.co.jp/editorial/20260623-GYT1T00479/",
+          "published": "2026/6/24 5:00",
+          "paid": false
+        },
+        {
+          "title": "沖縄慰霊の日　惨禍を招かぬ努力を重ねたい",
+          "link": "https://www.yomiuri.co.jp/editorial/20260623-GYT1T00483/",
+          "published": "2026/6/24 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞私大の4割削減案　再編進め役割を問い直せ",
+          "link": "https://www.sankei.com/article/20260624-RBMMGZIM2BKRZEFVCFC2JK2HPY/",
+          "published": "2026/6/24 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞沖縄慰霊の日　平和守り抜く誓い新たに",
+          "link": "https://www.sankei.com/article/20260624-TQYRX4WPMRIF3NMMZG7OFM7CO4/",
+          "published": "2026/6/24 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

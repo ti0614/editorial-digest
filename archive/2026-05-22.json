@@ -333,6 +333,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞東大学園祭の中止　言論封殺「テロ」許されぬ",
+          "link": "https://www.sankei.com/article/20260522-C3JMAF5JBJKKPGCVY2IEKMDRTA/",
+          "published": "2026/5/22 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞中露首脳会談　日本批判は看過できない",
+          "link": "https://www.sankei.com/article/20260522-YV4RFZO4U5MTJIKMKRMG6BHO4Q/",
+          "published": "2026/5/22 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

@@ -173,6 +173,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞熱中症「特別警戒」　発令時の対応策を万全に",
+          "link": "https://www.sankei.com/article/20240428-SIOJ4YHSWBP6LEO2TUAM7CPX3M/",
+          "published": "2024/4/28 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞パリ五輪へ３カ月　テロ阻止に国際的連携を",
+          "link": "https://www.sankei.com/article/20240428-ZCS7LHJVYVISJMAGCDVCYY3BLE/",
+          "published": "2024/4/28 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

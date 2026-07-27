@@ -283,6 +283,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞自公立の年金合意　どさくさ紛れでいいのか",
+          "link": "https://www.sankei.com/article/20250528-IIA2WUBPFZLJ7NP7XGS57LG5UE/",
+          "published": "2025/5/28 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞ウクライナ　米は支援強化へ転換せよ",
+          "link": "https://www.sankei.com/article/20250528-N3IVVM7RH5OUPFXJU63DBCRAJ4/",
+          "published": "2025/5/28 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

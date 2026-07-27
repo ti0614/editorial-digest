@@ -179,6 +179,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞Ｇ７サミット　対中「牽制」を打ち出せた",
+          "link": "https://www.sankei.com/article/20240616-6GCC7VZD4JKG7H6Y6ZRZ5RYBWY/",
+          "published": "2024/6/16 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞株主総会ピーク　企業価値向上図る契機に",
+          "link": "https://www.sankei.com/article/20240616-PJ2NPWEBSRPR5BJN7BAADF67RY/",
+          "published": "2024/6/16 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

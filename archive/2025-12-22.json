@@ -289,6 +289,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞ミャンマー総選挙　政情安定につながらない",
+          "link": "https://www.sankei.com/article/20251222-J66TEBPNAJM5ZM5JNSVJUP2QXQ/",
+          "published": "2025/12/22 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞経済同友会　新体制で信頼回復を急げ",
+          "link": "https://www.sankei.com/article/20251222-WY3MWDUMS5NNJHPKX7BZEEIHP4/",
+          "published": "2025/12/22 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

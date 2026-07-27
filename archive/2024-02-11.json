@@ -179,6 +179,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞建国記念の日　日本の由来をしのびたい　",
+          "link": "https://www.sankei.com/article/20240211-BDJPXS76KVLLZFOXDTW6D5CI54/",
+          "published": "2024/2/11 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞日伊首脳会談　外交安保で協力を深めよ　　",
+          "link": "https://www.sankei.com/article/20240211-EV62MLQ6JJM3XEM2ZHD2XJJYPQ/",
+          "published": "2024/2/11 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

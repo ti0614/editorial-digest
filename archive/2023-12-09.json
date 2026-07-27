@@ -156,6 +156,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【主張】皇后陛下ご還暦　感謝と共にお祝いしたい",
+          "link": "https://www.sankei.com/article/20231209-A4G64ZSMUFPK7NKLLI6NZMMJ3I/",
+          "published": "2023/12/9 5:00",
+          "paid": false
+        },
+        {
+          "title": "【主張】糖尿病治療薬　不適切使用防ぐ仕組みを",
+          "link": "https://www.sankei.com/article/20231209-R26PKEAWHFIRPMQZJP62FMWLBI/",
+          "published": "2023/12/9 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

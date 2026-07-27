@@ -202,6 +202,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞国語世論調査　本に親しむ環境づくりを",
+          "link": "https://www.sankei.com/article/20240929-S5VQA4GRRROUVEYBHQ2BGMMKEE/",
+          "published": "2024/9/29 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞イランの対露支援　ミサイル供与は許されぬ",
+          "link": "https://www.sankei.com/article/20240929-TBEW6H4O25NA3BNACJYQFCXFQY/",
+          "published": "2024/9/29 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

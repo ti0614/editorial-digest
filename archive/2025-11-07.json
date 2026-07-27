@@ -352,6 +352,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞老人ホーム殺人　動機解明と共有が重要だ",
+          "link": "https://www.sankei.com/article/20251107-X5KMTD4LQRLKJEY5GPCILSYPV4/",
+          "published": "2025/11/7 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞米朝会談の可能性　拉致解決へ好機を逃すな",
+          "link": "https://www.sankei.com/article/20251107-K7UFZLJ7FBN23LC5O5SX325O44/",
+          "published": "2025/11/7 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

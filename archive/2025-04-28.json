@@ -249,6 +249,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞火山灰警報の導入　分かりやすい情報発信を",
+          "link": "https://www.sankei.com/article/20250428-J7X77UAXXZJBDMTTZV37R6U4RQ/",
+          "published": "2025/4/28 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞露の北方領土演習　石破政権は警戒心高めよ",
+          "link": "https://www.sankei.com/article/20250428-WN5CQUY2PNOA3HYMTIIXEZ7ZKU/",
+          "published": "2025/4/28 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

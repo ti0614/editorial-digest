@@ -323,6 +323,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞拉致と高市首相　トランプ氏に関与求めよ",
+          "link": "https://www.sankei.com/article/20251023-2HRQK6G6RRLMJP6WHNUUR6HGSM/",
+          "published": "2025/10/23 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞がんの外科医不足　高度手術担う病院を絞れ",
+          "link": "https://www.sankei.com/article/20251023-7WJ6BNMX75JLDLTBLSJHTPONME/",
+          "published": "2025/10/23 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

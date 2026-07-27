@@ -196,6 +196,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞経済復興会議　ウクライナ支援の推進を",
+          "link": "https://www.sankei.com/article/20240221-47JV6DCSL5LALNYYYAHTWZJ6MY/",
+          "published": "2024/2/21 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞診療報酬で賃上げ　医療の充実につなげたい",
+          "link": "https://www.sankei.com/article/20240221-5V5SCDHV4NMPNOLB3XSDLOIQ44/",
+          "published": "2024/2/21 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

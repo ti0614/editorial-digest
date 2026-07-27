@@ -300,6 +300,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞中国SNSの動画　昭和天皇侮辱に抗議する",
+          "link": "https://www.sankei.com/article/20250829-OZCN7UNXSJK3NKQPL32GPWENXY/",
+          "published": "2025/8/29 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞夏のコロナ拡大　酷暑でも換気心掛けたい",
+          "link": "https://www.sankei.com/article/20250829-YBLQX6BSXNNBDDQ3ORH25KC6XI/",
+          "published": "2025/8/29 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

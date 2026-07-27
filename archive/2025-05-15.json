@@ -272,6 +272,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞消費税の減税　与野党は責任ある議論を",
+          "link": "https://www.sankei.com/article/20250515-7ZVA36LXKRNOLGLR4GWP2UOTZ4/",
+          "published": "2025/5/15 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞日産のリストラ　生き残りへ計画完遂せよ",
+          "link": "https://www.sankei.com/article/20250515-IP423ZAEFNKTPIWDANIUVGIDPA/",
+          "published": "2025/5/15 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

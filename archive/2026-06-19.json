@@ -346,6 +346,52 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "読売新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.yomiuri.co.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "国旗損壊罪　敬意を払って大切に扱いたい",
+          "link": "https://www.yomiuri.co.jp/editorial/20260618-GYT1T00495/",
+          "published": "2026/6/19 5:00",
+          "paid": false
+        },
+        {
+          "title": "米イラン署名　世界の混乱止める一歩とせよ",
+          "link": "https://www.yomiuri.co.jp/editorial/20260618-GYT1T00492/",
+          "published": "2026/6/19 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞G7サミット閉幕　「成果」を実行で示す時だ",
+          "link": "https://www.sankei.com/article/20260619-JW6LTOHFYZOONA5EZAWRWYX72A/",
+          "published": "2026/6/19 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞食品消費税1％案　つじつま合わせが過ぎる",
+          "link": "https://www.sankei.com/article/20260619-TJRSJOHHWVI4JGDJKNUIEC5BHQ/",
+          "published": "2026/6/19 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

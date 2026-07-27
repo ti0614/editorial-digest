@@ -173,6 +173,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞先島諸島避難計画　沖縄県は政府に協力せよ",
+          "link": "https://www.sankei.com/article/20240527-TVBGRWSK4VJNVPFQMY66YOH7E4/",
+          "published": "2024/5/27 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞皇位の安定継承へ　結論の先送りは許されぬ",
+          "link": "https://www.sankei.com/article/20240527-ZZZUOG3DPVIABNDR5F7FKF43DU/",
+          "published": "2024/5/27 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

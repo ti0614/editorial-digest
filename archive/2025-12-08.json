@@ -289,6 +289,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞「国宝」大ヒット　伝統芸能再興への好機に　",
+          "link": "https://www.sankei.com/article/20251208-QQKKPRD7GRLGJBUZLZKF5UYJWU/",
+          "published": "2025/12/8 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞レーダー照射　中国軍の暴挙を非難する",
+          "link": "https://www.sankei.com/article/20251208-DGDQ7MBTNFMXRK7R7MSEM3DLGI/",
+          "published": "2025/12/8 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

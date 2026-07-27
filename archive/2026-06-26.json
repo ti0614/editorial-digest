@@ -352,6 +352,52 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "読売新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.yomiuri.co.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "官民戦略投資　重点分野の絞り込みがカギだ",
+          "link": "https://www.yomiuri.co.jp/editorial/20260625-GYT1T00515/",
+          "published": "2026/6/26 5:00",
+          "paid": false
+        },
+        {
+          "title": "皇位継承の安定　課題多い旧宮家からの養子案",
+          "link": "https://www.yomiuri.co.jp/editorial/20260625-GYT1T00509/",
+          "published": "2026/6/26 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞中国で邦人摘発　拘束する根拠があるのか",
+          "link": "https://www.sankei.com/article/20260626-FB2NTTJIP5IZ5AHLZ5JWD75SX4/",
+          "published": "2026/6/26 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞皇室典範改正要綱　早期の国会提出へ調整を",
+          "link": "https://www.sankei.com/article/20260626-RVIAWF4OKVNDBAVP4LMB6LYPTM/",
+          "published": "2026/6/26 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

@@ -283,6 +283,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞ロシア産LNG　輸入停止へ十分に備えよ",
+          "link": "https://www.sankei.com/article/20251026-J3ZTY5FJIJPDZBTX6EOH4IYGVA/",
+          "published": "2025/10/26 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞高市政権と物価高　強い経済へ「責任」全うを",
+          "link": "https://www.sankei.com/article/20251026-SYSXXLHZWZIR3CBT7SITLETSEI/",
+          "published": "2025/10/26 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

@@ -242,6 +242,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞与党幹部の訪中　なぜ米国に行かないのか",
+          "link": "https://www.sankei.com/article/20250111-EO4Z35JSE5NKDMJ2MTCTM3ICRA/",
+          "published": "2025/1/11 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞トランプ氏　同盟国「恫喝」が目に余る",
+          "link": "https://www.sankei.com/article/20250111-XI4QMSQLLRN7LIRQBN3QDZFQQU/",
+          "published": "2025/1/11 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

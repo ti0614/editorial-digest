@@ -55,7 +55,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "米閣僚の辞任　トランプ一強で深まる危うさ",
+          "link": "https://www.yomiuri.co.jp/editorial/20260629-GYT1T00389/",
+          "published": "2026/6/30 5:00",
+          "paid": false
+        },
+        {
+          "title": "台風と地震　土砂災害への警戒を緩めるな",
+          "link": "https://www.yomiuri.co.jp/editorial/20260629-GYT1T00399/",
+          "published": "2026/6/30 5:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "日本経済新聞",
@@ -88,7 +101,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "＜主張＞改正郵政民営化法　国費受ける責任の自覚を",
+          "link": "https://www.sankei.com/article/20260630-X7WPW6JILNNFXGSZGDDDHNWWT4/",
+          "published": "2026/6/30 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞中露機が合同飛行　「核攻撃の脅し」許されぬ",
+          "link": "https://www.sankei.com/article/20260630-RDWWQR6UF5JADG4DBO7SLP7C4Y/",
+          "published": "2026/6/30 5:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "東京新聞",

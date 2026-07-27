@@ -270,6 +270,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞米露停戦交渉　ウクライナの立場尊重を",
+          "link": "https://www.sankei.com/article/20250215-NK6COJEWMFMK7I34A4VFJ3TKKI/",
+          "published": "2025/2/15 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞尖閣を「釣魚島」　NHKは国益を損ねるな",
+          "link": "https://www.sankei.com/article/20250215-X4ID5DZS2BOVZMLBNRK7C3OGPY/",
+          "published": "2025/2/15 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

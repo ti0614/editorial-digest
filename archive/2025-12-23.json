@@ -329,6 +329,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞日本と中央アジア　互恵の精神で連携強化を",
+          "link": "https://www.sankei.com/article/20251223-V6NFUAQ4TBMNVKBWG4EV4KZRSU/",
+          "published": "2025/12/23 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞H3ロケット失敗　信頼回復へ立て直し急げ",
+          "link": "https://www.sankei.com/article/20251223-N632DZM2MNLU5NNJULR3LAR72A/",
+          "published": "2025/12/23 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

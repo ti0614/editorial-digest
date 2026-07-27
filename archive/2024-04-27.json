@@ -196,6 +196,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞皇位継承と皇族数　「正統の流れ」確認された",
+          "link": "https://www.sankei.com/article/20240427-JA6Z5LU6TJMX7B4QLCKAPOYBHM/",
+          "published": "2024/4/27 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞政治改革特別委　規正法改正を確実に図れ",
+          "link": "https://www.sankei.com/article/20240427-WGG7RFSJEVM25J26XOLITAWQGM/",
+          "published": "2024/4/27 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

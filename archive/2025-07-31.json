@@ -306,6 +306,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞各地で津波警報　適切に避難したか検証を　　",
+          "link": "https://www.sankei.com/article/20250731-INQEMAWXVBPGVGNZQLAQ4L6YEI/",
+          "published": "2025/7/31 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞八王子射殺事件　未解決30年の無念を思う",
+          "link": "https://www.sankei.com/article/20250731-LQOALWF4ANOQHG6EK2EPAU4NVQ/",
+          "published": "2025/7/31 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

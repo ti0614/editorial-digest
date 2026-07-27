@@ -196,6 +196,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞岸田首相の外交　一層の対中発信が必要だ",
+          "link": "https://www.sankei.com/article/20240528-4WQFXLYYPJOL3JWDRJVS63MCVE/",
+          "published": "2024/5/28 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞静岡知事に鈴木氏　早急にリニア着工容認を",
+          "link": "https://www.sankei.com/article/20240528-TI73VQUB7RLEJPI3DQHGSSZFXU/",
+          "published": "2024/5/28 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

@@ -346,6 +346,35 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "中国軍高官の粛清　産経「台湾有事に最大限警戒を」　朝読も習氏「1強」の危うさ懸念",
+          "link": "https://www.sankei.com/article/20260204-JLTJLAJHIVLX7FIFMIOLISGUJE/",
+          "published": "2026/2/4 13:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞警視庁に求償勧告　捜査官の勇気が問われる",
+          "link": "https://www.sankei.com/article/20260204-VTTUMBOGOROU7G5Q24W2NOGRCM/",
+          "published": "2026/2/4 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞衆院選とコメ農政　安定供給へ活発な論戦を",
+          "link": "https://www.sankei.com/article/20260204-EYE62IIM7ZNZHOAX2NW6RQEBGE/",
+          "published": "2026/2/4 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

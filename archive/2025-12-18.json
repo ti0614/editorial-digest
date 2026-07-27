@@ -329,6 +329,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞露の子供連れ去り　国連決議に沿い解放せよ",
+          "link": "https://www.sankei.com/article/20251218-K4IRUFKYFBMZTBWG3RUKHIFLMI/",
+          "published": "2025/12/18 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞臨時国会が閉幕　対中抑止へもっと議論を",
+          "link": "https://www.sankei.com/article/20251218-C24AOGI3QVKYBMVRZLTWVBG4HE/",
+          "published": "2025/12/18 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

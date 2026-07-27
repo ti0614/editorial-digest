@@ -242,6 +242,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞能登豪雨1カ月　激甚化する水害に備えよ",
+          "link": "https://www.sankei.com/article/20241022-KCPHO5DFFJJHDMABMJU6LXKX6U/",
+          "published": "2024/10/22 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞衆院選と年金　次世代も安心する提案を",
+          "link": "https://www.sankei.com/article/20241022-MQA74BFJDZKTJFYNJZVXNJ2PIU/",
+          "published": "2024/10/22 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

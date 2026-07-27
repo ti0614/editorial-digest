@@ -346,6 +346,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞緩和ケアの拡大　誰もが受けられる医療に",
+          "link": "https://www.sankei.com/article/20251205-TNNOWOPM2NJP3LJ3SQKUVZV7QI/",
+          "published": "2025/12/5 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞執拗な対日批判　中国の異常性示すだけだ",
+          "link": "https://www.sankei.com/article/20251205-OC5SOMDYH5MBVCD737YQ5EFCUE/",
+          "published": "2025/12/5 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

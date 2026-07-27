@@ -328,6 +328,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞地下鉄サリン事件　賠償金回収の仕組み作れ",
+          "link": "https://www.sankei.com/article/20260320-TUCAHNGPLJK5NOAPXZPH5EBKBI/",
+          "published": "2026/3/20 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞公示地価5年上昇　マンション高騰に警戒を",
+          "link": "https://www.sankei.com/article/20260320-FMGVKEM575IS7KBEK2TAP3HSQM/",
+          "published": "2026/3/20 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

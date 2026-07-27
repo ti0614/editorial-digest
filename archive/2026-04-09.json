@@ -329,6 +329,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞再審見直し　政府は法案修正すべきだ",
+          "link": "https://www.sankei.com/article/20260409-XXMOIXR32FKAXLYONFSXZ4URVM/",
+          "published": "2026/4/9 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞中東の停戦合意　終戦へ交渉を前進させよ",
+          "link": "https://www.sankei.com/article/20260409-4VK2JTLPS5NNTKASEV6LMWW6I4/",
+          "published": "2026/4/9 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

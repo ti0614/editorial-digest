@@ -243,6 +243,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞万博の開幕　希望の未来描ける祭典に",
+          "link": "https://www.sankei.com/article/20250413-6CU6YAWW3NKENDNSPPSEP5HP5Q/",
+          "published": "2025/4/13 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞豪の対中姿勢　明瞭な「拒否」を評価する",
+          "link": "https://www.sankei.com/article/20250413-RWJSIU7MWZI3HCHVTRYXBIH67Q/",
+          "published": "2025/4/13 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

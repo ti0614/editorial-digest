@@ -283,6 +283,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞天安門事件36年　事実の公開と謝罪必要だ",
+          "link": "https://www.sankei.com/article/20250605-B2S5MZJSARNRDHMDGY7EW2LU6U/",
+          "published": "2025/6/5 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞韓国新大統領　慰安婦問題を蒸し返すな",
+          "link": "https://www.sankei.com/article/20250605-TOFY2CWRJVNPTG2UEPEQKZ4XTI/",
+          "published": "2025/6/5 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

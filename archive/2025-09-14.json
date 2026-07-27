@@ -283,6 +283,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞ガザの飢餓　直ちに物資の搬入拡大を",
+          "link": "https://www.sankei.com/article/20250914-JMXINX7S4BOLVMHUF6R3ZNZJMI/",
+          "published": "2025/9/14 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞山口組分裂10年　「反社」捜査に一丸となれ",
+          "link": "https://www.sankei.com/article/20250914-LGXYF43ZBNP3XDKFRM2SJ36UNA/",
+          "published": "2025/9/14 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

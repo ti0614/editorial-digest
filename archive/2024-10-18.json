@@ -259,6 +259,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞ウクライナへ派兵　北の脅威をもっと論じよ",
+          "link": "https://www.sankei.com/article/20241018-7IRDVZ74WBLD7KQSOTUO4KCUJA/",
+          "published": "2024/10/18 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞都のカスハラ条例　社会全体で働く人を守れ",
+          "link": "https://www.sankei.com/article/20241018-I3K5ESS7ABI4HP5INK5EYTPKX4/",
+          "published": "2024/10/18 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

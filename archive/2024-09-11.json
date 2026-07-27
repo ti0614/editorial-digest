@@ -213,6 +213,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞普天間飛行場　辺野古移設で返還実現を",
+          "link": "https://www.sankei.com/article/20240911-4JJBOM2C4FNNDHT3W6F5E7SUQI/",
+          "published": "2024/9/11 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞一力棋聖「世界一」　日本囲碁の隆盛期待する",
+          "link": "https://www.sankei.com/article/20240911-YIJBXM3EJZOK7FMRGPCBGB5E4A/",
+          "published": "2024/9/11 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

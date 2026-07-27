@@ -340,6 +340,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞立党70年の自民　公約を守る国民政党たれ",
+          "link": "https://www.sankei.com/article/20260414-ZVYYEPOTPVJVHB6CL7D2J4RSMY/",
+          "published": "2026/4/14 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞ホルムズ海峡　米は「全面開放」へ全力を",
+          "link": "https://www.sankei.com/article/20260414-F5QZUYDXKVIIXGUS3EZW435A7M/",
+          "published": "2026/4/14 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

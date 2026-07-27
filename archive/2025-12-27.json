@@ -306,6 +306,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞カキの大量死　原因を幅広く探り解明を",
+          "link": "https://www.sankei.com/article/20251227-5FMC6IB3LVMY7LBHZOZ4K565XI/",
+          "published": "2025/12/27 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞8年度予算案　歳出改革を尽くしたのか",
+          "link": "https://www.sankei.com/article/20251227-QKXDZX4GMJKNNIWCRFWBQ4LLKI/",
+          "published": "2025/12/27 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

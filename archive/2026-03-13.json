@@ -346,6 +346,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞埼玉の小児がん治療の拠点病院で抗がん剤による死亡　事態の解明を一刻も早く",
+          "link": "https://www.sankei.com/article/20260313-MN57LL5MSBN2TNUDKICLXI4IFU/",
+          "published": "2026/3/13 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞石油備蓄の放出　国民の不安解消に全力を",
+          "link": "https://www.sankei.com/article/20260313-SDZW24GQZRJI7HATRLEA6UPQDA/",
+          "published": "2026/3/13 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

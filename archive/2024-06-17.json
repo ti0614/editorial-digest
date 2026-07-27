@@ -162,6 +162,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞骨太の方針原案　財政余力を高める布石に",
+          "link": "https://www.sankei.com/article/20240617-47UYG3SC2BJJTAUZ2VW6MEJ574/",
+          "published": "2024/6/17 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞世界平和サミット　ウクライナを支え続けよ",
+          "link": "https://www.sankei.com/article/20240617-UF46EYXTMVNSDNC2HT6HO3OYJQ/",
+          "published": "2024/6/17 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

@@ -196,6 +196,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞改正民法成立　共同親権で子の最善図れ",
+          "link": "https://www.sankei.com/article/20240608-KVP6HSAP4BK5HBSL53BUHTP7ZI/",
+          "published": "2024/6/8 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞国立競技場の未来　先端技術と伝統の共存を",
+          "link": "https://www.sankei.com/article/20240608-US4AOLSLSZI7RG3YTXCUVOVX5Q/",
+          "published": "2024/6/8 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

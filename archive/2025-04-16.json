@@ -283,6 +283,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞赤沢担当相の訪米　国益確保へ戦略的協議を",
+          "link": "https://www.sankei.com/article/20250416-EJHIGSLJQRKG3CICAZAED7E3BY/",
+          "published": "2025/4/16 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞無縁仏の増加　国と自治体は対応尽くせ",
+          "link": "https://www.sankei.com/article/20250416-OBQ4COKY7VPHDMJ5V2WYQJZ7TA/",
+          "published": "2025/4/16 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

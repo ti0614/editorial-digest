@@ -340,6 +340,35 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "衆院解散　産経は「自維連立の信問え」　朝毎日東「大義ない」と批判",
+          "link": "https://www.sankei.com/article/20260121-G7VH2MHUUFM75AHVWS3MMD66FI/",
+          "published": "2026/1/21 13:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞ボブスレーの失態　JOCも責任を免れない",
+          "link": "https://www.sankei.com/article/20260121-T3EXKBBOFVLEDPCEBMTSARMDKM/",
+          "published": "2026/1/21 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞トランプ政権1年　同盟国からの信頼失うな",
+          "link": "https://www.sankei.com/article/20260121-DTU6MZQG3JJXVJTEAEG63SJQCQ/",
+          "published": "2026/1/21 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

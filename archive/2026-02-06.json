@@ -346,6 +346,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞プルデンシャル　生保の体なしているのか",
+          "link": "https://www.sankei.com/article/20260206-RAZU7ZL4IFMKVPKHU7223WAL54/",
+          "published": "2026/2/6 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞日教組の「平和劇」　子供に反日植え付けるな",
+          "link": "https://www.sankei.com/article/20260206-7GENGGO6YBKLFHOE7AZVJYL2LE/",
+          "published": "2026/2/6 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

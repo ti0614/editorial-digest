@@ -283,6 +283,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞備蓄米の随意契約　価格全体の低下が重要だ",
+          "link": "https://www.sankei.com/article/20250527-A4ARZ37ZKNLBXINFVPVORMZJP4/",
+          "published": "2025/5/27 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞がんゲノム医療　患者の選択肢増やしたい",
+          "link": "https://www.sankei.com/article/20250527-CMCGA5M7WBL5XFZTBNGT6IEPEE/",
+          "published": "2025/5/27 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

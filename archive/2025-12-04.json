@@ -340,6 +340,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞病院の赤字　的絞った支援で患者守れ",
+          "link": "https://www.sankei.com/article/20251204-JJXJXEUCKRN65A6AQREH5V7JSI/",
+          "published": "2025/12/4 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞「同性婚」認めず　理にかなう妥当な判決だ",
+          "link": "https://www.sankei.com/article/20251204-YHOCK7NN2FKBJOS3T5JSCMEW7Y/",
+          "published": "2025/12/4 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

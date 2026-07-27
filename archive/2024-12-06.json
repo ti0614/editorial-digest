@@ -259,6 +259,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞鳥インフル拡大　不断の点検で防疫強化を",
+          "link": "https://www.sankei.com/article/20241206-RFGLFHTBS5KGLPLCWNMYGCRY6M/",
+          "published": "2024/12/6 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞中国の無差別殺傷　問われているのは体制だ",
+          "link": "https://www.sankei.com/article/20241206-YYOUG5YYDNL2TP23RIJZD7J3WE/",
+          "published": "2024/12/6 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

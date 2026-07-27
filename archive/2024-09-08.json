@@ -185,6 +185,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞保護司制度　存続へ一層の議論重ねよ",
+          "link": "https://www.sankei.com/article/20240908-GMCEXCBB6NPERFVCTA3PAP26JY/",
+          "published": "2024/9/8 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞立民代表選告示　日本を守る気概が足りぬ",
+          "link": "https://www.sankei.com/article/20240908-WK3VOOIDKZMCFKJK67APN6OAAE/",
+          "published": "2024/9/8 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

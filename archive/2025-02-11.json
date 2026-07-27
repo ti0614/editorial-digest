@@ -276,6 +276,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞建国記念の日　政府主催の式典を求める",
+          "link": "https://www.sankei.com/article/20250211-65IWX64UJVIILIJYEIGWU27XPY/",
+          "published": "2025/2/11 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞ガザ巡る発言　米は詳細な説明が必要だ",
+          "link": "https://www.sankei.com/article/20250211-TJFMJ6TRNNNPPPWPLTUSZYIHRU/",
+          "published": "2025/2/11 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

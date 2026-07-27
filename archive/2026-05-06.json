@@ -298,6 +298,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞ロボット審判　AI共存社会の試金石に",
+          "link": "https://www.sankei.com/article/20260506-4SALVFO56FIITP6V4KOP3IP6EI/",
+          "published": "2026/5/6 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞首相の豪越歴訪　対中抑止へ連携強化した",
+          "link": "https://www.sankei.com/article/20260506-HVD2NKO4QRLSJBD7UYYMM7IJFQ/",
+          "published": "2026/5/6 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

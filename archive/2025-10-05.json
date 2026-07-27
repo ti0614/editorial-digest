@@ -254,6 +254,23 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞高市自民新総裁　全身全霊で危機克服を　政治の安定を取り戻したい",
+          "link": "https://www.sankei.com/article/20251005-NT7GGVDZ4ZLKVI2QBLAYYTCI6Q/",
+          "published": "2025/10/5 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

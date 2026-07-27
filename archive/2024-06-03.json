@@ -179,6 +179,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞同性世帯と住民票　婚姻制度改変に繫げるな",
+          "link": "https://www.sankei.com/article/20240603-6P56TH4IOJKBJLIYUJ4XA5SNOA/",
+          "published": "2024/6/3 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞ＷＨＯ総会　感染症対策の条約急務だ",
+          "link": "https://www.sankei.com/article/20240603-O7GVHDXQDJJVBPBAYOQTQL4HTU/",
+          "published": "2024/6/3 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

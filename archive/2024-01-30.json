@@ -156,6 +156,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞前田の日本新　パリ五輪へ期待が膨らむ",
+          "link": "https://www.sankei.com/article/20240130-B5OFTU5PTNMM5CUFKC4BNT5YDU/",
+          "published": "2024/1/30 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞ガザの国連機関　職員のテロ関与許されぬ",
+          "link": "https://www.sankei.com/article/20240130-YB7Q7MG5QNI5JICY53XGYEAPSE/",
+          "published": "2024/1/30 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

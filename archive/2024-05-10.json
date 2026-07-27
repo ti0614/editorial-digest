@@ -196,6 +196,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞参院憲法審　条文起草へ衆院と協力を",
+          "link": "https://www.sankei.com/article/20240510-A2OGJGLOR5N4LA36LDSV3YJHWM/",
+          "published": "2024/5/10 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞感染症行動計画　失策直視し実効性高めよ",
+          "link": "https://www.sankei.com/article/20240510-CSWRMOYEEJN2PNCTD4GFEKVROE/",
+          "published": "2024/5/10 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

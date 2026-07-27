@@ -190,6 +190,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞英国ご訪問　親善のお務め感謝したい",
+          "link": "https://www.sankei.com/article/20240622-XDHRMTGJAVOQTHXHER3FDD6ILE/",
+          "published": "2024/6/22 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞梅雨入り　豪雨と猛暑から命を守れ",
+          "link": "https://www.sankei.com/article/20240622-XWJQUSSIWRLZPKEMEJ2LGSMB4E/",
+          "published": "2024/6/22 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

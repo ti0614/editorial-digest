@@ -266,6 +266,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞IOCに女性会長　常識のある組織に変えよ",
+          "link": "https://www.sankei.com/article/20250327-IMVYRQRDQBLZHLQKWHVSV5RPPQ/",
+          "published": "2025/3/27 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞着信偽装の詐欺　「警察の番号」でも冷静に",
+          "link": "https://www.sankei.com/article/20250327-RKI45QX4Q5IGHJR3263KUVSVKI/",
+          "published": "2025/3/27 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

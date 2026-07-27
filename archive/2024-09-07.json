@@ -202,6 +202,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞日韓の退避協力　本国間の態勢も不可欠だ",
+          "link": "https://www.sankei.com/article/20240907-5VJPN34PWZM7JCC3QU23RTXVJU/",
+          "published": "2024/9/7 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞コメの品薄　供給の安定確保に全力を",
+          "link": "https://www.sankei.com/article/20240907-WXMKEEGPARIONLD2EXMNWFRXXU/",
+          "published": "2024/9/7 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

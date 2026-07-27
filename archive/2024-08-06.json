@@ -190,6 +190,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞東京株価が暴落　混乱拡大への警戒強めよ",
+          "link": "https://www.sankei.com/article/20240806-LHCT5LP3KFNKZKTU7MHHNOCAJY/",
+          "published": "2024/8/6 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞原爆の日　平和式典で厳粛な祈りを",
+          "link": "https://www.sankei.com/article/20240806-WJDHJJKMONIYREE5VZ6ECE5MVQ/",
+          "published": "2024/8/6 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

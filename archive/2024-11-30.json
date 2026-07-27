@@ -259,6 +259,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞検事が「人格否定」　侮辱で供述は得られない",
+          "link": "https://www.sankei.com/article/20241130-7QUUTYBVGNIYDPJPS44XCIRBMM/",
+          "published": "2024/11/30 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞所信表明演説　対中認識が甘すぎないか",
+          "link": "https://www.sankei.com/article/20241130-KKRAQ7IFABPOBCBC4GTUYQGQK4/",
+          "published": "2024/11/30 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

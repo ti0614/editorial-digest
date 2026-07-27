@@ -265,6 +265,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞ハンガリー総選挙　露中傾斜見直しが必要だ",
+          "link": "https://www.sankei.com/article/20260419-C67HX36A5BJAFG4BPQQ7O3WROY/",
+          "published": "2026/4/19 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞朝鮮学校　自治体は税金支出するな",
+          "link": "https://www.sankei.com/article/20260419-KNXTEUVOD5JR5MAYYFKNB5X67Q/",
+          "published": "2026/4/19 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

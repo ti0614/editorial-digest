@@ -173,6 +173,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞石垣市の尖閣調査　中国の妨害は容認できぬ",
+          "link": "https://www.sankei.com/article/20240506-BYCBIN2FRFNO5DHF2LRFVJD4FY/",
+          "published": "2024/5/6 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞火山本部　観測強化と人材育成図れ",
+          "link": "https://www.sankei.com/article/20240506-C5PDXS3PNJO3TALZR7APUMEBPI/",
+          "published": "2024/5/6 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

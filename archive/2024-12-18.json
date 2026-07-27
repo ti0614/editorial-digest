@@ -259,6 +259,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞トランプ氏　首相は会談の早期実現を",
+          "link": "https://www.sankei.com/article/20241218-MWEMHDMJIVJW3DDPCH3JDUZKXI/",
+          "published": "2024/12/18 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞新たなエネ計画　原発積極活用を歓迎する",
+          "link": "https://www.sankei.com/article/20241218-XRQBOH2FXFNQNFQYB4SGX4SWHU/",
+          "published": "2024/12/18 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

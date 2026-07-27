@@ -288,6 +288,23 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞与党が圧勝　「高市首相」が信任された　戦後政治の大転換で日本守れ",
+          "link": "https://www.sankei.com/article/20260209-Q5Z376A6DNMDTOCTPXR353LNXY/",
+          "published": "2026/2/9 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

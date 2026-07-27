@@ -196,6 +196,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞改正規正法が成立　さらなる改革に取り組め",
+          "link": "https://www.sankei.com/article/20240620-7NRDG53ICNKE3I6FEQNXJ33L5Y/",
+          "published": "2024/6/20 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞生徒情報流出　札幌市教委の責任は重い",
+          "link": "https://www.sankei.com/article/20240620-O6HGTKVWXBJWVDWRWJMAUB4YWE/",
+          "published": "2024/6/20 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

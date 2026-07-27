@@ -340,6 +340,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞小惑星の衝突回避　日本も地球防衛に貢献を",
+          "link": "https://www.sankei.com/article/20251120-5BK2IQIFBVJRBOAJXUGB4FOHLU/",
+          "published": "2025/11/20 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞宅配便の「置き配」　官民で不安解消に努めよ",
+          "link": "https://www.sankei.com/article/20251120-JVM7LA2XM5JKDC5KIFTGIOLA74/",
+          "published": "2025/11/20 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

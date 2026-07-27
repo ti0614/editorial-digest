@@ -162,6 +162,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【主張】「トー横」の非行　地域ぐるみで対策強めよ",
+          "link": "https://www.sankei.com/article/20231226-73SHFW4GPBKVXLWUZYPTLOUVMU/",
+          "published": "2023/12/26 5:00",
+          "paid": false
+        },
+        {
+          "title": "【主張】ウクライナ支援　米大統領は指導力発揮を",
+          "link": "https://www.sankei.com/article/20231226-YMNCAG3LJ5OLXJCOWVF6MDLUF4/",
+          "published": "2023/12/26 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

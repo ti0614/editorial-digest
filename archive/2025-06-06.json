@@ -289,6 +289,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞再審制度見直し　国会の「良識」が問われる",
+          "link": "https://www.sankei.com/article/20250606-LM7LQAX3QVK4ZNLEUO6YFCI47E/",
+          "published": "2025/6/6 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞鉄鋼関税50％に　米政府はただちに撤回を",
+          "link": "https://www.sankei.com/article/20250606-XVYCMQ7EVZP2PD5LNDWJSSMA5Y/",
+          "published": "2025/6/6 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

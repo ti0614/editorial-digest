@@ -225,6 +225,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞次の概要調査へ　道知事の翻意を望みたい",
+          "link": "https://www.sankei.com/article/20241125-7HHISNU4JVL6XJNGP5SY42O57Q/",
+          "published": "2024/11/25 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞闇バイト事件対策　「＃9110」活用しよう",
+          "link": "https://www.sankei.com/article/20241125-D3P7ZMQBIZOXZBHUJVISEJVBAQ/",
+          "published": "2024/11/25 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

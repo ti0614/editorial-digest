@@ -139,6 +139,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【主張】中国の呼吸器疾患　検疫強化は必要ないのか",
+          "link": "https://www.sankei.com/article/20231204-3EEYDG5FMBJSJFRYY6T4PRI4JU/",
+          "published": "2023/12/4 5:00",
+          "paid": false
+        },
+        {
+          "title": "【主張】国と地方の役割　指示権を拡充し国民守れ",
+          "link": "https://www.sankei.com/article/20231204-Z22ATFOTYVOQPACL6RDAYTG2PI/",
+          "published": "2023/12/4 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

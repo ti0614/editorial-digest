@@ -259,6 +259,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞前首相襲撃の裁判　司法の力が問われている",
+          "link": "https://www.sankei.com/article/20250204-KNCDPCNANRLJVNCXZQHF2RVHSY/",
+          "published": "2025/2/4 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞衆院予算委員会　首相は対中戦略を明確に",
+          "link": "https://www.sankei.com/article/20250204-VTYSQ3R7SFJGBKSBUVGTT5LKRA/",
+          "published": "2025/2/4 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

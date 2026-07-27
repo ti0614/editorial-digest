@@ -260,6 +260,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞手話推進法　能力発揮できる世の中に",
+          "link": "https://www.sankei.com/article/20250727-UHJD2DKCIJM4BHTTMMDEVFYOUI/",
+          "published": "2025/7/27 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞滋賀の冤罪事件　警察は違法捜査検証せよ",
+          "link": "https://www.sankei.com/article/20250727-ZPMQHI44AVOMBJAHSEHZR2ZTA4/",
+          "published": "2025/7/27 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

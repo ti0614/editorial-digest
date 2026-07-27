@@ -327,6 +327,52 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "読売新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.yomiuri.co.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "辺野古の船転覆　安全も中立も欠いた平和教育",
+          "link": "https://www.yomiuri.co.jp/editorial/20260522-GYT1T00361/",
+          "published": "2026/5/23 5:00",
+          "paid": false
+        },
+        {
+          "title": "ＧＤＰプラス　景気が崩れぬ施策を練りたい",
+          "link": "https://www.yomiuri.co.jp/editorial/20260522-GYT1T00364/",
+          "published": "2026/5/23 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞エボラ緊急事態　国際協調で必要な支援を",
+          "link": "https://www.sankei.com/article/20260523-QPYRD4X6HFLWFI2WDJU7X42XMA/",
+          "published": "2026/5/23 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞辺野古沖死亡事故　政府の見解と告発は重い",
+          "link": "https://www.sankei.com/article/20260523-G7JWNJO5NFLXLBRN6UT7SBAQ7M/",
+          "published": "2026/5/23 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

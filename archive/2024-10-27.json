@@ -202,6 +202,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞「原子力の日」　沸騰水型への期待大きい",
+          "link": "https://www.sankei.com/article/20241027-E2WT2SMBSFMSLGWB3FKSM5OU3Y/",
+          "published": "2024/10/27 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞BRICS会議　露の政治宣伝への加担だ",
+          "link": "https://www.sankei.com/article/20241027-GLIRK45OUVL6RJ7STUVA25JYWE/",
+          "published": "2024/10/27 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

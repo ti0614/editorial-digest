@@ -317,6 +317,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞真冬の衆院選　短期決戦へ万全の準備を",
+          "link": "https://www.sankei.com/article/20260122-J3CTOCZVORK63NHTLYBN2PMPRQ/",
+          "published": "2026/1/22 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞安倍氏銃撃に無期　事件評価がもの足りない",
+          "link": "https://www.sankei.com/article/20260122-RQXFSAIAURNGXK5SKZ5RZJRN3Q/",
+          "published": "2026/1/22 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

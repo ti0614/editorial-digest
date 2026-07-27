@@ -316,6 +316,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞NZの慰安婦像　韓国系の要求はねのけた",
+          "link": "https://www.sankei.com/article/20260516-BWZVV2FGKRMUBACGGCOKCTU67Q/",
+          "published": "2026/5/16 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞サイバー企業恐喝　「身代金は払わぬ」徹底を",
+          "link": "https://www.sankei.com/article/20260516-CMHVTA2TPBJDTJEZZG55B7A57I/",
+          "published": "2026/5/16 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

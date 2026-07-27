@@ -190,6 +190,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞みどりの日に　鉄道転換でＣＯ２削減図れ",
+          "link": "https://www.sankei.com/article/20240504-BSIOZIAIVRIBZDJQZ6ESLM4PKI/",
+          "published": "2024/5/4 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞竹島に不法上陸　韓国野党の愚行非難する",
+          "link": "https://www.sankei.com/article/20240504-TWSC7MVCFJK2VHLHO6PBD4N3DI/",
+          "published": "2024/5/4 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

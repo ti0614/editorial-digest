@@ -173,6 +173,23 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞憲法施行７７年　国会は条文案の起草急げ　内閣に改憲専門機関が必要だ",
+          "link": "https://www.sankei.com/article/20240503-JJ4Y7OVXAZIB3B46FKMZA7SJ7A/",
+          "published": "2024/5/3 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

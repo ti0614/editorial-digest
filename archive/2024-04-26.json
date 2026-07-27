@@ -196,6 +196,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞自動物流道路　「２４年問題」の抜本対策に",
+          "link": "https://www.sankei.com/article/20240426-4SVBMLDFEZPNJNZHRPDKQ7FIFI/",
+          "published": "2024/4/26 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞中国人教授不明　学問の自由を脅かすのか",
+          "link": "https://www.sankei.com/article/20240426-WAWE3BNZHRL6VP6WQ2SR2FLQBY/",
+          "published": "2024/4/26 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

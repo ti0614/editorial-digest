@@ -196,6 +196,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞プーチン氏５選　欺瞞で「圧勝」を演出した",
+          "link": "https://www.sankei.com/article/20240319-U2NNTJGILZOVZD2ODORYUK6RGU/",
+          "published": "2024/3/19 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞自民党大会　信頼回復の行動を早急に",
+          "link": "https://www.sankei.com/article/20240319-XQW7E7FG5NJCXM5DNQYAKFOSJI/",
+          "published": "2024/3/19 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

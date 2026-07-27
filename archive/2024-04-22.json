@@ -128,6 +128,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞学術会議改革　税金の投入を極力減らせ",
+          "link": "https://www.sankei.com/article/20240422-DDHJJZBKEBMEZCSUQVFYLZHDWU/",
+          "published": "2024/4/22 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞海自ヘリ墜落　捜索と原因究明に全力を",
+          "link": "https://www.sankei.com/article/20240422-N7EZDVBVFBI6NIGW6DDYWST2DM/",
+          "published": "2024/4/22 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

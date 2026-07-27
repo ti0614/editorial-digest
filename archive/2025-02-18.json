@@ -259,6 +259,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞ウクライナ和平　米は欧州を交渉に入れよ",
+          "link": "https://www.sankei.com/article/20250218-6HFVR6NM25OCNFF3BCK547VBVY/",
+          "published": "2025/2/18 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞有本明弘さん死去　拉致へ国民一丸の怒りを",
+          "link": "https://www.sankei.com/article/20250218-Q54VZJEKXBODXMN62ESRDLZ37A/",
+          "published": "2025/2/18 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

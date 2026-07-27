@@ -253,6 +253,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞仏内閣総辞職　欧州政局の混迷収拾せよ",
+          "link": "https://www.sankei.com/article/20241207-HI7PEX7D5NLRTLNNOIMPGUV22Q/",
+          "published": "2024/12/7 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞佐藤議員への脅迫　背景にテロの容認がある",
+          "link": "https://www.sankei.com/article/20241207-UAA3KFKSMBNEJOITKMR2MASSOE/",
+          "published": "2024/12/7 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

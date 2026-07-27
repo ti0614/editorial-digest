@@ -156,6 +156,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【主張】ＮＴＴ法の廃止　公正な競争環境が前提だ",
+          "link": "https://www.sankei.com/article/20231205-BRDJHI5Z5ZKB5BBMTRVNS5PLXQ/",
+          "published": "2023/12/5 5:00",
+          "paid": false
+        },
+        {
+          "title": "【主張】派閥の裏金疑惑　自ら実態を明らかにせよ　",
+          "link": "https://www.sankei.com/article/20231205-LYR3YDFDORMJLGCIVYY5VUV47I/",
+          "published": "2023/12/5 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

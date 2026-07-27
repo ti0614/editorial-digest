@@ -203,6 +203,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞拉致家族の訪米　大統領と共に北へ圧力を",
+          "link": "https://www.sankei.com/article/20250511-JFYQMHBTKJLJPFH4XKDZCKF5TA/",
+          "published": "2025/5/11 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞原発の廃棄物処分　次の概要調査へ前進図れ",
+          "link": "https://www.sankei.com/article/20250511-XHRLRET76RMR3DACDQY43BU3SI/",
+          "published": "2025/5/11 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

@@ -196,6 +196,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞ライシ師の墜落死　中東の不安定化を避けよ",
+          "link": "https://www.sankei.com/article/20240522-2OPGL5HQ75KWJGZ6DT2F6ZC5KQ/",
+          "published": "2024/5/22 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞強制起訴１５年　なぜ見直しをしないのか",
+          "link": "https://www.sankei.com/article/20240522-UOV2LQ2YORKV5HZ3IDZYNECEXM/",
+          "published": "2024/5/22 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

@@ -253,6 +253,35 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "衆院選で与党過半数割れ　産読朝は首相に辞任を求める　毎東日は熟議の合意形成促す",
+          "link": "https://www.sankei.com/article/20241106-3AZLN7SFRNM3VM35Q5UTMPRLOI/",
+          "published": "2024/11/6 9:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞東証の時間延長　市場活性化につなげたい",
+          "link": "https://www.sankei.com/article/20241106-LO3OLMSRUBLR5FDEU5B3TI7SKU/",
+          "published": "2024/11/6 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞自衛隊演奏会　不当な抗議は容認できぬ",
+          "link": "https://www.sankei.com/article/20241106-Y2R5LLUCM5KR5NSO3MWNFDPW4Y/",
+          "published": "2024/11/6 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

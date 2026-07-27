@@ -282,6 +282,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞高額療養費見直し　治療の断念起きぬ制度に",
+          "link": "https://www.sankei.com/article/20250214-DV6PDM4OU5NTRDC7VNQJMSGKLA/",
+          "published": "2025/2/14 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞選択的夫婦別姓　「親子別姓」を強制するな",
+          "link": "https://www.sankei.com/article/20250214-LMH5A675K5OQ5DMKI5JPAB2FOQ/",
+          "published": "2025/2/14 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

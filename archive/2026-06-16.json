@@ -329,6 +329,52 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "読売新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.yomiuri.co.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "米スペースＸ　巨額上場に潜むリスクないか",
+          "link": "https://www.yomiuri.co.jp/editorial/20260615-GYT1T00421/",
+          "published": "2026/6/16 5:00",
+          "paid": false
+        },
+        {
+          "title": "米イラン合意　まず海峡封鎖の解除を着実に",
+          "link": "https://www.yomiuri.co.jp/editorial/20260615-GYT1T00418/",
+          "published": "2026/6/16 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞米イラン合意　遅滞なく覚書に署名せよ",
+          "link": "https://www.sankei.com/article/20260616-JMIVWX5BZJK4RN7N3DR25HNYAQ/",
+          "published": "2026/6/16 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞W杯引き分け発進　日本代表はあきらめない",
+          "link": "https://www.sankei.com/article/20260616-QRGIV63UNZJ3BAM4MIHN4YWIFY/",
+          "published": "2026/6/16 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

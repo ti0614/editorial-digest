@@ -329,6 +329,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞総裁選と経済政策　成長実現へ具体策を競え",
+          "link": "https://www.sankei.com/article/20250926-KMQ7BA7VVVP3HGTWOVTTJIEOD4/",
+          "published": "2025/9/26 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞スマホの使いすぎ　政府は子供を守る対応を",
+          "link": "https://www.sankei.com/article/20250926-Y2BS3MYLSRNENO5VHX4FHJZZ5Q/",
+          "published": "2025/9/26 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

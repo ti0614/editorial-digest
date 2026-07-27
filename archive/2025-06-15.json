@@ -243,6 +243,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞梅雨どきの大雨　油断せずに早めの避難を",
+          "link": "https://www.sankei.com/article/20250615-HXWQJ5FZNZJN7K5OOZEH665SPY/",
+          "published": "2025/6/15 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞日鉄の買収承認　完全子会社化を歓迎する",
+          "link": "https://www.sankei.com/article/20250615-PBE7PMFHPZI7VEXR6UO46A6QTE/",
+          "published": "2025/6/15 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

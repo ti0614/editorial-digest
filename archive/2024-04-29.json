@@ -179,6 +179,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞昭和１００年式典　日本を挙げて開催したい",
+          "link": "https://www.sankei.com/article/20240429-HWZT2VMJENPBHDZAOQQMEGHCCM/",
+          "published": "2024/4/29 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞衆院３補選　自民は「全敗」を直視せよ",
+          "link": "https://www.sankei.com/article/20240429-I5VL6RFZXZN6ZCDIIQDH222BGA/",
+          "published": "2024/4/29 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

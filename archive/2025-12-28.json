@@ -283,6 +283,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞AI基本計画　安全性と活用の両立図れ",
+          "link": "https://www.sankei.com/article/20251228-ZDWVM2LXIZNM7BJVGRL3CVRSJ4/",
+          "published": "2025/12/28 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞平成6年外交文書　中国への過剰配慮鮮明に",
+          "link": "https://www.sankei.com/article/20251228-C3BF27FJ3NOE3NQPRV7FDVST5Q/",
+          "published": "2025/12/28 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

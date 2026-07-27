@@ -179,6 +179,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞太平洋島サミット　中国の影響力拡大を阻め",
+          "link": "https://www.sankei.com/article/20240714-3YZCNFQXEVNQNLWYUQK45LH36E/",
+          "published": "2024/7/14 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞兵庫県知事の疑惑　「パワハラ」の真相究明を",
+          "link": "https://www.sankei.com/article/20240714-FPRPN23D7JIJ3CIOJNUBSMS7XE/",
+          "published": "2024/7/14 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

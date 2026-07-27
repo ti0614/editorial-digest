@@ -306,6 +306,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞緊急避妊薬の市販　性犯罪見逃さない対応を",
+          "link": "https://www.sankei.com/article/20250911-67DX4NWRVNPUXD5SY5BBP4Q45U/",
+          "published": "2025/9/11 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞DNA鑑定の不正　未聞の事態に慄然とする",
+          "link": "https://www.sankei.com/article/20250911-OH76UYGPL5PZPDKFROTO72IDPU/",
+          "published": "2025/9/11 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

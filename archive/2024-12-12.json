@@ -259,6 +259,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞救急車一部有料化　不適切な利用に歯止めを",
+          "link": "https://www.sankei.com/article/20241212-4VWTM4KEUZL5PFT2KE644P2SYQ/",
+          "published": "2024/12/12 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞ルーマニア選挙　SNS干渉への対策急げ",
+          "link": "https://www.sankei.com/article/20241212-SEFGFSMD4NKHFGX5EHSTBDMCAI/",
+          "published": "2024/12/12 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

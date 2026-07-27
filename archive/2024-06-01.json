@@ -196,6 +196,23 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞風水害に備える　「気象と防災の日」制定を　地球沸騰に向き合う契機に",
+          "link": "https://www.sankei.com/article/20240601-3E2LHTZOIRMILL22GJ5VP7FQSY/",
+          "published": "2024/6/1 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

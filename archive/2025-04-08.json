@@ -283,6 +283,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞ETC大規模障害　利用者第一の危機管理を",
+          "link": "https://www.sankei.com/article/20250408-FFOI3K5A7FKOHBCIMJBVDDXZVY/",
+          "published": "2025/4/8 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞硫黄島ご訪問　陛下と心一つに祈りたい",
+          "link": "https://www.sankei.com/article/20250408-GNQX2RSDM5LKLHFIZD4UFFKFOU/",
+          "published": "2025/4/8 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

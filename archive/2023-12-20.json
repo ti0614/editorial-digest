@@ -156,6 +156,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【主張】「裏金」強制捜査　なぜ隠したか全容解明を",
+          "link": "https://www.sankei.com/article/20231220-6LPBL4QWD5LM7NYGVE7NNHAB5A/",
+          "published": "2023/12/20 5:00",
+          "paid": false
+        },
+        {
+          "title": "【主張】日ＡＳＥＡＮ５０年　自由の海へ連携を強めよ",
+          "link": "https://www.sankei.com/article/20231220-GDPE5VTC7VMPJFVBHCCI47HU6M/",
+          "published": "2023/12/20 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

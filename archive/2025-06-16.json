@@ -249,6 +249,23 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞年金制度改革法　拙速な成立に信念感じぬ　基礎年金底上げもっと論じよ　",
+          "link": "https://www.sankei.com/article/20250616-UGBR42VVTVPKNOTLIER7CB2OBI/",
+          "published": "2025/6/16 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

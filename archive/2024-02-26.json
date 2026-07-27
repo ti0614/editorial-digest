@@ -179,6 +179,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞インドネシア　海洋国家の連携を強めよ",
+          "link": "https://www.sankei.com/article/20240226-3WHVJZQAONOXRNJ6GT3PS35REI/",
+          "published": "2024/2/26 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞沖縄の陸自訓練場　知事の反対は理解できぬ",
+          "link": "https://www.sankei.com/article/20240226-H7OB2DZU5ZLPRMWHVRRKW72KS4/",
+          "published": "2024/2/26 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

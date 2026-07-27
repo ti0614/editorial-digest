@@ -272,6 +272,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞成人の日　常に前向く力を鍛えよう",
+          "link": "https://www.sankei.com/article/20260112-NPIM35MIOBJYTE2WEM5OX6ZXOY/",
+          "published": "2026/1/12 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞架空名義口座捜査　「匿流」の壊滅へ導入せよ",
+          "link": "https://www.sankei.com/article/20260112-TPTIVK35GBKMPPCG3VNJOIXU3I/",
+          "published": "2026/1/12 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

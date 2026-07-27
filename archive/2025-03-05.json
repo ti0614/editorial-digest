@@ -289,6 +289,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞米の対ウ「制裁」　早期解除へ関係改善図れ",
+          "link": "https://www.sankei.com/article/20250305-UO5QQLCHHZJNBG3ROUVQTDMQOU/",
+          "published": "2025/3/5 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞予算案の衆院通過　責任ある政策論がみえぬ",
+          "link": "https://www.sankei.com/article/20250305-YRPZMMTJIRLHPMEAYMFY2Z7JLQ/",
+          "published": "2025/3/5 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

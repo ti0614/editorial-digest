@@ -196,6 +196,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞出生率最低１．２０　人口減社会の国家像示せ",
+          "link": "https://www.sankei.com/article/20240607-PQRIMP4BC5N6RPDEENJFRMMGOU/",
+          "published": "2024/6/7 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞鹿児島県警　本部長は説明責任がある",
+          "link": "https://www.sankei.com/article/20240607-SJS46MXKW5L55LSEMJ3UMB6LXE/",
+          "published": "2024/6/7 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

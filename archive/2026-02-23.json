@@ -254,6 +254,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞ミラノ五輪閉幕　日本選手の大活躍を喜ぶ",
+          "link": "https://www.sankei.com/article/20260223-INIJPDM4BFKBHBJIJWIAKZC6EM/",
+          "published": "2026/2/23 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞天皇誕生日　寄り添うお心感謝したい",
+          "link": "https://www.sankei.com/article/20260223-QOVEQVGYWBPR5PIDBATZT5FTMI/",
+          "published": "2026/2/23 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

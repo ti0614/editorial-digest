@@ -59,13 +59,13 @@
         {
           "title": "外資の土地購入　安全を脅かす取引規制強めよ",
           "link": "https://www.yomiuri.co.jp/editorial/20260719-GYT1T00254/",
-          "published": "2026/07/20 05:00",
+          "published": "2026/7/20 5:00",
           "paid": false
         },
         {
           "title": "臓器斡旋事件　繰り返される不正な海外移植",
           "link": "https://www.yomiuri.co.jp/editorial/20260719-GYT1T00255/",
-          "published": "2026/07/20 05:00",
+          "published": "2026/7/20 5:00",
           "paid": false
         }
       ]
@@ -101,7 +101,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "＜主張＞サイバー攻撃　危機感持ち対策進めたい",
+          "link": "https://www.sankei.com/article/20260720-5GBBN6JRQFOXLE27KQMMGANX4U/",
+          "published": "2026/7/20 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞国旗損壊罪法成立　日本の威信と尊厳を守れ",
+          "link": "https://www.sankei.com/article/20260720-5VBDYGI7E5LUPISWH5YSKSUT7E/",
+          "published": "2026/7/20 5:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "東京新聞",

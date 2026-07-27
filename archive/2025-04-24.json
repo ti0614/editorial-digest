@@ -289,6 +289,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞エネルギー補助金　説得力欠く人気取り策だ",
+          "link": "https://www.sankei.com/article/20250424-EJRXWFWI6ZLEJG4BUU4W7PMFZY/",
+          "published": "2025/4/24 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞党首討論と首相　「議論」連呼では物足りぬ",
+          "link": "https://www.sankei.com/article/20250424-TBJYOMIXYVO5DKFN7SDJURYBOI/",
+          "published": "2025/4/24 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

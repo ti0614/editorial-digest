@@ -190,6 +190,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞朴名誉教授「無罪」　表現の自由を守る判決だ",
+          "link": "https://www.sankei.com/article/20240418-MGLWA7KHYNMKPJ6DIYDSOVBXUE/",
+          "published": "2024/4/18 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞グーグル処分へ　公正な競争維持に努めよ",
+          "link": "https://www.sankei.com/article/20240418-Y6AG5WKCHBI4TPHJB756YOXLEU/",
+          "published": "2024/4/18 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

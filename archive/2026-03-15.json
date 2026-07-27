@@ -273,6 +273,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞卒業文集にいじめ　解決後回しの対応呆れる",
+          "link": "https://www.sankei.com/article/20260315-LXLQRD33PBLSZDXVRGWJN3FRUY/",
+          "published": "2026/3/15 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞予算案が衆院通過　年度内の成立に努力せよ",
+          "link": "https://www.sankei.com/article/20260315-MKM4ADYQQJI4DAQCK2BXSV4LJI/",
+          "published": "2026/3/15 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

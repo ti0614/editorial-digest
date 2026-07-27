@@ -202,6 +202,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞敬老の日　災害に強い「長寿大国」へ",
+          "link": "https://www.sankei.com/article/20240916-2MQJJQEFJZO4NNHBFRXXGBXFA4/",
+          "published": "2024/9/16 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞NHK「反日放送」　乗っ取りの対応甘すぎる",
+          "link": "https://www.sankei.com/article/20240916-SWSR3ICSCBPMHFP3QXTMHQZPGA/",
+          "published": "2024/9/16 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

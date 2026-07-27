@@ -259,6 +259,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞訪日外国人の消費　地方への誘客進め拡大を",
+          "link": "https://www.sankei.com/article/20241024-O4L5NAEI55IG5LDKWVZRNFUISI/",
+          "published": "2024/10/24 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞インサイダー疑惑　裁判官が不正に走るとは",
+          "link": "https://www.sankei.com/article/20241024-PLFB56J43FODXEJCINLYEUMB4M/",
+          "published": "2024/10/24 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

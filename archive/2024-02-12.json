@@ -173,6 +173,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞ＵＳスチール買収　米国の懸念払拭に全力を",
+          "link": "https://www.sankei.com/article/20240212-LLBSGGKOVRPD7O54DDPNCG3YNI/",
+          "published": "2024/2/12 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞管理獣にクマ指定　まずは生息調査が必要だ",
+          "link": "https://www.sankei.com/article/20240212-TSLNSHZYGJKMJBWSPSIOKH4EO4/",
+          "published": "2024/2/12 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

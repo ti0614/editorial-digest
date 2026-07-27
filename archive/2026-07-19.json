@@ -53,13 +53,13 @@
         {
           "title": "再審制度の改革　冤罪救済の実効性が問われる",
           "link": "https://www.yomiuri.co.jp/editorial/20260718-GYT1T00224/",
-          "published": "2026/07/19 05:00",
+          "published": "2026/7/19 5:00",
           "paid": false
         },
         {
           "title": "子供の貧困　食事と暑さ我慢せぬ夏休みに",
           "link": "https://www.yomiuri.co.jp/editorial/20260718-GYT1T00225/",
-          "published": "2026/07/19 05:00",
+          "published": "2026/7/19 5:00",
           "paid": false
         }
       ]
@@ -95,7 +95,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "＜主張＞改正再審法が成立　不断の見直しが不可欠だ　検察は公益代表者の自覚持て",
+          "link": "https://www.sankei.com/article/20260719-OS7YOSMLRNNGJH7TIIHEXROU4E/",
+          "published": "2026/7/19 5:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "東京新聞",

@@ -272,6 +272,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞日米関税交渉　首相はいつ乗り出すのか",
+          "link": "https://www.sankei.com/article/20250418-2UQFM3RQ4RKNVPGEGTG74ODVKY/",
+          "published": "2025/4/18 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞自民党の公認騒動　劣化の度合いが甚だしい",
+          "link": "https://www.sankei.com/article/20250418-FJBCTP2KOJNP7IYEHXZEHUZ2QI/",
+          "published": "2025/4/18 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

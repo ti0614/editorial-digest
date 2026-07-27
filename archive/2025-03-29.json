@@ -277,6 +277,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞兵庫県知事　「違法」の責任を直視せよ",
+          "link": "https://www.sankei.com/article/20250329-ADOTICCJYBNYLBJHFVAP6E6USE/",
+          "published": "2025/3/29 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞米軍の情報漏洩　安保を担う緊張感足りぬ",
+          "link": "https://www.sankei.com/article/20250329-JPTI7XVQAVMHXPUUNOL6JO6GZY/",
+          "published": "2025/3/29 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

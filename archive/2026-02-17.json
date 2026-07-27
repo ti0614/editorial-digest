@@ -340,6 +340,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞GDPプラス　官民で強い経済の実現を",
+          "link": "https://www.sankei.com/article/20260217-6HCD746DLBIBTAXMST4OBIQVUQ/",
+          "published": "2026/2/17 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞王毅氏の対日批判　「軍国主義」なら鏡をみよ",
+          "link": "https://www.sankei.com/article/20260217-WF3HPF5ECNKPDAYCT3U62JBLV4/",
+          "published": "2026/2/17 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

@@ -190,6 +190,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞国会の憲法審査会　原案作成に着手する時だ",
+          "link": "https://www.sankei.com/article/20240408-2UJ74XFVC5M4ZINTUPYRTUZLIU/",
+          "published": "2024/4/8 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞若者の大麻汚染　深刻な被害に目を向けよ",
+          "link": "https://www.sankei.com/article/20240408-QRTTDUAADFNVBOFDGWDYDU6TUU/",
+          "published": "2024/4/8 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

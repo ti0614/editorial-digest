@@ -53,13 +53,13 @@
         {
           "title": "全東信破綻　零細業者の連鎖的な倒産防げ",
           "link": "https://www.yomiuri.co.jp/editorial/20260714-GYT1T00427/",
-          "published": "2026/07/15 05:00",
+          "published": "2026/7/15 5:00",
           "paid": false
         },
         {
           "title": "ホルムズ海峡　米もイランも支配権などない",
           "link": "https://www.yomiuri.co.jp/editorial/20260714-GYT1T00426/",
-          "published": "2026/07/15 05:00",
+          "published": "2026/7/15 5:00",
           "paid": false
         }
       ]
@@ -95,7 +95,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "＜主張＞原子力白書　利用促進へ理解深めたい",
+          "link": "https://www.sankei.com/article/20260715-AVCJGTBTNBLCJFIIRE7GFPCINQ/",
+          "published": "2026/7/15 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞ホルムズ海峡　交戦やめ安全航行実現を",
+          "link": "https://www.sankei.com/article/20260715-P5J5BII7EVIGVFG65OUET4HE6U/",
+          "published": "2026/7/15 5:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "東京新聞",

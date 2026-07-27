@@ -253,6 +253,23 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞阪神大震災30年　記憶新たに教訓を生かせ　ボランティアの輪をさらに",
+          "link": "https://www.sankei.com/article/20250117-VY6HO3Q4FZKN7GTF2Q3JSFUEWI/",
+          "published": "2025/1/17 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

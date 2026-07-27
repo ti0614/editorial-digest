@@ -173,6 +173,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞月面着陸　必要とされる技術確立を",
+          "link": "https://www.sankei.com/article/20240123-FRRXR4MOZNITHF7M4MHMANMNZA/",
+          "published": "2024/1/23 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞梅毒感染が最多　検査と治療で拡大を防げ",
+          "link": "https://www.sankei.com/article/20240123-UXMWJ5NM2ROCVMR2NDD3OO2E7I/",
+          "published": "2024/1/23 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

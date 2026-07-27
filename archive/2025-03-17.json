@@ -243,6 +243,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞大学の統廃合答申　質の向上へ待ったなしだ",
+          "link": "https://www.sankei.com/article/20250317-OUO3TS7VMRILZH5JC26EQZVMK4/",
+          "published": "2025/3/17 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞東電元幹部「無罪」　強制起訴を制度検証せよ",
+          "link": "https://www.sankei.com/article/20250317-WH33CODYOBOM5JJEPMAS4DKQCY/",
+          "published": "2025/3/17 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

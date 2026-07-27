@@ -306,6 +306,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞拉致と総裁選　家族との一体感取り戻せ",
+          "link": "https://www.sankei.com/article/20250924-5K62OGVJI5MY5A6G37OJN6LOF4/",
+          "published": "2025/9/24 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞薬物容認の大会　スポーツの価値見誤るな",
+          "link": "https://www.sankei.com/article/20250924-D4WPYHOZMBOSDHMB4CSTFDMQ4U/",
+          "published": "2025/9/24 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

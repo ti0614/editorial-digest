@@ -179,6 +179,23 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞こどもの日　考える楽しさを知ろう　本はいつでも「友達」だ",
+          "link": "https://www.sankei.com/article/20240505-OXSQ7KXMOBJ3DHRI27WJXSKW6A/",
+          "published": "2024/5/5 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

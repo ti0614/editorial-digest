@@ -340,6 +340,46 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "読売新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.yomiuri.co.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "日韓世論調査　首脳同士の努力が反映された",
+          "link": "https://www.yomiuri.co.jp/editorial/20260608-GYT1T00430/",
+          "published": "2026/6/9 5:00",
+          "paid": false
+        },
+        {
+          "title": "皇位継承の安定　国民の総意へ議論仕切り直せ",
+          "link": "https://www.yomiuri.co.jp/editorial/20260608-GYT1T00429/",
+          "published": "2026/6/9 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞立法府の総意案　日本の皇統を護る内容だ　男系継承の伝統を確認できた",
+          "link": "https://www.sankei.com/article/20260609-VHSYF756M5IDHH7IU2H6QFYZOQ/",
+          "published": "2026/6/9 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

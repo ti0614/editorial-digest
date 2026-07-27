@@ -139,6 +139,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【主張】市販薬の過剰摂取　対策強化して健康を守れ",
+          "link": "https://www.sankei.com/article/20231225-S76AQR6WQBKIBFA7PFSRAJ2HXM/",
+          "published": "2023/12/25 5:00",
+          "paid": false
+        },
+        {
+          "title": "【主張】防衛装備品の輸出　平和維持へ一層の改革を",
+          "link": "https://www.sankei.com/article/20231225-XR3TPN3P6VP5RODLEKNN35R3DA/",
+          "published": "2023/12/25 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

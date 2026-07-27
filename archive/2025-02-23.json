@@ -207,6 +207,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞天皇誕生日　感謝と喜びかみしめたい",
+          "link": "https://www.sankei.com/article/20250223-KXBI3FJJ4NPZ5GJ7RBTFCOHR4E/",
+          "published": "2025/2/23 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞公選法改正案　「2馬力」への規制も急げ",
+          "link": "https://www.sankei.com/article/20250223-TEIS4MJCQVN7VGXSD6MUOG7T3Q/",
+          "published": "2025/2/23 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

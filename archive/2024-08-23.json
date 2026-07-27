@@ -190,6 +190,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞中国の邦人起訴　解放へ政府は全力あげよ",
+          "link": "https://www.sankei.com/article/20240823-NAUN4SASUJJ4HIKPRKTSNZTQFU/",
+          "published": "2024/8/23 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞PFASの規制　水道の安全守る対策急げ",
+          "link": "https://www.sankei.com/article/20240823-VRDOXQ6S6VNE7KNNK23N5THNRA/",
+          "published": "2024/8/23 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

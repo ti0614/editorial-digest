@@ -306,6 +306,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞日米関税合意　認識の差異は埋まるのか",
+          "link": "https://www.sankei.com/article/20250801-LXLNGMV2PFJVDHCTXCNOFJHG4Y/",
+          "published": "2025/8/1 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞全国学力テスト　文科省は「競争」を厭うな",
+          "link": "https://www.sankei.com/article/20250801-R53P2SO2MFIIDGXM6D2CMNHHOM/",
+          "published": "2025/8/1 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

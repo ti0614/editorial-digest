@@ -156,6 +156,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【主張】ダイハツ認証不正　車の安全揺るがす行為だ",
+          "link": "https://www.sankei.com/article/20231223-JNV467MUNVLLJPVKELWZMIAIVY/",
+          "published": "2023/12/22 5:00",
+          "paid": false
+        },
+        {
+          "title": "【主張】「徴用工」判決　協定と史実を無視するな",
+          "link": "https://www.sankei.com/article/20231222-SVI6IYN6S5I35PD5G4EKGFNYL4/",
+          "published": "2023/12/22 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

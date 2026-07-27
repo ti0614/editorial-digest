@@ -352,6 +352,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞教科書と生成AI　適正な情報活用を教育で",
+          "link": "https://www.sankei.com/article/20260326-H2MUTN2TRZO5BC2Q36MOTMUV74/",
+          "published": "2026/3/26 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞日韓の退避協力　朝鮮・台湾有事も対象に",
+          "link": "https://www.sankei.com/article/20260326-RGSYLFBVEBJ2FOUVRVXV2C5EOI/",
+          "published": "2026/3/26 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

@@ -334,6 +334,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞冬季パラ大会閉幕　国内招致へ態勢立て直せ",
+          "link": "https://www.sankei.com/article/20260317-HVN765DLRVOI5CES5ZV7TFXEQU/",
+          "published": "2026/3/17 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞ホルムズ海峡　首相は海自派遣の決断を",
+          "link": "https://www.sankei.com/article/20260317-2HKVBRQTWNJSPIU6UWEBJBIFOI/",
+          "published": "2026/3/17 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

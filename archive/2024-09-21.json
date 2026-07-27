@@ -219,6 +219,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞大谷の50－50　同時代の目撃者は幸福だ",
+          "link": "https://www.sankei.com/article/20240921-2BNRJW62NBOCXJSVWC6IXNGGZU/",
+          "published": "2024/9/21 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞新幹線の連結事故　「鉄道」の基本に立ち戻れ",
+          "link": "https://www.sankei.com/article/20240921-S6ID5MFDVVNGRKPLOMG5WRVD2Y/",
+          "published": "2024/9/21 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

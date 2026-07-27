@@ -196,6 +196,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞検察官を付審判　裁判所の決定を支持する",
+          "link": "https://www.sankei.com/article/20240814-3FJDCRRO2ZOWFOXOL472BHCGPA/",
+          "published": "2024/8/14 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞ＥＶで３社提携　世界で勝てる連合目指せ",
+          "link": "https://www.sankei.com/article/20240814-IYETNMVFFRMFTA7GKMYXBISOCI/",
+          "published": "2024/8/14 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

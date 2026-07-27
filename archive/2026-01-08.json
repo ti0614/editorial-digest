@@ -328,6 +328,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞岐路の冬季五輪　価値と持続性占う大会に",
+          "link": "https://www.sankei.com/article/20260108-DL4CRD7XIRMILPUSPUFDYGYTJE/",
+          "published": "2026/1/8 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞中国の輸出規制　許しがたい不当な威圧だ",
+          "link": "https://www.sankei.com/article/20260108-QO2CWVPJMRLWJNEBVMLO3YH2FI/",
+          "published": "2026/1/8 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

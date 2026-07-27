@@ -59,13 +59,13 @@
         {
           "title": "ニチレイの障害　サイバー攻撃常態化に備えよ",
           "link": "https://www.yomiuri.co.jp/editorial/20260722-GYT1T00439/",
-          "published": "2026/07/23 05:00",
+          "published": "2026/7/23 5:00",
           "paid": false
         },
         {
           "title": "ＩＣＣ解体主張　加盟国に脱退迫る米国の無法",
           "link": "https://www.yomiuri.co.jp/editorial/20260722-GYT1T00438/",
-          "published": "2026/07/23 05:00",
+          "published": "2026/7/23 5:00",
           "paid": false
         }
       ]
@@ -101,7 +101,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "＜主張＞議員の渡航不許可　外交を政争の具にするな",
+          "link": "https://www.sankei.com/article/20260723-IB7VKQGSSNMXXE6YUXN5GW5WQ4/",
+          "published": "2026/7/23 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞日本EEZで演習　中露の軍事脅威高まった",
+          "link": "https://www.sankei.com/article/20260723-HRY6QPZ55FLPXOPWMVEFTVXSZQ/",
+          "published": "2026/7/23 5:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "東京新聞",

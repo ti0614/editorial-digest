@@ -300,6 +300,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞イラン核協議　ウラン濃縮決別を確実に",
+          "link": "https://www.sankei.com/article/20250628-3RWI3MAHRROKPIGXJR3GS5GODM/",
+          "published": "2025/6/28 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞教員が児童盗撮　卑劣な性犯罪者一掃せよ",
+          "link": "https://www.sankei.com/article/20250628-6L3YMLKQW5KFTPQPXPFR6LVOD4/",
+          "published": "2025/6/28 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

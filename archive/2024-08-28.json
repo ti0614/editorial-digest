@@ -219,6 +219,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜主張＞高齢社会対策大綱　単身者に不安ない環境を",
+          "link": "https://www.sankei.com/article/20240828-APDHQDZCH5PKZFZFVSHCH5WOA4/",
+          "published": "2024/8/28 5:00",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞中国軍機が初侵犯　「政治空白」を窺う挑発だ",
+          "link": "https://www.sankei.com/article/20240828-EK6URUOLPRKARNS4ENJLD33TZA/",
+          "published": "2024/8/28 5:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }
