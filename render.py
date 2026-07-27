@@ -90,10 +90,11 @@ button.tier-chip[aria-pressed="true"] { background: var(--accent); color: var(--
 button.tier-chip:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 
 button.paid-toggle {
-  margin-top: 0.6rem; width: 100%; font: inherit; font-size: 0.78rem; font-weight: 600;
-  padding: 0.45rem 0.7rem; border-radius: 8px; border: 1px solid var(--rule);
+  width: 100%; font: inherit; font-size: 0.82rem; font-weight: 600;
+  padding: 0.55rem 0.7rem; border-radius: 8px; border: 1px solid var(--rule);
   background: transparent; color: var(--ink-muted); cursor: pointer;
 }
+.scope-toggle button.paid-toggle { margin-top: 0.6rem; }
 button.paid-toggle:hover { background: var(--warn-soft); }
 button.paid-toggle[aria-pressed="true"] { background: var(--warn-soft); color: var(--warn); border-color: var(--warn); }
 button.paid-toggle:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
@@ -165,12 +166,33 @@ a.article time {
 
 .empty-today { color: var(--ink-faint); font-size: 0.88rem; padding: 1.5rem 0.15rem; }
 
+.search-panel { background: var(--surface); border: 1px solid var(--rule); border-radius: 10px; padding: 0.9rem; }
+.search-panel-label {
+  display: flex; align-items: baseline; justify-content: space-between; gap: 0.5rem;
+  font-size: 0.72rem; letter-spacing: 0.06em; color: var(--ink-faint); margin: 0 0 0.7rem;
+}
+.field-row { margin: 0 0 0.6rem; }
+.field-row:last-child { margin-bottom: 0; }
+.field-caption { display:block; font-size: 0.7rem; color: var(--ink-faint); margin: 0 0 0.3rem; }
 .archive-search, .archive-date {
-  width:100%; font: inherit; font-size:0.95rem; padding:0.65rem 0.8rem; border-radius:8px;
-  border:1px solid var(--rule); background:var(--surface); color:var(--ink); margin:0.9rem 0 0.5rem;
+  width:100%; font: inherit; font-size:0.95rem; padding:0.6rem 0.75rem; border-radius:8px;
+  border:1px solid var(--rule); background:var(--bg); color:var(--ink);
 }
 .archive-search:focus-visible, .archive-date:focus-visible { outline:2px solid var(--accent); outline-offset:2px; }
-.archive-status { font-size:0.8rem; color:var(--ink-faint); margin:0 0 1rem; }
+.archive-status { font-size:0.8rem; color:var(--ink-faint); margin:0.9rem 0 1rem; }
+
+.active-filters {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 0.4rem;
+  margin: 0.7rem 0 0; font-size: 0.82rem; color: var(--ink-muted); min-height: 1.6rem;
+}
+.filter-chip {
+  display: inline-flex; align-items: center; gap: 0.3rem; padding: 0.22rem 0.6rem;
+  border-radius: 999px; background: var(--accent-soft); color: var(--accent); font-weight: 600;
+  font-size: 0.78rem; white-space: nowrap;
+}
+.filter-chip.is-exclude { background: var(--warn-soft); color: var(--warn); }
+.filter-join { color: var(--ink-faint); font-size: 0.78rem; }
+.filter-result-count { margin-left: auto; color: var(--ink-faint); font-variant-numeric: tabular-nums; font-size: 0.8rem; }
 li.article-item.search-hide { display:none; }
 button.load-more {
   display:block; width:100%; font:inherit; font-size:0.85rem; font-weight:600; padding:0.65rem;
@@ -280,6 +302,7 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
 (function () {
   var TIERS = ['national', 'block', 'regional'];
   var DEFAULT_ON = { national: true, block: false, regional: false };
+  var TIER_LABEL = { national: '全国紙', block: 'ブロック紙', regional: '地方紙' };
   var WEEKDAY_JP = ['月', '火', '水', '木', '金', '土', '日'];
   var PAGE_SIZE = 30;
 
@@ -290,6 +313,7 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
   var dateFilterInput = document.getElementById('archive-date-filter');
   var loadMoreBtn = document.getElementById('load-more');
   var statusEl = document.getElementById('archive-status');
+  var filtersEl = document.getElementById('active-filters');
   var chips = {};
   TIERS.forEach(function (t) { chips[t] = document.querySelector('.tier-chip[data-tier="' + t + '"]'); });
 
@@ -398,6 +422,37 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
       sec.hidden = count === 0;
     });
     if (totalEl) totalEl.textContent = grandTotal;
+    renderActiveFilters(grandTotal);
+  }
+
+  function renderActiveFilters(total) {
+    // 上部の検索条件パネルと同じ並び順（タイトル→日付→表示する範囲→会員限定）で
+    // アクティブな条件を＋でつないだ要約を表示し、AND条件で絞り込めることを
+    // 可視化する。全国紙のみを「既定表示」として特別扱いせず、ブロック紙のみ・
+    // 地方紙のみと同様に選択中のtierは常にそのまま示す（0個選択時は「選択なし」）。
+    if (!filtersEl) return;
+    var chipsHtml = [];
+    var q = searchInput ? searchInput.value.trim() : '';
+    if (q) {
+      chipsHtml.push('<span class="filter-chip">タイトル「' + esc(q) + '」</span>');
+    }
+    if (dateFilter) {
+      // アーカイブは複数年分をまたぐため、月日だけだと年があいまいになる
+      // （例:「7/26」が2024年なのか2026年なのか判別できない）。年を省略せず表示する。
+      var p = dateFilter.split('-');
+      chipsHtml.push('<span class="filter-chip">' + parseInt(p[0], 10) + '/' + parseInt(p[1], 10) + '/' + parseInt(p[2], 10) + '</span>');
+    }
+    var selectedTiers = TIERS.filter(function (t) { return body.classList.contains('show-' + t); });
+    if (selectedTiers.length === 0) {
+      chipsHtml.push('<span class="filter-chip is-exclude">表示範囲: 選択なし</span>');
+    } else {
+      chipsHtml.push('<span class="filter-chip">' + selectedTiers.map(function (t) { return TIER_LABEL[t]; }).join('・') + '</span>');
+    }
+    if (hidePaid) {
+      chipsHtml.push('<span class="filter-chip is-exclude">会員限定を除く</span>');
+    }
+    filtersEl.innerHTML = chipsHtml.join('<span class="filter-join">＋</span>') +
+      '<span class="filter-result-count">' + total + '件</span>';
   }
 
   function activeTiers() {
@@ -692,13 +747,26 @@ def _render_page(
     *, title: str, description: str, canonical_path: str, eyebrow: str, heading: str,
     summary_html: str, nav_html: str, main_html: str, footer_html: str,
     generated_at: datetime | None, script: str = _SCRIPT_TEMPLATE,
+    scope_toggle_html: str | None = None,
 ) -> str:
     """週間ダイジェスト・当日版・アーカイブ検索に共通のページ骨格（head/masthead/
     footer/script）を組み立てる。異なる部分（見出し・概要・ナビ・本文・フッター
     文言）は呼び出し側が文字列として渡す。scriptは既定でtier/会員限定トグルの
     共通スクリプトだが、アーカイブページのように動的読み込みが絡むページは
-    独自のスクリプトに差し替える。
+    独自のスクリプトに差し替える。scope_toggle_htmlも既定はtier/会員限定トグルの
+    共通ヘッダーブロックだが、アーカイブページはタイトル検索・日付絞り込みと
+    1つの検索パネルにまとめるため空文字列を渡し、main_html側で組み立てる。
     """
+    if scope_toggle_html is None:
+        scope_toggle_html = (
+            '    <div class="scope-toggle">\n'
+            '      <span class="scope-label">表示する範囲</span>\n'
+            '      <div class="tier-chips">\n'
+            f'{_render_tier_chips()}\n'
+            '      </div>\n'
+            '      <button type="button" class="paid-toggle" id="paid-toggle" aria-pressed="false">会員限定記事: 表示中</button>\n'
+            '    </div>'
+        )
     canonical_url = f"{SITE_URL}{canonical_path}"
     desc_attr = _esc(description)
     title_attr = _esc(title)
@@ -729,13 +797,7 @@ def _render_page(
     </div>
     <h1>{heading}</h1>
 {summary_html}
-    <div class="scope-toggle">
-      <span class="scope-label">表示する範囲</span>
-      <div class="tier-chips">
-{_render_tier_chips()}
-      </div>
-      <button type="button" class="paid-toggle" id="paid-toggle" aria-pressed="false">会員限定記事: 表示中</button>
-    </div>
+{scope_toggle_html}
   </header>
 {nav_html}
   <main>
@@ -894,10 +956,30 @@ def render_archive_html(generated_at: datetime | None = None) -> str:
     main.py の write_json と同じ形式）をブラウザ側がfetchして検索・一覧表示する
     完全に静的なページなので、results は受け取らない。
     """
-    main_html = '''
-<input type="search" class="archive-search" id="archive-search" placeholder="タイトルで検索（例: 憲法、選挙）" autocomplete="off" />
+    main_html = f'''
+<div class="search-panel">
+  <p class="search-panel-label"><span>検索条件（すべて同時に絞り込みに使えます）</span></p>
+  <div class="field-row">
+    <span class="field-caption">タイトルで検索</span>
+    <input type="search" class="archive-search" id="archive-search" placeholder="例: 憲法、選挙" autocomplete="off" />
+  </div>
+  <div class="field-row">
+    <span class="field-caption">日付で絞り込み</span>
+    <input type="date" class="archive-date" id="archive-date-filter" aria-label="日付で絞り込み" />
+  </div>
+  <div class="field-row">
+    <span class="field-caption">表示する範囲（複数選択可）</span>
+    <div class="tier-chips">
+{_render_tier_chips()}
+    </div>
+  </div>
+  <div class="field-row">
+    <span class="field-caption">会員限定記事</span>
+    <button type="button" class="paid-toggle" id="paid-toggle" aria-pressed="false">会員限定記事: 表示中</button>
+  </div>
+</div>
 <p class="disclaimer">検索対象はタイトルのみです（本文は収集していないため検索できません）。</p>
-<input type="date" class="archive-date" id="archive-date-filter" aria-label="日付で絞り込み" />
+<div class="active-filters" id="active-filters"></div>
 <p class="archive-status" id="archive-status">読み込み中…</p>
 <div id="archive-results"></div>
 <button type="button" class="load-more" id="load-more" hidden>さらに過去分を読み込む</button>'''
@@ -923,4 +1005,5 @@ def render_archive_html(generated_at: datetime | None = None) -> str:
         heading="社説まとめ<br>アーカイブ検索", summary_html=summary_html,
         nav_html="", main_html=main_html, footer_html=footer_html,
         generated_at=generated_at, script=_ARCHIVE_SCRIPT_TEMPLATE,
+        scope_toggle_html="",
     )
