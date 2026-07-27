@@ -150,7 +150,7 @@ a.article time {
 
 .empty-today { color: var(--ink-faint); font-size: 0.88rem; padding: 1.5rem 0.15rem; }
 
-.search-panel { background: var(--surface); border: 1px solid var(--rule); border-radius: 10px; padding: 0.9rem; margin-top: 1rem; }
+.search-panel { background: var(--surface); border: 1px solid var(--rule); border-radius: 10px; padding: 0.9rem; }
 .search-panel-label {
   display: flex; align-items: baseline; justify-content: space-between; gap: 0.5rem;
   font-size: 0.72rem; letter-spacing: 0.06em; color: var(--ink-faint); margin: 0 0 0.7rem;
@@ -742,8 +742,10 @@ def _render_page(
     文言）は呼び出し側が文字列として渡す。scriptは既定でtier/会員限定トグルの
     共通スクリプトだが、アーカイブページのように動的読み込みが絡むページは
     独自のスクリプトに差し替える。scope_toggle_htmlも既定はtier/会員限定トグルの
-    共通ヘッダーブロックだが、アーカイブページはタイトル検索・日付絞り込みと
-    1つの検索パネルにまとめるため空文字列を渡し、main_html側で組み立てる。
+    共通ヘッダーブロックだが、アーカイブページはタイトル検索・日付絞り込みも
+    含めた1つの検索パネルを渡す——today.htmlのtier/会員限定トグルと同様、
+    ヘッダー内に置くことでheader.mastheadのborder-bottomが記事一覧の直前
+    （main_htmlの先頭）に来るようにするため。
     """
     if scope_toggle_html is None:
         scope_toggle_html = (
@@ -854,31 +856,33 @@ def render_archive_html() -> str:
     main.py の write_json と同じ形式）をブラウザ側がfetchして検索・一覧表示する
     完全に静的なページなので、results は受け取らない。
     """
-    main_html = f'''
-<div class="search-panel">
-  <p class="search-panel-label"><span>検索条件（すべて同時に絞り込みに使えます）</span></p>
-  <div class="field-row">
-    <span class="field-caption">タイトルで検索</span>
-    <input type="search" class="archive-search" id="archive-search" placeholder="例: 憲法、選挙" autocomplete="off" />
-  </div>
-  <div class="field-row">
-    <span class="field-caption">日付で絞り込み</span>
-    <input type="date" class="archive-date" id="archive-date-filter" aria-label="日付で絞り込み" />
-  </div>
-  <div class="field-row">
-    <span class="field-caption">表示する範囲（複数選択可）</span>
-    <div class="tier-chips">
+    scope_toggle_html = f'''
+    <div class="search-panel">
+      <p class="search-panel-label"><span>検索条件（すべて同時に絞り込みに使えます）</span></p>
+      <div class="field-row">
+        <span class="field-caption">タイトルで検索</span>
+        <input type="search" class="archive-search" id="archive-search" placeholder="例: 憲法、選挙" autocomplete="off" />
+      </div>
+      <div class="field-row">
+        <span class="field-caption">日付で絞り込み</span>
+        <input type="date" class="archive-date" id="archive-date-filter" aria-label="日付で絞り込み" />
+      </div>
+      <div class="field-row">
+        <span class="field-caption">表示する範囲（複数選択可）</span>
+        <div class="tier-chips">
 {_render_tier_chips()}
+        </div>
+      </div>
+      <div class="field-row">
+        <span class="field-caption">会員限定記事</span>
+        <button type="button" class="paid-toggle" id="paid-toggle" aria-pressed="false">会員限定記事: 表示中</button>
+      </div>
     </div>
-  </div>
-  <div class="field-row">
-    <span class="field-caption">会員限定記事</span>
-    <button type="button" class="paid-toggle" id="paid-toggle" aria-pressed="false">会員限定記事: 表示中</button>
-  </div>
-</div>
-<p class="disclaimer">検索対象はタイトルのみです（本文は収集していないため検索できません）。</p>
-<div class="active-filters" id="active-filters"></div>
-<p class="archive-status" id="archive-status">読み込み中…</p>
+    <p class="disclaimer">検索対象はタイトルのみです（本文は収集していないため検索できません）。</p>
+    <div class="active-filters" id="active-filters"></div>
+    <p class="archive-status" id="archive-status">読み込み中…</p>'''
+
+    main_html = '''
 <div id="archive-results"></div>
 <button type="button" class="load-more" id="load-more" hidden>さらに過去分を読み込む</button>'''
 
@@ -903,5 +907,5 @@ def render_archive_html() -> str:
         heading="社説まとめ<br>アーカイブ検索", summary_html=summary_html,
         nav_html="", main_html=main_html, footer_html=footer_html,
         script=_ARCHIVE_SCRIPT_TEMPLATE,
-        scope_toggle_html="",
+        scope_toggle_html=scope_toggle_html,
     )
