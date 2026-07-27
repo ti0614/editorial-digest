@@ -193,35 +193,16 @@ html { scroll-behavior: smooth; }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 """
 
-_SCRIPT_TEMPLATE = """
-(function () {
-  var TIERS = ['national', 'block', 'regional'];
-  var DEFAULT_ON = { national: true, block: false, regional: false };
-  var body = document.body;
-  var totalEl = document.getElementById('total-count');
-  var chips = {};
-  TIERS.forEach(function (t) {
-    chips[t] = document.querySelector('.tier-chip[data-tier="' + t + '"]');
-  });
-
+# today.html・archive.html共通のtier切替・会員限定トグルのJSロジック
+# （activeTiers/apply/applyAll・localStorage初期化・クリックハンドラ登録、
+# 会員限定トグルの同等の一式）。呼び出し側のIIFE内で TIERS/DEFAULT_ON/body/
+# chips/updateCounts が既に定義済みであることを前提に、その途中に埋め込む
+# 断片であり、これ単体では完結しない。
+_TIER_PAID_TOGGLE_JS = """
   function activeTiers() {
     var active = {};
     TIERS.forEach(function (t) { active[t] = body.classList.contains('show-' + t); });
     return active;
-  }
-
-  function updateCounts() {
-    var grandTotal = 0;
-    document.querySelectorAll('section.dategroup').forEach(function (sec) {
-      var count = 0;
-      sec.querySelectorAll('li.article-item').forEach(function (li) {
-        if (li.offsetParent !== null) count++;
-      });
-      grandTotal += count;
-      var countEl = sec.querySelector('.date-count');
-      if (countEl) countEl.textContent = count + '件';
-    });
-    if (totalEl) totalEl.textContent = grandTotal;
   }
 
   function apply(tier, on) {
@@ -235,12 +216,12 @@ _SCRIPT_TEMPLATE = """
     try { localStorage.setItem('editorial-digest-tiers', JSON.stringify(state)); } catch (e) {}
   }
 
-  var initial = DEFAULT_ON;
+  var initialTiers = DEFAULT_ON;
   try {
-    var saved = localStorage.getItem('editorial-digest-tiers');
-    if (saved) initial = JSON.parse(saved);
+    var savedTiers = localStorage.getItem('editorial-digest-tiers');
+    if (savedTiers) initialTiers = JSON.parse(savedTiers);
   } catch (e) {}
-  applyAll(initial);
+  applyAll(initialTiers);
 
   TIERS.forEach(function (t) {
     if (!chips[t]) return;
@@ -272,14 +253,41 @@ _SCRIPT_TEMPLATE = """
       applyPaidToggle();
     });
   }
+"""
+
+_SCRIPT_TEMPLATE = """
+(function () {
+  var TIERS = ['national', 'block', 'regional'];
+  var DEFAULT_ON = { national: true, block: false, regional: false };
+  var body = document.body;
+  var totalEl = document.getElementById('total-count');
+  var chips = {};
+  TIERS.forEach(function (t) {
+    chips[t] = document.querySelector('.tier-chip[data-tier="' + t + '"]');
+  });
+
+  function updateCounts() {
+    var grandTotal = 0;
+    document.querySelectorAll('section.dategroup').forEach(function (sec) {
+      var count = 0;
+      sec.querySelectorAll('li.article-item').forEach(function (li) {
+        if (li.offsetParent !== null) count++;
+      });
+      grandTotal += count;
+      var countEl = sec.querySelector('.date-count');
+      if (countEl) countEl.textContent = count + '件';
+    });
+    if (totalEl) totalEl.textContent = grandTotal;
+  }
+""" + _TIER_PAID_TOGGLE_JS + """
 })();
 """
 
 # アーカイブ検索ページ専用のスクリプト。他の2ページと違いサーバー側で記事を
 # 埋め込まず、archive/index.json・archive/{date}.json をブラウザ側でfetchして
-# 組み立てる。tier/会員限定トグルは_SCRIPT_TEMPLATEと同じロジックだが、
+# 組み立てる。tier/会員限定トグルは_TIER_PAID_TOGGLE_JSを共有するが、
 # 動的に追加されるセクションに対してupdateCountsを呼び直す必要があるため
-# 独立したスクリプトにしている。
+# updateCounts自体は独自実装になっている。
 _ARCHIVE_SCRIPT_TEMPLATE = r"""
 (function () {
   var TIERS = ['national', 'block', 'regional'];
@@ -454,62 +462,7 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
     filtersEl.innerHTML = chipsHtml.join('<span class="filter-join">＋</span>') +
       '<span class="filter-result-count">' + total + '件</span>';
   }
-
-  function activeTiers() {
-    var active = {};
-    TIERS.forEach(function (t) { active[t] = body.classList.contains('show-' + t); });
-    return active;
-  }
-
-  function apply(tier, on) {
-    body.classList.toggle('show-' + tier, on);
-    if (chips[tier]) chips[tier].setAttribute('aria-pressed', on ? 'true' : 'false');
-  }
-
-  function applyAll(state) {
-    TIERS.forEach(function (t) { apply(t, !!state[t]); });
-    updateCounts();
-    try { localStorage.setItem('editorial-digest-tiers', JSON.stringify(state)); } catch (e) {}
-  }
-
-  var initialTiers = DEFAULT_ON;
-  try {
-    var savedTiers = localStorage.getItem('editorial-digest-tiers');
-    if (savedTiers) initialTiers = JSON.parse(savedTiers);
-  } catch (e) {}
-  applyAll(initialTiers);
-
-  TIERS.forEach(function (t) {
-    if (!chips[t]) return;
-    chips[t].addEventListener('click', function () {
-      var state = activeTiers();
-      state[t] = !state[t];
-      applyAll(state);
-    });
-  });
-
-  var paidToggle = document.getElementById('paid-toggle');
-  var hidePaid = false;
-  function applyPaidToggle() {
-    body.classList.toggle('hide-paid', hidePaid);
-    if (paidToggle) {
-      paidToggle.setAttribute('aria-pressed', hidePaid ? 'true' : 'false');
-      paidToggle.textContent = hidePaid ? '会員限定記事: 非表示中' : '会員限定記事: 表示中';
-    }
-    updateCounts();
-    try { localStorage.setItem('editorial-digest-hide-paid', hidePaid ? '1' : '0'); } catch (e) {}
-  }
-  try {
-    hidePaid = localStorage.getItem('editorial-digest-hide-paid') === '1';
-  } catch (e) {}
-  applyPaidToggle();
-  if (paidToggle) {
-    paidToggle.addEventListener('click', function () {
-      hidePaid = !hidePaid;
-      applyPaidToggle();
-    });
-  }
-
+""" + _TIER_PAID_TOGGLE_JS + r"""
   function finishLoading() {
     statusEl.textContent = allDates.length ? 'すべて表示中' : 'まだアーカイブがありません。';
     loadMoreBtn.hidden = true;
