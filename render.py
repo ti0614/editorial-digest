@@ -112,6 +112,7 @@ section.dategroup:last-child { border-bottom: none; }
 }
 .date-head h2 .slash { color: var(--ink-faint); font-weight: 400; padding: 0 0.05rem; }
 .date-head h2 .wd { font-size: 0.95rem; color: var(--ink-faint); font-family: "Hiragino Sans","Yu Gothic",sans-serif; font-weight:400; }
+.date-head h2 .yr { font-size: 0.95rem; color: var(--ink-faint); font-family: "Hiragino Sans","Yu Gothic",sans-serif; font-weight:400; margin-right: 0.2rem; }
 .date-count { font-size:0.78rem; color:var(--ink-faint); font-variant-numeric: tabular-nums; }
 ul.article-list { list-style:none; margin:0.6rem 0 0; padding:0; }
 ul.article-list li { border-top:1px solid var(--rule); }
@@ -373,8 +374,11 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
     section.className = 'dategroup';
     section.id = 'd-' + dateStr;
     var parts = dateStr.split('-');
+    // アーカイブは複数年分をまたぐため、月日だけの見出しだと「7/28」等が
+    // どの年か判別できない（実際に2026-07-28の1件だけの薄いデータが先頭に
+    // 表示され、2025年のデータと誤認されたことがある）。年を省略せず表示する。
     section.innerHTML =
-      '<div class="date-head"><h2>' + parseInt(parts[1], 10) + '<span class="slash">/</span>' + parseInt(parts[2], 10) +
+      '<div class="date-head"><h2><span class="yr">' + parts[0] + '</span><span class="slash">/</span>' + parseInt(parts[1], 10) + '<span class="slash">/</span>' + parseInt(parts[2], 10) +
       '<span class="wd">（' + weekdayOf(dateStr) + '）</span></h2>' +
       '<span class="date-count">' + items.length + '件</span></div>' +
       '<ul class="article-list">' + items.map(renderRow).join('') + '</ul>';
