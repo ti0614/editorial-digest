@@ -64,10 +64,15 @@ def _paginated_url(source: dict, page: int) -> str:
 
     大半のサイトはクエリパラメータ方式（pagination_param、例: ?page=2）だが、
     毎日新聞や宮崎日日新聞等はパス方式（pagination_path_template、例:
-    /editorial/{page}）。両対応にしている。
+    /editorial/{page}）。両対応にしている。読売新聞のようにAJAXのページ番号が
+    「一覧ページ本体の続き」から0/1始まりで振られているサイトは、
+    pagination_page_offset（例: -1）で調整できるようにしている
+    （backfillのpage=2が本体の直後の1ページ目に相当する場合、offset=-1で
+    ajax上のページ番号1に変換する）。
     """
     if "pagination_path_template" in source:
-        return urljoin(source["index_url"], source["pagination_path_template"].format(page=page))
+        effective_page = page + source.get("pagination_page_offset", 0)
+        return urljoin(source["index_url"], source["pagination_path_template"].format(page=effective_page))
     param = source["pagination_param"]
     index_url = source["index_url"]
     sep = "&" if "?" in index_url else "?"
@@ -153,6 +158,11 @@ def _fetch_with_pagination(
                     # 打ち切る。
                     break
                 raise  # 403のリトライも尽きた場合等はエラーとして記録する
+            if page > 1 and source.get("pagination_response_json_field"):
+                # 読売新聞のように、ページ送り応答がHTML断片そのものではなく
+                # {"contents": "...html...", "has_next_data": true} 形式のJSONで
+                # 返るサイト向け。指定フィールドの値をHTML断片として扱う。
+                html = json.loads(html)[source["pagination_response_json_field"]]
             if page > 1 and source.get("pagination_wrap_fragment"):
                 html = _wrap_fragment_html(html, source["item_selector"])
             page_items = extract_items(html, url, source, reference_date, window_days=window_days)

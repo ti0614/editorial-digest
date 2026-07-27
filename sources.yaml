@@ -74,7 +74,12 @@ sources:
     title_selector: "h3.title"
     link_selector: "h3.title a"
     date_selector: "time"
+    pagination_path_template: "/y_ajax/latest_list/category/45/1/0/24//editorial/{page}/"
+    pagination_page_offset: -1
+    pagination_response_json_field: contents
+    pagination_wrap_fragment: true
     verified: true
+    note: "「さらに読み込む」ボタンはAJAX（/y_ajax/latest_list/.../{N}/、Nは1始まり）で次の10件をJSON({\"contents\": HTML断片, \"has_next_data\": bool})で返す。一覧ページ本体（div.list div.item、最大26件程度）の末尾記事と、AJAX 1ページ目の先頭記事が記事IDの連番で正確に連続していることを確認済み（隙間なし、2026-07-26確認）。AJAX応答のHTML断片には外側の<div class=\"list\">が無いため、item_selectorの先頭トークンから組み立てて包み直す（pagination_wrap_fragment）。10ページ目（has_next_data: false）の次で404。"
 
   - name: 日本経済新聞
     category: 社説
