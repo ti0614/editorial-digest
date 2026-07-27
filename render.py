@@ -716,14 +716,13 @@ def _render_summary(label: str, total: int) -> str:
     )
 
 
-def _render_footer(run_date: date, note: str, unavailable_footer: str = "") -> str:
-    extra_line = f'    {unavailable_footer}\n' if unavailable_footer else ""
+def _render_footer(note: str = "", run_date: date | None = None) -> str:
+    date_part = f" / 基準日: {run_date.isoformat()}{note}" if run_date else ""
     return (
-        f'    <p>社説まとめツールが自動生成 / 基準日: {run_date.isoformat()}{note}。'
+        f'    <p>社説まとめツールが自動生成{date_part}。'
         '個人利用目的の非公式リンク集で、著作権は各社に帰属します。</p>\n'
         '    <p>内容の正確性は保証しません（記事削除等でリンク切れの場合あり）。「会員限定」表示も参考情報です。</p>\n'
         '    <p>一部の新聞社は、サイト側の意向により対象外としています。</p>\n'
-        f'{extra_line}'
         f'    <p>ご連絡・削除のご依頼は <a href="mailto:{CONTACT_EMAIL}">{CONTACT_EMAIL}</a> まで。</p>'
     )
 
@@ -734,11 +733,11 @@ def _render_crosslink(href: str, label: str) -> str:
 
 def _render_page(
     *, title: str, description: str, canonical_path: str, eyebrow: str, heading: str,
-    crosslink_html: str, summary_html: str, nav_html: str, main_html: str, footer_html: str,
+    crosslink_html: str, summary_html: str, main_html: str, footer_html: str,
     script: str = _SCRIPT_TEMPLATE, scope_toggle_html: str | None = None,
 ) -> str:
     """today.html・archive.htmlに共通のページ骨格（head/masthead/
-    footer/script）を組み立てる。異なる部分（見出し・概要・ナビ・本文・フッター
+    footer/script）を組み立てる。異なる部分（見出し・概要・本文・フッター
     文言）は呼び出し側が文字列として渡す。scriptは既定でtier/会員限定トグルの
     共通スクリプトだが、アーカイブページのように動的読み込みが絡むページは
     独自のスクリプトに差し替える。scope_toggle_htmlも既定はtier/会員限定トグルの
@@ -789,7 +788,6 @@ def _render_page(
 {summary_html}
 {scope_toggle_html}
   </header>
-{nav_html}
   <main>
 {main_html}
   </main>
@@ -834,7 +832,7 @@ def render_today_html(results: list, run_date: date) -> str:
 </section>'''
 
     summary_html = _render_summary(date_label, national_total)
-    footer_html = _render_footer(run_date, "（当日分のみ）")
+    footer_html = _render_footer("（当日分のみ）", run_date)
 
     return _render_page(
         title="社説まとめ",
@@ -844,7 +842,7 @@ def render_today_html(results: list, run_date: date) -> str:
         eyebrow="EDITORIAL DIGEST · TODAY",
         crosslink_html=_render_crosslink("archive.html", "アーカイブ検索へ"),
         heading="本日の社説<br>まとめ", summary_html=summary_html,
-        nav_html="", main_html=section, footer_html=footer_html,
+        main_html=section, footer_html=footer_html,
     )
 
 
@@ -890,12 +888,7 @@ def render_archive_html() -> str:
         '    <p class="summary">過去の社説を横断検索・表示中 <strong id="total-count">0</strong>件</p>\n'
         '    <p class="disclaimer">タイトル・リンク・日付のみ収集。本文は各紙サイトでご覧ください。</p>'
     )
-    footer_html = (
-        '    <p>社説まとめツールが自動生成。個人利用目的の非公式リンク集で、著作権は各社に帰属します。</p>\n'
-        '    <p>内容の正確性は保証しません（記事削除等でリンク切れの場合あり）。「会員限定」表示も参考情報です。</p>\n'
-        '    <p>一部の新聞社は、サイト側の意向により対象外としています。</p>\n'
-        f'    <p>ご連絡・削除のご依頼は <a href="mailto:{CONTACT_EMAIL}">{CONTACT_EMAIL}</a> まで。</p>'
-    )
+    footer_html = _render_footer()
 
     return _render_page(
         title="社説まとめ アーカイブ検索",
@@ -905,7 +898,7 @@ def render_archive_html() -> str:
         eyebrow="EDITORIAL DIGEST · ARCHIVE",
         crosslink_html=_render_crosslink(".", "本日の社説まとめへ"),
         heading="社説まとめ<br>アーカイブ検索", summary_html=summary_html,
-        nav_html="", main_html=main_html, footer_html=footer_html,
+        main_html=main_html, footer_html=footer_html,
         script=_ARCHIVE_SCRIPT_TEMPLATE,
         scope_toggle_html=scope_toggle_html,
     )

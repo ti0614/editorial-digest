@@ -10,17 +10,23 @@
 方針上、それ以上の情報源が無いため）。取得できるのは実行時点で各紙サイトが
 公開している範囲まで。ただし`sources.yaml`でページ送り設定を持つ紙に
 ついては、ウィンドウ分を使い切るまで次ページを自動で追加取得する。ページ送り
-方式は2通り対応している —— クエリパラメータ方式（`pagination_param`、例:
+方式は4通り対応している —— クエリパラメータ方式（`pagination_param`、例:
 "page"、朝日新聞は?id=16&page=Nで151ページ、西日本新聞は?page=Nで157ページ
-まで一覧ページ自体が持っていることを2026-07-26に確認）と、パス方式
+まで一覧ページ自体が持っていることを2026-07-26に確認）、パス方式
 （`pagination_path_template`、例: "/editorial/{page}"、毎日新聞・宮崎日日
-新聞・琉球新報等）。パス方式のうち毎日新聞はページ送りがXHRリクエストで、
-`pagination_headers`（例: X-Requested-With: XMLHttpRequest）が無いと通常の
-HTMLが返り、かつXHR応答は一覧の外側コンテナ（<ul class="articlelist">）を
-含まない断片HTMLなので`pagination_wrap_fragment: true`でitem_selectorの
-先頭トークンから外側コンテナを組み立てて包み直している。通常の
-check/run/todayコマンドは直近1週間程度しか見ないため1ページ目のみで足り、
-この機構はbackfill専用（main.process_sourceは変更しない）。
+新聞・琉球新報等）、パス方式＋JSON包装（`pagination_response_json_field`、
+読売新聞のAJAX「さらに読み込む」がHTML断片ではなく{"contents": "...html..."}
+形式のJSONで返る）、JSON配列そのもの（`pagination_json_url_template`、
+産経新聞のFusion CMS content-apiのようにHTMLですらなく構造化JSON配列で
+返る）。各方式の詳細は`_paginated_url`/`_fetch_with_pagination`/
+`_fetch_json_items_with_pagination`のdocstring参照。パス方式のうち毎日新聞は
+ページ送りがXHRリクエストで、`pagination_headers`（例: X-Requested-With:
+XMLHttpRequest）が無いと通常のHTMLが返り、かつXHR応答は一覧の外側コンテナ
+（<ul class="articlelist">）を含まない断片HTMLなので
+`pagination_wrap_fragment: true`でitem_selectorの先頭トークンから外側
+コンテナを組み立てて包み直している。通常の`check`/`today`コマンドは
+直近7日分（`check`の既定）または当日分（`today`）しか見ないため1ページ目
+のみで足り、この機構はbackfill専用（main.process_sourceは変更しない）。
 
 時刻補完（enrich_missing_times）は行わない —— 対象記事数が通常運用の
 数倍〜十数倍になり、記事個別ページへの追加アクセスが大きく増えてしまうため。
@@ -40,7 +46,6 @@ import json
 import re
 import time
 from collections import defaultdict
-from dataclasses import asdict
 from datetime import date, datetime
 from pathlib import Path
 from urllib.parse import urljoin
@@ -49,7 +54,7 @@ import requests
 
 from extract import Item, extract_items
 from fetch import fetch_html
-from main import SourceResult, load_sources, process_source
+from main import SourceResult, load_sources, process_source, source_status_label, write_json
 from pubdate import JST, parse_published_date, today_jst, within_window
 from robots import RobotsChecker
 
@@ -314,26 +319,6 @@ def _split_by_date(results: list[SourceResult], reference_date: date) -> dict[da
     return by_date
 
 
-def _write_archive_json(path: Path, day: date, results: list[SourceResult]) -> None:
-    payload = {
-        "date": day.isoformat(),
-        "sources": [
-            {
-                "name": r.name,
-                "category": r.category,
-                "tier": r.tier,
-                "index_url": r.index_url,
-                "error": r.error,
-                "skipped_by_robots": r.skipped_by_robots,
-                "unavailable_reason": r.unavailable_reason,
-                "items": [asdict(i) for i in r.items],
-            }
-            for r in results
-        ],
-    }
-    path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
-
-
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--only", nargs="*", help="対象を新聞社名で絞り込む")
@@ -355,12 +340,7 @@ def main() -> int:
             result = _fetch_with_pagination(source, reference_date, robots, window_days=args.window_days, max_pages=args.max_pages)
         else:
             result = process_source(source, reference_date, robots, fetch_times=False, window_days=args.window_days)
-        status = (
-            "ROBOTS_DISALLOWED" if result.skipped_by_robots else
-            f"ERROR: {result.error}" if result.error else
-            f"OK ({len(result.items)} 件)"
-        )
-        print(f"[{result.name}] {status}")
+        print(f"[{result.name}] {source_status_label(result)}")
         results.append(result)
         if i < len(sources) - 1:
             time.sleep(robots.interval_after(source["index_url"]))
@@ -374,7 +354,7 @@ def main() -> int:
         if path.exists() and not args.force:
             skipped += 1
             continue
-        _write_archive_json(path, d, by_date[d])
+        write_json(path, d, by_date[d])
         written += 1
         total_items = sum(len(r.items) for r in by_date[d])
         print(f"{d.isoformat()}: {total_items} 件 -> {path}")

@@ -4,7 +4,7 @@ from __future__ import annotations
 import requests
 from requests.utils import get_encoding_from_headers
 
-USER_AGENT = "EditorialDigestBot/0.1 (personal research use; contact: set-your-contact-here)"
+USER_AGENT = "EditorialDigestBot/0.1 (personal research use; contact: t.iizuka188@gmail.com)"
 REQUEST_TIMEOUT = 15
 
 

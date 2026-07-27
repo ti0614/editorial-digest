@@ -110,6 +110,14 @@ def _iter_results(
             time.sleep(robots.interval_after(source["index_url"]))
 
 
+def source_status_label(result: SourceResult) -> str:
+    return (
+        "ROBOTS_DISALLOWED" if result.skipped_by_robots else
+        f"ERROR: {result.error}" if result.error else
+        f"OK ({len(result.items)} 件)"
+    )
+
+
 def run_check(only: list[str] | None) -> int:
     sources = load_sources(only)
     robots = RobotsChecker()
@@ -117,14 +125,9 @@ def run_check(only: list[str] | None) -> int:
 
     had_problem = False
     for result in _iter_results(sources, reference_date, robots, fetch_times=False):
-        status = (
-            "ROBOTS_DISALLOWED" if result.skipped_by_robots else
-            f"ERROR: {result.error}" if result.error else
-            f"OK ({len(result.items)} 件)"
-        )
         if result.skipped_by_robots or result.error or not result.items:
             had_problem = True
-        print(f"[{result.name}] {status}  <- {result.index_url}")
+        print(f"[{result.name}] {source_status_label(result)}  <- {result.index_url}")
     return 1 if had_problem else 0
 
 
