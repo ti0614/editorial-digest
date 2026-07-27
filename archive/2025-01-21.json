@@ -53,7 +53,7 @@
         {
           "title": "［社説］トランプ時代の国際秩序を探れ",
           "link": "https://www.nikkei.com/article/DGXZQODK216EM0R20C25A1000000/",
-          "published": "2025年1月21日",
+          "published": "2025/1/21 19:00",
           "paid": false
         }
       ]
@@ -124,7 +124,7 @@
         {
           "title": "フジテレビ会見　公正な調査と説明不可欠",
           "link": "https://www.niigata-nippo.co.jp/articles/-/542694",
-          "published": "2025/1/21",
+          "published": "2025/1/21 6:00",
           "paid": false
         }
       ]
@@ -227,6 +227,40 @@
           "title": "＜社説＞トランプ大統領２期目　沖縄のリアリズム主張を",
           "link": "https://ryukyushimpo.jp/editorial/entry-3881545.html",
           "published": "2025/01/21",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：トランプ新大統領　「自国第一」まん延を危ぶむ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1408721",
+          "published": "2025/1/21 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】インフル警戒　コロナの経験忘れず予防",
+          "link": "https://www.nishinippon.co.jp/item/1305985/",
+          "published": "2025/01/21 06:00",
           "paid": false
         }
       ]

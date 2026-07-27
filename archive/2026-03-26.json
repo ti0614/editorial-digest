@@ -59,13 +59,13 @@
         {
           "title": "［社説］石油製品の供給不安抑える丁寧な説明を",
           "link": "https://www.nikkei.com/article/DGXZQODK263HL0W6A320C2000000/",
-          "published": "3月26日",
+          "published": "2026/3/26 19:05",
           "paid": false
         },
         {
           "title": "［社説］自転車事故を防ぐ「青切符」に",
           "link": "https://www.nikkei.com/article/DGXZQODK263RH0W6A320C2000000/",
-          "published": "3月26日",
+          "published": "2026/3/26 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "新潟バス減便　交通網守る対策急がねば",
           "link": "https://www.niigata-nippo.co.jp/articles/-/803083",
-          "published": "3/26",
+          "published": "2026/3/26 6:00",
           "paid": false
         }
       ]
@@ -177,19 +177,19 @@
         {
           "title": "社説【自然共生サイト】地域開放で認知度向上を",
           "link": "https://www.hokkoku.co.jp/articles/-/2057051",
-          "published": "3/26",
+          "published": "2026/3/26 5:00",
           "paid": true
         },
         {
           "title": "社説【大相撲とけが】公傷制度の議論続けたい",
           "link": "https://www.hokkoku.co.jp/articles/-/2057050",
-          "published": "3/26",
+          "published": "2026/3/26 5:00",
           "paid": true
         },
         {
           "title": "社説【炎鵬が関取復帰】公傷制度の議論続けたい",
           "link": "https://www.hokkoku.co.jp/articles/-/2057027",
-          "published": "3/26",
+          "published": "2026/3/26 5:00",
           "paid": true
         }
       ]
@@ -309,6 +309,46 @@
           "title": "＜社説＞米軍、慶良間諸島上陸　強いられた犠牲、語り継げ",
           "link": "https://ryukyushimpo.jp/editorial/entry-5147512.html",
           "published": "2026/03/26",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：国家情報会議　際限なき監視を危ぶむ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1683644",
+          "published": "2026/3/26 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：ＳＮＳいじめ　投稿拡散の危険、教育",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1683643",
+          "published": "2026/3/26 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】裁量労働見直し　まずは適正運用の徹底だ",
+          "link": "https://www.nishinippon.co.jp/item/1474031/",
+          "published": "2026/03/26 06:00",
           "paid": false
         }
       ]

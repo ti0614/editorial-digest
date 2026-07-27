@@ -73,7 +73,7 @@
         {
           "title": "災害廃棄物　処理量は膨大態勢を早く",
           "link": "https://www.niigata-nippo.co.jp/articles/-/357834",
-          "published": "2024/2/10",
+          "published": "2024/2/10 6:00",
           "paid": false
         }
       ]
@@ -176,6 +176,23 @@
           "title": "＜社説＞２０２４年度県予算案　こども支援で未来を築け",
           "link": "https://ryukyushimpo.jp/editorial/entry-2789838.html",
           "published": "2024/02/10",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】トヨタGの不正　効率最優先のひずみ正せ",
+          "link": "https://www.nishinippon.co.jp/item/1177602/",
+          "published": "2024/02/10 06:00",
           "paid": false
         }
       ]

@@ -59,13 +59,13 @@
         {
           "title": "［社説］株主は協働して企業に成長促す対話を",
           "link": "https://www.nikkei.com/article/DGXZQODK23DCQ0T20C25A3000000/",
-          "published": "2025年3月25日",
+          "published": "2025/3/25 19:05",
           "paid": false
         },
         {
           "title": "［社説］解散命令で終わらぬ教団問題",
           "link": "https://www.nikkei.com/article/DGXZQODK257U80V20C25A3000000/",
-          "published": "2025年3月25日",
+          "published": "2025/3/25 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "内閣支持率急落　問われる自民の政治文化",
           "link": "https://www.niigata-nippo.co.jp/articles/-/579513",
-          "published": "2025/3/25",
+          "published": "2025/3/25 6:00",
           "paid": false
         }
       ]
@@ -246,6 +246,23 @@
           "title": "＜社説＞地下鉄サリン事件30年　カルトの危険性見逃すな",
           "link": "https://ryukyushimpo.jp/editorial/entry-4087746.html",
           "published": "2025/03/25",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】福岡県知事選　服部氏は批判を糧とせよ",
+          "link": "https://www.nishinippon.co.jp/item/1330804/",
+          "published": "2025/03/25 06:00",
           "paid": false
         }
       ]

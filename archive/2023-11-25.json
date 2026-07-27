@@ -50,7 +50,7 @@
         {
           "title": "ガザ戦闘休止　恒久的停戦への道を開け",
           "link": "https://www.niigata-nippo.co.jp/articles/-/318082",
-          "published": "2023/11/25",
+          "published": "2023/11/25 6:00",
           "paid": false
         }
       ]
@@ -136,6 +136,23 @@
           "title": "＜社説＞広がる薬物禍　未成年者使用に危機感を",
           "link": "https://ryukyushimpo.jp/editorial/entry-2507441.html",
           "published": "2023/11/25",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】慰安婦賠償命令　日韓の大局見据え対処を",
+          "link": "https://www.nishinippon.co.jp/item/1149834/",
+          "published": "2023/11/25 06:00",
           "paid": false
         }
       ]

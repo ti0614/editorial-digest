@@ -53,13 +53,13 @@
         {
           "title": "［社説］データセンターの地方分散へ促進策急げ",
           "link": "https://www.nikkei.com/article/DGXZQODK253X70V20C25A8000000/",
-          "published": "2025年8月25日",
+          "published": "2025/8/25 19:05",
           "paid": false
         },
         {
           "title": "［社説］認知症の人に優しい製品を",
           "link": "https://www.nikkei.com/article/DGXZQOCD253IO0V20C25A8000000/",
-          "published": "2025年8月25日",
+          "published": "2025/8/25 19:00",
           "paid": false
         }
       ]
@@ -106,14 +106,7 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": [
-        {
-          "title": "安全意識を持ち行動を　県内で海浜事故相次ぐ　【論説】",
-          "link": "https://www.chibanippo.co.jp/articles/1487155",
-          "published": "8/25 5:00",
-          "paid": true
-        }
-      ]
+      "items": []
     },
     {
       "name": "新潟日報",
@@ -127,7 +120,7 @@
         {
           "title": "占領軍性接待資料　負の歴史を深く胸に刻む",
           "link": "https://www.niigata-nippo.co.jp/articles/-/675853",
-          "published": "2025/8/25",
+          "published": "2025/8/25 6:00",
           "paid": false
         }
       ]
@@ -230,6 +223,40 @@
           "title": "＜社説＞オリオンビール上場へ　企業の価値高める戦略を",
           "link": "https://ryukyushimpo.jp/editorial/entry-4561156.html",
           "published": "2025/08/25",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：森友文書の開示　財務省の隠蔽、まざまざと",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1548207",
+          "published": "2025/8/25 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】飲酒運転ゼロへ　遺族の無念社会で共有を",
+          "link": "https://www.nishinippon.co.jp/item/1391441/",
+          "published": "2025/08/25 06:00",
           "paid": false
         }
       ]

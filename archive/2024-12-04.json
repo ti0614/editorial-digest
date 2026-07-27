@@ -59,13 +59,13 @@
         {
           "title": "［社説］韓国民主化の歴史を否定する「非常戒厳」",
           "link": "https://www.nikkei.com/article/DGXZQODK042050U4A201C2000000/",
-          "published": "2024年12月4日",
+          "published": "2024/12/4 19:05",
           "paid": false
         },
         {
           "title": "［社説］シリア内戦の再燃拡大を防げ",
           "link": "https://www.nikkei.com/article/DGXZQODK045HH0U4A201C2000000/",
-          "published": "2024年12月4日",
+          "published": "2024/12/4 19:00",
           "paid": false
         }
       ]
@@ -136,7 +136,7 @@
         {
           "title": "ゼレンスキー氏　早期終戦へ苦渋の決断だ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/520145",
-          "published": "2024/12/4",
+          "published": "2024/12/4 6:00",
           "paid": false
         }
       ]
@@ -239,6 +239,23 @@
           "title": "＜社説＞ミバエの確認拡大　防除と根絶に協力しよう",
           "link": "https://ryukyushimpo.jp/editorial/entry-3716082.html",
           "published": "2024/12/04",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】保護司の活動　誰もが担える仕組み築け",
+          "link": "https://www.nishinippon.co.jp/item/1289284/",
+          "published": "2024/12/04 06:00",
           "paid": false
         }
       ]

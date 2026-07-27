@@ -59,13 +59,13 @@
         {
           "title": "［社説］構造的なコメ不足への備えを万全に",
           "link": "https://www.nikkei.com/article/DGXZQODK208AO0Q5A220C2000000/",
-          "published": "2025年2月20日",
+          "published": "2025/2/20 19:05",
           "paid": false
         },
         {
           "title": "［社説］小林製薬は企業統治立て直せ",
           "link": "https://www.nikkei.com/article/DGXZQODK196770Z10C25A2000000/",
-          "published": "2025年2月20日",
+          "published": "2025/2/20 19:00",
           "paid": false
         }
       ]
@@ -136,7 +136,7 @@
         {
           "title": "エネルギー計画　国民理解なき原発回帰だ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/559668",
-          "published": "2025/2/20",
+          "published": "2025/2/20 6:00",
           "paid": false
         }
       ]
@@ -239,6 +239,46 @@
           "title": "＜社説＞エネルギー基本計画　原発回帰　国民受け入れぬ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3980534.html",
           "published": "2025/02/20",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：エネルギー計画　反省を忘れた原発復権",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1426074",
+          "published": "2025/2/20 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：飲む中絶薬　選択広げる環境整備を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1426072",
+          "published": "2025/2/20 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】核禁会議不参加　被爆国の姿勢が問われる",
+          "link": "https://www.nishinippon.co.jp/item/1317817/",
+          "published": "2025/02/20 06:00",
           "paid": false
         }
       ]

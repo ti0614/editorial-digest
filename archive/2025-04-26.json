@@ -59,13 +59,13 @@
         {
           "title": "［社説］広域の合従連衡は地銀経営の有力手段だ",
           "link": "https://www.nikkei.com/article/DGXZQODK2563I0V20C25A4000000/",
-          "published": "2025年4月26日",
+          "published": "2025/4/26 19:05",
           "paid": false
         },
         {
           "title": "［社説］分断を乗り越えたベトナム",
           "link": "https://www.nikkei.com/article/DGXZQODK25A7E0V20C25A4000000/",
-          "published": "2025年4月26日",
+          "published": "2025/4/26 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "第四北越統合へ　拡大の成果地域に還元を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/598288",
-          "published": "2025/4/26",
+          "published": "2025/4/26 6:00",
           "paid": false
         }
       ]
@@ -246,6 +246,40 @@
           "title": "＜社説＞沖縄戦８０年　戦時行政と住民　軍官一体化が犠牲招いた",
           "link": "https://ryukyushimpo.jp/editorial/entry-4186381.html",
           "published": "2025/04/26",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：国会の党首討論　熟議への改革進める一歩に",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1466480",
+          "published": "2025/4/26 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】国スポの未来図　存廃含めた改革の議論を",
+          "link": "https://www.nishinippon.co.jp/item/1344265/",
+          "published": "2025/04/26 06:00",
           "paid": false
         }
       ]

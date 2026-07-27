@@ -59,13 +59,13 @@
         {
           "title": "［社説］FRBは政治圧力に屈せず責任果たせ",
           "link": "https://www.nikkei.com/article/DGXZQODK0846U0Y5A500C2000000/",
-          "published": "2025年5月8日",
+          "published": "2025/5/8 19:05",
           "paid": false
         },
         {
           "title": "［社説］警察はストーカー対応検証を",
           "link": "https://www.nikkei.com/article/DGXZQODK084QF0Y5A500C2000000/",
-          "published": "2025年5月8日",
+          "published": "2025/5/8 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "印パ衝突　報復の連鎖避けるべきだ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/603697",
-          "published": "2025/5/8",
+          "published": "2025/5/8 6:00",
           "paid": false
         }
       ]
@@ -246,6 +246,46 @@
           "title": "＜社説＞西田氏発言「撤回せず」　沖縄戦の実相と向き合え",
           "link": "https://ryukyushimpo.jp/editorial/entry-4213284.html",
           "published": "2025/05/08",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：印パの衝突　拡大防ぐ国際協力こそ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1472276",
+          "published": "2025/5/8 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：川崎ストーカー　徹底した検証が必要だ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1472267",
+          "published": "2025/5/8 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】学術会議法案　独立性保つ修正が必要だ",
+          "link": "https://www.nishinippon.co.jp/item/1348244/",
+          "published": "2025/05/08 06:00",
           "paid": false
         }
       ]

@@ -96,7 +96,7 @@
         {
           "title": "コメ価格上昇　安定した供給が不可欠だ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/474468",
-          "published": "2024/9/12",
+          "published": "2024/9/12 6:00",
           "paid": false
         }
       ]
@@ -199,6 +199,23 @@
           "title": "＜社説＞佐喜真氏公約否定　分散移転の実現性説明を",
           "link": "https://ryukyushimpo.jp/editorial/entry-3461292.html",
           "published": "2024/09/12",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】自民総裁選告示　信頼回復へ誠実な議論を",
+          "link": "https://www.nishinippon.co.jp/item/1257570/",
+          "published": "2024/09/12 06:00",
           "paid": false
         }
       ]

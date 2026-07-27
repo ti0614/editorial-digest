@@ -53,13 +53,13 @@
         {
           "title": "［社説］スピンオフの活用で機動的な事業再編を",
           "link": "https://www.nikkei.com/article/DGXZQOCD037XH0T01C25A0000000/",
-          "published": "2025年10月3日",
+          "published": "2025/10/3 19:05",
           "paid": false
         },
         {
           "title": "［社説］日韓は首脳往来を定着させよ",
           "link": "https://www.nikkei.com/article/DGXZQODK032E80T01C25A0000000/",
-          "published": "2025年10月3日",
+          "published": "2025/10/3 19:00",
           "paid": false
         }
       ]
@@ -137,7 +137,7 @@
         {
           "title": "国勢調査　政策立案に不可欠な資料",
           "link": "https://www.niigata-nippo.co.jp/articles/-/701573",
-          "published": "2025/10/3",
+          "published": "2025/10/3 6:00",
           "paid": false
         }
       ]
@@ -171,13 +171,13 @@
         {
           "title": "社説【宿泊旅行統計】実態と違えば信頼損ねる",
           "link": "https://www.hokkoku.co.jp/articles/-/1885819",
-          "published": "10/3",
+          "published": "2025/10/3 5:00",
           "paid": true
         },
         {
           "title": "社説【ウクライナ支援】ロシアの資金源断ちたい",
           "link": "https://www.hokkoku.co.jp/articles/-/1885818",
-          "published": "10/3",
+          "published": "2025/10/3 5:00",
           "paid": true
         }
       ]
@@ -280,6 +280,46 @@
           "title": "＜社説＞自衛隊「差別」決議案　表現の自由　侵害許されぬ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4665994.html",
           "published": "2025/10/03",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：南海トラフ地震　予測の限界知り備えて",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1574065",
+          "published": "2025/10/3 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：イラン国連制裁　核拡散阻む外交解決を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1574055",
+          "published": "2025/10/3 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】博多駅開発中止　環境変化に的確な対応を",
+          "link": "https://www.nishinippon.co.jp/item/1406759/",
+          "published": "2025/10/03 06:00",
           "paid": false
         }
       ]

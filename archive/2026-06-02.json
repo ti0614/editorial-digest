@@ -53,7 +53,7 @@
         {
           "title": "社説：国家情報会議　創設　国民監視の懸念が拭えない",
           "link": "https://www.kyoto-np.co.jp/articles/-/1724825",
-          "published": "6月2日",
+          "published": "2026/6/2 16:00",
           "paid": false
         }
       ]
@@ -93,13 +93,13 @@
         {
           "title": "［社説］現役負担抑制へ医療保険の改革を急げ",
           "link": "https://www.nikkei.com/article/DGXZQODK287560Y6A520C2000000/",
-          "published": "6月2日",
+          "published": "2026/6/2 19:05",
           "paid": false
         },
         {
           "title": "［社説］ヘイトスピーチ抑止へ実効ある対策を",
           "link": "https://www.nikkei.com/article/DGXZQODK012D00R00C26A6000000/",
-          "published": "6月2日",
+          "published": "2026/6/2 19:00",
           "paid": false
         }
       ]
@@ -156,14 +156,7 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": [
-        {
-          "title": "「空と風」への備え万全に　ＺＯＺＯマリン移転構想　【論説】",
-          "link": "https://www.chibanippo.co.jp/articles/1449262",
-          "published": "6/2 5:00",
-          "paid": true
-        }
-      ]
+      "items": []
     },
     {
       "name": "新潟日報",
@@ -177,7 +170,7 @@
         {
           "title": "トキ能登放鳥　本州定着への期待大きく",
           "link": "https://www.niigata-nippo.co.jp/articles/-/841402",
-          "published": "6/2",
+          "published": "2026/6/2 6:00",
           "paid": false
         }
       ]
@@ -211,13 +204,13 @@
         {
           "title": "社説【新型軍国主義】支持得られぬ中国の主張",
           "link": "https://www.hokkoku.co.jp/articles/-/2125880",
-          "published": "6/2",
+          "published": "2026/6/2 5:00",
           "paid": true
         },
         {
           "title": "社説【フィジカルＡＩ】北陸の技術革新に不可欠",
           "link": "https://www.hokkoku.co.jp/articles/-/2125879",
-          "published": "6/2",
+          "published": "2026/6/2 5:00",
           "paid": true
         }
       ]

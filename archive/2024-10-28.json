@@ -47,13 +47,13 @@
         {
           "title": "［社説］国政の停滞回避へ各党は責任ある行動を",
           "link": "https://www.nikkei.com/article/DGXZQODK285PL0Y4A021C2000000/",
-          "published": "2024年10月28日",
+          "published": "2024/10/28 19:00",
           "paid": false
         },
         {
           "title": "［社説］自民不信を突きつけた厳しい審判",
           "link": "https://www.nikkei.com/article/DGXZQODK271700X21C24A0000000/",
-          "published": "2024年10月28日",
+          "published": "2024/10/28 2:00",
           "paid": false
         }
       ]
@@ -107,7 +107,7 @@
         {
           "title": "自公過半数割れ　政権への不信任明らかだ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/499523",
-          "published": "2024/10/28",
+          "published": "2024/10/28 6:00",
           "paid": false
         }
       ]
@@ -210,6 +210,23 @@
           "title": "＜社説＞自公過半数割れ　与党に厳しい審判下した",
           "link": "https://ryukyushimpo.jp/editorial/entry-3591673.html",
           "published": "2024/10/28",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】自公過半数割れ　国民の怒りと受け止めよ",
+          "link": "https://www.nishinippon.co.jp/item/1274902/",
+          "published": "2024/10/28 06:00",
           "paid": false
         }
       ]

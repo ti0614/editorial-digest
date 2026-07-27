@@ -50,7 +50,7 @@
         {
           "title": "ガザ戦闘再開　諦めず停戦実現へ努力を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/323436",
-          "published": "2023/12/6",
+          "published": "2023/12/6 6:00",
           "paid": false
         }
       ]
@@ -136,6 +136,23 @@
           "title": "＜社説＞公共インフラ整備　沖縄振興ゆがめる動きだ",
           "link": "https://ryukyushimpo.jp/editorial/entry-2549311.html",
           "published": "2023/12/06",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】日大改革の迷走　「学生第一」で組織再生を",
+          "link": "https://www.nishinippon.co.jp/item/1153975/",
+          "published": "2023/12/06 06:00",
           "paid": false
         }
       ]

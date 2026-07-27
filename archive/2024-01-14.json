@@ -33,7 +33,7 @@
         {
           "title": "子どもの学力　余裕ある教育目指したい",
           "link": "https://www.niigata-nippo.co.jp/articles/-/343760",
-          "published": "2024/1/14",
+          "published": "2024/1/14 6:00",
           "paid": false
         }
       ]
@@ -119,6 +119,23 @@
           "title": "＜社説＞自民の派閥解消議論　法の実効性担保が先だ",
           "link": "https://ryukyushimpo.jp/editorial/entry-2689923.html",
           "published": "2024/01/14",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】国際学力調査　生きる力を高める学習に",
+          "link": "https://www.nishinippon.co.jp/item/1167308/",
+          "published": "2024/01/14 06:00",
           "paid": false
         }
       ]

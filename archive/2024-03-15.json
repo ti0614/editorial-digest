@@ -73,7 +73,7 @@
         {
           "title": "参院政倫審　際立った幹部の無責任さ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/374796",
-          "published": "2024/3/15",
+          "published": "2024/3/15 6:00",
           "paid": false
         }
       ]
@@ -176,6 +176,23 @@
           "title": "＜社説＞米軍の無謀訓練強行　日米同盟の犠牲拒否する",
           "link": "https://ryukyushimpo.jp/editorial/entry-2899549.html",
           "published": "2024/03/15",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】満額目立つ春闘　全ての働く人に賃上げを",
+          "link": "https://www.nishinippon.co.jp/item/1189525/",
+          "published": "2024/03/15 06:00",
           "paid": false
         }
       ]

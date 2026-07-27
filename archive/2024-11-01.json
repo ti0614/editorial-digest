@@ -53,13 +53,13 @@
         {
           "title": "［社説］日銀は内外のリスク踏まえ的確な判断を",
           "link": "https://www.nikkei.com/article/DGXZQODK0144H0R01C24A1000000/",
-          "published": "2024年11月1日",
+          "published": "2024/11/1 19:05",
           "paid": false
         },
         {
           "title": "［社説］「闇バイト」犯罪の根を絶て",
           "link": "https://www.nikkei.com/article/DGXZQODK013TJ0R01C24A1000000/",
-          "published": "2024年11月1日",
+          "published": "2024/11/1 19:00",
           "paid": false
         }
       ]
@@ -130,7 +130,7 @@
         {
           "title": "北朝鮮の派兵　容認できぬ侵略への加担",
           "link": "https://www.niigata-nippo.co.jp/articles/-/502059",
-          "published": "2024/11/1",
+          "published": "2024/11/1 6:00",
           "paid": false
         }
       ]
@@ -233,6 +233,23 @@
           "title": "＜社説＞首里城火災から5年　県民挙げて再建支えよう",
           "link": "https://ryukyushimpo.jp/editorial/entry-3606954.html",
           "published": "2024/11/01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】同性婚判決　国会は法制化論議を急げ",
+          "link": "https://www.nishinippon.co.jp/item/1276702/",
+          "published": "2024/11/01 06:00",
           "paid": false
         }
       ]

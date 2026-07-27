@@ -53,13 +53,13 @@
         {
           "title": "［社説］日本企業はトランプ関税へ備えを急げ",
           "link": "https://www.nikkei.com/article/DGXZQODK29DS30Z21C24A1000000/",
-          "published": "2024年12月1日",
+          "published": "2024/12/1 19:05",
           "paid": false
         },
         {
           "title": "［社説］中小の生産性向上こそ本丸だ",
           "link": "https://www.nikkei.com/article/DGXZQODK295TY0Z21C24A1000000/",
-          "published": "2024年12月1日",
+          "published": "2024/12/1 19:00",
           "paid": false
         }
       ]
@@ -96,7 +96,7 @@
         {
           "title": "危険運転罪　速やかな法改正が必要だ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/518578",
-          "published": "2024/12/1",
+          "published": "2024/12/1 6:00",
           "paid": false
         }
       ]
@@ -199,6 +199,23 @@
           "title": "＜社説＞所信表明で共同使用　さらなる負担持ち込むな",
           "link": "https://ryukyushimpo.jp/editorial/entry-3702257.html",
           "published": "2024/12/01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】鳥インフル多発　最多ペース　対策の徹底を",
+          "link": "https://www.nishinippon.co.jp/item/1288128/",
+          "published": "2024/12/01 06:00",
           "paid": false
         }
       ]

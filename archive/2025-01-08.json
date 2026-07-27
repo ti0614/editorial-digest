@@ -53,7 +53,7 @@
         {
           "title": "［社説］激動の時代に即応する政治を築け",
           "link": "https://www.nikkei.com/article/DGXZQODK276B50X21C24A2000000/",
-          "published": "2025年1月8日",
+          "published": "2025/1/8 19:00",
           "paid": false
         }
       ]
@@ -124,7 +124,7 @@
         {
           "title": "ＵＳスチール買収　信頼を損なう禁止命令だ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/536308",
-          "published": "2025/1/8",
+          "published": "2025/1/8 6:00",
           "paid": false
         }
       ]
@@ -227,6 +227,23 @@
           "title": "＜社説＞米兵の損壊事件続発　効果なき防止策改めよ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3842866.html",
           "published": "2025/01/08",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】USスチール問題　米政府の買収禁止は不当",
+          "link": "https://www.nishinippon.co.jp/item/1301299/",
+          "published": "2025/01/08 06:00",
           "paid": false
         }
       ]

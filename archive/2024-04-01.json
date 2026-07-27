@@ -73,7 +73,7 @@
         {
           "title": "発生３カ月　生活取り戻す支援緩めず",
           "link": "https://www.niigata-nippo.co.jp/articles/-/383359",
-          "published": "2024/4/1",
+          "published": "2024/4/1 6:00",
           "paid": false
         }
       ]
@@ -159,6 +159,23 @@
           "title": "＜社説＞米軍本島上陸79年　沖縄戦の教訓今こそ共有",
           "link": "https://ryukyushimpo.jp/editorial/entry-2946398.html",
           "published": "2024/04/01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】能登地震3ヵ月　誰も取り残さない支援を",
+          "link": "https://www.nishinippon.co.jp/item/1195755/",
+          "published": "2024/04/01 06:00",
           "paid": false
         }
       ]

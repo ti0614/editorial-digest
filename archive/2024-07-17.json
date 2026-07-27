@@ -73,7 +73,7 @@
         {
           "title": "教団「念書」無効　被害者救済に光が見えた",
           "link": "https://www.niigata-nippo.co.jp/articles/-/440763",
-          "published": "2024/7/17",
+          "published": "2024/7/17 6:00",
           "paid": false
         }
       ]
@@ -176,6 +176,23 @@
           "title": "＜社説＞深刻な社会分断克服を　トランプ氏銃撃事件",
           "link": "https://ryukyushimpo.jp/editorial/entry-3270788.html",
           "published": "2024/07/17",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】トランプ氏銃撃　暴力の応酬を食い止めよ",
+          "link": "https://www.nishinippon.co.jp/item/1235363/",
+          "published": "2024/07/17 06:00",
           "paid": false
         }
       ]

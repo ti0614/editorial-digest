@@ -53,13 +53,13 @@
         {
           "title": "［社説］FRBは独立堅持し利下げ判断を的確に",
           "link": "https://www.nikkei.com/article/DGXZQODK231N60T20C25A8000000/",
-          "published": "2025年8月23日",
+          "published": "2025/8/23 19:05",
           "paid": false
         },
         {
           "title": "［社説］公務員の処遇にも実力本位を",
           "link": "https://www.nikkei.com/article/DGXZQODK226S10S5A820C2000000/",
-          "published": "2025年8月23日",
+          "published": "2025/8/23 19:00",
           "paid": false
         }
       ]
@@ -137,7 +137,7 @@
         {
           "title": "アフリカ開発会議　持続可能な成長へ協調を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/675208",
-          "published": "2025/8/23",
+          "published": "2025/8/23 6:00",
           "paid": false
         }
       ]
@@ -257,6 +257,40 @@
           "title": "＜社説＞米揚陸艦火災　事故原因究明、公開急げ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4558436.html",
           "published": "2025/08/23",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説　アフリカ会議　日本は持続的発展、後押しを",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1547475",
+          "published": "2025/8/23 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】戦後80年の談話　歴史と向き合う姿勢示せ",
+          "link": "https://www.nishinippon.co.jp/item/1390996/",
+          "published": "2025/08/23 06:00",
           "paid": false
         }
       ]

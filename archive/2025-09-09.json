@@ -59,13 +59,13 @@
         {
           "title": "［社説］自民は責任政党の名に恥じぬ政策論争を",
           "link": "https://www.nikkei.com/article/DGXZQODK0948U0Z00C25A9000000/",
-          "published": "2025年9月9日",
+          "published": "2025/9/9 19:05",
           "paid": false
         },
         {
           "title": "［社説］フランス大統領は国民に説明尽くせ",
           "link": "https://www.nikkei.com/article/DGXZQODK083GW0Y5A900C2000000/",
-          "published": "2025年9月9日",
+          "published": "2025/9/9 19:00",
           "paid": false
         }
       ]
@@ -126,7 +126,7 @@
         {
           "title": "悠仁さま成年式　将来見据えた皇室制度に",
           "link": "https://www.niigata-nippo.co.jp/articles/-/685836",
-          "published": "2025/9/9",
+          "published": "2025/9/9 6:00",
           "paid": false
         }
       ]
@@ -229,6 +229,40 @@
           "title": "＜社説＞石垣文書改ざん処分　市長の責任果たすべきだ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4597674.html",
           "published": "2025/09/09",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：自民党総裁選へ　政権像や政治改革の明示を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1558194",
+          "published": "2025/9/9 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】中ロ朝の連携　国際社会の緊張高めるな",
+          "link": "https://www.nishinippon.co.jp/item/1397328/",
+          "published": "2025/09/09 06:00",
           "paid": false
         }
       ]

@@ -73,7 +73,7 @@
         {
           "title": "新潟水俣病判決　恒久的な救済一刻も早く",
           "link": "https://www.niigata-nippo.co.jp/articles/-/392896",
-          "published": "2024/4/19",
+          "published": "2024/4/19 6:00",
           "paid": false
         }
       ]
@@ -176,6 +176,23 @@
           "title": "＜社説＞PFAS濃度の厳格化　国民納得の基準設けよ",
           "link": "https://ryukyushimpo.jp/editorial/entry-2996774.html",
           "published": "2024/04/19",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】ガソリン補助　時限措置まだ続けるのか",
+          "link": "https://www.nishinippon.co.jp/item/1202360/",
+          "published": "2024/04/19 06:00",
           "paid": false
         }
       ]

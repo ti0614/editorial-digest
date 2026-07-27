@@ -59,13 +59,13 @@
         {
           "title": "［社説］北海道・三陸沖の後発地震へ備え冷静に",
           "link": "https://www.nikkei.com/article/DGXZQODK092P40Z01C25A2000000/",
-          "published": "2025年12月9日",
+          "published": "2025/12/9 19:05",
           "paid": false
         },
         {
           "title": "［社説］米政権はメディア弾圧やめよ",
           "link": "https://www.nikkei.com/article/DGXZQODK091YO0Z01C25A2000000/",
-          "published": "2025年12月9日",
+          "published": "2025/12/9 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "レーダー照射　中国の危険行為許されぬ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/742672",
-          "published": "2025/12/9",
+          "published": "2025/12/9 6:00",
           "paid": false
         }
       ]
@@ -177,13 +177,13 @@
         {
           "title": "社説【中国機の挑発】「のれんに腕押し」が良策",
           "link": "https://www.hokkoku.co.jp/articles/-/1953845",
-          "published": "12/9",
+          "published": "2025/12/9 5:00",
           "paid": true
         },
         {
           "title": "社説【政府の被災地支援】「物価高の復興」に目配りを",
           "link": "https://www.hokkoku.co.jp/articles/-/1953844",
-          "published": "12/9",
+          "published": "2025/12/9 5:00",
           "paid": true
         }
       ]
@@ -303,6 +303,40 @@
           "title": "＜社説＞中国軍機レーダー照射　挑発、非難合戦はやめよ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4850947.html",
           "published": "2025/12/09",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：旧姓使用の法制化　別姓選べる社会こそ本筋だ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1614960",
+          "published": "2025/12/9 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】中国機の暴挙　軍事的な緊張を高めるな",
+          "link": "https://www.nishinippon.co.jp/item/1432773/",
+          "published": "2025/12/09 06:00",
           "paid": false
         }
       ]

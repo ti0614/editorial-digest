@@ -56,7 +56,7 @@
         {
           "title": "新潟市予算案　復旧と発展かじ取り注視",
           "link": "https://www.niigata-nippo.co.jp/articles/-/361401",
-          "published": "2024/2/18",
+          "published": "2024/2/18 6:00",
           "paid": false
         }
       ]
@@ -159,6 +159,23 @@
           "title": "＜社説＞陸自訓練場反対超党派　計画は即時撤回すべきだ",
           "link": "https://ryukyushimpo.jp/editorial/entry-2815129.html",
           "published": "2024/02/18",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】犯罪被害者法20年　「尊厳」守る息長い支援を",
+          "link": "https://www.nishinippon.co.jp/item/1180076/",
+          "published": "2024/02/18 06:00",
           "paid": false
         }
       ]

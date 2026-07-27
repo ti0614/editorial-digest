@@ -59,13 +59,13 @@
         {
           "title": "［社説］賃上げは年金生活者のためにも重要だ",
           "link": "https://www.nikkei.com/article/DGXZQOCD285C00Y5A120C2000000/",
-          "published": "2025年2月4日",
+          "published": "2025/2/4 19:05",
           "paid": false
         },
         {
           "title": "［社説］社名が映す伝統企業の変身",
           "link": "https://www.nikkei.com/article/DGXZQODK045MS0U5A200C2000000/",
-          "published": "2025年2月4日",
+          "published": "2025/2/4 19:00",
           "paid": false
         }
       ]
@@ -136,7 +136,7 @@
         {
           "title": "トランプ関税　貿易戦争を防がなければ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/550257",
-          "published": "2025/2/4",
+          "published": "2025/2/4 6:00",
           "paid": false
         }
       ]
@@ -222,6 +222,40 @@
           "title": "＜社説＞「政治とカネ」大詰め　裏金問題の解明が先だ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3927809.html",
           "published": "2025/02/04",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：東京一極集中再び　「地方分散」社会へ舵を切れ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1417231",
+          "published": "2025/2/4 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】トランプ関税　貿易戦争を誘発する暴挙",
+          "link": "https://www.nishinippon.co.jp/item/1311710/",
+          "published": "2025/02/04 06:00",
           "paid": false
         }
       ]

@@ -59,13 +59,13 @@
         {
           "title": "［社説］トランプ氏のAPEC素通りを憂慮する",
           "link": "https://www.nikkei.com/article/DGXZQODK317QJ0R31C25A0000000/",
-          "published": "2025年11月1日",
+          "published": "2025/11/1 19:05",
           "paid": false
         },
         {
           "title": "［社説］トヨタは調達先との関係正せ",
           "link": "https://www.nikkei.com/article/DGXZQODK011130R01C25A1000000/",
-          "published": "2025年11月1日",
+          "published": "2025/11/1 19:00",
           "paid": false
         }
       ]
@@ -126,7 +126,7 @@
         {
           "title": "東証５万円突破　国民生活には実感乏しく",
           "link": "https://www.niigata-nippo.co.jp/articles/-/720286",
-          "published": "2025/11/1",
+          "published": "2025/11/1 6:00",
           "paid": false
         }
       ]
@@ -160,13 +160,13 @@
         {
           "title": "社説【通信業の連携強化】迅速な災害復旧に不可欠",
           "link": "https://www.hokkoku.co.jp/articles/-/1915803",
-          "published": "11/1",
+          "published": "2025/11/1 5:00",
           "paid": true
         },
         {
           "title": "社説【高市外交１週間】懸念打ち消し結果を出した",
           "link": "https://www.hokkoku.co.jp/articles/-/1915802",
-          "published": "11/1",
+          "published": "2025/11/1 5:00",
           "paid": true
         }
       ]
@@ -275,6 +275,40 @@
           "title": "＜社説＞首里城再建まで１年　価値高める運動続けよう",
           "link": "https://ryukyushimpo.jp/editorial/entry-4735084.html",
           "published": "2025/11/01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：高市氏の中韓外交　地域の安定高める対話こそ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1592104",
+          "published": "2025/11/1 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】ホークス日本一　悔しさ糧にチームが進化",
+          "link": "https://www.nishinippon.co.jp/item/1418456/",
+          "published": "2025/11/01 06:00",
           "paid": false
         }
       ]

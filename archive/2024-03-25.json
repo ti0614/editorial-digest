@@ -67,7 +67,7 @@
         {
           "title": "日本版ＤＢＳ　子ども性被害根絶目指せ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/379498",
-          "published": "2024/3/25",
+          "published": "2024/3/25 6:00",
           "paid": false
         }
       ]
@@ -153,6 +153,23 @@
           "title": "＜社説＞モスクワ銃乱射テロ　卑劣な暴力は許されない",
           "link": "https://ryukyushimpo.jp/editorial/entry-2926547.html",
           "published": "2024/03/25",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】九州新幹線20年　JRと沿線で効果持続を",
+          "link": "https://www.nishinippon.co.jp/item/1192893/",
+          "published": "2024/03/25 06:00",
           "paid": false
         }
       ]

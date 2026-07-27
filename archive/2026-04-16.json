@@ -59,13 +59,13 @@
         {
           "title": "［社説］中国経済のデフレ懸念は消えていない",
           "link": "https://www.nikkei.com/article/DGXZQODK162NH0W6A410C2000000/",
-          "published": "4月16日",
+          "published": "2026/4/16 19:05",
           "paid": false
         },
         {
           "title": "［社説］アジアとエネルギー安保を共に",
           "link": "https://www.nikkei.com/article/DGXZQODK165GJ0W6A410C2000000/",
-          "published": "4月16日",
+          "published": "2026/4/16 19:00",
           "paid": false
         }
       ]
@@ -136,7 +136,7 @@
         {
           "title": "熊本地震１０年　災害関連死をなくしたい",
           "link": "https://www.niigata-nippo.co.jp/articles/-/815054",
-          "published": "4/16",
+          "published": "2026/4/16 6:00",
           "paid": false
         }
       ]
@@ -170,13 +170,13 @@
         {
           "title": "社説【ウクライナ無人機】運用ノウハウを学びたい",
           "link": "https://www.hokkoku.co.jp/articles/-/2078451",
-          "published": "4/16",
+          "published": "2026/4/16 5:00",
           "paid": true
         },
         {
           "title": "社説【災害関連死５００人超】教訓を生かせる防災庁に",
           "link": "https://www.hokkoku.co.jp/articles/-/2078450",
-          "published": "4/16",
+          "published": "2026/4/16 5:00",
           "paid": true
         }
       ]
@@ -296,6 +296,46 @@
           "title": "＜社説＞女性参政権８０年　立候補できる環境整えよ",
           "link": "https://ryukyushimpo.jp/editorial/entry-5191585.html",
           "published": "2026/04/16",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：露骨な検察のごまかし　再審制度修正案",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1696835",
+          "published": "2026/4/16 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：戦争加担の道開くのか　殺傷兵器の輸出",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1696837",
+          "published": "2026/4/16 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】台湾野党の訪中　対日批判での共闘を懸念",
+          "link": "https://www.nishinippon.co.jp/item/1482176/",
+          "published": "2026/04/16 06:00",
           "paid": false
         }
       ]

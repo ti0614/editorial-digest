@@ -13,13 +13,13 @@
         {
           "title": "［社説］規制と競争を問うEUのグーグル制裁金",
           "link": "https://www.nikkei.com/article/DGXZQODK135EM0T10C26A7000000/",
-          "published": "13日",
+          "published": "2026/7/13 19:05",
           "paid": false
         },
         {
           "title": "［社説］防災庁は複合災害に備えよ",
           "link": "https://www.nikkei.com/article/DGXZQODK1333G0T10C26A7000000/",
-          "published": "13日",
+          "published": "2026/7/13 19:00",
           "paid": false
         }
       ]
@@ -42,14 +42,7 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": [
-        {
-          "title": "市原市が新病院事業者候補公表　誘致は評価、救急に課題も　【論説】",
-          "link": "https://www.chibanippo.co.jp/articles/1468987",
-          "published": "7/13 5:00",
-          "paid": true
-        }
-      ]
+      "items": []
     }
   ]
 }

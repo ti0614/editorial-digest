@@ -73,7 +73,7 @@
         {
           "title": "県立病院の赤字　医療水準低下は避けねば",
           "link": "https://www.niigata-nippo.co.jp/articles/-/365976",
-          "published": "2024/2/28",
+          "published": "2024/2/28 6:00",
           "paid": false
         }
       ]
@@ -176,6 +176,23 @@
           "title": "＜社説＞比謝川取水再開　国の不作為が窮状生んだ",
           "link": "https://ryukyushimpo.jp/editorial/entry-2847881.html",
           "published": "2024/02/28",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】成年後見の改革　誰もが使いやすい制度に",
+          "link": "https://www.nishinippon.co.jp/item/1183445/",
+          "published": "2024/02/28 06:00",
           "paid": false
         }
       ]

@@ -47,13 +47,13 @@
         {
           "title": "［社説］USスチール買収阻止は不当な介入だ",
           "link": "https://www.nikkei.com/article/DGXZQOCD041520U5A100C2000000/",
-          "published": "2025年1月4日",
+          "published": "2025/1/4 19:05",
           "paid": false
         },
         {
           "title": "［社説］皇位継承策めぐる熟議深めよ",
           "link": "https://www.nikkei.com/article/DGXZQODK030NS0T00C25A1000000/",
-          "published": "2025年1月4日",
+          "published": "2025/1/4 19:00",
           "paid": false
         }
       ]
@@ -107,7 +107,7 @@
         {
           "title": "２０２５政治　国民目線の政策遂行せよ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/534680",
-          "published": "2025/1/4",
+          "published": "2025/1/4 6:00",
           "paid": false
         }
       ]
@@ -210,6 +210,23 @@
           "title": "＜社説＞能登半島地震1年　関連死の抑制が急務だ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3832932.html",
           "published": "2025/01/04",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】熟議の政治へ　国会の古い慣行を見直せ",
+          "link": "https://www.nishinippon.co.jp/item/1300082/",
+          "published": "2025/01/04 06:00",
           "paid": false
         }
       ]

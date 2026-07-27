@@ -50,7 +50,7 @@
         {
           "title": "財務副大臣更迭　「辞任ドミノ」の責任重く",
           "link": "https://www.niigata-nippo.co.jp/articles/-/312851",
-          "published": "2023/11/15",
+          "published": "2023/11/15 6:00",
           "paid": false
         }
       ]
@@ -119,6 +119,23 @@
           "title": "＜社説＞陳情の取り扱いに違い　議会改革を進めるべきだ",
           "link": "https://ryukyushimpo.jp/editorial/entry-2477035.html",
           "published": "2023/11/15",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】川内原発延長へ　地元住民への説明尽くせ",
+          "link": "https://www.nishinippon.co.jp/item/1146283/",
+          "published": "2023/11/15 06:00",
           "paid": false
         }
       ]

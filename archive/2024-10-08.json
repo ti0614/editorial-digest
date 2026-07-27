@@ -59,7 +59,7 @@
         {
           "title": "［社説］難局打開へ具体策を競う衆院選に",
           "link": "https://www.nikkei.com/article/DGXZQODK0826V0Y4A001C2000000/",
-          "published": "2024年10月8日",
+          "published": "2024/10/8 19:00",
           "paid": false
         }
       ]
@@ -130,7 +130,7 @@
         {
           "title": "長岡市長３選　地域の活力どう生み出す",
           "link": "https://www.niigata-nippo.co.jp/articles/-/488940",
-          "published": "2024/10/8",
+          "published": "2024/10/8 6:00",
           "paid": false
         }
       ]
@@ -233,6 +233,23 @@
           "title": "＜社説＞裏金議員一部非公認　「納得と共感」には程遠い",
           "link": "https://ryukyushimpo.jp/editorial/entry-3532178.html",
           "published": "2024/10/08",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】空港の不発弾　爆発想定した安全管理を",
+          "link": "https://www.nishinippon.co.jp/item/1267329/",
+          "published": "2024/10/08 06:00",
           "paid": false
         }
       ]

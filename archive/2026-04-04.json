@@ -59,13 +59,13 @@
         {
           "title": "［社説］NISAは生涯活用へ不断の見直しを",
           "link": "https://www.nikkei.com/article/DGXZQODK094Q20Z00C26A1000000/",
-          "published": "4月4日",
+          "published": "2026/4/4 19:05",
           "paid": false
         },
         {
           "title": "［社説］クマ対策の人材確保を着実に",
           "link": "https://www.nikkei.com/article/DGXZQODK033450T00C26A4000000/",
-          "published": "4月4日",
+          "published": "2026/4/4 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "国家情報会議　権利侵害の懸念拭えない",
           "link": "https://www.niigata-nippo.co.jp/articles/-/808868",
-          "published": "4/4",
+          "published": "2026/4/4 6:00",
           "paid": false
         }
       ]
@@ -177,13 +177,13 @@
         {
           "title": "社説【ホルムズ海上回廊】「存立危機事態」も視野に",
           "link": "https://www.hokkoku.co.jp/articles/-/2067009",
-          "published": "4/4",
+          "published": "2026/4/4 5:00",
           "paid": true
         },
         {
           "title": "社説【二の丸御殿復元】成否を握る障壁画の制作",
           "link": "https://www.hokkoku.co.jp/articles/-/2067008",
-          "published": "4/4",
+          "published": "2026/4/4 5:00",
           "paid": true
         }
       ]
@@ -303,6 +303,40 @@
           "title": "＜社説＞梅村氏「思想」調査発言　人権を侵す危険な提言だ",
           "link": "https://ryukyushimpo.jp/editorial/entry-5169495.html",
           "published": "2026/04/04",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：「法定養育費」開始　不払い防いで、育ちの支えに",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1689692",
+          "published": "2026/4/4 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】石油高騰対策　消費抑制の視点も必要だ",
+          "link": "https://www.nishinippon.co.jp/item/1478023/",
+          "published": "2026/04/04 06:00",
           "paid": false
         }
       ]

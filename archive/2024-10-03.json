@@ -113,7 +113,7 @@
         {
           "title": "イランの攻撃　報復の連鎖止め停戦導け",
           "link": "https://www.niigata-nippo.co.jp/articles/-/486446",
-          "published": "2024/10/3",
+          "published": "2024/10/3 6:00",
           "paid": false
         }
       ]
@@ -233,6 +233,23 @@
           "title": "＜社説＞レバノン攻撃　国際社会で戦闘拡大防げ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3515290.html",
           "published": "2024/10/03",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】緊迫高まる中東　戦火の拡大を食い止めよ",
+          "link": "https://www.nishinippon.co.jp/item/1265561/",
+          "published": "2024/10/03 06:00",
           "paid": false
         }
       ]

@@ -59,13 +59,13 @@
         {
           "title": "［社説］一人暮らしの高齢者に支援の仕組みを",
           "link": "https://www.nikkei.com/article/DGXZQODK230PZ0T21C25A1000000/",
-          "published": "2025年11月23日",
+          "published": "2025/11/23 19:05",
           "paid": false
         },
         {
           "title": "［社説］大規模火災のリスクに備えよ",
           "link": "https://www.nikkei.com/article/DGXZQODK2175R0R21C25A1000000/",
-          "published": "2025年11月23日",
+          "published": "2025/11/23 19:00",
           "paid": false
         }
       ]
@@ -109,7 +109,7 @@
         {
           "title": "経済対策　財政悪化の懸念が拭えず",
           "link": "https://www.niigata-nippo.co.jp/articles/-/733585",
-          "published": "2025/11/23",
+          "published": "2025/11/23 6:00",
           "paid": false
         }
       ]
@@ -143,13 +143,13 @@
         {
           "title": "社説【護報酬を改定へ】処遇改善を加速させたい",
           "link": "https://www.hokkoku.co.jp/articles/-/1937679",
-          "published": "11/23",
+          "published": "2025/11/23 5:00",
           "paid": true
         },
         {
           "title": "社説【住宅密集地の火災】地域挙げて防災力の向上を",
           "link": "https://www.hokkoku.co.jp/articles/-/1937678",
-          "published": "11/23",
+          "published": "2025/11/23 5:00",
           "paid": true
         }
       ]
@@ -252,6 +252,40 @@
           "title": "＜社説＞甘藷伝来420年　命つないだ歴史を未来へ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4798877.html",
           "published": "2025/11/23",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：新政権の経済対策　効果が見えぬ「規模ありき」",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1605303",
+          "published": "2025/11/23 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】教員の働き方　忙し過ぎる仕事の改善を",
+          "link": "https://www.nishinippon.co.jp/item/1426730/",
+          "published": "2025/11/23 06:00",
           "paid": false
         }
       ]

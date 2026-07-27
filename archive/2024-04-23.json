@@ -73,7 +73,7 @@
         {
           "title": "海自ヘリ墜落　度重なる事故なぜ起きる",
           "link": "https://www.niigata-nippo.co.jp/articles/-/394739",
-          "published": "2024/4/23",
+          "published": "2024/4/23 6:00",
           "paid": false
         }
       ]
@@ -176,6 +176,23 @@
           "title": "＜社説＞新潟水俣病訴訟判決　認定基準を見直し救済を",
           "link": "https://ryukyushimpo.jp/editorial/entry-3006812.html",
           "published": "2024/04/23",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】パリ五輪参加問題　IOC方針は納得できぬ",
+          "link": "https://www.nishinippon.co.jp/item/1203733/",
+          "published": "2024/04/23 06:00",
           "paid": false
         }
       ]

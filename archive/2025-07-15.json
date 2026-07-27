@@ -53,13 +53,13 @@
         {
           "title": "［社説］米はロシアを停戦に追い込む圧力結集を",
           "link": "https://www.nikkei.com/article/DGXZQODK150M20V10C25A7000000/",
-          "published": "2025年7月15日",
+          "published": "2025/7/15 19:05",
           "paid": false
         },
         {
           "title": "［社説］AIで経済を伸ばす戦略示せ",
           "link": "https://www.nikkei.com/article/DGXZQODK156270V10C25A7000000/",
-          "published": "2025年7月15日",
+          "published": "2025/7/15 19:00",
           "paid": false
         }
       ]
@@ -137,7 +137,7 @@
         {
           "title": "外国人政策　排外主義の広がり憂える",
           "link": "https://www.niigata-nippo.co.jp/articles/-/650066",
-          "published": "2025/7/15",
+          "published": "2025/7/15 6:00",
           "paid": false
         }
       ]
@@ -257,6 +257,40 @@
           "title": "＜社説＞２０２５参院選　消費税と社会保障　将来選択できる道筋示せ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4443679.html",
           "published": "2025/07/15",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：政治とカネ　有権者は決して忘れてない",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1521419",
+          "published": "2025/7/15 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】教員の盗撮事件　子ども守る対策の徹底を",
+          "link": "https://www.nishinippon.co.jp/item/1376094/",
+          "published": "2025/07/15 06:00",
           "paid": false
         }
       ]

@@ -59,13 +59,13 @@
         {
           "title": "［社説］サイバー防御の実効性高め安全の確保を",
           "link": "https://www.nikkei.com/article/DGXZQODK065QM0W4A201C2000000/",
-          "published": "2024年12月6日",
+          "published": "2024/12/6 23:15",
           "paid": false
         },
         {
           "title": "［社説］市場安定へ産油国の責任重い",
           "link": "https://www.nikkei.com/article/DGXZQODK0672O0W4A201C2000000/",
-          "published": "2024年12月6日",
+          "published": "2024/12/6 19:00",
           "paid": false
         }
       ]
@@ -136,7 +136,7 @@
         {
           "title": "国会論戦　石破カラーがまだ見えぬ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/521418",
-          "published": "2024/12/6",
+          "published": "2024/12/6 6:00",
           "paid": false
         }
       ]
@@ -239,6 +239,23 @@
           "title": "＜社説＞韓国大統領戒厳令　民主主義を覆す暴挙だ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3725740.html",
           "published": "2024/12/06",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】低年金の女性　就労と生活両面で支援を",
+          "link": "https://www.nishinippon.co.jp/item/1290171/",
+          "published": "2024/12/06 06:00",
           "paid": false
         }
       ]

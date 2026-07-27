@@ -53,13 +53,13 @@
         {
           "title": "［社説］選挙の自由と公正を守る柔軟な制度に",
           "link": "https://www.nikkei.com/article/DGXZQODK0363E0T00C25A3000000/",
-          "published": "2025年3月3日",
+          "published": "2025/3/3 19:05",
           "paid": false
         },
         {
           "title": "［社説］山林火災への十分な備えを",
           "link": "https://www.nikkei.com/article/DGXZQODK033IS0T00C25A3000000/",
-          "published": "2025年3月3日",
+          "published": "2025/3/3 19:00",
           "paid": false
         }
       ]
@@ -120,7 +120,7 @@
         {
           "title": "核禁会議開幕へ　被爆国の責務果たさねば",
           "link": "https://www.niigata-nippo.co.jp/articles/-/566011",
-          "published": "2025/3/3",
+          "published": "2025/3/3 6:00",
           "paid": false
         }
       ]
@@ -206,6 +206,40 @@
           "title": "＜社説＞米ウ首脳会談決裂　大国主義は容認できない",
           "link": "https://ryukyushimpo.jp/editorial/entry-4016110.html",
           "published": "2025/03/03",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：世界湖沼の日　豊かな水保全へ思い新たに",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1432604",
+          "published": "2025/3/3 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】子ども食堂　増える役割地域で支援を",
+          "link": "https://www.nishinippon.co.jp/item/1321906/",
+          "published": "2025/03/03 06:00",
           "paid": false
         }
       ]

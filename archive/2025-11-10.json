@@ -13,13 +13,13 @@
         {
           "title": "［社説］黒字化目標の転換は責任なき積極財政だ",
           "link": "https://www.nikkei.com/article/DGXZQODK104IE0Q5A111C2000000/",
-          "published": "2025年11月10日",
+          "published": "2025/11/10 19:05",
           "paid": false
         },
         {
           "title": "［社説］正念場迎えたリニア新幹線",
           "link": "https://www.nikkei.com/article/DGXZQOCD107PL0Q5A111C2000000/",
-          "published": "2025年11月10日",
+          "published": "2025/11/10 19:00",
           "paid": false
         }
       ]
@@ -42,20 +42,7 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": [
-        {
-          "title": "周知と正しい理解必要　自転車「ながら」「飲酒」厳罰化　【論説】",
-          "link": "https://www.chibanippo.co.jp/serial/1299958",
-          "published": "11/10 5:00",
-          "paid": true
-        },
-        {
-          "title": "命と財産守る自衛策を　首都圏で強盗相次ぐ　【論説】",
-          "link": "https://www.chibanippo.co.jp/serial/1299957",
-          "published": "11/10 5:00",
-          "paid": true
-        }
-      ]
+      "items": []
     },
     {
       "name": "沖縄タイムス",

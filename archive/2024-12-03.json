@@ -59,13 +59,13 @@
         {
           "title": "［社説］プラ条約の早期実現を粘り強く目指せ",
           "link": "https://www.nikkei.com/article/DGXZQOCD024ER0S4A201C2000000/",
-          "published": "2024年12月3日",
+          "published": "2024/12/3 19:05",
           "paid": false
         },
         {
           "title": "［社説］SNSから子ども守る知恵を",
           "link": "https://www.nikkei.com/article/DGXZQODK033GN0T01C24A2000000/",
-          "published": "2024年12月3日",
+          "published": "2024/12/3 19:00",
           "paid": false
         }
       ]
@@ -136,7 +136,7 @@
         {
           "title": "プラごみ条約　国際的な対策先送り残念",
           "link": "https://www.niigata-nippo.co.jp/articles/-/519524",
-          "published": "2024/12/3",
+          "published": "2024/12/3 6:00",
           "paid": false
         }
       ]
@@ -239,6 +239,23 @@
           "title": "＜社説＞豪で子どもSNS禁止　日本でも真剣な議論必要",
           "link": "https://ryukyushimpo.jp/editorial/entry-3710597.html",
           "published": "2024/12/03",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】マイナ保険証　円滑な併用に力を尽くせ",
+          "link": "https://www.nishinippon.co.jp/item/1288852/",
+          "published": "2024/12/03 06:00",
           "paid": false
         }
       ]

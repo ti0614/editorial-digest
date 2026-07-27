@@ -59,13 +59,13 @@
         {
           "title": "［社説］所得税の改革は腰を据えてやり直せ",
           "link": "https://www.nikkei.com/article/DGXZQODK187C30Y4A211C2000000/",
-          "published": "2024年12月20日",
+          "published": "2024/12/20 19:05",
           "paid": false
         },
         {
           "title": "［社説］ソニーはM&Aで変身進めよ",
           "link": "https://www.nikkei.com/article/DGXZQODK206SU0Q4A221C2000000/",
-          "published": "2024年12月20日",
+          "published": "2024/12/20 19:00",
           "paid": false
         }
       ]
@@ -136,7 +136,7 @@
         {
           "title": "政治倫理審査会　裏金の実態解明依然遠く",
           "link": "https://www.niigata-nippo.co.jp/articles/-/528808",
-          "published": "2024/12/20",
+          "published": "2024/12/20 6:00",
           "paid": false
         }
       ]
@@ -239,6 +239,23 @@
           "title": "＜社説＞降下訓練嘉手納常態化　日米合意違反　黙認するな",
           "link": "https://ryukyushimpo.jp/editorial/entry-3783326.html",
           "published": "2024/12/20",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】裏金で政倫審　証人喚問で真相の究明を",
+          "link": "https://www.nishinippon.co.jp/item/1295514/",
+          "published": "2024/12/20 06:00",
           "paid": false
         }
       ]

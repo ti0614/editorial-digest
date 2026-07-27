@@ -50,7 +50,7 @@
         {
           "title": "税制改正大綱　財源見えぬ不確実な決着",
           "link": "https://www.niigata-nippo.co.jp/articles/-/329794",
-          "published": "2023/12/19",
+          "published": "2023/12/19 6:00",
           "paid": false
         }
       ]
@@ -136,6 +136,23 @@
           "title": "＜社説＞健康保険証来秋廃止　医療現場大混乱は必至だ",
           "link": "https://ryukyushimpo.jp/editorial/entry-2597208.html",
           "published": "2023/12/19",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】温暖化対策合意　脱化石燃料へ行動を急げ",
+          "link": "https://www.nishinippon.co.jp/item/1158736/",
+          "published": "2023/12/19 06:00",
           "paid": false
         }
       ]

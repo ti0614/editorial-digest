@@ -73,7 +73,7 @@
         {
           "title": "ラファ侵攻　イスラエルは即停止せよ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/407408",
-          "published": "2024/5/18",
+          "published": "2024/5/18 6:00",
           "paid": false
         }
       ]
@@ -176,6 +176,23 @@
           "title": "＜社説＞新基地使用協定要請　米軍が守る保証はない",
           "link": "https://ryukyushimpo.jp/editorial/entry-3092988.html",
           "published": "2024/05/18",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】シンガポール首相　中立的外交で地域貢献を",
+          "link": "https://www.nishinippon.co.jp/item/1212453/",
+          "published": "2024/05/18 06:00",
           "paid": false
         }
       ]

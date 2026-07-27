@@ -59,13 +59,13 @@
         {
           "title": "［社説］野党は負担軽減の手柄争いから脱皮せよ",
           "link": "https://www.nikkei.com/article/DGXZQODK30DIL0Q5A130C2000000/",
-          "published": "2025年1月31日",
+          "published": "2025/1/31 19:05",
           "paid": false
         },
         {
           "title": "［社説］株主総会も賢くデジタル化を",
           "link": "https://www.nikkei.com/article/DGXZQODK3153B0R30C25A1000000/",
-          "published": "2025年1月31日",
+          "published": "2025/1/31 19:00",
           "paid": false
         }
       ]
@@ -136,7 +136,7 @@
         {
           "title": "小中高生の自殺　ＳＯＳに早く気付きたい",
           "link": "https://www.niigata-nippo.co.jp/articles/-/548409",
-          "published": "2025/1/31",
+          "published": "2025/1/31 6:00",
           "paid": false
         }
       ]
@@ -222,6 +222,46 @@
           "title": "＜社説＞ジャングリア７月開業　地域との共存共栄第一に",
           "link": "https://ryukyushimpo.jp/editorial/entry-3915816.html",
           "published": "2025/01/31",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：道路陥没事故　京滋でも点検と備えを",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1415138",
+          "published": "2025/1/31 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：マンション再生　「二つの老い」対策急げ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1415132",
+          "published": "2025/1/31 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】障害と逸失利益　「減額は例外」を評価する",
+          "link": "https://www.nishinippon.co.jp/item/1310300/",
+          "published": "2025/01/31 06:00",
           "paid": false
         }
       ]

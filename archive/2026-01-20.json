@@ -53,13 +53,13 @@
         {
           "title": "［社説］消費税減税ポピュリズムに未来は託せぬ",
           "link": "https://www.nikkei.com/article/DGXZQODK199ZE0Z10C26A1000000/",
-          "published": "1月20日",
+          "published": "2026/1/20 19:15",
           "paid": false
         },
         {
           "title": "［社説］中国はデフレに早く手を打て",
           "link": "https://www.nikkei.com/article/DGXZQODK201FY0Q6A120C2000000/",
-          "published": "1月20日",
+          "published": "2026/1/20 19:00",
           "paid": false
         }
       ]
@@ -106,20 +106,7 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": [
-        {
-          "title": "年明け急増、厳重警戒を　千葉県内鳥インフルエンザ猛威　【論説】",
-          "link": "https://www.chibanippo.co.jp/serial/1382805",
-          "published": "1/20 5:00",
-          "paid": true
-        },
-        {
-          "title": "不安払拭へ対策迅速に　Ｘ不適切投稿、千葉大病院が調査　【論説】",
-          "link": "https://www.chibanippo.co.jp/serial/1382804",
-          "published": "1/20 5:00",
-          "paid": true
-        }
-      ]
+      "items": []
     },
     {
       "name": "新潟日報",
@@ -133,7 +120,7 @@
         {
           "title": "首相が解散表明　自分のために信問うのか",
           "link": "https://www.niigata-nippo.co.jp/articles/-/764861",
-          "published": "1/20",
+          "published": "2026/1/20 6:00",
           "paid": false
         }
       ]
@@ -167,13 +154,13 @@
         {
           "title": "社説【「中道」基本政策】原発、安保法制支持は当然",
           "link": "https://www.hokkoku.co.jp/articles/-/1991563",
-          "published": "1/20",
+          "published": "2026/1/20 5:00",
           "paid": true
         },
         {
           "title": "社説【公費解体完了】家屋生かす道も広げたい",
           "link": "https://www.hokkoku.co.jp/articles/-/1991562",
-          "published": "1/20",
+          "published": "2026/1/20 5:00",
           "paid": true
         }
       ]
@@ -293,6 +280,40 @@
           "title": "＜社説＞高市首相が解散表明　「解散権乱用」批判免れぬ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4971069.html",
           "published": "2026/01/20",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：首相の解散表明　国会論戦逃げる「国民不在」",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1639388",
+          "published": "2026/1/20 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】首相が解散表明　なぜ今か　大義が見えない",
+          "link": "https://www.nishinippon.co.jp/item/1447863/",
+          "published": "2026/01/20 06:00",
           "paid": false
         }
       ]

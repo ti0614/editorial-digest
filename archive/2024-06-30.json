@@ -56,7 +56,7 @@
         {
           "title": "選択的夫婦別姓　導入へ早急な検討必要だ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/431563",
-          "published": "2024/6/30",
+          "published": "2024/6/30 6:00",
           "paid": false
         }
       ]
@@ -159,6 +159,23 @@
           "title": "＜社説＞宮森小米軍機墜落65年　子ども守る誓い新たに",
           "link": "https://ryukyushimpo.jp/editorial/entry-3241292.html",
           "published": "2024/06/30",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】旧文通費の改革　あとは首相の行動だけだ",
+          "link": "https://www.nishinippon.co.jp/item/1229068/",
+          "published": "2024/06/30 06:00",
           "paid": false
         }
       ]

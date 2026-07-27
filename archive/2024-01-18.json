@@ -50,7 +50,7 @@
         {
           "title": "死者氏名公表　混乱回避に国の指針必要",
           "link": "https://www.niigata-nippo.co.jp/articles/-/345809",
-          "published": "2024/1/18",
+          "published": "2024/1/18 6:00",
           "paid": false
         }
       ]
@@ -153,6 +153,23 @@
           "title": "＜社説＞ダム貯水率低下　節水思い出し実践しよう",
           "link": "https://ryukyushimpo.jp/editorial/entry-2704217.html",
           "published": "2024/01/18",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】柿沢議員を起訴　買収を断ち切る改革急げ",
+          "link": "https://www.nishinippon.co.jp/item/1168757/",
+          "published": "2024/01/18 06:00",
           "paid": false
         }
       ]

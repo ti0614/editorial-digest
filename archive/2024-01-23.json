@@ -50,7 +50,7 @@
         {
           "title": "保倉川放水路　巨費投じる説明不可欠だ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/348245",
-          "published": "2024/1/23",
+          "published": "2024/1/23 6:00",
           "paid": false
         }
       ]
@@ -153,6 +153,23 @@
           "title": "＜社説＞導水管老朽化で漏水　優先度を上げ対処急げ",
           "link": "https://ryukyushimpo.jp/editorial/entry-2723818.html",
           "published": "2024/01/23",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】裏金議員の沈黙　これで党刷新はできない",
+          "link": "https://www.nishinippon.co.jp/item/1170451/",
+          "published": "2024/01/23 06:00",
           "paid": false
         }
       ]

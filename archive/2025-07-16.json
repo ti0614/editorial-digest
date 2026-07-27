@@ -59,13 +59,13 @@
         {
           "title": "［社説］日産は追浜工場リストラの余波広げるな",
           "link": "https://www.nikkei.com/article/DGXZQODK168380W5A710C2000000/",
-          "published": "2025年7月16日",
+          "published": "2025/7/16 19:05",
           "paid": false
         },
         {
           "title": "［社説］中国への不信が募る判決だ",
           "link": "https://www.nikkei.com/article/DGXZQODK167XI0W5A710C2000000/",
-          "published": "2025年7月16日",
+          "published": "2025/7/16 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "政治とカネ　改革への熱意を示さねば",
           "link": "https://www.niigata-nippo.co.jp/articles/-/650867",
-          "published": "2025/7/16",
+          "published": "2025/7/16 6:00",
           "paid": false
         }
       ]
@@ -263,6 +263,46 @@
           "title": "＜社説＞２０２５参院選　日本の安全保障　防衛力増強の是非論じよ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4447576.html",
           "published": "2025/07/16",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：医療・介護　その場しのぎは限界だ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1522255",
+          "published": "2025/7/16 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：オスプレイ配備　住民の不安に向き合え",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1522245",
+          "published": "2025/7/16 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】膨らむ防衛費　規模と使途の検証尽くせ",
+          "link": "https://www.nishinippon.co.jp/item/1376574/",
+          "published": "2025/07/16 06:00",
           "paid": false
         }
       ]

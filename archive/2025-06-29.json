@@ -47,13 +47,13 @@
         {
           "title": "［社説］事実に基づく情報が公正な選挙を支える",
           "link": "https://www.nikkei.com/article/DGXZQODK26C5I0W5A620C2000000/",
-          "published": "2025年6月29日",
+          "published": "2025/6/29 19:05",
           "paid": false
         },
         {
           "title": "［社説］熱中症防止へ労働環境整えよ",
           "link": "https://www.nikkei.com/article/DGXZQOCD04AFC0U5A600C2000000/",
-          "published": "2025年6月29日",
+          "published": "2025/6/29 19:00",
           "paid": false
         }
       ]
@@ -97,7 +97,7 @@
         {
           "title": "百日ぜき最多　乳児の感染防がなければ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/636772",
-          "published": "2025/6/29",
+          "published": "2025/6/29 6:00",
           "paid": false
         }
       ]
@@ -217,6 +217,40 @@
           "title": "＜社説＞豊見城市議会意見書　なぜ今史実の検証なのか",
           "link": "https://ryukyushimpo.jp/editorial/entry-4387411.html",
           "published": "2025/06/29",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：治安維持法１００年　批判弾圧の歴史を刻みたい",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1507443",
+          "published": "2025/6/29 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】白鵬さんの退職　協会は自省し改革進めよ",
+          "link": "https://www.nishinippon.co.jp/item/1370109/",
+          "published": "2025/06/29 06:00",
           "paid": false
         }
       ]

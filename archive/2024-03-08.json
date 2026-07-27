@@ -73,7 +73,7 @@
         {
           "title": "日産下請法違反　賃上げ妨げるあしき慣行",
           "link": "https://www.niigata-nippo.co.jp/articles/-/371086",
-          "published": "2024/3/8",
+          "published": "2024/3/8 6:00",
           "paid": false
         }
       ]
@@ -176,6 +176,23 @@
           "title": "＜社説＞市町村防災アンケート　災害に備え女性の視点を",
           "link": "https://ryukyushimpo.jp/editorial/entry-2879390.html",
           "published": "2024/03/08",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】困難女性支援法　官民で切れ目ない伴走を",
+          "link": "https://www.nishinippon.co.jp/item/1186956/",
+          "published": "2024/03/08 06:00",
           "paid": false
         }
       ]

@@ -53,13 +53,13 @@
         {
           "title": "［社説］日銀はより精緻な利上げの戦略と対話を",
           "link": "https://www.nikkei.com/article/DGXZQODK245U70U5A120C2000000/",
-          "published": "2025年1月24日",
+          "published": "2025/1/24 19:20",
           "paid": false
         },
         {
           "title": "［社説］挑戦で歴史築いたイチロー氏",
           "link": "https://www.nikkei.com/article/DGXZQODK238170T20C25A1000000/",
-          "published": "2025年1月24日",
+          "published": "2025/1/24 19:00",
           "paid": false
         }
       ]
@@ -130,7 +130,7 @@
         {
           "title": "通常国会開幕　与野党の力量が試される",
           "link": "https://www.niigata-nippo.co.jp/articles/-/544802",
-          "published": "2025/1/24",
+          "published": "2025/1/24 6:00",
           "paid": false
         }
       ]
@@ -216,6 +216,46 @@
           "title": "＜社説＞フジ第三者委員会設置　人権守るため徹底調査を",
           "link": "https://ryukyushimpo.jp/editorial/entry-3894189.html",
           "published": "2025/01/24",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：財政収支の赤字　ツケ先送りに歯止めを",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1411033",
+          "published": "2025/1/24 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：米野球殿堂入り　唯一無二のイチロー流",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1411035",
+          "published": "2025/1/24 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】春闘スタート　賃上げの裾野を広げよう",
+          "link": "https://www.nishinippon.co.jp/item/1307478/",
+          "published": "2025/01/24 06:00",
           "paid": false
         }
       ]

@@ -59,13 +59,13 @@
         {
           "title": "［社説］大型補正で金利上昇・円安は大丈夫か",
           "link": "https://www.nikkei.com/article/DGXZQODK286OZ0Y5A121C2000000/",
-          "published": "2025年11月28日",
+          "published": "2025/11/28 19:05",
           "paid": false
         },
         {
           "title": "［社説］米国のロシアへの譲歩が目に余る",
           "link": "https://www.nikkei.com/article/DGXZQODK281V10Y5A121C2000000/",
-          "published": "2025年11月28日",
+          "published": "2025/11/28 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "タイ少女人身取引　重大な人権侵害の根絶を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/736355",
-          "published": "2025/11/28",
+          "published": "2025/11/28 6:00",
           "paid": false
         }
       ]
@@ -177,19 +177,19 @@
         {
           "title": "社説【２１美の仮移転】日銀跡の整備探る糸口に",
           "link": "https://www.hokkoku.co.jp/articles/-/1942651",
-          "published": "11/28",
+          "published": "2025/11/28 5:00",
           "paid": true
         },
         {
           "title": "社説【米中電話会談】中国の「宣伝戦」に反論を",
           "link": "https://www.hokkoku.co.jp/articles/-/1942650",
-          "published": "11/28",
+          "published": "2025/11/28 5:00",
           "paid": true
         },
         {
           "title": "社説【２１美の仮移転】日銀跡の再開発探る糸口に",
           "link": "https://www.hokkoku.co.jp/articles/-/1942632",
-          "published": "11/28",
+          "published": "2025/11/28 5:00",
           "paid": true
         }
       ]
@@ -292,6 +292,46 @@
           "title": "＜社説＞米憲兵　民間人拘束　不当な警察権行使許すな",
           "link": "https://ryukyushimpo.jp/editorial/entry-4814033.html",
           "published": "2025/11/28",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：王将事件裁判　背景含めて全容解明を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1608468",
+          "published": "2025/11/28 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：新大関安青錦　ウクライナに希望届け",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1608467",
+          "published": "2025/11/28 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】東電原発再稼働　不信は払拭されていない",
+          "link": "https://www.nishinippon.co.jp/item/1428652/",
+          "published": "2025/11/28 06:00",
           "paid": false
         }
       ]

@@ -50,7 +50,7 @@
         {
           "title": "角界の暴力　変わらぬ体質変革せねば",
           "link": "https://www.niigata-nippo.co.jp/articles/-/368377",
-          "published": "2024/3/3",
+          "published": "2024/3/3 6:00",
           "paid": false
         }
       ]
@@ -153,6 +153,29 @@
           "title": "＜社説＞政治倫理審査会　実態解明にはほど遠い",
           "link": "https://ryukyushimpo.jp/editorial/entry-2864207.html",
           "published": "2024/03/03",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】刑法犯の反転増　「安全な国」保ち続けたい",
+          "link": "https://www.nishinippon.co.jp/item/1185071/",
+          "published": "2024/03/03 06:00",
+          "paid": false
+        },
+        {
+          "title": "「選挙独裁」が広がる世界で",
+          "link": "https://www.nishinippon.co.jp/item/1184995/",
+          "published": "2024/03/03 06:00",
           "paid": false
         }
       ]

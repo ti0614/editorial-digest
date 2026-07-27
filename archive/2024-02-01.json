@@ -50,7 +50,7 @@
         {
           "title": "被災から１カ月　生活再建へ復旧急ぎたい",
           "link": "https://www.niigata-nippo.co.jp/articles/-/353070",
-          "published": "2024/2/1",
+          "published": "2024/2/1 6:00",
           "paid": false
         }
       ]
@@ -153,6 +153,23 @@
           "title": "＜社説＞能登半島地震1カ月　総合的被災地支援を急げ",
           "link": "https://ryukyushimpo.jp/editorial/entry-2758099.html",
           "published": "2024/02/01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】能登地震1ヵ月　警戒緩めず復興へ一歩を",
+          "link": "https://www.nishinippon.co.jp/item/1174125/",
+          "published": "2024/02/01 06:00",
           "paid": false
         }
       ]

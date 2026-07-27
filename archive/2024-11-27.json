@@ -59,13 +59,13 @@
         {
           "title": "［社説］少数与党の国会こそ建設的な政策協議を",
           "link": "https://www.nikkei.com/article/DGXZQODK276DZ0X21C24A1000000/",
-          "published": "2024年11月27日",
+          "published": "2024/11/27 19:05",
           "paid": false
         },
         {
           "title": "［社説］レバノン停戦を安定の一歩に",
           "link": "https://www.nikkei.com/article/DGXZQODK275L00X21C24A1000000/",
-          "published": "2024年11月27日",
+          "published": "2024/11/27 19:00",
           "paid": false
         }
       ]
@@ -136,7 +136,7 @@
         {
           "title": "佐渡金山追悼式　日韓の歩み寄り不可欠だ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/516211",
-          "published": "2024/11/27",
+          "published": "2024/11/27 6:00",
           "paid": false
         }
       ]
@@ -239,6 +239,23 @@
           "title": "＜社説＞マイナ保険証移行　併用で国民の選択肢守れ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3688266.html",
           "published": "2024/11/27",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】高齢者の労災　防止へ法的な取り組みを",
+          "link": "https://www.nishinippon.co.jp/item/1286525/",
+          "published": "2024/11/27 06:00",
           "paid": false
         }
       ]

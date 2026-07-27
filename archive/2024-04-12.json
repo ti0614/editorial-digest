@@ -73,7 +73,7 @@
         {
           "title": "日米首脳会談　地域安定に主体的外交を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/389132",
-          "published": "2024/4/12",
+          "published": "2024/4/12 6:00",
           "paid": false
         }
       ]
@@ -159,6 +159,29 @@
           "title": "＜社説＞石川陸自訓練場白紙へ　整備そのものを断念せよ",
           "link": "https://ryukyushimpo.jp/editorial/entry-2977258.html",
           "published": "2024/04/12",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】韓国与党が惨敗　日韓改善の歩み止めるな",
+          "link": "https://www.nishinippon.co.jp/item/1199861/",
+          "published": "2024/04/12 06:00",
+          "paid": false
+        },
+        {
+          "title": "牧原大、地味ながらも勝利に貢献　【タカ番コラム好球筆打】",
+          "link": "https://www.nishinippon.co.jp/item/1199859/",
+          "published": "2024/04/12 06:00",
           "paid": false
         }
       ]

@@ -73,7 +73,7 @@
         {
           "title": "日米首脳会談　国益にかなう関係構築を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/553094",
-          "published": "2025/2/9",
+          "published": "2025/2/9 6:00",
           "paid": false
         }
       ]
@@ -142,6 +142,40 @@
           "title": "＜社説＞日米首脳会談　沖縄に危機招く追従だ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3946195.html",
           "published": "2025/02/09",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：日米首脳会談　「言うべきは言う」関係築け",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1420237",
+          "published": "2025/2/9 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】地方と文学活動　九州から多彩な作品群を",
+          "link": "https://www.nishinippon.co.jp/item/1313740/",
+          "published": "2025/02/09 06:00",
           "paid": false
         }
       ]

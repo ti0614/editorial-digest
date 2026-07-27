@@ -67,7 +67,7 @@
         {
           "title": "トランプ氏銃撃　言論封じる凶行許されぬ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/439853",
-          "published": "2024/7/15",
+          "published": "2024/7/15 6:00",
           "paid": false
         }
       ]
@@ -153,6 +153,23 @@
           "title": "＜社説＞米兵事件共有されず　恣意的な判断なかったか",
           "link": "https://ryukyushimpo.jp/editorial/entry-3266108.html",
           "published": "2024/07/15",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】税収過去最高　国と企業は潤っているが",
+          "link": "https://www.nishinippon.co.jp/item/1234819/",
+          "published": "2024/07/15 06:00",
           "paid": false
         }
       ]

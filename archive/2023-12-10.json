@@ -33,7 +33,7 @@
         {
           "title": "日大の混乱　学生のためにも再建急げ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/325600",
-          "published": "2023/12/10",
+          "published": "2023/12/10 6:00",
           "paid": false
         }
       ]
@@ -102,6 +102,23 @@
           "title": "＜社説＞官房長官に多額還流　深まる疑惑、首相は説明を",
           "link": "https://ryukyushimpo.jp/editorial/entry-2565327.html",
           "published": "2023/12/10",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】賃上げの持続　中小企業へ確実に波及を",
+          "link": "https://www.nishinippon.co.jp/item/1155670/",
+          "published": "2023/12/10 06:00",
           "paid": false
         }
       ]

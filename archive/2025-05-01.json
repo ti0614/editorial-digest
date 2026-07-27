@@ -59,13 +59,13 @@
         {
           "title": "［社説］資源合意をウクライナ和平への糸口に",
           "link": "https://www.nikkei.com/article/DGXZQODK0148B0R00C25A5000000/",
-          "published": "2025年5月1日",
+          "published": "2025/5/1 19:05",
           "paid": false
         },
         {
           "title": "［社説］日銀は霧の中こそ柔軟対応を",
           "link": "https://www.nikkei.com/article/DGXZQODK016AM0R00C25A5000000/",
-          "published": "2025年5月1日",
+          "published": "2025/5/1 19:00",
           "paid": false
         }
       ]
@@ -126,7 +126,7 @@
         {
           "title": "五輪と女性　活躍後押しへ発信を期待",
           "link": "https://www.niigata-nippo.co.jp/articles/-/600463",
-          "published": "2025/5/1",
+          "published": "2025/5/1 6:00",
           "paid": false
         }
       ]
@@ -229,6 +229,46 @@
           "title": "＜社説＞郵便局の不適切点呼　法令遵守意識を取り戻せ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4198598.html",
           "published": "2025/05/01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：障害年金不支給　客観性、透明性を高めよ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1468888",
+          "published": "2025/5/1 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：彦根新市政　「分断」生まぬ対話こそ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1468882",
+          "published": "2025/5/1 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】メーデー　問われる労組の存在意義",
+          "link": "https://www.nishinippon.co.jp/item/1345955/",
+          "published": "2025/05/01 06:00",
           "paid": false
         }
       ]

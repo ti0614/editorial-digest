@@ -59,13 +59,13 @@
         {
           "title": "［社説］責任ある政策へ突っ込んだ国会論戦に",
           "link": "https://www.nikkei.com/article/DGXZQODK052GE0V01C25A1000000/",
-          "published": "2025年11月5日",
+          "published": "2025/11/5 19:05",
           "paid": false
         },
         {
           "title": "［社説］予算のずさんな執行を正せ",
           "link": "https://www.nikkei.com/article/DGXZQODK0421O0U5A101C2000000/",
-          "published": "2025年11月5日",
+          "published": "2025/11/5 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "国会代表質問　政策実現へ論戦を活発に",
           "link": "https://www.niigata-nippo.co.jp/articles/-/722159",
-          "published": "2025/11/5",
+          "published": "2025/11/5 6:00",
           "paid": false
         }
       ]
@@ -177,13 +177,13 @@
         {
           "title": "社説【外国人の土地取得】規制強化に知恵絞らねば",
           "link": "https://www.hokkoku.co.jp/articles/-/1919352",
-          "published": "11/5",
+          "published": "2025/11/5 5:00",
           "paid": true
         },
         {
           "title": "社説【公費解体にめど】制度改善へ検証欠かせず",
           "link": "https://www.hokkoku.co.jp/articles/-/1919351",
-          "published": "11/5",
+          "published": "2025/11/5 5:00",
           "paid": true
         }
       ]
@@ -303,6 +303,46 @@
           "title": "＜社説＞教職員のわいせつ急増　子どもを守る対策急げ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4743728.html",
           "published": "2025/11/05",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：国会代表質問　不信拭う丁寧な議論を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1593898",
+          "published": "2025/11/5 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：首長の不祥事　議会解散の乱発を憂う",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1593895",
+          "published": "2025/11/5 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】高市政権の外交　米中韓と均衡ある関係を",
+          "link": "https://www.nishinippon.co.jp/item/1419644/",
+          "published": "2025/11/05 06:00",
           "paid": false
         }
       ]

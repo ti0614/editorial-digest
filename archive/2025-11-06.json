@@ -59,13 +59,13 @@
         {
           "title": "［社説］ガソリン減税は財源と脱炭素の対策示せ",
           "link": "https://www.nikkei.com/article/DGXZQODK064OC0W5A101C2000000/",
-          "published": "2025年11月6日",
+          "published": "2025/11/6 19:05",
           "paid": false
         },
         {
           "title": "［社説］米民主の課題示すNY市長選",
           "link": "https://www.nikkei.com/article/DGXZQODK062IK0W5A101C2000000/",
-          "published": "2025年11月6日",
+          "published": "2025/11/6 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "外国人総合策　過ぎた規制は共生損なう",
           "link": "https://www.niigata-nippo.co.jp/articles/-/722882",
-          "published": "2025/11/6",
+          "published": "2025/11/6 6:00",
           "paid": false
         }
       ]
@@ -177,19 +177,19 @@
         {
           "title": "社説【日米合意文書】レアアース共同開発に道",
           "link": "https://www.hokkoku.co.jp/articles/-/1920504",
-          "published": "11/6",
+          "published": "2025/11/6 5:00",
           "paid": true
         },
         {
           "title": "社説【小松空港ビル改築】訪日客の対応で存在感を",
           "link": "https://www.hokkoku.co.jp/articles/-/1920503",
-          "published": "11/6",
+          "published": "2025/11/6 5:00",
           "paid": true
         },
         {
           "title": "社説【日米合意文書】レアアースの共同開発に道",
           "link": "https://www.hokkoku.co.jp/articles/-/1920468",
-          "published": "11/6",
+          "published": "2025/11/6 5:00",
           "paid": true
         }
       ]
@@ -309,6 +309,46 @@
           "title": "＜社説＞自民、国と意見書調整　地方自治揺るがす問題だ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4746218.html",
           "published": "2025/11/06",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：外国人政策　規制への傾斜を危ぶむ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1594558",
+          "published": "2025/11/6 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：発生２６年で逮捕　科学捜査の進展　道開く",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1594549",
+          "published": "2025/11/6 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】副首都構想　まず必要性から議論せよ",
+          "link": "https://www.nishinippon.co.jp/item/1420106/",
+          "published": "2025/11/06 06:00",
           "paid": false
         }
       ]

@@ -73,7 +73,7 @@
         {
           "title": "バイデン氏　高齢不安撤退やむを得ず",
           "link": "https://www.niigata-nippo.co.jp/articles/-/444414",
-          "published": "2024/7/23",
+          "published": "2024/7/23 6:00",
           "paid": false
         }
       ]
@@ -176,6 +176,23 @@
           "title": "＜社説＞レゾリュート・ドラゴン　露骨な戦争準備、威嚇だ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3289546.html",
           "published": "2024/07/23",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】バイデン氏撤退　冷静な政策論争取り戻せ",
+          "link": "https://www.nishinippon.co.jp/item/1237756/",
+          "published": "2024/07/23 06:00",
           "paid": false
         }
       ]

@@ -53,13 +53,13 @@
         {
           "title": "［社説］自民は党改革と政策進める体制を早急に",
           "link": "https://www.nikkei.com/article/DGXZQODK022380S5A900C2000000/",
-          "published": "2025年9月2日",
+          "published": "2025/9/2 20:15",
           "paid": false
         },
         {
           "title": "［社説］信頼おとしめた新浪氏辞任",
           "link": "https://www.nikkei.com/article/DGXZQODK02AFR0S5A900C2000000/",
-          "published": "2025年9月2日",
+          "published": "2025/9/2 20:10",
           "paid": false
         }
       ]
@@ -123,20 +123,7 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": [
-        {
-          "title": "共生を前へ、選手活躍に期待　パリ・パラリンピック開幕　【論説】",
-          "link": "https://www.chibanippo.co.jp/serial/1270744",
-          "published": "9/2 5:00",
-          "paid": true
-        },
-        {
-          "title": "芸術を守るのは我々の責任　川村記念美術館、来年１月休館　【論説】",
-          "link": "https://www.chibanippo.co.jp/articles/1270743",
-          "published": "9/2 5:00",
-          "paid": true
-        }
-      ]
+      "items": []
     },
     {
       "name": "新潟日報",
@@ -150,7 +137,7 @@
         {
           "title": "概算要求が最大　優先度重視の予算編成を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/680930",
-          "published": "2025/9/2",
+          "published": "2025/9/2 6:00",
           "paid": false
         }
       ]
@@ -270,6 +257,40 @@
           "title": "＜社説＞「人間の安全保障」　「命どぅ宝」思想の実践を",
           "link": "https://ryukyushimpo.jp/editorial/entry-4576411.html",
           "published": "2025/09/02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：国の予算要求　政治も省庁もタガ外れたか",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1553366",
+          "published": "2025/9/2 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】概算要求最大　規律なき膨張に歯止めを",
+          "link": "https://www.nishinippon.co.jp/item/1394557/",
+          "published": "2025/09/02 06:00",
           "paid": false
         }
       ]

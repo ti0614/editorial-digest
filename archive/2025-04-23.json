@@ -59,13 +59,13 @@
         {
           "title": "［社説］党首討論で国難を乗り越える戦略競え",
           "link": "https://www.nikkei.com/article/DGXZQODK22AIW0S5A420C2000000/",
-          "published": "2025年4月23日",
+          "published": "2025/4/23 19:05",
           "paid": false
         },
         {
           "title": "［社説］ロシア利する仲裁案を許すな",
           "link": "https://www.nikkei.com/article/DGXZQODK219XO0R20C25A4000000/",
-          "published": "2025年4月23日",
+          "published": "2025/4/23 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "世耕氏招致　政治不信さらに深まった",
           "link": "https://www.niigata-nippo.co.jp/articles/-/596101",
-          "published": "2025/4/23",
+          "published": "2025/4/23 6:00",
           "paid": false
         }
       ]
@@ -246,6 +246,46 @@
           "title": "＜社説＞取り調べ可視化の拡大　「人質司法」見直すべきだ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4177197.html",
           "published": "2025/04/23",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：捜査のＩＴ化　情報「乱獲」に懸念残る",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1464351",
+          "published": "2025/4/23 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：訪日客１千万人　持続可能性へ質優先を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1464353",
+          "published": "2025/4/23 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】グーグルに命令　市場の健全化につなげよ",
+          "link": "https://www.nishinippon.co.jp/item/1342856/",
+          "published": "2025/04/23 06:00",
           "paid": false
         }
       ]

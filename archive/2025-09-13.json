@@ -59,13 +59,13 @@
         {
           "title": "［社説］幅広く長く使われるNISAに育てよう",
           "link": "https://www.nikkei.com/article/DGXZQODK0374O0T00C25A9000000/",
-          "published": "2025年9月13日",
+          "published": "2025/9/13 19:05",
           "paid": false
         },
         {
           "title": "［社説］ユニクロ米国進出20年の示唆",
           "link": "https://www.nikkei.com/article/DGXZQODK1268E0S5A910C2000000/",
-          "published": "2025年9月13日",
+          "published": "2025/9/13 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "軽油カルテル　徹底調査で真相明らかに",
           "link": "https://www.niigata-nippo.co.jp/articles/-/689133",
-          "published": "2025/9/13",
+          "published": "2025/9/13 6:00",
           "paid": false
         }
       ]
@@ -177,13 +177,13 @@
         {
           "title": "社説【金属盗対策の新法】地域住民の協力を得たい",
           "link": "https://www.hokkoku.co.jp/articles/-/1866068",
-          "published": "9/13",
+          "published": "2025/9/13 5:00",
           "paid": true
         },
         {
           "title": "社説【総裁選５氏出馬へ】リーダーの資質、見識あるか",
           "link": "https://www.hokkoku.co.jp/articles/-/1866067",
-          "published": "9/13",
+          "published": "2025/9/13 5:00",
           "paid": true
         }
       ]
@@ -286,6 +286,40 @@
           "title": "＜社説＞日米共同訓練始まる　訓練全体の中止・縮小を",
           "link": "https://ryukyushimpo.jp/editorial/entry-4610151.html",
           "published": "2025/09/13",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：岐路に立つ公立高　地域での役割と将来像示せ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1561306",
+          "published": "2025/9/13 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】カタール空爆　イスラエルの暴走許すな",
+          "link": "https://www.nishinippon.co.jp/item/1399192/",
+          "published": "2025/09/13 06:00",
           "paid": false
         }
       ]

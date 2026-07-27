@@ -47,13 +47,13 @@
         {
           "title": "［社説］法の支配に基づく秩序の再構築諦めるな",
           "link": "https://www.nikkei.com/article/DGXZQODK092W90Z00C26A1000000/",
-          "published": "1月10日",
+          "published": "2026/1/10 19:05",
           "paid": false
         },
         {
           "title": "［社説］AIロボットの台頭に危機感を",
           "link": "https://www.nikkei.com/article/DGXZQODK09CFT0Z00C26A1000000/",
-          "published": "1月10日",
+          "published": "2026/1/10 19:00",
           "paid": false
         }
       ]
@@ -131,7 +131,7 @@
         {
           "title": "中国の輸出規制　圧力に左右されぬ経済へ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/759600",
-          "published": "1/10",
+          "published": "2026/1/10 6:00",
           "paid": false
         }
       ]
@@ -165,13 +165,13 @@
         {
           "title": "社説【金沢の職人技継承】担い手増やす体制強化を",
           "link": "https://www.hokkoku.co.jp/articles/-/1983009",
-          "published": "1/10",
+          "published": "2026/1/10 5:00",
           "paid": true
         },
         {
           "title": "社説【さくらリポート】利上げで投資冷やさぬよう",
           "link": "https://www.hokkoku.co.jp/articles/-/1983008",
-          "published": "1/10",
+          "published": "2026/1/10 5:00",
           "paid": true
         }
       ]
@@ -291,6 +291,40 @@
           "title": "＜社説＞小泉防衛相来県　PFAS問題放棄するな",
           "link": "https://ryukyushimpo.jp/editorial/entry-4944819.html",
           "published": "2026/01/10",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：中国の輸出規制　双方の経済傷つける威圧だ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1633607",
+          "published": "2026/1/10 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】大崎第5次請求　一刻も早く再審の扉開け",
+          "link": "https://www.nishinippon.co.jp/item/1444340/",
+          "published": "2026/01/10 06:00",
           "paid": false
         }
       ]

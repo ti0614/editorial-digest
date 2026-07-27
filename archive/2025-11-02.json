@@ -59,13 +59,13 @@
         {
           "title": "［社説］米ITの巨額AI投資に死角はないか",
           "link": "https://www.nikkei.com/article/DGXZQODK316UH0R31C25A0000000/",
-          "published": "2025年11月2日",
+          "published": "2025/11/2 19:05",
           "paid": false
         },
         {
           "title": "［社説］ニデックは疑義の解明急げ",
           "link": "https://www.nikkei.com/article/DGXZQOCD31CSQ0R31C25A0000000/",
-          "published": "2025年11月2日",
+          "published": "2025/11/2 19:00",
           "paid": false
         }
       ]
@@ -109,7 +109,7 @@
         {
           "title": "日中・日韓会談　丁寧に関係を構築したい",
           "link": "https://www.niigata-nippo.co.jp/articles/-/720708",
-          "published": "2025/11/2",
+          "published": "2025/11/2 6:00",
           "paid": false
         }
       ]
@@ -143,13 +143,13 @@
         {
           "title": "社説【警報の名称変更】切迫度伝わるよう周知を",
           "link": "https://www.hokkoku.co.jp/articles/-/1916590",
-          "published": "11/2",
+          "published": "2025/11/2 5:00",
           "paid": true
         },
         {
           "title": "社説【クマ捕獲体制】警察の役割拡大が望ましい",
           "link": "https://www.hokkoku.co.jp/articles/-/1916589",
-          "published": "11/2",
+          "published": "2025/11/2 5:00",
           "paid": true
         }
       ]
@@ -235,6 +235,40 @@
           "title": "＜社説＞日中首脳が初会談　脅威ではなく互恵の道を",
           "link": "https://ryukyushimpo.jp/editorial/entry-4737472.html",
           "published": "2025/11/02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：能登地震の検証　反省と教訓、全国で生かせ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1592523",
+          "published": "2025/11/2 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】議員定数削減　急ぐ理由はどこにもない",
+          "link": "https://www.nishinippon.co.jp/item/1418718/",
+          "published": "2025/11/02 06:00",
           "paid": false
         }
       ]

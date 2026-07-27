@@ -50,7 +50,7 @@
         {
           "title": "米アカデミー賞　日本の技術が世界を魅了",
           "link": "https://www.niigata-nippo.co.jp/articles/-/375836",
-          "published": "2024/3/17",
+          "published": "2024/3/17 6:00",
           "paid": false
         }
       ]
@@ -136,6 +136,23 @@
           "title": "＜社説＞国王の「御後絵」再発見　沖縄の貴重な宝を後世に",
           "link": "https://ryukyushimpo.jp/editorial/entry-2905219.html",
           "published": "2024/03/17",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】医療と患者意思　生きること支える体制に",
+          "link": "https://www.nishinippon.co.jp/item/1190238/",
+          "published": "2024/03/17 06:00",
           "paid": false
         }
       ]

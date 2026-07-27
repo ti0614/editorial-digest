@@ -59,13 +59,13 @@
         {
           "title": "［社説］ベネズエラの民主的な政権移行を着実に",
           "link": "https://www.nikkei.com/article/DGXZQODK065Z50W6A100C2000000/",
-          "published": "1月6日",
+          "published": "2026/1/6 19:22",
           "paid": false
         },
         {
           "title": "［社説］中国の日米韓引き離しを防げ",
           "link": "https://www.nikkei.com/article/DGXZQODK0636Q0W6A100C2000000/",
-          "published": "1月6日",
+          "published": "2026/1/6 19:15",
           "paid": false
         }
       ]
@@ -129,20 +129,7 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": [
-        {
-          "title": "次代へつなぐ使命認識を　節目の年　【論説】",
-          "link": "https://www.chibanippo.co.jp/serial/1323487",
-          "published": "1/6 5:00",
-          "paid": true
-        },
-        {
-          "title": "課題克服へ再挑戦に期待　「日本遺産」候補継続の鋸山　【論説】",
-          "link": "https://www.chibanippo.co.jp/news/local/1323486",
-          "published": "1/6 5:00",
-          "paid": true
-        }
-      ]
+      "items": []
     },
     {
       "name": "新潟日報",
@@ -156,7 +143,7 @@
         {
           "title": "２０２６外交・安保　覇権主義の広がりを憂う",
           "link": "https://www.niigata-nippo.co.jp/articles/-/756970",
-          "published": "1/6",
+          "published": "2026/1/6 6:00",
           "paid": false
         }
       ]
@@ -190,13 +177,13 @@
         {
           "title": "社説【北前船の工芸連携】新たな創造生む交流を",
           "link": "https://www.hokkoku.co.jp/articles/-/1978946",
-          "published": "1/6",
+          "published": "2026/1/6 5:00",
           "paid": true
         },
         {
           "title": "社説【米国の軍事作戦】「力による現状変更」を憂う",
           "link": "https://www.hokkoku.co.jp/articles/-/1978945",
-          "published": "1/6",
+          "published": "2026/1/6 5:00",
           "paid": true
         }
       ]
@@ -316,6 +303,40 @@
           "title": "＜社説＞２６年政局展望　未来に悔い残さぬ選択を",
           "link": "https://ryukyushimpo.jp/editorial/entry-4931833.html",
           "published": "2026/01/06",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：ベネズエラ攻撃　米国の蛮行を強く非難する",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1630878",
+          "published": "2026/1/6 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】26年の日本経済　持続的な成長へ知恵絞れ",
+          "link": "https://www.nishinippon.co.jp/item/1442666/",
+          "published": "2026/01/06 06:00",
           "paid": false
         }
       ]

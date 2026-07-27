@@ -53,7 +53,7 @@
         {
           "title": "［社説］自公連立解消が迫る政治の再設計",
           "link": "https://www.nikkei.com/article/DGXZQODK103IU0Q5A011C2000000/",
-          "published": "2025年10月10日",
+          "published": "2025/10/10 20:20",
           "paid": false
         }
       ]
@@ -131,7 +131,7 @@
         {
           "title": "ガザ和平第１段階　着実な履行が終戦へ導く",
           "link": "https://www.niigata-nippo.co.jp/articles/-/706187",
-          "published": "2025/10/10",
+          "published": "2025/10/10 6:00",
           "paid": false
         }
       ]
@@ -165,13 +165,13 @@
         {
           "title": "社説【プレミアムパス拡充】子育てしやすい環境に",
           "link": "https://www.hokkoku.co.jp/articles/-/1893081",
-          "published": "10/10",
+          "published": "2025/10/10 5:00",
           "paid": true
         },
         {
           "title": "社説【北川氏にノーベル賞】温暖化対策に確かな一歩",
           "link": "https://www.hokkoku.co.jp/articles/-/1893080",
-          "published": "10/10",
+          "published": "2025/10/10 5:00",
           "paid": true
         }
       ]
@@ -274,6 +274,46 @@
           "title": "＜社説＞10・10空襲から81年　国策の犠牲、正しく継承を",
           "link": "https://ryukyushimpo.jp/editorial/entry-4682991.html",
           "published": "2025/10/10",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：ガザ人質解放　今度こそ合意を和平へ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1578858",
+          "published": "2025/10/10 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：サイバー攻撃　被害抑える備え着実に",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1578857",
+          "published": "2025/10/10 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】ノーベル化学賞　無から導く人類への貢献",
+          "link": "https://www.nishinippon.co.jp/item/1409636/",
+          "published": "2025/10/10 06:00",
           "paid": false
         }
       ]

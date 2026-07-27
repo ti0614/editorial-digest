@@ -73,7 +73,7 @@
         {
           "title": "支援額倍増　分断生まない制度が必要",
           "link": "https://www.niigata-nippo.co.jp/articles/-/355981",
-          "published": "2024/2/7",
+          "published": "2024/2/7 6:00",
           "paid": false
         }
       ]
@@ -159,6 +159,23 @@
           "title": "＜社説＞中部水源取水再開へ　PFAS抜本対策を急げ",
           "link": "https://ryukyushimpo.jp/editorial/entry-2779087.html",
           "published": "2024/02/07",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】被災地の学び　日常の回復へ心のケアを",
+          "link": "https://www.nishinippon.co.jp/item/1176331/",
+          "published": "2024/02/07 06:00",
           "paid": false
         }
       ]

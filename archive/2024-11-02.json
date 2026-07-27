@@ -59,13 +59,13 @@
         {
           "title": "［社説］超大国にふさわしい米大統領選だったか",
           "link": "https://www.nikkei.com/article/DGXZQODK012NN0R01C24A1000000/",
-          "published": "2024年11月2日",
+          "published": "2024/11/2 19:05",
           "paid": false
         },
         {
           "title": "［社説］不登校の急増が迫る学校改革",
           "link": "https://www.nikkei.com/article/DGXZQODK015NP0R01C24A1000000/",
-          "published": "2024年11月2日",
+          "published": "2024/11/2 19:00",
           "paid": false
         }
       ]
@@ -136,7 +136,7 @@
         {
           "title": "中３殺害事件再審　審理の長期化を避けねば",
           "link": "https://www.niigata-nippo.co.jp/articles/-/502865",
-          "published": "2024/11/2",
+          "published": "2024/11/2 6:00",
           "paid": false
         }
       ]
@@ -239,6 +239,23 @@
           "title": "＜社説＞陸自HPリニューアル　日本軍との連続性を絶て",
           "link": "https://ryukyushimpo.jp/editorial/entry-3610736.html",
           "published": "2024/11/02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】不正な株取引　目を覆う職業倫理の欠如",
+          "link": "https://www.nishinippon.co.jp/item/1277255/",
+          "published": "2024/11/02 06:00",
           "paid": false
         }
       ]

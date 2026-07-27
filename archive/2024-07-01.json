@@ -67,7 +67,7 @@
         {
           "title": "発生から半年　生活再建にスピード感を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/431873",
-          "published": "2024/7/1",
+          "published": "2024/7/1 6:00",
           "paid": false
         }
       ]
@@ -153,6 +153,23 @@
           "title": "＜社説＞辺野古工事着手10年　民主主義問い続けたい",
           "link": "https://ryukyushimpo.jp/editorial/entry-3241829.html",
           "published": "2024/07/01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】能登地震半年　命を守る取り組み強化を",
+          "link": "https://www.nishinippon.co.jp/item/1229307/",
+          "published": "2024/07/01 06:00",
           "paid": false
         }
       ]

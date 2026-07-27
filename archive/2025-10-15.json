@@ -59,13 +59,13 @@
         {
           "title": "［社説］アサヒのサイバー被害は人ごとではない",
           "link": "https://www.nikkei.com/article/DGXZQODK10DIA0Q5A011C2000000/",
-          "published": "2025年10月15日",
+          "published": "2025/10/15 19:05",
           "paid": false
         },
         {
           "title": "［社説］世界経済のリスクを直視せよ",
           "link": "https://www.nikkei.com/article/DGXZQODK156OG0V11C25A0000000/",
-          "published": "2025年10月15日",
+          "published": "2025/10/15 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "万博閉幕　成果と課題未来へ生かす",
           "link": "https://www.niigata-nippo.co.jp/articles/-/708854",
-          "published": "2025/10/15",
+          "published": "2025/10/15 6:00",
           "paid": false
         }
       ]
@@ -177,13 +177,13 @@
         {
           "title": "社説【野党幹事長会談】基本政策の違い埋まらず",
           "link": "https://www.hokkoku.co.jp/articles/-/1897658",
-          "published": "10/15",
+          "published": "2025/10/15 5:00",
           "paid": true
         },
         {
           "title": "社説【大相撲ロンドン公演】「国技」の魅力再認識したい",
           "link": "https://www.hokkoku.co.jp/articles/-/1897657",
-          "published": "10/15",
+          "published": "2025/10/15 5:00",
           "paid": true
         }
       ]
@@ -286,6 +286,46 @@
           "title": "＜社説＞新聞週間始まる　信頼に応える報道に徹す",
           "link": "https://ryukyushimpo.jp/editorial/entry-4694516.html",
           "published": "2025/10/15",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：森友土地値引き　特別扱いの再調査要る",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1581444",
+          "published": "2025/10/15 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：ＤＷＡＴ指針　災害関連死防ぐ体制を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1581442",
+          "published": "2025/10/15 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】ガザ停戦発効　恒久和平の歩み止めるな",
+          "link": "https://www.nishinippon.co.jp/item/1411322/",
+          "published": "2025/10/15 06:00",
           "paid": false
         }
       ]

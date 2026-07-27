@@ -73,7 +73,7 @@
         {
           "title": "オスプレイ再開へ　住民の安全軽んじている",
           "link": "https://www.niigata-nippo.co.jp/articles/-/372948",
-          "published": "2024/3/12",
+          "published": "2024/3/12 6:00",
           "paid": false
         }
       ]
@@ -176,6 +176,23 @@
           "title": "＜社説＞米駆逐艦石垣港寄港　軍事力より交流で平和を",
           "link": "https://ryukyushimpo.jp/editorial/entry-2890855.html",
           "published": "2024/03/12",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】中国全人代閉幕　経済と軍事の今後を懸念",
+          "link": "https://www.nishinippon.co.jp/item/1188330/",
+          "published": "2024/03/12 06:00",
           "paid": false
         }
       ]

@@ -59,13 +59,13 @@
         {
           "title": "［社説］米価抑制とコメ不足解消へあらゆる手を",
           "link": "https://www.nikkei.com/article/DGXZQODK261GZ0W5A420C2000000/",
-          "published": "2025年4月27日",
+          "published": "2025/4/27 19:05",
           "paid": false
         },
         {
           "title": "［社説］証券口座乗っ取り対策を急げ",
           "link": "https://www.nikkei.com/article/DGXZQODK25B020V20C25A4000000/",
-          "published": "2025年4月27日",
+          "published": "2025/4/27 19:00",
           "paid": false
         }
       ]
@@ -109,7 +109,7 @@
         {
           "title": "米国産のコメ輸入　食料の安全保障守らねば",
           "link": "https://www.niigata-nippo.co.jp/articles/-/598639",
-          "published": "2025/4/27",
+          "published": "2025/4/27 6:00",
           "paid": false
         }
       ]
@@ -212,6 +212,40 @@
           "title": "＜社説＞あす4・28「屈辱の日」　歴史繰り返さない決意を",
           "link": "https://ryukyushimpo.jp/editorial/entry-4189108.html",
           "published": "2025/04/27",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：ｉＰＳ再生医療　京大発の研究、患者に届けたい",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1466852",
+          "published": "2025/4/27 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】落雷事故の防止　警戒怠らず命守る対策を",
+          "link": "https://www.nishinippon.co.jp/item/1344565/",
+          "published": "2025/04/27 06:00",
           "paid": false
         }
       ]

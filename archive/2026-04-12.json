@@ -70,7 +70,7 @@
         {
           "title": "災害時連携と効率的運用を　広がるトイレカー導入　【論説】",
           "link": "https://www.chibanippo.co.jp/articles/1598676",
-          "published": "4/12 5:00",
+          "published": "2026/4/12 5:00",
           "paid": true
         }
       ]
@@ -87,7 +87,7 @@
         {
           "title": "身寄りない高齢者　孤立防ぐ制度が欠かせぬ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/812864",
-          "published": "4/12",
+          "published": "2026/4/12 6:00",
           "paid": false
         }
       ]
@@ -121,13 +121,13 @@
         {
           "title": "社説【「健康ポイント」拡充】文化施設利用を促したい",
           "link": "https://www.hokkoku.co.jp/articles/-/2074848",
-          "published": "4/12",
+          "published": "2026/4/12 5:00",
           "paid": true
         },
         {
           "title": "社説【火災犠牲者相次ぐ】警報器や防炎品の活用を",
           "link": "https://www.hokkoku.co.jp/articles/-/2074847",
-          "published": "4/12",
+          "published": "2026/4/12 5:00",
           "paid": true
         }
       ]
@@ -213,6 +213,40 @@
           "title": "＜社説＞普天間返還合意30年　県内移設が過ちの元凶だ",
           "link": "https://ryukyushimpo.jp/editorial/entry-5184725.html",
           "published": "2026/04/12",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：市バスの二重価格　多くの利用者の理解不可欠",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1694450",
+          "published": "2026/4/12 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】普天間合意30年　負担軽減へ米国と交渉を",
+          "link": "https://www.nishinippon.co.jp/item/1480790/",
+          "published": "2026/04/12 06:00",
           "paid": false
         }
       ]

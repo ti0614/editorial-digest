@@ -59,7 +59,7 @@
         {
           "title": "［社説］規律なき予算の膨張に歯止めを",
           "link": "https://www.nikkei.com/article/DGXZQODK2632G0W4A221C2000000/",
-          "published": "2024年12月27日",
+          "published": "2024/12/27 19:00",
           "paid": false
         }
       ]
@@ -113,7 +113,7 @@
         {
           "title": "雪への備え　除雪作業中の事故に注意",
           "link": "https://www.niigata-nippo.co.jp/articles/-/532456",
-          "published": "2024/12/27",
+          "published": "2024/12/27 6:00",
           "paid": false
         }
       ]
@@ -199,6 +199,23 @@
           "title": "＜社説＞学習指導要領改定　負担減図り多様な学びを",
           "link": "https://ryukyushimpo.jp/editorial/entry-3808876.html",
           "published": "2024/12/27",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】JR高速船撤退　安全見直し信頼の回復を",
+          "link": "https://www.nishinippon.co.jp/item/1298255/",
+          "published": "2024/12/27 06:00",
           "paid": false
         }
       ]

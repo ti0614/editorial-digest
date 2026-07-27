@@ -47,13 +47,13 @@
         {
           "title": "［社説］FRB議長への捜査は独立を壊す暴挙だ",
           "link": "https://www.nikkei.com/article/DGXZQOCD136DY0T10C26A1000000/",
-          "published": "1月13日",
+          "published": "2026/1/13 19:05",
           "paid": false
         },
         {
           "title": "［社説］イランのデモ弾圧を憂慮する",
           "link": "https://www.nikkei.com/article/DGXZQODK135UP0T10C26A1000000/",
-          "published": "1月13日",
+          "published": "2026/1/13 19:00",
           "paid": false
         }
       ]
@@ -100,20 +100,7 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": [
-        {
-          "title": "資質向上、人材確保急げ　介護職員の高齢者虐待増加　【論説】",
-          "link": "https://www.chibanippo.co.jp/serial/1351421",
-          "published": "1/13 5:00",
-          "paid": true
-        },
-        {
-          "title": "ＳＮＳ活用で神経戦も　「選挙イヤー」幕開け　【論説】",
-          "link": "https://www.chibanippo.co.jp/serial/1351420",
-          "published": "1/13 5:00",
-          "paid": true
-        }
-      ]
+      "items": []
     },
     {
       "name": "新潟日報",
@@ -127,7 +114,7 @@
         {
           "title": "前福井知事セクハラ　人権意識を問い直したい",
           "link": "https://www.niigata-nippo.co.jp/articles/-/760572",
-          "published": "1/13",
+          "published": "2026/1/13 6:00",
           "paid": false
         }
       ]
@@ -161,13 +148,13 @@
         {
           "title": "社説【石川県と東博が協定】美のタッグで心の復興を",
           "link": "https://www.hokkoku.co.jp/articles/-/1985221",
-          "published": "1/13",
+          "published": "2026/1/13 5:00",
           "paid": true
         },
         {
           "title": "社説【観光地にカメラ】住民の生活改善の一助に",
           "link": "https://www.hokkoku.co.jp/articles/-/1985220",
-          "published": "1/13",
+          "published": "2026/1/13 5:00",
           "paid": true
         }
       ]
@@ -287,6 +274,40 @@
           "title": "＜社説＞石垣市の尖閣条例案　緊張緩和にこそ努力を",
           "link": "https://ryukyushimpo.jp/editorial/entry-4952505.html",
           "published": "2026/01/13",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：働き方の改革　逆行せず、豊かさ実感に向け",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1635104",
+          "published": "2026/1/13 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】NHKに新会長　公共性と健全経営　両立を",
+          "link": "https://www.nishinippon.co.jp/item/1445050/",
+          "published": "2026/01/13 06:00",
           "paid": false
         }
       ]

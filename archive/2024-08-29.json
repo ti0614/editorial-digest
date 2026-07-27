@@ -90,7 +90,7 @@
         {
           "title": "ヒズボラの攻撃　報復自制し戦火広げるな",
           "link": "https://www.niigata-nippo.co.jp/articles/-/466488",
-          "published": "2024/8/29",
+          "published": "2024/8/29 6:00",
           "paid": false
         }
       ]
@@ -193,6 +193,23 @@
           "title": "＜社説＞中国軍機領空侵犯　対話で偶発的衝突避けよ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3417316.html",
           "published": "2024/08/29",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】タイの政情不安　民意をゆがめる司法介入",
+          "link": "https://www.nishinippon.co.jp/item/1252088/",
+          "published": "2024/08/29 06:00",
           "paid": false
         }
       ]

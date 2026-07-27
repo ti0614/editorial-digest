@@ -53,13 +53,13 @@
         {
           "title": "［社説］米政府閉鎖解除へ与野党は早く歩み寄れ",
           "link": "https://www.nikkei.com/article/DGXZQODK10A740Q5A011C2000000/",
-          "published": "2025年10月13日",
+          "published": "2025/10/13 19:05",
           "paid": false
         },
         {
           "title": "［社説］ユネスコは米復帰に努めよ",
           "link": "https://www.nikkei.com/article/DGXZQODK104PD0Q5A011C2000000/",
-          "published": "2025年10月13日",
+          "published": "2025/10/13 19:00",
           "paid": false
         }
       ]
@@ -106,14 +106,7 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": [
-        {
-          "title": "昨季の猛威受け対策強化　鳥インフルエンザ　【論説】",
-          "link": "https://www.chibanippo.co.jp/articles/1510224",
-          "published": "10/13 5:00",
-          "paid": true
-        }
-      ]
+      "items": []
     },
     {
       "name": "新潟日報",
@@ -127,7 +120,7 @@
         {
           "title": "ノーベル平和賞　民主主義実現へ訴え続け",
           "link": "https://www.niigata-nippo.co.jp/articles/-/707747",
-          "published": "2025/10/13",
+          "published": "2025/10/13 6:00",
           "paid": false
         }
       ]
@@ -161,13 +154,13 @@
         {
           "title": "社説【教員の長時間労働】やりがい頼みから脱却を",
           "link": "https://www.hokkoku.co.jp/articles/-/1895773",
-          "published": "10/13",
+          "published": "2025/10/13 5:00",
           "paid": true
         },
         {
           "title": "社説【増えるクマ犠牲者】高まる市街地出没の恐れ",
           "link": "https://www.hokkoku.co.jp/articles/-/1895772",
-          "published": "10/13",
+          "published": "2025/10/13 5:00",
           "paid": true
         }
       ]
@@ -253,6 +246,40 @@
           "title": "＜社説＞戦後８０年首相「所感」　歴史向き合い戦争回避を",
           "link": "https://ryukyushimpo.jp/editorial/entry-4689228.html",
           "published": "2025/10/13",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：万博の閉幕　今後に何を生かすか検証を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1580357",
+          "published": "2025/10/13 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】スポーツ中継　有料化と公共性考えよう",
+          "link": "https://www.nishinippon.co.jp/item/1410641/",
+          "published": "2025/10/13 06:00",
           "paid": false
         }
       ]

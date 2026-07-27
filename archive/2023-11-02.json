@@ -50,7 +50,7 @@
         {
           "title": "金融緩和再修正　景気に留意し「出口」探れ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/306691",
-          "published": "2023/11/2",
+          "published": "2023/11/2 6:00",
           "paid": false
         }
       ]
@@ -136,6 +136,23 @@
           "title": "＜社説＞脳死判定１０００件　救える命支える手だてを",
           "link": "https://ryukyushimpo.jp/editorial/entry-2435261.html",
           "published": "2023/11/02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】金融緩和再修正　近づく出口丁寧に説明を",
+          "link": "https://www.nishinippon.co.jp/item/1142436/",
+          "published": "2023/11/02 06:00",
           "paid": false
         }
       ]

@@ -59,13 +59,13 @@
         {
           "title": "［社説］世界株急落の警告に米政権は目を覚ませ",
           "link": "https://www.nikkei.com/article/DGXZQODK078I70X00C25A4000000/",
-          "published": "2025年4月7日",
+          "published": "2025/4/7 22:57",
           "paid": false
         },
         {
           "title": "［社説］列島の大動脈止めぬETCに",
           "link": "https://www.nikkei.com/article/DGXZQODK076I90X00C25A4000000/",
-          "published": "2025年4月7日",
+          "published": "2025/4/7 19:00",
           "paid": false
         }
       ]
@@ -126,7 +126,7 @@
         {
           "title": "県内公示地価　被災地域の再建が鍵握る",
           "link": "https://www.niigata-nippo.co.jp/articles/-/586916",
-          "published": "2025/4/7",
+          "published": "2025/4/7 6:00",
           "paid": false
         }
       ]
@@ -212,6 +212,40 @@
           "title": "＜社説＞森友文書開示　全容解明向けた第一歩だ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4128470.html",
           "published": "2025/04/07",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：京都の国保料上げ　運営の安定へ府の責任重い",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1454520",
+          "published": "2025/4/7 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】障害者の雇用　安易な「代行」頼みに懸念",
+          "link": "https://www.nishinippon.co.jp/item/1336313/",
+          "published": "2025/04/07 06:00",
           "paid": false
         }
       ]

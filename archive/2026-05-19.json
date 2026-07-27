@@ -53,7 +53,7 @@
         {
           "title": "社説：皇族数の確保策　「立法府の総意」導けるのか",
           "link": "https://www.kyoto-np.co.jp/articles/-/1716396",
-          "published": "5月19日",
+          "published": "2026/5/19 16:00",
           "paid": false
         }
       ]
@@ -93,13 +93,13 @@
         {
           "title": "［社説］長期金利と円の安定こそ成長持続の道だ",
           "link": "https://www.nikkei.com/article/DGXZQODK194LO0Z10C26A5000000/",
-          "published": "5月19日",
+          "published": "2026/5/19 19:05",
           "paid": false
         },
         {
           "title": "［社説］はしか軽視せず拡大を防げ",
           "link": "https://www.nikkei.com/article/DGXZQOCD1518T0V10C26A5000000/",
-          "published": "5月19日",
+          "published": "2026/5/19 19:00",
           "paid": false
         }
       ]
@@ -156,20 +156,7 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": [
-        {
-          "title": "軽視の政治家、裏金と共通　個人献金の住所表記問題　【論説】",
-          "link": "https://www.chibanippo.co.jp/serial/1442760",
-          "published": "5/19 5:00",
-          "paid": true
-        },
-        {
-          "title": "次代の県都発展へ魅力磨け　来年、千葉開府９００年　【論説】",
-          "link": "https://www.chibanippo.co.jp/serial/1442640",
-          "published": "5/19 5:00",
-          "paid": true
-        }
-      ]
+      "items": []
     },
     {
       "name": "新潟日報",
@@ -183,7 +170,7 @@
         {
           "title": "栃木強殺事件　解明急ぎ匿流の撲滅図れ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/833028",
-          "published": "5/19",
+          "published": "2026/5/19 6:00",
           "paid": false
         }
       ]
@@ -217,19 +204,19 @@
         {
           "title": "社説【ポケモン空港】強力な支援を観光復興に",
           "link": "https://www.hokkoku.co.jp/articles/-/2110535",
-          "published": "5/19",
+          "published": "2026/5/19 5:00",
           "paid": true
         },
         {
           "title": "社説【米中会談の成果】「対等な関係」は見果てぬ夢",
           "link": "https://www.hokkoku.co.jp/articles/-/2110534",
-          "published": "5/19",
+          "published": "2026/5/19 5:00",
           "paid": true
         },
         {
           "title": "社説【米中会談の成果】「対等な関係」見果てぬ夢",
           "link": "https://www.hokkoku.co.jp/articles/-/2110414",
-          "published": "5/19",
+          "published": "2026/5/19 5:00",
           "paid": true
         }
       ]

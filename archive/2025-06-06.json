@@ -59,13 +59,13 @@
         {
           "title": "［社説］「減税より賃上げ」で持続的な成長進めよ",
           "link": "https://www.nikkei.com/article/DGXZQODK0696C0W5A600C2000000/",
-          "published": "2025年6月6日",
+          "published": "2025/6/6 19:05",
           "paid": false
         },
         {
           "title": "［社説］民の力で月面進出に再挑戦を",
           "link": "https://www.nikkei.com/article/DGXZQODK065IO0W5A600C2000000/",
-          "published": "2025年6月6日",
+          "published": "2025/6/6 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "ＮＳＴ所得隠し　全容解明し信頼回復図れ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/621693",
-          "published": "2025/6/6",
+          "published": "2025/6/6 6:00",
           "paid": false
         }
       ]
@@ -246,6 +246,46 @@
           "title": "＜社説＞平和教育アンケート　体系的平和学習の充実を",
           "link": "https://ryukyushimpo.jp/editorial/entry-4306347.html",
           "published": "2025/06/06",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：出生数最少　人口減を前提に議論を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1490123",
+          "published": "2025/6/6 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：公安の違法捜査　「捏造」の病巣検証せよ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1490126",
+          "published": "2025/6/6 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】水俣病の誤表記　風化させぬ教育の強化を",
+          "link": "https://www.nishinippon.co.jp/item/1360422/",
+          "published": "2025/06/06 06:00",
           "paid": false
         }
       ]

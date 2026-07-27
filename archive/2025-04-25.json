@@ -53,13 +53,13 @@
         {
           "title": "［社説］米国は政策への不安払拭し為替の安定を",
           "link": "https://www.nikkei.com/article/DGXZQODK257B80V20C25A4000000/",
-          "published": "2025年4月25日",
+          "published": "2025/4/25 19:05",
           "paid": false
         },
         {
           "title": "［社説］巨額赤字の日産は再生を急げ",
           "link": "https://www.nikkei.com/article/DGXZQODK255R40V20C25A4000000/",
-          "published": "2025年4月25日",
+          "published": "2025/4/25 19:00",
           "paid": false
         }
       ]
@@ -137,7 +137,7 @@
         {
           "title": "日本郵便不祥事　法令順守意識が低すぎる",
           "link": "https://www.niigata-nippo.co.jp/articles/-/597545",
-          "published": "2025/4/25",
+          "published": "2025/4/25 6:00",
           "paid": false
         }
       ]
@@ -240,6 +240,46 @@
           "title": "＜社説＞米兵女性暴行続発　海兵隊削減で性暴力防げ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4183427.html",
           "published": "2025/04/25",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：尼崎事故２０年　不断の対策で風化防げ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1465701",
+          "published": "2025/4/25 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：ローマ教皇死去　分断に渡す橋、刻みたい",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1465709",
+          "published": "2025/4/25 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】党首討論　国民の耳目集める論戦に",
+          "link": "https://www.nishinippon.co.jp/item/1343791/",
+          "published": "2025/04/25 06:00",
           "paid": false
         }
       ]

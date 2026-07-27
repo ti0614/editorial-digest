@@ -53,13 +53,13 @@
         {
           "title": "［社説］逆風下でも家計の資産形成は長い目で",
           "link": "https://www.nikkei.com/article/DGXZQODK106F80Q5A410C2000000/",
-          "published": "2025年4月13日",
+          "published": "2025/4/13 19:05",
           "paid": false
         },
         {
           "title": "［社説］女性起業家への壁を取り払え",
           "link": "https://www.nikkei.com/article/DGXZQODK10DDJ0Q5A410C2000000/",
-          "published": "2025年4月13日",
+          "published": "2025/4/13 19:00",
           "paid": false
         }
       ]
@@ -103,7 +103,7 @@
         {
           "title": "大阪・関西万博開幕　混乱起きないよう万全に",
           "link": "https://www.niigata-nippo.co.jp/articles/-/590473",
-          "published": "2025/4/13",
+          "published": "2025/4/13 6:00",
           "paid": false
         }
       ]
@@ -206,6 +206,40 @@
           "title": "＜社説＞サイバー法案衆院通過　恣意的な運用に歯止めを",
           "link": "https://ryukyushimpo.jp/editorial/entry-4148410.html",
           "published": "2025/04/13",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：訪問介護の危機　担い手の待遇改善が急務だ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1458396",
+          "published": "2025/4/13 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】ハラスメント対策　条例生かし被害をなくせ",
+          "link": "https://www.nishinippon.co.jp/item/1338854/",
+          "published": "2025/04/13 06:00",
           "paid": false
         }
       ]

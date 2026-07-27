@@ -53,13 +53,13 @@
         {
           "title": "［社説］首相と企業は「変化への期待」を裏切るな",
           "link": "https://www.nikkei.com/article/DGXZQODK274580X21C25A0000000/",
-          "published": "2025年10月27日",
+          "published": "2025/10/27 19:05",
           "paid": false
         },
         {
           "title": "［社説］高市政権は東南アジア外交をさらに前へ",
           "link": "https://www.nikkei.com/article/DGXZQODK276DF0X21C25A0000000/",
-          "published": "2025年10月27日",
+          "published": "2025/10/27 19:00",
           "paid": false
         }
       ]
@@ -120,7 +120,7 @@
         {
           "title": "コメ再び減産へ　生産現場の混乱避けねば",
           "link": "https://www.niigata-nippo.co.jp/articles/-/716314",
-          "published": "2025/10/27",
+          "published": "2025/10/27 6:00",
           "paid": false
         }
       ]
@@ -154,13 +154,13 @@
         {
           "title": "社説【輪島、香川の交流】漆芸高める協力の深化を",
           "link": "https://www.hokkoku.co.jp/articles/-/1909901",
-          "published": "10/27",
+          "published": "2025/10/27 5:00",
           "paid": true
         },
         {
           "title": "社説【北陸の陸上養殖】漁業振興の新たな活力に",
           "link": "https://www.hokkoku.co.jp/articles/-/1909900",
-          "published": "10/27",
+          "published": "2025/10/27 5:00",
           "paid": true
         }
       ]
@@ -246,6 +246,40 @@
           "title": "＜社説＞国会議員定数削減　多様な民意切り捨てるな",
           "link": "https://ryukyushimpo.jp/editorial/entry-4723062.html",
           "published": "2025/10/27",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：増える「無人駅」　安全確保の手立ては十分か",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1588606",
+          "published": "2025/10/27 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】長生炭鉱の遺骨　政府は収容と返還に動け",
+          "link": "https://www.nishinippon.co.jp/item/1416040/",
+          "published": "2025/10/27 06:00",
           "paid": false
         }
       ]

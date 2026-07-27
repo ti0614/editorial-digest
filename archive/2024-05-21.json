@@ -73,7 +73,7 @@
         {
           "title": "台湾新総統就任　対話通して平和的共存を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/408738",
-          "published": "2024/5/21",
+          "published": "2024/5/21 6:00",
           "paid": false
         }
       ]
@@ -176,6 +176,23 @@
           "title": "＜社説＞子どもの権利条約30年　子どものための県計画を",
           "link": "https://ryukyushimpo.jp/editorial/entry-3104821.html",
           "published": "2024/05/21",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】米臨界前実験　「核なき世界」口先だけか",
+          "link": "https://www.nishinippon.co.jp/item/1213386/",
+          "published": "2024/05/21 06:00",
           "paid": false
         }
       ]

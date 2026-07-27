@@ -59,13 +59,13 @@
         {
           "title": "［社説］外国人と共生する社会へ骨太の論戦を",
           "link": "https://www.nikkei.com/article/DGXZQODK116IS0R10C25A7000000/",
-          "published": "2025年7月11日",
+          "published": "2025/7/11 19:05",
           "paid": false
         },
         {
           "title": "［社説］AIの成長力映す初のNVIDIA時価総額4兆ドル",
           "link": "https://www.nikkei.com/article/DGXZQODK117FR0R10C25A7000000/",
-          "published": "2025年7月11日",
+          "published": "2025/7/11 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "中川上越市長　繰り返す失言資質を疑う",
           "link": "https://www.niigata-nippo.co.jp/articles/-/647442",
-          "published": "2025/7/11",
+          "published": "2025/7/11 6:00",
           "paid": false
         }
       ]
@@ -263,6 +263,46 @@
           "title": "＜社説＞オスプレイ佐賀配備　政府は南西シフト見直せ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4431174.html",
           "published": "2025/07/11",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：地域の活性化　人口減前提に再設計を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1518699",
+          "published": "2025/7/11 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：災害法制の改正　避難者福祉の強化急げ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1518715",
+          "published": "2025/7/11 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】再審法の改正　政治の責任で成立を急げ",
+          "link": "https://www.nishinippon.co.jp/item/1374908/",
+          "published": "2025/07/11 06:00",
           "paid": false
         }
       ]

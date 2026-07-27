@@ -59,13 +59,13 @@
         {
           "title": "［社説］懸案先送りの国会は将来への責任放棄だ",
           "link": "https://www.nikkei.com/article/DGXZQODK207BC0Q5A620C2000000/",
-          "published": "2025年6月20日",
+          "published": "2025/6/20 19:05",
           "paid": false
         },
         {
           "title": "［社説］FRBは関税の見極め万全に",
           "link": "https://www.nikkei.com/article/DGXZQODK19DFR0Z10C25A6000000/",
-          "published": "2025年6月20日",
+          "published": "2025/6/20 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "イランへの攻撃　米国は参戦してはならぬ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/630066",
-          "published": "2025/6/20",
+          "published": "2025/6/20 6:00",
           "paid": false
         }
       ]
@@ -246,6 +246,46 @@
           "title": "＜社説＞普天間新協議会発足　国は実効性ある対策示せ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4354960.html",
           "published": "2025/06/20",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：米鉄鋼企業買収　自由な経営を保たねば",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1498565",
+          "published": "2025/6/20 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：フリーランス法　勧告を悪弊断つ契機に",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1498553",
+          "published": "2025/6/20 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】出生数最少更新　急速な少子社会に備えよ",
+          "link": "https://www.nishinippon.co.jp/item/1366277/",
+          "published": "2025/06/20 06:00",
           "paid": false
         }
       ]

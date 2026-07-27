@@ -59,13 +59,13 @@
         {
           "title": "［社説］日米結束で中国の宣伝戦に冷静な対処を",
           "link": "https://www.nikkei.com/article/DGXZQODK254PD0V21C25A1000000/",
-          "published": "2025年11月25日",
+          "published": "2025/11/25 19:05",
           "paid": false
         },
         {
           "title": "［社説］ガザ和平決議生かし次へ進め",
           "link": "https://www.nikkei.com/article/DGXZQODK255TF0V21C25A1000000/",
-          "published": "2025年11月25日",
+          "published": "2025/11/25 19:02",
           "paid": false
         }
       ]
@@ -112,20 +112,7 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": [
-        {
-          "title": "選手が安心できる環境守れ　性的画像被害撲滅声明から４年　【論説】",
-          "link": "https://www.chibanippo.co.jp/news/national/1306192",
-          "published": "11/25 5:00",
-          "paid": true
-        },
-        {
-          "title": "歴史と音色、より有効活用を　君津の文化資産「松本ピアノ」　【論説】",
-          "link": "https://www.chibanippo.co.jp/news/local/1306191",
-          "published": "11/25 5:00",
-          "paid": true
-        }
-      ]
+      "items": []
     },
     {
       "name": "新潟日報",
@@ -139,7 +126,7 @@
         {
           "title": "議員定数削減　地方意見の切り捨て懸念",
           "link": "https://www.niigata-nippo.co.jp/articles/-/734122",
-          "published": "2025/11/25",
+          "published": "2025/11/25 6:00",
           "paid": false
         }
       ]
@@ -173,13 +160,13 @@
         {
           "title": "社説【高専練習船の新造】海洋人材の掘り起こしを",
           "link": "https://www.hokkoku.co.jp/articles/-/1939292",
-          "published": "11/25",
+          "published": "2025/11/25 5:00",
           "paid": true
         },
         {
           "title": "社説【不起訴理由の公表】刑事司法の信頼高める一歩",
           "link": "https://www.hokkoku.co.jp/articles/-/1939291",
-          "published": "11/25",
+          "published": "2025/11/25 5:00",
           "paid": true
         }
       ]
@@ -299,6 +286,40 @@
           "title": "＜社説＞導水管破裂で広域断水　水の安全　政府が責任持て",
           "link": "https://ryukyushimpo.jp/editorial/entry-4804658.html",
           "published": "2025/11/25",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：漫画の「ただ読み」　日本文化を脅かす違法行為",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1606338",
+          "published": "2025/11/25 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】再審法の改正　政治主導で早期に成立を",
+          "link": "https://www.nishinippon.co.jp/item/1427210/",
+          "published": "2025/11/25 06:00",
           "paid": false
         }
       ]

@@ -53,13 +53,13 @@
         {
           "title": "［社説］株価6万円は企業に成長の持続力を問う",
           "link": "https://www.nikkei.com/article/DGXZQODK275M20X20C26A4000000/",
-          "published": "4月27日",
+          "published": "2026/4/27 19:24",
           "paid": false
         },
         {
           "title": "［社説］民主主義脅かす米銃撃事件",
           "link": "https://www.nikkei.com/article/DGXZQODK273M80X20C26A4000000/",
-          "published": "4月27日",
+          "published": "2026/4/27 19:23",
           "paid": false
         }
       ]
@@ -103,7 +103,7 @@
         {
           "title": "十分な説明と情報公開を　ＣＯ２地下埋設事業　【論説】",
           "link": "https://www.chibanippo.co.jp/articles/1608223",
-          "published": "4/27 5:00",
+          "published": "2026/4/27 5:00",
           "paid": true
         }
       ]
@@ -120,7 +120,7 @@
         {
           "title": "ＳＮＳ中傷投稿　速やかに拡散防ぐ対策を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/821314",
-          "published": "4/27",
+          "published": "2026/4/27 6:00",
           "paid": false
         }
       ]
@@ -154,13 +154,13 @@
         {
           "title": "社説【内灘大橋を再点灯】夜景生かした地域活性に",
           "link": "https://www.hokkoku.co.jp/articles/-/2089917",
-          "published": "4/27",
+          "published": "2026/4/27 5:00",
           "paid": true
         },
         {
           "title": "社説【自転車のヘルメット】着用は必須の交通ルール",
           "link": "https://www.hokkoku.co.jp/articles/-/2089916",
-          "published": "4/27",
+          "published": "2026/4/27 5:00",
           "paid": true
         }
       ]
@@ -246,6 +246,40 @@
           "title": "＜社説＞NPT再検討会議　核廃絶へ主導的役割を",
           "link": "https://ryukyushimpo.jp/editorial/entry-5214128.html",
           "published": "2026/04/27",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：相次ぐ論文不正　大学、学会は防ぐ体制整えよ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1703375",
+          "published": "2026/4/27 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】高齢者の住まい　1人暮らし支える制度を",
+          "link": "https://www.nishinippon.co.jp/item/1486241/",
+          "published": "2026/04/27 06:00",
           "paid": false
         }
       ]

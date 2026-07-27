@@ -50,7 +50,7 @@
         {
           "title": "日航・海保機衝突　徹底的な原因究明必要だ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/338368",
-          "published": "2024/1/4",
+          "published": "2024/1/4 6:00",
           "paid": false
         }
       ]
@@ -136,6 +136,23 @@
           "title": "＜社説＞日航機、海保機衝突　原因究明し再発防止策を",
           "link": "https://ryukyushimpo.jp/editorial/entry-2651063.html",
           "published": "2024/01/04",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】羽田衝突事故　「空の信頼」揺るがす衝撃",
+          "link": "https://www.nishinippon.co.jp/item/1163869/",
+          "published": "2024/01/04 06:00",
           "paid": false
         }
       ]

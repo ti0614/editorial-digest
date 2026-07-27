@@ -59,13 +59,13 @@
         {
           "title": "［社説］「武器」の輸出は厳格な監視が不可欠だ",
           "link": "https://www.nikkei.com/article/DGXZQODK214YF0R20C26A4000000/",
-          "published": "4月21日",
+          "published": "2026/4/21 19:05",
           "paid": false
         },
         {
           "title": "［社説］後発地震に冷静に備えよう",
           "link": "https://www.nikkei.com/article/DGXZQODK208KX0Q6A420C2000000/",
-          "published": "4月21日",
+          "published": "2026/4/21 19:00",
           "paid": false
         }
       ]
@@ -136,7 +136,7 @@
         {
           "title": "酷暑日追加　高温への警戒を高めたい",
           "link": "https://www.niigata-nippo.co.jp/articles/-/817853",
-          "published": "4/21",
+          "published": "2026/4/21 6:00",
           "paid": false
         }
       ]
@@ -170,13 +170,13 @@
         {
           "title": "社説【被災地のネコ繁殖】早期不妊処置促す教訓に",
           "link": "https://www.hokkoku.co.jp/articles/-/2083366",
-          "published": "4/21",
+          "published": "2026/4/21 5:00",
           "paid": true
         },
         {
           "title": "社説【核のごみ処分場】南鳥島は最有力の候補地",
           "link": "https://www.hokkoku.co.jp/articles/-/2083365",
-          "published": "4/21",
+          "published": "2026/4/21 5:00",
           "paid": true
         }
       ]
@@ -296,6 +296,40 @@
           "title": "＜社説＞米軍の抗議拒否　周辺住民の恐怖　直視せよ",
           "link": "https://ryukyushimpo.jp/editorial/entry-5201845.html",
           "published": "2026/04/21",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：デジタル遺言　簡便で円滑な相続広げたい",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1699768",
+          "published": "2026/4/21 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】雇用均等法40年　性差解消へ制度も意識も",
+          "link": "https://www.nishinippon.co.jp/item/1483976/",
+          "published": "2026/04/21 06:00",
           "paid": false
         }
       ]

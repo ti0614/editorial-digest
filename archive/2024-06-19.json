@@ -67,7 +67,7 @@
         {
           "title": "国の指示権拡大へ　乱用への懸念は拭えない",
           "link": "https://www.niigata-nippo.co.jp/articles/-/425186",
-          "published": "2024/6/19",
+          "published": "2024/6/19 6:00",
           "paid": false
         }
       ]
@@ -170,6 +170,23 @@
           "title": "＜社説＞米海兵隊グアム移転　基地負担軽減は不透明だ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3208655.html",
           "published": "2024/06/19",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】企業・団体献金　教訓生かし全面禁止せよ",
+          "link": "https://www.nishinippon.co.jp/item/1224665/",
+          "published": "2024/06/19 06:00",
           "paid": false
         }
       ]

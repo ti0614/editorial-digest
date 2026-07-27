@@ -73,7 +73,7 @@
         {
           "title": "知床事故２年　教訓胸に再発防止の徹底を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/395397",
-          "published": "2024/4/24",
+          "published": "2024/4/24 6:00",
           "paid": false
         }
       ]
@@ -176,6 +176,23 @@
           "title": "＜社説＞南城市長セクハラ疑惑　市と議会は実態解明せよ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3010388.html",
           "published": "2024/04/24",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】海自ヘリ墜落　捜索と原因究明の徹底を",
+          "link": "https://www.nishinippon.co.jp/item/1204153/",
+          "published": "2024/04/24 06:00",
           "paid": false
         }
       ]

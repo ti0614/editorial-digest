@@ -59,13 +59,13 @@
         {
           "title": "［社説］企業は市場の変化に先手打ち逆風克服を",
           "link": "https://www.nikkei.com/article/DGXZQODK197M50Z11C24A1000000/",
-          "published": "2024年11月19日",
+          "published": "2024/11/19 19:05",
           "paid": false
         },
         {
           "title": "［社説］日米韓の連携強化を止めるな",
           "link": "https://www.nikkei.com/article/DGXZQODK192SF0Z11C24A1000000/",
-          "published": "2024年11月19日",
+          "published": "2024/11/19 19:00",
           "paid": false
         }
       ]
@@ -136,7 +136,7 @@
         {
           "title": "柏崎市長３選　再稼働議論丁寧に進めて",
           "link": "https://www.niigata-nippo.co.jp/articles/-/511732",
-          "published": "2024/11/19",
+          "published": "2024/11/19 6:00",
           "paid": false
         }
       ]
@@ -239,6 +239,23 @@
           "title": "＜社説＞陸自オスプレイ調査　事故はこれからも起こる",
           "link": "https://ryukyushimpo.jp/editorial/entry-3659646.html",
           "published": "2024/11/19",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】日中首脳会談　課題解決へ対話の継続を",
+          "link": "https://www.nishinippon.co.jp/item/1283426/",
+          "published": "2024/11/19 06:00",
           "paid": false
         }
       ]

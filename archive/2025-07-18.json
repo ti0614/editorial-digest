@@ -53,13 +53,13 @@
         {
           "title": "［社説］トランプ関税の難局に国を挙げてあたれ",
           "link": "https://www.nikkei.com/article/DGXZQODK158QO0V10C25A7000000/",
-          "published": "2025年7月18日",
+          "published": "2025/7/18 19:20",
           "paid": false
         },
         {
           "title": "［社説］家族持てる社会へ議論尽くせ",
           "link": "https://www.nikkei.com/article/DGXZQODK143ME0U5A710C2000000/",
-          "published": "2025年7月18日",
+          "published": "2025/7/18 19:00",
           "paid": false
         }
       ]
@@ -137,7 +137,7 @@
         {
           "title": "憲法論議　国の在り方考える機会だ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/652495",
-          "published": "2025/7/18",
+          "published": "2025/7/18 6:00",
           "paid": false
         }
       ]
@@ -257,6 +257,46 @@
           "title": "＜社説＞2025参院選　外国人受け入れ政策　排外主義台頭を危ぐする",
           "link": "https://ryukyushimpo.jp/editorial/entry-4454699.html",
           "published": "2025/07/18",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：滋賀の冤罪賠償　違法捜査の検証不可欠",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1523797",
+          "published": "2025/7/18 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：インフラと財政　優先度を見定め備えを",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1523796",
+          "published": "2025/7/18 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】地方創生　想定超す人口減が前提だ",
+          "link": "https://www.nishinippon.co.jp/item/1377453/",
+          "published": "2025/07/18 06:00",
           "paid": false
         }
       ]

@@ -33,7 +33,7 @@
         {
           "title": "補正予算と野党　今後の連携に不安残した",
           "link": "https://www.niigata-nippo.co.jp/articles/-/321980",
-          "published": "2023/12/3",
+          "published": "2023/12/3 6:00",
           "paid": false
         }
       ]
@@ -119,6 +119,23 @@
           "title": "＜社説＞核禁条約締約国会議　日本は核廃絶を先導せよ",
           "link": "https://ryukyushimpo.jp/editorial/entry-2538122.html",
           "published": "2023/12/03",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】首長のパワハラ　無自覚な言動を自戒せよ",
+          "link": "https://www.nishinippon.co.jp/item/1152902/",
+          "published": "2023/12/03 06:00",
           "paid": false
         }
       ]

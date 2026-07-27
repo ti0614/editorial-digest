@@ -79,7 +79,7 @@
         {
           "title": "フリーランス新法　立場の弱い働き手守ろう",
           "link": "https://www.niigata-nippo.co.jp/articles/-/522418",
-          "published": "2024/12/8",
+          "published": "2024/12/8 6:00",
           "paid": false
         }
       ]
@@ -165,6 +165,23 @@
           "title": "＜社説＞韓国大統領弾劾採決　真相究明し民主政治守れ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3733268.html",
           "published": "2024/12/08",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】政治資金の使途　古びた金銭感覚を改めよ",
+          "link": "https://www.nishinippon.co.jp/item/1290915/",
+          "published": "2024/12/08 06:00",
           "paid": false
         }
       ]

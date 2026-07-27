@@ -59,13 +59,13 @@
         {
           "title": "［社説］イスラエルはガザの飢餓憂う警告を聞け",
           "link": "https://www.nikkei.com/article/DGXZQODK317EU0R30C25A7000000/",
-          "published": "2025年7月31日",
+          "published": "2025/7/31 19:05",
           "paid": false
         },
         {
           "title": "［社説］日銀は物価高の点検予断なく",
           "link": "https://www.nikkei.com/article/DGXZQODK315VB0R30C25A7000000/",
-          "published": "2025年7月31日",
+          "published": "2025/7/31 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "津波警報発令　逃げる意識を徹底したい",
           "link": "https://www.niigata-nippo.co.jp/articles/-/661124",
-          "published": "2025/7/31",
+          "published": "2025/7/31 6:00",
           "paid": false
         }
       ]
@@ -263,6 +263,46 @@
           "title": "＜社説＞ロシア地震で津波　リスク知り万全の備えを",
           "link": "https://ryukyushimpo.jp/editorial/entry-4496882.html",
           "published": "2025/07/31",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：ガソリン減税　責任もって財源確保を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1533179",
+          "published": "2025/7/31 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：中国のスパイ罪　邦人に実刑、認められぬ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1533172",
+          "published": "2025/7/31 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】タイ・カンボジア　停戦合意の履行に努めよ",
+          "link": "https://www.nishinippon.co.jp/item/1382763/",
+          "published": "2025/07/31 06:00",
           "paid": false
         }
       ]

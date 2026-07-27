@@ -59,13 +59,13 @@
         {
           "title": "［社説］中国は対日関係の安定へ具体的行動を",
           "link": "https://www.nikkei.com/article/DGXZQODK245N10U4A221C2000000/",
-          "published": "2024年12月25日",
+          "published": "2024/12/25 19:05",
           "paid": false
         },
         {
           "title": "［社説］AI時代に何を教えるか",
           "link": "https://www.nikkei.com/article/DGXZQOCD259II0V21C24A2000000/",
-          "published": "2024年12月25日",
+          "published": "2024/12/25 19:00",
           "paid": false
         }
       ]
@@ -119,7 +119,7 @@
         {
           "title": "臨時国会閉幕　政治改革の歩み止めるな",
           "link": "https://www.niigata-nippo.co.jp/articles/-/531277",
-          "published": "2024/12/25",
+          "published": "2024/12/25 6:00",
           "paid": false
         }
       ]
@@ -222,6 +222,23 @@
           "title": "＜社説＞政治改革関連法が成立　真の「言論の府」実現を",
           "link": "https://ryukyushimpo.jp/editorial/entry-3800831.html",
           "published": "2024/12/25",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】ホンダと日産　変革期を乗り切る統合に",
+          "link": "https://www.nishinippon.co.jp/item/1297352/",
+          "published": "2024/12/25 06:00",
           "paid": false
         }
       ]

@@ -47,13 +47,13 @@
         {
           "title": "［社説］子育ての不安拭う保育インフラ確保を",
           "link": "https://www.nikkei.com/article/DGXZQODK256LC0V20C25A8000000/",
-          "published": "2025年8月31日",
+          "published": "2025/8/31 19:05",
           "paid": false
         },
         {
           "title": "［社説］国際連携で次代のスパコンに",
           "link": "https://www.nikkei.com/article/DGXZQODK2642J0W5A820C2000000/",
-          "published": "2025年8月31日",
+          "published": "2025/8/31 19:00",
           "paid": false
         }
       ]
@@ -97,7 +97,7 @@
         {
           "title": "洋上風力撤退　導入実現へ戦略練らねば",
           "link": "https://www.niigata-nippo.co.jp/articles/-/679923",
-          "published": "2025/8/31",
+          "published": "2025/8/31 6:00",
           "paid": false
         }
       ]
@@ -217,6 +217,40 @@
           "title": "＜社説＞MQ9無期限配備　無人機の拠点化許されぬ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4573946.html",
           "published": "2025/08/31",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：造林公社の廃止　滋賀の森林管理、再構築を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1552385",
+          "published": "2025/8/31 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】日航機墜落40年　安全の追求に終わりなし",
+          "link": "https://www.nishinippon.co.jp/item/1393948/",
+          "published": "2025/08/31 06:00",
           "paid": false
         }
       ]

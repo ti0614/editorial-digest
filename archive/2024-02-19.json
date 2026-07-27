@@ -73,7 +73,7 @@
         {
           "title": "診療報酬改定　看護師らの処遇改善急げ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/361647",
-          "published": "2024/2/19",
+          "published": "2024/2/19 6:00",
           "paid": false
         }
       ]
@@ -159,6 +159,23 @@
           "title": "＜社説＞少子化対策閣議決定　将来不安の払拭は不十分",
           "link": "https://ryukyushimpo.jp/editorial/entry-2818319.html",
           "published": "2024/02/19",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】Jリーグの転機　開催時期の移行を円滑に",
+          "link": "https://www.nishinippon.co.jp/item/1180311/",
+          "published": "2024/02/19 06:00",
           "paid": false
         }
       ]

@@ -73,7 +73,7 @@
         {
           "title": "自衛隊発足７０年　専守防衛の原点忘れるな",
           "link": "https://www.niigata-nippo.co.jp/articles/-/432597",
-          "published": "2024/7/2",
+          "published": "2024/7/2 6:00",
           "paid": false
         }
       ]
@@ -176,6 +176,23 @@
           "title": "＜社説＞自衛隊発足７０年　専守防衛に徹するべきだ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3242333.html",
           "published": "2024/07/02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】米大統領選討論　両候補とも不安さらした",
+          "link": "https://www.nishinippon.co.jp/item/1229764/",
+          "published": "2024/07/02 06:00",
           "paid": false
         }
       ]

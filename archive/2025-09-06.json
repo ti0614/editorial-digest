@@ -53,13 +53,13 @@
         {
           "title": "［社説］トランプ政権は感染症の司令塔を壊すな",
           "link": "https://www.nikkei.com/article/DGXZQODK055KO0V00C25A9000000/",
-          "published": "2025年9月6日",
+          "published": "2025/9/6 19:05",
           "paid": false
         },
         {
           "title": "［社説］悠仁さま支える皇室の体制を",
           "link": "https://www.nikkei.com/article/DGXZQODK0550Q0V00C25A9000000/",
-          "published": "2025年9月6日",
+          "published": "2025/9/6 19:00",
           "paid": false
         }
       ]
@@ -137,7 +137,7 @@
         {
           "title": "日米関税で署名　打撃最小限にとどめたい",
           "link": "https://www.niigata-nippo.co.jp/articles/-/684357",
-          "published": "2025/9/6",
+          "published": "2025/9/6 6:00",
           "paid": false
         }
       ]
@@ -257,6 +257,40 @@
           "title": "＜社説＞日米島しょ訓練縮小　そもそも必要な訓練か",
           "link": "https://ryukyushimpo.jp/editorial/entry-4589724.html",
           "published": "2025/09/06",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：最も暑い夏　異常気象の日常化に備えを",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1556647",
+          "published": "2025/9/6 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】報道と生成AI　知的財産守る法整備急げ",
+          "link": "https://www.nishinippon.co.jp/item/1396372/",
+          "published": "2025/09/06 06:00",
           "paid": false
         }
       ]

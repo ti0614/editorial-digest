@@ -59,13 +59,13 @@
         {
           "title": "［社説］原発の安全性揺るがす中部電データ不正",
           "link": "https://www.nikkei.com/article/DGXZQODK073R90X00C26A1000000/",
-          "published": "1月7日",
+          "published": "2026/1/7 19:10",
           "paid": false
         },
         {
           "title": "［社説］中国の脅しに冷静な対応を",
           "link": "https://www.nikkei.com/article/DGXZQODK076BY0X00C26A1000000/",
-          "published": "1月7日",
+          "published": "2026/1/7 19:05",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "今年の県内政治　知事選原発への姿勢焦点",
           "link": "https://www.niigata-nippo.co.jp/articles/-/757711",
-          "published": "1/7",
+          "published": "2026/1/7 6:00",
           "paid": false
         }
       ]
@@ -177,13 +177,13 @@
         {
           "title": "社説【災害福祉支援】派遣体制の強化急ぎたい",
           "link": "https://www.hokkoku.co.jp/articles/-/1980003",
-          "published": "1/7",
+          "published": "2026/1/7 5:00",
           "paid": true
         },
         {
           "title": "社説【兼六園県有化】現状維持では対応できぬ",
           "link": "https://www.hokkoku.co.jp/articles/-/1980002",
-          "published": "1/7",
+          "published": "2026/1/7 5:00",
           "paid": true
         }
       ]
@@ -286,6 +286,46 @@
           "title": "＜社説＞26年経済展望　暮らし向上させる施策を",
           "link": "https://ryukyushimpo.jp/editorial/entry-4935784.html",
           "published": "2026/01/07",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：能登地震２年　命と再生支え続けねば",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1631693",
+          "published": "2026/1/7 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：帯状疱疹の予防　ワクチン接種しやすく",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1631695",
+          "published": "2026/1/7 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】米攻撃と日本　同盟国として自制を促せ",
+          "link": "https://www.nishinippon.co.jp/item/1443106/",
+          "published": "2026/01/07 06:00",
           "paid": false
         }
       ]

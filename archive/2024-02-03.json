@@ -73,7 +73,7 @@
         {
           "title": "中東の戦火拡大　報復の連鎖食い止めねば",
           "link": "https://www.niigata-nippo.co.jp/articles/-/354285",
-          "published": "2024/2/3",
+          "published": "2024/2/3 6:00",
           "paid": false
         }
       ]
@@ -176,6 +176,23 @@
           "title": "＜社説＞うるま陸自訓練場計画　「反対」の地元意思尊重を",
           "link": "https://ryukyushimpo.jp/editorial/entry-2765808.html",
           "published": "2024/02/03",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】麻生氏の放言　軽口で済まない女性蔑視",
+          "link": "https://www.nishinippon.co.jp/item/1175031/",
+          "published": "2024/02/03 06:00",
           "paid": false
         }
       ]

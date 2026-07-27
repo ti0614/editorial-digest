@@ -50,7 +50,7 @@
         {
           "title": "株価大幅続伸　好循環へ賃上げを確実に",
           "link": "https://www.niigata-nippo.co.jp/articles/-/344087",
-          "published": "2024/1/15",
+          "published": "2024/1/15 6:00",
           "paid": false
         }
       ]
@@ -136,6 +136,23 @@
           "title": "＜社説＞台湾総統に頼氏　地域の安定へ対話推進を",
           "link": "https://ryukyushimpo.jp/editorial/entry-2692277.html",
           "published": "2024/01/15",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】損保のカルテル　なれ合い体質を一掃せよ",
+          "link": "https://www.nishinippon.co.jp/item/1167600/",
+          "published": "2024/01/15 06:00",
           "paid": false
         }
       ]

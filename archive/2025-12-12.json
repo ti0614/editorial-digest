@@ -59,13 +59,13 @@
         {
           "title": "［社説］泊原発の再稼働を電力安定供給へ生かせ",
           "link": "https://www.nikkei.com/article/DGXZQODK1244C0S5A211C2000000/",
-          "published": "2025年12月12日",
+          "published": "2025/12/12 19:05",
           "paid": false
         },
         {
           "title": "［社説］徹底捜査でトクリュウ壊滅を",
           "link": "https://www.nikkei.com/article/DGXZQODK122Q60S5A211C2000000/",
-          "published": "2025年12月12日",
+          "published": "2025/12/12 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "補正予算成立へ　膨張許した責任野党にも",
           "link": "https://www.niigata-nippo.co.jp/articles/-/744857",
-          "published": "2025/12/12",
+          "published": "2025/12/12 6:00",
           "paid": false
         }
       ]
@@ -177,13 +177,13 @@
         {
           "title": "社説【ボランティアの事故】事例集を安全守る一助に",
           "link": "https://www.hokkoku.co.jp/articles/-/1957563",
-          "published": "12/12",
+          "published": "2025/12/12 5:00",
           "paid": true
         },
         {
           "title": "社説【補正予算成立へ】減税で景気拡大と税収増を",
           "link": "https://www.hokkoku.co.jp/articles/-/1957562",
-          "published": "12/12",
+          "published": "2025/12/12 5:00",
           "paid": true
         }
       ]
@@ -303,6 +303,46 @@
           "title": "＜社説＞米憲兵巡回二重基準　主権ゆがめる運用やめよ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4862471.html",
           "published": "2025/12/12",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：衆院で補正可決　水膨れのまま素通りか",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1616948",
+          "published": "2025/12/12 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：自転車の厳罰化　飲酒で免停、意識向上を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1616947",
+          "published": "2025/12/12 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】官製談合に無罪　見立て固執の捜査改めよ",
+          "link": "https://www.nishinippon.co.jp/item/1434230/",
+          "published": "2025/12/12 06:00",
           "paid": false
         }
       ]

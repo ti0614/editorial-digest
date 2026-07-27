@@ -73,7 +73,7 @@
         {
           "title": "都知事選ポスター　悪用は決して許されない",
           "link": "https://www.niigata-nippo.co.jp/articles/-/431226",
-          "published": "2024/6/29",
+          "published": "2024/6/29 6:00",
           "paid": false
         }
       ]
@@ -176,6 +176,23 @@
           "title": "＜社説＞米兵の性犯罪続発　政府は県民守る責務負え",
           "link": "https://ryukyushimpo.jp/editorial/entry-3240358.html",
           "published": "2024/06/29",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】ハンセン病と人権　誤った医療の記録後世に",
+          "link": "https://www.nishinippon.co.jp/item/1228763/",
+          "published": "2024/06/29 06:00",
           "paid": false
         }
       ]

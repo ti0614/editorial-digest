@@ -53,13 +53,13 @@
         {
           "title": "［社説］不記載議員の「非公認」でけじめは十分か",
           "link": "https://www.nikkei.com/article/DGXZQODK073MR0X01C24A0000000/",
-          "published": "2024年10月7日",
+          "published": "2024/10/7 19:05",
           "paid": false
         },
         {
           "title": "［社説］見つめ直したい読書の意義",
           "link": "https://www.nikkei.com/article/DGXZQODK073ON0X01C24A0000000/",
-          "published": "2024年10月7日",
+          "published": "2024/10/7 19:00",
           "paid": false
         }
       ]
@@ -113,7 +113,7 @@
         {
           "title": "ガザ戦闘１年　窮状から救出一刻も早く",
           "link": "https://www.niigata-nippo.co.jp/articles/-/488352",
-          "published": "2024/10/7",
+          "published": "2024/10/7 6:00",
           "paid": false
         }
       ]
@@ -199,6 +199,23 @@
           "title": "＜社説＞無人艇県内配備へ　基地負担増は許されない",
           "link": "https://ryukyushimpo.jp/editorial/entry-3528930.html",
           "published": "2024/10/07",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】高齢者の就業増　働く意欲支える仕組みに",
+          "link": "https://www.nishinippon.co.jp/item/1266905/",
+          "published": "2024/10/07 06:00",
           "paid": false
         }
       ]

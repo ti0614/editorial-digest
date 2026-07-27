@@ -96,7 +96,7 @@
         {
           "title": "防衛省概算要求　反撃能力の強化は妥当か",
           "link": "https://www.niigata-nippo.co.jp/articles/-/469604",
-          "published": "2024/9/3",
+          "published": "2024/9/3 6:00",
           "paid": false
         }
       ]
@@ -199,6 +199,23 @@
           "title": "＜社説＞健康保険証12月に廃止　強行やめ併用へ転換せよ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3437214.html",
           "published": "2024/09/03",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】中国軍領空侵犯　不測の事態招く危険行為",
+          "link": "https://www.nishinippon.co.jp/item/1254013/",
+          "published": "2024/09/03 06:00",
           "paid": false
         }
       ]

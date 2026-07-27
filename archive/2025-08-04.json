@@ -53,13 +53,13 @@
         {
           "title": "［社説］米統計の信頼奪うトランプ氏の局長解任",
           "link": "https://www.nikkei.com/article/DGXZQODK0481Q0U5A800C2000000/",
-          "published": "2025年8月4日",
+          "published": "2025/8/4 19:20",
           "paid": false
         },
         {
           "title": "［社説］政府は外国人政策の議論急げ",
           "link": "https://www.nikkei.com/article/DGXZQODK286HS0Y5A720C2000000/",
-          "published": "2025年8月4日",
+          "published": "2025/8/4 19:00",
           "paid": false
         }
       ]
@@ -106,14 +106,7 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": [
-        {
-          "title": "災害時の備え再確認を　県内１４年ぶりに津波警報　【論説】",
-          "link": "https://www.chibanippo.co.jp/articles/1478373",
-          "published": "8/4 5:00",
-          "paid": true
-        }
-      ]
+      "items": []
     },
     {
       "name": "新潟日報",
@@ -127,7 +120,7 @@
         {
           "title": "デブリ搬出遅れ　廃炉目標実現できるのか",
           "link": "https://www.niigata-nippo.co.jp/articles/-/663488",
-          "published": "2025/8/4",
+          "published": "2025/8/4 6:00",
           "paid": false
         }
       ]
@@ -230,6 +223,40 @@
           "title": "＜社説＞前川さん再審無罪　冤罪生まぬ制度へ見直せ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4510466.html",
           "published": "2025/08/04",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：祝園の弾薬庫増設　地域住民の理解が不可欠だ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1535510",
+          "published": "2025/8/4 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】日本EUの連携　安定した国際協調の要に",
+          "link": "https://www.nishinippon.co.jp/item/1384306/",
+          "published": "2025/08/04 06:00",
           "paid": false
         }
       ]

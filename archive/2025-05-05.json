@@ -47,13 +47,13 @@
         {
           "title": "［社説］米巨大ITの関税リスク対応に備えを",
           "link": "https://www.nikkei.com/article/DGXZQODK050CY0V00C25A5000000/",
-          "published": "2025年5月5日",
+          "published": "2025/5/5 19:05",
           "paid": false
         },
         {
           "title": "［社説］国スポ改革の議論を深めよ",
           "link": "https://www.nikkei.com/article/DGXZQODK041XV0U5A500C2000000/",
-          "published": "2025年5月5日",
+          "published": "2025/5/5 19:00",
           "paid": false
         }
       ]
@@ -114,7 +114,7 @@
         {
           "title": "こどもの日　地域の将来考える機会に",
           "link": "https://www.niigata-nippo.co.jp/articles/-/602494",
-          "published": "2025/5/5",
+          "published": "2025/5/5 6:00",
           "paid": false
         }
       ]
@@ -200,6 +200,40 @@
           "title": "＜社説＞こどもの日　大人の責務に向き合おう",
           "link": "https://ryukyushimpo.jp/editorial/entry-4207493.html",
           "published": "2025/05/05",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：子どもとＳＮＳ　大人だけでルール決めずに",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1470929",
+          "published": "2025/5/5 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】こどもの日　笑顔で守り育てる社会に",
+          "link": "https://www.nishinippon.co.jp/item/1347359/",
+          "published": "2025/05/05 06:00",
           "paid": false
         }
       ]

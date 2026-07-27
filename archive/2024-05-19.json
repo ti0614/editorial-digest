@@ -50,7 +50,7 @@
         {
           "title": "訪日客好調　本県誘致へ知恵絞りたい",
           "link": "https://www.niigata-nippo.co.jp/articles/-/407753",
-          "published": "2024/5/19",
+          "published": "2024/5/19 6:00",
           "paid": false
         }
       ]
@@ -153,6 +153,23 @@
           "title": "＜社説＞駐日米大使先島視察　地元無視の強行許されぬ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3096871.html",
           "published": "2024/05/19",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】火山本部の発足　人材育て防災力の強化を",
+          "link": "https://www.nishinippon.co.jp/item/1212727/",
+          "published": "2024/05/19 06:00",
           "paid": false
         }
       ]

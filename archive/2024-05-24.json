@@ -73,7 +73,7 @@
         {
           "title": "袴田さん結審　再審制度の改正が不可欠",
           "link": "https://www.niigata-nippo.co.jp/articles/-/410672",
-          "published": "2024/5/24",
+          "published": "2024/5/24 6:00",
           "paid": false
         }
       ]
@@ -176,6 +176,23 @@
           "title": "＜社説＞特定利用空港に反対　軍事化への危機感示した",
           "link": "https://ryukyushimpo.jp/editorial/entry-3118635.html",
           "published": "2024/05/24",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】将来の電源構成　再エネの遅れを直視せよ",
+          "link": "https://www.nishinippon.co.jp/item/1214729/",
+          "published": "2024/05/24 06:00",
           "paid": false
         }
       ]

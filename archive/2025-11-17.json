@@ -59,13 +59,13 @@
         {
           "title": "［社説］米関税に負けぬ内需実現は長期の視点で",
           "link": "https://www.nikkei.com/article/DGXZQODK1767P0X11C25A1000000/",
-          "published": "2025年11月17日",
+          "published": "2025/11/17 19:05",
           "paid": false
         },
         {
           "title": "［社説］「置き配」普及へ懸念解消を",
           "link": "https://www.nikkei.com/article/DGXZQODK1477S0U5A111C2000000/",
-          "published": "2025年11月17日",
+          "published": "2025/11/17 19:00",
           "paid": false
         }
       ]
@@ -126,7 +126,7 @@
         {
           "title": "黒字化目標見直し　健全財政が遠のかないか",
           "link": "https://www.niigata-nippo.co.jp/articles/-/729519",
-          "published": "2025/11/17",
+          "published": "2025/11/17 6:00",
           "paid": false
         }
       ]
@@ -160,13 +160,13 @@
         {
           "title": "社説【「置き配」標準化】消費者の不安解消が優先",
           "link": "https://www.hokkoku.co.jp/articles/-/1931285",
-          "published": "11/17",
+          "published": "2025/11/17 5:00",
           "paid": true
         },
         {
           "title": "社説【「ふるさと住民」制度】被災地から先行モデルを",
           "link": "https://www.hokkoku.co.jp/articles/-/1931284",
-          "published": "11/17",
+          "published": "2025/11/17 5:00",
           "paid": true
         }
       ]
@@ -218,6 +218,40 @@
           "title": "【ガソリン減税】恒久財源を確保する責任",
           "link": "https://www.kochinews.co.jp/article/detail/929986",
           "published": "2025.11.17 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：外国人の日本語教育　国は共生への責任を果たせ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1601107",
+          "published": "2025/11/17 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】園児への虐待　保育の質を高め再発防げ",
+          "link": "https://www.nishinippon.co.jp/item/1424077/",
+          "published": "2025/11/17 06:00",
           "paid": false
         }
       ]

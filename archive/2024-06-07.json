@@ -73,7 +73,7 @@
         {
           "title": "皇族数確保策　見解一致へ丁寧な議論を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/418759",
-          "published": "2024/6/7",
+          "published": "2024/6/7 6:00",
           "paid": false
         }
       ]
@@ -176,6 +176,23 @@
           "title": "＜社説＞県議選きょう告示　投票で沖縄の未来築こう",
           "link": "https://ryukyushimpo.jp/editorial/entry-3168087.html",
           "published": "2024/06/07",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】規正法衆院通過　会期延長し抜本修正せよ",
+          "link": "https://www.nishinippon.co.jp/item/1220262/",
+          "published": "2024/06/07 06:00",
           "paid": false
         }
       ]

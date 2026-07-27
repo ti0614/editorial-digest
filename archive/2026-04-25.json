@@ -59,13 +59,13 @@
         {
           "title": "［社説］ミュトスの脅威から金融守る国際協調を",
           "link": "https://www.nikkei.com/article/DGXZQODK251W60V20C26A4000000/",
-          "published": "4月25日",
+          "published": "2026/4/25 19:05",
           "paid": false
         },
         {
           "title": "［社説］エンタメ輸出育成は長い目で",
           "link": "https://www.nikkei.com/article/DGXZQOCD2462O0U6A420C2000000/",
-          "published": "4月25日",
+          "published": "2026/4/25 19:00",
           "paid": false
         }
       ]
@@ -136,7 +136,7 @@
         {
           "title": "戦車の砲弾破裂　特異な事故原因究明急げ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/820714",
-          "published": "4/25",
+          "published": "2026/4/25 6:00",
           "paid": false
         }
       ]
@@ -170,13 +170,13 @@
         {
           "title": "社説【推奨薬のリスト化】地域医療の質向上に期待",
           "link": "https://www.hokkoku.co.jp/articles/-/2088163",
-          "published": "4/25",
+          "published": "2026/4/25 5:00",
           "paid": true
         },
         {
           "title": "社説【自治体の婚活支援】信頼支えに役割担いたい",
           "link": "https://www.hokkoku.co.jp/articles/-/2088162",
-          "published": "4/25",
+          "published": "2026/4/25 5:00",
           "paid": true
         }
       ]
@@ -296,6 +296,40 @@
           "title": "＜社説＞沖振法見直し提言　「均衡ある発展」が原点だ",
           "link": "https://ryukyushimpo.jp/editorial/entry-5210767.html",
           "published": "2026/04/25",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：高市政権半年　国を過つ独断専行の修正を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1702496",
+          "published": "2026/4/25 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】PFASの規制　安全な水道へ監視強化を",
+          "link": "https://www.nishinippon.co.jp/item/1485770/",
+          "published": "2026/04/25 06:00",
           "paid": false
         }
       ]

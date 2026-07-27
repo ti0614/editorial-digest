@@ -56,7 +56,7 @@
         {
           "title": "ガザ戦闘半年　憎悪と飢餓の拡大止めよ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/386536",
-          "published": "2024/4/7",
+          "published": "2024/4/7 6:00",
           "paid": false
         }
       ]
@@ -142,6 +142,23 @@
           "title": "＜社説＞台湾東部沖地震　一体的地域として対策を",
           "link": "https://ryukyushimpo.jp/editorial/entry-2963468.html",
           "published": "2024/04/07",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】デジタル教材　深い学びにつなぐ工夫を",
+          "link": "https://www.nishinippon.co.jp/item/1198087/",
+          "published": "2024/04/07 06:00",
           "paid": false
         }
       ]

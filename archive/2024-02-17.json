@@ -73,7 +73,7 @@
         {
           "title": "ＧＤＰ４位　成長へ構造改革が急務だ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/361048",
-          "published": "2024/2/17",
+          "published": "2024/2/17 6:00",
           "paid": false
         }
       ]
@@ -176,6 +176,23 @@
           "title": "＜社説＞県政運営方針　危機感を抵抗力に変えよ",
           "link": "https://ryukyushimpo.jp/editorial/entry-2811876.html",
           "published": "2024/02/17",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】自民の裏金調査　身内では核心に迫れない",
+          "link": "https://www.nishinippon.co.jp/item/1179801/",
+          "published": "2024/02/17 06:00",
           "paid": false
         }
       ]

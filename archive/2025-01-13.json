@@ -47,13 +47,13 @@
         {
           "title": "［社説］市販薬の乱用防止対策はピント外れだ",
           "link": "https://www.nikkei.com/article/DGXZQOCD09AL80Z00C25A1000000/",
-          "published": "2025年1月13日",
+          "published": "2025/1/13 19:05",
           "paid": false
         },
         {
           "title": "［社説］「日本の酒」への追い風生かせ",
           "link": "https://www.nikkei.com/article/DGXZQODK274FY0X21C24A2000000/",
-          "published": "2025年1月13日",
+          "published": "2025/1/13 19:00",
           "paid": false
         }
       ]
@@ -107,7 +107,7 @@
         {
           "title": "被団協と首相面会　「核なき世界」へ動く時だ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/538632",
-          "published": "2025/1/13",
+          "published": "2025/1/13 6:00",
           "paid": false
         }
       ]
@@ -193,6 +193,23 @@
           "title": "＜社説＞きょう成人の日　自ら道を切り開く挑戦を",
           "link": "https://ryukyushimpo.jp/editorial/entry-3854595.html",
           "published": "2025/01/13",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】新成人の若者に　政治を諦めず行動しよう",
+          "link": "https://www.nishinippon.co.jp/item/1303071/",
+          "published": "2025/01/13 06:00",
           "paid": false
         }
       ]

@@ -50,7 +50,7 @@
         {
           "title": "規制委命令解除へ　十分な理解に説明足りず",
           "link": "https://www.niigata-nippo.co.jp/articles/-/330973",
-          "published": "2023/12/21",
+          "published": "2023/12/21 6:00",
           "paid": false
         }
       ]
@@ -136,6 +136,23 @@
           "title": "＜社説＞代執行訴訟敗訴　「辺野古唯一」への追随だ",
           "link": "https://ryukyushimpo.jp/editorial/entry-2604977.html",
           "published": "2023/12/21",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】生活保護の減額　国は実態直視し庶民守れ",
+          "link": "https://www.nishinippon.co.jp/item/1159634/",
+          "published": "2023/12/21 06:00",
           "paid": false
         }
       ]

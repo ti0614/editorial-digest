@@ -73,7 +73,7 @@
         {
           "title": "地震臨時情報　終了後も備えを怠らずに",
           "link": "https://www.niigata-nippo.co.jp/articles/-/460067",
-          "published": "2024/8/17",
+          "published": "2024/8/17 6:00",
           "paid": false
         }
       ]
@@ -176,6 +176,23 @@
           "title": "＜社説＞最低賃金の改定　中小企業の支援が必要だ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3375423.html",
           "published": "2024/08/17",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】ふるさと納税　税制と寄付をゆがめるな",
+          "link": "https://www.nishinippon.co.jp/item/1248028/",
+          "published": "2024/08/17 06:00",
           "paid": false
         }
       ]

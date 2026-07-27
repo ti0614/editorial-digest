@@ -53,13 +53,13 @@
         {
           "title": "［社説］国政の停滞回避へ石破首相は進退判断を",
           "link": "https://www.nikkei.com/article/DGXZQODK244FI0U5A720C2000000/",
-          "published": "2025年7月24日",
+          "published": "2025/7/24 19:05",
           "paid": false
         },
         {
           "title": "［社説］クマ被害への対策強化を急げ",
           "link": "https://www.nikkei.com/article/DGXZQODK2455P0U5A720C2000000/",
-          "published": "2025年7月24日",
+          "published": "2025/7/24 19:00",
           "paid": false
         }
       ]
@@ -120,7 +120,7 @@
         {
           "title": "日米関税交渉合意　国益は損なわれないのか",
           "link": "https://www.niigata-nippo.co.jp/articles/-/656124",
-          "published": "2025/7/24",
+          "published": "2025/7/24 6:00",
           "paid": false
         }
       ]
@@ -223,6 +223,46 @@
           "title": "＜社説＞「トランプ関税」合意　国内産業の影響見極めよ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4473769.html",
           "published": "2025/07/24",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：日米関税合意　国益にかなった内容か",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1528063",
+          "published": "2025/7/24 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：福井再審無罪　冤罪救済の法改正急げ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1528072",
+          "published": "2025/7/24 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】日米関税合意　影響見極め有効な対策を",
+          "link": "https://www.nishinippon.co.jp/item/1379790/",
+          "published": "2025/07/24 06:00",
           "paid": false
         }
       ]

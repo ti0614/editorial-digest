@@ -73,7 +73,7 @@
         {
           "title": "オイシックス開幕　ハイレベルの試合楽しみ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/375452",
-          "published": "2024/3/16",
+          "published": "2024/3/16 6:00",
           "paid": false
         }
       ]
@@ -176,6 +176,23 @@
           "title": "＜社説＞南城市文書無断作成　契約解除強要は不誠実だ",
           "link": "https://ryukyushimpo.jp/editorial/entry-2903013.html",
           "published": "2024/03/16",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】参院で政倫審　知らぬ存ぜぬは通らない",
+          "link": "https://www.nishinippon.co.jp/item/1189974/",
+          "published": "2024/03/16 06:00",
           "paid": false
         }
       ]

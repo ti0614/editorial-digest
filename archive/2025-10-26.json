@@ -53,13 +53,13 @@
         {
           "title": "［社説］実質賃金の上昇へ労組は意欲的な要求を",
           "link": "https://www.nikkei.com/article/DGXZQODK246U70U5A021C2000000/",
-          "published": "2025年10月26日",
+          "published": "2025/10/26 19:05",
           "paid": false
         },
         {
           "title": "［社説］デフリンピックを共生の輪に",
           "link": "https://www.nikkei.com/article/DGXZQODK244HT0U5A021C2000000/",
-          "published": "2025年10月26日",
+          "published": "2025/10/26 19:00",
           "paid": false
         }
       ]
@@ -103,7 +103,7 @@
         {
           "title": "死亡事故多発　交通安全は思いやりから",
           "link": "https://www.niigata-nippo.co.jp/articles/-/715935",
-          "published": "2025/10/26",
+          "published": "2025/10/26 6:00",
           "paid": false
         }
       ]
@@ -137,13 +137,13 @@
         {
           "title": "社説【ライチョウの繁殖】保護の機運高める成果を",
           "link": "https://www.hokkoku.co.jp/articles/-/1908918",
-          "published": "10/26",
+          "published": "2025/10/26 5:00",
           "paid": true
         },
         {
           "title": "社説【クマ緊急銃猟】「公務」の位置づけ明確に",
           "link": "https://www.hokkoku.co.jp/articles/-/1908917",
-          "published": "10/26",
+          "published": "2025/10/26 5:00",
           "paid": true
         }
       ]
@@ -246,6 +246,40 @@
           "title": "＜社説＞ＰＦＡＳ国連報告　基地立ち入り調査実現を",
           "link": "https://ryukyushimpo.jp/editorial/entry-4720852.html",
           "published": "2025/10/26",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：残業の緩和検討　働き方改革に逆行しないか",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1588206",
+          "published": "2025/10/26 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】ふるさと納税　「もうけ競争」を冷ます時",
+          "link": "https://www.nishinippon.co.jp/item/1415792/",
+          "published": "2025/10/26 06:00",
           "paid": false
         }
       ]

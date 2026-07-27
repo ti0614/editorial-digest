@@ -59,13 +59,13 @@
         {
           "title": "［社説］政権は危機感を高めて年金改革に臨め",
           "link": "https://www.nikkei.com/article/DGXZQODK092A00Z01C24A2000000/",
-          "published": "2024年12月24日",
+          "published": "2024/12/24 19:05",
           "paid": false
         },
         {
           "title": "［社説］自衛隊の人材確保へ総力を",
           "link": "https://www.nikkei.com/article/DGXZQODK241R90U4A221C2000000/",
-          "published": "2024年12月24日",
+          "published": "2024/12/24 19:00",
           "paid": false
         }
       ]
@@ -119,7 +119,7 @@
         {
           "title": "ホンダ日産統合へ　ＥＶ市場のけん引なるか",
           "link": "https://www.niigata-nippo.co.jp/articles/-/530681",
-          "published": "2024/12/24",
+          "published": "2024/12/24 6:00",
           "paid": false
         }
       ]
@@ -222,6 +222,23 @@
           "title": "＜社説＞ＷＰＳ行動計画の削除　米軍の性暴力除外するな",
           "link": "https://ryukyushimpo.jp/editorial/entry-3796768.html",
           "published": "2024/12/24",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】25年度税制改正　「年収の壁」解消は道半ば",
+          "link": "https://www.nishinippon.co.jp/item/1296929/",
+          "published": "2024/12/24 06:00",
           "paid": false
         }
       ]

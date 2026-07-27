@@ -53,13 +53,13 @@
         {
           "title": "［社説］5年後を待たずに超党派で年金協議を",
           "link": "https://www.nikkei.com/article/DGXZQOCD097GO0Z00C25A6000000/",
-          "published": "2025年6月15日",
+          "published": "2025/6/15 19:05",
           "paid": false
         },
         {
           "title": "［社説］百貨店は追い風頼み脱せよ",
           "link": "https://www.nikkei.com/article/DGXZQODK1372I0T10C25A6000000/",
-          "published": "2025年6月15日",
+          "published": "2025/6/15 19:00",
           "paid": false
         }
       ]
@@ -103,7 +103,7 @@
         {
           "title": "Ｊ１アルビ後半戦　白星重ね降格圏抜け出せ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/626977",
-          "published": "2025/6/15",
+          "published": "2025/6/15 6:00",
           "paid": false
         }
       ]
@@ -206,6 +206,40 @@
           "title": "＜社説＞備蓄米県内販売開始　農業政策を見直す契機に",
           "link": "https://ryukyushimpo.jp/editorial/entry-4334122.html",
           "published": "2025/06/15",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：森友文書の開示　改ざんの闇、解明へつなげよ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1495480",
+          "published": "2025/6/15 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】拘禁刑の導入　再犯の防止につなげたい",
+          "link": "https://www.nishinippon.co.jp/item/1364154/",
+          "published": "2025/06/15 06:00",
           "paid": false
         }
       ]

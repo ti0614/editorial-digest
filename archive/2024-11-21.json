@@ -59,13 +59,13 @@
         {
           "title": "［社説］「米国第一」の高関税政策を深く憂慮する",
           "link": "https://www.nikkei.com/article/DGXZQODK20BY80Q4A121C2000000/",
-          "published": "2024年11月21日",
+          "published": "2024/11/21 19:05",
           "paid": false
         },
         {
           "title": "［社説］看過できない香港の自治破壊",
           "link": "https://www.nikkei.com/article/DGXZQOCD213W80R21C24A1000000/",
-          "published": "2024年11月21日",
+          "published": "2024/11/21 19:00",
           "paid": false
         }
       ]
@@ -136,7 +136,7 @@
         {
           "title": "石破外交が始動　平和と安定に力を尽くせ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/512916",
-          "published": "2024/11/21",
+          "published": "2024/11/21 6:00",
           "paid": false
         }
       ]
@@ -239,6 +239,23 @@
           "title": "＜社説＞宮城島土砂搬出　島を削り基地造る愚行だ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3668288.html",
           "published": "2024/11/21",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】自転車罰則強化　危険な運転なくす契機に",
+          "link": "https://www.nishinippon.co.jp/item/1284256/",
+          "published": "2024/11/21 06:00",
           "paid": false
         }
       ]

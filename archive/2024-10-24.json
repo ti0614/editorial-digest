@@ -59,13 +59,13 @@
         {
           "title": "［社説］時代に即した憲法の姿めぐる議論加速を",
           "link": "https://www.nikkei.com/article/DGXZQODK244KT0U4A021C2000000/",
-          "published": "2024年10月24日",
+          "published": "2024/10/24 19:05",
           "paid": false
         },
         {
           "title": "［社説］インサイダー疑惑の解明急げ",
           "link": "https://www.nikkei.com/article/DGXZQODK246AF0U4A021C2000000/",
-          "published": "2024年10月24日",
+          "published": "2024/10/24 19:00",
           "paid": false
         }
       ]
@@ -136,7 +136,7 @@
         {
           "title": "災害対策　命を守る手だて競い合え",
           "link": "https://www.niigata-nippo.co.jp/articles/-/497314",
-          "published": "2024/10/24",
+          "published": "2024/10/24 6:00",
           "paid": false
         }
       ]
@@ -239,6 +239,23 @@
           "title": "＜社説＞島耕作「辺野古日当」　沖縄傷つける情報拡散だ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3579731.html",
           "published": "2024/10/24",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】沖縄の基地負担　地位協定見直しに道筋を",
+          "link": "https://www.nishinippon.co.jp/item/1273365/",
+          "published": "2024/10/24 06:00",
           "paid": false
         }
       ]

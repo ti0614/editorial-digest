@@ -53,13 +53,13 @@
         {
           "title": "［社説］この米安保戦略で国際秩序は安定するか",
           "link": "https://www.nikkei.com/article/DGXZQODK083GA0Y5A201C2000000/",
-          "published": "2025年12月8日",
+          "published": "2025/12/8 19:05",
           "paid": false
         },
         {
           "title": "［社説］政治の良識欠く定数削減法案",
           "link": "https://www.nikkei.com/article/DGXZQODK0862M0Y5A201C2000000/",
-          "published": "2025年12月8日",
+          "published": "2025/12/8 19:00",
           "paid": false
         }
       ]
@@ -106,20 +106,7 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": [
-        {
-          "title": "疑問への丁寧な説明、発信を　県宿泊税導入へ　【論説】",
-          "link": "https://www.chibanippo.co.jp/serial/1312477",
-          "published": "12/8 5:00",
-          "paid": true
-        },
-        {
-          "title": "かじ取り役選び、冷静活発に　千葉市長選、告示まで３カ月　【論説】",
-          "link": "https://www.chibanippo.co.jp/serial/1312476",
-          "published": "12/8 5:00",
-          "paid": true
-        }
-      ]
+      "items": []
     },
     {
       "name": "新潟日報",
@@ -133,7 +120,7 @@
         {
           "title": "旧姓使用法制化　男女格差解消には不十分",
           "link": "https://www.niigata-nippo.co.jp/articles/-/741813",
-          "published": "2025/12/8",
+          "published": "2025/12/8 6:00",
           "paid": false
         }
       ]
@@ -167,19 +154,19 @@
         {
           "title": "社説【マイナ保険証移行】医療の効率化推進に必須",
           "link": "https://www.hokkoku.co.jp/articles/-/1952794",
-          "published": "12/8",
+          "published": "2025/12/8 5:00",
           "paid": true
         },
         {
           "title": "社説【珠洲に金大新拠点】災害に強い人材育成の場に",
           "link": "https://www.hokkoku.co.jp/articles/-/1952793",
-          "published": "12/8",
+          "published": "2025/12/8 5:00",
           "paid": true
         },
         {
           "title": "社説【珠洲に金大新拠点】災害に強い人材育つ場に",
           "link": "https://www.hokkoku.co.jp/articles/-/1952736",
-          "published": "12/8",
+          "published": "2025/12/8 5:00",
           "paid": true
         }
       ]
@@ -265,6 +252,40 @@
           "title": "＜社説＞開戦84年　戦争しない決意を新たに",
           "link": "https://ryukyushimpo.jp/editorial/entry-4847131.html",
           "published": "2025/12/08",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：シェアハウス支援　地域に合わせ柔軟な拠点に",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1614111",
+          "published": "2025/12/8 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】食の人間国宝　文化の継承と発信の好機",
+          "link": "https://www.nishinippon.co.jp/item/1432357/",
+          "published": "2025/12/08 06:00",
           "paid": false
         }
       ]

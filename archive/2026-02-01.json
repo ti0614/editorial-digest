@@ -59,13 +59,13 @@
         {
           "title": "［社説］力に傾く世界で冷静な安全保障論議を深めよ",
           "link": "https://www.nikkei.com/article/DGXZQODK313O30R30C26A1000000/",
-          "published": "2月1日",
+          "published": "2026/2/1 19:05",
           "paid": false
         },
         {
           "title": "［社説］選挙で混迷脱せぬミャンマー",
           "link": "https://www.nikkei.com/article/DGXZQODK0109Q0R00C26A2000000/",
-          "published": "2月1日",
+          "published": "2026/2/1 19:00",
           "paid": false
         }
       ]
@@ -109,7 +109,7 @@
         {
           "title": "コメ・農業政策　問われる所得向上への道",
           "link": "https://www.niigata-nippo.co.jp/articles/-/772129",
-          "published": "2/1",
+          "published": "2026/2/1 6:00",
           "paid": false
         }
       ]
@@ -143,19 +143,19 @@
         {
           "title": "社説【国立公園の誘客強化】立山、白山アピールの好機",
           "link": "https://www.hokkoku.co.jp/articles/-/2003613",
-          "published": "2/1",
+          "published": "2026/2/1 5:00",
           "paid": true
         },
         {
           "title": "社説【市町村事務の再編】国の動き待たずに検討を",
           "link": "https://www.hokkoku.co.jp/articles/-/2003612",
-          "published": "2/1",
+          "published": "2026/2/1 5:00",
           "paid": true
         },
         {
           "title": "社説【国立公園の誘客強化】白山、立山アピールの好機",
           "link": "https://www.hokkoku.co.jp/articles/-/2003571",
-          "published": "2/1",
+          "published": "2026/2/1 5:00",
           "paid": true
         }
       ]
@@ -258,6 +258,40 @@
           "title": "＜社説＞衆院選2026　物価高・消費税減税　将来に禍根残さぬ論戦を",
           "link": "https://ryukyushimpo.jp/editorial/entry-5003782.html",
           "published": "2026/02/01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：ＳＮＳの選挙情報　発信源を確かめ吟味したい",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1647803",
+          "published": "2026/2/1 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】国民審査　司法に関心を持つ機会に",
+          "link": "https://www.nishinippon.co.jp/item/1452905/",
+          "published": "2026/02/01 06:00",
           "paid": false
         }
       ]

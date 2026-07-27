@@ -73,7 +73,7 @@
         {
           "title": "新型ウイルス　知見生かし備えを万全に",
           "link": "https://www.niigata-nippo.co.jp/articles/-/404787",
-          "published": "2024/5/14",
+          "published": "2024/5/14 6:00",
           "paid": false
         }
       ]
@@ -176,6 +176,23 @@
           "title": "＜社説＞嘉手納に大型無人機　際限ない負担増拒否する",
           "link": "https://ryukyushimpo.jp/editorial/entry-3075000.html",
           "published": "2024/05/14",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】健康食品の制度　「事業者任せ」抜本改善を",
+          "link": "https://www.nishinippon.co.jp/item/1210740/",
+          "published": "2024/05/14 06:00",
           "paid": false
         }
       ]

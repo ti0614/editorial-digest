@@ -50,7 +50,7 @@
         {
           "title": "台湾総統に頼氏　民意尊重し中国は対話を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/344572",
-          "published": "2024/1/16",
+          "published": "2024/1/16 6:00",
           "paid": false
         }
       ]
@@ -153,6 +153,23 @@
           "title": "＜社説＞能登地震関連死増加　助かった命を全力で守れ",
           "link": "https://ryukyushimpo.jp/editorial/entry-2695369.html",
           "published": "2024/01/16",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】台湾総統に頼氏　中国は威圧をやめ対話を",
+          "link": "https://www.nishinippon.co.jp/item/1167932/",
+          "published": "2024/01/16 06:00",
           "paid": false
         }
       ]

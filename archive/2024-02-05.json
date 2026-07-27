@@ -73,7 +73,7 @@
         {
           "title": "避妊処置勧奨　外国人労働者の人権守れ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/354881",
-          "published": "2024/2/5",
+          "published": "2024/2/5 6:00",
           "paid": false
         }
       ]
@@ -159,6 +159,23 @@
           "title": "＜社説＞共同親権導入へ　懸念は払拭されていない",
           "link": "https://ryukyushimpo.jp/editorial/entry-2772467.html",
           "published": "2024/02/05",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】殺傷武器の輸出　議論なき拡大は許されぬ",
+          "link": "https://www.nishinippon.co.jp/item/1175565/",
+          "published": "2024/02/05 06:00",
           "paid": false
         }
       ]

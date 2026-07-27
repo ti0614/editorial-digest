@@ -53,13 +53,13 @@
         {
           "title": "［社説］水田政策の大転換で食料安保を強化せよ",
           "link": "https://www.nikkei.com/article/DGXZQODK145VR0U5A110C2000000/",
-          "published": "2025年1月14日",
+          "published": "2025/1/14 19:05",
           "paid": false
         },
         {
           "title": "［社説］巨大地震の備え絶えず点検を",
           "link": "https://www.nikkei.com/article/DGXZQOCD144CL0U5A110C2000000/",
-          "published": "2025年1月14日",
+          "published": "2025/1/14 19:00",
           "paid": false
         }
       ]
@@ -113,7 +113,7 @@
         {
           "title": "川重と海自の癒着　組織体質の改善徹底的に",
           "link": "https://www.niigata-nippo.co.jp/articles/-/538959",
-          "published": "2025/1/14",
+          "published": "2025/1/14 6:00",
           "paid": false
         }
       ]
@@ -216,6 +216,23 @@
           "title": "＜社説＞メタ真偽検証廃止表明　偽情報抑制に逆行する",
           "link": "https://ryukyushimpo.jp/editorial/entry-3856502.html",
           "published": "2025/01/14",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】公益通報制度　告発者を守る効果高めよ",
+          "link": "https://www.nishinippon.co.jp/item/1303328/",
+          "published": "2025/01/14 06:00",
           "paid": false
         }
       ]

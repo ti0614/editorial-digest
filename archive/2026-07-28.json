@@ -16,17 +16,10 @@
       "category": "論説",
       "tier": "regional",
       "index_url": "https://www.chibanippo.co.jp/serial",
-      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": [
-        {
-          "title": "創造力高め持続可能な街に　千葉国際芸術祭９月から集中展示　【論説】",
-          "link": "https://www.chibanippo.co.jp/articles/1474924",
-          "published": "7/28 5:00",
-          "paid": true
-        }
-      ]
+      "items": []
     }
   ]
 }

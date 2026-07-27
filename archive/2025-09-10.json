@@ -53,13 +53,13 @@
         {
           "title": "［社説］最低賃金引き上げを続けられる環境作れ",
           "link": "https://www.nikkei.com/article/DGXZQODK106OL0Q5A910C2000000/",
-          "published": "2025年9月10日",
+          "published": "2025/9/10 19:05",
           "paid": false
         },
         {
           "title": "［社説］イスラエルのカタール空爆は言語道断だ",
           "link": "https://www.nikkei.com/article/DGXZQODK107OL0Q5A910C2000000/",
-          "published": "2025年9月10日",
+          "published": "2025/9/10 19:00",
           "paid": false
         }
       ]
@@ -137,7 +137,7 @@
         {
           "title": "ＤＮＡ鑑定不正　科学捜査の信頼を損ねた",
           "link": "https://www.niigata-nippo.co.jp/articles/-/686627",
-          "published": "2025/9/10",
+          "published": "2025/9/10 6:00",
           "paid": false
         }
       ]
@@ -257,6 +257,46 @@
           "title": "＜社説＞救急出動件数が増加　適正利用の周知徹底を",
           "link": "https://ryukyushimpo.jp/editorial/entry-4600639.html",
           "published": "2025/09/10",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：過去最高の最賃　地域経済、好循環に結べ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1558960",
+          "published": "2025/9/10 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：城陽に新市長　住みたいまちへ方策を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1558951",
+          "published": "2025/9/10 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】自民党総裁選　古い体質を改める契機に",
+          "link": "https://www.nishinippon.co.jp/item/1397764/",
+          "published": "2025/09/10 06:00",
           "paid": false
         }
       ]

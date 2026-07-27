@@ -59,13 +59,13 @@
         {
           "title": "［社説］財政健全化への努力を止める余裕はない",
           "link": "https://www.nikkei.com/article/DGXZQODK295MP0Z21C24A1000000/",
-          "published": "2024年11月30日",
+          "published": "2024/11/30 19:05",
           "paid": false
         },
         {
           "title": "［社説］金融業のモラルは大丈夫か",
           "link": "https://www.nikkei.com/article/DGXZQODK291KA0Z21C24A1000000/",
-          "published": "2024年11月30日",
+          "published": "2024/11/30 19:00",
           "paid": false
         }
       ]
@@ -136,7 +136,7 @@
         {
           "title": "所信表明演説　首相は言葉通りに実行を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/518201",
-          "published": "2024/11/30",
+          "published": "2024/11/30 6:00",
           "paid": false
         }
       ]
@@ -239,6 +239,23 @@
           "title": "＜社説＞３２軍壕県史跡指定　沖縄戦実相伝える拠点に",
           "link": "https://ryukyushimpo.jp/editorial/entry-3698028.html",
           "published": "2024/11/30",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】少数与党国会　国民に見える法案審議に",
+          "link": "https://www.nishinippon.co.jp/item/1287842/",
+          "published": "2024/11/30 06:00",
           "paid": false
         }
       ]

@@ -53,13 +53,13 @@
         {
           "title": "［社説］トランプ関税は世界経済を壊しかねない",
           "link": "https://www.nikkei.com/article/DGXZQODK146U90U5A210C2000000/",
-          "published": "2025年2月15日",
+          "published": "2025/2/15 19:05",
           "paid": false
         },
         {
           "title": "［社説］高校無償化は質向上と一体で",
           "link": "https://www.nikkei.com/article/DGXZQODK144X40U5A210C2000000/",
-          "published": "2025年2月15日",
+          "published": "2025/2/15 19:00",
           "paid": false
         }
       ]
@@ -130,7 +130,7 @@
         {
           "title": "新潟市予算案　復旧から発展歩み着実に",
           "link": "https://www.niigata-nippo.co.jp/articles/-/556875",
-          "published": "2025/2/15",
+          "published": "2025/2/15 6:00",
           "paid": false
         }
       ]
@@ -233,6 +233,40 @@
           "title": "＜社説＞深刻化する詐欺被害　冷静に甘言の罠見抜こう",
           "link": "https://ryukyushimpo.jp/editorial/entry-3966077.html",
           "published": "2025/02/15",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：大阪・関西万博　安全優先で赤字を防ぐよう",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1423467",
+          "published": "2025/2/15 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】米ロ主導の交渉　ウクライナを軽視するな",
+          "link": "https://www.nishinippon.co.jp/item/1316023/",
+          "published": "2025/02/15 06:00",
           "paid": false
         }
       ]

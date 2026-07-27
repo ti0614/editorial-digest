@@ -47,7 +47,7 @@
         {
           "title": "［社説］危機感を高め高齢化に克つ日本を",
           "link": "https://www.nikkei.com/article/DGXZQODK2718W0X21C25A2000000/",
-          "published": "1月8日",
+          "published": "2026/1/8 19:00",
           "paid": false
         }
       ]
@@ -125,7 +125,7 @@
         {
           "title": "浜岡原発の不正　信頼を覆す深刻な捏造だ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/758300",
-          "published": "1/8",
+          "published": "2026/1/8 6:00",
           "paid": false
         }
       ]
@@ -159,13 +159,13 @@
         {
           "title": "社説【能登空港の改装】ソフトパワー効果に期待",
           "link": "https://www.hokkoku.co.jp/articles/-/1980966",
-          "published": "1/8",
+          "published": "2026/1/8 5:00",
           "paid": true
         },
         {
           "title": "社説【知事のセクハラ】自戒を込め、他山の石に",
           "link": "https://www.hokkoku.co.jp/articles/-/1980965",
-          "published": "1/8",
+          "published": "2026/1/8 5:00",
           "paid": true
         }
       ]
@@ -285,6 +285,46 @@
           "title": "＜社説＞浜岡原発データ捏造　不正招く根本政策改めよ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4938721.html",
           "published": "2026/01/08",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：ＡＩで性的画像　被害、加害防ぐ対策急げ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1632255",
+          "published": "2026/1/8 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：浜岡原発の不正　安全を脅かす「ねつ造」",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1632256",
+          "published": "2026/1/8 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】メガソーラー　乱開発防ぎ有効に活用を",
+          "link": "https://www.nishinippon.co.jp/item/1443488/",
+          "published": "2026/01/08 06:00",
           "paid": false
         }
       ]

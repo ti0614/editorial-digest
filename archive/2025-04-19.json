@@ -59,13 +59,13 @@
         {
           "title": "［社説］Google排除命令を競争促進の契機に",
           "link": "https://www.nikkei.com/article/DGXZQODK1850L0Y5A410C2000000/",
-          "published": "2025年4月19日",
+          "published": "2025/4/19 19:05",
           "paid": false
         },
         {
           "title": "［社説］中央銀行は難局に綿密な対応を",
           "link": "https://www.nikkei.com/article/DGXZQODK18CVR0Y5A410C2000000/",
-          "published": "2025年4月19日",
+          "published": "2025/4/19 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "投票条例案を否決　議会と知事責任より重く",
           "link": "https://www.niigata-nippo.co.jp/articles/-/594288",
-          "published": "2025/4/19",
+          "published": "2025/4/19 6:00",
           "paid": false
         }
       ]
@@ -246,6 +246,40 @@
           "title": "＜社説＞日米関税交渉開始　国民の利益守る主張貫け",
           "link": "https://ryukyushimpo.jp/editorial/entry-4166546.html",
           "published": "2025/04/19",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：虐待対応とＡＩ　専門職の総合判断が前提だ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1462358",
+          "published": "2025/4/19 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】日米交渉開始　包括的合意へ戦略整えよ",
+          "link": "https://www.nishinippon.co.jp/item/1341533/",
+          "published": "2025/04/19 06:00",
           "paid": false
         }
       ]

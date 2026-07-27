@@ -59,13 +59,13 @@
         {
           "title": "［社説］政策の実現へもっと踏み込んだ論戦を",
           "link": "https://www.nikkei.com/article/DGXZQODK2441C0U5A920C2000000/",
-          "published": "2025年9月24日",
+          "published": "2025/9/24 19:05",
           "paid": false
         },
         {
           "title": "［社説］生保の銀行窓販を適正化せよ",
           "link": "https://www.nikkei.com/article/DGXZQODK195W60Z10C25A9000000/",
-          "published": "2025年9月24日",
+          "published": "2025/9/24 19:00",
           "paid": false
         }
       ]
@@ -126,7 +126,7 @@
         {
           "title": "防衛力強化報告書　緊張を高める懸念拭えぬ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/695479",
-          "published": "2025/9/24",
+          "published": "2025/9/24 6:00",
           "paid": false
         }
       ]
@@ -160,13 +160,13 @@
         {
           "title": "社説【竜巻注意情報】危険意識高め備えたい",
           "link": "https://www.hokkoku.co.jp/articles/-/1876154",
-          "published": "9/24",
+          "published": "2025/9/24 5:00",
           "paid": true
         },
         {
           "title": "社説【防災庁創設】積み残しの課題に道筋を",
           "link": "https://www.hokkoku.co.jp/articles/-/1876153",
-          "published": "9/24",
+          "published": "2025/9/24 5:00",
           "paid": true
         }
       ]
@@ -269,6 +269,40 @@
           "title": "＜社説＞南城市長セクハラ隠蔽　市長は即刻辞職すべきだ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4642906.html",
           "published": "2025/09/24",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：滋賀国スポ開幕　２巡目の意義、改革へ生かせ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1567903",
+          "published": "2025/9/24 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】ストーカー検証　軽視する意識の改革急げ",
+          "link": "https://www.nishinippon.co.jp/item/1402909/",
+          "published": "2025/09/24 06:00",
           "paid": false
         }
       ]

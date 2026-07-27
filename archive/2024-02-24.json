@@ -67,7 +67,7 @@
         {
           "title": "ウクライナ侵攻２年　出口の見えぬ悲劇を憂う",
           "link": "https://www.niigata-nippo.co.jp/articles/-/364282",
-          "published": "2024/2/24",
+          "published": "2024/2/24 6:00",
           "paid": false
         }
       ]
@@ -170,6 +170,23 @@
           "title": "＜社説＞ウクライナ侵攻2年　国際社会協調で停戦導け",
           "link": "https://ryukyushimpo.jp/editorial/entry-2835438.html",
           "published": "2024/02/24",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】ウクライナ2年　結束揺るがす「支援疲れ」",
+          "link": "https://www.nishinippon.co.jp/item/1182187/",
+          "published": "2024/02/24 06:00",
           "paid": false
         }
       ]

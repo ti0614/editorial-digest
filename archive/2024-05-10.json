@@ -73,7 +73,7 @@
         {
           "title": "認知症推計　共生できる社会の実現を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/403029",
-          "published": "2024/5/10",
+          "published": "2024/5/10 6:00",
           "paid": false
         }
       ]
@@ -176,6 +176,23 @@
           "title": "＜社説＞認知症６０年に６４５万人　共生社会の実現が急務だ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3059538.html",
           "published": "2024/05/10",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】川辺川のダム　住民理解得る努力続けよ",
+          "link": "https://www.nishinippon.co.jp/item/1209474/",
+          "published": "2024/05/10 06:00",
           "paid": false
         }
       ]

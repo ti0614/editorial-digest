@@ -47,19 +47,19 @@
         {
           "title": "［社説］中国経済は5%成長でも不安が消えない",
           "link": "https://www.nikkei.com/article/DGXZQODK16CX10W5A110C2000000/",
-          "published": "2025年1月17日",
+          "published": "2025/1/17 19:05",
           "paid": false
         },
         {
           "title": "［社説］カナダ首相辞意が映すG7の難路",
           "link": "https://www.nikkei.com/article/DGXZQODK159YL0V10C25A1000000/",
-          "published": "2025年1月17日",
+          "published": "2025/1/17 19:00",
           "paid": false
         },
         {
           "title": "［社説］阪神大震災30年の教訓を次に生かそう",
           "link": "https://www.nikkei.com/article/DGXZQODK167KW0W5A110C2000000/",
-          "published": "2025年1月17日",
+          "published": "2025/1/17 0:00",
           "paid": false
         }
       ]
@@ -113,7 +113,7 @@
         {
           "title": "阪神大震災３０年　防災意識さらに高めたい",
           "link": "https://www.niigata-nippo.co.jp/articles/-/540868",
-          "published": "2025/1/17",
+          "published": "2025/1/17 6:00",
           "paid": false
         }
       ]
@@ -216,6 +216,40 @@
           "title": "＜社説＞阪神・淡路大震災30年　教訓忘れず災害に備えを",
           "link": "https://ryukyushimpo.jp/editorial/entry-3867981.html",
           "published": "2025/01/17",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：阪神大震災３０年　京滋でも「事前復興」の議論を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1406537",
+          "published": "2025/1/17 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】阪神大震災30年　命守る教訓未来へつなぐ",
+          "link": "https://www.nishinippon.co.jp/item/1304642/",
+          "published": "2025/01/17 06:00",
           "paid": false
         }
       ]

@@ -47,13 +47,13 @@
         {
           "title": "［社説］米民主主義の信頼保つ円滑な政権移行を",
           "link": "https://www.nikkei.com/article/DGXZQODK074KD0X01C24A1000000/",
-          "published": "2024年11月7日",
+          "published": "2024/11/7 19:05",
           "paid": false
         },
         {
           "title": "［社説］ずさんな補正予算を猛省せよ",
           "link": "https://www.nikkei.com/article/DGXZQODK064HC0W4A101C2000000/",
-          "published": "2024年11月7日",
+          "published": "2024/11/7 19:00",
           "paid": false
         }
       ]
@@ -107,7 +107,7 @@
         {
           "title": "トランプ氏勝利　分断あおらず安定に力を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/505342",
-          "published": "2024/11/7",
+          "published": "2024/11/7 6:00",
           "paid": false
         }
       ]
@@ -210,6 +210,23 @@
           "title": "＜社説＞大統領再びトランプ氏　米社会の分断解消目指せ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3623977.html",
           "published": "2024/11/07",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】トランプ氏再選　米国の分断加速を危ぶむ",
+          "link": "https://www.nishinippon.co.jp/item/1278925/",
+          "published": "2024/11/07 06:00",
           "paid": false
         }
       ]

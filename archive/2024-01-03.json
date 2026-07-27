@@ -50,7 +50,7 @@
         {
           "title": "能登半島地震　一刻も早く人命救わねば",
           "link": "https://www.niigata-nippo.co.jp/articles/-/337766",
-          "published": "2024/1/3",
+          "published": "2024/1/3 6:00",
           "paid": false
         }
       ]
@@ -136,6 +136,23 @@
           "title": "＜社説＞能登半島地震　被災者支援の拡充を急げ",
           "link": "https://ryukyushimpo.jp/editorial/entry-2646630.html",
           "published": "2024/01/03",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】能登半島地震　被災者の救援に全力注げ",
+          "link": "https://www.nishinippon.co.jp/item/1163604/",
+          "published": "2024/01/03 06:00",
           "paid": false
         }
       ]

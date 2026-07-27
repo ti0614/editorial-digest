@@ -56,7 +56,7 @@
         {
           "title": "新潟地震６０年　命を守るため備え怠らず",
           "link": "https://www.niigata-nippo.co.jp/articles/-/423496",
-          "published": "2024/6/16",
+          "published": "2024/6/16 6:00",
           "paid": false
         }
       ]
@@ -159,6 +159,23 @@
           "title": "＜社説＞県議選きょう投開票　投票で沖縄の未来決める",
           "link": "https://ryukyushimpo.jp/editorial/entry-3196973.html",
           "published": "2024/06/16",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】国立大の授業料　値上げで進学機会奪うな",
+          "link": "https://www.nishinippon.co.jp/item/1223596/",
+          "published": "2024/06/16 06:00",
           "paid": false
         }
       ]

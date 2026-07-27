@@ -59,13 +59,13 @@
         {
           "title": "［社説］市場の規律で強い新興企業を育てたい",
           "link": "https://www.nikkei.com/article/DGXZQODK3170Z0R30C26A3000000/",
-          "published": "3月31日",
+          "published": "2026/3/31 19:05",
           "paid": false
         },
         {
           "title": "［社説］AI世代の若い感性生かそう",
           "link": "https://www.nikkei.com/article/DGXZQODK313PI0R30C26A3000000/",
-          "published": "3月31日",
+          "published": "2026/3/31 19:00",
           "paid": false
         }
       ]
@@ -129,20 +129,7 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": [
-        {
-          "title": "自宅で生活、十分備蓄を　富士山噴火に伴う対策指針　【論説】",
-          "link": "https://www.chibanippo.co.jp/serial/1420735",
-          "published": "3/31 5:00",
-          "paid": true
-        },
-        {
-          "title": "大人も学べる観光施設に　変わる千葉市動物公園　【論説】",
-          "link": "https://www.chibanippo.co.jp/serial/1420734",
-          "published": "3/31 5:00",
-          "paid": true
-        }
-      ]
+      "items": []
     },
     {
       "name": "新潟日報",
@@ -156,7 +143,7 @@
         {
           "title": "自転車への青切符　新制度の周知を急がねば",
           "link": "https://www.niigata-nippo.co.jp/articles/-/806075",
-          "published": "3/31",
+          "published": "2026/3/31 6:00",
           "paid": false
         }
       ]
@@ -190,13 +177,13 @@
         {
           "title": "社説【山野県政が始動】復興が問うトップの力量",
           "link": "https://www.hokkoku.co.jp/articles/-/2062300",
-          "published": "3/31",
+          "published": "2026/3/31 5:00",
           "paid": true
         },
         {
           "title": "社説【長射程ミサイル】配備急ぎ抑止力の強化を",
           "link": "https://www.hokkoku.co.jp/articles/-/2062299",
-          "published": "3/31",
+          "published": "2026/3/31 5:00",
           "paid": true
         }
       ]
@@ -316,6 +303,40 @@
           "title": "＜社説＞イラン攻撃長期化懸念　始めた側が戦闘停止せよ",
           "link": "https://ryukyushimpo.jp/editorial/entry-5159494.html",
           "published": "2026/03/31",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：イラン攻撃１カ月　トランプ氏は停戦決断せよ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1686803",
+          "published": "2026/3/31 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】賃上げ進む春闘　中小企業にも勢い持続を",
+          "link": "https://www.nishinippon.co.jp/item/1476093/",
+          "published": "2026/03/31 06:00",
           "paid": false
         }
       ]

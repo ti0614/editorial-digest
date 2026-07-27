@@ -56,7 +56,7 @@
         {
           "title": "こどもの日　幸せ社会で共に支えよう",
           "link": "https://www.niigata-nippo.co.jp/articles/-/400533",
-          "published": "2024/5/5",
+          "published": "2024/5/5 6:00",
           "paid": false
         }
       ]
@@ -159,6 +159,23 @@
           "title": "＜社説＞こどもの日　子の権利は地域の未来だ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3044418.html",
           "published": "2024/05/05",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】子どもの権利　小さな声に耳を澄まそう",
+          "link": "https://www.nishinippon.co.jp/item/1207802/",
+          "published": "2024/05/05 06:00",
           "paid": false
         }
       ]

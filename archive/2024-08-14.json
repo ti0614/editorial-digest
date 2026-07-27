@@ -73,7 +73,7 @@
         {
           "title": "ふるさと納税　制度の理念見失わぬよう",
           "link": "https://www.niigata-nippo.co.jp/articles/-/458439",
-          "published": "2024/8/14",
+          "published": "2024/8/14 6:00",
           "paid": false
         }
       ]
@@ -176,6 +176,23 @@
           "title": "＜社説＞パリ五輪閉幕　意義問われた「平和の祭典」",
           "link": "https://ryukyushimpo.jp/editorial/entry-3366946.html",
           "published": "2024/08/14",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】パリ五輪閉幕　「選手第一」の原点回帰へ",
+          "link": "https://www.nishinippon.co.jp/item/1246955/",
+          "published": "2024/08/14 06:00",
           "paid": false
         }
       ]

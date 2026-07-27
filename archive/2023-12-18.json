@@ -50,7 +50,7 @@
         {
           "title": "陸自性暴力判決　根絶へ社会変わる契機に",
           "link": "https://www.niigata-nippo.co.jp/articles/-/329215",
-          "published": "2023/12/18",
+          "published": "2023/12/18 6:00",
           "paid": false
         }
       ]
@@ -119,6 +119,23 @@
           "title": "＜社説＞裏金疑惑議員聴取　徹底捜査で全容の解明を",
           "link": "https://ryukyushimpo.jp/editorial/entry-2594529.html",
           "published": "2023/12/18",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】国の指示権拡充　地方分権を逆流させるな",
+          "link": "https://www.nishinippon.co.jp/item/1158393/",
+          "published": "2023/12/18 06:00",
           "paid": false
         }
       ]

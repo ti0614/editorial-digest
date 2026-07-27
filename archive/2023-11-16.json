@@ -50,7 +50,7 @@
         {
           "title": "ガザ病院攻撃　イスラエルは即停止せよ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/313473",
-          "published": "2023/11/16",
+          "published": "2023/11/16 6:00",
           "paid": false
         }
       ]
@@ -136,6 +136,23 @@
           "title": "＜社説＞久高前市議会議長逮捕　議会への信頼失墜した",
           "link": "https://ryukyushimpo.jp/editorial/entry-2480176.html",
           "published": "2023/11/16",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】北朝鮮・帰還事業　「壮大な拉致」司法で裁け",
+          "link": "https://www.nishinippon.co.jp/item/1146631/",
+          "published": "2023/11/16 06:00",
           "paid": false
         }
       ]

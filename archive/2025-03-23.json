@@ -47,13 +47,13 @@
         {
           "title": "［社説］中国は経済対話推進の意志を行動で示せ",
           "link": "https://www.nikkei.com/article/DGXZQOCD1896O0Y5A310C2000000/",
-          "published": "2025年3月23日",
+          "published": "2025/3/23 19:05",
           "paid": false
         },
         {
           "title": "［社説］東電は再建の道筋描き直しを",
           "link": "https://www.nikkei.com/article/DGXZQODK216C40R20C25A3000000/",
-          "published": "2025年3月23日",
+          "published": "2025/3/23 19:00",
           "paid": false
         }
       ]
@@ -97,7 +97,7 @@
         {
           "title": "新幹線連結分離　原因究明し恒久対策図れ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/578522",
-          "published": "2025/3/23",
+          "published": "2025/3/23 6:00",
           "paid": false
         }
       ]
@@ -200,6 +200,40 @@
           "title": "＜社説＞沖縄戦80年　空襲・艦砲射撃開始　沖縄は「防波堤」にあらず",
           "link": "https://ryukyushimpo.jp/editorial/entry-4080460.html",
           "published": "2025/03/23",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：国スポ提言案　抜本改革への掘り下げ必要",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1445286",
+          "published": "2025/3/23 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】ジェンダー平等　身近な固定観念なくそう",
+          "link": "https://www.nishinippon.co.jp/item/1330072/",
+          "published": "2025/03/23 06:00",
           "paid": false
         }
       ]

@@ -59,13 +59,13 @@
         {
           "title": "［社説］社会保障は持続性を高める改革を語れ",
           "link": "https://www.nikkei.com/article/DGXZQODK046FP0U5A700C2000000/",
-          "published": "2025年7月9日",
+          "published": "2025/7/9 19:05",
           "paid": false
         },
         {
           "title": "［社説］社外取締役の機能を上げよ",
           "link": "https://www.nikkei.com/article/DGXZQODK094RH0Z00C25A7000000/",
-          "published": "2025年7月9日",
+          "published": "2025/7/9 19:00",
           "paid": false
         }
       ]
@@ -126,7 +126,7 @@
         {
           "title": "米の対日関税２５％　圧力に屈せず打開策探れ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/645754",
-          "published": "2025/7/9",
+          "published": "2025/7/9 6:00",
           "paid": false
         }
       ]
@@ -246,6 +246,46 @@
           "title": "＜社説＞実質賃金のマイナス　国民生活守る政治の力を",
           "link": "https://ryukyushimpo.jp/editorial/entry-4424016.html",
           "published": "2025/07/09",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：年金改革　暮らしの安全網強めよ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1516778",
+          "published": "2025/7/9 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：教員の性犯罪　手を尽くし子ども守れ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1516769",
+          "published": "2025/7/9 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】エネルギー政策　「原発との共存」描けるか",
+          "link": "https://www.nishinippon.co.jp/item/1373992/",
+          "published": "2025/07/09 06:00",
           "paid": false
         }
       ]

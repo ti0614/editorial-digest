@@ -59,13 +59,13 @@
         {
           "title": "［社説］医療の聖域なき改革へ議論を深めよ",
           "link": "https://www.nikkei.com/article/DGXZQOCD3054E0Q5A031C2000000/",
-          "published": "2025年11月3日",
+          "published": "2025/11/3 19:05",
           "paid": false
         },
         {
           "title": "［社説］新宇宙船は国益見据え活用を",
           "link": "https://www.nikkei.com/article/DGXZQODK315G80R31C25A0000000/",
-          "published": "2025年11月3日",
+          "published": "2025/11/3 19:00",
           "paid": false
         }
       ]
@@ -126,7 +126,7 @@
         {
           "title": "残業規制の緩和　命と健康こそが最優先だ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/721049",
-          "published": "2025/11/3",
+          "published": "2025/11/3 6:00",
           "paid": false
         }
       ]
@@ -160,13 +160,13 @@
         {
           "title": "社説【デフリンピック】共生の在り方考える好機",
           "link": "https://www.hokkoku.co.jp/articles/-/1917656",
-          "published": "11/3",
+          "published": "2025/11/3 5:00",
           "paid": true
         },
         {
           "title": "社説【「尊経閣文庫」展】誘致へ向けた足掛かりに",
           "link": "https://www.hokkoku.co.jp/articles/-/1917655",
-          "published": "11/3",
+          "published": "2025/11/3 5:00",
           "paid": true
         }
       ]
@@ -252,6 +252,40 @@
           "title": "＜社説＞米核兵器実験指示　愚かな軍拡競争つながる",
           "link": "https://ryukyushimpo.jp/editorial/entry-4739572.html",
           "published": "2025/11/03",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：文化の日と読書　スマホ休めて本をめくろう",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1592871",
+          "published": "2025/11/3 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】西日本文化賞　常識に挑む姿こそ豊かさ",
+          "link": "https://www.nishinippon.co.jp/item/1418961/",
+          "published": "2025/11/03 06:00",
           "paid": false
         }
       ]

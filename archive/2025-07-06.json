@@ -59,13 +59,13 @@
         {
           "title": "［社説］トランプ時代の外交・安保の針路探れ",
           "link": "https://www.nikkei.com/article/DGXZQODK041NT0U5A700C2000000/",
-          "published": "2025年7月6日",
+          "published": "2025/7/6 19:05",
           "paid": false
         },
         {
           "title": "［社説］小売り再編はデジタルを軸に",
           "link": "https://www.nikkei.com/article/DGXZQODK0467R0U5A700C2000000/",
-          "published": "2025年7月6日",
+          "published": "2025/7/6 19:00",
           "paid": false
         }
       ]
@@ -109,7 +109,7 @@
         {
           "title": "原発・エネルギー　安全安心の議論避けずに",
           "link": "https://www.niigata-nippo.co.jp/articles/-/643445",
-          "published": "2025/7/6",
+          "published": "2025/7/6 6:00",
           "paid": false
         }
       ]
@@ -229,6 +229,40 @@
           "title": "＜社説＞ピットブル咬傷事故　適正管理へ規制の強化を",
           "link": "https://ryukyushimpo.jp/editorial/entry-4415623.html",
           "published": "2025/07/06",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：ＳＮＳの利用　真偽が混じる情報に注意を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1514139",
+          "published": "2025/7/6 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】日米関税交渉　必要な国内対策も議論を",
+          "link": "https://www.nishinippon.co.jp/item/1372951/",
+          "published": "2025/07/06 06:00",
           "paid": false
         }
       ]

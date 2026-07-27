@@ -53,7 +53,7 @@
         {
           "title": "［社説］多党化時代の民主主義立て直しを",
           "link": "https://www.nikkei.com/article/DGXZQODK020QY0S5A800C2000000/",
-          "published": "2025年8月9日",
+          "published": "2025/8/9 19:00",
           "paid": false
         }
       ]
@@ -131,7 +131,7 @@
         {
           "title": "米が高関税発動　合意の履行を強く求めよ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/667331",
-          "published": "2025/8/9",
+          "published": "2025/8/9 6:00",
           "paid": false
         }
       ]
@@ -251,6 +251,40 @@
           "title": "＜社説＞長崎原爆投下８０年　核なき世界　日本は主導を",
           "link": "https://ryukyushimpo.jp/editorial/entry-4529932.html",
           "published": "2025/08/09",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：米国関税の混乱　日本は即時の修正を迫れ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1539221",
+          "published": "2025/8/9 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】長崎原爆の日　証言を継ぐ責任　私たちに",
+          "link": "https://www.nishinippon.co.jp/item/1386493/",
+          "published": "2025/08/09 06:00",
           "paid": false
         }
       ]

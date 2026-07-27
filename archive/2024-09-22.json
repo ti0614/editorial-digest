@@ -79,7 +79,7 @@
         {
           "title": "中国で男児刺殺　邦人の安全徹底して守れ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/480081",
-          "published": "2024/9/22",
+          "published": "2024/9/22 6:00",
           "paid": false
         }
       ]
@@ -182,6 +182,23 @@
           "title": "＜社説＞日本人男児刺殺　中国は悲劇生まぬ対策を",
           "link": "https://ryukyushimpo.jp/editorial/entry-3487469.html",
           "published": "2024/09/22",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】南西シフト強化　沖縄の不安に目を向けて",
+          "link": "https://www.nishinippon.co.jp/item/1261268/",
+          "published": "2024/09/22 06:00",
           "paid": false
         }
       ]

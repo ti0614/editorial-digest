@@ -59,13 +59,13 @@
         {
           "title": "［社説］ボーイング労使は品質問題を直視せよ",
           "link": "https://www.nikkei.com/article/DGXZQODK1478I0U4A111C2000000/",
-          "published": "2024年11月14日",
+          "published": "2024/11/14 19:05",
           "paid": false
         },
         {
           "title": "［社説］危険運転を根絶する法律に",
           "link": "https://www.nikkei.com/article/DGXZQOCD144HR0U4A111C2000000/",
-          "published": "2024年11月14日",
+          "published": "2024/11/14 19:00",
           "paid": false
         }
       ]
@@ -136,7 +136,7 @@
         {
           "title": "デブリ初回収　廃炉の難しさ浮き彫りに",
           "link": "https://www.niigata-nippo.co.jp/articles/-/509165",
-          "published": "2024/11/14",
+          "published": "2024/11/14 6:00",
           "paid": false
         }
       ]
@@ -239,6 +239,23 @@
           "title": "＜社説＞災害救助法適用困難　県は被災地支援に全力を",
           "link": "https://ryukyushimpo.jp/editorial/entry-3644835.html",
           "published": "2024/11/14",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】新たな対米関係　外交戦略の自律性高めよ",
+          "link": "https://www.nishinippon.co.jp/item/1281604/",
+          "published": "2024/11/14 06:00",
           "paid": false
         }
       ]

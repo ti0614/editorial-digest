@@ -50,7 +50,7 @@
         {
           "title": "アルビＢＢ降格　解体的な出直しが必要だ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/397595",
-          "published": "2024/4/28",
+          "published": "2024/4/28 6:00",
           "paid": false
         }
       ]
@@ -153,6 +153,23 @@
           "title": "＜社説＞「屈辱の日」　対米従属の犠牲にならぬ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3024036.html",
           "published": "2024/04/28",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】ピンチの書店　「本との出合い」守らねば",
+          "link": "https://www.nishinippon.co.jp/item/1205729/",
+          "published": "2024/04/28 06:00",
           "paid": false
         }
       ]

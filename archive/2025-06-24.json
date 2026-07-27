@@ -53,13 +53,13 @@
         {
           "title": "［社説］中東の緊張緩和の機を逃してはならない",
           "link": "https://www.nikkei.com/article/DGXZQODK243VE0U5A620C2000000/",
-          "published": "2025年6月24日",
+          "published": "2025/6/24 19:05",
           "paid": false
         },
         {
           "title": "［社説］冤罪検証は外部の目が必要だ",
           "link": "https://www.nikkei.com/article/DGXZQODK2442Y0U5A620C2000000/",
-          "published": "2025年6月24日",
+          "published": "2025/6/24 19:00",
           "paid": false
         }
       ]
@@ -120,7 +120,7 @@
         {
           "title": "米国のイラン攻撃　関係国に強く自制求める",
           "link": "https://www.niigata-nippo.co.jp/articles/-/633203",
-          "published": "2025/6/24",
+          "published": "2025/6/24 6:00",
           "paid": false
         }
       ]
@@ -223,6 +223,46 @@
           "title": "＜社説＞戦後80年平和宣言　実相歪曲に厳しい姿勢を",
           "link": "https://ryukyushimpo.jp/editorial/entry-4370464.html",
           "published": "2025/06/24",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：沖縄「慰霊の日」　負の歴史、歪めず継承を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1501887",
+          "published": "2025/6/24 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：米のイラン攻撃　戦火広げる危険な加担",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1501892",
+          "published": "2025/6/24 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】米のイラン攻撃　緊張高める大国の身勝手",
+          "link": "https://www.nishinippon.co.jp/item/1367904/",
+          "published": "2025/06/24 06:00",
           "paid": false
         }
       ]

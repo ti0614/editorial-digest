@@ -53,13 +53,13 @@
         {
           "title": "［社説］トランプ関税の一方的な通告は不当だ",
           "link": "https://www.nikkei.com/article/DGXZQODK082N90Y5A700C2000000/",
-          "published": "2025年7月8日",
+          "published": "2025/7/8 19:05",
           "paid": false
         },
         {
           "title": "［社説］国際協調を担うBRICSに",
           "link": "https://www.nikkei.com/article/DGXZQODK086450Y5A700C2000000/",
-          "published": "2025年7月8日",
+          "published": "2025/7/8 19:00",
           "paid": false
         }
       ]
@@ -137,7 +137,7 @@
         {
           "title": "コメ・農業政策　持続への方策が問われる",
           "link": "https://www.niigata-nippo.co.jp/articles/-/644888",
-          "published": "2025/7/8",
+          "published": "2025/7/8 6:00",
           "paid": false
         }
       ]
@@ -257,6 +257,40 @@
           "title": "＜社説＞８平和施設連携シンポ　自分ごとの沖縄戦継承を",
           "link": "https://ryukyushimpo.jp/editorial/entry-4420705.html",
           "published": "2025/07/08",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：関税と日本経済　米頼み見直す産業策を競え",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1515834",
+          "published": "2025/7/8 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】SNSの活用　複数の情報源から投票を",
+          "link": "https://www.nishinippon.co.jp/item/1373554/",
+          "published": "2025/07/08 06:00",
           "paid": false
         }
       ]

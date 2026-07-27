@@ -53,13 +53,13 @@
         {
           "title": "［社説］インテルは米政府出資で再生できるのか",
           "link": "https://www.nikkei.com/article/DGXZQODK297FH0Z20C25A8000000/",
-          "published": "2025年8月29日",
+          "published": "2025/8/29 19:05",
           "paid": false
         },
         {
           "title": "［社説］「政治とカネ」に反省が見えない",
           "link": "https://www.nikkei.com/article/DGXZQODK292BU0Z20C25A8000000/",
-          "published": "2025年8月29日",
+          "published": "2025/8/29 19:00",
           "paid": false
         }
       ]
@@ -137,7 +137,7 @@
         {
           "title": "ガザ「大量虐殺」　非道な攻撃即時にやめよ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/678762",
-          "published": "2025/8/29",
+          "published": "2025/8/29 6:00",
           "paid": false
         }
       ]
@@ -257,6 +257,46 @@
           "title": "＜社説＞維新石井氏強制捜査　不正の根を絶つ議論を",
           "link": "https://ryukyushimpo.jp/editorial/entry-4569318.html",
           "published": "2025/08/29",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：秘書給与詐取　与野党で再発防止図れ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1551229",
+          "published": "2025/8/29 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：洋上風力の撤退　国は事業支援の強化を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1551231",
+          "published": "2025/8/29 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】日本とアフリカ　質の高い成長　共に目指せ",
+          "link": "https://www.nishinippon.co.jp/item/1393172/",
+          "published": "2025/08/29 06:00",
           "paid": false
         }
       ]

@@ -56,7 +56,7 @@
         {
           "title": "裁判官の罷免　表現の在り方議論深めて",
           "link": "https://www.niigata-nippo.co.jp/articles/-/387985",
-          "published": "2024/4/10",
+          "published": "2024/4/10 6:00",
           "paid": false
         }
       ]
@@ -159,6 +159,23 @@
           "title": "＜社説＞米軍のPCB放置問題　日米両政府で処理を急げ",
           "link": "https://ryukyushimpo.jp/editorial/entry-2970431.html",
           "published": "2024/04/10",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】肥薩線復旧へ　鉄道を存続するモデルに",
+          "link": "https://www.nishinippon.co.jp/item/1199034/",
+          "published": "2024/04/10 06:00",
           "paid": false
         }
       ]

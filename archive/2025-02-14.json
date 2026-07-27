@@ -59,13 +59,13 @@
         {
           "title": "［社説］ホンダとの統合破談で急務の日産再建",
           "link": "https://www.nikkei.com/article/DGXZQOCD146A70U5A210C2000000/",
-          "published": "2025年2月14日",
+          "published": "2025/2/14 19:05",
           "paid": false
         },
         {
           "title": "［社説］日米に利となるLNG協力に",
           "link": "https://www.nikkei.com/article/DGXZQOCD1459Z0U5A210C2000000/",
-          "published": "2025年2月14日",
+          "published": "2025/2/14 19:00",
           "paid": false
         }
       ]
@@ -136,7 +136,7 @@
         {
           "title": "原発技術委報告　解釈難しく不安を残した",
           "link": "https://www.niigata-nippo.co.jp/articles/-/556087",
-          "published": "2025/2/14",
+          "published": "2025/2/14 6:00",
           "paid": false
         }
       ]
@@ -239,6 +239,46 @@
           "title": "＜社説＞停戦交渉開始合意　ウクライナの意向尊重を",
           "link": "https://ryukyushimpo.jp/editorial/entry-3962738.html",
           "published": "2025/02/14",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：企業の多様性　遅れた日本は前へ進め",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1422753",
+          "published": "2025/2/14 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：給特法改正案　教員の負担軽減が急務",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1422762",
+          "published": "2025/2/14 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】介護の人手不足　政府は処遇の改善を急げ",
+          "link": "https://www.nishinippon.co.jp/item/1315540/",
+          "published": "2025/02/14 06:00",
           "paid": false
         }
       ]

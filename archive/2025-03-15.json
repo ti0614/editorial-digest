@@ -59,13 +59,13 @@
         {
           "title": "［社説］G7は公正なウクライナ和平へ結束保て",
           "link": "https://www.nikkei.com/article/DGXZQODK146XD0U5A310C2000000/",
-          "published": "2025年3月15日",
+          "published": "2025/3/15 19:05",
           "paid": false
         },
         {
           "title": "［社説］万博の開幕へあらゆる工夫を",
           "link": "https://www.nikkei.com/article/DGXZQODK145QX0U5A310C2000000/",
-          "published": "2025年3月15日",
+          "published": "2025/3/15 19:00",
           "paid": false
         }
       ]
@@ -126,7 +126,7 @@
         {
           "title": "商品券１０万円配布　信じられない首相の感覚",
           "link": "https://www.niigata-nippo.co.jp/articles/-/574226",
-          "published": "2025/3/15",
+          "published": "2025/3/15 6:00",
           "paid": false
         }
       ]
@@ -229,6 +229,40 @@
           "title": "＜社説＞石破首相商品券配布　「政治とカネ」なぜ断てぬ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4052374.html",
           "published": "2025/03/15",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：首相の商品券配布　自民の金権体質またあらわ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1440407",
+          "published": "2025/3/15 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】商品券配布問題　首相の認識は通用しない",
+          "link": "https://www.nishinippon.co.jp/item/1326990/",
+          "published": "2025/03/15 06:00",
           "paid": false
         }
       ]

@@ -73,7 +73,7 @@
         {
           "title": "イラン報復攻撃　中東の安定へ自制求める",
           "link": "https://www.niigata-nippo.co.jp/articles/-/390902",
-          "published": "2024/4/16",
+          "published": "2024/4/16 6:00",
           "paid": false
         }
       ]
@@ -159,6 +159,23 @@
           "title": "＜社説＞イラン、イスラエル報復　日本は連鎖阻止に全力を",
           "link": "https://ryukyushimpo.jp/editorial/entry-2988075.html",
           "published": "2024/04/16",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】政治資金の改革　自民は手ぶらで臨むのか",
+          "link": "https://www.nishinippon.co.jp/item/1201141/",
+          "published": "2024/04/16 06:00",
           "paid": false
         }
       ]

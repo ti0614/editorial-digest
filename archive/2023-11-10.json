@@ -50,7 +50,7 @@
         {
           "title": "岸田首相　求心力低下が避けられぬ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/310552",
-          "published": "2023/11/10",
+          "published": "2023/11/10 6:00",
           "paid": false
         }
       ]
@@ -136,6 +136,23 @@
           "title": "＜社説＞旧統一教会会見　被害者の苦悩に向き合え",
           "link": "https://ryukyushimpo.jp/editorial/entry-2461839.html",
           "published": "2023/11/10",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】不評の経済対策　国民の冷めた目を直視せよ",
+          "link": "https://www.nishinippon.co.jp/item/1144879/",
+          "published": "2023/11/10 06:00",
           "paid": false
         }
       ]

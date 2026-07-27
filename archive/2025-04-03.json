@@ -59,7 +59,7 @@
         {
           "title": "［社説］トランプ関税の愚挙へ戦略早急に",
           "link": "https://www.nikkei.com/article/DGXZQOCD03A870T00C25A4000000/",
-          "published": "2025年4月3日",
+          "published": "2025/4/3 19:00",
           "paid": false
         }
       ]
@@ -137,7 +137,7 @@
         {
           "title": "南海トラフ地震　命を守る減災対策が急務",
           "link": "https://www.niigata-nippo.co.jp/articles/-/585035",
-          "published": "2025/4/3",
+          "published": "2025/4/3 6:00",
           "paid": false
         }
       ]
@@ -240,6 +240,46 @@
           "title": "＜社説＞ヘイト条例初認定　差別的言動抑止の一歩に",
           "link": "https://ryukyushimpo.jp/editorial/entry-4117189.html",
           "published": "2025/04/03",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：ミャンマー地震　内戦止めて救援を急げ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1452435",
+          "published": "2025/4/3 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：赤ちゃんポスト　母子守る法整備、議論を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1452434",
+          "published": "2025/4/3 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】企業・団体献金　禁止に向けて仕切り直せ",
+          "link": "https://www.nishinippon.co.jp/item/1334847/",
+          "published": "2025/04/03 06:00",
           "paid": false
         }
       ]

@@ -67,7 +67,7 @@
         {
           "title": "政倫審開催へ　全面公開し国民に説明を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/365362",
-          "published": "2024/2/27",
+          "published": "2024/2/27 6:00",
           "paid": false
         }
       ]
@@ -170,6 +170,29 @@
           "title": "＜社説＞宝塚パワハラ、謝罪へ　業界全体の改革実現を",
           "link": "https://ryukyushimpo.jp/editorial/entry-2844428.html",
           "published": "2024/02/27",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】株価が最高値　失われた30年に終止符を",
+          "link": "https://www.nishinippon.co.jp/item/1183075/",
+          "published": "2024/02/27 06:00",
+          "paid": false
+        },
+        {
+          "title": "哲学科志望 心配され　聞き書き「青の月光」(6)",
+          "link": "https://www.nishinippon.co.jp/item/1182936/",
+          "published": "2024/02/27 06:00",
           "paid": false
         }
       ]

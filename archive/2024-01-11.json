@@ -50,7 +50,7 @@
         {
           "title": "災害関連死　命落とさぬ対策が急務だ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/342064",
-          "published": "2024/1/11",
+          "published": "2024/1/11 6:00",
           "paid": false
         }
       ]
@@ -136,6 +136,23 @@
           "title": "＜社説＞大浦湾埋め立て着手　政府の暴走、禍根を残す",
           "link": "https://ryukyushimpo.jp/editorial/entry-2677743.html",
           "published": "2024/01/11",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】転機の日本経済　脱デフレで新たな景色へ",
+          "link": "https://www.nishinippon.co.jp/item/1166048/",
+          "published": "2024/01/11 06:00",
           "paid": false
         }
       ]

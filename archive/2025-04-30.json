@@ -53,13 +53,13 @@
         {
           "title": "［社説］日本はASEANにもっと深く関与を",
           "link": "https://www.nikkei.com/article/DGXZQODK306Y70Q5A430C2000000/",
-          "published": "2025年4月30日",
+          "published": "2025/4/30 19:05",
           "paid": false
         },
         {
           "title": "［社説］カナダ新政権はG7立て直せ",
           "link": "https://www.nikkei.com/article/DGXZQODK304ME0Q5A430C2000000/",
-          "published": "2025年4月30日",
+          "published": "2025/4/30 19:00",
           "paid": false
         }
       ]
@@ -120,7 +120,7 @@
         {
           "title": "消費税の減税論　財源の裏付けを明らかに",
           "link": "https://www.niigata-nippo.co.jp/articles/-/599789",
-          "published": "2025/4/30",
+          "published": "2025/4/30 6:00",
           "paid": false
         }
       ]
@@ -223,6 +223,40 @@
           "title": "＜社説＞カスハラの深刻化　先行例を基に対策を急げ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4196001.html",
           "published": "2025/04/30",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：自転車に青切符　ハンドル握る重み自覚して",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1468187",
+          "published": "2025/4/30 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】戦後80年と水俣　繁栄の陰の苦難忘れるな",
+          "link": "https://www.nishinippon.co.jp/item/1345493/",
+          "published": "2025/04/30 06:00",
           "paid": false
         }
       ]

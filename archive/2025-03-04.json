@@ -59,13 +59,13 @@
         {
           "title": "［社説］勝者なき貿易戦争に一刻も早く歯止めを",
           "link": "https://www.nikkei.com/article/DGXZQODK047V90U5A300C2000000/",
-          "published": "2025年3月4日",
+          "published": "2025/3/4 19:05",
           "paid": false
         },
         {
           "title": "［社説］AI新法の実効性が問われる",
           "link": "https://www.nikkei.com/article/DGXZQODK047ST0U5A300C2000000/",
-          "published": "2025年3月4日",
+          "published": "2025/3/4 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "米ウクライナ決裂　関係修復し停戦を目指せ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/566751",
-          "published": "2025/3/4",
+          "published": "2025/3/4 6:00",
           "paid": false
         }
       ]
@@ -246,6 +246,40 @@
           "title": "＜社説＞ミバエで初の緊急防除　全県民で危機感の共有を",
           "link": "https://ryukyushimpo.jp/editorial/entry-4019226.html",
           "published": "2025/03/04",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：米ウ会談決裂　関係修復へ国際社会の力を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1433308",
+          "published": "2025/3/4 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】米ウクライナ決裂　G7の関与で仕切り直せ",
+          "link": "https://www.nishinippon.co.jp/item/1322353/",
+          "published": "2025/03/04 06:00",
           "paid": false
         }
       ]

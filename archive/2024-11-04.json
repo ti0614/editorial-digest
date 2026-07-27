@@ -59,13 +59,13 @@
         {
           "title": "［社説］東証の時間延長を市場活性化の契機に",
           "link": "https://www.nikkei.com/article/DGXZQODK015GM0R01C24A1000000/",
-          "published": "2024年11月4日",
+          "published": "2024/11/4 19:05",
           "paid": false
         },
         {
           "title": "［社説］同性婚の議論を今こそ前へ",
           "link": "https://www.nikkei.com/article/DGXZQODK317H00R31C24A0000000/",
-          "published": "2024年11月4日",
+          "published": "2024/11/4 19:00",
           "paid": false
         }
       ]
@@ -119,7 +119,7 @@
         {
           "title": "アルビルヴァン杯　県民に感動与えた準優勝",
           "link": "https://www.niigata-nippo.co.jp/articles/-/503811",
-          "published": "2024/11/4",
+          "published": "2024/11/4 6:00",
           "paid": false
         }
       ]
@@ -205,6 +205,23 @@
           "title": "＜社説＞米兵家族の撤収提言　沖縄にリスク負わせるな",
           "link": "https://ryukyushimpo.jp/editorial/entry-3616156.html",
           "published": "2024/11/04",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】持続可能な観光　訪日客との共存策探ろう",
+          "link": "https://www.nishinippon.co.jp/item/1277813/",
+          "published": "2024/11/04 06:00",
           "paid": false
         }
       ]

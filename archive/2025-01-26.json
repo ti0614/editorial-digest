@@ -53,13 +53,13 @@
         {
           "title": "［社説］トランプ氏とも日米同盟の価値共有を",
           "link": "https://www.nikkei.com/article/DGXZQODK241VP0U5A120C2000000/",
-          "published": "2025年1月26日",
+          "published": "2025/1/26 19:05",
           "paid": false
         },
         {
           "title": "［社説］公正なルーマニア大統領選に",
           "link": "https://www.nikkei.com/article/DGXZQODK231MM0T20C25A1000000/",
-          "published": "2025年1月26日",
+          "published": "2025/1/26 19:00",
           "paid": false
         }
       ]
@@ -96,7 +96,7 @@
         {
           "title": "春闘スタート　中小の大幅賃上げに期待",
           "link": "https://www.niigata-nippo.co.jp/articles/-/545766",
-          "published": "2025/1/26",
+          "published": "2025/1/26 6:00",
           "paid": false
         }
       ]
@@ -182,6 +182,40 @@
           "title": "＜社説＞地位協定見直し7割　全国に広がる不安直視を",
           "link": "https://ryukyushimpo.jp/editorial/entry-3900649.html",
           "published": "2025/01/26",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：トランプ政権始動　独善的な「黄金時代」を憂う",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1412152",
+          "published": "2025/1/26 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】西日本スポーツ賞　地域との結び付きが力に",
+          "link": "https://www.nishinippon.co.jp/item/1308286/",
+          "published": "2025/01/26 06:00",
           "paid": false
         }
       ]

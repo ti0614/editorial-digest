@@ -50,7 +50,7 @@
         {
           "title": "経済対策　なぜ減税分からぬままだ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/307235",
-          "published": "2023/11/3",
+          "published": "2023/11/3 6:00",
           "paid": false
         }
       ]
@@ -136,6 +136,23 @@
           "title": "＜社説＞軟弱地盤　申請前認識　沖縄欺く行為許されぬ",
           "link": "https://ryukyushimpo.jp/editorial/entry-2439185.html",
           "published": "2023/11/03",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】西日本文化賞　「定点」で続けた努力実る",
+          "link": "https://www.nishinippon.co.jp/item/1142788/",
+          "published": "2023/11/03 06:00",
           "paid": false
         }
       ]

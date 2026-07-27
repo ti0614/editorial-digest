@@ -53,13 +53,13 @@
         {
           "title": "［社説］マイナ保険証の利用移行へ備えを厚く",
           "link": "https://www.nikkei.com/article/DGXZQODK273D70X21C24A1000000/",
-          "published": "2024年11月28日",
+          "published": "2024/11/28 19:05",
           "paid": false
         },
         {
           "title": "［社説］中国は訪問外国人の不安拭え",
           "link": "https://www.nikkei.com/article/DGXZQOCD266FX0W4A121C2000000/",
-          "published": "2024年11月28日",
+          "published": "2024/11/28 19:00",
           "paid": false
         }
       ]
@@ -130,7 +130,7 @@
         {
           "title": "臨時国会召集　合意形成へ活発な議論を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/516891",
-          "published": "2024/11/28",
+          "published": "2024/11/28 6:00",
           "paid": false
         }
       ]
@@ -233,6 +233,23 @@
           "title": "＜社説＞住民投票を求める会　自治再構築の課題残した",
           "link": "https://ryukyushimpo.jp/editorial/entry-3691223.html",
           "published": "2024/11/28",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】COP29合意　温暖化対策へ結束を保て",
+          "link": "https://www.nishinippon.co.jp/item/1286952/",
+          "published": "2024/11/28 06:00",
           "paid": false
         }
       ]

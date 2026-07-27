@@ -59,13 +59,13 @@
         {
           "title": "［社説］防衛装備の輸出拡大へ歯止め議論尽くせ",
           "link": "https://www.nikkei.com/article/DGXZQODK257JC0V21C25A2000000/",
-          "published": "2025年12月27日",
+          "published": "2025/12/27 19:05",
           "paid": false
         },
         {
           "title": "［社説］高額療養費の改革を前に",
           "link": "https://www.nikkei.com/article/DGXZQODK258LM0V21C25A2000000/",
-          "published": "2025年12月27日",
+          "published": "2025/12/27 19:00",
           "paid": false
         }
       ]
@@ -126,7 +126,7 @@
         {
           "title": "政府当初予算案　市場の警鐘受け止めねば",
           "link": "https://www.niigata-nippo.co.jp/articles/-/753996",
-          "published": "2025/12/27",
+          "published": "2025/12/27 6:00",
           "paid": false
         }
       ]
@@ -160,13 +160,13 @@
         {
           "title": "社説【旧姓使用の法制化】改姓の不利益減らせる",
           "link": "https://www.hokkoku.co.jp/articles/-/1973107",
-          "published": "12/27",
+          "published": "2025/12/27 5:00",
           "paid": true
         },
         {
           "title": "社説【９連休の救急医療】混雑回避へできる協力を",
           "link": "https://www.hokkoku.co.jp/articles/-/1973106",
-          "published": "12/27",
+          "published": "2025/12/27 5:00",
           "paid": true
         }
       ]
@@ -286,6 +286,23 @@
           "title": "＜社説＞2026年度予算案　安保文書改定の先取りだ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4907260.html",
           "published": "2025/12/27",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】26年度予算案　膨張の弊害が気がかりだ",
+          "link": "https://www.nishinippon.co.jp/item/1440416/",
+          "published": "2025/12/27 06:00",
           "paid": false
         }
       ]

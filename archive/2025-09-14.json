@@ -47,13 +47,13 @@
         {
           "title": "［社説］金の高騰は世界の複合リスクへの警鐘だ",
           "link": "https://www.nikkei.com/article/DGXZQODK12B620S5A910C2000000/",
-          "published": "2025年9月14日",
+          "published": "2025/9/14 19:05",
           "paid": false
         },
         {
           "title": "［社説］男性育休と職場改革を両輪で",
           "link": "https://www.nikkei.com/article/DGXZQODK114DQ0R10C25A9000000/",
-          "published": "2025年9月14日",
+          "published": "2025/9/14 19:00",
           "paid": false
         }
       ]
@@ -97,7 +97,7 @@
         {
           "title": "介護保険　制度維持へ立て直し早く",
           "link": "https://www.niigata-nippo.co.jp/articles/-/689536",
-          "published": "2025/9/14",
+          "published": "2025/9/14 6:00",
           "paid": false
         }
       ]
@@ -131,19 +131,19 @@
         {
           "title": "社説【井波の観光拠点化】彫刻体験も魅力の一つに",
           "link": "https://www.hokkoku.co.jp/articles/-/1866861",
-          "published": "9/14",
+          "published": "2025/9/14 5:00",
           "paid": true
         },
         {
           "title": "社説【内浦の地盤沈下】安心取り戻せる抜本対策を",
           "link": "https://www.hokkoku.co.jp/articles/-/1866860",
-          "published": "9/14",
+          "published": "2025/9/14 5:00",
           "paid": true
         },
         {
           "title": "社説【内浦の地盤沈下】安心取り戻す抜本対策を",
           "link": "https://www.hokkoku.co.jp/articles/-/1866830",
-          "published": "9/14",
+          "published": "2025/9/14 5:00",
           "paid": true
         }
       ]
@@ -246,6 +246,40 @@
           "title": "＜社説＞和田市議の差別発言　「伝染」撤回と謝罪求める",
           "link": "https://ryukyushimpo.jp/editorial/entry-4613466.html",
           "published": "2025/09/14",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：「小１の壁」対策　朝夕の居場所、一層広げよう",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1561706",
+          "published": "2025/9/14 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】スポーツと酷暑　大会運営見直し選手守れ",
+          "link": "https://www.nishinippon.co.jp/item/1399470/",
+          "published": "2025/09/14 06:00",
           "paid": false
         }
       ]

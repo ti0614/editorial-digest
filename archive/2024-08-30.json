@@ -90,7 +90,7 @@
         {
           "title": "パラ五輪開幕　共生社会への後押し期待",
           "link": "https://www.niigata-nippo.co.jp/articles/-/467534",
-          "published": "2024/8/30",
+          "published": "2024/8/30 6:00",
           "paid": false
         }
       ]
@@ -176,6 +176,23 @@
           "title": "＜社説＞敦賀原発の審査不合格　規制委の判断受け入れよ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3422472.html",
           "published": "2024/08/30",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】長崎の被爆体験者　国は一日も早く救済せよ",
+          "link": "https://www.nishinippon.co.jp/item/1252579/",
+          "published": "2024/08/30 06:00",
           "paid": false
         }
       ]

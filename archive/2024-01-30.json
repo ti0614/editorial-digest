@@ -50,7 +50,7 @@
         {
           "title": "「裏金」集中審議　首相の意気込み伝わらず",
           "link": "https://www.niigata-nippo.co.jp/articles/-/351787",
-          "published": "2024/1/30",
+          "published": "2024/1/30 6:00",
           "paid": false
         }
       ]
@@ -136,6 +136,23 @@
           "title": "＜社説＞離島住民避難へ検討班　平和外交の努力が国益だ",
           "link": "https://ryukyushimpo.jp/editorial/entry-2749990.html",
           "published": "2024/01/30",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】二つの死刑判決　「命」の重さ考え続けたい",
+          "link": "https://www.nishinippon.co.jp/item/1173248/",
+          "published": "2024/01/30 06:00",
           "paid": false
         }
       ]

@@ -50,7 +50,7 @@
         {
           "title": "大麻グミ　実効性ある規制を早急に",
           "link": "https://www.niigata-nippo.co.jp/articles/-/318676",
-          "published": "2023/11/27",
+          "published": "2023/11/27 6:00",
           "paid": false
         }
       ]
@@ -102,6 +102,23 @@
           "title": "＜社説＞浦添市討論文提供　議会の役割否定する行為",
           "link": "https://ryukyushimpo.jp/editorial/entry-2510319.html",
           "published": "2023/11/27",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】派閥の政治資金　透明化へ「ザル法」見直せ",
+          "link": "https://www.nishinippon.co.jp/item/1150414/",
+          "published": "2023/11/27 06:00",
           "paid": false
         }
       ]

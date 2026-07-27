@@ -59,13 +59,13 @@
         {
           "title": "［社説］構造問題を解決する「国家の大計」を語れ",
           "link": "https://www.nikkei.com/article/DGXZQODK0177N0R01C25A0000000/",
-          "published": "2025年10月2日",
+          "published": "2025/10/2 19:05",
           "paid": false
         },
         {
           "title": "［社説］確率で迷わず大地震の備えを",
           "link": "https://www.nikkei.com/article/DGXZQODK296V80Z20C25A9000000/",
-          "published": "2025年10月2日",
+          "published": "2025/10/2 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "秘書給与詐取　繰り返された悪質な事件",
           "link": "https://www.niigata-nippo.co.jp/articles/-/700909",
-          "published": "2025/10/2",
+          "published": "2025/10/2 6:00",
           "paid": false
         }
       ]
@@ -177,13 +177,13 @@
         {
           "title": "社説【自治体の防災訓練】参加広げ備えの底上げを",
           "link": "https://www.hokkoku.co.jp/articles/-/1884788",
-          "published": "10/2",
+          "published": "2025/10/2 5:00",
           "paid": true
         },
         {
           "title": "社説【被災地の犯罪】増加止めねば復興の妨げに",
           "link": "https://www.hokkoku.co.jp/articles/-/1884787",
-          "published": "10/2",
+          "published": "2025/10/2 5:00",
           "paid": true
         }
       ]
@@ -286,6 +286,46 @@
           "title": "＜社説＞オスプレイ生産停止　欠陥機の運用即時止めよ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4663428.html",
           "published": "2025/10/02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：ガザ和平案　停戦と人道の保障こそ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1573419",
+          "published": "2025/10/2 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：校内カメラ設置　丁寧な議論欠かせない",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1573416",
+          "published": "2025/10/2 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】外国人との共生　排除すべきは偏見と誤解",
+          "link": "https://www.nishinippon.co.jp/item/1406323/",
+          "published": "2025/10/02 06:00",
           "paid": false
         }
       ]

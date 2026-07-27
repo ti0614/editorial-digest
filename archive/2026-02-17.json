@@ -59,7 +59,7 @@
         {
           "title": "［社説］社会保障の危機から目を背けるな",
           "link": "https://www.nikkei.com/article/DGXZQODK163000W6A210C2000000/",
-          "published": "2月17日",
+          "published": "2026/2/17 19:00",
           "paid": false
         }
       ]
@@ -123,20 +123,7 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": [
-        {
-          "title": "有権者参加で慎重な議論を　選挙期間中のＳＮＳ対策　【論説】",
-          "link": "https://www.chibanippo.co.jp/serial/1401670",
-          "published": "2/17 5:00",
-          "paid": true
-        },
-        {
-          "title": "安心して頼れる教育現場に　小中高生の自殺最多　【論説】",
-          "link": "https://www.chibanippo.co.jp/serial/1401669",
-          "published": "2/17 5:00",
-          "paid": true
-        }
-      ]
+      "items": []
     },
     {
       "name": "新潟日報",
@@ -150,7 +137,7 @@
         {
           "title": "危険運転に基準　悪質事故をなくす契機に",
           "link": "https://www.niigata-nippo.co.jp/articles/-/780929",
-          "published": "2/17",
+          "published": "2026/2/17 6:00",
           "paid": false
         }
       ]
@@ -184,19 +171,19 @@
         {
           "title": "社説【圧力緩めぬ中国】効果無い宣伝戦いつまで",
           "link": "https://www.hokkoku.co.jp/articles/-/2018915",
-          "published": "2/17",
+          "published": "2026/2/17 5:00",
           "paid": true
         },
         {
           "title": "社説【県議会「定数増」】被災地復興へ責任増した",
           "link": "https://www.hokkoku.co.jp/articles/-/2018914",
-          "published": "2/17",
+          "published": "2026/2/17 5:00",
           "paid": true
         },
         {
           "title": "社説【石川県議会「定数増」】被災地復興へ責任増した",
           "link": "https://www.hokkoku.co.jp/articles/-/2018808",
-          "published": "2/17",
+          "published": "2026/2/17 5:00",
           "paid": true
         }
       ]
@@ -316,6 +303,40 @@
           "title": "＜社説＞芸大ハラスメント問題　透明性確保が求められる",
           "link": "https://ryukyushimpo.jp/editorial/entry-5041938.html",
           "published": "2026/02/17",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：退職代行サービス　違法な実態解明し、再発防げ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1659530",
+          "published": "2026/2/17 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】首相の財政運営　健全化の責任を忘れるな",
+          "link": "https://www.nishinippon.co.jp/item/1459145/",
+          "published": "2026/02/17 06:00",
           "paid": false
         }
       ]

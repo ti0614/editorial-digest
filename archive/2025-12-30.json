@@ -53,13 +53,13 @@
         {
           "title": "［社説］株価5万円の期待に背かぬ変革続けよ",
           "link": "https://www.nikkei.com/article/DGXZQODK301PW0Q5A231C2000000/",
-          "published": "2025年12月30日",
+          "published": "2025/12/30 19:15",
           "paid": false
         },
         {
           "title": "［社説］中国は武力の威嚇より対話を",
           "link": "https://www.nikkei.com/article/DGXZQODK300MJ0Q5A231C2000000/",
-          "published": "2025年12月30日",
+          "published": "2025/12/30 19:10",
           "paid": false
         }
       ]
@@ -106,20 +106,7 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": [
-        {
-          "title": "努力義務の意味を考えて　低い自転車ヘルメット着用率　【論説】",
-          "link": "https://www.chibanippo.co.jp/serial/1321982",
-          "published": "12/30 5:00",
-          "paid": true
-        },
-        {
-          "title": "水の質保証へ対応徹底を　ＰＦＡＳ検査・改善義務化　【論説】",
-          "link": "https://www.chibanippo.co.jp/serial/1321981",
-          "published": "12/30 5:00",
-          "paid": true
-        }
-      ]
+      "items": []
     },
     {
       "name": "新潟日報",
@@ -133,7 +120,7 @@
         {
           "title": "能登半島地震　なりわいの再建急ぎたい",
           "link": "https://www.niigata-nippo.co.jp/articles/-/754829",
-          "published": "2025/12/30",
+          "published": "2025/12/30 6:00",
           "paid": false
         }
       ]
@@ -167,19 +154,19 @@
         {
           "title": "社説【能登のバイクの祭典】絶景海道も出会いの場に",
           "link": "https://www.hokkoku.co.jp/articles/-/1975052",
-          "published": "12/30",
+          "published": "2025/12/30 5:00",
           "paid": true
         },
         {
           "title": "社説【富山にバイオ薬工場】成長分野の拠点化に期待",
           "link": "https://www.hokkoku.co.jp/articles/-/1975051",
-          "published": "12/30",
+          "published": "2025/12/30 5:00",
           "paid": true
         },
         {
           "title": "社説【能登のバイクの祭典】絶景海道も出会いの動脈に",
           "link": "https://www.hokkoku.co.jp/articles/-/1975041",
-          "published": "12/30",
+          "published": "2025/12/30 5:00",
           "paid": true
         }
       ]
@@ -305,6 +292,40 @@
           "title": "＜社説＞メガソーラー規制　自然を守り再エネ推進を",
           "link": "https://ryukyushimpo.jp/editorial/entry-4915344.html",
           "published": "2025/12/30",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：匿流の指示役逮捕　ＳＮＳに巣食う犯罪根絶を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1628113",
+          "published": "2025/12/30 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】給食の無償化　地方の頭越しに決めるな",
+          "link": "https://www.nishinippon.co.jp/item/1441088/",
+          "published": "2025/12/30 06:00",
           "paid": false
         }
       ]

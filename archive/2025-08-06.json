@@ -47,13 +47,13 @@
         {
           "title": "［社説］コメ増産の実現に向け明確な方策示せ",
           "link": "https://www.nikkei.com/article/DGXZQODK062M90W5A800C2000000/",
-          "published": "2025年8月6日",
+          "published": "2025/8/6 19:05",
           "paid": false
         },
         {
           "title": "［社説］最低賃金の大幅上げは妥当だ",
           "link": "https://www.nikkei.com/article/DGXZQODK065II0W5A800C2000000/",
-          "published": "2025年8月6日",
+          "published": "2025/8/6 19:00",
           "paid": false
         }
       ]
@@ -114,7 +114,7 @@
         {
           "title": "８０回目「原爆の日」　未来の核被害を防がねば",
           "link": "https://www.niigata-nippo.co.jp/articles/-/664812",
-          "published": "2025/8/6",
+          "published": "2025/8/6 6:00",
           "paid": false
         }
       ]
@@ -234,6 +234,46 @@
           "title": "＜社説＞広島原爆投下80年　「核抑止力神話」と決別を",
           "link": "https://ryukyushimpo.jp/editorial/entry-4518163.html",
           "published": "2025/08/06",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：臨時国会の審議　なぜ５日で終わるのか",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1536772",
+          "published": "2025/8/6 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：最賃の引き上げ　京滋でも議論尽くして",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1536766",
+          "published": "2025/8/6 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】被爆80年　核兵器廃絶の決意新たに",
+          "link": "https://www.nishinippon.co.jp/item/1385088/",
+          "published": "2025/08/06 06:00",
           "paid": false
         }
       ]

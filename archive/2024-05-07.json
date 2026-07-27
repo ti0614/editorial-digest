@@ -73,7 +73,7 @@
         {
           "title": "石炭火力廃止へ　気になる日本の消極姿勢",
           "link": "https://www.niigata-nippo.co.jp/articles/-/401160",
-          "published": "2024/5/7",
+          "published": "2024/5/7 6:00",
           "paid": false
         }
       ]
@@ -176,6 +176,23 @@
           "title": "＜社説＞大阪・関西万博　開催意義の説明が必要だ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3048625.html",
           "published": "2024/05/07",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】縮小する市町村　地域の持続へ発想転換を",
+          "link": "https://www.nishinippon.co.jp/item/1208286/",
+          "published": "2024/05/07 06:00",
           "paid": false
         }
       ]

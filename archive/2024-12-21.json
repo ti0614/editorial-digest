@@ -53,13 +53,13 @@
         {
           "title": "［社説］不正の根絶へ政治資金をもっと透明に",
           "link": "https://www.nikkei.com/article/DGXZQODK211M40R21C24A2000000/",
-          "published": "2024年12月21日",
+          "published": "2024/12/21 19:05",
           "paid": false
         },
         {
           "title": "［社説］公正なウクライナ和平探れ",
           "link": "https://www.nikkei.com/article/DGXZQODK202DP0Q4A221C2000000/",
-          "published": "2024年12月21日",
+          "published": "2024/12/21 19:00",
           "paid": false
         }
       ]
@@ -130,7 +130,7 @@
         {
           "title": "与党税制大綱　生活安定への協議続けよ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/529470",
-          "published": "2024/12/21",
+          "published": "2024/12/21 6:00",
           "paid": false
         }
       ]
@@ -216,6 +216,23 @@
           "title": "＜社説＞32軍壕基本計画案　平和理念立脚した公開を",
           "link": "https://ryukyushimpo.jp/editorial/entry-3786968.html",
           "published": "2024/12/21",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】中学生殺傷事件　未来奪った凶行　解明急げ",
+          "link": "https://www.nishinippon.co.jp/item/1296037/",
+          "published": "2024/12/21 06:00",
           "paid": false
         }
       ]

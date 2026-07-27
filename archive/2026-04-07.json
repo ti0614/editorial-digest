@@ -59,13 +59,13 @@
         {
           "title": "［社説］合意形成の過程に課題残した予算成立",
           "link": "https://www.nikkei.com/article/DGXZQODK076KW0X00C26A4000000/",
-          "published": "4月7日",
+          "published": "2026/4/7 19:30",
           "paid": false
         },
         {
           "title": "［社説］ミャンマー政権は内戦止めよ",
           "link": "https://www.nikkei.com/article/DGXZQODK076Y70X00C26A4000000/",
-          "published": "4月7日",
+          "published": "2026/4/7 19:00",
           "paid": false
         }
       ]
@@ -129,20 +129,7 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": [
-        {
-          "title": "命守る行動再確認して　南海トラフ地震被害想定　【論説】",
-          "link": "https://www.chibanippo.co.jp/serial/1423588",
-          "published": "4/7 5:00",
-          "paid": true
-        },
-        {
-          "title": "生き残りへ果敢に挑戦を　京成と新京成が合併　【論説】",
-          "link": "https://www.chibanippo.co.jp/serial/1423589",
-          "published": "4/7 5:00",
-          "paid": true
-        }
-      ]
+      "items": []
     },
     {
       "name": "新潟日報",
@@ -156,7 +143,7 @@
         {
           "title": "食糧法改正案　稲作の継続性守る制度に",
           "link": "https://www.niigata-nippo.co.jp/articles/-/809987",
-          "published": "4/7",
+          "published": "2026/4/7 6:00",
           "paid": false
         }
       ]
@@ -190,13 +177,13 @@
         {
           "title": "社説【被災文化財】保存の関心高める好機に",
           "link": "https://www.hokkoku.co.jp/articles/-/2069412",
-          "published": "4/7",
+          "published": "2026/4/7 5:00",
           "paid": true
         },
         {
           "title": "社説【中国大使館侵入】「遺憾」表明にとどめたい",
           "link": "https://www.hokkoku.co.jp/articles/-/2069411",
-          "published": "4/7",
+          "published": "2026/4/7 5:00",
           "paid": true
         }
       ]
@@ -316,6 +303,40 @@
           "title": "＜社説＞イランへの空軍派兵　日本の立場　協議で伝えよ",
           "link": "https://ryukyushimpo.jp/editorial/entry-5174311.html",
           "published": "2026/04/07",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：報告者に浮かぶ長年の病巣　中部電の原発不正",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1691422",
+          "published": "2026/4/7 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】不法就労の通報　自治体の役割は他にある",
+          "link": "https://www.nishinippon.co.jp/item/1478816/",
+          "published": "2026/04/07 06:00",
           "paid": false
         }
       ]

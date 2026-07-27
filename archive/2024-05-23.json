@@ -73,7 +73,7 @@
         {
           "title": "育成就労法案　外国人の人権守られるか",
           "link": "https://www.niigata-nippo.co.jp/articles/-/410046",
-          "published": "2024/5/23",
+          "published": "2024/5/23 6:00",
           "paid": false
         }
       ]
@@ -176,6 +176,23 @@
           "title": "＜社説＞32軍南部撤退決定79年　「犠牲強いた日」継承を",
           "link": "https://ryukyushimpo.jp/editorial/entry-3114406.html",
           "published": "2024/05/23",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】政治資金の審議　不正の根を絶つ規正法に",
+          "link": "https://www.nishinippon.co.jp/item/1214292/",
+          "published": "2024/05/23 06:00",
           "paid": false
         }
       ]

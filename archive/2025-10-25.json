@@ -53,13 +53,13 @@
         {
           "title": "［社説］中国は深刻なデフレ回避へ内需拡大急げ",
           "link": "https://www.nikkei.com/article/DGXZQODK244A80U5A021C2000000/",
-          "published": "2025年10月25日",
+          "published": "2025/10/25 19:05",
           "paid": false
         },
         {
           "title": "［社説］トランプ氏と強い信頼関係を",
           "link": "https://www.nikkei.com/article/DGXZQODK24C890U5A021C2000000/",
-          "published": "2025年10月25日",
+          "published": "2025/10/25 19:00",
           "paid": false
         }
       ]
@@ -137,7 +137,7 @@
         {
           "title": "所信表明演説　野党と議論重ねなければ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/715593",
-          "published": "2025/10/25",
+          "published": "2025/10/25 6:00",
           "paid": false
         }
       ]
@@ -171,25 +171,25 @@
         {
           "title": "社説【登録文化財に加賀料理】文化観光支える総合芸術",
           "link": "https://www.hokkoku.co.jp/articles/-/1908264",
-          "published": "10/25",
+          "published": "2025/10/25 5:00",
           "paid": true
         },
         {
           "title": "社説【所信表明演説】「責任ある積極財政」に期待",
           "link": "https://www.hokkoku.co.jp/articles/-/1908263",
-          "published": "10/25",
+          "published": "2025/10/25 5:00",
           "paid": true
         },
         {
           "title": "社説【所信表明演説】責任ある積極財政に期待",
           "link": "https://www.hokkoku.co.jp/articles/-/1908241",
-          "published": "10/25",
+          "published": "2025/10/25 5:00",
           "paid": true
         },
         {
           "title": "社説【登録文化財に加賀料理】文化観光支える総合芸術に",
           "link": "https://www.hokkoku.co.jp/articles/-/1908240",
-          "published": "10/25",
+          "published": "2025/10/25 5:00",
           "paid": true
         }
       ]
@@ -292,6 +292,40 @@
           "title": "＜社説＞高市首相所信表明　「強い日本」の前に検証を",
           "link": "https://ryukyushimpo.jp/editorial/entry-4719066.html",
           "published": "2025/10/25",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：高市氏の所信表明　強い言葉より合意の政治を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1587807",
+          "published": "2025/10/25 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】首相の所信表明　高市色こそ丁寧に議論を",
+          "link": "https://www.nishinippon.co.jp/item/1415524/",
+          "published": "2025/10/25 06:00",
           "paid": false
         }
       ]

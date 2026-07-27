@@ -79,7 +79,7 @@
         {
           "title": "新年度スタート　働きやすい社会へ転換を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/383953",
-          "published": "2024/4/2",
+          "published": "2024/4/2 6:00",
           "paid": false
         }
       ]
@@ -182,6 +182,23 @@
           "title": "＜社説＞土地規制区域指定終了　違憲の法律反対し続ける",
           "link": "https://ryukyushimpo.jp/editorial/entry-2949247.html",
           "published": "2024/04/02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】インドネシア政権　民主主義の後退を危ぶむ",
+          "link": "https://www.nishinippon.co.jp/item/1196202/",
+          "published": "2024/04/02 06:00",
           "paid": false
         }
       ]

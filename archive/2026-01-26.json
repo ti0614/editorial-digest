@@ -53,7 +53,7 @@
         {
           "title": "［社説］衆議院選挙27日公示、将来に危機感もち選択に臨もう",
           "link": "https://www.nikkei.com/article/DGXZQODK262KC0W6A120C2000000/",
-          "published": "1月26日",
+          "published": "2026/1/26 19:10",
           "paid": false
         }
       ]
@@ -114,7 +114,7 @@
         {
           "title": "グリーンランド　米国の領有は許されない",
           "link": "https://www.niigata-nippo.co.jp/articles/-/768382",
-          "published": "1/26",
+          "published": "2026/1/26 6:00",
           "paid": false
         }
       ]
@@ -131,13 +131,13 @@
         {
           "title": "社説【山火事の大規模化】多発する春へ備え厚く",
           "link": "https://www.hokkoku.co.jp/articles/-/1997773",
-          "published": "1/26",
+          "published": "2026/1/26 5:00",
           "paid": true
         },
         {
           "title": "社説【災害関連死の事例集】教訓導く多角的な検証を",
           "link": "https://www.hokkoku.co.jp/articles/-/1997772",
-          "published": "1/26",
+          "published": "2026/1/26 5:00",
           "paid": true
         }
       ]
@@ -223,6 +223,40 @@
           "title": "＜社説＞名護市長に渡具知氏　新基地是非、議論深まらず",
           "link": "https://ryukyushimpo.jp/editorial/entry-4987219.html",
           "published": "2026/01/26",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：平和主義と世界　米一辺倒でない多元外交を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1643264",
+          "published": "2026/1/26 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】国際機関脱退　米国は多国協調を壊すな",
+          "link": "https://www.nishinippon.co.jp/item/1450354/",
+          "published": "2026/01/26 06:00",
           "paid": false
         }
       ]

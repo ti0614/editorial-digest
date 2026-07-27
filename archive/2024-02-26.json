@@ -73,7 +73,7 @@
         {
           "title": "刑事手続き改正　デジタル化は人権配慮で",
           "link": "https://www.niigata-nippo.co.jp/articles/-/364813",
-          "published": "2024/2/26",
+          "published": "2024/2/26 6:00",
           "paid": false
         }
       ]
@@ -159,6 +159,23 @@
           "title": "＜社説＞政倫審開催へ　証人喚問で追及すべきだ",
           "link": "https://ryukyushimpo.jp/editorial/entry-2840534.html",
           "published": "2024/02/26",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】地方政治とカネ　国政を反面教師に襟正せ",
+          "link": "https://www.nishinippon.co.jp/item/1182615/",
+          "published": "2024/02/26 06:00",
           "paid": false
         }
       ]

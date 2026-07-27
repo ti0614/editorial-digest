@@ -59,13 +59,13 @@
         {
           "title": "［社説］米政権の留学生排斥は許されぬ暴挙だ",
           "link": "https://www.nikkei.com/article/DGXZQODK239MM0T20C25A5000000/",
-          "published": "2025年5月23日",
+          "published": "2025/5/23 19:05",
           "paid": false
         },
         {
           "title": "［社説］新興AI不正疑惑の解明急げ",
           "link": "https://www.nikkei.com/article/DGXZQODK200J10Q5A520C2000000/",
-          "published": "2025年5月23日",
+          "published": "2025/5/23 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "ガザ人道危機　命つなぐ物資一刻も早く",
           "link": "https://www.niigata-nippo.co.jp/articles/-/613025",
-          "published": "2025/5/23",
+          "published": "2025/5/23 6:00",
           "paid": false
         }
       ]
@@ -246,6 +246,46 @@
           "title": "＜社説＞年金改革法案国会審議　改革を先延ばしにするな",
           "link": "https://ryukyushimpo.jp/editorial/entry-4258863.html",
           "published": "2025/05/23",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：米ロの電話会談　停戦へ粘り強く交渉を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1481518",
+          "published": "2025/5/23 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：空自機墜落事故　原因究明し再発を防げ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1481536",
+          "published": "2025/5/23 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】ウクライナ停戦　米国は仲介を放棄するな",
+          "link": "https://www.nishinippon.co.jp/item/1354511/",
+          "published": "2025/05/23 06:00",
           "paid": false
         }
       ]

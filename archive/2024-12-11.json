@@ -59,13 +59,13 @@
         {
           "title": "［社説］米TikTok規制が問う安保リスク",
           "link": "https://www.nikkei.com/article/DGXZQODK117BW0R11C24A2000000/",
-          "published": "2024年12月11日",
+          "published": "2024/12/11 19:05",
           "paid": false
         },
         {
           "title": "［社説］平和賞を機に核廃絶に弾みを",
           "link": "https://www.nikkei.com/article/DGXZQODK114SF0R11C24A2000000/",
-          "published": "2024年12月11日",
+          "published": "2024/12/11 19:00",
           "paid": false
         }
       ]
@@ -136,7 +136,7 @@
         {
           "title": "被団協平和賞演説　核廃絶の願い世界に届け",
           "link": "https://www.niigata-nippo.co.jp/articles/-/523874",
-          "published": "2024/12/11",
+          "published": "2024/12/11 6:00",
           "paid": false
         }
       ]
@@ -239,6 +239,23 @@
           "title": "＜社説＞政治資金規正法再改正　企業献金禁止議論尽くせ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3745489.html",
           "published": "2024/12/11",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】車の危険運転　社会常識に沿う法改正を",
+          "link": "https://www.nishinippon.co.jp/item/1291942/",
+          "published": "2024/12/11 06:00",
           "paid": false
         }
       ]

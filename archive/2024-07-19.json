@@ -73,7 +73,7 @@
         {
           "title": "水俣病環境相懇談　全面解決へ導かなくては",
           "link": "https://www.niigata-nippo.co.jp/articles/-/442048",
-          "published": "2024/7/19",
+          "published": "2024/7/19 6:00",
           "paid": false
         }
       ]
@@ -176,6 +176,23 @@
           "title": "＜社説＞強制不妊に首相謝罪　国策による差別、猛省を",
           "link": "https://ryukyushimpo.jp/editorial/entry-3276750.html",
           "published": "2024/07/19",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】強制不妊を謝罪　漏れなき救済、首相が導け",
+          "link": "https://www.nishinippon.co.jp/item/1236279/",
+          "published": "2024/07/19 06:00",
           "paid": false
         }
       ]

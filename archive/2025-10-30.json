@@ -59,13 +59,13 @@
         {
           "title": "［社説］米中は率直な対話重ね安定した関係築け",
           "link": "https://www.nikkei.com/article/DGXZQODK3044A0Q5A031C2000000/",
-          "published": "2025年10月30日",
+          "published": "2025/10/30 19:05",
           "paid": false
         },
         {
           "title": "［社説］物価高の抑制は日銀の役割だ",
           "link": "https://www.nikkei.com/article/DGXZQODK3068F0Q5A031C2000000/",
-          "published": "2025年10月30日",
+          "published": "2025/10/30 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "安倍氏銃撃公判　事件の背景どう勘案する",
           "link": "https://www.niigata-nippo.co.jp/articles/-/718573",
-          "published": "2025/10/30",
+          "published": "2025/10/30 6:00",
           "paid": false
         }
       ]
@@ -177,13 +177,13 @@
         {
           "title": "社説【「Ｈ３増強型」成功】宇宙事業の進展に期待",
           "link": "https://www.hokkoku.co.jp/articles/-/1913506",
-          "published": "10/30",
+          "published": "2025/10/30 5:00",
           "paid": true
         },
         {
           "title": "社説【人間国宝制度】分野拡大を地方の活力に",
           "link": "https://www.hokkoku.co.jp/articles/-/1913505",
-          "published": "10/30",
+          "published": "2025/10/30 5:00",
           "paid": true
         }
       ]
@@ -303,6 +303,46 @@
           "title": "＜社説＞PFAS米軍給水要請　調査と汚染源特定が先だ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4730639.html",
           "published": "2025/10/30",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：子ども自殺防止　兆し見逃さない対応を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1590538",
+          "published": "2025/10/30 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：ＡＩ基本計画　リスク抑える手だても",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1590532",
+          "published": "2025/10/30 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】増え続ける倒産　中小企業に多様な支援を",
+          "link": "https://www.nishinippon.co.jp/item/1417425/",
+          "published": "2025/10/30 06:00",
           "paid": false
         }
       ]

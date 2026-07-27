@@ -59,13 +59,13 @@
         {
           "title": "［社説］高市早苗首相の「責任ある政策」は内実が問われる",
           "link": "https://www.nikkei.com/article/DGXZQODK202FY0Q6A220C2000000/",
-          "published": "2月20日",
+          "published": "2026/2/20 19:05",
           "paid": false
         },
         {
           "title": "［社説］韓国分断映す尹錫悦氏の無期判決",
           "link": "https://www.nikkei.com/article/DGXZQODK202B80Q6A220C2000000/",
-          "published": "2月20日",
+          "published": "2026/2/20 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "新潟市予算案　政策実現へスピード感を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/782963",
-          "published": "2/20",
+          "published": "2026/2/20 6:00",
           "paid": false
         }
       ]
@@ -177,25 +177,25 @@
         {
           "title": "社説【冬の食中毒】増加の懸念、対策徹底を",
           "link": "https://www.hokkoku.co.jp/articles/-/2022232",
-          "published": "2/20",
+          "published": "2026/2/20 5:00",
           "paid": true
         },
         {
           "title": "社説【白山のＰＦＡＳ検出】不安取り除く対応を迅速に",
           "link": "https://www.hokkoku.co.jp/articles/-/2022231",
-          "published": "2/20",
+          "published": "2026/2/20 5:00",
           "paid": true
         },
         {
           "title": "社説【白山のＰＦＡＳ検出】不安取り除く対応迅速に",
           "link": "https://www.hokkoku.co.jp/articles/-/2022210",
-          "published": "2/20",
+          "published": "2026/2/20 5:00",
           "paid": true
         },
         {
           "title": "社説【県が食中毒注意報】教訓生かした衛生管理を",
           "link": "https://www.hokkoku.co.jp/articles/-/2022209",
-          "published": "2/20",
+          "published": "2026/2/20 5:00",
           "paid": true
         }
       ]
@@ -315,6 +315,46 @@
           "title": "＜社説＞再審制度見直し答申　現行法の後退につながる",
           "link": "https://ryukyushimpo.jp/editorial/entry-5051432.html",
           "published": "2026/02/20",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：日本の対米投資　採算性やリスク説明を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1662007",
+          "published": "2026/2/20 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：売春防止法改正　「買う側」の処罰も必要だ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1662001",
+          "published": "2026/2/20 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】欠格規定は違憲　障害者の働く機会奪うな",
+          "link": "https://www.nishinippon.co.jp/item/1460500/",
+          "published": "2026/02/20 06:00",
           "paid": false
         }
       ]

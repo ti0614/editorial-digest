@@ -73,7 +73,7 @@
         {
           "title": "本県住宅被害　再建へ支援策しっかりと",
           "link": "https://www.niigata-nippo.co.jp/articles/-/355465",
-          "published": "2024/2/6",
+          "published": "2024/2/6 6:00",
           "paid": false
         }
       ]
@@ -176,6 +176,23 @@
           "title": "＜社説＞市町村の災害対策　優先順位を上げるべきだ",
           "link": "https://ryukyushimpo.jp/editorial/entry-2776000.html",
           "published": "2024/02/06",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】米軍の報復攻撃　中東の戦火を拡大させるな",
+          "link": "https://www.nishinippon.co.jp/item/1175915/",
+          "published": "2024/02/06 06:00",
           "paid": false
         }
       ]

@@ -47,13 +47,13 @@
         {
           "title": "［社説］逆風下こそ変革で株高裏切らぬ経営を",
           "link": "https://www.nikkei.com/article/DGXZQODK180JX0Y5A810C2000000/",
-          "published": "2025年8月18日",
+          "published": "2025/8/18 19:05",
           "paid": false
         },
         {
           "title": "［社説］学力低下に危機感を持とう",
           "link": "https://www.nikkei.com/article/DGXZQODK186780Y5A810C2000000/",
-          "published": "2025年8月18日",
+          "published": "2025/8/18 19:00",
           "paid": false
         }
       ]
@@ -100,26 +100,7 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": [
-        {
-          "title": "暴力問題への対応が後手に　甲子園、開幕後初の出場辞退　【論説】",
-          "link": "https://www.chibanippo.co.jp/articles/1483953",
-          "published": "8/18 5:00",
-          "paid": true
-        },
-        {
-          "title": "産地維持へ継続的支援を　梨最盛期　【論説】",
-          "link": "https://www.chibanippo.co.jp/serial/1263586",
-          "published": "8/18 5:00",
-          "paid": true
-        },
-        {
-          "title": "党再生の難題、担うのは　岸田首相退陣表明　【論説】",
-          "link": "https://www.chibanippo.co.jp/serial/1263585",
-          "published": "8/18 5:00",
-          "paid": true
-        }
-      ]
+      "items": []
     },
     {
       "name": "新潟日報",
@@ -133,7 +114,7 @@
         {
           "title": "日本人９０万人減　少子化への対策粘り強く",
           "link": "https://www.niigata-nippo.co.jp/articles/-/671573",
-          "published": "2025/8/18",
+          "published": "2025/8/18 6:00",
           "paid": false
         }
       ]
@@ -236,6 +217,40 @@
           "title": "＜社説＞石垣市長中山氏５選　改ざん問題終わってない",
           "link": "https://ryukyushimpo.jp/editorial/entry-4548143.html",
           "published": "2025/08/18",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：豪へ海自の護衛艦　危うい、なし崩しの武器輸出",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1543776",
+          "published": "2025/8/18 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】大川原捜査検証　冤罪の核心になぜ迫らぬ",
+          "link": "https://www.nishinippon.co.jp/item/1388948/",
+          "published": "2025/08/18 06:00",
           "paid": false
         }
       ]

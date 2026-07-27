@@ -84,7 +84,7 @@
         {
           "title": "石破自民新総裁　政治の信頼取り戻せるか",
           "link": "https://www.niigata-nippo.co.jp/articles/-/483531",
-          "published": "2024/9/28",
+          "published": "2024/9/28 6:00",
           "paid": false
         }
       ]
@@ -187,6 +187,23 @@
           "title": "＜社説＞自民新総裁に石破氏　県要望に沿う協定改定を",
           "link": "https://ryukyushimpo.jp/editorial/entry-3501571.html",
           "published": "2024/09/28",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】新総裁に石破氏　自民党の再生はまだ遠い",
+          "link": "https://www.nishinippon.co.jp/item/1263562/",
+          "published": "2024/09/28 06:00",
           "paid": false
         }
       ]

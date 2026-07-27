@@ -59,13 +59,13 @@
         {
           "title": "［社説］米政権は報道の自由侵す規制を撤回せよ",
           "link": "https://www.nikkei.com/article/DGXZQODK176XH0X11C25A0000000/",
-          "published": "2025年10月18日",
+          "published": "2025/10/18 19:05",
           "paid": false
         },
         {
           "title": "［社説］村山富市氏が残す多党化への教訓",
           "link": "https://www.nikkei.com/article/DGXZQODK180NB0Y5A011C2000000/",
-          "published": "2025年10月18日",
+          "published": "2025/10/18 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "自維連立協議　「政治とカネ」を最優先に",
           "link": "https://www.niigata-nippo.co.jp/articles/-/711127",
-          "published": "2025/10/18",
+          "published": "2025/10/18 6:00",
           "paid": false
         }
       ]
@@ -177,13 +177,13 @@
         {
           "title": "社説【一里野の温泉停止】復旧早める国の打開策を",
           "link": "https://www.hokkoku.co.jp/articles/-/1900996",
-          "published": "10/18",
+          "published": "2025/10/18 5:00",
           "paid": true
         },
         {
           "title": "社説【２１日に首相指名】維新の推進力に期待したい",
           "link": "https://www.hokkoku.co.jp/articles/-/1900995",
-          "published": "10/18",
+          "published": "2025/10/18 5:00",
           "paid": true
         }
       ]
@@ -286,6 +286,40 @@
           "title": "＜社説＞県立病院経営再建　構造改革で責務を果たせ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4702596.html",
           "published": "2025/10/18",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：自維の連立協議　政治とカネの焦点ずらすな",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1583506",
+          "published": "2025/10/18 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】生保の情報不正　業界挙げて実態の解明を",
+          "link": "https://www.nishinippon.co.jp/item/1412740/",
+          "published": "2025/10/18 06:00",
           "paid": false
         }
       ]

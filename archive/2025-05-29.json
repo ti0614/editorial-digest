@@ -59,13 +59,13 @@
         {
           "title": "［社説］国際連携深め量子技術を日本の強みに",
           "link": "https://www.nikkei.com/article/DGXZQOCD2265L0S5A520C2000000/",
-          "published": "2025年5月29日",
+          "published": "2025/5/29 19:05",
           "paid": false
         },
         {
           "title": "［社説］筒井経団連は難題にもの申せ",
           "link": "https://www.nikkei.com/article/DGXZQODK294MR0Z20C25A5000000/",
-          "published": "2025年5月29日",
+          "published": "2025/5/29 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "年金底上げ合意　課題の先送りと変わらぬ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/616554",
-          "published": "2025/5/29",
+          "published": "2025/5/29 6:00",
           "paid": false
         }
       ]
@@ -246,6 +246,46 @@
           "title": "＜社説＞年金改革３党修正合意　本質論議先送りは許せぬ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4278215.html",
           "published": "2025/05/29",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：企業献金の禁止　自公国は議論逃げるな",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1484882",
+          "published": "2025/5/29 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：外国免許の切替　安心できる見直し急げ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1484885",
+          "published": "2025/5/29 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】年金法案の修正　底上げの課題残したまま",
+          "link": "https://www.nishinippon.co.jp/item/1356873/",
+          "published": "2025/05/29 06:00",
           "paid": false
         }
       ]

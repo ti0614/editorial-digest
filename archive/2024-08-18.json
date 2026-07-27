@@ -50,7 +50,7 @@
         {
           "title": "自民議員不祥事　説明責任しっかり果たせ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/460396",
-          "published": "2024/8/18",
+          "published": "2024/8/18 6:00",
           "paid": false
         }
       ]
@@ -136,6 +136,23 @@
           "title": "＜社説＞安和抗議に「妨害行為」　決めつけ避け検証尽くせ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3378522.html",
           "published": "2024/08/18",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】国の予算編成　「財布のひも」を締め直せ",
+          "link": "https://www.nishinippon.co.jp/item/1248243/",
+          "published": "2024/08/18 06:00",
           "paid": false
         }
       ]

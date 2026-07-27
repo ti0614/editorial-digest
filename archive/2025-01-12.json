@@ -47,13 +47,13 @@
         {
           "title": "［社説］米中対立下で日ASEANの連携深めよ",
           "link": "https://www.nikkei.com/article/DGXZQODK1211I0S5A110C2000000/",
-          "published": "2025年1月12日",
+          "published": "2025/1/12 19:05",
           "paid": false
         },
         {
           "title": "［社説］メタのファクトチェック廃止は問題だ",
           "link": "https://www.nikkei.com/article/DGXZQODK120AG0S5A110C2000000/",
-          "published": "2025年1月12日",
+          "published": "2025/1/12 19:00",
           "paid": false
         }
       ]
@@ -90,7 +90,7 @@
         {
           "title": "生活保護申請増　困窮世帯へ柔軟な支援を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/538352",
-          "published": "2025/1/12",
+          "published": "2025/1/12 6:00",
           "paid": false
         }
       ]
@@ -193,6 +193,23 @@
           "title": "＜社説＞首相が被団協と面会　日本は核抑止と決別を",
           "link": "https://ryukyushimpo.jp/editorial/entry-3853142.html",
           "published": "2025/01/12",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】孤独・孤立対策　希望を生む支援の充実を",
+          "link": "https://www.nishinippon.co.jp/item/1302840/",
+          "published": "2025/01/12 06:00",
           "paid": false
         }
       ]

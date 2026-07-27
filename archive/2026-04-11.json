@@ -59,13 +59,13 @@
         {
           "title": "［社説］米月探査計画は多国間協力の精神を貫け",
           "link": "https://www.nikkei.com/article/DGXZQODK1082H0Q6A410C2000000/",
-          "published": "4月11日",
+          "published": "2026/4/11 19:05",
           "paid": false
         },
         {
           "title": "［社説］危機長引かせるレバノン攻撃",
           "link": "https://www.nikkei.com/article/DGXZQODK105SU0Q6A410C2000000/",
-          "published": "4月11日",
+          "published": "2026/4/11 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "ミャンマー新政権　見せかけの民政移管憂う",
           "link": "https://www.niigata-nippo.co.jp/articles/-/812588",
-          "published": "4/11",
+          "published": "2026/4/11 6:00",
           "paid": false
         }
       ]
@@ -177,13 +177,13 @@
         {
           "title": "社説【誰でも通園制度】保育士確保へ待遇改善を",
           "link": "https://www.hokkoku.co.jp/articles/-/2073966",
-          "published": "4/11",
+          "published": "2026/4/11 5:00",
           "paid": true
         },
         {
           "title": "社説【危険運転致死罪】積極適用が抑止する力に",
           "link": "https://www.hokkoku.co.jp/articles/-/2073965",
-          "published": "4/11",
+          "published": "2026/4/11 5:00",
           "paid": true
         }
       ]
@@ -303,6 +303,40 @@
           "title": "＜社説＞米軍派遣は「移動」　事前協議骨抜きの答弁だ",
           "link": "https://ryukyushimpo.jp/editorial/entry-5182948.html",
           "published": "2026/04/11",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：高校の無償化　効果と課題、厳しい検証要る",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1694098",
+          "published": "2026/4/11 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】国家情報会議　チェック機能が不可欠だ",
+          "link": "https://www.nishinippon.co.jp/item/1480555/",
+          "published": "2026/04/11 06:00",
           "paid": false
         }
       ]

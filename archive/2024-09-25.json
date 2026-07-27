@@ -96,7 +96,7 @@
         {
           "title": "能登豪雨　被災者支援をさらに厚く",
           "link": "https://www.niigata-nippo.co.jp/articles/-/481499",
-          "published": "2024/9/25",
+          "published": "2024/9/25 6:00",
           "paid": false
         }
       ]
@@ -199,6 +199,23 @@
           "title": "＜社説＞5氏に琉球新報賞　沖縄導いた功績たたえる",
           "link": "https://ryukyushimpo.jp/editorial/entry-3493749.html",
           "published": "2024/09/25",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】鷹4年ぶりV　九州を挙げて喜び合おう",
+          "link": "https://www.nishinippon.co.jp/item/1262202/",
+          "published": "2024/09/25 06:00",
           "paid": false
         }
       ]

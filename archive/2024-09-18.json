@@ -96,7 +96,7 @@
         {
           "title": "「将軍」がエミー賞　時代劇の力世界に示した",
           "link": "https://www.niigata-nippo.co.jp/articles/-/477423",
-          "published": "2024/9/18",
+          "published": "2024/9/18 6:00",
           "paid": false
         }
       ]
@@ -199,6 +199,23 @@
           "title": "＜社説＞夫婦別姓容認78%　民法改正の機は熟した",
           "link": "https://ryukyushimpo.jp/editorial/entry-3476060.html",
           "published": "2024/09/18",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】チャイルドシート　体格に合わせ適切使用を",
+          "link": "https://www.nishinippon.co.jp/item/1259561/",
+          "published": "2024/09/18 06:00",
           "paid": false
         }
       ]

@@ -59,13 +59,13 @@
         {
           "title": "［社説］米ロはウクライナの領土を取引するな",
           "link": "https://www.nikkei.com/article/DGXZQODK155Y80V10C25A8000000/",
-          "published": "2025年8月16日",
+          "published": "2025/8/16 19:05",
           "paid": false
         },
         {
           "title": "［社説］今こそアフリカへ足がかりを",
           "link": "https://www.nikkei.com/article/DGXZQOCD160UD0W5A810C2000000/",
-          "published": "2025年8月16日",
+          "published": "2025/8/16 19:00",
           "paid": false
         }
       ]
@@ -126,7 +126,7 @@
         {
           "title": "万博３万人足止め　会場運営の再点検が必要",
           "link": "https://www.niigata-nippo.co.jp/articles/-/670978",
-          "published": "2025/8/16",
+          "published": "2025/8/16 6:00",
           "paid": false
         }
       ]
@@ -246,6 +246,40 @@
           "title": "＜社説＞北部看、名桜大付属に　医療人材育成に期待する",
           "link": "https://ryukyushimpo.jp/editorial/entry-4545327.html",
           "published": "2025/08/16",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：千玄室さん逝く　一碗の茶、広げた平和の交流",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1543134",
+          "published": "2025/8/16 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】豪に護衛艦　武器輸出の拡大を危ぶむ",
+          "link": "https://www.nishinippon.co.jp/item/1388549/",
+          "published": "2025/08/16 06:00",
           "paid": false
         }
       ]

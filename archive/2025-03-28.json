@@ -53,13 +53,13 @@
         {
           "title": "［社説］多様なAI半導体を競い合う構図に",
           "link": "https://www.nikkei.com/article/DGXZQODK2220T0S5A320C2000000/",
-          "published": "2025年3月28日",
+          "published": "2025/3/28 19:05",
           "paid": false
         },
         {
           "title": "［社説］再審制度の抜本改革を急げ",
           "link": "https://www.nikkei.com/article/DGXZQOCD281I30Y5A320C2000000/",
-          "published": "2025年3月28日",
+          "published": "2025/3/28 19:00",
           "paid": false
         }
       ]
@@ -137,7 +137,7 @@
         {
           "title": "兵庫第三者委報告　現実直視し適切な対応を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/581662",
-          "published": "2025/3/28",
+          "published": "2025/3/28 6:00",
           "paid": false
         }
       ]
@@ -240,6 +240,46 @@
           "title": "＜社説＞先島住民１２万人避難　有事計画より外交努力を",
           "link": "https://ryukyushimpo.jp/editorial/entry-4099103.html",
           "published": "2025/03/28",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：公益通報の処分　兵庫知事は違法認めよ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1448622",
+          "published": "2025/3/28 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：ＩＯＣ新会長　思い切った五輪改革を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1448625",
+          "published": "2025/3/28 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】出生数が最少　子どもを諦めない社会に",
+          "link": "https://www.nishinippon.co.jp/item/1332336/",
+          "published": "2025/03/28 06:00",
           "paid": false
         }
       ]

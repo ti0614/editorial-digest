@@ -96,7 +96,7 @@
         {
           "title": "野田立民新代表　政権奪還へ問われる手腕",
           "link": "https://www.niigata-nippo.co.jp/articles/-/480795",
-          "published": "2024/9/24",
+          "published": "2024/9/24 6:00",
           "paid": false
         }
       ]
@@ -199,6 +199,23 @@
           "title": "＜社説＞立憲新代表に野田氏　政府与党との差異明確に",
           "link": "https://ryukyushimpo.jp/editorial/entry-3491233.html",
           "published": "2024/09/24",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】立憲民主新代表　具体的な政権構想を示せ",
+          "link": "https://www.nishinippon.co.jp/item/1261796/",
+          "published": "2024/09/24 06:00",
           "paid": false
         }
       ]

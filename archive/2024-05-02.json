@@ -73,7 +73,7 @@
         {
           "title": "米ウクライナ支援　戦闘の停止へつなげたい",
           "link": "https://www.niigata-nippo.co.jp/articles/-/399428",
-          "published": "2024/5/2",
+          "published": "2024/5/2 6:00",
           "paid": false
         }
       ]
@@ -159,6 +159,23 @@
           "title": "＜社説＞校則イエローカード　弊害が明らかなら廃止を",
           "link": "https://ryukyushimpo.jp/editorial/entry-3035412.html",
           "published": "2024/05/02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】中国で消息不明　統制強化で人権を侵すな",
+          "link": "https://www.nishinippon.co.jp/item/1206924/",
+          "published": "2024/05/02 06:00",
           "paid": false
         }
       ]

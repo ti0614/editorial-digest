@@ -59,13 +59,13 @@
         {
           "title": "［社説］年金を政争の具とせず建設的な審議に",
           "link": "https://www.nikkei.com/article/DGXZQODK155NE0V10C25A5000000/",
-          "published": "2025年5月17日",
+          "published": "2025/5/17 19:05",
           "paid": false
         },
         {
           "title": "［社説］早期停戦へロシアは譲歩を",
           "link": "https://www.nikkei.com/article/DGXZQOCD170RH0X10C25A5000000/",
-          "published": "2025年5月17日",
+          "published": "2025/5/17 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "空自機墜落　原因究明を急ぎ再発防げ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/609433",
-          "published": "2025/5/17",
+          "published": "2025/5/17 6:00",
           "paid": false
         }
       ]
@@ -246,6 +246,23 @@
           "title": "＜社説＞南城市長に辞職提言　セクハラ認定は重大だ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4236347.html",
           "published": "2025/05/17",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】高速道の逆走　危険防止策の強化を急げ",
+          "link": "https://www.nishinippon.co.jp/item/1352019/",
+          "published": "2025/05/17 06:00",
           "paid": false
         }
       ]

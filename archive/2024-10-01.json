@@ -113,7 +113,7 @@
         {
           "title": "新幹線連結分離　安全運行第一で再発防げ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/484964",
-          "published": "2024/10/1",
+          "published": "2024/10/1 6:00",
           "paid": false
         }
       ]
@@ -216,6 +216,23 @@
           "title": "＜社説＞石破氏が衆院解散表明　党利党略の権力乱用だ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3507998.html",
           "published": "2024/10/01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】強制不妊に補償　国と国会の責任で救済を",
+          "link": "https://www.nishinippon.co.jp/item/1264601/",
+          "published": "2024/10/01 06:00",
           "paid": false
         }
       ]

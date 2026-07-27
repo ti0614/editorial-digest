@@ -59,13 +59,13 @@
         {
           "title": "［社説］株主総会の声生かし企業は価値高めよ",
           "link": "https://www.nikkei.com/article/DGXZQODK279X10X20C25A6000000/",
-          "published": "2025年6月27日",
+          "published": "2025/6/27 19:05",
           "paid": false
         },
         {
           "title": "［社説］公正で透明な生活保護制度に",
           "link": "https://www.nikkei.com/article/DGXZQODK277XW0X20C25A6000000/",
-          "published": "2025年6月27日",
+          "published": "2025/6/27 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "現金給付案　ばらまき批判回避できぬ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/635604",
-          "published": "2025/6/27",
+          "published": "2025/6/27 6:00",
           "paid": false
         }
       ]
@@ -263,6 +263,46 @@
           "title": "＜社説＞イスラエル・イラン停戦　「米の正義」主導は疑問だ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4380379.html",
           "published": "2025/06/27",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：空襲被害の救済　「受忍論」超える決断を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1506220",
+          "published": "2025/6/27 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：日銀の国債減額　過大保有の是正、着実に",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1506227",
+          "published": "2025/6/27 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】公示迫る参院選　政党の動向を注視しよう",
+          "link": "https://www.nishinippon.co.jp/item/1369337/",
+          "published": "2025/06/27 06:00",
           "paid": false
         }
       ]

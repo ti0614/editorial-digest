@@ -59,13 +59,13 @@
         {
           "title": "［社説］医療費の負担上限は外来も引き上げよ",
           "link": "https://www.nikkei.com/article/DGXZQODK1675B0W4A211C2000000/",
-          "published": "2024年12月18日",
+          "published": "2024/12/18 19:05",
           "paid": false
         },
         {
           "title": "［社説］「闇バイト」根絶は総力戦で",
           "link": "https://www.nikkei.com/article/DGXZQOCD186BE0Y4A211C2000000/",
-          "published": "2024年12月18日",
+          "published": "2024/12/18 19:00",
           "paid": false
         }
       ]
@@ -136,7 +136,7 @@
         {
           "title": "金融業界不祥事　信頼を失う深刻な事態だ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/527536",
-          "published": "2024/12/18",
+          "published": "2024/12/18 6:00",
           "paid": false
         }
       ]
@@ -239,6 +239,23 @@
           "title": "＜社説＞政策活動費全廃へ　企業・団体献金に切り込め",
           "link": "https://ryukyushimpo.jp/editorial/entry-3774858.html",
           "published": "2024/12/18",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】同性婚判決　幸福求める権利の保障を",
+          "link": "https://www.nishinippon.co.jp/item/1294611/",
+          "published": "2024/12/18 06:00",
           "paid": false
         }
       ]

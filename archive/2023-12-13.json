@@ -50,7 +50,7 @@
         {
           "title": "こども未来戦略　安定財源の確保できるか",
           "link": "https://www.niigata-nippo.co.jp/articles/-/326882",
-          "published": "2023/12/13",
+          "published": "2023/12/13 6:00",
           "paid": false
         }
       ]
@@ -136,6 +136,23 @@
           "title": "＜社説＞岸田内閣４閣僚交代へ　「安倍派一掃」で済まない",
           "link": "https://ryukyushimpo.jp/editorial/entry-2575473.html",
           "published": "2023/12/13",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】長崎で賢人会議　被爆の実相、提言に反映を",
+          "link": "https://www.nishinippon.co.jp/item/1156614/",
+          "published": "2023/12/13 06:00",
           "paid": false
         }
       ]

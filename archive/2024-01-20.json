@@ -50,7 +50,7 @@
         {
           "title": "裏金一斉立件　政治への信頼地に落ちた",
           "link": "https://www.niigata-nippo.co.jp/articles/-/347116",
-          "published": "2024/1/20",
+          "published": "2024/1/20 6:00",
           "paid": false
         }
       ]
@@ -153,6 +153,23 @@
           "title": "＜社説＞共産委員長に田村氏　「開かれた党」へ活発論議を",
           "link": "https://ryukyushimpo.jp/editorial/entry-2713444.html",
           "published": "2024/01/20",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】検察の裏金捜査　国民は到底納得できない",
+          "link": "https://www.nishinippon.co.jp/item/1169658/",
+          "published": "2024/01/20 06:00",
           "paid": false
         }
       ]

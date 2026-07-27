@@ -73,7 +73,7 @@
         {
           "title": "グーグル行政処分　公正な競争を確保せねば",
           "link": "https://www.niigata-nippo.co.jp/articles/-/394147",
-          "published": "2024/4/22",
+          "published": "2024/4/22 6:00",
           "paid": false
         }
       ]
@@ -108,6 +108,23 @@
           "title": "【巨大ＩＴ規制】ゆがむ競争食い止めたい",
           "link": "https://www.kochinews.co.jp/article/detail/738452",
           "published": "2024.04.22 08:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】医師の残業規制　地域医療との両立目指せ",
+          "link": "https://www.nishinippon.co.jp/item/1203330/",
+          "published": "2024/04/22 06:00",
           "paid": false
         }
       ]

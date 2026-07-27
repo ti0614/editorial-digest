@@ -59,13 +59,13 @@
         {
           "title": "［社説］米イランは停戦合意を戦闘終結につなげ",
           "link": "https://www.nikkei.com/article/DGXZQOCD086BW0Y6A400C2000000/",
-          "published": "4月8日",
+          "published": "2026/4/8 19:05",
           "paid": false
         },
         {
           "title": "［社説］共同親権は子どもを第一に",
           "link": "https://www.nikkei.com/article/DGXZQODK067I80W6A400C2000000/",
-          "published": "4月8日",
+          "published": "2026/4/8 19:00",
           "paid": false
         }
       ]
@@ -126,7 +126,7 @@
         {
           "title": "２６年度予算成立　充実した議論できたのか",
           "link": "https://www.niigata-nippo.co.jp/articles/-/810616",
-          "published": "4/8",
+          "published": "2026/4/8 6:00",
           "paid": false
         }
       ]
@@ -160,13 +160,13 @@
         {
           "title": "社説【２６年度予算成立】４月第２週は妥当な時期",
           "link": "https://www.hokkoku.co.jp/articles/-/2070559",
-          "published": "4/8",
+          "published": "2026/4/8 5:00",
           "paid": true
         },
         {
           "title": "社説【創造的復興教育】能登から学びのモデルを",
           "link": "https://www.hokkoku.co.jp/articles/-/2070558",
-          "published": "4/8",
+          "published": "2026/4/8 5:00",
           "paid": true
         }
       ]
@@ -286,6 +286,46 @@
           "title": "＜社説＞再審制度見直し　抗告禁止で人権救済急げ",
           "link": "https://ryukyushimpo.jp/editorial/entry-5176490.html",
           "published": "2026/04/08",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：強制収用の検討　成田の歴史鑑み、慎重に",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1692067",
+          "published": "2026/4/8 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：２０２６年度予算成立　精査阻んだ政権の強引",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1692068",
+          "published": "2026/4/8 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】受動喫煙対策　抜け穴ふさぐ規制強化を",
+          "link": "https://www.nishinippon.co.jp/item/1479230/",
+          "published": "2026/04/08 06:00",
           "paid": false
         }
       ]

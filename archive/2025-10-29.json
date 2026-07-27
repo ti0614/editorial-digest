@@ -47,13 +47,13 @@
         {
           "title": "［社説］コメの長期的な増産で食料安保確保を",
           "link": "https://www.nikkei.com/article/DGXZQODK297H50Z21C25A0000000/",
-          "published": "2025年10月29日",
+          "published": "2025/10/29 19:05",
           "paid": false
         },
         {
           "title": "［社説］安倍氏銃撃の実相示す裁判に",
           "link": "https://www.nikkei.com/article/DGXZQODK293870Z21C25A0000000/",
-          "published": "2025年10月29日",
+          "published": "2025/10/29 19:00",
           "paid": false
         }
       ]
@@ -100,14 +100,7 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": [
-        {
-          "title": "政治の本質に立ち返れ　衆院選で自公与党大敗　【論説】",
-          "link": "https://www.chibanippo.co.jp/serial/1294653",
-          "published": "10/29 5:00",
-          "paid": true
-        }
-      ]
+      "items": []
     },
     {
       "name": "新潟日報",
@@ -121,7 +114,7 @@
         {
           "title": "日米首脳会談　共通の利益を見定めねば",
           "link": "https://www.niigata-nippo.co.jp/articles/-/717773",
-          "published": "2025/10/29",
+          "published": "2025/10/29 6:00",
           "paid": false
         }
       ]
@@ -155,13 +148,13 @@
         {
           "title": "社説【安倍氏銃撃公判】量刑に欠かせぬ動機解明",
           "link": "https://www.hokkoku.co.jp/articles/-/1912246",
-          "published": "10/29",
+          "published": "2025/10/29 5:00",
           "paid": true
         },
         {
           "title": "社説【日米首脳会談】強固な同盟の「黄金時代」を",
           "link": "https://www.hokkoku.co.jp/articles/-/1912245",
-          "published": "10/29",
+          "published": "2025/10/29 5:00",
           "paid": true
         }
       ]
@@ -264,6 +257,46 @@
           "title": "＜社説＞日米首脳会談　あからさまな米国追従だ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4727850.html",
           "published": "2025/10/29",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：日米首脳会談　防衛費増、既成化するな",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1589832",
+          "published": "2025/10/29 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：株価初の５万円　実体経済との溝、冷静に",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1589830",
+          "published": "2025/10/29 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】日米首脳会談　追従せず主張する外交を",
+          "link": "https://www.nishinippon.co.jp/item/1416914/",
+          "published": "2025/10/29 06:00",
           "paid": false
         }
       ]

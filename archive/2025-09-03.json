@@ -53,13 +53,13 @@
         {
           "title": "［社説］中国・ロシア・北朝鮮首脳の「同盟」誇示は筋が通らない",
           "link": "https://www.nikkei.com/article/DGXZQODK028T00S5A900C2000000/",
-          "published": "2025年9月3日",
+          "published": "2025/9/3 19:05",
           "paid": false
         },
         {
           "title": "［社説］ガザ食料危機を見過ごすな",
           "link": "https://www.nikkei.com/article/DGXZQODK036550T00C25A9000000/",
-          "published": "2025年9月3日",
+          "published": "2025/9/3 19:00",
           "paid": false
         }
       ]
@@ -120,7 +120,7 @@
         {
           "title": "自民参院選総括　政策進める党体制を早く",
           "link": "https://www.niigata-nippo.co.jp/articles/-/681852",
-          "published": "2025/9/3",
+          "published": "2025/9/3 6:00",
           "paid": false
         }
       ]
@@ -240,6 +240,46 @@
           "title": "＜社説＞高い食費割合　国民生活の負担軽減急げ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4578935.html",
           "published": "2025/09/03",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：自民の選挙総括　解党的出直し、中身示せ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1554188",
+          "published": "2025/9/3 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：スマホ条例案　使いすぎ考える機会に",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1554179",
+          "published": "2025/9/3 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】秘書給与詐取　なぜ同じ過ちを繰り返す",
+          "link": "https://www.nishinippon.co.jp/item/1394988/",
+          "published": "2025/09/03 06:00",
           "paid": false
         }
       ]

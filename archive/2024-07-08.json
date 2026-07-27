@@ -67,7 +67,7 @@
         {
           "title": "元検事長定年延長　判決踏まえて説明尽くせ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/435803",
-          "published": "2024/7/8",
+          "published": "2024/7/8 6:00",
           "paid": false
         }
       ]
@@ -153,6 +153,23 @@
           "title": "＜社説＞バス置き去り死判決　子ども守る体制再点検を",
           "link": "https://ryukyushimpo.jp/editorial/entry-3246058.html",
           "published": "2024/07/08",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】百貨店の再生　地域と協力して活路開け",
+          "link": "https://www.nishinippon.co.jp/item/1232082/",
+          "published": "2024/07/08 06:00",
           "paid": false
         }
       ]

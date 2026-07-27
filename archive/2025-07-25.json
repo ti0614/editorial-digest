@@ -53,13 +53,13 @@
         {
           "title": "［社説］専制国家と見まがうトランプ政権の半年",
           "link": "https://www.nikkei.com/article/DGXZQODK252M30V20C25A7000000/",
-          "published": "2025年7月25日",
+          "published": "2025/7/25 19:05",
           "paid": false
         },
         {
           "title": "［社説］タイ・カンボジア交戦を憂う",
           "link": "https://www.nikkei.com/article/DGXZQODK255530V20C25A7000000/",
-          "published": "2025年7月25日",
+          "published": "2025/7/25 19:00",
           "paid": false
         }
       ]
@@ -137,7 +137,7 @@
         {
           "title": "県内高温少雨　農作物への影響が心配だ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/657026",
-          "published": "2025/7/25",
+          "published": "2025/7/25 6:00",
           "paid": false
         }
       ]
@@ -257,6 +257,46 @@
           "title": "＜社説＞ジャングリア開業　地域と調和した運営を",
           "link": "https://ryukyushimpo.jp/editorial/entry-4477334.html",
           "published": "2025/07/25",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：成績評価見直し　子の意欲高まるように",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1528966",
+          "published": "2025/7/25 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：夏山シーズン　備えを万全に登りたい",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1528958",
+          "published": "2025/7/25 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】長期金利の上昇　市場の警告を受け流すな",
+          "link": "https://www.nishinippon.co.jp/item/1380281/",
+          "published": "2025/07/25 06:00",
           "paid": false
         }
       ]

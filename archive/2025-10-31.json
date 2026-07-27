@@ -59,13 +59,13 @@
         {
           "title": "［社説］首相は中韓と信頼築き地域安定に尽くせ",
           "link": "https://www.nikkei.com/article/DGXZQODK315CA0R31C25A0000000/",
-          "published": "2025年10月31日",
+          "published": "2025/10/31 19:25",
           "paid": false
         },
         {
           "title": "［社説］多面的なクマ対策を速やかに",
           "link": "https://www.nikkei.com/article/DGXZQODK3135G0R31C25A0000000/",
-          "published": "2025年10月31日",
+          "published": "2025/10/31 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "米中首脳会談　対立より共存共栄の道を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/719360",
-          "published": "2025/10/31",
+          "published": "2025/10/31 6:00",
           "paid": false
         }
       ]
@@ -177,13 +177,13 @@
         {
           "title": "社説【観光立国推進計画】住民生活との両立を柱に",
           "link": "https://www.hokkoku.co.jp/articles/-/1914622",
-          "published": "10/31",
+          "published": "2025/10/31 5:00",
           "paid": true
         },
         {
           "title": "社説【政策金利の維持】年内の利上げは避けたい",
           "link": "https://www.hokkoku.co.jp/articles/-/1914621",
-          "published": "10/31",
+          "published": "2025/10/31 5:00",
           "paid": true
         }
       ]
@@ -286,6 +286,40 @@
           "title": "＜社説＞古謝市長不起訴「不当」　議決受け止め捜査尽くせ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4732572.html",
           "published": "2025/10/31",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：米中摩擦と日本　不確実性ふまえ冷静対応を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1591242",
+          "published": "2025/10/31 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】首相の経済政策　成長支える財源を確かに",
+          "link": "https://www.nishinippon.co.jp/item/1417909/",
+          "published": "2025/10/31 06:00",
           "paid": false
         }
       ]

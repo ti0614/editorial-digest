@@ -59,13 +59,13 @@
         {
           "title": "［社説］半導体AI特需の持続力に注視が要る",
           "link": "https://www.nikkei.com/article/DGXZQODK305XL0Q5A530C2000000/",
-          "published": "2025年5月30日",
+          "published": "2025/5/30 19:05",
           "paid": false
         },
         {
           "title": "［社説］セブンは企業価値の向上急げ",
           "link": "https://www.nikkei.com/article/DGXZQODK303E40Q5A530C2000000/",
-          "published": "2025年5月30日",
+          "published": "2025/5/30 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "ハーバード大　見過ごせぬ米政権の圧力",
           "link": "https://www.niigata-nippo.co.jp/articles/-/617284",
-          "published": "2025/5/30",
+          "published": "2025/5/30 6:00",
           "paid": false
         }
       ]
@@ -246,6 +246,46 @@
           "title": "＜社説＞南城市第三者委員会　市長の適格性　厳正判断を",
           "link": "https://ryukyushimpo.jp/editorial/entry-4282907.html",
           "published": "2025/05/30",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：熱中症対策　職場はじめ備え徹底を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1485602",
+          "published": "2025/5/30 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：兵庫知事「漏えい」　責任認め職を辞すべき",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1485605",
+          "published": "2025/5/30 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】企業・団体献金　論議棚上げは国会の怠慢",
+          "link": "https://www.nishinippon.co.jp/item/1357420/",
+          "published": "2025/05/30 06:00",
           "paid": false
         }
       ]

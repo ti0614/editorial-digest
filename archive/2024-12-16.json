@@ -53,13 +53,13 @@
         {
           "title": "［社説］生成AI検索巡る懸念に真摯に向き合え",
           "link": "https://www.nikkei.com/article/DGXZQODK141FH0U4A211C2000000/",
-          "published": "2024年12月16日",
+          "published": "2024/12/16 19:05",
           "paid": false
         },
         {
           "title": "［社説］アルゼンチン改革の実さらに",
           "link": "https://www.nikkei.com/article/DGXZQODK166VV0W4A211C2000000/",
-          "published": "2024年12月16日",
+          "published": "2024/12/16 19:00",
           "paid": false
         }
       ]
@@ -113,7 +113,7 @@
         {
           "title": "韓国大統領弾劾　混乱最小限にとどめねば",
           "link": "https://www.niigata-nippo.co.jp/articles/-/526307",
-          "published": "2024/12/16",
+          "published": "2024/12/16 6:00",
           "paid": false
         }
       ]
@@ -165,6 +165,23 @@
           "title": "＜社説＞オスプレイ飛行再開　欠陥機は退役するべきだ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3765908.html",
           "published": "2024/12/16",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】エネルギー計画　原発推進の結論ありきか",
+          "link": "https://www.nishinippon.co.jp/item/1293764/",
+          "published": "2024/12/16 06:00",
           "paid": false
         }
       ]

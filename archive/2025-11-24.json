@@ -53,13 +53,13 @@
         {
           "title": "［社説］G20はこれ以上の分断を食い止めよ",
           "link": "https://www.nikkei.com/article/DGXZQOCD217HV0R21C25A1000000/",
-          "published": "2025年11月24日",
+          "published": "2025/11/24 19:05",
           "paid": false
         },
         {
           "title": "［社説］地域金融の再編はまだ途上だ",
           "link": "https://www.nikkei.com/article/DGXZQODK21CCN0R21C25A1000000/",
-          "published": "2025年11月24日",
+          "published": "2025/11/24 19:00",
           "paid": false
         }
       ]
@@ -120,7 +120,7 @@
         {
           "title": "クマ対策強化　長期視点で共生進めねば",
           "link": "https://www.niigata-nippo.co.jp/articles/-/733870",
-          "published": "2025/11/24",
+          "published": "2025/11/24 6:00",
           "paid": false
         }
       ]
@@ -154,13 +154,13 @@
         {
           "title": "社説【防災士の災害協力】連帯感育み地域守る力に",
           "link": "https://www.hokkoku.co.jp/articles/-/1938602",
-          "published": "11/24",
+          "published": "2025/11/24 5:00",
           "paid": true
         },
         {
           "title": "社説【膵臓がん治療】北陸のチーム医療向上を",
           "link": "https://www.hokkoku.co.jp/articles/-/1938601",
-          "published": "11/24",
+          "published": "2025/11/24 5:00",
           "paid": true
         }
       ]
@@ -246,6 +246,40 @@
           "title": "＜社説＞大浦湾土砂投入へ　辺野古断念し即時閉鎖を",
           "link": "https://ryukyushimpo.jp/editorial/entry-4802211.html",
           "published": "2025/11/24",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：ストーカー法２５年　危険見逃さぬ連携の強化を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1605633",
+          "published": "2025/11/24 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】コメ政策見直し　ぶれずに生産力を高めよ",
+          "link": "https://www.nishinippon.co.jp/item/1426959/",
+          "published": "2025/11/24 06:00",
           "paid": false
         }
       ]

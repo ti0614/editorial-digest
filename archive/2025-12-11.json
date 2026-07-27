@@ -59,13 +59,13 @@
         {
           "title": "［社説］割れた利下げ決定が試すFRBの信認",
           "link": "https://www.nikkei.com/article/DGXZQODK117BR0R11C25A2000000/",
-          "published": "2025年12月11日",
+          "published": "2025/12/11 19:05",
           "paid": false
         },
         {
           "title": "［社説］シリア国内融和と復興を急げ",
           "link": "https://www.nikkei.com/article/DGXZQODK114K70R11C25A2000000/",
-          "published": "2025年12月11日",
+          "published": "2025/12/11 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "アルビＪ２降格　抜本的な立て直し不可欠",
           "link": "https://www.niigata-nippo.co.jp/articles/-/744153",
-          "published": "2025/12/11",
+          "published": "2025/12/11 6:00",
           "paid": false
         }
       ]
@@ -177,13 +177,13 @@
         {
           "title": "社説【米国が中国批判】サイバー攻撃への備えを",
           "link": "https://www.hokkoku.co.jp/articles/-/1956513",
-          "published": "12/11",
+          "published": "2025/12/11 5:00",
           "paid": true
         },
         {
           "title": "社説【高齢運転手の事故】能力診断の普及にも期待",
           "link": "https://www.hokkoku.co.jp/articles/-/1956512",
-          "published": "12/11",
+          "published": "2025/12/11 5:00",
           "paid": true
         }
       ]
@@ -303,6 +303,46 @@
           "title": "＜社説＞米軍降下訓練ミス　住宅地降下　即時中止せよ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4858858.html",
           "published": "2025/12/11",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：おこめ券　農政の迷走ぶりを象徴",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1616296",
+          "published": "2025/12/11 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：京都サンガ躍進　最高位を優勝につなげ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1616291",
+          "published": "2025/12/11 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】地方の物価対策　過去の検証踏まえ工夫を",
+          "link": "https://www.nishinippon.co.jp/item/1433761/",
+          "published": "2025/12/11 06:00",
           "paid": false
         }
       ]

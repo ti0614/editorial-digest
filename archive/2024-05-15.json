@@ -73,7 +73,7 @@
         {
           "title": "原発アンケート　議論足りない現状示した",
           "link": "https://www.niigata-nippo.co.jp/articles/-/405472",
-          "published": "2024/5/15",
+          "published": "2024/5/15 6:00",
           "paid": false
         }
       ]
@@ -176,6 +176,23 @@
           "title": "＜社説＞施政権返還52年　「復帰の誓い」再確認の日に",
           "link": "https://ryukyushimpo.jp/editorial/entry-3078697.html",
           "published": "2024/05/15",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】選挙運動の妨害　表現の自由を取り違えるな",
+          "link": "https://www.nishinippon.co.jp/item/1211136/",
+          "published": "2024/05/15 06:00",
           "paid": false
         }
       ]

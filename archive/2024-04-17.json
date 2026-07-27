@@ -73,7 +73,7 @@
         {
           "title": "水原元通訳訴追　依存症の怖さ見せつけた",
           "link": "https://www.niigata-nippo.co.jp/articles/-/391575",
-          "published": "2024/4/17",
+          "published": "2024/4/17 6:00",
           "paid": false
         }
       ]
@@ -176,6 +176,23 @@
           "title": "＜社説＞「共同親権」衆院可決　子の利益配慮した議論を",
           "link": "https://ryukyushimpo.jp/editorial/entry-2990694.html",
           "published": "2024/04/17",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】イランの攻撃　報復の連鎖を食い止めよ",
+          "link": "https://www.nishinippon.co.jp/item/1201514/",
+          "published": "2024/04/17 06:00",
           "paid": false
         }
       ]

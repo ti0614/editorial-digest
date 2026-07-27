@@ -47,7 +47,7 @@
         {
           "title": "［社説］混迷を好機にする行動の1年に",
           "link": "https://www.nikkei.com/article/DGXZQODK235JB0T21C25A2000000/",
-          "published": "1月1日",
+          "published": "2026/1/1 0:00",
           "paid": false
         }
       ]
@@ -108,7 +108,7 @@
         {
           "title": "２０２６年を迎えて　平和の尊さをかみしめる",
           "link": "https://www.niigata-nippo.co.jp/articles/-/755435",
-          "published": "1/1",
+          "published": "2026/1/1 6:00",
           "paid": false
         }
       ]
@@ -142,7 +142,7 @@
         {
           "title": "社説【復刊８０年】「苦渋の休刊」経たからこそ",
           "link": "https://www.hokkoku.co.jp/articles/-/1976367",
-          "published": "1/1",
+          "published": "2026/1/1 5:00",
           "paid": true
         }
       ]
@@ -262,6 +262,40 @@
           "title": "＜社説＞2026年を迎えて　夢を語り、理想掲げよう",
           "link": "https://ryukyushimpo.jp/editorial/entry-4920191.html",
           "published": "2026/01/01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：新しい年に　京都、滋賀に希望の物語紡ごう",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1629262",
+          "published": "2026/1/1 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】新年に考える　分断をほどく鍵は足元に",
+          "link": "https://www.nishinippon.co.jp/item/1441535/",
+          "published": "2026/01/01 06:00",
           "paid": false
         }
       ]

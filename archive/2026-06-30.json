@@ -69,13 +69,13 @@
         {
           "title": "［社説］骨太の方針に持続的な財政の姿が見えぬ",
           "link": "https://www.nikkei.com/article/DGXZQODK308MO0Q6A630C2000000/",
-          "published": "6月30日",
+          "published": "2026/6/30 19:14",
           "paid": false
         },
         {
           "title": "［社説］皇室典範の改正案は再考を",
           "link": "https://www.nikkei.com/article/DGXZQODK305AN0Q6A630C2000000/",
-          "published": "6月30日",
+          "published": "2026/6/30 19:00",
           "paid": false
         }
       ]
@@ -149,7 +149,7 @@
         {
           "title": "社説：スポットワーク　実態把握しルールづくりを",
           "link": "https://www.kyoto-np.co.jp/articles/-/1742228",
-          "published": "6月30日",
+          "published": "2026/6/30 16:00",
           "paid": false
         }
       ]
@@ -320,14 +320,7 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": [
-        {
-          "title": "飲酒運転根絶へ無関心なくせ　八街児童５人死傷輪禍４年　【論説】",
-          "link": "https://www.chibanippo.co.jp/articles/1462350",
-          "published": "6/30 5:00",
-          "paid": true
-        }
-      ]
+      "items": []
     },
     {
       "name": "新潟日報",
@@ -341,7 +334,7 @@
         {
           "title": "皇室典範改正案　「国民の総意」へ熟議必要",
           "link": "https://www.niigata-nippo.co.jp/articles/-/858595",
-          "published": "6/30",
+          "published": "2026/6/30 6:00",
           "paid": false
         }
       ]
@@ -375,13 +368,13 @@
         {
           "title": "社説【「輪島塗」特別展】美術館の復興支援に期待",
           "link": "https://www.hokkoku.co.jp/articles/-/2154360",
-          "published": "6/30",
+          "published": "2026/6/30 5:00",
           "paid": true
         },
         {
           "title": "社説【定数削減法案】審議拒否は理解得られぬ",
           "link": "https://www.hokkoku.co.jp/articles/-/2154359",
-          "published": "6/30",
+          "published": "2026/6/30 5:00",
           "paid": true
         }
       ]

@@ -59,13 +59,13 @@
         {
           "title": "［社説］米国防権限法をトランプ外交の歯止めに",
           "link": "https://www.nikkei.com/article/DGXZQODK233XX0T21C25A2000000/",
-          "published": "2025年12月23日",
+          "published": "2025/12/23 19:05",
           "paid": false
         },
         {
           "title": "［社説］鉄道料金の規制緩和を早く",
           "link": "https://www.nikkei.com/article/DGXZQOCD238PM0T21C25A2000000/",
-          "published": "2025年12月23日",
+          "published": "2025/12/23 19:00",
           "paid": false
         }
       ]
@@ -112,20 +112,7 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": [
-        {
-          "title": "安全確認徹底、意識向上を　労災死亡事故、千葉県内で増加　【論説】",
-          "link": "https://www.chibanippo.co.jp/serial/1318833",
-          "published": "12/23 5:00",
-          "paid": true
-        },
-        {
-          "title": "町挙げて新特産品なるか　大多喜でローゼル栽培販売　【論説】",
-          "link": "https://www.chibanippo.co.jp/serial/1318834",
-          "published": "12/23 5:00",
-          "paid": true
-        }
-      ]
+      "items": []
     },
     {
       "name": "新潟日報",
@@ -139,7 +126,7 @@
         {
           "title": "原発再稼働追認　県議会の気概が見えない",
           "link": "https://www.niigata-nippo.co.jp/articles/-/751188",
-          "published": "2025/12/23",
+          "published": "2025/12/23 6:00",
           "paid": false
         }
       ]
@@ -173,19 +160,19 @@
         {
           "title": "社説【医療費助成の拡充】きめ細かな子育て政策に",
           "link": "https://www.hokkoku.co.jp/articles/-/1968436",
-          "published": "12/23",
+          "published": "2025/12/23 5:00",
           "paid": true
         },
         {
           "title": "社説【古城公園の魅力向上】金沢と若手交流を進めたい",
           "link": "https://www.hokkoku.co.jp/articles/-/1968435",
-          "published": "12/23",
+          "published": "2025/12/23 5:00",
           "paid": true
         },
         {
           "title": "社説【古城公園の魅力向上】金沢と若手交流進めたい",
           "link": "https://www.hokkoku.co.jp/articles/-/1968379",
-          "published": "12/23",
+          "published": "2025/12/23 5:00",
           "paid": true
         }
       ]
@@ -305,6 +292,40 @@
           "title": "＜社説＞防衛省アセス二重基準　供用後を含むのは当然だ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4893398.html",
           "published": "2025/12/23",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：与党の税制大綱　財政の持続性は置き去りか",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1624116",
+          "published": "2025/12/23 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】核保有発言　政府は断固否定すべきだ",
+          "link": "https://www.nishinippon.co.jp/item/1438555/",
+          "published": "2025/12/23 06:00",
           "paid": false
         }
       ]

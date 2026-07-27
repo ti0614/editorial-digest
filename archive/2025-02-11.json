@@ -59,13 +59,13 @@
         {
           "title": "［社説］WHO中心の国際保健体制を堅持せよ",
           "link": "https://www.nikkei.com/article/DGXZQODK274F80X20C25A1000000/",
-          "published": "2025年2月11日",
+          "published": "2025/2/11 19:05",
           "paid": false
         },
         {
           "title": "［社説］持続可能な洋上風力発電に",
           "link": "https://www.nikkei.com/article/DGXZQODK111HO0R10C25A2000000/",
-          "published": "2025年2月11日",
+          "published": "2025/2/11 19:00",
           "paid": false
         }
       ]
@@ -136,7 +136,7 @@
         {
           "title": "顕著な大雪　気を抜かず警戒続けたい",
           "link": "https://www.niigata-nippo.co.jp/articles/-/554073",
-          "published": "2025/2/11",
+          "published": "2025/2/11 6:00",
           "paid": false
         }
       ]
@@ -239,6 +239,40 @@
           "title": "＜社説＞友訴訟上告断念　安倍政治の暗部全解明を",
           "link": "https://ryukyushimpo.jp/editorial/entry-3952152.html",
           "published": "2025/02/11",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：京都市の予算案　持続可能な財政へ緊張感を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1421024",
+          "published": "2025/2/11 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】日米首脳外交　世界に貢献する関係築け",
+          "link": "https://www.nishinippon.co.jp/item/1314275/",
+          "published": "2025/02/11 06:00",
           "paid": false
         }
       ]

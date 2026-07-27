@@ -53,13 +53,13 @@
         {
           "title": "［社説］参院選対策の消費減税公約は無責任だ",
           "link": "https://www.nikkei.com/article/DGXZQODK092O00Z00C25A5000000/",
-          "published": "2025年5月10日",
+          "published": "2025/5/10 19:05",
           "paid": false
         },
         {
           "title": "［社説］タブーではない「同意なき買収」",
           "link": "https://www.nikkei.com/article/DGXZQODK09ABC0Z00C25A5000000/",
-          "published": "2025年5月10日",
+          "published": "2025/5/10 19:00",
           "paid": false
         }
       ]
@@ -137,7 +137,7 @@
         {
           "title": "西田氏沖縄発言　歴史直視し非戦の決意を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/605168",
-          "published": "2025/5/10",
+          "published": "2025/5/10 6:00",
           "paid": false
         }
       ]
@@ -240,6 +240,40 @@
           "title": "＜社説＞西田氏発言謝罪　TPOの問題ではない",
           "link": "https://ryukyushimpo.jp/editorial/entry-4218649.html",
           "published": "2025/05/10",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：音楽の著作権　演奏者の道狭めないように",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1473721",
+          "published": "2025/5/10 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】印パの衝突　核持つ国双方が自制せよ",
+          "link": "https://www.nishinippon.co.jp/item/1349223/",
+          "published": "2025/05/10 06:00",
           "paid": false
         }
       ]

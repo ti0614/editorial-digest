@@ -56,7 +56,7 @@
         {
           "title": "「Ｈ３」成功　信頼と競争力高めて前へ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/364570",
-          "published": "2024/2/25",
+          "published": "2024/2/25 6:00",
           "paid": false
         }
       ]
@@ -159,6 +159,23 @@
           "title": "＜社説＞訓練場「白紙」拒否　民意受け止め計画撤回を",
           "link": "https://ryukyushimpo.jp/editorial/entry-2837977.html",
           "published": "2024/02/25",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】北朝鮮の挑発　冷静に分析し包囲強めよ",
+          "link": "https://www.nishinippon.co.jp/item/1182433/",
+          "published": "2024/02/25 06:00",
           "paid": false
         }
       ]

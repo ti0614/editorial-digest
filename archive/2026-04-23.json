@@ -59,13 +59,13 @@
         {
           "title": "［社説］企業買収の外為法運用に高い透明性を",
           "link": "https://www.nikkei.com/article/DGXZQODK236020T20C26A4000000/",
-          "published": "4月23日",
+          "published": "2026/4/23 19:07",
           "paid": false
         },
         {
           "title": "［社説］アップルは成長続けられるか",
           "link": "https://www.nikkei.com/article/DGXZQODK237HY0T20C26A4000000/",
-          "published": "4月23日",
+          "published": "2026/4/23 19:00",
           "paid": false
         }
       ]
@@ -136,7 +136,7 @@
         {
           "title": "武器輸出の解禁　平和主義を逸脱しないか",
           "link": "https://www.niigata-nippo.co.jp/articles/-/819295",
-          "published": "4/23",
+          "published": "2026/4/23 6:00",
           "paid": false
         }
       ]
@@ -170,13 +170,13 @@
         {
           "title": "社説【茶碗まつりに若い力】器の用途広げる提案を",
           "link": "https://www.hokkoku.co.jp/articles/-/2085658",
-          "published": "4/23",
+          "published": "2026/4/23 5:00",
           "paid": true
         },
         {
           "title": "社説【新幹線の貸付料】地元負担を減らす糸口に",
           "link": "https://www.hokkoku.co.jp/articles/-/2085657",
-          "published": "4/23",
+          "published": "2026/4/23 5:00",
           "paid": true
         }
       ]
@@ -296,6 +296,46 @@
           "title": "＜社説＞高市政権半年　「強さ」追求だけでよいか",
           "link": "https://ryukyushimpo.jp/editorial/entry-5206207.html",
           "published": "2026/04/23",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：個人情報保護法　危うい企業優先の緩和",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1701141",
+          "published": "2026/4/23 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：軽油のカルテル　公費「中抜き」背信では",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1701131",
+          "published": "2026/4/23 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】NPT会議　核軍縮の後退に歯止めを",
+          "link": "https://www.nishinippon.co.jp/item/1484857/",
+          "published": "2026/04/23 06:00",
           "paid": false
         }
       ]

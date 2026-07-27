@@ -83,14 +83,7 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": [
-        {
-          "title": "手口巧妙化、だまされないで　過去最悪の「電話de詐欺」　【論説】",
-          "link": "https://www.chibanippo.co.jp/articles/1497790",
-          "published": "9/15 5:00",
-          "paid": true
-        }
-      ]
+      "items": []
     },
     {
       "name": "新潟日報",
@@ -104,7 +97,7 @@
         {
           "title": "旧長銀資金完済　「金融危機」の教訓忘れず",
           "link": "https://www.niigata-nippo.co.jp/articles/-/689909",
-          "published": "2025/9/15",
+          "published": "2025/9/15 6:00",
           "paid": false
         }
       ]
@@ -138,13 +131,13 @@
         {
           "title": "社説【被災文化財】往時の姿を３Ｄデータに",
           "link": "https://www.hokkoku.co.jp/articles/-/1867618",
-          "published": "9/15",
+          "published": "2025/9/15 5:00",
           "paid": true
         },
         {
           "title": "社説【賃上げの支援】稼ぐ力高める大胆な策を",
           "link": "https://www.hokkoku.co.jp/articles/-/1867617",
-          "published": "9/15",
+          "published": "2025/9/15 5:00",
           "paid": true
         }
       ]
@@ -230,6 +223,40 @@
           "title": "＜社説＞カタール空爆　戦闘の拡大は許されない",
           "link": "https://ryukyushimpo.jp/editorial/entry-4616601.html",
           "published": "2025/09/15",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：敬老の日に　高齢者の参加で輝く社会へ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1562335",
+          "published": "2025/9/15 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】高齢者と災害　命守る備えを地域と共に",
+          "link": "https://www.nishinippon.co.jp/item/1399686/",
+          "published": "2025/09/15 06:00",
           "paid": false
         }
       ]

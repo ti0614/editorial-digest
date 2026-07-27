@@ -47,13 +47,13 @@
         {
           "title": "［社説］株式の魅力向上を促す会社法の改正に",
           "link": "https://www.nikkei.com/article/DGXZQODK121LC0S5A210C2000000/",
-          "published": "2025年2月12日",
+          "published": "2025/2/12 19:05",
           "paid": false
         },
         {
           "title": "［社説］選挙実務のデジタル化を探れ",
           "link": "https://www.nikkei.com/article/DGXZQODK127HY0S5A210C2000000/",
-          "published": "2025年2月12日",
+          "published": "2025/2/12 19:00",
           "paid": false
         }
       ]
@@ -107,7 +107,7 @@
         {
           "title": "ＳＮＳ詐欺最悪　安心な社会へ対策を急げ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/554438",
-          "published": "2025/2/12",
+          "published": "2025/2/12 6:00",
           "paid": false
         }
       ]
@@ -210,6 +210,40 @@
           "title": "＜社説＞博物館連携ネット設立　沖縄で非戦思想深めよう",
           "link": "https://ryukyushimpo.jp/editorial/entry-3955591.html",
           "published": "2025/02/12",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：ＳＮＳ選挙の規制　現状に即した実効ある策を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1421374",
+          "published": "2025/2/12 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】楽しい日本　理念と手段をもっと語れ",
+          "link": "https://www.nishinippon.co.jp/item/1314552/",
+          "published": "2025/02/12 06:00",
           "paid": false
         }
       ]

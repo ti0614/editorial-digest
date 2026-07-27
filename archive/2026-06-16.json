@@ -53,7 +53,7 @@
         {
           "title": "社説：米イラン覚書合意　今度こそ恒久和平につなげ",
           "link": "https://www.kyoto-np.co.jp/articles/-/1733365",
-          "published": "6月16日",
+          "published": "2026/6/16 16:00",
           "paid": false
         }
       ]
@@ -93,13 +93,13 @@
         {
           "title": "［社説］日銀は物価リスク直視し利上げ路線保て",
           "link": "https://www.nikkei.com/article/DGXZQODK162O40W6A610C2000000/",
-          "published": "6月16日",
+          "published": "2026/6/16 19:05",
           "paid": false
         },
         {
           "title": "［社説］LGBTの理解深める活動を",
           "link": "https://www.nikkei.com/article/DGXZQODK039Q30T00C26A6000000/",
-          "published": "6月16日",
+          "published": "2026/6/16 19:00",
           "paid": false
         }
       ]
@@ -146,14 +146,7 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": [
-        {
-          "title": "保存へ支援の輪拡大を　魅力ある千葉県内の建築物　【論説】",
-          "link": "https://www.chibanippo.co.jp/articles/1456051",
-          "published": "6/16 5:00",
-          "paid": true
-        }
-      ]
+      "items": []
     },
     {
       "name": "新潟日報",
@@ -167,7 +160,7 @@
         {
           "title": "米イラン合意　混乱に終止符を打たねば",
           "link": "https://www.niigata-nippo.co.jp/articles/-/849639",
-          "published": "6/16",
+          "published": "2026/6/16 6:00",
           "paid": false
         }
       ]
@@ -201,19 +194,19 @@
         {
           "title": "社説【「お試し移住」】出会いの場を提供したい",
           "link": "https://www.hokkoku.co.jp/articles/-/2140239",
-          "published": "6/16",
+          "published": "2026/6/16 5:00",
           "paid": true
         },
         {
           "title": "社説【原発の建て替え】国主導で安全性を最優先に",
           "link": "https://www.hokkoku.co.jp/articles/-/2140238",
-          "published": "6/16",
+          "published": "2026/6/16 5:00",
           "paid": true
         },
         {
           "title": "社説【原発の建て替え】　国主導で安全性を最優先に",
           "link": "https://www.hokkoku.co.jp/articles/-/2140233",
-          "published": "6/16",
+          "published": "2026/6/16 5:00",
           "paid": true
         }
       ]

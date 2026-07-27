@@ -67,7 +67,7 @@
         {
           "title": "ガザ死者４万人超　停戦交渉の合意急がねば",
           "link": "https://www.niigata-nippo.co.jp/articles/-/461310",
-          "published": "2024/8/20",
+          "published": "2024/8/20 6:00",
           "paid": false
         }
       ]
@@ -170,6 +170,23 @@
           "title": "＜社説＞大浦湾本体工事開始へ　立ち止まり対話すべきだ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3384517.html",
           "published": "2024/08/20",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】JR高速船不正　信じ難い安全意識の欠如",
+          "link": "https://www.nishinippon.co.jp/item/1248722/",
+          "published": "2024/08/20 06:00",
           "paid": false
         }
       ]

@@ -73,7 +73,7 @@
         {
           "title": "島サミット　連携強化し課題に対処を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/442832",
-          "published": "2024/7/20",
+          "published": "2024/7/20 6:00",
           "paid": false
         }
       ]
@@ -176,6 +176,23 @@
           "title": "＜社説＞人間国宝に新垣さん　多様な染織文化誇りたい",
           "link": "https://ryukyushimpo.jp/editorial/entry-3279850.html",
           "published": "2024/07/20",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】日本とNATO　中国とも均衡ある外交を",
+          "link": "https://www.nishinippon.co.jp/item/1236774/",
+          "published": "2024/07/20 06:00",
           "paid": false
         }
       ]

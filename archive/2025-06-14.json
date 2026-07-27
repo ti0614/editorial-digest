@@ -53,13 +53,13 @@
         {
           "title": "［社説］日鉄はUSスチール買収を成長の好機に",
           "link": "https://www.nikkei.com/article/DGXZQODK1423P0U5A610C2000000/",
-          "published": "2025年6月14日",
+          "published": "2025/6/14 19:05",
           "paid": false
         },
         {
           "title": "［社説］金融当局はいわき信組不正の猛省を",
           "link": "https://www.nikkei.com/article/DGXZQODK140Z40U5A610C2000000/",
-          "published": "2025年6月14日",
+          "published": "2025/6/14 19:00",
           "paid": false
         }
       ]
@@ -120,7 +120,7 @@
         {
           "title": "イラン核施設空爆　イスラエルは暴挙やめよ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/626616",
-          "published": "2025/6/14",
+          "published": "2025/6/14 6:00",
           "paid": false
         }
       ]
@@ -223,6 +223,40 @@
           "title": "＜社説＞大川原事件上告断念　冤罪の原因究明、公表せよ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4328902.html",
           "published": "2025/06/14",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：イスラエルの攻撃　核の危険に世界さらす暴挙",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1495102",
+          "published": "2025/6/14 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】学術会議法成立　政府の介入は許されない",
+          "link": "https://www.nishinippon.co.jp/item/1363833/",
+          "published": "2025/06/14 06:00",
           "paid": false
         }
       ]

@@ -344,14 +344,14 @@
       "category": "論説",
       "tier": "regional",
       "index_url": "https://www.chibanippo.co.jp/serial",
-      "error": null,
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
       "items": [
         {
           "title": "全国で死者、対策徹底を　猛暑本格化　【論説】",
           "link": "https://www.chibanippo.co.jp/articles/1646043",
-          "published": "7/27 5:00",
+          "published": "2026/7/27 5:00",
           "paid": true
         }
       ]
@@ -368,7 +368,7 @@
         {
           "title": "防災庁発足へ　地方の人材育成に注力を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/874616",
-          "published": "6:00",
+          "published": "2026/7/27 6:00",
           "paid": false
         }
       ]
@@ -402,13 +402,13 @@
         {
           "title": "社説【金沢デジタル工芸展】ＡＩも美の水先案内役に",
           "link": "https://www.hokkoku.co.jp/articles/-/2181756",
-          "published": "5:00",
+          "published": "2026/7/27 5:00",
           "paid": true
         },
         {
           "title": "社説【児童の水泳授業】学校プールにこだわらず",
           "link": "https://www.hokkoku.co.jp/articles/-/2181755",
-          "published": "5:00",
+          "published": "2026/7/27 5:00",
           "paid": true
         }
       ]

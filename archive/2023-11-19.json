@@ -33,7 +33,7 @@
         {
           "title": "日中首脳会談　難題の解決につなげたい",
           "link": "https://www.niigata-nippo.co.jp/articles/-/315086",
-          "published": "2023/11/19",
+          "published": "2023/11/19 6:00",
           "paid": false
         }
       ]
@@ -119,6 +119,23 @@
           "title": "＜社説＞琉仏条約「原案」　琉球の外交、今でも学びに",
           "link": "https://ryukyushimpo.jp/editorial/entry-2489065.html",
           "published": "2023/11/19",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】ガザ安保理決議　早期停戦へ具体的行動を",
+          "link": "https://www.nishinippon.co.jp/item/1147694/",
+          "published": "2023/11/19 06:00",
           "paid": false
         }
       ]

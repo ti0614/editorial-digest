@@ -73,7 +73,7 @@
         {
           "title": "夏山登山　入念な計画と準備を必ず",
           "link": "https://www.niigata-nippo.co.jp/articles/-/457604",
-          "published": "2024/8/12",
+          "published": "2024/8/12 6:00",
           "paid": false
         }
       ]
@@ -159,6 +159,23 @@
           "title": "＜社説＞南城ハラスメント条例　防止向けさらなる議論を",
           "link": "https://ryukyushimpo.jp/editorial/entry-3362300.html",
           "published": "2024/08/12",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】ハーレーに疑惑　販売店いじめは許されぬ",
+          "link": "https://www.nishinippon.co.jp/item/1246426/",
+          "published": "2024/08/12 06:00",
           "paid": false
         }
       ]

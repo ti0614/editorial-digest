@@ -53,13 +53,13 @@
         {
           "title": "［社説］上場の原点に戻り価値高める企業経営を",
           "link": "https://www.nikkei.com/article/DGXZQODK174XB0X10C25A3000000/",
-          "published": "2025年3月17日",
+          "published": "2025/3/17 19:05",
           "paid": false
         },
         {
           "title": "［社説］紅海巡る緊張再燃を憂慮する",
           "link": "https://www.nikkei.com/article/DGXZQODK174WG0X10C25A3000000/",
-          "published": "2025年3月17日",
+          "published": "2025/3/17 19:00",
           "paid": false
         }
       ]
@@ -120,7 +120,7 @@
         {
           "title": "苦境のトキ鉄　結束し鉄道網を守らねば",
           "link": "https://www.niigata-nippo.co.jp/articles/-/574854",
-          "published": "2025/3/17",
+          "published": "2025/3/17 6:00",
           "paid": false
         }
       ]
@@ -206,6 +206,40 @@
           "title": "＜社説＞キングス天皇杯初制覇　沖縄バスケに新たな歴史",
           "link": "https://ryukyushimpo.jp/editorial/entry-4058443.html",
           "published": "2025/03/17",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：選択的夫婦別姓　通称で問題は解決できない",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1441346",
+          "published": "2025/3/17 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】検察の取り調べ　可視化広げ体質の改善を",
+          "link": "https://www.nishinippon.co.jp/item/1327519/",
+          "published": "2025/03/17 06:00",
           "paid": false
         }
       ]

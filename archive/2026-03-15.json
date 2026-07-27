@@ -76,7 +76,7 @@
         {
           "title": "子どもの未来のため実行を　部活動の地域展開　【論説】",
           "link": "https://www.chibanippo.co.jp/articles/1584934",
-          "published": "3/15 5:00",
+          "published": "2026/3/15 5:00",
           "paid": true
         }
       ]
@@ -93,7 +93,7 @@
         {
           "title": "教員不足深刻化　多忙感減らす改革が急務",
           "link": "https://www.niigata-nippo.co.jp/articles/-/796546",
-          "published": "3/15",
+          "published": "2026/3/15 6:00",
           "paid": false
         }
       ]
@@ -127,13 +127,13 @@
         {
           "title": "社説【復興住宅建設】つながり取り戻す土台に",
           "link": "https://www.hokkoku.co.jp/articles/-/2046049",
-          "published": "3/15",
+          "published": "2026/3/15 5:00",
           "paid": true
         },
         {
           "title": "社説【ｉＰＳ実用化】成果を積み上げ本承認を",
           "link": "https://www.hokkoku.co.jp/articles/-/2046048",
-          "published": "3/15",
+          "published": "2026/3/15 5:00",
           "paid": true
         }
       ]
@@ -236,6 +236,40 @@
           "title": "＜社説＞予算案衆院強行採決　与党は数の力におごるな",
           "link": "https://ryukyushimpo.jp/editorial/entry-5118886.html",
           "published": "2026/03/15",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：ホスピス型住宅　訪問看護不正防ぎ、質担保を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1676834",
+          "published": "2026/3/15 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】訪日客4000万人　満足度高めて観光立国へ",
+          "link": "https://www.nishinippon.co.jp/item/1469757/",
+          "published": "2026/03/15 06:00",
           "paid": false
         }
       ]

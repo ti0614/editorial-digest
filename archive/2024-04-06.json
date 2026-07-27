@@ -73,7 +73,7 @@
         {
           "title": "台湾地震　助け合いの輪を広げたい",
           "link": "https://www.niigata-nippo.co.jp/articles/-/386232",
-          "published": "2024/4/6",
+          "published": "2024/4/6 6:00",
           "paid": false
         }
       ]
@@ -176,6 +176,23 @@
           "title": "＜社説＞自民裏金処分　国民との乖離埋まらない",
           "link": "https://ryukyushimpo.jp/editorial/entry-2961278.html",
           "published": "2024/04/06",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】ガザ戦闘半年　安保理決議に従い停戦を",
+          "link": "https://www.nishinippon.co.jp/item/1197817/",
+          "published": "2024/04/06 06:00",
           "paid": false
         }
       ]

@@ -80,7 +80,7 @@
         {
           "title": "大谷２年連続５０号　球史刻む最強打者の証し",
           "link": "https://www.niigata-nippo.co.jp/articles/-/694119",
-          "published": "2025/9/21",
+          "published": "2025/9/21 6:00",
           "paid": false
         }
       ]
@@ -114,13 +114,13 @@
         {
           "title": "社説【美容医療のトラブル】信頼性高める指導が必要",
           "link": "https://www.hokkoku.co.jp/articles/-/1873345",
-          "published": "9/21",
+          "published": "2025/9/21 5:00",
           "paid": true
         },
         {
           "title": "社説【奥能登豪雨１年】治水対策こそ安心の基盤",
           "link": "https://www.hokkoku.co.jp/articles/-/1873344",
-          "published": "9/21",
+          "published": "2025/9/21 5:00",
           "paid": true
         }
       ]
@@ -223,6 +223,40 @@
           "title": "＜社説＞中谷防衛相「妨害」発言　異論封じ込め許されない",
           "link": "https://ryukyushimpo.jp/editorial/entry-4634332.html",
           "published": "2025/09/21",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：認知症の日　訪問介護の危機解消を急げ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1566358",
+          "published": "2025/9/21 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】西九州の新幹線　全線開通へ思いを一つに",
+          "link": "https://www.nishinippon.co.jp/item/1402045/",
+          "published": "2025/09/21 06:00",
           "paid": false
         }
       ]

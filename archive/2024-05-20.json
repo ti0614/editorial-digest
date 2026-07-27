@@ -67,7 +67,7 @@
         {
           "title": "米の対中関税強化　過度な保護主義は危うい",
           "link": "https://www.niigata-nippo.co.jp/articles/-/408043",
-          "published": "2024/5/20",
+          "published": "2024/5/20 6:00",
           "paid": false
         }
       ]
@@ -153,6 +153,23 @@
           "title": "＜社説＞「共同親権」成立　残る懸念、導入は拙速だ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3100695.html",
           "published": "2024/05/20",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】教員の待遇改善　長時間労働の是正を急げ",
+          "link": "https://www.nishinippon.co.jp/item/1212948/",
+          "published": "2024/05/20 06:00",
           "paid": false
         }
       ]

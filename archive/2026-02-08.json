@@ -53,7 +53,7 @@
         {
           "title": "［社説］大事な1票で難局に臨む国の針路確かに",
           "link": "https://www.nikkei.com/article/DGXZQODK058FN0V00C26A2000000/",
-          "published": "2月8日",
+          "published": "2026/2/8 0:00",
           "paid": false
         }
       ]
@@ -114,7 +114,7 @@
         {
           "title": "きょう投票　冷静に政策を見極めたい",
           "link": "https://www.niigata-nippo.co.jp/articles/-/775921",
-          "published": "2/8",
+          "published": "2026/2/8 6:00",
           "paid": false
         }
       ]
@@ -148,13 +148,13 @@
         {
           "title": "社説【農林水産物の輸出】北陸も相手先の多角化を",
           "link": "https://www.hokkoku.co.jp/articles/-/2010453",
-          "published": "2/8",
+          "published": "2026/2/8 5:00",
           "paid": true
         },
         {
           "title": "社説【衆院選きょう投票】思い託す相手を見極めたい",
           "link": "https://www.hokkoku.co.jp/articles/-/2010452",
-          "published": "2/8",
+          "published": "2026/2/8 5:00",
           "paid": true
         }
       ]
@@ -257,6 +257,40 @@
           "title": "＜社説＞衆院選きょう投開票　将来へ悔い残さぬ選択を",
           "link": "https://ryukyushimpo.jp/editorial/entry-5020595.html",
           "published": "2026/02/08",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：きょう投票　針路を定める１票投じよう",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1652499",
+          "published": "2026/2/8 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】核軍縮条約失効　新たな枠組み作りを急げ",
+          "link": "https://www.nishinippon.co.jp/item/1455501/",
+          "published": "2026/02/08 06:00",
           "paid": false
         }
       ]

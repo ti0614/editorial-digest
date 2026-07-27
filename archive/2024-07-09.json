@@ -73,7 +73,7 @@
         {
           "title": "小池都知事３選　地方全体の「けん引役」に",
           "link": "https://www.niigata-nippo.co.jp/articles/-/436401",
-          "published": "2024/7/9",
+          "published": "2024/7/9 6:00",
           "paid": false
         }
       ]
@@ -176,6 +176,23 @@
           "title": "＜社説＞東京都知事選　選挙の在り方が問われた",
           "link": "https://ryukyushimpo.jp/editorial/entry-3246445.html",
           "published": "2024/07/09",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】自衛隊の不祥事　緩み切った組織の襟正せ",
+          "link": "https://www.nishinippon.co.jp/item/1232489/",
+          "published": "2024/07/09 06:00",
           "paid": false
         }
       ]

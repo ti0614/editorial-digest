@@ -59,13 +59,13 @@
         {
           "title": "［社説］介護離職を経営リスクととらえ対策急げ",
           "link": "https://www.nikkei.com/article/DGXZQODK060KQ0W5A400C2000000/",
-          "published": "2025年4月6日",
+          "published": "2025/4/6 19:05",
           "paid": false
         },
         {
           "title": "［社説］宿泊税は使途や効果を明確に",
           "link": "https://www.nikkei.com/article/DGXZQOCD03DSO0T00C25A4000000/",
-          "published": "2025年4月6日",
+          "published": "2025/4/6 19:00",
           "paid": false
         }
       ]
@@ -109,7 +109,7 @@
         {
           "title": "カスハラ防止　働く人の尊厳守る社会に",
           "link": "https://www.niigata-nippo.co.jp/articles/-/586623",
-          "published": "2025/4/6",
+          "published": "2025/4/6 6:00",
           "paid": false
         }
       ]
@@ -195,6 +195,23 @@
           "title": "＜社説＞トランプ関税発動　貿易戦争に勝者はいない",
           "link": "https://ryukyushimpo.jp/editorial/entry-4125951.html",
           "published": "2025/04/06",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】IOC新会長　五輪改革に手腕の発揮を",
+          "link": "https://www.nishinippon.co.jp/item/1336061/",
+          "published": "2025/04/06 06:00",
           "paid": false
         }
       ]

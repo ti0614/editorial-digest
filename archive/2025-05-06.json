@@ -53,13 +53,13 @@
         {
           "title": "［社説］最低投資額引き下げで株式市場に厚みを",
           "link": "https://www.nikkei.com/article/DGXZQODK02C9O0S5A500C2000000/",
-          "published": "2025年5月6日",
+          "published": "2025/5/6 19:05",
           "paid": false
         },
         {
           "title": "［社説］オーストラリア政権は米中に毅然と臨め",
           "link": "https://www.nikkei.com/article/DGXZQODK060XI0W5A500C2000000/",
-          "published": "2025年5月6日",
+          "published": "2025/5/6 19:00",
           "paid": false
         }
       ]
@@ -120,7 +120,7 @@
         {
           "title": "ｉＰＳ医療　日本の優位性生かしたい",
           "link": "https://www.niigata-nippo.co.jp/articles/-/602759",
-          "published": "2025/5/6",
+          "published": "2025/5/6 6:00",
           "paid": false
         }
       ]
@@ -223,6 +223,40 @@
           "title": "＜社説＞西田氏発言　沖縄戦証言、研究愚弄した",
           "link": "https://ryukyushimpo.jp/editorial/entry-4209416.html",
           "published": "2025/05/06",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：けいはんな万博　まちの未来、再考する機会に",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1471287",
+          "published": "2025/5/6 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】ガソリン代補助　あからさまな選挙対策だ",
+          "link": "https://www.nishinippon.co.jp/item/1347608/",
+          "published": "2025/05/06 06:00",
           "paid": false
         }
       ]

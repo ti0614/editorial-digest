@@ -59,7 +59,7 @@
         {
           "title": "［社説］トランプ次期米大統領は世界の安定脅かすな",
           "link": "https://www.nikkei.com/article/DGXZQODK06A4L0W4A101C2000000/",
-          "published": "2024年11月6日",
+          "published": "2024/11/6 19:58",
           "paid": false
         }
       ]
@@ -130,7 +130,7 @@
         {
           "title": "米大統領選　順調な投開票を期待する",
           "link": "https://www.niigata-nippo.co.jp/articles/-/504729",
-          "published": "2024/11/6",
+          "published": "2024/11/6 6:00",
           "paid": false
         }
       ]
@@ -233,6 +233,23 @@
           "title": "＜社説＞泡盛が文化遺産登録へ　海外発信の好機としたい",
           "link": "https://ryukyushimpo.jp/editorial/entry-3620005.html",
           "published": "2024/11/06",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】与党と国民民主　数合わせより政策論議を",
+          "link": "https://www.nishinippon.co.jp/item/1278485/",
+          "published": "2024/11/06 06:00",
           "paid": false
         }
       ]

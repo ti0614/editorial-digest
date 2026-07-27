@@ -96,7 +96,7 @@
         {
           "title": "あす公示　暮らし支える政策論争を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/492190",
-          "published": "2024/10/14",
+          "published": "2024/10/14 6:00",
           "paid": false
         }
       ]
@@ -199,6 +199,23 @@
           "title": "＜社説＞衆院選あす公示　未来見据えた意思示そう",
           "link": "https://ryukyushimpo.jp/editorial/entry-3552367.html",
           "published": "2024/10/14",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】スポーツの日　運動と睡眠で生活豊かに",
+          "link": "https://www.nishinippon.co.jp/item/1269761/",
+          "published": "2024/10/14 06:00",
           "paid": false
         }
       ]

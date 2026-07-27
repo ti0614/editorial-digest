@@ -53,13 +53,13 @@
         {
           "title": "［社説］難題に向き合い指針を示す学術会議に",
           "link": "https://www.nikkei.com/article/DGXZQODK253GF0V20C25A6000000/",
-          "published": "2025年6月25日",
+          "published": "2025/6/25 19:45",
           "paid": false
         },
         {
           "title": "［社説］日本郵便の規律の緩みを憂う",
           "link": "https://www.nikkei.com/article/DGXZQOCD2564Z0V20C25A6000000/",
-          "published": "2025年6月25日",
+          "published": "2025/6/25 19:35",
           "paid": false
         }
       ]
@@ -120,7 +120,7 @@
         {
           "title": "アルビ監督交代　Ｊ１残留へ一層の奮起を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/634023",
-          "published": "2025/6/25",
+          "published": "2025/6/25 6:00",
           "paid": false
         }
       ]
@@ -223,6 +223,46 @@
           "title": "＜社説＞参院選日程が決定　投票率向上にも取り組め",
           "link": "https://ryukyushimpo.jp/editorial/entry-4373850.html",
           "published": "2025/06/25",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：都議選自民敗退　裏金への怒り甘く見た",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1504002",
+          "published": "2025/6/25 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：再審制の改革　議連案成立で不備正せ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1504017",
+          "published": "2025/6/25 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】違法な公安捜査　冤罪生んだ体質を改めよ",
+          "link": "https://www.nishinippon.co.jp/item/1368407/",
+          "published": "2025/06/25 06:00",
           "paid": false
         }
       ]

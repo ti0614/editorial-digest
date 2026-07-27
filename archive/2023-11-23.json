@@ -50,7 +50,7 @@
         {
           "title": "北「衛星」発射　挑発行為を強く非難する",
           "link": "https://www.niigata-nippo.co.jp/articles/-/317096",
-          "published": "2023/11/23",
+          "published": "2023/11/23 6:00",
           "paid": false
         }
       ]
@@ -136,6 +136,23 @@
           "title": "＜社説＞北朝鮮衛星通過　緊張と混乱招く愚行だ",
           "link": "https://ryukyushimpo.jp/editorial/entry-2499086.html",
           "published": "2023/11/23",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】相次ぐくら替え　参院の存在意義はどこに",
+          "link": "https://www.nishinippon.co.jp/item/1149073/",
+          "published": "2023/11/23 06:00",
           "paid": false
         }
       ]

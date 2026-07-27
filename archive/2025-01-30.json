@@ -59,13 +59,13 @@
         {
           "title": "［社説］中国AI「DeepSeek」の波及と実力を見極めたい",
           "link": "https://www.nikkei.com/article/DGXZQODK308FY0Q5A130C2000000/",
-          "published": "2025年1月30日",
+          "published": "2025/1/30 19:05",
           "paid": false
         },
         {
           "title": "［社説］FRBはトランプ新政権の政策警戒を",
           "link": "https://www.nikkei.com/article/DGXZQODK3061X0Q5A130C2000000/",
-          "published": "2025年1月30日",
+          "published": "2025/1/30 19:00",
           "paid": false
         }
       ]
@@ -136,7 +136,7 @@
         {
           "title": "国会代表質問　首相の熱意が伝わらない",
           "link": "https://www.niigata-nippo.co.jp/articles/-/547753",
-          "published": "2025/1/30",
+          "published": "2025/1/30 6:00",
           "paid": false
         }
       ]
@@ -222,6 +222,46 @@
           "title": "＜社説＞大浦湾砂ぐい打設開始　難工事の強行は無謀だ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3912155.html",
           "published": "2025/01/30",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：２地域居住　「関係人口」増の選択肢に",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1414511",
+          "published": "2025/1/30 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：仮装身分捜査　闇バイト摘発へ議論を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1414501",
+          "published": "2025/1/30 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】金利と暮らし　引き上げの影響に注視を",
+          "link": "https://www.nishinippon.co.jp/item/1309805/",
+          "published": "2025/01/30 06:00",
           "paid": false
         }
       ]

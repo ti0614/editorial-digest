@@ -59,13 +59,13 @@
         {
           "title": "［社説］給付拡充だけでは社会保障は続かない",
           "link": "https://www.nikkei.com/article/DGXZQOCD280LJ0Y6A120C2000000/",
-          "published": "2月4日",
+          "published": "2026/2/4 19:05",
           "paid": false
         },
         {
           "title": "［社説］記録的少雨に備え節水対策を",
           "link": "https://www.nikkei.com/article/DGXZQODK043560U6A200C2000000/",
-          "published": "2月4日",
+          "published": "2026/2/4 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "大雪の被害　除雪作業は安全が最優先",
           "link": "https://www.niigata-nippo.co.jp/articles/-/773698",
-          "published": "2/4",
+          "published": "2026/2/4 6:00",
           "paid": false
         }
       ]
@@ -177,13 +177,13 @@
         {
           "title": "社説【首相の円安発言】プラス面がより大きい",
           "link": "https://www.hokkoku.co.jp/articles/-/2006264",
-          "published": "2/4",
+          "published": "2026/2/4 5:00",
           "paid": true
         },
         {
           "title": "社説【期日前投票】「移動式」さらに広げたい",
           "link": "https://www.hokkoku.co.jp/articles/-/2006263",
-          "published": "2/4",
+          "published": "2026/2/4 5:00",
           "paid": true
         }
       ]
@@ -303,6 +303,46 @@
           "title": "＜社説＞衆院選2026　辺野古新基地　県民に選択肢示す論戦を",
           "link": "https://ryukyushimpo.jp/editorial/entry-5010781.html",
           "published": "2026/02/04",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：統一教会と自民　首相は関係を説明せよ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1649808",
+          "published": "2026/2/4 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：介護保険　担い手、カネの確保策は",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1649812",
+          "published": "2026/2/4 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】政治とカネ　うやむやにせずに論戦を",
+          "link": "https://www.nishinippon.co.jp/item/1453930/",
+          "published": "2026/02/04 06:00",
           "paid": false
         }
       ]

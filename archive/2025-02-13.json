@@ -59,13 +59,13 @@
         {
           "title": "［社説］米国の都合でウクライナの命運決めるな",
           "link": "https://www.nikkei.com/article/DGXZQODK135DC0T10C25A2000000/",
-          "published": "2025年2月13日",
+          "published": "2025/2/13 19:05",
           "paid": false
         },
         {
           "title": "［社説］安全性がAI普及の前提だ",
           "link": "https://www.nikkei.com/article/DGXZQODK138CX0T10C25A2000000/",
-          "published": "2025年2月13日",
+          "published": "2025/2/13 19:03",
           "paid": false
         }
       ]
@@ -136,7 +136,7 @@
         {
           "title": "２５年度県予算案　「選ばれる新潟」の実現を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/555238",
-          "published": "2025/2/13",
+          "published": "2025/2/13 6:00",
           "paid": false
         }
       ]
@@ -239,6 +239,46 @@
           "title": "＜社説＞県議会混乱　被害を被るのは県民だ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3959340.html",
           "published": "2025/02/13",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：米の鉄鋼関税　「自国第一」が目に余る",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1422080",
+          "published": "2025/2/13 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：国連への拠出金　女性委への圧力、撤回を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1422072",
+          "published": "2025/2/13 16:05",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】子どもの自殺　SOSに気付く目と耳に",
+          "link": "https://www.nishinippon.co.jp/item/1315060/",
+          "published": "2025/02/13 06:00",
           "paid": false
         }
       ]

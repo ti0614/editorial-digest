@@ -59,13 +59,13 @@
         {
           "title": "［社説］日銀は利上げ継続の道筋で十分な対話を",
           "link": "https://www.nikkei.com/article/DGXZQODK194GH0Z11C25A2000000/",
-          "published": "2025年12月19日",
+          "published": "2025/12/19 19:05",
           "paid": false
         },
         {
           "title": "［社説］危うい米国の対ベネズエラ圧力",
           "link": "https://www.nikkei.com/article/DGXZQODK196DV0Z11C25A2000000/",
-          "published": "2025年12月19日",
+          "published": "2025/12/19 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "政治資金規正　抜け穴許さぬ制度整えよ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/748986",
-          "published": "2025/12/19",
+          "published": "2025/12/19 6:00",
           "paid": false
         }
       ]
@@ -177,13 +177,13 @@
         {
           "title": "社説【「年収の壁」合意】硬直した税制に風穴開いた",
           "link": "https://www.hokkoku.co.jp/articles/-/1964696",
-          "published": "12/19",
+          "published": "2025/12/19 5:00",
           "paid": true
         },
         {
           "title": "社説【漁場の震災調査】実態把握を再生の力に",
           "link": "https://www.hokkoku.co.jp/articles/-/1964695",
-          "published": "12/19",
+          "published": "2025/12/19 5:00",
           "paid": true
         }
       ]
@@ -303,6 +303,46 @@
           "title": "＜社説＞高市内閣初国会閉幕　重要政策、議論深まらず",
           "link": "https://ryukyushimpo.jp/editorial/entry-4883426.html",
           "published": "2025/12/19",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：ＡＩと著作権　実効性あるルール必要",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1621046",
+          "published": "2025/12/19 16:00",
+          "paid": false
+        },
+        {
+          "title": "社説：介護料の倍増　影響は長期、生活に及ぶ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1621048",
+          "published": "2025/12/19 14:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】変革期の自動車　九州の生産基盤を強固に",
+          "link": "https://www.nishinippon.co.jp/item/1437100/",
+          "published": "2025/12/19 06:00",
           "paid": false
         }
       ]

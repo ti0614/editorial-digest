@@ -53,7 +53,7 @@
         {
           "title": "［社説］G7は世界の安定担う重責果たせ",
           "link": "https://www.nikkei.com/article/DGXZQODK1846N0Y5A610C2000000/",
-          "published": "2025年6月18日",
+          "published": "2025/6/18 19:00",
           "paid": false
         }
       ]
@@ -131,7 +131,7 @@
         {
           "title": "コメ作況指数廃止　現場の混乱招かぬように",
           "link": "https://www.niigata-nippo.co.jp/articles/-/628602",
-          "published": "2025/6/18",
+          "published": "2025/6/18 6:00",
           "paid": false
         }
       ]
@@ -217,6 +217,46 @@
           "title": "＜社説＞沖縄戦80年　学徒隊解散命令　動員、戦場放置の責任重い",
           "link": "https://ryukyushimpo.jp/editorial/entry-4346901.html",
           "published": "2025/06/18",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：Ｇ７サミット　米頼みで空洞化、直視を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1497184",
+          "published": "2025/6/18 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：日本の男女格差　「クオータ制」の議論も",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1497191",
+          "published": "2025/6/18 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】USスチール買収　米政府は介入を抑制せよ",
+          "link": "https://www.nishinippon.co.jp/item/1365281/",
+          "published": "2025/06/18 06:00",
           "paid": false
         }
       ]

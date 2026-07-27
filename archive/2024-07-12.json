@@ -73,7 +73,7 @@
         {
           "title": "性別変更審判　多様性への理解広げたい",
           "link": "https://www.niigata-nippo.co.jp/articles/-/438428",
-          "published": "2024/7/12",
+          "published": "2024/7/12 6:00",
           "paid": false
         }
       ]
@@ -176,6 +176,23 @@
           "title": "＜社説＞熱中症の増加　油断せず暑さ対策徹底を",
           "link": "https://ryukyushimpo.jp/editorial/entry-3257199.html",
           "published": "2024/07/12",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】障害者ホーム不正　監視の強化で質の確保を",
+          "link": "https://www.nishinippon.co.jp/item/1233800/",
+          "published": "2024/07/12 06:00",
           "paid": false
         }
       ]

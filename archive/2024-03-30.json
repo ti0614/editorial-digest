@@ -73,7 +73,7 @@
         {
           "title": "２４年度予算成立　生活の安定実現できるか",
           "link": "https://www.niigata-nippo.co.jp/articles/-/382738",
-          "published": "2024/3/30",
+          "published": "2024/3/30 6:00",
           "paid": false
         }
       ]
@@ -176,6 +176,23 @@
           "title": "＜社説＞那覇市LRT計画素案　公共交通の価値考えたい",
           "link": "https://ryukyushimpo.jp/editorial/entry-2942214.html",
           "published": "2024/03/30",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】地価の上昇　カネ余りによる過熱懸念",
+          "link": "https://www.nishinippon.co.jp/item/1195172/",
+          "published": "2024/03/30 06:00",
           "paid": false
         }
       ]

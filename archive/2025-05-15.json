@@ -59,13 +59,13 @@
         {
           "title": "［社説］不確実な今こそ企業は成長へ手を打て",
           "link": "https://www.nikkei.com/article/DGXZQODK154SD0V10C25A5000000/",
-          "published": "2025年5月15日",
+          "published": "2025/5/15 19:05",
           "paid": false
         },
         {
           "title": "［社説］訪日消費を海外開拓に生かせ",
           "link": "https://www.nikkei.com/article/DGXZQODK1553V0V10C25A5000000/",
-          "published": "2025年5月15日",
+          "published": "2025/5/15 19:00",
           "paid": false
         }
       ]
@@ -126,7 +126,7 @@
         {
           "title": "米中関税引き下げ　緊張緩和へさらに努力を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/607964",
-          "published": "2025/5/15",
+          "published": "2025/5/15 6:00",
           "paid": false
         }
       ]
@@ -229,6 +229,46 @@
           "title": "＜社説＞施政権返還５３年　復帰の内実問い続けたい",
           "link": "https://ryukyushimpo.jp/editorial/entry-4229715.html",
           "published": "2025/05/15",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：学校の安全対策　地域の見守り生かして",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1476511",
+          "published": "2025/5/15 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：高速道路の逆走　勘違い生まぬ防止策を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1476499",
+          "published": "2025/5/15 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】沖縄復帰53年　基地の過重負担いつまで",
+          "link": "https://www.nishinippon.co.jp/item/1351033/",
+          "published": "2025/05/15 06:00",
           "paid": false
         }
       ]

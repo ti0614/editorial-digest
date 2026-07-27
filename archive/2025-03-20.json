@@ -53,13 +53,13 @@
         {
           "title": "［社説］サリン事件が問う教訓はいまも重い",
           "link": "https://www.nikkei.com/article/DGXZQODK194YL0Z10C25A3000000/",
-          "published": "2025年3月20日",
+          "published": "2025/3/20 19:05",
           "paid": false
         },
         {
           "title": "［社説］ロシアは無条件の完全停戦を",
           "link": "https://www.nikkei.com/article/DGXZQODK200JT0Q5A320C2000000/",
-          "published": "2025年3月20日",
+          "published": "2025/3/20 19:00",
           "paid": false
         }
       ]
@@ -120,7 +120,7 @@
         {
           "title": "ガザ攻撃再開　対話での停戦に立ち戻れ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/577069",
-          "published": "2025/3/20",
+          "published": "2025/3/20 6:00",
           "paid": false
         }
       ]
@@ -223,6 +223,40 @@
           "title": "＜社説＞米ロ首脳電話会談　停戦の歩み加速させよ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4069411.html",
           "published": "2025/03/20",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：サリン事件３０年　風化させず検証続けよ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1443591",
+          "published": "2025/3/20 16:05",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】福岡沖地震20年　住民共助の教訓生かそう",
+          "link": "https://www.nishinippon.co.jp/item/1328960/",
+          "published": "2025/03/20 06:00",
           "paid": false
         }
       ]

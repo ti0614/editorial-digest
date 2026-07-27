@@ -97,7 +97,7 @@
         {
           "title": "新型艦共同開発　武器輸出の拡大を憂える",
           "link": "https://www.niigata-nippo.co.jp/articles/-/669793",
-          "published": "2025/8/14",
+          "published": "2025/8/14 6:00",
           "paid": false
         }
       ]
@@ -217,6 +217,40 @@
           "title": "＜社説＞沖国大ヘリ墜落21年　危険性の放置許されない",
           "link": "https://ryukyushimpo.jp/editorial/entry-4541146.html",
           "published": "2025/08/14",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：政府統計の重み　政治中立と信頼守る環境を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1541941",
+          "published": "2025/8/14 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】最低賃金増額　地域格差をなくす制度に",
+          "link": "https://www.nishinippon.co.jp/item/1387870/",
+          "published": "2025/08/14 06:00",
           "paid": false
         }
       ]

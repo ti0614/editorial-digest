@@ -33,7 +33,7 @@
         {
           "title": "暮れゆく２０２３年　諦めずに前へと進みたい",
           "link": "https://www.niigata-nippo.co.jp/articles/-/335656",
-          "published": "2023/12/31",
+          "published": "2023/12/31 6:00",
           "paid": false
         }
       ]
@@ -119,6 +119,23 @@
           "title": "＜社説＞2023年回顧　破壊を再生につなげよう",
           "link": "https://ryukyushimpo.jp/editorial/entry-2634294.html",
           "published": "2023/12/31",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】2023世相　「満月」が照らす新時代に",
+          "link": "https://www.nishinippon.co.jp/item/1163045/",
+          "published": "2023/12/31 06:00",
           "paid": false
         }
       ]

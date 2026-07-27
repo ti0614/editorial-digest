@@ -73,7 +73,7 @@
         {
           "title": "株価史上最高値　長期低迷を抜け出せるか",
           "link": "https://www.niigata-nippo.co.jp/articles/-/363936",
-          "published": "2024/2/23",
+          "published": "2024/2/23 6:00",
           "paid": false
         }
       ]
@@ -176,6 +176,23 @@
           "title": "＜社説＞能鳳さん芸術院会員に　伝統文化の豊かさ示した",
           "link": "https://ryukyushimpo.jp/editorial/entry-2831600.html",
           "published": "2024/02/23",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】IMFの審査　外部の目を政策に生かせ",
+          "link": "https://www.nishinippon.co.jp/item/1181882/",
+          "published": "2024/02/23 06:00",
           "paid": false
         }
       ]

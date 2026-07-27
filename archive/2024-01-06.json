@@ -50,7 +50,7 @@
         {
           "title": "本県液状化被害　復旧急ぎ寄り添う支援を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/339710",
-          "published": "2024/1/6",
+          "published": "2024/1/6 6:00",
           "paid": false
         }
       ]
@@ -136,6 +136,23 @@
           "title": "＜社説＞2024年経済展望　経済活動の基盤は平和",
           "link": "https://ryukyushimpo.jp/editorial/entry-2659657.html",
           "published": "2024/01/06",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】岐路に立つ政治　改革の骨抜きは許さない",
+          "link": "https://www.nishinippon.co.jp/item/1164568/",
+          "published": "2024/01/06 06:00",
           "paid": false
         }
       ]

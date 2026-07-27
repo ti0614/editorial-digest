@@ -59,13 +59,13 @@
         {
           "title": "［社説］トランプ氏は関税を使った脅しをやめよ",
           "link": "https://www.nikkei.com/article/DGXZQODK281EB0Y5A120C2000000/",
-          "published": "2025年1月28日",
+          "published": "2025/1/28 19:05",
           "paid": false
         },
         {
           "title": "［社説］健全な告発を守る公益通報に",
           "link": "https://www.nikkei.com/article/DGXZQODK286680Y5A120C2000000/",
-          "published": "2025年1月28日",
+          "published": "2025/1/28 19:00",
           "paid": false
         }
       ]
@@ -136,7 +136,7 @@
         {
           "title": "鳥インフル猛威　拡大阻止する対策が必要",
           "link": "https://www.niigata-nippo.co.jp/articles/-/546607",
-          "published": "2025/1/28",
+          "published": "2025/1/28 6:00",
           "paid": false
         }
       ]
@@ -239,6 +239,40 @@
           "title": "＜社説＞フジやり直し会見　信頼回復は簡単ではない",
           "link": "https://ryukyushimpo.jp/editorial/entry-3905762.html",
           "published": "2025/01/28",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：日銀の利上げ　景気と生活の影響見極めて",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1413097",
+          "published": "2025/1/28 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】フジテレビ問題　徹底調査で体質を改めよ",
+          "link": "https://www.nishinippon.co.jp/item/1308933/",
+          "published": "2025/01/28 06:00",
           "paid": false
         }
       ]

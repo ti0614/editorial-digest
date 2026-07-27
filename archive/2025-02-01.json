@@ -59,13 +59,13 @@
         {
           "title": "［社説］インフラ老朽化を直視し総合対策を探れ",
           "link": "https://www.nikkei.com/article/DGXZQODK319NF0R30C25A1000000/",
-          "published": "2025年2月1日",
+          "published": "2025/2/1 19:05",
           "paid": false
         },
         {
           "title": "［社説］ガザ人道支援の停滞を許すな",
           "link": "https://www.nikkei.com/article/DGXZQODK314MX0R30C25A1000000/",
-          "published": "2025年2月1日",
+          "published": "2025/2/1 19:00",
           "paid": false
         }
       ]
@@ -136,7 +136,7 @@
         {
           "title": "埼玉道路陥没　老朽インフラ対策強化を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/549037",
-          "published": "2025/2/1",
+          "published": "2025/2/1 6:00",
           "paid": false
         }
       ]
@@ -222,6 +222,40 @@
           "title": "＜社説＞小中高生の自殺　孤立しないよう目配りを",
           "link": "https://ryukyushimpo.jp/editorial/entry-3919621.html",
           "published": "2025/02/01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：森友文書の改ざん　速やかに開示し全容解明を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1415915",
+          "published": "2025/2/1 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】参考人招致議決　国会は裏金解明を続けよ",
+          "link": "https://www.nishinippon.co.jp/item/1310778/",
+          "published": "2025/02/01 06:00",
           "paid": false
         }
       ]

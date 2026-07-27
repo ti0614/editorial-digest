@@ -59,7 +59,7 @@
         {
           "title": "［社説］首相は政策合意に努め難題にあたれ",
           "link": "https://www.nikkei.com/article/DGXZQODK181BC0Y6A210C2000000/",
-          "published": "2月18日",
+          "published": "2026/2/18 19:00",
           "paid": false
         }
       ]
@@ -137,7 +137,7 @@
         {
           "title": "国会きょう召集　丁寧な審議を尽くせるか",
           "link": "https://www.niigata-nippo.co.jp/articles/-/781628",
-          "published": "2/18",
+          "published": "2026/2/18 6:00",
           "paid": false
         }
       ]
@@ -171,13 +171,13 @@
         {
           "title": "社説【北陸の地域ＳＣ】交流深め聖地への一歩に",
           "link": "https://www.hokkoku.co.jp/articles/-/2019968",
-          "published": "2/18",
+          "published": "2026/2/18 5:00",
           "paid": true
         },
         {
           "title": "社説【特別国会召集】旧態依然の予算委改革を",
           "link": "https://www.hokkoku.co.jp/articles/-/2019967",
-          "published": "2/18",
+          "published": "2026/2/18 5:00",
           "paid": true
         }
       ]
@@ -297,6 +297,46 @@
           "title": "＜社説＞米「普天間返還せず」　新基地では解決できない",
           "link": "https://ryukyushimpo.jp/editorial/entry-5043749.html",
           "published": "2026/02/18",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：ネット選挙　公正さを損なわないか",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1660333",
+          "published": "2026/2/18 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：ミャンマー軍政　「選挙」で混迷打開できぬ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1660324",
+          "published": "2026/2/18 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】入学金二重払い　大学受験の負担軽くして",
+          "link": "https://www.nishinippon.co.jp/item/1459585/",
+          "published": "2026/02/18 06:00",
           "paid": false
         }
       ]

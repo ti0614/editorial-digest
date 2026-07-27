@@ -96,7 +96,7 @@
         {
           "title": "原発閣僚会議　実効性ある対策となるか",
           "link": "https://www.niigata-nippo.co.jp/articles/-/471932",
-          "published": "2024/9/7",
+          "published": "2024/9/7 6:00",
           "paid": false
         }
       ]
@@ -182,6 +182,23 @@
           "title": "＜社説＞沖縄戦降伏調印79年　県民の戦世終わったのか",
           "link": "https://ryukyushimpo.jp/editorial/entry-3449482.html",
           "published": "2024/09/07",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】立憲民主代表選　政権交代見据えた論戦を",
+          "link": "https://www.nishinippon.co.jp/item/1255851/",
+          "published": "2024/09/07 06:00",
           "paid": false
         }
       ]

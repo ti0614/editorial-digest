@@ -59,13 +59,13 @@
         {
           "title": "［社説］中東発の供給不安に企業は柔軟に対応を",
           "link": "https://www.nikkei.com/article/DGXZQODK2349M0T20C26A3000000/",
-          "published": "3月23日",
+          "published": "2026/3/23 19:05",
           "paid": false
         },
         {
           "title": "［社説］物価安定に不安残す日銀人事",
           "link": "https://www.nikkei.com/article/DGXZQODK235DI0T20C26A3000000/",
-          "published": "3月23日",
+          "published": "2026/3/23 19:00",
           "paid": false
         }
       ]
@@ -116,7 +116,7 @@
         {
           "title": "バイオ炭、千葉県内普及へ　農業振興や里山保全に期待　【論説】",
           "link": "https://www.chibanippo.co.jp/articles/1588667",
-          "published": "3/23 5:00",
+          "published": "2026/3/23 5:00",
           "paid": true
         }
       ]
@@ -133,7 +133,7 @@
         {
           "title": "衆院定数４５減案　野党との議論を深めねば",
           "link": "https://www.niigata-nippo.co.jp/articles/-/800875",
-          "published": "3/23",
+          "published": "2026/3/23 6:00",
           "paid": false
         }
       ]
@@ -167,19 +167,19 @@
         {
           "title": "社説【出産の無償化】少子化止める有効打に",
           "link": "https://www.hokkoku.co.jp/articles/-/2053754",
-          "published": "3/23",
+          "published": "2026/3/23 5:00",
           "paid": true
         },
         {
           "title": "社説【金沢の旅行サイト】市民生活と観光の両立を",
           "link": "https://www.hokkoku.co.jp/articles/-/2053753",
-          "published": "3/23",
+          "published": "2026/3/23 5:00",
           "paid": true
         },
         {
           "title": "社説【出産の無償化】少子化を止める有効打に",
           "link": "https://www.hokkoku.co.jp/articles/-/2053734",
-          "published": "3/23",
+          "published": "2026/3/23 5:00",
           "paid": true
         }
       ]
@@ -265,6 +265,40 @@
           "title": "＜社説＞自維「国旗損壊罪」　愛国心の強制につながる",
           "link": "https://ryukyushimpo.jp/editorial/entry-5139792.html",
           "published": "2026/03/23",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：旧姓「単記」法制化　同姓強制やめる方が合理的",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1681534",
+          "published": "2026/3/23 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】電子投票　定着に向け改善重ねよう",
+          "link": "https://www.nishinippon.co.jp/item/1472630/",
+          "published": "2026/03/23 06:00",
           "paid": false
         }
       ]

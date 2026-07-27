@@ -67,7 +67,7 @@
         {
           "title": "岸田首相退陣へ　政治不信を深めた帰結だ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/459562",
-          "published": "2024/8/16",
+          "published": "2024/8/16 6:00",
           "paid": false
         }
       ]
@@ -170,6 +170,23 @@
           "title": "＜社説＞敗戦から79年　戦後日本の原点忘れるな",
           "link": "https://ryukyushimpo.jp/editorial/entry-3372135.html",
           "published": "2024/08/16",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】終戦から79年　「戦争を始めない」決意を",
+          "link": "https://www.nishinippon.co.jp/item/1247699/",
+          "published": "2024/08/16 06:00",
           "paid": false
         }
       ]

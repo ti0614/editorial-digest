@@ -120,7 +120,7 @@
         {
           "title": "中国全人代　軍拡で経済再生図れるか",
           "link": "https://www.niigata-nippo.co.jp/articles/-/793317",
-          "published": "3/10",
+          "published": "2026/3/10 6:00",
           "paid": false
         }
       ]
@@ -154,19 +154,19 @@
         {
           "title": "社説【村山金沢市長再選】力量問われる都心再開発",
           "link": "https://www.hokkoku.co.jp/articles/-/2040381",
-          "published": "3/10",
+          "published": "2026/3/10 5:00",
           "paid": true
         },
         {
           "title": "社説【ホルムズ海峡封鎖】海上警備行動発令の検討を",
           "link": "https://www.hokkoku.co.jp/articles/-/2040380",
-          "published": "3/10",
+          "published": "2026/3/10 5:00",
           "paid": true
         },
         {
           "title": "社説【ホルムズ海峡封鎖】海上警備行動の検討を",
           "link": "https://www.hokkoku.co.jp/articles/-/2040359",
-          "published": "3/10",
+          "published": "2026/3/10 5:00",
           "paid": true
         }
       ]
@@ -269,6 +269,40 @@
           "title": "＜社説＞熊本に長射程ミサイル　配備やめ専守防衛を貫け",
           "link": "https://ryukyushimpo.jp/editorial/entry-5105947.html",
           "published": "2026/03/10",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：混迷のイラン攻撃　広がる戦禍　止める対話探れ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1673593",
+          "published": "2026/3/10 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】予算審議の短縮　数の力におごらず熟議を",
+          "link": "https://www.nishinippon.co.jp/item/1467528/",
+          "published": "2026/03/10 06:00",
           "paid": false
         }
       ]

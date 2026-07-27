@@ -96,7 +96,7 @@
         {
           "title": "パラ五輪閉幕　全ての選手をたたえたい",
           "link": "https://www.niigata-nippo.co.jp/articles/-/473146",
-          "published": "2024/9/10",
+          "published": "2024/9/10 6:00",
           "paid": false
         }
       ]
@@ -199,6 +199,23 @@
           "title": "＜社説＞兵庫県知事に辞職要求　公益通報者保護の徹底を",
           "link": "https://ryukyushimpo.jp/editorial/entry-3455652.html",
           "published": "2024/09/10",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】日韓首脳外交　次の政権でも関係強化を",
+          "link": "https://www.nishinippon.co.jp/item/1256650/",
+          "published": "2024/09/10 06:00",
           "paid": false
         }
       ]

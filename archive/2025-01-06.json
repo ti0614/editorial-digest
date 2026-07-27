@@ -47,7 +47,7 @@
         {
           "title": "［社説］多様な生き方へ社会の懐を広げよ",
           "link": "https://www.nikkei.com/article/DGXZQOCD259C50V21C24A2000000/",
-          "published": "2025年1月6日",
+          "published": "2025/1/6 19:00",
           "paid": false
         }
       ]
@@ -101,7 +101,7 @@
         {
           "title": "２０２５経済・農業　好循環の軌道に乗せたい",
           "link": "https://www.niigata-nippo.co.jp/articles/-/535125",
-          "published": "2025/1/6",
+          "published": "2025/1/6 6:00",
           "paid": false
         }
       ]
@@ -204,6 +204,23 @@
           "title": "＜社説＞25年　政局展望　民主主義が問われている",
           "link": "https://ryukyushimpo.jp/editorial/entry-3837195.html",
           "published": "2025/01/06",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】国際情勢と日本　安定に多国協調が必要だ",
+          "link": "https://www.nishinippon.co.jp/item/1300483/",
+          "published": "2025/01/06 06:00",
           "paid": false
         }
       ]

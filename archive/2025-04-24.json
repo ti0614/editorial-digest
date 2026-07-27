@@ -59,13 +59,13 @@
         {
           "title": "［社説］世界の同時不況起こさぬ道を早急に探れ",
           "link": "https://www.nikkei.com/article/DGXZQODK247OI0U5A420C2000000/",
-          "published": "2025年4月24日",
+          "published": "2025/4/24 19:05",
           "paid": false
         },
         {
           "title": "［社説］福知山線事故が刻む重い教訓",
           "link": "https://www.nikkei.com/article/DGXZQODK2483K0U5A420C2000000/",
-          "published": "2025年4月24日",
+          "published": "2025/4/24 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "ガソリン値下げ　選挙目当ての印象拭えぬ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/596797",
-          "published": "2025/4/24",
+          "published": "2025/4/24 6:00",
           "paid": false
         }
       ]
@@ -246,6 +246,46 @@
           "title": "＜社説＞嘉手納基地で降下訓練　ＳＡＣＯ原点に立ち返れ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4179794.html",
           "published": "2025/04/24",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：石綿訴訟の判決　国の救済縮小、許されぬ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1465030",
+          "published": "2025/4/24 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：クマの銃駆除　自治体の体制整備、急げ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1465019",
+          "published": "2025/4/24 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】出自を知る権利　法制化に当事者の思いを",
+          "link": "https://www.nishinippon.co.jp/item/1343303/",
+          "published": "2025/04/24 06:00",
           "paid": false
         }
       ]

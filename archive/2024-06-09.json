@@ -56,7 +56,7 @@
         {
           "title": "機能性表示食品　消費者目線で安全安心を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/419782",
-          "published": "2024/6/9",
+          "published": "2024/6/9 6:00",
           "paid": false
         }
       ]
@@ -142,6 +142,23 @@
           "title": "＜社説＞離島住民避難先提示　戦争準備認められない",
           "link": "https://ryukyushimpo.jp/editorial/entry-3174380.html",
           "published": "2024/06/09",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】漫画のドラマ化　原作の尊重があってこそ",
+          "link": "https://www.nishinippon.co.jp/item/1221030/",
+          "published": "2024/06/09 06:00",
           "paid": false
         }
       ]

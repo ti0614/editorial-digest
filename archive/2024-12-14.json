@@ -53,13 +53,13 @@
         {
           "title": "［社説］尹大統領の弾劾で地域の安定損なうな",
           "link": "https://www.nikkei.com/article/DGXZQODK142HQ0U4A211C2000000/",
-          "published": "2024年12月14日",
+          "published": "2024/12/14 19:20",
           "paid": false
         },
         {
           "title": "［社説］同性婚訴訟の「違憲」判断は重い",
           "link": "https://www.nikkei.com/article/DGXZQOCD136450T11C24A2000000/",
-          "published": "2024年12月14日",
+          "published": "2024/12/14 19:00",
           "paid": false
         }
       ]
@@ -130,7 +130,7 @@
         {
           "title": "アルビＪ１残留　弱点克服し来季は躍進を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/525706",
-          "published": "2024/12/14",
+          "published": "2024/12/14 6:00",
           "paid": false
         }
       ]
@@ -233,6 +233,23 @@
           "title": "＜社説＞米兵少女誘拐暴行判決　「同意」主張を断罪した",
           "link": "https://ryukyushimpo.jp/editorial/entry-3759498.html",
           "published": "2024/12/14",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】シリア政権崩壊　政情安定化へ国際支援を",
+          "link": "https://www.nishinippon.co.jp/item/1293239/",
+          "published": "2024/12/14 06:00",
           "paid": false
         }
       ]

@@ -59,13 +59,13 @@
         {
           "title": "［社説］夫婦別姓の議論を多様性尊重の試金石に",
           "link": "https://www.nikkei.com/article/DGXZQOCD0522S0V00C26A2000000/",
-          "published": "2月6日",
+          "published": "2026/2/6 19:35",
           "paid": false
         },
         {
           "title": "［社説］トランプ氏の干渉は不適切だ",
           "link": "https://www.nikkei.com/article/DGXZQODK067ON0W6A200C2000000/",
-          "published": "2月6日",
+          "published": "2026/2/6 19:30",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "原発・エネルギー　立地県の課題議論足りぬ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/774913",
-          "published": "2/6",
+          "published": "2026/2/6 6:00",
           "paid": false
         }
       ]
@@ -177,13 +177,13 @@
         {
           "title": "社説【富岡に豪姫ツバキ】加賀藩交流深める一助に",
           "link": "https://www.hokkoku.co.jp/articles/-/2008389",
-          "published": "2/6",
+          "published": "2026/2/6 5:00",
           "paid": true
         },
         {
           "title": "社説【ミラノ冬季五輪】限界に挑む輝きに触れたい",
           "link": "https://www.hokkoku.co.jp/articles/-/2008388",
-          "published": "2/6",
+          "published": "2026/2/6 5:00",
           "paid": true
         }
       ]
@@ -303,6 +303,46 @@
           "title": "＜社説＞衆院選2026　憲法改正　「普通の国」でよいのか",
           "link": "https://ryukyushimpo.jp/editorial/entry-5014977.html",
           "published": "2026/02/06",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：積極財政　市場の警告受け止めよ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1651069",
+          "published": "2026/2/6 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：医療の危機　命支える改革こそ必要",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1651063",
+          "published": "2026/2/6 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】人口減少対策　静かなる有事を直視せよ",
+          "link": "https://www.nishinippon.co.jp/item/1454770/",
+          "published": "2026/02/06 06:00",
           "paid": false
         }
       ]

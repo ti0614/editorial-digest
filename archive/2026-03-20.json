@@ -53,7 +53,7 @@
         {
           "title": "［社説］日米同盟に宿題を残した首脳会談",
           "link": "https://www.nikkei.com/article/DGXZQODK200GZ0Q6A320C2000000/",
-          "published": "3月20日",
+          "published": "2026/3/20 19:05",
           "paid": false
         }
       ]
@@ -131,7 +131,7 @@
         {
           "title": "センバツ開幕　県勢２校にエールを送る",
           "link": "https://www.niigata-nippo.co.jp/articles/-/799824",
-          "published": "3/20",
+          "published": "2026/3/20 6:00",
           "paid": false
         }
       ]
@@ -165,13 +165,13 @@
         {
           "title": "社説【あさがおマラソン】「ハーフ」の魅力広げたい",
           "link": "https://www.hokkoku.co.jp/articles/-/2051155",
-          "published": "3/20",
+          "published": "2026/3/20 5:00",
           "paid": true
         },
         {
           "title": "社説【日米首脳会談】米側に立つ意志を明確に",
           "link": "https://www.hokkoku.co.jp/articles/-/2051154",
-          "published": "3/20",
+          "published": "2026/3/20 5:00",
           "paid": true
         }
       ]
@@ -291,6 +291,40 @@
           "title": "＜社説＞衆院定数削減案　強行なら民意切り捨てだ",
           "link": "https://ryukyushimpo.jp/editorial/entry-5132998.html",
           "published": "2026/03/20",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：外国人と治安　事実踏まえ冷静な共生策を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1680255",
+          "published": "2026/3/20 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】生保の不祥事　悪質な不正の根源を正せ",
+          "link": "https://www.nishinippon.co.jp/item/1471829/",
+          "published": "2026/03/20 06:00",
           "paid": false
         }
       ]

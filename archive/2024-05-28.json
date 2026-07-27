@@ -73,7 +73,7 @@
         {
           "title": "大の里初優勝　さらなる高みへ奮闘期待",
           "link": "https://www.niigata-nippo.co.jp/articles/-/412732",
-          "published": "2024/5/28",
+          "published": "2024/5/28 6:00",
           "paid": false
         }
       ]
@@ -176,6 +176,23 @@
           "title": "＜社説＞日中韓首脳会談　戦争起こさせない対話を",
           "link": "https://ryukyushimpo.jp/editorial/entry-3130386.html",
           "published": "2024/05/28",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】SNS投資詐欺　官民で偽広告の排除急げ",
+          "link": "https://www.nishinippon.co.jp/item/1216206/",
+          "published": "2024/05/28 06:00",
           "paid": false
         }
       ]

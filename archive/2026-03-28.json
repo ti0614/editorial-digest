@@ -59,13 +59,13 @@
         {
           "title": "［社説］ソニー・ホンダ頓挫も車の変革止めるな",
           "link": "https://www.nikkei.com/article/DGXZQOCD278P40X20C26A3000000/",
-          "published": "3月28日",
+          "published": "2026/3/28 19:05",
           "paid": false
         },
         {
           "title": "［社説］子育て支援金を分かりやすく",
           "link": "https://www.nikkei.com/article/DGXZQOCD273900X20C26A3000000/",
-          "published": "3月28日",
+          "published": "2026/3/28 19:00",
           "paid": false
         }
       ]
@@ -126,7 +126,7 @@
         {
           "title": "水俣病訴訟控訴　県と新潟市の責任は重い",
           "link": "https://www.niigata-nippo.co.jp/articles/-/804676",
-          "published": "3/28",
+          "published": "2026/3/28 6:00",
           "paid": false
         }
       ]
@@ -160,13 +160,13 @@
         {
           "title": "社説【自転車「青切符」】若い世代の認知度向上を",
           "link": "https://www.hokkoku.co.jp/articles/-/2059552",
-          "published": "3/28",
+          "published": "2026/3/28 5:00",
           "paid": true
         },
         {
           "title": "社説【登録有形文化財】使って守る意義広げたい",
           "link": "https://www.hokkoku.co.jp/articles/-/2059551",
-          "published": "3/28",
+          "published": "2026/3/28 5:00",
           "paid": true
         }
       ]
@@ -286,6 +286,40 @@
           "title": "＜社説＞対馬丸水中調査公表　悲劇を直視、警鐘としたい",
           "link": "https://ryukyushimpo.jp/editorial/entry-5152905.html",
           "published": "2026/03/28",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：暫定予算の編成　強引な運営、猛省して熟議を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1685349",
+          "published": "2026/3/28 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】犯罪の損害賠償　国は立て替え制度導入を",
+          "link": "https://www.nishinippon.co.jp/item/1475076/",
+          "published": "2026/03/28 06:00",
           "paid": false
         }
       ]

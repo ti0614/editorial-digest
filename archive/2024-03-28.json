@@ -73,7 +73,7 @@
         {
           "title": "紅こうじサプリ　原因特定し被害拡大防げ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/381387",
-          "published": "2024/3/28",
+          "published": "2024/3/28 6:00",
           "paid": false
         }
       ]
@@ -176,6 +176,23 @@
           "title": "＜社説＞紅こうじサプリ　原因究明し情報公開急げ",
           "link": "https://ryukyushimpo.jp/editorial/entry-2934915.html",
           "published": "2024/03/28",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】サプリ健康被害　拡大防ぎ実態の把握急げ",
+          "link": "https://www.nishinippon.co.jp/item/1194294/",
+          "published": "2024/03/28 06:00",
           "paid": false
         }
       ]

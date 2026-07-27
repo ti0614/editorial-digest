@@ -73,7 +73,7 @@
         {
           "title": "生活保護最多　困窮世帯に寄り添いたい",
           "link": "https://www.niigata-nippo.co.jp/articles/-/377551",
-          "published": "2024/3/21",
+          "published": "2024/3/21 6:00",
           "paid": false
         }
       ]
@@ -176,6 +176,23 @@
           "title": "＜社説＞訓練場反対市民集会　防衛政策の矛盾露呈した",
           "link": "https://ryukyushimpo.jp/editorial/entry-2915050.html",
           "published": "2024/03/21",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】同性婚の法制化　「違憲」の放置許されない",
+          "link": "https://www.nishinippon.co.jp/item/1191459/",
+          "published": "2024/03/21 06:00",
           "paid": false
         }
       ]

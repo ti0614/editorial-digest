@@ -91,7 +91,7 @@
         {
           "title": "冬季五輪閉幕　日本選手の強さを見せた",
           "link": "https://www.niigata-nippo.co.jp/articles/-/784393",
-          "published": "2/23",
+          "published": "2026/2/23 6:00",
           "paid": false
         }
       ]
@@ -125,13 +125,13 @@
         {
           "title": "社説【片町ＰＲマップ】学生の熱気呼び込みたい",
           "link": "https://www.hokkoku.co.jp/articles/-/2025210",
-          "published": "2/23",
+          "published": "2026/2/23 5:00",
           "paid": true
         },
         {
           "title": "社説【のと共栄に公的資金】被災地支援の金融モデルに",
           "link": "https://www.hokkoku.co.jp/articles/-/2025209",
-          "published": "2/23",
+          "published": "2026/2/23 5:00",
           "paid": true
         }
       ]
@@ -217,6 +217,40 @@
           "title": "＜社説＞南城・誹謗中傷で男逮捕　「見えない暴力」許されぬ",
           "link": "https://ryukyushimpo.jp/editorial/entry-5061805.html",
           "published": "2026/02/23",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：ロシアの非道４年　秩序回復への和平諦めるな",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1664554",
+          "published": "2026/2/23 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】ウクライナ4年　ロシア利する停戦を懸念",
+          "link": "https://www.nishinippon.co.jp/item/1461558/",
+          "published": "2026/02/23 06:00",
           "paid": false
         }
       ]

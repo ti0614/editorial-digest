@@ -47,13 +47,13 @@
         {
           "title": "［社説］政府備蓄の機動的な活用で米価の安定を",
           "link": "https://www.nikkei.com/article/DGXZQODK0370E0T00C25A2000000/",
-          "published": "2025年2月3日",
+          "published": "2025/2/3 19:05",
           "paid": false
         },
         {
           "title": "［社説］首都圏に住む人の目を地方に",
           "link": "https://www.nikkei.com/article/DGXZQODK035WR0T00C25A2000000/",
-          "published": "2025年2月3日",
+          "published": "2025/2/3 19:00",
           "paid": false
         }
       ]
@@ -107,7 +107,7 @@
         {
           "title": "年金制度改革　老後の安心が置き去りだ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/549651",
-          "published": "2025/2/3",
+          "published": "2025/2/3 6:00",
           "paid": false
         }
       ]
@@ -176,6 +176,40 @@
           "title": "＜社説＞障がい者の逸失利益　共生社会へ画期的判決だ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3924683.html",
           "published": "2025/02/03",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：高額医療の負担増　治療控えを招かぬ工夫要る",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1416614",
+          "published": "2025/2/3 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】再審制度見直し　国会が主導し抜本改革を",
+          "link": "https://www.nishinippon.co.jp/item/1311322/",
+          "published": "2025/02/03 06:00",
           "paid": false
         }
       ]

@@ -73,7 +73,7 @@
         {
           "title": "ハマス指導者暗殺　中東の緊張を高める暴挙",
           "link": "https://www.niigata-nippo.co.jp/articles/-/451512",
-          "published": "2024/8/2",
+          "published": "2024/8/2 6:00",
           "paid": false
         }
       ]
@@ -159,6 +159,23 @@
           "title": "＜社説＞日銀が追加利上げ　家計への影響を見極めよ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3333341.html",
           "published": "2024/08/02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】日銀追加利上げ　金融正常化慎重に進めよ",
+          "link": "https://www.nishinippon.co.jp/item/1242371/",
+          "published": "2024/08/02 06:00",
           "paid": false
         }
       ]

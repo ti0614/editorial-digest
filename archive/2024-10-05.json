@@ -107,7 +107,7 @@
         {
           "title": "所信表明演説　本気度示す具体策が必要",
           "link": "https://www.niigata-nippo.co.jp/articles/-/487736",
-          "published": "2024/10/5",
+          "published": "2024/10/5 6:00",
           "paid": false
         }
       ]
@@ -210,6 +210,23 @@
           "title": "＜社説＞石破首相所信表明　国民の納得は得られない",
           "link": "https://ryukyushimpo.jp/editorial/entry-3522487.html",
           "published": "2024/10/05",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】首相の所信表明　「石破色」はどこへ行った",
+          "link": "https://www.nishinippon.co.jp/item/1266423/",
+          "published": "2024/10/05 06:00",
           "paid": false
         }
       ]

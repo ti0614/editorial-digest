@@ -47,13 +47,13 @@
         {
           "title": "［社説］エネルギー危機回避には停戦が不可欠だ",
           "link": "https://www.nikkei.com/article/DGXZQODK124HA0S6A310C2000000/",
-          "published": "3月12日",
+          "published": "2026/3/12 19:05",
           "paid": false
         },
         {
           "title": "［社説］選挙への信頼を守る公選法に",
           "link": "https://www.nikkei.com/article/DGXZQODK124MZ0S6A310C2000000/",
-          "published": "3月12日",
+          "published": "2026/3/12 19:00",
           "paid": false
         }
       ]
@@ -131,7 +131,7 @@
         {
           "title": "石油備蓄放出へ　経済への打撃を抑えたい",
           "link": "https://www.niigata-nippo.co.jp/articles/-/794772",
-          "published": "3/12",
+          "published": "2026/3/12 6:00",
           "paid": false
         }
       ]
@@ -165,13 +165,13 @@
         {
           "title": "社説【避難所の入浴環境】健康維持へ欠かせぬ設備",
           "link": "https://www.hokkoku.co.jp/articles/-/2042857",
-          "published": "3/12",
+          "published": "2026/3/12 5:00",
           "paid": true
         },
         {
           "title": "社説【東日本大震災１５年】東北の経験を復興の糧に",
           "link": "https://www.hokkoku.co.jp/articles/-/2042856",
-          "published": "3/12",
+          "published": "2026/3/12 5:00",
           "paid": true
         }
       ]
@@ -291,6 +291,46 @@
           "title": "＜社説＞社会保障国民会議　正々堂々、国会で審議せよ",
           "link": "https://ryukyushimpo.jp/editorial/entry-5111416.html",
           "published": "2026/03/12",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：大震災15年　復興の光と影、直視を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1675069",
+          "published": "2026/3/12 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：先生が足りない　国は一段の対策を急げ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1675064",
+          "published": "2026/3/12 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】福島原発事故　遠い復興から学ぶものは",
+          "link": "https://www.nishinippon.co.jp/item/1468555/",
+          "published": "2026/03/12 06:00",
           "paid": false
         }
       ]

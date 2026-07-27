@@ -50,7 +50,7 @@
         {
           "title": "大川原化工機訴訟　冤罪生んだ許せない捜査",
           "link": "https://www.niigata-nippo.co.jp/articles/-/335434",
-          "published": "2023/12/30",
+          "published": "2023/12/30 6:00",
           "paid": false
         }
       ]
@@ -136,6 +136,23 @@
           "title": "＜社説＞柿沢衆院議員逮捕　政治改革への本気度示せ",
           "link": "https://ryukyushimpo.jp/editorial/entry-2631550.html",
           "published": "2023/12/30",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】診療報酬の改定　賃上げと負担減の両立を",
+          "link": "https://www.nishinippon.co.jp/item/1162889/",
+          "published": "2023/12/30 06:00",
           "paid": false
         }
       ]

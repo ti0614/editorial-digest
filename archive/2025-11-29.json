@@ -59,13 +59,13 @@
         {
           "title": "［社説］逆風下でも脱炭素を前に進める体制探れ",
           "link": "https://www.nikkei.com/article/DGXZQODK251AF0V21C25A1000000/",
-          "published": "2025年11月29日",
+          "published": "2025/11/29 19:05",
           "paid": false
         },
         {
           "title": "［社説］与党は過半数でも合意努力を",
           "link": "https://www.nikkei.com/article/DGXZQODK284DZ0Y5A121C2000000/",
-          "published": "2025年11月29日",
+          "published": "2025/11/29 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "生活保護一部補償　国は誠実さを欠いている",
           "link": "https://www.niigata-nippo.co.jp/articles/-/737082",
-          "published": "2025/11/29",
+          "published": "2025/11/29 6:00",
           "paid": false
         }
       ]
@@ -177,13 +177,13 @@
         {
           "title": "社説【復興シンボル事業】　能登を引っ張る原動力に",
           "link": "https://www.hokkoku.co.jp/articles/-/1943818",
-          "published": "11/29",
+          "published": "2025/11/29 5:00",
           "paid": true
         },
         {
           "title": "社説【高市首相発言】　野党も中国リスクの認識を",
           "link": "https://www.hokkoku.co.jp/articles/-/1943817",
-          "published": "11/29",
+          "published": "2025/11/29 5:00",
           "paid": true
         }
       ]
@@ -303,6 +303,40 @@
           "title": "＜社説＞大浦湾土砂投入　普天間危険除去が先決だ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4817889.html",
           "published": "2025/11/29",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：地球温暖化対策　瀬戸際のＣＯＰを立て直せ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1609135",
+          "published": "2025/11/29 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】マイナ保険証　混乱を避け柔軟な運用に",
+          "link": "https://www.nishinippon.co.jp/item/1429100/",
+          "published": "2025/11/29 06:00",
           "paid": false
         }
       ]

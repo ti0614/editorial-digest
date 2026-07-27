@@ -73,7 +73,7 @@
         {
           "title": "医師の働き方　医療の質落とさぬ改善を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/382067",
-          "published": "2024/3/29",
+          "published": "2024/3/29 6:00",
           "paid": false
         }
       ]
@@ -176,6 +176,23 @@
           "title": "＜社説＞オスプレイ抗議決議　政府は全会一致直視せよ",
           "link": "https://ryukyushimpo.jp/editorial/entry-2938543.html",
           "published": "2024/03/29",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】日本版DBS　子どもの安全を最優先に",
+          "link": "https://www.nishinippon.co.jp/item/1194732/",
+          "published": "2024/03/29 06:00",
           "paid": false
         }
       ]

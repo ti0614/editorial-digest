@@ -59,13 +59,13 @@
         {
           "title": "［社説］SNS選挙の功罪突きつけた兵庫知事選",
           "link": "https://www.nikkei.com/article/DGXZQODK185XS0Y4A111C2000000/",
-          "published": "2024年11月18日",
+          "published": "2024/11/18 19:05",
           "paid": false
         },
         {
           "title": "［社説］トランプ次期大統領に歯止めはあるか",
           "link": "https://www.nikkei.com/article/DGXZQODK183VE0Y4A111C2000000/",
-          "published": "2024年11月18日",
+          "published": "2024/11/18 19:00",
           "paid": false
         }
       ]
@@ -136,7 +136,7 @@
         {
           "title": "会計検査院報告　税金の無駄遣い許されぬ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/511132",
-          "published": "2024/11/18",
+          "published": "2024/11/18 6:00",
           "paid": false
         }
       ]
@@ -188,6 +188,23 @@
           "title": "【敦賀原発不合格】決定を重く受け止めよ",
           "link": "https://www.kochinews.co.jp/article/detail/805002",
           "published": "2024.11.18 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】医師の偏在　是正へ実効性ある対策を",
+          "link": "https://www.nishinippon.co.jp/item/1283032/",
+          "published": "2024/11/18 06:00",
           "paid": false
         }
       ]

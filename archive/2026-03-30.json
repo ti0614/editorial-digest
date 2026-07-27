@@ -53,13 +53,13 @@
         {
           "title": "［社説］リニア新幹線の前進で成長力の底上げを",
           "link": "https://www.nikkei.com/article/DGXZQOCD3029I0Q6A330C2000000/",
-          "published": "3月30日",
+          "published": "2026/3/30 19:05",
           "paid": false
         },
         {
           "title": "［社説］著作権改正で過去作品生かせ",
           "link": "https://www.nikkei.com/article/DGXZQODK304CM0Q6A330C2000000/",
-          "published": "3月30日",
+          "published": "2026/3/30 19:00",
           "paid": false
         }
       ]
@@ -110,7 +110,7 @@
         {
           "title": "脅威増す特定外来生物　対策の実効性さらに高めよ　【論説】",
           "link": "https://www.chibanippo.co.jp/articles/1592411",
-          "published": "3/30 5:00",
+          "published": "2026/3/30 5:00",
           "paid": true
         }
       ]
@@ -127,7 +127,7 @@
         {
           "title": "犯罪被害者支援　経済面の救済拡充が急務",
           "link": "https://www.niigata-nippo.co.jp/articles/-/805315",
-          "published": "3/30",
+          "published": "2026/3/30 6:00",
           "paid": false
         }
       ]
@@ -161,19 +161,19 @@
         {
           "title": "社説【災害支援教員】能登の知見を生かしたい",
           "link": "https://www.hokkoku.co.jp/articles/-/2061397",
-          "published": "3/30",
+          "published": "2026/3/30 5:00",
           "paid": true
         },
         {
           "title": "社説【自転車道の国指定】愛好者の拡大へ隣県連携を",
           "link": "https://www.hokkoku.co.jp/articles/-/2061396",
-          "published": "3/30",
+          "published": "2026/3/30 5:00",
           "paid": true
         },
         {
           "title": "社説【災害支援教員】富山も派遣体制整えたい",
           "link": "https://www.hokkoku.co.jp/articles/-/2061365",
-          "published": "3/30",
+          "published": "2026/3/30 5:00",
           "paid": true
         }
       ]
@@ -259,6 +259,40 @@
           "title": "＜社説＞暫定予算編成　強引な手法を改め熟議を",
           "link": "https://ryukyushimpo.jp/editorial/entry-5157084.html",
           "published": "2026/03/30",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：子育て支援金　施策や財源、再検討が必要だ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1686040",
+          "published": "2026/3/30 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】ミサイル配備　周辺住民の不安に応えよ",
+          "link": "https://www.nishinippon.co.jp/item/1475582/",
+          "published": "2026/03/30 06:00",
           "paid": false
         }
       ]

@@ -53,7 +53,7 @@
         {
           "title": "［社説］被爆80年に誓う核廃絶の固い決意",
           "link": "https://www.nikkei.com/article/DGXZQODK054580V00C25A8000000/",
-          "published": "2025年8月5日",
+          "published": "2025/8/5 19:00",
           "paid": false
         }
       ]
@@ -114,7 +114,7 @@
         {
           "title": "全英女子ゴルフ　日本選手の強さを見せた",
           "link": "https://www.niigata-nippo.co.jp/articles/-/664100",
-          "published": "2025/8/5",
+          "published": "2025/8/5 6:00",
           "paid": false
         }
       ]
@@ -234,6 +234,40 @@
           "title": "＜社説＞沖縄戦８０年　戦争ＰＴＳＤシンポ　理解深め改めて非戦誓う",
           "link": "https://ryukyushimpo.jp/editorial/entry-4514060.html",
           "published": "2025/08/05",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：８０回目の原爆の日　核廃絶の道、日本が開かねば",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1536095",
+          "published": "2025/8/5 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】海自の不正処分　防衛産業との癒着を断て",
+          "link": "https://www.nishinippon.co.jp/item/1384680/",
+          "published": "2025/08/05 06:00",
           "paid": false
         }
       ]

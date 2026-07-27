@@ -50,7 +50,7 @@
         {
           "title": "大谷選手ＭＶＰ　誇りに思う史上初の快挙",
           "link": "https://www.niigata-nippo.co.jp/articles/-/314709",
-          "published": "2023/11/18",
+          "published": "2023/11/18 6:00",
           "paid": false
         }
       ]
@@ -119,6 +119,23 @@
           "title": "＜社説＞米中首脳会談　緊張緩和の一歩とせよ",
           "link": "https://ryukyushimpo.jp/editorial/entry-2486374.html",
           "published": "2023/11/18",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】日中首脳会談　対話重ね互恵の再構築を",
+          "link": "https://www.nishinippon.co.jp/item/1147443/",
+          "published": "2023/11/18 06:00",
           "paid": false
         }
       ]

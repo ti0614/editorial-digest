@@ -84,7 +84,7 @@
         {
           "title": "暮れゆく２０２４年　支え合いの精神育む時だ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/533853",
-          "published": "2024/12/31",
+          "published": "2024/12/31 6:00",
           "paid": false
         }
       ]
@@ -187,6 +187,23 @@
           "title": "＜社説＞2024年を振り返る　今こそ「命どぅ宝」を誓う",
           "link": "https://ryukyushimpo.jp/editorial/entry-3822198.html",
           "published": "2024/12/31",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】能登地震1年　復興元年へ支え続けよう",
+          "link": "https://www.nishinippon.co.jp/item/1299433/",
+          "published": "2024/12/31 06:00",
           "paid": false
         }
       ]

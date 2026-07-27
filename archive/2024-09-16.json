@@ -96,7 +96,7 @@
         {
           "title": "玉鷲の出場記録　鍛錬で打ち立てた金字塔",
           "link": "https://www.niigata-nippo.co.jp/articles/-/476469",
-          "published": "2024/9/16",
+          "published": "2024/9/16 6:00",
           "paid": false
         }
       ]
@@ -182,6 +182,23 @@
           "title": "＜社説＞強制不妊訴訟和解　全ての被害者の救済急げ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3471849.html",
           "published": "2024/09/16",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】高齢者とスマホ　豊かな暮らしへの一助に",
+          "link": "https://www.nishinippon.co.jp/item/1258952/",
+          "published": "2024/09/16 06:00",
           "paid": false
         }
       ]

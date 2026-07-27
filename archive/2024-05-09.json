@@ -73,7 +73,7 @@
         {
           "title": "環境省発言制止　水俣病被害者に寄り添え",
           "link": "https://www.niigata-nippo.co.jp/articles/-/402392",
-          "published": "2024/5/9",
+          "published": "2024/5/9 6:00",
           "paid": false
         }
       ]
@@ -176,6 +176,23 @@
           "title": "＜社説＞恩納村が通学費補助　生徒の学び支える施策だ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3056008.html",
           "published": "2024/05/09",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】水俣病発言遮断　被害者の思いなぜ聞かぬ",
+          "link": "https://www.nishinippon.co.jp/item/1209060/",
+          "published": "2024/05/09 06:00",
           "paid": false
         }
       ]

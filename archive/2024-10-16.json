@@ -47,13 +47,13 @@
         {
           "title": "［社説］政治資金の不祥事と決別する道筋を示せ",
           "link": "https://www.nikkei.com/article/DGXZQODK166VE0W4A011C2000000/",
-          "published": "2024年10月16日",
+          "published": "2024/10/16 19:05",
           "paid": false
         },
         {
           "title": "［社説］民主主義の再生促すノーベル経済学賞",
           "link": "https://www.nikkei.com/article/DGXZQODK164OZ0W4A011C2000000/",
-          "published": "2024年10月16日",
+          "published": "2024/10/16 19:00",
           "paid": false
         }
       ]
@@ -124,7 +124,7 @@
         {
           "title": "衆院選公示　課題解決へビジョン示せ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/493020",
-          "published": "2024/10/16",
+          "published": "2024/10/16 6:00",
           "paid": false
         }
       ]
@@ -227,6 +227,23 @@
           "title": "＜社説＞新聞週間始まる　真偽見抜く報道に徹する",
           "link": "https://ryukyushimpo.jp/editorial/entry-3556964.html",
           "published": "2024/10/16",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】衆院選公示　国民の意思投票で示そう",
+          "link": "https://www.nishinippon.co.jp/item/1270315/",
+          "published": "2024/10/16 06:00",
           "paid": false
         }
       ]

@@ -80,7 +80,7 @@
         {
           "title": "きょう投票　公約を熟慮して選びたい",
           "link": "https://www.niigata-nippo.co.jp/articles/-/653615",
-          "published": "2025/7/20",
+          "published": "2025/7/20 6:00",
           "paid": false
         }
       ]
@@ -200,6 +200,40 @@
           "title": "＜社説＞参院選きょう投開票　1票を投じ意思示そう",
           "link": "https://ryukyushimpo.jp/editorial/entry-4461127.html",
           "published": "2025/07/20",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：きょう投票　政治を動かす一票、生かそう",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1525033",
+          "published": "2025/7/20 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】氷河期世代支援　低年金対策を急ぐべきだ",
+          "link": "https://www.nishinippon.co.jp/item/1378195/",
+          "published": "2025/07/20 06:00",
           "paid": false
         }
       ]

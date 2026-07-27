@@ -50,7 +50,7 @@
         {
           "title": "禁止条約会議　核廃絶への機運高めたい",
           "link": "https://www.niigata-nippo.co.jp/articles/-/320418",
-          "published": "2023/11/30",
+          "published": "2023/11/30 6:00",
           "paid": false
         }
       ]
@@ -136,6 +136,23 @@
           "title": "＜社説＞オスプレイ屋久島沖墜落　国内全面撤去しかない",
           "link": "https://ryukyushimpo.jp/editorial/entry-2526840.html",
           "published": "2023/11/30",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】鳥インフル感染　初の4季連続　防疫徹底を",
+          "link": "https://www.nishinippon.co.jp/item/1151738/",
+          "published": "2023/11/30 06:00",
           "paid": false
         }
       ]

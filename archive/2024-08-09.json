@@ -73,7 +73,7 @@
         {
           "title": "中間貯蔵施設　地元との約束を守れるか",
           "link": "https://www.niigata-nippo.co.jp/articles/-/455986",
-          "published": "2024/8/9",
+          "published": "2024/8/9 6:00",
           "paid": false
         }
       ]
@@ -176,6 +176,23 @@
           "title": "＜社説＞長崎原爆投下７９年　核廃絶実現へ役割果たせ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3353654.html",
           "published": "2024/08/09",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】被爆者の記録　生きた証し核廃絶の力に",
+          "link": "https://www.nishinippon.co.jp/item/1245334/",
+          "published": "2024/08/09 06:00",
           "paid": false
         }
       ]

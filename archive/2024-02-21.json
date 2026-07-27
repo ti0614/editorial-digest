@@ -73,7 +73,7 @@
         {
           "title": "避難所対策　真冬の災害備え再点検を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/362711",
-          "published": "2024/2/21",
+          "published": "2024/2/21 6:00",
           "paid": false
         }
       ]
@@ -176,6 +176,23 @@
           "title": "＜社説＞海軍オスプレイ不具合　飛行停止の無期限継続を",
           "link": "https://ryukyushimpo.jp/editorial/entry-2823944.html",
           "published": "2024/02/21",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】熊本にTSMC　オール九州で共存共栄を",
+          "link": "https://www.nishinippon.co.jp/item/1181001/",
+          "published": "2024/02/21 06:00",
           "paid": false
         }
       ]

@@ -59,13 +59,13 @@
         {
           "title": "［社説］世界を混乱に陥れるトランプ関税の愚",
           "link": "https://www.nikkei.com/article/DGXZQODK021X10S5A200C2000000/",
-          "published": "2025年2月2日",
+          "published": "2025/2/2 19:05",
           "paid": false
         },
         {
           "title": "［社説］子どもの自殺予防策の強化を",
           "link": "https://www.nikkei.com/article/DGXZQODK319A80R30C25A1000000/",
-          "published": "2025年2月2日",
+          "published": "2025/2/2 19:00",
           "paid": false
         }
       ]
@@ -102,7 +102,7 @@
         {
           "title": "アウシュビッツ　決して忘れてはならない",
           "link": "https://www.niigata-nippo.co.jp/articles/-/549332",
-          "published": "2025/2/2",
+          "published": "2025/2/2 6:00",
           "paid": false
         }
       ]
@@ -205,6 +205,40 @@
           "title": "＜社説＞森友不開示取り消し　全容解明へ文書開示せよ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3922207.html",
           "published": "2025/02/02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：アウシュビッツ　８０年の記憶、今に生かさねば",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1416236",
+          "published": "2025/2/2 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】球春到来　イチローさんに続き輝け",
+          "link": "https://www.nishinippon.co.jp/item/1311048/",
+          "published": "2025/02/02 06:00",
           "paid": false
         }
       ]

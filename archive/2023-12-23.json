@@ -50,7 +50,7 @@
         {
           "title": "２４年度予算案　借金頼みを抜け出さねば",
           "link": "https://www.niigata-nippo.co.jp/articles/-/332257",
-          "published": "2023/12/23",
+          "published": "2023/12/23 6:00",
           "paid": false
         }
       ]
@@ -136,6 +136,23 @@
           "title": "＜社説＞ダイハツ不正問題　安全性軽視は許されない",
           "link": "https://ryukyushimpo.jp/editorial/entry-2610934.html",
           "published": "2023/12/23",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】変革期の自動車　技術磨き社会課題解決を",
+          "link": "https://www.nishinippon.co.jp/item/1160547/",
+          "published": "2023/12/23 06:00",
           "paid": false
         }
       ]

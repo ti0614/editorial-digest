@@ -53,13 +53,13 @@
         {
           "title": "［社説］パンデミック条約は国際協調の真価示せ",
           "link": "https://www.nikkei.com/article/DGXZQODK234D00T20C25A5000000/",
-          "published": "2025年5月24日",
+          "published": "2025/5/24 19:05",
           "paid": false
         },
         {
           "title": "［社説］外国人にも運転ルール徹底を",
           "link": "https://www.nikkei.com/article/DGXZQODK236L60T20C25A5000000/",
-          "published": "2025年5月24日",
+          "published": "2025/5/24 19:00",
           "paid": false
         }
       ]
@@ -137,7 +137,7 @@
         {
           "title": "大の里横綱へ　さらなる大記録を見たい",
           "link": "https://www.niigata-nippo.co.jp/articles/-/613810",
-          "published": "2025/5/24",
+          "published": "2025/5/24 6:00",
           "paid": false
         }
       ]
@@ -240,6 +240,40 @@
           "title": "＜社説＞県高齢者生活実態調査　より詳細な把握と支援を",
           "link": "https://ryukyushimpo.jp/editorial/entry-4262794.html",
           "published": "2025/05/24",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：スポーツ法の改正　広く親しみ、選手守る環境を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1482218",
+          "published": "2025/5/24 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】ストーカー事件　命守れなかった責任重い",
+          "link": "https://www.nishinippon.co.jp/item/1355007/",
+          "published": "2025/05/24 06:00",
           "paid": false
         }
       ]

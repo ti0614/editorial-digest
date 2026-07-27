@@ -73,7 +73,7 @@
         {
           "title": "死者３万人超　ガザの惨状見過ごせない",
           "link": "https://www.niigata-nippo.co.jp/articles/-/369208",
-          "published": "2024/3/5",
+          "published": "2024/3/5 6:00",
           "paid": false
         }
       ]
@@ -176,6 +176,23 @@
           "title": "＜社説＞地方自治法改正案　国の「指示権」拡大は危険",
           "link": "https://ryukyushimpo.jp/editorial/entry-2869817.html",
           "published": "2024/03/05",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】九州の人手不足　多様な人材生かす環境に",
+          "link": "https://www.nishinippon.co.jp/item/1185694/",
+          "published": "2024/03/05 06:00",
           "paid": false
         }
       ]

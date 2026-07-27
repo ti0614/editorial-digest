@@ -73,7 +73,7 @@
         {
           "title": "選挙妨害　民主主義の根幹守らねば",
           "link": "https://www.niigata-nippo.co.jp/articles/-/406138",
-          "published": "2024/5/16",
+          "published": "2024/5/16 6:00",
           "paid": false
         }
       ]
@@ -176,6 +176,23 @@
           "title": "＜社説＞県議選まで1カ月　PFAS、教員で論戦を",
           "link": "https://ryukyushimpo.jp/editorial/entry-3082372.html",
           "published": "2024/05/16",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】歴史的な円安　国力低下は放置できない",
+          "link": "https://www.nishinippon.co.jp/item/1211578/",
+          "published": "2024/05/16 06:00",
           "paid": false
         }
       ]

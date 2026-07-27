@@ -86,7 +86,7 @@
         {
           "title": "新型補給機　宇宙での活動広がる期待",
           "link": "https://www.niigata-nippo.co.jp/articles/-/724707",
-          "published": "2025/11/9",
+          "published": "2025/11/9 6:00",
           "paid": false
         }
       ]
@@ -120,13 +120,13 @@
         {
           "title": "社説【未解決事件の捜査】「２６年後の逮捕」を教訓に",
           "link": "https://www.hokkoku.co.jp/articles/-/1923404",
-          "published": "11/9",
+          "published": "2025/11/9 5:00",
           "paid": true
         },
         {
           "title": "社説【来年のコメ減産へ】増産の撤回は妥当なのか",
           "link": "https://www.hokkoku.co.jp/articles/-/1923403",
-          "published": "11/9",
+          "published": "2025/11/9 5:00",
           "paid": true
         }
       ]
@@ -212,6 +212,40 @@
           "title": "＜社説＞維新代表の記者攻撃　報道の自由脅かす蛮行だ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4753263.html",
           "published": "2025/11/09",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：無痛分娩への助成　安全な医療体制あってこそ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1596677",
+          "published": "2025/11/9 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】不当な身柄拘束　最高裁も責任を自覚せよ",
+          "link": "https://www.nishinippon.co.jp/item/1421236/",
+          "published": "2025/11/09 06:00",
           "paid": false
         }
       ]

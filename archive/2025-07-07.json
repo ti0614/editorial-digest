@@ -53,13 +53,13 @@
         {
           "title": "［社説］企業成長がけん引する賃上げの道筋示せ",
           "link": "https://www.nikkei.com/article/DGXZQODK074NX0X00C25A7000000/",
-          "published": "2025年7月7日",
+          "published": "2025/7/7 19:05",
           "paid": false
         },
         {
           "title": "［社説］教員の性犯罪対策に実効性を",
           "link": "https://www.nikkei.com/article/DGXZQODK061L40W5A700C2000000/",
-          "published": "2025年7月7日",
+          "published": "2025/7/7 19:00",
           "paid": false
         }
       ]
@@ -120,7 +120,7 @@
         {
           "title": "教員の児童盗撮　再発防ぐ環境つくらねば",
           "link": "https://www.niigata-nippo.co.jp/articles/-/644154",
-          "published": "2025/7/7",
+          "published": "2025/7/7 6:00",
           "paid": false
         }
       ]
@@ -223,6 +223,40 @@
           "title": "＜社説＞熱中症県内5人死亡　声かけで積極的な対策を",
           "link": "https://ryukyushimpo.jp/editorial/entry-4418181.html",
           "published": "2025/07/07",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：ジェンダー政策　人権尊重の視点から進めよ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1514962",
+          "published": "2025/7/7 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】オスプレイ配備　住民の懸念に十分応えよ",
+          "link": "https://www.nishinippon.co.jp/item/1373188/",
+          "published": "2025/07/07 06:00",
           "paid": false
         }
       ]

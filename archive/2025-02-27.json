@@ -59,13 +59,13 @@
         {
           "title": "［社説］米ロ結託の決議で極まる国連の機能不全",
           "link": "https://www.nikkei.com/article/DGXZQODK2754R0X20C25A2000000/",
-          "published": "2025年2月27日",
+          "published": "2025/2/27 19:05",
           "paid": false
         },
         {
           "title": "［社説］旧安倍派幹部の説明が必要だ",
           "link": "https://www.nikkei.com/article/DGXZQODK277QI0X20C25A2000000/",
-          "published": "2025年2月27日",
+          "published": "2025/2/27 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "自公維合意　拙速感拭えぬ高校無償化",
           "link": "https://www.niigata-nippo.co.jp/articles/-/563604",
-          "published": "2025/2/27",
+          "published": "2025/2/27 6:00",
           "paid": false
         }
       ]
@@ -246,6 +246,46 @@
           "title": "＜社説＞石垣日米艦船同時寄港　軍事拠点化に反対する",
           "link": "https://ryukyushimpo.jp/editorial/entry-4001995.html",
           "published": "2025/02/27",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：年金の改革　与野党で負担の熟議を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1430234",
+          "published": "2025/2/27 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：下請法の改正　正当な価格転嫁広げよ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1430244",
+          "published": "2025/2/27 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】高校の無償化　質を高める議論を欠いた",
+          "link": "https://www.nishinippon.co.jp/item/1320322/",
+          "published": "2025/02/27 06:00",
           "paid": false
         }
       ]

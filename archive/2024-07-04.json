@@ -67,7 +67,7 @@
         {
           "title": "新紙幣発行　混乱なく移行を進めたい",
           "link": "https://www.niigata-nippo.co.jp/articles/-/433861",
-          "published": "2024/7/4",
+          "published": "2024/7/4 6:00",
           "paid": false
         }
       ]
@@ -170,6 +170,23 @@
           "title": "＜社説＞大浦湾くい打ち試験　無謀な作業、即時中止を",
           "link": "https://ryukyushimpo.jp/editorial/entry-3243511.html",
           "published": "2024/07/04",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】首相の酷暑対策　一貫性なきばらまき再開",
+          "link": "https://www.nishinippon.co.jp/item/1230657/",
+          "published": "2024/07/04 06:00",
           "paid": false
         }
       ]

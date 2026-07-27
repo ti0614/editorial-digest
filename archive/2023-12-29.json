@@ -50,7 +50,7 @@
         {
           "title": "国会議員とカネ　政治への不信が極まった",
           "link": "https://www.niigata-nippo.co.jp/articles/-/335035",
-          "published": "2023/12/29",
+          "published": "2023/12/29 6:00",
           "paid": false
         }
       ]
@@ -136,6 +136,23 @@
           "title": "＜社説＞辺野古埋め立て代執行　歴史に刻まれる愚行だ",
           "link": "https://ryukyushimpo.jp/editorial/entry-2627909.html",
           "published": "2023/12/29",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】LINE情報漏れ　IT大手の風上に置けぬ",
+          "link": "https://www.nishinippon.co.jp/item/1162615/",
+          "published": "2023/12/29 06:00",
           "paid": false
         }
       ]

@@ -80,7 +80,7 @@
         {
           "title": "グーグル排除命令　消費者の選択肢広げねば",
           "link": "https://www.niigata-nippo.co.jp/articles/-/594623",
-          "published": "2025/4/20",
+          "published": "2025/4/20 6:00",
           "paid": false
         }
       ]
@@ -166,6 +166,40 @@
           "title": "＜社説＞辞世の句「平和」発言　文民統制は機能するのか",
           "link": "https://ryukyushimpo.jp/editorial/entry-4169077.html",
           "published": "2025/04/20",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：放送１００年　信頼されるメディアでこそ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1462772",
+          "published": "2025/4/20 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】政府の経済対策　ばらまき見送りは当然だ",
+          "link": "https://www.nishinippon.co.jp/item/1341826/",
+          "published": "2025/04/20 06:00",
           "paid": false
         }
       ]

@@ -50,7 +50,7 @@
         {
           "title": "家族会新方針　首相重く受け止め行動を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/372134",
-          "published": "2024/3/10",
+          "published": "2024/3/10 6:00",
           "paid": false
         }
       ]
@@ -136,6 +136,23 @@
           "title": "＜社説＞オスプレイ飛行再開へ　米の意向優先許されない",
           "link": "https://ryukyushimpo.jp/editorial/entry-2885924.html",
           "published": "2024/03/10",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】「再審」議連発足　法改正で冤罪被害者救え",
+          "link": "https://www.nishinippon.co.jp/item/1187689/",
+          "published": "2024/03/10 06:00",
           "paid": false
         }
       ]

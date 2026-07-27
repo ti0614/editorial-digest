@@ -59,7 +59,7 @@
         {
           "title": "［社説］柏崎再稼働で原発の安全な推進を",
           "link": "https://www.nikkei.com/article/DGXZQODK212XT0R21C25A1000000/",
-          "published": "2025年11月21日",
+          "published": "2025/11/21 19:00",
           "paid": false
         }
       ]
@@ -137,7 +137,7 @@
         {
           "title": "大分の大規模火災　防火への意識を高めたい",
           "link": "https://www.niigata-nippo.co.jp/articles/-/732471",
-          "published": "2025/11/21",
+          "published": "2025/11/21 6:00",
           "paid": false
         }
       ]
@@ -171,13 +171,13 @@
         {
           "title": "社説【金沢旅行ガイド本】欧米に「本物の日本」ＰＲ",
           "link": "https://www.hokkoku.co.jp/articles/-/1935764",
-          "published": "11/21",
+          "published": "2025/11/21 5:00",
           "paid": true
         },
         {
           "title": "社説【医療制度改革】「維新案」が突破口になる",
           "link": "https://www.hokkoku.co.jp/articles/-/1935763",
-          "published": "11/21",
+          "published": "2025/11/21 5:00",
           "paid": true
         }
       ]
@@ -297,6 +297,46 @@
           "title": "＜社説＞ミサイル輸出　武器輸出を直ちにやめよ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4793697.html",
           "published": "2025/11/21",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：高市政権１カ月　「強さ」がはらむ危うさ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1603863",
+          "published": "2025/11/21 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：大分の火災　延焼防ぐ備えの点検を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1603862",
+          "published": "2025/11/21 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】非核三原則　国是を見直す必要はない",
+          "link": "https://www.nishinippon.co.jp/item/1425959/",
+          "published": "2025/11/21 06:00",
           "paid": false
         }
       ]

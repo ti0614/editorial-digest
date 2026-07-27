@@ -47,13 +47,13 @@
         {
           "title": "［社説］iPS再生医療はこれからが正念場だ",
           "link": "https://www.nikkei.com/article/DGXZQODK207PA0Q6A220C2000000/",
-          "published": "3月2日",
+          "published": "2026/3/2 19:05",
           "paid": false
         },
         {
           "title": "［社説］「死後再審」の教訓生かす改革に",
           "link": "https://www.nikkei.com/article/DGXZQODK273HM0X20C26A2000000/",
-          "published": "3月2日",
+          "published": "2026/3/2 19:00",
           "paid": false
         }
       ]
@@ -114,7 +114,7 @@
         {
           "title": "米のイラン攻撃　中東の混迷深める暴挙だ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/788169",
-          "published": "3/2",
+          "published": "2026/3/2 6:00",
           "paid": false
         }
       ]
@@ -148,19 +148,19 @@
         {
           "title": "社説【米のイラン攻撃】危機拡大と打撃に備えを",
           "link": "https://www.hokkoku.co.jp/articles/-/2031714",
-          "published": "3/2",
+          "published": "2026/3/2 5:00",
           "paid": true
         },
         {
           "title": "社説【クルーズ観光幕開け】実績重ね認知度高めたい",
           "link": "https://www.hokkoku.co.jp/articles/-/2031713",
-          "published": "3/2",
+          "published": "2026/3/2 5:00",
           "paid": true
         },
         {
           "title": "社説【クルーズ観光幕開け】課題の混雑緩和を確実に",
           "link": "https://www.hokkoku.co.jp/articles/-/2031699",
-          "published": "3/2",
+          "published": "2026/3/2 5:00",
           "paid": true
         }
       ]
@@ -246,6 +246,40 @@
           "title": "＜社説＞２５年出生数過去最少　縮小前提の社会づくりを",
           "link": "https://ryukyushimpo.jp/editorial/entry-5084081.html",
           "published": "2026/03/02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：米のイラン攻撃　対話つぶす暴挙を非難する",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1668343",
+          "published": "2026/3/2 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】米がイラン攻撃　中東の混乱深める蛮行だ",
+          "link": "https://www.nishinippon.co.jp/item/1464078/",
+          "published": "2026/03/02 06:00",
           "paid": false
         }
       ]

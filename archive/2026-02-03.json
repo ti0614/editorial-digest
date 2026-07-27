@@ -59,13 +59,13 @@
         {
           "title": "［社説］「政治とカネ」改革へさらに深い論戦を",
           "link": "https://www.nikkei.com/article/DGXZQODK307D00Q6A130C2000000/",
-          "published": "2月3日",
+          "published": "2026/2/3 19:05",
           "paid": false
         },
         {
           "title": "［社説］冤罪救済に資さぬ再審見直し",
           "link": "https://www.nikkei.com/article/DGXZQODK032JJ0T00C26A2000000/",
-          "published": "2月3日",
+          "published": "2026/2/3 19:00",
           "paid": false
         }
       ]
@@ -129,20 +129,7 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": [
-        {
-          "title": "イチローさん日米野球殿堂入り　先駆者の警鐘に耳傾けて　【論説】",
-          "link": "https://www.chibanippo.co.jp/serial/1395767",
-          "published": "2/3 5:00",
-          "paid": true
-        },
-        {
-          "title": "森林環境譲与税　自治体連携さらに拡大を　【論説】",
-          "link": "https://www.chibanippo.co.jp/serial/1395769",
-          "published": "2/3 5:00",
-          "paid": true
-        }
-      ]
+      "items": []
     },
     {
       "name": "新潟日報",
@@ -156,7 +143,7 @@
         {
           "title": "憲法　国の根幹見つめる機会に",
           "link": "https://www.niigata-nippo.co.jp/articles/-/773074",
-          "published": "2/3",
+          "published": "2026/2/3 6:00",
           "paid": false
         }
       ]
@@ -190,13 +177,13 @@
         {
           "title": "社説【防災条例の制定】教訓生かす意思を明確に",
           "link": "https://www.hokkoku.co.jp/articles/-/2005277",
-          "published": "2/3",
+          "published": "2026/2/3 5:00",
           "paid": true
         },
         {
           "title": "社説【春闘スタート】物価上昇上回る賃上げを",
           "link": "https://www.hokkoku.co.jp/articles/-/2005276",
-          "published": "2/3",
+          "published": "2026/2/3 5:00",
           "paid": true
         }
       ]
@@ -316,6 +303,40 @@
           "title": "＜社説＞嘉手納で降下訓練予定　県民欺く再開は中止せよ",
           "link": "https://ryukyushimpo.jp/editorial/entry-5008069.html",
           "published": "2026/02/03",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：外国人政策　共生の具体策をもっと語れ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1649168",
+          "published": "2026/2/3 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】大国と日本外交　中堅国家が結束する核に",
+          "link": "https://www.nishinippon.co.jp/item/1453507/",
+          "published": "2026/02/03 06:00",
           "paid": false
         }
       ]

@@ -59,13 +59,13 @@
         {
           "title": "［社説］ガソリン減税は脱炭素や財源との整合を",
           "link": "https://www.nikkei.com/article/DGXZQODK2572O0V21C24A1000000/",
-          "published": "2024年11月25日",
+          "published": "2024/11/25 20:05",
           "paid": false
         },
         {
           "title": "［社説］日韓「佐渡金山」の対応冷静に",
           "link": "https://www.nikkei.com/article/DGXZQODK254710V21C24A1000000/",
-          "published": "2024年11月25日",
+          "published": "2024/11/25 20:00",
           "paid": false
         }
       ]
@@ -119,7 +119,7 @@
         {
           "title": "ＳＮＳと選挙　特性理解し真偽の判断を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/514753",
-          "published": "2024/11/25",
+          "published": "2024/11/25 6:00",
           "paid": false
         }
       ]
@@ -205,6 +205,23 @@
           "title": "＜社説＞経済対策　生活向上へ真摯な論戦を",
           "link": "https://ryukyushimpo.jp/editorial/entry-3680758.html",
           "published": "2024/11/25",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】規正法の再改正　自民は改革案を練り直せ",
+          "link": "https://www.nishinippon.co.jp/item/1285662/",
+          "published": "2024/11/25 06:00",
           "paid": false
         }
       ]

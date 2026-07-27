@@ -59,13 +59,13 @@
         {
           "title": "［社説］米国とウクライナは和平への協議に戻れ",
           "link": "https://www.nikkei.com/article/DGXZQODK282N50Y5A220C2000000/",
-          "published": "2025年3月1日",
+          "published": "2025/3/1 19:05",
           "paid": false
         },
         {
           "title": "［社説］自動運転の社会実装を前に",
           "link": "https://www.nikkei.com/article/DGXZQODK2896M0Y5A220C2000000/",
-          "published": "2025年3月1日",
+          "published": "2025/3/1 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "旧安倍派聴取　派閥幹部の喚問が必要だ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/565327",
-          "published": "2025/3/1",
+          "published": "2025/3/1 6:00",
           "paid": false
         }
       ]
@@ -246,6 +246,40 @@
           "title": "＜社説＞公選法改正　民主主義の根幹を支えよ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4010194.html",
           "published": "2025/03/01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：旧安倍派の裏金　幹部の責任逃れ許されない",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1431930",
+          "published": "2025/3/1 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】旧安倍派の裏金　幹部の再聴取は不可欠だ",
+          "link": "https://www.nishinippon.co.jp/item/1321353/",
+          "published": "2025/03/01 06:00",
           "paid": false
         }
       ]

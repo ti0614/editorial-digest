@@ -53,13 +53,13 @@
         {
           "title": "［社説］ホルムズ海峡の通航料は受け入れられぬ",
           "link": "https://www.nikkei.com/article/DGXZQOCD093H50Z00C26A4000000/",
-          "published": "4月10日",
+          "published": "2026/4/10 19:05",
           "paid": false
         },
         {
           "title": "［社説］普天間返還合意の実現を急げ",
           "link": "https://www.nikkei.com/article/DGXZQODK107MV0Q6A410C2000000/",
-          "published": "4月10日",
+          "published": "2026/4/10 19:00",
           "paid": false
         }
       ]
@@ -137,7 +137,7 @@
         {
           "title": "人類最遠へ到達　月探査への大きな前進だ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/811939",
-          "published": "4/10",
+          "published": "2026/4/10 6:00",
           "paid": false
         }
       ]
@@ -171,19 +171,19 @@
         {
           "title": "社説【石川県立図書館】２１美に続く集客の成功例",
           "link": "https://www.hokkoku.co.jp/articles/-/2072863",
-          "published": "4/10",
+          "published": "2026/4/10 5:00",
           "paid": true
         },
         {
           "title": "社説【揺らぐ停戦合意】２千隻の救出を最優先に",
           "link": "https://www.hokkoku.co.jp/articles/-/2072862",
-          "published": "4/10",
+          "published": "2026/4/10 5:00",
           "paid": true
         },
         {
           "title": "社説【県立図書館１３７万人】２１美に続く集客の成功例",
           "link": "https://www.hokkoku.co.jp/articles/-/2072798",
-          "published": "4/10",
+          "published": "2026/4/10 5:00",
           "paid": true
         }
       ]
@@ -303,6 +303,46 @@
           "title": "＜社説＞26年度予算成立　国論二分の法案、熟議を",
           "link": "https://ryukyushimpo.jp/editorial/entry-5180875.html",
           "published": "2026/04/10",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：食糧法の改正案　コメ農家の意欲そぐな",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1693500",
+          "published": "2026/4/10 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：高齢者虐待防止　介護保険、強化こそ必要",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1693494",
+          "published": "2026/4/10 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】緩和ケアの拡充　誰もが受けられる社会に",
+          "link": "https://www.nishinippon.co.jp/item/1480132/",
+          "published": "2026/04/10 06:00",
           "paid": false
         }
       ]

@@ -50,7 +50,7 @@
         {
           "title": "特捜検事「不適正」　厳正な取り調べに努めよ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/334464",
-          "published": "2023/12/28",
+          "published": "2023/12/28 6:00",
           "paid": false
         }
       ]
@@ -136,6 +136,23 @@
           "title": "＜社説＞代執行訴訟上告　地方自治の本旨訴えよ",
           "link": "https://ryukyushimpo.jp/editorial/entry-2624450.html",
           "published": "2023/12/28",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】偽情報の拡散　国際対策でかく乱許すな",
+          "link": "https://www.nishinippon.co.jp/item/1162174/",
+          "published": "2023/12/28 06:00",
           "paid": false
         }
       ]

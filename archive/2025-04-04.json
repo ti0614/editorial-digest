@@ -53,13 +53,13 @@
         {
           "title": "［社説］繰り返される韓国大統領罷免に終止符を",
           "link": "https://www.nikkei.com/article/DGXZQODK0445O0U5A400C2000000/",
-          "published": "2025年4月4日",
+          "published": "2025/4/4 19:05",
           "paid": false
         },
         {
           "title": "［社説］IOC新会長は五輪改革急げ",
           "link": "https://www.nikkei.com/article/DGXZQODK041T60U5A400C2000000/",
-          "published": "2025年4月4日",
+          "published": "2025/4/4 19:00",
           "paid": false
         }
       ]
@@ -120,7 +120,7 @@
         {
           "title": "米国の相互関税　世界の分断深める愚策だ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/585676",
-          "published": "2025/4/4",
+          "published": "2025/4/4 6:00",
           "paid": false
         }
       ]
@@ -223,6 +223,46 @@
           "title": "＜社説＞企業献金結論先送り　政治不信を深めるだけだ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4120508.html",
           "published": "2025/04/04",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：トランプ関税　自由貿易を壊す暴挙だ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1453096",
+          "published": "2025/4/4 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：不祥事続く郵政　新体制で改革進むのか",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1453105",
+          "published": "2025/4/4 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】トランプ関税　理不尽な措置撤回求める",
+          "link": "https://www.nishinippon.co.jp/item/1335318/",
+          "published": "2025/04/04 06:00",
           "paid": false
         }
       ]

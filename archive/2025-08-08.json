@@ -59,13 +59,13 @@
         {
           "title": "［社説］自民党は内輪もめをやめ国政の道筋示せ",
           "link": "https://www.nikkei.com/article/DGXZQODK0853M0Y5A800C2000000/",
-          "published": "2025年8月8日",
+          "published": "2025/8/8 19:30",
           "paid": false
         },
         {
           "title": "［社説］検証を冤罪防止に生かせるか",
           "link": "https://www.nikkei.com/article/DGXZQODK082Y90Y5A800C2000000/",
-          "published": "2025年8月8日",
+          "published": "2025/8/8 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "最低賃金千円超え　中小零細企業へ支援必要",
           "link": "https://www.niigata-nippo.co.jp/articles/-/666457",
-          "published": "2025/8/8",
+          "published": "2025/8/8 6:00",
           "paid": false
         }
       ]
@@ -263,6 +263,46 @@
           "title": "＜社説＞県芸でセクハラ訴え　被害根絶へ調査、対策を",
           "link": "https://ryukyushimpo.jp/editorial/entry-4525774.html",
           "published": "2025/08/08",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：デブリ回収遅れ　実態即した廃炉計画に",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1538342",
+          "published": "2025/8/8 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：日航機墜落４０年　空の安全、誓いを新たに",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1538343",
+          "published": "2025/8/8 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】コメ増産へ転換　持続可能な生産基盤築け",
+          "link": "https://www.nishinippon.co.jp/item/1385989/",
+          "published": "2025/08/08 06:00",
           "paid": false
         }
       ]

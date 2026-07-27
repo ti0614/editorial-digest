@@ -59,13 +59,13 @@
         {
           "title": "［社説］日本車の強み磨き直し貿易摩擦に備えを",
           "link": "https://www.nikkei.com/article/DGXZQODK0812S0Y5A101C2000000/",
-          "published": "2025年11月8日",
+          "published": "2025/11/8 19:05",
           "paid": false
         },
         {
           "title": "［社説］細やかな不登校支援を今こそ",
           "link": "https://www.nikkei.com/article/DGXZQOCD068DO0W5A101C2000000/",
-          "published": "2025年11月8日",
+          "published": "2025/11/8 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "成長戦略本部　「好循環」を生み出さねば",
           "link": "https://www.niigata-nippo.co.jp/articles/-/724333",
-          "published": "2025/11/8",
+          "published": "2025/11/8 6:00",
           "paid": false
         }
       ]
@@ -177,13 +177,13 @@
         {
           "title": "社説【若者目線の旅】地域の魅力再発見の力に",
           "link": "https://www.hokkoku.co.jp/articles/-/1922659",
-          "published": "11/8",
+          "published": "2025/11/8 5:00",
           "paid": true
         },
         {
           "title": "社説【スパイ防止法】宇出津事件の無念を教訓に",
           "link": "https://www.hokkoku.co.jp/articles/-/1922658",
-          "published": "11/8",
+          "published": "2025/11/8 5:00",
           "paid": true
         }
       ]
@@ -303,6 +303,40 @@
           "title": "＜社説＞普天間騒音激化　住環境破壊の訓練やめよ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4751627.html",
           "published": "2025/11/08",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：スポーツでの盗撮　「性暴力」許さない具体策を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1595923",
+          "published": "2025/11/8 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】性別変更の要件　違憲の規定を早く見直せ",
+          "link": "https://www.nishinippon.co.jp/item/1420996/",
+          "published": "2025/11/08 06:00",
           "paid": false
         }
       ]

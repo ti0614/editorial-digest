@@ -67,7 +67,7 @@
         {
           "title": "最低賃金５０円増　好循環実現への第一歩に",
           "link": "https://www.niigata-nippo.co.jp/articles/-/446872",
-          "published": "2024/7/26",
+          "published": "2024/7/26 6:00",
           "paid": false
         }
       ]
@@ -170,6 +170,23 @@
           "title": "＜社説＞女団協が大会呼びかけ　立場を超えて県民結集を",
           "link": "https://ryukyushimpo.jp/editorial/entry-3303477.html",
           "published": "2024/07/26",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】パリ五輪始まる　理念揺らぐ「平和の祭典」",
+          "link": "https://www.nishinippon.co.jp/item/1239140/",
+          "published": "2024/07/26 06:00",
           "paid": false
         }
       ]

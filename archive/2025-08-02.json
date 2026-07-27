@@ -59,13 +59,13 @@
         {
           "title": "［社説］新興AIの法的整理招いた不正を戒めに",
           "link": "https://www.nikkei.com/article/DGXZQODK31DCB0R30C25A7000000/",
-          "published": "2025年8月2日",
+          "published": "2025/8/2 19:05",
           "paid": false
         },
         {
           "title": "［社説］線状降水帯の予測精度高めよ",
           "link": "https://www.nikkei.com/article/DGXZQODK0816T0Y5A600C2000000/",
-          "published": "2025年8月2日",
+          "published": "2025/8/2 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "少数与党の国会　国民の負託応えられるか",
           "link": "https://www.niigata-nippo.co.jp/articles/-/662787",
-          "published": "2025/8/2",
+          "published": "2025/8/2 6:00",
           "paid": false
         }
       ]
@@ -263,6 +263,40 @@
           "title": "＜社説＞沖縄戦80年　不発弾撤去と遺骨収集　「最後の一発、一体」原点に",
           "link": "https://ryukyushimpo.jp/editorial/entry-4504738.html",
           "published": "2025/08/02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：極まるガザの飢餓　「虐殺」許さない国際圧力を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1534733",
+          "published": "2025/8/2 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】野党の役割　政策への責任を自覚せよ",
+          "link": "https://www.nishinippon.co.jp/item/1383794/",
+          "published": "2025/08/02 06:00",
           "paid": false
         }
       ]

@@ -59,13 +59,13 @@
         {
           "title": "［社説］議員定数削減は与野党で幅広い合意を",
           "link": "https://www.nikkei.com/article/DGXZQODK1857G0Y5A111C2000000/",
-          "published": "2025年11月18日",
+          "published": "2025/11/18 19:05",
           "paid": false
         },
         {
           "title": "［社説］日韓は摩擦より協力広げよ",
           "link": "https://www.nikkei.com/article/DGXZQODK185G80Y5A111C2000000/",
-          "published": "2025年11月18日",
+          "published": "2025/11/18 19:00",
           "paid": false
         }
       ]
@@ -129,20 +129,7 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": [
-        {
-          "title": "企業取り組み広がり期待　男性の育休取得率３割超え　【論説】",
-          "link": "https://www.chibanippo.co.jp/news/politics/1303110",
-          "published": "11/18 5:00",
-          "paid": true
-        },
-        {
-          "title": "設計者、大高正人に光を　県立美術館開館５０年　【論説】",
-          "link": "https://www.chibanippo.co.jp/serial/1303111",
-          "published": "11/18 5:00",
-          "paid": true
-        }
-      ]
+      "items": []
     },
     {
       "name": "新潟日報",
@@ -156,7 +143,7 @@
         {
           "title": "日中の対立　中国の冷静な対応不可欠",
           "link": "https://www.niigata-nippo.co.jp/articles/-/730261",
-          "published": "2025/11/18",
+          "published": "2025/11/18 6:00",
           "paid": false
         }
       ]
@@ -190,13 +177,13 @@
         {
           "title": "社説【「台湾有事」発言】「国益を損なう」のは誰か",
           "link": "https://www.hokkoku.co.jp/articles/-/1932398",
-          "published": "11/18",
+          "published": "2025/11/18 5:00",
           "paid": true
         },
         {
           "title": "社説【能登復興特別展】文化支援の新たなかたち",
           "link": "https://www.hokkoku.co.jp/articles/-/1932397",
-          "published": "11/18",
+          "published": "2025/11/18 5:00",
           "paid": true
         }
       ]
@@ -316,6 +303,40 @@
           "title": "＜社説＞古謝南城市長が失職　まず誹謗中傷やめさせよ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4783619.html",
           "published": "2025/11/18",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：非核三原則　見直しは平和主義を損なう",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1601785",
+          "published": "2025/11/18 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】財政健全化目標　無責任な見直しはやめよ",
+          "link": "https://www.nishinippon.co.jp/item/1424501/",
+          "published": "2025/11/18 06:00",
           "paid": false
         }
       ]

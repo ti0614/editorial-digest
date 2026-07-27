@@ -73,7 +73,7 @@
         {
           "title": "国際女性デー　平等な世界を実現したい",
           "link": "https://www.niigata-nippo.co.jp/articles/-/371736",
-          "published": "2024/3/9",
+          "published": "2024/3/9 6:00",
           "paid": false
         }
       ]
@@ -176,6 +176,23 @@
           "title": "＜社説＞安保情報保護法案　知る権利侵害しないか",
           "link": "https://ryukyushimpo.jp/editorial/entry-2883092.html",
           "published": "2024/03/09",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】米大統領予備選　「もしトラ」に備えが必要",
+          "link": "https://www.nishinippon.co.jp/item/1187385/",
+          "published": "2024/03/09 06:00",
           "paid": false
         }
       ]

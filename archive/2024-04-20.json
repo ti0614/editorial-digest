@@ -73,7 +73,7 @@
         {
           "title": "避難者高裁判決　国の責任を問い続けたい",
           "link": "https://www.niigata-nippo.co.jp/articles/-/393540",
-          "published": "2024/4/20",
+          "published": "2024/4/20 6:00",
           "paid": false
         }
       ]
@@ -176,6 +176,23 @@
           "title": "＜社説＞新基地建設に奄美土砂　県民の批判避けられない",
           "link": "https://ryukyushimpo.jp/editorial/entry-3000052.html",
           "published": "2024/04/20",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】水俣病患者救済　国と国会は恒久策を作れ",
+          "link": "https://www.nishinippon.co.jp/item/1202831/",
+          "published": "2024/04/20 06:00",
           "paid": false
         }
       ]

@@ -50,7 +50,7 @@
         {
           "title": "政府支援策　不安解消する対策を厚く",
           "link": "https://www.niigata-nippo.co.jp/articles/-/350669",
-          "published": "2024/1/27",
+          "published": "2024/1/27 6:00",
           "paid": false
         }
       ]
@@ -153,6 +153,23 @@
           "title": "＜社説＞PFAS対策負担要望　財政支援は国の責務だ",
           "link": "https://ryukyushimpo.jp/editorial/entry-2740150.html",
           "published": "2024/01/27",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】春闘幕開け　大幅賃上げ中小へ地方へ",
+          "link": "https://www.nishinippon.co.jp/item/1172315/",
+          "published": "2024/01/27 06:00",
           "paid": false
         }
       ]

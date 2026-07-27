@@ -53,13 +53,13 @@
         {
           "title": "［社説］コメ農家の生産努力抑える食糧法改正",
           "link": "https://www.nikkei.com/article/DGXZQODK180MG0Y6A110C2000000/",
-          "published": "1月18日",
+          "published": "2026/1/18 19:05",
           "paid": false
         },
         {
           "title": "［社説］日本とイタリアの協働は意義が大きい",
           "link": "https://www.nikkei.com/article/DGXZQODK1128R0R10C26A1000000/",
-          "published": "1月18日",
+          "published": "2026/1/18 19:00",
           "paid": false
         }
       ]
@@ -103,7 +103,7 @@
         {
           "title": "大阪出直し同日選　「都構想」なぜ今問うのか",
           "link": "https://www.niigata-nippo.co.jp/articles/-/763872",
-          "published": "1/18",
+          "published": "2026/1/18 6:00",
           "paid": false
         }
       ]
@@ -137,13 +137,13 @@
         {
           "title": "社説【避難所経費を詐取】災害福祉の信頼揺るがす",
           "link": "https://www.hokkoku.co.jp/articles/-/1990194",
-          "published": "1/18",
+          "published": "2026/1/18 5:00",
           "paid": true
         },
         {
           "title": "社説【クマ出没対策】放置果樹の除去を重点に",
           "link": "https://www.hokkoku.co.jp/articles/-/1990193",
-          "published": "1/18",
+          "published": "2026/1/18 5:00",
           "paid": true
         }
       ]
@@ -246,6 +246,40 @@
           "title": "＜社説＞阪神大震災３１年　記憶と教訓を次世代へ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4966465.html",
           "published": "2026/01/18",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：再生エネルギー　停滞させない戦略の提示を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1638269",
+          "published": "2026/1/18 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】FRB議長捜査　独立脅かす介入を許すな",
+          "link": "https://www.nishinippon.co.jp/item/1447186/",
+          "published": "2026/01/18 06:00",
           "paid": false
         }
       ]

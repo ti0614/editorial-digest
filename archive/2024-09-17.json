@@ -90,7 +90,7 @@
         {
           "title": "本県ライドシェア　住民の新たな移動手段に",
           "link": "https://www.niigata-nippo.co.jp/articles/-/476782",
-          "published": "2024/9/17",
+          "published": "2024/9/17 6:00",
           "paid": false
         }
       ]
@@ -159,6 +159,23 @@
           "title": "【日韓関係】後戻りせぬ努力を双方で",
           "link": "https://www.kochinews.co.jp/article/detail/787452",
           "published": "2024.09.17 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】教員の働き方　処遇と負担　一体で見直せ",
+          "link": "https://www.nishinippon.co.jp/item/1259206/",
+          "published": "2024/09/17 06:00",
           "paid": false
         }
       ]

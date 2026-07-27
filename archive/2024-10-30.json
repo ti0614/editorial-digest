@@ -59,13 +59,13 @@
         {
           "title": "［社説］女川再稼働を安全に進め原発活用広げよ",
           "link": "https://www.nikkei.com/article/DGXZQODK303550Q4A031C2000000/",
-          "published": "2024年10月30日",
+          "published": "2024/10/30 19:05",
           "paid": false
         },
         {
           "title": "［社説］インドネシアは新興国の要に",
           "link": "https://www.nikkei.com/article/DGXZQODK305SU0Q4A031C2000000/",
-          "published": "2024年10月30日",
+          "published": "2024/10/30 19:00",
           "paid": false
         }
       ]
@@ -136,7 +136,7 @@
         {
           "title": "首相続投表明　安定した政権運営可能か",
           "link": "https://www.niigata-nippo.co.jp/articles/-/500700",
-          "published": "2024/10/30",
+          "published": "2024/10/30 6:00",
           "paid": false
         }
       ]
@@ -222,6 +222,23 @@
           "title": "＜社説＞陸自オスプレイ事故　共同統合演習を中止せよ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3598513.html",
           "published": "2024/10/30",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】「闇バイト」強盗　若者巻き込むわな根絶を",
+          "link": "https://www.nishinippon.co.jp/item/1275799/",
+          "published": "2024/10/30 06:00",
           "paid": false
         }
       ]

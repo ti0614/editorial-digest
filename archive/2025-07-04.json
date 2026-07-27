@@ -47,13 +47,13 @@
         {
           "title": "［社説］物価高対策は的絞り効果高める知恵を",
           "link": "https://www.nikkei.com/article/DGXZQODK046E80U5A700C2000000/",
-          "published": "2025年7月4日",
+          "published": "2025/7/4 19:25",
           "paid": false
         },
         {
           "title": "［社説］仮想通貨の法整備が急務だ",
           "link": "https://www.nikkei.com/article/DGXZQODK046450U5A700C2000000/",
-          "published": "2025年7月4日",
+          "published": "2025/7/4 19:20",
           "paid": false
         }
       ]
@@ -131,7 +131,7 @@
         {
           "title": "物価高対策　家計の負担どう和らげる",
           "link": "https://www.niigata-nippo.co.jp/articles/-/641908",
-          "published": "2025/7/4",
+          "published": "2025/7/4 6:00",
           "paid": false
         }
       ]
@@ -251,6 +251,40 @@
           "title": "＜社説＞南海トラフ計画改定　地震への備え、再確認を",
           "link": "https://ryukyushimpo.jp/editorial/entry-4409109.html",
           "published": "2025/07/04",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：論戦スタート　目前の物価対策だけでなく",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1512513",
+          "published": "2025/7/4 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】参院選公示　熟慮して意思示す1票を",
+          "link": "https://www.nishinippon.co.jp/item/1372276/",
+          "published": "2025/07/04 06:00",
           "paid": false
         }
       ]

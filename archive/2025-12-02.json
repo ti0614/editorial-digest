@@ -59,13 +59,13 @@
         {
           "title": "［社説］参院は制度の抜本改革で1票の格差正せ",
           "link": "https://www.nikkei.com/article/DGXZQODK028RS0S5A201C2000000/",
-          "published": "2025年12月2日",
+          "published": "2025/12/2 19:05",
           "paid": false
         },
         {
           "title": "［社説］マイナ保険証利用へ周知を",
           "link": "https://www.nikkei.com/article/DGXZQODK014VI0R01C25A2000000/",
-          "published": "2025年12月2日",
+          "published": "2025/12/2 19:00",
           "paid": false
         }
       ]
@@ -129,20 +129,7 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": [
-        {
-          "title": "未整備市町村は早期制定を　犯罪被害者支援条例　【論説】",
-          "link": "https://www.chibanippo.co.jp/news/politics/1309711",
-          "published": "12/2 5:00",
-          "paid": true
-        },
-        {
-          "title": "乱用防ぐルールづくり急げ　ＳＮＳと選挙　【論説】",
-          "link": "https://www.chibanippo.co.jp/serial/1309712",
-          "published": "12/2 5:00",
-          "paid": true
-        }
-      ]
+      "items": []
     },
     {
       "name": "新潟日報",
@@ -156,7 +143,7 @@
         {
           "title": "県議会と原発　県民世論くみ取る努力を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/738499",
-          "published": "2025/12/2",
+          "published": "2025/12/2 6:00",
           "paid": false
         }
       ]
@@ -190,13 +177,13 @@
         {
           "title": "社説【防衛装備品の輸出】規制撤廃し販路の拡大を",
           "link": "https://www.hokkoku.co.jp/articles/-/1946455",
-          "published": "12/2",
+          "published": "2025/12/2 5:00",
           "paid": true
         },
         {
           "title": "社説【和倉まちづくり会社】被災地雇用支えるモデルに",
           "link": "https://www.hokkoku.co.jp/articles/-/1946454",
-          "published": "12/2",
+          "published": "2025/12/2 5:00",
           "paid": true
         }
       ]
@@ -316,6 +303,40 @@
           "title": "＜社説＞保険証３種類併存続く　弥縫策やめ併用に転換を",
           "link": "https://ryukyushimpo.jp/editorial/entry-4827170.html",
           "published": "2025/12/02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：ガザ死者７万人　停戦の国際合意、実現迫れ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1610629",
+          "published": "2025/12/2 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】生活保護の減額　一部補償は納得できない",
+          "link": "https://www.nishinippon.co.jp/item/1430064/",
+          "published": "2025/12/02 06:00",
           "paid": false
         }
       ]

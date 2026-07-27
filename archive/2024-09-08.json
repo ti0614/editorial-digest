@@ -79,7 +79,7 @@
         {
           "title": "立民代表選告示　政権担当能力が問われる",
           "link": "https://www.niigata-nippo.co.jp/articles/-/472281",
-          "published": "2024/9/8",
+          "published": "2024/9/8 6:00",
           "paid": false
         }
       ]
@@ -165,6 +165,23 @@
           "title": "＜社説＞路線バス無料事業　公共交通への転換促進を",
           "link": "https://ryukyushimpo.jp/editorial/entry-3451672.html",
           "published": "2024/09/08",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】辺野古埋め立て　軟弱地盤では無理がある",
+          "link": "https://www.nishinippon.co.jp/item/1256132/",
+          "published": "2024/09/08 06:00",
           "paid": false
         }
       ]

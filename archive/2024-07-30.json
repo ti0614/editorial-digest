@@ -73,7 +73,7 @@
         {
           "title": "敦賀原発不適合　活断層のリスク直視必要",
           "link": "https://www.niigata-nippo.co.jp/articles/-/449299",
-          "published": "2024/7/30",
+          "published": "2024/7/30 6:00",
           "paid": false
         }
       ]
@@ -176,6 +176,23 @@
           "title": "＜社説＞日米2プラス2　沖縄犠牲の軍事一体化だ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3323164.html",
           "published": "2024/07/30",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】デジタル赤字　放置すれば円安招く恐れ",
+          "link": "https://www.nishinippon.co.jp/item/1240817/",
+          "published": "2024/07/30 06:00",
           "paid": false
         }
       ]

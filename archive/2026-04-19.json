@@ -59,13 +59,13 @@
         {
           "title": "［社説］重大なAIリスクの現実に向き合う時だ",
           "link": "https://www.nikkei.com/article/DGXZQODK176YC0X10C26A4000000/",
-          "published": "4月19日",
+          "published": "2026/4/19 19:05",
           "paid": false
         },
         {
           "title": "［社説］企業型確定拠出年金の充実を",
           "link": "https://www.nikkei.com/article/DGXZQODK169T90W6A410C2000000/",
-          "published": "4月19日",
+          "published": "2026/4/19 19:00",
           "paid": false
         }
       ]
@@ -102,7 +102,7 @@
         {
           "title": "石油供給不安　後手に回らぬ対策が必要",
           "link": "https://www.niigata-nippo.co.jp/articles/-/816779",
-          "published": "4/19",
+          "published": "2026/4/19 6:00",
           "paid": false
         }
       ]
@@ -136,13 +136,13 @@
         {
           "title": "社説【自然史資料館２０年】トキ放鳥を飛躍の機会に",
           "link": "https://www.hokkoku.co.jp/articles/-/2081800",
-          "published": "4/19",
+          "published": "2026/4/19 5:00",
           "paid": true
         },
         {
           "title": "社説【労働局の専門部隊】採用増へ出会いの場拡充を",
           "link": "https://www.hokkoku.co.jp/articles/-/2081799",
-          "published": "4/19",
+          "published": "2026/4/19 5:00",
           "paid": true
         }
       ]
@@ -245,6 +245,23 @@
           "title": "＜社説＞自民大会自衛官歌唱　政治的中立の逸脱明らか",
           "link": "https://ryukyushimpo.jp/editorial/entry-5198169.html",
           "published": "2026/04/19",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】食糧法の改正　コメの安定供給を着実に",
+          "link": "https://www.nishinippon.co.jp/item/1483358/",
+          "published": "2026/04/19 06:00",
           "paid": false
         }
       ]

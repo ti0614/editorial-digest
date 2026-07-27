@@ -73,7 +73,7 @@
         {
           "title": "規正法修正法案　「裏金」温存の懸念拭えず",
           "link": "https://www.niigata-nippo.co.jp/articles/-/416918",
-          "published": "2024/6/4",
+          "published": "2024/6/4 6:00",
           "paid": false
         }
       ]
@@ -176,6 +176,23 @@
           "title": "＜社説＞HPに牛島司令官辞世　自衛隊は「皇軍」に戻るのか",
           "link": "https://ryukyushimpo.jp/editorial/entry-3156748.html",
           "published": "2024/06/04",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】トランプ氏有罪　分断と対立の拡大を懸念",
+          "link": "https://www.nishinippon.co.jp/item/1218991/",
+          "published": "2024/06/04 06:00",
           "paid": false
         }
       ]

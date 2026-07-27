@@ -59,7 +59,7 @@
         {
           "title": "［社説］経営革新で停滞の40年に終止符を",
           "link": "https://www.nikkei.com/article/DGXZQOCD127MO0S5A810C2000000/",
-          "published": "2025年8月13日",
+          "published": "2025/8/13 19:00",
           "paid": false
         }
       ]
@@ -120,7 +120,7 @@
         {
           "title": "日航機墜落４０年　安全運航の誓いを新たに",
           "link": "https://www.niigata-nippo.co.jp/articles/-/669200",
-          "published": "2025/8/13",
+          "published": "2025/8/13 6:00",
           "paid": false
         }
       ]
@@ -240,6 +240,40 @@
           "title": "＜社説＞広陵高が甲子園辞退　当初対応は適切か検証を",
           "link": "https://ryukyushimpo.jp/editorial/entry-4538995.html",
           "published": "2025/08/13",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：戦争トラウマ　実相に迫る努力欠かせない",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1541346",
+          "published": "2025/8/13 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】同対審答申60年　部落差別の根絶へ行動を",
+          "link": "https://www.nishinippon.co.jp/item/1387502/",
+          "published": "2025/08/13 06:00",
           "paid": false
         }
       ]

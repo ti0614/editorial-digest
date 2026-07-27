@@ -53,13 +53,13 @@
         {
           "title": "［社説］分断修復めざしたバイデン米政権の挫折",
           "link": "https://www.nikkei.com/article/DGXZQODK086UN0Y5A100C2000000/",
-          "published": "2025年1月9日",
+          "published": "2025/1/9 19:05",
           "paid": false
         },
         {
           "title": "［社説］袴田さん再審検証を制度改正に生かせ",
           "link": "https://www.nikkei.com/article/DGXZQODK094740Z00C25A1000000/",
-          "published": "2025年1月9日",
+          "published": "2025/1/9 19:00",
           "paid": false
         }
       ]
@@ -130,7 +130,7 @@
         {
           "title": "韓国の混乱　早急な収拾が求められる",
           "link": "https://www.niigata-nippo.co.jp/articles/-/536878",
-          "published": "2025/1/9",
+          "published": "2025/1/9 6:00",
           "paid": false
         }
       ]
@@ -233,6 +233,23 @@
           "title": "＜社説＞「辞世の句」再掲載　「皇軍の論理」なぜ断てぬ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3846056.html",
           "published": "2025/01/09",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】水道のPFAS　周回遅れの対応を見直せ",
+          "link": "https://www.nishinippon.co.jp/item/1301739/",
+          "published": "2025/01/09 06:00",
           "paid": false
         }
       ]

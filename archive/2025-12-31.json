@@ -91,7 +91,7 @@
         {
           "title": "暮れゆく２０２５年　教訓と向き合えたろうか",
           "link": "https://www.niigata-nippo.co.jp/articles/-/755151",
-          "published": "2025/12/31",
+          "published": "2025/12/31 6:00",
           "paid": false
         }
       ]
@@ -125,19 +125,19 @@
         {
           "title": "社説【全国どぶろく大会】能登振興へ新たな一手",
           "link": "https://www.hokkoku.co.jp/articles/-/1975795",
-          "published": "12/31",
+          "published": "2025/12/31 5:00",
           "paid": true
         },
         {
           "title": "社説【小学生の体力】全国１位を新たな目標に",
           "link": "https://www.hokkoku.co.jp/articles/-/1975794",
-          "published": "12/31",
+          "published": "2025/12/31 5:00",
           "paid": true
         },
         {
           "title": "社説【中２の体力低下】成長期の運動不足改善を",
           "link": "https://www.hokkoku.co.jp/articles/-/1975681",
-          "published": "12/31",
+          "published": "2025/12/31 5:00",
           "paid": true
         }
       ]
@@ -257,6 +257,40 @@
           "title": "＜社説＞2025年を振り返る　平和主義、試練の一年",
           "link": "https://ryukyushimpo.jp/editorial/entry-4918739.html",
           "published": "2025/12/31",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：暮れゆく一年　80年の歩み見つめ、共生探り",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1629029",
+          "published": "2025/12/31 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】能登地震2年　再建加速　漏れない支援で",
+          "link": "https://www.nishinippon.co.jp/item/1441355/",
+          "published": "2025/12/31 06:00",
           "paid": false
         }
       ]

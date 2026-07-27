@@ -59,13 +59,13 @@
         {
           "title": "［社説］首都直下地震の減災さらに進める対策を",
           "link": "https://www.nikkei.com/article/DGXZQODK193Q60Z11C25A2000000/",
-          "published": "2025年12月21日",
+          "published": "2025/12/21 19:05",
           "paid": false
         },
         {
           "title": "［社説］オーストラリアSNS禁止の影響見定めよ",
           "link": "https://www.nikkei.com/article/DGXZQODK198Z00Z11C25A2000000/",
-          "published": "2025年12月21日",
+          "published": "2025/12/21 19:00",
           "paid": false
         }
       ]
@@ -109,7 +109,7 @@
         {
           "title": "税制改正大綱　財源問題の先送りを危惧",
           "link": "https://www.niigata-nippo.co.jp/articles/-/750163",
-          "published": "2025/12/21",
+          "published": "2025/12/21 6:00",
           "paid": false
         }
       ]
@@ -143,13 +143,13 @@
         {
           "title": "社説【改正医療法が成立】診療科の偏在対策も急務",
           "link": "https://www.hokkoku.co.jp/articles/-/1966680",
-          "published": "12/21",
+          "published": "2025/12/21 5:00",
           "paid": true
         },
         {
           "title": "社説【給食の無償化】教育の質向上につなげたい",
           "link": "https://www.hokkoku.co.jp/articles/-/1966679",
-          "published": "12/21",
+          "published": "2025/12/21 5:00",
           "paid": true
         }
       ]
@@ -252,6 +252,40 @@
           "title": "＜社説＞PFAS調査拒否　理不尽な米軍回答許すな",
           "link": "https://ryukyushimpo.jp/editorial/entry-4889090.html",
           "published": "2025/12/21",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：私立大の入学金　「二重払い」軽減、国も支援を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1622266",
+          "published": "2025/12/21 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】旧姓の法制化　選択的夫婦別姓が遠のく",
+          "link": "https://www.nishinippon.co.jp/item/1437877/",
+          "published": "2025/12/21 06:00",
           "paid": false
         }
       ]

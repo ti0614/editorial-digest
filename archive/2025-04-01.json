@@ -59,13 +59,13 @@
         {
           "title": "［社説］米関税リスクに備え内需の基盤を確かに",
           "link": "https://www.nikkei.com/article/DGXZQODK014TQ0R00C25A4000000/",
-          "published": "2025年4月1日",
+          "published": "2025/4/1 19:05",
           "paid": false
         },
         {
           "title": "［社説］フジの信頼回復は険しい道だ",
           "link": "https://www.nikkei.com/article/DGXZQODK018ZD0R00C25A4000000/",
-          "published": "2025年4月1日",
+          "published": "2025/4/1 19:00",
           "paid": false
         }
       ]
@@ -126,7 +126,7 @@
         {
           "title": "２５年度予算成立　開かれた政策協議さらに",
           "link": "https://www.niigata-nippo.co.jp/articles/-/583749",
-          "published": "2025/4/1",
+          "published": "2025/4/1 6:00",
           "paid": false
         }
       ]
@@ -229,6 +229,40 @@
           "title": "＜社説＞沖縄戦80年　米軍沖縄本島上陸　「戦争前夜」を拒否する",
           "link": "https://ryukyushimpo.jp/editorial/entry-4111072.html",
           "published": "2025/04/01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：２０２５年度予算の成立　財源なき歳出拡大、憂慮する",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1451128",
+          "published": "2025/4/1 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】ミャンマー地震　国際社会は全力で救援を",
+          "link": "https://www.nishinippon.co.jp/item/1333914/",
+          "published": "2025/04/01 06:00",
           "paid": false
         }
       ]

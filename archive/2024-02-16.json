@@ -73,7 +73,7 @@
         {
           "title": "県振興局談合　規律順守の自覚求めたい",
           "link": "https://www.niigata-nippo.co.jp/articles/-/360443",
-          "published": "2024/2/16",
+          "published": "2024/2/16 6:00",
           "paid": false
         }
       ]
@@ -176,6 +176,23 @@
           "title": "＜社説＞サンゴ訴訟県敗訴　自己決定権踏みつけるな",
           "link": "https://ryukyushimpo.jp/editorial/entry-2808511.html",
           "published": "2024/02/16",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】市販薬の乱用　若者の依存対策を早急に",
+          "link": "https://www.nishinippon.co.jp/item/1179360/",
+          "published": "2024/02/16 06:00",
           "paid": false
         }
       ]

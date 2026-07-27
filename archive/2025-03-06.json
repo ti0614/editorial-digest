@@ -59,13 +59,13 @@
         {
           "title": "［社説］中国はデフレ回避へ政策の総動員を",
           "link": "https://www.nikkei.com/article/DGXZQODK0672N0W5A300C2000000/",
-          "published": "2025年3月6日",
+          "published": "2025/3/6 19:05",
           "paid": false
         },
         {
           "title": "［社説］なお問われる原発事故の責任",
           "link": "https://www.nikkei.com/article/DGXZQODK066620W5A300C2000000/",
-          "published": "2025年3月6日",
+          "published": "2025/3/6 19:00",
           "paid": false
         }
       ]
@@ -126,7 +126,7 @@
         {
           "title": "国会予算案審議　熟議とは程遠い個別協議",
           "link": "https://www.niigata-nippo.co.jp/articles/-/568270",
-          "published": "2025/3/6",
+          "published": "2025/3/6 6:00",
           "paid": false
         }
       ]
@@ -212,6 +212,46 @@
           "title": "＜社説＞宮城島土砂ルート変更　搬出をやめ県と協議せよ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4026032.html",
           "published": "2025/03/06",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：改正育児休業法　柔軟な働き方の実現を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1434698",
+          "published": "2025/3/6 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：兵庫百条委報告　知事の告発つぶし指摘",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1434684",
+          "published": "2025/3/6 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】予算案衆院通過　これで熟議と言えるのか",
+          "link": "https://www.nishinippon.co.jp/item/1323287/",
+          "published": "2025/03/06 06:00",
           "paid": false
         }
       ]

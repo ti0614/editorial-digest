@@ -53,13 +53,13 @@
         {
           "title": "［社説］北方領土返還へロシアに粘り強く要求を",
           "link": "https://www.nikkei.com/article/DGXZQODK255PE0V20C25A8000000/",
-          "published": "2025年8月28日",
+          "published": "2025/8/28 19:05",
           "paid": false
         },
         {
           "title": "［社説］洋上風力の制度見直し早急に",
           "link": "https://www.nikkei.com/article/DGXZQODK2835A0Y5A820C2000000/",
-          "published": "2025年8月28日",
+          "published": "2025/8/28 19:00",
           "paid": false
         }
       ]
@@ -120,7 +120,7 @@
         {
           "title": "アフリカ誤情報　事実を周知して収拾急げ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/678040",
-          "published": "2025/8/28",
+          "published": "2025/8/28 6:00",
           "paid": false
         }
       ]
@@ -223,6 +223,46 @@
           "title": "＜社説＞与那国島で日米演習　争いの火種を持ち込むな",
           "link": "https://ryukyushimpo.jp/editorial/entry-4567859.html",
           "published": "2025/08/28",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：相次ぐ豪雨　「想定外」前提の備えを",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1550505",
+          "published": "2025/8/28 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：ＯＴＣ類似　薬見直しは丁寧な議論で",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1550498",
+          "published": "2025/8/28 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】ガソリン減税　課題は「財源探し」だけか",
+          "link": "https://www.nishinippon.co.jp/item/1392734/",
+          "published": "2025/08/28 06:00",
           "paid": false
         }
       ]

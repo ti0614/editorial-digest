@@ -59,7 +59,7 @@
         {
           "title": "［社説］情報見極め民主主義を守る1票を",
           "link": "https://www.nikkei.com/article/DGXZQODK182780Y5A710C2000000/",
-          "published": "2025年7月19日",
+          "published": "2025/7/19 19:00",
           "paid": false
         }
       ]
@@ -137,7 +137,7 @@
         {
           "title": "中３殺害再審無罪　冤罪に終止符を打たねば",
           "link": "https://www.niigata-nippo.co.jp/articles/-/653227",
-          "published": "2025/7/19",
+          "published": "2025/7/19 6:00",
           "paid": false
         }
       ]
@@ -257,6 +257,40 @@
           "title": "＜社説＞2025参院選　沖縄振興策　「基地と経済」深い議論を",
           "link": "https://ryukyushimpo.jp/editorial/entry-4458152.html",
           "published": "2025/07/19",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：教育・子育て　「無償」競うだけでいいのか",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1524571",
+          "published": "2025/7/19 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】コメと農政　米価高騰を教訓に見直せ",
+          "link": "https://www.nishinippon.co.jp/item/1377932/",
+          "published": "2025/07/19 06:00",
           "paid": false
         }
       ]

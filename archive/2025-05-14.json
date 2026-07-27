@@ -59,13 +59,13 @@
         {
           "title": "［社説］理解に苦しむ郵便局網への公的支援案",
           "link": "https://www.nikkei.com/article/DGXZQODK145T30U5A510C2000000/",
-          "published": "2025年5月14日",
+          "published": "2025/5/14 19:05",
           "paid": false
         },
         {
           "title": "［社説］沖縄の負担軽減へ大きな絵を",
           "link": "https://www.nikkei.com/article/DGXZQODK146OM0U5A510C2000000/",
-          "published": "2025年5月14日",
+          "published": "2025/5/14 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "選択的夫婦別姓　時代に合った制度を急げ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/607160",
-          "published": "2025/5/14",
+          "published": "2025/5/14 6:00",
           "paid": false
         }
       ]
@@ -246,6 +246,46 @@
           "title": "＜社説＞参政党神谷氏発言　住民犠牲の事実直視せよ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4227085.html",
           "published": "2025/05/14",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：感染症条約　国際連携で対策強化を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1475772",
+          "published": "2025/5/14 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：株口座乗っ取り　業界挙げ防止策を急げ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1475767",
+          "published": "2025/5/14 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】NPT準備委　核軍縮の合意を諦めるな",
+          "link": "https://www.nishinippon.co.jp/item/1350552/",
+          "published": "2025/05/14 06:00",
           "paid": false
         }
       ]

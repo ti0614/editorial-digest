@@ -59,13 +59,13 @@
         {
           "title": "［社説］緊密な連携と信頼で日米安保体制を盤石に",
           "link": "https://www.nikkei.com/article/DGXZQODK300W80Q5A330C2000000/",
-          "published": "2025年3月30日",
+          "published": "2025/3/30 19:05",
           "paid": false
         },
         {
           "title": "［社説］ミャンマー地震に支援を急げ",
           "link": "https://www.nikkei.com/article/DGXZQODK300LQ0Q5A330C2000000/",
-          "published": "2025年3月30日",
+          "published": "2025/3/30 19:00",
           "paid": false
         }
       ]
@@ -109,7 +109,7 @@
         {
           "title": "米自動車関税　撤回迫り日本経済を守れ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/582812",
-          "published": "2025/3/30",
+          "published": "2025/3/30 6:00",
           "paid": false
         }
       ]
@@ -212,6 +212,40 @@
           "title": "＜社説＞ワシントン事務所閉鎖　県民全体の支持で再開を",
           "link": "https://ryukyushimpo.jp/editorial/entry-4105793.html",
           "published": "2025/03/30",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：金融正常化の１年　弊害直視し、かじ取り丁寧に",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1450086",
+          "published": "2025/3/30 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】自衛隊の新組織　文民統制揺るがぬ体制に",
+          "link": "https://www.nishinippon.co.jp/item/1333183/",
+          "published": "2025/03/30 06:00",
           "paid": false
         }
       ]

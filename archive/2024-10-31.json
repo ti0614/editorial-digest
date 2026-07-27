@@ -59,13 +59,13 @@
         {
           "title": "［社説］ロシアと北朝鮮があおる世界危機に警戒と抑止を",
           "link": "https://www.nikkei.com/article/DGXZQODK312370R31C24A0000000/",
-          "published": "2024年10月31日",
+          "published": "2024/10/31 19:05",
           "paid": false
         },
         {
           "title": "［社説］県民が審判する兵庫・前知事の責任",
           "link": "https://www.nikkei.com/article/DGXZQODK314RZ0R31C24A0000000/",
-          "published": "2024年10月31日",
+          "published": "2024/10/31 19:00",
           "paid": false
         }
       ]
@@ -119,7 +119,7 @@
         {
           "title": "女川原発再稼働　不安拭う取り組み続けよ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/501312",
-          "published": "2024/10/31",
+          "published": "2024/10/31 6:00",
           "paid": false
         }
       ]
@@ -205,6 +205,23 @@
           "title": "＜社説＞女性差別撤廃委勧告　米兵性暴力の対策を急げ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3601780.html",
           "published": "2024/10/31",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】中3殺害で再審　証拠開示が不当捜査暴く",
+          "link": "https://www.nishinippon.co.jp/item/1276206/",
+          "published": "2024/10/31 06:00",
           "paid": false
         }
       ]

@@ -53,13 +53,13 @@
         {
           "title": "［社説］脱炭素と経済成長を促す排出量取引に",
           "link": "https://www.nikkei.com/article/DGXZQODK262JZ0W6A320C2000000/",
-          "published": "3月29日",
+          "published": "2026/3/29 19:05",
           "paid": false
         },
         {
           "title": "［社説］地銀は再編で地域守る覚悟を",
           "link": "https://www.nikkei.com/article/DGXZQODK279JL0X20C26A3000000/",
-          "published": "3月29日",
+          "published": "2026/3/29 19:00",
           "paid": false
         }
       ]
@@ -103,7 +103,7 @@
         {
           "title": "暫定予算案　国会審議軽視は許されぬ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/805011",
-          "published": "3/29",
+          "published": "2026/3/29 6:00",
           "paid": false
         }
       ]
@@ -137,19 +137,19 @@
         {
           "title": "社説【企業誘致】地元で成長、根付く支援を",
           "link": "https://www.hokkoku.co.jp/articles/-/2060490",
-          "published": "3/29",
+          "published": "2026/3/29 5:00",
           "paid": true
         },
         {
           "title": "社説【武器輸出の緩和】防衛力の強化につながる",
           "link": "https://www.hokkoku.co.jp/articles/-/2060489",
-          "published": "3/29",
+          "published": "2026/3/29 5:00",
           "paid": true
         },
         {
           "title": "社説【県の企業誘致】地元で成長、根付く支援を",
           "link": "https://www.hokkoku.co.jp/articles/-/2060476",
-          "published": "3/29",
+          "published": "2026/3/29 5:00",
           "paid": true
         }
       ]
@@ -252,6 +252,40 @@
           "title": "＜社説＞与那国駐屯地10年　軍備より外交で信頼築け",
           "link": "https://ryukyushimpo.jp/editorial/entry-5155288.html",
           "published": "2026/03/29",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：「反撃」ミサイル　理解置き去りの配備を憂う",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1685693",
+          "published": "2026/3/29 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】地価の上昇　建設費高騰が気がかりだ",
+          "link": "https://www.nishinippon.co.jp/item/1475367/",
+          "published": "2026/03/29 06:00",
           "paid": false
         }
       ]

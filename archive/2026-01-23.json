@@ -53,7 +53,7 @@
         {
           "title": "［社説］与野党は政治の責任競う論戦を",
           "link": "https://www.nikkei.com/article/DGXZQODK231840T20C26A1000000/",
-          "published": "1月23日",
+          "published": "2026/1/23 19:15",
           "paid": false
         }
       ]
@@ -131,7 +131,7 @@
         {
           "title": "安倍氏銃撃判決　宗教２世の救済進めねば",
           "link": "https://www.niigata-nippo.co.jp/articles/-/767033",
-          "published": "1/23",
+          "published": "2026/1/23 6:00",
           "paid": false
         }
       ]
@@ -165,13 +165,13 @@
         {
           "title": "社説【「昆布ロード」】広域観光の新たな切り口",
           "link": "https://www.hokkoku.co.jp/articles/-/1994875",
-          "published": "1/23",
+          "published": "2026/1/23 5:00",
           "paid": true
         },
         {
           "title": "社説【金沢産金箔】占有率１００％達成を誇りに",
           "link": "https://www.hokkoku.co.jp/articles/-/1994874",
-          "published": "1/23",
+          "published": "2026/1/23 5:00",
           "paid": true
         }
       ]
@@ -291,6 +291,46 @@
           "title": "＜社説＞安倍氏銃撃事件判決　政治との関係問い続けよ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4980589.html",
           "published": "2026/01/23",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：Ｈ３ロケット　失敗を究明し立て直せ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1641704",
+          "published": "2026/1/23 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：核禁条約５年　非核堅持で橋渡し役を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1641705",
+          "published": "2026/1/23 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】浜岡原発不正　安全性を揺るがす暴挙だ",
+          "link": "https://www.nishinippon.co.jp/item/1449343/",
+          "published": "2026/01/23 06:00",
           "paid": false
         }
       ]

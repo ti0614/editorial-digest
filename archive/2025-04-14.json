@@ -59,13 +59,13 @@
         {
           "title": "［社説］米関税をバラマキ合戦の口実にするな",
           "link": "https://www.nikkei.com/article/DGXZQODK147EA0U5A410C2000000/",
-          "published": "2025年4月14日",
+          "published": "2025/4/14 19:05",
           "paid": false
         },
         {
           "title": "［社説］民の力も得てODA効果的に",
           "link": "https://www.nikkei.com/article/DGXZQODK1445Y0U5A410C2000000/",
-          "published": "2025年4月14日",
+          "published": "2025/4/14 19:00",
           "paid": false
         }
       ]
@@ -126,7 +126,7 @@
         {
           "title": "両陛下「慰霊の旅」　記憶継ぎ非戦の道たぐる",
           "link": "https://www.niigata-nippo.co.jp/articles/-/590747",
-          "published": "2025/4/14",
+          "published": "2025/4/14 6:00",
           "paid": false
         }
       ]
@@ -178,6 +178,40 @@
           "title": "【取り調べ可視化】拡大を適正捜査に生かせ",
           "link": "https://www.kochinews.co.jp/article/detail/851470",
           "published": "2025.04.14 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：自衛隊統合司令部　懸念強まる米軍との一体化",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1458765",
+          "published": "2025/4/14 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】熊本地震9年　減災へ記憶をつなげよう",
+          "link": "https://www.nishinippon.co.jp/item/1339126/",
+          "published": "2025/04/14 06:00",
           "paid": false
         }
       ]

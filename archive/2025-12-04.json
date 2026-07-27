@@ -53,13 +53,13 @@
         {
           "title": "［社説］医療の構造改革が診療報酬増の前提だ",
           "link": "https://www.nikkei.com/article/DGXZQOCD2665S0W5A121C2000000/",
-          "published": "2025年12月4日",
+          "published": "2025/12/4 19:05",
           "paid": false
         },
         {
           "title": "［社説］共生の道筋照らしたデフリンピック",
           "link": "https://www.nikkei.com/article/DGXZQODK044JR0U5A201C2000000/",
-          "published": "2025年12月4日",
+          "published": "2025/12/4 19:00",
           "paid": false
         }
       ]
@@ -137,7 +137,7 @@
         {
           "title": "ＡＩ基本計画案　リスクの議論が不可欠だ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/739824",
-          "published": "2025/12/4",
+          "published": "2025/12/4 6:00",
           "paid": false
         }
       ]
@@ -171,13 +171,13 @@
         {
           "title": "社説【農家減少が過去最大】農業の将来決する正念場",
           "link": "https://www.hokkoku.co.jp/articles/-/1948873",
-          "published": "12/4",
+          "published": "2025/12/4 5:00",
           "paid": true
         },
         {
           "title": "社説【認知症薬の効果確認】治療の道広げる金大の成果",
           "link": "https://www.hokkoku.co.jp/articles/-/1948872",
-          "published": "12/4",
+          "published": "2025/12/4 5:00",
           "paid": true
         }
       ]
@@ -297,6 +297,46 @@
           "title": "＜社説＞生成AI　危うさ認識し賢く活用を",
           "link": "https://ryukyushimpo.jp/editorial/entry-4835247.html",
           "published": "2025/12/04",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：インフル拡大　警報の京都・滋賀、予防徹底を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1611928",
+          "published": "2025/12/4 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：ウナギ規制否決　資源を守る責務大きい",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1611922",
+          "published": "2025/12/4 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】鑑定不正で報告　ずさんな内部調査あらわ",
+          "link": "https://www.nishinippon.co.jp/item/1430950/",
+          "published": "2025/12/04 06:00",
           "paid": false
         }
       ]

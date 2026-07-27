@@ -67,7 +67,7 @@
         {
           "title": "兵庫知事の疑惑　真相解明を急がなくては",
           "link": "https://www.niigata-nippo.co.jp/articles/-/441337",
-          "published": "2024/7/18",
+          "published": "2024/7/18 6:00",
           "paid": false
         }
       ]
@@ -170,6 +170,23 @@
           "title": "＜社説＞北大東レーダー配備へ　島の将来、慎重な対応を",
           "link": "https://ryukyushimpo.jp/editorial/entry-3273987.html",
           "published": "2024/07/18",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】自衛隊大量処分　組織のあしき体質改めよ",
+          "link": "https://www.nishinippon.co.jp/item/1235782/",
+          "published": "2024/07/18 06:00",
           "paid": false
         }
       ]

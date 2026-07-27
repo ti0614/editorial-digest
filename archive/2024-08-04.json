@@ -56,7 +56,7 @@
         {
           "title": "全国学力テスト　課題解決の力を育みたい",
           "link": "https://www.niigata-nippo.co.jp/articles/-/452541",
-          "published": "2024/8/4",
+          "published": "2024/8/4 6:00",
           "paid": false
         }
       ]
@@ -159,6 +159,23 @@
           "title": "＜社説＞石垣市の避難説明会　戦争回避のための努力を",
           "link": "https://ryukyushimpo.jp/editorial/entry-3339010.html",
           "published": "2024/08/04",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】五輪とジェンダー　パリの実践をさらに前へ",
+          "link": "https://www.nishinippon.co.jp/item/1243169/",
+          "published": "2024/08/04 06:00",
           "paid": false
         }
       ]

@@ -73,7 +73,7 @@
         {
           "title": "ナワリヌイ氏　獄中死の真相解明が必須",
           "link": "https://www.niigata-nippo.co.jp/articles/-/362188",
-          "published": "2024/2/20",
+          "published": "2024/2/20 6:00",
           "paid": false
         }
       ]
@@ -176,6 +176,23 @@
           "title": "＜社説＞自民党裏金問題の行方　全容解明の意思見えない",
           "link": "https://ryukyushimpo.jp/editorial/entry-2821361.html",
           "published": "2024/02/20",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】H3ロケット　国際競争へ踏み出す成功",
+          "link": "https://www.nishinippon.co.jp/item/1180663/",
+          "published": "2024/02/20 06:00",
           "paid": false
         }
       ]

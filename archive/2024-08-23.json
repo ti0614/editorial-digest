@@ -67,7 +67,7 @@
         {
           "title": "デブリ取り出し　廃炉の実現へ不安が募る",
           "link": "https://www.niigata-nippo.co.jp/articles/-/463027",
-          "published": "2024/8/23",
+          "published": "2024/8/23 6:00",
           "paid": false
         }
       ]
@@ -170,6 +170,23 @@
           "title": "＜社説＞安和の土砂搬出再開　県民の心無視する暴挙だ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3395223.html",
           "published": "2024/08/23",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】南海トラフ情報　検証を重ね防災の強化に",
+          "link": "https://www.nishinippon.co.jp/item/1249896/",
+          "published": "2024/08/23 06:00",
           "paid": false
         }
       ]

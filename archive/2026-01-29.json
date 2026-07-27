@@ -59,13 +59,13 @@
         {
           "title": "［社説］通貨の信認を自らおとしめる危険冒すな",
           "link": "https://www.nikkei.com/article/DGXZQODK2975X0Z20C26A1000000/",
-          "published": "1月29日",
+          "published": "2026/1/29 19:05",
           "paid": false
         },
         {
           "title": "［社説］東京大学は縦割り組織の悪弊絶て",
           "link": "https://www.nikkei.com/article/DGXZQODK297EM0Z20C26A1000000/",
-          "published": "1月29日",
+          "published": "2026/1/29 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "外交・安保　日本の平和をどう守るか",
           "link": "https://www.niigata-nippo.co.jp/articles/-/770383",
-          "published": "1/29",
+          "published": "2026/1/29 6:00",
           "paid": false
         }
       ]
@@ -177,13 +177,13 @@
         {
           "title": "社説【木場潟公園の整備】自然価値、再認識したい",
           "link": "https://www.hokkoku.co.jp/articles/-/2000540",
-          "published": "1/29",
+          "published": "2026/1/29 5:00",
           "paid": true
         },
         {
           "title": "社説【外国人政策】日本語教育は国の責任で",
           "link": "https://www.hokkoku.co.jp/articles/-/2000539",
-          "published": "1/29",
+          "published": "2026/1/29 5:00",
           "paid": true
         }
       ]
@@ -303,6 +303,46 @@
           "title": "＜社説＞トランプ米国防戦略　日米同盟、あり方見直せ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4995910.html",
           "published": "2026/01/29",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：教育・子育て　課題は負担減に限らぬ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1645494",
+          "published": "2026/1/29 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：綾部に新市長　水源の里に次の一手を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1645482",
+          "published": "2026/1/29 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】ハンセン病法廷　違憲なら再審の扉を開け",
+          "link": "https://www.nishinippon.co.jp/item/1451619/",
+          "published": "2026/01/29 06:00",
           "paid": false
         }
       ]

@@ -59,13 +59,13 @@
         {
           "title": "［社説］地方創生は薄く広くをやめ重点化を",
           "link": "https://www.nikkei.com/article/DGXZQODK028630S4A201C2000000/",
-          "published": "2024年12月2日",
+          "published": "2024/12/2 19:05",
           "paid": false
         },
         {
           "title": "［社説］免税品販売で店の負担減らせ",
           "link": "https://www.nikkei.com/article/DGXZQODK024160S4A201C2000000/",
-          "published": "2024年12月2日",
+          "published": "2024/12/2 19:00",
           "paid": false
         }
       ]
@@ -119,7 +119,7 @@
         {
           "title": "マイナ保険証　混乱やトラブル防げるか",
           "link": "https://www.niigata-nippo.co.jp/articles/-/518875",
-          "published": "2024/12/2",
+          "published": "2024/12/2 6:00",
           "paid": false
         }
       ]
@@ -205,6 +205,23 @@
           "title": "＜社説＞ワシントン駐在問題　県民へ説明責任を果たせ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3706003.html",
           "published": "2024/12/02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】初代門司駅遺構　専門家と市民の声大切に",
+          "link": "https://www.nishinippon.co.jp/item/1288384/",
+          "published": "2024/12/02 06:00",
           "paid": false
         }
       ]

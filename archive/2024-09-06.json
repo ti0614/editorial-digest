@@ -96,7 +96,7 @@
         {
           "title": "ウクライナ情勢　一刻も早い和平交渉望む",
           "link": "https://www.niigata-nippo.co.jp/articles/-/471321",
-          "published": "2024/9/6",
+          "published": "2024/9/6 6:00",
           "paid": false
         }
       ]
@@ -199,6 +199,23 @@
           "title": "＜社説＞またも米兵女性暴行　沖縄駐留の資格はない",
           "link": "https://ryukyushimpo.jp/editorial/entry-3446160.html",
           "published": "2024/09/06",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】コメの品薄　食料の安定供給は十分か",
+          "link": "https://www.nishinippon.co.jp/item/1255378/",
+          "published": "2024/09/06 06:00",
           "paid": false
         }
       ]

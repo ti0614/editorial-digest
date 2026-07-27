@@ -53,13 +53,13 @@
         {
           "title": "［社説］日中首脳は対話継続で安保含む協議探れ",
           "link": "https://www.nikkei.com/article/DGXZQOCD14B460U4A111C2000000/",
-          "published": "2024年11月16日",
+          "published": "2024/11/16 19:05",
           "paid": false
         },
         {
           "title": "［社説］企業は就活セクハラ根絶を",
           "link": "https://www.nikkei.com/article/DGXZQODK1619D0W4A111C2000000/",
-          "published": "2024年11月16日",
+          "published": "2024/11/16 19:00",
           "paid": false
         }
       ]
@@ -130,7 +130,7 @@
         {
           "title": "めぐみさん拉致　政府は救出に全力挙げよ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/510430",
-          "published": "2024/11/16",
+          "published": "2024/11/16 6:00",
           "paid": false
         }
       ]
@@ -233,6 +233,23 @@
           "title": "＜社説＞普天間所属機トラブル　原因と再発防止策を示せ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3652074.html",
           "published": "2024/11/16",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】伝統的酒造り　文化遺産を復権の弾みに",
+          "link": "https://www.nishinippon.co.jp/item/1282491/",
+          "published": "2024/11/16 06:00",
           "paid": false
         }
       ]

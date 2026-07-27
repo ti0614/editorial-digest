@@ -50,7 +50,7 @@
         {
           "title": "賃上げの継続　地方や中小にも広げたい",
           "link": "https://www.niigata-nippo.co.jp/articles/-/317468",
-          "published": "2023/11/24",
+          "published": "2023/11/24 6:00",
           "paid": false
         }
       ]
@@ -136,6 +136,23 @@
           "title": "＜社説＞県民平和大集会　沖縄の戦場化を拒否する",
           "link": "https://ryukyushimpo.jp/editorial/entry-2502350.html",
           "published": "2023/11/24",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】IPEFの課題　分断を深めない枠組みに",
+          "link": "https://www.nishinippon.co.jp/item/1149363/",
+          "published": "2023/11/24 06:00",
           "paid": false
         }
       ]

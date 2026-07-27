@@ -53,13 +53,13 @@
         {
           "title": "［社説］日本の化学力示す北川氏のノーベル賞",
           "link": "https://www.nikkei.com/article/DGXZQODK087M50Y5A001C2000000/",
-          "published": "2025年10月8日",
+          "published": "2025/10/8 20:10",
           "paid": false
         },
         {
           "title": "［社説］DNA鑑定の信頼が揺らいだ",
           "link": "https://www.nikkei.com/article/DGXZQODK082OA0Y5A001C2000000/",
-          "published": "2025年10月8日",
+          "published": "2025/10/8 19:00",
           "paid": false
         }
       ]
@@ -137,7 +137,7 @@
         {
           "title": "ガザ戦闘２年　停戦実現へ歩み寄らねば",
           "link": "https://www.niigata-nippo.co.jp/articles/-/704607",
-          "published": "2025/10/8",
+          "published": "2025/10/8 6:00",
           "paid": false
         }
       ]
@@ -171,13 +171,13 @@
         {
           "title": "社説【最先端の災害復旧】安全高める知見の共有を",
           "link": "https://www.hokkoku.co.jp/articles/-/1890847",
-          "published": "10/8",
+          "published": "2025/10/8 5:00",
           "paid": true
         },
         {
           "title": "社説【坂口氏にノーベル賞】免疫疾患の治療の進展に道",
           "link": "https://www.hokkoku.co.jp/articles/-/1890846",
-          "published": "10/8",
+          "published": "2025/10/8 5:00",
           "paid": true
         }
       ]
@@ -280,6 +280,46 @@
           "title": "＜社説＞強制不妊の国会検証　全体像解明し差別なくせ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4677819.html",
           "published": "2025/10/08",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：自民新執行部　目立つ旧態依然の姿勢",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1577263",
+          "published": "2025/10/8 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：Ｂリーグ開幕　京滋勢の飛躍、期待する",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1577274",
+          "published": "2025/10/8 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】ノーベル医学賞　免疫の基礎研究で道開く",
+          "link": "https://www.nishinippon.co.jp/item/1408701/",
+          "published": "2025/10/08 06:00",
           "paid": false
         }
       ]

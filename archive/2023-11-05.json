@@ -33,7 +33,7 @@
         {
           "title": "中国で邦人逮捕　「法治国家」と言えるのか",
           "link": "https://www.niigata-nippo.co.jp/articles/-/307915",
-          "published": "2023/11/5",
+          "published": "2023/11/5 6:00",
           "paid": false
         }
       ]
@@ -119,6 +119,23 @@
           "title": "＜社説＞柿沢副法相辞任　疑惑事実なら議員辞職を",
           "link": "https://ryukyushimpo.jp/editorial/entry-2445845.html",
           "published": "2023/11/05",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】拡大する獣害　人と農作物を守り共存を",
+          "link": "https://www.nishinippon.co.jp/item/1143269/",
+          "published": "2023/11/05 06:00",
           "paid": false
         }
       ]

@@ -59,13 +59,13 @@
         {
           "title": "［社説］米国はアジア安保への関与を行動で示せ",
           "link": "https://www.nikkei.com/article/DGXZQODK311780R30C25A5000000/",
-          "published": "2025年5月31日",
+          "published": "2025/5/31 19:05",
           "paid": false
         },
         {
           "title": "［社説］日鉄は納得できる買収決着を",
           "link": "https://www.nikkei.com/article/DGXZQOCD311UR0R30C25A5000000/",
-          "published": "2025年5月31日",
+          "published": "2025/5/31 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "新潟水俣病６０年　全被害者救済一日も早く",
           "link": "https://www.niigata-nippo.co.jp/articles/-/618088",
-          "published": "2025/5/31",
+          "published": "2025/5/31 6:00",
           "paid": false
         }
       ]
@@ -246,6 +246,40 @@
           "title": "＜社説＞京大琉球人遺骨移管　世界潮流に合うか検証を",
           "link": "https://ryukyushimpo.jp/editorial/entry-4287328.html",
           "published": "2025/05/31",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：備蓄米の直接放出　非常策と農政改革、並行して",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1486352",
+          "published": "2025/5/31 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】経団連新会長　国民目線で提言と行動を",
+          "link": "https://www.nishinippon.co.jp/item/1357939/",
+          "published": "2025/05/31 06:00",
           "paid": false
         }
       ]

@@ -47,19 +47,19 @@
         {
           "title": "［社説］持続可能な医療保険を与野党でつくれ",
           "link": "https://www.nikkei.com/article/DGXZQODK104BU0Q5A310C2000000/",
-          "published": "2025年3月11日",
+          "published": "2025/3/11 19:05",
           "paid": false
         },
         {
           "title": "［社説］野村「1兆円投信」挫折の教訓",
           "link": "https://www.nikkei.com/article/DGXZQODK117J10R10C25A3000000/",
-          "published": "2025年3月11日",
+          "published": "2025/3/11 19:00",
           "paid": false
         },
         {
           "title": "［社説］東北の復興に今こそ目を向けよう",
           "link": "https://www.nikkei.com/article/DGXZQODK101MJ0Q5A310C2000000/",
-          "published": "2025年3月11日",
+          "published": "2025/3/11 0:00",
           "paid": false
         }
       ]
@@ -137,7 +137,7 @@
         {
           "title": "東日本大震災１４年　被災地に目を向け続けて",
           "link": "https://www.niigata-nippo.co.jp/articles/-/571179",
-          "published": "2025/3/11",
+          "published": "2025/3/11 6:00",
           "paid": false
         }
       ]
@@ -240,6 +240,40 @@
           "title": "＜社説＞東日本大震災14年　教訓は生かされているか",
           "link": "https://ryukyushimpo.jp/editorial/entry-4040464.html",
           "published": "2025/03/11",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：東日本大震災１４年　復興事業の点検と見直しを",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1437722",
+          "published": "2025/3/11 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】核禁止条約会議　橋渡し役の実行力を示せ",
+          "link": "https://www.nishinippon.co.jp/item/1325161/",
+          "published": "2025/03/11 06:00",
           "paid": false
         }
       ]

@@ -59,13 +59,13 @@
         {
           "title": "［社説］中東の戦火拡大と市場の混乱を防げ",
           "link": "https://www.nikkei.com/article/DGXZQOCD064OK0W6A300C2000000/",
-          "published": "3月7日",
+          "published": "2026/3/7 19:05",
           "paid": false
         },
         {
           "title": "［社説］日本とカナダの協力を秩序安定の一助に",
           "link": "https://www.nikkei.com/article/DGXZQODK070JL0X00C26A3000000/",
-          "published": "3月7日",
+          "published": "2026/3/7 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "イラン攻撃１週間　一刻も早く停戦すべきだ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/791976",
-          "published": "3/7",
+          "published": "2026/3/7 6:00",
           "paid": false
         }
       ]
@@ -177,19 +177,19 @@
         {
           "title": "社説【北陸道の割引拡充】隣県交流の活発化に寄与",
           "link": "https://www.hokkoku.co.jp/articles/-/2037692",
-          "published": "3/7",
+          "published": "2026/3/7 5:00",
           "paid": true
         },
         {
           "title": "社説【里山海道４車線化】国直轄を早期実現の弾みに",
           "link": "https://www.hokkoku.co.jp/articles/-/2037691",
-          "published": "3/7",
+          "published": "2026/3/7 5:00",
           "paid": true
         },
         {
           "title": "社説【里山海道４車線化】国直轄を実現の弾みに",
           "link": "https://www.hokkoku.co.jp/articles/-/2037636",
-          "published": "3/7",
+          "published": "2026/3/7 5:00",
           "paid": true
         }
       ]
@@ -292,6 +292,40 @@
           "title": "＜社説＞解消進まぬ教員不足　業務負担増の悪循環断て",
           "link": "https://ryukyushimpo.jp/editorial/entry-5098590.html",
           "published": "2026/03/07",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：ｉＰＳ実用化　持続可能な医療に育てたい",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1672045",
+          "published": "2026/3/7 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】殺傷兵器の輸出　厳格な歯止め策が必要だ",
+          "link": "https://www.nishinippon.co.jp/item/1466570/",
+          "published": "2026/03/07 06:00",
           "paid": false
         }
       ]

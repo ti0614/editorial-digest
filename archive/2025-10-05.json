@@ -47,13 +47,13 @@
         {
           "title": "［社説］家計が持続して潤う令和の証券民主化に",
           "link": "https://www.nikkei.com/article/DGXZQODK041CB0U5A001C2000000/",
-          "published": "2025年10月5日",
+          "published": "2025/10/5 19:05",
           "paid": false
         },
         {
           "title": "［社説］国勢調査はオンライン活用を",
           "link": "https://www.nikkei.com/article/DGXZQODK03B0A0T01C25A0000000/",
-          "published": "2025年10月5日",
+          "published": "2025/10/5 19:00",
           "paid": false
         }
       ]
@@ -97,7 +97,7 @@
         {
           "title": "自民総裁に高市氏　「解党的出直し」責任重く",
           "link": "https://www.niigata-nippo.co.jp/articles/-/702740",
-          "published": "2025/10/5",
+          "published": "2025/10/5 6:00",
           "paid": false
         }
       ]
@@ -131,7 +131,7 @@
         {
           "title": "社説【新総裁に高市氏】亀裂修復と党勢回復が課題",
           "link": "https://www.hokkoku.co.jp/articles/-/1887742",
-          "published": "10/5",
+          "published": "2025/10/5 5:00",
           "paid": true
         }
       ]
@@ -234,6 +234,23 @@
           "title": "＜社説＞自民新総裁に高市氏　時代錯誤に不安覚える",
           "link": "https://ryukyushimpo.jp/editorial/entry-4670414.html",
           "published": "2025/10/05",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】新総裁に高市氏　出直しは単なるかけ声か",
+          "link": "https://www.nishinippon.co.jp/item/1407586/",
+          "published": "2025/10/05 06:00",
           "paid": false
         }
       ]

@@ -59,13 +59,13 @@
         {
           "title": "［社説］近視眼の政党協議で税制をゆがめるな",
           "link": "https://www.nikkei.com/article/DGXZQODK038CW0T00C25A3000000/",
-          "published": "2025年3月7日",
+          "published": "2025/3/7 19:05",
           "paid": false
         },
         {
           "title": "［社説］斎藤知事は百条委報告に向き合え",
           "link": "https://www.nikkei.com/article/DGXZQODK0759Y0X00C25A3000000/",
-          "published": "2025年3月7日",
+          "published": "2025/3/7 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "トランプ氏演説　分断いとわぬ言葉に失望",
           "link": "https://www.niigata-nippo.co.jp/articles/-/569035",
-          "published": "2025/3/7",
+          "published": "2025/3/7 6:00",
           "paid": false
         }
       ]
@@ -229,6 +229,46 @@
           "title": "＜社説＞宮城さん有罪判決　環境浄化の訴え直視せよ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4029640.html",
           "published": "2025/03/07",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：核禁条約会議　不参加では橋を渡せぬ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1435342",
+          "published": "2025/3/7 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：岩手の山火事　地域防災力の再点検を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1435353",
+          "published": "2025/3/7 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】山火事の脅威　九州でも万全の備え必要",
+          "link": "https://www.nishinippon.co.jp/item/1323756/",
+          "published": "2025/03/07 06:00",
           "paid": false
         }
       ]

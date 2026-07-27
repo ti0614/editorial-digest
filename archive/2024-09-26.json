@@ -96,7 +96,7 @@
         {
           "title": "大の里大関昇進　唯一無二の高みを目指せ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/482181",
-          "published": "2024/9/26",
+          "published": "2024/9/26 6:00",
           "paid": false
         }
       ]
@@ -199,6 +199,23 @@
           "title": "＜社説＞能登豪雨被害　被災地支援に全力尽くせ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3496354.html",
           "published": "2024/09/26",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】長崎の「体験者」　全員を被爆者と認定せよ",
+          "link": "https://www.nishinippon.co.jp/item/1262660/",
+          "published": "2024/09/26 06:00",
           "paid": false
         }
       ]

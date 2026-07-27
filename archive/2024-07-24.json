@@ -73,7 +73,7 @@
         {
           "title": "世界システム障害　集中依存の危うさを露呈",
           "link": "https://www.niigata-nippo.co.jp/articles/-/445187",
-          "published": "2024/7/24",
+          "published": "2024/7/24 6:00",
           "paid": false
         }
       ]
@@ -176,6 +176,23 @@
           "title": "＜社説＞米軍事件で新枠組み　実効性が厳しく問われる",
           "link": "https://ryukyushimpo.jp/editorial/entry-3294020.html",
           "published": "2024/07/24",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】システム障害　IT化進む世界への警告",
+          "link": "https://www.nishinippon.co.jp/item/1238215/",
+          "published": "2024/07/24 06:00",
           "paid": false
         }
       ]

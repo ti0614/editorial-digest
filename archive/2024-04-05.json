@@ -73,7 +73,7 @@
         {
           "title": "自民裏金処分　これで幕引きは許されぬ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/385669",
-          "published": "2024/4/5",
+          "published": "2024/4/5 6:00",
           "paid": false
         }
       ]
@@ -176,6 +176,23 @@
           "title": "＜社説＞表現巡る裁判官弾劾　罷免の前例にはするな",
           "link": "https://ryukyushimpo.jp/editorial/entry-2957878.html",
           "published": "2024/04/05",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】自民裏金で処分　実態解明せずに幕引きか",
+          "link": "https://www.nishinippon.co.jp/item/1197438/",
+          "published": "2024/04/05 06:00",
           "paid": false
         }
       ]

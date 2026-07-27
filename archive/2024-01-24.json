@@ -50,7 +50,7 @@
         {
           "title": "自民党改革案　これでは信頼取り戻せぬ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/348871",
-          "published": "2024/1/24",
+          "published": "2024/1/24 6:00",
           "paid": false
         }
       ]
@@ -153,6 +153,23 @@
           "title": "＜社説＞自民党改革中間報告　国民にごまかし通じない",
           "link": "https://ryukyushimpo.jp/editorial/entry-2728082.html",
           "published": "2024/01/24",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】被災者の健康　誰も取り残さない支援を",
+          "link": "https://www.nishinippon.co.jp/item/1170972/",
+          "published": "2024/01/24 06:00",
           "paid": false
         }
       ]

@@ -59,13 +59,13 @@
         {
           "title": "［社説］欧米の環境規制緩和の先読むEV戦略を",
           "link": "https://www.nikkei.com/article/DGXZQOCD2538T0V21C25A2000000/",
-          "published": "2025年12月25日",
+          "published": "2025/12/25 19:05",
           "paid": false
         },
         {
           "title": "［社説］何のための再審制度改正か",
           "link": "https://www.nikkei.com/article/DGXZQODK258040V21C25A2000000/",
-          "published": "2025年12月25日",
+          "published": "2025/12/25 19:00",
           "paid": false
         }
       ]
@@ -126,7 +126,7 @@
         {
           "title": "「太陽光」規制　再エネ活用の道筋揺らぐ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/752678",
-          "published": "2025/12/25",
+          "published": "2025/12/25 6:00",
           "paid": false
         }
       ]
@@ -160,13 +160,13 @@
         {
           "title": "社説【身寄りない高齢者】サポート体制整えたい",
           "link": "https://www.hokkoku.co.jp/articles/-/1970965",
-          "published": "12/25",
+          "published": "2025/12/25 5:00",
           "paid": true
         },
         {
           "title": "社説【鉄路復旧にドローン】早期導入へ態勢の整備を",
           "link": "https://www.hokkoku.co.jp/articles/-/1970964",
-          "published": "12/25",
+          "published": "2025/12/25 5:00",
           "paid": true
         }
       ]
@@ -286,6 +286,40 @@
           "title": "＜社説＞非核三原則「議論」　核廃絶の原点を問い直せ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4899707.html",
           "published": "2025/12/25",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：ニデック会計問題　「脱カリスマ」への再構築を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1625701",
+          "published": "2025/12/25 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】26年度税制改正　減収補う財源が不十分だ",
+          "link": "https://www.nishinippon.co.jp/item/1439501/",
+          "published": "2025/12/25 06:00",
           "paid": false
         }
       ]

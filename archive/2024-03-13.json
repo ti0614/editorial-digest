@@ -67,7 +67,7 @@
         {
           "title": "中国全人代　強権で経済回復図れるか",
           "link": "https://www.niigata-nippo.co.jp/articles/-/373565",
-          "published": "2024/3/13",
+          "published": "2024/3/13 6:00",
           "paid": false
         }
       ]
@@ -153,6 +153,23 @@
           "title": "＜社説＞次期戦闘機輸出解禁へ　平和国家の国益に反する",
           "link": "https://ryukyushimpo.jp/editorial/entry-2893594.html",
           "published": "2024/03/13",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】日産の違法行為　下請けいじめを根絶せよ",
+          "link": "https://www.nishinippon.co.jp/item/1188789/",
+          "published": "2024/03/13 06:00",
           "paid": false
         }
       ]

@@ -84,7 +84,7 @@
         {
           "title": "袴田さん無罪判決　救済への闘いに終止符を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/482859",
-          "published": "2024/9/27",
+          "published": "2024/9/27 6:00",
           "paid": false
         }
       ]
@@ -187,6 +187,23 @@
           "title": "＜社説＞袴田さん再審無罪　冤罪を生んだ責任大きい",
           "link": "https://ryukyushimpo.jp/editorial/entry-3498726.html",
           "published": "2024/09/27",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】袴田さん無罪　冤罪の歴史に終止符打て",
+          "link": "https://www.nishinippon.co.jp/item/1263117/",
+          "published": "2024/09/27 06:00",
           "paid": false
         }
       ]

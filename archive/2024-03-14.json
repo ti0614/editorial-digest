@@ -73,7 +73,7 @@
         {
           "title": "春闘満額回答　中小企業への波及が鍵だ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/374196",
-          "published": "2024/3/14",
+          "published": "2024/3/14 6:00",
           "paid": false
         }
       ]
@@ -176,6 +176,23 @@
           "title": "＜社説＞オスプレイ運用再開　政府は飛行断念を求めよ",
           "link": "https://ryukyushimpo.jp/editorial/entry-2896086.html",
           "published": "2024/03/14",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】工藤会高裁判決　重い有罪維持、壊滅に進め",
+          "link": "https://www.nishinippon.co.jp/item/1189162/",
+          "published": "2024/03/14 06:00",
           "paid": false
         }
       ]

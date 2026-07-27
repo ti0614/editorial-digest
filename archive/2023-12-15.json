@@ -50,7 +50,7 @@
         {
           "title": "４閣僚ら更迭　人事で沈静化は図れない",
           "link": "https://www.niigata-nippo.co.jp/articles/-/328061",
-          "published": "2023/12/15",
+          "published": "2023/12/15 6:00",
           "paid": false
         }
       ]
@@ -136,6 +136,23 @@
           "title": "＜社説＞辺野古埋め立て5年　危険除去抜本策まとめよ",
           "link": "https://ryukyushimpo.jp/editorial/entry-2584035.html",
           "published": "2023/12/15",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】安倍派閣僚更迭　首相は瀬戸際を自覚せよ",
+          "link": "https://www.nishinippon.co.jp/item/1157470/",
+          "published": "2023/12/15 06:00",
           "paid": false
         }
       ]

@@ -59,13 +59,13 @@
         {
           "title": "［社説］財源の手当てなき減税先行は無責任だ",
           "link": "https://www.nikkei.com/article/DGXZQODK193ME0Z11C25A2000000/",
-          "published": "2025年12月20日",
+          "published": "2025/12/20 19:05",
           "paid": false
         },
         {
           "title": "［社説］中央アジアと多様な関係築け",
           "link": "https://www.nikkei.com/article/DGXZQODK165QO0W5A211C2000000/",
-          "published": "2025年12月20日",
+          "published": "2025/12/20 19:00",
           "paid": false
         }
       ]
@@ -126,7 +126,7 @@
         {
           "title": "日銀利上げ　円安の是正につながるか",
           "link": "https://www.niigata-nippo.co.jp/articles/-/749832",
-          "published": "2025/12/20",
+          "published": "2025/12/20 6:00",
           "paid": false
         }
       ]
@@ -160,13 +160,13 @@
         {
           "title": "社説【歴史的建造物の活用】地域の宝をまちづくりに",
           "link": "https://www.hokkoku.co.jp/articles/-/1965955",
-          "published": "12/20",
+          "published": "2025/12/20 5:00",
           "paid": true
         },
         {
           "title": "社説【政策金利０．７５％】利上げを急ぐ状況なのか",
           "link": "https://www.hokkoku.co.jp/articles/-/1965954",
-          "published": "12/20",
+          "published": "2025/12/20 5:00",
           "paid": true
         }
       ]
@@ -286,6 +286,40 @@
           "title": "＜社説＞官邸「核保有」発言　被爆国の使命を忘れるな",
           "link": "https://ryukyushimpo.jp/editorial/entry-4886836.html",
           "published": "2025/12/20",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：日銀の利上げ　物価高の抑制につながるか",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1621909",
+          "published": "2025/12/20 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】スポーツの盗撮　性暴力と同じ卑劣な行為",
+          "link": "https://www.nishinippon.co.jp/item/1437630/",
+          "published": "2025/12/20 06:00",
           "paid": false
         }
       ]

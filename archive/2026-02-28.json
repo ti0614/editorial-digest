@@ -59,7 +59,7 @@
         {
           "title": "［社説］米・イスラエルのイラン攻撃を憂う",
           "link": "https://www.nikkei.com/article/DGXZQOCD281TW0Y6A220C2000000/",
-          "published": "2月28日",
+          "published": "2026/2/28 22:00",
           "paid": false
         }
       ]
@@ -137,7 +137,7 @@
         {
           "title": "原発テロ対策　安全重視の姿勢が見えぬ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/787411",
-          "published": "2/28",
+          "published": "2026/2/28 6:00",
           "paid": false
         }
       ]
@@ -171,19 +171,19 @@
         {
           "title": "社説【スパイ防止法】致命的な弱点解消せねば",
           "link": "https://www.hokkoku.co.jp/articles/-/2029677",
-          "published": "2/28",
+          "published": "2026/2/28 5:00",
           "paid": true
         },
         {
           "title": "社説【金沢都心再開発】城下町の軸も生かしてこそ",
           "link": "https://www.hokkoku.co.jp/articles/-/2029676",
-          "published": "2/28",
+          "published": "2026/2/28 5:00",
           "paid": true
         },
         {
           "title": "社説【金沢都心再開発】城下町の軸も生かしたい",
           "link": "https://www.hokkoku.co.jp/articles/-/2029612",
-          "published": "2/28",
+          "published": "2026/2/28 5:00",
           "paid": true
         }
       ]
@@ -303,6 +303,40 @@
           "title": "＜社説＞ＪＡ職員労災認定　検証し、組織風土改めよ",
           "link": "https://ryukyushimpo.jp/editorial/entry-5076897.html",
           "published": "2026/02/28",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：殺傷武器の輸出　平和国家を変質させる転換",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1667518",
+          "published": "2026/2/28 13:47",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】死後再審が確定　教訓として抜本的改革を",
+          "link": "https://www.nishinippon.co.jp/item/1463461/",
+          "published": "2026/02/28 06:00",
           "paid": false
         }
       ]

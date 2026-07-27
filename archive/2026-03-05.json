@@ -47,13 +47,13 @@
         {
           "title": "［社説］イラン攻撃が問う日本外交の真価と重責",
           "link": "https://www.nikkei.com/article/DGXZQODK052LJ0V00C26A3000000/",
-          "published": "3月5日",
+          "published": "2026/3/5 19:05",
           "paid": false
         },
         {
           "title": "［社説］中国は経済を後回しにするな",
           "link": "https://www.nikkei.com/article/DGXZQODK056IP0V00C26A3000000/",
-          "published": "3月5日",
+          "published": "2026/3/5 19:00",
           "paid": false
         }
       ]
@@ -114,7 +114,7 @@
         {
           "title": "教団再び解散命令　被害者の苦しみに応えた",
           "link": "https://www.niigata-nippo.co.jp/articles/-/790348",
-          "published": "3/5",
+          "published": "2026/3/5 6:00",
           "paid": false
         }
       ]
@@ -148,13 +148,13 @@
         {
           "title": "社説【ＰＦＡＳ血液検査】人への影響把握に役立つ",
           "link": "https://www.hokkoku.co.jp/articles/-/2035026",
-          "published": "3/5",
+          "published": "2026/3/5 5:00",
           "paid": true
         },
         {
           "title": "社説【教団に解散命令】清算急ぎ、被害者救済を",
           "link": "https://www.hokkoku.co.jp/articles/-/2035025",
-          "published": "3/5",
+          "published": "2026/3/5 5:00",
           "paid": true
         }
       ]
@@ -274,6 +274,46 @@
           "title": "＜社説＞旧統一教会解散命令　政界との関係も究明せよ",
           "link": "https://ryukyushimpo.jp/editorial/entry-5092489.html",
           "published": "2026/03/05",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：教団に解散命令　救済急ぎ、政治の検証を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1670520",
+          "published": "2026/3/5 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：東大の研究汚職　ずさんな管理、倫理正せ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1670510",
+          "published": "2026/3/5 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】核ごみ処分調査　透明性高め丁寧に進めよ",
+          "link": "https://www.nishinippon.co.jp/item/1465509/",
+          "published": "2026/03/05 06:00",
           "paid": false
         }
       ]

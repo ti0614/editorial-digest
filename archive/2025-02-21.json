@@ -59,13 +59,13 @@
         {
           "title": "［社説］富士ソフトTOBの混乱が残した教訓",
           "link": "https://www.nikkei.com/article/DGXZQODK20DD00Q5A220C2000000/",
-          "published": "2025年2月21日",
+          "published": "2025/2/21 19:05",
           "paid": false
         },
         {
           "title": "［社説］選挙中の暴力の愚かさ共有を",
           "link": "https://www.nikkei.com/article/DGXZQODK211HG0R20C25A2000000/",
-          "published": "2025年2月21日",
+          "published": "2025/2/21 19:00",
           "paid": false
         }
       ]
@@ -136,7 +136,7 @@
         {
           "title": "首相襲撃判決　民主主義の根幹守らねば",
           "link": "https://www.niigata-nippo.co.jp/articles/-/560398",
-          "published": "2025/2/21",
+          "published": "2025/2/21 6:00",
           "paid": false
         }
       ]
@@ -222,6 +222,46 @@
           "title": "＜社説＞古謝南城市長不起訴　事実解明を今後も続けよ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3984208.html",
           "published": "2025/02/21",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：米のＩＣＣ制裁　日本は毅然と反対示せ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1426919",
+          "published": "2025/2/21 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：オンライン賭博　違法と周知し、拡大防げ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1426920",
+          "published": "2025/2/21 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】サイバー法案　通信の秘密守る歯止めを",
+          "link": "https://www.nishinippon.co.jp/item/1318260/",
+          "published": "2025/02/21 06:00",
           "paid": false
         }
       ]

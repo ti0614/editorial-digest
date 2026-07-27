@@ -53,13 +53,13 @@
         {
           "title": "［社説］新法施行を機にフリーランス保護進めよ",
           "link": "https://www.nikkei.com/article/DGXZQODK294KH0Z21C24A0000000/",
-          "published": "2024年10月29日",
+          "published": "2024/10/29 19:05",
           "paid": false
         },
         {
           "title": "［社説］東京メトロ上場を好循環の起点に",
           "link": "https://www.nikkei.com/article/DGXZQODK25A910V21C24A0000000/",
-          "published": "2024年10月29日",
+          "published": "2024/10/29 19:00",
           "paid": false
         }
       ]
@@ -130,7 +130,7 @@
         {
           "title": "県内自民系全敗　解体的な出直しの覚悟を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/500146",
-          "published": "2024/10/29",
+          "published": "2024/10/29 6:00",
           "paid": false
         }
       ]
@@ -233,6 +233,23 @@
           "title": "＜社説＞自民、「オール沖縄」互角　民意に従い責任を果たせ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3595549.html",
           "published": "2024/10/29",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】与野党伯仲　国会運営を改める好機だ",
+          "link": "https://www.nishinippon.co.jp/item/1275382/",
+          "published": "2024/10/29 06:00",
           "paid": false
         }
       ]

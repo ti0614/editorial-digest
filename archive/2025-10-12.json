@@ -59,13 +59,13 @@
         {
           "title": "［社説］米中は無益な関税戦争の愚を繰り返すな",
           "link": "https://www.nikkei.com/article/DGXZQODK120G50S5A011C2000000/",
-          "published": "2025年10月12日",
+          "published": "2025/10/12 19:05",
           "paid": false
         },
         {
           "title": "［社説］地域と共生する太陽光発電に",
           "link": "https://www.nikkei.com/article/DGXZQODK08AOG0Y5A001C2000000/",
-          "published": "2025年10月12日",
+          "published": "2025/10/12 19:00",
           "paid": false
         }
       ]
@@ -109,7 +109,7 @@
         {
           "title": "戦後８０年所感　首相の思いは伝わったが",
           "link": "https://www.niigata-nippo.co.jp/articles/-/707389",
-          "published": "2025/10/12",
+          "published": "2025/10/12 6:00",
           "paid": false
         }
       ]
@@ -143,13 +143,13 @@
         {
           "title": "社説【災害派遣福祉チーム】活動領域の拡大に期待",
           "link": "https://www.hokkoku.co.jp/articles/-/1894928",
-          "published": "10/12",
+          "published": "2025/10/12 5:00",
           "paid": true
         },
         {
           "title": "社説【北陸版「御影道中」】真宗土壌の「豊かさ」実感",
           "link": "https://www.hokkoku.co.jp/articles/-/1894927",
-          "published": "10/12",
+          "published": "2025/10/12 5:00",
           "paid": true
         }
       ]
@@ -252,6 +252,40 @@
           "title": "＜社説＞ガザ停戦合意発効　和平実現へ後戻りさせぬ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4686894.html",
           "published": "2025/10/12",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：戦後８０年の所感　「歴史修正主義」への警鐘に",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1579953",
+          "published": "2025/10/12 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】戦後80年所感　歴史に学ぶ姿勢は示せた",
+          "link": "https://www.nishinippon.co.jp/item/1410387/",
+          "published": "2025/10/12 06:00",
           "paid": false
         }
       ]

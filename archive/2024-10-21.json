@@ -59,13 +59,13 @@
         {
           "title": "［社説］人手不足の克服へ労働移動促す改革競え",
           "link": "https://www.nikkei.com/article/DGXZQODK214OZ0R21C24A0000000/",
-          "published": "2024年10月21日",
+          "published": "2024/10/21 19:05",
           "paid": false
         },
         {
           "title": "［社説］民主主義脅かす凶行を許すな",
           "link": "https://www.nikkei.com/article/DGXZQODK214VV0R21C24A0000000/",
-          "published": "2024年10月21日",
+          "published": "2024/10/21 19:00",
           "paid": false
         }
       ]
@@ -119,7 +119,7 @@
         {
           "title": "中国軍事演習　武力による威圧許されぬ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/495509",
-          "published": "2024/10/21",
+          "published": "2024/10/21 6:00",
           "paid": false
         }
       ]
@@ -205,6 +205,23 @@
           "title": "＜社説＞’24衆院選　社会保障　給付と負担の在り方示せ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3570510.html",
           "published": "2024/10/21",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】女性候補が最多　政党の努力まだ足りない",
+          "link": "https://www.nishinippon.co.jp/item/1272143/",
+          "published": "2024/10/21 06:00",
           "paid": false
         }
       ]

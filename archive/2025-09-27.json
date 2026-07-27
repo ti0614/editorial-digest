@@ -59,7 +59,7 @@
         {
           "title": "［社説］アフリカとの交流を粘り強く",
           "link": "https://www.nikkei.com/article/DGXZQODK271M70X20C25A9000000/",
-          "published": "2025年9月27日",
+          "published": "2025/9/27 19:00",
           "paid": false
         }
       ]
@@ -137,7 +137,7 @@
         {
           "title": "ホームタウン撤回　アフリカ交流は進めねば",
           "link": "https://www.niigata-nippo.co.jp/articles/-/697807",
-          "published": "2025/9/27",
+          "published": "2025/9/27 6:00",
           "paid": false
         }
       ]
@@ -171,19 +171,19 @@
         {
           "title": "社説【自民党総裁選】骨太な成長戦略聞きたい",
           "link": "https://www.hokkoku.co.jp/articles/-/1879639",
-          "published": "9/27",
+          "published": "2025/9/27 5:00",
           "paid": true
         },
         {
           "title": "社説【井波版御影道中】「北陸の心」見つめ直す機会",
           "link": "https://www.hokkoku.co.jp/articles/-/1879638",
-          "published": "9/27",
+          "published": "2025/9/27 5:00",
           "paid": true
         },
         {
           "title": "社説【自民党総裁選】骨太な成長戦略を聞きたい",
           "link": "https://www.hokkoku.co.jp/articles/-/1879613",
-          "published": "9/27",
+          "published": "2025/9/27 5:00",
           "paid": true
         }
       ]
@@ -286,6 +286,40 @@
           "title": "＜社説＞南城市長不信任可決　議会本来の役割果たした",
           "link": "https://ryukyushimpo.jp/editorial/entry-4651610.html",
           "published": "2025/09/27",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：能登豪雨１年　京滋でも複合災害に備えを",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1570388",
+          "published": "2025/9/27 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】防衛費と総裁選　たがをはめる議論も必要",
+          "link": "https://www.nishinippon.co.jp/item/1404368/",
+          "published": "2025/09/27 06:00",
           "paid": false
         }
       ]

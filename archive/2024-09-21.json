@@ -96,7 +96,7 @@
         {
           "title": "大谷「５０－５０」達成　驚天動地の偉業をまたも",
           "link": "https://www.niigata-nippo.co.jp/articles/-/479582",
-          "published": "2024/9/21",
+          "published": "2024/9/21 6:00",
           "paid": false
         }
       ]
@@ -199,6 +199,23 @@
           "title": "＜社説＞観光船沈没で社長逮捕　事故真相解明し再発防げ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3484783.html",
           "published": "2024/09/21",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】日本人男児刺殺　中国に詳細な説明求める",
+          "link": "https://www.nishinippon.co.jp/item/1260960/",
+          "published": "2024/09/21 06:00",
           "paid": false
         }
       ]

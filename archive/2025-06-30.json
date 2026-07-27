@@ -59,13 +59,13 @@
         {
           "title": "［社説］身軽な市町村ほど生き残る地方創生に",
           "link": "https://www.nikkei.com/article/DGXZQODK307JZ0Q5A630C2000000/",
-          "published": "2025年6月30日",
+          "published": "2025/6/30 19:05",
           "paid": false
         },
         {
           "title": "［社説］香港の自由をこれ以上奪うな",
           "link": "https://www.nikkei.com/article/DGXZQODK304L70Q5A630C2000000/",
-          "published": "2025年6月30日",
+          "published": "2025/6/30 19:00",
           "paid": false
         }
       ]
@@ -126,7 +126,7 @@
         {
           "title": "ＳＮＳと選挙　正しい選択支える利用を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/637383",
-          "published": "2025/6/30",
+          "published": "2025/6/30 6:00",
           "paid": false
         }
       ]
@@ -229,6 +229,40 @@
           "title": "＜社説＞生活保護引き下げ違法　生存権基づく画期的判決",
           "link": "https://ryukyushimpo.jp/editorial/entry-4390300.html",
           "published": "2025/06/30",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：マンション再生法　住民と自治体で改正いかせ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1508177",
+          "published": "2025/6/30 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】百日ぜきの流行　赤ちゃんの重症化に注意",
+          "link": "https://www.nishinippon.co.jp/item/1370390/",
+          "published": "2025/06/30 06:00",
           "paid": false
         }
       ]

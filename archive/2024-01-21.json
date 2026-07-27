@@ -33,7 +33,7 @@
         {
           "title": "自民派閥解散　カネ巡る問題根絶なるか",
           "link": "https://www.niigata-nippo.co.jp/articles/-/347446",
-          "published": "2024/1/21",
+          "published": "2024/1/21 6:00",
           "paid": false
         }
       ]
@@ -136,6 +136,23 @@
           "title": "＜社説＞自民主要派閥解散へ　根本的解決にはほど遠い",
           "link": "https://ryukyushimpo.jp/editorial/entry-2717430.html",
           "published": "2024/01/21",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】能登地震と原発　想定外の懸念があらわに",
+          "link": "https://www.nishinippon.co.jp/item/1169944/",
+          "published": "2024/01/21 06:00",
           "paid": false
         }
       ]

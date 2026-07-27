@@ -96,7 +96,7 @@
         {
           "title": "解雇規制見直し　労働者の権利を守れるか",
           "link": "https://www.niigata-nippo.co.jp/articles/-/478153",
-          "published": "2024/9/19",
+          "published": "2024/9/19 6:00",
           "paid": false
         }
       ]
@@ -199,6 +199,23 @@
           "title": "＜社説＞自民党総裁選演説会　及第点はあげられない",
           "link": "https://ryukyushimpo.jp/editorial/entry-3479076.html",
           "published": "2024/09/19",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】公明新代表　歯止め役もっと発揮せよ",
+          "link": "https://www.nishinippon.co.jp/item/1260002/",
+          "published": "2024/09/19 06:00",
           "paid": false
         }
       ]

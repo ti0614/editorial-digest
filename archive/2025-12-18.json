@@ -59,13 +59,13 @@
         {
           "title": "［社説］スマホ新法は不断の見直しで競争促進を",
           "link": "https://www.nikkei.com/article/DGXZQODK187Y40Y5A211C2000000/",
-          "published": "2025年12月18日",
+          "published": "2025/12/18 19:05",
           "paid": false
         },
         {
           "title": "［社説］日本コンテンツ飛躍の好機に",
           "link": "https://www.nikkei.com/article/DGXZQOCD187370Y5A211C2000000/",
-          "published": "2025年12月18日",
+          "published": "2025/12/18 19:00",
           "paid": false
         }
       ]
@@ -126,7 +126,7 @@
         {
           "title": "臨時国会閉幕　独断専行が混乱を招いた",
           "link": "https://www.niigata-nippo.co.jp/articles/-/748265",
-          "published": "2025/12/18",
+          "published": "2025/12/18 6:00",
           "paid": false
         }
       ]
@@ -160,13 +160,13 @@
         {
           "title": "社説【輪島の集団移転】早期に市全体の将来像を",
           "link": "https://www.hokkoku.co.jp/articles/-/1963648",
-          "published": "12/18",
+          "published": "2025/12/18 5:00",
           "paid": true
         },
         {
           "title": "社説【臨時国会閉会】トップの力量、資質示した",
           "link": "https://www.hokkoku.co.jp/articles/-/1963647",
-          "published": "12/18",
+          "published": "2025/12/18 5:00",
           "paid": true
         }
       ]
@@ -286,6 +286,46 @@
           "title": "＜社説＞出産不戦敗規定削除　女性活躍の環境に責任を",
           "link": "https://ryukyushimpo.jp/editorial/entry-4880784.html",
           "published": "2025/12/18",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：臨時国会の閉会　首相の強引さ、憂慮する",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1620391",
+          "published": "2025/12/18 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：ゾンビたばこ　まん延防ぐ対策が急務",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1620386",
+          "published": "2025/12/18 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】臨時国会閉会　新政権の懸念材料を露呈",
+          "link": "https://www.nishinippon.co.jp/item/1436614/",
+          "published": "2025/12/18 06:00",
           "paid": false
         }
       ]

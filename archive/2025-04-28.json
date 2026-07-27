@@ -59,13 +59,13 @@
         {
           "title": "［社説］米国の科学力と多様性そぐ学術への介入",
           "link": "https://www.nikkei.com/article/DGXZQODK280VK0Y5A420C2000000/",
-          "published": "2025年4月28日",
+          "published": "2025/4/28 19:05",
           "paid": false
         },
         {
           "title": "［社説］中国EVの急速な進化直視を",
           "link": "https://www.nikkei.com/article/DGXZQODK270XR0X20C25A4000000/",
-          "published": "2025年4月28日",
+          "published": "2025/4/28 19:00",
           "paid": false
         }
       ]
@@ -126,7 +126,7 @@
         {
           "title": "孤立死２万人超　支え合いの再構築が必要",
           "link": "https://www.niigata-nippo.co.jp/articles/-/598946",
-          "published": "2025/4/28",
+          "published": "2025/4/28 6:00",
           "paid": false
         }
       ]
@@ -212,6 +212,40 @@
           "title": "＜社説＞うるま市長現職再選　喫緊の課題に早期着手を",
           "link": "https://ryukyushimpo.jp/editorial/entry-4191296.html",
           "published": "2025/04/28",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：新生児取り違え　「出自を知る権利」認めた判決",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1467194",
+          "published": "2025/4/28 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】2馬力選挙　公平欠く行為に歯止めを",
+          "link": "https://www.nishinippon.co.jp/item/1344805/",
+          "published": "2025/04/28 06:00",
           "paid": false
         }
       ]

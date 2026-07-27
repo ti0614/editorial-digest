@@ -53,13 +53,13 @@
         {
           "title": "［社説］消費税は減税せず給付付き控除を急げ",
           "link": "https://www.nikkei.com/article/DGXZQOCD035GT0T00C26A4000000/",
-          "published": "4月6日",
+          "published": "2026/4/6 19:05",
           "paid": false
         },
         {
           "title": "［社説］子ども守るSNS依存対策を",
           "link": "https://www.nikkei.com/article/DGXZQODK065ZK0W6A400C2000000/",
-          "published": "4月6日",
+          "published": "2026/4/6 19:00",
           "paid": false
         }
       ]
@@ -110,7 +110,7 @@
         {
           "title": "自転車「青切符」制度開始　取り締まりと周知、両輪で　【論説】",
           "link": "https://www.chibanippo.co.jp/articles/1596315",
-          "published": "4/6 5:00",
+          "published": "2026/4/6 5:00",
           "paid": true
         }
       ]
@@ -127,7 +127,7 @@
         {
           "title": "ストーカー殺人　繰り返される悲劇を防げ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/809441",
-          "published": "4/6",
+          "published": "2026/4/6 6:00",
           "paid": false
         }
       ]
@@ -161,13 +161,13 @@
         {
           "title": "社説【患者情報の共有】迅速な病院搬送に役立つ",
           "link": "https://www.hokkoku.co.jp/articles/-/2068713",
-          "published": "4/6",
+          "published": "2026/4/6 5:00",
           "paid": true
         },
         {
           "title": "社説【クマ捕獲強化】人材の確保育成に注力を",
           "link": "https://www.hokkoku.co.jp/articles/-/2068712",
-          "published": "4/6",
+          "published": "2026/4/6 5:00",
           "paid": true
         }
       ]
@@ -253,6 +253,40 @@
           "title": "＜社説＞トランプ氏イラン演説　米は戦闘終結の道筋示せ",
           "link": "https://ryukyushimpo.jp/editorial/entry-5172691.html",
           "published": "2026/04/06",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：西脇京都知事３選　府民目線に徹し判断、改革を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1690769",
+          "published": "2026/4/6 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】自転車に青切符　ルール理解し安全運転を",
+          "link": "https://www.nishinippon.co.jp/item/1478455/",
+          "published": "2026/04/06 06:00",
           "paid": false
         }
       ]

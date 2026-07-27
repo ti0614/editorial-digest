@@ -53,7 +53,7 @@
         {
           "title": "［社説］AIの衝撃を課題克服の原動力に",
           "link": "https://www.nikkei.com/article/DGXZQODK267EO0W5A221C2000000/",
-          "published": "1月5日",
+          "published": "2026/1/5 19:00",
           "paid": false
         }
       ]
@@ -114,7 +114,7 @@
         {
           "title": "ベネズエラ攻撃　許されぬ米国の無法行為",
           "link": "https://www.niigata-nippo.co.jp/articles/-/756260",
-          "published": "1/5",
+          "published": "2026/1/5 6:00",
           "paid": false
         }
       ]
@@ -148,7 +148,7 @@
         {
           "title": "社説【日本外交の課題】国民の意識変えた首相発言",
           "link": "https://www.hokkoku.co.jp/articles/-/1978154",
-          "published": "1/5",
+          "published": "2026/1/5 5:00",
           "paid": true
         }
       ]
@@ -251,6 +251,40 @@
           "title": "＜社説＞米ベネズエラ攻撃　軍事介入は容認できない",
           "link": "https://ryukyushimpo.jp/editorial/entry-4929359.html",
           "published": "2026/01/05",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：暮らしと経済　鍵を握る賃上げ、外国人共生",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1630202",
+          "published": "2026/1/5 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】ベネズエラ攻撃　米国の横暴は許されない",
+          "link": "https://www.nishinippon.co.jp/item/1442236/",
+          "published": "2026/01/05 06:00",
           "paid": false
         }
       ]

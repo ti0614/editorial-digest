@@ -67,7 +67,7 @@
         {
           "title": "次期戦闘機輸出　平和国家の理念が遠のく",
           "link": "https://www.niigata-nippo.co.jp/articles/-/380787",
-          "published": "2024/3/27",
+          "published": "2024/3/27 6:00",
           "paid": false
         }
       ]
@@ -170,6 +170,23 @@
           "title": "＜社説＞乳児死亡検証報告書　子の命守る体制弱かった",
           "link": "https://ryukyushimpo.jp/editorial/entry-2932422.html",
           "published": "2024/03/27",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】戦闘機輸出解禁　なし崩しの拡大許されぬ",
+          "link": "https://www.nishinippon.co.jp/item/1193817/",
+          "published": "2024/03/27 06:00",
           "paid": false
         }
       ]

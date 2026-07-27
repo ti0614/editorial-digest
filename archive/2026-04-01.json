@@ -59,13 +59,13 @@
         {
           "title": "［社説］景気と物価の双方のリスクに目配りせよ",
           "link": "https://www.nikkei.com/article/DGXZQODK013WK0R00C26A4000000/",
-          "published": "4月1日",
+          "published": "2026/4/1 19:05",
           "paid": false
         },
         {
           "title": "［社説］公立中学校は35人学級で質向上を",
           "link": "https://www.nikkei.com/article/DGXZQOCD015CE0R00C26A4000000/",
-          "published": "4月1日",
+          "published": "2026/4/1 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "長射程ミサイル　地元の不安に応えぬ政府",
           "link": "https://www.niigata-nippo.co.jp/articles/-/806880",
-          "published": "4/1",
+          "published": "2026/4/1 6:00",
           "paid": false
         }
       ]
@@ -177,13 +177,13 @@
         {
           "title": "社説【被災地で犯罪多発】問われる警察の治安対策",
           "link": "https://www.hokkoku.co.jp/articles/-/2063532",
-          "published": "4/1",
+          "published": "2026/4/1 5:00",
           "paid": true
         },
         {
           "title": "社説【ストーカー被害】社会で防ぐ仕組み議論を",
           "link": "https://www.hokkoku.co.jp/articles/-/2063531",
-          "published": "4/1",
+          "published": "2026/4/1 5:00",
           "paid": true
         }
       ]
@@ -303,6 +303,46 @@
           "title": "＜社説＞米軍本島上陸81年　生命軽視　軍事優先改めよ",
           "link": "https://ryukyushimpo.jp/editorial/entry-5162169.html",
           "published": "2026/04/01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：幼稚園「賃下げ」　大津市は誠実な対応を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1687592",
+          "published": "2026/4/1 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：自転車に青切符　安全への自覚を新たに",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1687586",
+          "published": "2026/4/1 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】暫定予算成立　首相は国会軽視を改めよ",
+          "link": "https://www.nishinippon.co.jp/item/1476637/",
+          "published": "2026/04/01 06:00",
           "paid": false
         }
       ]

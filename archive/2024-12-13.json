@@ -59,13 +59,13 @@
         {
           "title": "［社説］強まる人手不足を乗り越え成長の道探れ",
           "link": "https://www.nikkei.com/article/DGXZQODK137BZ0T11C24A2000000/",
-          "published": "2024年12月13日",
+          "published": "2024/12/13 19:05",
           "paid": false
         },
         {
           "title": "［社説］日生は買収で生保像を変えよ",
           "link": "https://www.nikkei.com/article/DGXZQODK124CG0S4A211C2000000/",
-          "published": "2024年12月13日",
+          "published": "2024/12/13 19:00",
           "paid": false
         }
       ]
@@ -136,7 +136,7 @@
         {
           "title": "補正予算衆院通過　主導権握れぬ与党鮮明に",
           "link": "https://www.niigata-nippo.co.jp/articles/-/525077",
-          "published": "2024/12/13",
+          "published": "2024/12/13 6:00",
           "paid": false
         }
       ]
@@ -239,6 +239,23 @@
           "title": "＜社説＞日本軍の南京占領87年　加害の歴史も見つめよう",
           "link": "https://ryukyushimpo.jp/editorial/entry-3755398.html",
           "published": "2024/12/13",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】新しい認知症観　支え合う社会の出発点に",
+          "link": "https://www.nishinippon.co.jp/item/1292820/",
+          "published": "2024/12/13 06:00",
           "paid": false
         }
       ]

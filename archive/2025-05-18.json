@@ -59,13 +59,13 @@
         {
           "title": "［社説］米国は中東安定への努力をより真剣に",
           "link": "https://www.nikkei.com/article/DGXZQODK166CV0W5A510C2000000/",
-          "published": "2025年5月18日",
+          "published": "2025/5/18 19:05",
           "paid": false
         },
         {
           "title": "［社説］最高益メガバンクは逆風に備えよ",
           "link": "https://www.nikkei.com/article/DGXZQODK1676W0W5A510C2000000/",
-          "published": "2025年5月18日",
+          "published": "2025/5/18 19:00",
           "paid": false
         }
       ]
@@ -109,7 +109,7 @@
         {
           "title": "学校の安全　注意払い子ども守らねば",
           "link": "https://www.niigata-nippo.co.jp/articles/-/609768",
-          "published": "2025/5/18",
+          "published": "2025/5/18 6:00",
           "paid": false
         }
       ]
@@ -212,6 +212,40 @@
           "title": "＜社説＞「西田発言」抗議決議　沖縄戦の実相なぜ触れぬ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4240055.html",
           "published": "2025/05/18",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：生徒が校則見直し　自律と民主主義学ぶ機会に",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1478308",
+          "published": "2025/5/18 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】スポーツと暴力　根絶して楽しめる環境に",
+          "link": "https://www.nishinippon.co.jp/item/1352319/",
+          "published": "2025/05/18 06:00",
           "paid": false
         }
       ]

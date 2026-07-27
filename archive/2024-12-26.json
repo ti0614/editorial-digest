@@ -59,13 +59,13 @@
         {
           "title": "［社説］日銀は検証生かし正常化への歩み的確に",
           "link": "https://www.nikkei.com/article/DGXZQODK266S80W4A221C2000000/",
-          "published": "2024年12月26日",
+          "published": "2024/12/26 19:05",
           "paid": false
         },
         {
           "title": "［社説］国境画定で中央アジア安定を",
           "link": "https://www.nikkei.com/article/DGXZQODK1671T0W4A211C2000000/",
-          "published": "2024年12月26日",
+          "published": "2024/12/26 19:00",
           "paid": false
         }
       ]
@@ -119,7 +119,7 @@
         {
           "title": "学術会議報告書　学問の独立を守れるのか",
           "link": "https://www.niigata-nippo.co.jp/articles/-/531830",
-          "published": "2024/12/26",
+          "published": "2024/12/26 6:00",
           "paid": false
         }
       ]
@@ -222,6 +222,23 @@
           "title": "＜社説＞PFAS法規制化　地位協定改め根本解決を",
           "link": "https://ryukyushimpo.jp/editorial/entry-3805400.html",
           "published": "2024/12/26",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】規正法の再改正　与野党は改革を止めるな",
+          "link": "https://www.nishinippon.co.jp/item/1297770/",
+          "published": "2024/12/26 06:00",
           "paid": false
         }
       ]

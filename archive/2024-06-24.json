@@ -67,7 +67,7 @@
         {
           "title": "鹿児島県警　問題多すぎる捜査手法だ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/427823",
-          "published": "2024/6/24",
+          "published": "2024/6/24 6:00",
           "paid": false
         }
       ]
@@ -153,6 +153,23 @@
           "title": "＜社説＞慰霊の日平和宣言　戦前回帰させぬ決意示す",
           "link": "https://ryukyushimpo.jp/editorial/entry-3226563.html",
           "published": "2024/06/24",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】男女格差の解消　政治も経済も本腰入れよ",
+          "link": "https://www.nishinippon.co.jp/item/1226578/",
+          "published": "2024/06/24 06:00",
           "paid": false
         }
       ]

@@ -73,7 +73,7 @@
         {
           "title": "クマ被害　遭遇せぬよう細心注意を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/428458",
-          "published": "2024/6/25",
+          "published": "2024/6/25 6:00",
           "paid": false
         }
       ]
@@ -176,6 +176,23 @@
           "title": "＜社説＞南城市アンケート公表　証言者の安全確保徹底を",
           "link": "https://ryukyushimpo.jp/editorial/entry-3229674.html",
           "published": "2024/06/25",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】異例の特別監察　鹿児島県警のうみを出せ",
+          "link": "https://www.nishinippon.co.jp/item/1226976/",
+          "published": "2024/06/25 06:00",
           "paid": false
         }
       ]

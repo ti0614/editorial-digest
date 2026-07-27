@@ -67,7 +67,7 @@
         {
           "title": "農業基本法改正　担い手支える姿勢不可欠",
           "link": "https://www.niigata-nippo.co.jp/articles/-/414871",
-          "published": "2024/5/31",
+          "published": "2024/5/31 6:00",
           "paid": false
         }
       ]
@@ -170,6 +170,23 @@
           "title": "＜社説＞地自法指示権拡大　自治介入の懸念拭えない",
           "link": "https://ryukyushimpo.jp/editorial/entry-3141669.html",
           "published": "2024/05/31",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】国の指示権拡大　自治法改正の必要はない",
+          "link": "https://www.nishinippon.co.jp/item/1217596/",
+          "published": "2024/05/31 06:00",
           "paid": false
         }
       ]

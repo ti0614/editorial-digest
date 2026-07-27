@@ -59,13 +59,13 @@
         {
           "title": "［社説］日本とインドは互いの強みを融合し安保強化を",
           "link": "https://www.nikkei.com/article/DGXZQODK3010S0Q5A830C2000000/",
-          "published": "2025年8月30日",
+          "published": "2025/8/30 19:05",
           "paid": false
         },
         {
           "title": "［社説］競争と協調で国内線立て直せ",
           "link": "https://www.nikkei.com/article/DGXZQODK288CW0Y5A820C2000000/",
-          "published": "2025年8月30日",
+          "published": "2025/8/30 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "原発地域支援拡大　住民の安心につながるか",
           "link": "https://www.niigata-nippo.co.jp/articles/-/679592",
-          "published": "2025/8/30",
+          "published": "2025/8/30 6:00",
           "paid": false
         }
       ]
@@ -246,6 +246,40 @@
           "title": "＜社説＞26年度予算概算要求　国家戦略の内容問われる",
           "link": "https://ryukyushimpo.jp/editorial/entry-4572419.html",
           "published": "2025/08/30",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：神戸で女性刺殺　再犯防げなかったか検証を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1552015",
+          "published": "2025/8/30 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】訪日客の増加　九州一体で戦略を磨こう",
+          "link": "https://www.nishinippon.co.jp/item/1393710/",
+          "published": "2025/08/30 06:00",
           "paid": false
         }
       ]

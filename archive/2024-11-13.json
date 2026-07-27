@@ -47,13 +47,13 @@
         {
           "title": "［社説］デブリ初回収を機に実効性ある廃炉を",
           "link": "https://www.nikkei.com/article/DGXZQODK130V40T11C24A1000000/",
-          "published": "2024年11月13日",
+          "published": "2024/11/13 19:05",
           "paid": false
         },
         {
           "title": "［社説］中国は需要喚起の具体策早く",
           "link": "https://www.nikkei.com/article/DGXZQODK12CBC0S4A111C2000000/",
-          "published": "2024年11月13日",
+          "published": "2024/11/13 19:00",
           "paid": false
         }
       ]
@@ -124,7 +124,7 @@
         {
           "title": "年収の壁　十分な議論が欠かせない",
           "link": "https://www.niigata-nippo.co.jp/articles/-/508568",
-          "published": "2024/11/13",
+          "published": "2024/11/13 6:00",
           "paid": false
         }
       ]
@@ -227,6 +227,23 @@
           "title": "＜社説＞第２次石破内閣発足　審議活性化で信頼回復を",
           "link": "https://ryukyushimpo.jp/editorial/entry-3640342.html",
           "published": "2024/11/13",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】フリーランス新法　多様な働き方守る社会に",
+          "link": "https://www.nishinippon.co.jp/item/1281213/",
+          "published": "2024/11/13 06:00",
           "paid": false
         }
       ]

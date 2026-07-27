@@ -67,7 +67,7 @@
         {
           "title": "憲法記念日　果たす役割は依然大きく",
           "link": "https://www.niigata-nippo.co.jp/articles/-/399886",
-          "published": "2024/5/3",
+          "published": "2024/5/3 6:00",
           "paid": false
         }
       ]
@@ -153,6 +153,23 @@
           "title": "＜社説＞憲法施行７７年　総裁任期で改憲せかすな",
           "link": "https://ryukyushimpo.jp/editorial/entry-3038643.html",
           "published": "2024/05/03",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】安保政策の変容　憲法を政権制御の手綱に",
+          "link": "https://www.nishinippon.co.jp/item/1207212/",
+          "published": "2024/05/03 06:00",
           "paid": false
         }
       ]

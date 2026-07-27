@@ -73,7 +73,7 @@
         {
           "title": "夏休み　全ての子に豊かな経験を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/450039",
-          "published": "2024/7/31",
+          "published": "2024/7/31 6:00",
           "paid": false
         }
       ]
@@ -176,6 +176,23 @@
           "title": "＜社説＞日米核抑止力強化　核削減主導の役割果たせ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3326582.html",
           "published": "2024/07/31",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】中国の経済政策　低迷打開の説得力を欠く",
+          "link": "https://www.nishinippon.co.jp/item/1241323/",
+          "published": "2024/07/31 06:00",
           "paid": false
         }
       ]

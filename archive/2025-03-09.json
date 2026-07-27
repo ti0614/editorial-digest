@@ -80,7 +80,7 @@
         {
           "title": "東電旧経営陣無罪　問われ続ける事故の責任",
           "link": "https://www.niigata-nippo.co.jp/articles/-/570221",
-          "published": "2025/3/9",
+          "published": "2025/3/9 6:00",
           "paid": false
         }
       ]
@@ -166,6 +166,40 @@
           "title": "＜社説＞高額療養費上げ凍結　早期の決断必要だった",
           "link": "https://ryukyushimpo.jp/editorial/entry-4036357.html",
           "published": "2025/03/09",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：民具収蔵庫の不足　地域とともに考える契機に",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1436484",
+          "published": "2025/3/9 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】大震災から14年　複合災害への備え十分か",
+          "link": "https://www.nishinippon.co.jp/item/1324592/",
+          "published": "2025/03/09 06:00",
           "paid": false
         }
       ]

@@ -59,13 +59,13 @@
         {
           "title": "［社説］米イランは戦闘終結へ真剣な対話を",
           "link": "https://www.nikkei.com/article/DGXZQODK276FX0X20C26A3000000/",
-          "published": "3月27日",
+          "published": "2026/3/27 19:05",
           "paid": false
         },
         {
           "title": "［社説］就労促進へ在職老齢年金テコに",
           "link": "https://www.nikkei.com/article/DGXZQOCD244W60U6A320C2000000/",
-          "published": "3月27日",
+          "published": "2026/3/27 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "イラン攻撃１カ月　泥沼化させてはならない",
           "link": "https://www.niigata-nippo.co.jp/articles/-/803845",
-          "published": "3/27",
+          "published": "2026/3/27 6:00",
           "paid": false
         }
       ]
@@ -177,13 +177,13 @@
         {
           "title": "社説【イラン停戦交渉】長期化見据えた対策も",
           "link": "https://www.hokkoku.co.jp/articles/-/2058209",
-          "published": "3/27",
+          "published": "2026/3/27 5:00",
           "paid": true
         },
         {
           "title": "社説【現代美術展】創造の気概新たに真剣勝負",
           "link": "https://www.hokkoku.co.jp/articles/-/2058208",
-          "published": "3/27",
+          "published": "2026/3/27 5:00",
           "paid": true
         }
       ]
@@ -303,6 +303,46 @@
           "title": "＜社説＞ガソリン価格高騰　停戦が国民の暮らし守る",
           "link": "https://ryukyushimpo.jp/editorial/entry-5149961.html",
           "published": "2026/03/27",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：防災庁設置へ 縦割り越える司令塔に",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1684402",
+          "published": "2026/3/27 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：地価の上昇　注視したい京滋の実情",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1684400",
+          "published": "2026/3/27 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】イラン1カ月　戦闘終結の機会を逃すな",
+          "link": "https://www.nishinippon.co.jp/item/1474521/",
+          "published": "2026/03/27 06:00",
           "paid": false
         }
       ]

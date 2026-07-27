@@ -59,13 +59,13 @@
         {
           "title": "［社説］「就労の壁」は扶養のあり方から議論を",
           "link": "https://www.nikkei.com/article/DGXZQODK194990Z11C24A1000000/",
-          "published": "2024年11月20日",
+          "published": "2024/11/20 19:05",
           "paid": false
         },
         {
           "title": "［社説］G20多国間協調の後退を防げ",
           "link": "https://www.nikkei.com/article/DGXZQOCD2077R0Q4A121C2000000/",
-          "published": "2024年11月20日",
+          "published": "2024/11/20 19:00",
           "paid": false
         }
       ]
@@ -136,7 +136,7 @@
         {
           "title": "兵庫知事再選　疑惑解明し信頼の構築を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/512313",
-          "published": "2024/11/20",
+          "published": "2024/11/20 6:00",
           "paid": false
         }
       ]
@@ -239,6 +239,23 @@
           "title": "＜社説＞１２月に県民大会　県議会は超党派諦めるな",
           "link": "https://ryukyushimpo.jp/editorial/entry-3662752.html",
           "published": "2024/11/20",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】選挙とSNS　偽情報の見極めが必要だ",
+          "link": "https://www.nishinippon.co.jp/item/1283821/",
+          "published": "2024/11/20 06:00",
           "paid": false
         }
       ]

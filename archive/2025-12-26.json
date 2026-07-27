@@ -59,7 +59,7 @@
         {
           "title": "［社説］責任の視点欠く過去最大の予算案",
           "link": "https://www.nikkei.com/article/DGXZQODK265030W5A221C2000000/",
-          "published": "2025年12月26日",
+          "published": "2025/12/26 19:00",
           "paid": false
         }
       ]
@@ -120,7 +120,7 @@
         {
           "title": "非核三原則見直し　平和国家の礎を壊すのか",
           "link": "https://www.niigata-nippo.co.jp/articles/-/753338",
-          "published": "2025/12/26",
+          "published": "2025/12/26 6:00",
           "paid": false
         }
       ]
@@ -154,13 +154,13 @@
         {
           "title": "社説【賃上げ支援緩和】能登の雇用維持に不可欠",
           "link": "https://www.hokkoku.co.jp/articles/-/1971882",
-          "published": "12/26",
+          "published": "2025/12/26 5:00",
           "paid": true
         },
         {
           "title": "社説【柏崎刈羽原発】再稼働の恩恵広く社会に",
           "link": "https://www.hokkoku.co.jp/articles/-/1971881",
-          "published": "12/26",
+          "published": "2025/12/26 5:00",
           "paid": true
         }
       ]
@@ -280,6 +280,40 @@
           "title": "＜社説＞第4海兵連隊移転中止　基地負担軽減を止めるな",
           "link": "https://ryukyushimpo.jp/editorial/entry-4903109.html",
           "published": "2025/12/26",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：原発差し止め棄却　不安に向き合わない判決だ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1626436",
+          "published": "2025/12/26 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】診療報酬アップ　持続可能な医療に生かせ",
+          "link": "https://www.nishinippon.co.jp/item/1439945/",
+          "published": "2025/12/26 06:00",
           "paid": false
         }
       ]

@@ -73,7 +73,7 @@
         {
           "title": "松本サリン３０年　報道に残した課題忘れず",
           "link": "https://www.niigata-nippo.co.jp/articles/-/429685",
-          "published": "2024/6/27",
+          "published": "2024/6/27 6:00",
           "paid": false
         }
       ]
@@ -176,6 +176,23 @@
           "title": "＜社説＞米兵少女暴行事件　人権軽視、主権が問われる",
           "link": "https://ryukyushimpo.jp/editorial/entry-3237715.html",
           "published": "2024/06/27",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】最低賃金　全国一律目標に底上げを",
+          "link": "https://www.nishinippon.co.jp/item/1227847/",
+          "published": "2024/06/27 06:00",
           "paid": false
         }
       ]

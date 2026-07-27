@@ -47,7 +47,7 @@
         {
           "title": "［社説］企業は殻を破りデジタル対応急げ",
           "link": "https://www.nikkei.com/article/DGXZQODK302K70Q4A231C2000000/",
-          "published": "2025年1月5日",
+          "published": "2025/1/5 19:00",
           "paid": false
         }
       ]
@@ -84,7 +84,7 @@
         {
           "title": "２０２５外交　国際社会は分断深めるな",
           "link": "https://www.niigata-nippo.co.jp/articles/-/534911",
-          "published": "2025/1/5",
+          "published": "2025/1/5 6:00",
           "paid": false
         }
       ]
@@ -187,6 +187,23 @@
           "title": "＜社説＞25年　軍事基地と沖縄　戦争準備止めねばならぬ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3835396.html",
           "published": "2025/01/05",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】揺らぐ経済大国　成長と分配実現するには",
+          "link": "https://www.nishinippon.co.jp/item/1300313/",
+          "published": "2025/01/05 06:00",
           "paid": false
         }
       ]

@@ -59,13 +59,13 @@
         {
           "title": "［社説］独財政の拡充策を欧州再生の呼び水に",
           "link": "https://www.nikkei.com/article/DGXZQODK221PV0S5A320C2000000/",
-          "published": "2025年3月22日",
+          "published": "2025/3/22 19:30",
           "paid": false
         },
         {
           "title": "［社説］私大は円滑な再編・縮小を",
           "link": "https://www.nikkei.com/article/DGXZQODK218QV0R20C25A3000000/",
-          "published": "2025年3月22日",
+          "published": "2025/3/22 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "ロシア停戦拒否　早期和平へ交渉を続けよ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/578410",
-          "published": "2025/3/22",
+          "published": "2025/3/22 19:02",
           "paid": false
         }
       ]
@@ -246,6 +246,40 @@
           "title": "＜社説＞在日米軍強化停止　外交、安保考える契機に",
           "link": "https://ryukyushimpo.jp/editorial/entry-4075864.html",
           "published": "2025/03/22",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：自民の献金体質　歴代の悪弊にメスいれねば",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1444839",
+          "published": "2025/3/22 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】地下鉄サリン30年　二度と起こさない社会に",
+          "link": "https://www.nishinippon.co.jp/item/1329754/",
+          "published": "2025/03/22 06:00",
           "paid": false
         }
       ]

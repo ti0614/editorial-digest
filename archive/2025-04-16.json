@@ -53,13 +53,13 @@
         {
           "title": "［社説］中国経済に報復合戦を続ける余裕はない",
           "link": "https://www.nikkei.com/article/DGXZQODK157O00V10C25A4000000/",
-          "published": "2025年4月16日",
+          "published": "2025/4/16 19:20",
           "paid": false
         },
         {
           "title": "［社説］小売りはデジタル軸に変革を",
           "link": "https://www.nikkei.com/article/DGXZQODK167XE0W5A410C2000000/",
-          "published": "2025年4月16日",
+          "published": "2025/4/16 19:15",
           "paid": false
         }
       ]
@@ -137,7 +137,7 @@
         {
           "title": "投票条例案審議　県民が納得できる議論を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/592099",
-          "published": "2025/4/16",
+          "published": "2025/4/16 6:00",
           "paid": false
         }
       ]
@@ -240,6 +240,46 @@
           "title": "＜社説＞セグロウリミバエ防除　協力してまん延を防ごう",
           "link": "https://ryukyushimpo.jp/editorial/entry-4156206.html",
           "published": "2025/04/16",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：人口の急減　地域の適応策、考えたい",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1460183",
+          "published": "2025/4/16 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：カジノ依存　規制、摘発に治療強化を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1460191",
+          "published": "2025/4/16 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】コメ最高値更新　増産で主食の安定供給を",
+          "link": "https://www.nishinippon.co.jp/item/1339958/",
+          "published": "2025/04/16 06:00",
           "paid": false
         }
       ]

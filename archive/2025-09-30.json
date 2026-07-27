@@ -59,13 +59,13 @@
         {
           "title": "［社説］外国人政策は実態把握し冷静な議論を",
           "link": "https://www.nikkei.com/article/DGXZQODK252QD0V20C25A9000000/",
-          "published": "2025年9月30日",
+          "published": "2025/9/30 20:10",
           "paid": false
         },
         {
           "title": "［社説］経済同友会は結束と信頼回復急げ",
           "link": "https://www.nikkei.com/article/DGXZQODK309V60Q5A930C2000000/",
-          "published": "2025年9月30日",
+          "published": "2025/9/30 20:00",
           "paid": false
         }
       ]
@@ -129,20 +129,7 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": [
-        {
-          "title": "活動自粛より徹底貢献を　千葉市議による請願偽造問題　【論説】",
-          "link": "https://www.chibanippo.co.jp/serial/1281992",
-          "published": "9/30 5:00",
-          "paid": true
-        },
-        {
-          "title": "国民視点の活発論戦期待　自民総裁、立民代表決まる　【論説】",
-          "link": "https://www.chibanippo.co.jp/serial/1281991",
-          "published": "9/30 5:00",
-          "paid": true
-        }
-      ]
+      "items": []
     },
     {
       "name": "新潟日報",
@@ -156,7 +143,7 @@
         {
           "title": "大の里横綱初Ｖ　時代を築く大きな一歩だ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/699185",
-          "published": "2025/9/30",
+          "published": "2025/9/30 6:00",
           "paid": false
         }
       ]
@@ -190,13 +177,13 @@
         {
           "title": "社説【総裁選で投稿要請】会見開き、説明責任を",
           "link": "https://www.hokkoku.co.jp/articles/-/1882248",
-          "published": "9/30",
+          "published": "2025/9/30 5:00",
           "paid": true
         },
         {
           "title": "社説【大の里が優勝】「大横綱」への確かな一歩",
           "link": "https://www.hokkoku.co.jp/articles/-/1882247",
-          "published": "9/30",
+          "published": "2025/9/30 5:00",
           "paid": true
         }
       ]
@@ -299,6 +286,40 @@
           "title": "＜社説＞米軍単独パトロール　基地外の主権放棄するな",
           "link": "https://ryukyushimpo.jp/editorial/entry-4658042.html",
           "published": "2025/09/30",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：ＰＦＡＳ対策　調停通じ影響の把握、公開を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1571899",
+          "published": "2025/9/30 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】病院の経営悪化　物価高に対応し影響防げ",
+          "link": "https://www.nishinippon.co.jp/item/1405277/",
+          "published": "2025/09/30 06:00",
           "paid": false
         }
       ]

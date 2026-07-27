@@ -53,13 +53,13 @@
         {
           "title": "［社説］自立と協調の両立で新しい欧州をつくれ",
           "link": "https://www.nikkei.com/article/DGXZQODK072O20X00C25A3000000/",
-          "published": "2025年3月8日",
+          "published": "2025/3/8 19:05",
           "paid": false
         },
         {
           "title": "［社説］セブン新社長は成長を確実に",
           "link": "https://www.nikkei.com/article/DGXZQODK071YZ0X00C25A3000000/",
-          "published": "2025年3月8日",
+          "published": "2025/3/8 19:00",
           "paid": false
         }
       ]
@@ -137,7 +137,7 @@
         {
           "title": "国際女性デー　格差是正と意識改革急げ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/569863",
-          "published": "2025/3/8",
+          "published": "2025/3/8 6:00",
           "paid": false
         }
       ]
@@ -240,6 +240,40 @@
           "title": "＜社説＞戦後８０年　沖縄の女性　不屈の歩み　時代動かした",
           "link": "https://ryukyushimpo.jp/editorial/entry-4032834.html",
           "published": "2025/03/08",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：女性枠への違和感　男性優遇、行き詰まりに目を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1436134",
+          "published": "2025/3/8 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】女性活躍法10年　働きやすい職場を着実に",
+          "link": "https://www.nishinippon.co.jp/item/1324292/",
+          "published": "2025/03/08 06:00",
           "paid": false
         }
       ]

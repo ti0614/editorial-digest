@@ -59,13 +59,13 @@
         {
           "title": "［社説］誤情報に惑わされずSNSの賢い活用を",
           "link": "https://www.nikkei.com/article/DGXZQODK226160S6A120C2000000/",
-          "published": "1月25日",
+          "published": "2026/1/25 19:05",
           "paid": false
         },
         {
           "title": "［社説］被災地裏切るいわき信用組合不正",
           "link": "https://www.nikkei.com/article/DGXZQODK21BJW0R20C26A1000000/",
-          "published": "1月25日",
+          "published": "2026/1/25 19:00",
           "paid": false
         }
       ]
@@ -109,7 +109,7 @@
         {
           "title": "中道の政策　誠実な説明を尽くさねば",
           "link": "https://www.niigata-nippo.co.jp/articles/-/768055",
-          "published": "1/25",
+          "published": "2026/1/25 6:00",
           "paid": false
         }
       ]
@@ -143,13 +143,13 @@
         {
           "title": "社説【富樫プロジェクト】加賀中世の歴史に光を",
           "link": "https://www.hokkoku.co.jp/articles/-/1996847",
-          "published": "1/25",
+          "published": "2026/1/25 5:00",
           "paid": true
         },
         {
           "title": "社説【路線バス乗客減】国費支援も含め対策急務",
           "link": "https://www.hokkoku.co.jp/articles/-/1996846",
-          "published": "1/25",
+          "published": "2026/1/25 5:00",
           "paid": true
         }
       ]
@@ -252,6 +252,40 @@
           "title": "＜社説＞新製糖工場負担合意　キビ生産の未来描けるか",
           "link": "https://ryukyushimpo.jp/editorial/entry-4984687.html",
           "published": "2026/01/25",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：政治とカネ　与野党で対立する改革姿勢",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1642820",
+          "published": "2026/1/25 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】西日本スポーツ賞　未来を照らす10代の活躍",
+          "link": "https://www.nishinippon.co.jp/item/1450089/",
+          "published": "2026/01/25 06:00",
           "paid": false
         }
       ]

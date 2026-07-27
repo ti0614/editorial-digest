@@ -59,13 +59,13 @@
         {
           "title": "［社説］与野党伯仲の国会で意義ある政策合意を",
           "link": "https://www.nikkei.com/article/DGXZQODK0576C0V01C24A2000000/",
-          "published": "2024年12月5日",
+          "published": "2024/12/5 19:05",
           "paid": false
         },
         {
           "title": "［社説］複合危機が試すトランプ次期米大統領の外交",
           "link": "https://www.nikkei.com/article/DGXZQODK048PD0U4A201C2000000/",
-          "published": "2024年12月5日",
+          "published": "2024/12/5 19:00",
           "paid": false
         }
       ]
@@ -119,7 +119,7 @@
         {
           "title": "韓国で戒厳令　民主国家にあり得ぬ暴挙",
           "link": "https://www.niigata-nippo.co.jp/articles/-/520786",
-          "published": "2024/12/5",
+          "published": "2024/12/5 6:00",
           "paid": false
         }
       ]
@@ -222,6 +222,23 @@
           "title": "＜社説＞国民民主公約　「ミス」では済まされない",
           "link": "https://ryukyushimpo.jp/editorial/entry-3720956.html",
           "published": "2024/12/05",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】韓国の非常戒厳　民主政治を否定する暴挙",
+          "link": "https://www.nishinippon.co.jp/item/1289738/",
+          "published": "2024/12/05 06:00",
           "paid": false
         }
       ]

@@ -79,7 +79,7 @@
         {
           "title": "レバノン攻撃　中東地域の戦火広げるな",
           "link": "https://www.niigata-nippo.co.jp/articles/-/483891",
-          "published": "2024/9/29",
+          "published": "2024/9/29 6:00",
           "paid": false
         }
       ]
@@ -182,6 +182,23 @@
           "title": "＜社説＞日米共同統合演習　示威行為の拡大歯止めを",
           "link": "https://ryukyushimpo.jp/editorial/entry-3503479.html",
           "published": "2024/09/29",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】対中水産物輸出　早期の全面再開を求める",
+          "link": "https://www.nishinippon.co.jp/item/1263862/",
+          "published": "2024/09/29 06:00",
           "paid": false
         }
       ]

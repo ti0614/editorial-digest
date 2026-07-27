@@ -47,13 +47,13 @@
         {
           "title": "［社説］自公過半数割れで国の針路誤るな",
           "link": "https://www.nikkei.com/article/DGXZQODK211Y90R20C25A7000000/",
-          "published": "2025年7月21日",
+          "published": "2025/7/21 19:00",
           "paid": false
         },
         {
           "title": "［社説］自公政権への失望示す厳しい審判",
           "link": "https://www.nikkei.com/article/DGXZQODK1645O0W5A710C2000000/",
-          "published": "2025年7月21日",
+          "published": "2025/7/21 3:10",
           "paid": false
         }
       ]
@@ -114,7 +114,7 @@
         {
           "title": "自公大幅減　国民が変革求めた結果だ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/654155",
-          "published": "2025/7/21",
+          "published": "2025/7/21 6:00",
           "paid": false
         }
       ]
@@ -217,6 +217,40 @@
           "title": "＜社説＞参院選　自公過半数困難　国民は与党を見限った",
           "link": "https://ryukyushimpo.jp/editorial/entry-4463433.html",
           "published": "2025/07/21",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：参院選　与党大敗　自民政治に不信突き付けた",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1525840",
+          "published": "2025/7/21 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】与党敗北　政権への不信任に等しい",
+          "link": "https://www.nishinippon.co.jp/item/1378483/",
+          "published": "2025/07/21 06:00",
           "paid": false
         }
       ]

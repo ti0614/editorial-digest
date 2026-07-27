@@ -59,7 +59,7 @@
         {
           "title": "［社説］課題直視し日本経済を正常な姿へ",
           "link": "https://www.nikkei.com/article/DGXZQODK05AGZ0V00C25A8000000/",
-          "published": "2025年8月17日",
+          "published": "2025/8/17 19:00",
           "paid": false
         }
       ]
@@ -103,7 +103,7 @@
         {
           "title": "米ロ首脳会談　ウクライナ和平急がねば",
           "link": "https://www.niigata-nippo.co.jp/articles/-/671276",
-          "published": "2025/8/17",
+          "published": "2025/8/17 6:00",
           "paid": false
         }
       ]
@@ -223,6 +223,40 @@
           "title": "＜社説＞宮古陸自市民どう喝　非を認め直ちに謝罪を",
           "link": "https://ryukyushimpo.jp/editorial/entry-4546743.html",
           "published": "2025/08/17",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説　米ロ首脳会談　侵略国撤退での停戦譲るな",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1543510",
+          "published": "2025/8/17 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】出産の無償化　妊婦の不安なくす制度に",
+          "link": "https://www.nishinippon.co.jp/item/1388776/",
+          "published": "2025/08/17 06:00",
           "paid": false
         }
       ]

@@ -59,13 +59,13 @@
         {
           "title": "［社説］企業は形式主義を破り真の統治改革を",
           "link": "https://www.nikkei.com/article/DGXZQODK109ZO0Q6A210C2000000/",
-          "published": "2月11日",
+          "published": "2026/2/11 19:05",
           "paid": false
         },
         {
           "title": "［社説］iPS医療へ歩み止めるな",
           "link": "https://www.nikkei.com/article/DGXZQODK1069Y0Q6A210C2000000/",
-          "published": "2月11日",
+          "published": "2026/2/11 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "６号機再起動　警報「除外」は適切なのか",
           "link": "https://www.niigata-nippo.co.jp/articles/-/777928",
-          "published": "2/11",
+          "published": "2026/2/11 6:00",
           "paid": false
         }
       ]
@@ -177,19 +177,19 @@
         {
           "title": "社説【柏崎刈羽が再起動】電力需要急増に備えねば",
           "link": "https://www.hokkoku.co.jp/articles/-/2013456",
-          "published": "2/11",
+          "published": "2026/2/11 5:00",
           "paid": true
         },
         {
           "title": "社説【ソウル便毎日運航】小松空港の利用拡大に弾み",
           "link": "https://www.hokkoku.co.jp/articles/-/2013455",
-          "published": "2/11",
+          "published": "2026/2/11 5:00",
           "paid": true
         },
         {
           "title": "社説【ソウル便毎日運航】訪日需要の拡大に期待",
           "link": "https://www.hokkoku.co.jp/articles/-/2013349",
-          "published": "2/11",
+          "published": "2026/2/11 5:00",
           "paid": true
         }
       ]
@@ -292,6 +292,46 @@
           "title": "＜社説＞巨大与党の危うさ　民主主義の根幹忘れるな",
           "link": "https://ryukyushimpo.jp/editorial/entry-5028004.html",
           "published": "2026/02/11",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：再審制の見直し　冤罪救済、原点忘れるな",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1655175",
+          "published": "2026/2/11 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：長浜市長再選　地域の資源生かし前へ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1655174",
+          "published": "2026/2/11 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】TSMC新計画　九州への産業集積に弾み",
+          "link": "https://www.nishinippon.co.jp/item/1456983/",
+          "published": "2026/02/11 06:00",
           "paid": false
         }
       ]

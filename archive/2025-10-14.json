@@ -59,13 +59,13 @@
         {
           "title": "［社説］ガザ人質解放を着実な戦闘終結に導け",
           "link": "https://www.nikkei.com/article/DGXZQODK146FB0U5A011C2000000/",
-          "published": "2025年10月14日",
+          "published": "2025/10/14 19:05",
           "paid": false
         },
         {
           "title": "［社説］大阪万博の多様な遺産を次世代に",
           "link": "https://www.nikkei.com/article/DGXZQODK143FG0U5A011C2000000/",
-          "published": "2025年10月14日",
+          "published": "2025/10/14 19:00",
           "paid": false
         }
       ]
@@ -112,20 +112,7 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": [
-        {
-          "title": "若い才能伸ばす機会に　県展で高校生が高い評価　【論説】",
-          "link": "https://www.chibanippo.co.jp/serial/1288895",
-          "published": "10/14 5:00",
-          "paid": true
-        },
-        {
-          "title": "徹底調査と再発防止を　いすみ鉄道脱線事故　【論説】",
-          "link": "https://www.chibanippo.co.jp/serial/1288896",
-          "published": "10/14 5:00",
-          "paid": true
-        }
-      ]
+      "items": []
     },
     {
       "name": "新潟日報",
@@ -139,7 +126,7 @@
         {
           "title": "クマ犠牲者最多　命を守る対策徹底したい",
           "link": "https://www.niigata-nippo.co.jp/articles/-/708088",
-          "published": "2025/10/14",
+          "published": "2025/10/14 6:00",
           "paid": false
         }
       ]
@@ -173,19 +160,19 @@
         {
           "title": "社説【学部・修士５年制】専門人材の早期育成に",
           "link": "https://www.hokkoku.co.jp/articles/-/1896419",
-          "published": "10/14",
+          "published": "2025/10/14 5:00",
           "paid": true
         },
         {
           "title": "社説【「水晶山」の盗掘】地域で問題意識の共有を",
           "link": "https://www.hokkoku.co.jp/articles/-/1896418",
-          "published": "10/14",
+          "published": "2025/10/14 5:00",
           "paid": true
         },
         {
           "title": "社説【学部・修士５年制】専門人材の早期育成期待",
           "link": "https://www.hokkoku.co.jp/articles/-/1896388",
-          "published": "10/14",
+          "published": "2025/10/14 5:00",
           "paid": true
         }
       ]
@@ -288,6 +275,40 @@
           "title": "＜社説＞長期化する政治空白　国民が望む政策実現急げ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4691031.html",
           "published": "2025/10/14",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：障害者の就労支援　利用者本位で「質」の担保を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1580741",
+          "published": "2025/10/14 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】鑑定不正に監察　公正さを欠く身内の調査",
+          "link": "https://www.nishinippon.co.jp/item/1410885/",
+          "published": "2025/10/14 06:00",
           "paid": false
         }
       ]

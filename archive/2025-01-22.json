@@ -47,13 +47,13 @@
         {
           "title": "［社説］企業は力強い賃上げ定着で経済を前に",
           "link": "https://www.nikkei.com/article/DGXZQODK226GH0S5A120C2000000/",
-          "published": "2025年1月22日",
+          "published": "2025/1/22 19:05",
           "paid": false
         },
         {
           "title": "［社説］TikTokのリスク直視を",
           "link": "https://www.nikkei.com/article/DGXZQODK227AF0S5A120C2000000/",
-          "published": "2025年1月22日",
+          "published": "2025/1/22 19:00",
           "paid": false
         }
       ]
@@ -107,7 +107,7 @@
         {
           "title": "トランプ氏就任　不透明感増すスタートだ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/543377",
-          "published": "2025/1/22",
+          "published": "2025/1/22 6:00",
           "paid": false
         }
       ]
@@ -210,6 +210,46 @@
           "title": "＜社説＞オスプレイ貨物落下　政府は訓練中止を求めよ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3885569.html",
           "published": "2025/01/22",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：自民地方の裏金　京滋も徹底した調査を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1409552",
+          "published": "2025/1/22 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：フジテレビ会見　不信招いた後手の対応",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1409554",
+          "published": "2025/1/22 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】トランプ新政権　世界秩序に責任を果たせ",
+          "link": "https://www.nishinippon.co.jp/item/1306477/",
+          "published": "2025/01/22 06:00",
           "paid": false
         }
       ]

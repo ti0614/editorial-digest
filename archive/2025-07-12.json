@@ -53,13 +53,13 @@
         {
           "title": "［社説］政治資金の透明化で不正の連鎖断ち切れ",
           "link": "https://www.nikkei.com/article/DGXZQODK105YU0Q5A710C2000000/",
-          "published": "2025年7月12日",
+          "published": "2025/7/12 19:05",
           "paid": false
         },
         {
           "title": "［社説］米中安定へ意思疎通を緊密に",
           "link": "https://www.nikkei.com/article/DGXZQODK120FW0S5A710C2000000/",
-          "published": "2025年7月12日",
+          "published": "2025/7/12 19:00",
           "paid": false
         }
       ]
@@ -137,7 +137,7 @@
         {
           "title": "安全保障　脅威から国民を守るには",
           "link": "https://www.niigata-nippo.co.jp/articles/-/648409",
-          "published": "2025/7/12",
+          "published": "2025/7/12 6:00",
           "paid": false
         }
       ]
@@ -257,6 +257,40 @@
           "title": "＜社説＞ヤマネコからＰＦＡＳ　全国の実態調査が急務だ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4435105.html",
           "published": "2025/07/12",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：外国人政策　分断や排外主義をあおるな",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1519624",
+          "published": "2025/7/12 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】政治とカネ　決着の道筋と期限を示せ",
+          "link": "https://www.nishinippon.co.jp/item/1375358/",
+          "published": "2025/07/12 06:00",
           "paid": false
         }
       ]

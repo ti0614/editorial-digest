@@ -73,7 +73,7 @@
         {
           "title": "焼山噴火５０年　歴史から学び備えを常に",
           "link": "https://www.niigata-nippo.co.jp/articles/-/448586",
-          "published": "2024/7/29",
+          "published": "2024/7/29 6:00",
           "paid": false
         }
       ]
@@ -159,6 +159,23 @@
           "title": "＜社説＞高校生大麻所持逮捕　少年の心寄り添う支援を",
           "link": "https://ryukyushimpo.jp/editorial/entry-3320050.html",
           "published": "2024/07/29",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】自衛隊発足70年　文民統制を確かなものに",
+          "link": "https://www.nishinippon.co.jp/item/1240362/",
+          "published": "2024/07/29 06:00",
           "paid": false
         }
       ]

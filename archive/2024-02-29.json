@@ -73,7 +73,7 @@
         {
           "title": "県内暖冬少雪　幅広い影響支援欠かせぬ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/366577",
-          "published": "2024/2/29",
+          "published": "2024/2/29 6:00",
           "paid": false
         }
       ]
@@ -176,6 +176,23 @@
           "title": "＜社説＞陸自訓練場計画見直し　超党派要求は白紙撤回だ",
           "link": "https://ryukyushimpo.jp/editorial/entry-2851706.html",
           "published": "2024/02/29",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】九州地銀の連携　協調と競争で地域振興を",
+          "link": "https://www.nishinippon.co.jp/item/1183897/",
+          "published": "2024/02/29 06:00",
           "paid": false
         }
       ]

@@ -47,13 +47,13 @@
         {
           "title": "［社説］拙速な予算審議を政治の前例にするな",
           "link": "https://www.nikkei.com/article/DGXZQODK137XF0T10C26A3000000/",
-          "published": "3月14日",
+          "published": "2026/3/14 19:05",
           "paid": false
         },
         {
           "title": "［社説］核不拡散の後戻りを憂える",
           "link": "https://www.nikkei.com/article/DGXZQOCD092Z70Z00C26A3000000/",
-          "published": "3月14日",
+          "published": "2026/3/14 19:00",
           "paid": false
         }
       ]
@@ -131,7 +131,7 @@
         {
           "title": "予算案採決強行　目に余る巨大与党の横暴",
           "link": "https://www.niigata-nippo.co.jp/articles/-/796219",
-          "published": "3/14",
+          "published": "2026/3/14 6:00",
           "paid": false
         }
       ]
@@ -165,13 +165,13 @@
         {
           "title": "社説【交通空白の解消策】自治体主導で協力体制を",
           "link": "https://www.hokkoku.co.jp/articles/-/2045098",
-          "published": "3/14",
+          "published": "2026/3/14 5:00",
           "paid": true
         },
         {
           "title": "社説【夜間の集団暴走】危険運転や爆音止めたい",
           "link": "https://www.hokkoku.co.jp/articles/-/2045097",
-          "published": "3/14",
+          "published": "2026/3/14 5:00",
           "paid": true
         }
       ]
@@ -291,6 +291,40 @@
           "title": "＜社説＞平和センター２党脱退　反戦運動の灯を消すのか",
           "link": "https://ryukyushimpo.jp/editorial/entry-5116478.html",
           "published": "2026/03/14",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：予算案の衆院強行　憲政に禍根残す首相の横暴",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1676397",
+          "published": "2026/3/14 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】中国全人代　経済成長率追わず改革を",
+          "link": "https://www.nishinippon.co.jp/item/1469505/",
+          "published": "2026/03/14 06:00",
           "paid": false
         }
       ]

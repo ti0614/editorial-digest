@@ -73,7 +73,7 @@
         {
           "title": "イラン新大統領　改革進め国際協調実現を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/437069",
-          "published": "2024/7/10",
+          "published": "2024/7/10 6:00",
           "paid": false
         }
       ]
@@ -176,6 +176,23 @@
           "title": "＜社説＞辺野古座り込み10年　安保の不条理可視化した",
           "link": "https://ryukyushimpo.jp/editorial/entry-3248191.html",
           "published": "2024/07/10",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】英国の政権交代　アジアの安定にも貢献を",
+          "link": "https://www.nishinippon.co.jp/item/1232904/",
+          "published": "2024/07/10 06:00",
           "paid": false
         }
       ]

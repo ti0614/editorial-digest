@@ -96,7 +96,7 @@
         {
           "title": "県パートナー制度　多様性への理解深めたい",
           "link": "https://www.niigata-nippo.co.jp/articles/-/470153",
-          "published": "2024/9/4",
+          "published": "2024/9/4 6:00",
           "paid": false
         }
       ]
@@ -199,6 +199,23 @@
           "title": "＜社説＞辺野古抗告で県敗訴　自治権否定の不当判決だ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3440278.html",
           "published": "2024/09/04",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】予測困難な災害　先入観捨て万全の備えを",
+          "link": "https://www.nishinippon.co.jp/item/1254468/",
+          "published": "2024/09/04 06:00",
           "paid": false
         }
       ]

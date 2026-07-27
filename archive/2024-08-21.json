@@ -73,7 +73,7 @@
         {
           "title": "相続土地問題　制度の要件改善が必要だ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/461918",
-          "published": "2024/8/21",
+          "published": "2024/8/21 6:00",
           "paid": false
         }
       ]
@@ -159,6 +159,23 @@
           "title": "＜社説＞大浦湾くい打ち着工　無謀な国策の強行やめよ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3388373.html",
           "published": "2024/08/21",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】自民党総裁選　政治とカネの具体策語れ",
+          "link": "https://www.nishinippon.co.jp/item/1249105/",
+          "published": "2024/08/21 06:00",
           "paid": false
         }
       ]

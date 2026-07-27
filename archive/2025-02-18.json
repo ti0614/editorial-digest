@@ -59,13 +59,13 @@
         {
           "title": "［社説］消費者欺く「ダークパターン」の対策急げ",
           "link": "https://www.nikkei.com/article/DGXZQODK187CY0Y5A210C2000000/",
-          "published": "2025年2月18日",
+          "published": "2025/2/18 19:05",
           "paid": false
         },
         {
           "title": "［社説］逆境をはね返す日米韓体制に",
           "link": "https://www.nikkei.com/article/DGXZQODK184A50Y5A210C2000000/",
-          "published": "2025年2月18日",
+          "published": "2025/2/18 19:00",
           "paid": false
         }
       ]
@@ -136,7 +136,7 @@
         {
           "title": "有本さん父死去　拉致問題解決へ切迫感を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/558264",
-          "published": "2025/2/18",
+          "published": "2025/2/18 6:00",
           "paid": false
         }
       ]
@@ -222,6 +222,40 @@
           "title": "＜社説＞コメ高騰に備蓄米放出　農業と食料安保の議論を",
           "link": "https://ryukyushimpo.jp/editorial/entry-3974169.html",
           "published": "2025/02/18",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：和平問われる３年　頭越しの取引は許されない",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1424784",
+          "published": "2025/2/18 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】自民の政治資金　地方組織から改革の声を",
+          "link": "https://www.nishinippon.co.jp/item/1316935/",
+          "published": "2025/02/18 06:00",
           "paid": false
         }
       ]

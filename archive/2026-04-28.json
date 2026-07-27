@@ -47,7 +47,7 @@
         {
           "title": "社説：排出量取引制度　実効性ある肉付け策が要る",
           "link": "https://www.kyoto-np.co.jp/articles/-/1704176",
-          "published": "4月28日",
+          "published": "2026/4/28 16:00",
           "paid": false
         }
       ]
@@ -87,13 +87,13 @@
         {
           "title": "［社説］日銀は物価高警戒し柔軟な政策運営を",
           "link": "https://www.nikkei.com/article/DGXZQODK285D40Y6A420C2000000/",
-          "published": "4月28日",
+          "published": "2026/4/28 19:25",
           "paid": false
         },
         {
           "title": "［社説］安保3文書は大局を見据えよ",
           "link": "https://www.nikkei.com/article/DGXZQODK282O20Y6A420C2000000/",
-          "published": "4月28日",
+          "published": "2026/4/28 19:20",
           "paid": false
         }
       ]
@@ -150,20 +150,7 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": [
-        {
-          "title": "安全意識高めて事故防げ　自転車青切符、来年４月導入　【論説】",
-          "link": "https://www.chibanippo.co.jp/articles/1433128",
-          "published": "4/28 5:00",
-          "paid": true
-        },
-        {
-          "title": "コメ離れの悪循環回避を　米価が記録的高騰　【論説】",
-          "link": "https://www.chibanippo.co.jp/serial/1433129",
-          "published": "4/28 5:00",
-          "paid": true
-        }
-      ]
+      "items": []
     },
     {
       "name": "新潟日報",
@@ -177,7 +164,7 @@
         {
           "title": "山林火災　早期の鎮圧へ力尽くして",
           "link": "https://www.niigata-nippo.co.jp/articles/-/822023",
-          "published": "4/28",
+          "published": "2026/4/28 6:00",
           "paid": false
         }
       ]
@@ -211,13 +198,13 @@
         {
           "title": "社説【転覆事故の調査】リスク管理甘く説明不足",
           "link": "https://www.hokkoku.co.jp/articles/-/2090651",
-          "published": "4/28",
+          "published": "2026/4/28 5:00",
           "paid": true
         },
         {
           "title": "社説【二の丸御殿の着工】「文化財」の意味問う復元に",
           "link": "https://www.hokkoku.co.jp/articles/-/2090650",
-          "published": "4/28",
+          "published": "2026/4/28 5:00",
           "paid": true
         }
       ]

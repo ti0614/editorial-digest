@@ -67,7 +67,7 @@
         {
           "title": "マイナス金利解除　好循環の浸透を隅々まで",
           "link": "https://www.niigata-nippo.co.jp/articles/-/377198",
-          "published": "2024/3/20",
+          "published": "2024/3/20 6:00",
           "paid": false
         }
       ]
@@ -170,6 +170,23 @@
           "title": "＜社説＞第４６回琉球新報活動賞　沖縄の未来を描く道標に",
           "link": "https://ryukyushimpo.jp/editorial/entry-2912033.html",
           "published": "2024/03/20",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】金融政策正常化　緩和策の検証抜かりなく",
+          "link": "https://www.nishinippon.co.jp/item/1191199/",
+          "published": "2024/03/20 06:00",
           "paid": false
         }
       ]

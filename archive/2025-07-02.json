@@ -59,13 +59,13 @@
         {
           "title": "［社説］各党が責任ある政策競う参院選を望む",
           "link": "https://www.nikkei.com/article/DGXZQODK0252X0S5A700C2000000/",
-          "published": "2025年7月2日",
+          "published": "2025/7/2 19:50",
           "paid": false
         },
         {
           "title": "［社説］皇位継承策は幅広い選択肢を",
           "link": "https://www.nikkei.com/article/DGXZQODK0237H0S5A700C2000000/",
-          "published": "2025年7月2日",
+          "published": "2025/7/2 19:48",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "能登地震１年半　人口流出を食い止めたい",
           "link": "https://www.niigata-nippo.co.jp/articles/-/639546",
-          "published": "2025/7/2",
+          "published": "2025/7/2 6:00",
           "paid": false
         }
       ]
@@ -263,6 +263,46 @@
           "title": "＜社説＞石垣市長選8月投開票　結果問わず、事実解明を",
           "link": "https://ryukyushimpo.jp/editorial/entry-4399914.html",
           "published": "2025/07/02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：防衛増額の要求　米追随は理解得られぬ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1510351",
+          "published": "2025/7/2 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：香港国安法５年　進む抑圧を直視せねば",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1510338",
+          "published": "2025/7/2 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】骨太方針　賃上げ起点の成長　実現を",
+          "link": "https://www.nishinippon.co.jp/item/1371363/",
+          "published": "2025/07/02 06:00",
           "paid": false
         }
       ]

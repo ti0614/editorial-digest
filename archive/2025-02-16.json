@@ -59,13 +59,13 @@
         {
           "title": "［社説］企業はAI需要も生かし次の利益成長を",
           "link": "https://www.nikkei.com/article/DGXZQODK1619B0W5A210C2000000/",
-          "published": "2025年2月16日",
+          "published": "2025/2/16 19:05",
           "paid": false
         },
         {
           "title": "［社説］米印合意を地域安定に生かせ",
           "link": "https://www.nikkei.com/article/DGXZQODK1617F0W5A210C2000000/",
-          "published": "2025年2月16日",
+          "published": "2025/2/16 19:00",
           "paid": false
         }
       ]
@@ -102,7 +102,7 @@
         {
           "title": "高額療養費制度　当事者の声を踏まえねば",
           "link": "https://www.niigata-nippo.co.jp/articles/-/557269",
-          "published": "2025/2/16",
+          "published": "2025/2/16 6:00",
           "paid": false
         }
       ]
@@ -205,6 +205,40 @@
           "title": "＜社説＞２５年度県政運営方針　平和行政を施策の中心に",
           "link": "https://ryukyushimpo.jp/editorial/entry-3968501.html",
           "published": "2025/02/16",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：京都議定書２０年　気候危機防ぐ世界の原点だ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1423843",
+          "published": "2025/2/16 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】どうする日産　生き残りへ次の一手示せ",
+          "link": "https://www.nishinippon.co.jp/item/1316298/",
+          "published": "2025/02/16 06:00",
           "paid": false
         }
       ]

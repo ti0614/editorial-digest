@@ -59,13 +59,13 @@
         {
           "title": "［社説］改めて直視したい津波の脅威",
           "link": "https://www.nikkei.com/article/DGXZQODK3068S0Q5A730C2000000/",
-          "published": "2025年7月30日",
+          "published": "2025/7/30 21:09",
           "paid": false
         },
         {
           "title": "［社説］ガソリン減税へ代替財源の確保は当然だ",
           "link": "https://www.nikkei.com/article/DGXZQODK306G10Q5A730C2000000/",
-          "published": "2025年7月30日",
+          "published": "2025/7/30 19:05",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "自民党の混乱　再生へビジョンが見えぬ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/660061",
-          "published": "2025/7/30",
+          "published": "2025/7/30 6:00",
           "paid": false
         }
       ]
@@ -263,6 +263,46 @@
           "title": "＜社説＞原発新設調査開始へ　国民的議論は不十分だ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4491621.html",
           "published": "2025/07/30",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：自民党の混迷　見苦しい内向きの抗争",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1532243",
+          "published": "2025/7/30 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：イチローの言葉　夢かなえた目標と継続",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1532249",
+          "published": "2025/7/30 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】投開票のデマ　選挙の信頼損なう問題だ",
+          "link": "https://www.nishinippon.co.jp/item/1382209/",
+          "published": "2025/07/30 06:00",
           "paid": false
         }
       ]

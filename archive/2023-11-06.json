@@ -50,7 +50,7 @@
         {
           "title": "食物アレルギー　安心な給食へ対応万全に",
           "link": "https://www.niigata-nippo.co.jp/articles/-/308215",
-          "published": "2023/11/6",
+          "published": "2023/11/6 6:00",
           "paid": false
         }
       ]
@@ -119,6 +119,23 @@
           "title": "＜社説＞ガザ情勢悪化　これ以上犠牲者増やすな",
           "link": "https://ryukyushimpo.jp/editorial/entry-2448211.html",
           "published": "2023/11/06",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】韓国最高裁判決　冷静に日韓のトゲ抜いた",
+          "link": "https://www.nishinippon.co.jp/item/1143478/",
+          "published": "2023/11/06 06:00",
           "paid": false
         }
       ]

@@ -59,13 +59,13 @@
         {
           "title": "［社説］李大統領は日韓正常化の歩み鈍らせるな",
           "link": "https://www.nikkei.com/article/DGXZQODK044VK0U5A600C2000000/",
-          "published": "2025年6月4日",
+          "published": "2025/6/4 19:05",
           "paid": false
         },
         {
           "title": "［社説］拘禁刑で「立ち直り」を着実に",
           "link": "https://www.nikkei.com/article/DGXZQODK047IN0U5A600C2000000/",
-          "published": "2025年6月4日",
+          "published": "2025/6/4 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "長嶋茂雄さん死去　社会照らした功績は偉大",
           "link": "https://www.niigata-nippo.co.jp/articles/-/620234",
-          "published": "2025/6/4",
+          "published": "2025/6/4 6:00",
           "paid": false
         }
       ]
@@ -246,6 +246,46 @@
           "title": "＜社説＞天皇陛下きょう来県　「沖縄の傷」触れてほしい",
           "link": "https://ryukyushimpo.jp/editorial/entry-4299887.html",
           "published": "2025/06/04",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：拘禁刑への移行　社会復帰支える処遇に",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1488725",
+          "published": "2025/6/4 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：長嶋さん死去　記憶輝く昭和のスター",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1488715",
+          "published": "2025/6/4 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】長嶋さん死去　時代を照らした背番号3",
+          "link": "https://www.nishinippon.co.jp/item/1359404/",
+          "published": "2025/06/04 06:00",
           "paid": false
         }
       ]

@@ -73,7 +73,7 @@
         {
           "title": "カスハラ対策　従業員守るために必要だ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/411265",
-          "published": "2024/5/25",
+          "published": "2024/5/25 6:00",
           "paid": false
         }
       ]
@@ -176,6 +176,23 @@
           "title": "＜社説＞大浦湾サンゴ移植　保全無理なら作業やめよ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3121890.html",
           "published": "2024/05/25",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】政治家への暴力　民主主義への挑戦許すな",
+          "link": "https://www.nishinippon.co.jp/item/1215170/",
+          "published": "2024/05/25 06:00",
           "paid": false
         }
       ]

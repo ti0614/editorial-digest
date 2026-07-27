@@ -59,13 +59,13 @@
         {
           "title": "［社説］石破茂首相は難局打開へ政策の旗もっと鮮明に",
           "link": "https://www.nikkei.com/article/DGXZQODK28CUE0Y4A121C2000000/",
-          "published": "2024年11月29日",
+          "published": "2024/11/29 19:05",
           "paid": false
         },
         {
           "title": "［社説］試練を迎えるG7の結束",
           "link": "https://www.nikkei.com/article/DGXZQODK282FJ0Y4A121C2000000/",
-          "published": "2024年11月29日",
+          "published": "2024/11/29 19:00",
           "paid": false
         }
       ]
@@ -136,7 +136,7 @@
         {
           "title": "レバノン停戦　中東の和平につなげねば",
           "link": "https://www.niigata-nippo.co.jp/articles/-/517525",
-          "published": "2024/11/29",
+          "published": "2024/11/29 6:00",
           "paid": false
         }
       ]
@@ -239,6 +239,23 @@
           "title": "＜社説＞オスプレイ発火　いつまで欠陥を隠すのか",
           "link": "https://ryukyushimpo.jp/editorial/entry-3695216.html",
           "published": "2024/11/29",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】レバノン停戦　合意守りガザにつなげよ",
+          "link": "https://www.nishinippon.co.jp/item/1287391/",
+          "published": "2024/11/29 06:00",
           "paid": false
         }
       ]

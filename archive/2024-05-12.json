@@ -50,7 +50,7 @@
         {
           "title": "国の指示権拡充　地方分権に逆行しないか",
           "link": "https://www.niigata-nippo.co.jp/articles/-/403996",
-          "published": "2024/5/12",
+          "published": "2024/5/12 6:00",
           "paid": false
         }
       ]
@@ -136,6 +136,23 @@
           "title": "＜社説＞水俣病発言遮断　終わらぬ被害の認識を",
           "link": "https://ryukyushimpo.jp/editorial/entry-3068915.html",
           "published": "2024/05/12",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】国立病院で虐待　障害につけ込む人権侵害",
+          "link": "https://www.nishinippon.co.jp/item/1210227/",
+          "published": "2024/05/12 06:00",
           "paid": false
         }
       ]

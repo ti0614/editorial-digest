@@ -73,7 +73,7 @@
         {
           "title": "災害関連死　助かる命守る体制構築を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/406797",
-          "published": "2024/5/17",
+          "published": "2024/5/17 6:00",
           "paid": false
         }
       ]
@@ -176,6 +176,23 @@
           "title": "＜社説＞住民に原告適格認める　差し戻し審で実質審理を",
           "link": "https://ryukyushimpo.jp/editorial/entry-3087614.html",
           "published": "2024/05/17",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】国の指示権　根拠なき拡大認められぬ",
+          "link": "https://www.nishinippon.co.jp/item/1211983/",
+          "published": "2024/05/17 06:00",
           "paid": false
         }
       ]

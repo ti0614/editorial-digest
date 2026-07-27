@@ -53,7 +53,7 @@
         {
           "title": "社説：三たび大阪都構想　「勝つまでジャンケン」では",
           "link": "https://www.kyoto-np.co.jp/articles/-/1720677",
-          "published": "5月26日",
+          "published": "2026/5/26 16:00",
           "paid": false
         }
       ]
@@ -93,13 +93,13 @@
         {
           "title": "［社説］補正で積む予備費の乱用は許されない",
           "link": "https://www.nikkei.com/article/DGXZQODK263IH0W6A520C2000000/",
-          "published": "5月26日",
+          "published": "2026/5/26 19:05",
           "paid": false
         },
         {
           "title": "［社説］WHOは感染症で国際連携を",
           "link": "https://www.nikkei.com/article/DGXZQODK250SV0V20C26A5000000/",
-          "published": "5月26日",
+          "published": "2026/5/26 19:00",
           "paid": false
         }
       ]
@@ -156,14 +156,7 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": [
-        {
-          "title": "防除計画改定、半減に期待　カミツキガメ捕獲事業　【論説】",
-          "link": "https://www.chibanippo.co.jp/articles/1446216",
-          "published": "5/26 5:00",
-          "paid": true
-        }
-      ]
+      "items": []
     },
     {
       "name": "新潟日報",
@@ -177,7 +170,7 @@
         {
           "title": "ＮＰＴ会議決裂　核軍縮の道筋立て直しを",
           "link": "https://www.niigata-nippo.co.jp/articles/-/837219",
-          "published": "5/26",
+          "published": "2026/5/26 6:00",
           "paid": false
         }
       ]
@@ -211,13 +204,13 @@
         {
           "title": "社説【知事の文科省批判】論点のすり替えは解せぬ",
           "link": "https://www.hokkoku.co.jp/articles/-/2118159",
-          "published": "5/26",
+          "published": "2026/5/26 5:00",
           "paid": true
         },
         {
           "title": "社説【珠洲市長に泉谷氏】「最先端の復興」に道筋を",
           "link": "https://www.hokkoku.co.jp/articles/-/2118158",
-          "published": "5/26",
+          "published": "2026/5/26 5:00",
           "paid": true
         }
       ]

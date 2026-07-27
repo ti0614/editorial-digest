@@ -53,13 +53,13 @@
         {
           "title": "［社説］高市氏は安保政策見直しへ広範な議論を",
           "link": "https://www.nikkei.com/article/DGXZQODK234QP0T21C25A0000000/",
-          "published": "2025年10月23日",
+          "published": "2025/10/23 19:05",
           "paid": false
         },
         {
           "title": "［社説］科学的な漁獲規制を探れ",
           "link": "https://www.nikkei.com/article/DGXZQODK264GT0W5A820C2000000/",
-          "published": "2025年10月23日",
+          "published": "2025/10/23 19:00",
           "paid": false
         }
       ]
@@ -137,7 +137,7 @@
         {
           "title": "県勢センバツへ　２校の躍進をたたえたい",
           "link": "https://www.niigata-nippo.co.jp/articles/-/714027",
-          "published": "2025/10/23",
+          "published": "2025/10/23 6:00",
           "paid": false
         }
       ]
@@ -171,13 +171,13 @@
         {
           "title": "社説【車維持費の増加】暫定税率廃止を手始めに",
           "link": "https://www.hokkoku.co.jp/articles/-/1906056",
-          "published": "10/23",
+          "published": "2025/10/23 5:00",
           "paid": true
         },
         {
           "title": "社説【新政権の復興支援】予算と特例拡充の両面で",
           "link": "https://www.hokkoku.co.jp/articles/-/1906055",
-          "published": "10/23",
+          "published": "2025/10/23 5:00",
           "paid": true
         }
       ]
@@ -280,6 +280,46 @@
           "title": "＜社説＞自維連立政権合意書　この国の行き先を誤るな",
           "link": "https://ryukyushimpo.jp/editorial/entry-4713663.html",
           "published": "2025/10/23",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：柏崎原発対策　安全性への不安拭えぬ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1586417",
+          "published": "2025/10/23 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：裁判記録の保存　国民の財産、活用も探れ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1586407",
+          "published": "2025/10/23 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】九州国博20年　地域と歩む姿勢を次代に",
+          "link": "https://www.nishinippon.co.jp/item/1414540/",
+          "published": "2025/10/23 06:00",
           "paid": false
         }
       ]

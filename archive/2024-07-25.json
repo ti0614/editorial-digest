@@ -67,7 +67,7 @@
         {
           "title": "小林製薬の報告書　安全意識の欠如が深刻だ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/445994",
-          "published": "2024/7/25",
+          "published": "2024/7/25 6:00",
           "paid": false
         }
       ]
@@ -170,6 +170,23 @@
           "title": "＜社説＞ハリス氏後継指名へ　冷静な論戦を取り戻せ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3299283.html",
           "published": "2024/07/25",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】米兵の性犯罪　地元への公表を徹底せよ",
+          "link": "https://www.nishinippon.co.jp/item/1238660/",
+          "published": "2024/07/25 06:00",
           "paid": false
         }
       ]

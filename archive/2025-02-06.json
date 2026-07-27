@@ -59,13 +59,13 @@
         {
           "title": "［社説］危機感欠く日産とホンダの協議打ち切り",
           "link": "https://www.nikkei.com/article/DGXZQOCD0664R0W5A200C2000000/",
-          "published": "2025年2月6日",
+          "published": "2025/2/6 20:00",
           "paid": false
         },
         {
           "title": "［社説］ネット空間の治安悪化止めよ",
           "link": "https://www.nikkei.com/article/DGXZQODK064SY0W5A200C2000000/",
-          "published": "2025年2月6日",
+          "published": "2025/2/6 19:00",
           "paid": false
         }
       ]
@@ -136,7 +136,7 @@
         {
           "title": "備蓄米放出へ　流通不足解消へ力尽くせ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/551411",
-          "published": "2025/2/6",
+          "published": "2025/2/6 6:00",
           "paid": false
         }
       ]
@@ -239,6 +239,46 @@
           "title": "＜社説＞PFAS専門家会議　汚染源特定は国の責務だ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3935141.html",
           "published": "2025/02/06",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：京都府予算案　持続的な財政へ精査を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1418428",
+          "published": "2025/2/6 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：備蓄米の放出　広い視野で戦略が要る",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1418423",
+          "published": "2025/2/6 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】埼玉の道路陥没　九州も下水管の点検急げ",
+          "link": "https://www.nishinippon.co.jp/item/1312536/",
+          "published": "2025/02/06 06:00",
           "paid": false
         }
       ]

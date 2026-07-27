@@ -59,7 +59,7 @@
         {
           "title": "［社説］日米合意後も自由貿易の旗降ろすな",
           "link": "https://www.nikkei.com/article/DGXZQODK236SD0T20C25A7000000/",
-          "published": "2025年7月23日",
+          "published": "2025/7/23 19:50",
           "paid": false
         }
       ]
@@ -137,7 +137,7 @@
         {
           "title": "多数派の野党　政策実現へ真価問われる",
           "link": "https://www.niigata-nippo.co.jp/articles/-/655346",
-          "published": "2025/7/23",
+          "published": "2025/7/23 6:00",
           "paid": false
         }
       ]
@@ -257,6 +257,46 @@
           "title": "＜社説＞石破首相続投表明　政権の正当性が問われる",
           "link": "https://ryukyushimpo.jp/editorial/entry-4470517.html",
           "published": "2025/07/23",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：関電新原発調査　不安拭えぬ「回帰」加速",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1527304",
+          "published": "2025/7/23 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：博士人材の養成　場当たりやめ、本腰を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1527303",
+          "published": "2025/7/23 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】金鷲旗・玉竜旗　先人への感謝胸に熱戦を",
+          "link": "https://www.nishinippon.co.jp/item/1379361/",
+          "published": "2025/07/23 06:00",
           "paid": false
         }
       ]

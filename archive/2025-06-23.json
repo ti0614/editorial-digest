@@ -47,13 +47,13 @@
         {
           "title": "［社説］自民党は都議選大敗を真摯に受け止めよ",
           "link": "https://www.nikkei.com/article/DGXZQODK233RU0T20C25A6000000/",
-          "published": "2025年6月23日",
+          "published": "2025/6/23 19:05",
           "paid": false
         },
         {
           "title": "［社説］戦後80年に思う沖縄の重み",
           "link": "https://www.nikkei.com/article/DGXZQODK208510Q5A620C2000000/",
-          "published": "2025年6月23日",
+          "published": "2025/6/23 19:00",
           "paid": false
         }
       ]
@@ -114,7 +114,7 @@
         {
           "title": "沖縄慰霊の日　地上戦の記憶を次世代へ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/632018",
-          "published": "2025/6/23",
+          "published": "2025/6/23 6:00",
           "paid": false
         }
       ]
@@ -183,6 +183,40 @@
           "title": "＜社説＞沖縄戦80年　慰霊の日　「新しい戦前」にはしない",
           "link": "https://ryukyushimpo.jp/editorial/entry-4366031.html",
           "published": "2025/06/23",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：街路樹の倒木　潜むリスク、異変に関心を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1500607",
+          "published": "2025/6/23 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】沖縄慰霊の日　軍事優先の時代に戻すな",
+          "link": "https://www.nishinippon.co.jp/item/1367426/",
+          "published": "2025/06/23 06:00",
           "paid": false
         }
       ]

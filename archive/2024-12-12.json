@@ -59,13 +59,13 @@
         {
           "title": "［社説］英国加盟のTPPを自由貿易の防波堤に",
           "link": "https://www.nikkei.com/article/DGXZQODK1130U0R11C24A2000000/",
-          "published": "2024年12月12日",
+          "published": "2024/12/12 19:05",
           "paid": false
         },
         {
           "title": "［社説］トランプ次期米政権も日本と同盟深化を",
           "link": "https://www.nikkei.com/article/DGXZQODK1217A0S4A211C2000000/",
-          "published": "2024年12月12日",
+          "published": "2024/12/12 19:00",
           "paid": false
         }
       ]
@@ -136,7 +136,7 @@
         {
           "title": "政治改革論議　透明性高める熟議重ねよ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/524475",
-          "published": "2024/12/12",
+          "published": "2024/12/12 6:00",
           "paid": false
         }
       ]
@@ -239,6 +239,23 @@
           "title": "＜社説＞被団協平和賞演説　核廃絶の決意発信した",
           "link": "https://ryukyushimpo.jp/editorial/entry-3750593.html",
           "published": "2024/12/12",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】平和賞の演説　被爆者の言葉胸に刻もう",
+          "link": "https://www.nishinippon.co.jp/item/1292388/",
+          "published": "2024/12/12 06:00",
           "paid": false
         }
       ]

@@ -90,7 +90,7 @@
         {
           "title": "被爆体験者訴訟　政治判断で全員の救済を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/473747",
-          "published": "2024/9/11",
+          "published": "2024/9/11 6:00",
           "paid": false
         }
       ]
@@ -193,6 +193,23 @@
           "title": "＜社説＞長崎被爆体験者訴訟　国の責任で全面救済急げ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3458368.html",
           "published": "2024/09/11",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】被爆体験者　全員の救済が国の責務だ",
+          "link": "https://www.nishinippon.co.jp/item/1257097/",
+          "published": "2024/09/11 06:00",
           "paid": false
         }
       ]

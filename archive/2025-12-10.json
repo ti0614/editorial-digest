@@ -59,13 +59,13 @@
         {
           "title": "［社説］防衛費の増額は安定財源が欠かせない",
           "link": "https://www.nikkei.com/article/DGXZQODK0479B0U5A201C2000000/",
-          "published": "2025年12月10日",
+          "published": "2025/12/10 19:05",
           "paid": false
         },
         {
           "title": "［社説］欧州の対中再接近が心配だ",
           "link": "https://www.nikkei.com/article/DGXZQODK0839Y0Y5A201C2000000/",
-          "published": "2025年12月10日",
+          "published": "2025/12/10 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "後発地震注意　冷静な対応を心がけたい",
           "link": "https://www.niigata-nippo.co.jp/articles/-/743399",
-          "published": "2025/12/10",
+          "published": "2025/12/10 6:00",
           "paid": false
         }
       ]
@@ -177,13 +177,13 @@
         {
           "title": "社説【クマ出没対策】河川の雑木除去に本腰を",
           "link": "https://www.hokkoku.co.jp/articles/-/1955151",
-          "published": "12/10",
+          "published": "2025/12/10 5:00",
           "paid": true
         },
         {
           "title": "社説【後発地震情報】対策の不備を見直す機会に",
           "link": "https://www.hokkoku.co.jp/articles/-/1955150",
-          "published": "12/10",
+          "published": "2025/12/10 5:00",
           "paid": true
         }
       ]
@@ -303,6 +303,46 @@
           "title": "＜社説＞セグロウリミバエ拡大　県全体で危機意識持とう",
           "link": "https://ryukyushimpo.jp/editorial/entry-4854692.html",
           "published": "2025/12/10",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：青森で震度６強　足元の備え、再確認を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1615576",
+          "published": "2025/12/10 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：レーダー照射　日中は対話の糸口探れ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1615571",
+          "published": "2025/12/10 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】企業・団体献金　禁止を目指し規制強めよ",
+          "link": "https://www.nishinippon.co.jp/item/1433303/",
+          "published": "2025/12/10 06:00",
           "paid": false
         }
       ]

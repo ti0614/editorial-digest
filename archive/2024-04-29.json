@@ -73,7 +73,7 @@
         {
           "title": "教員給与増額案　残業時間を減らせるのか",
           "link": "https://www.niigata-nippo.co.jp/articles/-/397923",
-          "published": "2024/4/29",
+          "published": "2024/4/29 6:00",
           "paid": false
         }
       ]
@@ -159,6 +159,23 @@
           "title": "＜社説＞自民政治改革案　信頼の回復には不十分だ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3026647.html",
           "published": "2024/04/29",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】大阪・関西万博　今なぜ？の疑問に答えよ",
+          "link": "https://www.nishinippon.co.jp/item/1205970/",
+          "published": "2024/04/29 06:00",
           "paid": false
         }
       ]

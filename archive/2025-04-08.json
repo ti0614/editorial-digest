@@ -59,13 +59,13 @@
         {
           "title": "［社説］企業献金の存続は透明化の徹底が条件だ",
           "link": "https://www.nikkei.com/article/DGXZQOCD086VN0Y5A400C2000000/",
-          "published": "2025年4月8日",
+          "published": "2025/4/8 19:05",
           "paid": false
         },
         {
           "title": "［社説］ガザ攻撃再開を黙認するな",
           "link": "https://www.nikkei.com/article/DGXZQODK084T10Y5A400C2000000/",
-          "published": "2025年4月8日",
+          "published": "2025/4/8 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "ＥＴＣ障害　再発防ぎ安全な高速道に",
           "link": "https://www.niigata-nippo.co.jp/articles/-/587516",
-          "published": "2025/4/8",
+          "published": "2025/4/8 6:00",
           "paid": false
         }
       ]
@@ -246,6 +246,40 @@
           "title": "＜社説＞総務相がフジ厳重注意　放送法での指導は妥当か",
           "link": "https://ryukyushimpo.jp/editorial/entry-4131705.html",
           "published": "2025/04/08",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：コロナ禍５年　感染症担う人材の育成急務",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1455194",
+          "published": "2025/4/8 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】核軍縮賢人会議　政府は提言生かす行動を",
+          "link": "https://www.nishinippon.co.jp/item/1336757/",
+          "published": "2025/04/08 06:00",
           "paid": false
         }
       ]

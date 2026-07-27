@@ -73,7 +73,7 @@
         {
           "title": "規正法成立　政治不信が募るばかりだ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/425858",
-          "published": "2024/6/20",
+          "published": "2024/6/20 6:00",
           "paid": false
         }
       ]
@@ -176,6 +176,23 @@
           "title": "＜社説＞大浦湾工事8月本格化　着工見送り協議を続けよ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3213330.html",
           "published": "2024/06/20",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】改正規正法成立　国民の怒り1票に託そう",
+          "link": "https://www.nishinippon.co.jp/item/1225115/",
+          "published": "2024/06/20 06:00",
           "paid": false
         }
       ]

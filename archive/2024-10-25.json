@@ -59,13 +59,13 @@
         {
           "title": "［社説］BRICSは世界の分断ではなく融和を",
           "link": "https://www.nikkei.com/article/DGXZQODK244OR0U4A021C2000000/",
-          "published": "2024年10月25日",
+          "published": "2024/10/25 19:05",
           "paid": false
         },
         {
           "title": "［社説］未来決める1票を若者こそ",
           "link": "https://www.nikkei.com/article/DGXZQODK23CLE0T21C24A0000000/",
-          "published": "2024年10月25日",
+          "published": "2024/10/25 19:00",
           "paid": false
         }
       ]
@@ -136,7 +136,7 @@
         {
           "title": "外交・安保　平和と安全どう守るのか",
           "link": "https://www.niigata-nippo.co.jp/articles/-/497905",
-          "published": "2024/10/25",
+          "published": "2024/10/25 6:00",
           "paid": false
         }
       ]
@@ -239,6 +239,29 @@
           "title": "＜社説＞産業まつり開幕　高付加価値の製品に期待",
           "link": "https://ryukyushimpo.jp/editorial/entry-3582375.html",
           "published": "2024/10/25",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】エネルギー政策　原発の将来　国民で論議を",
+          "link": "https://www.nishinippon.co.jp/item/1273793/",
+          "published": "2024/10/25 06:00",
+          "paid": false
+        },
+        {
+          "title": "【気流】魅力最下位と魅力首位の隣県",
+          "link": "https://www.nishinippon.co.jp/item/1273766/",
+          "published": "2024/10/25 06:00",
           "paid": false
         }
       ]

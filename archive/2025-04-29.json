@@ -53,13 +53,13 @@
         {
           "title": "［社説］トランプ氏はこれ以上の秩序破壊やめよ",
           "link": "https://www.nikkei.com/article/DGXZQODK283XJ0Y5A420C2000000/",
-          "published": "2025年4月29日",
+          "published": "2025/4/29 19:05",
           "paid": false
         },
         {
           "title": "［社説］海運の脱炭素へ合意を弾みに",
           "link": "https://www.nikkei.com/article/DGXZQOCD21A4F0R20C25A4000000/",
-          "published": "2025年4月29日",
+          "published": "2025/4/29 19:00",
           "paid": false
         }
       ]
@@ -137,7 +137,7 @@
         {
           "title": "ミャンマー地震　国際支援の継続欠かせぬ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/599514",
-          "published": "2025/4/29",
+          "published": "2025/4/29 6:00",
           "paid": false
         }
       ]
@@ -240,6 +240,40 @@
           "title": "＜社説＞政府関税対策　新たな産業支援策を示せ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4193830.html",
           "published": "2025/04/29",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：戦後８０年談話　首相は公式に平和発信せよ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1467813",
+          "published": "2025/4/29 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】自民党の裏金　解明へ国会は手を尽くせ",
+          "link": "https://www.nishinippon.co.jp/item/1345224/",
+          "published": "2025/04/29 06:00",
           "paid": false
         }
       ]

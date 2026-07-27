@@ -59,13 +59,13 @@
         {
           "title": "［社説］核軍縮の責任を放棄した米ロを非難する",
           "link": "https://www.nikkei.com/article/DGXZQODK054AL0V00C26A2000000/",
-          "published": "2月5日",
+          "published": "2026/2/5 19:05",
           "paid": false
         },
         {
           "title": "［社説］エネルギー政策の論戦もっと",
           "link": "https://www.nikkei.com/article/DGXZQODK053YZ0V00C26A2000000/",
-          "published": "2月5日",
+          "published": "2026/2/5 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "社会保障　負担と給付共に語らねば",
           "link": "https://www.niigata-nippo.co.jp/articles/-/774293",
-          "published": "2/5",
+          "published": "2026/2/5 6:00",
           "paid": false
         }
       ]
@@ -177,13 +177,13 @@
         {
           "title": "社説【届出避難所制度】地域で拠点考える機会に",
           "link": "https://www.hokkoku.co.jp/articles/-/2007340",
-          "published": "2/5",
+          "published": "2026/2/5 5:00",
           "paid": true
         },
         {
           "title": "社説【小松空港に穴】ひび割れの原因探り対策を",
           "link": "https://www.hokkoku.co.jp/articles/-/2007339",
-          "published": "2/5",
+          "published": "2026/2/5 5:00",
           "paid": true
         }
       ]
@@ -303,6 +303,46 @@
           "title": "＜社説＞衆院選2026　外国人政策・排外主義　成熟した共生社会基本に",
           "link": "https://ryukyushimpo.jp/editorial/entry-5012964.html",
           "published": "2026/02/05",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：原発政策　回帰に委ねてよいのか",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1650405",
+          "published": "2026/2/5 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：五輪あす開幕　共感と規範示す大会に",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1650410",
+          "published": "2026/2/5 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】家族制度　個人の権利どこまで尊重",
+          "link": "https://www.nishinippon.co.jp/item/1454347/",
+          "published": "2026/02/05 06:00",
           "paid": false
         }
       ]

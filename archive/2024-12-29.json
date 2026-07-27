@@ -59,13 +59,13 @@
         {
           "title": "［社説］能登地震1年を教訓に事前防災を進めよ",
           "link": "https://www.nikkei.com/article/DGXZQODK275SB0X21C24A2000000/",
-          "published": "2024年12月29日",
+          "published": "2024/12/29 19:05",
           "paid": false
         },
         {
           "title": "［社説］金融庁と東証はインサイダー不正の猛省を",
           "link": "https://www.nikkei.com/article/DGXZQOCD26D7G0W4A221C2000000/",
-          "published": "2024年12月29日",
+          "published": "2024/12/29 19:00",
           "paid": false
         }
       ]
@@ -102,7 +102,7 @@
         {
           "title": "休職教員の増加　教育環境の抜本的改善を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/533341",
-          "published": "2024/12/29",
+          "published": "2024/12/29 6:00",
           "paid": false
         }
       ]
@@ -205,6 +205,23 @@
           "title": "＜社説＞大浦湾地盤改良着手　工事を止めて再試算示せ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3816430.html",
           "published": "2024/12/29",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】少数与党国会　「熟議」と呼ぶには程遠い",
+          "link": "https://www.nishinippon.co.jp/item/1298990/",
+          "published": "2024/12/29 06:00",
           "paid": false
         }
       ]

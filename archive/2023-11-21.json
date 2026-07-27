@@ -50,7 +50,7 @@
         {
           "title": "映画助成金　表現の自由重くみた判決",
           "link": "https://www.niigata-nippo.co.jp/articles/-/315968",
-          "published": "2023/11/21",
+          "published": "2023/11/21 6:00",
           "paid": false
         }
       ]
@@ -136,6 +136,23 @@
           "title": "＜社説＞宝塚歌劇団の組織風土　業界全体の抜本改革必要",
           "link": "https://ryukyushimpo.jp/editorial/entry-2493669.html",
           "published": "2023/11/21",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】宝塚劇団員の死　真相解明して組織改革を",
+          "link": "https://www.nishinippon.co.jp/item/1148213/",
+          "published": "2023/11/21 06:00",
           "paid": false
         }
       ]

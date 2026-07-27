@@ -59,13 +59,13 @@
         {
           "title": "［社説］中国は日本の水産物輸入規制を撤廃せよ",
           "link": "https://www.nikkei.com/article/DGXZQODK027XV0S5A600C2000000/",
-          "published": "2025年6月3日",
+          "published": "2025/6/3 19:05",
           "paid": false
         },
         {
           "title": "［社説］戦後日本を照らした長嶋氏",
           "link": "https://www.nikkei.com/article/DGXZQODK0369G0T00C25A6000000/",
-          "published": "2025年6月3日",
+          "published": "2025/6/3 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "職場の熱中症　労働者の生命守る対策を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/619542",
-          "published": "2025/6/3",
+          "published": "2025/6/3 6:00",
           "paid": false
         }
       ]
@@ -246,6 +246,40 @@
           "title": "＜社説＞南城市長不信任否決　市議会も被害に背向けた",
           "link": "https://ryukyushimpo.jp/editorial/entry-4297308.html",
           "published": "2025/06/03",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：新潟水俣病６０年　幅広い被害者の救済を急げ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1488035",
+          "published": "2025/6/3 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】中学の部活動　地域全体で支える体制を",
+          "link": "https://www.nishinippon.co.jp/item/1358946/",
+          "published": "2025/06/03 06:00",
           "paid": false
         }
       ]

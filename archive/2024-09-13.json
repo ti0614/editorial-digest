@@ -96,7 +96,7 @@
         {
           "title": "自民総裁選告示　具体的な政策示し論戦を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/475136",
-          "published": "2024/9/13",
+          "published": "2024/9/13 6:00",
           "paid": false
         }
       ]
@@ -182,6 +182,23 @@
           "title": "＜社説＞自民党総裁選告示　明確な沖縄ビジョン示せ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3464426.html",
           "published": "2024/09/13",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】マングース根絶　外来種「入れぬ」を教訓に",
+          "link": "https://www.nishinippon.co.jp/item/1258006/",
+          "published": "2024/09/13 06:00",
           "paid": false
         }
       ]

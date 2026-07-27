@@ -59,13 +59,13 @@
         {
           "title": "［社説］地域安保への日本の貢献を米政権に説け",
           "link": "https://www.nikkei.com/article/DGXZQODK2373J0T20C25A3000000/",
-          "published": "2025年3月24日",
+          "published": "2025/3/24 19:05",
           "paid": false
         },
         {
           "title": "［社説］「ポケモンGO」成功の教訓",
           "link": "https://www.nikkei.com/article/DGXZQODK239YB0T20C25A3000000/",
-          "published": "2025年3月24日",
+          "published": "2025/3/24 19:00",
           "paid": false
         }
       ]
@@ -126,7 +126,7 @@
         {
           "title": "オンラインカジノ　違法性の啓発を強めねば",
           "link": "https://www.niigata-nippo.co.jp/articles/-/578834",
-          "published": "2025/3/24",
+          "published": "2025/3/24 6:00",
           "paid": false
         }
       ]
@@ -212,6 +212,40 @@
           "title": "＜社説＞オンラインカジノ　「違法」との周知が急務だ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4084157.html",
           "published": "2025/03/24",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：海外援助の今後　重要性の説明、さらに丁寧に",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1445621",
+          "published": "2025/3/24 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】衆院の選挙制度　改革に国民意思の反映を",
+          "link": "https://www.nishinippon.co.jp/item/1330349/",
+          "published": "2025/03/24 06:00",
           "paid": false
         }
       ]

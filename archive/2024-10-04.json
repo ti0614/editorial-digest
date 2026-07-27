@@ -113,7 +113,7 @@
         {
           "title": "止まらぬ値上げ　賃金上昇広めていかねば",
           "link": "https://www.niigata-nippo.co.jp/articles/-/487105",
-          "published": "2024/10/4",
+          "published": "2024/10/4 6:00",
           "paid": false
         }
       ]
@@ -216,6 +216,23 @@
           "title": "＜社説＞宮崎空港不発弾爆発　調査と撤去は国の責任だ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3518968.html",
           "published": "2024/10/04",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】首相と金融市場　変動を過度に意識するな",
+          "link": "https://www.nishinippon.co.jp/item/1265965/",
+          "published": "2024/10/04 06:00",
           "paid": false
         }
       ]

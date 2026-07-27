@@ -73,7 +73,7 @@
         {
           "title": "尊富士優勝　若い力の偉業たたえたい",
           "link": "https://www.niigata-nippo.co.jp/articles/-/380128",
-          "published": "2024/3/26",
+          "published": "2024/3/26 6:00",
           "paid": false
         }
       ]
@@ -176,6 +176,23 @@
           "title": "＜社説＞マイナス金利解除　国民取り残さない政策を",
           "link": "https://ryukyushimpo.jp/editorial/entry-2928864.html",
           "published": "2024/03/26",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】九州の男女格差　小さな変化を地域全体に",
+          "link": "https://www.nishinippon.co.jp/item/1193436/",
+          "published": "2024/03/26 06:00",
           "paid": false
         }
       ]

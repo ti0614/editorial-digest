@@ -47,19 +47,19 @@
         {
           "title": "［社説］NISA見直しは公平と簡素を重んじよ",
           "link": "https://www.nikkei.com/article/DGXZQODK031KY0T00C25A5000000/",
-          "published": "2025年5月3日",
+          "published": "2025/5/3 19:05",
           "paid": false
         },
         {
           "title": "［社説］米安保チームの混乱が心配だ",
           "link": "https://www.nikkei.com/article/DGXZQODK024ZT0S5A500C2000000/",
-          "published": "2025年5月3日",
+          "published": "2025/5/3 19:00",
           "paid": false
         },
         {
           "title": "［社説］改憲めぐり国会で熟議深めよ",
           "link": "https://www.nikkei.com/article/DGXZQODK306690Q5A430C2000000/",
-          "published": "2025年5月3日",
+          "published": "2025/5/3 0:00",
           "paid": false
         }
       ]
@@ -137,7 +137,7 @@
         {
           "title": "憲法記念日　平和の理念と向き合おう",
           "link": "https://www.niigata-nippo.co.jp/articles/-/601845",
-          "published": "2025/5/3",
+          "published": "2025/5/3 6:00",
           "paid": false
         }
       ]
@@ -223,6 +223,40 @@
           "title": "＜社説＞日本国憲法施行78年　沖縄への完全適用求める",
           "link": "https://ryukyushimpo.jp/editorial/entry-4203998.html",
           "published": "2025/05/03",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：憲法記念日に　異論に耳を傾ける姿勢こそ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1470215",
+          "published": "2025/5/3 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】憲法を考える　「個人の尊重」こそ土台に",
+          "link": "https://www.nishinippon.co.jp/item/1346817/",
+          "published": "2025/05/03 06:00",
           "paid": false
         }
       ]

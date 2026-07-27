@@ -59,13 +59,13 @@
         {
           "title": "［社説］抑止力向上は道半ばの安保法成立10年",
           "link": "https://www.nikkei.com/article/DGXZQODK173QJ0X10C25A9000000/",
-          "published": "2025年9月20日",
+          "published": "2025/9/20 19:05",
           "paid": false
         },
         {
           "title": "［社説］米国は安易な対中譲歩避けよ",
           "link": "https://www.nikkei.com/article/DGXZQODK200SZ0Q5A920C2000000/",
-          "published": "2025年9月20日",
+          "published": "2025/9/20 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "日米の金融政策　経済安定へ適切な判断を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/693626",
-          "published": "2025/9/20",
+          "published": "2025/9/20 6:00",
           "paid": false
         }
       ]
@@ -177,19 +177,19 @@
         {
           "title": "社説【金沢おどり】支援糧に希望託す花舞台",
           "link": "https://www.hokkoku.co.jp/articles/-/1872619",
-          "published": "9/20",
+          "published": "2025/9/20 5:00",
           "paid": true
         },
         {
           "title": "社説【安保法成立１０年】集団的自衛権あればこそ",
           "link": "https://www.hokkoku.co.jp/articles/-/1872618",
-          "published": "9/20",
+          "published": "2025/9/20 5:00",
           "paid": true
         },
         {
           "title": "社説【金沢おどり】支援を糧に希望託す花舞台",
           "link": "https://www.hokkoku.co.jp/articles/-/1872594",
-          "published": "9/20",
+          "published": "2025/9/20 5:00",
           "paid": true
         }
       ]
@@ -292,6 +292,40 @@
           "title": "＜社説＞宿泊税条例成立　持続的発展への第一歩に",
           "link": "https://ryukyushimpo.jp/editorial/entry-4632114.html",
           "published": "2025/09/20",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：金融政策の独立　政治の介入排す信頼性こそ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1565800",
+          "published": "2025/9/20 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】上昇続く地価　住宅の高止まりに対応を",
+          "link": "https://www.nishinippon.co.jp/item/1401765/",
+          "published": "2025/09/20 06:00",
           "paid": false
         }
       ]

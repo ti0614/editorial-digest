@@ -53,13 +53,13 @@
         {
           "title": "［社説］ドイツは政権協議急ぎ欧州安定の一歩に",
           "link": "https://www.nikkei.com/article/DGXZQODK206YN0Q5A220C2000000/",
-          "published": "2025年2月25日",
+          "published": "2025/2/25 19:05",
           "paid": false
         },
         {
           "title": "［社説］金融教育とNISAは両輪で",
           "link": "https://www.nikkei.com/article/DGXZQODK258EX0V20C25A2000000/",
-          "published": "2025年2月25日",
+          "published": "2025/2/25 19:00",
           "paid": false
         }
       ]
@@ -113,7 +113,7 @@
         {
           "title": "トキ能登放鳥へ　復興のシンボルへ力強く",
           "link": "https://www.niigata-nippo.co.jp/articles/-/562189",
-          "published": "2025/2/25",
+          "published": "2025/2/25 6:00",
           "paid": false
         }
       ]
@@ -182,6 +182,40 @@
           "title": "【デジタル教科書】効果と課題の検証続けよ",
           "link": "https://www.kochinews.co.jp/article/detail/835179",
           "published": "2025.02.25 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：デジタル教科書　紙のメリットも十分考慮を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1429002",
+          "published": "2025/2/25 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】「西の都」を除外　地域の宝　活用の再検討を",
+          "link": "https://www.nishinippon.co.jp/item/1319495/",
+          "published": "2025/02/25 06:00",
           "paid": false
         }
       ]

@@ -86,7 +86,7 @@
         {
           "title": "女流棋士　柔軟な対局規定欠かせぬ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/745980",
-          "published": "2025/12/14",
+          "published": "2025/12/14 6:00",
           "paid": false
         }
       ]
@@ -120,19 +120,19 @@
         {
           "title": "社説【戦争の語り部】若者の継承活動支えたい",
           "link": "https://www.hokkoku.co.jp/articles/-/1959706",
-          "published": "12/14",
+          "published": "2025/12/14 5:00",
           "paid": true
         },
         {
           "title": "社説【「絶景海道」の整備】能登観光再生の推進力に",
           "link": "https://www.hokkoku.co.jp/articles/-/1959705",
-          "published": "12/14",
+          "published": "2025/12/14 5:00",
           "paid": true
         },
         {
           "title": "社説【戦争の語り部】若者の継承活動を支えたい",
           "link": "https://www.hokkoku.co.jp/articles/-/1959700",
-          "published": "12/14",
+          "published": "2025/12/14 5:00",
           "paid": true
         }
       ]
@@ -218,6 +218,40 @@
           "title": "＜社説＞東大琉球遺骨保管　返還の意思早急に表明を",
           "link": "https://ryukyushimpo.jp/editorial/entry-4868946.html",
           "published": "2025/12/14",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：地方税収の格差　東京集中、抜本是正が必要だ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1618155",
+          "published": "2025/12/14 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】企業向け減税策　効果を検証して絞り込め",
+          "link": "https://www.nishinippon.co.jp/item/1435042/",
+          "published": "2025/12/14 06:00",
           "paid": false
         }
       ]

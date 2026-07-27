@@ -73,7 +73,7 @@
         {
           "title": "米兵の少女暴行　沖縄の怒りを受け止めよ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/430455",
-          "published": "2024/6/28",
+          "published": "2024/6/28 6:00",
           "paid": false
         }
       ]
@@ -159,6 +159,23 @@
           "title": "＜社説＞レーダー北大東配備　軍備増強より緊張緩和を",
           "link": "https://ryukyushimpo.jp/editorial/entry-3239507.html",
           "published": "2024/06/28",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】裁判員制度15年　経験共有できる仕組みを",
+          "link": "https://www.nishinippon.co.jp/item/1228307/",
+          "published": "2024/06/28 06:00",
           "paid": false
         }
       ]

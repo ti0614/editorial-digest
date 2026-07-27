@@ -59,13 +59,13 @@
         {
           "title": "［社説］才能が交わり人材を育む大阪万博に",
           "link": "https://www.nikkei.com/article/DGXZQODK11B9H0R10C25A4000000/",
-          "published": "2025年4月12日",
+          "published": "2025/4/12 19:05",
           "paid": false
         },
         {
           "title": "［社説］日鉄のUSスチール買収に公正な審査を",
           "link": "https://www.nikkei.com/article/DGXZQOCD11C4L0R10C25A4000000/",
-          "published": "2025年4月12日",
+          "published": "2025/4/12 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "コメ価格高止まり　時代に合った農政が必要",
           "link": "https://www.niigata-nippo.co.jp/articles/-/590184",
-          "published": "2025/4/12",
+          "published": "2025/4/12 6:00",
           "paid": false
         }
       ]
@@ -246,6 +246,40 @@
           "title": "＜社説＞日米合同パトロール　元凶絶ち性暴力事件防げ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4144793.html",
           "published": "2025/04/12",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：大阪・関西万博、開幕　「輝き」がはらむ影も見つめて",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1458086",
+          "published": "2025/4/12 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】九州への避難　有事を回避する外交こそ",
+          "link": "https://www.nishinippon.co.jp/item/1338605/",
+          "published": "2025/04/12 06:00",
           "paid": false
         }
       ]

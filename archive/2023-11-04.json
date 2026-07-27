@@ -50,7 +50,7 @@
         {
           "title": "増える不登校　安心できる居場所もっと",
           "link": "https://www.niigata-nippo.co.jp/articles/-/307625",
-          "published": "2023/11/4",
+          "published": "2023/11/4 6:00",
           "paid": false
         }
       ]
@@ -136,6 +136,23 @@
           "title": "＜社説＞頻発する高校生犯罪　事件を模倣　深刻な事態だ",
           "link": "https://ryukyushimpo.jp/editorial/entry-2442005.html",
           "published": "2023/11/04",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】首相の任命責任　適材適所がうつろに響く",
+          "link": "https://www.nishinippon.co.jp/item/1143035/",
+          "published": "2023/11/04 06:00",
           "paid": false
         }
       ]

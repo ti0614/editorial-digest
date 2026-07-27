@@ -33,7 +33,7 @@
         {
           "title": "大学統合・再編　地方の定員満たす努力を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/318403",
-          "published": "2023/11/26",
+          "published": "2023/11/26 6:00",
           "paid": false
         }
       ]
@@ -119,6 +119,23 @@
           "title": "＜社説＞重要湿地に与那国新港　自然と軍備計画共存せず",
           "link": "https://ryukyushimpo.jp/editorial/entry-2510314.html",
           "published": "2023/11/26",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】基金見直し指示　活用進めた首相は反省を",
+          "link": "https://www.nishinippon.co.jp/item/1150144/",
+          "published": "2023/11/26 06:00",
           "paid": false
         }
       ]

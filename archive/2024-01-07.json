@@ -33,7 +33,7 @@
         {
           "title": "２０２４政治　言葉の力を取り戻す時だ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/340209",
-          "published": "2024/1/7",
+          "published": "2024/1/7 6:00",
           "paid": false
         }
       ]
@@ -119,6 +119,23 @@
           "title": "＜社説＞「特定利用」県内１２カ所　沖縄の戦場化を回避せよ",
           "link": "https://ryukyushimpo.jp/editorial/entry-2662393.html",
           "published": "2024/01/07",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】国際情勢と日本　対立解く積極的な貢献を",
+          "link": "https://www.nishinippon.co.jp/item/1164841/",
+          "published": "2024/01/07 06:00",
           "paid": false
         }
       ]

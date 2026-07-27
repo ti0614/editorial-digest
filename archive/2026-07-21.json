@@ -82,13 +82,13 @@
         {
           "title": "［社説］骨太の方針　高市財政の規律を予算編成で示すべきだ",
           "link": "https://www.nikkei.com/article/DGXZQODK217P60R20C26A7000000/",
-          "published": "21日",
+          "published": "2026/7/21 19:05",
           "paid": false
         },
         {
           "title": "［社説］キャッシュレスの死角なくせ",
           "link": "https://www.nikkei.com/article/DGXZQODK16B9P0W6A710C2000000/",
-          "published": "21日",
+          "published": "2026/7/21 19:00",
           "paid": false
         }
       ]
@@ -182,7 +182,7 @@
         {
           "title": "社説：相次ぐ検察不祥事　組織の抜本改革が不可欠だ",
           "link": "https://www.kyoto-np.co.jp/articles/-/1755299",
-          "published": "7月21日",
+          "published": "2026/7/21 16:00",
           "paid": false
         }
       ]
@@ -360,14 +360,7 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": [
-        {
-          "title": "被害阻止へ県民の“目”必要　クビアカツヤカミキリ千葉県内確認　【論説】",
-          "link": "https://www.chibanippo.co.jp/articles/1472204",
-          "published": "7/21 5:00",
-          "paid": true
-        }
-      ]
+      "items": []
     },
     {
       "name": "新潟日報",
@@ -381,7 +374,7 @@
         {
           "title": "再審見直し成立　冤罪からの救済に不十分",
           "link": "https://www.niigata-nippo.co.jp/articles/-/870999",
-          "published": "7/21",
+          "published": "2026/7/21 6:00",
           "paid": false
         }
       ]
@@ -415,13 +408,13 @@
         {
           "title": "社説【空飛ぶ通信基地局】能登を新技術確立の地に",
           "link": "https://www.hokkoku.co.jp/articles/-/2175709",
-          "published": "7/21",
+          "published": "2026/7/21 5:00",
           "paid": true
         },
         {
           "title": "社説【最低賃金の改定】着実に引き上げの継続を",
           "link": "https://www.hokkoku.co.jp/articles/-/2175708",
-          "published": "7/21",
+          "published": "2026/7/21 5:00",
           "paid": true
         }
       ]

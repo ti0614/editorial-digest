@@ -73,7 +73,7 @@
         {
           "title": "プーチン氏５選　侵攻の正当化にはならぬ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/376649",
-          "published": "2024/3/19",
+          "published": "2024/3/19 6:00",
           "paid": false
         }
       ]
@@ -176,6 +176,23 @@
           "title": "＜社説＞同性婚札幌高裁判決　国会の不作為許されない",
           "link": "https://ryukyushimpo.jp/editorial/entry-2909781.html",
           "published": "2024/03/19",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】オスプレイ再開　原因説明尽くさず拙速だ",
+          "link": "https://www.nishinippon.co.jp/item/1190817/",
+          "published": "2024/03/19 06:00",
           "paid": false
         }
       ]

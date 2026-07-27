@@ -50,7 +50,7 @@
         {
           "title": "殺傷武器輸出　国民不在の転換不誠実だ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/333867",
-          "published": "2023/12/27",
+          "published": "2023/12/27 6:00",
           "paid": false
         }
       ]
@@ -136,6 +136,23 @@
           "title": "＜社説＞国交相、代執行を表明　政府は法治をゆがめた",
           "link": "https://ryukyushimpo.jp/editorial/entry-2620802.html",
           "published": "2023/12/27",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】保険証の廃止　期限ありきは乱暴過ぎる",
+          "link": "https://www.nishinippon.co.jp/item/1161759/",
+          "published": "2023/12/27 06:00",
           "paid": false
         }
       ]

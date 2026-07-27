@@ -59,13 +59,13 @@
         {
           "title": "［社説］新型コロナ5年を教訓に平時から備えを",
           "link": "https://www.nikkei.com/article/DGXZQODK145H00U5A310C2000000/",
-          "published": "2025年3月16日",
+          "published": "2025/3/16 19:05",
           "paid": false
         },
         {
           "title": "［社説］「法の支配」を守る重責支えよ",
           "link": "https://www.nikkei.com/article/DGXZQODK1613I0W5A310C2000000/",
-          "published": "2025年3月16日",
+          "published": "2025/3/16 19:00",
           "paid": false
         }
       ]
@@ -109,7 +109,7 @@
         {
           "title": "国際アニメ映画祭　世界の拠点を目指したい",
           "link": "https://www.niigata-nippo.co.jp/articles/-/574558",
-          "published": "2025/3/16",
+          "published": "2025/3/16 6:00",
           "paid": false
         }
       ]
@@ -212,6 +212,40 @@
           "title": "＜社説＞セグロウリミバエ　ブランド守る正念場だ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4055409.html",
           "published": "2025/03/16",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：企業の防災対策　地域の拠点と自覚し、強化を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1440929",
+          "published": "2025/3/16 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】大学再編時代へ　地域との連携一層強化を",
+          "link": "https://www.nishinippon.co.jp/item/1327243/",
+          "published": "2025/03/16 06:00",
           "paid": false
         }
       ]

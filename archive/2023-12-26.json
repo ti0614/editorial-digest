@@ -50,7 +50,7 @@
         {
           "title": "辺野古代執行へ　自治体の権限を奪うのか",
           "link": "https://www.niigata-nippo.co.jp/articles/-/333297",
-          "published": "2023/12/26",
+          "published": "2023/12/26 6:00",
           "paid": false
         }
       ]
@@ -142,6 +142,23 @@
           "title": "＜社説＞知事代執行判決従わず　政府は対話に転換せよ",
           "link": "https://ryukyushimpo.jp/editorial/entry-2618103.html",
           "published": "2023/12/26",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】ダイハツの不正　安全軽視の影響は甚大だ",
+          "link": "https://www.nishinippon.co.jp/item/1161370/",
+          "published": "2023/12/26 06:00",
           "paid": false
         }
       ]

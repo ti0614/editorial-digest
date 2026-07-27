@@ -73,7 +73,7 @@
         {
           "title": "子育て支援金　具体的な負担額示さねば",
           "link": "https://www.niigata-nippo.co.jp/articles/-/384559",
-          "published": "2024/4/3",
+          "published": "2024/4/3 6:00",
           "paid": false
         }
       ]
@@ -159,6 +159,23 @@
           "title": "＜社説＞「特定利用」指定　政府はリスクも説明せよ",
           "link": "https://ryukyushimpo.jp/editorial/entry-2951621.html",
           "published": "2024/04/03",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】安保インフラ　払拭できない有事の不安",
+          "link": "https://www.nishinippon.co.jp/item/1196621/",
+          "published": "2024/04/03 06:00",
           "paid": false
         }
       ]

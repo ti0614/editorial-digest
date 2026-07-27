@@ -73,7 +73,7 @@
         {
           "title": "熱中症　梅雨入り前も警戒が必要",
           "link": "https://www.niigata-nippo.co.jp/articles/-/422524",
-          "published": "2024/6/14",
+          "published": "2024/6/14 6:00",
           "paid": false
         }
       ]
@@ -176,6 +176,23 @@
           "title": "＜社説＞ジェンダー・ギャップ　格差解消は政治の責務だ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3190853.html",
           "published": "2024/06/14",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】日朝会談なき20年　拉致問題解決へ対話急げ",
+          "link": "https://www.nishinippon.co.jp/item/1222829/",
+          "published": "2024/06/14 06:00",
           "paid": false
         }
       ]

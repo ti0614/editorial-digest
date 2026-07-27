@@ -59,7 +59,7 @@
         {
           "title": "［社説］トランプ米大統領はこれ以上世界壊すな",
           "link": "https://www.nikkei.com/article/DGXZQODK16CEJ0W6A110C2000000/",
-          "published": "1月17日",
+          "published": "2026/1/17 19:00",
           "paid": false
         }
       ]
@@ -137,7 +137,7 @@
         {
           "title": "立民・公明新党　政権の対抗軸になれるか",
           "link": "https://www.niigata-nippo.co.jp/articles/-/763580",
-          "published": "1/17",
+          "published": "2026/1/17 6:00",
           "paid": false
         }
       ]
@@ -171,13 +171,13 @@
         {
           "title": "社説【消防出初め式】担い手発掘の役割増す",
           "link": "https://www.hokkoku.co.jp/articles/-/1989162",
-          "published": "1/17",
+          "published": "2026/1/17 5:00",
           "paid": true
         },
         {
           "title": "社説【行くべき旅先に石川】世界が認めた評価を誇りに",
           "link": "https://www.hokkoku.co.jp/articles/-/1989161",
-          "published": "1/17",
+          "published": "2026/1/17 5:00",
           "paid": true
         }
       ]
@@ -297,6 +297,40 @@
           "title": "＜社説＞立民・公明新党結成　政権との対立軸を示せ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4963896.html",
           "published": "2026/01/17",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：阪神大震災31年　風化防ぎ、被災後のまち描け",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1637937",
+          "published": "2026/1/17 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】立民・公明新党　中道の理念を明確に示せ",
+          "link": "https://www.nishinippon.co.jp/item/1446939/",
+          "published": "2026/01/17 06:00",
           "paid": false
         }
       ]

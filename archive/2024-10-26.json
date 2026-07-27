@@ -53,13 +53,13 @@
         {
           "title": "［社説］中東の両軍事大国は攻撃の応酬を止めよ",
           "link": "https://www.nikkei.com/article/DGXZQODK261NR0W4A021C2000000/",
-          "published": "2024年10月26日",
+          "published": "2024/10/26 19:05",
           "paid": false
         },
         {
           "title": "［社説］国民審査で司法に意思示そう",
           "link": "https://www.nikkei.com/article/DGXZQODK253YN0V21C24A0000000/",
-          "published": "2024年10月26日",
+          "published": "2024/10/26 19:00",
           "paid": false
         }
       ]
@@ -130,7 +130,7 @@
         {
           "title": "共生社会　多様な価値を尊重せねば",
           "link": "https://www.niigata-nippo.co.jp/articles/-/498508",
-          "published": "2024/10/26",
+          "published": "2024/10/26 6:00",
           "paid": false
         }
       ]
@@ -233,6 +233,23 @@
           "title": "＜社説＞’24衆院選　憲法　国民は改憲急いでいない",
           "link": "https://ryukyushimpo.jp/editorial/entry-3586082.html",
           "published": "2024/10/26",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】高等教育無償化　実現へ財源の議論深めよ",
+          "link": "https://www.nishinippon.co.jp/item/1274183/",
+          "published": "2024/10/26 06:00",
           "paid": false
         }
       ]

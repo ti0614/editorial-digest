@@ -50,7 +50,7 @@
         {
           "title": "万博まで５００日　国民の理解を得なければ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/321609",
-          "published": "2023/12/2",
+          "published": "2023/12/2 6:00",
           "paid": false
         }
       ]
@@ -136,6 +136,23 @@
           "title": "＜社説＞与那原に米船寄港　民間港の軍事利用許すな",
           "link": "https://ryukyushimpo.jp/editorial/entry-2534432.html",
           "published": "2023/12/02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】北朝鮮の「衛星」　ロシア接近に警戒強めよ",
+          "link": "https://www.nishinippon.co.jp/item/1152622/",
+          "published": "2023/12/02 06:00",
           "paid": false
         }
       ]

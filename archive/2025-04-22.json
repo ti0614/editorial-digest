@@ -59,13 +59,13 @@
         {
           "title": "［社説］エネルギー補助を選挙目当てに使うな",
           "link": "https://www.nikkei.com/article/DGXZQODK226E90S5A420C2000000/",
-          "published": "2025年4月22日",
+          "published": "2025/4/22 19:05",
           "paid": false
         },
         {
           "title": "［社説］寛容と対話を貫いたローマ教皇",
           "link": "https://www.nikkei.com/article/DGXZQOCD222R30S5A420C2000000/",
-          "published": "2025年4月22日",
+          "published": "2025/4/22 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "ロシアの停戦宣言　和平探る本気度見えない",
           "link": "https://www.niigata-nippo.co.jp/articles/-/595452",
-          "published": "2025/4/22",
+          "published": "2025/4/22 6:00",
           "paid": false
         }
       ]
@@ -246,6 +246,40 @@
           "title": "＜社説＞学術会議法人化法案　理念・独立性損なう悪法だ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4174187.html",
           "published": "2025/04/22",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：トランプ流３カ月　信用失い、行き詰まり示す",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1463688",
+          "published": "2025/4/22 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】財政情報の公開　自治体は伝え方に工夫を",
+          "link": "https://www.nishinippon.co.jp/item/1342400/",
+          "published": "2025/04/22 06:00",
           "paid": false
         }
       ]

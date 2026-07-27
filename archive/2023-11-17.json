@@ -50,7 +50,7 @@
         {
           "title": "米中首脳会談　緊張緩和へ対話の継続を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/314070",
-          "published": "2023/11/17",
+          "published": "2023/11/17 6:00",
           "paid": false
         }
       ]
@@ -119,6 +119,23 @@
           "title": "＜社説＞辺野古訴訟県敗訴　自治を訴え続けるべきだ",
           "link": "https://ryukyushimpo.jp/editorial/entry-2483061.html",
           "published": "2023/11/17",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】米中首脳会談　関係改善を世界の利益に",
+          "link": "https://www.nishinippon.co.jp/item/1147035/",
+          "published": "2023/11/17 06:00",
           "paid": false
         }
       ]

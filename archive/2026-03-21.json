@@ -47,13 +47,13 @@
         {
           "title": "［社説］燃料高対策の補助金再開は問題が多い",
           "link": "https://www.nikkei.com/article/DGXZQODK2023U0Q6A320C2000000/",
-          "published": "3月21日",
+          "published": "2026/3/21 19:05",
           "paid": false
         },
         {
           "title": "［社説］「観光立国」総点検の5年間に",
           "link": "https://www.nikkei.com/article/DGXZQODK198X00Z10C26A3000000/",
-          "published": "3月21日",
+          "published": "2026/3/21 19:00",
           "paid": false
         }
       ]
@@ -114,7 +114,7 @@
         {
           "title": "日米首脳会談　首相の貢献姿勢試された",
           "link": "https://www.niigata-nippo.co.jp/articles/-/800179",
-          "published": "3/21",
+          "published": "2026/3/21 6:00",
           "paid": false
         }
       ]
@@ -148,13 +148,13 @@
         {
           "title": "社説【手取川の土砂堆積】排出力の低下傾向を懸念",
           "link": "https://www.hokkoku.co.jp/articles/-/2052234",
-          "published": "3/21",
+          "published": "2026/3/21 5:00",
           "paid": true
         },
         {
           "title": "社説【日米会談の成果】同盟の深化は安心できる",
           "link": "https://www.hokkoku.co.jp/articles/-/2052233",
-          "published": "3/21",
+          "published": "2026/3/21 5:00",
           "paid": true
         }
       ]
@@ -274,6 +274,40 @@
           "title": "＜社説＞日米首脳会談　対米追従リスク認識せよ",
           "link": "https://ryukyushimpo.jp/editorial/entry-5135475.html",
           "published": "2026/03/21",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：日米首脳会談　できる貢献は停戦の後押し",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1680745",
+          "published": "2026/3/21 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】日米首脳会談　法の支配と同盟の両立を",
+          "link": "https://www.nishinippon.co.jp/item/1472138/",
+          "published": "2026/03/21 06:00",
           "paid": false
         }
       ]

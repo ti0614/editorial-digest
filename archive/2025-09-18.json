@@ -59,13 +59,13 @@
         {
           "title": "［社説］FRBは利下げ再開後も圧力排し判断を",
           "link": "https://www.nikkei.com/article/DGXZQODK186RD0Y5A910C2000000/",
-          "published": "2025年9月18日",
+          "published": "2025/9/18 19:05",
           "paid": false
         },
         {
           "title": "［社説］中国の反日宣伝を憂慮する",
           "link": "https://www.nikkei.com/article/DGXZQODK185VW0Y5A910C2000000/",
-          "published": "2025年9月18日",
+          "published": "2025/9/18 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "ガザ市地上侵攻　制止顧みぬ暴走許されず",
           "link": "https://www.niigata-nippo.co.jp/articles/-/691844",
-          "published": "2025/9/18",
+          "published": "2025/9/18 6:00",
           "paid": false
         }
       ]
@@ -177,13 +177,13 @@
         {
           "title": "社説【秋の交通事故多発】早まる日没に注意喚起を",
           "link": "https://www.hokkoku.co.jp/articles/-/1870269",
-          "published": "9/18",
+          "published": "2025/9/18 5:00",
           "paid": true
         },
         {
           "title": "社説【給食で食中毒】温度管理は適切だったか",
           "link": "https://www.hokkoku.co.jp/articles/-/1870268",
-          "published": "9/18",
+          "published": "2025/9/18 5:00",
           "paid": true
         }
       ]
@@ -286,6 +286,46 @@
           "title": "＜社説＞琉球新報賞・特別賞　功績たたえ道標としたい",
           "link": "https://ryukyushimpo.jp/editorial/entry-4625171.html",
           "published": "2025/09/18",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：緊急避妊薬　必要時に使える環境を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1564154",
+          "published": "2025/9/18 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：ロ無人機の越境　危うい挑発、許されない",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1564153",
+          "published": "2025/9/18 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】軽油カルテル　疑惑解明し適正な取引を",
+          "link": "https://www.nishinippon.co.jp/item/1400738/",
+          "published": "2025/09/18 06:00",
           "paid": false
         }
       ]

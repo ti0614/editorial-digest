@@ -53,7 +53,7 @@
         {
           "title": "社説：沖縄慰霊の日　国は広がる溝埋める努力を",
           "link": "https://www.kyoto-np.co.jp/articles/-/1737655",
-          "published": "6月23日",
+          "published": "2026/6/23 16:00",
           "paid": false
         }
       ]
@@ -93,13 +93,13 @@
         {
           "title": "［社説］英政権は円滑な移行で混乱収拾を急げ",
           "link": "https://www.nikkei.com/article/DGXZQOCD128J00S6A510C2000000/",
-          "published": "6月23日",
+          "published": "2026/6/23 19:05",
           "paid": false
         },
         {
           "title": "［社説］巨匠・グリーンスパン氏が残したFRBの光と影",
           "link": "https://www.nikkei.com/article/DGXZQODK237HU0T20C26A6000000/",
-          "published": "6月23日",
+          "published": "2026/6/23 19:00",
           "paid": false
         }
       ]
@@ -163,14 +163,7 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": [
-        {
-          "title": "個人でできる予防怠るな　職場の熱中症対策が義務化　【論説】",
-          "link": "https://www.chibanippo.co.jp/articles/1458769",
-          "published": "6/23 5:00",
-          "paid": true
-        }
-      ]
+      "items": []
     },
     {
       "name": "新潟日報",
@@ -184,7 +177,7 @@
         {
           "title": "サッカーＷ杯　「最高の景色」へ快進撃を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/853894",
-          "published": "6/23",
+          "published": "2026/6/23 6:00",
           "paid": false
         }
       ]
@@ -218,13 +211,13 @@
         {
           "title": "社説【白山の駐車予約制】路駐禁止の意識高めたい",
           "link": "https://www.hokkoku.co.jp/articles/-/2147320",
-          "published": "6/23",
+          "published": "2026/6/23 5:00",
           "paid": true
         },
         {
           "title": "社説【食品消費税１％】「苦肉の策」でも現実的な案",
           "link": "https://www.hokkoku.co.jp/articles/-/2147319",
-          "published": "6/23",
+          "published": "2026/6/23 5:00",
           "paid": true
         }
       ]

@@ -53,13 +53,13 @@
         {
           "title": "［社説］赤字ローカル線は国と自治体の問題だ",
           "link": "https://www.nikkei.com/article/DGXZQODK248OY0U6A420C2000000/",
-          "published": "4月24日",
+          "published": "2026/4/24 19:16",
           "paid": false
         },
         {
           "title": "［社説］攻めのM&Aで垣根を越えよ",
           "link": "https://www.nikkei.com/article/DGXZQODK246B20U6A420C2000000/",
-          "published": "4月24日",
+          "published": "2026/4/24 19:05",
           "paid": false
         }
       ]
@@ -130,7 +130,7 @@
         {
           "title": "米イラン停戦延長　和平につながる再協議を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/820009",
-          "published": "4/24",
+          "published": "2026/4/24 6:00",
           "paid": false
         }
       ]
@@ -164,19 +164,19 @@
         {
           "title": "社説【台南市と合意締結】次代へ継ぐ若者交流を",
           "link": "https://www.hokkoku.co.jp/articles/-/2086863",
-          "published": "4/24",
+          "published": "2026/4/24 5:00",
           "paid": true
         },
         {
           "title": "社説【武器輸出解禁】防衛産業の強化に不可欠",
           "link": "https://www.hokkoku.co.jp/articles/-/2086862",
-          "published": "4/24",
+          "published": "2026/4/24 5:00",
           "paid": true
         },
         {
           "title": "社説【台南市と合意締結】次代へ受け継ぐ若者交流を",
           "link": "https://www.hokkoku.co.jp/articles/-/2086837",
-          "published": "4/24",
+          "published": "2026/4/24 5:00",
           "paid": true
         }
       ]
@@ -296,6 +296,46 @@
           "title": "＜社説＞未成年のSNS規制　実効性ある取り組み急げ",
           "link": "https://ryukyushimpo.jp/editorial/entry-5208238.html",
           "published": "2026/04/24",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：ニデックの不正　組織の病巣断ってこそ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1701802",
+          "published": "2026/4/24 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：ハンガリー選挙　政権交代をＥＵ結束へ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1701801",
+          "published": "2026/4/24 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】石油製品の供給　官民で流通不安の解消を",
+          "link": "https://www.nishinippon.co.jp/item/1485298/",
+          "published": "2026/04/24 06:00",
           "paid": false
         }
       ]

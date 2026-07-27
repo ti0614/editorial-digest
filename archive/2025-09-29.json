@@ -59,19 +59,19 @@
         {
           "title": "［社説］医療保険の負担の改革をさらに進めよ",
           "link": "https://www.nikkei.com/article/DGXZQOCD264RY0W5A920C2000000/",
-          "published": "2025年9月29日",
+          "published": "2025/9/29 19:05",
           "paid": false
         },
         {
           "title": "［社説］イラン核合意の崩壊を憂う",
           "link": "https://www.nikkei.com/article/DGXZQODK295Y50Z20C25A9000000/",
-          "published": "2025年9月29日",
+          "published": "2025/9/29 19:00",
           "paid": false
         },
         {
           "title": "［社説］日本郵政は民営化の原点に立ち戻れ",
           "link": "https://www.nikkei.com/article/DGXZQOCD26A7S0W5A920C2000000/",
-          "published": "2025年9月29日",
+          "published": "2025/9/29 17:09",
           "paid": false
         }
       ]
@@ -118,14 +118,7 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": [
-        {
-          "title": "早期再公募で事業推進を　銚子沖風力発電事業者撤退　【論説】",
-          "link": "https://www.chibanippo.co.jp/articles/1503809",
-          "published": "9/29 5:00",
-          "paid": true
-        }
-      ]
+      "items": []
     },
     {
       "name": "新潟日報",
@@ -139,7 +132,7 @@
         {
           "title": "デジタル教科書　学びの充実につなげたい",
           "link": "https://www.niigata-nippo.co.jp/articles/-/698431",
-          "published": "2025/9/29",
+          "published": "2025/9/29 6:00",
           "paid": false
         }
       ]
@@ -173,13 +166,13 @@
         {
           "title": "社説【熱中症搬送最多】災害級の猛暑が常態化",
           "link": "https://www.hokkoku.co.jp/articles/-/1881082",
-          "published": "9/29",
+          "published": "2025/9/29 5:00",
           "paid": true
         },
         {
           "title": "社説【高卒の採用選考】学校はサポートの強化を",
           "link": "https://www.hokkoku.co.jp/articles/-/1881081",
-          "published": "9/29",
+          "published": "2025/9/29 5:00",
           "paid": true
         }
       ]
@@ -265,6 +258,40 @@
           "title": "＜社説＞母子世帯と扶養控除　実態に即さぬ制度是正を",
           "link": "https://ryukyushimpo.jp/editorial/entry-4655918.html",
           "published": "2025/09/29",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：国連創設８０年　戦火止める使命へ改革急げ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1571153",
+          "published": "2025/9/29 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】リチウム電池　火災防止の対策を官民で",
+          "link": "https://www.nishinippon.co.jp/item/1404843/",
+          "published": "2025/09/29 06:00",
           "paid": false
         }
       ]

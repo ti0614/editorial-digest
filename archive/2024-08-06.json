@@ -67,7 +67,7 @@
         {
           "title": "原爆の日　世界を核廃絶へ導かねば",
           "link": "https://www.niigata-nippo.co.jp/articles/-/453727",
-          "published": "2024/8/6",
+          "published": "2024/8/6 6:00",
           "paid": false
         }
       ]
@@ -170,6 +170,23 @@
           "title": "＜社説＞広島原爆投下79年　核抑止論も「絶対悪」だ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3344604.html",
           "published": "2024/08/06",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】核兵器なき世界　被爆国の決意が欠かせぬ",
+          "link": "https://www.nishinippon.co.jp/item/1243911/",
+          "published": "2024/08/06 06:00",
           "paid": false
         }
       ]

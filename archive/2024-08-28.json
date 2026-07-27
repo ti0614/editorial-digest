@@ -96,7 +96,7 @@
         {
           "title": "中国軍機が侵犯　安全を脅かす挑発行為だ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/465640",
-          "published": "2024/8/28",
+          "published": "2024/8/28 6:00",
           "paid": false
         }
       ]
@@ -199,6 +199,23 @@
           "title": "＜社説＞処理水放出１年　漁業者支援に全力尽くせ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3413810.html",
           "published": "2024/08/28",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】デブリ採取中断　初歩的ミスでは済まない",
+          "link": "https://www.nishinippon.co.jp/item/1251634/",
+          "published": "2024/08/28 06:00",
           "paid": false
         }
       ]

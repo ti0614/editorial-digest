@@ -59,13 +59,13 @@
         {
           "title": "［社説］日本の半導体は復活できるか正念場だ",
           "link": "https://www.nikkei.com/article/DGXZQODK208TS0Q4A221C2000000/",
-          "published": "2024年12月22日",
+          "published": "2024/12/22 19:05",
           "paid": false
         },
         {
           "title": "［社説］民間ロケット失敗の検証を",
           "link": "https://www.nikkei.com/article/DGXZQOCD1856C0Y4A211C2000000/",
-          "published": "2024年12月22日",
+          "published": "2024/12/22 19:00",
           "paid": false
         }
       ]
@@ -102,7 +102,7 @@
         {
           "title": "闇バイト対策　あらゆる手段で撲滅図れ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/529830",
-          "published": "2024/12/22",
+          "published": "2024/12/22 6:00",
           "paid": false
         }
       ]
@@ -205,6 +205,23 @@
           "title": "＜社説＞きょう県民大会　何度でも集まり声上げる",
           "link": "https://ryukyushimpo.jp/editorial/entry-3789851.html",
           "published": "2024/12/22",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】プラごみ汚染　防止条約へ各国は協調を",
+          "link": "https://www.nishinippon.co.jp/item/1296315/",
+          "published": "2024/12/22 06:00",
           "paid": false
         }
       ]

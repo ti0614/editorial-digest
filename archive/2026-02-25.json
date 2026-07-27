@@ -59,13 +59,13 @@
         {
           "title": "［社説］不人気に焦るトランプ氏の暴走を危ぶむ",
           "link": "https://www.nikkei.com/article/DGXZQODK2545X0V20C26A2000000/",
-          "published": "2月25日",
+          "published": "2026/2/25 19:05",
           "paid": false
         },
         {
           "title": "［社説］高市首相のカタログギフト配布は軽率だ",
           "link": "https://www.nikkei.com/article/DGXZQODK2530D0V20C26A2000000/",
-          "published": "2月25日",
+          "published": "2026/2/25 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "ウクライナ侵攻４年　終戦実現を急がなければ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/785228",
-          "published": "2/25",
+          "published": "2026/2/25 6:00",
           "paid": false
         }
       ]
@@ -177,13 +177,13 @@
         {
           "title": "社説【珠洲に芸術家拠点】復興力づける交流の場に",
           "link": "https://www.hokkoku.co.jp/articles/-/2026207",
-          "published": "2/25",
+          "published": "2026/2/25 5:00",
           "paid": true
         },
         {
           "title": "社説【相次ぐ地下水汚染】水質のリスク管理徹底を",
           "link": "https://www.hokkoku.co.jp/articles/-/2026206",
-          "published": "2/25",
+          "published": "2026/2/25 5:00",
           "paid": true
         }
       ]
@@ -303,6 +303,46 @@
           "title": "＜社説＞ウクライナ侵攻4年　国際社会結束で停戦急げ",
           "link": "https://ryukyushimpo.jp/editorial/entry-5067555.html",
           "published": "2026/02/25",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：トランプ関税　違法判決を受け止めよ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1665432",
+          "published": "2026/2/25 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：危険運転見直し　基準もとに安全徹底を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1665425",
+          "published": "2026/2/25 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】米関税は違法　大統領の暴走抑える判決",
+          "link": "https://www.nishinippon.co.jp/item/1462087/",
+          "published": "2026/02/25 06:00",
           "paid": false
         }
       ]

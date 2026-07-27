@@ -56,7 +56,7 @@
         {
           "title": "株高と円安　企業の恩恵家計に広げて",
           "link": "https://www.niigata-nippo.co.jp/articles/-/439477",
-          "published": "2024/7/14",
+          "published": "2024/7/14 6:00",
           "paid": false
         }
       ]
@@ -159,6 +159,23 @@
           "title": "＜社説＞那覇軍港環境アセス　移設なき返還で自然守れ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3263639.html",
           "published": "2024/07/14",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】荒れる選挙運動　節度を保つ手だてが必要",
+          "link": "https://www.nishinippon.co.jp/item/1234536/",
+          "published": "2024/07/14 06:00",
           "paid": false
         }
       ]

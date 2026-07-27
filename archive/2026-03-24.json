@@ -53,13 +53,13 @@
         {
           "title": "［社説］インサイダー取引許さぬ公正な市場に",
           "link": "https://www.nikkei.com/article/DGXZQODK2460N0U6A320C2000000/",
-          "published": "3月24日",
+          "published": "2026/3/24 19:05",
           "paid": false
         },
         {
           "title": "［社説］移動の季節に地方への関心を",
           "link": "https://www.nikkei.com/article/DGXZQODK247P20U6A320C2000000/",
-          "published": "3月24日",
+          "published": "2026/3/24 19:00",
           "paid": false
         }
       ]
@@ -123,20 +123,7 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": [
-        {
-          "title": "根深い自民の金権体質象徴　首相の商品券問題　【論説】",
-          "link": "https://www.chibanippo.co.jp/serial/1417552",
-          "published": "3/24 5:00",
-          "paid": true
-        },
-        {
-          "title": "“循環資源”として生かそう　深刻化する野生鳥獣　【論説】",
-          "link": "https://www.chibanippo.co.jp/serial/1417551",
-          "published": "3/24 5:00",
-          "paid": true
-        }
-      ]
+      "items": []
     },
     {
       "name": "新潟日報",
@@ -150,7 +137,7 @@
         {
           "title": "核ごみ処分地　国民的議論が欠かせない",
           "link": "https://www.niigata-nippo.co.jp/articles/-/801577",
-          "published": "3/24",
+          "published": "2026/3/24 6:00",
           "paid": false
         }
       ]
@@ -184,13 +171,13 @@
         {
           "title": "社説【クロマグロ漁獲枠】大量回遊の対策も重要に",
           "link": "https://www.hokkoku.co.jp/articles/-/2054619",
-          "published": "3/24",
+          "published": "2026/3/24 5:00",
           "paid": true
         },
         {
           "title": "社説【ホルムズ封鎖状態】足止めされた船舶の救出を",
           "link": "https://www.hokkoku.co.jp/articles/-/2054618",
-          "published": "3/24",
+          "published": "2026/3/24 5:00",
           "paid": true
         }
       ]
@@ -310,6 +297,40 @@
           "title": "＜社説＞首相が旧姓法制化主張　根本的解決にはならない",
           "link": "https://ryukyushimpo.jp/editorial/entry-5141628.html",
           "published": "2026/03/24",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：春闘賃上げ交渉　中小企業への波及後押しを",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1682190",
+          "published": "2026/3/24 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】辺野古沖で事故　安全優先した平和学習に",
+          "link": "https://www.nishinippon.co.jp/item/1473082/",
+          "published": "2026/03/24 06:00",
           "paid": false
         }
       ]

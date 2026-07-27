@@ -59,13 +59,13 @@
         {
           "title": "［社説］安保の民間技術連携は科学研究が礎だ",
           "link": "https://www.nikkei.com/article/DGXZQODK176WO0X10C26A4000000/",
-          "published": "4月17日",
+          "published": "2026/4/17 19:05",
           "paid": false
         },
         {
           "title": "［社説］生産意欲そぐ農政から脱却を",
           "link": "https://www.nikkei.com/article/DGXZQODK0259U0S6A400C2000000/",
-          "published": "4月17日",
+          "published": "2026/4/17 19:00",
           "paid": false
         }
       ]
@@ -136,7 +136,7 @@
         {
           "title": "党大会に自衛官　政治的中立に疑念生じた",
           "link": "https://www.niigata-nippo.co.jp/articles/-/815706",
-          "published": "4/17",
+          "published": "2026/4/17 6:00",
           "paid": false
         }
       ]
@@ -170,13 +170,13 @@
         {
           "title": "社説【中古マンション急騰】投機的「金沢買い」に注意",
           "link": "https://www.hokkoku.co.jp/articles/-/2079635",
-          "published": "4/17",
+          "published": "2026/4/17 5:00",
           "paid": true
         },
         {
           "title": "社説【田んぼダムの普及】都市部の関心も高めたい",
           "link": "https://www.hokkoku.co.jp/articles/-/2079633",
-          "published": "4/17",
+          "published": "2026/4/17 5:00",
           "paid": true
         }
       ]
@@ -296,6 +296,46 @@
           "title": "＜社説＞辺野古転覆事故1カ月　再発防止向け徹底究明を",
           "link": "https://ryukyushimpo.jp/editorial/entry-5193916.html",
           "published": "2026/04/17",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：熊本地震１０年　災害デマ対策も急務だ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1697458",
+          "published": "2026/4/17 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：自民新ビジョン　国民分断せぬ党目指せ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1697457",
+          "published": "2026/4/17 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】シェルター整備　万が一の備えは大切だが",
+          "link": "https://www.nishinippon.co.jp/item/1482638/",
+          "published": "2026/04/17 06:00",
           "paid": false
         }
       ]

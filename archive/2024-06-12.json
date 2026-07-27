@@ -73,7 +73,7 @@
         {
           "title": "ガザ情勢　国連決議停戦へ導きたい",
           "link": "https://www.niigata-nippo.co.jp/articles/-/421139",
-          "published": "2024/6/12",
+          "published": "2024/6/12 6:00",
           "paid": false
         }
       ]
@@ -176,6 +176,23 @@
           "title": "＜社説＞川崎沖縄県人会100年　足跡に学び、語り継ごう",
           "link": "https://ryukyushimpo.jp/editorial/entry-3184217.html",
           "published": "2024/06/12",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】捜査書類の管理　「適宜廃棄」は冤罪を生む",
+          "link": "https://www.nishinippon.co.jp/item/1221926/",
+          "published": "2024/06/12 06:00",
           "paid": false
         }
       ]

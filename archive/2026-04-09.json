@@ -59,13 +59,13 @@
         {
           "title": "［社説］外国人材の受け入れ上限は柔軟な運用を",
           "link": "https://www.nikkei.com/article/DGXZQODK063L50W6A400C2000000/",
-          "published": "4月9日",
+          "published": "2026/4/9 19:05",
           "paid": false
         },
         {
           "title": "［社説］女性議員への道を広げたい",
           "link": "https://www.nikkei.com/article/DGXZQODK068BF0W6A400C2000000/",
-          "published": "4月9日",
+          "published": "2026/4/9 19:00",
           "paid": false
         }
       ]
@@ -126,7 +126,7 @@
         {
           "title": "米イラン停戦合意　恒久的な和平の第一歩に",
           "link": "https://www.niigata-nippo.co.jp/articles/-/811322",
-          "published": "4/9",
+          "published": "2026/4/9 6:00",
           "paid": false
         }
       ]
@@ -160,13 +160,13 @@
         {
           "title": "社説【金沢の庭園調査】新たなまち巡りの提案を",
           "link": "https://www.hokkoku.co.jp/articles/-/2071705",
-          "published": "4/9",
+          "published": "2026/4/9 5:00",
           "paid": true
         },
         {
           "title": "社説【米イラン即時停戦】最終合意へ確実な一歩に",
           "link": "https://www.hokkoku.co.jp/articles/-/2071704",
-          "published": "4/9",
+          "published": "2026/4/9 5:00",
           "paid": true
         }
       ]
@@ -286,6 +286,46 @@
           "title": "＜社説＞米イラン即時停戦合意　恒久終戦への努力重ねよ",
           "link": "https://ryukyushimpo.jp/editorial/entry-5178655.html",
           "published": "2026/04/09",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：米・イラン停戦　恒久化へとつなげねば",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1692731",
+          "published": "2026/4/9 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：クマ被害対策　人材確保へ環境作りを",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1692728",
+          "published": "2026/4/9 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】米イラン停戦　自制を保ち和平の実現を",
+          "link": "https://www.nishinippon.co.jp/item/1479694/",
+          "published": "2026/04/09 06:00",
           "paid": false
         }
       ]

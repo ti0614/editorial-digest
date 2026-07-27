@@ -47,13 +47,13 @@
         {
           "title": "［社説］巨大テック企業はAI投資の恩恵を示せ",
           "link": "https://www.nikkei.com/article/DGXZQODK101OP0Q6A210C2000000/",
-          "published": "2月10日",
+          "published": "2026/2/10 19:05",
           "paid": false
         },
         {
           "title": "［社説］トヨタ新経営陣は逆風に挑め",
           "link": "https://www.nikkei.com/article/DGXZQOCD1053Z0Q6A210C2000000/",
-          "published": "2月10日",
+          "published": "2026/2/10 19:00",
           "paid": false
         }
       ]
@@ -131,7 +131,7 @@
         {
           "title": "高市自民１強　おごり排し誠実な政権に",
           "link": "https://www.niigata-nippo.co.jp/articles/-/777178",
-          "published": "2/10",
+          "published": "2026/2/10 6:00",
           "paid": false
         }
       ]
@@ -165,13 +165,13 @@
         {
           "title": "社説【大雪選挙の検証】災害時の備えにもなる",
           "link": "https://www.hokkoku.co.jp/articles/-/2012394",
-          "published": "2/10",
+          "published": "2026/2/10 5:00",
           "paid": true
         },
         {
           "title": "社説【中道代表が辞任へ】新党早くも存亡の危機に",
           "link": "https://www.hokkoku.co.jp/articles/-/2012393",
-          "published": "2/10",
+          "published": "2026/2/10 5:00",
           "paid": true
         }
       ]
@@ -291,6 +291,40 @@
           "title": "＜社説＞衆院選オール沖縄大敗　敗因受け止め原点回帰を",
           "link": "https://ryukyushimpo.jp/editorial/entry-5025707.html",
           "published": "2026/02/10",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：１強多弱の政治　与党の自制、野党の抑止必要",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1654264",
+          "published": "2026/2/10 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】試練の野党　巨大与党の監視役果たせ",
+          "link": "https://www.nishinippon.co.jp/item/1456476/",
+          "published": "2026/02/10 06:00",
           "paid": false
         }
       ]

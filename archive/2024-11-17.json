@@ -59,13 +59,13 @@
         {
           "title": "［社説］セブンへの買収提案を公正に判断せよ",
           "link": "https://www.nikkei.com/article/DGXZQODK151BD0V11C24A1000000/",
-          "published": "2024年11月17日",
+          "published": "2024/11/17 19:05",
           "paid": false
         },
         {
           "title": "［社説］米新政権も中国と対話続けよ",
           "link": "https://www.nikkei.com/article/DGXZQODK1714L0X11C24A1000000/",
-          "published": "2024年11月17日",
+          "published": "2024/11/17 19:00",
           "paid": false
         }
       ]
@@ -102,7 +102,7 @@
         {
           "title": "トランプ氏　露骨な人事に不安が募る",
           "link": "https://www.niigata-nippo.co.jp/articles/-/510792",
-          "published": "2024/11/17",
+          "published": "2024/11/17 6:00",
           "paid": false
         }
       ]
@@ -205,6 +205,23 @@
           "title": "＜社説＞北部豪雨１週間　早期の生活復旧へ全力を",
           "link": "https://ryukyushimpo.jp/editorial/entry-3655343.html",
           "published": "2024/11/17",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】地方創生再起動　まず集権的発想を改めよ",
+          "link": "https://www.nishinippon.co.jp/item/1282784/",
+          "published": "2024/11/17 06:00",
           "paid": false
         }
       ]

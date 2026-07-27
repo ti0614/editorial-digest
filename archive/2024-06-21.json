@@ -73,7 +73,7 @@
         {
           "title": "ロ朝軍事協力　北東アジアの安定脅かす",
           "link": "https://www.niigata-nippo.co.jp/articles/-/426519",
-          "published": "2024/6/21",
+          "published": "2024/6/21 6:00",
           "paid": false
         }
       ]
@@ -176,6 +176,23 @@
           "title": "＜社説＞改正自治法が成立　不当な介入拡大危惧する",
           "link": "https://ryukyushimpo.jp/editorial/entry-3217421.html",
           "published": "2024/06/21",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】地方自治法改正　上意下達の拡大は認めぬ",
+          "link": "https://www.nishinippon.co.jp/item/1225556/",
+          "published": "2024/06/21 06:00",
           "paid": false
         }
       ]

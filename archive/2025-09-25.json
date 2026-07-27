@@ -59,13 +59,13 @@
         {
           "title": "［社説］創設80年の国連は安保理改革今こそ前に",
           "link": "https://www.nikkei.com/article/DGXZQODK252ZQ0V20C25A9000000/",
-          "published": "2025年9月25日",
+          "published": "2025/9/25 19:05",
           "paid": false
         },
         {
           "title": "［社説］ネパールは国政再建を急げ",
           "link": "https://www.nikkei.com/article/DGXZQODK2555P0V20C25A9000000/",
-          "published": "2025年9月25日",
+          "published": "2025/9/25 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "総裁選討論会　内向きの主張活気乏しく",
           "link": "https://www.niigata-nippo.co.jp/articles/-/696270",
-          "published": "2025/9/25",
+          "published": "2025/9/25 6:00",
           "paid": false
         }
       ]
@@ -177,13 +177,13 @@
         {
           "title": "社説【介護保険に危機感】地方の声聞き人手確保を",
           "link": "https://www.hokkoku.co.jp/articles/-/1877299",
-          "published": "9/25",
+          "published": "2025/9/25 5:00",
           "paid": true
         },
         {
           "title": "社説【金沢駅前の再開発】機能性と美観備えたビルに",
           "link": "https://www.hokkoku.co.jp/articles/-/1877298",
-          "published": "9/25",
+          "published": "2025/9/25 5:00",
           "paid": true
         }
       ]
@@ -286,6 +286,46 @@
           "title": "＜社説＞「スマホ2時間」条例　使い方見つめ直す契機に",
           "link": "https://ryukyushimpo.jp/editorial/entry-4645971.html",
           "published": "2025/09/25",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：パレスチナ承認　人道危機を止める力に",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1568710",
+          "published": "2025/9/25 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：地価の上昇続く　過熱の副作用、目配りを",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1568698",
+          "published": "2025/9/25 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】ロシアの侵犯　NATOへの挑発やめよ",
+          "link": "https://www.nishinippon.co.jp/item/1403361/",
+          "published": "2025/09/25 06:00",
           "paid": false
         }
       ]

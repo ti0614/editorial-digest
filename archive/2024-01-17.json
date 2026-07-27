@@ -50,7 +50,7 @@
         {
           "title": "陸自の靖国参拝　政教分離への抵触明白だ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/345203",
-          "published": "2024/1/17",
+          "published": "2024/1/17 6:00",
           "paid": false
         }
       ]
@@ -136,6 +136,23 @@
           "title": "＜社説＞砂川事件訴訟判決　米国追随判断を踏襲した",
           "link": "https://ryukyushimpo.jp/editorial/entry-2699162.html",
           "published": "2024/01/17",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】介護報酬の改定　人材の確保には不十分だ",
+          "link": "https://www.nishinippon.co.jp/item/1168302/",
+          "published": "2024/01/17 06:00",
           "paid": false
         }
       ]

@@ -59,13 +59,13 @@
         {
           "title": "［社説］強力なカスハラ防止策は企業の責務だ",
           "link": "https://www.nikkei.com/article/DGXZQODK213W30R20C25A3000000/",
-          "published": "2025年3月21日",
+          "published": "2025/3/21 19:05",
           "paid": false
         },
         {
           "title": "［社説］米国の物価高圧力に細心の注意を",
           "link": "https://www.nikkei.com/article/DGXZQODK2124H0R20C25A3000000/",
-          "published": "2025年3月21日",
+          "published": "2025/3/21 19:00",
           "paid": false
         }
       ]
@@ -126,7 +126,7 @@
         {
           "title": "地下鉄サリン３０年　風化させぬ努力が不可欠",
           "link": "https://www.niigata-nippo.co.jp/articles/-/577377",
-          "published": "2025/3/21",
+          "published": "2025/3/21 6:00",
           "paid": false
         }
       ]
@@ -229,6 +229,40 @@
           "title": "＜社説＞首相商品券配布　不信払拭へ徹底調査せよ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4072349.html",
           "published": "2025/03/21",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：禁煙店の頭打ち　法見直しで実効性を高めよ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1443996",
+          "published": "2025/3/21 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】上がる地価　訪日客の効果を広げたい",
+          "link": "https://www.nishinippon.co.jp/item/1329239/",
+          "published": "2025/03/21 06:00",
           "paid": false
         }
       ]

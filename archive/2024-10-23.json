@@ -59,13 +59,13 @@
         {
           "title": "［社説］人気取りの米大統領選は債務膨張を招く",
           "link": "https://www.nikkei.com/article/DGXZQODK236QG0T21C24A0000000/",
-          "published": "2024年10月23日",
+          "published": "2024/10/23 19:05",
           "paid": false
         },
         {
           "title": "［社説］若者の不安拭う少子化対策を",
           "link": "https://www.nikkei.com/article/DGXZQODK217IV0R21C24A0000000/",
-          "published": "2024年10月23日",
+          "published": "2024/10/23 19:00",
           "paid": false
         }
       ]
@@ -136,7 +136,7 @@
         {
           "title": "中越地震２０年　復興の歩みを共有財産に",
           "link": "https://www.niigata-nippo.co.jp/articles/-/496663",
-          "published": "2024/10/23",
+          "published": "2024/10/23 6:00",
           "paid": false
         }
       ]
@@ -239,6 +239,23 @@
           "title": "＜社説＞’24衆院選　経済政策　暮らしに向き合う提言を",
           "link": "https://ryukyushimpo.jp/editorial/entry-3576638.html",
           "published": "2024/10/23",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】災害への備え　なぜ防災庁議論を深めよ",
+          "link": "https://www.nishinippon.co.jp/item/1272922/",
+          "published": "2024/10/23 06:00",
           "paid": false
         }
       ]

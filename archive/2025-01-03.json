@@ -47,7 +47,7 @@
         {
           "title": "［社説］自由で開かれた貿易を守り抜け",
           "link": "https://www.nikkei.com/article/DGXZQODK27B0C0X21C24A2000000/",
-          "published": "2025年1月3日",
+          "published": "2025/1/3 19:00",
           "paid": false
         }
       ]
@@ -101,7 +101,7 @@
         {
           "title": "能登半島地震１年　再建へ息の長い支援必要",
           "link": "https://www.niigata-nippo.co.jp/articles/-/534450",
-          "published": "2025/1/3",
+          "published": "2025/1/3 6:00",
           "paid": false
         }
       ]
@@ -170,6 +170,23 @@
           "title": "【年初に　経済】生活底上げし成長軌道へ",
           "link": "https://www.kochinews.co.jp/article/detail/818439",
           "published": "2025.01.03 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】多縁な社会へ　知人口を地域で増やそう",
+          "link": "https://www.nishinippon.co.jp/item/1299862/",
+          "published": "2025/01/03 06:00",
           "paid": false
         }
       ]

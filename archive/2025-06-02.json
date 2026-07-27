@@ -59,13 +59,13 @@
         {
           "title": "［社説］中小の賃上げ支援で補助金投入は疑問だ",
           "link": "https://www.nikkei.com/article/DGXZQODK026YC0S5A600C2000000/",
-          "published": "2025年6月2日",
+          "published": "2025/6/2 19:05",
           "paid": false
         },
         {
           "title": "［社説］公安の「違法捜査」徹底検証を",
           "link": "https://www.nikkei.com/article/DGXZQODK3074U0Q5A530C2000000/",
-          "published": "2025年6月2日",
+          "published": "2025/6/2 19:00",
           "paid": false
         }
       ]
@@ -126,7 +126,7 @@
         {
           "title": "兵庫情報漏えい　知事の証言なぜ違うのか",
           "link": "https://www.niigata-nippo.co.jp/articles/-/618820",
-          "published": "2025/6/2",
+          "published": "2025/6/2 6:00",
           "paid": false
         }
       ]
@@ -212,6 +212,40 @@
           "title": "＜社説＞与那国医師不在恐れ　住民福祉維持が最優先だ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4294680.html",
           "published": "2025/06/02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：地方議会の請願　住民の声、軽んじていないか",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1487214",
+          "published": "2025/6/2 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】関係人口の拡大　縮小する地域支える力に",
+          "link": "https://www.nishinippon.co.jp/item/1358503/",
+          "published": "2025/06/02 06:00",
           "paid": false
         }
       ]

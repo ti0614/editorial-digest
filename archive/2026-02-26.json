@@ -59,13 +59,13 @@
         {
           "title": "［社説］熟議が見えない「自民1強」の代表質問",
           "link": "https://www.nikkei.com/article/DGXZQODK262P50W6A220C2000000/",
-          "published": "2月26日",
+          "published": "2026/2/26 19:05",
           "paid": false
         },
         {
           "title": "［社説］中国の経済的威圧は逆効果だ",
           "link": "https://www.nikkei.com/article/DGXZQODK247AJ0U6A220C2000000/",
-          "published": "2月26日",
+          "published": "2026/2/26 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "米国の代替関税　利己的な姿勢が目に余る",
           "link": "https://www.niigata-nippo.co.jp/articles/-/785974",
-          "published": "2/26",
+          "published": "2026/2/26 6:00",
           "paid": false
         }
       ]
@@ -177,13 +177,13 @@
         {
           "title": "社説【米国のイラン圧力】双方に衝突回避求めたい",
           "link": "https://www.hokkoku.co.jp/articles/-/2027311",
-          "published": "2/26",
+          "published": "2026/2/26 5:00",
           "paid": true
         },
         {
           "title": "社説【富山に災害備蓄拠点】北陸一体で備える弾みに",
           "link": "https://www.hokkoku.co.jp/articles/-/2027310",
-          "published": "2/26",
+          "published": "2026/2/26 5:00",
           "paid": true
         }
       ]
@@ -303,6 +303,46 @@
           "title": "＜社説＞新トランプ関税　世界経済　不確実性抑えよ",
           "link": "https://ryukyushimpo.jp/editorial/entry-5070110.html",
           "published": "2026/02/26",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：首相ギフト配布　どこまで無反省なのか",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1666180",
+          "published": "2026/2/26 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：違憲の欠格規定　障害者雇用の法点検を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1666184",
+          "published": "2026/2/26 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】普天間飛行場　確実な返還は守られるか",
+          "link": "https://www.nishinippon.co.jp/item/1462568/",
+          "published": "2026/02/26 06:00",
           "paid": false
         }
       ]

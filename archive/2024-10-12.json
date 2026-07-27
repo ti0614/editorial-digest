@@ -47,13 +47,13 @@
         {
           "title": "［社説］与野党は政策の優先順位と実行力を語れ",
           "link": "https://www.nikkei.com/article/DGXZQODK1213L0S4A011C2000000/",
-          "published": "2024年10月12日",
+          "published": "2024/10/12 19:05",
           "paid": false
         },
         {
           "title": "［社説］国立公園に訪日客を呼ぼう",
           "link": "https://www.nikkei.com/article/DGXZQOCD117PH0R11C24A0000000/",
-          "published": "2024年10月12日",
+          "published": "2024/10/12 19:00",
           "paid": false
         }
       ]
@@ -107,7 +107,7 @@
         {
           "title": "被団協に平和賞　「核なき世界」へ大きな力",
           "link": "https://www.niigata-nippo.co.jp/articles/-/491449",
-          "published": "2024/10/12",
+          "published": "2024/10/12 6:00",
           "paid": false
         }
       ]
@@ -210,6 +210,23 @@
           "title": "＜社説＞空襲の日に降下　無神経な訓練許されない",
           "link": "https://ryukyushimpo.jp/editorial/entry-3547146.html",
           "published": "2024/10/12",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】被団協に平和賞　「核なき世界」の後押しに",
+          "link": "https://www.nishinippon.co.jp/item/1269115/",
+          "published": "2024/10/12 06:00",
           "paid": false
         }
       ]

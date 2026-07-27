@@ -59,13 +59,13 @@
         {
           "title": "［社説］米アップルの50年の歩みから学ぶ教訓",
           "link": "https://www.nikkei.com/article/DGXZQODK255E20V20C26A3000000/",
-          "published": "3月25日",
+          "published": "2026/3/25 19:05",
           "paid": false
         },
         {
           "title": "［社説］イカ漁獲枠の大幅増は適正か",
           "link": "https://www.nikkei.com/article/DGXZQODK2537C0V20C26A2000000/",
-          "published": "3月25日",
+          "published": "2026/3/25 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "春闘好スタート　中小企業に波及できるか",
           "link": "https://www.niigata-nippo.co.jp/articles/-/802348",
-          "published": "3/25",
+          "published": "2026/3/25 6:00",
           "paid": false
         }
       ]
@@ -177,13 +177,13 @@
         {
           "title": "社説【暫定予算案編成へ】年度内成立にこだわらず",
           "link": "https://www.hokkoku.co.jp/articles/-/2055759",
-          "published": "3/25",
+          "published": "2026/3/25 5:00",
           "paid": true
         },
         {
           "title": "社説【災害廃棄物処理】国が司令塔となる体制を",
           "link": "https://www.hokkoku.co.jp/articles/-/2055758",
-          "published": "3/25",
+          "published": "2026/3/25 5:00",
           "paid": true
         }
       ]
@@ -303,6 +303,46 @@
           "title": "＜社説＞県知事選の期日決定　投票率高める政策論争を",
           "link": "https://ryukyushimpo.jp/editorial/entry-5144428.html",
           "published": "2026/03/25",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：給付付き税控除　国民の理解、財源不可欠",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1682937",
+          "published": "2026/3/25 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：パラリンピック　多様性と公正の尊重を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1682936",
+          "published": "2026/3/25 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】iPS製品承認　治療重ねて課題の克服を",
+          "link": "https://www.nishinippon.co.jp/item/1473552/",
+          "published": "2026/03/25 06:00",
           "paid": false
         }
       ]

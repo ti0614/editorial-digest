@@ -59,13 +59,13 @@
         {
           "title": "［社説］中東発の世界経済混乱リスクに備えを",
           "link": "https://www.nikkei.com/article/DGXZQODK155NA0V10C26A4000000/",
-          "published": "4月15日",
+          "published": "2026/4/15 19:05",
           "paid": false
         },
         {
           "title": "［社説］熊本地震に学び減災を急げ",
           "link": "https://www.nikkei.com/article/DGXZQOCD146UQ0U6A410C2000000/",
-          "published": "4月15日",
+          "published": "2026/4/15 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "自民党大会　際立った首相の改憲意欲",
           "link": "https://www.niigata-nippo.co.jp/articles/-/814306",
-          "published": "4/15",
+          "published": "2026/4/15 6:00",
           "paid": false
         }
       ]
@@ -177,19 +177,19 @@
         {
           "title": "社説【金沢の県道崩落】誘発する埋設物の把握を",
           "link": "https://www.hokkoku.co.jp/articles/-/2077261",
-          "published": "4/15",
+          "published": "2026/4/15 5:00",
           "paid": true
         },
         {
           "title": "社説【ナフサ不足】目詰まりを起こさぬよう",
           "link": "https://www.hokkoku.co.jp/articles/-/2077260",
-          "published": "4/15",
+          "published": "2026/4/15 5:00",
           "paid": true
         },
         {
           "title": "社説【金沢の県道崩落】誘因となる埋設物の把握を",
           "link": "https://www.hokkoku.co.jp/articles/-/2077234",
-          "published": "4/15",
+          "published": "2026/4/15 5:00",
           "paid": true
         }
       ]
@@ -309,6 +309,46 @@
           "title": "＜社説＞誘導弾部隊の配備容認　町民に受け入れ理由示せ",
           "link": "https://ryukyushimpo.jp/editorial/entry-5189727.html",
           "published": "2026/04/15",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：成年後見の改正　個人に寄り添う支援を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1696039",
+          "published": "2026/4/15 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：月への有人飛行　ルール整え国際協調で",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1696038",
+          "published": "2026/4/15 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】福岡パー券問題　県庁と議会の関係を正せ",
+          "link": "https://www.nishinippon.co.jp/item/1481729/",
+          "published": "2026/04/15 06:00",
           "paid": false
         }
       ]

@@ -73,7 +73,7 @@
         {
           "title": "盛山文科相と教団　調査断行うみを出し切れ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/356616",
-          "published": "2024/2/8",
+          "published": "2024/2/8 6:00",
           "paid": false
         }
       ]
@@ -159,6 +159,23 @@
           "title": "＜社説＞ひとり親アンケート　早急な支援施策が必要だ",
           "link": "https://ryukyushimpo.jp/editorial/entry-2783295.html",
           "published": "2024/02/08",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】政策活動費　不透明なカネは認めない",
+          "link": "https://www.nishinippon.co.jp/item/1176762/",
+          "published": "2024/02/08 06:00",
           "paid": false
         }
       ]

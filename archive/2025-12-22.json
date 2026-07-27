@@ -53,13 +53,13 @@
         {
           "title": "［社説］H3失敗の原因究明急ぎ成功を期せ",
           "link": "https://www.nikkei.com/article/DGXZQODK226T10S5A221C2000000/",
-          "published": "2025年12月22日",
+          "published": "2025/12/22 19:05",
           "paid": false
         },
         {
           "title": "［社説］年始休業で職場の魅力向上を",
           "link": "https://www.nikkei.com/article/DGXZQODK225SV0S5A221C2000000/",
-          "published": "2025年12月22日",
+          "published": "2025/12/22 19:00",
           "paid": false
         }
       ]
@@ -120,7 +120,7 @@
         {
           "title": "民主派有罪判決　香港の言論弾圧許されぬ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/750500",
-          "published": "2025/12/22",
+          "published": "2025/12/22 6:00",
           "paid": false
         }
       ]
@@ -154,19 +154,19 @@
         {
           "title": "社説【教職単位削減へ】間口広げ履修者の増加に",
           "link": "https://www.hokkoku.co.jp/articles/-/1967537",
-          "published": "12/22",
+          "published": "2025/12/22 5:00",
           "paid": true
         },
         {
           "title": "社説【空き仮設の活用】前例なくても柔軟対応を",
           "link": "https://www.hokkoku.co.jp/articles/-/1967536",
-          "published": "12/22",
+          "published": "2025/12/22 5:00",
           "paid": true
         },
         {
           "title": "社説【教職単位削減へ】間口広げ履修者増やしたい",
           "link": "https://www.hokkoku.co.jp/articles/-/1967514",
-          "published": "12/22",
+          "published": "2025/12/22 5:00",
           "paid": true
         }
       ]
@@ -252,6 +252,40 @@
           "title": "＜社説＞南城市長に大城氏　市政への信頼回復を急げ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4891169.html",
           "published": "2025/12/22",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：滋賀初のＪチーム　強さと親しみ備えて飛躍を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1623305",
+          "published": "2025/12/22 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】参院1票の格差　国会全体の抜本的改革を",
+          "link": "https://www.nishinippon.co.jp/item/1438152/",
+          "published": "2025/12/22 06:00",
           "paid": false
         }
       ]

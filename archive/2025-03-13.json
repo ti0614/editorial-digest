@@ -59,13 +59,13 @@
         {
           "title": "［社説］相手選ばぬトランプ関税に備えが必要だ",
           "link": "https://www.nikkei.com/article/DGXZQODK1388S0T10C25A3000000/",
-          "published": "2025年3月13日",
+          "published": "2025/3/13 19:05",
           "paid": false
         },
         {
           "title": "［社説］ロシアは停戦と和平に動け",
           "link": "https://www.nikkei.com/article/DGXZQODK1343F0T10C25A3000000/",
-          "published": "2025年3月13日",
+          "published": "2025/3/13 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "中国全人代　国際協調へ役割果たす時",
           "link": "https://www.niigata-nippo.co.jp/articles/-/572733",
-          "published": "2025/3/13",
+          "published": "2025/3/13 6:00",
           "paid": false
         }
       ]
@@ -246,6 +246,46 @@
           "title": "＜社説＞トランプ氏安保発言　沖縄の片務性を解消せよ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4045700.html",
           "published": "2025/03/13",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：学術会議法案　政権介入の余地がある",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1439101",
+          "published": "2025/3/13 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：悪質ホスト対策　女性搾取の構造を断て",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1439104",
+          "published": "2025/3/13 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】高額療養費　逃げずに選挙前も議論を",
+          "link": "https://www.nishinippon.co.jp/item/1326080/",
+          "published": "2025/03/13 06:00",
           "paid": false
         }
       ]

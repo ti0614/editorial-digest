@@ -56,7 +56,7 @@
         {
           "title": "米坂線復旧議論　鉄路による存続を第一に",
           "link": "https://www.niigata-nippo.co.jp/articles/-/415926",
-          "published": "2024/6/2",
+          "published": "2024/6/2 6:00",
           "paid": false
         }
       ]
@@ -159,6 +159,23 @@
           "title": "＜社説＞政治資金再修正案　不信の払拭にはほど遠い",
           "link": "https://ryukyushimpo.jp/editorial/entry-3149891.html",
           "published": "2024/06/02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】介護保険料上昇　住民の健康支える工夫を",
+          "link": "https://www.nishinippon.co.jp/item/1218370/",
+          "published": "2024/06/02 06:00",
           "paid": false
         }
       ]

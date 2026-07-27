@@ -63,7 +63,7 @@
         {
           "title": "共生社会　異なる価値観尊重したい",
           "link": "https://www.niigata-nippo.co.jp/articles/-/648882",
-          "published": "2025/7/13",
+          "published": "2025/7/13 6:00",
           "paid": false
         }
       ]
@@ -166,6 +166,40 @@
           "title": "＜社説＞不発弾爆発事故調査　危険性を軽視してならぬ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4438383.html",
           "published": "2025/07/13",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：温暖化と原発　問われる持続的な環境社会",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1520169",
+          "published": "2025/7/13 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】外交姿勢　国際秩序保つ役割果たせ",
+          "link": "https://www.nishinippon.co.jp/item/1375638/",
+          "published": "2025/07/13 06:00",
           "paid": false
         }
       ]

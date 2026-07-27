@@ -53,13 +53,13 @@
         {
           "title": "［社説］AIの行き過ぎた軍事利用に歯止めを",
           "link": "https://www.nikkei.com/article/DGXZQODK1762N0X10C26A3000000/",
-          "published": "3月17日",
+          "published": "2026/3/17 19:05",
           "paid": false
         },
         {
           "title": "［社説］地価の変調を警戒する局面だ",
           "link": "https://www.nikkei.com/article/DGXZQODK172XO0X10C26A3000000/",
-          "published": "3月17日",
+          "published": "2026/3/17 19:00",
           "paid": false
         }
       ]
@@ -123,14 +123,7 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": [
-        {
-          "title": "知事選踏まえ的確な施策を　問われる県の役割　【論説】",
-          "link": "https://www.chibanippo.co.jp/serial/1414447",
-          "published": "3/17 5:00",
-          "paid": true
-        }
-      ]
+      "items": []
     },
     {
       "name": "新潟日報",
@@ -144,7 +137,7 @@
         {
           "title": "冬季パラ閉幕　世界の分断影響が残念だ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/797493",
-          "published": "3/17",
+          "published": "2026/3/17 6:00",
           "paid": false
         }
       ]
@@ -178,13 +171,13 @@
         {
           "title": "社説【酒造組合の合併】地酒文化受け継ぐ支えに",
           "link": "https://www.hokkoku.co.jp/articles/-/2047409",
-          "published": "3/17",
+          "published": "2026/3/17 5:00",
           "paid": true
         },
         {
           "title": "社説【抗議船転覆】「平和教育」にそぐわない",
           "link": "https://www.hokkoku.co.jp/articles/-/2047408",
-          "published": "3/17",
+          "published": "2026/3/17 5:00",
           "paid": true
         }
       ]
@@ -304,6 +297,40 @@
           "title": "＜社説＞在沖海兵隊中東派遣　事前協議求め中止させよ",
           "link": "https://ryukyushimpo.jp/editorial/entry-5124095.html",
           "published": "2026/03/17",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：劇場文化の危機　ぜい弱行政改め、基盤再生を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1677814",
+          "published": "2026/3/17 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】国会の予算審議　衆院の採決強行を省みよ",
+          "link": "https://www.nishinippon.co.jp/item/1470312/",
+          "published": "2026/03/17 06:00",
           "paid": false
         }
       ]

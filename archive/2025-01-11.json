@@ -59,13 +59,13 @@
         {
           "title": "［社説］NISAで貯蓄から投資の流れをさらに",
           "link": "https://www.nikkei.com/article/DGXZQODK2774F0X21C24A2000000/",
-          "published": "2025年1月11日",
+          "published": "2025/1/11 19:05",
           "paid": false
         },
         {
           "title": "［社説］不当なベネズエラ政権居座り",
           "link": "https://www.nikkei.com/article/DGXZQOCD107SF0Q5A110C2000000/",
-          "published": "2025年1月11日",
+          "published": "2025/1/11 19:00",
           "paid": false
         }
       ]
@@ -136,7 +136,7 @@
         {
           "title": "インフル患者最多　感染防止対策徹底したい",
           "link": "https://www.niigata-nippo.co.jp/articles/-/538068",
-          "published": "2025/1/11",
+          "published": "2025/1/11 6:00",
           "paid": false
         }
       ]
@@ -222,6 +222,23 @@
           "title": "＜社説＞インフルエンザ急増　暮らしの中で対策徹底を",
           "link": "https://ryukyushimpo.jp/editorial/entry-3851170.html",
           "published": "2025/01/11",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】学術会議見直し　独立性を保ち役割果たせ",
+          "link": "https://www.nishinippon.co.jp/item/1302542/",
+          "published": "2025/01/11 06:00",
           "paid": false
         }
       ]

@@ -47,13 +47,13 @@
         {
           "title": "［社説］免疫の常識を覆した坂口氏にノーベル賞",
           "link": "https://www.nikkei.com/article/DGXZQODK0698E0W5A001C2000000/",
-          "published": "2025年10月6日",
+          "published": "2025/10/6 20:50",
           "paid": false
         },
         {
           "title": "［社説］ガザ2年の惨禍に終止符を",
           "link": "https://www.nikkei.com/article/DGXZQODK066590W5A001C2000000/",
-          "published": "2025年10月6日",
+          "published": "2025/10/6 19:00",
           "paid": false
         }
       ]
@@ -100,14 +100,7 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": [
-        {
-          "title": "持続可能な医療提供へ議論を　厳しい財務状況の東千葉メディカルセンター　【論説】",
-          "link": "https://www.chibanippo.co.jp/articles/1507243",
-          "published": "10/6 5:00",
-          "paid": true
-        }
-      ]
+      "items": []
     },
     {
       "name": "新潟日報",
@@ -121,7 +114,7 @@
         {
           "title": "強制不妊検証　被害者の思い受け止めて",
           "link": "https://www.niigata-nippo.co.jp/articles/-/703067",
-          "published": "2025/10/6",
+          "published": "2025/10/6 6:00",
           "paid": false
         }
       ]
@@ -155,13 +148,13 @@
         {
           "title": "社説【特定行為看護師】在宅医療の向上に不可欠",
           "link": "https://www.hokkoku.co.jp/articles/-/1888654",
-          "published": "10/6",
+          "published": "2025/10/6 5:00",
           "paid": true
         },
         {
           "title": "社説【高市新総裁に望む】能登の窮状打開に道筋を",
           "link": "https://www.hokkoku.co.jp/articles/-/1888653",
-          "published": "10/6",
+          "published": "2025/10/6 5:00",
           "paid": true
         }
       ]
@@ -247,6 +240,40 @@
           "title": "＜社説＞日本郵便軽バン停止　物流担う企業の自覚持て",
           "link": "https://ryukyushimpo.jp/editorial/entry-4672401.html",
           "published": "2025/10/06",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：「手話」推進新法　官民で施策と理解広げたい",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1575679",
+          "published": "2025/10/6 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】マダニ感染症　続く拡大　警戒を強めたい",
+          "link": "https://www.nishinippon.co.jp/item/1407833/",
+          "published": "2025/10/06 06:00",
           "paid": false
         }
       ]

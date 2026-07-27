@@ -53,13 +53,13 @@
         {
           "title": "［社説］非公開化なら株主判断助ける情報手厚く",
           "link": "https://www.nikkei.com/article/DGXZQODK257IN0V20C25A7000000/",
-          "published": "2025年7月27日",
+          "published": "2025/7/27 19:05",
           "paid": false
         },
         {
           "title": "［社説］首都圏は除染土を受け入れよ",
           "link": "https://www.nikkei.com/article/DGXZQODK261YQ0W5A720C2000000/",
-          "published": "2025年7月27日",
+          "published": "2025/7/27 19:00",
           "paid": false
         }
       ]
@@ -103,7 +103,7 @@
         {
           "title": "関電原発建て替え　拙速な「回帰」教訓どこへ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/658279",
-          "published": "2025/7/27",
+          "published": "2025/7/27 6:00",
           "paid": false
         }
       ]
@@ -223,6 +223,40 @@
           "title": "＜社説＞関税交渉で防衛装備　「密室」の日米合意いつまで",
           "link": "https://ryukyushimpo.jp/editorial/entry-4483274.html",
           "published": "2025/07/27",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：世界湖沼会議　重ねた知見、行動に移す時",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1530322",
+          "published": "2025/7/27 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】水難事故の防止　危険性を認識して備えを",
+          "link": "https://www.nishinippon.co.jp/item/1381025/",
+          "published": "2025/07/27 06:00",
           "paid": false
         }
       ]

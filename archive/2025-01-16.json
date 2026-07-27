@@ -59,7 +59,7 @@
         {
           "title": "［社説］ガザ合意を恒久停戦につなげ",
           "link": "https://www.nikkei.com/article/DGXZQODK166PB0W5A110C2000000/",
-          "published": "2025年1月16日",
+          "published": "2025/1/16 19:00",
           "paid": false
         }
       ]
@@ -113,7 +113,7 @@
         {
           "title": "韓国大統領拘束　混乱の収束につながるか",
           "link": "https://www.niigata-nippo.co.jp/articles/-/540233",
-          "published": "2025/1/16",
+          "published": "2025/1/16 6:00",
           "paid": false
         }
       ]
@@ -216,6 +216,46 @@
           "title": "＜社説＞韓国大統領拘束　民主政治回復の一歩に",
           "link": "https://ryukyushimpo.jp/editorial/entry-3864278.html",
           "published": "2025/01/16",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：医師の偏り　「直美」が映す規制の必要",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1405923",
+          "published": "2025/1/16 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：半導体の国支援　丸抱え脱却の道筋示せ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1405910",
+          "published": "2025/1/16 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】韓国大統領拘束　アジアの不安定化を懸念",
+          "link": "https://www.nishinippon.co.jp/item/1304161/",
+          "published": "2025/01/16 06:00",
           "paid": false
         }
       ]

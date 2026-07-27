@@ -73,7 +73,7 @@
         {
           "title": "ＳＮＳ投資詐欺　実効性ある対策が不可欠",
           "link": "https://www.niigata-nippo.co.jp/articles/-/397297",
-          "published": "2024/4/27",
+          "published": "2024/4/27 6:00",
           "paid": false
         }
       ]
@@ -176,6 +176,23 @@
           "title": "＜社説＞教科書検定と沖縄戦　実相踏まえた記述徹せよ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3020828.html",
           "published": "2024/04/27",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】森林環境税　目的と使い道を周知せよ",
+          "link": "https://www.nishinippon.co.jp/item/1205481/",
+          "published": "2024/04/27 06:00",
           "paid": false
         }
       ]

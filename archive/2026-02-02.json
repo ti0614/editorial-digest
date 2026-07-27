@@ -53,13 +53,13 @@
         {
           "title": "［社説］負担減政策の財源論議があまりに杜撰だ",
           "link": "https://www.nikkei.com/article/DGXZQODK025MU0S6A200C2000000/",
-          "published": "2月2日",
+          "published": "2026/2/2 19:05",
           "paid": false
         },
         {
           "title": "［社説］日本と英国の結束で西側の価値観守れ",
           "link": "https://www.nikkei.com/article/DGXZQODK310Q00R30C26A1000000/",
-          "published": "2月2日",
+          "published": "2026/2/2 19:00",
           "paid": false
         }
       ]
@@ -120,7 +120,7 @@
         {
           "title": "ハンセン病法廷　憲法違反の責任は重大だ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/772420",
-          "published": "2/2",
+          "published": "2026/2/2 6:00",
           "paid": false
         }
       ]
@@ -154,13 +154,13 @@
         {
           "title": "社説【共生交付金の削減】自治体に丁寧な説明を",
           "link": "https://www.hokkoku.co.jp/articles/-/2004520",
-          "published": "2/2",
+          "published": "2026/2/2 5:00",
           "paid": true
         },
         {
           "title": "社説【訪日客４千万人超】観光公害対策さらに重要",
           "link": "https://www.hokkoku.co.jp/articles/-/2004519",
-          "published": "2/2",
+          "published": "2026/2/2 5:00",
           "paid": true
         }
       ]
@@ -246,6 +246,40 @@
           "title": "＜社説＞衆院選2026　外交・安全保障　日本の行く末、明示し問え",
           "link": "https://ryukyushimpo.jp/editorial/entry-5005739.html",
           "published": "2026/02/02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：安全保障　「平和国家」変容の分かれ道",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1648384",
+          "published": "2026/2/2 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】エネルギー政策　安定供給の課題に道筋を",
+          "link": "https://www.nishinippon.co.jp/item/1453124/",
+          "published": "2026/02/02 06:00",
           "paid": false
         }
       ]

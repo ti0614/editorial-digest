@@ -53,7 +53,7 @@
         {
           "title": "［社説］日米同盟は世界の安定へ重責担え",
           "link": "https://www.nikkei.com/article/DGXZQODK2820E0Y5A021C2000000/",
-          "published": "2025年10月28日",
+          "published": "2025/10/28 20:16",
           "paid": false
         }
       ]
@@ -131,7 +131,7 @@
         {
           "title": "上越市長に小菅氏　市民は刷新の道を選んだ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/717003",
-          "published": "2025/10/28",
+          "published": "2025/10/28 6:00",
           "paid": false
         }
       ]
@@ -165,19 +165,19 @@
         {
           "title": "社説【遠藤が引退】人気回復に多大な功績",
           "link": "https://www.hokkoku.co.jp/articles/-/1910999",
-          "published": "10/28",
+          "published": "2025/10/28 5:00",
           "paid": true
         },
         {
           "title": "社説【安保法「合憲」】立民は方針転換するのか",
           "link": "https://www.hokkoku.co.jp/articles/-/1910998",
-          "published": "10/28",
+          "published": "2025/10/28 5:00",
           "paid": true
         },
         {
           "title": "社説【遠藤が引退】人気回復の功績たたえたい",
           "link": "https://www.hokkoku.co.jp/articles/-/1910983",
-          "published": "10/28",
+          "published": "2025/10/28 5:00",
           "paid": true
         }
       ]
@@ -297,6 +297,40 @@
           "title": "＜社説＞「国家情報局」創設検討　監視、弾圧の歴史忘れるな",
           "link": "https://ryukyushimpo.jp/editorial/entry-4725813.html",
           "published": "2025/10/28",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：安倍氏銃撃裁判　なぜ起きたのか真相解明を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1589179",
+          "published": "2025/10/28 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】中国5カ年計画　国際社会への威圧を懸念",
+          "link": "https://www.nishinippon.co.jp/item/1416446/",
+          "published": "2025/10/28 06:00",
           "paid": false
         }
       ]

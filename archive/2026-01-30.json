@@ -59,13 +59,13 @@
         {
           "title": "［社説］外国人の活力生かす踏み込んだ論戦を",
           "link": "https://www.nikkei.com/article/DGXZQODK29BJV0Z20C26A1000000/",
-          "published": "1月30日",
+          "published": "2026/1/30 19:05",
           "paid": false
         },
         {
           "title": "［社説］永守流カリスマ経営の頓挫",
           "link": "https://www.nikkei.com/article/DGXZQOCD3090N0Q6A130C2000000/",
-          "published": "1月30日",
+          "published": "2026/1/30 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "情報活動の強化　思想の自由を維持せねば",
           "link": "https://www.niigata-nippo.co.jp/articles/-/771062",
-          "published": "1/30",
+          "published": "2026/1/30 6:00",
           "paid": false
         }
       ]
@@ -177,13 +177,13 @@
         {
           "title": "社説【万博リング再利用】能登復興のシンボルにも",
           "link": "https://www.hokkoku.co.jp/articles/-/2001600",
-          "published": "1/30",
+          "published": "2026/1/30 5:00",
           "paid": true
         },
         {
           "title": "社説【消費税減税】租特の見直しでねん出を",
           "link": "https://www.hokkoku.co.jp/articles/-/2001599",
-          "published": "1/30",
+          "published": "2026/1/30 5:00",
           "paid": true
         }
       ]
@@ -303,6 +303,46 @@
           "title": "＜社説＞JTA整備記録不備　社内体制を徹底検証せよ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4998567.html",
           "published": "2026/01/30",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：ジェンダー政策　選択的別姓、明確な争点",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1646311",
+          "published": "2026/1/30 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：コメと農政　不足防ぎ生産、消費守れ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1646306",
+          "published": "2026/1/30 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】社会保障の将来　持続性高める改革を急げ",
+          "link": "https://www.nishinippon.co.jp/item/1452122/",
+          "published": "2026/01/30 06:00",
           "paid": false
         }
       ]

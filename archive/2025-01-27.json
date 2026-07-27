@@ -59,13 +59,13 @@
         {
           "title": "［社説］フジは企業統治の抜本的な見直しを急げ",
           "link": "https://www.nikkei.com/article/DGXZQODK273Q70X20C25A1000000/",
-          "published": "2025年1月27日",
+          "published": "2025/1/27 19:06",
           "paid": false
         },
         {
           "title": "［社説］自民はすべての裏金の解明を",
           "link": "https://www.nikkei.com/article/DGXZQODK273TY0X20C25A1000000/",
-          "published": "2025年1月27日",
+          "published": "2025/1/27 19:00",
           "paid": false
         }
       ]
@@ -119,7 +119,7 @@
         {
           "title": "新潟Ｌ準優勝　女子の人気高める善戦だ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/546035",
-          "published": "2025/1/27",
+          "published": "2025/1/27 6:00",
           "paid": false
         }
       ]
@@ -205,6 +205,40 @@
           "title": "＜社説＞沖縄市長に花城氏　市政発展へ公約の実現を",
           "link": "https://ryukyushimpo.jp/editorial/entry-3902706.html",
           "published": "2025/01/27",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：京都市の宿泊増税　観光の将来像論じる機会に",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1412482",
+          "published": "2025/1/27 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】SNSと子ども　活用と安全両立の対策を",
+          "link": "https://www.nishinippon.co.jp/item/1308526/",
+          "published": "2025/01/27 06:00",
           "paid": false
         }
       ]

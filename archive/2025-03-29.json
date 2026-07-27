@@ -53,13 +53,13 @@
         {
           "title": "［社説］損保再編を競争と成長に結びつけよ",
           "link": "https://www.nikkei.com/article/DGXZQODK291H20Z20C25A3000000/",
-          "published": "2025年3月29日",
+          "published": "2025/3/29 19:05",
           "paid": false
         },
         {
           "title": "［社説］数学こそ長い目の支援が要る",
           "link": "https://www.nikkei.com/article/DGXZQODK2849P0Y5A320C2000000/",
-          "published": "2025年3月29日",
+          "published": "2025/3/29 19:00",
           "paid": false
         }
       ]
@@ -137,7 +137,7 @@
         {
           "title": "県民投票条例請求　真摯な議論が求められる",
           "link": "https://www.niigata-nippo.co.jp/articles/-/582511",
-          "published": "2025/3/29",
+          "published": "2025/3/29 6:00",
           "paid": false
         }
       ]
@@ -240,6 +240,40 @@
           "title": "＜社説＞高校教科書検定　沖縄戦記述　課題残した",
           "link": "https://ryukyushimpo.jp/editorial/entry-4102952.html",
           "published": "2025/03/29",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：米の自動車関税　国際連携で暴走たださねば",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1449548",
+          "published": "2025/3/29 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】熊本市電の事故　安全を脅かす病根を断て",
+          "link": "https://www.nishinippon.co.jp/item/1332927/",
+          "published": "2025/03/29 06:00",
           "paid": false
         }
       ]

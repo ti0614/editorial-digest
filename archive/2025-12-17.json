@@ -59,13 +59,13 @@
         {
           "title": "［社説］多党化時代に無責任な政策合意では困る",
           "link": "https://www.nikkei.com/article/DGXZQODK173BJ0X11C25A2000000/",
-          "published": "2025年12月17日",
+          "published": "2025/12/17 19:05",
           "paid": false
         },
         {
           "title": "［社説］行動促す「後発地震」情報に",
           "link": "https://www.nikkei.com/article/DGXZQODK166E40W5A211C2000000/",
-          "published": "2025年12月17日",
+          "published": "2025/12/17 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "注意情報が終了　冬の地震引き続き備えを",
           "link": "https://www.niigata-nippo.co.jp/articles/-/747578",
-          "published": "2025/12/17",
+          "published": "2025/12/17 6:00",
           "paid": false
         }
       ]
@@ -177,13 +177,13 @@
         {
           "title": "社説【介護人材の確保】現場の声伝える工夫を",
           "link": "https://www.hokkoku.co.jp/articles/-/1962404",
-          "published": "12/17",
+          "published": "2025/12/17 5:00",
           "paid": true
         },
         {
           "title": "社説【メガソーラー】補助金廃止は妥当な判断",
           "link": "https://www.hokkoku.co.jp/articles/-/1962403",
-          "published": "12/17",
+          "published": "2025/12/17 5:00",
           "paid": true
         }
       ]
@@ -303,6 +303,46 @@
           "title": "＜社説＞嘉手納降下の継続　米軍の身勝手許されない",
           "link": "https://ryukyushimpo.jp/editorial/entry-4876815.html",
           "published": "2025/12/17",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：政治とカネ改革　与党は茶番で先送りか",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1619711",
+          "published": "2025/12/17 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：香港民主派弾圧　自由と活力を奪う中国",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1619709",
+          "published": "2025/12/17 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】米国の安保戦略　国際平和を揺るがす恐れ",
+          "link": "https://www.nishinippon.co.jp/item/1436122/",
+          "published": "2025/12/17 06:00",
           "paid": false
         }
       ]

@@ -59,13 +59,13 @@
         {
           "title": "［社説］不安定な世界で重み増す日仏協力深めよ",
           "link": "https://www.nikkei.com/article/DGXZQODK036M50T00C26A4000000/",
-          "published": "4月3日",
+          "published": "2026/4/3 19:05",
           "paid": false
         },
         {
           "title": "［社説］活躍阻む土壌残る均等法40年",
           "link": "https://www.nikkei.com/article/DGXZQODK0213W0S6A400C2000000/",
-          "published": "4月3日",
+          "published": "2026/4/3 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "トランプ氏演説　身勝手過ぎる勝利宣言だ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/808243",
-          "published": "4/3",
+          "published": "2026/4/3 6:00",
           "paid": false
         }
       ]
@@ -177,13 +177,13 @@
         {
           "title": "社説【国旗損壊罪】尊厳傷つけ、看過できぬ",
           "link": "https://www.hokkoku.co.jp/articles/-/2065888",
-          "published": "4/3",
+          "published": "2026/4/3 5:00",
           "paid": true
         },
         {
           "title": "社説【特殊詐欺の国際化】国またいだ捜査を強力に",
           "link": "https://www.hokkoku.co.jp/articles/-/2065887",
-          "published": "4/3",
+          "published": "2026/4/3 5:00",
           "paid": true
         }
       ]
@@ -303,6 +303,46 @@
           "title": "＜社説＞重なる値上げ　国民生活守る抜本対策を",
           "link": "https://ryukyushimpo.jp/editorial/entry-5167220.html",
           "published": "2026/04/03",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：値上げラッシュ　格差拡大防ぐ対策こそ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1689042",
+          "published": "2026/4/3 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：国旗損壊罪　立法の必要性あるのか",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1689041",
+          "published": "2026/4/3 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】米の「勝利」演説　戦闘終結への道筋を示せ",
+          "link": "https://www.nishinippon.co.jp/item/1477580/",
+          "published": "2026/04/03 06:00",
           "paid": false
         }
       ]

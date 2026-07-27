@@ -53,13 +53,13 @@
         {
           "title": "［社説］ドイツ連立崩壊の混乱避けよ",
           "link": "https://www.nikkei.com/article/DGXZQOCD116C40R11C24A1000000/",
-          "published": "2024年11月12日",
+          "published": "2024/11/12 22:39",
           "paid": false
         },
         {
           "title": "［社説］米国は温暖化対策の歩みを止めるな",
           "link": "https://www.nikkei.com/article/DGXZQODK1289T0S4A111C2000000/",
-          "published": "2024年11月12日",
+          "published": "2024/11/12 19:05",
           "paid": false
         }
       ]
@@ -130,7 +130,7 @@
         {
           "title": "第２次石破内閣　丁寧な政権運営心がけよ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/507986",
-          "published": "2024/11/12",
+          "published": "2024/11/12 6:00",
           "paid": false
         }
       ]
@@ -233,6 +233,23 @@
           "title": "＜社説＞本島北部大雨被害　迅速に救援し対策検証を",
           "link": "https://ryukyushimpo.jp/editorial/entry-3636939.html",
           "published": "2024/11/12",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】少数与党内閣　熟議の国会運営に努めよ",
+          "link": "https://www.nishinippon.co.jp/item/1280809/",
+          "published": "2024/11/12 06:00",
           "paid": false
         }
       ]

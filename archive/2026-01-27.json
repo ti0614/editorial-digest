@@ -47,13 +47,13 @@
         {
           "title": "［社説］国際協調担う強い日本外交の戦略を語れ",
           "link": "https://www.nikkei.com/article/DGXZQODK2510D0V20C26A1000000/",
-          "published": "1月27日",
+          "published": "2026/1/27 19:05",
           "paid": false
         },
         {
           "title": "［社説］東京電力再建は不退転の決意で",
           "link": "https://www.nikkei.com/article/DGXZQODK274ZL0X20C26A1000000/",
-          "published": "1月27日",
+          "published": "2026/1/27 19:00",
           "paid": false
         }
       ]
@@ -100,20 +100,7 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": [
-        {
-          "title": "ＳＯＳ見逃さない体制築け　千葉県立高生徒自殺　【論説】",
-          "link": "https://www.chibanippo.co.jp/news/national/1392917",
-          "published": "1/27 5:00",
-          "paid": true
-        },
-        {
-          "title": "地方創生２・０　地域商社、課題解決に光　【論説】",
-          "link": "https://www.chibanippo.co.jp/news/politics/1392919",
-          "published": "1/27 5:00",
-          "paid": true
-        }
-      ]
+      "items": []
     },
     {
       "name": "新潟日報",
@@ -127,7 +114,7 @@
         {
           "title": "きょう公示　各党の国家観見極めたい",
           "link": "https://www.niigata-nippo.co.jp/articles/-/769012",
-          "published": "1/27",
+          "published": "2026/1/27 6:00",
           "paid": false
         }
       ]
@@ -161,13 +148,13 @@
         {
           "title": "社説【日米為替介入か】行き過ぎた円安止めたい",
           "link": "https://www.hokkoku.co.jp/articles/-/1998466",
-          "published": "1/27",
+          "published": "2026/1/27 5:00",
           "paid": true
         },
         {
           "title": "社説【真冬の衆院選】投票権守る支援が不可欠",
           "link": "https://www.hokkoku.co.jp/articles/-/1998465",
-          "published": "1/27",
+          "published": "2026/1/27 5:00",
           "paid": true
         }
       ]
@@ -287,6 +274,40 @@
           "title": "＜社説＞きょう衆院選公示　首相に白紙委任できない",
           "link": "https://ryukyushimpo.jp/editorial/entry-4989570.html",
           "published": "2026/01/27",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：きょう公示　自維連立、審判へ重大な機会",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1644050",
+          "published": "2026/1/27 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】きょう公示　一人一人が1票に責任を",
+          "link": "https://www.nishinippon.co.jp/item/1450758/",
+          "published": "2026/01/27 06:00",
           "paid": false
         }
       ]

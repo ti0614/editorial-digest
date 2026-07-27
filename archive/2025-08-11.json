@@ -83,14 +83,7 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": [
-        {
-          "title": "千葉の戦禍を語り継ぐ　終戦８０年　【論説】",
-          "link": "https://www.chibanippo.co.jp/articles/1481585",
-          "published": "8/11 5:00",
-          "paid": true
-        }
-      ]
+      "items": []
     },
     {
       "name": "新潟日報",
@@ -104,7 +97,7 @@
         {
           "title": "大川原冤罪の検証　ずさんな捜査改革急務だ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/668213",
-          "published": "2025/8/11",
+          "published": "2025/8/11 6:00",
           "paid": false
         }
       ]
@@ -207,6 +200,40 @@
           "title": "＜社説＞無人艇無期限配備　沖縄は「実験場」ではない",
           "link": "https://ryukyushimpo.jp/editorial/entry-4534768.html",
           "published": "2025/08/11",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：教職課程の削減　先生確保へ一時しのぎでは",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1540298",
+          "published": "2025/8/11 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】臨時情報1年　巨大地震の備え再確認を",
+          "link": "https://www.nishinippon.co.jp/item/1387019/",
+          "published": "2025/08/11 06:00",
           "paid": false
         }
       ]

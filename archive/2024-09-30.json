@@ -96,7 +96,7 @@
         {
           "title": "水産物輸入合意　対話深め全面再開実現を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/484245",
-          "published": "2024/9/30",
+          "published": "2024/9/30 6:00",
           "paid": false
         }
       ]
@@ -182,6 +182,23 @@
           "title": "＜社説＞戦争遺跡の保存　国による実態調査を急げ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3505609.html",
           "published": "2024/09/30",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】日銀の金融政策　市場との対話が不十分だ",
+          "link": "https://www.nishinippon.co.jp/item/1264133/",
+          "published": "2024/09/30 06:00",
           "paid": false
         }
       ]

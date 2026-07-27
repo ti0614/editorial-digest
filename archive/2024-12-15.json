@@ -59,13 +59,13 @@
         {
           "title": "［社説］株式公開を目的とせず成長へ果敢に挑め",
           "link": "https://www.nikkei.com/article/DGXZQODK142AE0U4A211C2000000/",
-          "published": "2024年12月15日",
+          "published": "2024/12/15 19:05",
           "paid": false
         },
         {
           "title": "［社説］女子の理数学力生かす授業に",
           "link": "https://www.nikkei.com/article/DGXZQOCD138T90T11C24A2000000/",
-          "published": "2024年12月15日",
+          "published": "2024/12/15 19:00",
           "paid": false
         }
       ]
@@ -102,7 +102,7 @@
         {
           "title": "１０６万円の壁撤廃　働き控えを解消できるか",
           "link": "https://www.niigata-nippo.co.jp/articles/-/526043",
-          "published": "2024/12/15",
+          "published": "2024/12/15 6:00",
           "paid": false
         }
       ]
@@ -205,6 +205,23 @@
           "title": "＜社説＞尹大統領の弾劾可決　韓国の民主主義示した",
           "link": "https://ryukyushimpo.jp/editorial/entry-3763314.html",
           "published": "2024/12/15",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】企業献金の禁止　説得力欠く首相の反対論",
+          "link": "https://www.nishinippon.co.jp/item/1293533/",
+          "published": "2024/12/15 06:00",
           "paid": false
         }
       ]

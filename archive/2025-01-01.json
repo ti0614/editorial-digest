@@ -47,7 +47,7 @@
         {
           "title": "［社説］変革に挑み次世代に希望つなごう",
           "link": "https://www.nikkei.com/article/DGXZQODK232UZ0T21C24A2000000/",
-          "published": "2025年1月1日",
+          "published": "2025/1/1 0:00",
           "paid": false
         }
       ]
@@ -101,7 +101,7 @@
         {
           "title": "２０２５年を迎えて　寛容な社会へ歩み出そう",
           "link": "https://www.niigata-nippo.co.jp/articles/-/534119",
-          "published": "2025/1/1",
+          "published": "2025/1/1 6:00",
           "paid": false
         }
       ]
@@ -187,6 +187,23 @@
           "title": "＜社説＞2025年を迎えて　民主・自治・平和　再確認を",
           "link": "https://ryukyushimpo.jp/editorial/entry-3824189.html",
           "published": "2025/01/01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】80年を越えて　「戦後」を積み重ねていく",
+          "link": "https://www.nishinippon.co.jp/item/1299608/",
+          "published": "2025/01/01 06:00",
           "paid": false
         }
       ]

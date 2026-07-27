@@ -53,13 +53,13 @@
         {
           "title": "［社説］時代を映すAIのノーベル賞",
           "link": "https://www.nikkei.com/article/DGXZQODK08BNY0Y4A001C2000000/",
-          "published": "2024年10月9日",
+          "published": "2024/10/9 19:30",
           "paid": false
         },
         {
           "title": "［社説］袴田さんの再審無罪確定を重い戒めに",
           "link": "https://www.nikkei.com/article/DGXZQODK090UK0Z01C24A0000000/",
-          "published": "2024年10月9日",
+          "published": "2024/10/9 19:00",
           "paid": false
         }
       ]
@@ -130,7 +130,7 @@
         {
           "title": "裏金議員公認　首相対応共感得られるか",
           "link": "https://www.niigata-nippo.co.jp/articles/-/489568",
-          "published": "2024/10/9",
+          "published": "2024/10/9 6:00",
           "paid": false
         }
       ]
@@ -233,6 +233,23 @@
           "title": "＜社説＞きょう衆院解散　「大義」を国民に説明せよ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3535587.html",
           "published": "2024/10/09",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】単身高齢者支援　助け合いの工夫地域でも",
+          "link": "https://www.nishinippon.co.jp/item/1267728/",
+          "published": "2024/10/09 06:00",
           "paid": false
         }
       ]

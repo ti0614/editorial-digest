@@ -59,13 +59,13 @@
         {
           "title": "［社説］Google訴訟が映すIT競争政策の難路",
           "link": "https://www.nikkei.com/article/DGXZQODK1178F0R10C25A9000000/",
-          "published": "2025年9月11日",
+          "published": "2025/9/11 19:05",
           "paid": false
         },
         {
           "title": "［社説］少雨前提とした渇水対策を",
           "link": "https://www.nikkei.com/article/DGXZQODK052UI0V00C25A9000000/",
-          "published": "2025年9月11日",
+          "published": "2025/9/11 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "自民党総裁選へ　政治の遅滞避ける努力を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/687478",
-          "published": "2025/9/11",
+          "published": "2025/9/11 6:00",
           "paid": false
         }
       ]
@@ -263,6 +263,46 @@
           "title": "＜社説＞付帯報告書に沖縄記述　米議会動かす意味大きい",
           "link": "https://ryukyushimpo.jp/editorial/entry-4603676.html",
           "published": "2025/09/11",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：悠仁さま成年式　皇位継承策、検討幅広く",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1559754",
+          "published": "2025/9/11 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：除染土の処分策　丁寧な説明と合意こそ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1559746",
+          "published": "2025/9/11 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】幼児の転落事故　親の見守りだけでは限界",
+          "link": "https://www.nishinippon.co.jp/item/1398244/",
+          "published": "2025/09/11 06:00",
           "paid": false
         }
       ]

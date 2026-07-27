@@ -59,13 +59,13 @@
         {
           "title": "［社説］公正なウクライナ早期和平を諦めるな",
           "link": "https://www.nikkei.com/article/DGXZQOCD270E70X21C25A2000000/",
-          "published": "2025年12月29日",
+          "published": "2025/12/29 19:05",
           "paid": false
         },
         {
           "title": "［社説］能登の復興を息長く支えよう",
           "link": "https://www.nikkei.com/article/DGXZQODK290SX0Z21C25A2000000/",
-          "published": "2025年12月29日",
+          "published": "2025/12/29 19:00",
           "paid": false
         }
       ]
@@ -126,7 +126,7 @@
         {
           "title": "Ｈ３打ち上げ失敗　信頼回復へ立て直さねば",
           "link": "https://www.niigata-nippo.co.jp/articles/-/754515",
-          "published": "2025/12/29",
+          "published": "2025/12/29 6:00",
           "paid": false
         }
       ]
@@ -160,13 +160,13 @@
         {
           "title": "社説【２次避難の指針】受け入れの教訓も継承を",
           "link": "https://www.hokkoku.co.jp/articles/-/1974229",
-          "published": "12/29",
+          "published": "2025/12/29 5:00",
           "paid": true
         },
         {
           "title": "社説【北陸の観光政策】創生の活力を量から質に",
           "link": "https://www.hokkoku.co.jp/articles/-/1974228",
-          "published": "12/29",
+          "published": "2025/12/29 5:00",
           "paid": true
         }
       ]
@@ -269,6 +269,40 @@
           "title": "＜社説＞辺野古「地盤改良」１年　新基地の目的化をやめよ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4911803.html",
           "published": "2025/12/29",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：給食費の「無償化」　持続的な制度へ財源確保を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1627829",
+          "published": "2025/12/29 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】H3再び失敗　信頼回復へ原因究明急げ",
+          "link": "https://www.nishinippon.co.jp/item/1440857/",
+          "published": "2025/12/29 06:00",
           "paid": false
         }
       ]

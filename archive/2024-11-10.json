@@ -73,7 +73,7 @@
         {
           "title": "検事正の性暴力　被害者の訴え受け止めよ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/507159",
-          "published": "2024/11/10",
+          "published": "2024/11/10 6:00",
           "paid": false
         }
       ]
@@ -159,6 +159,23 @@
           "title": "＜社説＞「年収の壁」見直し　国会論議で多角的検証を",
           "link": "https://ryukyushimpo.jp/editorial/entry-3632640.html",
           "published": "2024/11/10",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】増える不登校　実態を把握して孤立防げ",
+          "link": "https://www.nishinippon.co.jp/item/1280220/",
+          "published": "2024/11/10 06:00",
           "paid": false
         }
       ]

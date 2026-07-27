@@ -73,7 +73,7 @@
         {
           "title": "ウイルス交付金　政策効果の検証が必要だ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/401764",
-          "published": "2024/5/8",
+          "published": "2024/5/8 6:00",
           "paid": false
         }
       ]
@@ -176,6 +176,23 @@
           "title": "＜社説＞オランダ軍兵士「視察」　外国軍の使用実態示せ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3051910.html",
           "published": "2024/05/08",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】国体が国スポに　開催意義を見直す契機に",
+          "link": "https://www.nishinippon.co.jp/item/1208667/",
+          "published": "2024/05/08 06:00",
           "paid": false
         }
       ]

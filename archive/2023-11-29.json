@@ -50,7 +50,7 @@
         {
           "title": "派閥パーティー券　訂正して終わりではない",
           "link": "https://www.niigata-nippo.co.jp/articles/-/319813",
-          "published": "2023/11/29",
+          "published": "2023/11/29 6:00",
           "paid": false
         }
       ]
@@ -136,6 +136,23 @@
           "title": "＜社説＞テーマパーク計画　地元に的確な情報提供を",
           "link": "https://ryukyushimpo.jp/editorial/entry-2522685.html",
           "published": "2023/11/29",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】日中韓外相会談　地域の安定へ対話定着を",
+          "link": "https://www.nishinippon.co.jp/item/1151300/",
+          "published": "2023/11/29 06:00",
           "paid": false
         }
       ]

@@ -33,7 +33,7 @@
         {
           "title": "ＣＯＰ２８　化石燃料からの脱却急げ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/328950",
-          "published": "2023/12/17",
+          "published": "2023/12/17 6:00",
           "paid": false
         }
       ]
@@ -119,6 +119,23 @@
           "title": "＜社説＞100カ所超土地規制へ　法の廃止を強く求める",
           "link": "https://ryukyushimpo.jp/editorial/entry-2590994.html",
           "published": "2023/12/17",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】インフル警報　異例の早期拡大に注意を",
+          "link": "https://www.nishinippon.co.jp/item/1158172/",
+          "published": "2023/12/17 06:00",
           "paid": false
         }
       ]

@@ -50,7 +50,7 @@
         {
           "title": "京アニ死刑判決　孤立や孤独生まぬ社会に",
           "link": "https://www.niigata-nippo.co.jp/articles/-/350016",
-          "published": "2024/1/26",
+          "published": "2024/1/26 6:00",
           "paid": false
         }
       ]
@@ -153,6 +153,23 @@
           "title": "＜社説＞京アニ事件死刑判決　深い闇の解明終わらない",
           "link": "https://ryukyushimpo.jp/editorial/entry-2735612.html",
           "published": "2024/01/26",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】自民党の改革案　再生の意志が感じられぬ",
+          "link": "https://www.nishinippon.co.jp/item/1171822/",
+          "published": "2024/01/26 06:00",
           "paid": false
         }
       ]

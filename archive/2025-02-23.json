@@ -67,7 +67,7 @@
         {
           "title": "公選法改正案　選挙の公正さ守る対策を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/561522",
-          "published": "2025/2/23",
+          "published": "2025/2/23 6:00",
           "paid": false
         }
       ]
@@ -170,6 +170,40 @@
           "title": "＜社説＞高校無償化3党合意　格差の議論尽くしたのか",
           "link": "https://ryukyushimpo.jp/editorial/entry-3991155.html",
           "published": "2025/02/23",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：ＰＦＡＳ対策　第一歩として着実な実行を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1428036",
+          "published": "2025/2/23 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】首相襲撃に有罪　選挙活動と警備の両立を",
+          "link": "https://www.nishinippon.co.jp/item/1319003/",
+          "published": "2025/02/23 06:00",
           "paid": false
         }
       ]

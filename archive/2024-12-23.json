@@ -59,7 +59,7 @@
         {
           "title": "［社説］ホンダ・日産は大変革に挑め",
           "link": "https://www.nikkei.com/article/DGXZQOCD2366O0T21C24A2000000/",
-          "published": "2024年12月23日",
+          "published": "2024/12/23 20:00",
           "paid": false
         }
       ]
@@ -113,7 +113,7 @@
         {
           "title": "民間ロケット失敗　原因解明し次こそ成功を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/530097",
-          "published": "2024/12/23",
+          "published": "2024/12/23 6:00",
           "paid": false
         }
       ]
@@ -199,6 +199,23 @@
           "title": "＜社説＞与党税制大綱　国民目線で議論すべきだ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3792837.html",
           "published": "2024/12/23",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】部落地名訴訟　「差別されぬ権利」定着を",
+          "link": "https://www.nishinippon.co.jp/item/1296552/",
+          "published": "2024/12/23 06:00",
           "paid": false
         }
       ]

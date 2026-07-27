@@ -56,7 +56,7 @@
         {
           "title": "香港の国安条例　市民や企業の萎縮を危惧",
           "link": "https://www.niigata-nippo.co.jp/articles/-/383062",
-          "published": "2024/3/31",
+          "published": "2024/3/31 6:00",
           "paid": false
         }
       ]
@@ -159,6 +159,23 @@
           "title": "＜社説＞全市町村でPFAS　原因特定と汚染除去急げ",
           "link": "https://ryukyushimpo.jp/editorial/entry-2944192.html",
           "published": "2024/03/31",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】非正規公務員　給与抑制の対応は悪質だ",
+          "link": "https://www.nishinippon.co.jp/item/1195436/",
+          "published": "2024/03/31 06:00",
           "paid": false
         }
       ]

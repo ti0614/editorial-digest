@@ -59,13 +59,13 @@
         {
           "title": "［社説］留学生の授業料引き上げは細心の配慮で",
           "link": "https://www.nikkei.com/article/DGXZQOCD12BLL0S5A211C2000000/",
-          "published": "2025年12月13日",
+          "published": "2025/12/13 19:05",
           "paid": false
         },
         {
           "title": "［社説］NHKは公共の役割再定義を",
           "link": "https://www.nikkei.com/article/DGXZQODK127V80S5A211C2000000/",
-          "published": "2025年12月13日",
+          "published": "2025/12/13 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "無形文化遺産　世界が認めた村上の祭り",
           "link": "https://www.niigata-nippo.co.jp/articles/-/745691",
-          "published": "2025/12/13",
+          "published": "2025/12/13 6:00",
           "paid": false
         }
       ]
@@ -177,13 +177,13 @@
         {
           "title": "社説【危険運転に数値基準】法定速度厳守の徹底を",
           "link": "https://www.hokkoku.co.jp/articles/-/1958850",
-          "published": "12/13",
+          "published": "2025/12/13 5:00",
           "paid": true
         },
         {
           "title": "社説【おこめ券取りやめ】自治体の裁量に任せたい",
           "link": "https://www.hokkoku.co.jp/articles/-/1958849",
-          "published": "12/13",
+          "published": "2025/12/13 5:00",
           "paid": true
         }
       ]
@@ -286,6 +286,40 @@
           "title": "＜社説＞困窮子育て世帯調査　貧困の連鎖断つ支援策を",
           "link": "https://ryukyushimpo.jp/editorial/entry-4865169.html",
           "published": "2025/12/13",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：大津祭「無形遺産」に　内外へ発信の弾みにしたい",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1617792",
+          "published": "2025/12/13 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】不登校の増加　余裕がない学校にも要因",
+          "link": "https://www.nishinippon.co.jp/item/1434755/",
+          "published": "2025/12/13 06:00",
           "paid": false
         }
       ]

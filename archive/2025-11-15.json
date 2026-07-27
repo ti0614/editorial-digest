@@ -59,13 +59,13 @@
         {
           "title": "［社説］日中両国は冷静な対話で対立の激化防げ",
           "link": "https://www.nikkei.com/article/DGXZQODK150FP0V11C25A1000000/",
-          "published": "2025年11月15日",
+          "published": "2025/11/15 19:10",
           "paid": false
         },
         {
           "title": "［社説］自民は結党70年の再出発を",
           "link": "https://www.nikkei.com/article/DGXZQODK150KW0V11C25A1000000/",
-          "published": "2025年11月15日",
+          "published": "2025/11/15 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "めぐみさん拉致　解決のため知恵絞らねば",
           "link": "https://www.niigata-nippo.co.jp/articles/-/728922",
-          "published": "2025/11/15",
+          "published": "2025/11/15 6:00",
           "paid": false
         }
       ]
@@ -177,13 +177,13 @@
         {
           "title": "社説【井波彫刻一行の訪米】販路開拓する足がかりに",
           "link": "https://www.hokkoku.co.jp/articles/-/1929899",
-          "published": "11/15",
+          "published": "2025/11/15 5:00",
           "paid": true
         },
         {
           "title": "社説【クマ対策改定】人口減時代の個体数管理を",
           "link": "https://www.hokkoku.co.jp/articles/-/1929898",
-          "published": "11/15",
+          "published": "2025/11/15 5:00",
           "paid": true
         }
       ]
@@ -303,6 +303,40 @@
           "title": "＜社説＞若者に広がる薬物乱用　沖縄突出の解明が急務だ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4774109.html",
           "published": "2025/11/15",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：デフリンピック　音のない熱戦「拍手」送りたい",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1600378",
+          "published": "2025/11/15 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】デフリンピック　手話を基にエール送ろう",
+          "link": "https://www.nishinippon.co.jp/item/1423619/",
+          "published": "2025/11/15 06:00",
           "paid": false
         }
       ]

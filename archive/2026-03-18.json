@@ -53,13 +53,13 @@
         {
           "title": "［社説］環境変化に備えて賃上げ維持への改革を",
           "link": "https://www.nikkei.com/article/DGXZQODK186CW0Y6A310C2000000/",
-          "published": "3月18日",
+          "published": "2026/3/18 19:05",
           "paid": false
         },
         {
           "title": "［社説］司令塔にふさわしい防災庁に",
           "link": "https://www.nikkei.com/article/DGXZQODK1756J0X10C26A3000000/",
-          "published": "3月18日",
+          "published": "2026/3/18 19:00",
           "paid": false
         }
       ]
@@ -137,7 +137,7 @@
         {
           "title": "米の艦船派遣要求　拙速な協力判断避けたい",
           "link": "https://www.niigata-nippo.co.jp/articles/-/798207",
-          "published": "3/18",
+          "published": "2026/3/18 6:00",
           "paid": false
         }
       ]
@@ -171,13 +171,13 @@
         {
           "title": "社説【ヘルスツーリズム】一味違った旅の提案を",
           "link": "https://www.hokkoku.co.jp/articles/-/2048620",
-          "published": "3/18",
+          "published": "2026/3/18 5:00",
           "paid": true
         },
         {
           "title": "社説【絶滅の危機低下】能登のトキ放鳥も追い風に",
           "link": "https://www.hokkoku.co.jp/articles/-/2048619",
-          "published": "3/18",
+          "published": "2026/3/18 5:00",
           "paid": true
         }
       ]
@@ -297,6 +297,40 @@
           "title": "＜社説＞辺野古船転覆２人死亡　事故原因の徹底究明を",
           "link": "https://ryukyushimpo.jp/editorial/entry-5126449.html",
           "published": "2026/03/18",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：南丹に新市長　「チェンジ」理解と協力で",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1678557",
+          "published": "2026/3/18 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】保護司法の改正　社会で支える姿へ進化を",
+          "link": "https://www.nishinippon.co.jp/item/1470776/",
+          "published": "2026/03/18 06:00",
           "paid": false
         }
       ]

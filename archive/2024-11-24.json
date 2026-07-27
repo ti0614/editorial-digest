@@ -53,13 +53,13 @@
         {
           "title": "［社説］COP29合意後も分断回避へ努力続けよ",
           "link": "https://www.nikkei.com/article/DGXZQODK241180U4A121C2000000/",
-          "published": "2024年11月24日",
+          "published": "2024/11/24 19:05",
           "paid": false
         },
         {
           "title": "［社説］鳥インフルエンザの拡大阻止に全力を",
           "link": "https://www.nikkei.com/article/DGXZQODK2295U0S4A121C2000000/",
-          "published": "2024年11月24日",
+          "published": "2024/11/24 19:00",
           "paid": false
         }
       ]
@@ -96,7 +96,7 @@
         {
           "title": "増える単身世帯　孤立化防ぐ体制整えたい",
           "link": "https://www.niigata-nippo.co.jp/articles/-/514470",
-          "published": "2024/11/24",
+          "published": "2024/11/24 6:00",
           "paid": false
         }
       ]
@@ -199,6 +199,23 @@
           "title": "＜社説＞ＰＦＡＳ汚染対策　米本国と同基準の適用を",
           "link": "https://ryukyushimpo.jp/editorial/entry-3677421.html",
           "published": "2024/11/24",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】スポーツと地域　観戦楽しみ　愛着を育もう",
+          "link": "https://www.nishinippon.co.jp/item/1285380/",
+          "published": "2024/11/24 06:00",
           "paid": false
         }
       ]

@@ -101,7 +101,7 @@
         {
           "title": "石破政権発足　自民党政治を転換させよ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/485778",
-          "published": "2024/10/2",
+          "published": "2024/10/2 6:00",
           "paid": false
         }
       ]
@@ -204,6 +204,23 @@
           "title": "＜社説＞石破内閣が発足　解散ありきは国民無視だ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3510836.html",
           "published": "2024/10/02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】石破内閣発足　長期政権の弊害と決別を",
+          "link": "https://www.nishinippon.co.jp/item/1265081/",
+          "published": "2024/10/02 06:00",
           "paid": false
         }
       ]

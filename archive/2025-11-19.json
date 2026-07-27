@@ -59,13 +59,13 @@
         {
           "title": "［社説］企業は増益保ち賃上げと投資の好循環を",
           "link": "https://www.nikkei.com/article/DGXZQODK1465Q0U5A111C2000000/",
-          "published": "2025年11月19日",
+          "published": "2025/11/19 19:05",
           "paid": false
         },
         {
           "title": "［社説］ウクライナは汚職を根絶せよ",
           "link": "https://www.nikkei.com/article/DGXZQODK173LA0X11C25A1000000/",
-          "published": "2025年11月19日",
+          "published": "2025/11/19 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "ＧＤＰマイナス　実効性ある下支え政策を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/730992",
-          "published": "2025/11/19",
+          "published": "2025/11/19 6:00",
           "paid": false
         }
       ]
@@ -177,13 +177,13 @@
         {
           "title": "社説【白山から植林支援】ジオの価値高める活動に",
           "link": "https://www.hokkoku.co.jp/articles/-/1933373",
-          "published": "11/19",
+          "published": "2025/11/19 5:00",
           "paid": true
         },
         {
           "title": "社説【日本への渡航自粛】旅行も留学も「脱中国」を",
           "link": "https://www.hokkoku.co.jp/articles/-/1933372",
-          "published": "11/19",
+          "published": "2025/11/19 5:00",
           "paid": true
         }
       ]
@@ -303,6 +303,46 @@
           "title": "＜社説＞「台湾有事」首相答弁　国益と相反、沈静化を急げ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4786302.html",
           "published": "2025/11/19",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：「台湾有事」答弁　緊張高めぬ外交尽くせ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1602507",
+          "published": "2025/11/19 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：部活の財政支援　生徒の機会守る制度に",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1602503",
+          "published": "2025/11/19 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】日中の対立激化　対話を続け沈静化させよ",
+          "link": "https://www.nishinippon.co.jp/item/1424980/",
+          "published": "2025/11/19 06:00",
           "paid": false
         }
       ]

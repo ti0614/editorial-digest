@@ -59,13 +59,13 @@
         {
           "title": "［社説］原発と再生エネ活用を競争力の土台に",
           "link": "https://www.nikkei.com/article/DGXZQOCD178760X11C24A2000000/",
-          "published": "2024年12月17日",
+          "published": "2024/12/17 19:05",
           "paid": false
         },
         {
           "title": "［社説］銀行の信頼損ねた貸金庫窃盗",
           "link": "https://www.nikkei.com/article/DGXZQODK171MJ0X11C24A2000000/",
-          "published": "2024年12月17日",
+          "published": "2024/12/17 19:00",
           "paid": false
         }
       ]
@@ -136,7 +136,7 @@
         {
           "title": "米兵の移転開始　沖縄の負担軽減に程遠い",
           "link": "https://www.niigata-nippo.co.jp/articles/-/526897",
-          "published": "2024/12/17",
+          "published": "2024/12/17 6:00",
           "paid": false
         }
       ]
@@ -239,6 +239,23 @@
           "title": "＜社説＞海兵隊グアム移転開始　負担軽減と言えるのか",
           "link": "https://ryukyushimpo.jp/editorial/entry-3769746.html",
           "published": "2024/12/17",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】韓国大統領弾劾　真相究明し混乱広げるな",
+          "link": "https://www.nishinippon.co.jp/item/1294170/",
+          "published": "2024/12/17 06:00",
           "paid": false
         }
       ]

@@ -59,13 +59,13 @@
         {
           "title": "［社説］トランプ関税の違憲判決は当然である",
           "link": "https://www.nikkei.com/article/DGXZQODK210820R20C26A2000000/",
-          "published": "2月21日",
+          "published": "2026/2/21 19:05",
           "paid": false
         },
         {
           "title": "［社説］賃上げへ生産性向上の議論を",
           "link": "https://www.nikkei.com/article/DGXZQODK2065H0Q6A220C2000000/",
-          "published": "2月21日",
+          "published": "2026/2/21 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "中井選手「銅」　１７歳さらなる高みを期待",
           "link": "https://www.niigata-nippo.co.jp/articles/-/783725",
-          "published": "2/21",
+          "published": "2026/2/21 6:00",
           "paid": false
         }
       ]
@@ -177,13 +177,13 @@
         {
           "title": "社説【アニメで誘客】一過性で終わらぬ工夫を",
           "link": "https://www.hokkoku.co.jp/articles/-/2023415",
-          "published": "2/21",
+          "published": "2026/2/21 5:00",
           "paid": true
         },
         {
           "title": "社説【施政方針演説】財政運営の歴史的転換点に",
           "link": "https://www.hokkoku.co.jp/articles/-/2023414",
-          "published": "2/21",
+          "published": "2026/2/21 5:00",
           "paid": true
         }
       ]
@@ -303,6 +303,40 @@
           "title": "＜社説＞高市首相施政方針　「成長」優先だけでよいか",
           "link": "https://ryukyushimpo.jp/editorial/entry-5054210.html",
           "published": "2026/02/21",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：首相の施政方針　危うい消費減税と積極財政",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1663047",
+          "published": "2026/2/21 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】施政方針演説　高市カラーの具体像示せ",
+          "link": "https://www.nishinippon.co.jp/item/1461058/",
+          "published": "2026/02/21 06:00",
           "paid": false
         }
       ]

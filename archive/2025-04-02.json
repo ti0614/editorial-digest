@@ -59,13 +59,13 @@
         {
           "title": "［社説］南海トラフ地震の減災を粘り強くめざせ",
           "link": "https://www.nikkei.com/article/DGXZQOCD3126Q0R30C25A3000000/",
-          "published": "2025年4月2日",
+          "published": "2025/4/2 19:05",
           "paid": false
         },
         {
           "title": "［社説］通信規制は不断の見直しを",
           "link": "https://www.nikkei.com/article/DGXZQODK276II0X20C25A3000000/",
-          "published": "2025年4月2日",
+          "published": "2025/4/2 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "フジ第三者委報告　体質改め抜本的出直しを",
           "link": "https://www.niigata-nippo.co.jp/articles/-/584439",
-          "published": "2025/4/2",
+          "published": "2025/4/2 6:00",
           "paid": false
         }
       ]
@@ -246,6 +246,46 @@
           "title": "＜社説＞フジテレビ調査報告書　企業の人権感覚問い直せ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4114121.html",
           "published": "2025/04/02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：南海トラフ被害　京滋でも備えを確実に",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1451796",
+          "published": "2025/4/2 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：フジテレビ問題　性暴力生んだ企業体質",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1451804",
+          "published": "2025/4/2 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】フジ調査報告　人権侵害を猛省し出直せ",
+          "link": "https://www.nishinippon.co.jp/item/1334439/",
+          "published": "2025/04/02 06:00",
           "paid": false
         }
       ]

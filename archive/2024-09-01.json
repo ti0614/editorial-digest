@@ -79,7 +79,7 @@
         {
           "title": "新学期スタート　子どもの変化見逃さずに",
           "link": "https://www.niigata-nippo.co.jp/articles/-/468683",
-          "published": "2024/9/1",
+          "published": "2024/9/1 6:00",
           "paid": false
         }
       ]
@@ -165,6 +165,23 @@
           "title": "＜社説＞宜野湾市長選告示　基地問題の解決手法問う",
           "link": "https://ryukyushimpo.jp/editorial/entry-3431734.html",
           "published": "2024/09/01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】長崎知事の疑惑　不明瞭な資金の詳細語れ",
+          "link": "https://www.nishinippon.co.jp/item/1253359/",
+          "published": "2024/09/01 06:00",
           "paid": false
         }
       ]

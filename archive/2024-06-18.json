@@ -73,7 +73,7 @@
         {
           "title": "ウクライナ和平案　国際社会の結束が必要だ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/424497",
-          "published": "2024/6/18",
+          "published": "2024/6/18 6:00",
           "paid": false
         }
       ]
@@ -176,6 +176,23 @@
           "title": "＜社説＞県議選投票率最低　主権者教育で反転可能だ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3203927.html",
           "published": "2024/06/18",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】G7サミット　危機克服へ広範な協調を",
+          "link": "https://www.nishinippon.co.jp/item/1224214/",
+          "published": "2024/06/18 06:00",
           "paid": false
         }
       ]

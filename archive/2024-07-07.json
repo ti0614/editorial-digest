@@ -56,7 +56,7 @@
         {
           "title": "旭川いじめ再調査　被害者に寄り添う判断だ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/435495",
-          "published": "2024/7/7",
+          "published": "2024/7/7 6:00",
           "paid": false
         }
       ]
@@ -159,6 +159,23 @@
           "title": "＜社説＞サイパン陥落８０年　島嶼戦は住民犠牲招く",
           "link": "https://ryukyushimpo.jp/editorial/entry-3245432.html",
           "published": "2024/07/07",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】全中大会の縮小　少子化踏まえ改革継続を",
+          "link": "https://www.nishinippon.co.jp/item/1231806/",
+          "published": "2024/07/07 06:00",
           "paid": false
         }
       ]

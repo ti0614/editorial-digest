@@ -33,7 +33,7 @@
         {
           "title": "月面着陸成功　高い技術力を示す快挙だ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/350988",
-          "published": "2024/1/28",
+          "published": "2024/1/28 6:00",
           "paid": false
         }
       ]
@@ -136,6 +136,23 @@
           "title": "＜社説＞非正規給与遡及せず　上げ分支給へ努力尽くせ",
           "link": "https://ryukyushimpo.jp/editorial/entry-2743307.html",
           "published": "2024/01/28",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】不振の中国経済　不動産対策に政策集中を",
+          "link": "https://www.nishinippon.co.jp/item/1172598/",
+          "published": "2024/01/28 06:00",
           "paid": false
         }
       ]

@@ -59,13 +59,13 @@
         {
           "title": "［社説］働き方改革と労働時間規制の交点を探れ",
           "link": "https://www.nikkei.com/article/DGXZQODK146CV0U5A111C2000000/",
-          "published": "2025年11月14日",
+          "published": "2025/11/14 19:05",
           "paid": false
         },
         {
           "title": "［社説］ASEAN完成を結束の力に",
           "link": "https://www.nikkei.com/article/DGXZQODK144JB0U5A111C2000000/",
-          "published": "2025年11月14日",
+          "published": "2025/11/14 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "原発意識調査　県民の懸念にどう応える",
           "link": "https://www.niigata-nippo.co.jp/articles/-/728063",
-          "published": "2025/11/14",
+          "published": "2025/11/14 6:00",
           "paid": false
         }
       ]
@@ -177,13 +177,13 @@
         {
           "title": "社説【トキ認証米】能登全域に栽培広げたい",
           "link": "https://www.hokkoku.co.jp/articles/-/1928544",
-          "published": "11/14",
+          "published": "2025/11/14 5:00",
           "paid": true
         },
         {
           "title": "社説【議員定数の削減】覚悟を持って法案提出を",
           "link": "https://www.hokkoku.co.jp/articles/-/1928543",
-          "published": "11/14",
+          "published": "2025/11/14 5:00",
           "paid": true
         }
       ]
@@ -303,6 +303,46 @@
           "title": "＜社説＞琉球遺骨さらに466体　官学で遺骨の返還進めよ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4771101.html",
           "published": "2025/11/14",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：米離脱のＣＯＰ　多国間連携で実効策を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1599615",
+          "published": "2025/11/14 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：人間国宝の拡大　わざ継承へ京滋からも",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1599602",
+          "published": "2025/11/14 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】強まる核の懸念　原潜導入で軍拡を招くな",
+          "link": "https://www.nishinippon.co.jp/item/1423124/",
+          "published": "2025/11/14 06:00",
           "paid": false
         }
       ]

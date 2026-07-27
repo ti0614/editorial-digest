@@ -67,7 +67,7 @@
         {
           "title": "規正法自民案　改革への本気が見えない",
           "link": "https://www.niigata-nippo.co.jp/articles/-/396040",
-          "published": "2024/4/25",
+          "published": "2024/4/25 6:00",
           "paid": false
         }
       ]
@@ -170,6 +170,23 @@
           "title": "＜社説＞32軍壕第1坑口確認　公開で沖縄戦実相継承を",
           "link": "https://ryukyushimpo.jp/editorial/entry-3013522.html",
           "published": "2024/04/25",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】グーグルの処分　市場寡占の弊害取り除け",
+          "link": "https://www.nishinippon.co.jp/item/1204563/",
+          "published": "2024/04/25 06:00",
           "paid": false
         }
       ]

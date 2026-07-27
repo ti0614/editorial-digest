@@ -73,7 +73,7 @@
         {
           "title": "巨大地震注意　日頃の備え改めて点検を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/456751",
-          "published": "2024/8/10",
+          "published": "2024/8/10 6:00",
           "paid": false
         }
       ]
@@ -176,6 +176,23 @@
           "title": "＜社説＞南海トラフ臨時情報　日頃の防災対策再確認を",
           "link": "https://ryukyushimpo.jp/editorial/entry-3357268.html",
           "published": "2024/08/10",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】南海トラフ情報　落ち着いて命守る備えを",
+          "link": "https://www.nishinippon.co.jp/item/1245851/",
+          "published": "2024/08/10 06:00",
           "paid": false
         }
       ]

@@ -59,13 +59,13 @@
         {
           "title": "［社説］高い賃上げ定着へ労働改革と競争進めよ",
           "link": "https://www.nikkei.com/article/DGXZQODK126TU0S5A310C2000000/",
-          "published": "2025年3月12日",
+          "published": "2025/3/12 19:05",
           "paid": false
         },
         {
           "title": "［社説］中国は日本が抱く懸念払拭を",
           "link": "https://www.nikkei.com/article/DGXZQOCD121FO0S5A310C2000000/",
-          "published": "2025年3月12日",
+          "published": "2025/3/12 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "兵庫百条委報告　知事は反省し混乱収拾を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/571957",
-          "published": "2025/3/12",
+          "published": "2025/3/12 6:00",
           "paid": false
         }
       ]
@@ -246,6 +246,46 @@
           "title": "＜社説＞幼稚園職員の業務過多　本格調査で課題の分析を",
           "link": "https://ryukyushimpo.jp/editorial/entry-4043187.html",
           "published": "2025/03/12",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：東電幹部「無罪」　企業の責任は免れない",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1438460",
+          "published": "2025/3/12 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：中国の全人代　構造的なリスク直視を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1438451",
+          "published": "2025/3/12 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】議会の百条委　調査権の重み受け止めよ",
+          "link": "https://www.nishinippon.co.jp/item/1325635/",
+          "published": "2025/03/12 06:00",
           "paid": false
         }
       ]

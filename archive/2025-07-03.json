@@ -47,13 +47,13 @@
         {
           "title": "［社説］政権選択にも資する国家像を明確に示せ",
           "link": "https://www.nikkei.com/article/DGXZQODK035930T00C25A7000000/",
-          "published": "2025年7月3日",
+          "published": "2025/7/3 19:05",
           "paid": false
         },
         {
           "title": "［社説］次世代支援に必要な公園整備",
           "link": "https://www.nikkei.com/article/DGXZQODK131MS0T10C25A6000000/",
-          "published": "2025年7月3日",
+          "published": "2025/7/3 19:01",
           "paid": false
         }
       ]
@@ -131,7 +131,7 @@
         {
           "title": "きょう公示　国民生活見つめた論戦を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/640789",
-          "published": "2025/7/3",
+          "published": "2025/7/3 6:00",
           "paid": false
         }
       ]
@@ -251,6 +251,40 @@
           "title": "＜社説＞参院選公示　政権枠組み決する選挙だ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4404589.html",
           "published": "2025/07/03",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：きょう公示　「政権選択」の重み持つ一票",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1511307",
+          "published": "2025/7/3 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】立候補年齢　引き下げへ本格的議論を",
+          "link": "https://www.nishinippon.co.jp/item/1371772/",
+          "published": "2025/07/03 06:00",
           "paid": false
         }
       ]

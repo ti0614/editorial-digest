@@ -59,13 +59,13 @@
         {
           "title": "［社説］農相更迭で首相は危機感を高めて出直せ",
           "link": "https://www.nikkei.com/article/DGXZQODK213AE0R20C25A5000000/",
-          "published": "2025年5月21日",
+          "published": "2025/5/21 19:05",
           "paid": false
         },
         {
           "title": "［社説］日米造船協力は早く具体化を",
           "link": "https://www.nikkei.com/article/DGXZQODK168290W5A510C2000000/",
-          "published": "2025年5月21日",
+          "published": "2025/5/21 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "農相コメ発言　生活者の怒り受け止めよ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/611448",
-          "published": "2025/5/21",
+          "published": "2025/5/21 6:00",
           "paid": false
         }
       ]
@@ -246,6 +246,46 @@
           "title": "＜社説＞江藤農相発言　農政への信頼は失墜した",
           "link": "https://ryukyushimpo.jp/editorial/entry-4250709.html",
           "published": "2025/05/21",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：農相発言と米価　危機感欠如の農政示す",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1480086",
+          "published": "2025/5/21 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：経済安保の民間人調査　国会は人権守る監視を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1480075",
+          "published": "2025/5/21 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】GDPマイナス　消費低迷の悪循環を断て",
+          "link": "https://www.nishinippon.co.jp/item/1353472/",
+          "published": "2025/05/21 06:00",
           "paid": false
         }
       ]

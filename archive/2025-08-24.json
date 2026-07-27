@@ -47,13 +47,13 @@
         {
           "title": "［社説］日韓は国民が実感できる共通利益を探れ",
           "link": "https://www.nikkei.com/article/DGXZQODK240U90U5A820C2000000/",
-          "published": "2025年8月24日",
+          "published": "2025/8/24 19:05",
           "paid": false
         },
         {
           "title": "［社説］南海トラフ地震の臨時情報に慌てぬ備えを",
           "link": "https://www.nikkei.com/article/DGXZQODK221R10S5A820C2000000/",
-          "published": "2025年8月24日",
+          "published": "2025/8/24 19:00",
           "paid": false
         }
       ]
@@ -97,7 +97,7 @@
         {
           "title": "クマ被害相次ぐ　遭遇しない対策が不可欠",
           "link": "https://www.niigata-nippo.co.jp/articles/-/675557",
-          "published": "2025/8/24",
+          "published": "2025/8/24 6:00",
           "paid": false
         }
       ]
@@ -217,6 +217,40 @@
           "title": "＜社説＞沖尚が夏初制覇　総合力で偉業成し遂げた",
           "link": "https://ryukyushimpo.jp/editorial/entry-4560213.html",
           "published": "2025/08/24",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：浮島丸事件８０年　日韓で遺骨返還協議を急げ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1547849",
+          "published": "2025/8/24 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】iPS再生医療　早期実用化で患者に光を",
+          "link": "https://www.nishinippon.co.jp/item/1391248/",
+          "published": "2025/08/24 06:00",
           "paid": false
         }
       ]

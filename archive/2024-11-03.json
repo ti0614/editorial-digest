@@ -59,13 +59,13 @@
         {
           "title": "［社説］自公国の政策協議は小手先に流れるな",
           "link": "https://www.nikkei.com/article/DGXZQOCD0155F0R01C24A1000000/",
-          "published": "2024年11月3日",
+          "published": "2024/11/3 19:15",
           "paid": false
         },
         {
           "title": "［社説］万博は展示内容の周知を急げ",
           "link": "https://www.nikkei.com/article/DGXZQODK01A5P0R01C24A1000000/",
-          "published": "2024年11月3日",
+          "published": "2024/11/3 19:00",
           "paid": false
         }
       ]
@@ -102,7 +102,7 @@
         {
           "title": "インサイダー疑惑　証券市場の信頼揺るがす",
           "link": "https://www.niigata-nippo.co.jp/articles/-/503523",
-          "published": "2024/11/3",
+          "published": "2024/11/3 6:00",
           "paid": false
         }
       ]
@@ -205,6 +205,23 @@
           "title": "＜社説＞自民の多数派工作　裏金みそぎは済んでない",
           "link": "https://ryukyushimpo.jp/editorial/entry-3613806.html",
           "published": "2024/11/03",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】西日本文化賞　混迷深まる社会への光明",
+          "link": "https://www.nishinippon.co.jp/item/1277543/",
+          "published": "2024/11/03 06:00",
           "paid": false
         }
       ]

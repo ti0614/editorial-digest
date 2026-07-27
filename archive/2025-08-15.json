@@ -53,19 +53,19 @@
         {
           "title": "［社説］底堅い景気でも米関税リスクに警戒を",
           "link": "https://www.nikkei.com/article/DGXZQODK155E60V10C25A8000000/",
-          "published": "2025年8月15日",
+          "published": "2025/8/15 19:05",
           "paid": false
         },
         {
           "title": "［社説］酷暑前提の経済へ知恵絞ろう",
           "link": "https://www.nikkei.com/article/DGXZQODK153720V10C25A8000000/",
-          "published": "2025年8月15日",
+          "published": "2025/8/15 19:00",
           "paid": false
         },
         {
           "title": "［社説］戦後80年の警鐘を平和への誓いに",
           "link": "https://www.nikkei.com/article/DGXZQODK143IH0U5A810C2000000/",
-          "published": "2025年8月15日",
+          "published": "2025/8/15 0:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "終戦の日　非戦の誓い未来へつなぐ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/670361",
-          "published": "2025/8/15",
+          "published": "2025/8/15 6:00",
           "paid": false
         }
       ]
@@ -263,6 +263,40 @@
           "title": "＜社説＞敗戦から80年　平和を守る決意新たに",
           "link": "https://ryukyushimpo.jp/editorial/entry-4543046.html",
           "published": "2025/08/15",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：終戦８０年に思う　焼け跡からの不戦、貫く日本に",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1542552",
+          "published": "2025/8/15 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】終戦から80年　不戦のペンを握り続ける",
+          "link": "https://www.nishinippon.co.jp/item/1388152/",
+          "published": "2025/08/15 06:00",
           "paid": false
         }
       ]

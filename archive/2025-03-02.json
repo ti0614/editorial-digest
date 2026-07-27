@@ -59,13 +59,13 @@
         {
           "title": "［社説］出産・結婚を阻む壁を早急に取り除け",
           "link": "https://www.nikkei.com/article/DGXZQOCD274N60X20C25A2000000/",
-          "published": "2025年3月2日",
+          "published": "2025/3/2 19:05",
           "paid": false
         },
         {
           "title": "［社説］取り調べの録音・録画拡大を",
           "link": "https://www.nikkei.com/article/DGXZQODK2833Y0Y5A220C2000000/",
-          "published": "2025年3月2日",
+          "published": "2025/3/2 19:00",
           "paid": false
         }
       ]
@@ -109,7 +109,7 @@
         {
           "title": "Ｊ１アルビ　ホーム開幕戦で初勝利を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/565707",
-          "published": "2025/3/2",
+          "published": "2025/3/2 6:00",
           "paid": false
         }
       ]
@@ -212,6 +212,40 @@
           "title": "＜社説＞ライオンの子不正受給　関係者一体で再発防止を",
           "link": "https://ryukyushimpo.jp/editorial/entry-4013497.html",
           "published": "2025/03/02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：生殖医療法案　「出自知る権利」満たすべき",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1432265",
+          "published": "2025/3/2 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】ドイツ新政権へ　欧州結束を維持する要に",
+          "link": "https://www.nishinippon.co.jp/item/1321676/",
+          "published": "2025/03/02 06:00",
           "paid": false
         }
       ]

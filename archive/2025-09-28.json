@@ -53,13 +53,13 @@
         {
           "title": "［社説］不確実な世界で自立した日本へ論戦を",
           "link": "https://www.nikkei.com/article/DGXZQODK265R30W5A920C2000000/",
-          "published": "2025年9月28日",
+          "published": "2025/9/28 19:05",
           "paid": false
         },
         {
           "title": "［社説］三菱UFJは再び世界に挑め",
           "link": "https://www.nikkei.com/article/DGXZQODK2612A0W5A920C2000000/",
-          "published": "2025年9月28日",
+          "published": "2025/9/28 19:00",
           "paid": false
         }
       ]
@@ -103,7 +103,7 @@
         {
           "title": "国連創設８０年　機能回復へ米国は協調を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/698113",
-          "published": "2025/9/28",
+          "published": "2025/9/28 6:00",
           "paid": false
         }
       ]
@@ -137,25 +137,25 @@
         {
           "title": "社説【富山に「専門士の会」】北陸に絵本の輪広げたい",
           "link": "https://www.hokkoku.co.jp/articles/-/1880497",
-          "published": "9/28",
+          "published": "2025/9/28 5:00",
           "paid": true
         },
         {
           "title": "社説【県立図書館】サービスの質も「日本一」に",
           "link": "https://www.hokkoku.co.jp/articles/-/1880496",
-          "published": "9/28",
+          "published": "2025/9/28 5:00",
           "paid": true
         },
         {
           "title": "社説【石川県立図書館】サービスでも「日本一」に",
           "link": "https://www.hokkoku.co.jp/articles/-/1880450",
-          "published": "9/28",
+          "published": "2025/9/28 5:00",
           "paid": true
         },
         {
           "title": "社説【富山に「専門士の会」】北陸に絵本の輪を広げたい",
           "link": "https://www.hokkoku.co.jp/articles/-/1880449",
-          "published": "9/28",
+          "published": "2025/9/28 5:00",
           "paid": true
         }
       ]
@@ -258,6 +258,40 @@
           "title": "＜社説＞石垣君が代調査　市教委は実施を再考せよ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4654339.html",
           "published": "2025/09/28",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：ふるさと納税　場当たり修正やめ再設計を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1570777",
+          "published": "2025/9/28 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】使用済み核燃料　中間貯蔵の先をどうする",
+          "link": "https://www.nishinippon.co.jp/item/1404627/",
+          "published": "2025/09/28 06:00",
           "paid": false
         }
       ]

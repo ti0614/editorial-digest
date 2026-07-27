@@ -63,13 +63,13 @@
         {
           "title": "［社説］中国のSLBM発射を深く憂慮する",
           "link": "https://www.nikkei.com/article/DGXZQODK074A80X00C26A7000000/",
-          "published": "7日",
+          "published": "2026/7/7 19:05",
           "paid": false
         },
         {
           "title": "［社説］クールジャパンの赤字総括を",
           "link": "https://www.nikkei.com/article/DGXZQODK0771U0X00C26A7000000/",
-          "published": "7日",
+          "published": "2026/7/7 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "社説：米国独立２５０年　建国理念生かし秩序復元を",
           "link": "https://www.kyoto-np.co.jp/articles/-/1746800",
-          "published": "7月7日",
+          "published": "2026/7/7 16:00",
           "paid": false
         }
       ]
@@ -314,14 +314,7 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": [
-        {
-          "title": "歴史価値と魅力にもっと光を　国史跡「内裏塚古墳群」の追加　【論説】",
-          "link": "https://www.chibanippo.co.jp/articles/1465838",
-          "published": "7/7 5:00",
-          "paid": true
-        }
-      ]
+      "items": []
     },
     {
       "name": "新潟日報",
@@ -335,7 +328,7 @@
         {
           "title": "再審制見直し案　証拠全面開示なぜ封じる",
           "link": "https://www.niigata-nippo.co.jp/articles/-/863020",
-          "published": "7/7",
+          "published": "2026/7/7 6:00",
           "paid": false
         }
       ]
@@ -369,19 +362,19 @@
         {
           "title": "社説【衆院の空転続く】取り下げ要求は無理筋",
           "link": "https://www.hokkoku.co.jp/articles/-/2161868",
-          "published": "7/7",
+          "published": "2026/7/7 5:00",
           "paid": true
         },
         {
           "title": "社説【キャニオンルート】山岳観光の魅力を世界へ",
           "link": "https://www.hokkoku.co.jp/articles/-/2161867",
-          "published": "7/7",
+          "published": "2026/7/7 5:00",
           "paid": true
         },
         {
           "title": "社説【衆院の空転続く】法案取り下げ要求は無理筋",
           "link": "https://www.hokkoku.co.jp/articles/-/2161575",
-          "published": "7/7",
+          "published": "2026/7/7 5:00",
           "paid": true
         }
       ]

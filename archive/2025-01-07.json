@@ -59,7 +59,7 @@
         {
           "title": "［社説］令和の証券民主化で資本主義を磨け",
           "link": "https://www.nikkei.com/article/DGXZQOCD251GL0V21C24A2000000/",
-          "published": "2025年1月7日",
+          "published": "2025/1/7 19:00",
           "paid": false
         }
       ]
@@ -130,7 +130,7 @@
         {
           "title": "今年の県政　安全安心な地域づくりを",
           "link": "https://www.niigata-nippo.co.jp/articles/-/535774",
-          "published": "2025/1/7",
+          "published": "2025/1/7 6:00",
           "paid": false
         }
       ]
@@ -233,6 +233,23 @@
           "title": "＜社説＞25年　経済展望　平和でなければ発展ない",
           "link": "https://ryukyushimpo.jp/editorial/entry-3839707.html",
           "published": "2025/01/07",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】2025年問題　社会保障の改革に道筋を",
+          "link": "https://www.nishinippon.co.jp/item/1300888/",
+          "published": "2025/01/07 06:00",
           "paid": false
         }
       ]

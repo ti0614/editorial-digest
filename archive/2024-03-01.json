@@ -73,7 +73,7 @@
         {
           "title": "被災２カ月　インフラの復旧が急務だ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/367285",
-          "published": "2024/3/1",
+          "published": "2024/3/1 6:00",
           "paid": false
         }
       ]
@@ -176,6 +176,23 @@
           "title": "＜社説＞ビキニ被ばく70年　日本主導で核兵器廃絶を",
           "link": "https://ryukyushimpo.jp/editorial/entry-2856236.html",
           "published": "2024/03/01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】給食で小1死亡　教訓が生かされていない",
+          "link": "https://www.nishinippon.co.jp/item/1184292/",
+          "published": "2024/03/01 06:00",
           "paid": false
         }
       ]

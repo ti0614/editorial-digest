@@ -59,13 +59,13 @@
         {
           "title": "［社説］中国はデフレ回避へ財政出動を急げ",
           "link": "https://www.nikkei.com/article/DGXZQODK1821F0Y4A011C2000000/",
-          "published": "2024年10月18日",
+          "published": "2024/10/18 19:05",
           "paid": false
         },
         {
           "title": "［社説］企業と市場の改革を忘れるな",
           "link": "https://www.nikkei.com/article/DGXZQODK17C2Q0X11C24A0000000/",
-          "published": "2024年10月18日",
+          "published": "2024/10/18 19:00",
           "paid": false
         }
       ]
@@ -136,7 +136,7 @@
         {
           "title": "経済政策　好循環へ具体的な道筋を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/494319",
-          "published": "2024/10/18",
+          "published": "2024/10/18 6:00",
           "paid": false
         }
       ]
@@ -239,6 +239,23 @@
           "title": "＜社説＞高浜1号機50年超運転　原発依存のままでいいか",
           "link": "https://ryukyushimpo.jp/editorial/entry-3563271.html",
           "published": "2024/10/18",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】経済政策　家計支援の具体策を示せ",
+          "link": "https://www.nishinippon.co.jp/item/1271204/",
+          "published": "2024/10/18 06:00",
           "paid": false
         }
       ]

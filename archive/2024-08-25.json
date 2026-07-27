@@ -56,7 +56,7 @@
         {
           "title": "対馬丸撃沈８０年　子どもの犠牲教訓忘れず",
           "link": "https://www.niigata-nippo.co.jp/articles/-/463922",
-          "published": "2024/8/25",
+          "published": "2024/8/25 6:00",
           "paid": false
         }
       ]
@@ -159,6 +159,23 @@
           "title": "＜社説＞「教職調整額」増額へ　抜本的な制度転換が必要",
           "link": "https://ryukyushimpo.jp/editorial/entry-3402398.html",
           "published": "2024/08/25",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】飲酒運転ゼロへ　新たな手だて講じる時だ",
+          "link": "https://www.nishinippon.co.jp/item/1250570/",
+          "published": "2024/08/25 06:00",
           "paid": false
         }
       ]

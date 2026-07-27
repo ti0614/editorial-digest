@@ -56,7 +56,7 @@
         {
           "title": "通常国会閉幕　政治不信深めた責任重く",
           "link": "https://www.niigata-nippo.co.jp/articles/-/427492",
-          "published": "2024/6/23",
+          "published": "2024/6/23 6:00",
           "paid": false
         }
       ]
@@ -142,6 +142,23 @@
           "title": "＜社説＞沖縄戦７９年「慰霊の日」　「戦争準備」拒み平和築け",
           "link": "https://ryukyushimpo.jp/editorial/entry-3224163.html",
           "published": "2024/06/23",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】慰霊の日　「沖縄の声」に耳を傾けよ",
+          "link": "https://www.nishinippon.co.jp/item/1226320/",
+          "published": "2024/06/23 06:00",
           "paid": false
         }
       ]

@@ -59,13 +59,13 @@
         {
           "title": "［社説］高市自民党は派閥政治に逆戻りするのか",
           "link": "https://www.nikkei.com/article/DGXZQODK072KC0X01C25A0000000/",
-          "published": "2025年10月7日",
+          "published": "2025/10/7 19:05",
           "paid": false
         },
         {
           "title": "［社説］モビリティーの未来に総力を",
           "link": "https://www.nikkei.com/article/DGXZQODK0775M0X01C25A0000000/",
-          "published": "2025年10月7日",
+          "published": "2025/10/7 19:00",
           "paid": false
         }
       ]
@@ -112,20 +112,7 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": [
-        {
-          "title": "大型店に頼らぬ活性策必要　街から姿消す商業施設　【論説】",
-          "link": "https://www.chibanippo.co.jp/serial/1285945",
-          "published": "10/7 5:00",
-          "paid": true
-        },
-        {
-          "title": "政治不信解消、改革断行を　石破首相初の所信表明演説　【論説】",
-          "link": "https://www.chibanippo.co.jp/news/politics/1285946",
-          "published": "10/7 5:00",
-          "paid": true
-        }
-      ]
+      "items": []
     },
     {
       "name": "新潟日報",
@@ -139,7 +126,7 @@
         {
           "title": "医学賞に坂口氏　患者に希望与える研究だ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/703816",
-          "published": "2025/10/7",
+          "published": "2025/10/7 6:00",
           "paid": false
         }
       ]
@@ -173,19 +160,19 @@
         {
           "title": "社説【加賀市長に山田氏】前市政の教訓生かせるか",
           "link": "https://www.hokkoku.co.jp/articles/-/1889647",
-          "published": "10/7",
+          "published": "2025/10/7 5:00",
           "paid": true
         },
         {
           "title": "社説【自民党人事】適材適所に徹し挙党態勢を",
           "link": "https://www.hokkoku.co.jp/articles/-/1889646",
-          "published": "10/7",
+          "published": "2025/10/7 5:00",
           "paid": true
         },
         {
           "title": "社説【自民党人事】適材適所で挙党態勢を",
           "link": "https://www.hokkoku.co.jp/articles/-/1889631",
-          "published": "10/7",
+          "published": "2025/10/7 5:00",
           "paid": true
         }
       ]
@@ -288,6 +275,40 @@
           "title": "＜社説＞古謝市長が市議会解散　市民の良識問われる時だ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4675527.html",
           "published": "2025/10/07",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：ノーベル医学賞　興味の追究が結実した快挙",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1576431",
+          "published": "2025/10/7 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】ガザ戦闘2年　停戦実現への好機逃すな",
+          "link": "https://www.nishinippon.co.jp/item/1408252/",
+          "published": "2025/10/07 06:00",
           "paid": false
         }
       ]

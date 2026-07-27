@@ -59,13 +59,13 @@
         {
           "title": "［社説］AI時代に原発投資を促す方策が急務だ",
           "link": "https://www.nikkei.com/article/DGXZQODK116LF0R10C25A6000000/",
-          "published": "2025年6月11日",
+          "published": "2025/6/11 19:05",
           "paid": false
         },
         {
           "title": "［社説］日野・ふそうは挽回を急げ",
           "link": "https://www.nikkei.com/article/DGXZQOCD1156D0R10C25A6000000/",
-          "published": "2025年6月11日",
+          "published": "2025/6/11 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "ロス抗議へ派兵　軍事力の乱用は許されず",
           "link": "https://www.niigata-nippo.co.jp/articles/-/624445",
-          "published": "2025/6/11",
+          "published": "2025/6/11 6:00",
           "paid": false
         }
       ]
@@ -246,6 +246,46 @@
           "title": "＜社説＞国連委員会が書簡　権利侵害の懸念に答えよ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4318297.html",
           "published": "2025/06/11",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：東電株主訴訟　納得し難い責任の不問",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1492956",
+          "published": "2025/6/11 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：アベノマスク　記録隠さず徹底検証を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1492951",
+          "published": "2025/6/11 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】九経連新会長　時流を捉えた広域戦略を",
+          "link": "https://www.nishinippon.co.jp/item/1362312/",
+          "published": "2025/06/11 06:00",
           "paid": false
         }
       ]

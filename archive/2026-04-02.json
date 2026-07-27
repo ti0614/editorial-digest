@@ -59,13 +59,13 @@
         {
           "title": "［社説］トランプ氏は中東混乱の責任投げ出すな",
           "link": "https://www.nikkei.com/article/DGXZQODK0242P0S6A400C2000000/",
-          "published": "4月2日",
+          "published": "2026/4/2 19:05",
           "paid": false
         },
         {
           "title": "［社説］西武渋谷店の閉店が問う街づくり",
           "link": "https://www.nikkei.com/article/DGXZQODK027NI0S6A400C2000000/",
-          "published": "4月2日",
+          "published": "2026/4/2 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "新年度スタート　世界と政治に目を凝らす",
           "link": "https://www.niigata-nippo.co.jp/articles/-/807636",
-          "published": "4/2",
+          "published": "2026/4/2 6:00",
           "paid": false
         }
       ]
@@ -177,19 +177,19 @@
         {
           "title": "社説【「３ＪＡ構想」断念】成長戦略に明確さ欠いた",
           "link": "https://www.hokkoku.co.jp/articles/-/2064780",
-          "published": "4/2",
+          "published": "2026/4/2 5:00",
           "paid": true
         },
         {
           "title": "社説【日銀短観】ナフサ不足も経済の重荷",
           "link": "https://www.hokkoku.co.jp/articles/-/2064779",
-          "published": "4/2",
+          "published": "2026/4/2 5:00",
           "paid": true
         },
         {
           "title": "社説【「３ＪＡ構想」断念】成長戦略に明確さ欠いたか",
           "link": "https://www.hokkoku.co.jp/articles/-/2064692",
-          "published": "4/2",
+          "published": "2026/4/2 5:00",
           "paid": true
         }
       ]
@@ -309,6 +309,46 @@
           "title": "＜社説＞弁護士会が校則で提言　生徒参画で見直し進めよ",
           "link": "https://ryukyushimpo.jp/editorial/entry-5164934.html",
           "published": "2026/04/02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：ＳＮＳ依存　子ども守る仕組み要る",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1688284",
+          "published": "2026/4/2 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：中国大使館侵入　政治と絡めぬ対処必要",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1688281",
+          "published": "2026/4/2 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】九電持ち株会社　原発の安全責任を明確に",
+          "link": "https://www.nishinippon.co.jp/item/1477173/",
+          "published": "2026/04/02 06:00",
           "paid": false
         }
       ]

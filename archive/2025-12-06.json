@@ -59,13 +59,13 @@
         {
           "title": "［社説］ドラッグ店は高齢化対応で地域の核に",
           "link": "https://www.nikkei.com/article/DGXZQODK056ZR0V01C25A2000000/",
-          "published": "2025年12月6日",
+          "published": "2025/12/6 19:05",
           "paid": false
         },
         {
           "title": "［社説］今こそ同性婚巡る国会議論を",
           "link": "https://www.nikkei.com/article/DGXZQODK048TX0U5A201C2000000/",
-          "published": "2025年12月6日",
+          "published": "2025/12/6 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "ウクライナ和平　尊厳守る協議を求めたい",
           "link": "https://www.niigata-nippo.co.jp/articles/-/741183",
-          "published": "2025/12/6",
+          "published": "2025/12/6 6:00",
           "paid": false
         }
       ]
@@ -177,13 +177,13 @@
         {
           "title": "社説【クルーズ需要拡大】北陸の港も伸びしろ十分",
           "link": "https://www.hokkoku.co.jp/articles/-/1951119",
-          "published": "12/6",
+          "published": "2025/12/6 5:00",
           "paid": true
         },
         {
           "title": "社説【中国が欧米非難】常軌逸した主張は逆効果",
           "link": "https://www.hokkoku.co.jp/articles/-/1951118",
-          "published": "12/6",
+          "published": "2025/12/6 5:00",
           "paid": true
         }
       ]
@@ -303,6 +303,40 @@
           "title": "＜社説＞定数削減法案提出　「身を切る改革」になるのか",
           "link": "https://ryukyushimpo.jp/editorial/entry-4842010.html",
           "published": "2025/12/06",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：京の民泊1000軒超え　暮らし優先で見直し議論を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1613179",
+          "published": "2025/12/6 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】定数削減法案　「結論ありき」与党の横暴",
+          "link": "https://www.nishinippon.co.jp/item/1431843/",
+          "published": "2025/12/06 06:00",
           "paid": false
         }
       ]

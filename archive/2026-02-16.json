@@ -59,13 +59,13 @@
         {
           "title": "［社説］内需の底上げは財政よりも民間主導で",
           "link": "https://www.nikkei.com/article/DGXZQODK165UD0W6A210C2000000/",
-          "published": "2月16日",
+          "published": "2026/2/16 19:13",
           "paid": false
         },
         {
           "title": "［社説］世界の安定に米欧協力が要る",
           "link": "https://www.nikkei.com/article/DGXZQODK164QB0W6A210C2000000/",
-          "published": "2月16日",
+          "published": "2026/2/16 19:10",
           "paid": false
         }
       ]
@@ -126,7 +126,7 @@
         {
           "title": "子どもの自殺　サインに気付ける社会を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/780344",
-          "published": "2/16",
+          "published": "2026/2/16 6:00",
           "paid": false
         }
       ]
@@ -160,13 +160,13 @@
         {
           "title": "社説【震災廃棄物の再利用】絶景海道にも生かしたい",
           "link": "https://www.hokkoku.co.jp/articles/-/2018230",
-          "published": "2/16",
+          "published": "2026/2/16 5:00",
           "paid": true
         },
         {
           "title": "社説【金沢マラソン】マンネリ避ける工夫さらに",
           "link": "https://www.hokkoku.co.jp/articles/-/2018229",
-          "published": "2/16",
+          "published": "2026/2/16 5:00",
           "paid": true
         }
       ]
@@ -252,6 +252,40 @@
           "title": "＜社説＞中道新代表に小川氏　自民に対抗する政策示せ",
           "link": "https://ryukyushimpo.jp/editorial/entry-5039743.html",
           "published": "2026/02/16",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：滋賀県予算案　再構築へ、負の側面も説明を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1658744",
+          "published": "2026/2/16 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】ゾンビたばこ　まん延防止へ対策を急げ",
+          "link": "https://www.nishinippon.co.jp/item/1458745/",
+          "published": "2026/02/16 06:00",
           "paid": false
         }
       ]

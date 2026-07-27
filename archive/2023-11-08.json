@@ -50,7 +50,7 @@
         {
           "title": "辺野古軟弱地盤　信頼を得られぬ国の対応",
           "link": "https://www.niigata-nippo.co.jp/articles/-/309454",
-          "published": "2023/11/8",
+          "published": "2023/11/8 6:00",
           "paid": false
         }
       ]
@@ -136,6 +136,23 @@
           "title": "＜社説＞武器輸出緩和を協議へ　三原則の骨抜き許されぬ",
           "link": "https://ryukyushimpo.jp/editorial/entry-2454594.html",
           "published": "2023/11/08",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】アビスパ初戴冠　地域と一体でさらに強く",
+          "link": "https://www.nishinippon.co.jp/item/1144165/",
+          "published": "2023/11/08 06:00",
           "paid": false
         }
       ]

@@ -59,13 +59,13 @@
         {
           "title": "［社説］与野党は数合わせでなく政策で連携探れ",
           "link": "https://www.nikkei.com/article/DGXZQODK165260W5A011C2000000/",
-          "published": "2025年10月16日",
+          "published": "2025/10/16 19:15",
           "paid": false
         },
         {
           "title": "［社説］コンビニは客離れ防ぐ創意を",
           "link": "https://www.nikkei.com/article/DGXZQODK166PM0W5A011C2000000/",
-          "published": "2025年10月16日",
+          "published": "2025/10/16 19:10",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "日本の教員労働　授業に専念できる環境を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/709640",
-          "published": "2025/10/16",
+          "published": "2025/10/16 6:00",
           "paid": false
         }
       ]
@@ -177,13 +177,13 @@
         {
           "title": "社説【白山麓の食ＰＲ】訪日客のジオ誘致にも",
           "link": "https://www.hokkoku.co.jp/articles/-/1898878",
-          "published": "10/16",
+          "published": "2025/10/16 5:00",
           "paid": true
         },
         {
           "title": "社説【万博の成果】地域づくりに還元したい",
           "link": "https://www.hokkoku.co.jp/articles/-/1898877",
-          "published": "10/16",
+          "published": "2025/10/16 5:00",
           "paid": true
         }
       ]
@@ -286,6 +286,46 @@
           "title": "＜社説＞沖尚に県民栄誉賞　偉業の価値分かち合おう",
           "link": "https://ryukyushimpo.jp/editorial/entry-4696816.html",
           "published": "2025/10/16",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：クマ犠牲者最多　被害防止と長期策、共に",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1582176",
+          "published": "2025/10/16 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：防衛強化の提言　危うい軍事拡大の偏重",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1582177",
+          "published": "2025/10/16 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】大阪万博閉幕　開催の意義伝えられたか",
+          "link": "https://www.nishinippon.co.jp/item/1411833/",
+          "published": "2025/10/16 06:00",
           "paid": false
         }
       ]

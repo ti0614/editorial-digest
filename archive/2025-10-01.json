@@ -59,13 +59,13 @@
         {
           "title": "［社説］関税不安乗り越える強い内需の追求を",
           "link": "https://www.nikkei.com/article/DGXZQODK017580R01C25A0000000/",
-          "published": "2025年10月1日",
+          "published": "2025/10/1 19:05",
           "paid": false
         },
         {
           "title": "［社説］ガザ戦闘終結の機を逃すな",
           "link": "https://www.nikkei.com/article/DGXZQODK016WA0R01C25A0000000/",
-          "published": "2025年10月1日",
+          "published": "2025/10/1 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "値上げと総裁選　生活不安をどう払拭する",
           "link": "https://www.niigata-nippo.co.jp/articles/-/700067",
-          "published": "2025/10/1",
+          "published": "2025/10/1 6:00",
           "paid": false
         }
       ]
@@ -177,19 +177,19 @@
         {
           "title": "社説【総裁選の論点】再エネ賦課金引き下げを",
           "link": "https://www.hokkoku.co.jp/articles/-/1883575",
-          "published": "10/1",
+          "published": "2025/10/1 5:00",
           "paid": true
         },
         {
           "title": "社説【富大統合２０周年】「知の拠点」を地域の力に",
           "link": "https://www.hokkoku.co.jp/articles/-/1883574",
-          "published": "10/1",
+          "published": "2025/10/1 5:00",
           "paid": true
         },
         {
           "title": "社説【総裁選の論点】「再エネ賦課金」引き下げを",
           "link": "https://www.hokkoku.co.jp/articles/-/1883524",
-          "published": "10/1",
+          "published": "2025/10/1 5:00",
           "paid": true
         }
       ]
@@ -292,6 +292,46 @@
           "title": "＜社説＞知事任期残り1年　公約の進捗丁寧に説明を",
           "link": "https://ryukyushimpo.jp/editorial/entry-4661075.html",
           "published": "2025/10/01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：国際交流の事業　デマでの撤回、憂慮する",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1572733",
+          "published": "2025/10/1 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：国語調査　言葉の今みつめ直そう",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1572715",
+          "published": "2025/10/1 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】性犯罪歴の照会　現場が混乱しない指針に",
+          "link": "https://www.nishinippon.co.jp/item/1405811/",
+          "published": "2025/10/01 06:00",
           "paid": false
         }
       ]

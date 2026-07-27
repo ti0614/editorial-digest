@@ -73,7 +73,7 @@
         {
           "title": "パリ五輪日本勢　躍進に大きな勇気と感動",
           "link": "https://www.niigata-nippo.co.jp/articles/-/452173",
-          "published": "2024/8/3",
+          "published": "2024/8/3 6:00",
           "paid": false
         }
       ]
@@ -176,6 +176,23 @@
           "title": "＜社説＞オスプレイ墜落報告書　構造的欠陥は明らかだ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3336248.html",
           "published": "2024/08/03",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】猛暑下の健康　命守る取り組みの徹底を",
+          "link": "https://www.nishinippon.co.jp/item/1242841/",
+          "published": "2024/08/03 06:00",
           "paid": false
         }
       ]

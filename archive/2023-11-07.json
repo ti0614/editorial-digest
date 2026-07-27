@@ -50,7 +50,7 @@
         {
           "title": "ガザ戦闘１カ月　一刻も早い停戦が急務だ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/308838",
-          "published": "2023/11/7",
+          "published": "2023/11/7 6:00",
           "paid": false
         }
       ]
@@ -136,6 +136,23 @@
           "title": "＜社説＞新たな経済対策　小手先ではない議論を",
           "link": "https://ryukyushimpo.jp/editorial/entry-2451902.html",
           "published": "2023/11/07",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】ガザ大規模戦闘　停戦と人道支援を早急に",
+          "link": "https://www.nishinippon.co.jp/item/1143864/",
+          "published": "2023/11/07 06:00",
           "paid": false
         }
       ]

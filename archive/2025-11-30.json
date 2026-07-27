@@ -53,13 +53,13 @@
         {
           "title": "［社説］中国の訪日自粛に慌てず観光政策見直せ",
           "link": "https://www.nikkei.com/article/DGXZQOCD282N20Y5A121C2000000/",
-          "published": "2025年11月30日",
+          "published": "2025/11/30 19:05",
           "paid": false
         },
         {
           "title": "［社説］ウナギ資源管理の適正化を",
           "link": "https://www.nikkei.com/article/DGXZQODK275YS0X21C25A1000000/",
-          "published": "2025年11月30日",
+          "published": "2025/11/30 19:00",
           "paid": false
         }
       ]
@@ -120,7 +120,7 @@
         {
           "title": "特殊詐欺被害増　巧妙化する手口へ対策を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/737415",
-          "published": "2025/11/30",
+          "published": "2025/11/30 6:00",
           "paid": false
         }
       ]
@@ -154,25 +154,25 @@
         {
           "title": "社説【加賀料理の魅力ＰＲ】「総合芸術」示す舞台を",
           "link": "https://www.hokkoku.co.jp/articles/-/1944517",
-          "published": "11/30",
+          "published": "2025/11/30 5:00",
           "paid": true
         },
         {
           "title": "社説【カスハラ対策】不当な圧力を許さぬ姿勢で",
           "link": "https://www.hokkoku.co.jp/articles/-/1944516",
-          "published": "11/30",
+          "published": "2025/11/30 5:00",
           "paid": true
         },
         {
           "title": "社説【カスハラ対策】不当な圧力許さぬ姿勢で",
           "link": "https://www.hokkoku.co.jp/articles/-/1944512",
-          "published": "11/30",
+          "published": "2025/11/30 5:00",
           "paid": true
         },
         {
           "title": "社説【加賀料理の魅力ＰＲ】「総合芸術」体感する舞台を",
           "link": "https://www.hokkoku.co.jp/articles/-/1944511",
-          "published": "11/30",
+          "published": "2025/11/30 5:00",
           "paid": true
         }
       ]
@@ -275,6 +275,40 @@
           "title": "＜社説＞日中対立影響拡大　国交正常化の原点発信を",
           "link": "https://ryukyushimpo.jp/editorial/entry-4821429.html",
           "published": "2025/11/30",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：伝統建造地区50年　資産課税見直し、国は議論を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1609479",
+          "published": "2025/11/30 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】福岡空港の改善　発着数増やす議論を急げ",
+          "link": "https://www.nishinippon.co.jp/item/1429389/",
+          "published": "2025/11/30 06:00",
           "paid": false
         }
       ]

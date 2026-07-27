@@ -53,13 +53,13 @@
         {
           "title": "［社説］高市氏は成長と責任の両立へ手を尽くせ",
           "link": "https://www.nikkei.com/article/DGXZQODK2428X0U5A021C2000000/",
-          "published": "2025年10月24日",
+          "published": "2025/10/24 19:05",
           "paid": false
         },
         {
           "title": "［社説］米民主主義を壊す政敵訴追",
           "link": "https://www.nikkei.com/article/DGXZQODK2449Q0U5A021C2000000/",
-          "published": "2025年10月24日",
+          "published": "2025/10/24 19:00",
           "paid": false
         }
       ]
@@ -137,7 +137,7 @@
         {
           "title": "裏金議員起用　政権の失速招きかねない",
           "link": "https://www.niigata-nippo.co.jp/articles/-/714806",
-          "published": "2025/10/24",
+          "published": "2025/10/24 6:00",
           "paid": false
         }
       ]
@@ -171,13 +171,13 @@
         {
           "title": "社説【被災地の防災訓練】検証重ねて復興の礎に",
           "link": "https://www.hokkoku.co.jp/articles/-/1907074",
-          "published": "10/24",
+          "published": "2025/10/24 5:00",
           "paid": true
         },
         {
           "title": "社説【衆院の定数削減】自維連立の真価が問われる",
           "link": "https://www.hokkoku.co.jp/articles/-/1907073",
-          "published": "10/24",
+          "published": "2025/10/24 5:00",
           "paid": true
         }
       ]
@@ -280,6 +280,46 @@
           "title": "＜社説＞裏金7議員起用　真相解明へ徹底的に議論を",
           "link": "https://ryukyushimpo.jp/editorial/entry-4716858.html",
           "published": "2025/10/24",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：鳥インフル確認　警戒を強め対策万全に",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1587134",
+          "published": "2025/10/24 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：高速道の災害策　早急な調査、危険防止を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1587133",
+          "published": "2025/10/24 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】水俣病健康調査　新法で救済の責務果たせ",
+          "link": "https://www.nishinippon.co.jp/item/1415034/",
+          "published": "2025/10/24 06:00",
           "paid": false
         }
       ]

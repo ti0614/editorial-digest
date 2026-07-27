@@ -47,13 +47,13 @@
         {
           "title": "［社説］成功体験が災いしたインテル苦境の教訓",
           "link": "https://www.nikkei.com/article/DGXZQODK1081S0Q4A011C2000000/",
-          "published": "2024年10月10日",
+          "published": "2024/10/10 20:25",
           "paid": false
         },
         {
           "title": "［社説］強制不妊の被害救済に全力を",
           "link": "https://www.nikkei.com/article/DGXZQODK101BA0Q4A011C2000000/",
-          "published": "2024年10月10日",
+          "published": "2024/10/10 20:20",
           "paid": false
         }
       ]
@@ -107,7 +107,7 @@
         {
           "title": "衆院解散　政治への信頼が問われる",
           "link": "https://www.niigata-nippo.co.jp/articles/-/490160",
-          "published": "2024/10/10",
+          "published": "2024/10/10 6:00",
           "paid": false
         }
       ]
@@ -193,6 +193,23 @@
           "title": "＜社説＞１０・１０空襲から８０年　「国策犠牲」繰り返すまい",
           "link": "https://ryukyushimpo.jp/editorial/entry-3539047.html",
           "published": "2024/10/10",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】衆院解散　政権選択に資する論戦を",
+          "link": "https://www.nishinippon.co.jp/item/1268189/",
+          "published": "2024/10/10 06:00",
           "paid": false
         }
       ]

@@ -73,7 +73,7 @@
         {
           "title": "企業決算好調　利益は賃金と投資に回せ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/416238",
-          "published": "2024/6/3",
+          "published": "2024/6/3 6:00",
           "paid": false
         }
       ]
@@ -159,6 +159,23 @@
           "title": "＜社説＞トランプ氏有罪評決　さらなる分断を危惧する",
           "link": "https://ryukyushimpo.jp/editorial/entry-3153296.html",
           "published": "2024/06/03",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】議員の海外視察　福岡県議会は常識外れだ",
+          "link": "https://www.nishinippon.co.jp/item/1218568/",
+          "published": "2024/06/03 06:00",
           "paid": false
         }
       ]

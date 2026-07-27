@@ -66,14 +66,7 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": [
-        {
-          "title": "地域の未来像、どう描くか　いすみ鉄道、脱線事故から１年　【論説】",
-          "link": "https://www.chibanippo.co.jp/articles/1513602",
-          "published": "10/19 5:00",
-          "paid": true
-        }
-      ]
+      "items": []
     },
     {
       "name": "新潟日報",
@@ -87,7 +80,7 @@
         {
           "title": "東電１千億円拠出　原発の信頼醸成にならぬ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/711530",
-          "published": "2025/10/19",
+          "published": "2025/10/19 6:00",
           "paid": false
         }
       ]
@@ -121,13 +114,13 @@
         {
           "title": "社説【文化観光ガイド】心つかむ「案内力」に磨き",
           "link": "https://www.hokkoku.co.jp/articles/-/1901784",
-          "published": "10/19",
+          "published": "2025/10/19 5:00",
           "paid": true
         },
         {
           "title": "社説【グッドデザイン大賞】仮設住宅政策の転換迫る",
           "link": "https://www.hokkoku.co.jp/articles/-/1901783",
-          "published": "10/19",
+          "published": "2025/10/19 5:00",
           "paid": true
         }
       ]
@@ -213,6 +206,40 @@
           "title": "＜社説＞村山富市元首相死去　平和と民主の志受け継ぐ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4704640.html",
           "published": "2025/10/19",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：国立大病院の危機　地域医療守る議論急がねば",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1583851",
+          "published": "2025/10/19 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】南海トラフ地震　二つの確率　迷わず備えを",
+          "link": "https://www.nishinippon.co.jp/item/1413013/",
+          "published": "2025/10/19 06:00",
           "paid": false
         }
       ]

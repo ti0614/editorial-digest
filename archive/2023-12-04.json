@@ -50,7 +50,7 @@
         {
           "title": "ウクライナ情勢　関心低下はロシア利する",
           "link": "https://www.niigata-nippo.co.jp/articles/-/322277",
-          "published": "2023/12/4",
+          "published": "2023/12/4 6:00",
           "paid": false
         }
       ]
@@ -119,6 +119,23 @@
           "title": "＜社説＞政治資金裏金疑惑　「訂正」では済まされない",
           "link": "https://ryukyushimpo.jp/editorial/entry-2541769.html",
           "published": "2023/12/04",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】国立大と政府　管理強める法案再考せよ",
+          "link": "https://www.nishinippon.co.jp/item/1153157/",
+          "published": "2023/12/04 06:00",
           "paid": false
         }
       ]

@@ -50,7 +50,7 @@
         {
           "title": "宝塚俳優の急死　真相解明へ再検証が急務",
           "link": "https://www.niigata-nippo.co.jp/articles/-/315356",
-          "published": "2023/11/20",
+          "published": "2023/11/20 6:00",
           "paid": false
         }
       ]
@@ -86,6 +86,23 @@
           "link": "https://www.sanin-chuo.co.jp/articles/-/484750",
           "published": "2023/11/20 04:00",
           "paid": true
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】ふるさと納税　見直しの論議を地方から",
+          "link": "https://www.nishinippon.co.jp/item/1147909/",
+          "published": "2023/11/20 06:00",
+          "paid": false
         }
       ]
     }

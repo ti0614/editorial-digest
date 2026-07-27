@@ -59,13 +59,13 @@
         {
           "title": "［社説］政府は賃上げ定着へ骨太な成長戦略を",
           "link": "https://www.nikkei.com/article/DGXZQODK1648N0W5A610C2000000/",
-          "published": "2025年6月16日",
+          "published": "2025/6/16 19:05",
           "paid": false
         },
         {
           "title": "［社説］トランプ氏の強権色が心配だ",
           "link": "https://www.nikkei.com/article/DGXZQODK164EQ0W5A610C2000000/",
-          "published": "2025年6月16日",
+          "published": "2025/6/16 19:00",
           "paid": false
         }
       ]
@@ -126,7 +126,7 @@
         {
           "title": "学術会議新法成立　学問の自由は守られねば",
           "link": "https://www.niigata-nippo.co.jp/articles/-/627231",
-          "published": "2025/6/16",
+          "published": "2025/6/16 6:00",
           "paid": false
         }
       ]
@@ -212,6 +212,40 @@
           "title": "＜社説＞イスラエル・イラン交戦　停戦へ国際社会結束を",
           "link": "https://ryukyushimpo.jp/editorial/entry-4339025.html",
           "published": "2025/06/16",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：年内の学力入試　多様な選考へ高められるか",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1495842",
+          "published": "2025/6/16 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】女流棋士の活躍　高み目指す姿応援したい",
+          "link": "https://www.nishinippon.co.jp/item/1364390/",
+          "published": "2025/06/16 06:00",
           "paid": false
         }
       ]

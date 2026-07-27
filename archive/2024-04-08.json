@@ -67,7 +67,7 @@
         {
           "title": "県内公示地価　魅力磨いて地域に活力を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/386849",
-          "published": "2024/4/8",
+          "published": "2024/4/8 6:00",
           "paid": false
         }
       ]
@@ -170,6 +170,23 @@
           "title": "＜社説＞ガザ戦闘半年　即時停戦を決断すべきだ",
           "link": "https://ryukyushimpo.jp/editorial/entry-2965300.html",
           "published": "2024/04/08",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】ライドシェア　安全と利便を見極めたい",
+          "link": "https://www.nishinippon.co.jp/item/1198321/",
+          "published": "2024/04/08 06:00",
           "paid": false
         }
       ]

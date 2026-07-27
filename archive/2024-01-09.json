@@ -50,7 +50,7 @@
         {
           "title": "２０２４外交　全力挙げて戦火をなくせ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/340896",
-          "published": "2024/1/9",
+          "published": "2024/1/9 6:00",
           "paid": false
         }
       ]
@@ -136,6 +136,23 @@
           "title": "＜社説＞裏金疑惑池田議員逮捕　関係議員は全員辞職せよ",
           "link": "https://ryukyushimpo.jp/editorial/entry-2668508.html",
           "published": "2024/01/09",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】池田議員逮捕　裏金づくりの全容解明を",
+          "link": "https://www.nishinippon.co.jp/item/1165261/",
+          "published": "2024/01/09 06:00",
           "paid": false
         }
       ]

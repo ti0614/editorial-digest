@@ -53,7 +53,7 @@
         {
           "title": "［社説］「令和の米騒動」機に農政出直しを",
           "link": "https://www.nikkei.com/article/DGXZQODK307QU0Q5A530C2000000/",
-          "published": "2025年6月1日",
+          "published": "2025/6/1 19:00",
           "paid": false
         }
       ]
@@ -97,7 +97,7 @@
         {
           "title": "県立病院の赤字　安心して暮らせる地域に",
           "link": "https://www.niigata-nippo.co.jp/articles/-/618467",
-          "published": "2025/6/1",
+          "published": "2025/6/1 6:00",
           "paid": false
         }
       ]
@@ -200,6 +200,40 @@
           "title": "＜社説＞西田氏再び持論展開　都合良い正当化許されぬ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4291155.html",
           "published": "2025/06/01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：日本遺産１０周年　定着へ知名度向上が不可欠",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1486808",
+          "published": "2025/6/1 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】危険な通学路　不断の点検で対策強化を",
+          "link": "https://www.nishinippon.co.jp/item/1358250/",
+          "published": "2025/06/01 06:00",
           "paid": false
         }
       ]

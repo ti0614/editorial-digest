@@ -47,13 +47,13 @@
         {
           "title": "［社説］市場の警鐘に耳傾け財政規律の確立語れ",
           "link": "https://www.nikkei.com/article/DGXZQODK240OB0U6A120C2000000/",
-          "published": "1月24日",
+          "published": "2026/1/24 19:05",
           "paid": false
         },
         {
           "title": "［社説］プルデンシャル生命は悪弊根絶を",
           "link": "https://www.nikkei.com/article/DGXZQODK181U90Y6A110C2000000/",
-          "published": "1月24日",
+          "published": "2026/1/24 19:00",
           "paid": false
         }
       ]
@@ -114,7 +114,7 @@
         {
           "title": "衆院解散　「国の在り方」が問われる",
           "link": "https://www.niigata-nippo.co.jp/articles/-/767695",
-          "published": "1/24",
+          "published": "2026/1/24 6:00",
           "paid": false
         }
       ]
@@ -148,13 +148,13 @@
         {
           "title": "社説【小松―札幌便】増便を路線拡大の弾みに",
           "link": "https://www.hokkoku.co.jp/articles/-/1996132",
-          "published": "1/24",
+          "published": "2026/1/24 5:00",
           "paid": true
         },
         {
           "title": "社説【衆院が解散】日本のかじ取り誰に託すか",
           "link": "https://www.hokkoku.co.jp/articles/-/1996131",
-          "published": "1/24",
+          "published": "2026/1/24 5:00",
           "paid": true
         }
       ]
@@ -274,6 +274,40 @@
           "title": "＜社説＞衆議院解散　「自己都合」厳しく問われる",
           "link": "https://ryukyushimpo.jp/editorial/entry-4983219.html",
           "published": "2026/01/24",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：解散・総選挙へ　違いを明確にした論戦こそ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1642468",
+          "published": "2026/1/24 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】衆院解散　選択に資する具体策示せ",
+          "link": "https://www.nishinippon.co.jp/item/1449810/",
+          "published": "2026/01/24 06:00",
           "paid": false
         }
       ]

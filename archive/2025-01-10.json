@@ -59,13 +59,13 @@
         {
           "title": "［社説］加速する製造業のソフト化へ対応急げ",
           "link": "https://www.nikkei.com/article/DGXZQODK08E6A0Y5A100C2000000/",
-          "published": "2025年1月10日",
+          "published": "2025/1/10 19:05",
           "paid": false
         },
         {
           "title": "［社説］「総会前の有報」柔軟な議論を",
           "link": "https://www.nikkei.com/article/DGXZQOCD272F90X21C24A2000000/",
-          "published": "2025年1月10日",
+          "published": "2025/1/10 19:00",
           "paid": false
         }
       ]
@@ -136,7 +136,7 @@
         {
           "title": "トランプ氏発言　同盟国の亀裂を危惧する",
           "link": "https://www.niigata-nippo.co.jp/articles/-/537444",
-          "published": "2025/1/10",
+          "published": "2025/1/10 6:00",
           "paid": false
         }
       ]
@@ -239,6 +239,23 @@
           "title": "＜社説＞米軍事件再発防止　海兵隊削減こそ抜本策だ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3848628.html",
           "published": "2025/01/10",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】大麻使用に厳罰　若者への広がりを断とう",
+          "link": "https://www.nishinippon.co.jp/item/1302125/",
+          "published": "2025/01/10 06:00",
           "paid": false
         }
       ]

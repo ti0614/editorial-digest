@@ -59,13 +59,13 @@
         {
           "title": "［社説］高市氏は規律ある財政でインフレ抑えよ",
           "link": "https://www.nikkei.com/article/DGXZQODK0651S0W5A001C2000000/",
-          "published": "2025年10月9日",
+          "published": "2025/10/9 20:05",
           "paid": false
         },
         {
           "title": "［社説］ガザ和平への第一歩を確実に",
           "link": "https://www.nikkei.com/article/DGXZQODK096FC0Z01C25A0000000/",
-          "published": "2025年10月9日",
+          "published": "2025/10/9 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "化学賞に北川氏　環境問題の解決へ道開く",
           "link": "https://www.niigata-nippo.co.jp/articles/-/705406",
-          "published": "2025/10/9",
+          "published": "2025/10/9 6:00",
           "paid": false
         }
       ]
@@ -177,19 +177,19 @@
         {
           "title": "社説【自民党新執行部】保守回帰「高市カラー」",
           "link": "https://www.hokkoku.co.jp/articles/-/1891985",
-          "published": "10/9",
+          "published": "2025/10/9 5:00",
           "paid": true
         },
         {
           "title": "社説【ズワイガニ協議会】資源管理をブランド力に",
           "link": "https://www.hokkoku.co.jp/articles/-/1891984",
-          "published": "10/9",
+          "published": "2025/10/9 5:00",
           "paid": true
         },
         {
           "title": "社説【自民党新執行部】保守回帰「高市カラー」鮮明",
           "link": "https://www.hokkoku.co.jp/articles/-/1891960",
-          "published": "10/9",
+          "published": "2025/10/9 5:00",
           "paid": true
         }
       ]
@@ -292,6 +292,46 @@
           "title": "＜社説＞自衛隊「差別」決議　将来に禍根を残す内容だ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4680402.html",
           "published": "2025/10/09",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：北川さん化学賞　新材料で革新起こした",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1578045",
+          "published": "2025/10/9 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：ガザ攻撃２年　停戦と命守る合意紡げ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1578040",
+          "published": "2025/10/9 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】高市執行部始動　古い自民に逆戻りするな",
+          "link": "https://www.nishinippon.co.jp/item/1409133/",
+          "published": "2025/10/09 06:00",
           "paid": false
         }
       ]

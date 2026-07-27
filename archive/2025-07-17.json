@@ -59,13 +59,13 @@
         {
           "title": "［社説］セブンは買収攻防を教訓に価値向上を",
           "link": "https://www.nikkei.com/article/DGXZQODK178IN0X10C25A7000000/",
-          "published": "2025年7月17日",
+          "published": "2025/7/17 19:30",
           "paid": false
         },
         {
           "title": "［社説］人づくりへ真の教育改革競え",
           "link": "https://www.nikkei.com/article/DGXZQODK176Q50X10C25A7000000/",
-          "published": "2025年7月17日",
+          "published": "2025/7/17 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "米国の対ロ制裁　一刻も早い停戦の糸口に",
           "link": "https://www.niigata-nippo.co.jp/articles/-/651709",
-          "published": "2025/7/17",
+          "published": "2025/7/17 6:00",
           "paid": false
         }
       ]
@@ -263,6 +263,46 @@
           "title": "＜社説＞民間港で米軍訓練　経緯を徹底的に検証せよ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4450952.html",
           "published": "2025/07/17",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：憲法改正と参院　各党の基本姿勢に目を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1523050",
+          "published": "2025/7/17 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：ＡＩ新法　悪用防ぐ実効性に懸念",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1523055",
+          "published": "2025/7/17 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】外国人政策　排除より共生の理念貫け",
+          "link": "https://www.nishinippon.co.jp/item/1377013/",
+          "published": "2025/07/17 06:00",
           "paid": false
         }
       ]

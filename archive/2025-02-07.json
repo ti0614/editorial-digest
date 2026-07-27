@@ -59,13 +59,13 @@
         {
           "title": "［社説］遅すぎたSBI新生銀の公的資金完済",
           "link": "https://www.nikkei.com/article/DGXZQODK317SZ0R30C25A1000000/",
-          "published": "2025年2月7日",
+          "published": "2025/2/7 19:05",
           "paid": false
         },
         {
           "title": "［社説］ホール不足解消は民の力で",
           "link": "https://www.nikkei.com/article/DGXZQODK074Z40X00C25A2000000/",
-          "published": "2025年2月7日",
+          "published": "2025/2/7 19:00",
           "paid": false
         }
       ]
@@ -136,7 +136,7 @@
         {
           "title": "「ガザ所有」発言　住民の存在無視した暴論",
           "link": "https://www.niigata-nippo.co.jp/articles/-/552033",
-          "published": "2025/2/7",
+          "published": "2025/2/7 6:00",
           "paid": false
         }
       ]
@@ -239,6 +239,46 @@
           "title": "＜社説＞25年度県予算案　県民生活の安定が第一だ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3938873.html",
           "published": "2025/02/07",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：米の「ガザ所有」　国際法に反する暴論だ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1419027",
+          "published": "2025/2/7 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：高校無償化　大局的な視点で議論を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1419036",
+          "published": "2025/2/7 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】備蓄米の活用　供給と価格を安定させよ",
+          "link": "https://www.nishinippon.co.jp/item/1312983/",
+          "published": "2025/02/07 06:00",
           "paid": false
         }
       ]

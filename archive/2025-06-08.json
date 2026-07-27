@@ -80,7 +80,7 @@
         {
           "title": "日本郵便処分へ　物流網圧迫する責任重い",
           "link": "https://www.niigata-nippo.co.jp/articles/-/622778",
-          "published": "2025/6/8",
+          "published": "2025/6/8 6:00",
           "paid": false
         }
       ]
@@ -166,6 +166,40 @@
           "title": "＜社説＞東電株主訴訟控訴審　誰も責任を負わないのか",
           "link": "https://ryukyushimpo.jp/editorial/entry-4311789.html",
           "published": "2025/06/08",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：ネット中傷対処法　被害防止へ事業者は誠実に",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1491252",
+          "published": "2025/6/8 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】改正風営法　悪質ホストの搾取許すな",
+          "link": "https://www.nishinippon.co.jp/item/1361257/",
+          "published": "2025/06/08 06:00",
           "paid": false
         }
       ]

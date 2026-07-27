@@ -59,13 +59,13 @@
         {
           "title": "［社説］この案では年金の不安は全く消えない",
           "link": "https://www.nikkei.com/article/DGXZQODK294HD0Z20C25A1000000/",
-          "published": "2025年1月29日",
+          "published": "2025/1/29 19:05",
           "paid": false
         },
         {
           "title": "［社説］EVは米転換でも長期戦略で",
           "link": "https://www.nikkei.com/article/DGXZQOCD297OO0Z20C25A1000000/",
-          "published": "2025年1月29日",
+          "published": "2025/1/29 19:00",
           "paid": false
         }
       ]
@@ -136,7 +136,7 @@
         {
           "title": "フジ社長辞任　信頼回復には遠い道のり",
           "link": "https://www.niigata-nippo.co.jp/articles/-/547152",
-          "published": "2025/1/29",
+          "published": "2025/1/29 6:00",
           "paid": false
         }
       ]
@@ -239,6 +239,46 @@
           "title": "＜社説＞強制収容所解放80年　「負の歴史」の直視、継承を",
           "link": "https://ryukyushimpo.jp/editorial/entry-3909633.html",
           "published": "2025/01/29",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：障害と逸失利益　「格差」再考促す判決だ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1413753",
+          "published": "2025/1/29 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：高島に新市長　まちの特性、有効活用を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1413750",
+          "published": "2025/1/29 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】中国経済の不振　内憂外患を克服できるか",
+          "link": "https://www.nishinippon.co.jp/item/1309357/",
+          "published": "2025/01/29 06:00",
           "paid": false
         }
       ]

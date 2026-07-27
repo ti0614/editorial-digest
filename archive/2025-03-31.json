@@ -59,13 +59,13 @@
         {
           "title": "［社説］熟議の実現に課題残した予算の修正成立",
           "link": "https://www.nikkei.com/article/DGXZQODK3138D0R30C25A3000000/",
-          "published": "2025年3月31日",
+          "published": "2025/3/31 19:05",
           "paid": false
         },
         {
           "title": "［社説］若者の成長意欲に応えよう",
           "link": "https://www.nikkei.com/article/DGXZQODK314CC0R30C25A3000000/",
-          "published": "2025年3月31日",
+          "published": "2025/3/31 19:00",
           "paid": false
         }
       ]
@@ -126,7 +126,7 @@
         {
           "title": "ミャンマー大地震　被災者救うために停戦を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/583098",
-          "published": "2025/3/31",
+          "published": "2025/3/31 6:00",
           "paid": false
         }
       ]
@@ -195,6 +195,40 @@
           "title": "＜社説＞80年首相談話見送り　平和国家の責任を果たせ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4108215.html",
           "published": "2025/03/31",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：少子化時代の大学　規模の適正化は地域で議論を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1450422",
+          "published": "2025/3/31 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】AIの軍事利用　際限なき開発を許さない",
+          "link": "https://www.nishinippon.co.jp/item/1333457/",
+          "published": "2025/03/31 06:00",
           "paid": false
         }
       ]

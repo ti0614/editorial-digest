@@ -50,7 +50,7 @@
         {
           "title": "志賀原発　新たな知見を生かさねば",
           "link": "https://www.niigata-nippo.co.jp/articles/-/343359",
-          "published": "2024/1/13",
+          "published": "2024/1/13 6:00",
           "paid": false
         }
       ]
@@ -153,6 +153,23 @@
           "title": "＜社説＞陸自幹部靖国参拝　「誤解招く」では済まない",
           "link": "https://ryukyushimpo.jp/editorial/entry-2686936.html",
           "published": "2024/01/13",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】「技能実習」廃止　「人権尊重」貫く新制度を",
+          "link": "https://www.nishinippon.co.jp/item/1167002/",
+          "published": "2024/01/13 06:00",
           "paid": false
         }
       ]

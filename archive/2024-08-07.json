@@ -73,7 +73,7 @@
         {
           "title": "株価乱高下　冷静に状況を見極めたい",
           "link": "https://www.niigata-nippo.co.jp/articles/-/454379",
-          "published": "2024/8/7",
+          "published": "2024/8/7 6:00",
           "paid": false
         }
       ]
@@ -176,6 +176,23 @@
           "title": "＜社説＞「南西シフト」支持76％　沖縄は防波堤ではない",
           "link": "https://ryukyushimpo.jp/editorial/entry-3347543.html",
           "published": "2024/08/07",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】秘書給与疑惑　税金をだまし取る行為だ",
+          "link": "https://www.nishinippon.co.jp/item/1244365/",
+          "published": "2024/08/07 06:00",
           "paid": false
         }
       ]

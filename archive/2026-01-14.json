@@ -59,13 +59,13 @@
         {
           "title": "［社説］日韓はシャトル外交で戦略的連携深めよ",
           "link": "https://www.nikkei.com/article/DGXZQODK144D90U6A110C2000000/",
-          "published": "1月14日",
+          "published": "2026/1/14 19:15",
           "paid": false
         },
         {
           "title": "［社説］レアアース開発支援を息長く",
           "link": "https://www.nikkei.com/article/DGXZQODK144YH0U6A110C2000000/",
-          "published": "1月14日",
+          "published": "2026/1/14 19:10",
           "paid": false
         }
       ]
@@ -126,7 +126,7 @@
         {
           "title": "首相解散の意向　大義見えぬ身勝手な判断",
           "link": "https://www.niigata-nippo.co.jp/articles/-/761364",
-          "published": "1/14",
+          "published": "2026/1/14 6:00",
           "paid": false
         }
       ]
@@ -160,13 +160,13 @@
         {
           "title": "社説【移住相談の拡充】短所も示し不安解消を",
           "link": "https://www.hokkoku.co.jp/articles/-/1985939",
-          "published": "1/14",
+          "published": "2026/1/14 5:00",
           "paid": true
         },
         {
           "title": "社説【衆院解散へ】民意得て政策実現の力に",
           "link": "https://www.hokkoku.co.jp/articles/-/1985938",
-          "published": "1/14",
+          "published": "2026/1/14 5:00",
           "paid": true
         }
       ]
@@ -286,6 +286,40 @@
           "title": "＜社説＞知事選主要候補固まる　沖縄の未来描く論戦を",
           "link": "https://ryukyushimpo.jp/editorial/entry-4955430.html",
           "published": "2026/01/14",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：衆院総選挙へ　国民軽視の大義なき解散だ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1635784",
+          "published": "2026/1/14 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】衆院解散へ　国民生活より選挙優先か",
+          "link": "https://www.nishinippon.co.jp/item/1445479/",
+          "published": "2026/01/14 06:00",
           "paid": false
         }
       ]

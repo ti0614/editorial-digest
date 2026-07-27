@@ -59,13 +59,13 @@
         {
           "title": "［社説］Google「分割」で革新を加速できるか",
           "link": "https://www.nikkei.com/article/DGXZQODK2312Y0T21C24A1000000/",
-          "published": "2024年11月23日",
+          "published": "2024/11/23 19:05",
           "paid": false
         },
         {
           "title": "［社説］ロシアと北朝鮮は戦闘を激化させるな",
           "link": "https://www.nikkei.com/article/DGXZQODK2229W0S4A121C2000000/",
-          "published": "2024年11月23日",
+          "published": "2024/11/23 19:00",
           "paid": false
         }
       ]
@@ -119,7 +119,7 @@
         {
           "title": "ロの最新ミサイル　攻撃激化歯止めかけねば",
           "link": "https://www.niigata-nippo.co.jp/articles/-/514133",
-          "published": "2024/11/23",
+          "published": "2024/11/23 6:00",
           "paid": false
         }
       ]
@@ -222,6 +222,23 @@
           "title": "＜社説＞防衛局中城湾港使用　県は管理者権限発揮せよ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3675823.html",
           "published": "2024/11/23",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】日米韓の連携　政権交代しても結束保て",
+          "link": "https://www.nishinippon.co.jp/item/1285130/",
+          "published": "2024/11/23 06:00",
           "paid": false
         }
       ]

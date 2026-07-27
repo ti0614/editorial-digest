@@ -59,13 +59,13 @@
         {
           "title": "［社説］医師の偏在がこの対策で是正されるのか",
           "link": "https://www.nikkei.com/article/DGXZQODK0927H0Z01C24A2000000/",
-          "published": "2024年12月28日",
+          "published": "2024/12/28 19:05",
           "paid": false
         },
         {
           "title": "［社説］韓国の政争は危うい火遊びだ",
           "link": "https://www.nikkei.com/article/DGXZQODK27C3W0X21C24A2000000/",
-          "published": "2024年12月28日",
+          "published": "2024/12/28 19:00",
           "paid": false
         }
       ]
@@ -119,7 +119,7 @@
         {
           "title": "２０２５年度予算案　財政健全化へ努力続けよ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/533039",
-          "published": "2024/12/28",
+          "published": "2024/12/28 6:00",
           "paid": false
         }
       ]
@@ -222,6 +222,23 @@
           "title": "＜社説＞2025年度沖縄予算案　平和な将来像を描けない",
           "link": "https://ryukyushimpo.jp/editorial/entry-3813233.html",
           "published": "2024/12/28",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】25年度予算案　平時に戻す姿勢見えない",
+          "link": "https://www.nishinippon.co.jp/item/1298712/",
+          "published": "2024/12/28 06:00",
           "paid": false
         }
       ]

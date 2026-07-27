@@ -47,19 +47,19 @@
         {
           "title": "［社説］野党の政策主張は財源論から逃げずに",
           "link": "https://www.nikkei.com/article/DGXZQODK2411T0U5A220C2000000/",
-          "published": "2025年2月24日",
+          "published": "2025/2/24 19:05",
           "paid": false
         },
         {
           "title": "［社説］ネットカジノのまん延止めよ",
           "link": "https://www.nikkei.com/article/DGXZQODK218UP0R20C25A2000000/",
-          "published": "2025年2月24日",
+          "published": "2025/2/24 19:00",
           "paid": false
         },
         {
           "title": "［社説］いまこそ公正なウクライナ和平を",
           "link": "https://www.nikkei.com/article/DGXZQODK206V20Q5A220C2000000/",
-          "published": "2025年2月24日",
+          "published": "2025/2/24 0:00",
           "paid": false
         }
       ]
@@ -113,7 +113,7 @@
         {
           "title": "ウクライナ侵攻３年　公正な戦闘終結が不可欠",
           "link": "https://www.niigata-nippo.co.jp/articles/-/561866",
-          "published": "2025/2/24",
+          "published": "2025/2/24 6:00",
           "paid": false
         }
       ]
@@ -199,6 +199,40 @@
           "title": "＜社説＞ウクライナ侵攻3年　「公正な平和」を実現せよ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3993832.html",
           "published": "2025/02/24",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：詐欺被害額が最多　ＳＮＳで金銭要求に警戒を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1428607",
+          "published": "2025/2/24 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】米のWHO脱退　貧困国の健康を脅かすな",
+          "link": "https://www.nishinippon.co.jp/item/1319235/",
+          "published": "2025/02/24 06:00",
           "paid": false
         }
       ]

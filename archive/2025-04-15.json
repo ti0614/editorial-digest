@@ -59,13 +59,13 @@
         {
           "title": "［社説］「同意なき買収」を企業変革への起点に",
           "link": "https://www.nikkei.com/article/DGXZQODK155650V10C25A4000000/",
-          "published": "2025年4月15日",
+          "published": "2025/4/15 19:05",
           "paid": false
         },
         {
           "title": "［社説］地方創生は行政維持に軸足を",
           "link": "https://www.nikkei.com/article/DGXZQODK154VO0V10C25A4000000/",
-          "published": "2025年4月15日",
+          "published": "2025/4/15 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "増える匿流　捜査強化し根を断ちたい",
           "link": "https://www.niigata-nippo.co.jp/articles/-/591443",
-          "published": "2025/4/15",
+          "published": "2025/4/15 6:00",
           "paid": false
         }
       ]
@@ -246,6 +246,40 @@
           "title": "＜社説＞中谷防衛相発言　努力怠ったのはどちらか",
           "link": "https://ryukyushimpo.jp/editorial/entry-4153008.html",
           "published": "2025/04/15",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：カスハラ対策　安心して働ける環境作りを",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1459532",
+          "published": "2025/4/15 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】飯塚車いすテニス　共生の理念と熱意感じて",
+          "link": "https://www.nishinippon.co.jp/item/1339503/",
+          "published": "2025/04/15 06:00",
           "paid": false
         }
       ]

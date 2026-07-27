@@ -50,7 +50,7 @@
         {
           "title": "今年の県内政治　持続可能な地域へ前進を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/341436",
-          "published": "2024/1/10",
+          "published": "2024/1/10 6:00",
           "paid": false
         }
       ]
@@ -136,6 +136,23 @@
           "title": "＜社説＞大浦湾着工準備　協議なき着工許されぬ",
           "link": "https://ryukyushimpo.jp/editorial/entry-2672986.html",
           "published": "2024/01/10",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】能登地震10日　救命急ぎ「関連死」も防げ",
+          "link": "https://www.nishinippon.co.jp/item/1165589/",
+          "published": "2024/01/10 06:00",
           "paid": false
         }
       ]

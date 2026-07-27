@@ -59,13 +59,13 @@
         {
           "title": "［社説］現役世代への目配りなき診療報酬改定",
           "link": "https://www.nikkei.com/article/DGXZQODK2345Y0T21C25A2000000/",
-          "published": "2025年12月24日",
+          "published": "2025/12/24 19:05",
           "paid": false
         },
         {
           "title": "［社説］野村は世界市場に挑む野心を",
           "link": "https://www.nikkei.com/article/DGXZQODK246C20U5A221C2000000/",
-          "published": "2025年12月24日",
+          "published": "2025/12/24 19:00",
           "paid": false
         }
       ]
@@ -126,7 +126,7 @@
         {
           "title": "再稼働同意伝達　リスクから県民守れるか",
           "link": "https://www.niigata-nippo.co.jp/articles/-/751979",
-          "published": "2025/12/24",
+          "published": "2025/12/24 6:00",
           "paid": false
         }
       ]
@@ -160,19 +160,19 @@
         {
           "title": "社説【すしサミット】共存共栄へ話題づくりを",
           "link": "https://www.hokkoku.co.jp/articles/-/1969781",
-          "published": "12/24",
+          "published": "2025/12/24 5:00",
           "paid": true
         },
         {
           "title": "社説【太陽光の規制】事前チェックの強化も重要",
           "link": "https://www.hokkoku.co.jp/articles/-/1969780",
-          "published": "12/24",
+          "published": "2025/12/24 5:00",
           "paid": true
         },
         {
           "title": "社説【太陽光の規制】事前チェック強化も重要",
           "link": "https://www.hokkoku.co.jp/articles/-/1969762",
-          "published": "12/24",
+          "published": "2025/12/24 5:00",
           "paid": true
         }
       ]
@@ -292,6 +292,40 @@
           "title": "＜社説＞賠償遅れで国提訴　被害者補償の制度改めよ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4896830.html",
           "published": "2025/12/24",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：核保有の官邸発言　首相は否定を言明すべきだ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1624939",
+          "published": "2025/12/24 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】日銀の利上げ　継続見据え丁寧な分析を",
+          "link": "https://www.nishinippon.co.jp/item/1439029/",
+          "published": "2025/12/24 06:00",
           "paid": false
         }
       ]

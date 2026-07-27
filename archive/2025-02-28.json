@@ -59,13 +59,13 @@
         {
           "title": "［社説］アップル株主が支持した多様性を守れ",
           "link": "https://www.nikkei.com/article/DGXZQODK26BHV0W5A220C2000000/",
-          "published": "2025年2月28日",
+          "published": "2025/2/28 19:05",
           "paid": false
         },
         {
           "title": "［社説］ふるさと納税で歪む国と地方",
           "link": "https://www.nikkei.com/article/DGXZQODK2868M0Y5A220C2000000/",
-          "published": "2025年2月28日",
+          "published": "2025/2/28 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "ドイツ政権交代へ　基盤固め欧州安定へ力を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/564467",
-          "published": "2025/2/28",
+          "published": "2025/2/28 6:00",
           "paid": false
         }
       ]
@@ -246,6 +246,46 @@
           "title": "＜社説＞石破首相米軍犯罪発言　基地被害の現実直視せよ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4006639.html",
           "published": "2025/02/28",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：維新県議の暴走　選挙と民主主義を愚弄",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1430922",
+          "published": "2025/2/28 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：女性の健康支援　社会的課題との認識を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1430916",
+          "published": "2025/2/28 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】大崎事件で棄却　最高裁はなぜ再審認めぬ",
+          "link": "https://www.nishinippon.co.jp/item/1320810/",
+          "published": "2025/02/28 06:00",
           "paid": false
         }
       ]

@@ -84,7 +84,7 @@
         {
           "title": "辺野古埋め立て　合理性欠いた工事は疑問",
           "link": "https://www.niigata-nippo.co.jp/articles/-/469018",
-          "published": "2024/9/2",
+          "published": "2024/9/2 6:00",
           "paid": false
         }
       ]
@@ -170,6 +170,23 @@
           "title": "＜社説＞能登半島地震8カ月　ニーズに即した復興急げ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3434280.html",
           "published": "2024/09/02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】同性の事実婚　当事者に寄り添う行政を",
+          "link": "https://www.nishinippon.co.jp/item/1253609/",
+          "published": "2024/09/02 06:00",
           "paid": false
         }
       ]

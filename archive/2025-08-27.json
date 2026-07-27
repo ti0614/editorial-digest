@@ -53,13 +53,13 @@
         {
           "title": "［社説］トランプ氏のFRB支配は危険な企てだ",
           "link": "https://www.nikkei.com/article/DGXZQODK278IR0X20C25A8000000/",
-          "published": "2025年8月27日",
+          "published": "2025/8/27 19:30",
           "paid": false
         },
         {
           "title": "［社説］広陵高問題を暴力根絶の緒に",
           "link": "https://www.nikkei.com/article/DGXZQODK2730C0X20C25A8000000/",
-          "published": "2025年8月27日",
+          "published": "2025/8/27 19:00",
           "paid": false
         }
       ]
@@ -137,7 +137,7 @@
         {
           "title": "除染土処分　政府は不安取り除かねば",
           "link": "https://www.niigata-nippo.co.jp/articles/-/677298",
-          "published": "2025/8/27",
+          "published": "2025/8/27 6:00",
           "paid": false
         }
       ]
@@ -257,6 +257,46 @@
           "title": "＜社説＞最低賃金１０２３円に　中小企業支援の施策急げ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4565278.html",
           "published": "2025/08/27",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：マイナ保険証　一本化を強いず併用に",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1549782",
+          "published": "2025/8/27 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：ガザの飢饉　蛮行をただちにやめよ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1549783",
+          "published": "2025/8/27 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】夏休み明け　子どもの「味方」になって",
+          "link": "https://www.nishinippon.co.jp/item/1392297/",
+          "published": "2025/08/27 06:00",
           "paid": false
         }
       ]

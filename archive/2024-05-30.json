@@ -73,7 +73,7 @@
         {
           "title": "住民票続柄に「夫」　同性婚議論へ波及するか",
           "link": "https://www.niigata-nippo.co.jp/articles/-/414177",
-          "published": "2024/5/30",
+          "published": "2024/5/30 6:00",
           "paid": false
         }
       ]
@@ -176,6 +176,23 @@
           "title": "＜社説＞北朝鮮「衛星」失敗　混乱を招く行動やめよ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3138187.html",
           "published": "2024/05/30",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】規正法の修正案　抜本改革を先送りするな",
+          "link": "https://www.nishinippon.co.jp/item/1217129/",
+          "published": "2024/05/30 06:00",
           "paid": false
         }
       ]

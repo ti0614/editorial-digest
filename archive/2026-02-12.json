@@ -59,13 +59,13 @@
         {
           "title": "［社説］持続可能なインバウンド観光振興を",
           "link": "https://www.nikkei.com/article/DGXZQODK124MI0S6A210C2000000/",
-          "published": "2月12日",
+          "published": "2026/2/12 19:05",
           "paid": false
         },
         {
           "title": "［社説］香港の言論弾圧を見過ごすな",
           "link": "https://www.nikkei.com/article/DGXZQODK112FM0R10C26A2000000/",
-          "published": "2月12日",
+          "published": "2026/2/12 19:00",
           "paid": false
         }
       ]
@@ -126,7 +126,7 @@
         {
           "title": "核軍縮条約が失効　米ロは新たな規制策定を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/778256",
-          "published": "2/12",
+          "published": "2026/2/12 6:00",
           "paid": false
         }
       ]
@@ -160,13 +160,13 @@
         {
           "title": "社説【ノドグロ完全養殖】富山の拠点生かした快挙",
           "link": "https://www.hokkoku.co.jp/articles/-/2014509",
-          "published": "2/12",
+          "published": "2026/2/12 5:00",
           "paid": true
         },
         {
           "title": "社説【奥能登あえのこと】トキとともに農の象徴に",
           "link": "https://www.hokkoku.co.jp/articles/-/2014508",
-          "published": "2/12",
+          "published": "2026/2/12 5:00",
           "paid": true
         }
       ]
@@ -286,6 +286,40 @@
           "title": "＜社説＞沖縄選挙区野党ゼロ　沖縄巡る論議　衰退を憂う",
           "link": "https://ryukyushimpo.jp/editorial/entry-5029705.html",
           "published": "2026/02/12",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：新ＳＴＡＲＴ失効　枠組み作り、核大国の責務だ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1655802",
+          "published": "2026/2/12 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】ミャンマー選挙　民意装う軍政を非難する",
+          "link": "https://www.nishinippon.co.jp/item/1457258/",
+          "published": "2026/02/12 06:00",
           "paid": false
         }
       ]

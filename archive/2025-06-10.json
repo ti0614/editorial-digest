@@ -59,13 +59,13 @@
         {
           "title": "［社説］自公は税の増収分を選挙でばらまくな",
           "link": "https://www.nikkei.com/article/DGXZQODK1092M0Q5A610C2000000/",
-          "published": "2025年6月10日",
+          "published": "2025/6/10 19:15",
           "paid": false
         },
         {
           "title": "［社説］食料待つガザ住民を守れ",
           "link": "https://www.nikkei.com/article/DGXZQODK1058V0Q5A610C2000000/",
-          "published": "2025年6月10日",
+          "published": "2025/6/10 19:10",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "拘禁刑導入　再犯防止へ着実な一歩に",
           "link": "https://www.niigata-nippo.co.jp/articles/-/623646",
-          "published": "2025/6/10",
+          "published": "2025/6/10 6:00",
           "paid": false
         }
       ]
@@ -246,6 +246,40 @@
           "title": "＜社説＞不発弾保管庫で爆発　原因究明と再発防止急げ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4315531.html",
           "published": "2025/06/10",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：日本郵便への処分　組織の悪弊断ち切る改革を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1492232",
+          "published": "2025/6/10 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】会期末の国会　腰を据えて懸案の議論を",
+          "link": "https://www.nishinippon.co.jp/item/1361826/",
+          "published": "2025/06/10 06:00",
           "paid": false
         }
       ]

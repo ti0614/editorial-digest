@@ -67,7 +67,7 @@
         {
           "title": "クマ管理鳥獣に　共生への取り組み強化を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/358408",
-          "published": "2024/2/12",
+          "published": "2024/2/12 6:00",
           "paid": false
         }
       ]
@@ -153,6 +153,23 @@
           "title": "＜社説＞特殊詐欺被害最悪　官民挙げて対策の強化を",
           "link": "https://ryukyushimpo.jp/editorial/entry-2795752.html",
           "published": "2024/02/12",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】住宅の耐震強化　全半壊の悲劇防ぐ施策を",
+          "link": "https://www.nishinippon.co.jp/item/1178065/",
+          "published": "2024/02/12 06:00",
           "paid": false
         }
       ]

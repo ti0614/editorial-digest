@@ -59,13 +59,13 @@
         {
           "title": "［社説］核のごみ最終処分地の選定は国の責務だ",
           "link": "https://www.nikkei.com/article/DGXZQODK067RQ0W6A300C2000000/",
-          "published": "3月8日",
+          "published": "2026/3/8 19:05",
           "paid": false
         },
         {
           "title": "［社説］KDDI架空取引の究明急げ",
           "link": "https://www.nikkei.com/article/DGXZQODK064E60W6A300C2000000/",
-          "published": "3月8日",
+          "published": "2026/3/8 19:00",
           "paid": false
         }
       ]
@@ -109,7 +109,7 @@
         {
           "title": "国際女性デー　社会の意識改革急ぎたい",
           "link": "https://www.niigata-nippo.co.jp/articles/-/792332",
-          "published": "3/8",
+          "published": "2026/3/8 6:00",
           "paid": false
         }
       ]
@@ -143,19 +143,19 @@
         {
           "title": "社説【介護保険サービス】実情に応じた職員配置を",
           "link": "https://www.hokkoku.co.jp/articles/-/2038640",
-          "published": "3/8",
+          "published": "2026/3/8 5:00",
           "paid": true
         },
         {
           "title": "社説【石川県知事選】北陸の命運託す機会にも",
           "link": "https://www.hokkoku.co.jp/articles/-/2038639",
-          "published": "3/8",
+          "published": "2026/3/8 5:00",
           "paid": true
         },
         {
           "title": "社説【知事選きょう投票】地域の命運託す貴重な機会",
           "link": "https://www.hokkoku.co.jp/articles/-/2038631",
-          "published": "3/8",
+          "published": "2026/3/8 5:00",
           "paid": true
         }
       ]
@@ -258,6 +258,40 @@
           "title": "＜社説＞米軍ヘリ不時着　普天間飛行場運用停止を",
           "link": "https://ryukyushimpo.jp/editorial/entry-5100766.html",
           "published": "2026/03/08",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：国際女性デー　「男並み」脱し平等を当然に",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1672499",
+          "published": "2026/3/8 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】女性の政治参画　挑戦しやすい環境整備を",
+          "link": "https://www.nishinippon.co.jp/item/1466862/",
+          "published": "2026/03/08 06:00",
           "paid": false
         }
       ]

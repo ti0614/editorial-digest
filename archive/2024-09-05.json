@@ -96,7 +96,7 @@
         {
           "title": "地方創生　国は地方と連携し強力に",
           "link": "https://www.niigata-nippo.co.jp/articles/-/470741",
-          "published": "2024/9/5",
+          "published": "2024/9/5 6:00",
           "paid": false
         }
       ]
@@ -199,6 +199,23 @@
           "title": "＜社説＞新基地９３００億円超過も　海つぶす公金無駄遣いだ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3442864.html",
           "published": "2024/09/05",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】防衛費概算要求　懸念膨らむ「規模ありき」",
+          "link": "https://www.nishinippon.co.jp/item/1254908/",
+          "published": "2024/09/05 06:00",
           "paid": false
         }
       ]

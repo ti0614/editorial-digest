@@ -53,7 +53,7 @@
         {
           "title": "［社説］ミラノオリンピックで調和の未来像を示そう",
           "link": "https://www.nikkei.com/article/DGXZQODK066640W6A200C2000000/",
-          "published": "2月7日",
+          "published": "2026/2/7 19:00",
           "paid": false
         }
       ]
@@ -131,7 +131,7 @@
         {
           "title": "冬季五輪開幕　祭典の理念をかみしめる",
           "link": "https://www.niigata-nippo.co.jp/articles/-/775578",
-          "published": "2/7",
+          "published": "2026/2/7 6:00",
           "paid": false
         }
       ]
@@ -165,13 +165,13 @@
         {
           "title": "社説【能登ヒバで新作工芸】職人連携で復興を後押し",
           "link": "https://www.hokkoku.co.jp/articles/-/2009529",
-          "published": "2/7",
+          "published": "2026/2/7 5:00",
           "paid": true
         },
         {
           "title": "社説【選挙の偽動画】収益化規制する法整備を",
           "link": "https://www.hokkoku.co.jp/articles/-/2009528",
-          "published": "2/7",
+          "published": "2026/2/7 5:00",
           "paid": true
         }
       ]
@@ -291,6 +291,40 @@
           "title": "＜社説＞泡から高濃度PFAS　基地調査で汚染源解明を",
           "link": "https://ryukyushimpo.jp/editorial/entry-5017604.html",
           "published": "2026/02/07",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：自維合意の政策　問われる「戦後日本」の転換",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1651891",
+          "published": "2026/2/7 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】外国人との共生　秩序より人権こそ土台に",
+          "link": "https://www.nishinippon.co.jp/item/1455234/",
+          "published": "2026/02/07 06:00",
           "paid": false
         }
       ]

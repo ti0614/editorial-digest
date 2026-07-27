@@ -53,7 +53,7 @@
         {
           "title": "［社説］トランプ米大統領に信頼高める行動促せ",
           "link": "https://www.nikkei.com/article/DGXZQODK080LW0Y5A200C2000000/",
-          "published": "2025年2月8日",
+          "published": "2025/2/8 19:30",
           "paid": false
         }
       ]
@@ -124,7 +124,7 @@
         {
           "title": "逸失利益判決　障害者への差別改めたい",
           "link": "https://www.niigata-nippo.co.jp/articles/-/552750",
-          "published": "2025/2/8",
+          "published": "2025/2/8 6:00",
           "paid": false
         }
       ]
@@ -227,6 +227,40 @@
           "title": "＜社説＞県公文書管理条例案　対象に特別職を含めよ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3942807.html",
           "published": "2025/02/08",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：国会の省庁別審査　膨張予算、適正化につなげよ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1419797",
+          "published": "2025/2/8 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】ガザ所有発言　パレスチナを顧みぬ暴論",
+          "link": "https://www.nishinippon.co.jp/item/1313411/",
+          "published": "2025/02/08 06:00",
           "paid": false
         }
       ]

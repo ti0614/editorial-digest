@@ -53,13 +53,13 @@
         {
           "title": "［社説］韓国大統領の弾劾案巡る混乱長期化を懸念する",
           "link": "https://www.nikkei.com/article/DGXZQODK072P20X01C24A2000000/",
-          "published": "2024年12月7日",
+          "published": "2024/12/7 22:24",
           "paid": false
         },
         {
           "title": "［社説］フランス与野党は財政懸念直視を",
           "link": "https://www.nikkei.com/article/DGXZQODK06BEE0W4A201C2000000/",
-          "published": "2024年12月7日",
+          "published": "2024/12/7 19:00",
           "paid": false
         }
       ]
@@ -130,7 +130,7 @@
         {
           "title": "ＰＦＡＳ問題　住民が安心できる水道に",
           "link": "https://www.niigata-nippo.co.jp/articles/-/522072",
-          "published": "2024/12/7",
+          "published": "2024/12/7 6:00",
           "paid": false
         }
       ]
@@ -233,6 +233,23 @@
           "title": "＜社説＞県が空欄開発申請許可　行政の基本に立ち戻れ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3730538.html",
           "published": "2024/12/07",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】金融とモラル　顧客裏切る犯罪許されぬ",
+          "link": "https://www.nishinippon.co.jp/item/1290654/",
+          "published": "2024/12/07 06:00",
           "paid": false
         }
       ]

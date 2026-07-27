@@ -53,13 +53,13 @@
         {
           "title": "［社説］財政目標の実現に首相は責任を持て",
           "link": "https://www.nikkei.com/article/DGXZQODK204OR0Q5A120C2000000/",
-          "published": "2025年1月20日",
+          "published": "2025/1/20 19:05",
           "paid": false
         },
         {
           "title": "［社説］災害時の外国人対応に備えを",
           "link": "https://www.nikkei.com/article/DGXZQOCD204ZO0Q5A120C2000000/",
-          "published": "2025年1月20日",
+          "published": "2025/1/20 19:00",
           "paid": false
         }
       ]
@@ -113,7 +113,7 @@
         {
           "title": "トキエア　安定運航に向けて努力を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/542122",
-          "published": "2025/1/20",
+          "published": "2025/1/20 6:00",
           "paid": false
         }
       ]
@@ -199,6 +199,40 @@
           "title": "＜社説＞宮古島市長に嘉数氏　市民の負託応える市政に",
           "link": "https://ryukyushimpo.jp/editorial/entry-3878010.html",
           "published": "2025/01/20",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：韓国大統領の逮捕　混乱の収拾と暴挙の解明を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1407993",
+          "published": "2025/1/20 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】海自と防衛産業　癒着構造にメスを入れよ",
+          "link": "https://www.nishinippon.co.jp/item/1305604/",
+          "published": "2025/01/20 06:00",
           "paid": false
         }
       ]

@@ -50,7 +50,7 @@
         {
           "title": "拡大する被害　救出と支援に全力挙げよ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/339005",
-          "published": "2024/1/5",
+          "published": "2024/1/5 6:00",
           "paid": false
         }
       ]
@@ -136,6 +136,23 @@
           "title": "＜社説＞県内政局展望　政治力発揮で困難克服を",
           "link": "https://ryukyushimpo.jp/editorial/entry-2655361.html",
           "published": "2024/01/05",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】人口減少と九州　多様なつながり地域力に",
+          "link": "https://www.nishinippon.co.jp/item/1164203/",
+          "published": "2024/01/05 06:00",
           "paid": false
         }
       ]

@@ -73,7 +73,7 @@
         {
           "title": "佐渡金山勧告　登録への取り組み着実に",
           "link": "https://www.niigata-nippo.co.jp/articles/-/419443",
-          "published": "2024/6/8",
+          "published": "2024/6/8 6:00",
           "paid": false
         }
       ]
@@ -176,6 +176,23 @@
           "title": "＜社説＞沖縄子ども調査　孤立させない支援強化を",
           "link": "https://ryukyushimpo.jp/editorial/entry-3171297.html",
           "published": "2024/06/08",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】日航に厳重注意　基本動作の確認を怠るな",
+          "link": "https://www.nishinippon.co.jp/item/1220744/",
+          "published": "2024/06/08 06:00",
           "paid": false
         }
       ]

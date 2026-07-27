@@ -59,13 +59,13 @@
         {
           "title": "［社説］米国はロシアの時間稼ぎ許さず圧力を",
           "link": "https://www.nikkei.com/article/DGXZQODK1719O0X11C25A0000000/",
-          "published": "2025年10月17日",
+          "published": "2025/10/17 19:05",
           "paid": false
         },
         {
           "title": "［社説］香淳皇后実録を後世に生かせ",
           "link": "https://www.nikkei.com/article/DGXZQODK1734P0X11C25A0000000/",
-          "published": "2025年10月17日",
+          "published": "2025/10/17 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "アサヒへの攻撃　防御策の構築を急ぎたい",
           "link": "https://www.niigata-nippo.co.jp/articles/-/710339",
-          "published": "2025/10/17",
+          "published": "2025/10/17 6:00",
           "paid": false
         }
       ]
@@ -177,13 +177,13 @@
         {
           "title": "社説【居住サポート住宅】北陸にも普及させたい",
           "link": "https://www.hokkoku.co.jp/articles/-/1899839",
-          "published": "10/17",
+          "published": "2025/10/17 5:00",
           "paid": true
         },
         {
           "title": "社説【自民、維新連立へ】高市総裁の首相指名確実に",
           "link": "https://www.hokkoku.co.jp/articles/-/1899838",
-          "published": "10/17",
+          "published": "2025/10/17 5:00",
           "paid": true
         }
       ]
@@ -286,6 +286,46 @@
           "title": "＜社説＞ガザ人質解放　和平向け各国連携強化を",
           "link": "https://ryukyushimpo.jp/editorial/entry-4699889.html",
           "published": "2025/10/17",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：強制不妊の検証　国会は重い責任果たせ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1582819",
+          "published": "2025/10/17 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：下水道の老朽化　事故防ぐ点検、補修急げ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1582810",
+          "published": "2025/10/17 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】サイバー攻撃　官民の協力で対策強化を",
+          "link": "https://www.nishinippon.co.jp/item/1412253/",
+          "published": "2025/10/17 06:00",
           "paid": false
         }
       ]

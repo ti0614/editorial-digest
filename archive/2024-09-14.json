@@ -96,7 +96,7 @@
         {
           "title": "米大統領選討論　さらなる論争を期待する",
           "link": "https://www.niigata-nippo.co.jp/articles/-/475785",
-          "published": "2024/9/14",
+          "published": "2024/9/14 6:00",
           "paid": false
         }
       ]
@@ -199,6 +199,23 @@
           "title": "＜社説＞青少年課題調査報告書　支援広げる政策展開急げ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3467445.html",
           "published": "2024/09/14",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】EV用電池産業　九州経済の柱に育てよう",
+          "link": "https://www.nishinippon.co.jp/item/1258447/",
+          "published": "2024/09/14 06:00",
           "paid": false
         }
       ]

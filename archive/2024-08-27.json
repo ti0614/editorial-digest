@@ -96,7 +96,7 @@
         {
           "title": "風水害に警戒　備え万全に早めの行動を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/464945",
-          "published": "2024/8/27",
+          "published": "2024/8/27 6:00",
           "paid": false
         }
       ]
@@ -199,6 +199,23 @@
           "title": "＜社説＞那覇軍港移設掘削調査　悔い残さぬよう議論を",
           "link": "https://ryukyushimpo.jp/editorial/entry-3409616.html",
           "published": "2024/08/27",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】夏休み明け　子どもの変化見逃さずに",
+          "link": "https://www.nishinippon.co.jp/item/1251216/",
+          "published": "2024/08/27 06:00",
           "paid": false
         }
       ]

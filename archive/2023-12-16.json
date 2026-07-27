@@ -50,7 +50,7 @@
         {
           "title": "大谷選手移籍　優勝に導く活躍が楽しみ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/328656",
-          "published": "2023/12/16",
+          "published": "2023/12/16 6:00",
           "paid": false
         }
       ]
@@ -119,6 +119,23 @@
           "title": "＜社説＞国立大学法人法改正　「学問の府」侵しかねない",
           "link": "https://ryukyushimpo.jp/editorial/entry-2587791.html",
           "published": "2023/12/16",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】首相と税制改正　負担増の先送りはやめよ",
+          "link": "https://www.nishinippon.co.jp/item/1157910/",
+          "published": "2023/12/16 06:00",
           "paid": false
         }
       ]

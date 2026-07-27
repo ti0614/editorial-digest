@@ -59,13 +59,13 @@
         {
           "title": "［社説］物価上回る賃上げを中小にも浸透させよ",
           "link": "https://www.nikkei.com/article/DGXZQODK216PB0R20C26A1000000/",
-          "published": "1月21日",
+          "published": "2026/1/21 19:05",
           "paid": false
         },
         {
           "title": "［社説］安倍氏銃撃の裁判から教訓を",
           "link": "https://www.nikkei.com/article/DGXZQODK212XA0R20C26A1000000/",
-          "published": "1月21日",
+          "published": "2026/1/21 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "制御棒設定ミス　問われる東電の安全意識",
           "link": "https://www.niigata-nippo.co.jp/articles/-/765570",
-          "published": "1/21",
+          "published": "2026/1/21 6:00",
           "paid": false
         }
       ]
@@ -177,13 +177,13 @@
         {
           "title": "社説【仏のシェフ招へい】加賀料理の認知度向上に",
           "link": "https://www.hokkoku.co.jp/articles/-/1992739",
-          "published": "1/21",
+          "published": "2026/1/21 5:00",
           "paid": true
         },
         {
           "title": "社説【最強寒波が襲来】今日中に大雪への備えを",
           "link": "https://www.hokkoku.co.jp/articles/-/1992738",
-          "published": "1/21",
+          "published": "2026/1/21 5:00",
           "paid": true
         }
       ]
@@ -303,6 +303,40 @@
           "title": "＜社説＞PFAS汚染源認める　米軍、政府は不誠実改めよ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4974710.html",
           "published": "2026/01/21",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：米トランプ１年　世界と自国損なう「力の支配」",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1640273",
+          "published": "2026/1/21 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】大阪ダブル選　維新の身勝手にあきれる",
+          "link": "https://www.nishinippon.co.jp/item/1448333/",
+          "published": "2026/01/21 06:00",
           "paid": false
         }
       ]

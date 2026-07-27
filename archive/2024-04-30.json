@@ -73,7 +73,7 @@
         {
           "title": "自民補選全敗　厳しい民意を突きつけた",
           "link": "https://www.niigata-nippo.co.jp/articles/-/398248",
-          "published": "2024/4/30",
+          "published": "2024/4/30 6:00",
           "paid": false
         }
       ]
@@ -176,6 +176,23 @@
           "title": "＜社説＞衆院３補選自民全敗　政治とカネ　国民の信問え",
           "link": "https://ryukyushimpo.jp/editorial/entry-3029298.html",
           "published": "2024/04/30",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】補選で自民全敗　首相に「処分」が下された",
+          "link": "https://www.nishinippon.co.jp/item/1206233/",
+          "published": "2024/04/30 06:00",
           "paid": false
         }
       ]

@@ -73,7 +73,7 @@
         {
           "title": "政倫審開催　政治不信をさらに深めた",
           "link": "https://www.niigata-nippo.co.jp/articles/-/368015",
-          "published": "2024/3/2",
+          "published": "2024/3/2 6:00",
           "paid": false
         }
       ]
@@ -176,6 +176,23 @@
           "title": "＜社説＞辺野古上告不受理　最高裁は責務を放棄した",
           "link": "https://ryukyushimpo.jp/editorial/entry-2860756.html",
           "published": "2024/03/02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】遠い裏金解明　政倫審だけでは不十分だ",
+          "link": "https://www.nishinippon.co.jp/item/1184782/",
+          "published": "2024/03/02 06:00",
           "paid": false
         }
       ]

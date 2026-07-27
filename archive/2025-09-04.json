@@ -59,13 +59,13 @@
         {
           "title": "［社説］金利高も直視し最大の予算要求に規律を",
           "link": "https://www.nikkei.com/article/DGXZQODK047HD0U5A900C2000000/",
-          "published": "2025年9月4日",
+          "published": "2025/9/4 19:05",
           "paid": false
         },
         {
           "title": "［社説］中央アジアと関係拡大の時だ",
           "link": "https://www.nikkei.com/article/DGXZQODK023H90S5A900C2000000/",
-          "published": "2025年9月4日",
+          "published": "2025/9/4 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "中ロ朝の結束　緊張の高まりを懸念する",
           "link": "https://www.niigata-nippo.co.jp/articles/-/682617",
-          "published": "2025/9/4",
+          "published": "2025/9/4 6:00",
           "paid": false
         }
       ]
@@ -263,6 +263,46 @@
           "title": "＜社説＞自民参院選総括　国民課題の解決策見えぬ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4583547.html",
           "published": "2025/09/04",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：原発地域の支援　ぬぐえない根本リスク",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1554991",
+          "published": "2025/9/4 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：日印首脳会談　補い合う関係深めたい",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1554986",
+          "published": "2025/9/4 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】自民参院選総括　解党的出直しの道筋示せ",
+          "link": "https://www.nishinippon.co.jp/item/1395445/",
+          "published": "2025/09/04 06:00",
           "paid": false
         }
       ]

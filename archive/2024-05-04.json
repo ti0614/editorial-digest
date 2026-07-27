@@ -67,7 +67,7 @@
         {
           "title": "県内就職　新潟で働く魅力伝えたい",
           "link": "https://www.niigata-nippo.co.jp/articles/-/400233",
-          "published": "2024/5/4",
+          "published": "2024/5/4 6:00",
           "paid": false
         }
       ]
@@ -170,6 +170,23 @@
           "title": "＜社説＞駐日米大使先島視察　軍事利用拡大は許されぬ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3042335.html",
           "published": "2024/05/04",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】核ごみ文献調査　議論をゆがめる国の対応",
+          "link": "https://www.nishinippon.co.jp/item/1207504/",
+          "published": "2024/05/04 06:00",
           "paid": false
         }
       ]

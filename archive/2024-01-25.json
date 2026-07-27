@@ -50,7 +50,7 @@
         {
           "title": "新幹線架線事故　設備点検急ぎ再発防止を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/349433",
-          "published": "2024/1/25",
+          "published": "2024/1/25 6:00",
           "paid": false
         }
       ]
@@ -153,6 +153,23 @@
           "title": "＜社説＞高い奨学金利用率　支援拡充と周知に努めよ",
           "link": "https://ryukyushimpo.jp/editorial/entry-2732167.html",
           "published": "2024/01/25",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】自民党の派閥　弊害断つなら全廃が筋だ",
+          "link": "https://www.nishinippon.co.jp/item/1171421/",
+          "published": "2024/01/25 06:00",
           "paid": false
         }
       ]

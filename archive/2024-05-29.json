@@ -73,7 +73,7 @@
         {
           "title": "日中韓首脳会談　地域の安定へ対話続けよ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/413498",
-          "published": "2024/5/29",
+          "published": "2024/5/29 6:00",
           "paid": false
         }
       ]
@@ -176,6 +176,23 @@
           "title": "＜社説＞「指導死」防止取り組み　実効性伴う対応策目指せ",
           "link": "https://ryukyushimpo.jp/editorial/entry-3134608.html",
           "published": "2024/05/29",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】日中韓首脳会談　定期対話で課題の解決を",
+          "link": "https://www.nishinippon.co.jp/item/1216664/",
+          "published": "2024/05/29 06:00",
           "paid": false
         }
       ]

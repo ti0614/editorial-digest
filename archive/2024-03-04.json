@@ -67,7 +67,7 @@
         {
           "title": "出生数過去最少　子育てしやすい働き方を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/368666",
-          "published": "2024/3/4",
+          "published": "2024/3/4 6:00",
           "paid": false
         }
       ]
@@ -153,6 +153,23 @@
           "title": "＜社説＞オスプレイ飛行再開へ　住民の安全脅かす暴挙だ",
           "link": "https://ryukyushimpo.jp/editorial/entry-2866917.html",
           "published": "2024/03/04",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】大相撲と暴力　協会の主導で抜本改革を",
+          "link": "https://www.nishinippon.co.jp/item/1185307/",
+          "published": "2024/03/04 06:00",
           "paid": false
         }
       ]

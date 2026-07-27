@@ -59,13 +59,13 @@
         {
           "title": "［社説］ソニーは脱テレビでエンタメ軸に成長を",
           "link": "https://www.nikkei.com/article/DGXZQOCD12BRP0S6A210C2000000/",
-          "published": "2月14日",
+          "published": "2026/2/14 19:05",
           "paid": false
         },
         {
           "title": "［社説］市場ゆがめる三田証券の不正",
           "link": "https://www.nikkei.com/article/DGXZQODK1414G0U6A210C2000000/",
-          "published": "2月14日",
+          "published": "2026/2/14 19:00",
           "paid": false
         }
       ]
@@ -143,7 +143,7 @@
         {
           "title": "中道新代表　党の再建へ問われる力量",
           "link": "https://www.niigata-nippo.co.jp/articles/-/779686",
-          "published": "2/14",
+          "published": "2026/2/14 6:00",
           "paid": false
         }
       ]
@@ -177,13 +177,13 @@
         {
           "title": "社説【能登の古民家再生】風土の遺産、活性化拠点に",
           "link": "https://www.hokkoku.co.jp/articles/-/2016462",
-          "published": "2/14",
+          "published": "2026/2/14 5:00",
           "paid": true
         },
         {
           "title": "社説【パワハラ防止策】行政組織に浸透しているか",
           "link": "https://www.hokkoku.co.jp/articles/-/2016461",
-          "published": "2/14",
+          "published": "2026/2/14 5:00",
           "paid": true
         }
       ]
@@ -303,6 +303,40 @@
           "title": "＜社説＞普天間継続使用の論説　「辺野古唯一」固執するな",
           "link": "https://ryukyushimpo.jp/editorial/entry-5035621.html",
           "published": "2026/02/14",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：京都市の予算案　持続性と活力高める方策を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1657523",
+          "published": "2026/2/14 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】再審法の答申　改革骨抜き国会が是正を",
+          "link": "https://www.nishinippon.co.jp/item/1458203/",
+          "published": "2026/02/14 06:00",
           "paid": false
         }
       ]

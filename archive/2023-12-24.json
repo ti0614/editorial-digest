@@ -33,7 +33,7 @@
         {
           "title": "ガザ死者２万人超　無差別攻撃を即刻やめよ",
           "link": "https://www.niigata-nippo.co.jp/articles/-/332590",
-          "published": "2023/12/24",
+          "published": "2023/12/24 6:00",
           "paid": false
         }
       ]
@@ -119,6 +119,23 @@
           "title": "＜社説＞教員精神疾患休職最多　相談体制の整備が急務だ",
           "link": "https://ryukyushimpo.jp/editorial/entry-2613343.html",
           "published": "2023/12/24",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】政府予算案　膨張から健全化へ転換を",
+          "link": "https://www.nishinippon.co.jp/item/1160839/",
+          "published": "2023/12/24 06:00",
           "paid": false
         }
       ]

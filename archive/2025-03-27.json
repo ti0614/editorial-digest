@@ -53,13 +53,13 @@
         {
           "title": "［社説］不当なトランプ関税を直ちに撤回せよ",
           "link": "https://www.nikkei.com/article/DGXZQODK274UC0X20C25A3000000/",
-          "published": "2025年3月27日",
+          "published": "2025/3/27 19:05",
           "paid": false
         },
         {
           "title": "［社説］ブラジルと経済関係の強化を",
           "link": "https://www.nikkei.com/article/DGXZQODK277BK0X20C25A3000000/",
-          "published": "2025年3月27日",
+          "published": "2025/3/27 19:00",
           "paid": false
         }
       ]
@@ -137,7 +137,7 @@
         {
           "title": "統合作戦司令部　文民統制機能する運用を",
           "link": "https://www.niigata-nippo.co.jp/articles/-/580918",
-          "published": "2025/3/27",
+          "published": "2025/3/27 6:00",
           "paid": false
         }
       ]
@@ -223,6 +223,46 @@
           "title": "＜社説＞旧統一教会に解散命令　被害救済はこれからだ",
           "link": "https://ryukyushimpo.jp/editorial/entry-4094451.html",
           "published": "2025/03/27",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：教団に解散命令　悪質性と重大さ断じた",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1447927",
+          "published": "2025/3/27 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：国安条例１年　香港の自由後退を憂う",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1447917",
+          "published": "2025/3/27 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】教団に解散命令　被害救済を着実に進めよ",
+          "link": "https://www.nishinippon.co.jp/item/1331832/",
+          "published": "2025/03/27 06:00",
           "paid": false
         }
       ]

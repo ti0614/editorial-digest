@@ -59,7 +59,7 @@
         {
           "title": "［社説］中東危機下でのエネルギー安全保障を万全に",
           "link": "https://www.nikkei.com/article/DGXZQODK033BN0T00C26A3000000/",
-          "published": "3月3日",
+          "published": "2026/3/3 19:05",
           "paid": false
         }
       ]
@@ -123,20 +123,7 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": [
-        {
-          "title": "きめ細かな観光施策を期待　アロハガーデン閉園決定　【論説】",
-          "link": "https://www.chibanippo.co.jp/serial/1408199",
-          "published": "3/3 5:00",
-          "paid": true
-        },
-        {
-          "title": "民主主義の維持へ規制急務　横行する「２馬力選挙」　【論説】",
-          "link": "https://www.chibanippo.co.jp/serial/1408198",
-          "published": "3/3 5:00",
-          "paid": true
-        }
-      ]
+      "items": []
     },
     {
       "name": "新潟日報",
@@ -150,13 +137,13 @@
         {
           "title": "投資名目で680万円だまし取った疑い、大阪市の女を再逮捕　「受け子」か",
           "link": "https://www.niigata-nippo.co.jp/articles/-/789451",
-          "published": "3/3",
+          "published": "2026/3/3 23:00",
           "paid": false
         },
         {
           "title": "「国民会議」初会合　多様な議論ができるのか",
           "link": "https://www.niigata-nippo.co.jp/articles/-/788874",
-          "published": "3/3",
+          "published": "2026/3/3 6:00",
           "paid": false
         }
       ]
@@ -190,19 +177,19 @@
         {
           "title": "社説【輪島市長再選】能登復興へ中心的役割を",
           "link": "https://www.hokkoku.co.jp/articles/-/2032479",
-          "published": "3/3",
+          "published": "2026/3/3 5:00",
           "paid": true
         },
         {
           "title": "社説【米のイラン攻撃】「戦力の空白」に備えねば",
           "link": "https://www.hokkoku.co.jp/articles/-/2032478",
-          "published": "3/3",
+          "published": "2026/3/3 5:00",
           "paid": true
         },
         {
           "title": "社説【輪島市長再選】能登復興へ中心的な役割を",
           "link": "https://www.hokkoku.co.jp/articles/-/2032443",
-          "published": "3/3",
+          "published": "2026/3/3 5:00",
           "paid": true
         }
       ]
@@ -305,6 +292,40 @@
           "title": "＜社説＞イラン攻撃、泥沼化か　戦闘やめ外交交渉に戻れ",
           "link": "https://ryukyushimpo.jp/editorial/entry-5085831.html",
           "published": "2026/03/03",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "京都新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kyoto-np.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説：社保「国民会議」　見切り発車、仕切り直すべき",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1668953",
+          "published": "2026/3/3 16:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "西日本新聞",
+      "category": "社説",
+      "tier": "block",
+      "index_url": "https://www.nishinippon.co.jp/category/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】対米投資第1弾　採算性を見極めて進めよ",
+          "link": "https://www.nishinippon.co.jp/item/1464514/",
+          "published": "2026/03/03 06:00",
           "paid": false
         }
       ]
