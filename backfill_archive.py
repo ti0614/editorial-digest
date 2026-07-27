@@ -54,7 +54,7 @@ import requests
 
 from extract import Item, extract_items
 from fetch import fetch_html
-from main import SourceResult, load_sources, process_source, source_status_label, write_json
+from main import SourceResult, load_sources, process_source, source_meta, source_status_label, write_json
 from pubdate import parse_iso8601_utc, parse_published_date, today_jst, within_window
 from robots import RobotsChecker
 
@@ -133,18 +133,12 @@ def _fetch_with_pagination(
     ここまでの結果を保ったままエラーとして記録する（404と違い、まだ続きが
     ある可能性が高いため静かに「完了」扱いにはしない）。
     """
-    name = source["name"]
-    index_url = source["index_url"]
-    category = source.get("category", "社説")
-    tier = source.get("tier", "regional")
-    unavailable_reason = source.get("unavailable_reason")
+    meta = source_meta(source)
+    index_url = meta["index_url"]
     extra_headers = source.get("pagination_headers")
 
     if not robots.allows(index_url):
-        return SourceResult(
-            name=name, category=category, tier=tier, index_url=index_url,
-            skipped_by_robots=True, unavailable_reason=unavailable_reason,
-        )
+        return SourceResult(**meta, skipped_by_robots=True)
 
     items = []
     seen_titles: set[str] = set()
@@ -179,15 +173,9 @@ def _fetch_with_pagination(
             page += 1
             if page <= max_pages:
                 time.sleep(robots.interval_after(url))
-        return SourceResult(
-            name=name, category=category, tier=tier, index_url=index_url,
-            items=items, unavailable_reason=unavailable_reason,
-        )
+        return SourceResult(**meta, items=items)
     except Exception as exc:  # noqa: BLE001 - 1ソースの失敗で全体を止めない
-        return SourceResult(
-            name=name, category=category, tier=tier, index_url=index_url,
-            items=items, error=str(exc), unavailable_reason=unavailable_reason,
-        )
+        return SourceResult(**meta, items=items, error=str(exc))
 
 
 def _get_nested(d: dict, dotted_path: str):
@@ -215,17 +203,11 @@ def _fetch_json_items_with_pagination(
     はその直後から返す設計になっている（サイト自身の埋め込み設定
     feedOffset値と一致することを確認済み）。
     """
-    name = source["name"]
-    index_url = source["index_url"]
-    category = source.get("category", "社説")
-    tier = source.get("tier", "regional")
-    unavailable_reason = source.get("unavailable_reason")
+    meta = source_meta(source)
+    index_url = meta["index_url"]
 
     if not robots.allows(index_url):
-        return SourceResult(
-            name=name, category=category, tier=tier, index_url=index_url,
-            skipped_by_robots=True, unavailable_reason=unavailable_reason,
-        )
+        return SourceResult(**meta, skipped_by_robots=True)
 
     items = []
     seen_titles: set[str] = set()
@@ -274,15 +256,9 @@ def _fetch_json_items_with_pagination(
             page += 1
             if page <= max_pages:
                 time.sleep(robots.interval_after(index_url))
-        return SourceResult(
-            name=name, category=category, tier=tier, index_url=index_url,
-            items=items, unavailable_reason=unavailable_reason,
-        )
+        return SourceResult(**meta, items=items)
     except Exception as exc:  # noqa: BLE001 - 1ソースの失敗で全体を止めない
-        return SourceResult(
-            name=name, category=category, tier=tier, index_url=index_url,
-            items=items, error=str(exc), unavailable_reason=unavailable_reason,
-        )
+        return SourceResult(**meta, items=items, error=str(exc))
 
 
 def _split_by_date(results: list[SourceResult], reference_date: date) -> dict[date, list[SourceResult]]:

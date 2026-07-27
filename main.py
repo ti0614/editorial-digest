@@ -56,21 +56,28 @@ def load_sources(only: list[str] | None = None) -> list[dict]:
     return sources
 
 
+def source_meta(source: dict) -> dict:
+    """sources.yamlの1エントリから、SourceResultに常に必要な5フィールドを
+    取り出す。main.py・backfill_archive.pyの両方から使う（後者は`main`から
+    import）。"""
+    return dict(
+        name=source["name"],
+        category=source.get("category", "社説"),
+        tier=source.get("tier", "regional"),
+        index_url=source["index_url"],
+        unavailable_reason=source.get("unavailable_reason"),
+    )
+
+
 def process_source(
     source: dict, reference_date: date, robots: RobotsChecker, fetch_times: bool = False,
     same_day_only: bool = False, window_days: int = DEFAULT_WINDOW_DAYS,
 ) -> SourceResult:
-    name = source["name"]
-    index_url = source["index_url"]
-    category = source.get("category", "社説")
-    tier = source.get("tier", "regional")
-    unavailable_reason = source.get("unavailable_reason")
+    meta = source_meta(source)
+    index_url = meta["index_url"]
 
     if not robots.allows(index_url):
-        return SourceResult(
-            name=name, category=category, tier=tier, index_url=index_url,
-            skipped_by_robots=True, unavailable_reason=unavailable_reason,
-        )
+        return SourceResult(**meta, skipped_by_robots=True)
 
     try:
         html = fetch_html(index_url)
@@ -81,15 +88,9 @@ def process_source(
             items = [it for it in items if is_same_day(it.published, reference_date)]
         if fetch_times:
             enrich_missing_times(items, robots, reference_date)
-        return SourceResult(
-            name=name, category=category, tier=tier, index_url=index_url,
-            items=items, unavailable_reason=unavailable_reason,
-        )
+        return SourceResult(**meta, items=items)
     except Exception as exc:  # noqa: BLE001 - 1ソースの失敗で全体を止めない
-        return SourceResult(
-            name=name, category=category, tier=tier, index_url=index_url,
-            error=str(exc), unavailable_reason=unavailable_reason,
-        )
+        return SourceResult(**meta, error=str(exc))
 
 
 def _iter_results(
