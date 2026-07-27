@@ -78,7 +78,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "［社説］副首都はどんな姿かしっかり議論せよ",
+          "link": "https://www.nikkei.com/article/DGXZQODK276130X20C26A7000000/",
+          "published": "2026/7/27 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］ゲノム編集は命の尊厳第一に",
+          "link": "https://www.nikkei.com/article/DGXZQODK272XB0X20C26A7000000/",
+          "published": "2026/7/27 19:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "産経新聞",
