@@ -23,6 +23,225 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "兵庫知事に斎藤氏再選　出直しは疑惑の解明から",
+          "link": "https://mainichi.jp/articles/20241119/ddm/005/070/093000c",
+          "published": "2024/11/19 02:01",
+          "paid": false
+        },
+        {
+          "title": "首相が習氏と初会談　対話重ねて地域に安定を",
+          "link": "https://mainichi.jp/articles/20241119/ddm/005/070/091000c",
+          "published": "2024/11/19 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］企業は市場の変化に先手打ち逆風克服を",
+          "link": "https://www.nikkei.com/article/DGXZQODK197M50Z11C24A1000000/",
+          "published": "2024年11月19日",
+          "paid": false
+        },
+        {
+          "title": "［社説］日米韓の連携強化を止めるな",
+          "link": "https://www.nikkei.com/article/DGXZQODK192SF0Z11C24A1000000/",
+          "published": "2024年11月19日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【生産現場見学会】産業の担い手育成を（１１月１９日）",
+          "link": "https://www.minpo.jp/articles/-/54815",
+          "published": "2024/11/19 09:24",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【宇都宮市長　佐藤氏６選】持続可能な都市づくりを",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1003550",
+          "published": "2024/11/19",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "柏崎市長３選　再稼働議論丁寧に進めて",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/511732",
+          "published": "2024/11/19",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "兵庫知事に斎藤氏",
+          "link": "https://www.gifu-np.co.jp/articles/-/467958",
+          "published": "2024年11月19日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　兵庫知事に斎藤氏　告発問題解明と説明を",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/682228",
+          "published": "2024/11/19 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】水道の耐震化　国の責任で迅速な支援を",
+          "link": "https://www.topics.or.jp/articles/-/1157303",
+          "published": "2024/11/19 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【ＡＰＥＣ会議】自由貿易へ試される結束",
+          "link": "https://www.kochinews.co.jp/article/detail/805259",
+          "published": "2024.11.19 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］兵庫知事に斎藤氏　ＳＮＳの功罪が表面化",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1474088",
+          "published": "2024年11月19日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞陸自オスプレイ調査　事故はこれからも起こる",
+          "link": "https://ryukyushimpo.jp/editorial/entry-3659646.html",
+          "published": "2024/11/19",
+          "paid": false
+        }
+      ]
     }
   ]
 }

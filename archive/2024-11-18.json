@@ -23,6 +23,174 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "小中高生の自殺　SOS見逃さない社会に",
+          "link": "https://mainichi.jp/articles/20241118/ddm/005/070/010000c",
+          "published": "2024/11/18 02:01",
+          "paid": false
+        },
+        {
+          "title": "拡大するBRICS　世界の分断を深めぬよう",
+          "link": "https://mainichi.jp/articles/20241118/ddm/005/070/009000c",
+          "published": "2024/11/18 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］SNS選挙の功罪突きつけた兵庫知事選",
+          "link": "https://www.nikkei.com/article/DGXZQODK185XS0Y4A111C2000000/",
+          "published": "2024年11月18日",
+          "paid": false
+        },
+        {
+          "title": "［社説］トランプ次期大統領に歯止めはあるか",
+          "link": "https://www.nikkei.com/article/DGXZQODK183VE0Y4A111C2000000/",
+          "published": "2024年11月18日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【伝統的酒造り】県産酒の追い風に（１１月１８日）",
+          "link": "https://www.minpo.jp/articles/-/54819",
+          "published": "2024/11/18 09:27",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【福田知事６選】レガシー施策の実現を",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1002900",
+          "published": "2024/11/18",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "会計検査院報告　税金の無駄遣い許されぬ",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/511132",
+          "published": "2024/11/18",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "低所得国支援",
+          "link": "https://www.gifu-np.co.jp/articles/-/467498",
+          "published": "2024年11月18日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　いじめ重大事態　対応を根本から見直せ",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/681637",
+          "published": "2024/11/18 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【敦賀原発不合格】決定を重く受け止めよ",
+          "link": "https://www.kochinews.co.jp/article/detail/805002",
+          "published": "2024.11.18 05:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

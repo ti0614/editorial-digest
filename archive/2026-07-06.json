@@ -32,7 +32,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "高市政権と370兆円投資　国家主導突き進む危うさ",
+          "link": "https://mainichi.jp/articles/20260706/ddm/005/070/087000c",
+          "published": "2026/7/6 02:01",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "読売新聞",
@@ -52,7 +59,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "［社説］南米との経済連携で自由貿易の拡大を",
+          "link": "https://www.nikkei.com/article/DGXZQODK061GL0W6A700C2000000/",
+          "published": "6日",
+          "paid": false
+        },
+        {
+          "title": "［社説］検察は不当な取り調べ根絶に襟正せ",
+          "link": "https://www.nikkei.com/article/DGXZQODK063880W6A700C2000000/",
+          "published": "6日",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "産経新聞",
@@ -230,7 +250,7 @@
       "category": "社説",
       "tier": "regional",
       "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
-      "error": null,
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
       "items": [
@@ -277,7 +297,7 @@
       "category": "論説",
       "tier": "regional",
       "index_url": "https://www.chibanippo.co.jp/serial",
-      "error": null,
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
       "items": [
@@ -314,7 +334,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "社説選挙時のＳＮＳ対策／公正さ守る実効策必要",
+          "link": "https://webun.jp/articles/-/1050744",
+          "published": "2026.07.06",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "北國新聞",
@@ -324,7 +351,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "社説【被災校支援チーム】派遣を持続可能な体制に",
+          "link": "https://www.hokkoku.co.jp/articles/-/2160726",
+          "published": "7/6",
+          "paid": true
+        },
+        {
+          "title": "社説【子どもとＳＮＳ】過度な依存防ぐ取り組みを",
+          "link": "https://www.hokkoku.co.jp/articles/-/2160725",
+          "published": "7/6",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "福井新聞",
@@ -381,7 +421,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "与党安保提言",
+          "link": "https://www.gifu-np.co.jp/articles/-/734784",
+          "published": "2026年7月6日 05:00岐阜",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "奈良新聞",
@@ -465,7 +512,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "【コメ価格】中長期的な安定策を",
+          "link": "https://www.kochinews.co.jp/article/detail/1022058",
+          "published": "2026.07.06 05:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "日本海新聞",

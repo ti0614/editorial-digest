@@ -23,6 +23,249 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "参院選2025　コメ不足と価格高騰　安定供給へ抜本策が必要",
+          "link": "https://mainichi.jp/articles/20250717/ddm/005/070/076000c",
+          "published": "2025/7/17 02:00",
+          "paid": false
+        },
+        {
+          "title": "中国で邦人に実刑判決　経済活動妨げる不透明さ",
+          "link": "https://mainichi.jp/articles/20250717/ddm/005/070/074000c",
+          "published": "2025/7/17 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］セブンは買収攻防を教訓に価値向上を",
+          "link": "https://www.nikkei.com/article/DGXZQODK178IN0X10C25A7000000/",
+          "published": "2025年7月17日",
+          "paid": false
+        },
+        {
+          "title": "［社説］人づくりへ真の教育改革競え",
+          "link": "https://www.nikkei.com/article/DGXZQODK176Q50X10C25A7000000/",
+          "published": "2025年7月17日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【小高避難解除９年】働く場の確保を（７月１７日）",
+          "link": "https://www.minpo.jp/articles/-/53551",
+          "published": "2025/07/17 09:12",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【投票行動支援】棄権防止へ知恵を絞ろう",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1152776",
+          "published": "2025/7/17",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "酒米不足　生産強化へ連携深めよ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1190585.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年7月17日(木)  09:20",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "米国の対ロ制裁　一刻も早い停戦の糸口に",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/651709",
+          "published": "2025/7/17",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説県内ヒアリ初確認／輸出側の対応求めねば",
+          "link": "https://webun.jp/articles/-/844579",
+          "published": "2025.07.17",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "参院選・原発政策",
+          "link": "https://www.gifu-np.co.jp/articles/-/570700",
+          "published": "2025年7月17日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　「福島」の教訓忘れずに　原発・エネルギー",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/821406",
+          "published": "2025/7/17 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】選択的夫婦別姓　人権の視点で考えたい",
+          "link": "https://www.topics.or.jp/articles/-/1273101",
+          "published": "2025/7/17 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【２０２５参院選　南海トラフ地震】対策いかに加速できるか",
+          "link": "https://www.kochinews.co.jp/article/detail/887959",
+          "published": "2025.07.17 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］石垣の漁港で米軍訓練　疑問だらけ市は説明を",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1629089",
+          "published": "2025年7月17日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞民間港で米軍訓練　経緯を徹底的に検証せよ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4450952.html",
+          "published": "2025/07/17",
+          "paid": false
+        }
+      ]
     }
   ]
 }

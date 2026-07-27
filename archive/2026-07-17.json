@@ -329,7 +329,7 @@
       "category": "社説",
       "tier": "regional",
       "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
-      "error": null,
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
       "items": [
@@ -376,7 +376,7 @@
       "category": "論説",
       "tier": "regional",
       "index_url": "https://www.chibanippo.co.jp/serial",
-      "error": null,
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
       "items": []
@@ -423,7 +423,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "社説【沖縄で問責決議】知事の行政能力に疑問符",
+          "link": "https://www.hokkoku.co.jp/articles/-/2172255",
+          "published": "7/17",
+          "paid": true
+        },
+        {
+          "title": "社説【半導体の巨額投資】北陸に産業集積促す弾みに",
+          "link": "https://www.hokkoku.co.jp/articles/-/2172254",
+          "published": "7/17",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "福井新聞",

@@ -23,6 +23,204 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "日本版DOGEの新設　放漫財政の方便では困る",
+          "link": "https://mainichi.jp/articles/20251214/ddm/005/070/073000c",
+          "published": "2025/12/14 02:01",
+          "paid": false
+        },
+        {
+          "title": "マンションの防災　住民主体の備えが肝要だ",
+          "link": "https://mainichi.jp/articles/20251214/ddm/005/070/071000c",
+          "published": "2025/12/14 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "ウナギ規制不採択　資源管理の徹底が急務",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1232169.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年12月14日(日)  09:37",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "女流棋士　柔軟な対局規定欠かせぬ",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/745980",
+          "published": "2025/12/14",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説ライチョウ保全へＣＦ／再び支援の輪広げたい",
+          "link": "https://webun.jp/articles/-/937586",
+          "published": "2025.12.14",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【戦争の語り部】若者の継承活動支えたい",
+          "link": "https://www.hokkoku.co.jp/articles/-/1959706",
+          "published": "12/14",
+          "paid": true
+        },
+        {
+          "title": "社説【「絶景海道」の整備】能登観光再生の推進力に",
+          "link": "https://www.hokkoku.co.jp/articles/-/1959705",
+          "published": "12/14",
+          "paid": true
+        },
+        {
+          "title": "社説【戦争の語り部】若者の継承活動を支えたい",
+          "link": "https://www.hokkoku.co.jp/articles/-/1959700",
+          "published": "12/14",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "泊原発再稼働同意",
+          "link": "https://www.gifu-np.co.jp/articles/-/641602",
+          "published": "2025年12月14日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　泊原発再稼働に同意　利点だけ強調は不公平",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/914108",
+          "published": "2025/12/14 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【妊娠とキャリア】女流棋士の訴えは重い",
+          "link": "https://www.kochinews.co.jp/article/detail/939212",
+          "published": "2025.12.14 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］東大にも琉球人遺骨　返還へ地元との対話を",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1734734",
+          "published": "2025年12月14日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞東大琉球遺骨保管　返還の意思早急に表明を",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4868946.html",
+          "published": "2025/12/14",
+          "paid": false
+        }
+      ]
     }
   ]
 }

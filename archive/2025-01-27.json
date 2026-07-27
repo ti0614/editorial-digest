@@ -23,6 +23,191 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "財政健全化の先送り　放漫続ける政治の無責任",
+          "link": "https://mainichi.jp/articles/20250127/ddm/005/070/008000c",
+          "published": "2025/1/27 02:02",
+          "paid": false
+        },
+        {
+          "title": "介護事業者の倒産最多　持続可能な仕組み構築を",
+          "link": "https://mainichi.jp/articles/20250127/ddm/005/070/007000c",
+          "published": "2025/1/27 02:02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］フジは企業統治の抜本的な見直しを急げ",
+          "link": "https://www.nikkei.com/article/DGXZQODK273Q70X20C25A1000000/",
+          "published": "2025年1月27日",
+          "paid": false
+        },
+        {
+          "title": "［社説］自民はすべての裏金の解明を",
+          "link": "https://www.nikkei.com/article/DGXZQODK273TY0X20C25A1000000/",
+          "published": "2025年1月27日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【災害備蓄】品目の差解消を（１月２７日）",
+          "link": "https://www.minpo.jp/articles/-/54567",
+          "published": "2025/01/27 09:28",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "新潟Ｌ準優勝　女子の人気高める善戦だ",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/546035",
+          "published": "2025/1/27",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "県知事に江崎氏",
+          "link": "https://www.gifu-np.co.jp/articles/-/494500",
+          "published": "2025年1月27日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　年金制度改革　財源論は避けられない",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/719416",
+          "published": "2025/1/27 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【障害と逸失利益】差別解消の流れ加速を",
+          "link": "https://www.kochinews.co.jp/article/detail/824520",
+          "published": "2025.01.27 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］沖縄市長に花城氏　「継承」の真価問われる",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1514940",
+          "published": "2025年1月27日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞沖縄市長に花城氏　市政発展へ公約の実現を",
+          "link": "https://ryukyushimpo.jp/editorial/entry-3902706.html",
+          "published": "2025/01/27",
+          "paid": false
+        }
+      ]
     }
   ]
 }

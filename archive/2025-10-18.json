@@ -23,6 +23,272 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "自民・維新の連立協議　「政治とカネ」置き去りか",
+          "link": "https://mainichi.jp/articles/20251018/ddm/005/070/046000c",
+          "published": "2025/10/18 02:02",
+          "paid": false
+        },
+        {
+          "title": "村山元首相が死去　55年体制の幕引いた決断",
+          "link": "https://mainichi.jp/articles/20251018/ddm/005/070/045000c",
+          "published": "2025/10/18 02:02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］米政権は報道の自由侵す規制を撤回せよ",
+          "link": "https://www.nikkei.com/article/DGXZQODK176XH0X11C25A0000000/",
+          "published": "2025年10月18日",
+          "paid": false
+        },
+        {
+          "title": "［社説］村山富市氏が残す多党化への教訓",
+          "link": "https://www.nikkei.com/article/DGXZQODK180NB0Y5A011C2000000/",
+          "published": "2025年10月18日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【地域医療の維持】病院間の連携検討を（１０月１８日）",
+          "link": "https://www.minpo.jp/articles/-/52041",
+          "published": "2025/10/18 09:23",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【県環境総合計画】長期的視点で施策展開を",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1212475",
+          "published": "2025/10/18",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "県立病院の医療事故　原因究明に全力尽くせ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1216491.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年10月18日(土)  09:40",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "自維連立協議　「政治とカネ」を最優先に",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/711127",
+          "published": "2025/10/18",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説病院の経営悪化／安心の受診環境 維持を",
+          "link": "https://webun.jp/articles/-/903359",
+          "published": "2025.10.18",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【一里野の温泉停止】復旧早める国の打開策を",
+          "link": "https://www.hokkoku.co.jp/articles/-/1900996",
+          "published": "10/18",
+          "paid": true
+        },
+        {
+          "title": "社説【２１日に首相指名】維新の推進力に期待したい",
+          "link": "https://www.hokkoku.co.jp/articles/-/1900995",
+          "published": "10/18",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "柏崎刈羽の再稼働",
+          "link": "https://www.gifu-np.co.jp/articles/-/613540",
+          "published": "2025年10月18日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　村山富市元首相死去　平和への希求再確認を",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/879141",
+          "published": "2025/10/18 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】自維の連立協議　目先の党利党略なのでは",
+          "link": "https://www.topics.or.jp/articles/-/1322606",
+          "published": "2025/10/18 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【自維連立協議】政治改革の溝　埋まるのか",
+          "link": "https://www.kochinews.co.jp/article/detail/918984",
+          "published": "2025.10.18 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］自維連立へ大詰め　政治とカネ　妥協するな",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1694063",
+          "published": "2025年10月18日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞県立病院経営再建　構造改革で責務を果たせ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4702596.html",
+          "published": "2025/10/18",
+          "paid": false
+        }
+      ]
     }
   ]
 }

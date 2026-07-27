@@ -23,6 +23,225 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "身寄りない高齢者対策　安心して暮らせる基盤を",
+          "link": "https://mainichi.jp/articles/20241122/ddm/005/070/086000c",
+          "published": "2024/11/22 02:01",
+          "paid": false
+        },
+        {
+          "title": "トランプ氏再選　AI規制の行方　開発偏重はリスク高める",
+          "link": "https://mainichi.jp/articles/20241122/ddm/005/070/084000c",
+          "published": "2024/11/22 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］これほど巨額の経済対策は必要なのか",
+          "link": "https://www.nikkei.com/article/DGXZQODK224XG0S4A121C2000000/",
+          "published": "2024年11月22日",
+          "paid": false
+        },
+        {
+          "title": "［社説］中国はミャンマー国軍制止を",
+          "link": "https://www.nikkei.com/article/DGXZQODK15AP90V11C24A1000000/",
+          "published": "2024年11月22日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【復興事業見直し】国は重い責任自覚を（１１月２２日）",
+          "link": "https://www.minpo.jp/articles/-/54797",
+          "published": "2024/11/22 09:30",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【足利市 ベトナム覚書締結】実効性のある連携構築を",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1005540",
+          "published": "2024/11/22",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "「１０３万円の壁」合意　実現へ財源確保が不可欠",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/513518",
+          "published": "2024/11/22",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "出版社買収へ協議",
+          "link": "https://www.gifu-np.co.jp/articles/-/469524",
+          "published": "2024年11月22日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　死刑制度の存廃　今こそ議論の本格化を",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/684035",
+          "published": "2024/11/22 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】日中首脳会談　緊張の激化　避ける努力を",
+          "link": "https://www.topics.or.jp/articles/-/1158819",
+          "published": "2024/11/22 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【侵攻１０００日】なお遠いウクライナ和平",
+          "link": "https://www.kochinews.co.jp/article/detail/806225",
+          "published": "2024.11.22 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］宮城島から辺野古土砂　島の土を基地に使うな",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1476182",
+          "published": "2024年11月22日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞宿泊税決定　持続可能な観光の原資に",
+          "link": "https://ryukyushimpo.jp/editorial/entry-3672205.html",
+          "published": "2024/11/22",
+          "paid": false
+        }
+      ]
     }
   ]
 }

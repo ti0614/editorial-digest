@@ -23,6 +23,289 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "米中にらむ高市外交　「同盟」と「互恵」の両立を",
+          "link": "https://mainichi.jp/articles/20260213/ddm/005/070/115000c",
+          "published": "2026/2/13 02:01",
+          "paid": false
+        },
+        {
+          "title": "海賊版被害10兆円　創作守る国際連携が必要",
+          "link": "https://mainichi.jp/articles/20260213/ddm/005/070/114000c",
+          "published": "2026/2/13 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］中道は自民と競える政策から立て直しを",
+          "link": "https://www.nikkei.com/article/DGXZQODK1333S0T10C26A2000000/",
+          "published": "2月13日",
+          "paid": false
+        },
+        {
+          "title": "［社説］アマゾン無人店舗撤退の教訓",
+          "link": "https://www.nikkei.com/article/DGXZQODK133ZV0T10C26A2000000/",
+          "published": "2月13日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【新乗馬センター】開かれた施設に（２月１３日）",
+          "link": "https://www.minpo.jp/articles/-/49696",
+          "published": "2026/02/13 09:11",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【さのまる誕生１５年】地元の誇り醸成に努めよ",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1287870",
+          "published": "2/13  8:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "洋上風力発電　促進へ実現性の重視を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1247838.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2026年2月13日(金)  09:50",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "生保金銭詐取　体質の改善が欠かせない",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/778996",
+          "published": "2/13",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説衆院女性議員１４％／割合高める対策が必要",
+          "link": "https://webun.jp/articles/-/969307",
+          "published": "2026.02.13",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【選挙妨害の横行】民主主義の根幹が揺らぐ",
+          "link": "https://www.hokkoku.co.jp/articles/-/2015284",
+          "published": "2/13",
+          "paid": true
+        },
+        {
+          "title": "社説【県水一時停止】問われる水のリスク管理",
+          "link": "https://www.hokkoku.co.jp/articles/-/2015283",
+          "published": "2/13",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "春闘スタート",
+          "link": "https://www.gifu-np.co.jp/articles/-/666914",
+          "published": "2026年2月13日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　春闘スタート　賃上げ浸透　責任果たせ",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/948626",
+          "published": "2026/2/13 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】２月県議会開会　予算案もとに課題議論を",
+          "link": "https://www.topics.or.jp/articles/-/1383974",
+          "published": "2026/2/13 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【少雨続く県内】水の使い方見直す機会に",
+          "link": "https://www.kochinews.co.jp/article/detail/971172",
+          "published": "2026.02.13 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "宮崎日日新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.the-miyanichi.co.jp/column/syasetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "野党の立ち位置",
+          "link": "https://www.the-miyanichi.co.jp/column/syasetsu/562475.html",
+          "published": "2026.02.13｜社説",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］売春防止法の改正検討　「買春」規制し歪み正せ",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1774076",
+          "published": "2026年2月13日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞知事県政運営方針　長年の課題解決に道筋を",
+          "link": "https://ryukyushimpo.jp/editorial/entry-5032732.html",
+          "published": "2026/02/13",
+          "paid": false
+        }
+      ]
     }
   ]
 }

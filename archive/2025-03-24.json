@@ -23,6 +23,198 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "日本型のAI規制　実効性高め悪用防がねば",
+          "link": "https://mainichi.jp/articles/20250324/ddm/005/070/009000c",
+          "published": "2025/3/24 02:00",
+          "paid": false
+        },
+        {
+          "title": "花粉症患者の増加　国民病として対策強化を",
+          "link": "https://mainichi.jp/articles/20250324/ddm/005/070/008000c",
+          "published": "2025/3/24 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］地域安保への日本の貢献を米政権に説け",
+          "link": "https://www.nikkei.com/article/DGXZQODK2373J0T20C25A3000000/",
+          "published": "2025年3月24日",
+          "paid": false
+        },
+        {
+          "title": "［社説］「ポケモンGO」成功の教訓",
+          "link": "https://www.nikkei.com/article/DGXZQODK239YB0T20C25A3000000/",
+          "published": "2025年3月24日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【いわき「ほこみち」】歩いて楽しむ駅前に（３月２４日）",
+          "link": "https://www.minpo.jp/articles/-/54296",
+          "published": "2025/03/24 09:25",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "女性活躍推進法１０年　格差の是正へ加速せよ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1158143.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年3月24日(月)  09:50",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "オンラインカジノ　違法性の啓発を強めねば",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/578834",
+          "published": "2025/3/24",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "ＩＯＣに女性会長",
+          "link": "https://www.gifu-np.co.jp/articles/-/517970",
+          "published": "2025年3月24日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　ＩＯＣに女性会長　新風で五輪再生なるか",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/751051",
+          "published": "2025/3/24 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【訪問看護の不正】質確保へ実態把握進めよ",
+          "link": "https://www.kochinews.co.jp/article/detail/843213",
+          "published": "2025.03.24 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］トランプ政権と日本　過剰依存からの脱却を",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1549984",
+          "published": "2025年3月24日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞オンラインカジノ　「違法」との周知が急務だ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4084157.html",
+          "published": "2025/03/24",
+          "paid": false
+        }
+      ]
     }
   ]
 }

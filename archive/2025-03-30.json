@@ -23,6 +23,198 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "放送100年の現在地　ネット時代の役割示す時",
+          "link": "https://mainichi.jp/articles/20250330/ddm/005/070/116000c",
+          "published": "2025/3/30 02:03",
+          "paid": false
+        },
+        {
+          "title": "視覚障害と電子カルテ　使いやすい仕組み構築を",
+          "link": "https://mainichi.jp/articles/20250330/ddm/005/070/115000c",
+          "published": "2025/3/30 02:03",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］緊密な連携と信頼で日米安保体制を盤石に",
+          "link": "https://www.nikkei.com/article/DGXZQODK300W80Q5A330C2000000/",
+          "published": "2025年3月30日",
+          "paid": false
+        },
+        {
+          "title": "［社説］ミャンマー地震に支援を急げ",
+          "link": "https://www.nikkei.com/article/DGXZQODK300LQ0Q5A330C2000000/",
+          "published": "2025年3月30日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "立花氏襲撃　暴力まん延を憂慮する",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1160101.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年3月30日(日)  11:10",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "米自動車関税　撤回迫り日本経済を守れ",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/582812",
+          "published": "2025/3/30",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "拘禁刑と社会復帰",
+          "link": "https://www.gifu-np.co.jp/articles/-/520787",
+          "published": "2025年3月30日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　企業・団体献金　党利党略排した議論を",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/755065",
+          "published": "2025/3/30 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】徳島市議会空転　市民生活への影響避けよ",
+          "link": "https://www.topics.or.jp/articles/-/1217324",
+          "published": "2025/3/30 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【児童虐待】支援が確実に届く体制を",
+          "link": "https://www.kochinews.co.jp/article/detail/845264",
+          "published": "2025.03.30 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］先島　有事避難計画　戦場化の前提が問題だ",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1554358",
+          "published": "2025年3月30日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞ワシントン事務所閉鎖　県民全体の支持で再開を",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4105793.html",
+          "published": "2025/03/30",
+          "paid": false
+        }
+      ]
     }
   ]
 }

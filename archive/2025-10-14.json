@@ -23,6 +23,274 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "アサヒにサイバー攻撃　官民あげて防御策構築を",
+          "link": "https://mainichi.jp/articles/20251014/ddm/005/070/073000c",
+          "published": "2025/10/14 02:00",
+          "paid": false
+        },
+        {
+          "title": "南海トラフ確率見直し　備えの重要性は変わらぬ",
+          "link": "https://mainichi.jp/articles/20251014/ddm/005/070/071000c",
+          "published": "2025/10/14 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］ガザ人質解放を着実な戦闘終結に導け",
+          "link": "https://www.nikkei.com/article/DGXZQODK146FB0U5A011C2000000/",
+          "published": "2025年10月14日",
+          "paid": false
+        },
+        {
+          "title": "［社説］大阪万博の多様な遺産を次世代に",
+          "link": "https://www.nikkei.com/article/DGXZQODK143FG0U5A011C2000000/",
+          "published": "2025年10月14日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【高齢者の住宅賃貸】実情に応じた支援を（１０月１４日）",
+          "link": "https://www.minpo.jp/articles/-/52128",
+          "published": "2025/10/14 09:15",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "全日制進学率低下　公立高改革が不可欠だ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1215192.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年10月14日(火)  09:30",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "若い才能伸ばす機会に　県展で高校生が高い評価　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1288895",
+          "published": "10/14 5:00",
+          "paid": true
+        },
+        {
+          "title": "徹底調査と再発防止を　いすみ鉄道脱線事故　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1288896",
+          "published": "10/14 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "クマ犠牲者最多　命を守る対策徹底したい",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/708088",
+          "published": "2025/10/14",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説ＤＷＡＴ指針改定／避難生活の質高めよう",
+          "link": "https://webun.jp/articles/-/900658",
+          "published": "2025.10.14",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【学部・修士５年制】専門人材の早期育成に",
+          "link": "https://www.hokkoku.co.jp/articles/-/1896419",
+          "published": "10/14",
+          "paid": true
+        },
+        {
+          "title": "社説【「水晶山」の盗掘】地域で問題意識の共有を",
+          "link": "https://www.hokkoku.co.jp/articles/-/1896418",
+          "published": "10/14",
+          "paid": true
+        },
+        {
+          "title": "社説【学部・修士５年制】専門人材の早期育成期待",
+          "link": "https://www.hokkoku.co.jp/articles/-/1896388",
+          "published": "10/14",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "万博閉幕",
+          "link": "https://www.gifu-np.co.jp/articles/-/611533",
+          "published": "2025年10月14日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　大阪・関西万博閉幕　教訓紡ぎ　未来へつなげ",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/876323",
+          "published": "2025/10/14 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】戦後80年首相所感　不戦の誓い共有する時だ",
+          "link": "https://www.topics.or.jp/articles/-/1320107",
+          "published": "2025/10/14 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【県立施設公募】現場の不信感払拭を",
+          "link": "https://www.kochinews.co.jp/article/detail/917530",
+          "published": "2025.10.14 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］ガザ停戦　人質解放　恒久和平へ国際支援を",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1690658",
+          "published": "2025年10月14日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞長期化する政治空白　国民が望む政策実現急げ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4691031.html",
+          "published": "2025/10/14",
+          "paid": false
+        }
+      ]
     }
   ]
 }

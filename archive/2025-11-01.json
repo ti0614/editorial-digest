@@ -23,6 +23,261 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "日韓首脳が会談　現実主義で協力の進展を",
+          "link": "https://mainichi.jp/articles/20251101/ddm/005/070/121000c",
+          "published": "2025/11/1 02:00",
+          "paid": false
+        },
+        {
+          "title": "クマ被害の死者最多　命守る対策の構築急ぐ時",
+          "link": "https://mainichi.jp/articles/20251101/ddm/005/070/119000c",
+          "published": "2025/11/1 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］トランプ氏のAPEC素通りを憂慮する",
+          "link": "https://www.nikkei.com/article/DGXZQODK317QJ0R31C25A0000000/",
+          "published": "2025年11月1日",
+          "paid": false
+        },
+        {
+          "title": "［社説］トヨタは調達先との関係正せ",
+          "link": "https://www.nikkei.com/article/DGXZQODK011130R01C25A1000000/",
+          "published": "2025年11月1日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【自衛隊記念日】役割考える契機に（１１月１日）",
+          "link": "https://www.minpo.jp/articles/-/51766",
+          "published": "2025/11/01 09:07",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "自転車のヘルメット　着用励行し命を守ろう",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1220590.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年11月1日(土)  11:20",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "東証５万円突破　国民生活には実感乏しく",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/720286",
+          "published": "2025/11/1",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説クマ被害多発／ハンター確保急ぎたい",
+          "link": "https://webun.jp/articles/-/912012",
+          "published": "2025.11.01",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【通信業の連携強化】迅速な災害復旧に不可欠",
+          "link": "https://www.hokkoku.co.jp/articles/-/1915803",
+          "published": "11/1",
+          "paid": true
+        },
+        {
+          "title": "社説【高市外交１週間】懸念打ち消し結果を出した",
+          "link": "https://www.hokkoku.co.jp/articles/-/1915802",
+          "published": "11/1",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "高市政権と日銀",
+          "link": "https://www.gifu-np.co.jp/articles/-/619669",
+          "published": "2025年11月1日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "明窓　温暖”蚊”？で陥落した「最後の砦」",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/887954",
+          "published": "2025/11/1 04:00",
+          "paid": true
+        },
+        {
+          "title": "論説　実務に徹し関係構築を　日中・日韓首脳会談",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/887942",
+          "published": "2025/11/1 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】日中首脳会談　対話重ねる契機とせねば",
+          "link": "https://www.topics.or.jp/articles/-/1330724",
+          "published": "2025/11/1 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【日中・日韓会談】丁寧に近隣外交の構築を",
+          "link": "https://www.kochinews.co.jp/article/detail/924082",
+          "published": "2025.11.01 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］不登校最多　実態把握し支援届けよ",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1704276",
+          "published": "2025年11月1日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞首里城再建まで１年　価値高める運動続けよう",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4735084.html",
+          "published": "2025/11/01",
+          "paid": false
+        }
+      ]
     }
   ]
 }

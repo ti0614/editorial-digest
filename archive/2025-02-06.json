@@ -23,6 +23,225 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "トランプ2．0　関税振りかざす外交　秩序損なう経済的威圧だ",
+          "link": "https://mainichi.jp/articles/20250206/ddm/005/070/077000c",
+          "published": "2025/2/6 02:00",
+          "paid": false
+        },
+        {
+          "title": "読書感想文コンクール　人生を開く本との出合い",
+          "link": "https://mainichi.jp/articles/20250206/ddm/005/070/073000c",
+          "published": "2025/2/6 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］危機感欠く日産とホンダの協議打ち切り",
+          "link": "https://www.nikkei.com/article/DGXZQOCD0664R0W5A200C2000000/",
+          "published": "2025年2月6日",
+          "paid": false
+        },
+        {
+          "title": "［社説］ネット空間の治安悪化止めよ",
+          "link": "https://www.nikkei.com/article/DGXZQODK064SY0W5A200C2000000/",
+          "published": "2025年2月6日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【郷土の歴史】深い学びにつなげたい（２月６日）",
+          "link": "https://www.minpo.jp/articles/-/54528",
+          "published": "2025/02/06 09:28",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【危険運転に数値基準】常識に沿った運用目指せ",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1051123",
+          "published": "2025/2/6",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "備蓄米放出へ　流通不足解消へ力尽くせ",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/551411",
+          "published": "2025/2/6",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "古田県政終わる",
+          "link": "https://www.gifu-np.co.jp/articles/-/498827",
+          "published": "2025年2月6日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　米国のガザ所有提案　国際秩序への挑戦だ",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/724923",
+          "published": "2025/2/6 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】25年度県予算案　持続的発展につながるか",
+          "link": "https://www.topics.or.jp/articles/-/1192283",
+          "published": "2025/2/6 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【人口流出】地方創生の実効性を問う",
+          "link": "https://www.kochinews.co.jp/article/detail/827849",
+          "published": "2025.02.06 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］ＰＦＡＳ汚染源は基地　立ち入り調査は必須だ",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1521089",
+          "published": "2025年2月6日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞PFAS専門家会議　汚染源特定は国の責務だ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-3935141.html",
+          "published": "2025/02/06",
+          "paid": false
+        }
+      ]
     }
   ]
 }

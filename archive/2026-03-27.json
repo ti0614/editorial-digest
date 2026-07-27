@@ -23,6 +23,289 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "東日本大震災15年　高齢者らへの支援　命守る福祉の体制強化を",
+          "link": "https://mainichi.jp/articles/20260327/ddm/005/070/134000c",
+          "published": "2026/3/27 02:01",
+          "paid": false
+        },
+        {
+          "title": "不妊手術受ける権利　自己決定の重み考えたい",
+          "link": "https://mainichi.jp/articles/20260327/ddm/005/070/132000c",
+          "published": "2026/3/27 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］米イランは戦闘終結へ真剣な対話を",
+          "link": "https://www.nikkei.com/article/DGXZQODK276FX0X20C26A3000000/",
+          "published": "3月27日",
+          "paid": false
+        },
+        {
+          "title": "［社説］就労促進へ在職老齢年金テコに",
+          "link": "https://www.nikkei.com/article/DGXZQOCD244W60U6A320C2000000/",
+          "published": "3月27日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【震災１５年　エフレイ】金融機関と連携深めて（３月２７日）",
+          "link": "https://www.minpo.jp/articles/-/91382",
+          "published": "2026/03/27 12:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【特殊詐欺被害過去最悪】手立て講じ未然に防げ",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1315357",
+          "published": "3/27  8:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "プロ野球開幕　ベイ新監督に期待する",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1259541.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2026年3月27日(金)  10:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "イラン攻撃１カ月　泥沼化させてはならない",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/803845",
+          "published": "3/27",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説経済的理由の進路変更／選択肢狭めないように",
+          "link": "https://webun.jp/articles/-/992931",
+          "published": "2026.03.27",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【イラン停戦交渉】長期化見据えた対策も",
+          "link": "https://www.hokkoku.co.jp/articles/-/2058209",
+          "published": "3/27",
+          "paid": true
+        },
+        {
+          "title": "社説【現代美術展】創造の気概新たに真剣勝負",
+          "link": "https://www.hokkoku.co.jp/articles/-/2058208",
+          "published": "3/27",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "暫定予算提出へ",
+          "link": "https://www.gifu-np.co.jp/articles/-/685688",
+          "published": "2026年3月27日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　暫定予算提出へ　審議と誠実に向き合え",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/974725",
+          "published": "2026/3/27 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】イラン攻撃1ヵ月　戦闘終息へ交渉進めよ",
+          "link": "https://www.topics.or.jp/articles/-/1405873",
+          "published": "2026/3/27 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【中東情勢】停戦への道筋を描け",
+          "link": "https://www.kochinews.co.jp/article/detail/985336",
+          "published": "2026.03.27 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "宮崎日日新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.the-miyanichi.co.jp/column/syasetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "旧姓使用の拡大",
+          "link": "https://www.the-miyanichi.co.jp/column/syasetsu/661883.html",
+          "published": "2026.03.27｜社説",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］子ども・子育て支援金　不信払う丁寧な説明を",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1803763",
+          "published": "2026年3月27日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞ガソリン価格高騰　停戦が国民の暮らし守る",
+          "link": "https://ryukyushimpo.jp/editorial/entry-5149961.html",
+          "published": "2026/03/27",
+          "paid": false
+        }
+      ]
     }
   ]
 }

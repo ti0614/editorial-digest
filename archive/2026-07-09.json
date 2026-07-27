@@ -32,7 +32,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "衆院定数の削減見送り　党利党略の法案は撤回を",
+          "link": "https://mainichi.jp/articles/20260709/ddm/005/070/120000c",
+          "published": "2026/7/9 02:03",
+          "paid": false
+        },
+        {
+          "title": "日印首脳が会談　地域安定に貢献してこそ",
+          "link": "https://mainichi.jp/articles/20260709/ddm/005/070/119000c",
+          "published": "2026/7/9 02:03",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "読売新聞",
@@ -52,7 +65,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "［社説］トランプ米政権は同盟国重視へ回帰せよ",
+          "link": "https://www.nikkei.com/article/DGXZQOCD07AN00X00C26A7000000/",
+          "published": "9日",
+          "paid": false
+        },
+        {
+          "title": "［社説］天体衝突阻止へ日本の技術を",
+          "link": "https://www.nikkei.com/article/DGXZQODK094XU0Z00C26A7000000/",
+          "published": "9日",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "産経新聞",
@@ -236,14 +262,21 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "【訪日客で海外市場調査】中小の輸出促進へ転機に",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1381205",
+          "published": "7/9  8:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "神奈川新聞",
       "category": "社説",
       "tier": "regional",
       "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
-      "error": null,
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
       "items": [
@@ -296,7 +329,7 @@
       "category": "論説",
       "tier": "regional",
       "index_url": "https://www.chibanippo.co.jp/serial",
-      "error": null,
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
       "items": []
@@ -343,7 +376,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "社説【能登の風車停止】早期の復旧は可能なのか",
+          "link": "https://www.hokkoku.co.jp/articles/-/2164082",
+          "published": "7/9",
+          "paid": true
+        },
+        {
+          "title": "社説【定数削減見送り】野党は直ちに審議復帰を",
+          "link": "https://www.hokkoku.co.jp/articles/-/2164081",
+          "published": "7/9",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "福井新聞",
@@ -498,7 +544,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "【賃金格差】是正で地方成長を図れ",
+          "link": "https://www.kochinews.co.jp/article/detail/1023040",
+          "published": "2026.07.09 05:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "日本海新聞",

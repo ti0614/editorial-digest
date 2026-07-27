@@ -57,6 +57,289 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "国民投票とネット広告　放置すれば公正さ損なう",
+          "link": "https://mainichi.jp/articles/20260620/ddm/005/070/143000c",
+          "published": "2026/6/20 02:01",
+          "paid": false
+        },
+        {
+          "title": "問われるG7の役割　米を引き留めるだけでは",
+          "link": "https://mainichi.jp/articles/20260620/ddm/005/070/142000c",
+          "published": "2026/6/20 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］AIの安全管理へ国際ルールをつくれ",
+          "link": "https://www.nikkei.com/article/DGXZQODK195WK0Z10C26A6000000/",
+          "published": "6月20日",
+          "paid": false
+        },
+        {
+          "title": "［社説］市街地に迫るクマへの備えを",
+          "link": "https://www.nikkei.com/article/DGXZQODK191AL0Z10C26A6000000/",
+          "published": "6月20日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【福島のこくりナビ】活気あるまちの基盤に（６月２０日）",
+          "link": "https://www.minpo.jp/articles/-/161263",
+          "published": "2026/06/20 11:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【投票率向上推進】有権者の意識改革必須",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1369308",
+          "published": "6/20  8:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "河野洋平さんの遺志　ハト派の存在感今こそ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1282090.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2026年6月20日(土)  09:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "米イラン覚書発効　何のための戦争だったか",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/852526",
+          "published": "6/20",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説舟橋村 電子投票導入／信頼性確認し定着探れ",
+          "link": "https://webun.jp/articles/-/1041122",
+          "published": "2026.06.20",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【チューリップ生産】意欲ある若手見つけたい",
+          "link": "https://www.hokkoku.co.jp/articles/-/2144724",
+          "published": "6/20",
+          "paid": true
+        },
+        {
+          "title": "社説【和倉温泉の復興】「一体化」の土台を着実に",
+          "link": "https://www.hokkoku.co.jp/articles/-/2144723",
+          "published": "6/20",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "消費減税と簡易給付",
+          "link": "https://www.gifu-np.co.jp/articles/-/726992",
+          "published": "2026年6月20日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　米イラン覚書発効　和平向け誠実な交渉を",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/1026256",
+          "published": "2026/6/20 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】ホール展巡る論戦　疑問の解消には程遠い",
+          "link": "https://www.topics.or.jp/articles/-/1449998",
+          "published": "2026/6/20 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【プール事故有罪】安全へ重い監督責任",
+          "link": "https://www.kochinews.co.jp/article/detail/1017203",
+          "published": "2026.06.20 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "宮崎日日新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.the-miyanichi.co.jp/column/syasetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "高市Ｇ７外交",
+          "link": "https://www.the-miyanichi.co.jp/column/syasetsu/854180.html",
+          "published": "2026.06.20｜社説",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］下地島空港の税関指定　地域成長につなげたい",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1863022",
+          "published": "2026年6月20日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞国旗損壊罪国会提出　憲法違反は明白、廃案を",
+          "link": "https://ryukyushimpo.jp/editorial/entry-5323319.html",
+          "published": "2026/06/20",
+          "paid": false
+        }
+      ]
     }
   ]
 }

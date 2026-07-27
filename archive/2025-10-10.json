@@ -23,6 +23,260 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "ガザ停戦で合意　恒久和平につなげてこそ",
+          "link": "https://mainichi.jp/articles/20251010/ddm/005/070/119000c",
+          "published": "2025/10/10 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］自公連立解消が迫る政治の再設計",
+          "link": "https://www.nikkei.com/article/DGXZQODK103IU0Q5A011C2000000/",
+          "published": "2025年10月10日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【二つのノーベル賞】「無用の用」に光を（１０月１０日）",
+          "link": "https://www.minpo.jp/articles/-/52232",
+          "published": "2025/10/10 09:09",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【足利市役所移転】跡地利用で中心街活性を",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1207465",
+          "published": "2025/10/10",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "防衛力の抜本強化　平和主義軽視が過ぎる",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1214288.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年10月10日(金)  09:45",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "ガザ和平第１段階　着実な履行が終戦へ導く",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/706187",
+          "published": "2025/10/10",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説匿流摘発へ新体制／特殊詐欺の中核に迫れ",
+          "link": "https://webun.jp/articles/-/898672",
+          "published": "2025.10.10",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【プレミアムパス拡充】子育てしやすい環境に",
+          "link": "https://www.hokkoku.co.jp/articles/-/1893081",
+          "published": "10/10",
+          "paid": true
+        },
+        {
+          "title": "社説【北川氏にノーベル賞】温暖化対策に確かな一歩",
+          "link": "https://www.hokkoku.co.jp/articles/-/1893080",
+          "published": "10/10",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "ガザ和平案合意",
+          "link": "https://www.gifu-np.co.jp/articles/-/610209",
+          "published": "2025年10月10日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　ガザ和平合意　「終戦」へ誠実な履行を",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/874225",
+          "published": "2025/10/10 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】北川氏に化学賞　無限の可能性持つ研究だ",
+          "link": "https://www.topics.or.jp/articles/-/1318463",
+          "published": "2025/10/10 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【自民新執行部】派閥回帰は不信強める",
+          "link": "https://www.kochinews.co.jp/article/detail/916482",
+          "published": "2025.10.10 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］１０・１０空襲から８１年　平和希求の思い新たに",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1688464",
+          "published": "2025年10月10日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞10・10空襲から81年　国策の犠牲、正しく継承を",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4682991.html",
+          "published": "2025/10/10",
+          "paid": false
+        }
+      ]
     }
   ]
 }

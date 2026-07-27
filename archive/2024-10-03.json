@@ -23,6 +23,219 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "イランが報復攻撃　戦火拡大に勝者はいない",
+          "link": "https://mainichi.jp/articles/20241003/ddm/005/070/104000c",
+          "published": "2024/10/3 02:02",
+          "paid": false
+        },
+        {
+          "title": "安倍派事務局長に有罪　裏金解明は新政権の責務",
+          "link": "https://mainichi.jp/articles/20241003/ddm/005/070/102000c",
+          "published": "2024/10/3 02:02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【県内医療関連産業】日本の中心地を目指せ（１０月３日）",
+          "link": "https://www.minpo.jp/articles/-/55286",
+          "published": "2024/10/03 09:26",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【マスコミ倫懇宇都宮大会】信頼に応える発信に期待",
+          "link": "https://www.shimotsuke.co.jp/articles/-/976069",
+          "published": "2024/10/3",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "イランの攻撃　報復の連鎖止め停戦導け",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/486446",
+          "published": "2024/10/3",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福井新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.fukuishimbun.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "福井女子中生殺人事件　証拠基づき公正な判断を",
+          "link": "https://www.fukuishimbun.co.jp/articles/-/2144124",
+          "published": "（2024年10月3日 午前7時30分）",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "イランの報復攻撃",
+          "link": "https://www.gifu-np.co.jp/articles/-/448695",
+          "published": "2024年10月3日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　イランの報復攻撃　市民の命と安全優先を",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/656494",
+          "published": "2024/10/3 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】水産物輸入再開へ　中国は早く実行に移せ",
+          "link": "https://www.topics.or.jp/articles/-/1136072",
+          "published": "2024/10/3 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【水産物輸入再開】中国との合意実行確実に",
+          "link": "https://www.kochinews.co.jp/article/detail/792031",
+          "published": "2024.10.03 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］首相　地位協定改定に意欲　県の考え聞く場設けよ",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1445912",
+          "published": "2024年10月3日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞レバノン攻撃　国際社会で戦闘拡大防げ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-3515290.html",
+          "published": "2024/10/03",
+          "paid": false
+        }
+      ]
     }
   ]
 }

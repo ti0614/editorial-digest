@@ -23,6 +23,198 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "立憲公約に消費税減税　責任政党の自覚問われる",
+          "link": "https://mainichi.jp/articles/20250427/ddm/005/070/118000c",
+          "published": "2025/4/27 02:01",
+          "paid": false
+        },
+        {
+          "title": "米のウクライナ和平案　侵略国を利する理不尽さ",
+          "link": "https://mainichi.jp/articles/20250427/ddm/005/070/116000c",
+          "published": "2025/4/27 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］米価抑制とコメ不足解消へあらゆる手を",
+          "link": "https://www.nikkei.com/article/DGXZQODK261GZ0W5A420C2000000/",
+          "published": "2025年4月27日",
+          "paid": false
+        },
+        {
+          "title": "［社説］証券口座乗っ取り対策を急げ",
+          "link": "https://www.nikkei.com/article/DGXZQODK25B020V20C25A4000000/",
+          "published": "2025年4月27日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "秦野にトレイルランニング拠点　共存に向けたルールを",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1167506.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年4月27日(日)  10:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "米国産のコメ輸入　食料の安全保障守らねば",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/598639",
+          "published": "2025/4/27",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "日米財務相会談",
+          "link": "https://www.gifu-np.co.jp/articles/-/532406",
+          "published": "2025年4月27日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　備蓄米３回目放出　迅速な流通にも責任を",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/771378",
+          "published": "2025/4/27 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】ローマ教皇死去　生前の言葉を道しるべに",
+          "link": "https://www.topics.or.jp/articles/-/1231163",
+          "published": "2025/4/27 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【自民裏金事件】うやむやで済ますのか",
+          "link": "https://www.kochinews.co.jp/article/detail/855394",
+          "published": "2025.04.27 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］４・２８　負担強いる構図　直視を",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1572867",
+          "published": "2025年4月27日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞あす4・28「屈辱の日」　歴史繰り返さない決意を",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4189108.html",
+          "published": "2025/04/27",
+          "paid": false
+        }
+      ]
     }
   ]
 }

@@ -51,6 +51,253 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "水俣病公式確認70年　「公害の原点」教訓忘れず",
+          "link": "https://mainichi.jp/articles/20260501/ddm/005/070/072000c",
+          "published": "2026/5/1 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］中東緊迫下の市場安定へ万全の対応を",
+          "link": "https://www.nikkei.com/article/DGXZQODK018IT0R00C26A5000000/",
+          "published": "5月1日",
+          "paid": false
+        },
+        {
+          "title": "［社説］水俣病70年の教訓を忘れまい",
+          "link": "https://www.nikkei.com/article/DGXZQODK014Z60R00C26A5000000/",
+          "published": "5月1日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【山林火災】細心の注意を（５月１日）",
+          "link": "https://www.minpo.jp/articles/-/122549",
+          "published": "2026/05/01 09:25",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "水俣病確認７０年　救済の取り組み急ぎたい",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/823878",
+          "published": "5/1",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説県内でクマ人身被害／市街地出没を防ぎたい",
+          "link": "https://webun.jp/articles/-/1012933",
+          "published": "2026.05.01",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【富山新聞創刊１０３年】兄弟の握手、一層強固に",
+          "link": "https://www.hokkoku.co.jp/articles/-/2093995",
+          "published": "5/1",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "南鳥島文献調査",
+          "link": "https://www.gifu-np.co.jp/articles/-/701488",
+          "published": "2026年5月1日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　国立博物館に数値目標　唐突な方針で非現実的",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/996062",
+          "published": "2026/5/1 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】医療費負担見直し　弱者への配慮を忘れるな",
+          "link": "https://www.topics.or.jp/articles/-/1423973",
+          "published": "2026/5/1 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【金利据え置き】物価動向の見極め重要に",
+          "link": "https://www.kochinews.co.jp/article/detail/997003",
+          "published": "2026.05.01 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "宮崎日日新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.the-miyanichi.co.jp/column/syasetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "日銀利上げ見送り",
+          "link": "https://www.the-miyanichi.co.jp/column/syasetsu/741392.html",
+          "published": "2026.05.01｜社説",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］水俣病確認70年　救済尽くされていない",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1828640",
+          "published": "2026年5月1日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞水俣病公式確認70年　被害者の全面救済を急げ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-5223097.html",
+          "published": "2026/05/01",
+          "paid": false
+        }
+      ]
     }
   ]
 }

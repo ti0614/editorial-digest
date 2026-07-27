@@ -32,7 +32,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "旧統一教会の解散確定　救済も実態解明も途上だ",
+          "link": "https://mainichi.jp/articles/20260630/ddm/005/070/094000c",
+          "published": "2026/6/30 02:02",
+          "paid": false
+        },
+        {
+          "title": "緊張続くホルムズ海峡　覚書のもろさが露呈した",
+          "link": "https://mainichi.jp/articles/20260630/ddm/005/070/093000c",
+          "published": "2026/6/30 02:02",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "読売新聞",
@@ -52,7 +65,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "［社説］骨太の方針に持続的な財政の姿が見えぬ",
+          "link": "https://www.nikkei.com/article/DGXZQODK308MO0Q6A630C2000000/",
+          "published": "6月30日",
+          "paid": false
+        },
+        {
+          "title": "［社説］皇室典範の改正案は再考を",
+          "link": "https://www.nikkei.com/article/DGXZQODK305AN0Q6A630C2000000/",
+          "published": "6月30日",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "産経新聞",
@@ -203,7 +229,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "【震災１５年　除染土最終処分】知事会よ、踏み込め（６月３０日）",
+          "link": "https://www.minpo.jp/articles/-/169076",
+          "published": "2026/06/30 11:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "岩手日報",
@@ -223,14 +256,21 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "【保育士支援センター】求職、求人とも裾野拡大を",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1375438",
+          "published": "6/30  8:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "神奈川新聞",
       "category": "社説",
       "tier": "regional",
       "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
-      "error": null,
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
       "items": [
@@ -277,10 +317,17 @@
       "category": "論説",
       "tier": "regional",
       "index_url": "https://www.chibanippo.co.jp/serial",
-      "error": null,
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "飲酒運転根絶へ無関心なくせ　八街児童５人死傷輪禍４年　【論説】",
+          "link": "https://www.chibanippo.co.jp/articles/1462350",
+          "published": "6/30 5:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "新潟日報",
@@ -290,7 +337,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "皇室典範改正案　「国民の総意」へ熟議必要",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/858595",
+          "published": "6/30",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "北日本新聞",
@@ -300,7 +354,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "社説がん対策基本法２０年／患者の尊厳守る支援を",
+          "link": "https://webun.jp/articles/-/1047025",
+          "published": "2026.06.30",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "北國新聞",
@@ -310,7 +371,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "社説【「輪島塗」特別展】美術館の復興支援に期待",
+          "link": "https://www.hokkoku.co.jp/articles/-/2154360",
+          "published": "6/30",
+          "paid": true
+        },
+        {
+          "title": "社説【定数削減法案】審議拒否は理解得られぬ",
+          "link": "https://www.hokkoku.co.jp/articles/-/2154359",
+          "published": "6/30",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "福井新聞",
@@ -320,7 +394,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "植物学者の平瀬と白井　偉業生んだ福井の教育力",
+          "link": "https://www.fukuishimbun.co.jp/articles/-/2639044",
+          "published": "（2026年6月30日 午前7時30分）",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "山梨日日新聞",
@@ -360,7 +441,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "大川原冤罪事件",
+          "link": "https://www.gifu-np.co.jp/articles/-/731860",
+          "published": "2026年6月30日 05:00岐阜",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "奈良新聞",
@@ -400,7 +488,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "論説　大川原冤罪と人質司法　裁判官は詳細に証言を",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/1032395",
+          "published": "2026/6/30 04:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "徳島新聞",
@@ -410,7 +505,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "【社説】法務・検察の体質　自分たちに甘過ぎないか",
+          "link": "https://www.topics.or.jp/articles/-/1455108",
+          "published": "2026/6/30 5:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "愛媛新聞",
@@ -430,7 +532,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "【消費税減税】疑問は払拭されていない",
+          "link": "https://www.kochinews.co.jp/article/detail/1020261",
+          "published": "2026.06.30 05:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "日本海新聞",
@@ -514,7 +623,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "［社説］宮森小墜落事故67年　戦争の影　今もなお深く",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1869902",
+          "published": "2026年6月30日",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "琉球新報",
@@ -524,7 +640,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "＜社説＞宮森小墜落事故から67年　「危険な空」今も変わらず",
+          "link": "https://ryukyushimpo.jp/editorial/entry-5351341.html",
+          "published": "2026/06/30",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "佐賀新聞",

@@ -23,6 +23,249 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "中国主導の国際調停院　「法の支配」を守れるのか",
+          "link": "https://mainichi.jp/articles/20250705/ddm/005/070/092000c",
+          "published": "2025/7/5 02:00",
+          "paid": false
+        },
+        {
+          "title": "海外先住民の遺骨返還　国は尊厳回復促す努力を",
+          "link": "https://mainichi.jp/articles/20250705/ddm/005/070/090000c",
+          "published": "2025/7/5 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］分断と財政悪化に拍車をかける米減税法",
+          "link": "https://www.nikkei.com/article/DGXZQODK051PB0V00C25A7000000/",
+          "published": "2025年7月5日",
+          "paid": false
+        },
+        {
+          "title": "［社説］ウクライナ停戦を諦めるな",
+          "link": "https://www.nikkei.com/article/DGXZQODK0353B0T00C25A7000000/",
+          "published": "2025年7月5日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【２０２５参院選　県版政策】地方創生の議論を（７月５日）",
+          "link": "https://www.minpo.jp/articles/-/53685",
+          "published": "2025/07/05 09:21",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【訪問介護経営難】中山間地を見捨てるな",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1145317",
+          "published": "2025/7/5",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "外国籍学生らに奨学金　対象拡大へ見直し必要",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1187147.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年7月5日(土)  10:50",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "地方振興　活力取り戻す道筋議論を",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/642845",
+          "published": "2025/7/5",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【２５参院選】物価高対策／将来のツケも見極めて",
+          "link": "https://webun.jp/articles/-/836662",
+          "published": "2025.07.05",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "参院選・消費税",
+          "link": "https://www.gifu-np.co.jp/articles/-/564370",
+          "published": "2025年7月5日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　参院選とＳＮＳ　情報見極める力が必要",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/813513",
+          "published": "2025/7/5 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】25参院選　物価高対策　将来の安心も示すべきだ",
+          "link": "https://www.topics.or.jp/articles/-/1267000",
+          "published": "2025/7/5 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【２０２５参院選　給付か減税か】効果と財源を見極めたい",
+          "link": "https://www.kochinews.co.jp/article/detail/883759",
+          "published": "2025.07.05 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］［２０２５　参院選］政権選択選挙　どうなる新たな枠組み",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1620292",
+          "published": "2025年7月5日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞中学生麻薬所持で逮捕　抜本的なＳＮＳ対策急げ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4412843.html",
+          "published": "2025/07/05",
+          "paid": false
+        }
+      ]
     }
   ]
 }

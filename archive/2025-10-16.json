@@ -23,6 +23,272 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "政権枠組みの協議　何を実現するのか明確に",
+          "link": "https://mainichi.jp/articles/20251016/ddm/005/070/098000c",
+          "published": "2025/10/16 02:02",
+          "paid": false
+        },
+        {
+          "title": "失効迫る「新START」　核の脅威高めてはならぬ",
+          "link": "https://mainichi.jp/articles/20251016/ddm/005/070/097000c",
+          "published": "2025/10/16 02:02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］与野党は数合わせでなく政策で連携探れ",
+          "link": "https://www.nikkei.com/article/DGXZQODK165260W5A011C2000000/",
+          "published": "2025年10月16日",
+          "paid": false
+        },
+        {
+          "title": "［社説］コンビニは客離れ防ぐ創意を",
+          "link": "https://www.nikkei.com/article/DGXZQODK166PM0W5A011C2000000/",
+          "published": "2025年10月16日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【広野火発跡地利用】地域振興の視点で（１０月１６日）",
+          "link": "https://www.minpo.jp/articles/-/52076",
+          "published": "2025/10/16 09:09",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【クマ出没注意】人の生活圏から引き離せ",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1211007",
+          "published": "2025/10/16",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "相次ぐ危険な台風　教訓つなぎ命を守ろう",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1215859.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年10月16日(木)  09:40",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "日本の教員労働　授業に専念できる環境を",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/709640",
+          "published": "2025/10/16",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説ガザ停戦／恒久和平の実現目指せ",
+          "link": "https://webun.jp/articles/-/902008",
+          "published": "2025.10.16",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【白山麓の食ＰＲ】訪日客のジオ誘致にも",
+          "link": "https://www.hokkoku.co.jp/articles/-/1898878",
+          "published": "10/16",
+          "paid": true
+        },
+        {
+          "title": "社説【万博の成果】地域づくりに還元したい",
+          "link": "https://www.hokkoku.co.jp/articles/-/1898877",
+          "published": "10/16",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "野党党首会談",
+          "link": "https://www.gifu-np.co.jp/articles/-/612582",
+          "published": "2025年10月16日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　政権構想の具体化図れ　３野党党首会談",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/877733",
+          "published": "2025/10/16 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】サイバー攻撃　被害防止へ対策強めねば",
+          "link": "https://www.topics.or.jp/articles/-/1321364",
+          "published": "2025/10/16 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【ノーベル平和賞】民主化訴え圧政に抵抗",
+          "link": "https://www.kochinews.co.jp/article/detail/918361",
+          "published": "2025.10.16 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］リチウム電池で火災　官民で危険性の周知を",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1692367",
+          "published": "2025年10月16日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞沖尚に県民栄誉賞　偉業の価値分かち合おう",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4696816.html",
+          "published": "2025/10/16",
+          "paid": false
+        }
+      ]
     }
   ]
 }

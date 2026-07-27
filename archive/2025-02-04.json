@@ -23,6 +23,208 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "トランプ2．0　「非核化」の提案　米国の行動が求められる",
+          "link": "https://mainichi.jp/articles/20250204/ddm/005/070/061000c",
+          "published": "2025/2/4 02:01",
+          "paid": false
+        },
+        {
+          "title": "政治とカネの首相答弁　不信解消する気あるのか",
+          "link": "https://mainichi.jp/articles/20250204/ddm/005/070/060000c",
+          "published": "2025/2/4 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］賃上げは年金生活者のためにも重要だ",
+          "link": "https://www.nikkei.com/article/DGXZQOCD285C00Y5A120C2000000/",
+          "published": "2025年2月4日",
+          "paid": false
+        },
+        {
+          "title": "［社説］社名が映す伝統企業の変身",
+          "link": "https://www.nikkei.com/article/DGXZQODK045MS0U5A200C2000000/",
+          "published": "2025年2月4日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【日銀追加利上げ】起業の機運高めて（２月４日）",
+          "link": "https://www.minpo.jp/articles/-/54535",
+          "published": "2025/02/04 09:31",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【あぜ道の野焼き】病害虫防除効果の検証を",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1049886",
+          "published": "2025/2/4",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "トランプ関税　貿易戦争を防がなければ",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/550257",
+          "published": "2025/2/4",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　トランプ関税　米中は冷静に対応を",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/723759",
+          "published": "2025/2/4 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】高校学区制撤廃へ　万全の準備で不安解消を",
+          "link": "https://www.topics.or.jp/articles/-/1191298",
+          "published": "2025/2/4 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【トランプ関税】報復の応酬を危惧する",
+          "link": "https://www.kochinews.co.jp/article/detail/826579",
+          "published": "2025.02.04 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］トランプ関税　自由貿易の秩序を守れ",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1519763",
+          "published": "2025年2月4日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞「政治とカネ」大詰め　裏金問題の解明が先だ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-3927809.html",
+          "published": "2025/02/04",
+          "paid": false
+        }
+      ]
     }
   ]
 }

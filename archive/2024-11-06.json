@@ -23,6 +23,219 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "小中不登校が過去最多　対策に子どもの声反映を",
+          "link": "https://mainichi.jp/articles/20241106/ddm/005/070/070000c",
+          "published": "2024/11/6 02:01",
+          "paid": false
+        },
+        {
+          "title": "女性差別で国連委勧告　根絶に動くのが国の責任",
+          "link": "https://mainichi.jp/articles/20241106/ddm/005/070/073000c",
+          "published": "2024/11/6 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］トランプ次期米大統領は世界の安定脅かすな",
+          "link": "https://www.nikkei.com/article/DGXZQODK06A4L0W4A101C2000000/",
+          "published": "2024年11月6日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【ユースエール最多】若者定着へ裾野広げて（１１月６日）",
+          "link": "https://www.minpo.jp/articles/-/54880",
+          "published": "2024/11/06 09:15",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【スポーツ軸に地域振興】「健康」目指しつながりを",
+          "link": "https://www.shimotsuke.co.jp/articles/-/995862",
+          "published": "2024/11/6",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "米大統領選　順調な投開票を期待する",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/504729",
+          "published": "2024/11/6",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "北朝鮮の派兵",
+          "link": "https://www.gifu-np.co.jp/articles/-/462617",
+          "published": "2024年11月6日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　北朝鮮のロシア派兵　侵略加担の蛮行許すな",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/675156",
+          "published": "2024/11/6 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】フリーランス新法　理不尽な扱いに歯止めを",
+          "link": "https://www.topics.or.jp/articles/-/1151399",
+          "published": "2024/11/6 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【夫婦別姓で勧告】今度こそ改善へ前進を",
+          "link": "https://www.kochinews.co.jp/article/detail/801668",
+          "published": "2024.11.06 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］無形文化遺産に泡盛　伝統守り　伝える機会に",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1466280",
+          "published": "2024年11月6日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞泡盛が文化遺産登録へ　海外発信の好機としたい",
+          "link": "https://ryukyushimpo.jp/editorial/entry-3620005.html",
+          "published": "2024/11/06",
+          "paid": false
+        }
+      ]
     }
   ]
 }

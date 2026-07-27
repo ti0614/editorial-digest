@@ -17,6 +17,185 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "衆院解散・総選挙へ　自民政治のゆがみ問う時",
+          "link": "https://mainichi.jp/articles/20241010/ddm/005/070/096000c",
+          "published": "2024/10/10 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］成功体験が災いしたインテル苦境の教訓",
+          "link": "https://www.nikkei.com/article/DGXZQODK1081S0Q4A011C2000000/",
+          "published": "2024年10月10日",
+          "paid": false
+        },
+        {
+          "title": "［社説］強制不妊の被害救済に全力を",
+          "link": "https://www.nikkei.com/article/DGXZQODK101BA0Q4A011C2000000/",
+          "published": "2024年10月10日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【衆院解散】短期決戦で何を訴える（１０月１０日）",
+          "link": "https://www.minpo.jp/articles/-/55179",
+          "published": "2024/10/10 09:42",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "衆院解散　政治への信頼が問われる",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/490160",
+          "published": "2024/10/10",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　衆院解散・総選挙へ　政権選択の政治決戦だ",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/660300",
+          "published": "2024/10/10 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】24衆院選　戦後最短の解散　目指す国のビジョン競え",
+          "link": "https://www.topics.or.jp/articles/-/1139198",
+          "published": "2024/10/10 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【衆院解散】政治不信とどう向き合う",
+          "link": "https://www.kochinews.co.jp/article/detail/793860",
+          "published": "2024.10.10 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］衆院解散　総選挙へ　基地負担軽減も争点だ",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1450059",
+          "published": "2024年10月10日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞１０・１０空襲から８０年　「国策犠牲」繰り返すまい",
+          "link": "https://ryukyushimpo.jp/editorial/entry-3539047.html",
+          "published": "2024/10/10",
+          "paid": false
+        }
+      ]
     }
   ]
 }

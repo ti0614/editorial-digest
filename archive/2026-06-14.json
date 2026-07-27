@@ -57,6 +57,211 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "H3の打ち上げ再開　信頼回復の一歩にせねば",
+          "link": "https://mainichi.jp/articles/20260614/ddm/005/070/107000c",
+          "published": "2026/6/14 02:01",
+          "paid": false
+        },
+        {
+          "title": "人材派遣カルテル疑い　賃上げへの便乗許されぬ",
+          "link": "https://mainichi.jp/articles/20260614/ddm/005/070/108000c",
+          "published": "2026/6/14 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "小田原市の学校再編　子ども中心に最善策を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1280323.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2026年6月14日(日)  10:10",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "命守る避難行動、意識を　新防災気象情報スタート　【論説】",
+          "link": "https://www.chibanippo.co.jp/articles/1628391",
+          "published": "6/14 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "中傷動画と首相　納得のいく説明が必要だ",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/848719",
+          "published": "6/14",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説イオン駐車場開放／地域貢献の成功事例に",
+          "link": "https://webun.jp/articles/-/1037434",
+          "published": "2026.06.14",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【八村選手が凱旋】深まる一体感を地域の力に",
+          "link": "https://www.hokkoku.co.jp/articles/-/2138571",
+          "published": "6/14",
+          "paid": true
+        },
+        {
+          "title": "社説【能登にニホンジカ】生息域の拡大を止めねば",
+          "link": "https://www.hokkoku.co.jp/articles/-/2138570",
+          "published": "6/14",
+          "paid": true
+        },
+        {
+          "title": "社説【八村選手が凱旋】深まる一体感を富山の力に",
+          "link": "https://www.hokkoku.co.jp/articles/-/2138562",
+          "published": "6/14",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "労働規制見直し",
+          "link": "https://www.gifu-np.co.jp/articles/-/724052",
+          "published": "2026年6月14日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　Ｇ７サミット開幕へ　会議の現在地、再定義を",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/1022425",
+          "published": "2026/6/14 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【原発建て替え】依存の固定化につながる",
+          "link": "https://www.kochinews.co.jp/article/detail/1015183",
+          "published": "2026.06.14 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］PFAS立ち入り再申請　米軍は速やかに許可を",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1858731",
+          "published": "2026年6月14日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞PFAS調査再申請　今度こそ立ち入り決定を",
+          "link": "https://ryukyushimpo.jp/editorial/entry-5311117.html",
+          "published": "2026/06/14",
+          "paid": false
+        }
+      ]
     }
   ]
 }

@@ -23,6 +23,225 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "トランプ2．0　「ガザ所有」発言　尊厳を踏みにじる傲慢さ",
+          "link": "https://mainichi.jp/articles/20250207/ddm/005/070/103000c",
+          "published": "2025/2/7 02:01",
+          "paid": false
+        },
+        {
+          "title": "国連女性委に拠出拒否　日本外交への信頼損ねる",
+          "link": "https://mainichi.jp/articles/20250207/ddm/005/070/100000c",
+          "published": "2025/2/7 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］遅すぎたSBI新生銀の公的資金完済",
+          "link": "https://www.nikkei.com/article/DGXZQODK317SZ0R30C25A1000000/",
+          "published": "2025年2月7日",
+          "paid": false
+        },
+        {
+          "title": "［社説］ホール不足解消は民の力で",
+          "link": "https://www.nikkei.com/article/DGXZQODK074Z40X00C25A2000000/",
+          "published": "2025年2月7日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【国の予算打ち切り】責任の風化許されない（２月７日）",
+          "link": "https://www.minpo.jp/articles/-/54522",
+          "published": "2025/02/07 09:25",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【死亡事故多発】交通ルール順守の徹底を",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1051783",
+          "published": "2025/2/7",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "「ガザ所有」発言　住民の存在無視した暴論",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/552033",
+          "published": "2025/2/7",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "ホンダ・日産",
+          "link": "https://www.gifu-np.co.jp/articles/-/499291",
+          "published": "2025年2月7日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　ホンダ・日産　生き残り策を描けるか",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/725544",
+          "published": "2025/2/7 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】日米首脳会談　信頼関係築き同盟深化を",
+          "link": "https://www.topics.or.jp/articles/-/1192801",
+          "published": "2025/2/7 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【ホンダ・日産】統合破談で増す不透明感",
+          "link": "https://www.kochinews.co.jp/article/detail/830515",
+          "published": "2025.02.07 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］米大統領「ガザ所有」発言　国際法に違反する暴論",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1521786",
+          "published": "2025年2月7日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞25年度県予算案　県民生活の安定が第一だ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-3938873.html",
+          "published": "2025/02/07",
+          "paid": false
+        }
+      ]
     }
   ]
 }

@@ -23,6 +23,289 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "米大統領のイラン演説　無責任極まる「勝利宣言」",
+          "link": "https://mainichi.jp/articles/20260403/ddm/005/070/079000c",
+          "published": "2026/4/3 02:00",
+          "paid": false
+        },
+        {
+          "title": "中国大使館への侵入　政権の危機意識が足りぬ",
+          "link": "https://mainichi.jp/articles/20260403/ddm/005/070/078000c",
+          "published": "2026/4/3 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］不安定な世界で重み増す日仏協力深めよ",
+          "link": "https://www.nikkei.com/article/DGXZQODK036M50T00C26A4000000/",
+          "published": "4月3日",
+          "paid": false
+        },
+        {
+          "title": "［社説］活躍阻む土壌残る均等法40年",
+          "link": "https://www.nikkei.com/article/DGXZQODK0213W0S6A400C2000000/",
+          "published": "4月3日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【会津高普通科改編】「学際」で新たな魅力を（４月３日）",
+          "link": "https://www.minpo.jp/articles/-/98630",
+          "published": "2026/04/03 12:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【建築物の消防審査ミス】信頼回復へ体制強化を",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1320082",
+          "published": "4/3  8:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "在日米軍の中東派遣　事前協議求め拒否示せ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1261601.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2026年4月3日(金)  09:40",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "トランプ氏演説　身勝手過ぎる勝利宣言だ",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/808243",
+          "published": "4/3",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説ロケット開発／停滞状況を打破したい",
+          "link": "https://webun.jp/articles/-/997182",
+          "published": "2026.04.03",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【国旗損壊罪】尊厳傷つけ、看過できぬ",
+          "link": "https://www.hokkoku.co.jp/articles/-/2065888",
+          "published": "4/3",
+          "paid": true
+        },
+        {
+          "title": "社説【特殊詐欺の国際化】国またいだ捜査を強力に",
+          "link": "https://www.hokkoku.co.jp/articles/-/2065887",
+          "published": "4/3",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "トランプ氏演説",
+          "link": "https://www.gifu-np.co.jp/articles/-/689239",
+          "published": "2026年4月3日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　米大統領のイラン演説　攻撃激化は許されない",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/979395",
+          "published": "2026/4/3 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】長射程弾配備　周辺住民の不安解消を",
+          "link": "https://www.topics.or.jp/articles/-/1409780",
+          "published": "2026/4/3 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【米大統領演説】停戦合意を威圧で迫る愚",
+          "link": "https://www.kochinews.co.jp/article/detail/987862",
+          "published": "2026.04.03 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "宮崎日日新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.the-miyanichi.co.jp/column/syasetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "離婚後共同親権",
+          "link": "https://www.the-miyanichi.co.jp/column/syasetsu/677540.html",
+          "published": "2026.04.03｜社説",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］トランプ氏のイラン演説　破壊と殺害　繰り返すな",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1809283",
+          "published": "2026年4月3日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞重なる値上げ　国民生活守る抜本対策を",
+          "link": "https://ryukyushimpo.jp/editorial/entry-5167220.html",
+          "published": "2026/04/03",
+          "paid": false
+        }
+      ]
     }
   ]
 }

@@ -17,6 +17,262 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "維新の副首都構想　「大阪都」実現が目的では",
+          "link": "https://mainichi.jp/articles/20251021/ddm/005/070/121000c",
+          "published": "2025/10/21 02:03",
+          "paid": false
+        },
+        {
+          "title": "ドローンの領空侵犯　新たな脅威に備えるEU",
+          "link": "https://mainichi.jp/articles/20251021/ddm/005/070/120000c",
+          "published": "2025/10/21 02:03",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］高市早苗政権は政策進め難局打開せよ",
+          "link": "https://www.nikkei.com/article/DGXZQODK2116I0R21C25A0000000/",
+          "published": "2025年10月21日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【国会議員定数削減】拙速すぎる（１０月２１日）",
+          "link": "https://www.minpo.jp/articles/-/51994",
+          "published": "2025/10/21 09:11",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "小田原市の不祥事　第三者交え再発防止を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1217091.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年10月21日(火)  09:40",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "循環型社会へ、まず実践　３Ｒ推進と食品ロス削減　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1291476",
+          "published": "10/21 5:00",
+          "paid": true
+        },
+        {
+          "title": "楽しく運動できる工夫を　子どもの体力低下　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1291474",
+          "published": "10/21 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "自維が連立合意　新たな政策実行できるか",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/712480",
+          "published": "2025/10/21",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説閣外協力で自維連立／安定政権を築けるのか",
+          "link": "https://webun.jp/articles/-/904713",
+          "published": "2025.10.21",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【能登の雇調金終了】在籍型出向の推進に力を",
+          "link": "https://www.hokkoku.co.jp/articles/-/1903557",
+          "published": "10/21",
+          "paid": true
+        },
+        {
+          "title": "社説【自維が連立合意】大阪での成果を国政にも",
+          "link": "https://www.hokkoku.co.jp/articles/-/1903556",
+          "published": "10/21",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "自維が政権合意",
+          "link": "https://www.gifu-np.co.jp/articles/-/614406",
+          "published": "2025年10月21日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　自維が政権合意　「連立ありき」が拭えぬ",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/880547",
+          "published": "2025/10/21 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】文化功労者に竹宮惠子氏(徳島市出身)　「漫画で革命」成し遂げた",
+          "link": "https://www.topics.or.jp/articles/-/1323858",
+          "published": "2025/10/21 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【リチウム電池】発火防ぐ対策の強化を",
+          "link": "https://www.kochinews.co.jp/article/detail/919864",
+          "published": "2025.10.21 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］「１０・２１」県民大会３０年　今に続く「人権」の視点",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1695509",
+          "published": "2025年10月21日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞県民大会から30年　世代超え民意再び示そう",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4708038.html",
+          "published": "2025/10/21",
+          "paid": false
+        }
+      ]
     }
   ]
 }

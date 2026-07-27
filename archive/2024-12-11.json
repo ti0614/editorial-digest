@@ -23,6 +23,225 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "政策活動費の廃止　自民案では抜け穴塞げぬ",
+          "link": "https://mainichi.jp/articles/20241211/ddm/005/070/041000c",
+          "published": "2024/12/11 02:02",
+          "paid": false
+        },
+        {
+          "title": "尹大統領の弾劾不成立　混乱の長期化を懸念する",
+          "link": "https://mainichi.jp/articles/20241211/ddm/005/070/040000c",
+          "published": "2024/12/11 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］米TikTok規制が問う安保リスク",
+          "link": "https://www.nikkei.com/article/DGXZQODK117BW0R11C24A2000000/",
+          "published": "2024年12月11日",
+          "paid": false
+        },
+        {
+          "title": "［社説］平和賞を機に核廃絶に弾みを",
+          "link": "https://www.nikkei.com/article/DGXZQODK114SF0R11C24A2000000/",
+          "published": "2024年12月11日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【生活賃金】所得議論の新たな軸に（１２月１１日）",
+          "link": "https://www.minpo.jp/articles/-/54732",
+          "published": "2024/12/11 09:25",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【小山駅の空き空間利用】にぎわい創出へ常設店を",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1017131",
+          "published": "2024/12/11",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "被団協平和賞演説　核廃絶の願い世界に届け",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/523874",
+          "published": "2024/12/11",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "平和賞授賞式",
+          "link": "https://www.gifu-np.co.jp/articles/-/477726",
+          "published": "2024年12月11日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　ノーベル平和賞授賞式　核兵器使用　許されない",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/694779",
+          "published": "2024/12/11 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】シリア政権崩壊　国際協調で混乱の収拾を",
+          "link": "https://www.topics.or.jp/articles/-/1167646",
+          "published": "2024/12/11 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【韓国政治の混乱】国民の反発と向き合え",
+          "link": "https://www.kochinews.co.jp/article/detail/812793",
+          "published": "2024.12.11 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］被団協ノーベル平和賞演説　「核のタブー」を今こそ",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1488079",
+          "published": "2024年12月11日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞政治資金規正法再改正　企業献金禁止議論尽くせ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-3745489.html",
+          "published": "2024/12/11",
+          "paid": false
+        }
+      ]
     }
   ]
 }

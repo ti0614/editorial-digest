@@ -23,6 +23,219 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "トランプ氏再選　二つの戦争と米国　「取引外交」に宿る危うさ",
+          "link": "https://mainichi.jp/articles/20241108/ddm/005/070/094000c",
+          "published": "2024/11/8 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］｢米国第一｣の経済政策に危うさが目立つ",
+          "link": "https://www.nikkei.com/article/DGXZQODK088LM0Y4A101C2000000/",
+          "published": "2024年11月8日",
+          "paid": false
+        },
+        {
+          "title": "［社説］中国越境ECの順法確認急げ",
+          "link": "https://www.nikkei.com/article/DGXZQODK067TK0W4A101C2000000/",
+          "published": "2024年11月8日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【デブリ初回収】一層の技術力向上を（１１月８日）",
+          "link": "https://www.minpo.jp/articles/-/54872",
+          "published": "2024/11/08 09:27",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【自転車罰則強化】利用者は法令順守徹底を",
+          "link": "https://www.shimotsuke.co.jp/articles/-/997154",
+          "published": "2024/11/8",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "「酒造り」無形遺産　新潟清酒の魅力を世界へ",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/506002",
+          "published": "2024/11/8",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "新たな日米関係",
+          "link": "https://www.gifu-np.co.jp/articles/-/463525",
+          "published": "2024年11月8日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　トランプ氏と日米関係　秩序維持のかじ取りを",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/676344",
+          "published": "2024/11/8 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】H3打ち上げ成功　実績重ね存在感高めよ",
+          "link": "https://www.topics.or.jp/articles/-/1152412",
+          "published": "2024/11/8 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【少数与党の政権】政治改革速やかに着手を",
+          "link": "https://www.kochinews.co.jp/article/detail/802198",
+          "published": "2024.11.08 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］南城市長書類送検　自ら進退決断すべき時",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1467537",
+          "published": "2024年11月8日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞米兵被疑者を基地移送　県警は直ちに身柄請求を",
+          "link": "https://ryukyushimpo.jp/editorial/entry-3626984.html",
+          "published": "2024/11/08",
+          "paid": false
+        }
+      ]
     }
   ]
 }

@@ -23,6 +23,249 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "欧米のウクライナ支援　停戦へ対露圧力で結束を",
+          "link": "https://mainichi.jp/articles/20250729/ddm/005/070/112000c",
+          "published": "2025/7/29 02:01",
+          "paid": false
+        },
+        {
+          "title": "欧州のPFAS規制　リスクへの感度高めたい",
+          "link": "https://mainichi.jp/articles/20250729/ddm/005/070/111000c",
+          "published": "2025/7/29 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］世界先端に挑むラピダス半導体の課題",
+          "link": "https://www.nikkei.com/article/DGXZQODK298CK0Z20C25A7000000/",
+          "published": "2025年7月29日",
+          "paid": false
+        },
+        {
+          "title": "［社説］NASAの大量離職が心配だ",
+          "link": "https://www.nikkei.com/article/DGXZQODK294Y00Z20C25A7000000/",
+          "published": "2025年7月29日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【被災地の住宅整備】国は柔軟な後押しを（７月２９日）",
+          "link": "https://www.minpo.jp/articles/-/53416",
+          "published": "2025/07/29 09:15",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【とちあいか品質】食味向上へ技術底上げを",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1160684",
+          "published": "2025/7/29",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "参政党の会見排除　言論の抑圧を許さない",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1194135.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年7月29日(火)  10:10",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "「核の脅し」　被爆国の願いとは程遠い",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/659323",
+          "published": "2025/7/29",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説私大入学金“二重払い”／不合理な負担解消せよ",
+          "link": "https://webun.jp/articles/-/852359",
+          "published": "2025.07.29",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "自民両院懇談会",
+          "link": "https://www.gifu-np.co.jp/articles/-/575900",
+          "published": "2025年7月29日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　自民両院懇談会　党改革の在り方議論を",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/829039",
+          "published": "2025/7/29 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】3年ぶり死刑執行　立ち止まって議論深めよ",
+          "link": "https://www.topics.or.jp/articles/-/1279390",
+          "published": "2025/7/29 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【タイ・カンボジア】停戦を確実に履行せよ",
+          "link": "https://www.kochinews.co.jp/article/detail/891991",
+          "published": "2025.07.29 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］自民両院懇談会　敗北は党全体の責任だ",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1637550",
+          "published": "2025年7月29日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞日米核使用想定指針　「脅し」の応酬は戦争招く",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4488966.html",
+          "published": "2025/07/29",
+          "paid": false
+        }
+      ]
     }
   ]
 }

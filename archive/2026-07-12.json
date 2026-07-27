@@ -32,7 +32,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "はやぶさ2小惑星観測　挑戦重ねた技術の成果だ",
+          "link": "https://mainichi.jp/articles/20260712/ddm/005/070/117000c",
+          "published": "2026/7/12 02:00",
+          "paid": false
+        },
+        {
+          "title": "欧州の熱波と気候変動　脱炭素の流れ取り戻す時",
+          "link": "https://mainichi.jp/articles/20260712/ddm/005/070/116000c",
+          "published": "2026/7/12 02:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "読売新聞",
@@ -230,7 +243,7 @@
       "category": "社説",
       "tier": "regional",
       "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
-      "error": null,
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
       "items": [
@@ -277,7 +290,7 @@
       "category": "論説",
       "tier": "regional",
       "index_url": "https://www.chibanippo.co.jp/serial",
-      "error": null,
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
       "items": [
@@ -331,7 +344,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "社説【副業トラブル】高額報酬の詐欺に警戒を",
+          "link": "https://www.hokkoku.co.jp/articles/-/2167158",
+          "published": "7/12",
+          "paid": true
+        },
+        {
+          "title": "社説【ポケモン空港開業】能登復興導くエンジンに",
+          "link": "https://www.hokkoku.co.jp/articles/-/2167157",
+          "published": "7/12",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "福井新聞",

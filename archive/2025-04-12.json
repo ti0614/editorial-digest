@@ -23,6 +23,232 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "ETCの大規模障害　「動脈」守る意識が足りぬ",
+          "link": "https://mainichi.jp/articles/20250412/ddm/005/070/080000c",
+          "published": "2025/4/12 02:00",
+          "paid": false
+        },
+        {
+          "title": "大阪・関西万博開幕へ　共存の意味考える機会に",
+          "link": "https://mainichi.jp/articles/20250412/ddm/005/070/079000c",
+          "published": "2025/4/12 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］才能が交わり人材を育む大阪万博に",
+          "link": "https://www.nikkei.com/article/DGXZQODK11B9H0R10C25A4000000/",
+          "published": "2025年4月12日",
+          "paid": false
+        },
+        {
+          "title": "［社説］日鉄のUSスチール買収に公正な審査を",
+          "link": "https://www.nikkei.com/article/DGXZQOCD11C4L0R10C25A4000000/",
+          "published": "2025年4月12日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【大阪・関西万博】本県出展の存在感示せ（４月１２日）",
+          "link": "https://www.minpo.jp/articles/-/54191",
+          "published": "2025/04/12 09:45",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【外国人材受け入れ支援】長く働ける環境の整備を",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1091500",
+          "published": "2025/4/12",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "トランプ関税　各国と協調し翻意促せ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1163647.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年4月12日(土)  10:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "コメ価格高止まり　時代に合った農政が必要",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/590184",
+          "published": "2025/4/12",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "疲弊する児相職員",
+          "link": "https://www.gifu-np.co.jp/articles/-/526235",
+          "published": "2025年4月12日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　企業・団体献金　温存は改革と呼べない",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/762760",
+          "published": "2025/4/12 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】万博あす開幕　魅力の発信を工夫せねば",
+          "link": "https://www.topics.or.jp/articles/-/1223960",
+          "published": "2025/4/12 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【万博開幕へ】開催意義を問い続けたい",
+          "link": "https://www.kochinews.co.jp/article/detail/850145",
+          "published": "2025.04.12 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］与党に現金給付案　バラマキ批判は免れぬ",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1563177",
+          "published": "2025年4月12日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞日米合同パトロール　元凶絶ち性暴力事件防げ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4144793.html",
+          "published": "2025/04/12",
+          "paid": false
+        }
+      ]
     }
   ]
 }

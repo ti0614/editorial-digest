@@ -23,6 +23,232 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "予算案の修正協議　数合わせ一辺倒の無責任",
+          "link": "https://mainichi.jp/articles/20250228/ddm/005/070/087000c",
+          "published": "2025/2/28 02:02",
+          "paid": false
+        },
+        {
+          "title": "旧安倍派の裏金問題　元幹部の国会招致が必要",
+          "link": "https://mainichi.jp/articles/20250228/ddm/005/070/090000c",
+          "published": "2025/2/28 02:02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］アップル株主が支持した多様性を守れ",
+          "link": "https://www.nikkei.com/article/DGXZQODK26BHV0W5A220C2000000/",
+          "published": "2025年2月28日",
+          "paid": false
+        },
+        {
+          "title": "［社説］ふるさと納税で歪む国と地方",
+          "link": "https://www.nikkei.com/article/DGXZQODK2868M0Y5A220C2000000/",
+          "published": "2025年2月28日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【スキー場閉鎖方針】地方創生考える契機に（２月２８日）",
+          "link": "https://www.minpo.jp/articles/-/54442",
+          "published": "2025/02/28 09:28",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【ＪＦＡ会長全国巡回】サッカー 生涯スポーツに",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1063873",
+          "published": "2025/2/28",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "障害福祉の独法設立　具体的な説明欠かせぬ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1151644.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年2月28日(金)  10:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "ドイツ政権交代へ　基盤固め欧州安定へ力を",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/564467",
+          "published": "2025/2/28",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "維新県議処分",
+          "link": "https://www.gifu-np.co.jp/articles/-/507618",
+          "published": "2025年2月28日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　改正育児・介護休業法　変わる覚悟が問われる",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/736841",
+          "published": "2025/2/28 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】裏金参考人聴取　真相解明へ改めて調査を",
+          "link": "https://www.topics.or.jp/articles/-/1201946",
+          "published": "2025/2/28 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【国際詐欺拠点】各国は連携し全容解明を",
+          "link": "https://www.kochinews.co.jp/article/detail/836100",
+          "published": "2025.02.28 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］安倍派裏金再開で証言　幹部の証人喚問が必要",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1534537",
+          "published": "2025年2月28日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞石破首相米軍犯罪発言　基地被害の現実直視せよ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4006639.html",
+          "published": "2025/02/28",
+          "paid": false
+        }
+      ]
     }
   ]
 }

@@ -17,6 +17,285 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "高市首相の解散表明　独りよがりにしか見えぬ",
+          "link": "https://mainichi.jp/articles/20260120/ddm/005/070/099000c",
+          "published": "2026/1/20 02:00",
+          "paid": false
+        },
+        {
+          "title": "中道が安保法制「合憲」　方針転換の説明足りない",
+          "link": "https://mainichi.jp/articles/20260120/ddm/005/070/097000c",
+          "published": "2026/1/20 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］消費税減税ポピュリズムに未来は託せぬ",
+          "link": "https://www.nikkei.com/article/DGXZQODK199ZE0Z10C26A1000000/",
+          "published": "1月20日",
+          "paid": false
+        },
+        {
+          "title": "［社説］中国はデフレに早く手を打て",
+          "link": "https://www.nikkei.com/article/DGXZQODK201FY0Q6A120C2000000/",
+          "published": "1月20日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【衆院解散表明】選挙後見据え審判仰げ（１月２０日）",
+          "link": "https://www.minpo.jp/articles/-/50166",
+          "published": "2026/01/20 09:19",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "衆院解散表明　「国民のため」はどこへ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1241025.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2026年1月20日(火)  09:30",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "年明け急増、厳重警戒を　千葉県内鳥インフルエンザ猛威　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1382805",
+          "published": "1/20 5:00",
+          "paid": true
+        },
+        {
+          "title": "不安払拭へ対策迅速に　Ｘ不適切投稿、千葉大病院が調査　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1382804",
+          "published": "1/20 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "首相が解散表明　自分のために信問うのか",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/764861",
+          "published": "1/20",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説首相、衆院解散表明／大義は十分示されたか",
+          "link": "https://webun.jp/articles/-/955903",
+          "published": "2026.01.20",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【「中道」基本政策】原発、安保法制支持は当然",
+          "link": "https://www.hokkoku.co.jp/articles/-/1991563",
+          "published": "1/20",
+          "paid": true
+        },
+        {
+          "title": "社説【公費解体完了】家屋生かす道も広げたい",
+          "link": "https://www.hokkoku.co.jp/articles/-/1991562",
+          "published": "1/20",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "首相解散表明",
+          "link": "https://www.gifu-np.co.jp/articles/-/655779",
+          "published": "2026年1月20日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　首相解散表明　生活より政権運営優先",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/934124",
+          "published": "2026/1/20 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】首相が解散表明　「なぜ今か」疑問拭えぬ",
+          "link": "https://www.topics.or.jp/articles/-/1371781",
+          "published": "2026/1/20 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【衆院解散表明】「なぜ今」の疑問晴れず",
+          "link": "https://www.kochinews.co.jp/article/detail/952129",
+          "published": "2026.01.20 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "宮崎日日新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.the-miyanichi.co.jp/column/syasetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "保護司制度の課題",
+          "link": "https://www.the-miyanichi.co.jp/column/syasetsu/506843.html",
+          "published": "2026.01.20｜社説",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］高市首相　冒頭解散表明　大義欠く解散権の乱用",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1757437",
+          "published": "2026年1月20日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞高市首相が解散表明　「解散権乱用」批判免れぬ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4971069.html",
+          "published": "2026/01/20",
+          "paid": false
+        }
+      ]
     }
   ]
 }

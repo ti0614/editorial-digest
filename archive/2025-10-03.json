@@ -17,6 +17,272 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "「ホームタウン」撤回　国際交流の萎縮懸念する",
+          "link": "https://mainichi.jp/articles/20251003/ddm/005/070/104000c",
+          "published": "2025/10/3 02:00",
+          "paid": false
+        },
+        {
+          "title": "出向先情報の不正取得　目に余る日生の法令軽視",
+          "link": "https://mainichi.jp/articles/20251003/ddm/005/070/103000c",
+          "published": "2025/10/3 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］スピンオフの活用で機動的な事業再編を",
+          "link": "https://www.nikkei.com/article/DGXZQOCD037XH0T01C25A0000000/",
+          "published": "2025年10月3日",
+          "paid": false
+        },
+        {
+          "title": "［社説］日韓は首脳往来を定着させよ",
+          "link": "https://www.nikkei.com/article/DGXZQODK032E80T01C25A0000000/",
+          "published": "2025年10月3日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【生活工芸・手仕事】伝統の技をつないで（１０月３日）",
+          "link": "https://www.minpo.jp/articles/-/52433",
+          "published": "2025/10/03 09:26",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【栃木国際映画祭】地域活性化へ定着を期待",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1202876",
+          "published": "2025/10/3",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "あす自民総裁選　「出直し」の原点直視を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1212230.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年10月3日(金)  09:30",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "国勢調査　政策立案に不可欠な資料",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/701573",
+          "published": "2025/10/3",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説１０月も台風厳戒／常識は当てはまらない",
+          "link": "https://webun.jp/articles/-/894377",
+          "published": "2025.10.03",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【宿泊旅行統計】実態と違えば信頼損ねる",
+          "link": "https://www.hokkoku.co.jp/articles/-/1885819",
+          "published": "10/3",
+          "paid": true
+        },
+        {
+          "title": "社説【ウクライナ支援】ロシアの資金源断ちたい",
+          "link": "https://www.hokkoku.co.jp/articles/-/1885818",
+          "published": "10/3",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "総裁選・外国人政策",
+          "link": "https://www.gifu-np.co.jp/articles/-/607168",
+          "published": "2025年10月3日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　分断あおらず、共生競え　総裁選－外国人政策",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/869798",
+          "published": "2025/10/3 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】イラン制裁再発動　核合意崩壊を憂慮する",
+          "link": "https://www.topics.or.jp/articles/-/1314591",
+          "published": "2025/10/3 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【ガザ和平計画】戦闘終結へ踏み出せ",
+          "link": "https://www.kochinews.co.jp/article/detail/914036",
+          "published": "2025.10.03 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］外観要件「違憲」　性別変更の法改正急げ",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1683450",
+          "published": "2025年10月3日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞自衛隊「差別」決議案　表現の自由　侵害許されぬ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4665994.html",
+          "published": "2025/10/03",
+          "paid": false
+        }
+      ]
     }
   ]
 }

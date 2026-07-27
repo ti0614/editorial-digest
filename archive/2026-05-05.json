@@ -51,6 +51,260 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "紛争地の子どもたち　未来守る取り組みが急務",
+          "link": "https://mainichi.jp/articles/20260505/ddm/005/070/086000c",
+          "published": "2026/5/5 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］インド太平洋安定へ強靱性高める連携に",
+          "link": "https://www.nikkei.com/article/DGXZQODK050QT0V00C26A5000000/",
+          "published": "5月5日",
+          "paid": false
+        },
+        {
+          "title": "［社説］子育ては社会全体の責任だ",
+          "link": "https://www.nikkei.com/article/DGXZQODK302CC0Q6A430C2000000/",
+          "published": "5月5日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【大ゴッホ展感想集】子供の未来へ投資を（５月５日）",
+          "link": "https://www.minpo.jp/articles/-/124958",
+          "published": "2026/05/05 11:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "活躍は民間、後進の手本に　県要職に女性就任　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1436887",
+          "published": "5/5 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "こどもの日　ＳＮＳにどう向き合うか",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/825573",
+          "published": "5/5",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説子どものスポーツ／勝ちたいのは誰なのか",
+          "link": "https://webun.jp/articles/-/1014821",
+          "published": "2026.05.05",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【こどもの日に】ＡＩ時代こそ自然と遊びを",
+          "link": "https://www.hokkoku.co.jp/articles/-/2097540",
+          "published": "5/5",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "水俣病確認７０年",
+          "link": "https://www.gifu-np.co.jp/articles/-/703357",
+          "published": "2026年5月5日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　未来をつくる子どもたちへ　道具に頼らず考えよう",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/998082",
+          "published": "2026/5/5 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】こどもの日　夢抱ける社会　残したい",
+          "link": "https://www.topics.or.jp/articles/-/1425610",
+          "published": "2026/5/5 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【こどもの日】ＳＮＳとの距離考えよう",
+          "link": "https://www.kochinews.co.jp/article/detail/1000172",
+          "published": "2026.05.05 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "宮崎日日新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.the-miyanichi.co.jp/column/syasetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "水俣病公式確認７０年",
+          "link": "https://www.the-miyanichi.co.jp/column/syasetsu/749765.html",
+          "published": "2026.05.05｜社説",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］こどもの日　五感使い自然楽しもう",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1830817",
+          "published": "2026年5月5日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞こどもの日　社会全体で支える機運を",
+          "link": "https://ryukyushimpo.jp/editorial/entry-5230071.html",
+          "published": "2026/05/05",
+          "paid": false
+        }
+      ]
     }
   ]
 }

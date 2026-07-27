@@ -23,6 +23,208 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "ロシアの核威嚇　戦争の拡大は許されない",
+          "link": "https://mainichi.jp/articles/20241123/ddm/005/070/098000c",
+          "published": "2024/11/23 02:01",
+          "paid": false
+        },
+        {
+          "title": "22兆円規模の経済対策　生活底上げにつながるか",
+          "link": "https://mainichi.jp/articles/20241123/ddm/005/070/096000c",
+          "published": "2024/11/23 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］Google「分割」で革新を加速できるか",
+          "link": "https://www.nikkei.com/article/DGXZQODK2312Y0T21C24A1000000/",
+          "published": "2024年11月23日",
+          "paid": false
+        },
+        {
+          "title": "［社説］ロシアと北朝鮮は戦闘を激化させるな",
+          "link": "https://www.nikkei.com/article/DGXZQODK2229W0S4A121C2000000/",
+          "published": "2024年11月23日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【政府の経済対策】「賢い支出」考えたい（１１月２３日）",
+          "link": "https://www.minpo.jp/articles/-/54795",
+          "published": "2024/11/23 09:16",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "ロの最新ミサイル　攻撃激化歯止めかけねば",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/514133",
+          "published": "2024/11/23",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "政府経済対策",
+          "link": "https://www.gifu-np.co.jp/articles/-/469953",
+          "published": "2024年11月23日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　大谷、３度目ＭＶＰ　常識外に挑んだ偉業",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/684682",
+          "published": "2024/11/23 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】徳島市長と市議会　対立の深まりを危惧する",
+          "link": "https://www.topics.or.jp/articles/-/1159377",
+          "published": "2024/11/23 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【国の経済対策】必要性や効果の精査を",
+          "link": "https://www.kochinews.co.jp/article/detail/807875",
+          "published": "2024.11.23 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］ウクライナ侵攻千日　戦争終結への道筋示せ",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1476910",
+          "published": "2024年11月23日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞防衛局中城湾港使用　県は管理者権限発揮せよ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-3675823.html",
+          "published": "2024/11/23",
+          "paid": false
+        }
+      ]
     }
   ]
 }

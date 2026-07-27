@@ -23,6 +23,289 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "立花党首を逮捕　社会ゆがめるデマと扇動",
+          "link": "https://mainichi.jp/articles/20251111/ddm/005/070/159000c",
+          "published": "2025/11/11 02:02",
+          "paid": false
+        },
+        {
+          "title": "存立危機事態と首相　答弁の重み自覚すべきだ",
+          "link": "https://mainichi.jp/articles/20251111/ddm/005/070/160000c",
+          "published": "2025/11/11 02:02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］立花党首逮捕をSNSの歪み正す契機に",
+          "link": "https://www.nikkei.com/article/DGXZQODK112EB0R11C25A1000000/",
+          "published": "2025年11月11日",
+          "paid": false
+        },
+        {
+          "title": "［社説］デジタルユーロの前進に学べ",
+          "link": "https://www.nikkei.com/article/DGXZQODK115YK0R11C25A1000000/",
+          "published": "2025年11月11日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【福島市長選】地域の未来へ一票を（１１月１１日）",
+          "link": "https://www.minpo.jp/articles/-/51557",
+          "published": "2025/11/11 09:08",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【とちまる健康ポイント】無関心層へ届ける努力を",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1227421",
+          "published": "2025/11/11",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "鳥インフルエンザ　感染防止へ監視の目を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1222922.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年11月11日(火)  09:40",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "鳥インフル　対策強化し感染抑えねば",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/725791",
+          "published": "2025/11/11",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説不登校最多３５万人／多様な学びを支えたい",
+          "link": "https://webun.jp/articles/-/917557",
+          "published": "2025.11.11",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【「存立危機事態」】武力行使伴えばあり得る",
+          "link": "https://www.hokkoku.co.jp/articles/-/1924964",
+          "published": "11/11",
+          "paid": true
+        },
+        {
+          "title": "社説【金沢の庭園文化】奥深い美の空間伝えたい",
+          "link": "https://www.hokkoku.co.jp/articles/-/1924963",
+          "published": "11/11",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "Ｎ党党首を逮捕",
+          "link": "https://www.gifu-np.co.jp/articles/-/623549",
+          "published": "2025年11月11日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　Ｎ党立花党首を逮捕　民主主義の基盤損ねた",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/893483",
+          "published": "2025/11/11 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】選挙と誤情報　民意をゆがめてしまう",
+          "link": "https://www.topics.or.jp/articles/-/1335540",
+          "published": "2025/11/11 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【財政健全化】目標後退を繰り返すのか",
+          "link": "https://www.kochinews.co.jp/article/detail/927984",
+          "published": "2025.11.11 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "宮崎日日新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.the-miyanichi.co.jp/column/syasetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "予算委論戦",
+          "link": "https://www.the-miyanichi.co.jp/column/syasetsu/356290.html",
+          "published": "2025.11.11｜社説",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］Ｎ党立花党首を逮捕　虚偽発信の責任免れぬ",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1710748",
+          "published": "2025年11月11日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞立花NHK党首逮捕　誹謗中傷拡大防ぐ議論も",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4760015.html",
+          "published": "2025/11/11",
+          "paid": false
+        }
+      ]
     }
   ]
 }

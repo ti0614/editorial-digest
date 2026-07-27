@@ -23,6 +23,232 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "ウクライナ停戦協議　米は仲介から逃げるのか",
+          "link": "https://mainichi.jp/articles/20250610/ddm/005/070/155000c",
+          "published": "2025/6/10 02:01",
+          "paid": false
+        },
+        {
+          "title": "東電元役員の賠償否定　不問にできぬ事故の責任",
+          "link": "https://mainichi.jp/articles/20250610/ddm/005/070/154000c",
+          "published": "2025/6/10 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］自公は税の増収分を選挙でばらまくな",
+          "link": "https://www.nikkei.com/article/DGXZQODK1092M0Q5A610C2000000/",
+          "published": "2025年6月10日",
+          "paid": false
+        },
+        {
+          "title": "［社説］食料待つガザ住民を守れ",
+          "link": "https://www.nikkei.com/article/DGXZQODK1058V0Q5A610C2000000/",
+          "published": "2025年6月10日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【東邦銀の内部格付】産業を生む原動力に（６月１０日）",
+          "link": "https://www.minpo.jp/articles/-/53853",
+          "published": "2025/06/10 09:08",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【介護テクノロジー】活用へきめ細かな支援を",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1128017",
+          "published": "2025/6/10",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "Ｍ＆Ａ最多　新領域に展開し成長を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1179373.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年6月10日(火)  09:44",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "拘禁刑導入　再犯防止へ着実な一歩に",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/623646",
+          "published": "2025/6/10",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "水産物の対中輸出",
+          "link": "https://www.gifu-np.co.jp/articles/-/551086",
+          "published": "2025年6月10日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　水産物対中輸出　再開時期を明示せよ",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/796631",
+          "published": "2025/6/10 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】日本郵便処分へ　徹底的な企業体質改善を",
+          "link": "https://www.topics.or.jp/articles/-/1253188",
+          "published": "2025/6/10 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【四国梅雨入り】大雨への備え再確認を",
+          "link": "https://www.kochinews.co.jp/article/detail/871064",
+          "published": "2025.06.10 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］不発弾爆発　作業中の事故一体なぜ",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1600783",
+          "published": "2025年6月10日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞不発弾保管庫で爆発　原因究明と再発防止急げ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4315531.html",
+          "published": "2025/06/10",
+          "paid": false
+        }
+      ]
     }
   ]
 }

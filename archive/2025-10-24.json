@@ -23,6 +23,266 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "高市新政権　揺らぐ秩序と外交　地域安定に資する戦略を",
+          "link": "https://mainichi.jp/articles/20251024/ddm/005/070/100000c",
+          "published": "2025/10/24 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］高市氏は成長と責任の両立へ手を尽くせ",
+          "link": "https://www.nikkei.com/article/DGXZQODK2428X0U5A021C2000000/",
+          "published": "2025年10月24日",
+          "paid": false
+        },
+        {
+          "title": "［社説］米民主主義を壊す政敵訴追",
+          "link": "https://www.nikkei.com/article/DGXZQODK2449Q0U5A021C2000000/",
+          "published": "2025年10月24日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【阿武隈川の治水】気候変動への対応急げ（１０月２４日）",
+          "link": "https://www.minpo.jp/articles/-/51932",
+          "published": "2025/10/24 09:12",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【上下水道値上げ】コスト削減に一層努めよ",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1216303",
+          "published": "2025/10/24",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "高市内閣への注文　経済　暮らし向き改善が急務",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1218176.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年10月24日(金)  09:30",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "裏金議員起用　政権の失速招きかねない",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/714806",
+          "published": "2025/10/24",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説娘への性的暴行に判決／被害訴えやすい社会に",
+          "link": "https://webun.jp/articles/-/906839",
+          "published": "2025.10.24",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【被災地の防災訓練】検証重ねて復興の礎に",
+          "link": "https://www.hokkoku.co.jp/articles/-/1907074",
+          "published": "10/24",
+          "paid": true
+        },
+        {
+          "title": "社説【衆院の定数削減】自維連立の真価が問われる",
+          "link": "https://www.hokkoku.co.jp/articles/-/1907073",
+          "published": "10/24",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "米中貿易摩擦",
+          "link": "https://www.gifu-np.co.jp/articles/-/615944",
+          "published": "2025年10月24日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　トランプ政権の言論抑圧　米国の自由を奪うのか",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/882751",
+          "published": "2025/10/24 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】国連創設80年　改革へ建設的な論議を",
+          "link": "https://www.topics.or.jp/articles/-/1325933",
+          "published": "2025/10/24 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【サイバー攻撃】中小企業も狙われている",
+          "link": "https://www.kochinews.co.jp/article/detail/921136",
+          "published": "2025.10.24 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］産業まつり　県産品の魅力体感して",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1698121",
+          "published": "2025年10月24日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞裏金7議員起用　真相解明へ徹底的に議論を",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4716858.html",
+          "published": "2025/10/24",
+          "paid": false
+        }
+      ]
     }
   ]
 }

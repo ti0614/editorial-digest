@@ -17,6 +17,249 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "宇宙防衛指針の策定　緊張高めぬ運用が不可欠",
+          "link": "https://mainichi.jp/articles/20250829/ddm/005/070/125000c",
+          "published": "2025/8/29 02:01",
+          "paid": false
+        },
+        {
+          "title": "日常化する酷暑　命と暮らし守る対策急務",
+          "link": "https://mainichi.jp/articles/20250829/ddm/005/070/124000c",
+          "published": "2025/8/29 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］インテルは米政府出資で再生できるのか",
+          "link": "https://www.nikkei.com/article/DGXZQODK297FH0Z20C25A8000000/",
+          "published": "2025年8月29日",
+          "paid": false
+        },
+        {
+          "title": "［社説］「政治とカネ」に反省が見えない",
+          "link": "https://www.nikkei.com/article/DGXZQODK292BU0Z20C25A8000000/",
+          "published": "2025年8月29日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【官民チーム１０年】「つなぐ」役目、徹底を（８月２９日）",
+          "link": "https://www.minpo.jp/articles/-/53254",
+          "published": "2025/08/29 09:13",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【民生委員協力員制度】理解広げ地域福祉充実を",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1180165",
+          "published": "2025/8/29",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "神奈川でも２８万人超　外国人住民増加、多様性認め合う社会を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1202603.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年8月29日(金)  10:20",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "ガザ「大量虐殺」　非道な攻撃即時にやめよ",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/678762",
+          "published": "2025/8/29",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説洋上風力に逆風／機運がしぼまぬように",
+          "link": "https://webun.jp/articles/-/870829",
+          "published": "2025.08.29",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "消費期限偽装",
+          "link": "https://www.gifu-np.co.jp/articles/-/590240",
+          "published": "2025年8月29日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　広がる宿泊税　使途を公表し透明化を",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/847994",
+          "published": "2025/8/29 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】処理水放出2年　汚染水を抑える対策急げ",
+          "link": "https://www.topics.or.jp/articles/-/1295959",
+          "published": "2025/8/29 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【除染土処分】理解の醸成が不可欠だ",
+          "link": "https://www.kochinews.co.jp/article/detail/902230",
+          "published": "2025.08.29 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］ＭＱ９無期限配備　約束違反重ねる不誠実",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1658727",
+          "published": "2025年8月29日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞維新石井氏強制捜査　不正の根を絶つ議論を",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4569318.html",
+          "published": "2025/08/29",
+          "paid": false
+        }
+      ]
     }
   ]
 }

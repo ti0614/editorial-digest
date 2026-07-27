@@ -322,7 +322,7 @@
       "category": "社説",
       "tier": "regional",
       "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
-      "error": null,
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
       "items": [
@@ -369,7 +369,7 @@
       "category": "論説",
       "tier": "regional",
       "index_url": "https://www.chibanippo.co.jp/serial",
-      "error": null,
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
       "items": []
@@ -416,7 +416,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "社説【学び直しの充実】柔軟な雇用環境の導入を",
+          "link": "https://www.hokkoku.co.jp/articles/-/2170936",
+          "published": "7/16",
+          "paid": true
+        },
+        {
+          "title": "社説【敦賀以西「桂川案」】京都の軟化を期待したい",
+          "link": "https://www.hokkoku.co.jp/articles/-/2170935",
+          "published": "7/16",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "福井新聞",

@@ -23,6 +23,285 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "金型無償保管に勧告　中小いじめの悪弊許せぬ",
+          "link": "https://mainichi.jp/articles/20251125/ddm/005/070/073000c",
+          "published": "2025/11/25 02:01",
+          "paid": false
+        },
+        {
+          "title": "老人ホームの規制強化　住まいの安心確保せねば",
+          "link": "https://mainichi.jp/articles/20251125/ddm/005/070/066000c",
+          "published": "2025/11/25 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］日米結束で中国の宣伝戦に冷静な対処を",
+          "link": "https://www.nikkei.com/article/DGXZQODK254PD0V21C25A1000000/",
+          "published": "2025年11月25日",
+          "paid": false
+        },
+        {
+          "title": "［社説］ガザ和平決議生かし次へ進め",
+          "link": "https://www.nikkei.com/article/DGXZQODK255TF0V21C25A1000000/",
+          "published": "2025年11月25日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【性犯罪被害者支援】一元化で迅速な救済を（１１月２５日）",
+          "link": "https://www.minpo.jp/articles/-/51238",
+          "published": "2025/11/25 09:08",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "おこめ券　高値防ぐ根本的対策を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1226671.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年11月25日(火)  09:50",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "選手が安心できる環境守れ　性的画像被害撲滅声明から４年　【論説】",
+          "link": "https://www.chibanippo.co.jp/news/national/1306192",
+          "published": "11/25 5:00",
+          "paid": true
+        },
+        {
+          "title": "歴史と音色、より有効活用を　君津の文化資産「松本ピアノ」　【論説】",
+          "link": "https://www.chibanippo.co.jp/news/local/1306191",
+          "published": "11/25 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "議員定数削減　地方意見の切り捨て懸念",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/734122",
+          "published": "2025/11/25",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説身近な鳥や虫激減／日常生活に影響大きい",
+          "link": "https://webun.jp/articles/-/925811",
+          "published": "2025.11.25",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【高専練習船の新造】海洋人材の掘り起こしを",
+          "link": "https://www.hokkoku.co.jp/articles/-/1939292",
+          "published": "11/25",
+          "paid": true
+        },
+        {
+          "title": "社説【不起訴理由の公表】刑事司法の信頼高める一歩",
+          "link": "https://www.hokkoku.co.jp/articles/-/1939291",
+          "published": "11/25",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "高市首相１カ月",
+          "link": "https://www.gifu-np.co.jp/articles/-/630996",
+          "published": "2025年11月25日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　政府の経済対策　財政への責任見えない",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/901865",
+          "published": "2025/11/25 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】鳴門市長　泉氏5選　衰退した地域に活気を",
+          "link": "https://www.topics.or.jp/articles/-/1343286",
+          "published": "2025/11/25 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【カスハラ防止】より具体的な判断材料を",
+          "link": "https://www.kochinews.co.jp/article/detail/932649",
+          "published": "2025.11.25 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "宮崎日日新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.the-miyanichi.co.jp/column/syasetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社会保障改革",
+          "link": "https://www.the-miyanichi.co.jp/column/syasetsu/389837.html",
+          "published": "2025.11.25｜社説",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］導水管破裂　広域断水か　命のインフラ　対策急げ",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1720462",
+          "published": "2025年11月25日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞導水管破裂で広域断水　水の安全　政府が責任持て",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4804658.html",
+          "published": "2025/11/25",
+          "paid": false
+        }
+      ]
     }
   ]
 }

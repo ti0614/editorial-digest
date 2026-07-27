@@ -17,6 +17,192 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "戦後80年　「資源小国」の未来　持続可能な社会へ行動を",
+          "link": "https://mainichi.jp/articles/20250323/ddm/005/070/083000c",
+          "published": "2025/3/23 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］中国は経済対話推進の意志を行動で示せ",
+          "link": "https://www.nikkei.com/article/DGXZQOCD1896O0Y5A310C2000000/",
+          "published": "2025年3月23日",
+          "paid": false
+        },
+        {
+          "title": "［社説］東電は再建の道筋描き直しを",
+          "link": "https://www.nikkei.com/article/DGXZQODK216C40R20C25A3000000/",
+          "published": "2025年3月23日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "大学の再編　存続の支援こそ必要だ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1157944.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年3月23日(日)  09:40",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "新幹線連結分離　原因究明し恒久対策図れ",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/578522",
+          "published": "2025/3/23",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "首相と商品券",
+          "link": "https://www.gifu-np.co.jp/articles/-/517683",
+          "published": "2025年3月23日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　兵庫知事の疑惑調査　自身の責任明確にせよ",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/750609",
+          "published": "2025/3/23 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】とくしまマラソン　春の阿波路楽しく走ろう",
+          "link": "https://www.topics.or.jp/articles/-/1213659",
+          "published": "2025/3/23 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【公益通報制度】告発者守られる見直しを",
+          "link": "https://www.kochinews.co.jp/article/detail/842976",
+          "published": "2025.03.23 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］企業・団体献金禁止　野党結束し改革を前へ",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1549554",
+          "published": "2025年3月23日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞沖縄戦80年　空襲・艦砲射撃開始　沖縄は「防波堤」にあらず",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4080460.html",
+          "published": "2025/03/23",
+          "paid": false
+        }
+      ]
     }
   ]
 }

@@ -23,6 +23,285 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "未回収増える国勢調査　政府は統計の意義説明を",
+          "link": "https://mainichi.jp/articles/20250930/ddm/005/070/071000c",
+          "published": "2025/9/30 02:01",
+          "paid": false
+        },
+        {
+          "title": "対イラン制裁の復活　中東の核ドミノ懸念する",
+          "link": "https://mainichi.jp/articles/20250930/ddm/005/070/072000c",
+          "published": "2025/9/30 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］外国人政策は実態把握し冷静な議論を",
+          "link": "https://www.nikkei.com/article/DGXZQODK252QD0V20C25A9000000/",
+          "published": "2025年9月30日",
+          "paid": false
+        },
+        {
+          "title": "［社説］経済同友会は結束と信頼回復急げ",
+          "link": "https://www.nikkei.com/article/DGXZQODK309V60Q5A930C2000000/",
+          "published": "2025年9月30日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【物価の番人】金融政策を解きほぐせ（９月３０日）",
+          "link": "https://www.minpo.jp/articles/-/52525",
+          "published": "2025/09/30 09:09",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【部活指導員バンク】多様な人材さらに発掘を",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1200604",
+          "published": "2025/9/30",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "生活保護減額「違法」　速やかに謝罪と補償を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1211304.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年9月30日(火)  10:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "活動自粛より徹底貢献を　千葉市議による請願偽造問題　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1281992",
+          "published": "9/30 5:00",
+          "paid": true
+        },
+        {
+          "title": "国民視点の活発論戦期待　自民総裁、立民代表決まる　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1281991",
+          "published": "9/30 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "大の里横綱初Ｖ　時代を築く大きな一歩だ",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/699185",
+          "published": "2025/9/30",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説デジタル教科書／紙の利点も取り入れて",
+          "link": "https://webun.jp/articles/-/891939",
+          "published": "2025.09.30",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【総裁選で投稿要請】会見開き、説明責任を",
+          "link": "https://www.hokkoku.co.jp/articles/-/1882248",
+          "published": "9/30",
+          "paid": true
+        },
+        {
+          "title": "社説【大の里が優勝】「大横綱」への確かな一歩",
+          "link": "https://www.hokkoku.co.jp/articles/-/1882247",
+          "published": "9/30",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "総裁選・社会保障",
+          "link": "https://www.gifu-np.co.jp/articles/-/605360",
+          "published": "2025年9月30日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　総裁選－社会保障　問題が見えているのか",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/867613",
+          "published": "2025/9/30 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】総裁選と外国人　共生を志向する論戦に",
+          "link": "https://www.topics.or.jp/articles/-/1312575",
+          "published": "2025/9/30 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【イラン制裁再開】交渉の行き詰まり打破を",
+          "link": "https://www.kochinews.co.jp/article/detail/912803",
+          "published": "2025.09.30 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］ホームタウン事業撤回　草の根の交流閉ざすな",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1680704",
+          "published": "2025年9月30日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞米軍単独パトロール　基地外の主権放棄するな",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4658042.html",
+          "published": "2025/09/30",
+          "paid": false
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,82 @@
+{
+  "date": "2025-08-12",
+  "sources": [
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］米新法を機にデジタル通貨の議論深めよ",
+          "link": "https://www.nikkei.com/article/DGXZQODK092890Z00C25A8000000/",
+          "published": "2025年8月12日",
+          "paid": false
+        },
+        {
+          "title": "［社説］空の安全確保へ不断の努力を",
+          "link": "https://www.nikkei.com/article/DGXZQOCD123NG0S5A810C2000000/",
+          "published": "2025年8月12日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】コメ増産へ転換　生産意欲高める政策示せ",
+          "link": "https://www.topics.or.jp/articles/-/1287243",
+          "published": "2025/8/12 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【大川原冤罪検証】捜査暴走の背景が不明だ",
+          "link": "https://www.kochinews.co.jp/article/detail/896829",
+          "published": "2025.08.12 05:00",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

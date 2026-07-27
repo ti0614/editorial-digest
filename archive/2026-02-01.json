@@ -23,6 +23,244 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "衆院選2026　緊張高まる日中関係　現実踏まえた戦略見えぬ",
+          "link": "https://mainichi.jp/articles/20260201/ddm/005/070/078000c",
+          "published": "2026/2/1 02:01",
+          "paid": false
+        },
+        {
+          "title": "再審制度の見直し案　冤罪救済の視点足りない",
+          "link": "https://mainichi.jp/articles/20260201/ddm/005/070/077000c",
+          "published": "2026/2/1 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］力に傾く世界で冷静な安全保障論議を深めよ",
+          "link": "https://www.nikkei.com/article/DGXZQODK313O30R30C26A1000000/",
+          "published": "2月1日",
+          "paid": false
+        },
+        {
+          "title": "［社説］選挙で混迷脱せぬミャンマー",
+          "link": "https://www.nikkei.com/article/DGXZQODK0109Q0R00C26A2000000/",
+          "published": "2月1日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "災害ボランティア　学生参加へ環境整備を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1244392.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2026年2月1日(日)  10:20",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "コメ・農業政策　問われる所得向上への道",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/772129",
+          "published": "2/1",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説２６衆院選 外国人政策／共生実現へ方策議論を",
+          "link": "https://webun.jp/articles/-/962788",
+          "published": "2026.02.01",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【国立公園の誘客強化】立山、白山アピールの好機",
+          "link": "https://www.hokkoku.co.jp/articles/-/2003613",
+          "published": "2/1",
+          "paid": true
+        },
+        {
+          "title": "社説【市町村事務の再編】国の動き待たずに検討を",
+          "link": "https://www.hokkoku.co.jp/articles/-/2003612",
+          "published": "2/1",
+          "paid": true
+        },
+        {
+          "title": "社説【国立公園の誘客強化】白山、立山アピールの好機",
+          "link": "https://www.hokkoku.co.jp/articles/-/2003571",
+          "published": "2/1",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "衆院選・社会保障",
+          "link": "https://www.gifu-np.co.jp/articles/-/661398",
+          "published": "2026年2月1日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　衆院選争点　外交防衛　米依存越える戦略描け",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/941447",
+          "published": "2026/2/1 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】26衆院選　憲法巡る論戦　改正ありきで進めるな",
+          "link": "https://www.topics.or.jp/articles/-/1377935",
+          "published": "2026/2/1 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【２０２６衆院選　選択的夫婦別姓】望む声に向き合えるか",
+          "link": "https://www.kochinews.co.jp/article/detail/956136",
+          "published": "2026.02.01 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］マンホールから泡噴出　発生源の特定が急務だ",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1765918",
+          "published": "2026年2月1日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞衆院選2026　物価高・消費税減税　将来に禍根残さぬ論戦を",
+          "link": "https://ryukyushimpo.jp/editorial/entry-5003782.html",
+          "published": "2026/02/01",
+          "paid": false
+        }
+      ]
     }
   ]
 }

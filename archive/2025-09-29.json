@@ -23,6 +23,251 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "総裁選と外国人政策　排外主義に陥らぬ議論を",
+          "link": "https://mainichi.jp/articles/20250929/ddm/005/070/017000c",
+          "published": "2025/9/29 02:02",
+          "paid": false
+        },
+        {
+          "title": "国立大の運営費交付金　基盤強化へ拡充が必要だ",
+          "link": "https://mainichi.jp/articles/20250929/ddm/005/070/016000c",
+          "published": "2025/9/29 02:02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］医療保険の負担の改革をさらに進めよ",
+          "link": "https://www.nikkei.com/article/DGXZQOCD264RY0W5A920C2000000/",
+          "published": "2025年9月29日",
+          "paid": false
+        },
+        {
+          "title": "［社説］イラン核合意の崩壊を憂う",
+          "link": "https://www.nikkei.com/article/DGXZQODK295Y50Z20C25A9000000/",
+          "published": "2025年9月29日",
+          "paid": false
+        },
+        {
+          "title": "［社説］日本郵政は民営化の原点に立ち戻れ",
+          "link": "https://www.nikkei.com/article/DGXZQOCD26A7S0W5A920C2000000/",
+          "published": "2025年9月29日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【芸術の秋】明日への活力に（９月２９日）",
+          "link": "https://www.minpo.jp/articles/-/52552",
+          "published": "2025/09/29 10:05",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "高温耐性米　環境に適した稲作急務",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1210965.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年9月29日(月)  10:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "早期再公募で事業推進を　銚子沖風力発電事業者撤退　【論説】",
+          "link": "https://www.chibanippo.co.jp/articles/1503809",
+          "published": "9/29 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "デジタル教科書　学びの充実につなげたい",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/698431",
+          "published": "2025/9/29",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説関税合意の火種／対米投資 曖昧さ解消を",
+          "link": "https://webun.jp/articles/-/891135",
+          "published": "2025.09.29",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【熱中症搬送最多】災害級の猛暑が常態化",
+          "link": "https://www.hokkoku.co.jp/articles/-/1881082",
+          "published": "9/29",
+          "paid": true
+        },
+        {
+          "title": "社説【高卒の採用選考】学校はサポートの強化を",
+          "link": "https://www.hokkoku.co.jp/articles/-/1881081",
+          "published": "9/29",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "総裁選・関税問題",
+          "link": "https://www.gifu-np.co.jp/articles/-/604865",
+          "published": "2025年9月29日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　ホームタウン事業撤回　草の根の交流閉ざすな",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/866939",
+          "published": "2025/9/29 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【温暖化対策】結束して対策の強化を",
+          "link": "https://www.kochinews.co.jp/article/detail/912341",
+          "published": "2025.09.29 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］国連とガザ　「人間の尊厳」守り抜け",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1679950",
+          "published": "2025年9月29日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞母子世帯と扶養控除　実態に即さぬ制度是正を",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4655918.html",
+          "published": "2025/09/29",
+          "paid": false
+        }
+      ]
     }
   ]
 }

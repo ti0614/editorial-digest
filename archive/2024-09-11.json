@@ -17,6 +17,185 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "ガザのワクチン「休戦」　人道危機を止める契機に",
+          "link": "https://mainichi.jp/articles/20240911/ddm/005/070/117000c",
+          "published": "2024/9/11 02:00",
+          "paid": false
+        },
+        {
+          "title": "首脳外交と日韓関係　後戻りさせぬ努力継続を",
+          "link": "https://mainichi.jp/articles/20240911/ddm/005/070/116000c",
+          "published": "2024/9/11 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【デブリ採取開始】知見積み廃炉着実に（９月１１日）",
+          "link": "https://www.minpo.jp/articles/-/55545",
+          "published": "2024/09/11 09:38",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "被爆体験者訴訟　政治判断で全員の救済を",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/473747",
+          "published": "2024/9/11",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "被爆体験者に判決",
+          "link": "https://www.gifu-np.co.jp/articles/-/438956",
+          "published": "2024年9月11日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　兵庫知事尋問と進退　自らの責任と向き合え",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/643636",
+          "published": "2024/9/11 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】県議会あす開会　鉄道高架の議論深めよ",
+          "link": "https://www.topics.or.jp/articles/-/1125936",
+          "published": "2024/9/11 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【被爆体験者】政治判断で早期救済を",
+          "link": "https://www.kochinews.co.jp/article/detail/783871",
+          "published": "2024.09.11 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］公益通報と処分　兵庫県知事　進退決断を",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1432154",
+          "published": "2024年9月11日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞長崎被爆体験者訴訟　国の責任で全面救済急げ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-3458368.html",
+          "published": "2024/09/11",
+          "paid": false
+        }
+      ]
     }
   ]
 }

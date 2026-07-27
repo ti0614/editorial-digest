@@ -23,6 +23,249 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "自民の両院議員懇談会　大敗の反省がうかがえぬ",
+          "link": "https://mainichi.jp/articles/20250730/ddm/005/070/119000c",
+          "published": "2025/7/30 02:00",
+          "paid": false
+        },
+        {
+          "title": "ガザの集団飢餓　食料を「武器」に使う非道",
+          "link": "https://mainichi.jp/articles/20250730/ddm/005/070/117000c",
+          "published": "2025/7/30 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］改めて直視したい津波の脅威",
+          "link": "https://www.nikkei.com/article/DGXZQODK3068S0Q5A730C2000000/",
+          "published": "2025年7月30日",
+          "paid": false
+        },
+        {
+          "title": "［社説］ガソリン減税へ代替財源の確保は当然だ",
+          "link": "https://www.nikkei.com/article/DGXZQODK306G10Q5A730C2000000/",
+          "published": "2025年7月30日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【自民党】表紙替えれば済むのか（７月３０日）",
+          "link": "https://www.minpo.jp/articles/-/53410",
+          "published": "2025/07/30 09:12",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【東北道逆走事故】実効性ある路面対策急げ",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1161398",
+          "published": "2025/7/30",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "コメ作況指数　実態把握の精査を急げ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1194451.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年7月30日(水)  09:47",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "自民党の混乱　再生へビジョンが見えぬ",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/660061",
+          "published": "2025/7/30",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説城端に麦屋節伝来１００年／価値再確認して継承を",
+          "link": "https://webun.jp/articles/-/853069",
+          "published": "2025.07.30",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "ＳＮＳと子ども",
+          "link": "https://www.gifu-np.co.jp/articles/-/576357",
+          "published": "2025年7月30日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　台湾の野党リコール否決　与党反省し分断回避を",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/829684",
+          "published": "2025/7/30 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】教員の児童盗撮　人権を踏みにじる行為だ",
+          "link": "https://www.topics.or.jp/articles/-/1280151",
+          "published": "2025/7/30 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【女性の当選最多】さらなる増加へ努力を",
+          "link": "https://www.kochinews.co.jp/article/detail/892370",
+          "published": "2025.07.30 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］長射程ミサイル配備へ　前のめりの軍事化懸念",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1638313",
+          "published": "2025年7月30日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞原発新設調査開始へ　国民的議論は不十分だ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4491621.html",
+          "published": "2025/07/30",
+          "paid": false
+        }
+      ]
     }
   ]
 }

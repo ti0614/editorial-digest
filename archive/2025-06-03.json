@@ -23,6 +23,232 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "若い女性のやせ願望　健康リスク直視すべきだ",
+          "link": "https://mainichi.jp/articles/20250603/ddm/005/070/028000c",
+          "published": "2025/6/3 02:01",
+          "paid": false
+        },
+        {
+          "title": "都議会自民の裏金問題　解明に背を向ける無責任",
+          "link": "https://mainichi.jp/articles/20250603/ddm/005/070/029000c",
+          "published": "2025/6/3 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］中国は日本の水産物輸入規制を撤廃せよ",
+          "link": "https://www.nikkei.com/article/DGXZQODK027XV0S5A600C2000000/",
+          "published": "2025年6月3日",
+          "paid": false
+        },
+        {
+          "title": "［社説］戦後日本を照らした長嶋氏",
+          "link": "https://www.nikkei.com/article/DGXZQODK0369G0T00C25A6000000/",
+          "published": "2025年6月3日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【万世大路の保存】機運盛り上げ急いで（６月３日）",
+          "link": "https://www.minpo.jp/articles/-/53884",
+          "published": "2025/06/03 09:16",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【清酒９点金賞】技術磨き、より良質追求を",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1123554",
+          "published": "2025/6/3",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "備蓄米放出　農政の抜本的改革こそ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1177381.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年6月3日(火)  09:40",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "職場の熱中症　労働者の生命守る対策を",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/619542",
+          "published": "2025/6/3",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "経団連新体制",
+          "link": "https://www.gifu-np.co.jp/articles/-/548263",
+          "published": "2025年6月3日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　経団連新体制　硬骨と柔軟さ併せ持て",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/792414",
+          "published": "2025/6/3 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】拘禁刑　特性見極め再犯防止を",
+          "link": "https://www.topics.or.jp/articles/-/1249507",
+          "published": "2025/6/3 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【企業・団体献金】改革先送りに募る不信",
+          "link": "https://www.kochinews.co.jp/article/detail/866845",
+          "published": "2025.06.03 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］南城市長の不信任案否決　責任を不問にするのか",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1596103",
+          "published": "2025年6月3日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞南城市長不信任否決　市議会も被害に背向けた",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4297308.html",
+          "published": "2025/06/03",
+          "paid": false
+        }
+      ]
     }
   ]
 }

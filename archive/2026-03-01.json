@@ -17,6 +17,238 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "米がイランを軍事攻撃　世界に混乱を招く暴挙だ",
+          "link": "https://mainichi.jp/articles/20260301/ddm/005/070/074000c",
+          "published": "2026/3/1 02:01",
+          "paid": false
+        },
+        {
+          "title": "北朝鮮の新国防計画　緊張高める野放図な軍拡",
+          "link": "https://mainichi.jp/articles/20260301/ddm/005/070/073000c",
+          "published": "2026/3/1 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］イラン移行期の混乱と戦火拡大を防げ",
+          "link": "https://www.nikkei.com/article/DGXZQODK0119S0R00C26A3000000/",
+          "published": "3月1日",
+          "paid": false
+        },
+        {
+          "title": "［社説］公取委はクラウド寡占抑止を",
+          "link": "https://www.nikkei.com/article/DGXZQODK272D70X20C26A2000000/",
+          "published": "3月1日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "負担増軽視せず改革を　診療報酬引き上げ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1251976.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2026年3月1日(日)  09:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "日野町事件　冤罪の早期救済へ議論を",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/787786",
+          "published": "3/1",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説古城公園の魅力向上／価値を生む高岡の宝に",
+          "link": "https://webun.jp/articles/-/977606",
+          "published": "2026.03.01",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【種苗法改正へ】海外流出防ぐ機関に期待",
+          "link": "https://www.hokkoku.co.jp/articles/-/2030571",
+          "published": "3/1",
+          "paid": true
+        },
+        {
+          "title": "社説【高校の専門職育成】社会インフラ守る一手に",
+          "link": "https://www.hokkoku.co.jp/articles/-/2030570",
+          "published": "3/1",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "国民会議スタート",
+          "link": "https://www.gifu-np.co.jp/articles/-/673770",
+          "published": "2026年3月1日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　首相のギフト　ねぎらいの対象が違う",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/957829",
+          "published": "2026/3/1 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】中国輸出規制強化　不当な圧力は許されない",
+          "link": "https://www.topics.or.jp/articles/-/1391552",
+          "published": "2026/3/1 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社保国民会議】「数の力」はなじまない",
+          "link": "https://www.kochinews.co.jp/article/detail/976010",
+          "published": "2026.03.01 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］延命治療の終了　望む最期支える体制に",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1784558",
+          "published": "2026年3月1日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞米国がイラン武力攻撃　時代錯誤の蛮行許されぬ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-5080659.html",
+          "published": "2026/03/01",
+          "paid": false
+        }
+      ]
     }
   ]
 }

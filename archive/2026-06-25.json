@@ -63,6 +63,289 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "南米との自由貿易交渉　保護主義に抗する戦略を",
+          "link": "https://mainichi.jp/articles/20260625/ddm/005/070/113000c",
+          "published": "2026/6/25 02:02",
+          "paid": false
+        },
+        {
+          "title": "英首相の辞任表明　混迷を脱し安定図れるか",
+          "link": "https://mainichi.jp/articles/20260625/ddm/005/070/112000c",
+          "published": "2026/6/25 02:02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］効果的で規律のある官民の戦略投資を",
+          "link": "https://www.nikkei.com/article/DGXZQODK256YN0V20C26A6000000/",
+          "published": "6月25日",
+          "paid": false
+        },
+        {
+          "title": "［社説］中国は邦人拘束の理由を示せ",
+          "link": "https://www.nikkei.com/article/DGXZQODK255DI0V20C26A6000000/",
+          "published": "6月25日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【裁判のデジタル化】ＩＴ弱者に配慮して",
+          "link": "https://www.minpo.jp/articles/-/165040",
+          "published": "2026/06/25 11:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【農産物輸出13億円超】産地育成し拡大目指せ",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1372308",
+          "published": "6/25  8:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "首長の産休取得　二択迫る社会変えよう",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1283423.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2026年6月25日(木)  09:40",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "トキエア「解任」　信頼得られる経営体制に",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/855346",
+          "published": "6/25",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説小学校火災／実効性ある避難訓練を",
+          "link": "https://webun.jp/articles/-/1043938",
+          "published": "2026.06.25",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【教団の解散確定】解決は被害回復してこそ",
+          "link": "https://www.hokkoku.co.jp/articles/-/2149576",
+          "published": "6/25",
+          "paid": true
+        },
+        {
+          "title": "社説【獅子舞の継承】担い手の間口広げ育成を",
+          "link": "https://www.hokkoku.co.jp/articles/-/2149575",
+          "published": "6/25",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "ＳＮＳ選挙対策",
+          "link": "https://www.gifu-np.co.jp/articles/-/729100",
+          "published": "2026年6月25日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　選挙ＳＮＳ対策法案　収益化停止、義務付けを",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/1029193",
+          "published": "2026/6/25 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】郵便局に交付金　国民の理解得る努力を",
+          "link": "https://www.topics.or.jp/articles/-/1452587",
+          "published": "2026/6/25 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【解散命令確定】被害救済へ重い司法判断",
+          "link": "https://www.kochinews.co.jp/article/detail/1018659",
+          "published": "2026.06.25 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "宮崎日日新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.the-miyanichi.co.jp/column/syasetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "裏金事件判決",
+          "link": "https://www.the-miyanichi.co.jp/column/syasetsu/865598.html",
+          "published": "2026.06.25｜社説",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］旧統一教会の解散確定　「2世」含め広く救済を",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1866276",
+          "published": "2026年6月25日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞旧統一教会最高裁決定　解散で終わりではない",
+          "link": "https://ryukyushimpo.jp/editorial/entry-5333657.html",
+          "published": "2026/06/25",
+          "paid": false
+        }
+      ]
     }
   ]
 }

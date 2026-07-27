@@ -23,6 +23,164 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "戦後80年の首相談話　今こそ平和の意志示す時",
+          "link": "https://mainichi.jp/articles/20250414/ddm/005/070/008000c",
+          "published": "2025/4/14 02:00",
+          "paid": false
+        },
+        {
+          "title": "デジタル遺品の扱い　ルール化の議論始めねば",
+          "link": "https://mainichi.jp/articles/20250414/ddm/005/070/007000c",
+          "published": "2025/4/14 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］米関税をバラマキ合戦の口実にするな",
+          "link": "https://www.nikkei.com/article/DGXZQODK147EA0U5A410C2000000/",
+          "published": "2025年4月14日",
+          "paid": false
+        },
+        {
+          "title": "［社説］民の力も得てODA効果的に",
+          "link": "https://www.nikkei.com/article/DGXZQODK1445Y0U5A410C2000000/",
+          "published": "2025年4月14日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【地銀の広域再編】県民本位で備えを（４月１４日）",
+          "link": "https://www.minpo.jp/articles/-/54177",
+          "published": "2025/04/14 09:13",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "杉田氏公認　「差別を容認」に等しい",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1163987.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年4月14日(月)  09:45",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "両陛下「慰霊の旅」　記憶継ぎ非戦の道たぐる",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/590747",
+          "published": "2025/4/14",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "企業・団体献金",
+          "link": "https://www.gifu-np.co.jp/articles/-/526796",
+          "published": "2025年4月14日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　マイナ免許証　何のための多機能化か",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/763575",
+          "published": "2025/4/14 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【取り調べ可視化】拡大を適正捜査に生かせ",
+          "link": "https://www.kochinews.co.jp/article/detail/851470",
+          "published": "2025.04.14 05:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

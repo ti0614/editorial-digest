@@ -51,6 +51,238 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "勢い付く「反トランプ」　米国の復元力が試される",
+          "link": "https://mainichi.jp/articles/20260621/ddm/005/070/110000c",
+          "published": "2026/6/21 02:01",
+          "paid": false
+        },
+        {
+          "title": "相談相手としてのAI　リスク踏まえて使いたい",
+          "link": "https://mainichi.jp/articles/20260621/ddm/005/070/108000c",
+          "published": "2026/6/21 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］株価7万円の評価に企業改革で応えよ",
+          "link": "https://www.nikkei.com/article/DGXZQODK210UN0R20C26A6000000/",
+          "published": "6月21日",
+          "paid": false
+        },
+        {
+          "title": "［社説］東京23区の大学定員規制は撤廃を",
+          "link": "https://www.nikkei.com/article/DGXZQODK1992H0Z10C26A6000000/",
+          "published": "6月21日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "消費税「実質ゼロ」　利上げに矛盾、撤回を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1282264.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2026年6月21日(日)  10:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "自民の安保提言　軍拡競争への懸念が募る",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/852859",
+          "published": "6/21",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説リサイクルの再評価／資源確保の手段とせよ",
+          "link": "https://webun.jp/articles/-/1041530",
+          "published": "2026.06.21",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【希少加賀野菜】多彩な食べ方提案したい",
+          "link": "https://www.hokkoku.co.jp/articles/-/2145665",
+          "published": "6/21",
+          "paid": true
+        },
+        {
+          "title": "社説【ネットの悪質商法】エアコン修理に落とし穴",
+          "link": "https://www.hokkoku.co.jp/articles/-/2145664",
+          "published": "6/21",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "クマ被害対策",
+          "link": "https://www.gifu-np.co.jp/articles/-/727326",
+          "published": "2026年6月21日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　知床観光船事故判決　旅客業の使命、再認識を",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/1026698",
+          "published": "2026/6/21 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】米イラン覚書署名　恒久和平につなげねば",
+          "link": "https://www.topics.or.jp/articles/-/1450385",
+          "published": "2026/6/21 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【日本国旗損壊罪】立法化の必要性あるのか",
+          "link": "https://www.kochinews.co.jp/article/detail/1017385",
+          "published": "2026.06.21 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］米イラン覚書　最終合意へ交渉進めよ",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1863484",
+          "published": "2026年6月21日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞文科省認定で教職員調査　平和教育を後退させるな",
+          "link": "https://ryukyushimpo.jp/editorial/entry-5324834.html",
+          "published": "2026/06/21",
+          "paid": false
+        }
+      ]
     }
   ]
 }

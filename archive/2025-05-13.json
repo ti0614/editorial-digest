@@ -23,6 +23,232 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "イスラエル「作戦強化」　ガザ再占領は許されない",
+          "link": "https://mainichi.jp/articles/20250513/ddm/005/070/167000c",
+          "published": "2025/5/13 02:02",
+          "paid": false
+        },
+        {
+          "title": "初の米出身ローマ教皇　分断癒やす発信期待する",
+          "link": "https://mainichi.jp/articles/20250513/ddm/005/070/165000c",
+          "published": "2025/5/13 02:02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］韓国大統領選は分断修復に導く論戦を",
+          "link": "https://www.nikkei.com/article/DGXZQODK124FL0S5A510C2000000/",
+          "published": "2025年5月13日",
+          "paid": false
+        },
+        {
+          "title": "［社説］日産は退路断ち再建進めよ",
+          "link": "https://www.nikkei.com/article/DGXZQOCD13AR40T10C25A5000000/",
+          "published": "2025年5月13日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【過疎地のドローン】課題解決の切り札に（５月１３日）",
+          "link": "https://www.minpo.jp/articles/-/54016",
+          "published": "2025/05/13 09:07",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【サイクルトレイン】需要開拓につなげたい",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1109521",
+          "published": "2025/5/13",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "水源環境の保全　受益と負担をわが事に",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1171288.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年5月13日(火)  10:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "韓国大統領選　混乱収束へ向かう一歩に",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/606417",
+          "published": "2025/5/13",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "中ロが戦勝８０年",
+          "link": "https://www.gifu-np.co.jp/articles/-/539010",
+          "published": "2025年5月13日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　戦勝８０年中ロ首脳会談　停戦へ、ロシア説得を",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/779515",
+          "published": "2025/5/13 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】ストーカー被害　全国の警察が対応検証を",
+          "link": "https://www.topics.or.jp/articles/-/1238037",
+          "published": "2025/5/13 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【国スポ改革】課題克服へ議論尽くせ",
+          "link": "https://www.kochinews.co.jp/article/detail/859668",
+          "published": "2025.05.13 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］戦争トラウマ　住民調査も国の責務だ",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1581669",
+          "published": "2025年5月13日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞夫婦別姓法案　今国会で決着すべきだ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4224293.html",
+          "published": "2025/05/13",
+          "paid": false
+        }
+      ]
     }
   ]
 }

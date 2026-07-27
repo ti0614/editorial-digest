@@ -23,6 +23,209 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "大川原冤罪の捜査検証　真相の解明避けた不誠実",
+          "link": "https://mainichi.jp/articles/20250810/ddm/005/070/102000c",
+          "published": "2025/8/10 02:00",
+          "paid": false
+        },
+        {
+          "title": "関税合意で食い違い　首相の責任で早期修正を",
+          "link": "https://mainichi.jp/articles/20250810/ddm/005/070/100000c",
+          "published": "2025/8/10 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］分断と対立の世界で国際協調導け",
+          "link": "https://www.nikkei.com/article/DGXZQODK100IH0Q5A810C2000000/",
+          "published": "2025年8月10日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "創薬クラスター　有機的な連携の促進を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1197841.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年8月10日(日)  09:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "自民両院総会　混乱の長期化を懸念する",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/667699",
+          "published": "2025/8/10",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説自転車の酒気帯び運転／「飲んだら乗るな」守れ",
+          "link": "https://webun.jp/articles/-/860429",
+          "published": "2025.08.10",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "海自と川重裏金",
+          "link": "https://www.gifu-np.co.jp/articles/-/581674",
+          "published": "2025年8月10日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　「２国家解決」の蘇生を　パレスチナの国家承認",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/837050",
+          "published": "2025/8/10 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】阿波踊りあす開幕　平和な社会であってこそ",
+          "link": "https://www.topics.or.jp/articles/-/1286581",
+          "published": "2025/8/10 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【首相進退の攻防】国民不在で進む懸念",
+          "link": "https://www.kochinews.co.jp/article/detail/896395",
+          "published": "2025.08.10 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］石垣市長選告示　不信任の経緯も争点だ",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1646590",
+          "published": "2025年8月10日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞辺野古住民原告適格　中立公正な審理に徹せよ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4532329.html",
+          "published": "2025/08/10",
+          "paid": false
+        }
+      ]
     }
   ]
 }

@@ -23,6 +23,215 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "トランプ2．0　日本が関税交渉開始　脅しに屈せず国益確保を",
+          "link": "https://mainichi.jp/articles/20250418/ddm/005/070/037000c",
+          "published": "2025/4/18 02:01",
+          "paid": false
+        },
+        {
+          "title": "新型出生前診断の拡大　前のめりに拭えぬ危うさ",
+          "link": "https://mainichi.jp/articles/20250418/ddm/005/070/035000c",
+          "published": "2025/4/18 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］年金改革から逃げる政治は無責任だ",
+          "link": "https://www.nikkei.com/article/DGXZQOCD176PO0X10C25A4000000/",
+          "published": "2025年4月18日",
+          "paid": false
+        },
+        {
+          "title": "［社説］今こそグローバルサウスの国々と連携を",
+          "link": "https://www.nikkei.com/article/DGXZQODK184EX0Y5A410C2000000/",
+          "published": "2025年4月18日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【戦後８０年の見解】歴史検証深め、未来へ（４月１８日）",
+          "link": "https://www.minpo.jp/articles/-/54151",
+          "published": "2025/04/18 09:13",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【障害者への合理的配慮】事業者への周知強化を",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1095231",
+          "published": "2025/4/18",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "神奈川にも大きな被害…新たな地震の想定　関連死防ぐ自助広げて",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1165142.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年4月18日(金)  09:50",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "関税交渉開始　「トランプ流」に戦略必要",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/593471",
+          "published": "2025/4/18",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　日米関税交渉　重層的に協議を重ねよ",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/766171",
+          "published": "2025/4/18 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】遠藤市政1年　独善に陥る恐れはないか",
+          "link": "https://www.topics.or.jp/articles/-/1226785",
+          "published": "2025/4/18 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【日米関税交渉】主体性を持ち進展図れ",
+          "link": "https://www.kochinews.co.jp/article/detail/852777",
+          "published": "2025.04.18 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］日米関税交渉　対米従属からの脱却を",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1566906",
+          "published": "2025年4月18日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞特支児童名簿　違い認め合う教育環境を",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4163159.html",
+          "published": "2025/04/18",
+          "paid": false
+        }
+      ]
     }
   ]
 }

@@ -23,6 +23,232 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "海図なき世界　核軍拡の時代　「文明の滅亡」阻む賢慮を",
+          "link": "https://mainichi.jp/articles/20260427/ddm/005/070/119000c",
+          "published": "2026/4/27 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］株価6万円は企業に成長の持続力を問う",
+          "link": "https://www.nikkei.com/article/DGXZQODK275M20X20C26A4000000/",
+          "published": "4月27日",
+          "paid": false
+        },
+        {
+          "title": "［社説］民主主義脅かす米銃撃事件",
+          "link": "https://www.nikkei.com/article/DGXZQODK273M80X20C26A4000000/",
+          "published": "4月27日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【若者の自殺防止】新たな活動に後押しを（４月２７日）",
+          "link": "https://www.minpo.jp/articles/-/119360",
+          "published": "2026/04/27 09:41",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "十分な説明と情報公開を　ＣＯ２地下埋設事業　【論説】",
+          "link": "https://www.chibanippo.co.jp/articles/1608223",
+          "published": "4/27 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "ＳＮＳ中傷投稿　速やかに拡散防ぐ対策を",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/821314",
+          "published": "4/27",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説災害中間支援組織／調整役の役割は大きい",
+          "link": "https://webun.jp/articles/-/1010604",
+          "published": "2026.04.27",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【内灘大橋を再点灯】夜景生かした地域活性に",
+          "link": "https://www.hokkoku.co.jp/articles/-/2089917",
+          "published": "4/27",
+          "paid": true
+        },
+        {
+          "title": "社説【自転車のヘルメット】着用は必須の交通ルール",
+          "link": "https://www.hokkoku.co.jp/articles/-/2089916",
+          "published": "4/27",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "国家情報局法案",
+          "link": "https://www.gifu-np.co.jp/articles/-/699593",
+          "published": "2026年4月27日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　情報局法案審議　市民監視の懸念が残る",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/993606",
+          "published": "2026/4/27 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【コメ生産方針】国の主体性はどこに",
+          "link": "https://www.kochinews.co.jp/article/detail/995544",
+          "published": "2026.04.27 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］対馬丸の遺族会新設　次世代が担う記憶継承",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1825733",
+          "published": "2026年4月27日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞NPT再検討会議　核廃絶へ主導的役割を",
+          "link": "https://ryukyushimpo.jp/editorial/entry-5214128.html",
+          "published": "2026/04/27",
+          "paid": false
+        }
+      ]
     }
   ]
 }

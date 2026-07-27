@@ -57,6 +57,238 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "自民党の派閥回帰　裏金事件の反省忘れたか",
+          "link": "https://mainichi.jp/articles/20260601/ddm/005/070/110000c",
+          "published": "2026/6/1 02:04",
+          "paid": false
+        },
+        {
+          "title": "日比の安保協力強化　地域安定の戦略欠かせぬ",
+          "link": "https://mainichi.jp/articles/20260601/ddm/005/070/109000c",
+          "published": "2026/6/1 02:04",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］時価総額逆転をAI時代の変革の起点に",
+          "link": "https://www.nikkei.com/article/DGXZQODK0166O0R00C26A6000000/",
+          "published": "6月1日",
+          "paid": false
+        },
+        {
+          "title": "［社説］新卒採用の早期化に歯止めを",
+          "link": "https://www.nikkei.com/article/DGXZQODK015MM0R00C26A6000000/",
+          "published": "6月1日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【安積艮斎企画展】知の還流を学ぶ機会に（６月１日）",
+          "link": "https://www.minpo.jp/articles/-/145509",
+          "published": "2026/06/01 11:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "適切な剪定で木陰拡大を　夏の暑さ対策、街路樹に注目　【論説】",
+          "link": "https://www.chibanippo.co.jp/articles/1622336",
+          "published": "6/1 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "花角知事３選　停滞感破り活力を全県に",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/840632",
+          "published": "6/1",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説富山－札幌便３５周年／縁つなぐ空路この先も",
+          "link": "https://webun.jp/articles/-/1029441",
+          "published": "2026.06.01",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【まちなか芸術祭】２１美の原点問い直す好機",
+          "link": "https://www.hokkoku.co.jp/articles/-/2124901",
+          "published": "6/1",
+          "paid": true
+        },
+        {
+          "title": "社説【野菜の販路拡大】健康志向で需要高めたい",
+          "link": "https://www.hokkoku.co.jp/articles/-/2124900",
+          "published": "6/1",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "民事裁判ＩＴ化",
+          "link": "https://www.gifu-np.co.jp/articles/-/716893",
+          "published": "2026年6月1日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　民事裁判の全面ＩＴ化　手放しでは喜べない",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/1013904",
+          "published": "2026/6/1 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【先端ＡＩ】国際協調で悪用防ぎたい",
+          "link": "https://www.kochinews.co.jp/article/detail/1010710",
+          "published": "2026.06.01 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］浦添市の個人情報管理　ずさんな扱い猛省せよ",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1848960",
+          "published": "2026年6月1日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞日米フォーラム2回目　アリバイ作りになるな",
+          "link": "https://ryukyushimpo.jp/editorial/entry-5283243.html",
+          "published": "2026/06/01",
+          "paid": false
+        }
+      ]
     }
   ]
 }

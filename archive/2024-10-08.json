@@ -23,6 +23,219 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "裏金議員の一部非公認　国民の理解を得られるか",
+          "link": "https://mainichi.jp/articles/20241008/ddm/005/070/107000c",
+          "published": "2024/10/8 02:01",
+          "paid": false
+        },
+        {
+          "title": "電子カルテの保存　患者の利益に資する形で",
+          "link": "https://mainichi.jp/articles/20241008/ddm/005/070/106000c",
+          "published": "2024/10/8 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］難局打開へ具体策を競う衆院選に",
+          "link": "https://www.nikkei.com/article/DGXZQODK0826V0Y4A001C2000000/",
+          "published": "2024年10月8日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【邦楽・郷土芸能】部活動で普及継承を（１０月８日）",
+          "link": "https://www.minpo.jp/articles/-/55203",
+          "published": "2024/10/08 09:26",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【若者の自立支援】きめ細かな連携体制築け",
+          "link": "https://www.shimotsuke.co.jp/articles/-/978893",
+          "published": "2024/10/8",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "長岡市長３選　地域の活力どう生み出す",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/488940",
+          "published": "2024/10/8",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "自民公認問題",
+          "link": "https://www.gifu-np.co.jp/articles/-/450560",
+          "published": "2024年10月8日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　公認問題と代表質問　納得と共感には不十分",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/659087",
+          "published": "2024/10/8 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】国会代表質問　政治不信の解消には遠く",
+          "link": "https://www.topics.or.jp/articles/-/1138169",
+          "published": "2024/10/8 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【男性育休３割超】当たり前の社会へ前進を",
+          "link": "https://www.kochinews.co.jp/article/detail/793291",
+          "published": "2024.10.08 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］裏金議員の公認　納得も共感も得られぬ",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1448698",
+          "published": "2024年10月8日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞裏金議員一部非公認　「納得と共感」には程遠い",
+          "link": "https://ryukyushimpo.jp/editorial/entry-3532178.html",
+          "published": "2024/10/08",
+          "paid": false
+        }
+      ]
     }
   ]
 }

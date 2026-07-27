@@ -23,6 +23,232 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "最低賃金の上げ幅最大　国は継続へ道筋示さねば",
+          "link": "https://mainichi.jp/articles/20250807/ddm/005/070/100000c",
+          "published": "2025/8/7 02:04",
+          "paid": false
+        },
+        {
+          "title": "トランプ2．0　統計局長の解任　信頼損なう暴君の手法だ",
+          "link": "https://mainichi.jp/articles/20250807/ddm/005/070/098000c",
+          "published": "2025/8/7 02:04",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］米関税に負けない経済への脱皮も進めよ",
+          "link": "https://www.nikkei.com/article/DGXZQODK075830X00C25A8000000/",
+          "published": "2025年8月7日",
+          "paid": false
+        },
+        {
+          "title": "［社説］与野党は給付策の議論入念に",
+          "link": "https://www.nikkei.com/article/DGXZQODK078I70X00C25A8000000/",
+          "published": "2025年8月7日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【地方創生「庁」設置】一極集中是正も柱に（８月７日）",
+          "link": "https://www.minpo.jp/articles/-/53366",
+          "published": "2025/08/07 09:20",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "気候変動に「勧告」　各国協調し対応を急げ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1196914.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年8月7日(木)  09:32",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "首相コメ増産表明　明確な支援策示すべきだ",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/665590",
+          "published": "2025/8/7",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説原爆「正当性」に陰り／被爆実相 世論変え得る",
+          "link": "https://webun.jp/articles/-/858225",
+          "published": "2025.08.07",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "最低賃金引き上げ",
+          "link": "https://www.gifu-np.co.jp/articles/-/580208",
+          "published": "2025年8月7日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　最低賃金引き上げ　持続性と格差、不安残る",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/835018",
+          "published": "2025/8/7 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】最賃目安過去最高　引き上げできる環境を",
+          "link": "https://www.topics.or.jp/articles/-/1284774",
+          "published": "2025/8/7 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【コメ増産へ】生産者の安心が前提だ",
+          "link": "https://www.kochinews.co.jp/article/detail/895268",
+          "published": "2025.08.07 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］伊江島ＬＣＴ爆発７７年　語り継ぐ責務私たちに",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1644291",
+          "published": "2025年8月7日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞最低賃金千円超へ　事業者支援充実は必須だ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4521822.html",
+          "published": "2025/08/07",
+          "paid": false
+        }
+      ]
     }
   ]
 }

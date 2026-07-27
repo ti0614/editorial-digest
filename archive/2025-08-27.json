@@ -17,6 +17,249 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "日本のアフリカ外交　信頼生かし新たな連携を",
+          "link": "https://mainichi.jp/articles/20250827/ddm/005/070/077000c",
+          "published": "2025/8/27 02:02",
+          "paid": false
+        },
+        {
+          "title": "ガザ市の制圧作戦　惨状深める非道許されぬ",
+          "link": "https://mainichi.jp/articles/20250827/ddm/005/070/078000c",
+          "published": "2025/8/27 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］トランプ氏のFRB支配は危険な企てだ",
+          "link": "https://www.nikkei.com/article/DGXZQODK278IR0X20C25A8000000/",
+          "published": "2025年8月27日",
+          "paid": false
+        },
+        {
+          "title": "［社説］広陵高問題を暴力根絶の緒に",
+          "link": "https://www.nikkei.com/article/DGXZQODK2730C0X20C25A8000000/",
+          "published": "2025年8月27日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【水産物輸出】販路広げる先進事例に（８月２７日）",
+          "link": "https://www.minpo.jp/articles/-/53265",
+          "published": "2025/08/27 09:11",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【マダニ感染症対策】肌の露出避け予防徹底を",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1178598",
+          "published": "2025/8/27",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "妊産婦の自殺　現実直視した支援策を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1202011.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年8月27日(水)  09:30",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "除染土処分　政府は不安取り除かねば",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/677298",
+          "published": "2025/8/27",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説日韓首脳会談／未来志向で関係深化を",
+          "link": "https://webun.jp/articles/-/869548",
+          "published": "2025.08.27",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "裏金事件で罰金刑",
+          "link": "https://www.gifu-np.co.jp/articles/-/589165",
+          "published": "2025年8月27日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　萩生田議員秘書に罰金刑　道義的責任は免れない",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/846628",
+          "published": "2025/8/27 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】マダニ感染症最多　身近に危険　予防策徹底を",
+          "link": "https://www.topics.or.jp/articles/-/1294723",
+          "published": "2025/8/27 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【広がる宿泊税】観光の将来像探る好機に",
+          "link": "https://www.kochinews.co.jp/article/detail/901485",
+          "published": "2025.08.27 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］参院選公約　雲散霧消は許されない",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1657141",
+          "published": "2025年8月27日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞最低賃金１０２３円に　中小企業支援の施策急げ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4565278.html",
+          "published": "2025/08/27",
+          "paid": false
+        }
+      ]
     }
   ]
 }

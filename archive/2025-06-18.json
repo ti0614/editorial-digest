@@ -17,6 +17,209 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "改正年金法が成立　先送りできぬ課題直視を",
+          "link": "https://mainichi.jp/articles/20250618/ddm/005/070/107000c",
+          "published": "2025/6/18 02:01",
+          "paid": false
+        },
+        {
+          "title": "関税巡る日米首脳会談　「国益守る」交渉粘り強く",
+          "link": "https://mainichi.jp/articles/20250618/ddm/005/070/109000c",
+          "published": "2025/6/18 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］G7は世界の安定担う重責果たせ",
+          "link": "https://www.nikkei.com/article/DGXZQODK1846N0Y5A610C2000000/",
+          "published": "2025年6月18日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【地方の書店存続】踏み込んだ対策考えて（６月１８日）",
+          "link": "https://www.minpo.jp/articles/-/53802",
+          "published": "2025/06/18 09:09",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【足利市の窓口業務時短】効率的な行政運営を示せ",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1133440",
+          "published": "2025/6/18",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "箱根町の宿泊税検討　将来像を考える機会に",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1181799.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年6月18日(水)  09:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "コメ作況指数廃止　現場の混乱招かぬように",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/628602",
+          "published": "2025/6/18",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　日米首脳と関税　禍根残さぬ包括合意を",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/801633",
+          "published": "2025/6/18 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】再審法改正難航　過半数が賛同したのに",
+          "link": "https://www.topics.or.jp/articles/-/1257740",
+          "published": "2025/6/18 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【熱中症】梅雨期も注意が必要だ",
+          "link": "https://www.kochinews.co.jp/article/detail/874004",
+          "published": "2025.06.18 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］［沖縄戦80年］学徒隊に解散命令　保護なく相次いだ犠牲",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1606576",
+          "published": "2025年6月18日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞沖縄戦80年　学徒隊解散命令　動員、戦場放置の責任重い",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4346901.html",
+          "published": "2025/06/18",
+          "paid": false
+        }
+      ]
     }
   ]
 }

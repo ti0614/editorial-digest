@@ -23,6 +23,185 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "中国当局が邦人起訴　不透明な司法容認できぬ",
+          "link": "https://mainichi.jp/articles/20240827/ddm/005/070/094000c",
+          "published": "2024/8/27 02:01",
+          "paid": false
+        },
+        {
+          "title": "ヒズボラの報復攻撃　ガザ停戦の決裂防がねば",
+          "link": "https://mainichi.jp/articles/20240827/ddm/005/070/092000c",
+          "published": "2024/8/27 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【犯罪被害者支援】市町村で条例化進めて（８月２７日）",
+          "link": "https://www.minpo.jp/articles/-/55639",
+          "published": "2024/08/27 08:51",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "風水害に警戒　備え万全に早めの行動を",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/464945",
+          "published": "2024/8/27",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "辺野古埋め立て",
+          "link": "https://www.gifu-np.co.jp/articles/-/431563",
+          "published": "2024年8月27日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　辺野古埋め立て　国策の強行 看過できぬ",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/634697",
+          "published": "2024/8/27 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】船舶エンジン不正　順法精神の欠落は深刻だ",
+          "link": "https://www.topics.or.jp/articles/-/1119129",
+          "published": "2024/8/27 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【台風１０号】備え怠らず被害最小に",
+          "link": "https://www.kochinews.co.jp/article/detail/779698",
+          "published": "2024.08.27 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］「南西シフト」賛成７６％　本土との溝示す結果だ",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1422578",
+          "published": "2024年8月27日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞那覇軍港移設掘削調査　悔い残さぬよう議論を",
+          "link": "https://ryukyushimpo.jp/editorial/entry-3409616.html",
+          "published": "2024/08/27",
+          "paid": false
+        }
+      ]
     }
   ]
 }

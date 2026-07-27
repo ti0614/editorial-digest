@@ -23,6 +23,272 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "官邸内から核保有発言　問われる首相の任命責任",
+          "link": "https://mainichi.jp/articles/20251220/ddm/005/070/129000c",
+          "published": "2025/12/20 02:03",
+          "paid": false
+        },
+        {
+          "title": "日銀が追加利上げ　金融正常化へ続く正念場",
+          "link": "https://mainichi.jp/articles/20251220/ddm/005/070/126000c",
+          "published": "2025/12/20 02:03",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］財源の手当てなき減税先行は無責任だ",
+          "link": "https://www.nikkei.com/article/DGXZQODK193ME0Z11C25A2000000/",
+          "published": "2025年12月20日",
+          "paid": false
+        },
+        {
+          "title": "［社説］中央アジアと多様な関係築け",
+          "link": "https://www.nikkei.com/article/DGXZQODK165QO0W5A211C2000000/",
+          "published": "2025年12月20日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【日銀利上げ】弱き立場に目配りを（１２月２０日）",
+          "link": "https://www.minpo.jp/articles/-/50754",
+          "published": "2025/12/20 09:26",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "旧姓使用の法制化　問題の本質解決できぬ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1233944.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年12月20日(土)  09:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "日銀利上げ　円安の是正につながるか",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/749832",
+          "published": "2025/12/20",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説日銀金利引き上げ／物価の番人 責任果たせ",
+          "link": "https://webun.jp/articles/-/941157",
+          "published": "2025.12.20",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【歴史的建造物の活用】地域の宝をまちづくりに",
+          "link": "https://www.hokkoku.co.jp/articles/-/1965955",
+          "published": "12/20",
+          "paid": true
+        },
+        {
+          "title": "社説【政策金利０．７５％】利上げを急ぐ状況なのか",
+          "link": "https://www.hokkoku.co.jp/articles/-/1965954",
+          "published": "12/20",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "日銀追加利上げ",
+          "link": "https://www.gifu-np.co.jp/articles/-/644584",
+          "published": "2025年12月20日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　物価抑制には力不足だ　日銀追加利上げ",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/917925",
+          "published": "2025/12/20 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】日銀利上げ　物価抑制につなげねば",
+          "link": "https://www.topics.or.jp/articles/-/1358214",
+          "published": "2025/12/20 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【核保有発言】戦後日本の歩み覆すのか",
+          "link": "https://www.kochinews.co.jp/article/detail/941323",
+          "published": "2025.12.20 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "宮崎日日新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.the-miyanichi.co.jp/column/syasetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "安倍氏銃撃裁判結審",
+          "link": "https://www.the-miyanichi.co.jp/column/syasetsu/447563.html",
+          "published": "2025.12.20｜社説",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］米軍立ち入り拒否　その言い分はおかしい",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1739342",
+          "published": "2025年12月20日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞官邸「核保有」発言　被爆国の使命を忘れるな",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4886836.html",
+          "published": "2025/12/20",
+          "paid": false
+        }
+      ]
     }
   ]
 }

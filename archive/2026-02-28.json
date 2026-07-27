@@ -23,6 +23,289 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "死後15年経て再審へ　救済の遅れ招かぬ制度に",
+          "link": "https://mainichi.jp/articles/20260228/ddm/005/070/128000c",
+          "published": "2026/2/28 02:01",
+          "paid": false
+        },
+        {
+          "title": "与党の武器輸出提言　歯止めなき拡大懸念する",
+          "link": "https://mainichi.jp/articles/20260228/ddm/005/070/129000c",
+          "published": "2026/2/28 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］米・イスラエルのイラン攻撃を憂う",
+          "link": "https://www.nikkei.com/article/DGXZQOCD281TW0Y6A220C2000000/",
+          "published": "2月28日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【会津地方の地震】発生時の備え万全に（２月２８日）",
+          "link": "https://www.minpo.jp/articles/-/80531",
+          "published": "2026/02/28 09:11",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【建設業界ＤＸ】人手不足解消の一助に",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1297316",
+          "published": "2/28  8:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "空の資源循環　普及への確たる道筋を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1251732.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2026年2月28日(土)  10:20",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "原発テロ対策　安全重視の姿勢が見えぬ",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/787411",
+          "published": "2/28",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説県立高校 倍率過去最低／意識変化の背景を探れ",
+          "link": "https://webun.jp/articles/-/976998",
+          "published": "2026.02.28",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【スパイ防止法】致命的な弱点解消せねば",
+          "link": "https://www.hokkoku.co.jp/articles/-/2029677",
+          "published": "2/28",
+          "paid": true
+        },
+        {
+          "title": "社説【金沢都心再開発】城下町の軸も生かしてこそ",
+          "link": "https://www.hokkoku.co.jp/articles/-/2029676",
+          "published": "2/28",
+          "paid": true
+        },
+        {
+          "title": "社説【金沢都心再開発】城下町の軸も生かしたい",
+          "link": "https://www.hokkoku.co.jp/articles/-/2029612",
+          "published": "2/28",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "首相のギフト",
+          "link": "https://www.gifu-np.co.jp/articles/-/673405",
+          "published": "2026年2月28日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　社会保障国民会議　仕切り直しが必要だ",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/957314",
+          "published": "2026/2/28 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】日野町事件再審へ　今度こそ教訓を生かせ",
+          "link": "https://www.topics.or.jp/articles/-/1391140",
+          "published": "2026/2/28 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【武器輸出緩和】歯止め策の議論足りない",
+          "link": "https://www.kochinews.co.jp/article/detail/975853",
+          "published": "2026.02.28 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "宮崎日日新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.the-miyanichi.co.jp/column/syasetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "首相のギフト",
+          "link": "https://www.the-miyanichi.co.jp/column/syasetsu/596195.html",
+          "published": "2026.02.28｜社説",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］社会保障国民会議　看板倒れだ　仕切り直せ",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1784052",
+          "published": "2026年2月28日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞ＪＡ職員労災認定　検証し、組織風土改めよ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-5076897.html",
+          "published": "2026/02/28",
+          "paid": false
+        }
+      ]
     }
   ]
 }

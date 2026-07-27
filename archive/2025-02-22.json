@@ -23,6 +23,208 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "高校授業料の無償化　課題の議論が置き去りだ",
+          "link": "https://mainichi.jp/articles/20250222/ddm/005/070/109000c",
+          "published": "2025/2/22 02:00",
+          "paid": false
+        },
+        {
+          "title": "特殊詐欺が過去最悪　根絶へあらゆる手立てを",
+          "link": "https://mainichi.jp/articles/20250222/ddm/005/070/108000c",
+          "published": "2025/2/22 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］脱炭素はエネ・環境と産業の戦略一体で",
+          "link": "https://www.nikkei.com/article/DGXZQOCD173YL0X10C25A1000000/",
+          "published": "2025年2月22日",
+          "paid": false
+        },
+        {
+          "title": "［社説］米国のG20欠席は無責任だ",
+          "link": "https://www.nikkei.com/article/DGXZQOCD213S40R20C25A2000000/",
+          "published": "2025年2月22日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【除染土の工程表】国は緊張感を高めよ（２月２２日）",
+          "link": "https://www.minpo.jp/articles/-/54466",
+          "published": "2025/02/22 09:29",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "トランプ氏１カ月　関税強化世界に漂う暗雲",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/561165",
+          "published": "2025/2/22",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "オンラインカジノ",
+          "link": "https://www.gifu-np.co.jp/articles/-/505378",
+          "published": "2025年2月22日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　２０年目の「竹島の日」　最終目的は領土権確立",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/733729",
+          "published": "2025/2/22 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】米ロの停戦交渉　ウクライナ抜き　許されぬ",
+          "link": "https://www.topics.or.jp/articles/-/1199480",
+          "published": "2025/2/22 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【高校無償化】議論は尽くされていない",
+          "link": "https://www.kochinews.co.jp/article/detail/834583",
+          "published": "2025.02.22 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］高校無償化　地域の事情にも配慮を",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1531195",
+          "published": "2025年2月22日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞核禁会議不参加　被爆国として責任果たせ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-3988250.html",
+          "published": "2025/02/22",
+          "paid": false
+        }
+      ]
     }
   ]
 }

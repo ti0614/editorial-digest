@@ -32,7 +32,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "典範審議「中継なしに」　静謐をはき違えた姑息さ",
+          "link": "https://mainichi.jp/articles/20260708/ddm/005/070/102000c",
+          "published": "2026/7/8 02:02",
+          "paid": false
+        },
+        {
+          "title": "中国がSLBM発射　緊張高める核戦力の誇示",
+          "link": "https://mainichi.jp/articles/20260708/ddm/005/070/101000c",
+          "published": "2026/7/8 02:02",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "読売新聞",
@@ -52,7 +65,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "［社説］リニアは地域理解を難事業実現に生かせ",
+          "link": "https://www.nikkei.com/article/DGXZQODK086C00Y6A700C2000000/",
+          "published": "8日",
+          "paid": false
+        },
+        {
+          "title": "［社説］自維の医療改革は物足りない",
+          "link": "https://www.nikkei.com/article/DGXZQODK084E30Y6A700C2000000/",
+          "published": "8日",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "産経新聞",
@@ -236,14 +262,21 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "【闇バイト高校生意識調査】現状把握し対策講じよ",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1380505",
+          "published": "7/8  8:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "神奈川新聞",
       "category": "社説",
       "tier": "regional",
       "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
-      "error": null,
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
       "items": [
@@ -290,7 +323,7 @@
       "category": "論説",
       "tier": "regional",
       "index_url": "https://www.chibanippo.co.jp/serial",
-      "error": null,
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
       "items": []
@@ -337,7 +370,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "社説【金沢のホテル開発】都心軸再生へ役割大きい",
+          "link": "https://www.hokkoku.co.jp/articles/-/2162994",
+          "published": "7/8",
+          "paid": true
+        },
+        {
+          "title": "社説【原潜ミサイル発射】中国の太平洋進出を懸念",
+          "link": "https://www.hokkoku.co.jp/articles/-/2162993",
+          "published": "7/8",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "福井新聞",
@@ -492,7 +538,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "【国選弁護人】報酬制度の見直しを急げ",
+          "link": "https://www.kochinews.co.jp/article/detail/1022771",
+          "published": "2026.07.08 05:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "日本海新聞",

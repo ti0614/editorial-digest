@@ -17,6 +17,238 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "多様性ある社会と首相　「個人の尊重」忘れぬよう",
+          "link": "https://mainichi.jp/articles/20260215/ddm/005/070/064000c",
+          "published": "2026/2/15 02:02",
+          "paid": false
+        },
+        {
+          "title": "生徒の暴力動画拡散　弊害の大きさ認識せねば",
+          "link": "https://mainichi.jp/articles/20260215/ddm/005/070/063000c",
+          "published": "2026/2/15 02:02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］企業は株高に見合う成長戦略を加速せよ",
+          "link": "https://www.nikkei.com/article/DGXZQODK136020T10C26A2000000/",
+          "published": "2月15日",
+          "paid": false
+        },
+        {
+          "title": "［社説］太陽光パネルの再資源化促す制度に",
+          "link": "https://www.nikkei.com/article/DGXZQODK132XC0T10C26A2000000/",
+          "published": "2月15日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "グラミー賞スピーチ　覚悟と勇気見習いたい",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1248368.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2026年2月15日(日)  10:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "五輪県勢躍動　スノボ王国へ確かな歩み",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/780042",
+          "published": "2/15",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説県と市町村予算案／「選択と覚悟」問われる",
+          "link": "https://webun.jp/articles/-/970319",
+          "published": "2026.02.15",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【住宅再建支援金】新築再検討の後押しを",
+          "link": "https://www.hokkoku.co.jp/articles/-/2017309",
+          "published": "2/15",
+          "paid": true
+        },
+        {
+          "title": "社説【「おこぼれ当選」】「民意の反映」には程遠い",
+          "link": "https://www.hokkoku.co.jp/articles/-/2017308",
+          "published": "2/15",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "小川・中道新代表",
+          "link": "https://www.gifu-np.co.jp/articles/-/667766",
+          "published": "2026年2月15日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　日中関係の行方　挑発避け、戦略的外交を",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/949801",
+          "published": "2026/2/15 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】再審制度答申　国会が「改悪」食い止めよ",
+          "link": "https://www.topics.or.jp/articles/-/1384847",
+          "published": "2026/2/15 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【核軍縮条約失効】後継の管理体制立て直せ",
+          "link": "https://www.kochinews.co.jp/article/detail/971799",
+          "published": "2026.02.15 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］宿泊税　来年2月開始　地域を磨く安定財源へ",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1775400",
+          "published": "2026年2月15日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞衆院憲法アンケート　拙速な手続き許されない",
+          "link": "https://ryukyushimpo.jp/editorial/entry-5037680.html",
+          "published": "2026/02/15",
+          "paid": false
+        }
+      ]
     }
   ]
 }

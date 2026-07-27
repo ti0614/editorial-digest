@@ -17,6 +17,272 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "FRBが利下げ　政治圧力排し経済安定を",
+          "link": "https://mainichi.jp/articles/20250919/ddm/005/070/028000c",
+          "published": "2025/9/19 02:03",
+          "paid": false
+        },
+        {
+          "title": "中国での男児殺害1年　憎しみを広げぬ対応こそ",
+          "link": "https://mainichi.jp/articles/20250919/ddm/005/070/027000c",
+          "published": "2025/9/19 02:03",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］日銀はETF売却を機に正常化の点検を",
+          "link": "https://www.nikkei.com/article/DGXZQODK198NT0Z10C25A9000000/",
+          "published": "2025年9月19日",
+          "paid": false
+        },
+        {
+          "title": "［社説］AI発達が促す米半導体再編",
+          "link": "https://www.nikkei.com/article/DGXZQODK197UN0Z10C25A9000000/",
+          "published": "2025年9月19日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【旧喜多方東高跡地】利活用を迅速に（９月１９日）",
+          "link": "https://www.minpo.jp/articles/-/52790",
+          "published": "2025/09/19 09:18",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【芸術家スポットバンク】登録増へ意義の周知図れ",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1193738",
+          "published": "2025/9/19",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "相次ぐ米兵事件　「沖縄」でなく「私たち」",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1208408.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年9月19日(金)  09:40",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "上下水道老朽化　自治体任せの維持は限界",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/692717",
+          "published": "2025/9/19",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説生活保護の減額／被害回復 政治の責任で",
+          "link": "https://webun.jp/articles/-/884067",
+          "published": "2025.09.19",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【福祉避難所の不正】制度定着へ厳正な処分を",
+          "link": "https://www.hokkoku.co.jp/articles/-/1871340",
+          "published": "9/19",
+          "paid": true
+        },
+        {
+          "title": "社説【病院の寄付調達】地域医療を支える一手に",
+          "link": "https://www.hokkoku.co.jp/articles/-/1871339",
+          "published": "9/19",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "安保法制１０年",
+          "link": "https://www.gifu-np.co.jp/articles/-/600646",
+          "published": "2025年9月19日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　安保法制１０年　緊張緩和に貢献したか",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/861055",
+          "published": "2025/9/19 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】ガザ市へ地上侵攻　各国は暴走止める行動を",
+          "link": "https://www.topics.or.jp/articles/-/1307057",
+          "published": "2025/9/19 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【旧民主勢力２党】多党化政治の将来像示せ",
+          "link": "https://www.kochinews.co.jp/article/detail/909153",
+          "published": "2025.09.19 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］「宿泊税」条例成立　沖縄の魅力磨く好機に",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1673318",
+          "published": "2025年9月19日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞PFAS除去費負担　国の責任で汚染除去せよ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4628553.html",
+          "published": "2025/09/19",
+          "paid": false
+        }
+      ]
     }
   ]
 }

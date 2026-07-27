@@ -26,7 +26,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "海図なき世界　脅威高まるAI　暴走させぬ知恵集める時",
+          "link": "https://mainichi.jp/articles/20260705/ddm/005/070/104000c",
+          "published": "2026/7/5 02:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "読売新聞",
@@ -46,7 +53,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "［社説］建国250年の米国は民主主義の力を示せ",
+          "link": "https://www.nikkei.com/article/DGXZQODK050W00V00C26A7000000/",
+          "published": "5日",
+          "paid": false
+        },
+        {
+          "title": "［社説］女性の理系人材育む環境を",
+          "link": "https://www.nikkei.com/article/DGXZQODK058UZ0V00C26A6000000/",
+          "published": "5日",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "産経新聞",
@@ -217,7 +237,7 @@
       "category": "社説",
       "tier": "regional",
       "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
-      "error": null,
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
       "items": [
@@ -264,7 +284,7 @@
       "category": "論説",
       "tier": "regional",
       "index_url": "https://www.chibanippo.co.jp/serial",
-      "error": null,
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
       "items": []
@@ -277,7 +297,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "米建国２５０年　民主主義が問われている",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/862123",
+          "published": "7/5",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "北日本新聞",
@@ -287,7 +314,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "社説水橋学園バス踏切停車／児童の安全を最優先に",
+          "link": "https://webun.jp/articles/-/1050286",
+          "published": "2026.07.05",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "北國新聞",
@@ -297,7 +331,26 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "社説【校外活動の安全策】リスク管理徹底したい",
+          "link": "https://www.hokkoku.co.jp/articles/-/2159799",
+          "published": "7/5",
+          "paid": true
+        },
+        {
+          "title": "社説【復興祈念公園】国、県も整備の後押しを",
+          "link": "https://www.hokkoku.co.jp/articles/-/2159798",
+          "published": "7/5",
+          "paid": true
+        },
+        {
+          "title": "社説【校外活動の安全策】リスク管理を徹底したい",
+          "link": "https://www.hokkoku.co.jp/articles/-/2159785",
+          "published": "7/5",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "福井新聞",
@@ -347,7 +400,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "旧統一教会解散へ",
+          "link": "https://www.gifu-np.co.jp/articles/-/734493",
+          "published": "2026年7月5日 05:00岐阜",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "奈良新聞",
@@ -431,7 +491,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "【中部電力不正】政府の責任も問われる",
+          "link": "https://www.kochinews.co.jp/article/detail/1021924",
+          "published": "2026.07.05 05:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "日本海新聞",
@@ -508,7 +575,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "［社説］キーウへ大規模攻撃　停戦協議の再開を急げ",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1873786",
+          "published": "2026年7月5日",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "琉球新報",

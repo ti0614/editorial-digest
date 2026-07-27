@@ -63,6 +63,295 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "郵便赤字穴埋めに公金　展望欠く「官」への逆戻り",
+          "link": "https://mainichi.jp/articles/20260626/ddm/005/070/119000c",
+          "published": "2026/6/26 02:02",
+          "paid": false
+        },
+        {
+          "title": "皇室典範の改正　やはり養子案はおかしい",
+          "link": "https://mainichi.jp/articles/20260626/ddm/005/070/120000c",
+          "published": "2026/6/26 02:02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］株主総会で成長の道筋を伝えられたか",
+          "link": "https://www.nikkei.com/article/DGXZQODK265JS0W6A620C2000000/",
+          "published": "6月26日",
+          "paid": false
+        },
+        {
+          "title": "［社説］教団の被害再び生まぬ社会に",
+          "link": "https://www.nikkei.com/article/DGXZQODK263FA0W6A620C2000000/",
+          "published": "6月26日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【民生委員の不足】人材確保へ官民連携を（６月２６日）",
+          "link": "https://www.minpo.jp/articles/-/166172",
+          "published": "2026/06/26 11:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【大田原市移動図書館】読書機会創出の一助に",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1373130",
+          "published": "6/26  8:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "首都直下地震　備えの基本を見直そう",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1283802.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2026年6月26日(金)  09:30",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "裏金事件有罪　国会は真摯な取り組みを",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/856328",
+          "published": "6/26",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説消費税１％／負の側面多過ぎないか",
+          "link": "https://webun.jp/articles/-/1044675",
+          "published": "2026.06.26",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【乳幼児教育の先進地に】０歳からのモデル園",
+          "link": "https://www.hokkoku.co.jp/articles/-/2151125",
+          "published": "6/26",
+          "paid": true
+        },
+        {
+          "title": "社説【出国税引き上げ】地方の観光推進に活用を",
+          "link": "https://www.hokkoku.co.jp/articles/-/2151124",
+          "published": "6/26",
+          "paid": true
+        },
+        {
+          "title": "社説【０歳からのモデル園】乳幼児教育の先進地に",
+          "link": "https://www.hokkoku.co.jp/articles/-/2150962",
+          "published": "6/26",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "犯罪被害者支援",
+          "link": "https://www.gifu-np.co.jp/articles/-/729724",
+          "published": "2026年6月26日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　犯罪被害者支援　切実な思い、後押しを",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/1030011",
+          "published": "2026/6/26 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】皇室典範改正　このまま進めていいのか",
+          "link": "https://www.topics.or.jp/articles/-/1453276",
+          "published": "2026/6/26 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【裏金議員有罪】政治改革を棚上げするな",
+          "link": "https://www.kochinews.co.jp/article/detail/1019119",
+          "published": "2026.06.26 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "宮崎日日新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.the-miyanichi.co.jp/column/syasetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "ＳＮＳ選挙対策",
+          "link": "https://www.the-miyanichi.co.jp/column/syasetsu/868970.html",
+          "published": "2026.06.26｜社説",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］「高市1強」国会　「数の力」で押し切るな",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1867282",
+          "published": "2026年6月26日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞LGBT基本計画決定　理念実現への道筋、不十分",
+          "link": "https://ryukyushimpo.jp/editorial/entry-5337133.html",
+          "published": "2026/06/26",
+          "paid": false
+        }
+      ]
     }
   ]
 }

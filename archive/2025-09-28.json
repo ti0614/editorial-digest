@@ -23,6 +23,244 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "戦後80年　障害者と社会　共生への歩みを続けねば",
+          "link": "https://mainichi.jp/articles/20250928/ddm/005/070/099000c",
+          "published": "2025/9/28 02:02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］不確実な世界で自立した日本へ論戦を",
+          "link": "https://www.nikkei.com/article/DGXZQODK265R30W5A920C2000000/",
+          "published": "2025年9月28日",
+          "paid": false
+        },
+        {
+          "title": "［社説］三菱UFJは再び世界に挑め",
+          "link": "https://www.nikkei.com/article/DGXZQODK2612A0W5A920C2000000/",
+          "published": "2025年9月28日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "「ホームタウン」撤回　騒動の背景含め検証を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1210795.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年9月28日(日)  09:50",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "国連創設８０年　機能回復へ米国は協調を",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/698113",
+          "published": "2025/9/28",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説入善町「みそ汁調査隊」／食生活改善への一歩に",
+          "link": "https://webun.jp/articles/-/890563",
+          "published": "2025.09.28",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【富山に「専門士の会」】北陸に絵本の輪広げたい",
+          "link": "https://www.hokkoku.co.jp/articles/-/1880497",
+          "published": "9/28",
+          "paid": true
+        },
+        {
+          "title": "社説【県立図書館】サービスの質も「日本一」に",
+          "link": "https://www.hokkoku.co.jp/articles/-/1880496",
+          "published": "9/28",
+          "paid": true
+        },
+        {
+          "title": "社説【石川県立図書館】サービスでも「日本一」に",
+          "link": "https://www.hokkoku.co.jp/articles/-/1880450",
+          "published": "9/28",
+          "paid": true
+        },
+        {
+          "title": "社説【富山に「専門士の会」】北陸に絵本の輪を広げたい",
+          "link": "https://www.hokkoku.co.jp/articles/-/1880449",
+          "published": "9/28",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "下水道管老朽化",
+          "link": "https://www.gifu-np.co.jp/articles/-/604617",
+          "published": "2025年9月28日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　進まぬ新幹線整備　鉄道網の将来像を描け",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/866536",
+          "published": "2025/9/28 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】衆院「1票の格差」　合憲でも選挙改革続けよ",
+          "link": "https://www.topics.or.jp/articles/-/1311726",
+          "published": "2025/9/28 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【ＤＮＡ鑑定不正】信用失墜の責任は重大だ",
+          "link": "https://www.kochinews.co.jp/article/detail/912227",
+          "published": "2025.09.28 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］米軍単独パトロール　捜査権侵害を危惧する",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1679539",
+          "published": "2025年9月28日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞石垣君が代調査　市教委は実施を再考せよ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4654339.html",
+          "published": "2025/09/28",
+          "paid": false
+        }
+      ]
     }
   ]
 }

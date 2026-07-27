@@ -23,6 +23,192 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "暮らし脅かす汚染物質　未来にツケ回さぬ行動を",
+          "link": "https://mainichi.jp/articles/20250504/ddm/005/070/090000c",
+          "published": "2025/5/4 02:02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］日本にEV挽回迫る中国BYDの軽参入",
+          "link": "https://www.nikkei.com/article/DGXZQOCD027MI0S5A500C2000000/",
+          "published": "2025年5月4日",
+          "paid": false
+        },
+        {
+          "title": "［社説］子育ての希望かなえる環境を",
+          "link": "https://www.nikkei.com/article/DGXZQODK2912W0Z20C25A4000000/",
+          "published": "2025年5月4日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "選択的夫婦別姓　社会にとっても有益だ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1169211.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年5月4日(日)  09:35",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "クマ銃猟の法改正　市街地への出没防がねば",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/602183",
+          "published": "2025/5/4",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "日米関税交渉",
+          "link": "https://www.gifu-np.co.jp/articles/-/535421",
+          "published": "2025年5月4日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　日米関税交渉　安易な妥協は禁物だ",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/775140",
+          "published": "2025/5/4 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】こどもの日　権利守られる社会築こう",
+          "link": "https://www.topics.or.jp/articles/-/1234404",
+          "published": "2025/5/4 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【資源協定署名】ウクライナ和平の一歩に",
+          "link": "https://www.kochinews.co.jp/article/detail/857399",
+          "published": "2025.05.04 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］孤立死２万人　お互いさまの安全網を",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1576963",
+          "published": "2025年5月4日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞障害年金不支給急増　恣意的な判定許されない",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4205833.html",
+          "published": "2025/05/04",
+          "paid": false
+        }
+      ]
     }
   ]
 }

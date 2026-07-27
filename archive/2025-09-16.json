@@ -1,0 +1,61 @@
+{
+  "date": "2025-09-16",
+  "sources": [
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］地価上昇のマイナス面にも目配りがいる",
+          "link": "https://www.nikkei.com/article/DGXZQODK164KA0W5A910C2000000/",
+          "published": "2025年9月16日",
+          "paid": false
+        },
+        {
+          "title": "［社説］不信広げる軽油カルテル疑惑",
+          "link": "https://www.nikkei.com/article/DGXZQODK163PL0W5A910C2000000/",
+          "published": "2025年9月16日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "支え合い住みやすい地域へ　高齢化と新しい認知症観　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1276204",
+          "published": "9/16 5:00",
+          "paid": true
+        },
+        {
+          "title": "歯止めとなるルール必要　プロ野球写真・動画配信禁止へ　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1276202",
+          "published": "9/16 5:00",
+          "paid": true
+        }
+      ]
+    }
+  ]
+}

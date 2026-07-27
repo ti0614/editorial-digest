@@ -17,6 +17,209 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "ウクライナ侵攻4年　露の横暴許さない停戦を",
+          "link": "https://mainichi.jp/articles/20260223/ddm/005/070/007000c",
+          "published": "2026/2/23 02:02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【震災１５年　被災者の心のケア】息の長い相談支援を（２月２３日）",
+          "link": "https://www.minpo.jp/articles/-/49513",
+          "published": "2026/02/23 09:07",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "衆院の女性議員　比率アップへ姿勢示せ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1250424.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2026年2月23日(月)  09:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "冬季五輪閉幕　日本選手の強さを見せた",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/784393",
+          "published": "2/23",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説冬季五輪閉幕へ／大きな感動をもらった",
+          "link": "https://webun.jp/articles/-/974425",
+          "published": "2026.02.23",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【片町ＰＲマップ】学生の熱気呼び込みたい",
+          "link": "https://www.hokkoku.co.jp/articles/-/2025210",
+          "published": "2/23",
+          "paid": true
+        },
+        {
+          "title": "社説【のと共栄に公的資金】被災地支援の金融モデルに",
+          "link": "https://www.hokkoku.co.jp/articles/-/2025209",
+          "published": "2/23",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "ウクライナ侵攻４年",
+          "link": "https://www.gifu-np.co.jp/articles/-/671139",
+          "published": "2026年2月23日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　トランプ関税違法　貿易と法の秩序復元を",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/954395",
+          "published": "2026/2/23 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【ウクライナ４年】大国の思惑排除し和平を",
+          "link": "https://www.kochinews.co.jp/article/detail/974257",
+          "published": "2026.02.23 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］PFAS公害調停却下　政府の責任で対処せよ",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1780484",
+          "published": "2026年2月23日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞南城・誹謗中傷で男逮捕　「見えない暴力」許されぬ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-5061805.html",
+          "published": "2026/02/23",
+          "paid": false
+        }
+      ]
     }
   ]
 }

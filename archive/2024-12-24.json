@@ -23,6 +23,208 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "日銀の異次元緩和検証　これでは教訓にならない",
+          "link": "https://mainichi.jp/articles/20241224/ddm/005/070/098000c",
+          "published": "2024/12/24 02:00",
+          "paid": false
+        },
+        {
+          "title": "被爆者への補償　我慢強いる政治の無責任",
+          "link": "https://mainichi.jp/articles/20241224/ddm/005/070/097000c",
+          "published": "2024/12/24 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］政権は危機感を高めて年金改革に臨め",
+          "link": "https://www.nikkei.com/article/DGXZQODK092A00Z01C24A2000000/",
+          "published": "2024年12月24日",
+          "paid": false
+        },
+        {
+          "title": "［社説］自衛隊の人材確保へ総力を",
+          "link": "https://www.nikkei.com/article/DGXZQODK241R90U4A221C2000000/",
+          "published": "2024年12月24日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【県産集成材】官民で利用拡大を（１２月２４日）",
+          "link": "https://www.minpo.jp/articles/-/54694",
+          "published": "2024/12/24 09:24",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "ホンダ日産統合へ　ＥＶ市場のけん引なるか",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/530681",
+          "published": "2024/12/24",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "異次元緩和の検証",
+          "link": "https://www.gifu-np.co.jp/articles/-/482821",
+          "published": "2024年12月24日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　オスプレイ一時停止　安全運航に責任を持て",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/702048",
+          "published": "2024/12/24 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】ホンダと日産　生き残りへ活路見いだせ",
+          "link": "https://www.topics.or.jp/articles/-/1173666",
+          "published": "2024/12/24 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【合区解消されず】政治の信頼にもかかわる",
+          "link": "https://www.kochinews.co.jp/article/detail/816441",
+          "published": "2024.12.24 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］政倫審またも不発　証人喚問で真相解明を",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1496181",
+          "published": "2024年12月24日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞ＷＰＳ行動計画の削除　米軍の性暴力除外するな",
+          "link": "https://ryukyushimpo.jp/editorial/entry-3796768.html",
+          "published": "2024/12/24",
+          "paid": false
+        }
+      ]
     }
   ]
 }

@@ -23,6 +23,185 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "中国軍機初の領空侵犯　緊張高める行動の自制を",
+          "link": "https://mainichi.jp/articles/20240828/ddm/005/070/102000c",
+          "published": "2024/8/28 02:01",
+          "paid": false
+        },
+        {
+          "title": "個人情報保護法の改正　なぜ経済界は反対なのか",
+          "link": "https://mainichi.jp/articles/20240828/ddm/005/070/099000c",
+          "published": "2024/8/28 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【いわきに国際拠点】若い人材定着に期待（８月２８日）",
+          "link": "https://www.minpo.jp/articles/-/55632",
+          "published": "2024/08/28 08:52",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "中国軍機が侵犯　安全を脅かす挑発行為だ",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/465640",
+          "published": "2024/8/28",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "中国軍機の侵犯",
+          "link": "https://www.gifu-np.co.jp/articles/-/432082",
+          "published": "2024年8月28日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　中国軍初の領空侵犯　重大で危険な挑発行為",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/635353",
+          "published": "2024/8/28 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】パリ・パラ開幕　レガシーを深化させよう",
+          "link": "https://www.topics.or.jp/articles/-/1119597",
+          "published": "2024/8/28 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【パリ・パラ開幕】共生社会へ進む契機に",
+          "link": "https://www.kochinews.co.jp/article/detail/779981",
+          "published": "2024.08.28 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］マイナ保険証一本化　混乱回避へ再考求める",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1423282",
+          "published": "2024年8月28日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞処理水放出１年　漁業者支援に全力尽くせ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-3413810.html",
+          "published": "2024/08/28",
+          "paid": false
+        }
+      ]
     }
   ]
 }

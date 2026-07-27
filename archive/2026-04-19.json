@@ -23,6 +23,231 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "SNS依存で賠償命令　子どもへの悪影響直視を",
+          "link": "https://mainichi.jp/articles/20260419/ddm/005/070/111000c",
+          "published": "2026/4/19 02:01",
+          "paid": false
+        },
+        {
+          "title": "民放のBS4K撤退　戦略の見直しが不可欠だ",
+          "link": "https://mainichi.jp/articles/20260419/ddm/005/070/110000c",
+          "published": "2026/4/19 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］重大なAIリスクの現実に向き合う時だ",
+          "link": "https://www.nikkei.com/article/DGXZQODK176YC0X10C26A4000000/",
+          "published": "4月19日",
+          "paid": false
+        },
+        {
+          "title": "［社説］企業型確定拠出年金の充実を",
+          "link": "https://www.nikkei.com/article/DGXZQODK169T90W6A410C2000000/",
+          "published": "4月19日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "石油供給不安　後手に回らぬ対策が必要",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/816779",
+          "published": "4/19",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説田園空間博物館２０周年／散居保全の在り方探れ",
+          "link": "https://webun.jp/articles/-/1005956",
+          "published": "2026.04.19",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【自然史資料館２０年】トキ放鳥を飛躍の機会に",
+          "link": "https://www.hokkoku.co.jp/articles/-/2081800",
+          "published": "4/19",
+          "paid": true
+        },
+        {
+          "title": "社説【労働局の専門部隊】採用増へ出会いの場拡充を",
+          "link": "https://www.hokkoku.co.jp/articles/-/2081799",
+          "published": "4/19",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "成田強制収用検討",
+          "link": "https://www.gifu-np.co.jp/articles/-/695976",
+          "published": "2026年4月19日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　南鳥島、核ごみ文献調査へ　国の責任で説明尽くせ",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/988917",
+          "published": "2026/4/19 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】皇室制度の在り方　女性の皇位継承も議論を",
+          "link": "https://www.topics.or.jp/articles/-/1417890",
+          "published": "2026/4/19 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【増える孤立死】地域実情に即した対策を",
+          "link": "https://www.kochinews.co.jp/article/detail/992979",
+          "published": "2026.04.19 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］らい予防法廃止30年　尊厳回復はなお道半ば",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1820208",
+          "published": "2026年4月19日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞自民大会自衛官歌唱　政治的中立の逸脱明らか",
+          "link": "https://ryukyushimpo.jp/editorial/entry-5198169.html",
+          "published": "2026/04/19",
+          "paid": false
+        }
+      ]
     }
   ]
 }

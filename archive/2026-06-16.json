@@ -57,6 +57,285 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "イラン戦闘終結へ覚書　全当事者が確実な履行を",
+          "link": "https://mainichi.jp/articles/20260616/ddm/005/070/155000c",
+          "published": "2026/6/16 02:01",
+          "paid": false
+        },
+        {
+          "title": "現職首長で初の産休　二者択一迫られぬ社会に",
+          "link": "https://mainichi.jp/articles/20260616/ddm/005/070/153000c",
+          "published": "2026/6/16 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］日銀は物価リスク直視し利上げ路線保て",
+          "link": "https://www.nikkei.com/article/DGXZQODK162O40W6A610C2000000/",
+          "published": "6月16日",
+          "paid": false
+        },
+        {
+          "title": "［社説］LGBTの理解深める活動を",
+          "link": "https://www.nikkei.com/article/DGXZQODK039Q30T00C26A6000000/",
+          "published": "6月16日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【吾妻小舎】知恵絞り次代につなげ（６月１６日）",
+          "link": "https://www.minpo.jp/articles/-/157547",
+          "published": "2026/06/16 11:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "選挙のＳＮＳ規制　公正さ確保へ実効性を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1280757.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2026年6月16日(火)  09:10",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "保存へ支援の輪拡大を　魅力ある千葉県内の建築物　【論説】",
+          "link": "https://www.chibanippo.co.jp/articles/1456051",
+          "published": "6/16 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "米イラン合意　混乱に終止符を打たねば",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/849639",
+          "published": "6/16",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説米イラン覚書合意表明／和平への確実な一歩に",
+          "link": "https://webun.jp/articles/-/1038353",
+          "published": "2026.06.16",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【「お試し移住」】出会いの場を提供したい",
+          "link": "https://www.hokkoku.co.jp/articles/-/2140239",
+          "published": "6/16",
+          "paid": true
+        },
+        {
+          "title": "社説【原発の建て替え】国主導で安全性を最優先に",
+          "link": "https://www.hokkoku.co.jp/articles/-/2140238",
+          "published": "6/16",
+          "paid": true
+        },
+        {
+          "title": "社説【原発の建て替え】　国主導で安全性を最優先に",
+          "link": "https://www.hokkoku.co.jp/articles/-/2140233",
+          "published": "6/16",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "米イラン覚書合意",
+          "link": "https://www.gifu-np.co.jp/articles/-/724887",
+          "published": "2026年6月16日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　米イラン終戦へ覚書　平和への道筋を示せ",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/1023368",
+          "published": "2026/6/16 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】6月県議会開会　展覧会問題の真相究明を",
+          "link": "https://www.topics.or.jp/articles/-/1447395",
+          "published": "2026/6/16 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【米イラン合意】戦闘終結を緊張緩和へ",
+          "link": "https://www.kochinews.co.jp/article/detail/1015632",
+          "published": "2026.06.16 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "宮崎日日新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.the-miyanichi.co.jp/column/syasetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "米イラン終戦覚書合意",
+          "link": "https://www.the-miyanichi.co.jp/column/syasetsu/842303.html",
+          "published": "2026.06.16｜社説",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］米イラン戦闘終結合意　溝を埋め確実な停戦を",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1859834",
+          "published": "2026年6月16日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞待機児童２桁に減少　保育士確保の施策充実を",
+          "link": "https://ryukyushimpo.jp/editorial/entry-5313870.html",
+          "published": "2026/06/16",
+          "paid": false
+        }
+      ]
     }
   ]
 }

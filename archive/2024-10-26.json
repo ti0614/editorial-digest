@@ -23,6 +23,219 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "衆院選2024　ジェンダー平等　「私らしく」尊重の政治を",
+          "link": "https://mainichi.jp/articles/20241026/ddm/005/070/087000c",
+          "published": "2024/10/26 02:02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］中東の両軍事大国は攻撃の応酬を止めよ",
+          "link": "https://www.nikkei.com/article/DGXZQODK261NR0W4A021C2000000/",
+          "published": "2024年10月26日",
+          "paid": false
+        },
+        {
+          "title": "［社説］国民審査で司法に意思示そう",
+          "link": "https://www.nikkei.com/article/DGXZQODK253YN0V21C24A0000000/",
+          "published": "2024年10月26日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【２０２４衆院選　あす投票】貴重な権利必ず行使を（１０月２６日）",
+          "link": "https://www.minpo.jp/articles/-/54968",
+          "published": "2024/10/26 09:29",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【衆院選あす投票】政権選択に民意示す時だ",
+          "link": "https://www.shimotsuke.co.jp/articles/-/989386",
+          "published": "2024/10/26",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "共生社会　多様な価値を尊重せねば",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/498508",
+          "published": "2024/10/26",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "衆院選・多様性",
+          "link": "https://www.gifu-np.co.jp/articles/-/457821",
+          "published": "2024年10月26日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　山陰発　衆院選あす投開票　課題改善へ　まずは一票",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/668842",
+          "published": "2024/10/26 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】24衆院選　地方の活性化　深刻な現状　見えているか",
+          "link": "https://www.topics.or.jp/articles/-/1146382",
+          "published": "2024/10/26 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【2024衆院選　防災対策】課題と向き合い強化を",
+          "link": "https://www.kochinews.co.jp/article/detail/798619",
+          "published": "2024.10.26 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］最高裁国民審査　憲法の番人をチェック",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1459363",
+          "published": "2024年10月26日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞’24衆院選　憲法　国民は改憲急いでいない",
+          "link": "https://ryukyushimpo.jp/editorial/entry-3586082.html",
+          "published": "2024/10/26",
+          "paid": false
+        }
+      ]
     }
   ]
 }

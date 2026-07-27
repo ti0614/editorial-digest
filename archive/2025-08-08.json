@@ -23,6 +23,249 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "ガソリン税の引き下げ　脱炭素と整合性取れない",
+          "link": "https://mainichi.jp/articles/20250808/ddm/005/070/025000c",
+          "published": "2025/8/8 02:01",
+          "paid": false
+        },
+        {
+          "title": "パレスチナ国家承認　ガザ危機打開するテコに",
+          "link": "https://mainichi.jp/articles/20250808/ddm/005/070/024000c",
+          "published": "2025/8/8 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］自民党は内輪もめをやめ国政の道筋示せ",
+          "link": "https://www.nikkei.com/article/DGXZQODK0853M0Y5A800C2000000/",
+          "published": "2025年8月8日",
+          "paid": false
+        },
+        {
+          "title": "［社説］検証を冤罪防止に生かせるか",
+          "link": "https://www.nikkei.com/article/DGXZQODK082Y90Y5A800C2000000/",
+          "published": "2025年8月8日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【東電の廃炉工程】廃棄物処分の展望示せ（８月８日）",
+          "link": "https://www.minpo.jp/articles/-/53360",
+          "published": "2025/08/08 09:03",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【「動くゴッホ展」盛況】感性刺激する試み継続を",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1167643",
+          "published": "2025/8/8",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "ながら運転　危険性の周知徹底こそ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1197289.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年8月8日(金)  09:40",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "最低賃金千円超え　中小零細企業へ支援必要",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/666457",
+          "published": "2025/8/8",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説高齢者シェアハウス／使い勝手が良いように",
+          "link": "https://webun.jp/articles/-/859201",
+          "published": "2025.08.08",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "冤罪の検証",
+          "link": "https://www.gifu-np.co.jp/articles/-/580769",
+          "published": "2025年8月8日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　猛省し再発防止徹底を　「大川原化工機」冤罪検証",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/835786",
+          "published": "2025/8/8 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】ガザ危機的状況　イスラエルへ圧力強めよ",
+          "link": "https://www.topics.or.jp/articles/-/1285457",
+          "published": "2025/8/8 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【新関税適用開始】日米の見解違いは重大だ",
+          "link": "https://www.kochinews.co.jp/article/detail/895722",
+          "published": "2025.08.08 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］嘉手納　相次ぐ新装備　「負担軽減」に逆行する",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1645193",
+          "published": "2025年8月8日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞県芸でセクハラ訴え　被害根絶へ調査、対策を",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4525774.html",
+          "published": "2025/08/08",
+          "paid": false
+        }
+      ]
     }
   ]
 }

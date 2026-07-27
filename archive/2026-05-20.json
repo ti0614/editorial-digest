@@ -63,6 +63,248 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "原油高で補正予算検討　ばらまき続けるツケ重い",
+          "link": "https://mainichi.jp/articles/20260520/ddm/005/070/059000c",
+          "published": "2026/5/20 02:01",
+          "paid": false
+        },
+        {
+          "title": "部活動のバス事故　安全確保の体制を万全に",
+          "link": "https://mainichi.jp/articles/20260520/ddm/005/070/058000c",
+          "published": "2026/5/20 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］日韓は米中主導に流されずアジア協調を",
+          "link": "https://www.nikkei.com/article/DGXZQODK202R90Q6A520C2000000/",
+          "published": "5月20日",
+          "paid": false
+        },
+        {
+          "title": "［社説］党首討論は改革で質を高めよ",
+          "link": "https://www.nikkei.com/article/DGXZQODK204WZ0Q6A520C2000000/",
+          "published": "5月20日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【釈迦堂川花火大会】運営体制の再構築急務（５月２０日）",
+          "link": "https://www.minpo.jp/articles/-/135747",
+          "published": "2026/05/20 09:40",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【上三川強盗殺人事件】闇バイトの低年齢化防げ",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1348766",
+          "published": "5/20  8:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "補正予算の指示　長期化見据えた検討必要",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/833739",
+          "published": "5/20",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説高校国語再編案／多様な表現に学びたい",
+          "link": "https://webun.jp/articles/-/1022612",
+          "published": "2026.05.20",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【ＧＤＰ速報値】中東危機の影響が本格化",
+          "link": "https://www.hokkoku.co.jp/articles/-/2111607",
+          "published": "5/20",
+          "paid": true
+        },
+        {
+          "title": "社説【高校改革の拠点校】地域と歩む視点を大事に",
+          "link": "https://www.hokkoku.co.jp/articles/-/2111606",
+          "published": "5/20",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　日韓首脳会談　結束し大国と向き合え",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/1006587",
+          "published": "2026/5/20 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】熱中症対策　命守るために備えよう",
+          "link": "https://www.topics.or.jp/articles/-/1432813",
+          "published": "2026/5/20 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【補正予算編成へ】財政悪化リスクも直視を",
+          "link": "https://www.kochinews.co.jp/article/detail/1004888",
+          "published": "2026.05.20 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］国旗損壊罪の制定　新設理由が分からない",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1840523",
+          "published": "2026年5月20日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞漁港で無人機訓練　基地負担軽減に逆行する",
+          "link": "https://ryukyushimpo.jp/editorial/entry-5258712.html",
+          "published": "2026/05/20",
+          "paid": false
+        }
+      ]
     }
   ]
 }

@@ -23,6 +23,256 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "戦後80年　日米同盟　揺らぐ紐帯を固め直す時",
+          "link": "https://mainichi.jp/articles/20250902/ddm/005/070/023000c",
+          "published": "2025/9/2 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］自民は党改革と政策進める体制を早急に",
+          "link": "https://www.nikkei.com/article/DGXZQODK022380S5A900C2000000/",
+          "published": "2025年9月2日",
+          "paid": false
+        },
+        {
+          "title": "［社説］信頼おとしめた新浪氏辞任",
+          "link": "https://www.nikkei.com/article/DGXZQODK02AFR0S5A900C2000000/",
+          "published": "2025年9月2日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【いわき市長選】希望ある航路示して（９月２日）",
+          "link": "https://www.minpo.jp/articles/-/53203",
+          "published": "2025/09/02 09:56",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【ＮＩＥ】主権者教育に役立てよう",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1182483",
+          "published": "2025/9/2",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "大和市パワハラ総括　検証なき幕引きは疑問",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1203535.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年9月2日(火)  09:50",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "共生を前へ、選手活躍に期待　パリ・パラリンピック開幕　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1270744",
+          "published": "9/2 5:00",
+          "paid": true
+        },
+        {
+          "title": "芸術を守るのは我々の責任　川村記念美術館、来年１月休館　【論説】",
+          "link": "https://www.chibanippo.co.jp/articles/1270743",
+          "published": "9/2 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "概算要求が最大　優先度重視の予算編成を",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/680930",
+          "published": "2025/9/2",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説企業の事業継続計画／策定だけで安心なのか",
+          "link": "https://webun.jp/articles/-/873027",
+          "published": "2025.09.02",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "日印首脳会談",
+          "link": "https://www.gifu-np.co.jp/articles/-/591830",
+          "published": "2025年9月2日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　日印首脳会談　巨大市場つなぎ留めよ",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/850146",
+          "published": "2025/9/2 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】防災の日　命守るため備えを着実に",
+          "link": "https://www.topics.or.jp/articles/-/1297772",
+          "published": "2025/9/2 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【高知の最低賃金】企業への支援も怠らずに",
+          "link": "https://www.kochinews.co.jp/article/detail/903399",
+          "published": "2025.09.02 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］［沖縄戦80年］宜野座野戦病院　９月以降も犠牲やまず",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1661154",
+          "published": "2025年9月2日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞「人間の安全保障」　「命どぅ宝」思想の実践を",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4576411.html",
+          "published": "2025/09/02",
+          "paid": false
+        }
+      ]
     }
   ]
 }

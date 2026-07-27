@@ -23,6 +23,168 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "一力本因坊が世界戦V　囲碁の魅力広げる契機に",
+          "link": "https://mainichi.jp/articles/20240916/ddm/005/070/017000c",
+          "published": "2024/9/16 02:00",
+          "paid": false
+        },
+        {
+          "title": "党首選の論点　解雇規制の緩和　働き手の権利侵さないか",
+          "link": "https://mainichi.jp/articles/20240916/ddm/005/070/019000c",
+          "published": "2024/9/16 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【行員の処遇向上】県内企業のモデルに（９月１６日）",
+          "link": "https://www.minpo.jp/articles/-/55448",
+          "published": "2024/09/16 09:25",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "玉鷲の出場記録　鍛錬で打ち立てた金字塔",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/476469",
+          "published": "2024/9/16",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "強制不妊和解",
+          "link": "https://www.gifu-np.co.jp/articles/-/441359",
+          "published": "2024年9月16日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　強制不妊巡る和解合意　全面救済の道は険しい",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/646577",
+          "published": "2024/9/16 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【敬老の日】住み慣れた場で前向きに",
+          "link": "https://www.kochinews.co.jp/article/detail/787278",
+          "published": "2024.09.16 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］自民総裁選　沖縄演説会　平和創造の具体策語れ",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1435192",
+          "published": "2024年9月16日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞強制不妊訴訟和解　全ての被害者の救済急げ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-3471849.html",
+          "published": "2024/09/16",
+          "paid": false
+        }
+      ]
     }
   ]
 }

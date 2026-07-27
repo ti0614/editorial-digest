@@ -23,6 +23,289 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "医療の値段見直し　負担増に見合った体制を",
+          "link": "https://mainichi.jp/articles/20260225/ddm/005/070/141000c",
+          "published": "2026/2/25 02:00",
+          "paid": false
+        },
+        {
+          "title": "児童虐待への対応　専門人材の育成が急務だ",
+          "link": "https://mainichi.jp/articles/20260225/ddm/005/070/140000c",
+          "published": "2026/2/25 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］不人気に焦るトランプ氏の暴走を危ぶむ",
+          "link": "https://www.nikkei.com/article/DGXZQODK2545X0V20C26A2000000/",
+          "published": "2月25日",
+          "paid": false
+        },
+        {
+          "title": "［社説］高市首相のカタログギフト配布は軽率だ",
+          "link": "https://www.nikkei.com/article/DGXZQODK2530D0V20C26A2000000/",
+          "published": "2月25日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【ストーカー被害】社会全体で根絶を（２月２５日）",
+          "link": "https://www.minpo.jp/articles/-/49488",
+          "published": "2026/02/25 09:19",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【刑法犯認知件数増】警戒強め被害防ぐ対策を",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1295112",
+          "published": "2/25  8:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "冬季五輪閉幕　大会持続へ改革進めよ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1250789.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2026年2月25日(水)  09:20",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "ウクライナ侵攻４年　終戦実現を急がなければ",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/785228",
+          "published": "2/25",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説ウクライナ侵攻５年目／和平は被侵略国視点で",
+          "link": "https://webun.jp/articles/-/975223",
+          "published": "2026.02.25",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【珠洲に芸術家拠点】復興力づける交流の場に",
+          "link": "https://www.hokkoku.co.jp/articles/-/2026207",
+          "published": "2/25",
+          "paid": true
+        },
+        {
+          "title": "社説【相次ぐ地下水汚染】水質のリスク管理徹底を",
+          "link": "https://www.hokkoku.co.jp/articles/-/2026206",
+          "published": "2/25",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "冬季五輪閉幕",
+          "link": "https://www.gifu-np.co.jp/articles/-/671666",
+          "published": "2026年2月25日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　国会の代表質問　説得力ある政策論議を",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/955258",
+          "published": "2026/2/25 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】ウクライナ侵攻　ロシア寄り和平　認め難い",
+          "link": "https://www.topics.or.jp/articles/-/1389378",
+          "published": "2026/2/25 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【冬季五輪閉幕】持続可能性さらに模索を",
+          "link": "https://www.kochinews.co.jp/article/detail/974658",
+          "published": "2026.02.25 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "宮崎日日新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.the-miyanichi.co.jp/column/syasetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "ウクライナ侵攻４年",
+          "link": "https://www.the-miyanichi.co.jp/column/syasetsu/587924.html",
+          "published": "2026.02.25｜社説",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］ウクライナ侵攻4年　停戦へ包括的枠組みを",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1781427",
+          "published": "2026年2月25日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞ウクライナ侵攻4年　国際社会結束で停戦急げ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-5067555.html",
+          "published": "2026/02/25",
+          "paid": false
+        }
+      ]
     }
   ]
 }

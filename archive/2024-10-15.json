@@ -1,0 +1,48 @@
+{
+  "date": "2024-10-15",
+  "sources": [
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］財源を語らぬ大盤振る舞いは無責任だ",
+          "link": "https://www.nikkei.com/article/DGXZQODK140KG0U4A011C2000000/",
+          "published": "2024年10月15日",
+          "paid": false
+        },
+        {
+          "title": "［社説］中国は台湾武力威嚇をやめよ",
+          "link": "https://www.nikkei.com/article/DGXZQOCD152DG0V11C24A0000000/",
+          "published": "2024年10月15日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    }
+  ]
+}

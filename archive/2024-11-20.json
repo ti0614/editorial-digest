@@ -23,6 +23,225 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "規正法の再改正　企業団体献金禁じる時だ",
+          "link": "https://mainichi.jp/articles/20241120/ddm/005/070/082000c",
+          "published": "2024/11/20 02:00",
+          "paid": false
+        },
+        {
+          "title": "谷川俊太郎さん逝く　「生きる」支えた詩の言葉",
+          "link": "https://mainichi.jp/articles/20241120/ddm/005/070/081000c",
+          "published": "2024/11/20 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］「就労の壁」は扶養のあり方から議論を",
+          "link": "https://www.nikkei.com/article/DGXZQODK194990Z11C24A1000000/",
+          "published": "2024年11月20日",
+          "paid": false
+        },
+        {
+          "title": "［社説］G20多国間協調の後退を防げ",
+          "link": "https://www.nikkei.com/article/DGXZQOCD2077R0Q4A121C2000000/",
+          "published": "2024年11月20日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【パラレルキャリア】地域活性化にも期待（１１月２０日）",
+          "link": "https://www.minpo.jp/articles/-/54808",
+          "published": "2024/11/20 09:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【投票所閉鎖】ネット利用の本格検討を",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1004232",
+          "published": "2024/11/20",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "兵庫知事再選　疑惑解明し信頼の構築を",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/512313",
+          "published": "2024/11/20",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "日中首脳会談",
+          "link": "https://www.gifu-np.co.jp/articles/-/468489",
+          "published": "2024年11月20日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　石破・習近平会談　一層の対話につなげよ",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/682803",
+          "published": "2024/11/20 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】徳島に国際線就航　にぎわい創出の起爆剤に",
+          "link": "https://www.topics.or.jp/articles/-/1157789",
+          "published": "2024/11/20 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【県内「匿流」詐欺】新たな被害防ぐ対策を",
+          "link": "https://www.kochinews.co.jp/article/detail/805470",
+          "published": "2024.11.20 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］琉大学長に喜納氏　女性活躍の先導に期待",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1474774",
+          "published": "2024年11月20日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞１２月に県民大会　県議会は超党派諦めるな",
+          "link": "https://ryukyushimpo.jp/editorial/entry-3662752.html",
+          "published": "2024/11/20",
+          "paid": false
+        }
+      ]
     }
   ]
 }

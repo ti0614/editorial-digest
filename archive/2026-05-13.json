@@ -63,6 +63,288 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "皇室に男系男子養子案　国民の理解得られるのか",
+          "link": "https://mainichi.jp/articles/20260513/ddm/005/070/090000c",
+          "published": "2026/5/13 02:01",
+          "paid": false
+        },
+        {
+          "title": "侵略やめぬプーチン氏　「力の支配」限界知る時だ",
+          "link": "https://mainichi.jp/articles/20260513/ddm/005/070/089000c",
+          "published": "2026/5/13 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］日米通貨当局の連携は市場安定の前提だ",
+          "link": "https://www.nikkei.com/article/DGXZQODK138E30T10C26A5000000/",
+          "published": "5月13日",
+          "paid": false
+        },
+        {
+          "title": "［社説］マイナンバーで薬の乱用防げ",
+          "link": "https://www.nikkei.com/article/DGXZQOCD126FX0S6A510C2000000/",
+          "published": "5月13日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【震災１５年　伝承館の法的認定】活動充実の契機（５月１３日）",
+          "link": "https://www.minpo.jp/articles/-/130119",
+          "published": "2026/05/13 11:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【足利市のいじめ対策】スピード感のある対応を",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1344098",
+          "published": "5/13  8:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "ハンタウイルス　感染拡大と混乱防がねば",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/829467",
+          "published": "5/13",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説スポーツ中継／公共的価値どう捉える",
+          "link": "https://webun.jp/articles/-/1018580",
+          "published": "2026.05.13",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【被災地で田植え】人つなぐ農の力を復興に",
+          "link": "https://www.hokkoku.co.jp/articles/-/2104060",
+          "published": "5/13",
+          "paid": true
+        },
+        {
+          "title": "社説【ふるさと納税】仲介手数料の引き下げを",
+          "link": "https://www.hokkoku.co.jp/articles/-/2104059",
+          "published": "5/13",
+          "paid": true
+        },
+        {
+          "title": "社説【被災地で田植え】人つなぐ農業の力を復興に",
+          "link": "https://www.hokkoku.co.jp/articles/-/2104010",
+          "published": "5/13",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "在留手数料引き上げ",
+          "link": "https://www.gifu-np.co.jp/articles/-/707393",
+          "published": "2026年5月13日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　在留手数料引き上げ　共生の施策は後回しか",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/1002193",
+          "published": "2026/5/13 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】生成AIと教育　リスク踏まえ活用策探れ",
+          "link": "https://www.topics.or.jp/articles/-/1429107",
+          "published": "2026/5/13 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【ウクライナ停戦】順守へ再度取り組め",
+          "link": "https://www.kochinews.co.jp/article/detail/1002467",
+          "published": "2026.05.13 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "宮崎日日新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.the-miyanichi.co.jp/column/syasetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "ウクライナ情勢",
+          "link": "https://www.the-miyanichi.co.jp/column/syasetsu/764666.html",
+          "published": "2026.05.13｜社説",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］在留手数料引き上げ　外国人との共生に逆行",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1835444",
+          "published": "2026年5月13日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞らい予防法違憲判決25年　差別解消へ抜本対策を",
+          "link": "https://ryukyushimpo.jp/editorial/entry-5244825.html",
+          "published": "2026/05/13",
+          "paid": false
+        }
+      ]
     }
   ]
 }

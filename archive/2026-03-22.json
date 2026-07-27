@@ -23,6 +23,232 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "海図なき世界　AIと雇用の未来　社会の変化想像し備えを",
+          "link": "https://mainichi.jp/articles/20260322/ddm/005/070/091000c",
+          "published": "2026/3/22 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］米メディア再編への政治介入は禍根残す",
+          "link": "https://www.nikkei.com/article/DGXZQODK210TK0R20C26A3000000/",
+          "published": "3月22日",
+          "paid": false
+        },
+        {
+          "title": "［社説］健全化に資す仮想通貨規制に",
+          "link": "https://www.nikkei.com/article/DGXZQODK197DX0Z10C26A3000000/",
+          "published": "3月22日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "非正規就労通報制度　相互監視もたらす愚策",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1258065.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2026年3月22日(日)  09:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "旧姓使用法制化　不利益解消が見通せない",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/800573",
+          "published": "3/22",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説国道８号親子死亡事故／危険運転を根絶せねば",
+          "link": "https://webun.jp/articles/-/989888",
+          "published": "2026.03.22",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【花嫁のれん号】定期運行再開は復興の光",
+          "link": "https://www.hokkoku.co.jp/articles/-/2052927",
+          "published": "3/22",
+          "paid": true
+        },
+        {
+          "title": "社説【北陸の再開発事業】建設費高騰が懸念材料に",
+          "link": "https://www.hokkoku.co.jp/articles/-/2052926",
+          "published": "3/22",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "福島原発事故１５年",
+          "link": "https://www.gifu-np.co.jp/articles/-/683135",
+          "published": "2026年3月22日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　国家情報会議法案　監視社会への傾斜憂う",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/971452",
+          "published": "2026/3/22 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】とくしまマラソン　吉野川コース　心に刻んで",
+          "link": "https://www.topics.or.jp/articles/-/1403153",
+          "published": "2026/3/22 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【ｉＰＳ医療】実用化へ着実に前進を",
+          "link": "https://www.kochinews.co.jp/article/detail/983580",
+          "published": "2026.03.22 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］第77回沖展　多彩な表現を楽しもう",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1800085",
+          "published": "2026年3月22日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞高校への誹謗中傷　理由なき攻撃許されない",
+          "link": "https://ryukyushimpo.jp/editorial/entry-5137915.html",
+          "published": "2026/03/22",
+          "paid": false
+        }
+      ]
     }
   ]
 }

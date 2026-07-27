@@ -23,6 +23,202 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "衆院選2024　物価高と暮らし　安心できる社会の展望を",
+          "link": "https://mainichi.jp/articles/20241017/ddm/005/070/060000c",
+          "published": "2024/10/17 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］危機防ぐ外交・安保の覚悟はあるのか",
+          "link": "https://www.nikkei.com/article/DGXZQODK172J10X11C24A0000000/",
+          "published": "2024年10月17日",
+          "paid": false
+        },
+        {
+          "title": "［社説］衆知集めてAIルール整備を",
+          "link": "https://www.nikkei.com/article/DGXZQODK177730X11C24A0000000/",
+          "published": "2024年10月17日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【２０２４衆院選　投票率向上】知恵絞って周知啓発を（１０月１７日）",
+          "link": "https://www.minpo.jp/articles/-/55095",
+          "published": "2024/10/17 09:27",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【マイコプラズマ肺炎】感染拡大に危機感共有を",
+          "link": "https://www.shimotsuke.co.jp/articles/-/984117",
+          "published": "2024/10/17",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "政治とカネ　信頼回復へどう取り組む",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/493655",
+          "published": "2024/10/17",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　万博開幕まで半年　平和への意志 発信せよ",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/663781",
+          "published": "2024/10/17 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】24衆院選　経済政策　負担感の解消へ道筋示せ",
+          "link": "https://www.topics.or.jp/articles/-/1142170",
+          "published": "2024/10/17 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【2024衆院選　経済政策】暮らしの底上げどう図る",
+          "link": "https://www.kochinews.co.jp/article/detail/795640",
+          "published": "2024.10.17 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］南城市第三者委　委員名非公表は妥当か",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1453733",
+          "published": "2024年10月17日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞中国が台湾包囲演習　武力威嚇行為許されない",
+          "link": "https://ryukyushimpo.jp/editorial/entry-3560189.html",
+          "published": "2024/10/17",
+          "paid": false
+        }
+      ]
     }
   ]
 }

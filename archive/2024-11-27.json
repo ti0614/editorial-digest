@@ -23,6 +23,225 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "与野党伯仲の臨時国会　開かれた国会への試金石",
+          "link": "https://mainichi.jp/articles/20241127/ddm/005/070/073000c",
+          "published": "2024/11/27 02:01",
+          "paid": false
+        },
+        {
+          "title": "フリーランス新法施行　働き手の不安拭う運用を",
+          "link": "https://mainichi.jp/articles/20241127/ddm/005/070/072000c",
+          "published": "2024/11/27 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］少数与党の国会こそ建設的な政策協議を",
+          "link": "https://www.nikkei.com/article/DGXZQODK276DZ0X21C24A1000000/",
+          "published": "2024年11月27日",
+          "paid": false
+        },
+        {
+          "title": "［社説］レバノン停戦を安定の一歩に",
+          "link": "https://www.nikkei.com/article/DGXZQODK275L00X21C24A1000000/",
+          "published": "2024年11月27日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【半田銀山再興１５０年】誇れる歴史遺産に（１１月２７日）",
+          "link": "https://www.minpo.jp/articles/-/54779",
+          "published": "2024/11/27 09:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【公務員獣医師不足】人材確保策強化すべきだ",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1008392",
+          "published": "2024/11/27",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "佐渡金山追悼式　日韓の歩み寄り不可欠だ",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/516211",
+          "published": "2024/11/27",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "規正法再改正",
+          "link": "https://www.gifu-np.co.jp/articles/-/471535",
+          "published": "2024年11月27日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　政治資金法再改正　本丸に切り込む時だ",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/686761",
+          "published": "2024/11/27 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】臨時国会あす召集　規正法の「抜け穴」埋めよ",
+          "link": "https://www.topics.or.jp/articles/-/1161010",
+          "published": "2024/11/27 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【政治資金】疑念持たれる余地なくせ",
+          "link": "https://www.kochinews.co.jp/article/detail/808903",
+          "published": "2024.11.27 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］県の米事務所に監査請求　経緯説明し改善策示せ",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1479157",
+          "published": "2024年11月27日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞マイナ保険証移行　併用で国民の選択肢守れ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-3688266.html",
+          "published": "2024/11/27",
+          "paid": false
+        }
+      ]
     }
   ]
 }

@@ -23,6 +23,202 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "教員給与の引き上げ　負担減らす対策もさらに",
+          "link": "https://mainichi.jp/articles/20241004/ddm/005/070/114000c",
+          "published": "2024/10/4 02:01",
+          "paid": false
+        },
+        {
+          "title": "SHOGUNエミー賞　世界に通じた時代劇の粋",
+          "link": "https://mainichi.jp/articles/20241004/ddm/005/070/113000c",
+          "published": "2024/10/4 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【相双発の新商品】官民でブランド化を（１０月４日）",
+          "link": "https://www.minpo.jp/articles/-/55265",
+          "published": "2024/10/04 09:30",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【将棋サミット県内初開催】一層の機運高揚、起点に",
+          "link": "https://www.shimotsuke.co.jp/articles/-/976697",
+          "published": "2024/10/4",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "止まらぬ値上げ　賃金上昇広めていかねば",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/487105",
+          "published": "2024/10/4",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "新政権と金融政策",
+          "link": "https://www.gifu-np.co.jp/articles/-/449145",
+          "published": "2024年10月4日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　新政権と金融政策　正常化の流れ妨げるな",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/657087",
+          "published": "2024/10/4 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】大谷が初の2冠　「打・走」で新たな高みに",
+          "link": "https://www.topics.or.jp/articles/-/1136518",
+          "published": "2024/10/4 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【イランが攻撃】報復の連鎖を食い止めよ",
+          "link": "https://www.kochinews.co.jp/article/detail/792325",
+          "published": "2024.10.04 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］増えるカスハラ　啓発と対策　両輪で臨め",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1446606",
+          "published": "2024年10月4日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞宮崎空港不発弾爆発　調査と撤去は国の責任だ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-3518968.html",
+          "published": "2024/10/04",
+          "paid": false
+        }
+      ]
     }
   ]
 }

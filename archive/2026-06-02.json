@@ -57,6 +57,289 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "北海道新幹線　談合疑い　全容解明し事業適正化を",
+          "link": "https://mainichi.jp/articles/20260602/ddm/005/070/105000c",
+          "published": "2026/6/2 02:01",
+          "paid": false
+        },
+        {
+          "title": "政府のナフサ対策　国民の不安直視すべきだ",
+          "link": "https://mainichi.jp/articles/20260602/ddm/005/070/106000c",
+          "published": "2026/6/2 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］現役負担抑制へ医療保険の改革を急げ",
+          "link": "https://www.nikkei.com/article/DGXZQODK287560Y6A520C2000000/",
+          "published": "6月2日",
+          "paid": false
+        },
+        {
+          "title": "［社説］ヘイトスピーチ抑止へ実効ある対策を",
+          "link": "https://www.nikkei.com/article/DGXZQODK012D00R00C26A6000000/",
+          "published": "6月2日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【絆特区】実態に即した後押しを（６月２日）",
+          "link": "https://www.minpo.jp/articles/-/146405",
+          "published": "2026/06/02 11:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【ふるさと納税手数料】透明化と適正化が必要だ",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1357253",
+          "published": "6/2  8:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "「空と風」への備え万全に　ＺＯＺＯマリン移転構想　【論説】",
+          "link": "https://www.chibanippo.co.jp/articles/1449262",
+          "published": "6/2 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "トキ能登放鳥　本州定着への期待大きく",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/841402",
+          "published": "6/2",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説食物アレルギー／情報提供の質高めたい",
+          "link": "https://webun.jp/articles/-/1030163",
+          "published": "2026.06.02",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【新型軍国主義】支持得られぬ中国の主張",
+          "link": "https://www.hokkoku.co.jp/articles/-/2125880",
+          "published": "6/2",
+          "paid": true
+        },
+        {
+          "title": "社説【フィジカルＡＩ】北陸の技術革新に不可欠",
+          "link": "https://www.hokkoku.co.jp/articles/-/2125879",
+          "published": "6/2",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "衆院選挙制度改革",
+          "link": "https://www.gifu-np.co.jp/articles/-/717430",
+          "published": "2026年6月2日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　衆院選挙制度改革　民意の多様化に応えよ",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/1014603",
+          "published": "2026/6/2 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】県意向で展示中止　異論を封殺する暴挙だ",
+          "link": "https://www.topics.or.jp/articles/-/1439714",
+          "published": "2026/6/2 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【「やまもも」終了】児童詩の文化絶やさずに",
+          "link": "https://www.kochinews.co.jp/article/detail/1011063",
+          "published": "2026.06.02 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "宮崎日日新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.the-miyanichi.co.jp/column/syasetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "医療制度改革",
+          "link": "https://www.the-miyanichi.co.jp/column/syasetsu/811403.html",
+          "published": "2026.06.02｜社説",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］OTC類似薬負担増　懸念拭う慎重な対応を",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1849821",
+          "published": "2026年6月2日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞GW2050成長戦略　経済界、行政の連携模索を",
+          "link": "https://ryukyushimpo.jp/editorial/entry-5285772.html",
+          "published": "2026/06/02",
+          "paid": false
+        }
+      ]
     }
   ]
 }

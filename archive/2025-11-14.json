@@ -23,6 +23,289 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "デフリンピックあす開幕　意思疎通の壁取り払おう",
+          "link": "https://mainichi.jp/articles/20251114/ddm/005/070/053000c",
+          "published": "2025/11/14 02:02",
+          "paid": false
+        },
+        {
+          "title": "リニア工事費が倍増　将来見据え再点検が必要",
+          "link": "https://mainichi.jp/articles/20251114/ddm/005/070/052000c",
+          "published": "2025/11/14 02:02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］働き方改革と労働時間規制の交点を探れ",
+          "link": "https://www.nikkei.com/article/DGXZQODK146CV0U5A111C2000000/",
+          "published": "2025年11月14日",
+          "paid": false
+        },
+        {
+          "title": "［社説］ASEAN完成を結束の力に",
+          "link": "https://www.nikkei.com/article/DGXZQODK144JB0U5A111C2000000/",
+          "published": "2025年11月14日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【農業定着率低迷】担い手育成強化を（１１月１４日）",
+          "link": "https://www.minpo.jp/articles/-/51490",
+          "published": "2025/11/14 09:07",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【見川鯛山没後20年】現代の生き方問う契機に",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1229672",
+          "published": "2025/11/14",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "デフリンピック　応援通じ社会考えよう",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1223856.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年11月14日(金)  10:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "原発意識調査　県民の懸念にどう応える",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/728063",
+          "published": "2025/11/14",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説ＣＯＰ３０／米国不在を乗り越えて",
+          "link": "https://webun.jp/articles/-/919695",
+          "published": "2025.11.14",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【トキ認証米】能登全域に栽培広げたい",
+          "link": "https://www.hokkoku.co.jp/articles/-/1928544",
+          "published": "11/14",
+          "paid": true
+        },
+        {
+          "title": "社説【議員定数の削減】覚悟を持って法案提出を",
+          "link": "https://www.hokkoku.co.jp/articles/-/1928543",
+          "published": "11/14",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "東京デフリンピック",
+          "link": "https://www.gifu-np.co.jp/articles/-/625510",
+          "published": "2025年11月14日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　東京デフリンピック　手話への理解進めよう",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/895640",
+          "published": "2025/11/14 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】米不在のCOP30　結束力示し対策強化を",
+          "link": "https://www.topics.or.jp/articles/-/1337653",
+          "published": "2025/11/14 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【存立危機事態】慎重さ欠いた首相答弁",
+          "link": "https://www.kochinews.co.jp/article/detail/929076",
+          "published": "2025.11.14 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "宮崎日日新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.the-miyanichi.co.jp/column/syasetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "観光船沈没初公判",
+          "link": "https://www.the-miyanichi.co.jp/column/syasetsu/374612.html",
+          "published": "2025.11.14｜社説",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］レンタカー台数最多　悪質業者へ指導強めよ",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1713344",
+          "published": "2025年11月14日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞琉球遺骨さらに466体　官学で遺骨の返還進めよ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4771101.html",
+          "published": "2025/11/14",
+          "paid": false
+        }
+      ]
     }
   ]
 }

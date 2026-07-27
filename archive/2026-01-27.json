@@ -17,6 +17,279 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "衆院選2026　きょう公示　責任ある政党見極める時",
+          "link": "https://mainichi.jp/articles/20260127/ddm/005/070/086000c",
+          "published": "2026/1/27 02:03",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］国際協調担う強い日本外交の戦略を語れ",
+          "link": "https://www.nikkei.com/article/DGXZQODK2510D0V20C26A1000000/",
+          "published": "1月27日",
+          "paid": false
+        },
+        {
+          "title": "［社説］東京電力再建は不退転の決意で",
+          "link": "https://www.nikkei.com/article/DGXZQODK274ZL0X20C26A1000000/",
+          "published": "1月27日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【２０２６衆院選　きょう公示】未来をかけた選択だ（１月２７日）",
+          "link": "https://www.minpo.jp/articles/-/50027",
+          "published": "2026/01/27 09:46",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "沖縄と選挙　問われる「国のかたち」",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1242950.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2026年1月27日(火)  09:20",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "ＳＯＳ見逃さない体制築け　千葉県立高生徒自殺　【論説】",
+          "link": "https://www.chibanippo.co.jp/news/national/1392917",
+          "published": "1/27 5:00",
+          "paid": true
+        },
+        {
+          "title": "地方創生２・０　地域商社、課題解決に光　【論説】",
+          "link": "https://www.chibanippo.co.jp/news/politics/1392919",
+          "published": "1/27 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "きょう公示　各党の国家観見極めたい",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/769012",
+          "published": "1/27",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説衆院選きょう公示／主権者たる国民として",
+          "link": "https://webun.jp/articles/-/959976",
+          "published": "2026.01.27",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【日米為替介入か】行き過ぎた円安止めたい",
+          "link": "https://www.hokkoku.co.jp/articles/-/1998466",
+          "published": "1/27",
+          "paid": true
+        },
+        {
+          "title": "社説【真冬の衆院選】投票権守る支援が不可欠",
+          "link": "https://www.hokkoku.co.jp/articles/-/1998465",
+          "published": "1/27",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "衆院選きょう公示",
+          "link": "https://www.gifu-np.co.jp/articles/-/658793",
+          "published": "2026年1月27日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　衆院選きょう２７日公示　中身の濃い政策論争を",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/938358",
+          "published": "2026/1/27 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】26衆院選　きょう公示　主張の真贋　見極めよう",
+          "link": "https://www.topics.or.jp/articles/-/1375438",
+          "published": "2026/1/27 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【２０２６衆院選　きょう公示】時代の岐路に重要な選択",
+          "link": "https://www.kochinews.co.jp/article/detail/954462",
+          "published": "2026.01.27 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "宮崎日日新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.the-miyanichi.co.jp/column/syasetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "衆院選へ",
+          "link": "https://www.the-miyanichi.co.jp/column/syasetsu/522023.html",
+          "published": "2026.01.27｜社説",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］衆院選きょう公示　有権者に丁寧な説明を",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1762336",
+          "published": "2026年1月27日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞きょう衆院選公示　首相に白紙委任できない",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4989570.html",
+          "published": "2026/01/27",
+          "paid": false
+        }
+      ]
     }
   ]
 }

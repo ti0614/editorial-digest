@@ -17,6 +17,251 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "SNSと選挙　公正さ確保へ対策強化を",
+          "link": "https://mainichi.jp/articles/20260330/ddm/012/070/139000c",
+          "published": "2026/3/30 02:00",
+          "paid": false
+        },
+        {
+          "title": "自転車の青切符開始　ルール守る意識高めたい",
+          "link": "https://mainichi.jp/articles/20260330/ddm/012/070/138000c",
+          "published": "2026/3/30 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］リニア新幹線の前進で成長力の底上げを",
+          "link": "https://www.nikkei.com/article/DGXZQOCD3029I0Q6A330C2000000/",
+          "published": "3月30日",
+          "paid": false
+        },
+        {
+          "title": "［社説］著作権改正で過去作品生かせ",
+          "link": "https://www.nikkei.com/article/DGXZQODK304CM0Q6A330C2000000/",
+          "published": "3月30日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【自主出版即売会】活字の力で地域振興（３月３０日）",
+          "link": "https://www.minpo.jp/articles/-/94190",
+          "published": "2026/03/30 12:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "ステーションハブ　線から面へ機能転換を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1260305.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2026年3月30日(月)  10:10",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "脅威増す特定外来生物　対策の実効性さらに高めよ　【論説】",
+          "link": "https://www.chibanippo.co.jp/articles/1592411",
+          "published": "3/30 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "犯罪被害者支援　経済面の救済拡充が急務",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/805315",
+          "published": "3/30",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説改正女性活躍推進法／格差是正につなげたい",
+          "link": "https://webun.jp/articles/-/994650",
+          "published": "2026.03.30",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【災害支援教員】能登の知見を生かしたい",
+          "link": "https://www.hokkoku.co.jp/articles/-/2061397",
+          "published": "3/30",
+          "paid": true
+        },
+        {
+          "title": "社説【自転車道の国指定】愛好者の拡大へ隣県連携を",
+          "link": "https://www.hokkoku.co.jp/articles/-/2061396",
+          "published": "3/30",
+          "paid": true
+        },
+        {
+          "title": "社説【災害支援教員】富山も派遣体制整えたい",
+          "link": "https://www.hokkoku.co.jp/articles/-/2061365",
+          "published": "3/30",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "長射程ミサイル",
+          "link": "https://www.gifu-np.co.jp/articles/-/686966",
+          "published": "2026年3月30日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　長射程ミサイル　不安軽減へ説明尽くせ",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/976517",
+          "published": "2026/3/30 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【国旗損壊罪】憲法を脅かしかねない",
+          "link": "https://www.kochinews.co.jp/article/detail/986275",
+          "published": "2026.03.30 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］中東危機と物価高　予算に対策費盛り込め",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1805713",
+          "published": "2026年3月30日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞暫定予算編成　強引な手法を改め熟議を",
+          "link": "https://ryukyushimpo.jp/editorial/entry-5157084.html",
+          "published": "2026/03/30",
+          "paid": false
+        }
+      ]
     }
   ]
 }

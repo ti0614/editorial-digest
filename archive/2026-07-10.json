@@ -26,7 +26,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "企業献金規制と与党　露骨なすり替えと先送り",
+          "link": "https://mainichi.jp/articles/20260710/ddm/005/070/096000c",
+          "published": "2026/7/10 02:01",
+          "paid": false
+        },
+        {
+          "title": "最低賃金目標の先送り　暮らしを支えられるのか",
+          "link": "https://mainichi.jp/articles/20260710/ddm/005/070/097000c",
+          "published": "2026/7/10 02:01",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "読売新聞",
@@ -46,7 +59,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "［社説］結論ありきの皇室典範改正は理解得られぬ",
+          "link": "https://www.nikkei.com/article/DGXZQODK105P60Q6A710C2000000/",
+          "published": "10日",
+          "paid": false
+        },
+        {
+          "title": "［社説］夕張の財政破綻20年を戒めに",
+          "link": "https://www.nikkei.com/article/DGXZQODK107BA0Q6A710C2000000/",
+          "published": "10日",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "産経新聞",
@@ -244,7 +270,7 @@
       "category": "社説",
       "tier": "regional",
       "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
-      "error": null,
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
       "items": [
@@ -291,7 +317,7 @@
       "category": "論説",
       "tier": "regional",
       "index_url": "https://www.chibanippo.co.jp/serial",
-      "error": null,
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
       "items": []
@@ -338,7 +364,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "社説【自動運転の普及】安全委の調査で信頼感を",
+          "link": "https://www.hokkoku.co.jp/articles/-/2165299",
+          "published": "7/10",
+          "paid": true
+        },
+        {
+          "title": "社説【富山高山すし空港】民営化の次の一手に期待",
+          "link": "https://www.hokkoku.co.jp/articles/-/2165298",
+          "published": "7/10",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "福井新聞",
@@ -493,7 +532,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "【長期金利上昇】国民生活への影響に懸念",
+          "link": "https://www.kochinews.co.jp/article/detail/1023587",
+          "published": "2026.07.10 05:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "日本海新聞",

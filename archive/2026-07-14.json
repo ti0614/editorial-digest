@@ -32,7 +32,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "AI基本計画の改定　リスクへの備えを万全に",
+          "link": "https://mainichi.jp/articles/20260714/ddm/005/070/222000c",
+          "published": "2026/7/14 02:03",
+          "paid": false
+        },
+        {
+          "title": "クールジャパン機構失敗　土壌育てる発想に転換を",
+          "link": "https://mainichi.jp/articles/20260714/ddm/005/070/219000c",
+          "published": "2026/7/14 02:03",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "読売新聞",
@@ -65,7 +78,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "［社説］米イランはホルムズ海峡塞ぐ争い止めよ",
+          "link": "https://www.nikkei.com/article/DGXZQODK144D60U6A710C2000000/",
+          "published": "14日",
+          "paid": false
+        },
+        {
+          "title": "［社説］製鉄の脱炭素に不退転で挑め",
+          "link": "https://www.nikkei.com/article/DGXZQODK133MJ0T10C26A7000000/",
+          "published": "14日",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "産経新聞",
@@ -264,7 +290,7 @@
       "category": "社説",
       "tier": "regional",
       "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
-      "error": null,
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
       "items": [
@@ -311,7 +337,7 @@
       "category": "論説",
       "tier": "regional",
       "index_url": "https://www.chibanippo.co.jp/serial",
-      "error": null,
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
       "items": []
@@ -358,7 +384,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "社説【ロシア人スパイ】日本での暗躍を止めねば",
+          "link": "https://www.hokkoku.co.jp/articles/-/2168574",
+          "published": "7/14",
+          "paid": true
+        },
+        {
+          "title": "社説【トキ認証米】まず地域で買い支えたい",
+          "link": "https://www.hokkoku.co.jp/articles/-/2168573",
+          "published": "7/14",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "福井新聞",

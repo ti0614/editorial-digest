@@ -32,7 +32,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "「国旗」法案の衆院通過　必要性のなさ浮き彫りに",
+          "link": "https://mainichi.jp/articles/20260702/ddm/005/070/081000c",
+          "published": "2026/7/2 02:06",
+          "paid": false
+        },
+        {
+          "title": "らい予防法廃止30年　なお残る差別根絶せねば",
+          "link": "https://mainichi.jp/articles/20260702/ddm/005/070/080000c",
+          "published": "2026/7/2 02:06",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "読売新聞",
@@ -52,7 +65,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "［社説］与党は数の力に頼る拙速な国会運営慎め",
+          "link": "https://www.nikkei.com/article/DGXZQODK0289X0S6A700C2000000/",
+          "published": "2日",
+          "paid": false
+        },
+        {
+          "title": "［社説］右派回帰の南米にトランプ氏の介入懸念",
+          "link": "https://www.nikkei.com/article/DGXZQODK024QZ0S6A700C2000000/",
+          "published": "2日",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "産経新聞",
@@ -230,14 +256,21 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "【食品ロス削減計画】機運高め 取り組み加速を",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1376946",
+          "published": "7/2  8:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "神奈川新聞",
       "category": "社説",
       "tier": "regional",
       "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
-      "error": null,
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
       "items": [
@@ -284,7 +317,7 @@
       "category": "論説",
       "tier": "regional",
       "index_url": "https://www.chibanippo.co.jp/serial",
-      "error": null,
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
       "items": []
@@ -297,7 +330,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "異例の国会　目に余る与党の強硬姿勢",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/860364",
+          "published": "7/2",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "北日本新聞",
@@ -307,7 +347,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "社説皇室典範改正案／「総意」逸脱、再考すべき",
+          "link": "https://webun.jp/articles/-/1048430",
+          "published": "2026.07.02",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "北國新聞",
@@ -317,7 +364,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "社説【皇室典範改正案】皇統を支える新たな道を",
+          "link": "https://www.hokkoku.co.jp/articles/-/2157024",
+          "published": "7/2",
+          "paid": true
+        },
+        {
+          "title": "社説【北陸道２人死亡】なお高い「危険運転」の壁",
+          "link": "https://www.hokkoku.co.jp/articles/-/2157023",
+          "published": "7/2",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "福井新聞",
@@ -374,7 +434,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "成長投資３７０兆円",
+          "link": "https://www.gifu-np.co.jp/articles/-/733096",
+          "published": "2026年7月2日 05:00岐阜",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "奈良新聞",
@@ -414,7 +481,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "論説　終盤国会情勢　首相は質疑に応じよ",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/1033847",
+          "published": "2026/7/2 04:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "徳島新聞",
@@ -424,7 +498,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "【社説】教団の解散確定　政治との関係は未解明だ",
+          "link": "https://www.topics.or.jp/articles/-/1456394",
+          "published": "2026/7/2 5:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "愛媛新聞",
@@ -444,7 +525,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "【皇室典範改正案】「総意」軽視が甚だしい",
+          "link": "https://www.kochinews.co.jp/article/detail/1021035",
+          "published": "2026.07.02 05:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "日本海新聞",
@@ -528,7 +616,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "［社説］国会の空洞化　度を超した与党の横暴",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1871702",
+          "published": "2026年7月2日",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "琉球新報",

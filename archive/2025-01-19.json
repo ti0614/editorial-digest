@@ -23,6 +23,191 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "中居氏問題でフジ会見　疑問に答える徹底調査を",
+          "link": "https://mainichi.jp/articles/20250119/ddm/005/070/043000c",
+          "published": "2025/1/19 02:01",
+          "paid": false
+        },
+        {
+          "title": "バイデン外交の功罪　世界の分断を増幅させた",
+          "link": "https://mainichi.jp/articles/20250119/ddm/005/070/042000c",
+          "published": "2025/1/19 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］韓国は大統領逮捕を混乱収拾の転機に",
+          "link": "https://www.nikkei.com/article/DGXZQODK190RO0Z10C25A1000000/",
+          "published": "2025年1月19日",
+          "paid": false
+        },
+        {
+          "title": "［社説］フジは丁寧な調査と説明を",
+          "link": "https://www.nikkei.com/article/DGXZQODK173X20X10C25A1000000/",
+          "published": "2025年1月19日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "ロス山火事　異常気象で拡大した被害",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/541832",
+          "published": "2025/1/19",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "川重の物品供与",
+          "link": "https://www.gifu-np.co.jp/articles/-/491236",
+          "published": "2025年1月19日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　災害時の井戸活用　生活用水確保へ周知を",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/714807",
+          "published": "2025/1/19 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】徳島水平社100年　志受け継ぎ差別なくそう",
+          "link": "https://www.topics.or.jp/articles/-/1184081",
+          "published": "2025/1/19 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【県内倒産増加】きめ細かい支援重要に",
+          "link": "https://www.kochinews.co.jp/article/detail/822238",
+          "published": "2025.01.19 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］辺野古１４訴訟終結　解決の道閉ざした司法",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1509950",
+          "published": "2025年1月19日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞辺野古訴訟終結　民主主義の問い終わらず",
+          "link": "https://ryukyushimpo.jp/editorial/entry-3874562.html",
+          "published": "2025/01/19",
+          "paid": false
+        }
+      ]
     }
   ]
 }

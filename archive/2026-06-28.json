@@ -32,7 +32,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "再審見直しの参院審議　冤罪の救済狭めぬ修正を",
+          "link": "https://mainichi.jp/articles/20260628/ddm/005/070/106000c",
+          "published": "2026/6/28 02:02",
+          "paid": false
+        },
+        {
+          "title": "夏休みと子どもの貧困　食と居場所の支援不可欠",
+          "link": "https://mainichi.jp/articles/20260628/ddm/005/070/105000c",
+          "published": "2026/6/28 02:02",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "読売新聞",
@@ -52,7 +65,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "［社説］認知症や独居高齢者の支援を切れ目なく",
+          "link": "https://www.nikkei.com/article/DGXZQODK184R10Y6A610C2000000/",
+          "published": "6月28日",
+          "paid": false
+        },
+        {
+          "title": "［社説］東電新会長は改革の先頭に",
+          "link": "https://www.nikkei.com/article/DGXZQODK26AMD0W6A620C2000000/",
+          "published": "6月28日",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "産経新聞",
@@ -223,7 +249,7 @@
       "category": "社説",
       "tier": "regional",
       "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
-      "error": null,
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
       "items": [
@@ -270,7 +296,7 @@
       "category": "論説",
       "tier": "regional",
       "index_url": "https://www.chibanippo.co.jp/serial",
-      "error": null,
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
       "items": []
@@ -283,7 +309,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "教団「解散」確定　これで全て解決ではない",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/857632",
+          "published": "6/28",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "北日本新聞",
@@ -293,7 +326,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "社説入善ジャンボ西瓜／栽培後押し 町ぐるみで",
+          "link": "https://webun.jp/articles/-/1046099",
+          "published": "2026.06.28",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "北國新聞",
@@ -303,7 +343,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "社説【単身高齢者の支援】新制度担う人員の拡充を",
+          "link": "https://www.hokkoku.co.jp/articles/-/2152942",
+          "published": "6/28",
+          "paid": true
+        },
+        {
+          "title": "社説【データセンター】環境協定は信頼培う一歩",
+          "link": "https://www.hokkoku.co.jp/articles/-/2152941",
+          "published": "6/28",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "福井新聞",
@@ -353,7 +406,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "サッカーＷ杯",
+          "link": "https://www.gifu-np.co.jp/articles/-/730953",
+          "published": "2026年6月28日 05:00岐阜",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "奈良新聞",
@@ -393,7 +453,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "論説　ＬＧＢＴ基本計画　策定はゴールではない",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/1031363",
+          "published": "2026/6/28 04:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "徳島新聞",
@@ -403,7 +470,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "【社説】衆院定数削減法案　少数意見を排除するのか",
+          "link": "https://www.topics.or.jp/articles/-/1454284",
+          "published": "2026/6/28 5:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "愛媛新聞",
@@ -423,7 +497,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "【ベネズエラ地震】支援急ぎたい未曽有災害",
+          "link": "https://www.kochinews.co.jp/article/detail/1019797",
+          "published": "2026.06.28 05:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "日本海新聞",
@@ -500,7 +581,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "［社説］沖縄陸自の師団化　軍備競争からの転換を",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1868788",
+          "published": "2026年6月28日",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "琉球新報",
@@ -510,7 +598,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "＜社説＞衆院定数削減法案　少数無視、民主政治損なう",
+          "link": "https://ryukyushimpo.jp/editorial/entry-5343704.html",
+          "published": "2026/06/28",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "佐賀新聞",

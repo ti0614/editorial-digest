@@ -17,6 +17,256 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "衆院選で高市自民圧勝　独断専行に陥れば信失う",
+          "link": "https://mainichi.jp/articles/20260209/ddm/012/070/076000c",
+          "published": "2026/2/9 05:33",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］高市首相は1強を何に生かすのか",
+          "link": "https://www.nikkei.com/article/DGXZQODK097K90Z00C26A2000000/",
+          "published": "2月9日",
+          "paid": false
+        },
+        {
+          "title": "［社説］首相はおごらず真に責任ある政策を",
+          "link": "https://www.nikkei.com/article/DGXZQODK081C10Y6A200C2000000/",
+          "published": "2月9日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【２０２６衆院選　自民党大勝】問われる真価（２月９日）",
+          "link": "https://www.minpo.jp/articles/-/49768",
+          "published": "2026/02/09 09:16",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "自民圧勝　政治「翼賛化」を危ぶむ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1246709.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2026年2月9日(月)  11:30",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "地中災害、防ぐ対策不可欠　埼玉の県道陥没・転落事故　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1398425",
+          "published": "2/9 5:00",
+          "paid": true
+        },
+        {
+          "title": "削減へ一層の意識改革を　「食品ロス」対策の見直し　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1398426",
+          "published": "2/9 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "自民３分の２議席　白紙委任したのではない",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/776660",
+          "published": "2/9",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説２６衆院選 自民圧勝／白紙委任とはならない",
+          "link": "https://webun.jp/articles/-/966986",
+          "published": "2026.02.09",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【与党３１０議席超】「高市旋風」が猛威振るう",
+          "link": "https://www.hokkoku.co.jp/articles/-/2011594",
+          "published": "2/9",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　白紙委任はしていない　高市自民が衆院選大勝",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/946136",
+          "published": "2026/2/9 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】26衆院選　自民圧勝　白紙委任と勘違いするな",
+          "link": "https://www.topics.or.jp/articles/-/1381739",
+          "published": "2026/2/9 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【衆院選高知】一様でない自民「信任」",
+          "link": "https://www.kochinews.co.jp/article/detail/959880",
+          "published": "2026.02.09 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "宮崎日日新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.the-miyanichi.co.jp/column/syasetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "衆院選で自民勝利",
+          "link": "https://www.the-miyanichi.co.jp/column/syasetsu/547814.html",
+          "published": "2026.02.09｜社説",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］［2026　衆院選］沖縄選挙区　自民全勝　県民益優先の姿勢貫け",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1771128",
+          "published": "2026年2月9日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞衆院選自民大勝　乱暴な国策強要許されぬ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-5022639.html",
+          "published": "2026/02/09",
+          "paid": false
+        }
+      ]
     }
   ]
 }

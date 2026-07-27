@@ -23,6 +23,255 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "イランが新指導者選出　強硬路線継続を懸念する",
+          "link": "https://mainichi.jp/articles/20260310/ddm/005/070/120000c",
+          "published": "2026/3/10 02:02",
+          "paid": false
+        },
+        {
+          "title": "中東緊迫化と原油急騰　世界経済の危機避けねば",
+          "link": "https://mainichi.jp/articles/20260310/ddm/005/070/119000c",
+          "published": "2026/3/10 02:02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【震災１５年　風化を防ぐ】原発視察を生かしたい（３月１０日）",
+          "link": "https://www.minpo.jp/articles/-/80316",
+          "published": "2026/03/10 09:14",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【水田農業の高収益化】大規模核のモデル確立を",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1303861",
+          "published": "3/10  8:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "ｉＰＳ再生医療　普及拡大へ大きく前進",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1254640.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2026年3月10日(火)  09:40",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "中国全人代　軍拡で経済再生図れるか",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/793317",
+          "published": "3/10",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説創刊５００００号／「物申す」言論をつなぐ",
+          "link": "https://webun.jp/articles/-/982861",
+          "published": "2026.03.10",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【村山金沢市長再選】力量問われる都心再開発",
+          "link": "https://www.hokkoku.co.jp/articles/-/2040381",
+          "published": "3/10",
+          "paid": true
+        },
+        {
+          "title": "社説【ホルムズ海峡封鎖】海上警備行動発令の検討を",
+          "link": "https://www.hokkoku.co.jp/articles/-/2040380",
+          "published": "3/10",
+          "paid": true
+        },
+        {
+          "title": "社説【ホルムズ海峡封鎖】海上警備行動の検討を",
+          "link": "https://www.hokkoku.co.jp/articles/-/2040359",
+          "published": "3/10",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　原油高騰　冷静に油断と向き合え",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/963628",
+          "published": "2026/3/10 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】アミコビル　再生巡る建設的な議論を",
+          "link": "https://www.topics.or.jp/articles/-/1396462",
+          "published": "2026/3/10 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【イラン新指導者】交戦激化は経済に打撃",
+          "link": "https://www.kochinews.co.jp/article/detail/979341",
+          "published": "2026.03.10 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "宮崎日日新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.the-miyanichi.co.jp/column/syasetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "中国全人代",
+          "link": "https://www.the-miyanichi.co.jp/column/syasetsu/620726.html",
+          "published": "2026.03.10｜社説",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］相次ぐ「国際法無視」　戦火から子どもを守れ",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1791151",
+          "published": "2026年3月10日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞熊本に長射程ミサイル　配備やめ専守防衛を貫け",
+          "link": "https://ryukyushimpo.jp/editorial/entry-5105947.html",
+          "published": "2026/03/10",
+          "paid": false
+        }
+      ]
     }
   ]
 }

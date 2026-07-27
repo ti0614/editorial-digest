@@ -23,6 +23,237 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "在留手続きの負担増　筋通らぬ過大な引き上げ",
+          "link": "https://mainichi.jp/articles/20260426/ddm/005/070/100000c",
+          "published": "2026/4/26 02:01",
+          "paid": false
+        },
+        {
+          "title": "チョルノービリ事故40年　廃炉の難しさ直視せねば",
+          "link": "https://mainichi.jp/articles/20260426/ddm/005/070/099000c",
+          "published": "2026/4/26 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］供給制約下でも値上げは説明を尽くせ",
+          "link": "https://www.nikkei.com/article/DGXZQODK225M90S6A420C2000000/",
+          "published": "4月26日",
+          "paid": false
+        },
+        {
+          "title": "［社説］チョルノービリ原発の教訓",
+          "link": "https://www.nikkei.com/article/DGXZQODK261610W6A420C2000000/",
+          "published": "4月26日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "下水管老朽化　深刻な危機を認識せねば",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/820991",
+          "published": "4/26",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説棚田家の保存活用／震災復興のシンボルに",
+          "link": "https://webun.jp/articles/-/1010123",
+          "published": "2026.04.26",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【金沢駅西にライブ場】北陸の音楽文化育む力に",
+          "link": "https://www.hokkoku.co.jp/articles/-/2088989",
+          "published": "4/26",
+          "paid": true
+        },
+        {
+          "title": "社説【原油供給リスク】節約要請の時期ではない",
+          "link": "https://www.hokkoku.co.jp/articles/-/2088988",
+          "published": "4/26",
+          "paid": true
+        },
+        {
+          "title": "社説【駅西にライブ場】金沢の音楽文化育む力に",
+          "link": "https://www.hokkoku.co.jp/articles/-/2088980",
+          "published": "4/26",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "イラン攻撃２ヵ月",
+          "link": "https://www.gifu-np.co.jp/articles/-/699289",
+          "published": "2026年4月26日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　チョルノービリ原発事故４０年　原発のリスク再認識を",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/993166",
+          "published": "2026/4/26 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】予防法廃止30年　ハンセン病の差別根絶を",
+          "link": "https://www.topics.or.jp/articles/-/1421463",
+          "published": "2026/4/26 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【国家情報会議】参院でより議論を尽くせ",
+          "link": "https://www.kochinews.co.jp/article/detail/995303",
+          "published": "2026.04.26 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］知事選本格始動　政策競う公正な選挙を",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1825300",
+          "published": "2026年4月26日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞県知事選構図固まる　混迷する時代に進路示せ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-5212551.html",
+          "published": "2026/04/26",
+          "paid": false
+        }
+      ]
     }
   ]
 }

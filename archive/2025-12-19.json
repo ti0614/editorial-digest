@@ -23,6 +23,289 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "香港紙創業者に「有罪」　看過できない言論弾圧だ",
+          "link": "https://mainichi.jp/articles/20251219/ddm/005/070/033000c",
+          "published": "2025/12/19 02:02",
+          "paid": false
+        },
+        {
+          "title": "スマホ新法が全面施行　利用者本位の運用が必要",
+          "link": "https://mainichi.jp/articles/20251219/ddm/005/070/034000c",
+          "published": "2025/12/19 02:02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］日銀は利上げ継続の道筋で十分な対話を",
+          "link": "https://www.nikkei.com/article/DGXZQODK194GH0Z11C25A2000000/",
+          "published": "2025年12月19日",
+          "paid": false
+        },
+        {
+          "title": "［社説］危うい米国の対ベネズエラ圧力",
+          "link": "https://www.nikkei.com/article/DGXZQODK196DV0Z11C25A2000000/",
+          "published": "2025年12月19日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【定数削減継続審議】選挙制度全般の検証を（１２月１９日）",
+          "link": "https://www.minpo.jp/articles/-/50773",
+          "published": "2025/12/19 09:16",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【栃木ＩＢ本格始動へ】地方創生の起業家育成を",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1251933",
+          "published": "2025/12/19",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "景況感改善　利上げ効果を注視する",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1233553.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年12月19日(金)  10:30",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "政治資金規正　抜け穴許さぬ制度整えよ",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/748986",
+          "published": "2025/12/19",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説女性参政権８０年／政治参画 加速させたい",
+          "link": "https://webun.jp/articles/-/940333",
+          "published": "2025.12.19",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【「年収の壁」合意】硬直した税制に風穴開いた",
+          "link": "https://www.hokkoku.co.jp/articles/-/1964696",
+          "published": "12/19",
+          "paid": true
+        },
+        {
+          "title": "社説【漁場の震災調査】実態把握を再生の力に",
+          "link": "https://www.hokkoku.co.jp/articles/-/1964695",
+          "published": "12/19",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "安倍氏銃撃結審",
+          "link": "https://www.gifu-np.co.jp/articles/-/643982",
+          "published": "2025年12月19日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　安倍氏銃撃裁判結審　社会の在り方問われた",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/917156",
+          "published": "2025/12/19 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】香港　民主の灯消滅　批判封じる政治許し難い",
+          "link": "https://www.topics.or.jp/articles/-/1357534",
+          "published": "2025/12/19 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【リンゴ日報有罪】香港が失う言論の自由",
+          "link": "https://www.kochinews.co.jp/article/detail/940754",
+          "published": "2025.12.19 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "宮崎日日新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.the-miyanichi.co.jp/column/syasetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "政治改革先送り",
+          "link": "https://www.the-miyanichi.co.jp/column/syasetsu/444761.html",
+          "published": "2025.12.19｜社説",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］自治体の物価高対策　実情踏まえ柔軟　迅速に",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1738293",
+          "published": "2025年12月19日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞高市内閣初国会閉幕　重要政策、議論深まらず",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4883426.html",
+          "published": "2025/12/19",
+          "paid": false
+        }
+      ]
     }
   ]
 }

@@ -17,6 +17,283 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "中東情勢とウクライナ　露を利する米の身勝手さ",
+          "link": "https://mainichi.jp/articles/20260320/ddm/005/070/117000c",
+          "published": "2026/3/20 02:02",
+          "paid": false
+        },
+        {
+          "title": "原油高騰と春闘　逆風克服し賃上げ広範に",
+          "link": "https://mainichi.jp/articles/20260320/ddm/005/070/115000c",
+          "published": "2026/3/20 02:02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］日米同盟に宿題を残した首脳会談",
+          "link": "https://www.nikkei.com/article/DGXZQODK200GZ0Q6A320C2000000/",
+          "published": "3月20日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【冬季五輪・パラ】感動を地域振興に（３月２０日）",
+          "link": "https://www.minpo.jp/articles/-/84692",
+          "published": "2026/03/20 12:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【部活動地域展開】スポーツ、文化振興好機に",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1310922",
+          "published": "3/20  8:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "「ベースゲート」開業　潜在力の牽引役を期待",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1257689.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2026年3月20日(金)  10:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "センバツ開幕　県勢２校にエールを送る",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/799824",
+          "published": "3/20",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説身寄りのない高齢者／支える仕組み整えたい",
+          "link": "https://webun.jp/articles/-/988967",
+          "published": "2026.03.20",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【あさがおマラソン】「ハーフ」の魅力広げたい",
+          "link": "https://www.hokkoku.co.jp/articles/-/2051155",
+          "published": "3/20",
+          "paid": true
+        },
+        {
+          "title": "社説【日米首脳会談】米側に立つ意志を明確に",
+          "link": "https://www.hokkoku.co.jp/articles/-/2051154",
+          "published": "3/20",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "春闘集中回答",
+          "link": "https://www.gifu-np.co.jp/articles/-/682509",
+          "published": "2026年3月20日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　春闘回答　持続的な賃上げ目指せ",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/970372",
+          "published": "2026/3/20 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】金利据え置き　慎重に利上げ時期探れ",
+          "link": "https://www.topics.or.jp/articles/-/1402270",
+          "published": "2026/3/20 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【南鳥島に核ごみ】慎重な論議が欠かせない",
+          "link": "https://www.kochinews.co.jp/article/detail/983042",
+          "published": "2026.03.20 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "宮崎日日新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.the-miyanichi.co.jp/column/syasetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "辺野古沖転覆事故",
+          "link": "https://www.the-miyanichi.co.jp/column/syasetsu/646970.html",
+          "published": "2026.03.20｜社説",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］国家情報会議法案　監視社会の懸念拭えず",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1798872",
+          "published": "2026年3月20日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞衆院定数削減案　強行なら民意切り捨てだ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-5132998.html",
+          "published": "2026/03/20",
+          "paid": false
+        }
+      ]
     }
   ]
 }

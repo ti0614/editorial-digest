@@ -23,6 +23,278 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "H3ロケットが失敗　原因究明し次への教訓に",
+          "link": "https://mainichi.jp/articles/20251224/ddm/005/070/101000c",
+          "published": "2025/12/24 02:01",
+          "paid": false
+        },
+        {
+          "title": "米国のベネズエラ威圧　武力で権益化を図る横暴",
+          "link": "https://mainichi.jp/articles/20251224/ddm/005/070/100000c",
+          "published": "2025/12/24 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］現役世代への目配りなき診療報酬改定",
+          "link": "https://www.nikkei.com/article/DGXZQODK2345Y0T21C25A2000000/",
+          "published": "2025年12月24日",
+          "paid": false
+        },
+        {
+          "title": "［社説］野村は世界市場に挑む野心を",
+          "link": "https://www.nikkei.com/article/DGXZQODK246C20U5A221C2000000/",
+          "published": "2025年12月24日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【郡山で遺跡巡回展】古代を理解する好機（１２月２４日）",
+          "link": "https://www.minpo.jp/articles/-/50676",
+          "published": "2025/12/24 09:12",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "武器輸出の拡大　国是の空洞化許されぬ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1234878.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年12月24日(水)  09:40",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "再稼働同意伝達　リスクから県民守れるか",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/751979",
+          "published": "2025/12/24",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説「核保有」発言／三原則軽視許されない",
+          "link": "https://webun.jp/articles/-/943178",
+          "published": "2025.12.24",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【すしサミット】共存共栄へ話題づくりを",
+          "link": "https://www.hokkoku.co.jp/articles/-/1969781",
+          "published": "12/24",
+          "paid": true
+        },
+        {
+          "title": "社説【太陽光の規制】事前チェックの強化も重要",
+          "link": "https://www.hokkoku.co.jp/articles/-/1969780",
+          "published": "12/24",
+          "paid": true
+        },
+        {
+          "title": "社説【太陽光の規制】事前チェック強化も重要",
+          "link": "https://www.hokkoku.co.jp/articles/-/1969762",
+          "published": "12/24",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "官邸の核保有論",
+          "link": "https://www.gifu-np.co.jp/articles/-/646094",
+          "published": "2025年12月24日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　官邸の核保有論　「核なき世界」に反する",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/920157",
+          "published": "2025/12/24 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】生成AI検索　著作権守る対策が必要だ",
+          "link": "https://www.topics.or.jp/articles/-/1360079",
+          "published": "2025/12/24 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【Ｈ３ロケット】体制の立て直しが急務だ",
+          "link": "https://www.kochinews.co.jp/article/detail/942489",
+          "published": "2025.12.24 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "宮崎日日新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.the-miyanichi.co.jp/column/syasetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "国会の使命",
+          "link": "https://www.the-miyanichi.co.jp/column/syasetsu/455138.html",
+          "published": "2025.12.24｜社説",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］トランプ政権１年　暴政で米国の威信失う",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1741755",
+          "published": "2025年12月24日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞賠償遅れで国提訴　被害者補償の制度改めよ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4896830.html",
+          "published": "2025/12/24",
+          "paid": false
+        }
+      ]
     }
   ]
 }

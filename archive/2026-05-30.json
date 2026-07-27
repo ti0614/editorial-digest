@@ -57,6 +57,288 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "存在感高まる日本映画　次代につなぐ製作環境を",
+          "link": "https://mainichi.jp/articles/20260530/ddm/005/070/149000c",
+          "published": "2026/5/30 02:01",
+          "paid": false
+        },
+        {
+          "title": "給付付き税額控除　中低所得者の支援明確に",
+          "link": "https://mainichi.jp/articles/20260530/ddm/005/070/150000c",
+          "published": "2026/5/30 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］日本版CFIUSで経済安保に透明性を",
+          "link": "https://www.nikkei.com/article/DGXZQODK300T50Q6A530C2000000/",
+          "published": "5月30日",
+          "paid": false
+        },
+        {
+          "title": "［社説］辺野古事故が問う中立と安全",
+          "link": "https://www.nikkei.com/article/DGXZQOCD26AUX0W6A520C2000000/",
+          "published": "5月30日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【図柄入りナンバー】会津をＰＲする好機（５月３０日）",
+          "link": "https://www.minpo.jp/articles/-/144251",
+          "published": "2026/05/30 11:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【暑熱避難施設】協力拡大と活用促進を",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1355702",
+          "published": "5/30  8:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "新たな気象情報　確実な避難につなげたい",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/840009",
+          "published": "5/30",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説高齢者の労災／安心して働ける環境に",
+          "link": "https://webun.jp/articles/-/1028736",
+          "published": "2026.05.30",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【金沢・武蔵再開発】閉塞感破る新たな未来図",
+          "link": "https://www.hokkoku.co.jp/articles/-/2122879",
+          "published": "5/30",
+          "paid": true
+        },
+        {
+          "title": "社説【高潮予報海岸】精度高めた情報発信に期待",
+          "link": "https://www.hokkoku.co.jp/articles/-/2122878",
+          "published": "5/30",
+          "paid": true
+        },
+        {
+          "title": "社説【高潮予報海岸】精度高めた情報に期待",
+          "link": "https://www.hokkoku.co.jp/articles/-/2122849",
+          "published": "5/30",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "医療制度改革",
+          "link": "https://www.gifu-np.co.jp/articles/-/716271",
+          "published": "2026年5月30日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　医療制度改革　患者の負担増に配慮を",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/1012964",
+          "published": "2026/5/30 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】辺野古平和学習　違法認定　踏み込み過ぎだ",
+          "link": "https://www.topics.or.jp/articles/-/1438386",
+          "published": "2026/5/30 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【新県民体育館】拙速は避け議論尽くせ",
+          "link": "https://www.kochinews.co.jp/article/detail/1010285",
+          "published": "2026.05.30 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "宮崎日日新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.the-miyanichi.co.jp/column/syasetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "辺野古沖事故",
+          "link": "https://www.the-miyanichi.co.jp/column/syasetsu/806384.html",
+          "published": "2026.05.30｜社説",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］米軍機騒音　負担増放置せず協議を",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1847997",
+          "published": "2026年5月30日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞国家情報会議創設法成立　市民監視の懸念拭えない",
+          "link": "https://ryukyushimpo.jp/editorial/entry-5279703.html",
+          "published": "2026/05/30",
+          "paid": false
+        }
+      ]
     }
   ]
 }

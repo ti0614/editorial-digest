@@ -23,6 +23,198 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "ウクライナとの協議　露は時間稼ぎせず停戦を",
+          "link": "https://mainichi.jp/articles/20250518/ddm/005/070/110000c",
+          "published": "2025/5/18 02:01",
+          "paid": false
+        },
+        {
+          "title": "トランプ2．0　米国債の格下げ　無責任な政策への警鐘だ",
+          "link": "https://mainichi.jp/articles/20250518/ddm/005/070/108000c",
+          "published": "2025/5/18 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］米国は中東安定への努力をより真剣に",
+          "link": "https://www.nikkei.com/article/DGXZQODK166CV0W5A510C2000000/",
+          "published": "2025年5月18日",
+          "paid": false
+        },
+        {
+          "title": "［社説］最高益メガバンクは逆風に備えよ",
+          "link": "https://www.nikkei.com/article/DGXZQODK1676W0W5A510C2000000/",
+          "published": "2025年5月18日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "日本語指導　共生社会へ支援強化を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1172827.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年5月18日(日)  11:10",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "学校の安全　注意払い子ども守らねば",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/609768",
+          "published": "2025/5/18",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "ウクライナ和平交渉",
+          "link": "https://www.gifu-np.co.jp/articles/-/541389",
+          "published": "2025年5月18日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　ウクライナ和平交渉　戦闘激化回避に全力を",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/782732",
+          "published": "2025/5/18 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】後藤田県政2年　異論にも耳を傾けねば",
+          "link": "https://www.topics.or.jp/articles/-/1240825",
+          "published": "2025/5/18 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【備蓄米の放出】流通停滞の改善を急げ",
+          "link": "https://www.kochinews.co.jp/article/detail/861505",
+          "published": "2025.05.18 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］［沖縄戦80年］学徒隊　少年少女まで根こそぎ",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1585414",
+          "published": "2025年5月18日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞「西田発言」抗議決議　沖縄戦の実相なぜ触れぬ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4240055.html",
+          "published": "2025/05/18",
+          "paid": false
+        }
+      ]
     }
   ]
 }

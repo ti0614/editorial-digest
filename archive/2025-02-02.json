@@ -23,6 +23,191 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "森友文書で国敗訴　真相解明へ直ちに開示を",
+          "link": "https://mainichi.jp/articles/20250202/ddm/005/070/063000c",
+          "published": "2025/2/2 02:02",
+          "paid": false
+        },
+        {
+          "title": "点字誕生から200年　活用広げる環境整えたい",
+          "link": "https://mainichi.jp/articles/20250202/ddm/005/070/062000c",
+          "published": "2025/2/2 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］世界を混乱に陥れるトランプ関税の愚",
+          "link": "https://www.nikkei.com/article/DGXZQODK021X10S5A200C2000000/",
+          "published": "2025年2月2日",
+          "paid": false
+        },
+        {
+          "title": "［社説］子どもの自殺予防策の強化を",
+          "link": "https://www.nikkei.com/article/DGXZQODK319A80R30C25A1000000/",
+          "published": "2025年2月2日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "アウシュビッツ　決して忘れてはならない",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/549332",
+          "published": "2025/2/2",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "予算委審議入り",
+          "link": "https://www.gifu-np.co.jp/articles/-/497325",
+          "published": "2025年2月2日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　予算委審議入り　野党も姿勢が問われる",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/722797",
+          "published": "2025/2/2 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】森友問題関連文書　判決踏まえ　国は開示せよ",
+          "link": "https://www.topics.or.jp/articles/-/1190571",
+          "published": "2025/2/2 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【介護業界の苦境】地域実情に沿った施策を",
+          "link": "https://www.kochinews.co.jp/article/detail/826176",
+          "published": "2025.02.02 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］子どもの自殺最多　前兆分析し支援強化を",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1518749",
+          "published": "2025年2月2日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞森友不開示取り消し　全容解明へ文書開示せよ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-3922207.html",
+          "published": "2025/02/02",
+          "paid": false
+        }
+      ]
     }
   ]
 }

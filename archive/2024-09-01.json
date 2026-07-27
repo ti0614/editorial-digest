@@ -23,6 +23,151 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "激甚化する自然災害　つながり深め命救いたい",
+          "link": "https://mainichi.jp/articles/20240901/ddm/005/070/102000c",
+          "published": "2024/9/1 02:01",
+          "paid": false
+        },
+        {
+          "title": "市場の混乱と日銀　金融正常化へ対話丁寧に",
+          "link": "https://mainichi.jp/articles/20240901/ddm/005/070/099000c",
+          "published": "2024/9/1 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "新学期スタート　子どもの変化見逃さずに",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/468683",
+          "published": "2024/9/1",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　防災の日　今の備えで十分なのか",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/638225",
+          "published": "2024/9/1 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】防災の日　備えの点検・充実重ねよう",
+          "link": "https://www.topics.or.jp/articles/-/1121577",
+          "published": "2024/9/1 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【創刊１２０周年】新時代も「信頼」大事に",
+          "link": "https://www.kochinews.co.jp/article/detail/781144",
+          "published": "2024.09.01 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］防衛省概算要求　膨張に「歯止め」かけよ",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1426339",
+          "published": "2024年9月1日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞宜野湾市長選告示　基地問題の解決手法問う",
+          "link": "https://ryukyushimpo.jp/editorial/entry-3431734.html",
+          "published": "2024/09/01",
+          "paid": false
+        }
+      ]
     }
   ]
 }

@@ -17,6 +17,256 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "はしかの感染者増加　軽視せずに着実な対策を",
+          "link": "https://mainichi.jp/articles/20260420/ddm/005/070/079000c",
+          "published": "2026/4/20 02:01",
+          "paid": false
+        },
+        {
+          "title": "横行する露「影の船団」　リスク放置すれば危うい",
+          "link": "https://mainichi.jp/articles/20260420/ddm/005/070/078000c",
+          "published": "2026/4/20 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］企業の成長を支える社債市場の育成を",
+          "link": "https://www.nikkei.com/article/DGXZQODK208G20Q6A420C2000000/",
+          "published": "4月20日",
+          "paid": false
+        },
+        {
+          "title": "［社説］男女の賃金差を放置するな",
+          "link": "https://www.nikkei.com/article/DGXZQODK2000X0Q6A420C2000000/",
+          "published": "4月20日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【ジビエの活用】地域活性化の糧に",
+          "link": "https://www.minpo.jp/articles/-/113726",
+          "published": "2026/04/20 11:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "「結論ありき」から対話重視へ　市原市家庭ごみ有料化継続審査　【論説】",
+          "link": "https://www.chibanippo.co.jp/articles/1602148",
+          "published": "4/20 5:00",
+          "paid": true
+        },
+        {
+          "title": "地域とのつながり支援を　身寄りのない高齢者が増加　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1429353",
+          "published": "4/20 5:00",
+          "paid": true
+        },
+        {
+          "title": "房総活性化の起爆剤に　君津に千葉ロッテ２軍移転　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1429352",
+          "published": "4/20 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "普天間合意３０年　危険性の除去を急がねば",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/817033",
+          "published": "4/20",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説氷河期世代支援計画／迫る高齢期 不安軽減を",
+          "link": "https://webun.jp/articles/-/1006448",
+          "published": "2026.04.20",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【若者の転出超過】学都の強み引き出したい",
+          "link": "https://www.hokkoku.co.jp/articles/-/2082600",
+          "published": "4/20",
+          "paid": true
+        },
+        {
+          "title": "社説【永平寺と交流促進】禅の里つなぐ周遊の核に",
+          "link": "https://www.hokkoku.co.jp/articles/-/2082599",
+          "published": "4/20",
+          "paid": true
+        },
+        {
+          "title": "社説【永平寺と交流促進】禅の里つなぐ周遊の核",
+          "link": "https://www.hokkoku.co.jp/articles/-/2082551",
+          "published": "4/20",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "皇族数の確保",
+          "link": "https://www.gifu-np.co.jp/articles/-/696234",
+          "published": "2026年4月20日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　アルテミス月周回　宇宙競争、冷静な視点を",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/989325",
+          "published": "2026/4/20 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【温室ガス削減】目標達成へ対策強化を",
+          "link": "https://www.kochinews.co.jp/article/detail/993148",
+          "published": "2026.04.20 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］国論二分政策　国権重視の姿勢鮮明に",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1820614",
+          "published": "2026年4月20日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞PFAS「反国防的」　住民不安無視する発言だ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-5199830.html",
+          "published": "2026/04/20",
+          "paid": false
+        }
+      ]
     }
   ]
 }

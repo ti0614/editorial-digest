@@ -17,6 +17,295 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "長射程ミサイルの配備　懸念に応えねば無責任だ",
+          "link": "https://mainichi.jp/articles/20260410/ddm/005/070/085000c",
+          "published": "2026/4/10 02:00",
+          "paid": false
+        },
+        {
+          "title": "女性参政権80年　声届ける仕組みをさらに",
+          "link": "https://mainichi.jp/articles/20260410/ddm/005/070/083000c",
+          "published": "2026/4/10 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］ホルムズ海峡の通航料は受け入れられぬ",
+          "link": "https://www.nikkei.com/article/DGXZQOCD093H50Z00C26A4000000/",
+          "published": "4月10日",
+          "paid": false
+        },
+        {
+          "title": "［社説］普天間返還合意の実現を急げ",
+          "link": "https://www.nikkei.com/article/DGXZQODK107MV0Q6A410C2000000/",
+          "published": "4月10日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【交通系電子マネー】バス利用の追い風に（４月１０日）",
+          "link": "https://www.minpo.jp/articles/-/105078",
+          "published": "2026/04/10 12:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【県内野党勢】統一選前に立て直し急げ",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1324534",
+          "published": "4/10  8:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "フィジカルＡＩ\t強み生かし実装促進を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1263380.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2026年4月10日(金)  09:30",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "人類最遠へ到達　月探査への大きな前進だ",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/811939",
+          "published": "4/10",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説クマ出没警戒／持続可能なすみ分けを",
+          "link": "https://webun.jp/articles/-/1001158",
+          "published": "2026.04.10",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【石川県立図書館】２１美に続く集客の成功例",
+          "link": "https://www.hokkoku.co.jp/articles/-/2072863",
+          "published": "4/10",
+          "paid": true
+        },
+        {
+          "title": "社説【揺らぐ停戦合意】２千隻の救出を最優先に",
+          "link": "https://www.hokkoku.co.jp/articles/-/2072862",
+          "published": "4/10",
+          "paid": true
+        },
+        {
+          "title": "社説【県立図書館１３７万人】２１美に続く集客の成功例",
+          "link": "https://www.hokkoku.co.jp/articles/-/2072798",
+          "published": "4/10",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "ＳＮＳ投資詐欺",
+          "link": "https://www.gifu-np.co.jp/articles/-/692207",
+          "published": "2026年4月10日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　ＳＮＳ投資詐欺　実効性のある法整備を",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/983550",
+          "published": "2026/4/10 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】コウノトリ繁殖　生物多様性学ぶ教材に",
+          "link": "https://www.topics.or.jp/articles/-/1413321",
+          "published": "2026/4/10 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【新たな月探査】国際協調の試金石になる",
+          "link": "https://www.kochinews.co.jp/article/detail/990078",
+          "published": "2026.04.10 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "宮崎日日新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.the-miyanichi.co.jp/column/syasetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "子育て支援金徴収開始",
+          "link": "https://www.the-miyanichi.co.jp/column/syasetsu/692978.html",
+          "published": "2026.04.10｜社説",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］女性参政権行使80年　「参画」加速させてこそ",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1814019",
+          "published": "2026年4月10日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞26年度予算成立　国論二分の法案、熟議を",
+          "link": "https://ryukyushimpo.jp/editorial/entry-5180875.html",
+          "published": "2026/04/10",
+          "paid": false
+        }
+      ]
     }
   ]
 }

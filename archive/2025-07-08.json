@@ -23,6 +23,243 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "参院選2025　社会保障の持続性　負担の議論避けて通れぬ",
+          "link": "https://mainichi.jp/articles/20250708/ddm/005/070/078000c",
+          "published": "2025/7/8 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］トランプ関税の一方的な通告は不当だ",
+          "link": "https://www.nikkei.com/article/DGXZQODK082N90Y5A700C2000000/",
+          "published": "2025年7月8日",
+          "paid": false
+        },
+        {
+          "title": "［社説］国際協調を担うBRICSに",
+          "link": "https://www.nikkei.com/article/DGXZQODK086450Y5A700C2000000/",
+          "published": "2025年7月8日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【２０２５参院選　財政運営】現実を直視して語れ（７月８日）",
+          "link": "https://www.minpo.jp/articles/-/53659",
+          "published": "2025/07/08 09:12",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【選挙とSNS】民主主義が試されている",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1146837",
+          "published": "2025/7/8",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "高校野球開幕　「制する者」躍動に期待",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1187821.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年7月8日(火)  09:40",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "コメ・農業政策　持続への方策が問われる",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/644888",
+          "published": "2025/7/8",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説成年後見人／「使える制度」に刷新を",
+          "link": "https://webun.jp/articles/-/838627",
+          "published": "2025.07.08",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "安倍氏銃撃３年",
+          "link": "https://www.gifu-np.co.jp/articles/-/565754",
+          "published": "2025年7月8日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　自民と教団、関係解明を　安倍元首相銃撃３年",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/815357",
+          "published": "2025/7/8 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】25参院選　コメ政策　抜本改革目指し議論を",
+          "link": "https://www.topics.or.jp/articles/-/1268201",
+          "published": "2025/7/8 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【２０２５参院選 　 外交・安保】主体性持ち道を探れ",
+          "link": "https://www.kochinews.co.jp/article/detail/884910",
+          "published": "2025.07.08 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］平和関連８施設シンポ　継承へ有機的な連携を",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1622245",
+          "published": "2025年7月8日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞８平和施設連携シンポ　自分ごとの沖縄戦継承を",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4420705.html",
+          "published": "2025/07/08",
+          "paid": false
+        }
+      ]
     }
   ]
 }

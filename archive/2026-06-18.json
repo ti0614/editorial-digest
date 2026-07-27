@@ -57,6 +57,283 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "知床沖事故で社長実刑　運航のずさんさ糾弾した",
+          "link": "https://mainichi.jp/articles/20260618/ddm/005/070/099000c",
+          "published": "2026/6/18 02:02",
+          "paid": false
+        },
+        {
+          "title": "衆院比例の45削減案　議会軽んじる首相の暴走",
+          "link": "https://mainichi.jp/articles/20260618/ddm/005/070/103000c",
+          "published": "2026/6/18 02:02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］米イラン攻撃の代償は大きすぎる",
+          "link": "https://www.nikkei.com/article/DGXZQODK184XJ0Y6A610C2000000/",
+          "published": "6月18日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【震災１５年　富岡ワイン】「復興」の付加価値を（６月１８日）",
+          "link": "https://www.minpo.jp/articles/-/159409",
+          "published": "2026/06/18 11:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【高齢者の労災】体力見極め作業見直しを",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1367828",
+          "published": "6/18  8:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "米イランの合意　対話重ね確実な履行を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1281444.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2026年6月18日(木)  09:40",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "知床事故判決　ずさんな安全管理を断罪",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/851106",
+          "published": "6/18",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説「ながら運転」／危険との認識持たねば",
+          "link": "https://webun.jp/articles/-/1039648",
+          "published": "2026.06.18",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【知床沈没判決】安全軽視は厳罰免れず",
+          "link": "https://www.hokkoku.co.jp/articles/-/2142592",
+          "published": "6/18",
+          "paid": true
+        },
+        {
+          "title": "社説【クマ被害に警戒】市街地や海辺も油断できぬ",
+          "link": "https://www.hokkoku.co.jp/articles/-/2142591",
+          "published": "6/18",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "知床事故判決",
+          "link": "https://www.gifu-np.co.jp/articles/-/726026",
+          "published": "2026年6月18日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　政治改革論議　優先順位を間違えるな",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/1024769",
+          "published": "2026/6/18 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】日銀利上げ　インフレ懸念の解消図れ",
+          "link": "https://www.topics.or.jp/articles/-/1448613",
+          "published": "2026/6/18 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【Ｈ３ロケット】実績重ねて信頼回復を",
+          "link": "https://www.kochinews.co.jp/article/detail/1016323",
+          "published": "2026.06.18 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "宮崎日日新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.the-miyanichi.co.jp/column/syasetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "知床観光船事故判決",
+          "link": "https://www.the-miyanichi.co.jp/column/syasetsu/847808.html",
+          "published": "2026.06.18｜社説",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］LGBT基本計画　問われる政策の具体化",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1861299",
+          "published": "2026年6月18日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞日銀1％に利上げ　資金繰り影響に目配りを",
+          "link": "https://ryukyushimpo.jp/editorial/entry-5318587.html",
+          "published": "2026/06/18",
+          "paid": false
+        }
+      ]
     }
   ]
 }

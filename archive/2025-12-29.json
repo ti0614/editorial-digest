@@ -23,6 +23,255 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "日本の中央アジア外交　互恵関係構築する一歩に",
+          "link": "https://mainichi.jp/articles/20251229/ddm/005/070/013000c",
+          "published": "2025/12/29 02:02",
+          "paid": false
+        },
+        {
+          "title": "出産費用の無償化　医療の質守る制度設計を",
+          "link": "https://mainichi.jp/articles/20251229/ddm/005/070/014000c",
+          "published": "2025/12/29 02:02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］公正なウクライナ早期和平を諦めるな",
+          "link": "https://www.nikkei.com/article/DGXZQOCD270E70X21C25A2000000/",
+          "published": "2025年12月29日",
+          "paid": false
+        },
+        {
+          "title": "［社説］能登の復興を息長く支えよう",
+          "link": "https://www.nikkei.com/article/DGXZQODK290SX0Z21C25A2000000/",
+          "published": "2025年12月29日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【会津のバス再編】路線維持へ利用確保を（１２月２９日）",
+          "link": "https://www.minpo.jp/articles/-/50575",
+          "published": "2025/12/29 09:09",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "新たな防災気象情報　「自ら行動」へ定着図れ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1236042.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年12月29日(月)  10:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "Ｈ３打ち上げ失敗　信頼回復へ立て直さねば",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/754515",
+          "published": "2025/12/29",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説ＡＩ性的画像加工／悪ふざけでは済まない",
+          "link": "https://webun.jp/articles/-/945779",
+          "published": "2025.12.29",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【２次避難の指針】受け入れの教訓も継承を",
+          "link": "https://www.hokkoku.co.jp/articles/-/1974229",
+          "published": "12/29",
+          "paid": true
+        },
+        {
+          "title": "社説【北陸の観光政策】創生の活力を量から質に",
+          "link": "https://www.hokkoku.co.jp/articles/-/1974228",
+          "published": "12/29",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "防衛費と増税",
+          "link": "https://www.gifu-np.co.jp/articles/-/648210",
+          "published": "2025年12月29日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　Ｈ３ロケット失敗　開発体制含めて検証を",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/923090",
+          "published": "2025/12/29 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】25年県内回顧　新ホールの足踏みを憂う",
+          "link": "https://www.topics.or.jp/articles/-/1362443",
+          "published": "2025/12/29 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【２０２５回顧（上）】転機に問われた民主主義",
+          "link": "https://www.kochinews.co.jp/article/detail/943866",
+          "published": "2025.12.29 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］総事局観光サイト閉鎖　ずさんな支出検証せよ",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1745019",
+          "published": "2025年12月29日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞辺野古「地盤改良」１年　新基地の目的化をやめよ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4911803.html",
+          "published": "2025/12/29",
+          "paid": false
+        }
+      ]
     }
   ]
 }

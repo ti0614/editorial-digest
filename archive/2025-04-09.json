@@ -23,6 +23,232 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "東電が再建計画先送り　原発頼みの限界露呈した",
+          "link": "https://mainichi.jp/articles/20250409/ddm/005/070/097000c",
+          "published": "2025/4/9 02:00",
+          "paid": false
+        },
+        {
+          "title": "トランプ2．0　石破政権の関税交渉　術中にはまらない戦略を",
+          "link": "https://mainichi.jp/articles/20250409/ddm/005/070/099000c",
+          "published": "2025/4/9 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］石破政権は不当な米関税に毅然と対応を",
+          "link": "https://www.nikkei.com/article/DGXZQODK08ANI0Y5A400C2000000/",
+          "published": "2025年4月9日",
+          "paid": false
+        },
+        {
+          "title": "［社説］英文開示を発信強化の弾みに",
+          "link": "https://www.nikkei.com/article/DGXZQODK095JU0Z00C25A4000000/",
+          "published": "2025年4月9日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【県国際交流協会】安定した財務基盤を（４月９日）",
+          "link": "https://www.minpo.jp/articles/-/54209",
+          "published": "2025/04/09 09:21",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【大田原屋台まつり】存続へ新事業粘り強く",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1089388",
+          "published": "2025/4/9",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "石破政権の半年　国益守り抜く覚悟示せ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1162787.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年4月9日(水)  09:46",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "日米関税交渉　公正な貿易求め粘り強く",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/588179",
+          "published": "2025/4/9",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "カジノサイト遮断",
+          "link": "https://www.gifu-np.co.jp/articles/-/524785",
+          "published": "2025年4月9日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　森友文書開示　国会は態勢取り解明を",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/760763",
+          "published": "2025/4/9 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】韓国大統領罷免　対立超え民主政治回復を",
+          "link": "https://www.topics.or.jp/articles/-/1222255",
+          "published": "2025/4/9 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【ＥＴＣ広域障害】原因究明し再発防げ",
+          "link": "https://www.kochinews.co.jp/article/detail/849135",
+          "published": "2025.04.09 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］嘉手納にＭＱ４配備　基地負担軽減はどこに",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1560834",
+          "published": "2025年4月9日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞無人機の無期限配備　防衛相説明　理解得られぬ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4134841.html",
+          "published": "2025/04/09",
+          "paid": false
+        }
+      ]
     }
   ]
 }

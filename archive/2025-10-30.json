@@ -23,6 +23,289 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "安倍元首相銃撃の公判　背景に迫る丁寧な審理を",
+          "link": "https://mainichi.jp/articles/20251030/ddm/005/070/084000c",
+          "published": "2025/10/30 02:01",
+          "paid": false
+        },
+        {
+          "title": "高市新政権　残業規制の緩和方針　過労死の教訓忘れたのか",
+          "link": "https://mainichi.jp/articles/20251030/ddm/005/070/083000c",
+          "published": "2025/10/30 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］米中は率直な対話重ね安定した関係築け",
+          "link": "https://www.nikkei.com/article/DGXZQODK3044A0Q5A031C2000000/",
+          "published": "2025年10月30日",
+          "paid": false
+        },
+        {
+          "title": "［社説］物価高の抑制は日銀の役割だ",
+          "link": "https://www.nikkei.com/article/DGXZQODK3068F0Q5A031C2000000/",
+          "published": "2025年10月30日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【不用品再生販売】いわき方式に注目（１０月３０日）",
+          "link": "https://www.minpo.jp/articles/-/51807",
+          "published": "2025/10/30 09:16",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【戦争資料】持続可能な保管見いだせ",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1220318",
+          "published": "2025/10/30",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "サイバー被害　能動型防御へ転換急げ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1219862.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年10月30日(木)  09:40",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "安倍氏銃撃公判　事件の背景どう勘案する",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/718573",
+          "published": "2025/10/30",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説液状化 住民負担ゼロ／寄り添う姿勢を示した",
+          "link": "https://webun.jp/articles/-/910543",
+          "published": "2025.10.30",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【「Ｈ３増強型」成功】宇宙事業の進展に期待",
+          "link": "https://www.hokkoku.co.jp/articles/-/1913506",
+          "published": "10/30",
+          "paid": true
+        },
+        {
+          "title": "社説【人間国宝制度】分野拡大を地方の活力に",
+          "link": "https://www.hokkoku.co.jp/articles/-/1913505",
+          "published": "10/30",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "安倍氏銃撃公判",
+          "link": "https://www.gifu-np.co.jp/articles/-/618535",
+          "published": "2025年10月30日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　安倍氏銃撃事件公判　背景も丁寧に審理を",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/886461",
+          "published": "2025/10/30 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】日米首脳会談　お世辞が過ぎるのでは",
+          "link": "https://www.topics.or.jp/articles/-/1329229",
+          "published": "2025/10/30 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【労働時間規制】働き方改革を止めるな",
+          "link": "https://www.kochinews.co.jp/article/detail/923124",
+          "published": "2025.10.30 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "宮崎日日新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.the-miyanichi.co.jp/column/syasetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "カスハラ対策強化",
+          "link": "https://www.the-miyanichi.co.jp/column/syasetsu/356263.html",
+          "published": "2025.10.30｜社説",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］古謝氏「不起訴不当」　検察は全力で再捜査を",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1702392",
+          "published": "2025年10月30日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞PFAS米軍給水要請　調査と汚染源特定が先だ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4730639.html",
+          "published": "2025/10/30",
+          "paid": false
+        }
+      ]
     }
   ]
 }

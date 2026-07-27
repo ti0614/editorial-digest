@@ -310,7 +310,7 @@
       "category": "社説",
       "tier": "regional",
       "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
-      "error": null,
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
       "items": [
@@ -357,10 +357,17 @@
       "category": "論説",
       "tier": "regional",
       "index_url": "https://www.chibanippo.co.jp/serial",
-      "error": null,
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "被害阻止へ県民の“目”必要　クビアカツヤカミキリ千葉県内確認　【論説】",
+          "link": "https://www.chibanippo.co.jp/articles/1472204",
+          "published": "7/21 5:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "新潟日報",
@@ -404,7 +411,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "社説【空飛ぶ通信基地局】能登を新技術確立の地に",
+          "link": "https://www.hokkoku.co.jp/articles/-/2175709",
+          "published": "7/21",
+          "paid": true
+        },
+        {
+          "title": "社説【最低賃金の改定】着実に引き上げの継続を",
+          "link": "https://www.hokkoku.co.jp/articles/-/2175708",
+          "published": "7/21",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "福井新聞",

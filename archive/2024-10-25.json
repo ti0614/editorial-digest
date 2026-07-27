@@ -23,6 +23,225 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "「裏金非公認」に2000万円　けじめは見せかけなのか",
+          "link": "https://mainichi.jp/articles/20241025/ddm/005/070/043000c",
+          "published": "2024/10/25 02:01",
+          "paid": false
+        },
+        {
+          "title": "国連PKOへの攻撃　国際社会への敵対行為だ",
+          "link": "https://mainichi.jp/articles/20241025/ddm/005/070/042000c",
+          "published": "2024/10/25 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］BRICSは世界の分断ではなく融和を",
+          "link": "https://www.nikkei.com/article/DGXZQODK244OR0U4A021C2000000/",
+          "published": "2024年10月25日",
+          "paid": false
+        },
+        {
+          "title": "［社説］未来決める1票を若者こそ",
+          "link": "https://www.nikkei.com/article/DGXZQODK23CLE0T21C24A0000000/",
+          "published": "2024年10月25日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【矢吹のデジタル事業】スポーツ振興腰据えて（１０月２５日）",
+          "link": "https://www.minpo.jp/articles/-/54988",
+          "published": "2024/10/25 09:02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【全農とちぎの食材提供】社員食堂活用し魅力ＰＲ",
+          "link": "https://www.shimotsuke.co.jp/articles/-/988757",
+          "published": "2024/10/25",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "外交・安保　平和と安全どう守るのか",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/497905",
+          "published": "2024/10/25",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "非公認に資金提供",
+          "link": "https://www.gifu-np.co.jp/articles/-/457371",
+          "published": "2024年10月25日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　非公認に資金提供　納得と共感にほど遠い",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/668253",
+          "published": "2024/10/25 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】緊張高める北朝鮮　国際社会は座視するな",
+          "link": "https://www.topics.or.jp/articles/-/1145865",
+          "published": "2024/10/25 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【再び再審決定】審理の長期化を避けよ",
+          "link": "https://www.kochinews.co.jp/article/detail/798345",
+          "published": "2024.10.25 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］日米共同統合演習　緊張高めない外交こそ",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1458711",
+          "published": "2024年10月25日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞産業まつり開幕　高付加価値の製品に期待",
+          "link": "https://ryukyushimpo.jp/editorial/entry-3582375.html",
+          "published": "2024/10/25",
+          "paid": false
+        }
+      ]
     }
   ]
 }

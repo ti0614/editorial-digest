@@ -23,6 +23,232 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "江藤農相のコメ発言　国民感覚とのズレ深刻だ",
+          "link": "https://mainichi.jp/articles/20250521/ddm/005/070/104000c",
+          "published": "2025/5/21 02:00",
+          "paid": false
+        },
+        {
+          "title": "頼清徳政権が発足1年　中台は緊張高めぬ努力を",
+          "link": "https://mainichi.jp/articles/20250521/ddm/005/070/102000c",
+          "published": "2025/5/21 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］農相更迭で首相は危機感を高めて出直せ",
+          "link": "https://www.nikkei.com/article/DGXZQODK213AE0R20C25A5000000/",
+          "published": "2025年5月21日",
+          "paid": false
+        },
+        {
+          "title": "［社説］日米造船協力は早く具体化を",
+          "link": "https://www.nikkei.com/article/DGXZQODK168290W5A510C2000000/",
+          "published": "2025年5月21日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【さんフェア福島】若者の技と復興発信を（５月２１日）",
+          "link": "https://www.minpo.jp/articles/-/53954",
+          "published": "2025/05/21 09:09",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【高度救命センター検討】救急充実へ議論尽くせ",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1115078",
+          "published": "2025/5/21",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "１年ぶりマイナス成長　内需再起に長期視点を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1173668.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年5月21日(水)  09:30",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "農相コメ発言　生活者の怒り受け止めよ",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/611448",
+          "published": "2025/5/21",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "農相コメ発言",
+          "link": "https://www.gifu-np.co.jp/articles/-/542535",
+          "published": "2025年5月21日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　農相コメ発言　進退を問われる事態だ",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/784427",
+          "published": "2025/5/21 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】高速道逆走　重層的な防止策が急務だ",
+          "link": "https://www.topics.or.jp/articles/-/1242276",
+          "published": "2025/5/21 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【ウクライナ情勢】即時停戦し和平を探れ",
+          "link": "https://www.kochinews.co.jp/article/detail/862457",
+          "published": "2025.05.21 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］ＧＷ２０５０全体構想　実現への機運づくりを",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1587289",
+          "published": "2025年5月21日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞江藤農相発言　農政への信頼は失墜した",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4250709.html",
+          "published": "2025/05/21",
+          "paid": false
+        }
+      ]
     }
   ]
 }

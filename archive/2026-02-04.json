@@ -23,6 +23,289 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "衆院選2026　「政治とカネ」と自民　論戦から逃げてはならぬ",
+          "link": "https://mainichi.jp/articles/20260204/ddm/005/070/060000c",
+          "published": "2026/2/4 02:01",
+          "paid": false
+        },
+        {
+          "title": "ガザの平和評議会　米の独断専行許されない",
+          "link": "https://mainichi.jp/articles/20260204/ddm/005/070/058000c",
+          "published": "2026/2/4 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］給付拡充だけでは社会保障は続かない",
+          "link": "https://www.nikkei.com/article/DGXZQOCD280LJ0Y6A120C2000000/",
+          "published": "2月4日",
+          "paid": false
+        },
+        {
+          "title": "［社説］記録的少雨に備え節水対策を",
+          "link": "https://www.nikkei.com/article/DGXZQODK043560U6A200C2000000/",
+          "published": "2月4日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【２０２６衆院選　投票率向上】高い関心、反映させよ（２月４日）",
+          "link": "https://www.minpo.jp/articles/-/49870",
+          "published": "2026/02/04 09:10",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【県都の移動販売事業】地域支える「重要装置」に",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1281343",
+          "published": "2/4  8:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "核禁止条約５年　核と人類は共存できぬ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1245147.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2026年2月4日(水)  09:30",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "大雪の被害　除雪作業は安全が最優先",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/773698",
+          "published": "2/4",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説有人月周回へ／半世紀ぶりの挑戦注目",
+          "link": "https://webun.jp/articles/-/964175",
+          "published": "2026.02.04",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【首相の円安発言】プラス面がより大きい",
+          "link": "https://www.hokkoku.co.jp/articles/-/2006264",
+          "published": "2/4",
+          "paid": true
+        },
+        {
+          "title": "社説【期日前投票】「移動式」さらに広げたい",
+          "link": "https://www.hokkoku.co.jp/articles/-/2006263",
+          "published": "2/4",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "ＦＲＢ次期議長",
+          "link": "https://www.gifu-np.co.jp/articles/-/662528",
+          "published": "2026年2月4日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　政治とカネ　猛省の内実見極めたい",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/943083",
+          "published": "2026/2/4 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】26衆院選　安全保障政策　平和国家の中身問われる",
+          "link": "https://www.topics.or.jp/articles/-/1379252",
+          "published": "2026/2/4 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【２０２６衆院選　エネルギー政策】原発回帰に乏しい議論",
+          "link": "https://www.kochinews.co.jp/article/detail/958290",
+          "published": "2026.02.04 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "宮崎日日新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.the-miyanichi.co.jp/column/syasetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社会保障",
+          "link": "https://www.the-miyanichi.co.jp/column/syasetsu/536567.html",
+          "published": "2026.02.04｜社説",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］性的暴行の米兵　刑確定　再発防止は日米の責務",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1767778",
+          "published": "2026年2月4日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞衆院選2026　辺野古新基地　県民に選択肢示す論戦を",
+          "link": "https://ryukyushimpo.jp/editorial/entry-5010781.html",
+          "published": "2026/02/04",
+          "paid": false
+        }
+      ]
     }
   ]
 }

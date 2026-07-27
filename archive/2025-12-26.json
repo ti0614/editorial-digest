@@ -23,6 +23,266 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "政府のAI基本計画　日本の強みを生かさねば",
+          "link": "https://mainichi.jp/articles/20251226/ddm/005/070/102000c",
+          "published": "2025/12/26 02:01",
+          "paid": false
+        },
+        {
+          "title": "診療報酬大幅引き上げ　医療経営の効率化も必要",
+          "link": "https://mainichi.jp/articles/20251226/ddm/005/070/103000c",
+          "published": "2025/12/26 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］責任の視点欠く過去最大の予算案",
+          "link": "https://www.nikkei.com/article/DGXZQODK265030W5A221C2000000/",
+          "published": "2025年12月26日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【双葉の彩色壁画】まちづくりの糧に（１２月２６日）",
+          "link": "https://www.minpo.jp/articles/-/50632",
+          "published": "2025/12/26 09:09",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "ＡＩロボティクス　時宜捉え新たな強みに",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1235459.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年12月26日(金)  09:40",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "非核三原則見直し　平和国家の礎を壊すのか",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/753338",
+          "published": "2025/12/26",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説無差別殺傷／事件の背景共有せねば",
+          "link": "https://webun.jp/articles/-/944288",
+          "published": "2025.12.26",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【賃上げ支援緩和】能登の雇用維持に不可欠",
+          "link": "https://www.hokkoku.co.jp/articles/-/1971882",
+          "published": "12/26",
+          "paid": true
+        },
+        {
+          "title": "社説【柏崎刈羽原発】再稼働の恩恵広く社会に",
+          "link": "https://www.hokkoku.co.jp/articles/-/1971881",
+          "published": "12/26",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "診療報酬改定",
+          "link": "https://www.gifu-np.co.jp/articles/-/647113",
+          "published": "2025年12月26日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　介護２割負担拡大　先送りは解決にならぬ",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/921529",
+          "published": "2025/12/26 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】尾崎将司さん死去　ジャンボな足跡忘れない",
+          "link": "https://www.topics.or.jp/articles/-/1361270",
+          "published": "2025/12/26 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【スポーツの盗撮】許さない機運を高めたい",
+          "link": "https://www.kochinews.co.jp/article/detail/943212",
+          "published": "2025.12.26 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "宮崎日日新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.the-miyanichi.co.jp/column/syasetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "診療報酬改定",
+          "link": "https://www.the-miyanichi.co.jp/column/syasetsu/459809.html",
+          "published": "2025.12.26｜社説",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］高額療養費引き上げ　治療断念の懸念消えぬ",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1743404",
+          "published": "2025年12月26日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞第4海兵連隊移転中止　基地負担軽減を止めるな",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4903109.html",
+          "published": "2025/12/26",
+          "paid": false
+        }
+      ]
     }
   ]
 }

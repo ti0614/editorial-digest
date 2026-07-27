@@ -17,6 +17,249 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "日本政治この1年　目先の損得にとらわれた",
+          "link": "https://mainichi.jp/articles/20251231/ddm/002/070/050000c",
+          "published": "2025/12/31 02:03",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【２０２５年回顧】若い力が希望つなぐ（１２月３１日）",
+          "link": "https://www.minpo.jp/articles/-/50539",
+          "published": "2025/12/31 09:20",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "２０２５年の終わりに　戦争の準備にあらがう",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1236380.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年12月31日(水)  09:20",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "暮れゆく２０２５年　教訓と向き合えたろうか",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/755151",
+          "published": "2025/12/31",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説転換の１年／国民の不安拭う政治を",
+          "link": "https://webun.jp/articles/-/946589",
+          "published": "2025.12.31",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【全国どぶろく大会】能登振興へ新たな一手",
+          "link": "https://www.hokkoku.co.jp/articles/-/1975795",
+          "published": "12/31",
+          "paid": true
+        },
+        {
+          "title": "社説【小学生の体力】全国１位を新たな目標に",
+          "link": "https://www.hokkoku.co.jp/articles/-/1975794",
+          "published": "12/31",
+          "paid": true
+        },
+        {
+          "title": "社説【中２の体力低下】成長期の運動不足改善を",
+          "link": "https://www.hokkoku.co.jp/articles/-/1975681",
+          "published": "12/31",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "能登地震２年",
+          "link": "https://www.gifu-np.co.jp/articles/-/648704",
+          "published": "2025年12月31日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　能登半島地震２年　関連死を食い止めたい",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/923983",
+          "published": "2025/12/31 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】25年海外回顧　分断と混乱　深刻さ色濃く",
+          "link": "https://www.topics.or.jp/articles/-/1363227",
+          "published": "2025/12/31 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【高知ＵのＪ元年】課題克服し来季の躍進を",
+          "link": "https://www.kochinews.co.jp/article/detail/944211",
+          "published": "2025.12.31 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "宮崎日日新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.the-miyanichi.co.jp/column/syasetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "介護２割負担拡大",
+          "link": "https://www.the-miyanichi.co.jp/column/syasetsu/467774.html",
+          "published": "2025.12.31｜社説",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］沖縄戦８０年の節目に　「導きの糸」紡ぐ努力を",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1746074",
+          "published": "2025年12月31日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞2025年を振り返る　平和主義、試練の一年",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4918739.html",
+          "published": "2025/12/31",
+          "paid": false
+        }
+      ]
     }
   ]
 }

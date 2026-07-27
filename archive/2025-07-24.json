@@ -23,6 +23,209 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "日米関税交渉で合意　これで国益を守れるのか",
+          "link": "https://mainichi.jp/articles/20250724/ddm/005/070/128000c",
+          "published": "2025/7/24 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］国政の停滞回避へ石破首相は進退判断を",
+          "link": "https://www.nikkei.com/article/DGXZQODK244FI0U5A720C2000000/",
+          "published": "2025年7月24日",
+          "paid": false
+        },
+        {
+          "title": "［社説］クマ被害への対策強化を急げ",
+          "link": "https://www.nikkei.com/article/DGXZQODK2455P0U5A720C2000000/",
+          "published": "2025年7月24日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【日米関税交渉合意】影響回避へ対策講じよ（７月２４日）",
+          "link": "https://www.minpo.jp/articles/-/53464",
+          "published": "2025/07/24 09:17",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "横浜市長選　未来につながる選択を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1192786.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年7月24日(木)  11:30",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "日米関税交渉合意　国益は損なわれないのか",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/656124",
+          "published": "2025/7/24",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説首相退陣不可避／党内外で「いばらの道」",
+          "link": "https://webun.jp/articles/-/849293",
+          "published": "2025.07.24",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　日米関税合意　最悪の事態避けられた",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/825917",
+          "published": "2025/7/24 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】日米関税合意　影響受ける産業に配慮を",
+          "link": "https://www.topics.or.jp/articles/-/1276953",
+          "published": "2025/7/24 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【日米関税合意】さらなる軽減が必要だ",
+          "link": "https://www.kochinews.co.jp/article/detail/890368",
+          "published": "2025.07.24 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］日米関税１５％合意　影響見極め対策を急げ",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1634100",
+          "published": "2025年7月24日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞「トランプ関税」合意　国内産業の影響見極めよ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4473769.html",
+          "published": "2025/07/24",
+          "paid": false
+        }
+      ]
     }
   ]
 }

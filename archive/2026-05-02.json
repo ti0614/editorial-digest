@@ -57,6 +57,259 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "円安進行で為替介入　対症療法では是正できぬ",
+          "link": "https://mainichi.jp/articles/20260502/ddm/005/070/110000c",
+          "published": "2026/5/2 02:02",
+          "paid": false
+        },
+        {
+          "title": "戦争とAIフェイク　現実を見誤らせる罪深さ",
+          "link": "https://mainichi.jp/articles/20260502/ddm/005/070/109000c",
+          "published": "2026/5/2 02:02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【９条と安全保障】まず世界を見渡せ（５月２日）",
+          "link": "https://www.minpo.jp/articles/-/123359",
+          "published": "2026/05/02 10:01",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【あす憲法記念日】改正には熟議が不可欠だ",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1338418",
+          "published": "5/2  8:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "働き方　健康と安心守らなければ",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/824620",
+          "published": "5/2",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説魚津の蜃気楼／魅力発信 ファンつかめ",
+          "link": "https://webun.jp/articles/-/1013528",
+          "published": "2026.05.02",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【一里野温泉復旧へ】ジオ生かして反転攻勢を",
+          "link": "https://www.hokkoku.co.jp/articles/-/2095045",
+          "published": "5/2",
+          "paid": true
+        },
+        {
+          "title": "社説【「酷暑日」の新設】真夏に向けた備え今から",
+          "link": "https://www.hokkoku.co.jp/articles/-/2095044",
+          "published": "5/2",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "ＮＰＴ再検討会議",
+          "link": "https://www.gifu-np.co.jp/articles/-/702054",
+          "published": "2026年5月2日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　錦織選手が引退発表　「世界への夢」を広げた",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/996743",
+          "published": "2026/5/2 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】日銀利上げ見送り　物価上振れを懸念する",
+          "link": "https://www.topics.or.jp/articles/-/1424531",
+          "published": "2026/5/2 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【水俣病７０年】全員の救済を急ぎたい",
+          "link": "https://www.kochinews.co.jp/article/detail/997387",
+          "published": "2026.05.02 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "宮崎日日新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.the-miyanichi.co.jp/column/syasetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "あす憲法記念日",
+          "link": "https://www.the-miyanichi.co.jp/column/syasetsu/745700.html",
+          "published": "2026.05.02｜社説",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］平和教育　今こそ意義の再確認を",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1829443",
+          "published": "2026年5月2日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞安保3文書有識者会議　冷静な議論で軍拡防げ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-5225058.html",
+          "published": "2026/05/02",
+          "paid": false
+        }
+      ]
     }
   ]
 }

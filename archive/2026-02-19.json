@@ -23,6 +23,284 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "第2次高市内閣が発足　「衆議の重視」忘れぬよう",
+          "link": "https://mainichi.jp/articles/20260219/ddm/005/070/070000c",
+          "published": "2026/2/19 02:01",
+          "paid": false
+        },
+        {
+          "title": "東電が新再建計画　福島の責任果たしてこそ",
+          "link": "https://mainichi.jp/articles/20260219/ddm/005/070/068000c",
+          "published": "2026/2/19 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］対米巨額投資は相互利益と規律を守れ",
+          "link": "https://www.nikkei.com/article/DGXZQODK196OE0Z10C26A2000000/",
+          "published": "2月19日",
+          "paid": false
+        },
+        {
+          "title": "［社説］バングラデシュは着実に民主化を",
+          "link": "https://www.nikkei.com/article/DGXZQODK1952U0Z10C26A2000000/",
+          "published": "2月19日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【第２次高市内閣】熟議の国会運営を（２月１９日）",
+          "link": "https://www.minpo.jp/articles/-/49590",
+          "published": "2026/02/19 09:25",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "新ＳＴＡＲＴ失効　核超大国の責務果たせ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1249411.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2026年2月19日(木)  09:40",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "２６年度県予算案　「強い新潟」実現どう図る",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/782317",
+          "published": "2/19",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説山林火災／警報と注意報周知図れ",
+          "link": "https://webun.jp/articles/-/972522",
+          "published": "2026.02.19",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【第２次高市政権】「仕事師内閣」の本領を",
+          "link": "https://www.hokkoku.co.jp/articles/-/2021095",
+          "published": "2/19",
+          "paid": true
+        },
+        {
+          "title": "社説【知事選告示】情熱と実行力を見定めたい",
+          "link": "https://www.hokkoku.co.jp/articles/-/2021094",
+          "published": "2/19",
+          "paid": true
+        },
+        {
+          "title": "社説【石川県知事選告示】情熱と実行力見定めたい",
+          "link": "https://www.hokkoku.co.jp/articles/-/2021076",
+          "published": "2/19",
+          "paid": true
+        },
+        {
+          "title": "社説【第２次高市政権】「仕事師内閣」の本領発揮を",
+          "link": "https://www.hokkoku.co.jp/articles/-/2021075",
+          "published": "2/19",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "第２次高市内閣",
+          "link": "https://www.gifu-np.co.jp/articles/-/669490",
+          "published": "2026年2月19日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　第２次高市内閣発足　数の力を頼みとするな",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/952118",
+          "published": "2026/2/19 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】第2次高市内閣　「数の力」ではなく熟議を",
+          "link": "https://www.topics.or.jp/articles/-/1386796",
+          "published": "2026/2/19 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【県当初予算】「オール高知」築けるか",
+          "link": "https://www.kochinews.co.jp/article/detail/972974",
+          "published": "2026.02.19 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "宮崎日日新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.the-miyanichi.co.jp/column/syasetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "売春防止法見直し",
+          "link": "https://www.the-miyanichi.co.jp/column/syasetsu/575561.html",
+          "published": "2026.02.19｜社説",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］第2次高市内閣発足　巨大与党　国民が監視を",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1778003",
+          "published": "2026年2月19日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞第２次高市内閣発足　数で押し切る審議避けよ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-5046654.html",
+          "published": "2026/02/19",
+          "paid": false
+        }
+      ]
     }
   ]
 }

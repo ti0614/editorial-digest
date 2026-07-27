@@ -23,6 +23,209 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "巨大IT企業と社会　情報空間守る知恵結集を",
+          "link": "https://mainichi.jp/articles/20250507/ddm/005/070/106000c",
+          "published": "2025/5/7 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］ドイツ新政権は欧州の要として指導力を",
+          "link": "https://www.nikkei.com/article/DGXZQOCD040AT0U5A500C2000000/",
+          "published": "2025年5月7日",
+          "paid": false
+        },
+        {
+          "title": "［社説］インドとパキスタンは報復の連鎖を自制せよ",
+          "link": "https://www.nikkei.com/article/DGXZQODK075C30X00C25A5000000/",
+          "published": "2025年5月7日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【会津地鶏】地域連携で振興図れ（５月７日）",
+          "link": "https://www.minpo.jp/articles/-/54040",
+          "published": "2025/05/07 09:06",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "海老名市の「共に学ぶ」　改革推進へ具体策示せ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1169724.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年5月7日(水)  11:30",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "パンデミック条約　備えに国際協調欠かせぬ",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/603022",
+          "published": "2025/5/7",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "観光公害対策",
+          "link": "https://www.gifu-np.co.jp/articles/-/536539",
+          "published": "2025年5月7日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　電子データ提供命令　さらなる修正議論必要",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/776273",
+          "published": "2025/5/7 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】コウノトリ10年　貴重な環境を未来へ残そう",
+          "link": "https://www.topics.or.jp/articles/-/1235255",
+          "published": "2025/5/7 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【自転車に青切符】丁寧な周知が欠かせない",
+          "link": "https://www.kochinews.co.jp/article/detail/857969",
+          "published": "2025.05.07 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］宿泊税　理解と納得が不可欠だ",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1578074",
+          "published": "2025年5月7日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞沖縄戦80年　第32軍攻勢失敗　無謀な作戦が犠牲広げた",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4211226.html",
+          "published": "2025/05/07",
+          "paid": false
+        }
+      ]
     }
   ]
 }

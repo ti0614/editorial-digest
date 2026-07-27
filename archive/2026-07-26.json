@@ -303,7 +303,7 @@
       "category": "社説",
       "tier": "regional",
       "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
-      "error": null,
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
       "items": [
@@ -350,7 +350,7 @@
       "category": "論説",
       "tier": "regional",
       "index_url": "https://www.chibanippo.co.jp/serial",
-      "error": null,
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
       "items": []
@@ -365,15 +365,9 @@
       "unavailable_reason": null,
       "items": [
         {
-          "title": "防災庁発足へ　地方の人材育成に注力を",
-          "link": "https://www.niigata-nippo.co.jp/articles/-/874616",
-          "published": "6:00",
-          "paid": false
-        },
-        {
           "title": "特別国会閉幕　熟議欠き稚拙さ目立った",
           "link": "https://www.niigata-nippo.co.jp/articles/-/874251",
-          "published": "7/26 06:00",
+          "published": "7/26",
           "paid": false
         }
       ]
@@ -388,15 +382,9 @@
       "unavailable_reason": null,
       "items": [
         {
-          "title": "社説内密出産／母子守るため法整備を",
-          "link": "https://webun.jp/articles/-/1062824",
-          "published": "05:00",
-          "paid": true
-        },
-        {
           "title": "社説特別国会閉幕／強引な運営が目に余る",
           "link": "https://webun.jp/articles/-/1062260",
-          "published": "2026.07.26 05:00",
+          "published": "2026.07.26",
           "paid": true
         }
       ]
@@ -411,27 +399,15 @@
       "unavailable_reason": null,
       "items": [
         {
-          "title": "社説【金沢デジタル工芸展】ＡＩも美の水先案内役に",
-          "link": "https://www.hokkoku.co.jp/articles/-/2181756",
-          "published": "5:00",
-          "paid": true
-        },
-        {
-          "title": "社説【児童の水泳授業】学校プールにこだわらず",
-          "link": "https://www.hokkoku.co.jp/articles/-/2181755",
-          "published": "5:00",
-          "paid": true
-        },
-        {
           "title": "社説【高校生に食材講座】環境意識を高める一助に",
           "link": "https://www.hokkoku.co.jp/articles/-/2180913",
-          "published": "7/26 05:00",
+          "published": "7/26",
           "paid": true
         },
         {
           "title": "社説【自治体のＥＶバス】車両の選定は安全性重視で",
           "link": "https://www.hokkoku.co.jp/articles/-/2180912",
-          "published": "7/26 05:00",
+          "published": "7/26",
           "paid": true
         }
       ]
@@ -691,7 +667,7 @@
         {
           "title": "［社説］世界自然遺産5年　「守る」取り組みさらに",
           "link": "https://www.okinawatimes.co.jp/articles/-/1888259",
-          "published": "2026年7月26日 04:01",
+          "published": "2026年7月26日",
           "paid": false
         }
       ]
@@ -708,7 +684,7 @@
         {
           "title": "＜社説＞高江発着帯着工10年　生活環境破壊を直視せよ",
           "link": "https://ryukyushimpo.jp/editorial/entry-5404566.html",
-          "published": "2026/07/26 04:00",
+          "published": "2026/07/26",
           "paid": false
         }
       ]

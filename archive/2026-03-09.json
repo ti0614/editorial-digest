@@ -17,6 +17,257 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "性加害の漫画家起用　人権軽視した背景究明を",
+          "link": "https://mainichi.jp/articles/20260309/ddm/005/070/009000c",
+          "published": "2026/3/9 02:01",
+          "paid": false
+        },
+        {
+          "title": "空襲被害者の救済　国会が責任を果たす時だ",
+          "link": "https://mainichi.jp/articles/20260309/ddm/005/070/008000c",
+          "published": "2026/3/9 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］イラン新指導者との対決長期化を危ぶむ",
+          "link": "https://www.nikkei.com/article/DGXZQODK095EB0Z00C26A3000000/",
+          "published": "3月9日",
+          "paid": false
+        },
+        {
+          "title": "［社説］中東からの邦人退避に万全を",
+          "link": "https://www.nikkei.com/article/DGXZQODK093U10Z00C26A3000000/",
+          "published": "3月9日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【震災１５年　県外応援団】結びつき一段と（３月９日）",
+          "link": "https://www.minpo.jp/articles/-/80343",
+          "published": "2026/03/09 09:10",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "神奈川県民ホールの再整備　魅力向上へ議論深めて",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1254320.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2026年3月9日(月)  09:40",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "有機農業の旗振り役期待　いすみ市オーガニックビレッジ宣言　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1410964",
+          "published": "3/9 5:00",
+          "paid": true
+        },
+        {
+          "title": "安全確保へ積極的導入を　歩車分離信号の指針改定　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1410965",
+          "published": "3/9 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "ｉＰＳ製品実用化　再生医療の新たな一歩に",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/792663",
+          "published": "3/9",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説県内製造業が苦戦／変化に強い産業構築を",
+          "link": "https://webun.jp/articles/-/982387",
+          "published": "2026.03.09",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【「学び直し」の充実】大学支援で人材育成促す",
+          "link": "https://www.hokkoku.co.jp/articles/-/2039644",
+          "published": "3/9",
+          "paid": true
+        },
+        {
+          "title": "社説【石川知事に山野氏】さらに広域連携深めたい",
+          "link": "https://www.hokkoku.co.jp/articles/-/2039643",
+          "published": "3/9",
+          "paid": true
+        },
+        {
+          "title": "社説【新知事に山野氏】不安を希望に変えられるか",
+          "link": "https://www.hokkoku.co.jp/articles/-/2039613",
+          "published": "3/9",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "中国全人代",
+          "link": "https://www.gifu-np.co.jp/articles/-/677268",
+          "published": "2026年3月9日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　南鳥島、核ごみ調査　政府の説明責任は重い",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/962993",
+          "published": "2026/3/9 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【欠格規定「違憲」】放置した国の責任は重い",
+          "link": "https://www.kochinews.co.jp/article/detail/978970",
+          "published": "2026.03.09 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］米軍ヘリ不時着　大事故への懸念尽きぬ",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1790411",
+          "published": "2026年3月9日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞武器輸出容認提言　平和国家の放棄に等しい",
+          "link": "https://ryukyushimpo.jp/editorial/entry-5103244.html",
+          "published": "2026/03/09",
+          "paid": false
+        }
+      ]
     }
   ]
 }

@@ -23,6 +23,244 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "国が核ごみ調査打診　選定の議論深める契機に",
+          "link": "https://mainichi.jp/articles/20260308/ddm/005/070/043000c",
+          "published": "2026/3/8 02:02",
+          "paid": false
+        },
+        {
+          "title": "きょう国際女性デー　「性の権利」根付く教育を",
+          "link": "https://mainichi.jp/articles/20260308/ddm/005/070/042000c",
+          "published": "2026/3/8 02:02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］核のごみ最終処分地の選定は国の責務だ",
+          "link": "https://www.nikkei.com/article/DGXZQODK067RQ0W6A300C2000000/",
+          "published": "3月8日",
+          "paid": false
+        },
+        {
+          "title": "［社説］KDDI架空取引の究明急げ",
+          "link": "https://www.nikkei.com/article/DGXZQODK064E60W6A300C2000000/",
+          "published": "3月8日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "国際女性デー　個人尊重される社会に",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1254118.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2026年3月8日(日)  09:50",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "国際女性デー　社会の意識改革急ぎたい",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/792332",
+          "published": "3/8",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説国際女性デー／多様な声生かす社会へ",
+          "link": "https://webun.jp/articles/-/981892",
+          "published": "2026.03.08",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【介護保険サービス】実情に応じた職員配置を",
+          "link": "https://www.hokkoku.co.jp/articles/-/2038640",
+          "published": "3/8",
+          "paid": true
+        },
+        {
+          "title": "社説【石川県知事選】北陸の命運託す機会にも",
+          "link": "https://www.hokkoku.co.jp/articles/-/2038639",
+          "published": "3/8",
+          "paid": true
+        },
+        {
+          "title": "社説【知事選きょう投票】地域の命運託す貴重な機会",
+          "link": "https://www.hokkoku.co.jp/articles/-/2038631",
+          "published": "3/8",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "国際女性デー",
+          "link": "https://www.gifu-np.co.jp/articles/-/677001",
+          "published": "2026年3月8日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　きょうは国際女性デー　変革の歩み加速したい",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/962509",
+          "published": "2026/3/8 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】国際女性デー　性差別なき社会へ加速を",
+          "link": "https://www.topics.or.jp/articles/-/1395544",
+          "published": "2026/3/8 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【国際女性デー】賃金格差を解消したい",
+          "link": "https://www.kochinews.co.jp/article/detail/978725",
+          "published": "2026.03.08 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］国際女性デー　「うない」の伝言　道標に",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1789947",
+          "published": "2026年3月8日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞米軍ヘリ不時着　普天間飛行場運用停止を",
+          "link": "https://ryukyushimpo.jp/editorial/entry-5100766.html",
+          "published": "2026/03/08",
+          "paid": false
+        }
+      ]
     }
   ]
 }

@@ -23,6 +23,249 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "戦後80年　終戦の日　平和つくる行動を今こそ",
+          "link": "https://mainichi.jp/articles/20250815/ddm/002/070/056000c",
+          "published": "2025/8/15 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］底堅い景気でも米関税リスクに警戒を",
+          "link": "https://www.nikkei.com/article/DGXZQODK155E60V10C25A8000000/",
+          "published": "2025年8月15日",
+          "paid": false
+        },
+        {
+          "title": "［社説］酷暑前提の経済へ知恵絞ろう",
+          "link": "https://www.nikkei.com/article/DGXZQODK153720V10C25A8000000/",
+          "published": "2025年8月15日",
+          "paid": false
+        },
+        {
+          "title": "［社説］戦後80年の警鐘を平和への誓いに",
+          "link": "https://www.nikkei.com/article/DGXZQODK143IH0U5A810C2000000/",
+          "published": "2025年8月15日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【戦後８０年　終戦の日】自立の思考を築きたい（８月１５日）",
+          "link": "https://www.minpo.jp/articles/-/53327",
+          "published": "2025/08/15 09:11",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【戦後80年】記憶の風化食い止めよ",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1171464",
+          "published": "2025/8/15",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "終戦の日　主体的な平和希求こそ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1198973.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年8月15日(金)  09:30",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "終戦の日　非戦の誓い未来へつなぐ",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/670361",
+          "published": "2025/8/15",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説終戦記念日／一人の力は小さくとも",
+          "link": "https://webun.jp/articles/-/862876",
+          "published": "2025.08.15",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "終戦の日",
+          "link": "https://www.gifu-np.co.jp/articles/-/583397",
+          "published": "2025年8月15日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　終戦の日　変わらぬ誓いを未来へ",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/839651",
+          "published": "2025/8/15 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】終戦から80年　戦前回帰　許してはならぬ",
+          "link": "https://www.topics.or.jp/articles/-/1288800",
+          "published": "2025/8/15 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【終戦から８０年】物言える平和国家を望む",
+          "link": "https://www.kochinews.co.jp/article/detail/897777",
+          "published": "2025.08.15 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］戦後８０年の「８・１５」　今こそ「不戦」の誓いを",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1649391",
+          "published": "2025年8月15日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞敗戦から80年　平和を守る決意新たに",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4543046.html",
+          "published": "2025/08/15",
+          "paid": false
+        }
+      ]
     }
   ]
 }

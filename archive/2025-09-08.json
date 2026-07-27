@@ -17,6 +17,245 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "石破首相が退陣表明　けじめ遅れ混乱を深めた",
+          "link": "https://mainichi.jp/articles/20250908/ddm/005/070/019000c",
+          "published": "2025/9/8 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］野党との連携策を深める自民総裁選に",
+          "link": "https://www.nikkei.com/article/DGXZQODK083O80Y5A900C2000000/",
+          "published": "2025年9月8日",
+          "paid": false
+        },
+        {
+          "title": "［社説］タイ新首相は政情安定を急げ",
+          "link": "https://www.nikkei.com/article/DGXZQODK085GS0Y5A900C2000000/",
+          "published": "2025年9月8日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【石破首相退陣表明】地方創生の旗降ろすな（９月８日）",
+          "link": "https://www.minpo.jp/articles/-/53082",
+          "published": "2025/09/08 09:08",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "洋上風力発電　持続可能な制度設計を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1205263.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年9月8日(月)  09:30",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "長引く災害と捉え、対応強化を　３年連続で史上最も暑い夏　【論説】",
+          "link": "https://www.chibanippo.co.jp/articles/1494187",
+          "published": "9/8 5:00",
+          "paid": true
+        },
+        {
+          "title": "監視継続し、拡大防ごう　悪影響与える外来水生植物　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1273365",
+          "published": "9/8 5:00",
+          "paid": true
+        },
+        {
+          "title": "ブランド浸透へ再精査を　漁獲量日本一　千葉の伊勢エビ　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1273367",
+          "published": "9/8 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "石破首相退陣へ　政治空白招いた遅い決断",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/685150",
+          "published": "2025/9/8",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説石破首相退陣／自民は正念場自覚せよ",
+          "link": "https://webun.jp/articles/-/876945",
+          "published": "2025.09.08",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "石破首相退陣へ",
+          "link": "https://www.gifu-np.co.jp/articles/-/594666",
+          "published": "2025年9月8日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　石破首相退陣へ　「保身先行」に猛省促す",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/854061",
+          "published": "2025/9/8 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】石破首相退陣へ　決断の遅れが混乱招いた",
+          "link": "https://www.topics.or.jp/articles/-/1301032",
+          "published": "2025/9/8 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【首相辞意表明】自民の難局は変わらない",
+          "link": "https://www.kochinews.co.jp/article/detail/905345",
+          "published": "2025.09.08 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］石破首相　辞意表明　古い党体質改革できず",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1665548",
+          "published": "2025年9月8日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞石破氏退陣表明　首相交代では課題進まぬ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4594681.html",
+          "published": "2025/09/08",
+          "paid": false
+        }
+      ]
     }
   ]
 }

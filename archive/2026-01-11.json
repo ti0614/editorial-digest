@@ -17,6 +17,244 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "維新議員の「国保逃れ」　自分の身は切らぬ卑劣さ",
+          "link": "https://mainichi.jp/articles/20260111/ddm/005/070/077000c",
+          "published": "2026/1/11 02:01",
+          "paid": false
+        },
+        {
+          "title": "国立劇場また「延期」　代替施設の検討が急務だ",
+          "link": "https://mainichi.jp/articles/20260111/ddm/005/070/076000c",
+          "published": "2026/1/11 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］停戦を有名無実にせずガザ再建につなげ",
+          "link": "https://www.nikkei.com/article/DGXZQODK097MF0Z00C26A1000000/",
+          "published": "1月11日",
+          "paid": false
+        },
+        {
+          "title": "［社説］自治体首長の資質が問われる",
+          "link": "https://www.nikkei.com/article/DGXZQODK101F60Q6A110C2000000/",
+          "published": "1月11日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "子どもの転落事故　まず危険性知り対策を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1238697.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2026年1月11日(日)  09:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "再審制度見直し　冤罪からの救済が原点だ",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/759961",
+          "published": "1/11",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説県内企業倒産が増加／中小の効果的な支援を",
+          "link": "https://webun.jp/articles/-/951166",
+          "published": "2026.01.11",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【「匠の技」認定】二の丸復元士気高めたい",
+          "link": "https://www.hokkoku.co.jp/articles/-/1983822",
+          "published": "1/11",
+          "paid": true
+        },
+        {
+          "title": "社説【食文化の広域観光】訪日客の分散促す主柱に",
+          "link": "https://www.hokkoku.co.jp/articles/-/1983821",
+          "published": "1/11",
+          "paid": true
+        },
+        {
+          "title": "社説【「匠の技」認定】二の丸復元の士気高めたい",
+          "link": "https://www.hokkoku.co.jp/articles/-/1983818",
+          "published": "1/11",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "国際機関脱退",
+          "link": "https://www.gifu-np.co.jp/articles/-/652085",
+          "published": "2026年1月11日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　地方政策の展望　自治体の共存を図れ",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/929127",
+          "published": "2026/1/11 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】危険運転に新基準　市民感覚とのずれを正せ",
+          "link": "https://www.topics.or.jp/articles/-/1367620",
+          "published": "2026/1/11 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【新成人の皆さん】夢は平和が保たれてこそ",
+          "link": "https://www.kochinews.co.jp/article/detail/947704",
+          "published": "2026.01.11 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］高市外交と日中関係　実害拡大防ぐ具体策を",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1751711",
+          "published": "2026年1月11日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞米の国連機関脱退　国際協調に背を向けるな",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4947085.html",
+          "published": "2026/01/11",
+          "paid": false
+        }
+      ]
     }
   ]
 }

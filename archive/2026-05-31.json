@@ -57,6 +57,225 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "海図なき世界　国際保健の危機　協力体制の再構築急ぐ時",
+          "link": "https://mainichi.jp/articles/20260531/ddm/005/070/049000c",
+          "published": "2026/5/31 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］米国はインド太平洋重視へ態勢立て直せ",
+          "link": "https://www.nikkei.com/article/DGXZQODK3107N0R30C26A5000000/",
+          "published": "5月31日",
+          "paid": false
+        },
+        {
+          "title": "［社説］不信膨らむ新幹線の談合疑惑",
+          "link": "https://www.nikkei.com/article/DGXZQODK293N00Z20C26A5000000/",
+          "published": "5月31日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "国旗損壊罪　法制化の必要性は疑問だ",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/840357",
+          "published": "5/31",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説就活生へのオワハラ／圧力より魅力で確保を",
+          "link": "https://webun.jp/articles/-/1029090",
+          "published": "2026.05.31",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【熱中症予防】屋外活動の安全策徹底を",
+          "link": "https://www.hokkoku.co.jp/articles/-/2124033",
+          "published": "5/31",
+          "paid": true
+        },
+        {
+          "title": "社説【本州初のトキ放鳥】能登の豊かさ伝える象徴に",
+          "link": "https://www.hokkoku.co.jp/articles/-/2124032",
+          "published": "5/31",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "中国文革６０年",
+          "link": "https://www.gifu-np.co.jp/articles/-/716633",
+          "published": "2026年5月31日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　中国の文化大革命から６０年　歴史の忘却を懸念する",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/1013460",
+          "published": "2026/5/31 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】国家情報会議法　監視社会への懸念拭えぬ",
+          "link": "https://www.topics.or.jp/articles/-/1438780",
+          "published": "2026/5/31 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【皇族数確保】丁寧に導いた「総意」に",
+          "link": "https://www.kochinews.co.jp/article/detail/1010532",
+          "published": "2026.05.31 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］国が乗船履歴要求　何のための情報収集か",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1848551",
+          "published": "2026年5月31日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞新たな防災気象情報　台風前に変更点の確認を",
+          "link": "https://ryukyushimpo.jp/editorial/entry-5281520.html",
+          "published": "2026/05/31",
+          "paid": false
+        }
+      ]
     }
   ]
 }

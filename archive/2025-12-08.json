@@ -17,6 +17,257 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "「ゾンビたばこ」の害　実態把握し規制の強化を",
+          "link": "https://mainichi.jp/articles/20251208/ddm/005/070/023000c",
+          "published": "2025/12/8 02:02",
+          "paid": false
+        },
+        {
+          "title": "AIの規制と技術革新　バランス探るEU教訓に",
+          "link": "https://mainichi.jp/articles/20251208/ddm/005/070/021000c",
+          "published": "2025/12/8 02:02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］この米安保戦略で国際秩序は安定するか",
+          "link": "https://www.nikkei.com/article/DGXZQODK083GA0Y5A201C2000000/",
+          "published": "2025年12月8日",
+          "paid": false
+        },
+        {
+          "title": "［社説］政治の良識欠く定数削減法案",
+          "link": "https://www.nikkei.com/article/DGXZQODK0862M0Y5A201C2000000/",
+          "published": "2025年12月8日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【平工高日本一】工業教育充実の契機に（１２月８日）",
+          "link": "https://www.minpo.jp/articles/-/50974",
+          "published": "2025/12/08 09:16",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "防衛費　補正計上は妥当なのか",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1230248.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年12月8日(月)  10:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "疑問への丁寧な説明、発信を　県宿泊税導入へ　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1312477",
+          "published": "12/8 5:00",
+          "paid": true
+        },
+        {
+          "title": "かじ取り役選び、冷静活発に　千葉市長選、告示まで３カ月　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1312476",
+          "published": "12/8 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "旧姓使用法制化　男女格差解消には不十分",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/741813",
+          "published": "2025/12/8",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説旧姓使用の法制化／これでは解決にならぬ",
+          "link": "https://webun.jp/articles/-/933651",
+          "published": "2025.12.08",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【マイナ保険証移行】医療の効率化推進に必須",
+          "link": "https://www.hokkoku.co.jp/articles/-/1952794",
+          "published": "12/8",
+          "paid": true
+        },
+        {
+          "title": "社説【珠洲に金大新拠点】災害に強い人材育成の場に",
+          "link": "https://www.hokkoku.co.jp/articles/-/1952793",
+          "published": "12/8",
+          "paid": true
+        },
+        {
+          "title": "社説【珠洲に金大新拠点】災害に強い人材育つ場に",
+          "link": "https://www.hokkoku.co.jp/articles/-/1952736",
+          "published": "12/8",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "労働時間規制",
+          "link": "https://www.gifu-np.co.jp/articles/-/637953",
+          "published": "2025年12月8日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　スパイ防止法　冷静な議論が不可欠だ",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/909955",
+          "published": "2025/12/8 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【旧姓の通称使用】法制化で課題解決しない",
+          "link": "https://www.kochinews.co.jp/article/detail/936927",
+          "published": "2025.12.08 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］米国家安全保障戦略　沖縄の負担増はノーだ",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1729887",
+          "published": "2025年12月8日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞開戦84年　戦争しない決意を新たに",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4847131.html",
+          "published": "2025/12/08",
+          "paid": false
+        }
+      ]
     }
   ]
 }

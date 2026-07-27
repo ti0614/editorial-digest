@@ -32,7 +32,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "アメリカ独立250年　理想を追う民の強さこそ",
+          "link": "https://mainichi.jp/articles/20260704/ddm/005/070/137000c",
+          "published": "2026/7/4 02:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "読売新聞",
@@ -52,7 +59,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "［社説］外国人への日本語講習を共生社会の礎に",
+          "link": "https://www.nikkei.com/article/DGXZQODK033AO0T00C26A7000000/",
+          "published": "4日",
+          "paid": false
+        },
+        {
+          "title": "［社説］自衛隊は宇宙の監視を急げ",
+          "link": "https://www.nikkei.com/article/DGXZQODK018KI0R00C26A7000000/",
+          "published": "4日",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "産経新聞",
@@ -230,14 +250,21 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "【足尾の緑復活】植樹から育樹へ転換の時",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1378341",
+          "published": "7/4  8:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "神奈川新聞",
       "category": "社説",
       "tier": "regional",
       "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
-      "error": null,
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
       "items": [
@@ -284,7 +311,7 @@
       "category": "論説",
       "tier": "regional",
       "index_url": "https://www.chibanippo.co.jp/serial",
-      "error": null,
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
       "items": []
@@ -297,7 +324,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "浜岡原発不正隠し　適格性への疑念が深まる",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/861854",
+          "published": "7/4",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "北日本新聞",
@@ -307,7 +341,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "社説キャニオンルート／一般開放へ抜かりなく",
+          "link": "https://webun.jp/articles/-/1049853",
+          "published": "2026.07.04",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "北國新聞",
@@ -317,7 +358,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "社説【「全建賞」受賞】災害復旧事業のモデルに",
+          "link": "https://www.hokkoku.co.jp/articles/-/2159118",
+          "published": "7/4",
+          "paid": true
+        },
+        {
+          "title": "社説【日印首脳会談】「クアッド」の機能強化を",
+          "link": "https://www.hokkoku.co.jp/articles/-/2159117",
+          "published": "7/4",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "福井新聞",
@@ -374,7 +428,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "米建国２５０年",
+          "link": "https://www.gifu-np.co.jp/articles/-/734188",
+          "published": "2026年7月4日 05:00岐阜",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "奈良新聞",
@@ -414,7 +475,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "論説　米建国２５０年　民主主義の劣化を憂う",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/1035267",
+          "published": "2026/7/4 04:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "徳島新聞",
@@ -451,7 +519,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "【米建国２５０年】問われる超大国の責任",
+          "link": "https://www.kochinews.co.jp/article/detail/1021764",
+          "published": "2026.07.04 05:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "日本海新聞",
@@ -535,7 +610,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "［社説］離島の黒糖工場　赤字原因究明し対策を",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1873358",
+          "published": "2026年7月4日",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "琉球新報",

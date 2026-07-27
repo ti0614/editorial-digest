@@ -23,6 +23,272 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "米イランが2週間停戦　危機収束へ双方が譲歩を",
+          "link": "https://mainichi.jp/articles/20260409/ddm/005/070/097000c",
+          "published": "2026/4/9 02:02",
+          "paid": false
+        },
+        {
+          "title": "新政権のミャンマー　市民の苦しみ直視せねば",
+          "link": "https://mainichi.jp/articles/20260409/ddm/005/070/095000c",
+          "published": "2026/4/9 02:02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］外国人材の受け入れ上限は柔軟な運用を",
+          "link": "https://www.nikkei.com/article/DGXZQODK063L50W6A400C2000000/",
+          "published": "4月9日",
+          "paid": false
+        },
+        {
+          "title": "［社説］女性議員への道を広げたい",
+          "link": "https://www.nikkei.com/article/DGXZQODK068BF0W6A400C2000000/",
+          "published": "4月9日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【会津１００年フード】発信の機会逃すな（４月９日）",
+          "link": "https://www.minpo.jp/articles/-/104027",
+          "published": "2026/04/09 12:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "米イラン停戦　\t真の「和平」には程遠い",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1263060.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2026年4月9日(木)  09:40",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "米イラン停戦合意　恒久的な和平の第一歩に",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/811322",
+          "published": "4/9",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説米・イラン停戦合意／恒久的和平につなげよ",
+          "link": "https://webun.jp/articles/-/1000637",
+          "published": "2026.04.09",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【金沢の庭園調査】新たなまち巡りの提案を",
+          "link": "https://www.hokkoku.co.jp/articles/-/2071705",
+          "published": "4/9",
+          "paid": true
+        },
+        {
+          "title": "社説【米イラン即時停戦】最終合意へ確実な一歩に",
+          "link": "https://www.hokkoku.co.jp/articles/-/2071704",
+          "published": "4/9",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "米イラン停戦合意",
+          "link": "https://www.gifu-np.co.jp/articles/-/691729",
+          "published": "2026年4月9日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　米イラン停戦合意　和平維持の道筋模索を",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/982885",
+          "published": "2026/4/9 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】米イラン停戦合意　恒久和平につなげねば",
+          "link": "https://www.topics.or.jp/articles/-/1412702",
+          "published": "2026/4/9 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【米イラン停戦】戦闘終結の道筋を明確に",
+          "link": "https://www.kochinews.co.jp/article/detail/989698",
+          "published": "2026.04.09 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "宮崎日日新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.the-miyanichi.co.jp/column/syasetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "米イラン停戦合意",
+          "link": "https://www.the-miyanichi.co.jp/column/syasetsu/690731.html",
+          "published": "2026.04.09｜社説",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］子どもの自殺最多　SOSに組織で対応を",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1813232",
+          "published": "2026年4月9日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞米イラン即時停戦合意　恒久終戦への努力重ねよ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-5178655.html",
+          "published": "2026/04/09",
+          "paid": false
+        }
+      ]
     }
   ]
 }

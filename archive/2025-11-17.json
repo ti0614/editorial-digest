@@ -23,6 +23,204 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "自維の衆院定数削減案　制度ゆがめる党利党略だ",
+          "link": "https://mainichi.jp/articles/20251117/ddm/005/070/014000c",
+          "published": "2025/11/17 02:01",
+          "paid": false
+        },
+        {
+          "title": "中国の3隻目空母就役　海洋覇権の動き懸念する",
+          "link": "https://mainichi.jp/articles/20251117/ddm/005/070/013000c",
+          "published": "2025/11/17 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］米関税に負けぬ内需実現は長期の視点で",
+          "link": "https://www.nikkei.com/article/DGXZQODK1767P0X11C25A1000000/",
+          "published": "2025年11月17日",
+          "paid": false
+        },
+        {
+          "title": "［社説］「置き配」普及へ懸念解消を",
+          "link": "https://www.nikkei.com/article/DGXZQODK1477S0U5A111C2000000/",
+          "published": "2025年11月17日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【次世代交通】実現に向け後押しを（１１月１７日）",
+          "link": "https://www.minpo.jp/articles/-/51408",
+          "published": "2025/11/17 09:12",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "クマ緊急銃猟　運用には入念な準備を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1224508.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年11月17日(月)  09:50",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "黒字化目標見直し　健全財政が遠のかないか",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/729519",
+          "published": "2025/11/17",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説ソーシャルビジネス／地域課題解決の旗手に",
+          "link": "https://webun.jp/articles/-/921279",
+          "published": "2025.11.17",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【「置き配」標準化】消費者の不安解消が優先",
+          "link": "https://www.hokkoku.co.jp/articles/-/1931285",
+          "published": "11/17",
+          "paid": true
+        },
+        {
+          "title": "社説【「ふるさと住民」制度】被災地から先行モデルを",
+          "link": "https://www.hokkoku.co.jp/articles/-/1931284",
+          "published": "11/17",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社会保障改革",
+          "link": "https://www.gifu-np.co.jp/articles/-/626850",
+          "published": "2025年11月17日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　社会保障改革　給付と負担、共に議論を",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/897241",
+          "published": "2025/11/17 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【ガソリン減税】恒久財源を確保する責任",
+          "link": "https://www.kochinews.co.jp/article/detail/929986",
+          "published": "2025.11.17 05:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

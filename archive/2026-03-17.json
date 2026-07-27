@@ -17,6 +17,296 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "ホルムズの船舶護衛　日本は外交でこそ貢献を",
+          "link": "https://mainichi.jp/articles/20260317/ddm/005/070/188000c",
+          "published": "2026/3/17 02:02",
+          "paid": false
+        },
+        {
+          "title": "SNSの年齢制限　子ども守る議論深めねば",
+          "link": "https://mainichi.jp/articles/20260317/ddm/005/070/186000c",
+          "published": "2026/3/17 02:02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］AIの行き過ぎた軍事利用に歯止めを",
+          "link": "https://www.nikkei.com/article/DGXZQODK1762N0X10C26A3000000/",
+          "published": "3月17日",
+          "paid": false
+        },
+        {
+          "title": "［社説］地価の変調を警戒する局面だ",
+          "link": "https://www.nikkei.com/article/DGXZQODK172XO0X10C26A3000000/",
+          "published": "3月17日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【震災１５年　復興知事業】官民一体で充実を（３月１７日）",
+          "link": "https://www.minpo.jp/articles/-/81341",
+          "published": "2026/03/17 12:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【事前復興計画】将来見据えた推進を図れ",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1308370",
+          "published": "3/17  8:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "予算案審議　参院では「良識」を示せ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1256589.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2026年3月17日(火)  09:30",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "知事選踏まえ的確な施策を　問われる県の役割　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1414447",
+          "published": "3/17 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "冬季パラ閉幕　世界の分断影響が残念だ",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/797493",
+          "published": "3/17",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説旧姓「単記」法制化検討／本質的解決遠のく懸念",
+          "link": "https://webun.jp/articles/-/986918",
+          "published": "2026.03.17",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【酒造組合の合併】地酒文化受け継ぐ支えに",
+          "link": "https://www.hokkoku.co.jp/articles/-/2047409",
+          "published": "3/17",
+          "paid": true
+        },
+        {
+          "title": "社説【抗議船転覆】「平和教育」にそぐわない",
+          "link": "https://www.hokkoku.co.jp/articles/-/2047408",
+          "published": "3/17",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "中東へ自衛艦要請",
+          "link": "https://www.gifu-np.co.jp/articles/-/680645",
+          "published": "2026年3月17日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　中東へ自衛艦要請　軽々な派遣許されない",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/968150",
+          "published": "2026/3/17 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】核のごみ処分地　丁寧な合意形成欠かせぬ",
+          "link": "https://www.topics.or.jp/articles/-/1400284",
+          "published": "2026/3/17 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【石油備蓄放出】不安解消へ問われる役割",
+          "link": "https://www.kochinews.co.jp/article/detail/981767",
+          "published": "2026.03.17 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "宮崎日日新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.the-miyanichi.co.jp/column/syasetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "予算案採決強行",
+          "link": "https://www.the-miyanichi.co.jp/column/syasetsu/637160.html",
+          "published": "2026.03.17｜社説",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］辺野古で船転覆2人死亡　原因究明と心のケアを",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1796293",
+          "published": "2026年3月17日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞在沖海兵隊中東派遣　事前協議求め中止させよ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-5124095.html",
+          "published": "2026/03/17",
+          "paid": false
+        }
+      ]
     }
   ]
 }

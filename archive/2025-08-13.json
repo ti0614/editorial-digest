@@ -23,6 +23,226 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "首相進退と自民党　あきれる国民不在の抗争",
+          "link": "https://mainichi.jp/articles/20250813/ddm/002/070/080000c",
+          "published": "2025/8/13 02:01",
+          "paid": false
+        },
+        {
+          "title": "日航機墜落事故40年　安全への願いを忘れない",
+          "link": "https://mainichi.jp/articles/20250813/ddm/002/070/079000c",
+          "published": "2025/8/13 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］経営革新で停滞の40年に終止符を",
+          "link": "https://www.nikkei.com/article/DGXZQOCD127MO0S5A810C2000000/",
+          "published": "2025年8月13日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【中小企業のＤＸ】会津若松モデル確立を（８月１３日）",
+          "link": "https://www.minpo.jp/articles/-/53344",
+          "published": "2025/08/13 09:10",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "ガソリン減税　財源と脱炭素に道筋を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1198470.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年8月13日(水)  09:30",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "日航機墜落４０年　安全運航の誓いを新たに",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/669200",
+          "published": "2025/8/13",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説コメ 減反から増産へ／大転換 かけ声だけでは",
+          "link": "https://webun.jp/articles/-/861886",
+          "published": "2025.08.13",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "パレスチナ承認",
+          "link": "https://www.gifu-np.co.jp/articles/-/582567",
+          "published": "2025年8月13日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　株価最高値　日本経済のゆがみ見よ",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/838486",
+          "published": "2025/8/13 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】自民党内紛　解党的出直しを議論せよ",
+          "link": "https://www.topics.or.jp/articles/-/1287711",
+          "published": "2025/8/13 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【東証が最高値】米関税の修正を急げ",
+          "link": "https://www.kochinews.co.jp/article/detail/897163",
+          "published": "2025.08.13 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］広陵高の甲子園辞退　一連の対応　検証必要だ",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1648097",
+          "published": "2025年8月13日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞広陵高が甲子園辞退　当初対応は適切か検証を",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4538995.html",
+          "published": "2025/08/13",
+          "paid": false
+        }
+      ]
     }
   ]
 }

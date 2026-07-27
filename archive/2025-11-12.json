@@ -17,6 +17,295 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "高市新政権　金融政策の正常化　物価安定へ日銀と連携を",
+          "link": "https://mainichi.jp/articles/20251112/ddm/005/070/091000c",
+          "published": "2025/11/12 02:19",
+          "paid": false
+        },
+        {
+          "title": "被災者の心のケア　支援途切れぬ工夫が必要",
+          "link": "https://mainichi.jp/articles/20251112/ddm/005/070/089000c",
+          "published": "2025/11/12 02:19",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］国際協調を再建し脱炭素促すCOP30に",
+          "link": "https://www.nikkei.com/article/DGXZQODK121BD0S5A111C2000000/",
+          "published": "2025年11月12日",
+          "paid": false
+        },
+        {
+          "title": "［社説］ふるさと納税は規模の抑制を",
+          "link": "https://www.nikkei.com/article/DGXZQODK126R00S5A111C2000000/",
+          "published": "2025年11月12日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【バス２社経営統合】地域交通転換の契機に（１１月１２日）",
+          "link": "https://www.minpo.jp/articles/-/51534",
+          "published": "2025/11/12 09:11",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【朝ドラ「風、薫る」来春放送】地域振興へ最大限活用を",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1228161",
+          "published": "2025/11/12",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "核実験指示　核開発競争あおる愚挙",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1223216.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年11月12日(水)  09:11",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "立花党首逮捕　言葉の暴力は許されない",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/726565",
+          "published": "2025/11/12",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説ブラジル県人会６５周年／支援と交流 一層強固に",
+          "link": "https://webun.jp/articles/-/918316",
+          "published": "2025.11.12",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【県立大の海外支援】産学官連携の新境地開く",
+          "link": "https://www.hokkoku.co.jp/articles/-/1926192",
+          "published": "11/12",
+          "paid": true
+        },
+        {
+          "title": "社説【仲代達矢さん死去】能登を愛した名優に感謝",
+          "link": "https://www.hokkoku.co.jp/articles/-/1926191",
+          "published": "11/12",
+          "paid": true
+        },
+        {
+          "title": "社説【大学の海外支援】産学官連携の新境地開く",
+          "link": "https://www.hokkoku.co.jp/articles/-/1926171",
+          "published": "11/12",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "首相と台湾有事",
+          "link": "https://www.gifu-np.co.jp/articles/-/624173",
+          "published": "2025年11月12日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　首相と台湾有事　緊張高める軽率な答弁",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/894188",
+          "published": "2025/11/12 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】烏雲さん死去　日中友好の願い忘れない",
+          "link": "https://www.topics.or.jp/articles/-/1336199",
+          "published": "2025/11/12 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【置き配ルール】地域物流網を維持したい",
+          "link": "https://www.kochinews.co.jp/article/detail/928391",
+          "published": "2025.11.12 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "宮崎日日新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.the-miyanichi.co.jp/column/syasetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "Ｎ党立花党首逮捕",
+          "link": "https://www.the-miyanichi.co.jp/column/syasetsu/359077.html",
+          "published": "2025.11.12｜社説",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］京大さらに琉球人遺骨　返還進め真摯に謝罪を",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1711623",
+          "published": "2025年11月12日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞「存立危機事態」発言　衝突回避の外交に徹せよ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4763701.html",
+          "published": "2025/11/12",
+          "paid": false
+        }
+      ]
     }
   ]
 }

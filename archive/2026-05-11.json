@@ -1,0 +1,61 @@
+{
+  "date": "2026-05-11",
+  "sources": [
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］トランプ関税に屈せず自由貿易の拡大を",
+          "link": "https://www.nikkei.com/article/DGXZQODK1140Z0R10C26A5000000/",
+          "published": "5月11日",
+          "paid": false
+        },
+        {
+          "title": "［社説］書店経営は個性ある空間競え",
+          "link": "https://www.nikkei.com/article/DGXZQODK246E90U6A420C2000000/",
+          "published": "5月11日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "組織挙げ、働き手守るべき　カスハラ対策　【論説】",
+          "link": "https://www.chibanippo.co.jp/news/local/1438745",
+          "published": "5/11 5:00",
+          "paid": true
+        },
+        {
+          "title": "インフレ防ぐ精緻な運営を　先進国で利下げ加速も　【論説】",
+          "link": "https://www.chibanippo.co.jp/news/economics/1439039",
+          "published": "5/11 5:00",
+          "paid": true
+        }
+      ]
+    }
+  ]
+}

@@ -17,6 +17,249 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "衆院選2026　きょう投票　熟慮して1票を投じよう",
+          "link": "https://mainichi.jp/articles/20260208/ddm/005/070/118000c",
+          "published": "2026/2/8 02:02",
+          "paid": false
+        },
+        {
+          "title": "菊池事件で再審認めず　違憲裁判を追認するのか",
+          "link": "https://mainichi.jp/articles/20260208/ddm/005/070/116000c",
+          "published": "2026/2/8 02:02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］大事な1票で難局に臨む国の針路確かに",
+          "link": "https://www.nikkei.com/article/DGXZQODK058FN0V00C26A2000000/",
+          "published": "2月8日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【衆院選きょう投票】禍根残した超短期決戦",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1284143",
+          "published": "2/8  8:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "きょう投開票　未来を選ぶのはあなた",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1246238.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2026年2月8日(日)  11:50",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "きょう投票　冷静に政策を見極めたい",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/775921",
+          "published": "2/8",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説冬の雪道運転／「急」の操作避け慎重に",
+          "link": "https://webun.jp/articles/-/966268",
+          "published": "2026.02.08",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【農林水産物の輸出】北陸も相手先の多角化を",
+          "link": "https://www.hokkoku.co.jp/articles/-/2010453",
+          "published": "2/8",
+          "paid": true
+        },
+        {
+          "title": "社説【衆院選きょう投票】思い託す相手を見極めたい",
+          "link": "https://www.hokkoku.co.jp/articles/-/2010452",
+          "published": "2/8",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "衆院選きょう投開票",
+          "link": "https://www.gifu-np.co.jp/articles/-/664689",
+          "published": "2026年2月8日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　冬季五輪開幕　問われる大会の在り方",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/945425",
+          "published": "2026/2/8 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】26衆院選　きょう投開票　主体的に未来を選ぼう",
+          "link": "https://www.topics.or.jp/articles/-/1381199",
+          "published": "2026/2/8 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【２０２６衆院選　きょう投票】未来へ責任ある１票を",
+          "link": "https://www.kochinews.co.jp/article/detail/959458",
+          "published": "2026.02.08 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］［2026　衆院選］きょう投開票　政策見極め意思示そう",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1770523",
+          "published": "2026年2月8日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞衆院選きょう投開票　将来へ悔い残さぬ選択を",
+          "link": "https://ryukyushimpo.jp/editorial/entry-5020595.html",
+          "published": "2026/02/08",
+          "paid": false
+        }
+      ]
     }
   ]
 }

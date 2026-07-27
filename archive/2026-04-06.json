@@ -17,6 +17,245 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "クマ駆除の体制整備　猟友会頼みからの脱却を",
+          "link": "https://mainichi.jp/articles/20260406/ddm/005/070/107000c",
+          "published": "2026/4/6 02:01",
+          "paid": false
+        },
+        {
+          "title": "ケアマネジャーの不足　介護難民生まぬ対策急務",
+          "link": "https://mainichi.jp/articles/20260406/ddm/005/070/106000c",
+          "published": "2026/4/6 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］消費税は減税せず給付付き控除を急げ",
+          "link": "https://www.nikkei.com/article/DGXZQOCD035GT0T00C26A4000000/",
+          "published": "4月6日",
+          "paid": false
+        },
+        {
+          "title": "［社説］子ども守るSNS依存対策を",
+          "link": "https://www.nikkei.com/article/DGXZQODK065ZK0W6A400C2000000/",
+          "published": "4月6日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【震災１５年　楢葉ユズ産地化】知恵絞りブランドに（４月６日）",
+          "link": "https://www.minpo.jp/articles/-/101046",
+          "published": "2026/04/06 12:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "アーチオン上場　出遅れ挽回の成長策を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1262130.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2026年4月6日(月)  10:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "自転車「青切符」制度開始　取り締まりと周知、両輪で　【論説】",
+          "link": "https://www.chibanippo.co.jp/articles/1596315",
+          "published": "4/6 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "ストーカー殺人　繰り返される悲劇を防げ",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/809441",
+          "published": "4/6",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説授業時数の見直し　社会全体で教育担おう",
+          "link": "https://webun.jp/articles/-/998761",
+          "published": "2026.04.06",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【患者情報の共有】迅速な病院搬送に役立つ",
+          "link": "https://www.hokkoku.co.jp/articles/-/2068713",
+          "published": "4/6",
+          "paid": true
+        },
+        {
+          "title": "社説【クマ捕獲強化】人材の確保育成に注力を",
+          "link": "https://www.hokkoku.co.jp/articles/-/2068712",
+          "published": "4/6",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "子育て支援金",
+          "link": "https://www.gifu-np.co.jp/articles/-/690317",
+          "published": "2026年4月6日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　新観光立国計画　「体験型」で地方に客を",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/980937",
+          "published": "2026/4/6 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【共同親権】ＤＶの有無　見極め重く",
+          "link": "https://www.kochinews.co.jp/article/detail/988590",
+          "published": "2026.04.06 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］イラン情勢手詰まり　地上戦は最悪事態招く",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1810961",
+          "published": "2026年4月6日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞トランプ氏イラン演説　米は戦闘終結の道筋示せ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-5172691.html",
+          "published": "2026/04/06",
+          "paid": false
+        }
+      ]
     }
   ]
 }

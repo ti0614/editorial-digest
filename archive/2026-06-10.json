@@ -63,6 +63,289 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "「核」誇示する北朝鮮　脅威を高める中国の黙認",
+          "link": "https://mainichi.jp/articles/20260610/ddm/005/070/093000c",
+          "published": "2026/6/10 02:01",
+          "paid": false
+        },
+        {
+          "title": "原発の建て替え目標　国民理解得るには程遠い",
+          "link": "https://mainichi.jp/articles/20260610/ddm/005/070/094000c",
+          "published": "2026/6/10 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］安定した皇位継承へ国民的議論深めよ",
+          "link": "https://www.nikkei.com/article/DGXZQODK104MI0Q6A610C2000000/",
+          "published": "6月10日",
+          "paid": false
+        },
+        {
+          "title": "［社説］中傷動画に納得のいく説明を",
+          "link": "https://www.nikkei.com/article/DGXZQODK106VC0Q6A610C2000000/",
+          "published": "6月10日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【地域未来戦略】つながりに欠ける（６月１０日）",
+          "link": "https://www.minpo.jp/articles/-/152956",
+          "published": "2026/06/10 11:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【全国川サミット】貴重な資源 次代につなげ",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1362572",
+          "published": "6/10  8:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "商業化するＷ杯　サッカーは誰のものか",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1279120.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2026年6月10日(水)  09:30",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "皇族数確保策　問題の先送りに過ぎない",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/846285",
+          "published": "6/10",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説ケアマネジャー／担い手の確保に全力を",
+          "link": "https://webun.jp/articles/-/1035023",
+          "published": "2026.06.10",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【和倉の温泉熱利用】環境配慮も誘客の売りに",
+          "link": "https://www.hokkoku.co.jp/articles/-/2134307",
+          "published": "6/10",
+          "paid": true
+        },
+        {
+          "title": "社説【仮設団地の選挙運動】制限するなら丁寧な説明を",
+          "link": "https://www.hokkoku.co.jp/articles/-/2134306",
+          "published": "6/10",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "人材派遣カルテル",
+          "link": "https://www.gifu-np.co.jp/articles/-/721244",
+          "published": "2026年6月10日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　人材派遣５社カルテル　消費者にもツケが回る",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/1019724",
+          "published": "2026/6/10 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】スダチ生産減　官民挙げて産地振興を",
+          "link": "https://www.topics.or.jp/articles/-/1444177",
+          "published": "2026/6/10 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【県出生数最少】粘り強く将来不安拭え",
+          "link": "https://www.kochinews.co.jp/article/detail/1013730",
+          "published": "2026.06.10 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "宮崎日日新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.the-miyanichi.co.jp/column/syasetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "補正予算",
+          "link": "https://www.the-miyanichi.co.jp/column/syasetsu/828005.html",
+          "published": "2026.06.10｜社説",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］皇族数確保策　国民総意と言えるのか",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1855672",
+          "published": "2026年6月10日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞総裁選の誹謗中傷動画　首相は徹底調査し説明を",
+          "link": "https://ryukyushimpo.jp/editorial/entry-5302002.html",
+          "published": "2026/06/10",
+          "paid": false
+        }
+      ]
     }
   ]
 }

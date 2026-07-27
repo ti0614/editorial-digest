@@ -23,6 +23,302 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "林氏の選挙労務費問題　所管大臣として責任重い",
+          "link": "https://mainichi.jp/articles/20260106/ddm/005/070/093000c",
+          "published": "2026/1/6 02:01",
+          "paid": false
+        },
+        {
+          "title": "高市首相の年頭会見　危うい現実を直視せねば",
+          "link": "https://mainichi.jp/articles/20260106/ddm/005/070/095000c",
+          "published": "2026/1/6 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］ベネズエラの民主的な政権移行を着実に",
+          "link": "https://www.nikkei.com/article/DGXZQODK065Z50W6A100C2000000/",
+          "published": "1月6日",
+          "paid": false
+        },
+        {
+          "title": "［社説］中国の日米韓引き離しを防げ",
+          "link": "https://www.nikkei.com/article/DGXZQODK0636Q0W6A100C2000000/",
+          "published": "1月6日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【震災１５年　住民帰還】今年こそ正念場（１月６日）",
+          "link": "https://www.minpo.jp/articles/-/50465",
+          "published": "2026/01/06 09:29",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【特別支援教育】「分離」状態の解消目指せ",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1260723",
+          "published": "1/6  8:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "展望・県政　難題山積に実行力示せ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1237419.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2026年1月6日(火)  09:40",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "次代へつなぐ使命認識を　節目の年　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1323487",
+          "published": "1/6 5:00",
+          "paid": true
+        },
+        {
+          "title": "課題克服へ再挑戦に期待　「日本遺産」候補継続の鋸山　【論説】",
+          "link": "https://www.chibanippo.co.jp/news/local/1323486",
+          "published": "1/6 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "２０２６外交・安保　覇権主義の広がりを憂う",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/756970",
+          "published": "1/6",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説米国のベネズエラ攻撃／国際法無視、許されない",
+          "link": "https://webun.jp/articles/-/948418",
+          "published": "2026.01.06",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【北前船の工芸連携】新たな創造生む交流を",
+          "link": "https://www.hokkoku.co.jp/articles/-/1978946",
+          "published": "1/6",
+          "paid": true
+        },
+        {
+          "title": "社説【米国の軍事作戦】「力による現状変更」を憂う",
+          "link": "https://www.hokkoku.co.jp/articles/-/1978945",
+          "published": "1/6",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "党首の年頭会見",
+          "link": "https://www.gifu-np.co.jp/articles/-/649911",
+          "published": "2026年1月6日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　党首の年頭会見　「責任政党」たり得るか",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/926117",
+          "published": "2026/1/6 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】26年経済展望　実質賃金のプラス転換を",
+          "link": "https://www.topics.or.jp/articles/-/1365142",
+          "published": "2026/1/6 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【ベネズエラ攻撃】国際秩序を顧みない蛮行",
+          "link": "https://www.kochinews.co.jp/article/detail/946242",
+          "published": "2026.01.06 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "宮崎日日新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.the-miyanichi.co.jp/column/syasetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "高市外交２０２６",
+          "link": "https://www.the-miyanichi.co.jp/column/syasetsu/476963.html",
+          "published": "2026.01.06｜社説",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］首相年頭会見　改革の力量が問われる",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1748198",
+          "published": "2026年1月6日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞２６年政局展望　未来に悔い残さぬ選択を",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4931833.html",
+          "published": "2026/01/06",
+          "paid": false
+        }
+      ]
     }
   ]
 }

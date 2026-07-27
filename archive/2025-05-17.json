@@ -23,6 +23,232 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "物価高とマイナス成長　米関税との二重苦警戒を",
+          "link": "https://mainichi.jp/articles/20250517/ddm/005/070/144000c",
+          "published": "2025/5/17 02:01",
+          "paid": false
+        },
+        {
+          "title": "自衛隊機の墜落事故　多発の背景究明が重要だ",
+          "link": "https://mainichi.jp/articles/20250517/ddm/005/070/143000c",
+          "published": "2025/5/17 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］年金を政争の具とせず建設的な審議に",
+          "link": "https://www.nikkei.com/article/DGXZQODK155NE0V10C25A5000000/",
+          "published": "2025年5月17日",
+          "paid": false
+        },
+        {
+          "title": "［社説］早期停戦へロシアは譲歩を",
+          "link": "https://www.nikkei.com/article/DGXZQOCD170RH0X10C25A5000000/",
+          "published": "2025年5月17日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【県の人口減少対策】民間の知恵生かして（５月１７日）",
+          "link": "https://www.minpo.jp/articles/-/53993",
+          "published": "2025/05/17 09:12",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【「勝手踏切」対策】　啓発注力し事故防止図れ",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1112667",
+          "published": "2025/5/17",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "日産リストラ　痛み強いるなら覚悟を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1172621.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年5月17日(土)  09:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "空自機墜落　原因究明を急ぎ再発防げ",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/609433",
+          "published": "2025/5/17",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "サイバー防御法",
+          "link": "https://www.gifu-np.co.jp/articles/-/541048",
+          "published": "2025年5月17日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　年金法案提出　与野党で最適解を探れ",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/782254",
+          "published": "2025/5/17 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】障害年金不支給増　客観的な判定の徹底を",
+          "link": "https://www.topics.or.jp/articles/-/1240462",
+          "published": "2025/5/17 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【年金改革法案】将来に責任を持つ議論を",
+          "link": "https://www.kochinews.co.jp/article/detail/861252",
+          "published": "2025.05.17 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］南城市長のセクハラ認定　辞職以外の選択肢ない",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1584942",
+          "published": "2025年5月17日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞南城市長に辞職提言　セクハラ認定は重大だ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4236347.html",
+          "published": "2025/05/17",
+          "paid": false
+        }
+      ]
     }
   ]
 }

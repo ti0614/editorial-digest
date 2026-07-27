@@ -23,6 +23,225 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "代表質問への首相答弁　国会重視の姿勢見えない",
+          "link": "https://mainichi.jp/articles/20250129/ddm/005/070/054000c",
+          "published": "2025/1/29 02:01",
+          "paid": false
+        },
+        {
+          "title": "イチロー氏の殿堂入り　本場もうならせた走攻守",
+          "link": "https://mainichi.jp/articles/20250129/ddm/005/070/051000c",
+          "published": "2025/1/29 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］この案では年金の不安は全く消えない",
+          "link": "https://www.nikkei.com/article/DGXZQODK294HD0Z20C25A1000000/",
+          "published": "2025年1月29日",
+          "paid": false
+        },
+        {
+          "title": "［社説］EVは米転換でも長期戦略で",
+          "link": "https://www.nikkei.com/article/DGXZQOCD297OO0Z20C25A1000000/",
+          "published": "2025年1月29日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【相馬のトラフグ】一大産地化に期待（１月２９日）",
+          "link": "https://www.minpo.jp/articles/-/54560",
+          "published": "2025/01/29 09:27",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【国福大の検査技師養成】地域医療支える人材を",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1046457",
+          "published": "2025/1/29",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "フジ社長辞任　信頼回復には遠い道のり",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/547152",
+          "published": "2025/1/29",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "フジ社長ら辞任",
+          "link": "https://www.gifu-np.co.jp/articles/-/495456",
+          "published": "2025年1月29日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　フジ社長・会長辞任　再生への道は険しい",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/720536",
+          "published": "2025/1/29 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】フジテレビ問題　人権軽視の体質にメスを",
+          "link": "https://www.topics.or.jp/articles/-/1188670",
+          "published": "2025/1/29 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【フジテレビ問題】企業風土も問われている",
+          "link": "https://www.kochinews.co.jp/article/detail/825080",
+          "published": "2025.01.29 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］ジャングリア開業日発表　地域との共存共栄こそ",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1516275",
+          "published": "2025年1月29日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞強制収容所解放80年　「負の歴史」の直視、継承を",
+          "link": "https://ryukyushimpo.jp/editorial/entry-3909633.html",
+          "published": "2025/01/29",
+          "paid": false
+        }
+      ]
     }
   ]
 }

@@ -23,6 +23,232 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "ウクライナが停戦同意　露は無条件で受け入れを",
+          "link": "https://mainichi.jp/articles/20250313/ddm/005/070/054000c",
+          "published": "2025/3/13 02:00",
+          "paid": false
+        },
+        {
+          "title": "党勢低迷の自民　変われなければじり貧だ",
+          "link": "https://mainichi.jp/articles/20250313/ddm/005/070/053000c",
+          "published": "2025/3/13 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］相手選ばぬトランプ関税に備えが必要だ",
+          "link": "https://www.nikkei.com/article/DGXZQODK1388S0T10C25A3000000/",
+          "published": "2025年3月13日",
+          "paid": false
+        },
+        {
+          "title": "［社説］ロシアは停戦と和平に動け",
+          "link": "https://www.nikkei.com/article/DGXZQODK1343F0T10C25A3000000/",
+          "published": "2025年3月13日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【震災１４年　宇宙産業開発】定着へ裾野を広げて（３月１３日）",
+          "link": "https://www.minpo.jp/articles/-/54355",
+          "published": "2025/03/13 09:15",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【給食無償化】少子化対策に有効なのか",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1072080",
+          "published": "2025/3/13",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "大阪・関西万博まで１カ月　レガシーをどう残すか",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1155221.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年3月13日(木)  09:30",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "中国全人代　国際協調へ役割果たす時",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/572733",
+          "published": "2025/3/13",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "自民党大会",
+          "link": "https://www.gifu-np.co.jp/articles/-/513235",
+          "published": "2025年3月13日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　米ウクライナ協議　停戦を和平につなげよ",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/744494",
+          "published": "2025/3/13 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】兵庫百条委報告書　知事は軽視の姿勢改めよ",
+          "link": "https://www.topics.or.jp/articles/-/1208549",
+          "published": "2025/3/13 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【中国全人代】内需不足がのしかかる",
+          "link": "https://www.kochinews.co.jp/article/detail/839902",
+          "published": "2025.03.13 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］小規模離島の危機　振計後半の軸に据えよ",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1542916",
+          "published": "2025年3月13日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞トランプ氏安保発言　沖縄の片務性を解消せよ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4045700.html",
+          "published": "2025/03/13",
+          "paid": false
+        }
+      ]
     }
   ]
 }

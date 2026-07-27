@@ -23,6 +23,193 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "戦後80年　混迷する世界　「法の支配」を秩序の力に",
+          "link": "https://mainichi.jp/articles/20250811/ddm/005/070/030000c",
+          "published": "2025/8/11 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【公共交通】観光に生かそう（８月１１日）",
+          "link": "https://www.minpo.jp/articles/-/53349",
+          "published": "2025/08/11 09:40",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "日米間の人形交流　世界平和の願い、今も",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1198029.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年8月11日(月)  09:50",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "千葉の戦禍を語り継ぐ　終戦８０年　【論説】",
+          "link": "https://www.chibanippo.co.jp/articles/1481585",
+          "published": "8/11 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "大川原冤罪の検証　ずさんな捜査改革急務だ",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/668213",
+          "published": "2025/8/11",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説リチウムイオン電池／事故多発 夏の高温注意",
+          "link": "https://webun.jp/articles/-/860896",
+          "published": "2025.08.11",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "日航機事故４０年",
+          "link": "https://www.gifu-np.co.jp/articles/-/581989",
+          "published": "2025年8月11日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　空の安全、もう一度祈る　日航機墜落事故４０年",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/837582",
+          "published": "2025/8/11 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【「地震注意」１年】日頃の備えで命守ろう",
+          "link": "https://www.kochinews.co.jp/article/detail/896619",
+          "published": "2025.08.11 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］冤罪捜査の検証報告　教訓生かした改革急げ",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1647096",
+          "published": "2025年8月11日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞無人艇無期限配備　沖縄は「実験場」ではない",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4534768.html",
+          "published": "2025/08/11",
+          "paid": false
+        }
+      ]
     }
   ]
 }

@@ -23,6 +23,219 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "トランプ氏再選　岐路の温暖化対策　パリ協定離脱は禍根残す",
+          "link": "https://mainichi.jp/articles/20241115/ddm/005/070/093000c",
+          "published": "2024/11/15 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］賃金と消費の好循環へ長期の戦略を急げ",
+          "link": "https://www.nikkei.com/article/DGXZQODK156S00V11C24A1000000/",
+          "published": "2024年11月15日",
+          "paid": false
+        },
+        {
+          "title": "［社説］独居高齢者の急増に備えを",
+          "link": "https://www.nikkei.com/article/DGXZQOCD145YV0U4A111C2000000/",
+          "published": "2024年11月15日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【特許出願低調】未来念頭に意識改革を（１１月１５日）",
+          "link": "https://www.minpo.jp/articles/-/54843",
+          "published": "2024/11/15 09:29",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【県立美術館の連携事業】作品の魅力 多くの県民に",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1001271",
+          "published": "2024/11/15",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "ＣＯＰ２９　温暖化抑制へ結束を強く",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/509757",
+          "published": "2024/11/15",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "いじめ重大事態",
+          "link": "https://www.gifu-np.co.jp/articles/-/466320",
+          "published": "2024年11月15日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　デブリ取り出し　廃炉の目標を守れるか",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/680146",
+          "published": "2024/11/15 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】トランプ氏と日本　摩擦回避へ早期に協議を",
+          "link": "https://www.topics.or.jp/articles/-/1155658",
+          "published": "2024/11/15 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【独居の高齢者】孤立防ぐ安心の社会を",
+          "link": "https://www.kochinews.co.jp/article/detail/804194",
+          "published": "2024.11.15 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］辺野古崎土砂投入　まず強硬姿勢を改めよ",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1471945",
+          "published": "2024年11月15日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞辺野古崎埋め立て開始　野党は対峙し存在感示せ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-3648498.html",
+          "published": "2024/11/15",
+          "paid": false
+        }
+      ]
     }
   ]
 }

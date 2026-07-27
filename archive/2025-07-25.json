@@ -23,6 +23,243 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "石破首相　退陣不可避に　針路欠いた迷走の帰結だ",
+          "link": "https://mainichi.jp/articles/20250725/ddm/005/070/102000c",
+          "published": "2025/7/25 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］専制国家と見まがうトランプ政権の半年",
+          "link": "https://www.nikkei.com/article/DGXZQODK252M30V20C25A7000000/",
+          "published": "2025年7月25日",
+          "paid": false
+        },
+        {
+          "title": "［社説］タイ・カンボジア交戦を憂う",
+          "link": "https://www.nikkei.com/article/DGXZQODK255530V20C25A7000000/",
+          "published": "2025年7月25日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【ラムサール登録】世界の猪苗代湖に（７月２５日）",
+          "link": "https://www.minpo.jp/articles/-/53443",
+          "published": "2025/07/25 09:09",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【スケートＩＨ本県開催】競技人口増への契機に",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1158325",
+          "published": "2025/7/25",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "気候変動問題　危機感広げ行動しよう",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1193105.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年7月25日(金)  09:03",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "県内高温少雨　農作物への影響が心配だ",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/657026",
+          "published": "2025/7/25",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説福井中３殺害 再審無罪／冤罪救済へ法改正急げ",
+          "link": "https://webun.jp/articles/-/850128",
+          "published": "2025.07.25",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "首相の責任",
+          "link": "https://www.gifu-np.co.jp/articles/-/574351",
+          "published": "2025年7月25日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　首相の責任　民意へのけじめ必要だ",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/826717",
+          "published": "2025/7/25 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】福井中3殺害無罪　再審法の改正が急務だ",
+          "link": "https://www.topics.or.jp/articles/-/1277580",
+          "published": "2025/7/25 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【首相退陣論】自民党の改革も必要だ",
+          "link": "https://www.kochinews.co.jp/article/detail/890812",
+          "published": "2025.07.25 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］ジャングリア開業　地域も一緒に「豊かに」",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1635002",
+          "published": "2025年7月25日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞ジャングリア開業　地域と調和した運営を",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4477334.html",
+          "published": "2025/07/25",
+          "paid": false
+        }
+      ]
     }
   ]
 }

@@ -23,6 +23,272 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "政府の医療費抑制策　狙い撃ちが混乱を招いた",
+          "link": "https://mainichi.jp/articles/20251225/ddm/005/070/040000c",
+          "published": "2025/12/25 02:00",
+          "paid": false
+        },
+        {
+          "title": "EUがエンジン車容認　脱炭素の機運損ねぬよう",
+          "link": "https://mainichi.jp/articles/20251225/ddm/005/070/039000c",
+          "published": "2025/12/25 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］欧米の環境規制緩和の先読むEV戦略を",
+          "link": "https://www.nikkei.com/article/DGXZQOCD2538T0V21C25A2000000/",
+          "published": "2025年12月25日",
+          "paid": false
+        },
+        {
+          "title": "［社説］何のための再審制度改正か",
+          "link": "https://www.nikkei.com/article/DGXZQODK258040V21C25A2000000/",
+          "published": "2025年12月25日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【戦後８０年　災禍の教訓】疑い抜かねば（１２月２５日）",
+          "link": "https://www.minpo.jp/articles/-/50654",
+          "published": "2025/12/25 09:18",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "日向山の火災　広域連携の備え強化を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1235177.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年12月25日(木)  09:29",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "「太陽光」規制　再エネ活用の道筋揺らぐ",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/752678",
+          "published": "2025/12/25",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説Ｈ３ロケット失敗／原因突き止め再起せよ",
+          "link": "https://webun.jp/articles/-/943781",
+          "published": "2025.12.25",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【身寄りない高齢者】サポート体制整えたい",
+          "link": "https://www.hokkoku.co.jp/articles/-/1970965",
+          "published": "12/25",
+          "paid": true
+        },
+        {
+          "title": "社説【鉄路復旧にドローン】早期導入へ態勢の整備を",
+          "link": "https://www.hokkoku.co.jp/articles/-/1970964",
+          "published": "12/25",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "おこめ券",
+          "link": "https://www.gifu-np.co.jp/articles/-/646628",
+          "published": "2025年12月25日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　おこめ券　次の一歩につながるか",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/920865",
+          "published": "2025/12/25 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】核保有発言　国の信頼損ねる暴論だ",
+          "link": "https://www.topics.or.jp/articles/-/1360696",
+          "published": "2025/12/25 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【シリア１年】安定へ国内融和を急げ",
+          "link": "https://www.kochinews.co.jp/article/detail/942869",
+          "published": "2025.12.25 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "宮崎日日新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.the-miyanichi.co.jp/column/syasetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "官邸の核保有論",
+          "link": "https://www.the-miyanichi.co.jp/column/syasetsu/457136.html",
+          "published": "2025.12.25｜社説",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］第４海兵連隊改編見直し　計画の破綻ではないか",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1742616",
+          "published": "2025年12月25日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞非核三原則「議論」　核廃絶の原点を問い直せ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4899707.html",
+          "published": "2025/12/25",
+          "paid": false
+        }
+      ]
     }
   ]
 }

@@ -23,6 +23,225 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "衆院選2024　子ども・若者政策　希望持てる未来像提示を",
+          "link": "https://mainichi.jp/articles/20241023/ddm/005/070/066000c",
+          "published": "2024/10/23 02:00",
+          "paid": false
+        },
+        {
+          "title": "旧ジャニーズ起用再開　これで幕引きにはならぬ",
+          "link": "https://mainichi.jp/articles/20241023/ddm/005/070/065000c",
+          "published": "2024/10/23 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］人気取りの米大統領選は債務膨張を招く",
+          "link": "https://www.nikkei.com/article/DGXZQODK236QG0T21C24A0000000/",
+          "published": "2024年10月23日",
+          "paid": false
+        },
+        {
+          "title": "［社説］若者の不安拭う少子化対策を",
+          "link": "https://www.nikkei.com/article/DGXZQODK217IV0R21C24A0000000/",
+          "published": "2024年10月23日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【２０２４衆院選　経済政策】消費活発化の議論を（１０月２３日）",
+          "link": "https://www.minpo.jp/articles/-/55008",
+          "published": "2024/10/23 09:20",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【足利市議会定数削減】改革継続し信頼の醸成を",
+          "link": "https://www.shimotsuke.co.jp/articles/-/987457",
+          "published": "2024/10/23",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "中越地震２０年　復興の歩みを共有財産に",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/496663",
+          "published": "2024/10/23",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "衆院選・憲法改正",
+          "link": "https://www.gifu-np.co.jp/articles/-/456435",
+          "published": "2024年10月23日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　衆院選　憲法改正　主張の違い見極めたい",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/666994",
+          "published": "2024/10/23 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】衆院選中の凶行　異論は投票や言論で示せ",
+          "link": "https://www.topics.or.jp/articles/-/1144772",
+          "published": "2024/10/23 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【2024衆院選　社会保障】給付と負担の具体像急げ",
+          "link": "https://www.kochinews.co.jp/article/detail/797167",
+          "published": "2024.10.23 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］［２０２４　衆院選］辺野古新基地建設　状況変わらず　重大争点",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1457250",
+          "published": "2024年10月23日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞’24衆院選　経済政策　暮らしに向き合う提言を",
+          "link": "https://ryukyushimpo.jp/editorial/entry-3576638.html",
+          "published": "2024/10/23",
+          "paid": false
+        }
+      ]
     }
   ]
 }

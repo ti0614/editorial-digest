@@ -23,6 +23,238 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "戦後80年の首相所感　歴史から学ぶ政治の責任",
+          "link": "https://mainichi.jp/articles/20251012/ddm/005/070/082000c",
+          "published": "2025/10/12 02:01",
+          "paid": false
+        },
+        {
+          "title": "北川氏にノーベル賞　自由な発想で常識覆した",
+          "link": "https://mainichi.jp/articles/20251012/ddm/005/070/080000c",
+          "published": "2025/10/12 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］米中は無益な関税戦争の愚を繰り返すな",
+          "link": "https://www.nikkei.com/article/DGXZQODK120G50S5A011C2000000/",
+          "published": "2025年10月12日",
+          "paid": false
+        },
+        {
+          "title": "［社説］地域と共生する太陽光発電に",
+          "link": "https://www.nikkei.com/article/DGXZQODK08AOG0Y5A001C2000000/",
+          "published": "2025年10月12日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "公明党離脱　多党化時代へ再設計を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1214806.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年10月12日(日)  09:30",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "戦後８０年所感　首相の思いは伝わったが",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/707389",
+          "published": "2025/10/12",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説高岡市議選 １９日告示／主張に耳を傾け １票を",
+          "link": "https://webun.jp/articles/-/899854",
+          "published": "2025.10.12",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【災害派遣福祉チーム】活動領域の拡大に期待",
+          "link": "https://www.hokkoku.co.jp/articles/-/1894928",
+          "published": "10/12",
+          "paid": true
+        },
+        {
+          "title": "社説【北陸版「御影道中」】真宗土壌の「豊かさ」実感",
+          "link": "https://www.hokkoku.co.jp/articles/-/1894927",
+          "published": "10/12",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "戦後８０年見解",
+          "link": "https://www.gifu-np.co.jp/articles/-/611026",
+          "published": "2025年10月12日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　戦後８０年所感　言論妨害の禍根残した",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/875427",
+          "published": "2025/10/12 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】ガザ停戦合意　着実に履行し和平実現を",
+          "link": "https://www.topics.or.jp/articles/-/1319476",
+          "published": "2025/10/12 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【ガザ停戦】履行し恒久和平を探れ",
+          "link": "https://www.kochinews.co.jp/article/detail/917083",
+          "published": "2025.10.12 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］石破氏　戦後８０年所感　にじむ現状への危機感",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1689832",
+          "published": "2025年10月12日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞ガザ停戦合意発効　和平実現へ後戻りさせぬ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4686894.html",
+          "published": "2025/10/12",
+          "paid": false
+        }
+      ]
     }
   ]
 }

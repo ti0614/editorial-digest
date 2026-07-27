@@ -23,6 +23,209 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "正念場の議会政治　民主主義を鍛え直す時だ",
+          "link": "https://mainichi.jp/articles/20250506/ddm/005/070/079000c",
+          "published": "2025/5/6 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］最低投資額引き下げで株式市場に厚みを",
+          "link": "https://www.nikkei.com/article/DGXZQODK02C9O0S5A500C2000000/",
+          "published": "2025年5月6日",
+          "paid": false
+        },
+        {
+          "title": "［社説］オーストラリア政権は米中に毅然と臨め",
+          "link": "https://www.nikkei.com/article/DGXZQODK060XI0W5A500C2000000/",
+          "published": "2025年5月6日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【大堀相馬焼】後継者の自立支えて（５月６日）",
+          "link": "https://www.minpo.jp/articles/-/54045",
+          "published": "2025/05/06 09:10",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "ｉＰＳ臨床応用　実用化へ世界リードを",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1169566.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年5月6日(火)  09:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "ｉＰＳ医療　日本の優位性生かしたい",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/602759",
+          "published": "2025/5/6",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "カスハラ対策",
+          "link": "https://www.gifu-np.co.jp/articles/-/536180",
+          "published": "2025年5月6日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　首相の東南アジア訪問　大局的見地の外交望む",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/775901",
+          "published": "2025/5/6 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】熱中症対策　予防怠らず命を守らねば",
+          "link": "https://www.topics.or.jp/articles/-/1234979",
+          "published": "2025/5/6 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【選択的夫婦別姓】さらなる先送り許されず",
+          "link": "https://www.kochinews.co.jp/article/detail/857796",
+          "published": "2025.05.06 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］西田議員「ひめゆり」発言　学徒の証言に向き合え",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1577715",
+          "published": "2025年5月6日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞西田氏発言　沖縄戦証言、研究愚弄した",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4209416.html",
+          "published": "2025/05/06",
+          "paid": false
+        }
+      ]
     }
   ]
 }

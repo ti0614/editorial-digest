@@ -23,6 +23,198 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "米援助機関巡る陰謀論　誤情報の拡散を懸念する",
+          "link": "https://mainichi.jp/articles/20250302/ddm/005/070/086000c",
+          "published": "2025/3/2 02:00",
+          "paid": false
+        },
+        {
+          "title": "衆院選挙制度の改革　国民目線で抜本的議論を",
+          "link": "https://mainichi.jp/articles/20250302/ddm/005/070/085000c",
+          "published": "2025/3/2 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］出産・結婚を阻む壁を早急に取り除け",
+          "link": "https://www.nikkei.com/article/DGXZQOCD274N60X20C25A2000000/",
+          "published": "2025年3月2日",
+          "paid": false
+        },
+        {
+          "title": "［社説］取り調べの録音・録画拡大を",
+          "link": "https://www.nikkei.com/article/DGXZQODK2833Y0Y5A220C2000000/",
+          "published": "2025年3月2日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "ウェルビーイング　揺り戻す今だからこそ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1152141.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年3月2日(日)  09:30",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "Ｊ１アルビ　ホーム開幕戦で初勝利を",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/565707",
+          "published": "2025/3/2",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "米・ウクライナ決裂",
+          "link": "https://www.gifu-np.co.jp/articles/-/508564",
+          "published": "2025年3月2日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　米ウクライナ首脳決裂　和平実現へ支援継続を",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/738006",
+          "published": "2025/3/2 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】出生数最少72万人　若者が希望持てる社会に",
+          "link": "https://www.topics.or.jp/articles/-/1202906",
+          "published": "2025/3/2 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【首脳会談が決裂】ウクライナ和平再構築を",
+          "link": "https://www.kochinews.co.jp/article/detail/836694",
+          "published": "2025.03.02 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］米ウクライナ決裂　公正な和平　放棄するな",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1535817",
+          "published": "2025年3月2日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞ライオンの子不正受給　関係者一体で再発防止を",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4013497.html",
+          "published": "2025/03/02",
+          "paid": false
+        }
+      ]
     }
   ]
 }

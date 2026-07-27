@@ -17,6 +17,209 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "戦後80年　日中関係の今後　等身大の理解を深めたい",
+          "link": "https://mainichi.jp/articles/20250831/ddm/005/070/114000c",
+          "published": "2025/8/31 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］子育ての不安拭う保育インフラ確保を",
+          "link": "https://www.nikkei.com/article/DGXZQODK256LC0V20C25A8000000/",
+          "published": "2025年8月31日",
+          "paid": false
+        },
+        {
+          "title": "［社説］国際連携で次代のスパコンに",
+          "link": "https://www.nikkei.com/article/DGXZQODK2642J0W5A820C2000000/",
+          "published": "2025年8月31日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "ＷＢＣ独占配信　スポーツは誰のものか",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1203129.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年8月31日(日)  09:22",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "洋上風力撤退　導入実現へ戦略練らねば",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/679923",
+          "published": "2025/8/31",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説県立高校再編／丁寧な発信と説明必要",
+          "link": "https://webun.jp/articles/-/872054",
+          "published": "2025.08.31",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "ＷＢＣネット中継",
+          "link": "https://www.gifu-np.co.jp/articles/-/591100",
+          "published": "2025年8月31日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　安全顧みない裏切りだ　消費期限の偽装",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/849141",
+          "published": "2025/8/31 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】概算要求最大　歳出抑制に本気度見えぬ",
+          "link": "https://www.topics.or.jp/articles/-/1296923",
+          "published": "2025/8/31 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【フレイル予防】支え合う地域づくりを",
+          "link": "https://www.kochinews.co.jp/article/detail/902900",
+          "published": "2025.08.31 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］防衛省概算要求　説明なき要塞化やめよ",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1660014",
+          "published": "2025年8月31日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞MQ9無期限配備　無人機の拠点化許されぬ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4573946.html",
+          "published": "2025/08/31",
+          "paid": false
+        }
+      ]
     }
   ]
 }

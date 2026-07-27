@@ -63,6 +63,295 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "「飛鳥・藤原」世界遺産へ　国際交流の価値を現代に",
+          "link": "https://mainichi.jp/articles/20260612/ddm/005/070/111000c",
+          "published": "2026/6/12 02:03",
+          "paid": false
+        },
+        {
+          "title": "河野元衆院議長が死去　保守の多様性を体現した",
+          "link": "https://mainichi.jp/articles/20260612/ddm/005/070/113000c",
+          "published": "2026/6/12 02:03",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］H3成功を宇宙開発の競争力の一歩に",
+          "link": "https://www.nikkei.com/article/DGXZQODK127K60S6A610C2000000/",
+          "published": "6月12日",
+          "paid": false
+        },
+        {
+          "title": "［社説］物価抑制に舵切る欧州利上げ",
+          "link": "https://www.nikkei.com/article/DGXZQODK127S60S6A610C2000000/",
+          "published": "6月12日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【発酵のまち坂下】さらに知名度上げて（６月１２日）",
+          "link": "https://www.minpo.jp/articles/-/154845",
+          "published": "2026/06/12 11:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【選手のキャリア支援】「国体レガシー」継承を",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1364170",
+          "published": "6/12  8:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "スキルレス化　属人化脱し技能次代へ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1279791.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2026年6月12日(金)  09:20",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "県内クマ急増　実態つかみ適切な対策へ",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/847742",
+          "published": "6/12",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説厚生連高岡 急性期特化／医療の今後見据えねば",
+          "link": "https://webun.jp/articles/-/1036361",
+          "published": "2026.06.12",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【夜間の省エネ】照明のＬＥＤ化進めたい",
+          "link": "https://www.hokkoku.co.jp/articles/-/2136664",
+          "published": "6/12",
+          "paid": true
+        },
+        {
+          "title": "社説【小浜ルート優位に】新基準の試算は妥当なのか",
+          "link": "https://www.hokkoku.co.jp/articles/-/2136663",
+          "published": "6/12",
+          "paid": true
+        },
+        {
+          "title": "社説【テーマ夜間の省エネ】照明のＬＥＤ化進めたい",
+          "link": "https://www.hokkoku.co.jp/articles/-/2136630",
+          "published": "6/12",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "国旗損壊罪",
+          "link": "https://www.gifu-np.co.jp/articles/-/722710",
+          "published": "2026年6月12日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　中朝首脳会談　非核化を後退させるな",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/1021208",
+          "published": "2026/6/12 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】ヘイト解消法10年　差別許さぬ次の一歩を",
+          "link": "https://www.topics.or.jp/articles/-/1445530",
+          "published": "2026/6/12 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【サッカーＷ杯】「新しい景色」切り開け",
+          "link": "https://www.kochinews.co.jp/article/detail/1014568",
+          "published": "2026.06.12 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "宮崎日日新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.the-miyanichi.co.jp/column/syasetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "皇族数確保",
+          "link": "https://www.the-miyanichi.co.jp/column/syasetsu/833288.html",
+          "published": "2026.06.12｜社説",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］サッカーW杯開幕　政治にのみ込まれるな",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1857385",
+          "published": "2026年6月12日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞安保3文書自民提言　合憲性含め国会で論議を",
+          "link": "https://ryukyushimpo.jp/editorial/entry-5306891.html",
+          "published": "2026/06/12",
+          "paid": false
+        }
+      ]
     }
   ]
 }

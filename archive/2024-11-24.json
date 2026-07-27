@@ -17,6 +17,191 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "現行の保険証廃止へ　混乱回避が政治の責任だ",
+          "link": "https://mainichi.jp/articles/20241124/ddm/005/070/080000c",
+          "published": "2024/11/24 02:09",
+          "paid": false
+        },
+        {
+          "title": "大谷選手3度目MVP　野球超える「時代の顔」に",
+          "link": "https://mainichi.jp/articles/20241124/ddm/005/070/079000c",
+          "published": "2024/11/24 02:09",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］COP29合意後も分断回避へ努力続けよ",
+          "link": "https://www.nikkei.com/article/DGXZQODK241180U4A121C2000000/",
+          "published": "2024年11月24日",
+          "paid": false
+        },
+        {
+          "title": "［社説］鳥インフルエンザの拡大阻止に全力を",
+          "link": "https://www.nikkei.com/article/DGXZQODK2295U0S4A121C2000000/",
+          "published": "2024年11月24日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "増える単身世帯　孤立化防ぐ体制整えたい",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/514470",
+          "published": "2024/11/24",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "大谷選手ＭＶＰ",
+          "link": "https://www.gifu-np.co.jp/articles/-/470242",
+          "published": "2024年11月24日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　経済対策決定　放漫財政の余裕はない",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/685143",
+          "published": "2024/11/24 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】政府の経済対策　財政健全化を忘れたのか",
+          "link": "https://www.topics.or.jp/articles/-/1159701",
+          "published": "2024/11/24 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【香港民主派実刑】消滅に等しい一国二制度",
+          "link": "https://www.kochinews.co.jp/article/detail/808266",
+          "published": "2024.11.24 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］政府の経済対策　暮らしを支える内容か",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1477361",
+          "published": "2024年11月24日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞ＰＦＡＳ汚染対策　米本国と同基準の適用を",
+          "link": "https://ryukyushimpo.jp/editorial/entry-3677421.html",
+          "published": "2024/11/24",
+          "paid": false
+        }
+      ]
     }
   ]
 }

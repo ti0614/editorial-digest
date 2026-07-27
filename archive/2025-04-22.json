@@ -23,6 +23,232 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "風力発電と自然環境　両立を図る知恵絞りたい",
+          "link": "https://mainichi.jp/articles/20250422/ddm/005/070/182000c",
+          "published": "2025/4/22 02:03",
+          "paid": false
+        },
+        {
+          "title": "地方の介護サービス　持続可能な仕組み構築を",
+          "link": "https://mainichi.jp/articles/20250422/ddm/005/070/185000c",
+          "published": "2025/4/22 02:03",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］エネルギー補助を選挙目当てに使うな",
+          "link": "https://www.nikkei.com/article/DGXZQODK226E90S5A420C2000000/",
+          "published": "2025年4月22日",
+          "paid": false
+        },
+        {
+          "title": "［社説］寛容と対話を貫いたローマ教皇",
+          "link": "https://www.nikkei.com/article/DGXZQOCD222R30S5A420C2000000/",
+          "published": "2025年4月22日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【温室効果ガス削減】新組織の加入に工夫を（４月２２日）",
+          "link": "https://www.minpo.jp/articles/-/54125",
+          "published": "2025/04/22 09:09",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【教員チーム担任制】柔軟対応で「学校力」向上を",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1097274",
+          "published": "2025/4/22",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "国産ＳＡＦ供給開始　「空の脱炭素化」先導を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1166042.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年4月22日(火)  09:40",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "ロシアの停戦宣言　和平探る本気度見えない",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/595452",
+          "published": "2025/4/22",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "日本人８９万人減",
+          "link": "https://www.gifu-np.co.jp/articles/-/530019",
+          "published": "2025年4月22日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　議員選挙の定数割れ　なり手育成の視点必要",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/768292",
+          "published": "2025/4/22 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】落雷事故　ためらわず早めの避難を",
+          "link": "https://www.topics.or.jp/articles/-/1228482",
+          "published": "2025/4/22 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【感染症条約】実効性をどう高めるか",
+          "link": "https://www.kochinews.co.jp/article/detail/853757",
+          "published": "2025.04.22 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］内密出産　母子の命守る法整備を",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1569309",
+          "published": "2025年4月22日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞学術会議法人化法案　理念・独立性損なう悪法だ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4174187.html",
+          "published": "2025/04/22",
+          "paid": false
+        }
+      ]
     }
   ]
 }

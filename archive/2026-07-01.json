@@ -32,7 +32,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "養子の子に皇位継承権　「総意」逸脱する男系固執",
+          "link": "https://mainichi.jp/articles/20260701/ddm/005/070/098000c",
+          "published": "2026/7/1 02:02",
+          "paid": false
+        },
+        {
+          "title": "民主派弾圧強まる香港　社会の活力失われていく",
+          "link": "https://mainichi.jp/articles/20260701/ddm/005/070/097000c",
+          "published": "2026/7/1 02:02",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "読売新聞",
@@ -52,7 +65,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "［社説］成長持続へ物価高と円安への警戒強めよ",
+          "link": "https://www.nikkei.com/article/DGXZQODK018DX0R00C26A7000000/",
+          "published": "1日",
+          "paid": false
+        },
+        {
+          "title": "［社説］障害者が働きがいある職場を",
+          "link": "https://www.nikkei.com/article/DGXZQODK015HA0R00C26A7000000/",
+          "published": "1日",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "産経新聞",
@@ -209,7 +235,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "【ＪＩＣＡ二本松】福島の代弁者応援を（７月１日）",
+          "link": "https://www.minpo.jp/articles/-/169929",
+          "published": "2026/07/01 11:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "岩手日報",
@@ -229,14 +262,21 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "【消費税1％】地方財政に打撃 財源示せ",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1376157",
+          "published": "7/1  8:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "神奈川新聞",
       "category": "社説",
       "tier": "regional",
       "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
-      "error": null,
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
       "items": [
@@ -283,7 +323,7 @@
       "category": "論説",
       "tier": "regional",
       "index_url": "https://www.chibanippo.co.jp/serial",
-      "error": null,
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
       "items": []
@@ -296,7 +336,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "ベネズエラ地震　国際社会の支援欠かせぬ",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/859474",
+          "published": "7/1",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "北日本新聞",
@@ -306,7 +353,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "社説危険運転に数値基準／市民感覚に沿ってこそ",
+          "link": "https://webun.jp/articles/-/1047807",
+          "published": "2026.07.01",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "北國新聞",
@@ -316,7 +370,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "社説【防災で学生連携】地域の共助高める力に",
+          "link": "https://www.hokkoku.co.jp/articles/-/2155515",
+          "published": "7/1",
+          "paid": true
+        },
+        {
+          "title": "社説【富山空港の国際線】秋以降も台湾便の維持を",
+          "link": "https://www.hokkoku.co.jp/articles/-/2155514",
+          "published": "7/1",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "福井新聞",
@@ -326,7 +393,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "サッカー日本代表　強豪に肩並べる力見せた",
+          "link": "https://www.fukuishimbun.co.jp/articles/-/2639964",
+          "published": "（2026年7月1日 午前7時30分）",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "山梨日日新聞",
@@ -366,7 +440,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "皇室典範改正案",
+          "link": "https://www.gifu-np.co.jp/articles/-/732435",
+          "published": "2026年7月1日 05:00岐阜",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "奈良新聞",
@@ -406,7 +487,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "論説　皇室典範改正案　熟議重ね再考すべきだ",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/1033110",
+          "published": "2026/7/1 04:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "徳島新聞",
@@ -416,7 +504,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "【社説】派遣カルテル疑い　料金の透明性高めねば",
+          "link": "https://www.topics.or.jp/articles/-/1455715",
+          "published": "2026/7/1 5:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "愛媛新聞",
@@ -436,7 +531,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "【官民３７０兆円投資】効果ある分野見定めて",
+          "link": "https://www.kochinews.co.jp/article/detail/1020651",
+          "published": "2026.07.01 05:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "日本海新聞",
@@ -520,7 +622,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "［社説］大龍柱「相対向き」　説明は尽くされたのか",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1870780",
+          "published": "2026年7月1日",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "琉球新報",
@@ -530,7 +639,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "＜社説＞皇室典範改正案を決定　「国民の総意」に反する",
+          "link": "https://ryukyushimpo.jp/editorial/entry-5354941.html",
+          "published": "2026/07/01",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "佐賀新聞",

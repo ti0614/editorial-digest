@@ -23,6 +23,243 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "議席大幅増の参政党　不安あおる政治と決別を",
+          "link": "https://mainichi.jp/articles/20250723/ddm/005/070/025000c",
+          "published": "2025/7/23 02:02",
+          "paid": false
+        },
+        {
+          "title": "トランプ2．0　対外援助の停止　縮む米国のソフトパワー",
+          "link": "https://mainichi.jp/articles/20250723/ddm/005/070/024000c",
+          "published": "2025/7/23 02:02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］日米合意後も自由貿易の旗降ろすな",
+          "link": "https://www.nikkei.com/article/DGXZQODK236SD0T20C25A7000000/",
+          "published": "2025年7月23日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【芥川賞、直木賞】震災文学の受賞に期待（７月２３日）",
+          "link": "https://www.minpo.jp/articles/-/53471",
+          "published": "2025/07/23 09:19",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【クビアカツヤカミキリ】県挙げ早急な防除態勢を",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1156850",
+          "published": "2025/7/23",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "税と社会保障　将来像示す議論深めよ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1192464.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年7月23日(水)  09:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "多数派の野党　政策実現へ真価問われる",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/655346",
+          "published": "2025/7/23",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説夏山シーズン／登山計画 安全最優先に",
+          "link": "https://webun.jp/articles/-/848571",
+          "published": "2025.07.23",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "参政党の台頭",
+          "link": "https://www.gifu-np.co.jp/articles/-/573251",
+          "published": "2025年7月23日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　参政党の台頭　熱狂の次に何が来るか",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/825226",
+          "published": "2025/7/23 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】三好市長再選　活力生み出す施策を急げ",
+          "link": "https://www.topics.or.jp/articles/-/1276275",
+          "published": "2025/7/23 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【前川さん無罪】再審制度の見直しを急げ",
+          "link": "https://www.kochinews.co.jp/article/detail/890032",
+          "published": "2025.07.23 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］県内も多党化　政治が流動化し始めた",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1633291",
+          "published": "2025年7月23日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞石破首相続投表明　政権の正当性が問われる",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4470517.html",
+          "published": "2025/07/23",
+          "paid": false
+        }
+      ]
     }
   ]
 }

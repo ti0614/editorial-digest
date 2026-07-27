@@ -17,6 +17,249 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "国安法施行5年の香港　社会統制の常態化憂える",
+          "link": "https://mainichi.jp/articles/20250701/ddm/005/070/068000c",
+          "published": "2025/7/1 02:00",
+          "paid": false
+        },
+        {
+          "title": "地方創生と人口減少　現実直視の姿勢が足りぬ",
+          "link": "https://mainichi.jp/articles/20250701/ddm/005/070/067000c",
+          "published": "2025/7/1 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］トランプ関税が曇らす日本経済の先行き",
+          "link": "https://www.nikkei.com/article/DGXZQODK015NM0R00C25A7000000/",
+          "published": "2025年7月1日",
+          "paid": false
+        },
+        {
+          "title": "［社説］中国は日本産水産物規制の全廃急げ",
+          "link": "https://www.nikkei.com/article/DGXZQODK012540R00C25A7000000/",
+          "published": "2025年7月1日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【日東工器新工場】波及効果に期待（７月１日）",
+          "link": "https://www.minpo.jp/articles/-/53734",
+          "published": "2025/07/01 09:48",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【給食費対応二極化】格差拡大は見過ごせない",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1142312",
+          "published": "2025/7/1",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "学校の熱中症対策　連携し徹底した予防を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1185813.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年7月1日(火)  09:55",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "生活保護下げ違法　国判断の検証が不可欠だ",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/638301",
+          "published": "2025/7/1",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説株の最低投資額下げ／ハードルをもっと低く",
+          "link": "https://webun.jp/articles/-/833153",
+          "published": "2025.07.01",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "死刑執行再開",
+          "link": "https://www.gifu-np.co.jp/articles/-/561421",
+          "published": "2025年7月1日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　経緯や理由を説明せよ　死刑執行再開",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/810128",
+          "published": "2025/7/1 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】教員の勤務環境　確実に業務量減らさねば",
+          "link": "https://www.topics.or.jp/articles/-/1264523",
+          "published": "2025/7/1 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【生活保護費訴訟】国のプロセス軽視は重い",
+          "link": "https://www.kochinews.co.jp/article/detail/880571",
+          "published": "2025.07.01 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］［沖縄戦80年］アイスバーグ作戦終了　交戦下　進む「世替わり」",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1616338",
+          "published": "2025年7月1日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞宮森小米軍機墜落66年　教訓は今と直結している",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4395475.html",
+          "published": "2025/07/01",
+          "paid": false
+        }
+      ]
     }
   ]
 }

@@ -63,6 +63,282 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "政府の国家情報局設置　監視強化への道開かぬか",
+          "link": "https://mainichi.jp/articles/20260529/ddm/005/070/099000c",
+          "published": "2026/5/29 02:01",
+          "paid": false
+        },
+        {
+          "title": "がん診療体制の集約化　患者取り残さない知恵を",
+          "link": "https://mainichi.jp/articles/20260529/ddm/005/070/098000c",
+          "published": "2026/5/29 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］フィリピンとの安保協力を着実に前へ",
+          "link": "https://www.nikkei.com/article/DGXZQODK295XE0Z20C26A5000000/",
+          "published": "5月29日",
+          "paid": false
+        },
+        {
+          "title": "［社説］人口急減でも持続する行政に",
+          "link": "https://www.nikkei.com/article/DGXZQODK296OW0Z20C26A5000000/",
+          "published": "5月29日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【衆院選挙制度】国の将来描く議論を（５月２９日）",
+          "link": "https://www.minpo.jp/articles/-/143269",
+          "published": "2026/05/29 11:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【子どもとＳＮＳ】依存防止へ事業者は責務果たせ",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1354817",
+          "published": "5/29  8:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "情報会議法成立　過度な監視の不安消えぬ",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/839244",
+          "published": "5/29",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説高潮予報海岸／被害防止に役立てたい",
+          "link": "https://webun.jp/articles/-/1027908",
+          "published": "2026.05.29",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【観光地のトイレ】探す手間と待機解消を",
+          "link": "https://www.hokkoku.co.jp/articles/-/2121702",
+          "published": "5/29",
+          "paid": true
+        },
+        {
+          "title": "社説【「新防災情報」開始】迅速な避難につなげたい",
+          "link": "https://www.hokkoku.co.jp/articles/-/2121701",
+          "published": "5/29",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "辺野古沖事故",
+          "link": "https://www.gifu-np.co.jp/articles/-/715660",
+          "published": "2026年5月29日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　医療と日本版ＤＢＳ　安全確保に万全を期せ",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/1012239",
+          "published": "2026/5/29 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】新防災気象情報　「レベル4」までに避難を",
+          "link": "https://www.topics.or.jp/articles/-/1437777",
+          "published": "2026/5/29 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【国家情報会議法】このままでは禍根を残す",
+          "link": "https://www.kochinews.co.jp/article/detail/1009846",
+          "published": "2026.05.29 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "宮崎日日新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.the-miyanichi.co.jp/column/syasetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "国家情報法成立",
+          "link": "https://www.the-miyanichi.co.jp/column/syasetsu/809150.html",
+          "published": "2026.05.29｜社説",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］国家情報会議法が成立　民主的統制が不可欠だ",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1847103",
+          "published": "2026年5月29日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞給付付き税額控除　中低所得層に届く制度を",
+          "link": "https://ryukyushimpo.jp/editorial/entry-5277137.html",
+          "published": "2026/05/29",
+          "paid": false
+        }
+      ]
     }
   ]
 }

@@ -23,6 +23,272 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "高関税と80兆円投資　日本は米の財布ではない",
+          "link": "https://mainichi.jp/articles/20250913/ddm/005/070/122000c",
+          "published": "2025/9/13 02:00",
+          "paid": false
+        },
+        {
+          "title": "露無人機の領空侵犯　欧州の安全脅かす愚行だ",
+          "link": "https://mainichi.jp/articles/20250913/ddm/005/070/121000c",
+          "published": "2025/9/13 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］幅広く長く使われるNISAに育てよう",
+          "link": "https://www.nikkei.com/article/DGXZQODK0374O0T00C25A9000000/",
+          "published": "2025年9月13日",
+          "paid": false
+        },
+        {
+          "title": "［社説］ユニクロ米国進出20年の示唆",
+          "link": "https://www.nikkei.com/article/DGXZQODK1268E0S5A910C2000000/",
+          "published": "2025年9月13日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【高倉さん殿堂入り】功績を次代につなごう（９月１３日）",
+          "link": "https://www.minpo.jp/articles/-/52945",
+          "published": "2025/09/13 09:19",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【とちぎ若者会議】次世代の声　施策に反映を",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1190096",
+          "published": "2025/9/13",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "再審制度　改正は法治国家の責務",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1206855.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年9月13日(土)  09:09",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "軽油カルテル　徹底調査で真相明らかに",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/689133",
+          "published": "2025/9/13",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説朝乃山再十両／再起の姿を見届けたい",
+          "link": "https://webun.jp/articles/-/880558",
+          "published": "2025.09.13",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【金属盗対策の新法】地域住民の協力を得たい",
+          "link": "https://www.hokkoku.co.jp/articles/-/1866068",
+          "published": "9/13",
+          "paid": true
+        },
+        {
+          "title": "社説【総裁選５氏出馬へ】リーダーの資質、見識あるか",
+          "link": "https://www.hokkoku.co.jp/articles/-/1866067",
+          "published": "9/13",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "立民の新体制",
+          "link": "https://www.gifu-np.co.jp/articles/-/597490",
+          "published": "2025年9月13日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　立憲民主の新体制　政権交代へ熱量足りぬ",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/857610",
+          "published": "2025/9/13 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】一番暑い夏　常態化への危機感共有を",
+          "link": "https://www.topics.or.jp/articles/-/1304221",
+          "published": "2025/9/13 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【日航を厳重注意 】安全第一の体制を築け",
+          "link": "https://www.kochinews.co.jp/article/detail/907308",
+          "published": "2025.09.13 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］和田氏の差別質問　人権脅かす発言許すな",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1669589",
+          "published": "2025年9月13日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞日米共同訓練始まる　訓練全体の中止・縮小を",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4610151.html",
+          "published": "2025/09/13",
+          "paid": false
+        }
+      ]
     }
   ]
 }

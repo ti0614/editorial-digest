@@ -17,6 +17,232 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "学術会議法の成立　御用機関にしてはならぬ",
+          "link": "https://mainichi.jp/articles/20250612/ddm/005/070/133000c",
+          "published": "2025/6/12 02:01",
+          "paid": false
+        },
+        {
+          "title": "日本郵便に行政処分　物流揺るがす組織の病弊",
+          "link": "https://mainichi.jp/articles/20250612/ddm/005/070/132000c",
+          "published": "2025/6/12 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］中国軍の太平洋進出と挑発に警戒強めよ",
+          "link": "https://www.nikkei.com/article/DGXZQODK1256Q0S5A610C2000000/",
+          "published": "2025年6月12日",
+          "paid": false
+        },
+        {
+          "title": "［社説］首相も党首として説明責任を",
+          "link": "https://www.nikkei.com/article/DGXZQODK128OA0S5A610C2000000/",
+          "published": "2025年6月12日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【帰還困難区域】自由化の検討は丁寧に（６月１２日）",
+          "link": "https://www.minpo.jp/articles/-/53839",
+          "published": "2025/06/12 09:21",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【日光道料金引き上げ】丁寧な説明が不可欠だ",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1129509",
+          "published": "2025/6/12",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "マイナ保険証　ありきの姿勢を改めよ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1180034.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年6月12日(木)  09:50",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "６号機燃料装塡　住民の理解を得られるか",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/625178",
+          "published": "2025/6/12",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "コメ政策",
+          "link": "https://www.gifu-np.co.jp/articles/-/552105",
+          "published": "2025年6月12日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　移民デモに海兵隊派遣　市民に銃口を向けるな",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/798050",
+          "published": "2025/6/12 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】県議会きょう開会　厳しい目で2年の検証を",
+          "link": "https://www.topics.or.jp/articles/-/1254488",
+          "published": "2025/6/12 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【米ロス抗議デモ】兵力投入は分断を深める",
+          "link": "https://www.kochinews.co.jp/article/detail/871904",
+          "published": "2025.06.12 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］移民デモに軍派遣　市民に銃を向けるのか",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1602433",
+          "published": "2025年6月12日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞米大統領、デモに海兵隊　民主主義踏みにじる暴挙",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4321217.html",
+          "published": "2025/06/12",
+          "paid": false
+        }
+      ]
     }
   ]
 }

@@ -23,6 +23,232 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "トランプ関税と日銀　景気の下振れに目配りを",
+          "link": "https://mainichi.jp/articles/20250509/ddm/005/070/023000c",
+          "published": "2025/5/9 02:01",
+          "paid": false
+        },
+        {
+          "title": "西田議員「ひめゆり」発言　沖縄の尊厳傷付ける暴論",
+          "link": "https://mainichi.jp/articles/20250509/ddm/005/070/024000c",
+          "published": "2025/5/9 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］中ロの秩序破壊を民主陣営は許すな",
+          "link": "https://www.nikkei.com/article/DGXZQODK027SB0S5A500C2000000/",
+          "published": "2025年5月9日",
+          "paid": false
+        },
+        {
+          "title": "［社説］分断解消担う初の米国人教皇",
+          "link": "https://www.nikkei.com/article/DGXZQOCD0720G0X00C25A5000000/",
+          "published": "2025年5月9日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【草野心平】兄弟の詩歌に光を（５月９日）",
+          "link": "https://www.minpo.jp/articles/-/54031",
+          "published": "2025/05/09 09:15",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【選挙余剰金】疑念生む処理、自ら改善を",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1107427",
+          "published": "2025/5/9",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "郵便局の点呼　意識改革で風土刷新を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1170350.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年5月9日(金)  10:20",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "川崎ストーカー　捜査の検証が欠かせない",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/604405",
+          "published": "2025/5/9",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "印パ軍事衝突",
+          "link": "https://www.gifu-np.co.jp/articles/-/537645",
+          "published": "2025年5月9日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　印パ軍事衝突　双方自制し対話進めよ",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/777539",
+          "published": "2025/5/9 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】米価高止まり　供給のスピード感足りぬ",
+          "link": "https://www.topics.or.jp/articles/-/1236362",
+          "published": "2025/5/9 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【高知空港の米機】不信残した謎の長期駐機",
+          "link": "https://www.kochinews.co.jp/article/detail/858635",
+          "published": "2025.05.09 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］川崎ストーカー事件　警察対応の検証必要だ",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1579487",
+          "published": "2025年5月9日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞長射程弾の配備　国は首長の危機感直視を",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4215893.html",
+          "published": "2025/05/09",
+          "paid": false
+        }
+      ]
     }
   ]
 }

@@ -23,6 +23,272 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "米が「対中100％関税」表明　不毛な応酬の再燃回避を",
+          "link": "https://mainichi.jp/articles/20251015/ddm/005/070/112000c",
+          "published": "2025/10/15 02:01",
+          "paid": false
+        },
+        {
+          "title": "保釈の壁と裁判所　「人質司法」正す議論こそ",
+          "link": "https://mainichi.jp/articles/20251015/ddm/005/070/111000c",
+          "published": "2025/10/15 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］アサヒのサイバー被害は人ごとではない",
+          "link": "https://www.nikkei.com/article/DGXZQODK10DIA0Q5A011C2000000/",
+          "published": "2025年10月15日",
+          "paid": false
+        },
+        {
+          "title": "［社説］世界経済のリスクを直視せよ",
+          "link": "https://www.nikkei.com/article/DGXZQODK156OG0V11C25A0000000/",
+          "published": "2025年10月15日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【サイバー攻撃】県内企業も対策急げ（１０月１５日）",
+          "link": "https://www.minpo.jp/articles/-/52100",
+          "published": "2025/10/15 09:15",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【デフリンピック】聴覚障害理解の契機に",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1210260",
+          "published": "2025/10/15",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "横浜市敬老パス　交付率の上昇にも期待",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1215520.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年10月15日(水)  09:45",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "万博閉幕　成果と課題未来へ生かす",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/708854",
+          "published": "2025/10/15",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説戦後８０年の首相所感／不戦の教訓どうつなぐ",
+          "link": "https://webun.jp/articles/-/901311",
+          "published": "2025.10.15",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【野党幹事長会談】基本政策の違い埋まらず",
+          "link": "https://www.hokkoku.co.jp/articles/-/1897658",
+          "published": "10/15",
+          "paid": true
+        },
+        {
+          "title": "社説【大相撲ロンドン公演】「国技」の魅力再認識したい",
+          "link": "https://www.hokkoku.co.jp/articles/-/1897657",
+          "published": "10/15",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "太陽光パネル",
+          "link": "https://www.gifu-np.co.jp/articles/-/611979",
+          "published": "2025年10月15日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　下水道管老朽化　早急な対策強化が必要",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/876999",
+          "published": "2025/10/15 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】新聞週間　「知る権利」に応えていく",
+          "link": "https://www.topics.or.jp/articles/-/1320687",
+          "published": "2025/10/15 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【万博閉幕】正と負の遺産の検証を",
+          "link": "https://www.kochinews.co.jp/article/detail/917921",
+          "published": "2025.10.15 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］新聞週間に　戦争防ぐため力果たす",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1691496",
+          "published": "2025年10月15日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞新聞週間始まる　信頼に応える報道に徹す",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4694516.html",
+          "published": "2025/10/15",
+          "paid": false
+        }
+      ]
     }
   ]
 }

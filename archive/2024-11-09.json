@@ -17,6 +17,225 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "「103万円の壁」自公国協議　効果と財源の見極め必要",
+          "link": "https://mainichi.jp/articles/20241109/ddm/005/070/121000c",
+          "published": "2024/11/9 02:02",
+          "paid": false
+        },
+        {
+          "title": "代表交代の公明党　連立での役割問い直す時",
+          "link": "https://mainichi.jp/articles/20241109/ddm/005/070/120000c",
+          "published": "2024/11/9 02:02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］日産はじめ自動車産業は逆風に備えを",
+          "link": "https://www.nikkei.com/article/DGXZQODK091U20Z01C24A1000000/",
+          "published": "2024年11月9日",
+          "paid": false
+        },
+        {
+          "title": "［社説］性犯罪の被害者支える社会に",
+          "link": "https://www.nikkei.com/article/DGXZQOCD085YW0Y4A101C2000000/",
+          "published": "2024年11月9日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【親族なき高齢者】安心への支援充実を（１１月９日）",
+          "link": "https://www.minpo.jp/articles/-/54867",
+          "published": "2024/11/09 09:28",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【宇都宮市長選あす告示】県都の未来図示し論戦を",
+          "link": "https://www.shimotsuke.co.jp/articles/-/997952",
+          "published": "2024/11/9",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "自転車罰則強化　スマホや飲酒は絶対駄目",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/506736",
+          "published": "2024/11/9",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "自公国の協議",
+          "link": "https://www.gifu-np.co.jp/articles/-/464038",
+          "published": "2024年11月9日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　和田投手が現役引退　数々の栄光、島根の誇り",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/677041",
+          "published": "2024/11/9 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】不登校7年連続増　学校以外の学びを視野に",
+          "link": "https://www.topics.or.jp/articles/-/1153007",
+          "published": "2024/11/9 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【温暖化防止】危機感共有し対策強化を",
+          "link": "https://www.kochinews.co.jp/article/detail/802683",
+          "published": "2024.11.09 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］米新政権と基地　沖縄の負担増許されぬ",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1468354",
+          "published": "2024年11月9日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞古謝市長書類送検　市政混乱の自覚が希薄だ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-3630173.html",
+          "published": "2024/11/09",
+          "paid": false
+        }
+      ]
     }
   ]
 }

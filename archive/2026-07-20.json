@@ -309,7 +309,7 @@
       "category": "社説",
       "tier": "regional",
       "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
-      "error": null,
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
       "items": [
@@ -356,7 +356,7 @@
       "category": "論説",
       "tier": "regional",
       "index_url": "https://www.chibanippo.co.jp/serial",
-      "error": null,
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
       "items": [
@@ -410,7 +410,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "社説【高校生ボランティア】復興の歩み支える一助に",
+          "link": "https://www.hokkoku.co.jp/articles/-/2175051",
+          "published": "7/20",
+          "paid": true
+        },
+        {
+          "title": "社説【台湾便の誘客】北陸で連携し相乗効果を",
+          "link": "https://www.hokkoku.co.jp/articles/-/2175050",
+          "published": "7/20",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "福井新聞",

@@ -23,6 +23,289 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "首相の施政方針演説　挑戦の先に何があるのか",
+          "link": "https://mainichi.jp/articles/20260221/ddm/005/070/136000c",
+          "published": "2026/2/21 02:02",
+          "paid": false
+        },
+        {
+          "title": "韓国前大統領に無期判決　分断を深めた責任は重い",
+          "link": "https://mainichi.jp/articles/20260221/ddm/005/070/135000c",
+          "published": "2026/2/21 02:02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］トランプ関税の違憲判決は当然である",
+          "link": "https://www.nikkei.com/article/DGXZQODK210820R20C26A2000000/",
+          "published": "2月21日",
+          "paid": false
+        },
+        {
+          "title": "［社説］賃上げへ生産性向上の議論を",
+          "link": "https://www.nikkei.com/article/DGXZQODK2065H0Q6A220C2000000/",
+          "published": "2月21日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【大ゴッホ展開幕】次世代への贈り物（２月２１日）",
+          "link": "https://www.minpo.jp/articles/-/49556",
+          "published": "2026/02/21 09:18",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【県立夜間中学開校へ】学び支援 万全体制で臨め",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1293409",
+          "published": "2/21  8:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "施政方針演説　「責任」の内実が見えぬ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1250070.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2026年2月21日(土)  09:40",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "中井選手「銅」　１７歳さらなる高みを期待",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/783725",
+          "published": "2/21",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説首相施政方針演説／謙虚な姿勢 あってこそ",
+          "link": "https://webun.jp/articles/-/973640",
+          "published": "2026.02.21",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【アニメで誘客】一過性で終わらぬ工夫を",
+          "link": "https://www.hokkoku.co.jp/articles/-/2023415",
+          "published": "2/21",
+          "paid": true
+        },
+        {
+          "title": "社説【施政方針演説】財政運営の歴史的転換点に",
+          "link": "https://www.hokkoku.co.jp/articles/-/2023414",
+          "published": "2/21",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "高市首相施政方針",
+          "link": "https://www.gifu-np.co.jp/articles/-/670521",
+          "published": "2026年2月21日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　高市首相施政方針　成長重視の度が過ぎる",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/953512",
+          "published": "2026/2/21 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】新ホール論戦　知事は苦言を受け止めよ",
+          "link": "https://www.topics.or.jp/articles/-/1387960",
+          "published": "2026/2/21 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【首相の施政演説】１強だからこそ熟議を",
+          "link": "https://www.kochinews.co.jp/article/detail/973820",
+          "published": "2026.02.21 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "宮崎日日新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.the-miyanichi.co.jp/column/syasetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "欠格条項に違憲判断",
+          "link": "https://www.the-miyanichi.co.jp/column/syasetsu/581141.html",
+          "published": "2026.02.21｜社説",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］高市首相施政方針　基地負担減にも責任を",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1779636",
+          "published": "2026年2月21日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞高市首相施政方針　「成長」優先だけでよいか",
+          "link": "https://ryukyushimpo.jp/editorial/entry-5054210.html",
+          "published": "2026/02/21",
+          "paid": false
+        }
+      ]
     }
   ]
 }

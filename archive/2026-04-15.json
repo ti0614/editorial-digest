@@ -23,6 +23,295 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "南鳥島での核ごみ調査　多角的検証が国の責務だ",
+          "link": "https://mainichi.jp/articles/20260415/ddm/005/070/109000c",
+          "published": "2026/4/15 02:01",
+          "paid": false
+        },
+        {
+          "title": "熊本地震から10年　教訓共有し減災進めたい",
+          "link": "https://mainichi.jp/articles/20260415/ddm/005/070/108000c",
+          "published": "2026/4/15 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］中東発の世界経済混乱リスクに備えを",
+          "link": "https://www.nikkei.com/article/DGXZQODK155NA0V10C26A4000000/",
+          "published": "4月15日",
+          "paid": false
+        },
+        {
+          "title": "［社説］熊本地震に学び減災を急げ",
+          "link": "https://www.nikkei.com/article/DGXZQOCD146UQ0U6A410C2000000/",
+          "published": "4月15日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【ながら運転】社会一丸で撲滅を（４月１５日）",
+          "link": "https://www.minpo.jp/articles/-/109225",
+          "published": "2026/04/15 12:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【県なかがわ水遊園25周年】観光活性化へ連携強化を",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1327283",
+          "published": "4/15  8:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "横断歩道の事故　「歩行者優先」再認識を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1264580.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2026年4月15日(水)  09:20",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "自民党大会　際立った首相の改憲意欲",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/814306",
+          "published": "4/15",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説新たな防災気象情報／住民への周知急がねば",
+          "link": "https://webun.jp/articles/-/1003570",
+          "published": "2026.04.15",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【金沢の県道崩落】誘発する埋設物の把握を",
+          "link": "https://www.hokkoku.co.jp/articles/-/2077261",
+          "published": "4/15",
+          "paid": true
+        },
+        {
+          "title": "社説【ナフサ不足】目詰まりを起こさぬよう",
+          "link": "https://www.hokkoku.co.jp/articles/-/2077260",
+          "published": "4/15",
+          "paid": true
+        },
+        {
+          "title": "社説【金沢の県道崩落】誘因となる埋設物の把握を",
+          "link": "https://www.hokkoku.co.jp/articles/-/2077234",
+          "published": "4/15",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "熊本地震１０年",
+          "link": "https://www.gifu-np.co.jp/articles/-/694027",
+          "published": "2026年4月15日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　熊本地震１０年　自分事として備えを",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/986237",
+          "published": "2026/4/15 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】熊本地震10年　災害関連死防ぐ対策急げ",
+          "link": "https://www.topics.or.jp/articles/-/1415639",
+          "published": "2026/4/15 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【普天間合意３０年】現状を放置してよいのか",
+          "link": "https://www.kochinews.co.jp/article/detail/991545",
+          "published": "2026.04.15 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "宮崎日日新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.the-miyanichi.co.jp/column/syasetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "自民党大会",
+          "link": "https://www.the-miyanichi.co.jp/column/syasetsu/703739.html",
+          "published": "2026.04.15｜社説",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］与那国町長ミサイル容認　町民への「説明」が先だ",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1817087",
+          "published": "2026年4月15日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞誘導弾部隊の配備容認　町民に受け入れ理由示せ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-5189727.html",
+          "published": "2026/04/15",
+          "paid": false
+        }
+      ]
     }
   ]
 }

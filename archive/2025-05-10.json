@@ -23,6 +23,226 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "「プーチンの戦争」　ゆがんだ野望に終止符を",
+          "link": "https://mainichi.jp/articles/20250510/ddm/005/070/137000c",
+          "published": "2025/5/10 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］参院選対策の消費減税公約は無責任だ",
+          "link": "https://www.nikkei.com/article/DGXZQODK092O00Z00C25A5000000/",
+          "published": "2025年5月10日",
+          "paid": false
+        },
+        {
+          "title": "［社説］タブーではない「同意なき買収」",
+          "link": "https://www.nikkei.com/article/DGXZQODK09ABC0Z00C25A5000000/",
+          "published": "2025年5月10日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【クマの銃猟駆除】現場の体制づくり急げ（５月１０日）",
+          "link": "https://www.minpo.jp/articles/-/54025",
+          "published": "2025/05/10 09:28",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【持続的賃上げ】実効性ある施策で支援を",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1108166",
+          "published": "2025/5/10",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "受援力　頼っていいと伝えたい",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1170713.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年5月10日(土)  10:20",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "西田氏沖縄発言　歴史直視し非戦の決意を",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/605168",
+          "published": "2025/5/10",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "初の米国出身教皇",
+          "link": "https://www.gifu-np.co.jp/articles/-/538149",
+          "published": "2025年5月10日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　新教皇に初の米国出身者　「開かれた教会」継承を",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/778206",
+          "published": "2025/5/10 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】西田氏発言　沖縄の痛み顧みぬ暴論だ",
+          "link": "https://www.topics.or.jp/articles/-/1236945",
+          "published": "2025/5/10 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【ひめゆり発言】危うい歴史観の押しつけ",
+          "link": "https://www.kochinews.co.jp/article/detail/858984",
+          "published": "2025.05.10 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］西田氏発言撤回　これで謝罪と言えるのか",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1580273",
+          "published": "2025年5月10日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞西田氏発言謝罪　TPOの問題ではない",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4218649.html",
+          "published": "2025/05/10",
+          "paid": false
+        }
+      ]
     }
   ]
 }

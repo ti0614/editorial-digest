@@ -23,6 +23,226 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "韓国大統領に李在明氏　協調回復へ政治の安定を",
+          "link": "https://mainichi.jp/articles/20250605/ddm/005/070/116000c",
+          "published": "2025/6/5 02:00",
+          "paid": false
+        },
+        {
+          "title": "拘禁刑スタート　更生促す体制充実が急務",
+          "link": "https://mainichi.jp/articles/20250605/ddm/005/070/115000c",
+          "published": "2025/6/5 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］出生率1.15は変革怠る社会への警鐘だ",
+          "link": "https://www.nikkei.com/article/DGXZQODK049CF0U5A600C2000000/",
+          "published": "2025年6月5日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【平成議員交流会】若々しい行動力に注目（６月５日）",
+          "link": "https://www.minpo.jp/articles/-/53876",
+          "published": "2025/06/05 09:08",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【健康増進法改正５年】屋内禁煙へ規制強化を",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1124958",
+          "published": "2025/6/5",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "韓国新大統領　日韓関係どう変わるか",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1178011.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年6月5日(木)  09:30",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "李大統領就任　安定した日韓関係に力を",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/620921",
+          "published": "2025/6/5",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "李在明・韓国大統領",
+          "link": "https://www.gifu-np.co.jp/articles/-/549224",
+          "published": "2025年6月5日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　韓国新大統領　日本は能動的に関与を",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/793745",
+          "published": "2025/6/5 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】韓国大統領に李氏　分断修復が欠かせない",
+          "link": "https://www.topics.or.jp/articles/-/1250703",
+          "published": "2025/6/5 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【韓国新大統領】分断解消へ踏み出す時",
+          "link": "https://www.kochinews.co.jp/article/detail/867569",
+          "published": "2025.06.05 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］長嶋茂雄さん死去　時代を築いた超スター",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1597640",
+          "published": "2025年6月5日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞韓国大統領に李氏　分断克服へ手腕発揮を",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4303259.html",
+          "published": "2025/06/05",
+          "paid": false
+        }
+      ]
     }
   ]
 }

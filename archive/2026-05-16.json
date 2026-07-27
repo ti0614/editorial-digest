@@ -57,6 +57,265 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "再審制度の見直し法案　冤罪救済へ修正が不可欠",
+          "link": "https://mainichi.jp/articles/20260516/ddm/005/070/111000c",
+          "published": "2026/5/16 02:01",
+          "paid": false
+        },
+        {
+          "title": "AI「ミュトス」の衝撃　サイバー対策で協調急務",
+          "link": "https://mainichi.jp/articles/20260516/ddm/005/070/110000c",
+          "published": "2026/5/16 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］FRB新議長は物価安定で政治圧力絶て",
+          "link": "https://www.nikkei.com/article/DGXZQODK158TM0V10C26A5000000/",
+          "published": "5月16日",
+          "paid": false
+        },
+        {
+          "title": "［社説］問題多い再審法制の政府案",
+          "link": "https://www.nikkei.com/article/DGXZQODK1531J0V10C26A5000000/",
+          "published": "5月16日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【磐越道バス事故】移動の安全総点検を（５月１６日）",
+          "link": "https://www.minpo.jp/articles/-/132877",
+          "published": "2026/05/16 09:35",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "米中首脳会談　覇権争いよりも対話継続",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/831744",
+          "published": "5/16",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説ＡＩミュトス／悪用防ぐ手だてを早く",
+          "link": "https://webun.jp/articles/-/1020573",
+          "published": "2026.05.16",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【米中首脳会談】台湾問題に「変化なし」",
+          "link": "https://www.hokkoku.co.jp/articles/-/2107831",
+          "published": "5/16",
+          "paid": true
+        },
+        {
+          "title": "社説【北陸のロボット手術】連携深め技術の底上げを",
+          "link": "https://www.hokkoku.co.jp/articles/-/2107830",
+          "published": "5/16",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "米中首脳会談",
+          "link": "https://www.gifu-np.co.jp/articles/-/709227",
+          "published": "2026年5月16日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　米中首脳会談　責任ある大国の外交を",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/1004388",
+          "published": "2026/5/16 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】米中首脳会談　世界の安定に責任を持て",
+          "link": "https://www.topics.or.jp/articles/-/1430980",
+          "published": "2026/5/16 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【米中首脳会談】友好演出にとどめるな",
+          "link": "https://www.kochinews.co.jp/article/detail/1003710",
+          "published": "2026.05.16 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "宮崎日日新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.the-miyanichi.co.jp/column/syasetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "米中首脳会談",
+          "link": "https://www.the-miyanichi.co.jp/column/syasetsu/773882.html",
+          "published": "2026.05.16｜社説",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］米中首脳会談　融和演出も先は不透明",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1838057",
+          "published": "2026年5月16日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞豊永浩平さんに三島賞　沖縄文学の可能性示した",
+          "link": "https://ryukyushimpo.jp/editorial/entry-5250961.html",
+          "published": "2026/05/16",
+          "paid": false
+        }
+      ]
     }
   ]
 }

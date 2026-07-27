@@ -26,7 +26,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "中部電の原発不正隠し　企業統治の破綻明らかだ",
+          "link": "https://mainichi.jp/articles/20260707/ddm/005/070/094000c",
+          "published": "2026/7/7 02:01",
+          "paid": false
+        },
+        {
+          "title": "EUの移民対応厳格化　人権規範の後退懸念する",
+          "link": "https://mainichi.jp/articles/20260707/ddm/005/070/093000c",
+          "published": "2026/7/7 02:01",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "読売新聞",
@@ -46,7 +59,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "［社説］中国のSLBM発射を深く憂慮する",
+          "link": "https://www.nikkei.com/article/DGXZQODK074A80X00C26A7000000/",
+          "published": "7日",
+          "paid": false
+        },
+        {
+          "title": "［社説］クールジャパンの赤字総括を",
+          "link": "https://www.nikkei.com/article/DGXZQODK0771U0X00C26A7000000/",
+          "published": "7日",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "産経新聞",
@@ -224,14 +250,21 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "【県芸術祭80回目】豊かな文化の底力示そう",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1379808",
+          "published": "7/7  8:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "神奈川新聞",
       "category": "社説",
       "tier": "regional",
       "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
-      "error": null,
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
       "items": [
@@ -278,10 +311,17 @@
       "category": "論説",
       "tier": "regional",
       "index_url": "https://www.chibanippo.co.jp/serial",
-      "error": null,
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "歴史価値と魅力にもっと光を　国史跡「内裏塚古墳群」の追加　【論説】",
+          "link": "https://www.chibanippo.co.jp/articles/1465838",
+          "published": "7/7 5:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "新潟日報",
@@ -325,7 +365,26 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "社説【衆院の空転続く】取り下げ要求は無理筋",
+          "link": "https://www.hokkoku.co.jp/articles/-/2161868",
+          "published": "7/7",
+          "paid": true
+        },
+        {
+          "title": "社説【キャニオンルート】山岳観光の魅力を世界へ",
+          "link": "https://www.hokkoku.co.jp/articles/-/2161867",
+          "published": "7/7",
+          "paid": true
+        },
+        {
+          "title": "社説【衆院の空転続く】法案取り下げ要求は無理筋",
+          "link": "https://www.hokkoku.co.jp/articles/-/2161575",
+          "published": "7/7",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "福井新聞",
@@ -480,7 +539,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "【郵便局網の維持】国費使うなら将来像示せ",
+          "link": "https://www.kochinews.co.jp/article/detail/1022390",
+          "published": "2026.07.07 05:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "日本海新聞",

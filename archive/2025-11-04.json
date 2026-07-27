@@ -17,6 +17,268 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "広がらぬ緩和ケア　誰もが受けられる体制に",
+          "link": "https://mainichi.jp/articles/20251104/ddm/005/070/072000c",
+          "published": "2025/11/4 02:01",
+          "paid": false
+        },
+        {
+          "title": "多忙際立つ日本の教員　負担減らす対策の加速を",
+          "link": "https://mainichi.jp/articles/20251104/ddm/005/070/070000c",
+          "published": "2025/11/4 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］成長戦略17分野で首相は民主導を貫け",
+          "link": "https://www.nikkei.com/article/DGXZQODK043M00U5A101C2000000/",
+          "published": "2025年11月4日",
+          "paid": false
+        },
+        {
+          "title": "［社説］EVの普及を長期の視点で",
+          "link": "https://www.nikkei.com/article/DGXZQODK045BI0U5A101C2000000/",
+          "published": "2025年11月4日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【読書週間】絵本に一層触れよう（１１月４日）",
+          "link": "https://www.minpo.jp/articles/-/51687",
+          "published": "2025/11/04 09:07",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "県立高校再編・統合　安全網の役割再認識を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1221077.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年11月4日(火)  09:10",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "核兵器なき世界実現へ　被団協にノーベル平和賞　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1297526",
+          "published": "11/4 5:00",
+          "paid": true
+        },
+        {
+          "title": "野党、政策明示し説明を　与党過半数割れ“綱渡り政権”に　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1297525",
+          "published": "11/4 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "リチウム電池　相次ぐ発火適切な使用を",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/721410",
+          "published": "2025/11/4",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説腎不全の緩和ケア／提供体制 早急に整備を",
+          "link": "https://webun.jp/articles/-/913315",
+          "published": "2025.11.04",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【北陸の高等教育機関】人材育成の連携進めたい",
+          "link": "https://www.hokkoku.co.jp/articles/-/1918267",
+          "published": "11/4",
+          "paid": true
+        },
+        {
+          "title": "社説【リチウムイオン電池】発火を防ぐ対策の周知を",
+          "link": "https://www.hokkoku.co.jp/articles/-/1918266",
+          "published": "11/4",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　衆院定数削減　裏金事件の解明が先だ",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/889270",
+          "published": "2025/11/4 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】大田元知事死去　政治を身近にしてくれた",
+          "link": "https://www.topics.or.jp/articles/-/1331727",
+          "published": "2025/11/4 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【インフルエンザ】流行に備え対策徹底を",
+          "link": "https://www.kochinews.co.jp/article/detail/924700",
+          "published": "2025.11.04 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "宮崎日日新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.the-miyanichi.co.jp/column/syasetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "高市政権と日銀",
+          "link": "https://www.the-miyanichi.co.jp/column/syasetsu/356275.html",
+          "published": "2025.11.04｜社説",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］残業規制の緩和検討　働き方改革に逆行する",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1705589",
+          "published": "2025年11月4日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞古謝市長再出馬表明　議会解散の大義失った",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4741567.html",
+          "published": "2025/11/04",
+          "paid": false
+        }
+      ]
     }
   ]
 }

@@ -17,6 +17,288 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "中台の国共トップ会談　関係安定につながるのか",
+          "link": "https://mainichi.jp/articles/20260424/ddm/005/070/080000c",
+          "published": "2026/4/24 02:00",
+          "paid": false
+        },
+        {
+          "title": "インテリジェンスの強化　国会による監視が不可欠",
+          "link": "https://mainichi.jp/articles/20260424/ddm/005/070/083000c",
+          "published": "2026/4/24 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］赤字ローカル線は国と自治体の問題だ",
+          "link": "https://www.nikkei.com/article/DGXZQODK248OY0U6A420C2000000/",
+          "published": "4月24日",
+          "paid": false
+        },
+        {
+          "title": "［社説］攻めのM&Aで垣根を越えよ",
+          "link": "https://www.nikkei.com/article/DGXZQODK246B20U6A420C2000000/",
+          "published": "4月24日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【いわき「ほこみち」】参加事業者の拡大鍵（４月２４日）",
+          "link": "https://www.minpo.jp/articles/-/117317",
+          "published": "2026/04/24 10:40",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【教員免許なし受験】環境改善も同時に進めよ",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1333302",
+          "published": "4/24  8:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "米イラン停戦延長　和平につながる再協議を",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/820009",
+          "published": "4/24",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説ＳＮＳの誤情報／リテラシーの向上急務",
+          "link": "https://webun.jp/articles/-/1009140",
+          "published": "2026.04.24",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【台南市と合意締結】次代へ継ぐ若者交流を",
+          "link": "https://www.hokkoku.co.jp/articles/-/2086863",
+          "published": "4/24",
+          "paid": true
+        },
+        {
+          "title": "社説【武器輸出解禁】防衛産業の強化に不可欠",
+          "link": "https://www.hokkoku.co.jp/articles/-/2086862",
+          "published": "4/24",
+          "paid": true
+        },
+        {
+          "title": "社説【台南市と合意締結】次代へ受け継ぐ若者交流を",
+          "link": "https://www.hokkoku.co.jp/articles/-/2086837",
+          "published": "4/24",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "京都男児遺棄事件",
+          "link": "https://www.gifu-np.co.jp/articles/-/698396",
+          "published": "2026年4月24日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　京都男児遺棄事件　悲劇繰り返さぬ社会に",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/992025",
+          "published": "2026/4/24 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】老朽インフラ　危険見逃さぬ対策　徹底を",
+          "link": "https://www.topics.or.jp/articles/-/1420503",
+          "published": "2026/4/24 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【党大会に自衛官】政治的中立性が揺らぐ",
+          "link": "https://www.kochinews.co.jp/article/detail/994714",
+          "published": "2026.04.24 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "宮崎日日新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.the-miyanichi.co.jp/column/syasetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "再審見直し",
+          "link": "https://www.the-miyanichi.co.jp/column/syasetsu/725423.html",
+          "published": "2026.04.24｜社説",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］NPT再検討会議　核軍縮を逆行させるな",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1823956",
+          "published": "2026年4月24日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞未成年のSNS規制　実効性ある取り組み急げ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-5208238.html",
+          "published": "2026/04/24",
+          "paid": false
+        }
+      ]
     }
   ]
 }

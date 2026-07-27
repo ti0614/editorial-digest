@@ -299,7 +299,7 @@
       "category": "社説",
       "tier": "regional",
       "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
-      "error": null,
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
       "items": [
@@ -346,7 +346,7 @@
       "category": "論説",
       "tier": "regional",
       "index_url": "https://www.chibanippo.co.jp/serial",
-      "error": null,
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
       "items": []
@@ -393,7 +393,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "社説【最果ての博物館再開】アートで刻む震災の記憶",
+          "link": "https://www.hokkoku.co.jp/articles/-/2174454",
+          "published": "7/18",
+          "paid": true
+        },
+        {
+          "title": "社説【改正皇室典範】皇室の伝統に則した内容に",
+          "link": "https://www.hokkoku.co.jp/articles/-/2174453",
+          "published": "7/18",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "福井新聞",

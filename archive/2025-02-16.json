@@ -23,6 +23,191 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "トランプ2．0　高関税政策の乱発　世界相手に恫喝するのか",
+          "link": "https://mainichi.jp/articles/20250216/ddm/005/070/083000c",
+          "published": "2025/2/16 02:00",
+          "paid": false
+        },
+        {
+          "title": "小中高生の自殺最多　苦しみの原因探る対策を",
+          "link": "https://mainichi.jp/articles/20250216/ddm/005/070/079000c",
+          "published": "2025/2/16 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］企業はAI需要も生かし次の利益成長を",
+          "link": "https://www.nikkei.com/article/DGXZQODK1619B0W5A210C2000000/",
+          "published": "2025年2月16日",
+          "paid": false
+        },
+        {
+          "title": "［社説］米印合意を地域安定に生かせ",
+          "link": "https://www.nikkei.com/article/DGXZQODK1617F0W5A210C2000000/",
+          "published": "2025年2月16日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "高額療養費制度　当事者の声を踏まえねば",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/557269",
+          "published": "2025/2/16",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "戦後８０年談話",
+          "link": "https://www.gifu-np.co.jp/articles/-/502969",
+          "published": "2025年2月16日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　岸田前首相襲撃事件　暴力で「主張」は論外だ",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/730309",
+          "published": "2025/2/16 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】ホンダ・日産破談　独自で生き残れるのか",
+          "link": "https://www.topics.or.jp/articles/-/1196740",
+          "published": "2025/2/16 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【県当初予算案】人口減対策　着実な成果を",
+          "link": "https://www.kochinews.co.jp/article/detail/832961",
+          "published": "2025.02.16 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］政府備蓄米放出　価格と供給の安定図れ",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1527272",
+          "published": "2025年2月16日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞２５年度県政運営方針　平和行政を施策の中心に",
+          "link": "https://ryukyushimpo.jp/editorial/entry-3968501.html",
+          "published": "2025/02/16",
+          "paid": false
+        }
+      ]
     }
   ]
 }

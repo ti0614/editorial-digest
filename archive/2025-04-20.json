@@ -17,6 +17,158 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "「トランプ政治」3カ月　独善のほころびは明らか",
+          "link": "https://mainichi.jp/articles/20250420/ddm/005/070/105000c",
+          "published": "2025/4/20 02:00",
+          "paid": false
+        },
+        {
+          "title": "JR高速船の浸水隠し　安全軽視する姿勢一掃を",
+          "link": "https://mainichi.jp/articles/20250420/ddm/005/070/104000c",
+          "published": "2025/4/20 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "グーグル排除命令　消費者に選択の自由を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1165627.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年4月20日(日)  09:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "グーグル排除命令　消費者の選択肢広げねば",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/594623",
+          "published": "2025/4/20",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "サイバー法案審議",
+          "link": "https://www.gifu-np.co.jp/articles/-/529521",
+          "published": "2025年4月20日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　内密出産　国の責任で法整備急げ",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/767404",
+          "published": "2025/4/20 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【グーグルの違反】公正競争の転機にしたい",
+          "link": "https://www.kochinews.co.jp/article/detail/853319",
+          "published": "2025.04.20 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］日米合同パトロール　「警察権合意」を見直せ",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1568247",
+          "published": "2025年4月20日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞辞世の句「平和」発言　文民統制は機能するのか",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4169077.html",
+          "published": "2025/04/20",
+          "paid": false
+        }
+      ]
     }
   ]
 }

@@ -17,6 +17,221 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "国旗損壊罪の創設案　息苦しい社会にするのか",
+          "link": "https://mainichi.jp/articles/20251207/ddm/005/070/087000c",
+          "published": "2025/12/7 02:03",
+          "paid": false
+        },
+        {
+          "title": "日韓の安保協力　対立管理し停滞避けねば",
+          "link": "https://mainichi.jp/articles/20251207/ddm/005/070/085000c",
+          "published": "2025/12/7 02:03",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］中国の軍事的挑発は断じて許されない",
+          "link": "https://www.nikkei.com/article/DGXZQODK070CA0X01C25A2000000/",
+          "published": "2025年12月7日",
+          "paid": false
+        },
+        {
+          "title": "［社説］証券口座乗っ取り全容解明を",
+          "link": "https://www.nikkei.com/article/DGXZQODK0547P0V01C25A2000000/",
+          "published": "2025年12月7日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "公金還流疑惑　「身を切る改革」が泣く",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1230050.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年12月7日(日)  10:10",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "アジアで豪雨　気候変動対策が急がれる",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/741503",
+          "published": "2025/12/7",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説「国宝」人気の邦画界／富山ゆかりの作品注目",
+          "link": "https://webun.jp/articles/-/933256",
+          "published": "2025.12.07",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【被災木材の再利用】風土の「遺産」を未来に",
+          "link": "https://www.hokkoku.co.jp/articles/-/1951841",
+          "published": "12/7",
+          "paid": true
+        },
+        {
+          "title": "社説【詐欺対策アプリ】「８割遮断」を活用したい",
+          "link": "https://www.hokkoku.co.jp/articles/-/1951840",
+          "published": "12/7",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　加速する原発再稼働　「後始末」どうするのか",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/909511",
+          "published": "2025/12/7 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】マイナ保険証　円滑に利用できる体制に",
+          "link": "https://www.topics.or.jp/articles/-/1350535",
+          "published": "2025/12/7 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【ウナギ取引規制】適正な資源管理の構築を",
+          "link": "https://www.kochinews.co.jp/article/detail/936765",
+          "published": "2025.12.07 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］平飼い卵偽装　消費者の信頼裏切った",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1729441",
+          "published": "2025年12月7日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞与那国軍備強化　対立の沈静化が最優先だ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4844183.html",
+          "published": "2025/12/07",
+          "paid": false
+        }
+      ]
     }
   ]
 }

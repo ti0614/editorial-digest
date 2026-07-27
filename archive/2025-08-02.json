@@ -23,6 +23,249 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "海自の不正物品調達　うみ出し切る覚悟見えぬ",
+          "link": "https://mainichi.jp/articles/20250802/ddm/005/070/106000c",
+          "published": "2025/8/2 02:02",
+          "paid": false
+        },
+        {
+          "title": "トランプ関税の発動　大国の専横許さぬ連携を",
+          "link": "https://mainichi.jp/articles/20250802/ddm/005/070/108000c",
+          "published": "2025/8/2 02:02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］新興AIの法的整理招いた不正を戒めに",
+          "link": "https://www.nikkei.com/article/DGXZQODK31DCB0R30C25A7000000/",
+          "published": "2025年8月2日",
+          "paid": false
+        },
+        {
+          "title": "［社説］線状降水帯の予測精度高めよ",
+          "link": "https://www.nikkei.com/article/DGXZQODK0816T0Y5A600C2000000/",
+          "published": "2025年8月2日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【戦後８０年　大切な８月】平和の誓い、改めて（８月２日）",
+          "link": "https://www.minpo.jp/articles/-/53391",
+          "published": "2025/08/02 09:20",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【サイバー攻撃対策】事業継続に強化不可欠だ",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1163883",
+          "published": "2025/8/2",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "分断か共生か　社会の岐路で考えたい",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1195672.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年8月2日(土)  09:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "少数与党の国会　国民の負託応えられるか",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/662787",
+          "published": "2025/8/2",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説戦争と平和 おはなし会／若い世代に語り継ごう",
+          "link": "https://webun.jp/articles/-/855506",
+          "published": "2025.08.02",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "外免切り替え",
+          "link": "https://www.gifu-np.co.jp/articles/-/578078",
+          "published": "2025年8月2日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　ガザの飢餓問題　支援食料の搬入認めよ",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/832092",
+          "published": "2025/8/2 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】ロシア地震の教訓　「おおかみ」は必ず来る",
+          "link": "https://www.topics.or.jp/articles/-/1282208",
+          "published": "2025/8/2 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【ガザ死者６万人】停戦し人道危機の解消を",
+          "link": "https://www.kochinews.co.jp/article/detail/893768",
+          "published": "2025.08.02 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］ガザで集団飢餓　停戦し食料搬入直ちに",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1641147",
+          "published": "2025年8月2日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞沖縄戦80年　不発弾撤去と遺骨収集　「最後の一発、一体」原点に",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4504738.html",
+          "published": "2025/08/02",
+          "paid": false
+        }
+      ]
     }
   ]
 }

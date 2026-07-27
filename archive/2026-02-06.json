@@ -23,6 +23,289 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "相次ぐ東大の汚職事件　信じがたい倫理観の欠如",
+          "link": "https://mainichi.jp/articles/20260206/ddm/005/070/076000c",
+          "published": "2026/2/6 02:01",
+          "paid": false
+        },
+        {
+          "title": "中国軍幹部の失脚　周辺国の不安招く異変だ",
+          "link": "https://mainichi.jp/articles/20260206/ddm/005/070/074000c",
+          "published": "2026/2/6 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］夫婦別姓の議論を多様性尊重の試金石に",
+          "link": "https://www.nikkei.com/article/DGXZQOCD0522S0V00C26A2000000/",
+          "published": "2月6日",
+          "paid": false
+        },
+        {
+          "title": "［社説］トランプ氏の干渉は不適切だ",
+          "link": "https://www.nikkei.com/article/DGXZQODK067ON0W6A200C2000000/",
+          "published": "2月6日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【２０２６衆院選　１０代有権者へ】棄権せずに権利行使を（２月６日）",
+          "link": "https://www.minpo.jp/articles/-/49832",
+          "published": "2026/02/06 09:15",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【塩谷町の医療マース】地域持続へ最大限活用を",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1282810",
+          "published": "2/6  8:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "記録的少雨　節水と防火への意識を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1245675.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2026年2月6日(金)  09:20",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "原発・エネルギー　立地県の課題議論足りぬ",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/774913",
+          "published": "2/6",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説２６衆院選　選択的夫婦別姓／個人の尊厳どう守るか",
+          "link": "https://webun.jp/articles/-/965341",
+          "published": "2026.02.06",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【富岡に豪姫ツバキ】加賀藩交流深める一助に",
+          "link": "https://www.hokkoku.co.jp/articles/-/2008389",
+          "published": "2/6",
+          "paid": true
+        },
+        {
+          "title": "社説【ミラノ冬季五輪】限界に挑む輝きに触れたい",
+          "link": "https://www.hokkoku.co.jp/articles/-/2008388",
+          "published": "2/6",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "衆院選・外国人政策",
+          "link": "https://www.gifu-np.co.jp/articles/-/663675",
+          "published": "2026年2月6日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　米ロ核軍縮条約失効　核の勝利を追求するな",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/944319",
+          "published": "2026/2/6 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】26衆院選　原発の是非　低調な論戦を危惧する",
+          "link": "https://www.topics.or.jp/articles/-/1380303",
+          "published": "2026/2/6 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【冬季五輪】平和への思いを重ねて",
+          "link": "https://www.kochinews.co.jp/article/detail/958812",
+          "published": "2026.02.06 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "宮崎日日新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.the-miyanichi.co.jp/column/syasetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "衆院選・外国人政策",
+          "link": "https://www.the-miyanichi.co.jp/column/syasetsu/541238.html",
+          "published": "2026.02.06｜社説",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］［2026　衆院選］政治とカネ　終わっていない問題だ",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1769252",
+          "published": "2026年2月6日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞衆院選2026　憲法改正　「普通の国」でよいのか",
+          "link": "https://ryukyushimpo.jp/editorial/entry-5014977.html",
+          "published": "2026/02/06",
+          "paid": false
+        }
+      ]
     }
   ]
 }

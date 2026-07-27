@@ -17,6 +17,226 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "戦後80年　ヒロシマ・ナガサキ　「核のタブー」を守り抜く",
+          "link": "https://mainichi.jp/articles/20250806/ddm/005/070/077000c",
+          "published": "2025/8/6 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］コメ増産の実現に向け明確な方策示せ",
+          "link": "https://www.nikkei.com/article/DGXZQODK062M90W5A800C2000000/",
+          "published": "2025年8月6日",
+          "paid": false
+        },
+        {
+          "title": "［社説］最低賃金の大幅上げは妥当だ",
+          "link": "https://www.nikkei.com/article/DGXZQODK065II0W5A800C2000000/",
+          "published": "2025年8月6日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【戦後８０年　原爆の日】節目に核廃絶の道筋を（８月６日）",
+          "link": "https://www.minpo.jp/articles/-/53373",
+          "published": "2025/08/06 09:11",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "被爆８０年　「繰り返さぬ」胸に刻む",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1196612.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年8月6日(水)  10:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "８０回目「原爆の日」　未来の核被害を防がねば",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/664812",
+          "published": "2025/8/6",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説原爆投下８０年／針路を「核なき世界」へ",
+          "link": "https://webun.jp/articles/-/857504",
+          "published": "2025.08.06",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "広島・長崎原爆忌",
+          "link": "https://www.gifu-np.co.jp/articles/-/579582",
+          "published": "2025年8月6日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　広島・長崎原爆の日　過ち繰り返さぬ決意を",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/834315",
+          "published": "2025/8/6 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】原爆の日80年　平和のメッセージ世界へ",
+          "link": "https://www.topics.or.jp/articles/-/1284112",
+          "published": "2025/8/6 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【原爆犠牲８０年】核廃絶への決意を新たに",
+          "link": "https://www.kochinews.co.jp/article/detail/894893",
+          "published": "2025.08.06 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］広島・長崎　被爆８０年　核なき世界　決意新たに",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1643507",
+          "published": "2025年8月6日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞広島原爆投下80年　「核抑止力神話」と決別を",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4518163.html",
+          "published": "2025/08/06",
+          "paid": false
+        }
+      ]
     }
   ]
 }

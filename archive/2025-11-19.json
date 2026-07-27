@@ -23,6 +23,289 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "三原則の見直し議論　「非核の決意」重み認識を",
+          "link": "https://mainichi.jp/articles/20251119/ddm/005/070/088000c",
+          "published": "2025/11/19 02:00",
+          "paid": false
+        },
+        {
+          "title": "米関税とマイナス成長　粘り強く見直し求めねば",
+          "link": "https://mainichi.jp/articles/20251119/ddm/005/070/087000c",
+          "published": "2025/11/19 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］企業は増益保ち賃上げと投資の好循環を",
+          "link": "https://www.nikkei.com/article/DGXZQODK1465Q0U5A111C2000000/",
+          "published": "2025年11月19日",
+          "paid": false
+        },
+        {
+          "title": "［社説］ウクライナは汚職を根絶せよ",
+          "link": "https://www.nikkei.com/article/DGXZQODK173LA0X11C25A1000000/",
+          "published": "2025年11月19日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【会津若松の除排雪】今冬は万全の備えで（１１月１９日）",
+          "link": "https://www.minpo.jp/articles/-/51365",
+          "published": "2025/11/19 09:25",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【田中正造旧宅案内役】行政主体に後継者育成を",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1232787",
+          "published": "2025/11/19",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "教員の児童盗撮　根絶へあらゆる対策を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1225158.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年11月19日(水)  09:20",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "ＧＤＰマイナス　実効性ある下支え政策を",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/730992",
+          "published": "2025/11/19",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説日中対立深刻化／対話重ねて事態打開を",
+          "link": "https://webun.jp/articles/-/922533",
+          "published": "2025.11.19",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【白山から植林支援】ジオの価値高める活動に",
+          "link": "https://www.hokkoku.co.jp/articles/-/1933373",
+          "published": "11/19",
+          "paid": true
+        },
+        {
+          "title": "社説【日本への渡航自粛】旅行も留学も「脱中国」を",
+          "link": "https://www.hokkoku.co.jp/articles/-/1933372",
+          "published": "11/19",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "台湾有事巡り対立",
+          "link": "https://www.gifu-np.co.jp/articles/-/627856",
+          "published": "2025年11月19日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　ＧＤＰマイナス　財政拡大に突き進むな",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/898551",
+          "published": "2025/11/19 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】不信任された首長　議会解散の正当性どこに",
+          "link": "https://www.topics.or.jp/articles/-/1340192",
+          "published": "2025/11/19 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【日中関係の緊張】対話で速やかな沈静化を",
+          "link": "https://www.kochinews.co.jp/article/detail/930707",
+          "published": "2025.11.19 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "宮崎日日新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.the-miyanichi.co.jp/column/syasetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "首相答弁で日中対立",
+          "link": "https://www.the-miyanichi.co.jp/column/syasetsu/389456.html",
+          "published": "2025.11.19｜社説",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］米事務所で県報告書　「幕引き」にはまだ早い",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1716595",
+          "published": "2025年11月19日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞「台湾有事」首相答弁　国益と相反、沈静化を急げ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4786302.html",
+          "published": "2025/11/19",
+          "paid": false
+        }
+      ]
     }
   ]
 }

@@ -23,6 +23,238 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "子どもの自殺最多　SOSくみ取る手立てを",
+          "link": "https://mainichi.jp/articles/20260216/ddm/005/070/024000c",
+          "published": "2026/2/16 02:01",
+          "paid": false
+        },
+        {
+          "title": "対中改善探る欧州　「現実外交」を注視したい",
+          "link": "https://mainichi.jp/articles/20260216/ddm/005/070/023000c",
+          "published": "2026/2/16 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］内需の底上げは財政よりも民間主導で",
+          "link": "https://www.nikkei.com/article/DGXZQODK165UD0W6A210C2000000/",
+          "published": "2月16日",
+          "paid": false
+        },
+        {
+          "title": "［社説］世界の安定に米欧協力が要る",
+          "link": "https://www.nikkei.com/article/DGXZQODK164QB0W6A210C2000000/",
+          "published": "2月16日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【県予算案】課題の解決策に（２月１６日）",
+          "link": "https://www.minpo.jp/articles/-/49642",
+          "published": "2026/02/16 09:12",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "横浜市長パワハラ　疑惑解明と意識改革を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1248552.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2026年2月16日(月)  09:30",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "子どもの自殺　サインに気付ける社会を",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/780344",
+          "published": "2/16",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説小中高生の自殺／ＳＯＳを受け止めねば",
+          "link": "https://webun.jp/articles/-/970709",
+          "published": "2026.02.16",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【震災廃棄物の再利用】絶景海道にも生かしたい",
+          "link": "https://www.hokkoku.co.jp/articles/-/2018230",
+          "published": "2/16",
+          "paid": true
+        },
+        {
+          "title": "社説【金沢マラソン】マンネリ避ける工夫さらに",
+          "link": "https://www.hokkoku.co.jp/articles/-/2018229",
+          "published": "2/16",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "売春防止法見直し",
+          "link": "https://www.gifu-np.co.jp/articles/-/668008",
+          "published": "2026年2月16日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　売春防止法見直し　根絶への重要な一歩だ",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/950219",
+          "published": "2026/2/16 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【緊急避妊薬】性犯罪見逃さないように",
+          "link": "https://www.kochinews.co.jp/article/detail/972006",
+          "published": "2026.02.16 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］米「辺野古疑問視」　目的見失った巨額事業",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1775814",
+          "published": "2026年2月16日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞中道新代表に小川氏　自民に対抗する政策示せ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-5039743.html",
+          "published": "2026/02/16",
+          "paid": false
+        }
+      ]
     }
   ]
 }

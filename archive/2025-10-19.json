@@ -17,6 +17,205 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "病院の経営危機　医療体制支える抜本策を",
+          "link": "https://mainichi.jp/articles/20251019/ddm/005/070/094000c",
+          "published": "2025/10/19 02:02",
+          "paid": false
+        },
+        {
+          "title": "トランプ氏の州兵動員　「内戦」を起こすつもりか",
+          "link": "https://mainichi.jp/articles/20251019/ddm/005/070/092000c",
+          "published": "2025/10/19 02:02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "Ｂリーグ急成長　プロスポーツの刺激に",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1216695.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年10月19日(日)  09:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "地域の未来像、どう描くか　いすみ鉄道、脱線事故から１年　【論説】",
+          "link": "https://www.chibanippo.co.jp/articles/1513602",
+          "published": "10/19 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "東電１千億円拠出　原発の信頼醸成にならぬ",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/711530",
+          "published": "2025/10/19",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説改正育児・介護休業法／柔軟な働き方、課題多く",
+          "link": "https://webun.jp/articles/-/903829",
+          "published": "2025.10.19",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【文化観光ガイド】心つかむ「案内力」に磨き",
+          "link": "https://www.hokkoku.co.jp/articles/-/1901784",
+          "published": "10/19",
+          "paid": true
+        },
+        {
+          "title": "社説【グッドデザイン大賞】仮設住宅政策の転換迫る",
+          "link": "https://www.hokkoku.co.jp/articles/-/1901783",
+          "published": "10/19",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "村山元首相死去",
+          "link": "https://www.gifu-np.co.jp/articles/-/613876",
+          "published": "2025年10月19日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　サイバー攻撃／“減災”への備えが急務",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/879653",
+          "published": "2025/10/19 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【露エネ輸入停止】日本に迫る厳しい選択",
+          "link": "https://www.kochinews.co.jp/article/detail/919371",
+          "published": "2025.10.19 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］村山元首相死去　沖縄問題では功罪半ば",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1694572",
+          "published": "2025年10月19日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞村山富市元首相死去　平和と民主の志受け継ぐ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4704640.html",
+          "published": "2025/10/19",
+          "paid": false
+        }
+      ]
     }
   ]
 }

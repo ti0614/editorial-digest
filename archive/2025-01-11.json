@@ -23,6 +23,208 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "福島原発事故の除染土　処分のシナリオを早期に",
+          "link": "https://mainichi.jp/articles/20250111/ddm/005/070/112000c",
+          "published": "2025/1/11 02:01",
+          "paid": false
+        },
+        {
+          "title": "神戸市の部活地域移行　先行例の知見広く共有を",
+          "link": "https://mainichi.jp/articles/20250111/ddm/005/070/111000c",
+          "published": "2025/1/11 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］NISAで貯蓄から投資の流れをさらに",
+          "link": "https://www.nikkei.com/article/DGXZQODK2774F0X21C24A2000000/",
+          "published": "2025年1月11日",
+          "paid": false
+        },
+        {
+          "title": "［社説］不当なベネズエラ政権居座り",
+          "link": "https://www.nikkei.com/article/DGXZQOCD107SF0Q5A110C2000000/",
+          "published": "2025年1月11日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【訓練型農場】産地活性化の起爆剤に（１月１１日）",
+          "link": "https://www.minpo.jp/articles/-/54621",
+          "published": "2025/01/11 09:26",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【木造住宅耐震診断急増】震災の教訓未来に生かせ",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1034973",
+          "published": "2025/1/11",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "インフル患者最多　感染防止対策徹底したい",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/538068",
+          "published": "2025/1/11",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　核兵器禁止条約　首相は会議参加決断を",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/710703",
+          "published": "2025/1/11 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】ライジングス徳島　初Vの快挙をたたえたい",
+          "link": "https://www.topics.or.jp/articles/-/1180703",
+          "published": "2025/1/11 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【インフル拡大】最大限の警戒と対策を",
+          "link": "https://www.kochinews.co.jp/article/detail/820262",
+          "published": "2025.01.11 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］認知症基本計画　当事者の声を推進力に",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1505371",
+          "published": "2025年1月11日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞インフルエンザ急増　暮らしの中で対策徹底を",
+          "link": "https://ryukyushimpo.jp/editorial/entry-3851170.html",
+          "published": "2025/01/11",
+          "paid": false
+        }
+      ]
     }
   ]
 }

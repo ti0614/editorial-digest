@@ -23,6 +23,283 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "イラン核交渉が再開　外交で拡散防止の実現を",
+          "link": "https://mainichi.jp/articles/20260218/ddm/005/070/103000c",
+          "published": "2026/2/18 02:00",
+          "paid": false
+        },
+        {
+          "title": "自民圧勝後の改憲論議　数の力で進めてはならぬ",
+          "link": "https://mainichi.jp/articles/20260218/ddm/005/070/105000c",
+          "published": "2026/2/18 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］首相は政策合意に努め難題にあたれ",
+          "link": "https://www.nikkei.com/article/DGXZQODK181BC0Y6A210C2000000/",
+          "published": "2月18日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【震災１５年　広野駅交流施設】常に人が集う場に（２月１８日）",
+          "link": "https://www.minpo.jp/articles/-/49607",
+          "published": "2026/02/18 09:22",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【百年構想リーグ開幕】クラブ存在感高める機に",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1291116",
+          "published": "2/18  8:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "改憲論議　「数の力」で分断するな",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1249096.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2026年2月18日(水)  09:30",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "国会きょう召集　丁寧な審議を尽くせるか",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/781628",
+          "published": "2/18",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説特殊・ＳＮＳ詐欺増加／警戒強め自衛策講じて",
+          "link": "https://webun.jp/articles/-/971745",
+          "published": "2026.02.18",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【北陸の地域ＳＣ】交流深め聖地への一歩に",
+          "link": "https://www.hokkoku.co.jp/articles/-/2019968",
+          "published": "2/18",
+          "paid": true
+        },
+        {
+          "title": "社説【特別国会召集】旧態依然の予算委改革を",
+          "link": "https://www.hokkoku.co.jp/articles/-/2019967",
+          "published": "2/18",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "福島事故の本質",
+          "link": "https://www.gifu-np.co.jp/articles/-/668912",
+          "published": "2026年2月18日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　どう伝える「福島１５年」　事故の本質を捉えたい",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/951415",
+          "published": "2026/2/18 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】春闘本格化　今年こそ実質賃金増を",
+          "link": "https://www.topics.or.jp/articles/-/1386193",
+          "published": "2026/2/18 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【特別国会召集】与党はおごらず熟議を",
+          "link": "https://www.kochinews.co.jp/article/detail/972662",
+          "published": "2026.02.18 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "宮崎日日新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.the-miyanichi.co.jp/column/syasetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "国会きょう開幕",
+          "link": "https://www.the-miyanichi.co.jp/column/syasetsu/573236.html",
+          "published": "2026.02.18｜社説",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］オール沖縄険しい再建　存在意義問い直す時だ",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1777231",
+          "published": "2026年2月18日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞米「普天間返還せず」　新基地では解決できない",
+          "link": "https://ryukyushimpo.jp/editorial/entry-5043749.html",
+          "published": "2026/02/18",
+          "paid": false
+        }
+      ]
     }
   ]
 }

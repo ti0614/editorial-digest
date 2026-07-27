@@ -23,6 +23,215 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "自民の次期総裁選び　党の存在意義示せるのか",
+          "link": "https://mainichi.jp/articles/20250909/ddm/005/070/097000c",
+          "published": "2025/9/9 02:00",
+          "paid": false
+        },
+        {
+          "title": "新浪氏の会長辞任　信頼傷つけた責任は重い",
+          "link": "https://mainichi.jp/articles/20250909/ddm/005/070/095000c",
+          "published": "2025/9/9 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］自民は責任政党の名に恥じぬ政策論争を",
+          "link": "https://www.nikkei.com/article/DGXZQODK0948U0Z00C25A9000000/",
+          "published": "2025年9月9日",
+          "paid": false
+        },
+        {
+          "title": "［社説］フランス大統領は国民に説明尽くせ",
+          "link": "https://www.nikkei.com/article/DGXZQODK083GW0Y5A900C2000000/",
+          "published": "2025年9月9日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【災禍の伝承】首都圏の動きにも注目（９月９日）",
+          "link": "https://www.minpo.jp/articles/-/53065",
+          "published": "2025/09/09 09:20",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "石破首相退陣へ　党への不信どう拭うか",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1205541.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年9月9日(火)  10:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "悠仁さま成年式　将来見据えた皇室制度に",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/685836",
+          "published": "2025/9/9",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説コスト増と価格転嫁／交渉拒否は許されない",
+          "link": "https://webun.jp/articles/-/877624",
+          "published": "2025.09.09",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "石破政権の功罪",
+          "link": "https://www.gifu-np.co.jp/articles/-/595050",
+          "published": "2025年9月9日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　「らしさ」失い、失望招く　石破政権の功罪",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/854663",
+          "published": "2025/9/9 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【洋上風力の撤退】脱炭素化へ戦略見直しを",
+          "link": "https://www.kochinews.co.jp/article/detail/905665",
+          "published": "2025.09.09 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］岐路に立つ日本政治　連立の在り方問い直せ",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1666183",
+          "published": "2025年9月9日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞石垣文書改ざん処分　市長の責任果たすべきだ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4597674.html",
+          "published": "2025/09/09",
+          "paid": false
+        }
+      ]
     }
   ]
 }

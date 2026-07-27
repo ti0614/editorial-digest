@@ -23,6 +23,225 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "教員給与の引き上げ　働き方の見直しと両輪で",
+          "link": "https://mainichi.jp/articles/20250115/ddm/005/070/077000c",
+          "published": "2025/1/15 02:01",
+          "paid": false
+        },
+        {
+          "title": "首相の東南アジア訪問　共通利益拡大する契機に",
+          "link": "https://mainichi.jp/articles/20250115/ddm/005/070/076000c",
+          "published": "2025/1/15 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］韓国大統領拘束による分断激化が心配だ",
+          "link": "https://www.nikkei.com/article/DGXZQODK152XG0V10C25A1000000/",
+          "published": "2025年1月15日",
+          "paid": false
+        },
+        {
+          "title": "［社説］大学の統治不全に迫る捜査を",
+          "link": "https://www.nikkei.com/article/DGXZQODK154SU0V10C25A1000000/",
+          "published": "2025年1月15日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【エネルギー計画案】事故の教訓忘れるな（１月１５日）",
+          "link": "https://www.minpo.jp/articles/-/54606",
+          "published": "2025/01/15 09:26",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【無形民俗文化財】県民の財産、守り継承を",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1037124",
+          "published": "2025/1/15",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "女子医大背任事件　ガバナンス不全の検証を",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/539596",
+          "published": "2025/1/15",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "２０２５石破外交",
+          "link": "https://www.gifu-np.co.jp/articles/-/489621",
+          "published": "2025年1月15日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　石破外交２０２５年　米中両にらみの戦略を",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/712456",
+          "published": "2025/1/15 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】選挙とSNS　活用法巡る議論深めよ",
+          "link": "https://www.topics.or.jp/articles/-/1182067",
+          "published": "2025/1/15 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【南海トラフ情報】警戒と備えの再確認を",
+          "link": "https://www.kochinews.co.jp/article/detail/821094",
+          "published": "2025.01.15 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］東京女子医大　権限分散し透明化図れ",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1507269",
+          "published": "2025年1月15日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞ひとり親アンケート　生活苦脱する支援を急げ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-3860686.html",
+          "published": "2025/01/15",
+          "paid": false
+        }
+      ]
     }
   ]
 }

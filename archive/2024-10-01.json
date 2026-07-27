@@ -23,6 +23,202 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "石破氏が早期解散表明　論戦を避ける党利党略だ",
+          "link": "https://mainichi.jp/articles/20241001/ddm/005/070/101000c",
+          "published": "2024/10/1 02:00",
+          "paid": false
+        },
+        {
+          "title": "ヒズボラ指導者の殺害　中東戦争を止めなければ",
+          "link": "https://mainichi.jp/articles/20241001/ddm/005/070/100000c",
+          "published": "2024/10/1 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【臨時国会召集】衆院選の争点を明確に（１０月１日）",
+          "link": "https://www.minpo.jp/articles/-/55324",
+          "published": "2024/10/01 09:27",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【レクリエーション】「楽しさ」活用、普及に期待",
+          "link": "https://www.shimotsuke.co.jp/articles/-/974668",
+          "published": "2024/10/1",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "新幹線連結分離　安全運行第一で再発防げ",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/484964",
+          "published": "2024/10/1",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "衆院選日程",
+          "link": "https://www.gifu-np.co.jp/articles/-/447663",
+          "published": "2024年10月1日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　日本周辺の安保情勢　対話外交で緊張緩和を",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/655173",
+          "published": "2024/10/1 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】中ロの主権侵害　冷静に意図を見極めよ",
+          "link": "https://www.topics.or.jp/articles/-/1135010",
+          "published": "2024/10/1 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【レバノン緊迫】停戦へ外交努力を重ねよ",
+          "link": "https://www.kochinews.co.jp/article/detail/791383",
+          "published": "2024.10.01 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］衆院選１０月２７日投票　「党利党略」で筋通らず",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1444403",
+          "published": "2024年10月1日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞石破氏が衆院解散表明　党利党略の権力乱用だ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-3507998.html",
+          "published": "2024/10/01",
+          "paid": false
+        }
+      ]
     }
   ]
 }

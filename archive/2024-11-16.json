@@ -23,6 +23,219 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "トランプ氏再選　「米国第一」と日本　国際協調守り抜く外交を",
+          "link": "https://mainichi.jp/articles/20241116/ddm/005/070/078000c",
+          "published": "2024/11/16 02:03",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］日中首脳は対話継続で安保含む協議探れ",
+          "link": "https://www.nikkei.com/article/DGXZQOCD14B460U4A111C2000000/",
+          "published": "2024年11月16日",
+          "paid": false
+        },
+        {
+          "title": "［社説］企業は就活セクハラ根絶を",
+          "link": "https://www.nikkei.com/article/DGXZQODK1619D0W4A111C2000000/",
+          "published": "2024年11月16日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【ラムサール条約】猪苗代湖保全の弾みに（１１月１６日）",
+          "link": "https://www.minpo.jp/articles/-/54838",
+          "published": "2024/11/16 09:27",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【救急搬送実質有料化】慎重な判断、丁寧な説明を",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1002017",
+          "published": "2024/11/16",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "めぐみさん拉致　政府は救出に全力挙げよ",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/510430",
+          "published": "2024/11/16",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "１０６万円の壁",
+          "link": "https://www.gifu-np.co.jp/articles/-/466803",
+          "published": "2024年11月16日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　ＪＲ西の決算と赤字路線　“不況宣伝”は通じない",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/680794",
+          "published": "2024/11/16 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】酒造り無形遺産へ　伝統の技　次代に伝えたい",
+          "link": "https://www.topics.or.jp/articles/-/1156117",
+          "published": "2024/11/16 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【「年収の壁」協議】財源問題と一体で検討を",
+          "link": "https://www.kochinews.co.jp/article/detail/804557",
+          "published": "2024.11.16 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］軍用機トラブル多発　軍備増強ひずみも拡大",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1472725",
+          "published": "2024年11月16日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞普天間所属機トラブル　原因と再発防止策を示せ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-3652074.html",
+          "published": "2024/11/16",
+          "paid": false
+        }
+      ]
     }
   ]
 }

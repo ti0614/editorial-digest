@@ -23,6 +23,272 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "総裁選と物価高　生活と財政支える政策を",
+          "link": "https://mainichi.jp/articles/20250926/ddm/005/070/112000c",
+          "published": "2025/9/26 02:02",
+          "paid": false
+        },
+        {
+          "title": "オンラインカジノ規制　手を染めさせない契機に",
+          "link": "https://mainichi.jp/articles/20250926/ddm/005/070/110000c",
+          "published": "2025/9/26 02:02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］経済成長への戦略をもっと明確に",
+          "link": "https://www.nikkei.com/article/DGXZQODK254Z10V20C25A9000000/",
+          "published": "2025年9月26日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【ギャンブル依存症】予防、回復に支援を（９月２６日）",
+          "link": "https://www.minpo.jp/articles/-/52628",
+          "published": "2025/09/26 09:11",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【気象防災アドバイザー】経験と知見　住民に還元を",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1198128",
+          "published": "2025/9/26",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "核融合発電　国際連携で課題解決を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1210249.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年9月26日(金)  09:40",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "柏崎原発運転４０年　立地地域の未来どう描く",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/697010",
+          "published": "2025/9/26",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説米政権のＩＣＣ制裁／「法の支配」を守らねば",
+          "link": "https://webun.jp/articles/-/888900",
+          "published": "2025.09.26",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【神事相撲の継承】競技人口を支える土台に",
+          "link": "https://www.hokkoku.co.jp/articles/-/1878255",
+          "published": "9/26",
+          "paid": true
+        },
+        {
+          "title": "社説【改正ギャンブル法】強制遮断の導入へ検討を",
+          "link": "https://www.hokkoku.co.jp/articles/-/1878254",
+          "published": "9/26",
+          "paid": true
+        },
+        {
+          "title": "社説【改正ギャンブル法】強制遮断の導入検討を",
+          "link": "https://www.hokkoku.co.jp/articles/-/1878234",
+          "published": "9/26",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "総裁選・政治とカネ",
+          "link": "https://www.gifu-np.co.jp/articles/-/603705",
+          "published": "2025年9月26日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　総裁選－政治とカネ　裏金解明は頬かむりか",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/865289",
+          "published": "2025/9/26 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】パレスチナ承認　2国家共存が和平の道だ",
+          "link": "https://www.topics.or.jp/articles/-/1310656",
+          "published": "2025/9/26 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【スマホ条例】使い方を見直す契機に",
+          "link": "https://www.kochinews.co.jp/article/detail/911483",
+          "published": "2025.09.26 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］「君が代」調査決議　内心の自由脅かす恐れ",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1678215",
+          "published": "2025年9月26日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞オリオンビール上場　企業成長へ真価問われる",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4649079.html",
+          "published": "2025/09/26",
+          "paid": false
+        }
+      ]
     }
   ]
 }

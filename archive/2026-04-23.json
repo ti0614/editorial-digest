@@ -23,6 +23,282 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "首相の予算編成見直し　放漫加速する懸念拭えぬ",
+          "link": "https://mainichi.jp/articles/20260423/ddm/005/070/096000c",
+          "published": "2026/4/23 02:00",
+          "paid": false
+        },
+        {
+          "title": "2度目の後発地震注意　警戒緩めず備えを着実に",
+          "link": "https://mainichi.jp/articles/20260423/ddm/005/070/094000c",
+          "published": "2026/4/23 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］企業買収の外為法運用に高い透明性を",
+          "link": "https://www.nikkei.com/article/DGXZQODK236020T20C26A4000000/",
+          "published": "4月23日",
+          "paid": false
+        },
+        {
+          "title": "［社説］アップルは成長続けられるか",
+          "link": "https://www.nikkei.com/article/DGXZQODK237HY0T20C26A4000000/",
+          "published": "4月23日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【障害者雇用】働く選択肢を広げて（４月２３日）",
+          "link": "https://www.minpo.jp/articles/-/116265",
+          "published": "2026/04/23 11:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【空き家対策】発生抑制へ意識改革を",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1332540",
+          "published": "4/23  8:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "武器輸出の解禁　平和主義を逸脱しないか",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/819295",
+          "published": "4/23",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説ＮＰＴ再検討会議／核軍縮の道を閉ざすな",
+          "link": "https://webun.jp/articles/-/1008366",
+          "published": "2026.04.23",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【茶碗まつりに若い力】器の用途広げる提案を",
+          "link": "https://www.hokkoku.co.jp/articles/-/2085658",
+          "published": "4/23",
+          "paid": true
+        },
+        {
+          "title": "社説【新幹線の貸付料】地元負担を減らす糸口に",
+          "link": "https://www.hokkoku.co.jp/articles/-/2085657",
+          "published": "4/23",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "再審制度見直し",
+          "link": "https://www.gifu-np.co.jp/articles/-/697819",
+          "published": "2026年4月23日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　再審見直しと検察抗告　抜本的修正に踏み込め",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/991378",
+          "published": "2026/4/23 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】武器輸出解禁　平和主義の理念を守れ",
+          "link": "https://www.topics.or.jp/articles/-/1419919",
+          "published": "2026/4/23 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【武器輸出解禁】平和国家の堅持　見えず",
+          "link": "https://www.kochinews.co.jp/article/detail/994302",
+          "published": "2026.04.23 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "宮崎日日新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.the-miyanichi.co.jp/column/syasetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "殺傷兵器輸出",
+          "link": "https://www.the-miyanichi.co.jp/column/syasetsu/722069.html",
+          "published": "2026.04.23｜社説",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］キンザーでもPFAS　住民の不安に向き合え",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1823124",
+          "published": "2026年4月23日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞高市政権半年　「強さ」追求だけでよいか",
+          "link": "https://ryukyushimpo.jp/editorial/entry-5206207.html",
+          "published": "2026/04/23",
+          "paid": false
+        }
+      ]
     }
   ]
 }

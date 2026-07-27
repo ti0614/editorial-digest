@@ -23,6 +23,272 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "進まぬ強制不妊の補償　あまねく救済が国の責任",
+          "link": "https://mainichi.jp/articles/20260212/ddm/005/070/083000c",
+          "published": "2026/2/12 02:02",
+          "paid": false
+        },
+        {
+          "title": "伸び悩む女性当選者　首相は男女同数へ本腰を",
+          "link": "https://mainichi.jp/articles/20260212/ddm/005/070/084000c",
+          "published": "2026/2/12 02:02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］持続可能なインバウンド観光振興を",
+          "link": "https://www.nikkei.com/article/DGXZQODK124MI0S6A210C2000000/",
+          "published": "2月12日",
+          "paid": false
+        },
+        {
+          "title": "［社説］香港の言論弾圧を見過ごすな",
+          "link": "https://www.nikkei.com/article/DGXZQODK112FM0R10C26A2000000/",
+          "published": "2月12日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【磐城平城公園化】歴史を感じるまちに（２月１２日）",
+          "link": "https://www.minpo.jp/articles/-/49714",
+          "published": "2026/02/12 09:13",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "神奈川県の予算案　次世代が輝ける施策を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1247509.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2026年2月12日(木)  09:30",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "核軍縮条約が失効　米ロは新たな規制策定を",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/778256",
+          "published": "2/12",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説エンゲル係数高水準／食品価格動向注視せよ",
+          "link": "https://webun.jp/articles/-/968671",
+          "published": "2026.02.12",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【ノドグロ完全養殖】富山の拠点生かした快挙",
+          "link": "https://www.hokkoku.co.jp/articles/-/2014509",
+          "published": "2/12",
+          "paid": true
+        },
+        {
+          "title": "社説【奥能登あえのこと】トキとともに農の象徴に",
+          "link": "https://www.hokkoku.co.jp/articles/-/2014508",
+          "published": "2/12",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "野党の立ち位置",
+          "link": "https://www.gifu-np.co.jp/articles/-/666404",
+          "published": "2026年2月12日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　野党の立ち位置　政権監視の責務は不変",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/947943",
+          "published": "2026/2/12 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】新START失効　核軍縮の再構築を急げ",
+          "link": "https://www.topics.or.jp/articles/-/1383267",
+          "published": "2026/2/12 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【生保社員が詐取】企業責任は極めて重い",
+          "link": "https://www.kochinews.co.jp/article/detail/969995",
+          "published": "2026.02.12 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "宮崎日日新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.the-miyanichi.co.jp/column/syasetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "ミラノ五輪",
+          "link": "https://www.the-miyanichi.co.jp/column/syasetsu/559778.html",
+          "published": "2026.02.12｜社説",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］改憲と安保政策転換　負担軽減遠く　募る懸念",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1773227",
+          "published": "2026年2月12日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞沖縄選挙区野党ゼロ　沖縄巡る論議　衰退を憂う",
+          "link": "https://ryukyushimpo.jp/editorial/entry-5029705.html",
+          "published": "2026/02/12",
+          "paid": false
+        }
+      ]
     }
   ]
 }

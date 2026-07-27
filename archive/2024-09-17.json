@@ -17,6 +17,151 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "ドイツ急進右派の伸長　広がる排外主義を憂える",
+          "link": "https://mainichi.jp/articles/20240917/ddm/005/070/084000c",
+          "published": "2024/9/17 02:01",
+          "paid": false
+        },
+        {
+          "title": "公害の補償法50年　救済終わらぬ現実直視を",
+          "link": "https://mainichi.jp/articles/20240917/ddm/005/070/082000c",
+          "published": "2024/9/17 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【動物愛護】パートナー意識深めて（９月１７日）",
+          "link": "https://www.minpo.jp/articles/-/55436",
+          "published": "2024/09/17 09:21",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "本県ライドシェア　住民の新たな移動手段に",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/476782",
+          "published": "2024/9/17",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "ＤＮＡ型抹消命令",
+          "link": "https://www.gifu-np.co.jp/articles/-/441681",
+          "published": "2024年9月17日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　ＤＮＡ型抹消命令　憲法に沿う法整備急げ",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/647028",
+          "published": "2024/9/17 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】障害者の就労支援　最賃上昇のしわ寄せ防げ",
+          "link": "https://www.topics.or.jp/articles/-/1128540",
+          "published": "2024/9/17 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【日韓関係】後戻りせぬ努力を双方で",
+          "link": "https://www.kochinews.co.jp/article/detail/787452",
+          "published": "2024.09.17 05:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

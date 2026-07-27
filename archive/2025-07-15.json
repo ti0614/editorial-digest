@@ -17,6 +17,249 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "参院選2025　電力供給と脱炭素　難題から逃げてはならぬ",
+          "link": "https://mainichi.jp/articles/20250715/ddm/005/070/133000c",
+          "published": "2025/7/15 02:01",
+          "paid": false
+        },
+        {
+          "title": "遭難救助の有料化検討　無謀な登山防ぐ議論から",
+          "link": "https://mainichi.jp/articles/20250715/ddm/005/070/130000c",
+          "published": "2025/7/15 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］米はロシアを停戦に追い込む圧力結集を",
+          "link": "https://www.nikkei.com/article/DGXZQODK150M20V10C25A7000000/",
+          "published": "2025年7月15日",
+          "paid": false
+        },
+        {
+          "title": "［社説］AIで経済を伸ばす戦略示せ",
+          "link": "https://www.nikkei.com/article/DGXZQODK156270V10C25A7000000/",
+          "published": "2025年7月15日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【２０２５参院選　政治改革】献金の方向性示せ（７月１５日）",
+          "link": "https://www.minpo.jp/articles/-/53581",
+          "published": "2025/07/15 09:17",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【スマート農業】情報提供、相談体制強化を",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1151265",
+          "published": "2025/7/15",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "トランプ氏発言　原爆正当化に抗議せよ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1189907.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年7月15日(火)  09:20",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "外国人政策　排外主義の広がり憂える",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/650066",
+          "published": "2025/7/15",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説時給１１００円超の時代／「賃上げ難倒産」対策を",
+          "link": "https://webun.jp/articles/-/843123",
+          "published": "2025.07.15",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "参院選・コメ政策",
+          "link": "https://www.gifu-np.co.jp/articles/-/569528",
+          "published": "2025年7月15日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　コメと農政　増産と所得安定両立を",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/819875",
+          "published": "2025/7/15 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】25参院選　外国人政策　排外主義の広がりを憂う",
+          "link": "https://www.topics.or.jp/articles/-/1271897",
+          "published": "2025/7/15 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【２０２５参院選　社会保障】将来像を具体的に示せ",
+          "link": "https://www.kochinews.co.jp/article/detail/887152",
+          "published": "2025.07.15 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］［沖縄戦80年］戦争孤児　心の傷は今も癒えない",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1627319",
+          "published": "2025年7月15日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞２０２５参院選　消費税と社会保障　将来選択できる道筋示せ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4443679.html",
+          "published": "2025/07/15",
+          "paid": false
+        }
+      ]
     }
   ]
 }

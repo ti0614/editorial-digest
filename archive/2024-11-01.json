@@ -17,6 +17,225 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "自民が国民民主と協議　政治改革より数合わせか",
+          "link": "https://mainichi.jp/articles/20241101/ddm/005/070/092000c",
+          "published": "2024/11/1 02:02",
+          "paid": false
+        },
+        {
+          "title": "北朝鮮がICBM発射　日米韓は結束の再確認を",
+          "link": "https://mainichi.jp/articles/20241101/ddm/005/070/091000c",
+          "published": "2024/11/1 02:02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］日銀は内外のリスク踏まえ的確な判断を",
+          "link": "https://www.nikkei.com/article/DGXZQODK0144H0R01C24A1000000/",
+          "published": "2024年11月1日",
+          "paid": false
+        },
+        {
+          "title": "［社説］「闇バイト」犯罪の根を絶て",
+          "link": "https://www.nikkei.com/article/DGXZQODK013TJ0R01C24A1000000/",
+          "published": "2024年11月1日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【郡山市誕生１００年】未来へ何を託すか（１１月１日）",
+          "link": "https://www.minpo.jp/articles/-/54906",
+          "published": "2024/11/01 09:30",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【Ｂプレミア参入】まちづくりのけん引役に",
+          "link": "https://www.shimotsuke.co.jp/articles/-/993143",
+          "published": "2024/11/1",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "北朝鮮の派兵　容認できぬ侵略への加担",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/502059",
+          "published": "2024/11/1",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "闇バイト強盗",
+          "link": "https://www.gifu-np.co.jp/articles/-/460579",
+          "published": "2024年11月1日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　自民・国民協議　政治改革は置き去りか",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/672493",
+          "published": "2024/11/1 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】温室ガス国連報告　一段の対策強化が必要だ",
+          "link": "https://www.topics.or.jp/articles/-/1149458",
+          "published": "2024/11/1 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【同性婚訴訟】権利擁護の法整備を急げ",
+          "link": "https://www.kochinews.co.jp/article/detail/800402",
+          "published": "2024.11.01 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］同性婚否定　再び「違憲」　国会の怠慢への警告だ",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1463425",
+          "published": "2024年11月1日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞首里城火災から5年　県民挙げて再建支えよう",
+          "link": "https://ryukyushimpo.jp/editorial/entry-3606954.html",
+          "published": "2024/11/01",
+          "paid": false
+        }
+      ]
     }
   ]
 }

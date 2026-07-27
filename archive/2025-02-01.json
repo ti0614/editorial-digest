@@ -23,6 +23,208 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "続く物価高と春闘　中小の賃上げが不可欠だ",
+          "link": "https://mainichi.jp/articles/20250201/ddm/005/070/071000c",
+          "published": "2025/2/1 02:01",
+          "paid": false
+        },
+        {
+          "title": "仮装身分捜査の導入　乱用防ぐ仕組みを確実に",
+          "link": "https://mainichi.jp/articles/20250201/ddm/005/070/070000c",
+          "published": "2025/2/1 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］インフラ老朽化を直視し総合対策を探れ",
+          "link": "https://www.nikkei.com/article/DGXZQODK319NF0R30C25A1000000/",
+          "published": "2025年2月1日",
+          "paid": false
+        },
+        {
+          "title": "［社説］ガザ人道支援の停滞を許すな",
+          "link": "https://www.nikkei.com/article/DGXZQODK314MX0R30C25A1000000/",
+          "published": "2025年2月1日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【飲酒運転撲滅】重罪適用へ法整備を（２月１日）",
+          "link": "https://www.minpo.jp/articles/-/54547",
+          "published": "2025/02/01 09:38",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【介護事業者倒産】実態把握し対策に生かせ",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1048482",
+          "published": "2025/2/1",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "埼玉道路陥没　老朽インフラ対策強化を",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/549037",
+          "published": "2025/2/1",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "森友文書で判決",
+          "link": "https://www.gifu-np.co.jp/articles/-/497044",
+          "published": "2025年2月1日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　森友文書不開示は違法　迅速かつ誠実に対応を",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/722390",
+          "published": "2025/2/1 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【森友文書訴訟】開示して真相の解明を",
+          "link": "https://www.kochinews.co.jp/article/detail/826057",
+          "published": "2025.02.01 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］森友「不開示」取り消し　真相解明の足がかりに",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1518314",
+          "published": "2025年2月1日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞小中高生の自殺　孤立しないよう目配りを",
+          "link": "https://ryukyushimpo.jp/editorial/entry-3919621.html",
+          "published": "2025/02/01",
+          "paid": false
+        }
+      ]
     }
   ]
 }

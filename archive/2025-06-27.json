@@ -23,6 +23,249 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "NATOの防衛費5％　問われる米欧同盟の未来",
+          "link": "https://mainichi.jp/articles/20250627/ddm/005/070/097000c",
+          "published": "2025/6/27 02:01",
+          "paid": false
+        },
+        {
+          "title": "トランプ氏の原爆発言　惨禍に思いはせぬ不見識",
+          "link": "https://mainichi.jp/articles/20250627/ddm/005/070/099000c",
+          "published": "2025/6/27 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］株主総会の声生かし企業は価値高めよ",
+          "link": "https://www.nikkei.com/article/DGXZQODK279X10X20C25A6000000/",
+          "published": "2025年6月27日",
+          "paid": false
+        },
+        {
+          "title": "［社説］公正で透明な生活保護制度に",
+          "link": "https://www.nikkei.com/article/DGXZQODK277XW0X20C25A6000000/",
+          "published": "2025年6月27日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【富岡町復興計画】歩みの精査から始めて（６月２７日）",
+          "link": "https://www.minpo.jp/articles/-/53758",
+          "published": "2025/06/27 09:07",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【田んぼダム】水田の貯水機能強化図れ",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1139763",
+          "published": "2025/6/27",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "神大キャンパス跡地　関係者協調して推進を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1184727.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年6月27日(金)  09:30",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "現金給付案　ばらまき批判回避できぬ",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/635604",
+          "published": "2025/6/27",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説小泉農相のコメ改革／持続可能な農政目指せ",
+          "link": "https://webun.jp/articles/-/830731",
+          "published": "2025.06.27",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "通常国会総括",
+          "link": "https://www.gifu-np.co.jp/articles/-/559423",
+          "published": "2025年6月27日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　通常国会総括　何が熟議を阻んだのか",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/807692",
+          "published": "2025/6/27 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】新会長に女流棋士　将棋界活性化へ「妙手」を",
+          "link": "https://www.topics.or.jp/articles/-/1262612",
+          "published": "2025/6/27 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【ＮＡＴＯ防衛費】軍拡競争に陥るな",
+          "link": "https://www.kochinews.co.jp/article/detail/878781",
+          "published": "2025.06.27 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］訪問介護危機　財政支援で人材確保を",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1613562",
+          "published": "2025年6月27日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞イスラエル・イラン停戦　「米の正義」主導は疑問だ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4380379.html",
+          "published": "2025/06/27",
+          "paid": false
+        }
+      ]
     }
   ]
 }

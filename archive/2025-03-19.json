@@ -17,6 +17,232 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "イスラエルがガザ空爆　「停戦」に背を向ける非道",
+          "link": "https://mainichi.jp/articles/20250319/ddm/005/070/081000c",
+          "published": "2025/3/19 02:03",
+          "paid": false
+        },
+        {
+          "title": "年金改革と自民党　不安解消へ責任果たす時",
+          "link": "https://mainichi.jp/articles/20250319/ddm/005/070/079000c",
+          "published": "2025/3/19 02:03",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］日銀は米関税と物価の入念な見極めを",
+          "link": "https://www.nikkei.com/article/DGXZQODK1928Z0Z10C25A3000000/",
+          "published": "2025年3月19日",
+          "paid": false
+        },
+        {
+          "title": "［社説］言論封じる暴力を許すな",
+          "link": "https://www.nikkei.com/article/DGXZQODK193EA0Z10C25A3000000/",
+          "published": "2025年3月19日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【就職氷河期世代】年金改革、論議急げ（３月１９日）",
+          "link": "https://www.minpo.jp/articles/-/54320",
+          "published": "2025/03/19 09:25",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【未受診妊婦】啓発、支援の充実を図れ",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1076013",
+          "published": "2025/3/19",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "障害者差別解消法　「社会モデル」で考える",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1156867.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年3月19日(水)  09:55",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "第四北越と群馬銀　地域のための統合検討を",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/576262",
+          "published": "2025/3/19",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "立花氏襲撃",
+          "link": "https://www.gifu-np.co.jp/articles/-/515737",
+          "published": "2025年3月19日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　トランプ氏と日米安保　同盟の信頼損ねる発言",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/748111",
+          "published": "2025/3/19 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】石川一雄さん死去　86年の人生は問いかける",
+          "link": "https://www.topics.or.jp/articles/-/1211551",
+          "published": "2025/3/19 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【ガザ攻撃再開】停戦交渉を閉ざすな",
+          "link": "https://www.kochinews.co.jp/article/detail/841746",
+          "published": "2025.03.19 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］イスラエル攻撃再開　殺りくを直ちにやめよ",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1546900",
+          "published": "2025年3月19日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞ガザ大規模空爆　停戦交渉直ちに再開せよ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4066032.html",
+          "published": "2025/03/19",
+          "paid": false
+        }
+      ]
     }
   ]
 }

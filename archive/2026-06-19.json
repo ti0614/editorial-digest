@@ -63,6 +63,289 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "食品消費税1％案　問題だらけに変わりない",
+          "link": "https://mainichi.jp/articles/20260619/ddm/005/070/108000c",
+          "published": "2026/6/19 02:00",
+          "paid": false
+        },
+        {
+          "title": "米イランが覚書に署名　破綻した「力による平和」",
+          "link": "https://mainichi.jp/articles/20260619/ddm/005/070/106000c",
+          "published": "2026/6/19 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］FRB新議長は市場との対話磨く改革を",
+          "link": "https://www.nikkei.com/article/DGXZQODK198L30Z10C26A6000000/",
+          "published": "6月19日",
+          "paid": false
+        },
+        {
+          "title": "［社説］首都直下地震の減災を着実に",
+          "link": "https://www.nikkei.com/article/DGXZQODK176OB0X10C26A6000000/",
+          "published": "6月19日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【喜多方けもの新聞】被害防ぐ後押し（６月１９日）",
+          "link": "https://www.minpo.jp/articles/-/160339",
+          "published": "2026/06/19 11:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【マンション管理不全】予防的対応が不可欠だ",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1368570",
+          "published": "6/19  8:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "止まらぬ少子化　社会の大変革が急務だ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1281770.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2026年6月19日(金)  09:30",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "Ｇ７サミット　結束を瀬戸際で維持した",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/851807",
+          "published": "6/19",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説皇族数確保策で「総意」／国民の理解得られるか",
+          "link": "https://webun.jp/articles/-/1040353",
+          "published": "2026.06.19",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【米イランが覚書】ホルムズ通航料など論外",
+          "link": "https://www.hokkoku.co.jp/articles/-/2143850",
+          "published": "6/19",
+          "paid": true
+        },
+        {
+          "title": "社説【感震ブレーカー】「朝市」火災踏まえ普及を",
+          "link": "https://www.hokkoku.co.jp/articles/-/2143849",
+          "published": "6/19",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "Ｇ７外交",
+          "link": "https://www.gifu-np.co.jp/articles/-/726519",
+          "published": "2026年6月19日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　高市Ｇ７外交　航行の自由へ結束せよ",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/1025506",
+          "published": "2026/6/19 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】水道料金値上げ　業務の効率化も進めねば",
+          "link": "https://www.topics.or.jp/articles/-/1449346",
+          "published": "2026/6/19 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【Ｇ７サミット】結束して存在感を高めよ",
+          "link": "https://www.kochinews.co.jp/article/detail/1016806",
+          "published": "2026.06.19 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "宮崎日日新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.the-miyanichi.co.jp/column/syasetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "政治改革議論",
+          "link": "https://www.the-miyanichi.co.jp/column/syasetsu/850850.html",
+          "published": "2026.06.19｜社説",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］消費税1％案　財源議論なき「奇策」だ",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1862180",
+          "published": "2026年6月19日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞知床沈没　社長に実刑　安全確保へ不断の対策を",
+          "link": "https://ryukyushimpo.jp/editorial/entry-5321006.html",
+          "published": "2026/06/19",
+          "paid": false
+        }
+      ]
     }
   ]
 }

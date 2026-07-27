@@ -17,6 +17,185 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "戦後80年　人口減少下の雇用　働き手の力生かす社会に",
+          "link": "https://mainichi.jp/articles/20250113/ddm/005/070/009000c",
+          "published": "2025/1/13 02:02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］市販薬の乱用防止対策はピント外れだ",
+          "link": "https://www.nikkei.com/article/DGXZQOCD09AL80Z00C25A1000000/",
+          "published": "2025年1月13日",
+          "paid": false
+        },
+        {
+          "title": "［社説］「日本の酒」への追い風生かせ",
+          "link": "https://www.nikkei.com/article/DGXZQODK274FY0X21C24A2000000/",
+          "published": "2025年1月13日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【教員の働き方改革】さらなる推進必要（１月１３日）",
+          "link": "https://www.minpo.jp/articles/-/54614",
+          "published": "2025/01/13 10:04",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "被団協と首相面会　「核なき世界」へ動く時だ",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/538632",
+          "published": "2025/1/13",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "公益通報制度",
+          "link": "https://www.gifu-np.co.jp/articles/-/489012",
+          "published": "2025年1月13日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　大阪・関西万博まで３カ月　集客へ近県との連携を",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/711493",
+          "published": "2025/1/13 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【米国の関税強化】対立激化の懸念強まる",
+          "link": "https://www.kochinews.co.jp/article/detail/820622",
+          "published": "2025.01.13 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］選択的夫婦別姓　通常国会で成立目指せ",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1506168",
+          "published": "2025年1月13日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞きょう成人の日　自ら道を切り開く挑戦を",
+          "link": "https://ryukyushimpo.jp/editorial/entry-3854595.html",
+          "published": "2025/01/13",
+          "paid": false
+        }
+      ]
     }
   ]
 }

@@ -17,6 +17,272 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "高市総裁の新布陣　「古い自民党」に逆戻りだ",
+          "link": "https://mainichi.jp/articles/20251008/ddm/005/070/087000c",
+          "published": "2025/10/8 02:01",
+          "paid": false
+        },
+        {
+          "title": "坂口氏にノーベル賞　信念貫き免疫の謎解いた",
+          "link": "https://mainichi.jp/articles/20251008/ddm/005/070/085000c",
+          "published": "2025/10/8 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］日本の化学力示す北川氏のノーベル賞",
+          "link": "https://www.nikkei.com/article/DGXZQODK087M50Y5A001C2000000/",
+          "published": "2025年10月8日",
+          "paid": false
+        },
+        {
+          "title": "［社説］DNA鑑定の信頼が揺らいだ",
+          "link": "https://www.nikkei.com/article/DGXZQODK082OA0Y5A001C2000000/",
+          "published": "2025年10月8日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【クマ出没】季節問わず対策強化を（１０月８日）",
+          "link": "https://www.minpo.jp/articles/-/52275",
+          "published": "2025/10/08 09:16",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【総裁選敗退の茂木氏】選挙の訴え実行に責任を",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1206015",
+          "published": "2025/10/8",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "衛星「いぶきＧＷ」　多領域にデータ活用を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1213623.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年10月8日(水)  10:20",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "ガザ戦闘２年　停戦実現へ歩み寄らねば",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/704607",
+          "published": "2025/10/8",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説坂口氏 ノーベル賞／「頑固に基礎研究」実る",
+          "link": "https://webun.jp/articles/-/897376",
+          "published": "2025.10.08",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【最先端の災害復旧】安全高める知見の共有を",
+          "link": "https://www.hokkoku.co.jp/articles/-/1890847",
+          "published": "10/8",
+          "paid": true
+        },
+        {
+          "title": "社説【坂口氏にノーベル賞】免疫疾患の治療の進展に道",
+          "link": "https://www.hokkoku.co.jp/articles/-/1890846",
+          "published": "10/8",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "ガザ戦闘２年",
+          "link": "https://www.gifu-np.co.jp/articles/-/609142",
+          "published": "2025年10月8日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　旧態依然で出直せるか　高市執行部始動",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/872763",
+          "published": "2025/10/8 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】坂口氏ノーベル賞　信念の研究　若手の励みに",
+          "link": "https://www.topics.or.jp/articles/-/1317181",
+          "published": "2025/10/8 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【国勢調査】時代に合った手法探れ",
+          "link": "https://www.kochinews.co.jp/article/detail/915694",
+          "published": "2025.10.08 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］坂口氏にノーベル賞　基礎研究の重み示した",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1686736",
+          "published": "2025年10月8日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞強制不妊の国会検証　全体像解明し差別なくせ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4677819.html",
+          "published": "2025/10/08",
+          "paid": false
+        }
+      ]
     }
   ]
 }

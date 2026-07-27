@@ -26,7 +26,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "ガザの子ども被害　未来までをも奪う蛮行だ",
+          "link": "https://mainichi.jp/articles/20260629/ddm/005/070/120000c",
+          "published": "2026/6/29 02:01",
+          "paid": false
+        },
+        {
+          "title": "個別トレーニング指導　無理させぬ仕組みが必要",
+          "link": "https://mainichi.jp/articles/20260629/ddm/005/070/119000c",
+          "published": "2026/6/29 02:01",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "読売新聞",
@@ -46,7 +59,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "［社説］AI検索と著作権の両立はまだ入り口だ",
+          "link": "https://www.nikkei.com/article/DGXZQODK292Y30Z20C26A6000000/",
+          "published": "6月29日",
+          "paid": false
+        },
+        {
+          "title": "［社説］大地震のベネズエラ支援急げ",
+          "link": "https://www.nikkei.com/article/DGXZQODK2941D0Z20C26A6000000/",
+          "published": "6月29日",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "産経新聞",
@@ -190,7 +216,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "【早乙女貢文化賞】次代の歴史作家生んで（６月２９日）",
+          "link": "https://www.minpo.jp/articles/-/168344",
+          "published": "2026/06/29 11:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "岩手日報",
@@ -217,7 +250,7 @@
       "category": "社説",
       "tier": "regional",
       "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
-      "error": null,
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
       "items": [
@@ -264,7 +297,7 @@
       "category": "論説",
       "tier": "regional",
       "index_url": "https://www.chibanippo.co.jp/serial",
-      "error": null,
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
       "items": [
@@ -284,7 +317,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "「副首都」法案　本来の目的を議論せねば",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/857918",
+          "published": "6/29",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "北日本新聞",
@@ -294,7 +334,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "社説ＬＧＢＴ基本計画／困難の解消につなげよ",
+          "link": "https://webun.jp/articles/-/1046519",
+          "published": "2026.06.29",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "北國新聞",
@@ -304,7 +351,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "社説【インフラ維持管理】民間委託で担い手確保を",
+          "link": "https://www.hokkoku.co.jp/articles/-/2153702",
+          "published": "6/29",
+          "paid": true
+        },
+        {
+          "title": "社説【公務員ハンター】北陸でも育成に努めたい",
+          "link": "https://www.hokkoku.co.jp/articles/-/2153701",
+          "published": "6/29",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "福井新聞",
@@ -314,7 +374,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "県立美術館と歴博改修　共通課題で連携も視野に",
+          "link": "https://www.fukuishimbun.co.jp/articles/-/2638165",
+          "published": "（2026年6月29日 午前7時30分）",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "山梨日日新聞",
@@ -354,7 +421,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "パレスチナ危機",
+          "link": "https://www.gifu-np.co.jp/articles/-/731311",
+          "published": "2026年6月29日 05:00岐阜",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "奈良新聞",
@@ -394,7 +468,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "論説　続くパレスチナ危機　子どもの命と未来守れ",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/1031780",
+          "published": "2026/6/29 04:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "徳島新聞",
@@ -424,7 +505,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "【ＬＧＢＴ計画】当事者の思いに応えよ",
+          "link": "https://www.kochinews.co.jp/article/detail/1019955",
+          "published": "2026.06.29 05:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "日本海新聞",
@@ -501,7 +589,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "［社説］女性市長の産休　取得　当たり前の社会に",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1869151",
+          "published": "2026年6月29日",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "琉球新報",
@@ -511,7 +606,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "＜社説＞最低賃金1500円先送り　賃上げの流れ止めるな",
+          "link": "https://ryukyushimpo.jp/editorial/entry-5346818.html",
+          "published": "2026/06/29",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "佐賀新聞",

@@ -23,6 +23,272 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "けん引役不在のCOP　大国が責任を果たさねば",
+          "link": "https://mainichi.jp/articles/20251126/ddm/005/070/095000c",
+          "published": "2025/11/26 02:01",
+          "paid": false
+        },
+        {
+          "title": "大分の大火1週間　密集地のリスクを示した",
+          "link": "https://mainichi.jp/articles/20251126/ddm/005/070/043000c",
+          "published": "2025/11/26 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］党首討論は責任ある政策をもっと競え",
+          "link": "https://www.nikkei.com/article/DGXZQODK263450W5A121C2000000/",
+          "published": "2025年11月26日",
+          "paid": false
+        },
+        {
+          "title": "［社説］AI規制見直す欧州に注視を",
+          "link": "https://www.nikkei.com/article/DGXZQODK265X50W5A121C2000000/",
+          "published": "2025年11月26日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【久米正雄の映像群】作家の素顔知る機会に（１１月２６日）",
+          "link": "https://www.minpo.jp/articles/-/51219",
+          "published": "2025/11/26 09:20",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【困窮者自立制度１０年】伴走支援、粘り強く実現を",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1237060",
+          "published": "2025/11/26",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "残業規制緩和　働き方改革を後退させるのか",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1226985.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年11月26日(水)  10:10",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "ＣＯＰ３０閉幕　温暖化対策で協調を再び",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/734899",
+          "published": "2025/11/26",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説防災気象情報見直し／有効に活用されてこそ",
+          "link": "https://webun.jp/articles/-/926510",
+          "published": "2025.11.26",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【世界遺産サミット】合掌集落守る体制強固に",
+          "link": "https://www.hokkoku.co.jp/articles/-/1940305",
+          "published": "11/26",
+          "paid": true
+        },
+        {
+          "title": "社説【議員定数の削減】地方議会も例外ではない",
+          "link": "https://www.hokkoku.co.jp/articles/-/1940304",
+          "published": "11/26",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "生活保護一部補償",
+          "link": "https://www.gifu-np.co.jp/articles/-/631632",
+          "published": "2025年11月26日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】東電の原発再稼働　安全への疑念は拭えない",
+          "link": "https://www.topics.or.jp/articles/-/1343896",
+          "published": "2025/11/26 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【Ｇ２０サミット】米不在で強まる機能不全",
+          "link": "https://www.kochinews.co.jp/article/detail/933051",
+          "published": "2025.11.26 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "宮崎日日新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.the-miyanichi.co.jp/column/syasetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "政府の経済対策",
+          "link": "https://www.the-miyanichi.co.jp/column/syasetsu/392891.html",
+          "published": "2025.11.26｜社説",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］日中の応酬過熱　地域の安全脅かす懸念",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1721291",
+          "published": "2025年11月26日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞安保文書の改定議論　米国への迎合をやめよ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4806991.html",
+          "published": "2025/11/26",
+          "paid": false
+        }
+      ]
     }
   ]
 }

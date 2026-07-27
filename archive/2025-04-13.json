@@ -23,6 +23,192 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "戦後80年　ホロコーストの教訓　排外主義の再来を危ぶむ",
+          "link": "https://mainichi.jp/articles/20250413/ddm/005/070/077000c",
+          "published": "2025/4/13 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］逆風下でも家計の資産形成は長い目で",
+          "link": "https://www.nikkei.com/article/DGXZQODK106F80Q5A410C2000000/",
+          "published": "2025年4月13日",
+          "paid": false
+        },
+        {
+          "title": "［社説］女性起業家への壁を取り払え",
+          "link": "https://www.nikkei.com/article/DGXZQODK10DDJ0Q5A410C2000000/",
+          "published": "2025年4月13日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "少子化対策　社会構造の改革が急務",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1163801.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年4月13日(日)  09:32",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "大阪・関西万博開幕　混乱起きないよう万全に",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/590473",
+          "published": "2025/4/13",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "万博開幕",
+          "link": "https://www.gifu-np.co.jp/articles/-/526537",
+          "published": "2025年4月13日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　大阪・関西万博きょう開幕　観光客誘致の起爆剤に",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/763146",
+          "published": "2025/4/13 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】企業倒産の増加　きめ細かな中小支援策を",
+          "link": "https://www.topics.or.jp/articles/-/1224271",
+          "published": "2025/4/13 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【企業・団体献金】温存で不信拭えるか",
+          "link": "https://www.kochinews.co.jp/article/detail/851133",
+          "published": "2025.04.13 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］普天間で防衛相発言　県に責任転嫁するのか",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1563599",
+          "published": "2025年4月13日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞サイバー法案衆院通過　恣意的な運用に歯止めを",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4148410.html",
+          "published": "2025/04/13",
+          "paid": false
+        }
+      ]
     }
   ]
 }

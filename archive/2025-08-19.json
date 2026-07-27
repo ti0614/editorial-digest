@@ -23,6 +23,249 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "政府がコメ増産へ　基盤立て直す戦略が急務",
+          "link": "https://mainichi.jp/articles/20250819/ddm/005/070/079000c",
+          "published": "2025/8/19 02:01",
+          "paid": false
+        },
+        {
+          "title": "来年度予算の要求基準　歯止めなき膨張を危ぶむ",
+          "link": "https://mainichi.jp/articles/20250819/ddm/005/070/077000c",
+          "published": "2025/8/19 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］ウクライナに揺るぎなき安全の保証を",
+          "link": "https://www.nikkei.com/article/DGXZQODK183Z40Y5A810C2000000/",
+          "published": "2025年8月19日",
+          "paid": false
+        },
+        {
+          "title": "［社説］プラ条約実現へ妥協点を探れ",
+          "link": "https://www.nikkei.com/article/DGXZQODK190VH0Z10C25A8000000/",
+          "published": "2025年8月19日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【水源保全条例】いかに実効性保つのか（８月１９日）",
+          "link": "https://www.minpo.jp/articles/-/53310",
+          "published": "2025/08/19 09:13",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【カスハラ防止】事例収集し判断基準示せ",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1173439",
+          "published": "2025/8/19",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "水辺の事故　危険を知り備え万全に",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1199841.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年8月19日(火)  09:40",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "プラ条約合意断念　危機感強くし協議継続を",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/672178",
+          "published": "2025/8/19",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説人口減少加速／共生社会実現へ歩みを",
+          "link": "https://webun.jp/articles/-/864729",
+          "published": "2025.08.19",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "クマ対策",
+          "link": "https://www.gifu-np.co.jp/articles/-/584722",
+          "published": "2025年8月19日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　財政規律の緩みが心配　概算要求基準",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/841651",
+          "published": "2025/8/19 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】大川原冤罪検証　第三者の視点で再調査を",
+          "link": "https://www.topics.or.jp/articles/-/1290501",
+          "published": "2025/8/19 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【避難所の環境】量と質の両面から整備を",
+          "link": "https://www.kochinews.co.jp/article/detail/898808",
+          "published": "2025.08.19 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］広がる「笑気麻酔」　若者への啓発　強化せよ",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1651548",
+          "published": "2025年8月19日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞ゼレンスキー氏訪米　まず殺戮と破壊を止めよ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4549374.html",
+          "published": "2025/08/19",
+          "paid": false
+        }
+      ]
     }
   ]
 }

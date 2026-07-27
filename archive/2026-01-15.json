@@ -23,6 +23,272 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "ドンロー主義と日韓　関係深化へ対話続けたい",
+          "link": "https://mainichi.jp/articles/20260115/ddm/005/070/093000c",
+          "published": "2026/1/15 02:01",
+          "paid": false
+        },
+        {
+          "title": "山林火災の警報開始　周知徹底しリスク低減を",
+          "link": "https://mainichi.jp/articles/20260115/ddm/005/070/092000c",
+          "published": "2026/1/15 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］立民・公明の「中道新党」は政策と刷新感が試される",
+          "link": "https://www.nikkei.com/article/DGXZQODK1580I0V10C26A1000000/",
+          "published": "1月15日",
+          "paid": false
+        },
+        {
+          "title": "［社説］FRBに連帯できぬ日銀の謎",
+          "link": "https://www.nikkei.com/article/DGXZQODK156UK0V10C26A1000000/",
+          "published": "1月15日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【健康づくり】西会津の成果注目（１月１５日）",
+          "link": "https://www.minpo.jp/articles/-/50276",
+          "published": "2026/01/15 09:21",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【若者応援バンク】協力企業の掘り起こしを",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1266606",
+          "published": "1/15  8:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "漁業資源　「大蛇行」教訓に生かせ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1239680.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2026年1月15日(木)  09:40",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "イランデモ弾圧　銃よりも国民との対話を",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/762091",
+          "published": "1/15",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説米の気候条約離脱／国際協調への影響懸念",
+          "link": "https://webun.jp/articles/-/953330",
+          "published": "2026.01.15",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【博士号教員の活用】探究型学習の向上に期待",
+          "link": "https://www.hokkoku.co.jp/articles/-/1987034",
+          "published": "1/15",
+          "paid": true
+        },
+        {
+          "title": "社説【レアアース対策】「脱中国」へ国際ルールを",
+          "link": "https://www.hokkoku.co.jp/articles/-/1987033",
+          "published": "1/15",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　日韓首脳会談　地域安定へ責任共有を",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/931245",
+          "published": "2026/1/15 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】維新の国保逃れ　「身を切る改革」が泣く",
+          "link": "https://www.topics.or.jp/articles/-/1369347",
+          "published": "2026/1/15 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【日韓首脳会談】意思疎通をより緊密に",
+          "link": "https://www.kochinews.co.jp/article/detail/950405",
+          "published": "2026.01.15 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "宮崎日日新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.the-miyanichi.co.jp/column/syasetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "県内文化展望",
+          "link": "https://www.the-miyanichi.co.jp/column/syasetsu/494477.html",
+          "published": "2026.01.15｜社説",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］ガザ停戦発効3カ月　続く攻撃から住民守れ",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1754126",
+          "published": "2026年1月15日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞維新国保逃れ　「身を切る改革」資格なし",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4958302.html",
+          "published": "2026/01/15",
+          "paid": false
+        }
+      ]
     }
   ]
 }

@@ -17,6 +17,202 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "自公が衆院過半数割れ　「政治とカネ」に重い審判",
+          "link": "https://mainichi.jp/articles/20241028/ddm/012/070/138000c",
+          "published": "2024/10/28 06:18",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］国政の停滞回避へ各党は責任ある行動を",
+          "link": "https://www.nikkei.com/article/DGXZQODK285PL0Y4A021C2000000/",
+          "published": "2024年10月28日",
+          "paid": false
+        },
+        {
+          "title": "［社説］自民不信を突きつけた厳しい審判",
+          "link": "https://www.nikkei.com/article/DGXZQODK271700X21C24A0000000/",
+          "published": "2024年10月28日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【２０２４衆院選　与党過半数割れ】民意にどう向き合うか（１０月２８日）",
+          "link": "https://www.minpo.jp/articles/-/54927",
+          "published": "2024/10/28 08:20",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "自公過半数割れ　政権への不信任明らかだ",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/499523",
+          "published": "2024/10/28",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "与党過半数割れ　論説委員　松尾法尋",
+          "link": "https://www.gifu-np.co.jp/articles/-/458624",
+          "published": "2024年10月28日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　衆院選を終えて　地方再生に目を向けて",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/669933",
+          "published": "2024/10/28 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】2024衆院選、自公が過半数割れ　国民を見くびった結果だ",
+          "link": "https://www.topics.or.jp/articles/-/1147244",
+          "published": "2024/10/28 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【衆院選高知】地域再生へ重責果たせ",
+          "link": "https://www.kochinews.co.jp/article/detail/799173",
+          "published": "2024.10.28 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］［２０２４　衆院選］沖縄選挙区２勝２敗　基地・経済ともに解決を",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1460398",
+          "published": "2024年10月28日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞自公過半数割れ　与党に厳しい審判下した",
+          "link": "https://ryukyushimpo.jp/editorial/entry-3591673.html",
+          "published": "2024/10/28",
+          "paid": false
+        }
+      ]
     }
   ]
 }

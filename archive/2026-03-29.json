@@ -17,6 +17,244 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "歯止め掛からぬ少子化　若者の共感得る対策こそ",
+          "link": "https://mainichi.jp/articles/20260329/ddm/005/070/074000c",
+          "published": "2026/3/29 02:01",
+          "paid": false
+        },
+        {
+          "title": "抗がん剤投与後の死亡　原因解明し安全の徹底を",
+          "link": "https://mainichi.jp/articles/20260329/ddm/005/070/073000c",
+          "published": "2026/3/29 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］脱炭素と経済成長を促す排出量取引に",
+          "link": "https://www.nikkei.com/article/DGXZQODK262JZ0W6A320C2000000/",
+          "published": "3月29日",
+          "paid": false
+        },
+        {
+          "title": "［社説］地銀は再編で地域守る覚悟を",
+          "link": "https://www.nikkei.com/article/DGXZQODK279JL0X20C26A3000000/",
+          "published": "3月29日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "緊急事態条項　歴史を教訓に謙虚さを",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1260127.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2026年3月29日(日)  09:40",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "暫定予算案　国会審議軽視は許されぬ",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/805011",
+          "published": "3/29",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説南砺市のＤＣ構想／環境保全が推進の前提",
+          "link": "https://webun.jp/articles/-/994264",
+          "published": "2026.03.29",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【企業誘致】地元で成長、根付く支援を",
+          "link": "https://www.hokkoku.co.jp/articles/-/2060490",
+          "published": "3/29",
+          "paid": true
+        },
+        {
+          "title": "社説【武器輸出の緩和】防衛力の強化につながる",
+          "link": "https://www.hokkoku.co.jp/articles/-/2060489",
+          "published": "3/29",
+          "paid": true
+        },
+        {
+          "title": "社説【県の企業誘致】地元で成長、根付く支援を",
+          "link": "https://www.hokkoku.co.jp/articles/-/2060476",
+          "published": "3/29",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "クマ銃猟裁判",
+          "link": "https://www.gifu-np.co.jp/articles/-/686705",
+          "published": "2026年3月29日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　「ばけばけ」放送終了　ＰＲ継続し人気維持を",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/976055",
+          "published": "2026/3/29 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】旧姓「単記」法制化　弊害の解消にならない",
+          "link": "https://www.topics.or.jp/articles/-/1406982",
+          "published": "2026/3/29 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【はしか増加】予防接種率を高めたい",
+          "link": "https://www.kochinews.co.jp/article/detail/986088",
+          "published": "2026.03.29 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］「対馬丸」水中調査　全容解明と継承の礎に",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1805255",
+          "published": "2026年3月29日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞与那国駐屯地10年　軍備より外交で信頼築け",
+          "link": "https://ryukyushimpo.jp/editorial/entry-5155288.html",
+          "published": "2026/03/29",
+          "paid": false
+        }
+      ]
     }
   ]
 }

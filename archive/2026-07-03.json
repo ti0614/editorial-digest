@@ -32,7 +32,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "定数削減で審議強行　混乱を招いた政権の傲慢",
+          "link": "https://mainichi.jp/articles/20260703/ddm/005/070/090000c",
+          "published": "2026/7/3 02:01",
+          "paid": false
+        },
+        {
+          "title": "新議長のFRB改革　透明性の後退を危惧する",
+          "link": "https://mainichi.jp/articles/20260703/ddm/005/070/089000c",
+          "published": "2026/7/3 02:01",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "読売新聞",
@@ -52,7 +65,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "［社説］日印は戦略的な連携で地域の安定を導け",
+          "link": "https://www.nikkei.com/article/DGXZQODK036QB0T00C26A7000000/",
+          "published": "3日",
+          "paid": false
+        },
+        {
+          "title": "［社説］危険運転の犠牲なくす契機に",
+          "link": "https://www.nikkei.com/article/DGXZQODK2710N0X20C26A6000000/",
+          "published": "3日",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "産経新聞",
@@ -236,14 +262,21 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "【デジタル教科書】「学びの質」最大化が重要",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1377662",
+          "published": "7/3  8:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "神奈川新聞",
       "category": "社説",
       "tier": "regional",
       "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
-      "error": null,
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
       "items": [
@@ -290,7 +323,7 @@
       "category": "論説",
       "tier": "regional",
       "index_url": "https://www.chibanippo.co.jp/serial",
-      "error": null,
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
       "items": []
@@ -303,7 +336,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "３９年半ぶり円安　原因見極めて政策判断を",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/861146",
+          "published": "7/3",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "北日本新聞",
@@ -313,7 +353,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "社説不登校の子の学習／頑張り認め評価したい",
+          "link": "https://webun.jp/articles/-/1049193",
+          "published": "2026.07.03",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "北國新聞",
@@ -323,7 +370,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "社説【不明男児が死亡】安全問われる特別支援校",
+          "link": "https://www.hokkoku.co.jp/articles/-/2157983",
+          "published": "7/3",
+          "paid": true
+        },
+        {
+          "title": "社説【国会の正常化】審議拒否は正当化できぬ",
+          "link": "https://www.hokkoku.co.jp/articles/-/2157982",
+          "published": "7/3",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "福井新聞",
@@ -380,7 +440,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "中国で邦人逮捕",
+          "link": "https://www.gifu-np.co.jp/articles/-/733700",
+          "published": "2026年7月3日 05:00岐阜",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "奈良新聞",
@@ -420,7 +487,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "論説　成長投資３７０兆円　疑わしい計画の実現性",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/1034584",
+          "published": "2026/7/3 04:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "徳島新聞",
@@ -457,7 +531,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "【終盤国会】数の横暴では禍根残す",
+          "link": "https://www.kochinews.co.jp/article/detail/1021402",
+          "published": "2026.07.03 05:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "日本海新聞",
@@ -541,7 +622,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "［社説］国旗損壊罪法案　刑罰は思想統制への道",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1872553",
+          "published": "2026年7月3日",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "琉球新報",

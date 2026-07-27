@@ -23,6 +23,289 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "高市新政権　女性初の首相　ガラスの天井破った先は",
+          "link": "https://mainichi.jp/articles/20251113/ddm/005/070/059000c",
+          "published": "2025/11/13 02:02",
+          "paid": false
+        },
+        {
+          "title": "仲代達矢さん逝く　観客魅了した無二の存在",
+          "link": "https://mainichi.jp/articles/20251113/ddm/005/070/058000c",
+          "published": "2025/11/13 02:02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］政争の具にせず国益に資する安保論議を",
+          "link": "https://www.nikkei.com/article/DGXZQODK131IC0T11C25A1000000/",
+          "published": "2025年11月13日",
+          "paid": false
+        },
+        {
+          "title": "［社説］米国はG7の結束を乱すな",
+          "link": "https://www.nikkei.com/article/DGXZQODK1318T0T11C25A1000000/",
+          "published": "2025年11月13日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【仮想相談窓口】支援を広げる場に（１１月１３日）",
+          "link": "https://www.minpo.jp/articles/-/51510",
+          "published": "2025/11/13 09:38",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【違法残業】過労死防止さらに徹底を",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1228892",
+          "published": "2025/11/13",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "不登校３５万人　通常学級改革を怠るな",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1223534.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年11月13日(木)  09:50",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "存立危機事態　緊張高める答弁は危うい",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/727332",
+          "published": "2025/11/13",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説インフル急拡大／長期戦に備えなければ",
+          "link": "https://webun.jp/articles/-/918931",
+          "published": "2025.11.13",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【自衛隊のクマ対策】赤外線ドローンの活用を",
+          "link": "https://www.hokkoku.co.jp/articles/-/1927455",
+          "published": "11/13",
+          "paid": true
+        },
+        {
+          "title": "社説【無形遺産に新湊曳山】「拡張提案」が功を奏した",
+          "link": "https://www.hokkoku.co.jp/articles/-/1927454",
+          "published": "11/13",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "観光船沈没の初公判",
+          "link": "https://www.gifu-np.co.jp/articles/-/624871",
+          "published": "2025年11月13日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　観光船沈没初公判　丁寧かつ明解な審理を",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/894906",
+          "published": "2025/11/13 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】立花党首逮捕　卑劣なデマ拡散許されぬ",
+          "link": "https://www.topics.or.jp/articles/-/1336940",
+          "published": "2025/11/13 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【立花党首逮捕】虚偽情報の危うさ共有を",
+          "link": "https://www.kochinews.co.jp/article/detail/928791",
+          "published": "2025.11.13 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "宮崎日日新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.the-miyanichi.co.jp/column/syasetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "首相と台湾有事",
+          "link": "https://www.the-miyanichi.co.jp/column/syasetsu/374594.html",
+          "published": "2025.11.13｜社説",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］タイ人少女人身取引　背後を含め　全容解明を",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1712473",
+          "published": "2025年11月13日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞新垣氏社民離党問題　党の存在意義を問い直せ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4767432.html",
+          "published": "2025/11/13",
+          "paid": false
+        }
+      ]
     }
   ]
 }

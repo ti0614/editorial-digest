@@ -17,6 +17,225 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "公益通報者の保護　報復許さぬ仕組みさらに",
+          "link": "https://mainichi.jp/articles/20250109/ddm/005/070/079000c",
+          "published": "2025/1/9 02:01",
+          "paid": false
+        },
+        {
+          "title": "川重が海自に便宜供与　癒着の構造断ち切る時だ",
+          "link": "https://mainichi.jp/articles/20250109/ddm/005/070/077000c",
+          "published": "2025/1/9 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］分断修復めざしたバイデン米政権の挫折",
+          "link": "https://www.nikkei.com/article/DGXZQODK086UN0Y5A100C2000000/",
+          "published": "2025年1月9日",
+          "paid": false
+        },
+        {
+          "title": "［社説］袴田さん再審検証を制度改正に生かせ",
+          "link": "https://www.nikkei.com/article/DGXZQODK094740Z00C25A1000000/",
+          "published": "2025年1月9日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【手仕事の輪】にぎわいづくりに（１月９日）",
+          "link": "https://www.minpo.jp/articles/-/54626",
+          "published": "2025/01/09 09:27",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【外国人介護人材】受け入れ低調、理解促せ",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1033605",
+          "published": "2025/1/9",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "韓国の混乱　早急な収拾が求められる",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/536878",
+          "published": "2025/1/9",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "温室効果ガス削減",
+          "link": "https://www.gifu-np.co.jp/articles/-/487600",
+          "published": "2025年1月9日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　温室効果ガス削減目標　大排出国の責任放棄だ",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/709541",
+          "published": "2025/1/9 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】日鉄買収阻止　日米間に禍根残す判断だ",
+          "link": "https://www.topics.or.jp/articles/-/1179730",
+          "published": "2025/1/9 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【羽田事故】調査を再発防止に生かせ",
+          "link": "https://www.kochinews.co.jp/article/detail/819716",
+          "published": "2025.01.09 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］また米兵性暴力事件　「綱紀粛正」言葉だけか",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1504010",
+          "published": "2025年1月9日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞「辞世の句」再掲載　「皇軍の論理」なぜ断てぬ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-3846056.html",
+          "published": "2025/01/09",
+          "paid": false
+        }
+      ]
     }
   ]
 }

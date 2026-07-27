@@ -23,6 +23,198 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "防衛力強化急ぐ欧州　米が果たす責任なお重い",
+          "link": "https://mainichi.jp/articles/20250316/ddm/005/070/103000c",
+          "published": "2025/3/16 02:01",
+          "paid": false
+        },
+        {
+          "title": "皇族確保の与野党協議　安定継承を念頭に結論を",
+          "link": "https://mainichi.jp/articles/20250316/ddm/005/070/101000c",
+          "published": "2025/3/16 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］新型コロナ5年を教訓に平時から備えを",
+          "link": "https://www.nikkei.com/article/DGXZQODK145H00U5A310C2000000/",
+          "published": "2025年3月16日",
+          "paid": false
+        },
+        {
+          "title": "［社説］「法の支配」を守る重責支えよ",
+          "link": "https://www.nikkei.com/article/DGXZQODK1613I0W5A310C2000000/",
+          "published": "2025年3月16日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "商品券１０万円配布　感覚のずれは致命的だ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1156003.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年3月16日(日)  09:40",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "国際アニメ映画祭　世界の拠点を目指したい",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/574558",
+          "published": "2025/3/16",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "賃上げ続く春闘",
+          "link": "https://www.gifu-np.co.jp/articles/-/514436",
+          "published": "2025年3月16日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　核禁止条約会議　核依存国は対話進めよ",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/746308",
+          "published": "2025/3/16 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】ウクライナ情勢　ロシアは停戦案を受けよ",
+          "link": "https://www.topics.or.jp/articles/-/1210065",
+          "published": "2025/3/16 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【核禁会議閉幕】「橋渡し役」行動で示せ",
+          "link": "https://www.kochinews.co.jp/article/detail/840865",
+          "published": "2025.03.16 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］戦後８０年　沖展　作品通し平和考えたい",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1544971",
+          "published": "2025年3月16日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞セグロウリミバエ　ブランド守る正念場だ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4055409.html",
+          "published": "2025/03/16",
+          "paid": false
+        }
+      ]
     }
   ]
 }

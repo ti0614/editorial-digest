@@ -23,6 +23,185 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "三菱UFJ貸金庫窃盗　信頼損ねるずさんな管理",
+          "link": "https://mainichi.jp/articles/20241223/ddm/005/070/009000c",
+          "published": "2024/12/23 02:03",
+          "paid": false
+        },
+        {
+          "title": "6カ国でサッカーW杯　肥大化の課題に目配りを",
+          "link": "https://mainichi.jp/articles/20241223/ddm/005/070/008000c",
+          "published": "2024/12/23 02:03",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］ホンダ・日産は大変革に挑め",
+          "link": "https://www.nikkei.com/article/DGXZQOCD2366O0T21C24A2000000/",
+          "published": "2024年12月23日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【石川の地域商社】観光物産振興の手本（１２月２３日）",
+          "link": "https://www.minpo.jp/articles/-/54699",
+          "published": "2024/12/23 09:43",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "民間ロケット失敗　原因解明し次こそ成功を",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/530097",
+          "published": "2024/12/23",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "エネルギー計画案",
+          "link": "https://www.gifu-np.co.jp/articles/-/482486",
+          "published": "2024年12月23日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　学力テストと知事会　指導改善に生かす策を",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/701475",
+          "published": "2024/12/23 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【仮装身分捜査】闇バイト根絶の実現を",
+          "link": "https://www.kochinews.co.jp/article/detail/816148",
+          "published": "2024.12.23 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］米兵性暴力で県民大会　「もう繰り返させない」",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1495562",
+          "published": "2024年12月23日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞与党税制大綱　国民目線で議論すべきだ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-3792837.html",
+          "published": "2024/12/23",
+          "paid": false
+        }
+      ]
     }
   ]
 }

@@ -23,6 +23,225 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "自民の夫婦別姓議論　通称拡大では解決しない",
+          "link": "https://mainichi.jp/articles/20250219/ddm/005/070/032000c",
+          "published": "2025/2/19 02:02",
+          "paid": false
+        },
+        {
+          "title": "サイバー防御法案　国会で歯止め強化議論を",
+          "link": "https://mainichi.jp/articles/20250219/ddm/005/070/031000c",
+          "published": "2025/2/19 02:02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］米国の信頼揺るがすトランプ流の1カ月",
+          "link": "https://www.nikkei.com/article/DGXZQODK1924P0Z10C25A2000000/",
+          "published": "2025年2月19日",
+          "paid": false
+        },
+        {
+          "title": "［社説］意欲高めるデジタル教科書に",
+          "link": "https://www.nikkei.com/article/DGXZQODK199300Z10C25A2000000/",
+          "published": "2025年2月19日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【大阪・関西万博】来県者増やす契機に（２月１９日）",
+          "link": "https://www.minpo.jp/articles/-/54479",
+          "published": "2025/02/19 09:28",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【足利・山姥切展】永続的な活性策に生かせ",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1058544",
+          "published": "2025/2/19",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "ウクライナ和平　米ロのみ交渉容認できぬ",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/558982",
+          "published": "2025/2/19",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "長引く消費低迷",
+          "link": "https://www.gifu-np.co.jp/articles/-/504003",
+          "published": "2025年2月19日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　長引く消費低迷　家計重視で経済運営を",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/731839",
+          "published": "2025/2/19 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】デジタル教科書　学力への影響を見極めよ",
+          "link": "https://www.topics.or.jp/articles/-/1197980",
+          "published": "2025/2/19 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【ＧＤＰプラス】重み増す賃上げの定着",
+          "link": "https://www.kochinews.co.jp/article/detail/833700",
+          "published": "2025.02.19 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］県の予算案　審議せずは許されない",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1528972",
+          "published": "2025年2月19日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞特定利用、合意を検討　軍事利用を促す判断だ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-3976689.html",
+          "published": "2025/02/19",
+          "paid": false
+        }
+      ]
     }
   ]
 }

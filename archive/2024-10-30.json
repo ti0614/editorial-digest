@@ -23,6 +23,208 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "衆院選で躍進の野党　反自民超える構想が必要",
+          "link": "https://mainichi.jp/articles/20241030/ddm/005/070/104000c",
+          "published": "2024/10/30 02:01",
+          "paid": false
+        },
+        {
+          "title": "イスラエルが報復　軍事大国の衝突止める時",
+          "link": "https://mainichi.jp/articles/20241030/ddm/005/070/103000c",
+          "published": "2024/10/30 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］女川再稼働を安全に進め原発活用広げよ",
+          "link": "https://www.nikkei.com/article/DGXZQODK303550Q4A031C2000000/",
+          "published": "2024年10月30日",
+          "paid": false
+        },
+        {
+          "title": "［社説］インドネシアは新興国の要に",
+          "link": "https://www.nikkei.com/article/DGXZQODK305SU0Q4A031C2000000/",
+          "published": "2024年10月30日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【二本松の菊人形】節目へ飛躍の構想を（１０月３０日）",
+          "link": "https://www.minpo.jp/articles/-/54914",
+          "published": "2024/10/30 09:34",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【知事選あす告示】本県の将来像示し論戦を",
+          "link": "https://www.shimotsuke.co.jp/articles/-/991771",
+          "published": "2024/10/30",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "首相続投表明　安定した政権運営可能か",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/500700",
+          "published": "2024/10/30",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "米大統領選",
+          "link": "https://www.gifu-np.co.jp/articles/-/459578",
+          "published": "2024年10月30日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　米大統領選投開票へ　分断の処方箋は見えず",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/671161",
+          "published": "2024/10/30 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【中東情勢】報復の連鎖を断ち切れ",
+          "link": "https://www.kochinews.co.jp/article/detail/799697",
+          "published": "2024.10.30 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］陸自オスプレイ事故　予防点検の効果疑問だ",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1461924",
+          "published": "2024年10月30日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞陸自オスプレイ事故　共同統合演習を中止せよ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-3598513.html",
+          "published": "2024/10/30",
+          "paid": false
+        }
+      ]
     }
   ]
 }

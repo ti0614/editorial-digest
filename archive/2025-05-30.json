@@ -23,6 +23,232 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "高裁も大川原捜査「違法」　冤罪生んだ体質の一掃を",
+          "link": "https://mainichi.jp/articles/20250530/ddm/005/070/084000c",
+          "published": "2025/5/30 02:02",
+          "paid": false
+        },
+        {
+          "title": "旧安倍派の裏金問題　追及の手緩めてはならぬ",
+          "link": "https://mainichi.jp/articles/20250530/ddm/005/070/082000c",
+          "published": "2025/5/30 02:02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］半導体AI特需の持続力に注視が要る",
+          "link": "https://www.nikkei.com/article/DGXZQODK305XL0Q5A530C2000000/",
+          "published": "2025年5月30日",
+          "paid": false
+        },
+        {
+          "title": "［社説］セブンは企業価値の向上急げ",
+          "link": "https://www.nikkei.com/article/DGXZQODK303E40Q5A530C2000000/",
+          "published": "2025年5月30日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【ワーケーション】拡大へ会津は連携を（５月３０日）",
+          "link": "https://www.minpo.jp/articles/-/53903",
+          "published": "2025/05/30 09:17",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【ブレックスＶ３】郷土の誇りに一層支援を",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1121216",
+          "published": "2025/5/30",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "点検商法　被害防止へ積極啓発を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1176334.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年5月30日(金)  09:30",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "ハーバード大　見過ごせぬ米政権の圧力",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/617284",
+          "published": "2025/5/30",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "公安捜査の冤罪",
+          "link": "https://www.gifu-np.co.jp/articles/-/546731",
+          "published": "2025年5月30日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　公安捜査の冤罪　真摯に反省し検証せよ",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/790127",
+          "published": "2025/5/30 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】パンデミック条約　国際協調で実効性高めよ",
+          "link": "https://www.topics.or.jp/articles/-/1247337",
+          "published": "2025/5/30 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【年金法案合意】難題を棚上げしたままだ",
+          "link": "https://www.kochinews.co.jp/article/detail/865459",
+          "published": "2025.05.30 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］困窮世帯２１．８％　支援の継続と拡充こそ",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1593584",
+          "published": "2025年5月30日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞南城市第三者委員会　市長の適格性　厳正判断を",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4282907.html",
+          "published": "2025/05/30",
+          "paid": false
+        }
+      ]
     }
   ]
 }

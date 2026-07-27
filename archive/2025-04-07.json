@@ -23,6 +23,198 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "増え続ける児童虐待　連携の仕組み作りが急務",
+          "link": "https://mainichi.jp/articles/20250407/ddm/005/070/013000c",
+          "published": "2025/4/7 02:00",
+          "paid": false
+        },
+        {
+          "title": "コメ輸出の拡大方針　生産基盤の強化が先決だ",
+          "link": "https://mainichi.jp/articles/20250407/ddm/005/070/012000c",
+          "published": "2025/4/7 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］世界株急落の警告に米政権は目を覚ませ",
+          "link": "https://www.nikkei.com/article/DGXZQODK078I70X00C25A4000000/",
+          "published": "2025年4月7日",
+          "paid": false
+        },
+        {
+          "title": "［社説］列島の大動脈止めぬETCに",
+          "link": "https://www.nikkei.com/article/DGXZQODK076I90X00C25A4000000/",
+          "published": "2025年4月7日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【未成年の契約被害】自らを守る力も養おう（４月７日）",
+          "link": "https://www.minpo.jp/articles/-/54221",
+          "published": "2025/04/07 09:11",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "中井やまゆり園虐待　当事者意識はあるのか",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1162179.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年4月7日(月)  09:50",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "県内公示地価　被災地域の再建が鍵握る",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/586916",
+          "published": "2025/4/7",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "兵庫県知事",
+          "link": "https://www.gifu-np.co.jp/articles/-/523932",
+          "published": "2025年4月7日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　南海トラフ地震の被害想定　事前防災に総力挙げよ",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/759537",
+          "published": "2025/4/7 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【フジテレビ問題】企業体質改められるか",
+          "link": "https://www.kochinews.co.jp/article/detail/848443",
+          "published": "2025.04.07 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］後半国会　求められる熟議と公開",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1559434",
+          "published": "2025年4月7日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞森友文書開示　全容解明向けた第一歩だ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4128470.html",
+          "published": "2025/04/07",
+          "paid": false
+        }
+      ]
     }
   ]
 }

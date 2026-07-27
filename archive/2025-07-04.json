@@ -17,6 +17,243 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "参院選2025　物価高への対策　暮らしの不安拭えるのか",
+          "link": "https://mainichi.jp/articles/20250704/ddm/005/070/102000c",
+          "published": "2025/7/4 02:02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］物価高対策は的絞り効果高める知恵を",
+          "link": "https://www.nikkei.com/article/DGXZQODK046E80U5A700C2000000/",
+          "published": "2025年7月4日",
+          "paid": false
+        },
+        {
+          "title": "［社説］仮想通貨の法整備が急務だ",
+          "link": "https://www.nikkei.com/article/DGXZQODK046450U5A700C2000000/",
+          "published": "2025年7月4日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【２０２５参院選　論戦スタート】政権の枠組み問われる（７月４日）",
+          "link": "https://www.minpo.jp/articles/-/53707",
+          "published": "2025/07/04 09:11",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【地域おこし協力隊】定住率維持し採用増やせ",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1144617",
+          "published": "2025/7/4",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "参院選スタート　「物言う主権者」として",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1186804.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年7月4日(金)  09:40",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "物価高対策　家計の負担どう和らげる",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/641908",
+          "published": "2025/7/4",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説２５参院選 選挙戦スタート／日本・富山の未来語れ",
+          "link": "https://webun.jp/articles/-/835932",
+          "published": "2025.07.04",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "参院選とＳＮＳ",
+          "link": "https://www.gifu-np.co.jp/articles/-/563761",
+          "published": "2025年7月4日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　参院選スタート　生活者の視点で論戦を",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/812738",
+          "published": "2025/7/4 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】25参院選　選挙戦スタート　無関心ではいられない",
+          "link": "https://www.topics.or.jp/articles/-/1266362",
+          "published": "2025/7/4 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【2025参院選　物価高対策】暮らしと地域を守らねば",
+          "link": "https://www.kochinews.co.jp/article/detail/881605",
+          "published": "2025.07.04 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］路線価６．３％上昇　暮らしへの影響注視を",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1619409",
+          "published": "2025年7月4日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞南海トラフ計画改定　地震への備え、再確認を",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4409109.html",
+          "published": "2025/07/04",
+          "paid": false
+        }
+      ]
     }
   ]
 }

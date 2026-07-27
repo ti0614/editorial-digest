@@ -23,6 +23,302 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "首相が消費税減税検討　問題直視し再考すべきだ",
+          "link": "https://mainichi.jp/articles/20260217/ddm/005/070/109000c",
+          "published": "2026/2/17 02:01",
+          "paid": false
+        },
+        {
+          "title": "停滞する再エネ導入　更なる普及へテコ入れを",
+          "link": "https://mainichi.jp/articles/20260217/ddm/005/070/108000c",
+          "published": "2026/2/17 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］社会保障の危機から目を背けるな",
+          "link": "https://www.nikkei.com/article/DGXZQODK163000W6A210C2000000/",
+          "published": "2月17日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【警察官不祥事】信頼損ないかねない（２月１７日）",
+          "link": "https://www.minpo.jp/articles/-/49624",
+          "published": "2026/02/17 09:16",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【緊急避妊薬販売開始】正しい知識普及不可欠だ",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1290390",
+          "published": "2/17  8:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "大雪と記録的低温　影響緩和へ行動しよう",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1248809.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2026年2月17日(火)  09:20",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "有権者参加で慎重な議論を　選挙期間中のＳＮＳ対策　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1401670",
+          "published": "2/17 5:00",
+          "paid": true
+        },
+        {
+          "title": "安心して頼れる教育現場に　小中高生の自殺最多　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1401669",
+          "published": "2/17 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "危険運転に基準　悪質事故をなくす契機に",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/780929",
+          "published": "2/17",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説中小企業 賃上げ疲れ／価格転嫁で原資確保を",
+          "link": "https://webun.jp/articles/-/971283",
+          "published": "2026.02.17",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【圧力緩めぬ中国】効果無い宣伝戦いつまで",
+          "link": "https://www.hokkoku.co.jp/articles/-/2018915",
+          "published": "2/17",
+          "paid": true
+        },
+        {
+          "title": "社説【県議会「定数増」】被災地復興へ責任増した",
+          "link": "https://www.hokkoku.co.jp/articles/-/2018914",
+          "published": "2/17",
+          "paid": true
+        },
+        {
+          "title": "社説【石川県議会「定数増」】被災地復興へ責任増した",
+          "link": "https://www.hokkoku.co.jp/articles/-/2018808",
+          "published": "2/17",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "国会あす開幕",
+          "link": "https://www.gifu-np.co.jp/articles/-/668429",
+          "published": "2026年2月17日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　国会１８日開幕　論戦に目を凝らそう",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/950808",
+          "published": "2026/2/17 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】プルデンシャル　企業風土の抜本改善図れ",
+          "link": "https://www.topics.or.jp/articles/-/1385655",
+          "published": "2026/2/17 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【ミャンマー選挙】民主派排除で欠く公正",
+          "link": "https://www.kochinews.co.jp/article/detail/972355",
+          "published": "2026.02.17 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "宮崎日日新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.the-miyanichi.co.jp/column/syasetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "日中関係の行方",
+          "link": "https://www.the-miyanichi.co.jp/column/syasetsu/570863.html",
+          "published": "2026.02.17｜社説",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］男女の賃金格差　構造的な問題にメスを",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1776446",
+          "published": "2026年2月17日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞芸大ハラスメント問題　透明性確保が求められる",
+          "link": "https://ryukyushimpo.jp/editorial/entry-5041938.html",
+          "published": "2026/02/17",
+          "paid": false
+        }
+      ]
     }
   ]
 }

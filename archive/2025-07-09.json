@@ -23,6 +23,232 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "対日関税25％を通告　圧力強化に屈せず交渉を",
+          "link": "https://mainichi.jp/articles/20250709/ddm/005/070/069000c",
+          "published": "2025/7/9 02:01",
+          "paid": false
+        },
+        {
+          "title": "H2Aロケットの引退　信頼継承し技術高めたい",
+          "link": "https://mainichi.jp/articles/20250709/ddm/005/070/067000c",
+          "published": "2025/7/9 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］社会保障は持続性を高める改革を語れ",
+          "link": "https://www.nikkei.com/article/DGXZQODK046FP0U5A700C2000000/",
+          "published": "2025年7月9日",
+          "paid": false
+        },
+        {
+          "title": "［社説］社外取締役の機能を上げよ",
+          "link": "https://www.nikkei.com/article/DGXZQODK094RH0Z00C25A7000000/",
+          "published": "2025年7月9日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【米関税書簡】粘り強い交渉望む（７月９日）",
+          "link": "https://www.minpo.jp/articles/-/53648",
+          "published": "2025/07/09 09:13",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "ＪＯＣ新会長　「政治的中立」どう担保",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1188185.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年7月9日(水)  10:26",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "米の対日関税２５％　圧力に屈せず打開策探れ",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/645754",
+          "published": "2025/7/9",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説対日関税２５％／ひるまず打開の道探れ",
+          "link": "https://webun.jp/articles/-/839322",
+          "published": "2025.07.09",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "トランプ関税",
+          "link": "https://www.gifu-np.co.jp/articles/-/566337",
+          "published": "2025年7月9日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　トランプ関税　動揺せず打開の道探れ",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/816120",
+          "published": "2025/7/9 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】25参院選　少子化対策　若者の不安払拭を図れ",
+          "link": "https://www.topics.or.jp/articles/-/1268785",
+          "published": "2025/7/9 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【対日関税２５％】打開へ交渉を粘り強く",
+          "link": "https://www.kochinews.co.jp/article/detail/885267",
+          "published": "2025.07.09 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］トランプ関税　動揺せず日本は筋通せ",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1623097",
+          "published": "2025年7月9日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞実質賃金のマイナス　国民生活守る政治の力を",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4424016.html",
+          "published": "2025/07/09",
+          "paid": false
+        }
+      ]
     }
   ]
 }

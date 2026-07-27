@@ -17,6 +17,191 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "ウクライナ侵攻3年　大国の論理で平和築けぬ",
+          "link": "https://mainichi.jp/articles/20250224/ddm/005/070/008000c",
+          "published": "2025/2/24 02:02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］野党の政策主張は財源論から逃げずに",
+          "link": "https://www.nikkei.com/article/DGXZQODK2411T0U5A220C2000000/",
+          "published": "2025年2月24日",
+          "paid": false
+        },
+        {
+          "title": "［社説］ネットカジノのまん延止めよ",
+          "link": "https://www.nikkei.com/article/DGXZQODK218UP0R20C25A2000000/",
+          "published": "2025年2月24日",
+          "paid": false
+        },
+        {
+          "title": "［社説］いまこそ公正なウクライナ和平を",
+          "link": "https://www.nikkei.com/article/DGXZQODK206V20Q5A220C2000000/",
+          "published": "2025年2月24日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【ウクライナ侵攻３年】置き去り許されない（２月２４日）",
+          "link": "https://www.minpo.jp/articles/-/54456",
+          "published": "2025/02/24 09:36",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "ウクライナ侵攻３年　公正な戦闘終結が不可欠",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/561866",
+          "published": "2025/2/24",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "ウクライナ戦争３年",
+          "link": "https://www.gifu-np.co.jp/articles/-/505959",
+          "published": "2025年2月24日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　ウクライナ戦争３年　機運逃さず停戦実現を",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/734585",
+          "published": "2025/2/24 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【エネルギー計画】近視眼の原発回帰を懸念",
+          "link": "https://www.kochinews.co.jp/article/detail/834919",
+          "published": "2025.02.24 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］ウクライナ侵攻３年　公正な和平に力尽くせ",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1532013",
+          "published": "2025年2月24日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞ウクライナ侵攻3年　「公正な平和」を実現せよ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-3993832.html",
+          "published": "2025/02/24",
+          "paid": false
+        }
+      ]
     }
   ]
 }

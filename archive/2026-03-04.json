@@ -23,6 +23,295 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "ホルムズ海峡の封鎖　世界経済を脅かす愚行だ",
+          "link": "https://mainichi.jp/articles/20260304/ddm/005/070/085000c",
+          "published": "2026/3/4 02:01",
+          "paid": false
+        },
+        {
+          "title": "ⅰPS細胞製品承認へ　実用化への着実な一歩に",
+          "link": "https://mainichi.jp/articles/20260304/ddm/005/070/083000c",
+          "published": "2026/3/4 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］永守流カリスマ経営はなぜ暴走したのか",
+          "link": "https://www.nikkei.com/article/DGXZQOCD045K00U6A300C2000000/",
+          "published": "3月4日",
+          "paid": false
+        },
+        {
+          "title": "［社説］旧統一教会の被害者に着実な救済を",
+          "link": "https://www.nikkei.com/article/DGXZQODK048310U6A300C2000000/",
+          "published": "3月4日",
+          "paid": false
+        },
+        {
+          "title": "［社説］米ワシントン・ポストの窮地が示す教訓",
+          "link": "https://www.nikkei.com/article/DGXZQODK134EZ0T10C26A2000000/",
+          "published": "3月4日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【南鳥島文献調査】国が前面に立ち議論を（３月４日）",
+          "link": "https://www.minpo.jp/articles/-/80451",
+          "published": "2026/03/04 09:17",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【大人の地域留学】移住者増視野に粘り強く",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1299666",
+          "published": "3/4  8:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "ＳＮＳと影響力　功罪に目配りをしたい",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1252806.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2026年3月4日(水)  09:30",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "武器輸出容認へ　歯止めをかけられるのか",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/789566",
+          "published": "3/4",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説レアアース調達／「中国依存」 脱却せねば",
+          "link": "https://webun.jp/articles/-/979298",
+          "published": "2026.03.04",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【車中泊の避難】場所確保し支援を迅速に",
+          "link": "https://www.hokkoku.co.jp/articles/-/2033669",
+          "published": "3/4",
+          "paid": true
+        },
+        {
+          "title": "社説【イランの報復攻撃】核放棄と民主化の決断を",
+          "link": "https://www.hokkoku.co.jp/articles/-/2033668",
+          "published": "3/4",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "取り締まり不正",
+          "link": "https://www.gifu-np.co.jp/articles/-/674991",
+          "published": "2026年3月4日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　原発テロ対策の期限延長　「骨抜き」がさらに進む",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/959664",
+          "published": "2026/3/4 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】出生数最少70万人　減少前提の政策も必要だ",
+          "link": "https://www.topics.or.jp/articles/-/1393089",
+          "published": "2026/3/4 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【イラン攻撃】戦火拡大を食い止めよ",
+          "link": "https://www.kochinews.co.jp/article/detail/977109",
+          "published": "2026.03.04 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "宮崎日日新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.the-miyanichi.co.jp/column/syasetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "イラン攻撃と政府対応",
+          "link": "https://www.the-miyanichi.co.jp/column/syasetsu/606941.html",
+          "published": "2026.03.04｜社説",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］若者の薬物乱用　危機感を持って対策を",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1786643",
+          "published": "2026年3月4日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞与那国ミサイル配備　なし崩しの軍事拠点化だ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-5089530.html",
+          "published": "2026/03/04",
+          "paid": false
+        }
+      ]
     }
   ]
 }

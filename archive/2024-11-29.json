@@ -23,6 +23,225 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "「トランプ関税」発動宣言　常軌を逸した取引外交だ",
+          "link": "https://mainichi.jp/articles/20241129/ddm/005/070/081000c",
+          "published": "2024/11/29 02:01",
+          "paid": false
+        },
+        {
+          "title": "斎藤知事の広報問題　本人とPR会社が説明を",
+          "link": "https://mainichi.jp/articles/20241129/ddm/005/070/079000c",
+          "published": "2024/11/29 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］石破茂首相は難局打開へ政策の旗もっと鮮明に",
+          "link": "https://www.nikkei.com/article/DGXZQODK28CUE0Y4A121C2000000/",
+          "published": "2024年11月29日",
+          "paid": false
+        },
+        {
+          "title": "［社説］試練を迎えるG7の結束",
+          "link": "https://www.nikkei.com/article/DGXZQODK282FJ0Y4A121C2000000/",
+          "published": "2024年11月29日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【臨時国会召集】旧来政治は許されない（１１月２９日）",
+          "link": "https://www.minpo.jp/articles/-/54769",
+          "published": "2024/11/29 09:26",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【栃木シティＪ３昇格】県南からリーグに旋風を",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1009675",
+          "published": "2024/11/29",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "レバノン停戦　中東の和平につなげねば",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/517525",
+          "published": "2024/11/29",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "危険運転の要件",
+          "link": "https://www.gifu-np.co.jp/articles/-/472681",
+          "published": "2024年11月29日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　危険運転の要件見直し　安定的運用が不可欠だ",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/688115",
+          "published": "2024/11/29 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】県議会きょう開会　県市協調の在り方探れ",
+          "link": "https://www.topics.or.jp/articles/-/1162211",
+          "published": "2024/11/29 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【危険運転の処罰】国民が納得する法律に",
+          "link": "https://www.kochinews.co.jp/article/detail/809501",
+          "published": "2024.11.29 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］「危険運転」要件見直し　市民感覚　議論に反映を",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1480735",
+          "published": "2024年11月29日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞オスプレイ発火　いつまで欠陥を隠すのか",
+          "link": "https://ryukyushimpo.jp/editorial/entry-3695216.html",
+          "published": "2024/11/29",
+          "paid": false
+        }
+      ]
     }
   ]
 }

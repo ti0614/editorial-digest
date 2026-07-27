@@ -63,6 +63,282 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "安保3文書改定の議論　防衛費増ありきを危ぶむ",
+          "link": "https://mainichi.jp/articles/20260605/ddm/005/070/059000c",
+          "published": "2026/6/5 02:02",
+          "paid": false
+        },
+        {
+          "title": "出生率が過去最低　戦略の検証が欠かせない",
+          "link": "https://mainichi.jp/articles/20260605/ddm/005/070/058000c",
+          "published": "2026/6/5 02:02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］物価高招くナフサ不安に丁寧な情報を",
+          "link": "https://www.nikkei.com/article/DGXZQODK03BYI0T00C26A6000000/",
+          "published": "6月5日",
+          "paid": false
+        },
+        {
+          "title": "［社説］大阪都構想は奇策を弄するな",
+          "link": "https://www.nikkei.com/article/DGXZQODK055JG0V00C26A6000000/",
+          "published": "6月5日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【モモ降ひょう被害】農家への支援早急に（６月５日）",
+          "link": "https://www.minpo.jp/articles/-/149335",
+          "published": "2026/06/05 11:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【上三川強盗殺人】体感治安回復へ知恵絞れ",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1359496",
+          "published": "6/5  8:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "出生数過去最少　包括的な取り組みが急務",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/843664",
+          "published": "6/5",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説立山砂防１２０年／終わらぬ闘い学ぶ機会",
+          "link": "https://webun.jp/articles/-/1032217",
+          "published": "2026.06.05",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【県立高で奥能登学】小規模校を残すモデルに",
+          "link": "https://www.hokkoku.co.jp/articles/-/2129016",
+          "published": "6/5",
+          "paid": true
+        },
+        {
+          "title": "社説【カスハラ被害】８割が「対策なし」は論外",
+          "link": "https://www.hokkoku.co.jp/articles/-/2129015",
+          "published": "6/5",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "首相と中傷動画",
+          "link": "https://www.gifu-np.co.jp/articles/-/719082",
+          "published": "2026年6月5日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　出生数最少を更新　「夫婦共育て」の促進を",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/1016747",
+          "published": "2026/6/5 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】SNS規制　子どもの安全を最優先に",
+          "link": "https://www.topics.or.jp/articles/-/1441504",
+          "published": "2026/6/5 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【ＯＴＣ類似薬】負担増す患者に配慮を",
+          "link": "https://www.kochinews.co.jp/article/detail/1012267",
+          "published": "2026.06.05 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "宮崎日日新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.the-miyanichi.co.jp/column/syasetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "原油高と補正予算",
+          "link": "https://www.the-miyanichi.co.jp/column/syasetsu/818186.html",
+          "published": "2026.06.05｜社説",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］中傷動画疑惑　首相は説明責任果たせ",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1852381",
+          "published": "2026年6月5日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞首里城11月完成・公開　県民主体の活用模索を",
+          "link": "https://ryukyushimpo.jp/editorial/entry-5292392.html",
+          "published": "2026/06/05",
+          "paid": false
+        }
+      ]
     }
   ]
 }

@@ -23,6 +23,226 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "石破内閣発足から半年　場当たりでは不信拭えぬ",
+          "link": "https://mainichi.jp/articles/20250403/ddm/005/070/112000c",
+          "published": "2025/4/3 02:01",
+          "paid": false
+        },
+        {
+          "title": "少子化時代の大学再編　地方で学ぶ場守る方策を",
+          "link": "https://mainichi.jp/articles/20250403/ddm/005/070/109000c",
+          "published": "2025/4/3 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］トランプ関税の愚挙へ戦略早急に",
+          "link": "https://www.nikkei.com/article/DGXZQOCD03A870T00C25A4000000/",
+          "published": "2025年4月3日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【高校授業料無償化】専門校の魅力高めて（４月３日）",
+          "link": "https://www.minpo.jp/articles/-/54243",
+          "published": "2025/04/03 09:27",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【消費生活相談員不足】人材育成と処遇改善図れ",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1085630",
+          "published": "2025/4/3",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "フジ第三者委報告書　教訓をいかに生かすか",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1161193.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年4月3日(木)  09:47",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "南海トラフ地震　命を守る減災対策が急務",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/585035",
+          "published": "2025/4/3",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "フジ報告書",
+          "link": "https://www.gifu-np.co.jp/articles/-/522490",
+          "published": "2025年4月3日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　フジ第三者委報告書　解体的出直しが必要だ",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/757354",
+          "published": "2025/4/3 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】ミャンマー地震　内戦停止し救援に全力を",
+          "link": "https://www.topics.or.jp/articles/-/1219341",
+          "published": "2025/4/3 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【予算成立】本当に熟議だったのか",
+          "link": "https://www.kochinews.co.jp/article/detail/846435",
+          "published": "2025.04.03 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］［沖縄戦80年］大本営と32軍司令部　作戦巡り深刻な亀裂が",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1557011",
+          "published": "2025年4月3日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞ヘイト条例初認定　差別的言動抑止の一歩に",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4117189.html",
+          "published": "2025/04/03",
+          "paid": false
+        }
+      ]
     }
   ]
 }

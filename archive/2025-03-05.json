@@ -23,6 +23,232 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "米国の軍事支援停止　ウクライナ見捨てるのか",
+          "link": "https://mainichi.jp/articles/20250305/ddm/005/070/076000c",
+          "published": "2025/3/5 02:01",
+          "paid": false
+        },
+        {
+          "title": "ミャンマーの詐欺拠点　国際協力で根絶に全力を",
+          "link": "https://mainichi.jp/articles/20250305/ddm/005/070/075000c",
+          "published": "2025/3/5 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］民主国家の盟主にそぐわぬトランプ演説",
+          "link": "https://www.nikkei.com/article/DGXZQODK053L60V00C25A3000000/",
+          "published": "2025年3月5日",
+          "paid": false
+        },
+        {
+          "title": "［社説］成年の自覚示した悠仁さま",
+          "link": "https://www.nikkei.com/article/DGXZQODK053KJ0V00C25A3000000/",
+          "published": "2025年3月5日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【震災１４年　避難地域の農業】産地化進め営農加速を（３月５日）",
+          "link": "https://www.minpo.jp/articles/-/54420",
+          "published": "2025/03/05 09:25",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【大通り１車線化】市民理解へ丁寧な説明を",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1066941",
+          "published": "2025/3/5",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "山林火災　支援強化と体制確認を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1152925.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年3月5日(水)  09:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "岩手山林火災　一刻も早い鎮火に全力を",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/567500",
+          "published": "2025/3/5",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "出生数７２万人",
+          "link": "https://www.gifu-np.co.jp/articles/-/509915",
+          "published": "2025年3月5日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　鳥取県の「２馬力」対策　選挙の「抜け穴」ふさげ",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/739667",
+          "published": "2025/3/5 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】岩手の山林火災　消火を急ぎ　命と財産守れ",
+          "link": "https://www.topics.or.jp/articles/-/1204315",
+          "published": "2025/3/5 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【米軍事支援停止】一方的措置は信頼を失う",
+          "link": "https://www.kochinews.co.jp/article/detail/837504",
+          "published": "2025.03.05 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］修正予算案　衆院通過　熟議の国会見えぬまま",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1537672",
+          "published": "2025年3月5日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞出生数過去最少を更新　国民論議で歯止めかけよ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4022446.html",
+          "published": "2025/03/05",
+          "paid": false
+        }
+      ]
     }
   ]
 }

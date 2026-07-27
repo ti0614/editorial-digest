@@ -23,6 +23,232 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "出生数が70万人割れ　「想定外」の少子化直視を",
+          "link": "https://mainichi.jp/articles/20250607/ddm/005/070/131000c",
+          "published": "2025/6/7 02:01",
+          "paid": false
+        },
+        {
+          "title": "職場の熱中症対策　働き手の命を守る体制に",
+          "link": "https://mainichi.jp/articles/20250607/ddm/005/070/129000c",
+          "published": "2025/6/7 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］海外研究者を呼べる大学に変わる好機だ",
+          "link": "https://www.nikkei.com/article/DGXZQOCD04AFE0U5A600C2000000/",
+          "published": "2025年6月7日",
+          "paid": false
+        },
+        {
+          "title": "［社説］東電の重い責任は変わらない",
+          "link": "https://www.nikkei.com/article/DGXZQODK065ZW0W5A600C2000000/",
+          "published": "2025年6月7日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【東電株主代表訴訟】被災者の思いどこに（６月７日）",
+          "link": "https://www.minpo.jp/articles/-/53868",
+          "published": "2025/06/07 10:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【歯科保健基本３期計画】切れ目ない施策の展開を",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1126634",
+          "published": "2025/6/7",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "プライド月間　少数者の尊厳守りたい",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1178760.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年6月7日(土)  09:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "東電株主訴訟　誰も責任問われぬ判決だ",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/622466",
+          "published": "2025/6/7",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "東電株主代表訴訟",
+          "link": "https://www.gifu-np.co.jp/articles/-/550231",
+          "published": "2025年6月7日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　原発６０年超運転可能に　課題解決の道筋を示せ",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/795291",
+          "published": "2025/6/7 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】水産物輸出再開へ　中国は早期に全面解除を",
+          "link": "https://www.topics.or.jp/articles/-/1252072",
+          "published": "2025/6/7 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【東電株主訴訟】安全は曖昧にできない",
+          "link": "https://www.kochinews.co.jp/article/detail/868377",
+          "published": "2025.06.07 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］出生数７０万人割れ　女性の不安に向き合え",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1599392",
+          "published": "2025年6月7日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞沖縄戦80年　大田司令官電文　戦場動員は美化できない",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4309482.html",
+          "published": "2025/06/07",
+          "paid": false
+        }
+      ]
     }
   ]
 }

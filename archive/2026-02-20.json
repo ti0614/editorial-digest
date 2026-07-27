@@ -23,6 +23,301 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "政府情報機関の強化　拭えぬ人権侵害への懸念",
+          "link": "https://mainichi.jp/articles/20260220/ddm/005/070/102000c",
+          "published": "2026/2/20 02:01",
+          "paid": false
+        },
+        {
+          "title": "対米投資の第1弾決定　日本の国益に資するのか",
+          "link": "https://mainichi.jp/articles/20260220/ddm/005/070/101000c",
+          "published": "2026/2/20 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］高市早苗首相の「責任ある政策」は内実が問われる",
+          "link": "https://www.nikkei.com/article/DGXZQODK202FY0Q6A220C2000000/",
+          "published": "2月20日",
+          "paid": false
+        },
+        {
+          "title": "［社説］韓国分断映す尹錫悦氏の無期判決",
+          "link": "https://www.nikkei.com/article/DGXZQODK202B80Q6A220C2000000/",
+          "published": "2月20日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【白河・奥会津連携】ブランド力高めて（２月２０日）",
+          "link": "https://www.minpo.jp/articles/-/49574",
+          "published": "2026/02/20 09:12",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【在宅ケアネット30年】その人らしい生へ注力を",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1292641",
+          "published": "2/20  8:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "神奈川県警の取り締まり不正　徹底的な検証が必要だ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1249724.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2026年2月20日(金)  09:50",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "新潟市予算案　政策実現へスピード感を",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/782963",
+          "published": "2/20",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説スパイ防止法／国民への監視強化懸念",
+          "link": "https://webun.jp/articles/-/973135",
+          "published": "2026.02.20",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【冬の食中毒】増加の懸念、対策徹底を",
+          "link": "https://www.hokkoku.co.jp/articles/-/2022232",
+          "published": "2/20",
+          "paid": true
+        },
+        {
+          "title": "社説【白山のＰＦＡＳ検出】不安取り除く対応を迅速に",
+          "link": "https://www.hokkoku.co.jp/articles/-/2022231",
+          "published": "2/20",
+          "paid": true
+        },
+        {
+          "title": "社説【白山のＰＦＡＳ検出】不安取り除く対応迅速に",
+          "link": "https://www.hokkoku.co.jp/articles/-/2022210",
+          "published": "2/20",
+          "paid": true
+        },
+        {
+          "title": "社説【県が食中毒注意報】教訓生かした衛生管理を",
+          "link": "https://www.hokkoku.co.jp/articles/-/2022209",
+          "published": "2/20",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "欠格条項に違憲判断",
+          "link": "https://www.gifu-np.co.jp/articles/-/669980",
+          "published": "2026年2月20日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　韓国前大統領に厳刑　分断の解消に努めよ",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/952765",
+          "published": "2026/2/20 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】ガザ「平和評議会」　米の恣意的運用を危ぶむ",
+          "link": "https://www.topics.or.jp/articles/-/1387533",
+          "published": "2026/2/20 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【女性当選者減少】政治参画へもっと努力を",
+          "link": "https://www.kochinews.co.jp/article/detail/973410",
+          "published": "2026.02.20 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "宮崎日日新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.the-miyanichi.co.jp/column/syasetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "２６年度県当初予算案",
+          "link": "https://www.the-miyanichi.co.jp/column/syasetsu/578375.html",
+          "published": "2026.02.20｜社説",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］欠格条項に違憲判断　障がい者への偏見正せ",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1778765",
+          "published": "2026年2月20日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞再審制度見直し答申　現行法の後退につながる",
+          "link": "https://ryukyushimpo.jp/editorial/entry-5051432.html",
+          "published": "2026/02/20",
+          "paid": false
+        }
+      ]
     }
   ]
 }

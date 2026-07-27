@@ -17,6 +17,295 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "イラン攻撃とG7　米国に停止促さぬ不誠実",
+          "link": "https://mainichi.jp/articles/20260313/ddm/005/070/126000c",
+          "published": "2026/3/13 02:03",
+          "paid": false
+        },
+        {
+          "title": "トラブル続くJR東　背景解明し安全の徹底を",
+          "link": "https://mainichi.jp/articles/20260313/ddm/005/070/125000c",
+          "published": "2026/3/13 02:03",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］インテリジェンス強化へ国民理解深めよ",
+          "link": "https://www.nikkei.com/article/DGXZQODK1341K0T10C26A3000000/",
+          "published": "3月13日",
+          "paid": false
+        },
+        {
+          "title": "［社説］ホンダ損失が映すEVの難路",
+          "link": "https://www.nikkei.com/article/DGXZQOCD1371Z0T10C26A3000000/",
+          "published": "3月13日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【震災１５年　プロボノ人材】課題解決に生かそう（３月１３日）",
+          "link": "https://www.minpo.jp/articles/-/80244",
+          "published": "2026/03/13 09:18",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【移住希望２位】上位追い風に実数増を",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1306187",
+          "published": "3/13  8:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "プラごみ条約　成立へ積極的な関与を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1255626.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2026年3月13日(金)  09:30",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "新潟水俣病訴訟　基準見直し救済急がねば",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/795482",
+          "published": "3/13",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説石油備蓄の放出／手を尽くし不安払拭を",
+          "link": "https://webun.jp/articles/-/985014",
+          "published": "2026.03.13",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【歓楽街の客引き】桜木町も巡回強化したい",
+          "link": "https://www.hokkoku.co.jp/articles/-/2044044",
+          "published": "3/13",
+          "paid": true
+        },
+        {
+          "title": "社説【原油価格の高騰】ホルムズ海峡の安定急務",
+          "link": "https://www.hokkoku.co.jp/articles/-/2044043",
+          "published": "3/13",
+          "paid": true
+        },
+        {
+          "title": "社説【片町の客引き行為】悪化の懸念、巡回強化を",
+          "link": "https://www.hokkoku.co.jp/articles/-/2044020",
+          "published": "3/13",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "米国のイラン攻撃",
+          "link": "https://www.gifu-np.co.jp/articles/-/679274",
+          "published": "2026年3月13日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　米国のイラン攻撃　停戦と和解の追求を",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/965918",
+          "published": "2026/3/13 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】中国・全人代　消費拡大の政策が急務だ",
+          "link": "https://www.topics.or.jp/articles/-/1398410",
+          "published": "2026/3/13 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【中国全人代】経済大国の責任自覚を",
+          "link": "https://www.kochinews.co.jp/article/detail/980478",
+          "published": "2026.03.13 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "宮崎日日新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.the-miyanichi.co.jp/column/syasetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "予算案の衆院審議",
+          "link": "https://www.the-miyanichi.co.jp/column/syasetsu/629204.html",
+          "published": "2026.03.13｜社説",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］ガソリン価格高騰　政策総動員し沈静化を",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1793771",
+          "published": "2026年3月13日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞琉球新報活動賞　挑戦への情熱を学びたい",
+          "link": "https://ryukyushimpo.jp/editorial/entry-5114349.html",
+          "published": "2026/03/13",
+          "paid": false
+        }
+      ]
     }
   ]
 }

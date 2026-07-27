@@ -57,6 +57,276 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "新たな石油危機と日本　資源戦略の再構築図る時",
+          "link": "https://mainichi.jp/articles/20260509/ddm/005/070/089000c",
+          "published": "2026/5/9 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］保険業界はやまぬ不祥事の膿を出し切れ",
+          "link": "https://www.nikkei.com/article/DGXZQODK0917H0Z00C26A5000000/",
+          "published": "5月9日",
+          "paid": false
+        },
+        {
+          "title": "［社説］日韓は安保協力で隙つくるな",
+          "link": "https://www.nikkei.com/article/DGXZQODK076KS0X00C26A5000000/",
+          "published": "5月9日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【福島Ｕの新リーグ】街なか活性化に期待（５月９日）",
+          "link": "https://www.minpo.jp/articles/-/127574",
+          "published": "2026/05/09 11:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【県議会定数】議論尽くし納得いく案を",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1341988",
+          "published": "5/9  8:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "北越高生死亡　深刻な事故はなぜ起きた",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/827514",
+          "published": "5/9",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説職場の熱中症対策／酷暑警戒 命守る備えを",
+          "link": "https://webun.jp/articles/-/1016605",
+          "published": "2026.05.09",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【「空飛ぶ医師」拡充】心強い病院連携の新体制",
+          "link": "https://www.hokkoku.co.jp/articles/-/2100659",
+          "published": "5/9",
+          "paid": true
+        },
+        {
+          "title": "社説【高校の全国募集】地域挙げて特色づくりを",
+          "link": "https://www.hokkoku.co.jp/articles/-/2100658",
+          "published": "5/9",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "検察抗告の原則禁止",
+          "link": "https://www.gifu-np.co.jp/articles/-/705316",
+          "published": "2026年5月9日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　米イラン交渉　核開発断念の証し示せ",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/1000193",
+          "published": "2026/5/9 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】はしか感染拡大　ワクチン接種の徹底を",
+          "link": "https://www.topics.or.jp/articles/-/1427385",
+          "published": "2026/5/9 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【日中関係悪化】対話再開へ糸口探れ",
+          "link": "https://www.kochinews.co.jp/article/detail/1001356",
+          "published": "2026.05.09 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "宮崎日日新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.the-miyanichi.co.jp/column/syasetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "高市政権の課題",
+          "link": "https://www.the-miyanichi.co.jp/column/syasetsu/757571.html",
+          "published": "2026.05.09｜社説",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］日米比の合同演習　国外訓練激化を危ぶむ",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1833171",
+          "published": "2026年5月9日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞新型コロナウイルス　高齢者対策を徹底しよう",
+          "link": "https://ryukyushimpo.jp/editorial/entry-5237229.html",
+          "published": "2026/05/09",
+          "paid": false
+        }
+      ]
     }
   ]
 }

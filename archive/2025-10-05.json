@@ -17,6 +17,226 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "自民新総裁に高市氏　幅広い声聞き不信払拭を",
+          "link": "https://mainichi.jp/articles/20251005/ddm/005/070/103000c",
+          "published": "2025/10/5 02:05",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］家計が持続して潤う令和の証券民主化に",
+          "link": "https://www.nikkei.com/article/DGXZQODK041CB0U5A001C2000000/",
+          "published": "2025年10月5日",
+          "paid": false
+        },
+        {
+          "title": "［社説］国勢調査はオンライン活用を",
+          "link": "https://www.nikkei.com/article/DGXZQODK03B0A0T01C25A0000000/",
+          "published": "2025年10月5日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "自民新総裁　「出直し」の行方を注視",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1212786.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年10月5日(日)  10:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "自民総裁に高市氏　「解党的出直し」責任重く",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/702740",
+          "published": "2025/10/5",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説自民新総裁に高市氏／政治空白 遅れ取り戻せ",
+          "link": "https://webun.jp/articles/-/895549",
+          "published": "2025.10.05",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【新総裁に高市氏】亀裂修復と党勢回復が課題",
+          "link": "https://www.hokkoku.co.jp/articles/-/1887742",
+          "published": "10/5",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "自民総裁に高市氏",
+          "link": "https://www.gifu-np.co.jp/articles/-/608005",
+          "published": "2025年10月5日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　自民新総裁に高市氏　包摂的な社会の構築を",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/871014",
+          "published": "2025/10/5 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】自民総裁に高市氏　党の総力　結集できるか",
+          "link": "https://www.topics.or.jp/articles/-/1315645",
+          "published": "2025/10/5 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【自民党新総裁】国民の信頼取り戻せるか",
+          "link": "https://www.kochinews.co.jp/article/detail/914611",
+          "published": "2025.10.05 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］自民新総裁に高市氏　物価高対策は猶予なし",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1684782",
+          "published": "2025年10月5日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞自民新総裁に高市氏　時代錯誤に不安覚える",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4670414.html",
+          "published": "2025/10/05",
+          "paid": false
+        }
+      ]
     }
   ]
 }

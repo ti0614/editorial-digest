@@ -17,6 +17,232 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "「違法」認めぬ兵庫知事　トップの任に値するのか",
+          "link": "https://mainichi.jp/articles/20250329/ddm/005/070/125000c",
+          "published": "2025/3/29 02:01",
+          "paid": false
+        },
+        {
+          "title": "フジ日枝氏が退任　説明責任置き去りのまま",
+          "link": "https://mainichi.jp/articles/20250329/ddm/005/070/124000c",
+          "published": "2025/3/29 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］損保再編を競争と成長に結びつけよ",
+          "link": "https://www.nikkei.com/article/DGXZQODK291H20Z20C25A3000000/",
+          "published": "2025年3月29日",
+          "paid": false
+        },
+        {
+          "title": "［社説］数学こそ長い目の支援が要る",
+          "link": "https://www.nikkei.com/article/DGXZQODK2849P0Y5A320C2000000/",
+          "published": "2025年3月29日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【満山さんの遺産】世界の絆受け継ごう（３月２９日）",
+          "link": "https://www.minpo.jp/articles/-/54269",
+          "published": "2025/03/29 09:31",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【フィルターバブル】多様な媒体の体験必要だ",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1082686",
+          "published": "2025/3/29",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "公示地価　景気回復につなげたい",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1159934.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年3月29日(土)  09:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "県民投票条例請求　真摯な議論が求められる",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/582511",
+          "published": "2025/3/29",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "年金改革足踏み",
+          "link": "https://www.gifu-np.co.jp/articles/-/520495",
+          "published": "2025年3月29日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　石破政権と拉致問題　早期解決へ手段尽くせ",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/754601",
+          "published": "2025/3/29 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】徳島インディゴ　熱い声援で選手に力を",
+          "link": "https://www.topics.or.jp/articles/-/1216978",
+          "published": "2025/3/29 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【ポスター規制】選挙の自由と公正守れ",
+          "link": "https://www.kochinews.co.jp/article/detail/845055",
+          "published": "2025.03.29 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］米事務所で検証報告　「重大瑕疵」の指摘重い",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1553908",
+          "published": "2025年3月29日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞高校教科書検定　沖縄戦記述　課題残した",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4102952.html",
+          "published": "2025/03/29",
+          "paid": false
+        }
+      ]
     }
   ]
 }

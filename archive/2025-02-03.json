@@ -17,6 +17,168 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "戦後80年　曲がり角の社会保障　安心守る仕組み再構築を",
+          "link": "https://mainichi.jp/articles/20250203/ddm/005/070/012000c",
+          "published": "2025/2/3 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］政府備蓄の機動的な活用で米価の安定を",
+          "link": "https://www.nikkei.com/article/DGXZQODK0370E0T00C25A2000000/",
+          "published": "2025年2月3日",
+          "paid": false
+        },
+        {
+          "title": "［社説］首都圏に住む人の目を地方に",
+          "link": "https://www.nikkei.com/article/DGXZQODK035WR0T00C25A2000000/",
+          "published": "2025年2月3日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【フレイル予防】県民運動に広げたい（２月３日）",
+          "link": "https://www.minpo.jp/articles/-/54537",
+          "published": "2025/02/03 09:32",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "年金制度改革　老後の安心が置き去りだ",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/549651",
+          "published": "2025/2/3",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　再審制度見直し　迅速な救済に道を開け",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/723191",
+          "published": "2025/2/3 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【小中高生の自殺】深刻さ増し放置できない",
+          "link": "https://www.kochinews.co.jp/article/detail/826421",
+          "published": "2025.02.03 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］国連女性委へ拠出停止　報復的対応だ　撤回せよ",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1519151",
+          "published": "2025年2月3日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞障がい者の逸失利益　共生社会へ画期的判決だ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-3924683.html",
+          "published": "2025/02/03",
+          "paid": false
+        }
+      ]
     }
   ]
 }

@@ -23,6 +23,243 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "参院選2025　外国人政策　排外主義の助長懸念する",
+          "link": "https://mainichi.jp/articles/20250712/ddm/005/070/150000c",
+          "published": "2025/7/12 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］政治資金の透明化で不正の連鎖断ち切れ",
+          "link": "https://www.nikkei.com/article/DGXZQODK105YU0Q5A710C2000000/",
+          "published": "2025年7月12日",
+          "paid": false
+        },
+        {
+          "title": "［社説］米中安定へ意思疎通を緊密に",
+          "link": "https://www.nikkei.com/article/DGXZQODK120FW0S5A710C2000000/",
+          "published": "2025年7月12日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【山岳遭難防止】「道迷い」をなくそう（７月１２日）",
+          "link": "https://www.minpo.jp/articles/-/53614",
+          "published": "2025/07/12 09:05",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【宇都宮空襲80年】後世へ伝える拠点整備を",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1149869",
+          "published": "2025/7/12",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "秦野の買い物支援　持続に向け次の一手を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1189247.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年7月12日(土)  09:50",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "安全保障　脅威から国民を守るには",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/648409",
+          "published": "2025/7/12",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説２５参院選 投票所の運営／期日前の定着生かして",
+          "link": "https://webun.jp/articles/-/841707",
+          "published": "2025.07.12",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "参院選・夫婦別姓",
+          "link": "https://www.gifu-np.co.jp/articles/-/568275",
+          "published": "2025年7月12日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　選択的夫婦別姓　次の国会で結論目指せ",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/818367",
+          "published": "2025/7/12 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】25参院選　防災・減災　「南海」への備え議論を",
+          "link": "https://www.topics.or.jp/articles/-/1270671",
+          "published": "2025/7/12 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【２０２５参院選　影響力増すＳＮＳ】情報の真偽見極めを",
+          "link": "https://www.kochinews.co.jp/article/detail/886455",
+          "published": "2025.07.12 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］不発弾事故調査　再発防止に手を尽くせ",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1625760",
+          "published": "2025年7月12日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞ヤマネコからＰＦＡＳ　全国の実態調査が急務だ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4435105.html",
+          "published": "2025/07/12",
+          "paid": false
+        }
+      ]
     }
   ]
 }

@@ -23,6 +23,278 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "高市新政権　加速する少子化　体系的な戦略が見えない",
+          "link": "https://mainichi.jp/articles/20251127/ddm/005/070/074000c",
+          "published": "2025/11/27 02:02",
+          "paid": false
+        },
+        {
+          "title": "安青錦の大関昇進　戦火の故国を励ます快挙",
+          "link": "https://mainichi.jp/articles/20251127/ddm/005/070/073000c",
+          "published": "2025/11/27 02:02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］アサヒを教訓にサイバー攻撃に備えを",
+          "link": "https://www.nikkei.com/article/DGXZQODK2775B0X21C25A1000000/",
+          "published": "2025年11月27日",
+          "paid": false
+        },
+        {
+          "title": "［社説］東大は未熟な統治を立て直せ",
+          "link": "https://www.nikkei.com/article/DGXZQODK278O30X21C25A1000000/",
+          "published": "2025年11月27日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【災害福祉チーム】早期の体制強化を（１１月２７日）",
+          "link": "https://www.minpo.jp/articles/-/51199",
+          "published": "2025/11/27 09:12",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "下野新聞",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.shimotsuke.co.jp/category/column-opinion-Editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【メディア芸術祭】本県独自の新機軸目指せ",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1275211",
+          "published": "2025/11/27",
+          "paid": false
+        },
+        {
+          "title": "【県庁前整備】県都にふさわしい施設を",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1237798",
+          "published": "2025/11/27",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "生活保護減額判決　全利用者への補償こそ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1227307.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年11月27日(木)  10:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "党首討論　答弁には慎重さも必要だ",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/735627",
+          "published": "2025/11/27",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説大分・大規模火災／防火対策 再点検したい",
+          "link": "https://webun.jp/articles/-/927084",
+          "published": "2025.11.27",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【入学金「二重払い」】家計負担の軽減に工夫を",
+          "link": "https://www.hokkoku.co.jp/articles/-/1941596",
+          "published": "11/27",
+          "paid": true
+        },
+        {
+          "title": "社説【福井県知事辞職へ】うぬぼれや慢心はないか",
+          "link": "https://www.hokkoku.co.jp/articles/-/1941595",
+          "published": "11/27",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　党首討論　政権担う力を競う場に",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/903277",
+          "published": "2025/11/27 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】党首討論　掘り下げには時間足りぬ",
+          "link": "https://www.topics.or.jp/articles/-/1344666",
+          "published": "2025/11/27 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【柏崎刈羽原発】見切り発車の再稼働容認",
+          "link": "https://www.kochinews.co.jp/article/detail/933475",
+          "published": "2025.11.27 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "宮崎日日新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.the-miyanichi.co.jp/column/syasetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "コメ政策の転換",
+          "link": "https://www.the-miyanichi.co.jp/column/syasetsu/395081.html",
+          "published": "2025.11.27｜社説",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］党首討論　時間短く議論深まらず",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1722156",
+          "published": "2025年11月27日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞石垣　君が代調査なし　内心の自由尊重は当然だ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4810491.html",
+          "published": "2025/11/27",
+          "paid": false
+        }
+      ]
     }
   ]
 }

@@ -23,6 +23,221 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "海図なき世界　AIに揺れる社会　主役が人であるためには",
+          "link": "https://mainichi.jp/articles/20260112/ddm/005/070/017000c",
+          "published": "2026/1/12 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］首相は早期の衆院解散で何を問うのか",
+          "link": "https://www.nikkei.com/article/DGXZQODK110FZ0R10C26A1000000/",
+          "published": "1月12日",
+          "paid": false
+        },
+        {
+          "title": "［社説］防災情報改定で命守る行動を",
+          "link": "https://www.nikkei.com/article/DGXZQODK086CV0Y6A100C2000000/",
+          "published": "1月12日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【着物リメーク】まちおこしに生かそう（１月１２日）",
+          "link": "https://www.minpo.jp/articles/-/50338",
+          "published": "2026/01/12 09:21",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "成人の日に　「私たち」を取り戻そう",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1238860.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2026年1月12日(月)  10:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "高額療養見直し　受診控えを招かぬように",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/760273",
+          "published": "1/12",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北日本新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://webun.jp/feature/special/%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説国際女性農業者年／活躍へ環境整備不可欠",
+          "link": "https://webun.jp/articles/-/951602",
+          "published": "2026.01.12",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【稲作にハーブ活用】害虫対策の負担軽減に",
+          "link": "https://www.hokkoku.co.jp/articles/-/1984606",
+          "published": "1/12",
+          "paid": true
+        },
+        {
+          "title": "社説【社会福祉会館移転】相談しやすい環境整備を",
+          "link": "https://www.hokkoku.co.jp/articles/-/1984605",
+          "published": "1/12",
+          "paid": true
+        },
+        {
+          "title": "社説【稲作にハーブ活用】害虫防止策の負担軽減に",
+          "link": "https://www.hokkoku.co.jp/articles/-/1984516",
+          "published": "1/12",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　首相が衆院解散検討　大義どこに見いだすか",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/929542",
+          "published": "2026/1/12 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【気候変動条約】打撃大きい米国の脱退",
+          "link": "https://www.kochinews.co.jp/article/detail/947918",
+          "published": "2026.01.12 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］成人の日に　平和をつくる担い手に",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1752155",
+          "published": "2026年1月12日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞首相、衆院解散検討　「党利党略」は許されない",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4949290.html",
+          "published": "2026/01/12",
+          "paid": false
+        }
+      ]
     }
   ]
 }

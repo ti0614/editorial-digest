@@ -23,6 +23,191 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "女川原発の再稼働　被災地の不安拭えたのか",
+          "link": "https://mainichi.jp/articles/20241031/ddm/005/070/078000c",
+          "published": "2024/10/31 02:02",
+          "paid": false
+        },
+        {
+          "title": "東証社員の株不正取引　「番人」がルール破るとは",
+          "link": "https://mainichi.jp/articles/20241031/ddm/005/070/075000c",
+          "published": "2024/10/31 02:02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］ロシアと北朝鮮があおる世界危機に警戒と抑止を",
+          "link": "https://www.nikkei.com/article/DGXZQODK312370R31C24A0000000/",
+          "published": "2024年10月31日",
+          "paid": false
+        },
+        {
+          "title": "［社説］県民が審判する兵庫・前知事の責任",
+          "link": "https://www.nikkei.com/article/DGXZQODK314RZ0R31C24A0000000/",
+          "published": "2024年10月31日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【ロボットサミット】県内の英知結集を（１０月３１日）",
+          "link": "https://www.minpo.jp/articles/-/54909",
+          "published": "2024/10/31 09:32",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "女川原発再稼働　不安拭う取り組み続けよ",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/501312",
+          "published": "2024/10/31",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　同性婚訴訟で再び「違憲」　最高裁の判断を待つな",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/671760",
+          "published": "2024/10/31 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "徳島新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.topics.or.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【社説】同性婚高裁判決　違憲を正す法整備急げ",
+          "link": "https://www.topics.or.jp/articles/-/1148814",
+          "published": "2024/10/31 5:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【衆院の女性最多】目標到達にはまだ遠い",
+          "link": "https://www.kochinews.co.jp/article/detail/800052",
+          "published": "2024.10.31 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］米兵性暴力に初勧告　加害者不処罰の終焉を",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1462575",
+          "published": "2024年10月31日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞女性差別撤廃委勧告　米兵性暴力の対策を急げ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-3601780.html",
+          "published": "2024/10/31",
+          "paid": false
+        }
+      ]
     }
   ]
 }

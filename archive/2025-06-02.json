@@ -23,6 +23,198 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "いわき信組の不正融資　金融庁も責任を免れない",
+          "link": "https://mainichi.jp/articles/20250602/ddm/005/070/013000c",
+          "published": "2025/6/2 02:02",
+          "paid": false
+        },
+        {
+          "title": "パンデミック条約採択　実効性高める国際協調を",
+          "link": "https://mainichi.jp/articles/20250602/ddm/005/070/014000c",
+          "published": "2025/6/2 02:02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］中小の賃上げ支援で補助金投入は疑問だ",
+          "link": "https://www.nikkei.com/article/DGXZQODK026YC0S5A600C2000000/",
+          "published": "2025年6月2日",
+          "paid": false
+        },
+        {
+          "title": "［社説］公安の「違法捜査」徹底検証を",
+          "link": "https://www.nikkei.com/article/DGXZQODK3074U0Q5A530C2000000/",
+          "published": "2025年6月2日",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "福島民報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.minpo.jp/subcategory/ronsetsu",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【綾瀬さんのガイド】ゴッホ展に新たな光（６月２日）",
+          "link": "https://www.minpo.jp/articles/-/53888",
+          "published": "2025/06/02 09:14",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "神奈川新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "教員の不適切指導　子どもの権利踏まえよ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1177060.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年6月2日(月)  09:30",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "千葉日報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.chibanippo.co.jp/serial",
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": []
+    },
+    {
+      "name": "新潟日報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.niigata-nippo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "兵庫情報漏えい　知事の証言なぜ違うのか",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/618820",
+          "published": "2025/6/2",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "岐阜新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.gifu-np.co.jp/search?fulltext=%E7%A4%BE%E8%AA%AC",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "旧安倍派の裏金",
+          "link": "https://www.gifu-np.co.jp/articles/-/547815",
+          "published": "2025年6月2日 05:00岐阜",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "山陰中央新報",
+      "category": "論説",
+      "tier": "regional",
+      "index_url": "https://www.sanin-chuo.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "論説　米政権とハーバード大対立　教育と自由の抑圧だ",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/791767",
+          "published": "2025/6/2 04:00",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【匿流対策の強化】垣根越え中核の摘発を",
+          "link": "https://www.kochinews.co.jp/article/detail/866431",
+          "published": "2025.06.02 05:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "沖縄タイムス",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.okinawatimes.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］公安捜査　高裁も違法　謝罪し第三者の検証を",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1595374",
+          "published": "2025年6月2日",
+          "paid": true
+        }
+      ]
+    },
+    {
+      "name": "琉球新報",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://ryukyushimpo.jp/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "＜社説＞与那国医師不在恐れ　住民福祉維持が最優先だ",
+          "link": "https://ryukyushimpo.jp/editorial/entry-4294680.html",
+          "published": "2025/06/02",
+          "paid": false
+        }
+      ]
     }
   ]
 }
