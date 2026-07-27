@@ -41,16 +41,16 @@ import re
 import time
 from collections import defaultdict
 from dataclasses import asdict
-from datetime import date
+from datetime import date, datetime
 from pathlib import Path
 from urllib.parse import urljoin
 
 import requests
 
-from extract import extract_items
+from extract import Item, extract_items
 from fetch import fetch_html
 from main import SourceResult, load_sources, process_source
-from pubdate import parse_published_date, today_jst
+from pubdate import JST, parse_published_date, today_jst, within_window
 from robots import RobotsChecker
 
 BACKFILL_WINDOW_DAYS = 21
@@ -185,6 +185,105 @@ def _fetch_with_pagination(
         )
 
 
+def _get_nested(d: dict, dotted_path: str):
+    """"a.b.c"形式のパスでネストした辞書から値を取り出す。"""
+    for key in dotted_path.split("."):
+        if not isinstance(d, dict):
+            return None
+        d = d.get(key)
+    return d
+
+
+def _fetch_json_items_with_pagination(
+    source: dict, reference_date: date, robots: RobotsChecker, window_days: int,
+    max_pages: int = MAX_PAGINATION_PAGES,
+) -> SourceResult:
+    """産経新聞（Fusion CMS）のように、ページ送り応答がHTMLですらなく構造化
+    JSON配列で返るサイト向け。extract_items（CSSセレクタでHTMLをパースする
+    前提）は使わず、JSON配列から直接Itemを組み立てる。1ページ目（index_url）
+    だけは通常通りHTMLとしてextract_itemsで取得し、2ページ目以降だけこの
+    方式に切り替える（1ページ目は別ウィジェット由来のため取得方法が異なる）。
+
+    pagination_offset_base/pagination_offset_stepでoffsetを組み立てる
+    （offset = base + (page-2)*step）。産経新聞は一覧ページ本体が既に
+    pagination_offset_base件（先頭のウィジェット分）を表示済みで、JSON API
+    はその直後から返す設計になっている（サイト自身の埋め込み設定
+    feedOffset値と一致することを確認済み）。
+    """
+    name = source["name"]
+    index_url = source["index_url"]
+    category = source.get("category", "社説")
+    tier = source.get("tier", "regional")
+    unavailable_reason = source.get("unavailable_reason")
+
+    if not robots.allows(index_url):
+        return SourceResult(
+            name=name, category=category, tier=tier, index_url=index_url,
+            skipped_by_robots=True, unavailable_reason=unavailable_reason,
+        )
+
+    items = []
+    seen_titles: set[str] = set()
+    page = 1
+    try:
+        while page <= max_pages:
+            if page == 1:
+                html = _fetch_html_with_retry(index_url)
+                page_items = extract_items(html, index_url, source, reference_date, window_days=window_days)
+            else:
+                offset = source.get("pagination_offset_base", 0) + (page - 2) * source.get("pagination_offset_step", 0)
+                url = source["pagination_json_url_template"].format(offset=offset)
+                if not robots.allows(url):
+                    break
+                try:
+                    raw = _fetch_html_with_retry(url)
+                except requests.HTTPError as exc:
+                    if exc.response is not None and exc.response.status_code == 404:
+                        break
+                    raise
+                data = json.loads(raw)
+                elements = _get_nested(data, source["pagination_json_items_path"]) or []
+                page_items = []
+                for el in elements:
+                    title = _get_nested(el, source["pagination_json_title_field"])
+                    link = _get_nested(el, source["pagination_json_link_field"])
+                    published = _get_nested(el, source["pagination_json_date_field"])
+                    if not title or not link:
+                        continue
+                    link = urljoin(index_url, link)
+                    if published:
+                        # UTC ISO8601 -> JST変換（<time>のdatetime属性のUTC対応と同じ扱い）
+                        try:
+                            dt = datetime.fromisoformat(published.replace("Z", "+00:00"))
+                            if dt.tzinfo is not None:
+                                dt = dt.astimezone(JST)
+                            published = f"{dt.year}/{dt.month}/{dt.day} {dt.hour}:{dt.minute:02d}"
+                        except ValueError:
+                            pass
+                    if not within_window(published, reference_date, window_days=window_days):
+                        continue
+                    page_items.append(Item(title=title, link=link, published=published, paid=False))
+                if not elements:
+                    break
+            new_items = [it for it in page_items if it.title not in seen_titles]
+            if not new_items:
+                break
+            seen_titles.update(it.title for it in new_items)
+            items.extend(new_items)
+            page += 1
+            if page <= max_pages:
+                time.sleep(robots.interval_after(index_url))
+        return SourceResult(
+            name=name, category=category, tier=tier, index_url=index_url,
+            items=items, unavailable_reason=unavailable_reason,
+        )
+    except Exception as exc:  # noqa: BLE001 - 1ソースの失敗で全体を止めない
+        return SourceResult(
+            name=name, category=category, tier=tier, index_url=index_url,
+            items=items, error=str(exc), unavailable_reason=unavailable_reason,
+        )
+
+
 def _split_by_date(results: list[SourceResult], reference_date: date) -> dict[date, list[SourceResult]]:
     """各SourceResultのitemsを実際の記事日付で日付ごとに振り分け直す。
 
@@ -250,7 +349,9 @@ def main() -> int:
 
     results: list[SourceResult] = []
     for i, source in enumerate(sources):
-        if source.get("pagination_param") or source.get("pagination_path_template"):
+        if source.get("pagination_json_url_template"):
+            result = _fetch_json_items_with_pagination(source, reference_date, robots, window_days=args.window_days, max_pages=args.max_pages)
+        elif source.get("pagination_param") or source.get("pagination_path_template"):
             result = _fetch_with_pagination(source, reference_date, robots, window_days=args.window_days, max_pages=args.max_pages)
         else:
             result = process_source(source, reference_date, robots, fetch_times=False, window_days=args.window_days)

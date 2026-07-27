@@ -101,8 +101,15 @@ sources:
     title_selector: "h3.headline"
     link_selector: "h3.headline a"
     date_selector: "time.storycard__time"
+    pagination_json_url_template: "https://www.sankei.com/pf/api/v3/content/fetch/story-feed-by-sections?query=%7B%22includeSections%22%3A%22/column/editorial%22%2C%22paywallTypes%22%3A%22free%2Cfree_members%2Cpaid_members%22%2C%22feedSize%22%3A30%2C%22feedOffset%22%3A{offset}%7D&d=1167&_website=sankei"
+    pagination_offset_base: 4
+    pagination_offset_step: 30
+    pagination_json_items_path: content_elements
+    pagination_json_title_field: headlines.basic
+    pagination_json_link_field: websites.sankei.website_url
+    pagination_json_date_field: display_date
     verified: true
-    note: "産経では社説にあたるコラムは「主張」という名称。旧URL（/newstopics/editorial/）は廃止されており、正しくは /column/editorial/ 。article.storycard はページ内の「おすすめ記事」枠（3カラムグリッド）にも使われるため、本文一覧のコンテナ（col-12の1カラム部分）に絞り込んでいる。"
+    note: "産経では社説にあたるコラムは「主張」という名称。旧URL（/newstopics/editorial/）は廃止されており、正しくは /column/editorial/ 。article.storycard はページ内の「おすすめ記事」枠（3カラムグリッド）にも使われるため、本文一覧のコンテナ（col-12の1カラム部分）に絞り込んでいる。一覧ページはFusion CMS（Arc Publishing）製で、「もっと見る」相当のページ送りはHTMLではなくJSON配列を返すcontent-api（/pf/api/v3/content/fetch/story-feed-by-sections）。一覧ページ本体は別ウィジェット由来の4件のみを表示しており、JSON APIのfeedOffsetはページ埋め込みのfeedConfigで4から始まる設定になっている（本体の直後から続くことを記事IDで確認済み、隙間なし）。feedSize=30刻みでoffsetを進める。"
 
   # ---- 地方紙・専門紙（順次拡充） ----
   - name: 東京新聞
