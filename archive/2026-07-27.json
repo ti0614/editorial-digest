@@ -179,7 +179,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "社説：所得連動の給付案　財源と一体の検討不可欠だ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1759338",
+          "published": "2026/7/27 16:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "神戸新聞",
