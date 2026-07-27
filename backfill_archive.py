@@ -46,7 +46,7 @@ import json
 import re
 import time
 from collections import defaultdict
-from datetime import date, datetime
+from datetime import date
 from pathlib import Path
 from urllib.parse import urljoin
 
@@ -55,7 +55,7 @@ import requests
 from extract import Item, extract_items
 from fetch import fetch_html
 from main import SourceResult, load_sources, process_source, source_status_label, write_json
-from pubdate import JST, parse_published_date, today_jst, within_window
+from pubdate import parse_iso8601_utc, parse_published_date, today_jst, within_window
 from robots import RobotsChecker
 
 BACKFILL_WINDOW_DAYS = 21
@@ -258,13 +258,9 @@ def _fetch_json_items_with_pagination(
                     link = urljoin(index_url, link)
                     if published:
                         # UTC ISO8601 -> JST変換（<time>のdatetime属性のUTC対応と同じ扱い）
-                        try:
-                            dt = datetime.fromisoformat(published.replace("Z", "+00:00"))
-                            if dt.tzinfo is not None:
-                                dt = dt.astimezone(JST)
+                        dt = parse_iso8601_utc(published)
+                        if dt is not None:
                             published = f"{dt.year}/{dt.month}/{dt.day} {dt.hour}:{dt.minute:02d}"
-                        except ValueError:
-                            pass
                     if not within_window(published, reference_date, window_days=window_days):
                         continue
                     page_items.append(Item(title=title, link=link, published=published, paid=False))
