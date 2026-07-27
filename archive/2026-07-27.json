@@ -59,13 +59,13 @@
         {
           "title": "日本の北極政策　航路と資源の確保を戦略的に",
           "link": "https://www.yomiuri.co.jp/editorial/20260726-GYT1T00189/",
-          "published": "05:00",
+          "published": "2026/7/27 5:00",
           "paid": false
         },
         {
           "title": "山岳遭難最多　クマの出没情報に注意したい",
           "link": "https://www.yomiuri.co.jp/editorial/20260726-GYT1T00188/",
-          "published": "05:00",
+          "published": "2026/7/27 5:00",
           "paid": false
         }
       ]
@@ -92,13 +92,13 @@
         {
           "title": "＜主張＞クールジャパン　失敗原因の分析徹底せよ",
           "link": "https://www.sankei.com/article/20260727-Y2JG5VCXINNVPLUIFDPPG5ZUBM/",
-          "published": "2026/7/27 05:01",
+          "published": "2026/7/27 5:01",
           "paid": false
         },
         {
           "title": "＜主張＞防災庁の設置　強い指導力で減災実現を",
           "link": "https://www.sankei.com/article/20260727-I3LTGD3JI5NLLNHYB2ARR5XSSE/",
-          "published": "2026/7/27 05:00",
+          "published": "2026/7/27 5:00",
           "paid": false
         }
       ]
@@ -344,7 +344,7 @@
       "category": "論説",
       "tier": "regional",
       "index_url": "https://www.chibanippo.co.jp/serial",
-      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
+      "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
       "items": [
@@ -465,7 +465,7 @@
         {
           "title": "地方税の偏在",
           "link": "https://www.gifu-np.co.jp/articles/-/743746",
-          "published": "2026年7月27日 05:00岐阜",
+          "published": "2026/7/27 5:00",
           "paid": true
         }
       ]
@@ -519,7 +519,7 @@
         {
           "title": "論説　やまゆり園事件１０年　内なる差別に向き合う",
           "link": "https://www.sanin-chuo.co.jp/articles/-/1049014",
-          "published": "2026/7/27 04:00",
+          "published": "2026/7/27 4:00",
           "paid": true
         }
       ]
