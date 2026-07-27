@@ -76,7 +76,7 @@
         {
           "title": "【水産物輸出】販路広げる先進事例に（８月２７日）",
           "link": "https://www.minpo.jp/articles/-/53265",
-          "published": "2025/08/27 09:11",
+          "published": "2025/8/27 9:11",
           "paid": false
         }
       ]
@@ -188,7 +188,7 @@
         {
           "title": "論説　萩生田議員秘書に罰金刑　道義的責任は免れない",
           "link": "https://www.sanin-chuo.co.jp/articles/-/846628",
-          "published": "2025/8/27 04:00",
+          "published": "2025/8/27 4:00",
           "paid": true
         }
       ]
@@ -321,6 +321,35 @@
           "link": "https://www.sankei.com/article/20250827-XWDFBRNFAJKCJHAJEGMQCDOFYU/",
           "published": "2025/8/27 5:00",
           "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【自治体病院の赤字】地域医療の崩壊防がねば",
+          "link": "https://www.hokkoku.co.jp/articles/-/1848672",
+          "published": "2025/8/27 5:00",
+          "paid": true
+        },
+        {
+          "title": "社説【ビル解体費の支援】所有者は建て替えの決断を",
+          "link": "https://www.hokkoku.co.jp/articles/-/1848671",
+          "published": "2025/8/27 5:00",
+          "paid": true
+        },
+        {
+          "title": "社説【ビル解体費の支援】所有者は建て替え決断を",
+          "link": "https://www.hokkoku.co.jp/articles/-/1848642",
+          "published": "2025/8/27 5:00",
+          "paid": true
         }
       ]
     }

@@ -70,7 +70,7 @@
         {
           "title": "【暫定税率廃止法案】幅広く予算の議論を（８月９日）",
           "link": "https://www.minpo.jp/articles/-/53357",
-          "published": "2025/08/09 09:09",
+          "published": "2025/8/9 9:09",
           "paid": false
         }
       ]
@@ -182,7 +182,7 @@
         {
           "title": "論説　石破降ろし激化　国民不在の内紛に幕を",
           "link": "https://www.sanin-chuo.co.jp/articles/-/836586",
-          "published": "2025/8/9 04:00",
+          "published": "2025/8/9 4:00",
           "paid": true
         }
       ]
@@ -309,6 +309,35 @@
           "link": "https://www.sankei.com/article/20250809-XVUL4KN4ARO47ID5U7I3HLT24I/",
           "published": "2025/8/9 5:00",
           "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【両院議員総会】総裁選前倒し要求は当然",
+          "link": "https://www.hokkoku.co.jp/articles/-/1832757",
+          "published": "2025/8/9 5:00",
+          "paid": true
+        },
+        {
+          "title": "社説【甲子園に未来富山】新たなスタイルで歴史築け",
+          "link": "https://www.hokkoku.co.jp/articles/-/1832756",
+          "published": "2025/8/9 5:00",
+          "paid": true
+        },
+        {
+          "title": "社説【加賀料理保存会】食と器の総合芸術ＰＲを",
+          "link": "https://www.hokkoku.co.jp/articles/-/1832683",
+          "published": "2025/8/9 5:00",
+          "paid": true
         }
       ]
     }

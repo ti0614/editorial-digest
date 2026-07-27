@@ -66,7 +66,14 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "地域の未来像、どう描くか　いすみ鉄道、脱線事故から１年　【論説】",
+          "link": "https://www.chibanippo.co.jp/articles/1513602",
+          "published": "2025/10/19 5:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "新潟日報",
@@ -154,7 +161,7 @@
         {
           "title": "論説　サイバー攻撃／“減災”への備えが急務",
           "link": "https://www.sanin-chuo.co.jp/articles/-/879653",
-          "published": "2025/10/19 04:00",
+          "published": "2025/10/19 4:00",
           "paid": true
         }
       ]

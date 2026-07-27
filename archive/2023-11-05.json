@@ -67,7 +67,7 @@
         {
           "title": "論説　ガザ情勢と日本外交　人道危機回避へ全力を",
           "link": "https://www.sanin-chuo.co.jp/articles/-/477382",
-          "published": "2023/11/5 04:00",
+          "published": "2023/11/5 4:00",
           "paid": true
         }
       ]
@@ -136,6 +136,92 @@
           "title": "【社説】拡大する獣害　人と農作物を守り共存を",
           "link": "https://www.nishinippon.co.jp/item/1143269/",
           "published": "2023/11/05 06:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "大阪万博の会場建設費　安易な増額は認められぬ",
+          "link": "https://mainichi.jp/articles/20231105/ddm/005/070/044000c",
+          "published": "2023/11/5 02:01",
+          "paid": false
+        },
+        {
+          "title": "神宮外苑の再開発　環境守るための見直しを",
+          "link": "https://mainichi.jp/articles/20231105/ddm/005/070/042000c",
+          "published": "2023/11/5 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］証券会社は個人への多様なサービス競え",
+          "link": "https://www.nikkei.com/article/DGXZQODK024KD0S3A101C2000000/",
+          "published": "2023/11/5 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］楽天は携帯第4勢力の役割を",
+          "link": "https://www.nikkei.com/article/DGXZQODK02A070S3A101C2000000/",
+          "published": "2023/11/5 19:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【主張】世界津波の日　「注意報で避難」を原則に",
+          "link": "https://www.sankei.com/article/20231105-6W4XIK5ZPZIXXD7CFTR4C4ZTUI/",
+          "published": "2023/11/5 5:00",
+          "paid": false
+        },
+        {
+          "title": "【主張】日比首脳会談　準同盟級の関係構築急げ",
+          "link": "https://www.sankei.com/article/20231105-SRFBXKNDLJLZHAAFMHB5S37TWY/",
+          "published": "2023/11/5 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【海自のセクハラ】被害者に寄り添う対応を",
+          "link": "https://www.kochinews.co.jp/article/detail/694133",
+          "published": "2023.11.05 08:00",
           "paid": false
         }
       ]

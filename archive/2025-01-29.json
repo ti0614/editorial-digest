@@ -82,7 +82,7 @@
         {
           "title": "【相馬のトラフグ】一大産地化に期待（１月２９日）",
           "link": "https://www.minpo.jp/articles/-/54560",
-          "published": "2025/01/29 09:27",
+          "published": "2025/1/29 9:27",
           "paid": false
         }
       ]
@@ -112,7 +112,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "横浜市予算案　人口減対策に新発想を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1143992.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年1月29日(水)  09:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -170,7 +177,7 @@
         {
           "title": "論説　フジ社長・会長辞任　再生への道は険しい",
           "link": "https://www.sanin-chuo.co.jp/articles/-/720536",
-          "published": "2025/1/29 04:00",
+          "published": "2025/1/29 4:00",
           "paid": true
         }
       ]

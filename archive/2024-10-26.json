@@ -76,7 +76,7 @@
         {
           "title": "【２０２４衆院選　あす投票】貴重な権利必ず行使を（１０月２６日）",
           "link": "https://www.minpo.jp/articles/-/54968",
-          "published": "2024/10/26 09:29",
+          "published": "2024/10/26 9:29",
           "paid": false
         }
       ]
@@ -106,7 +106,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "女性の健康課題　生きやすい社会へ一歩",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1120545.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年10月26日(土)  09:30",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -164,7 +171,7 @@
         {
           "title": "論説　山陰発　衆院選あす投開票　課題改善へ　まずは一票",
           "link": "https://www.sanin-chuo.co.jp/articles/-/668842",
-          "published": "2024/10/26 04:00",
+          "published": "2024/10/26 4:00",
           "paid": true
         }
       ]

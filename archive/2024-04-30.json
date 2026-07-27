@@ -36,7 +36,7 @@
         {
           "title": "【新紙幣】金融教育充実の機会に（４月３０日）",
           "link": "https://www.minpo.jp/articles/-/56397",
-          "published": "2024/04/30 08:52",
+          "published": "2024/4/30 8:52",
           "paid": false
         }
       ]
@@ -49,7 +49,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "横浜市立の同一校で２人自死　対応を抜本的に改めよ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1074514.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年4月30日(火)  10:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -107,7 +114,7 @@
         {
           "title": "論説　スマホ新法案　巨大ＩＴの専横許すな",
           "link": "https://www.sanin-chuo.co.jp/articles/-/567475",
-          "published": "2024/4/30 04:00",
+          "published": "2024/4/30 4:00",
           "paid": true
         }
       ]
@@ -216,6 +223,40 @@
           "title": "＜主張＞クマ捕獲交付金　殺処分減らす対応徹底を",
           "link": "https://www.sankei.com/article/20240430-NDXGNH6TIFNQRFCQE55NLLLNCI/",
           "published": "2024/4/30 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "失われた30年の教訓　人材生かす経済に転換を",
+          "link": "https://mainichi.jp/articles/20240430/ddm/005/070/024000c",
+          "published": "2024/4/30 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］防災力の強化促す火山本部を",
+          "link": "https://www.nikkei.com/article/DGXZQOCD09B3Y0Z00C24A4000000/",
+          "published": "2024/4/30 19:00",
           "paid": false
         }
       ]

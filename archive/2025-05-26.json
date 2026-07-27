@@ -82,7 +82,7 @@
         {
           "title": "【ＪＲ再編】被災地再興の原動力に（５月２６日）",
           "link": "https://www.minpo.jp/articles/-/53922",
-          "published": "2025/05/26 09:09",
+          "published": "2025/5/26 9:09",
           "paid": false
         }
       ]
@@ -112,7 +112,14 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "防除計画改定、半減に期待　カミツキガメ捕獲事業　【論説】",
+          "link": "https://www.chibanippo.co.jp/articles/1446216",
+          "published": "2025/5/26 5:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "新潟日報",
@@ -160,7 +167,7 @@
         {
           "title": "論説　尖閣領空侵犯　緊張緩和へ双方自重を",
           "link": "https://www.sanin-chuo.co.jp/articles/-/787444",
-          "published": "2025/5/26 04:00",
+          "published": "2025/5/26 4:00",
           "paid": true
         }
       ]

@@ -82,7 +82,7 @@
         {
           "title": "【ロボットサミット】県内の英知結集を（１０月３１日）",
           "link": "https://www.minpo.jp/articles/-/54909",
-          "published": "2024/10/31 09:32",
+          "published": "2024/10/31 9:32",
           "paid": false
         }
       ]
@@ -95,7 +95,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "女川原発再稼働　推進に不安はないのか",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1122043.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年10月31日(木)  09:20",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -136,7 +143,7 @@
         {
           "title": "論説　同性婚訴訟で再び「違憲」　最高裁の判断を待つな",
           "link": "https://www.sanin-chuo.co.jp/articles/-/671760",
-          "published": "2024/10/31 04:00",
+          "published": "2024/10/31 4:00",
           "paid": true
         }
       ]

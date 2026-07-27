@@ -76,7 +76,7 @@
         {
           "title": "【人口減少対策】官民一体で成果を（１月７日）",
           "link": "https://www.minpo.jp/articles/-/54634",
-          "published": "2025/01/07 09:28",
+          "published": "2025/1/7 9:28",
           "paid": false
         }
       ]
@@ -106,7 +106,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "２０２５年外交展望　核廃絶に向けた元年に",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1138516.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年1月7日(火)  09:40",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -164,7 +171,7 @@
         {
           "title": "論説　党首の年頭会見　実行力こそが問われる",
           "link": "https://www.sanin-chuo.co.jp/articles/-/708357",
-          "published": "2025/1/7 04:00",
+          "published": "2025/1/7 4:00",
           "paid": true
         }
       ]

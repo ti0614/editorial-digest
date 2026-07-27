@@ -70,7 +70,7 @@
         {
           "title": "【２０２５参院選　与党議席大幅減】不安定な政治に懸念（７月２１日）",
           "link": "https://www.minpo.jp/articles/-/53488",
-          "published": "2025/07/21 09:15",
+          "published": "2025/7/21 9:15",
           "paid": false
         }
       ]
@@ -100,7 +100,14 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "被害阻止へ県民の“目”必要　クビアカツヤカミキリ千葉県内確認　【論説】",
+          "link": "https://www.chibanippo.co.jp/articles/1472204",
+          "published": "2025/7/21 5:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "新潟日報",
@@ -148,7 +155,7 @@
         {
           "title": "論説　参院選を終えて　地方再生に力尽くして",
           "link": "https://www.sanin-chuo.co.jp/articles/-/824032",
-          "published": "2025/7/21 04:00",
+          "published": "2025/7/21 4:00",
           "paid": true
         }
       ]

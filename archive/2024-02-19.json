@@ -36,7 +36,7 @@
         {
           "title": "【投資への助言】地方での人材確保急げ（２月１９日）",
           "link": "https://www.minpo.jp/articles/-/56827",
-          "published": "2024/02/19 09:01",
+          "published": "2024/2/19 9:01",
           "paid": false
         }
       ]
@@ -49,7 +49,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "共に学ぶ教育　実効性ある施策展開を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1057802.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年2月19日(月)  09:45",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -107,7 +114,7 @@
         {
           "title": "論説　Ｈ３打ち上げ成功　国内ロケット開発に光",
           "link": "https://www.sanin-chuo.co.jp/articles/-/530809",
-          "published": "2024/2/19 04:00",
+          "published": "2024/2/19 4:00",
           "paid": true
         }
       ]
@@ -199,6 +206,52 @@
           "title": "＜主張＞文献調査の報告書　次のステップに進みたい",
           "link": "https://www.sankei.com/article/20240219-S72WEPYBXVJFNEG67XYTWZEBPY/",
           "published": "2024/2/19 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "GDP世界4位に転落　暮らしの立て直し急ぐ時",
+          "link": "https://mainichi.jp/articles/20240219/ddm/005/070/016000c",
+          "published": "2024/2/19 02:00",
+          "paid": false
+        },
+        {
+          "title": "「セクシー田中さん」問題　原作者の権利守られたか",
+          "link": "https://mainichi.jp/articles/20240219/ddm/005/070/014000c",
+          "published": "2024/2/19 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］習近平政権は外資の中国離れを侮るな",
+          "link": "https://www.nikkei.com/article/DGXZQODK181QI0Y4A210C2000000/",
+          "published": "2024/2/19 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］肥満症薬は「やせ薬」ではない",
+          "link": "https://www.nikkei.com/article/DGXZQODK194AO0Z10C24A2000000/",
+          "published": "2024/2/19 19:00",
           "paid": false
         }
       ]

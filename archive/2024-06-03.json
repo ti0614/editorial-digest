@@ -36,7 +36,7 @@
         {
           "title": "【郡山開発規制緩和】均衡ある発展目指せ（６月３日）",
           "link": "https://www.minpo.jp/articles/-/56208",
-          "published": "2024/06/03 08:51",
+          "published": "2024/6/3 8:51",
           "paid": false
         }
       ]
@@ -49,7 +49,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "街の本屋さん　魅力伝えて再興を期待",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1082822.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年6月3日(月)  09:35",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -59,7 +66,20 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "認識を共有し防災力高めよ　孤立可能性集落５３２カ所　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1232675",
+          "published": "2024/6/3 5:00",
+          "paid": true
+        },
+        {
+          "title": "健全な成長と豊かな人生へ　６月は「食育月間」　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1232674",
+          "published": "2024/6/3 5:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "新潟日報",
@@ -107,7 +127,7 @@
         {
           "title": "論説　中電原子力安全文化の日　欠かせない 安心と信頼",
           "link": "https://www.sanin-chuo.co.jp/articles/-/585787",
-          "published": "2024/6/3 04:00",
+          "published": "2024/6/3 4:00",
           "paid": true
         }
       ]
@@ -199,6 +219,52 @@
           "title": "＜主張＞ＷＨＯ総会　感染症対策の条約急務だ",
           "link": "https://www.sankei.com/article/20240603-O7GVHDXQDJJVBPBAYOQTQL4HTU/",
           "published": "2024/6/3 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "年金制度の見直し　将来不安に応える議論を",
+          "link": "https://mainichi.jp/articles/20240603/ddm/005/070/011000c",
+          "published": "2024/6/3 02:00",
+          "paid": false
+        },
+        {
+          "title": "AI規制の法整備　高まるリスクへ対策急務",
+          "link": "https://mainichi.jp/articles/20240603/ddm/005/070/010000c",
+          "published": "2024/6/3 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］天安門35年、中国は政治参画の拡大を",
+          "link": "https://www.nikkei.com/article/DGXZQOCD032DW0T00C24A6000000/",
+          "published": "2024/6/3 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］脅威下で日韓防衛協力を前に",
+          "link": "https://www.nikkei.com/article/DGXZQODK033OW0T00C24A6000000/",
+          "published": "2024/6/3 19:00",
           "paid": false
         }
       ]

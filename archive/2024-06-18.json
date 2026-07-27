@@ -36,7 +36,7 @@
         {
           "title": "【いわきの公共施設】対話踏まえ存廃判断を（６月１８日）",
           "link": "https://www.minpo.jp/articles/-/56120",
-          "published": "2024/06/18 08:51",
+          "published": "2024/6/18 8:51",
           "paid": false
         }
       ]
@@ -49,7 +49,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "エネルギー基本計画　再エネ拡大を優先せよ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1086670.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年6月18日(火)  11:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -107,7 +114,7 @@
         {
           "title": "論説　ジェンダー格差１１８位　男だらけの組織変えよ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/594124",
-          "published": "2024/6/18 04:00",
+          "published": "2024/6/18 4:00",
           "paid": true
         }
       ]
@@ -216,6 +223,52 @@
           "title": "＜主張＞皇位継承と改憲　国会延長で成果を挙げよ",
           "link": "https://www.sankei.com/article/20240618-XVWDCWZLC5P7LFG7OPAYKJEWJI/",
           "published": "2024/6/18 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "ウクライナ平和サミット　「公正な停戦」への努力を",
+          "link": "https://mainichi.jp/articles/20240618/ddm/005/070/060000c",
+          "published": "2024/6/18 02:00",
+          "paid": false
+        },
+        {
+          "title": "政治資金の改正法案　お粗末すぎるデジタル化",
+          "link": "https://mainichi.jp/articles/20240618/ddm/005/070/057000c",
+          "published": "2024/6/18 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］「指示権」は自治体の協力得られる運用に",
+          "link": "https://www.nikkei.com/article/DGXZQODK181PL0Y4A610C2000000/",
+          "published": "2024/6/18 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］南ア新政権は民主政の力示せ",
+          "link": "https://www.nikkei.com/article/DGXZQODK185HZ0Y4A610C2000000/",
+          "published": "2024/6/18 19:00",
           "paid": false
         }
       ]

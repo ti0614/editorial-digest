@@ -36,7 +36,7 @@
         {
           "title": "【介護休業】制度活用し離職防止を（６月１４日）",
           "link": "https://www.minpo.jp/articles/-/56145",
-          "published": "2024/06/14 08:50",
+          "published": "2024/6/14 8:50",
           "paid": false
         }
       ]
@@ -49,7 +49,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "党首討論　不信払拭へ真剣勝負を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1085709.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年6月14日(金)  10:10",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -107,7 +114,7 @@
         {
           "title": "論説　動きだす国スポ改革　課題解消し適正運営を",
           "link": "https://www.sanin-chuo.co.jp/articles/-/591983",
-          "published": "2024/6/14 04:00",
+          "published": "2024/6/14 4:00",
           "paid": true
         }
       ]
@@ -216,6 +223,52 @@
           "title": "＜主張＞ＪＰドラゴン逮捕　特殊詐欺捜査の新局面だ",
           "link": "https://www.sankei.com/article/20240614-QPK5ORYJM5IPPK22Y5Z37YPNTQ/",
           "published": "2024/6/14 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "アパレルの環境負荷　大量消費・廃棄を見直す時",
+          "link": "https://mainichi.jp/articles/20240614/ddm/005/070/099000c",
+          "published": "2024/6/14 02:01",
+          "paid": false
+        },
+        {
+          "title": "中国海警局の巡視強化　緊張高める行動の自制を",
+          "link": "https://mainichi.jp/articles/20240614/ddm/005/070/098000c",
+          "published": "2024/6/14 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］日銀は国債購入の減額を長期的な視野で",
+          "link": "https://www.nikkei.com/article/DGXZQODK144EF0U4A610C2000000/",
+          "published": "2024/6/14 19:20",
+          "paid": false
+        },
+        {
+          "title": "［社説］鹿児島県警は説明を尽くせ",
+          "link": "https://www.nikkei.com/article/DGXZQODK143IQ0U4A610C2000000/",
+          "published": "2024/6/14 19:10",
           "paid": false
         }
       ]

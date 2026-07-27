@@ -59,7 +59,7 @@
         {
           "title": "【個別避難計画】弱者支援へ対応急務（９月１０日）",
           "link": "https://www.minpo.jp/articles/-/55560",
-          "published": "2024/09/10 09:23",
+          "published": "2024/9/10 9:23",
           "paid": false
         }
       ]
@@ -72,7 +72,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "農業基本計画改定　具体策の議論を深めて",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1109005.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年9月10日(火)  10:30",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -130,7 +137,7 @@
         {
           "title": "論説　山陰発　パリ・パラリンピック閉幕　三木選手の活躍　励みに",
           "link": "https://www.sanin-chuo.co.jp/articles/-/643058",
-          "published": "2024/9/10 04:00",
+          "published": "2024/9/10 4:00",
           "paid": true
         }
       ]
@@ -233,6 +240,29 @@
           "title": "＜主張＞パリパラ閉幕　主役は歓声と喝采だった　日本は再招致をあきらめるな",
           "link": "https://www.sankei.com/article/20240910-OQE732REAVO3ZPUGXGW5VWJJEM/",
           "published": "2024/9/10 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］医師の偏在是正には規制的手法も要る",
+          "link": "https://www.nikkei.com/article/DGXZQOCD094HO0Z00C24A9000000/",
+          "published": "2024/9/10 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］被爆体験者の幅広い救済を",
+          "link": "https://www.nikkei.com/article/DGXZQODK104DD0Q4A910C2000000/",
+          "published": "2024/9/10 19:00",
           "paid": false
         }
       ]

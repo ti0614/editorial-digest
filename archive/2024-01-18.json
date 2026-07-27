@@ -13,7 +13,7 @@
         {
           "title": "【リチウム蓄電池】正しい利用と処分を（１月１８日）",
           "link": "https://www.minpo.jp/articles/-/57014",
-          "published": "2024/01/18 08:52",
+          "published": "2024/1/18 8:52",
           "paid": false
         }
       ]
@@ -26,7 +26,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "横浜国立大学新キャンパス　地域に開かれた拠点に",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1050096.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年1月18日(木)  10:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -84,7 +91,7 @@
         {
           "title": "論説　震災で予備費倍増　財政面の工夫は十分か",
           "link": "https://www.sanin-chuo.co.jp/articles/-/514843",
-          "published": "2024/1/18 04:00",
+          "published": "2024/1/18 4:00",
           "paid": true
         }
       ]
@@ -187,6 +194,52 @@
           "title": "＜主張＞原子力発電　脱炭素活用が国際潮流だ　柏崎刈羽の稼働を確実に",
           "link": "https://www.sankei.com/article/20240118-NEYKTQODEJLNNK5EJ7SVWA6IXA/",
           "published": "2024/1/18 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "災害と通信インフラ　命綱守る取り組みさらに",
+          "link": "https://mainichi.jp/articles/20240118/ddm/005/070/058000c",
+          "published": "2024/1/18 02:01",
+          "paid": false
+        },
+        {
+          "title": "北朝鮮ミサイルの拡散　脅威抑え込む対応が急務",
+          "link": "https://mainichi.jp/articles/20240118/ddm/005/070/056000c",
+          "published": "2024/1/18 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］JALや日鉄　多彩なトップに期待する",
+          "link": "https://www.nikkei.com/article/DGXZQODK186C20Y4A110C2000000/",
+          "published": "2024/1/18 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］「忘れられた紛争」を放置するな",
+          "link": "https://www.nikkei.com/article/DGXZQODK116NO0R10C24A1000000/",
+          "published": "2024/1/18 19:00",
           "paid": false
         }
       ]

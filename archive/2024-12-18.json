@@ -82,7 +82,7 @@
         {
           "title": "【再改正案成立へ】政治改革なお途上だ（１２月１８日）",
           "link": "https://www.minpo.jp/articles/-/54714",
-          "published": "2024/12/18 09:45",
+          "published": "2024/12/18 9:45",
           "paid": false
         }
       ]
@@ -112,7 +112,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "３号被保険者制度　制度の本質から議論を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1134358.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年12月18日(水)  09:57",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -170,7 +177,7 @@
         {
           "title": "論説　規正法再改正へ　自民の譲歩は民意の力",
           "link": "https://www.sanin-chuo.co.jp/articles/-/698653",
-          "published": "2024/12/18 04:00",
+          "published": "2024/12/18 4:00",
           "paid": true
         }
       ]

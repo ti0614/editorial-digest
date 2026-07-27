@@ -76,7 +76,7 @@
         {
           "title": "【首相の商品券配布】政治不信深める愚行（３月１７日）",
           "link": "https://www.minpo.jp/articles/-/54332",
-          "published": "2025/03/17 09:27",
+          "published": "2025/3/17 9:27",
           "paid": false
         }
       ]
@@ -106,7 +106,14 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "知事選踏まえ的確な施策を　問われる県の役割　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1414447",
+          "published": "2025/3/17 5:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "新潟日報",
@@ -154,7 +161,7 @@
         {
           "title": "論説　春闘集中回答　内需拡大の大波起こせ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/746719",
-          "published": "2025/3/17 04:00",
+          "published": "2025/3/17 4:00",
           "paid": true
         }
       ]

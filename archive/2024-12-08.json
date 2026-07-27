@@ -55,7 +55,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "企業・団体献金禁止　決着先延ばしは許さぬ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1131747.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年12月8日(日)  09:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -65,7 +72,20 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "疑問への丁寧な説明、発信を　県宿泊税導入へ　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1312477",
+          "published": "2024/12/8 5:00",
+          "paid": true
+        },
+        {
+          "title": "かじ取り役選び、冷静活発に　千葉市長選、告示まで３カ月　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1312476",
+          "published": "2024/12/8 5:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "新潟日報",
@@ -113,7 +133,7 @@
         {
           "title": "論説　在職老齢年金　撤廃は筋だが財源課題",
           "link": "https://www.sanin-chuo.co.jp/articles/-/693317",
-          "published": "2024/12/8 04:00",
+          "published": "2024/12/8 4:00",
           "paid": true
         }
       ]

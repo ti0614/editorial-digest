@@ -76,7 +76,7 @@
         {
           "title": "【県の新年度予算案】官民の創意結集を（２月５日）",
           "link": "https://www.minpo.jp/articles/-/54532",
-          "published": "2025/02/05 09:21",
+          "published": "2025/2/5 9:21",
           "paid": false
         }
       ]
@@ -106,7 +106,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "核禁止条約会議　オブザーバー参加せよ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1145792.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年2月5日(水)  09:40",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -164,7 +171,7 @@
         {
           "title": "論説　核のごみ「北方四島に」同調　地元への敬意が足りぬ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/724333",
-          "published": "2025/2/5 04:00",
+          "published": "2025/2/5 4:00",
           "paid": true
         }
       ]

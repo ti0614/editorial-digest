@@ -13,7 +13,7 @@
         {
           "title": "【政治資金環流疑惑】徹底解明と説明を（１２月２日）",
           "link": "https://www.minpo.jp/articles/-/57257",
-          "published": "2023/12/02 08:54",
+          "published": "2023/12/2 8:54",
           "paid": false
         }
       ]
@@ -26,7 +26,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "大阪・関西万博　無謀な強行は許されぬ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1039203.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2023年12月2日(土)  09:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -84,7 +91,7 @@
         {
           "title": "論説　安倍派の裏金疑惑　言い逃れは通用しない",
           "link": "https://www.sanin-chuo.co.jp/articles/-/491137",
-          "published": "2023/12/2 04:00",
+          "published": "2023/12/2 4:00",
           "paid": true
         }
       ]
@@ -176,6 +183,69 @@
           "title": "【主張】万博まで５００日　機運醸成へ魅力発信せよ",
           "link": "https://www.sankei.com/article/20231202-MMBNOJEGYROVDNUT4AUZN6Z6SA/",
           "published": "2023/12/2 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "札幌五輪招致「白紙」に　巨大祭典頼み見直す時だ",
+          "link": "https://mainichi.jp/articles/20231202/ddm/005/070/129000c",
+          "published": "2023/12/2 02:00",
+          "paid": false
+        },
+        {
+          "title": "難民受け入れの新制度　苦境にある人救う運用を",
+          "link": "https://mainichi.jp/articles/20231202/ddm/005/070/130000c",
+          "published": "2023/12/2 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］アジアの脱炭素へ協力深め世界に貢献を",
+          "link": "https://www.nikkei.com/article/DGXZQODK01B120R01C23A2000000/",
+          "published": "2023/12/2 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］OpenAI騒動の真相示せ",
+          "link": "https://www.nikkei.com/article/DGXZQODK300IC0Q3A131C2000000/",
+          "published": "2023/12/2 19:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【日大の薬物事件】代償はあまりに大きい",
+          "link": "https://www.kochinews.co.jp/article/detail/701273",
+          "published": "2023.12.02 08:00",
           "paid": false
         }
       ]

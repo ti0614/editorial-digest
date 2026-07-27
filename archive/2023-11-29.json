@@ -13,7 +13,7 @@
         {
           "title": "【原発の廃液飛散】管理態勢の強化を（１１月２９日）",
           "link": "https://www.minpo.jp/articles/-/57273",
-          "published": "2023/11/29 08:57",
+          "published": "2023/11/29 8:57",
           "paid": false
         }
       ]
@@ -26,7 +26,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "湘南国際マラソン　「プラごみ削減」の先頭ランナーに",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1038334.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2023年11月29日(水)  10:20",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -84,7 +91,7 @@
         {
           "title": "論説　台湾総統選の候補者確定　成熟した民主主義期待",
           "link": "https://www.sanin-chuo.co.jp/articles/-/489330",
-          "published": "2023/11/29 04:00",
+          "published": "2023/11/29 4:00",
           "paid": true
         }
       ]
@@ -153,6 +160,92 @@
           "title": "【社説】日中韓外相会談　地域の安定へ対話定着を",
           "link": "https://www.nishinippon.co.jp/item/1151300/",
           "published": "2023/11/29 06:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "「金利ある世界」へ　もう放漫財政はできない",
+          "link": "https://mainichi.jp/articles/20231129/ddm/005/070/083000c",
+          "published": "2023/11/29 02:01",
+          "paid": false
+        },
+        {
+          "title": "構図固まる台湾総統選　世界が見守る民意の行方",
+          "link": "https://mainichi.jp/articles/20231129/ddm/005/070/082000c",
+          "published": "2023/11/29 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］医療・介護の効率を高める報酬改定を",
+          "link": "https://www.nikkei.com/article/DGXZQOCD2854A0Y3A121C2000000/",
+          "published": "2023/11/29 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］鳥インフル流行阻止を万全に",
+          "link": "https://www.nikkei.com/article/DGXZQODK292QI0Z21C23A1000000/",
+          "published": "2023/11/29 19:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【主張】日大の混乱　学生不在の泥仕合やめよ",
+          "link": "https://www.sankei.com/article/20231129-F5XDGQFKUJOQJDQBPL54U5PWXA/",
+          "published": "2023/11/29 5:00",
+          "paid": false
+        },
+        {
+          "title": "【主張】ＣＯＰ２８開幕へ　真の地球貢献へ迎合排せ",
+          "link": "https://www.sankei.com/article/20231129-F5YAYWRHNJLB7M5VMHVK4GBQRY/",
+          "published": "2023/11/29 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【日中韓外相会談】対話を協調と地域安定へ",
+          "link": "https://www.kochinews.co.jp/article/detail/700372",
+          "published": "2023.11.29 08:00",
           "paid": false
         }
       ]

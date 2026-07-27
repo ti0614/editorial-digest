@@ -55,7 +55,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "立民代表選告示　変革の方向性を明確に",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1108621.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年9月8日(日)  09:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -65,7 +72,20 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "監視継続し、拡大防ごう　悪影響与える外来水生植物　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1273365",
+          "published": "2024/9/8 5:00",
+          "paid": true
+        },
+        {
+          "title": "ブランド浸透へ再精査を　漁獲量日本一　千葉の伊勢エビ　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1273367",
+          "published": "2024/9/8 5:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "新潟日報",
@@ -113,7 +133,7 @@
         {
           "title": "論説　立民代表選告示　自民党への対立軸示せ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/642192",
-          "published": "2024/9/8 04:00",
+          "published": "2024/9/8 4:00",
           "paid": true
         }
       ]

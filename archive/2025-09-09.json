@@ -82,7 +82,7 @@
         {
           "title": "【災禍の伝承】首都圏の動きにも注目（９月９日）",
           "link": "https://www.minpo.jp/articles/-/53065",
-          "published": "2025/09/09 09:20",
+          "published": "2025/9/9 9:20",
           "paid": false
         }
       ]
@@ -177,7 +177,7 @@
         {
           "title": "論説　「らしさ」失い、失望招く　石破政権の功罪",
           "link": "https://www.sanin-chuo.co.jp/articles/-/854663",
-          "published": "2025/9/9 04:00",
+          "published": "2025/9/9 4:00",
           "paid": true
         }
       ]
@@ -287,6 +287,29 @@
           "link": "https://www.sankei.com/article/20250909-6CLFCGECMVKLHNHUSVCYTO46EM/",
           "published": "2025/9/9 5:00",
           "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【被災者の心の不調】息の長いサポートが必要",
+          "link": "https://www.hokkoku.co.jp/articles/-/1861573",
+          "published": "2025/9/9 5:00",
+          "paid": true
+        },
+        {
+          "title": "社説【次期総裁選】「政治とカネ」に終止符を",
+          "link": "https://www.hokkoku.co.jp/articles/-/1861572",
+          "published": "2025/9/9 5:00",
+          "paid": true
         }
       ]
     }

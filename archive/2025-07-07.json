@@ -76,7 +76,7 @@
         {
           "title": "【２０２５参院選　投票率】復興に県民の声結集を（７月７日）",
           "link": "https://www.minpo.jp/articles/-/53667",
-          "published": "2025/07/07 09:06",
+          "published": "2025/7/7 9:06",
           "paid": false
         }
       ]
@@ -106,7 +106,14 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "歴史価値と魅力にもっと光を　国史跡「内裏塚古墳群」の追加　【論説】",
+          "link": "https://www.chibanippo.co.jp/articles/1465838",
+          "published": "2025/7/7 5:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "新潟日報",
@@ -171,7 +178,7 @@
         {
           "title": "論説　参院選・争点　政治改革　置き去りは許されない",
           "link": "https://www.sanin-chuo.co.jp/articles/-/814743",
-          "published": "2025/7/7 04:00",
+          "published": "2025/7/7 4:00",
           "paid": true
         }
       ]

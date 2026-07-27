@@ -82,7 +82,7 @@
         {
           "title": "【県立図書館】資料のデジタル化急げ（４月２８日）",
           "link": "https://www.minpo.jp/articles/-/54089",
-          "published": "2025/04/28 09:21",
+          "published": "2025/4/28 9:21",
           "paid": false
         }
       ]
@@ -112,7 +112,20 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "安全意識高めて事故防げ　自転車青切符、来年４月導入　【論説】",
+          "link": "https://www.chibanippo.co.jp/articles/1433128",
+          "published": "2025/4/28 5:00",
+          "paid": true
+        },
+        {
+          "title": "コメ離れの悪循環回避を　米価が記録的高騰　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1433129",
+          "published": "2025/4/28 5:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "新潟日報",
@@ -160,7 +173,7 @@
         {
           "title": "論説　米国が和平案提示　まずは停戦実現目指せ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/771746",
-          "published": "2025/4/28 04:00",
+          "published": "2025/4/28 4:00",
           "paid": true
         }
       ]

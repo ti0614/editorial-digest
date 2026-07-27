@@ -76,7 +76,7 @@
         {
           "title": "【郡山市誕生１００年】未来へ何を託すか（１１月１日）",
           "link": "https://www.minpo.jp/articles/-/54906",
-          "published": "2024/11/01 09:30",
+          "published": "2024/11/1 9:30",
           "paid": false
         }
       ]
@@ -106,7 +106,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "「芸術・芸能」過重労働　文化の発展も阻害する",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1122349.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年11月1日(金)  10:10",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -164,7 +171,7 @@
         {
           "title": "論説　自民・国民協議　政治改革は置き去りか",
           "link": "https://www.sanin-chuo.co.jp/articles/-/672493",
-          "published": "2024/11/1 04:00",
+          "published": "2024/11/1 4:00",
           "paid": true
         }
       ]

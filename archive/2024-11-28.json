@@ -76,7 +76,7 @@
         {
           "title": "【若松のごみ問題】踏み込んだ対策が必要（１１月２８日）",
           "link": "https://www.minpo.jp/articles/-/54774",
-          "published": "2024/11/28 09:26",
+          "published": "2024/11/28 9:26",
           "paid": false
         }
       ]
@@ -106,7 +106,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "死刑制度再考　提言受け建設的議論を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1129159.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年11月28日(木)  10:10",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -164,7 +171,7 @@
         {
           "title": "論説　レバノン停戦　平和への機運醸成を",
           "link": "https://www.sanin-chuo.co.jp/articles/-/687439",
-          "published": "2024/11/28 04:00",
+          "published": "2024/11/28 4:00",
           "paid": true
         }
       ]

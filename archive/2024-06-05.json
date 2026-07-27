@@ -36,7 +36,7 @@
         {
           "title": "【ＳＮＳ詐欺】官民連携し撲滅図れ（６月５日）",
           "link": "https://www.minpo.jp/articles/-/56198",
-          "published": "2024/06/05 08:52",
+          "published": "2024/6/5 8:52",
           "paid": false
         }
       ]
@@ -49,7 +49,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "横浜市こども条例案　「権利」明記は不可欠だ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1083372.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年6月5日(水)  10:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -107,7 +114,7 @@
         {
           "title": "論説　自動車の認証不正　利益より信頼が優先だ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/586980",
-          "published": "2024/6/5 04:00",
+          "published": "2024/6/5 4:00",
           "paid": true
         }
       ]
@@ -216,6 +223,46 @@
           "title": "＜主張＞自動車の認証不正　品質の信頼貶める行為だ",
           "link": "https://www.sankei.com/article/20240605-PNU5MSWLYVIEXDY6CRIGNU2KNQ/",
           "published": "2024/6/5 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "日韓の防衛交流再開　地域安定に資する協力を",
+          "link": "https://mainichi.jp/articles/20240605/ddm/005/070/132000c",
+          "published": "2024/6/5 02:00",
+          "paid": false
+        },
+        {
+          "title": "紅麹問題の再発防止策　安全性高める議論さらに",
+          "link": "https://mainichi.jp/articles/20240605/ddm/005/070/131000c",
+          "published": "2024/6/5 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］人口急減の克服へ社会の変革急げ",
+          "link": "https://www.nikkei.com/article/DGXZQODK033ZR0T00C24A6000000/",
+          "published": "2024/6/5 19:00",
           "paid": false
         }
       ]

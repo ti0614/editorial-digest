@@ -36,7 +36,7 @@
         {
           "title": "【棚倉城４００年】観光の効果を郡内に（８月２２日）",
           "link": "https://www.minpo.jp/articles/-/55667",
-          "published": "2024/08/22 08:51",
+          "published": "2024/8/22 8:51",
           "paid": false
         }
       ]
@@ -49,7 +49,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "自殺対策　悩み語りやすい社会に",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1104243.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年8月22日(木)  10:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -107,7 +114,7 @@
         {
           "title": "論説　対馬丸沈没８０年　幼い犠牲の教訓忘れぬ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/632085",
-          "published": "2024/8/22 04:00",
+          "published": "2024/8/22 4:00",
           "paid": true
         }
       ]
@@ -216,6 +223,52 @@
           "title": "＜主張＞また卑劣な落書き　靖国神社の静謐守り抜け",
           "link": "https://www.sankei.com/article/20240822-PQDXXX7SJBMJTO455UEHCIGINQ/",
           "published": "2024/8/22 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "防衛相の靖国参拝　旧軍との決別に疑念招く",
+          "link": "https://mainichi.jp/articles/20240822/ddm/005/070/100000c",
+          "published": "2024/8/22 02:00",
+          "paid": false
+        },
+        {
+          "title": "タイ政治の混乱　民主主義の後退懸念する",
+          "link": "https://mainichi.jp/articles/20240822/ddm/005/070/099000c",
+          "published": "2024/8/22 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］中国の説明なき邦人起訴を強く非難する",
+          "link": "https://www.nikkei.com/article/DGXZQOCD21BHF0R20C24A8000000/",
+          "published": "2024/8/22 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］ジュネーブ条約の順守徹底を",
+          "link": "https://www.nikkei.com/article/DGXZQODK131CR0T10C24A8000000/",
+          "published": "2024/8/22 19:00",
           "paid": false
         }
       ]

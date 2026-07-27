@@ -82,7 +82,7 @@
         {
           "title": "【２０２４衆院選　１８歳有権者へ】未来つくる自覚持って（１０月２１日）",
           "link": "https://www.minpo.jp/articles/-/55035",
-          "published": "2024/10/21 09:27",
+          "published": "2024/10/21 9:27",
           "paid": false
         }
       ]
@@ -95,7 +95,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "かながわ共同会「虐待常態化」　再生への道のり険しい",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1119163.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年10月21日(月)  09:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -105,7 +112,20 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "循環型社会へ、まず実践　３Ｒ推進と食品ロス削減　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1291476",
+          "published": "2024/10/21 5:00",
+          "paid": true
+        },
+        {
+          "title": "楽しく運動できる工夫を　子どもの体力低下　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1291474",
+          "published": "2024/10/21 5:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "新潟日報",
@@ -153,7 +173,7 @@
         {
           "title": "論説　自民党本部・官邸襲撃　政治への暴力を許すな",
           "link": "https://www.sanin-chuo.co.jp/articles/-/665841",
-          "published": "2024/10/21 04:00",
+          "published": "2024/10/21 4:00",
           "paid": true
         }
       ]

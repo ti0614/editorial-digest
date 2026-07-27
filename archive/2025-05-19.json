@@ -70,7 +70,7 @@
         {
           "title": "【拘禁刑６月施行】社会全体で更生支援を（５月１９日）",
           "link": "https://www.minpo.jp/articles/-/53977",
-          "published": "2025/05/19 09:18",
+          "published": "2025/5/19 9:18",
           "paid": false
         }
       ]
@@ -100,7 +100,20 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "軽視の政治家、裏金と共通　個人献金の住所表記問題　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1442760",
+          "published": "2025/5/19 5:00",
+          "paid": true
+        },
+        {
+          "title": "次代の県都発展へ魅力磨け　来年、千葉開府９００年　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1442640",
+          "published": "2025/5/19 5:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "新潟日報",
@@ -148,7 +161,7 @@
         {
           "title": "論説　サイバー防御法成立　国民監視に歯止め必要",
           "link": "https://www.sanin-chuo.co.jp/articles/-/783139",
-          "published": "2025/5/19 04:00",
+          "published": "2025/5/19 4:00",
           "paid": true
         }
       ]

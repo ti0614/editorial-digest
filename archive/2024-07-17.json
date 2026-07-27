@@ -36,7 +36,7 @@
         {
           "title": "【小高避難解除８年】空き家の有効活用を（７月１７日）",
           "link": "https://www.minpo.jp/articles/-/55966",
-          "published": "2024/07/17 08:51",
+          "published": "2024/7/17 8:51",
           "paid": false
         }
       ]
@@ -49,7 +49,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "トランプ氏暗殺未遂　異論封じる暴力許さぬ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1094483.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年7月17日(水)  10:10",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -107,7 +114,7 @@
         {
           "title": "論説　相次ぐ土砂災害　地域のリスク把握して　出雲・日御碕、愛媛・松山",
           "link": "https://www.sanin-chuo.co.jp/articles/-/610492",
-          "published": "2024/7/17 04:00",
+          "published": "2024/7/17 4:00",
           "paid": true
         }
       ]
@@ -210,6 +217,52 @@
           "title": "＜主張＞敦賀２号機の審査　「悪魔の証明」は禁じ手だ　規制委はなぜ幕引き急ぐのか",
           "link": "https://www.sankei.com/article/20240717-JEC5X27CYJK3RJKLUTJRB22QBU/",
           "published": "2024/7/17 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "出産の保険適用　妊婦が安心できる制度に",
+          "link": "https://mainichi.jp/articles/20240717/ddm/005/070/163000c",
+          "published": "2024/7/17 02:06",
+          "paid": false
+        },
+        {
+          "title": "選択的夫婦別姓の導入　岸田首相が決断する時だ",
+          "link": "https://mainichi.jp/articles/20240717/ddm/005/070/162000c",
+          "published": "2024/7/17 02:06",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］AI時代を見据え電力消費の分散促せ",
+          "link": "https://www.nikkei.com/article/DGXZQOCD1224G0S4A710C2000000/",
+          "published": "2024/7/17 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］ウクライナ和平を乱すハンガリーの独断外交",
+          "link": "https://www.nikkei.com/article/DGXZQODK164IF0W4A710C2000000/",
+          "published": "2024/7/17 19:00",
           "paid": false
         }
       ]

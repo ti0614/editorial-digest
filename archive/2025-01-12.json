@@ -66,7 +66,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "平塚市の特認校　課題克服し教育充実を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1139785.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年1月12日(日)  10:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -124,7 +131,7 @@
         {
           "title": "論説　公益通報制度　絶えず検証と見直しを",
           "link": "https://www.sanin-chuo.co.jp/articles/-/711135",
-          "published": "2025/1/12 04:00",
+          "published": "2025/1/12 4:00",
           "paid": true
         }
       ]

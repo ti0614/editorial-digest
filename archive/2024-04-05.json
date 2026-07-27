@@ -36,7 +36,7 @@
         {
           "title": "【裏金事件】処分で幕引き許されず（４月５日）",
           "link": "https://www.minpo.jp/articles/-/56541",
-          "published": "2024/04/05 08:51",
+          "published": "2024/4/5 8:51",
           "paid": false
         }
       ]
@@ -49,7 +49,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "裏金議員の処分　「出直し」にはほど遠い",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1068664.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年4月5日(金)  10:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -107,7 +114,7 @@
         {
           "title": "論説・自民裏金処分　真相解明の放置許さぬ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/554721",
-          "published": "2024/4/5 04:00",
+          "published": "2024/4/5 4:00",
           "paid": true
         }
       ]
@@ -216,6 +223,46 @@
           "title": "＜主張＞自民党の処分　これでけじめになるのか",
           "link": "https://www.sankei.com/article/20240405-QEWWGH5IVJODVOXDSXBU3Q3IIY/",
           "published": "2024/4/5 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "自民の裏金議員処分　解明なき幕引き許されぬ",
+          "link": "https://mainichi.jp/articles/20240405/ddm/005/070/044000c",
+          "published": "2024/4/5 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］移動の足確保へライドシェアの拡大を",
+          "link": "https://www.nikkei.com/article/DGXZQODK056600V00C24A4000000/",
+          "published": "2024/4/5 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］ガソリン補助金の出口を示せ",
+          "link": "https://www.nikkei.com/article/DGXZQODK052P40V00C24A4000000/",
+          "published": "2024/4/5 19:00",
           "paid": false
         }
       ]

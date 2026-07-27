@@ -76,7 +76,7 @@
         {
           "title": "【デブリ初回収】一層の技術力向上を（１１月８日）",
           "link": "https://www.minpo.jp/articles/-/54872",
-          "published": "2024/11/08 09:27",
+          "published": "2024/11/8 9:27",
           "paid": false
         }
       ]
@@ -106,7 +106,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "就活セクハラ 卑劣行為から学生守れ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1124154.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年11月8日(金)  09:50",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -164,7 +171,7 @@
         {
           "title": "論説　トランプ氏と日米関係　秩序維持のかじ取りを",
           "link": "https://www.sanin-chuo.co.jp/articles/-/676344",
-          "published": "2024/11/8 04:00",
+          "published": "2024/11/8 4:00",
           "paid": true
         }
       ]

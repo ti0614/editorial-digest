@@ -82,7 +82,7 @@
         {
           "title": "【水源保全条例】いかに実効性保つのか（８月１９日）",
           "link": "https://www.minpo.jp/articles/-/53310",
-          "published": "2025/08/19 09:13",
+          "published": "2025/8/19 9:13",
           "paid": false
         }
       ]
@@ -194,7 +194,7 @@
         {
           "title": "論説　財政規律の緩みが心配　概算要求基準",
           "link": "https://www.sanin-chuo.co.jp/articles/-/841651",
-          "published": "2025/8/19 04:00",
+          "published": "2025/8/19 4:00",
           "paid": true
         }
       ]
@@ -321,6 +321,35 @@
           "link": "https://www.sankei.com/article/20250819-T7TFWBGITFPRRIOYJ3BKERZ674/",
           "published": "2025/8/19 5:00",
           "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【戦争遺跡の保存】文化財の指定も選択肢に",
+          "link": "https://www.hokkoku.co.jp/articles/-/1840697",
+          "published": "2025/8/19 5:00",
+          "paid": true
+        },
+        {
+          "title": "社説【米ロ首脳会談】侵略者利する提案に失望",
+          "link": "https://www.hokkoku.co.jp/articles/-/1840696",
+          "published": "2025/8/19 5:00",
+          "paid": true
+        },
+        {
+          "title": "社説【戦争遺跡の保存】　文化財の指定も選択肢に",
+          "link": "https://www.hokkoku.co.jp/articles/-/1840557",
+          "published": "2025/8/19 5:00",
+          "paid": true
         }
       ]
     }

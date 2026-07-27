@@ -59,7 +59,7 @@
         {
           "title": "【県共同募金】企業からの支援に期待（９月３日）",
           "link": "https://www.minpo.jp/articles/-/55596",
-          "published": "2024/09/03 09:24",
+          "published": "2024/9/3 9:24",
           "paid": false
         }
       ]
@@ -72,7 +72,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "立民代表選規則　見直し議論が遅すぎる",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1107228.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年9月3日(火)  10:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -130,7 +137,7 @@
         {
           "title": "論説　朝鮮人虐殺の追悼文　歴史から目を背ける愚",
           "link": "https://www.sanin-chuo.co.jp/articles/-/639254",
-          "published": "2024/9/3 04:00",
+          "published": "2024/9/3 4:00",
           "paid": true
         }
       ]
@@ -239,6 +246,29 @@
           "title": "＜主張＞自民党と憲法改正　総裁候補は実現の約束を",
           "link": "https://www.sankei.com/article/20240903-SMBD3HZRGVKEZFZHNPTDRBULFI/",
           "published": "2024/9/3 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］最低賃金の地域競争を制度改革の一歩に",
+          "link": "https://www.nikkei.com/article/DGXZQODK035V30T00C24A9000000/",
+          "published": "2024/9/3 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］ガザ最良のワクチンは平和だ",
+          "link": "https://www.nikkei.com/article/DGXZQODK0364N0T00C24A9000000/",
+          "published": "2024/9/3 19:00",
           "paid": false
         }
       ]

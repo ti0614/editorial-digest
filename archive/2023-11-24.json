@@ -13,7 +13,7 @@
         {
           "title": "【薄らぐ震災知識】教育を通じた伝承を（１１月２４日）",
           "link": "https://www.minpo.jp/articles/-/57304",
-          "published": "2023/11/24 08:49",
+          "published": "2023/11/24 8:49",
           "paid": false
         }
       ]
@@ -26,7 +26,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "相模原・伊勢原・秦野などで目撃…「都市型のクマ」、遠因にも目を向けたい",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1037111.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2023年11月24日(金)  10:10",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -84,7 +91,7 @@
         {
           "title": "論説　北朝鮮の軍事偵察衛星打ち上げ　中国巻き込み緊張解け",
           "link": "https://www.sanin-chuo.co.jp/articles/-/486833",
-          "published": "2023/11/24 04:00",
+          "published": "2023/11/24 4:00",
           "paid": true
         }
       ]
@@ -153,6 +160,92 @@
           "title": "【社説】IPEFの課題　分断を深めない枠組みに",
           "link": "https://www.nishinippon.co.jp/item/1149363/",
           "published": "2023/11/24 06:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "馳知事「招致に機密費」　発言撤回では済まされぬ",
+          "link": "https://mainichi.jp/articles/20231124/ddm/005/070/056000c",
+          "published": "2023/11/24 02:01",
+          "paid": false
+        },
+        {
+          "title": "広がる「関係人口」　地域持続のキーワードに",
+          "link": "https://mainichi.jp/articles/20231124/ddm/005/070/055000c",
+          "published": "2023/11/24 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］SNSの悪影響から子どもを守るために",
+          "link": "https://www.nikkei.com/article/DGXZQODK141PP0U3A111C2000000/",
+          "published": "2023/11/24 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］隔たり埋めプラ条約の合意を",
+          "link": "https://www.nikkei.com/article/DGXZQOCD2242X0S3A121C2000000/",
+          "published": "2023/11/24 19:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【主張】ガザ戦闘休止合意　ハマスは全人質の解放を",
+          "link": "https://www.sankei.com/article/20231124-4QZUV2MPJJI73PXIJRW77FLI3E/",
+          "published": "2023/11/24 5:00",
+          "paid": false
+        },
+        {
+          "title": "【主張】歌舞伎立て直し　新たな息吹に期待したい",
+          "link": "https://www.sankei.com/article/20231124-R56IDCPIGFNCBNOEW3R6YSRXQQ/",
+          "published": "2023/11/24 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【万博費用の膨張】意義に見合う負担なのか",
+          "link": "https://www.kochinews.co.jp/article/detail/699074",
+          "published": "2023.11.24 08:00",
           "paid": false
         }
       ]

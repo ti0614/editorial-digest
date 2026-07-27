@@ -26,7 +26,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "日産の下請けいじめ　再発防止し信頼回復を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1064124.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年3月17日(日)  09:40",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -84,7 +91,7 @@
         {
           "title": "論説　同性婚訴訟二審も「違憲」　まだ放置するつもりか",
           "link": "https://www.sanin-chuo.co.jp/articles/-/544857",
-          "published": "2024/3/17 04:00",
+          "published": "2024/3/17 4:00",
           "paid": true
         }
       ]
@@ -176,6 +183,29 @@
           "title": "＜主張＞防衛装備品の輸出　「次期戦闘機」だけなのか",
           "link": "https://www.sankei.com/article/20240317-YNSM75ACONJYBKUIP3TR5LTTNI/",
           "published": "2024/3/17 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "「裏金渦中」の自民党大会　けじめなくして信頼なし",
+          "link": "https://mainichi.jp/articles/20240317/ddm/005/070/066000c",
+          "published": "2024/3/17 02:01",
+          "paid": false
+        },
+        {
+          "title": "センバツあす開幕　未来へつなぐ100年の歴史",
+          "link": "https://mainichi.jp/articles/20240317/ddm/005/070/065000c",
+          "published": "2024/3/17 02:01",
           "paid": false
         }
       ]

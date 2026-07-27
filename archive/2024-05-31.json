@@ -30,7 +30,7 @@
         {
           "title": "【人口減少対策】国は将来像を示せ（５月３１日）",
           "link": "https://www.minpo.jp/articles/-/56222",
-          "published": "2024/05/31 08:51",
+          "published": "2024/5/31 8:51",
           "paid": false
         }
       ]
@@ -43,7 +43,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "空母レーガン離日　地元の負担と向き合え",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1082169.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年5月31日(金)  11:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -101,7 +108,7 @@
         {
           "title": "論説　イスラエルのラファ攻撃　これ以上の孤立避けよ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/584210",
-          "published": "2024/5/31 04:00",
+          "published": "2024/5/31 4:00",
           "paid": true
         }
       ]
@@ -210,6 +217,52 @@
           "title": "＜主張＞機能性表示食品　被害を広げぬ対応強めよ",
           "link": "https://www.sankei.com/article/20240531-QK4UF6YKAJJMTHVL26IQSJZ4QQ/",
           "published": "2024/5/31 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "政治家の寄付控除悪用　倫理観の欠如にあきれる",
+          "link": "https://mainichi.jp/articles/20240531/ddm/005/070/121000c",
+          "published": "2024/5/31 02:00",
+          "paid": false
+        },
+        {
+          "title": "「国の指示権」拡大法案　疑問置き去りの衆院通過",
+          "link": "https://mainichi.jp/articles/20240531/ddm/005/070/120000c",
+          "published": "2024/5/31 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］定額減税の押しつけで消費は目覚めるか",
+          "link": "https://www.nikkei.com/article/DGXZQODK315HT0R30C24A5000000/",
+          "published": "2024/5/31 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］トランプ前米大統領評決が深める米分断",
+          "link": "https://www.nikkei.com/article/DGXZQODK313I80R30C24A5000000/",
+          "published": "2024/5/31 19:00",
           "paid": false
         }
       ]

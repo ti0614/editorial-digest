@@ -36,7 +36,7 @@
         {
           "title": "【障害者雇用促進】企業間で手法共有を（６月６日）",
           "link": "https://www.minpo.jp/articles/-/56192",
-          "published": "2024/06/06 08:52",
+          "published": "2024/6/6 8:52",
           "paid": false
         }
       ]
@@ -49,7 +49,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "規正法改正案　良識の府で厳格化せよ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1083654.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年6月6日(木)  10:10",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -90,7 +97,7 @@
         {
           "title": "論説　定額減税スタート　景気浮揚の効果検証を",
           "link": "https://www.sanin-chuo.co.jp/articles/-/587559",
-          "published": "2024/6/6 04:00",
+          "published": "2024/6/6 4:00",
           "paid": true
         }
       ]
@@ -199,6 +206,52 @@
           "title": "＜主張＞規正法衆院通過へ　信頼回復急ぎ成立確実に",
           "link": "https://www.sankei.com/article/20240606-E35EY6RHWNORTLKXFHRIEJBYEQ/",
           "published": "2024/6/6 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "トヨタなどで認証不正　おごりが招いた法令軽視",
+          "link": "https://mainichi.jp/articles/20240606/ddm/005/070/115000c",
+          "published": "2024/6/6 02:01",
+          "paid": false
+        },
+        {
+          "title": "雪崩死で教諭らに実刑　部活動の安全に重い教訓",
+          "link": "https://mainichi.jp/articles/20240606/ddm/005/070/113000c",
+          "published": "2024/6/6 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］インド首相は苦戦を教訓に国内融和を",
+          "link": "https://www.nikkei.com/article/DGXZQODK065JV0W4A600C2000000/",
+          "published": "2024/6/6 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］仮想通貨の管理を総点検せよ",
+          "link": "https://www.nikkei.com/article/DGXZQODK069SC0W4A600C2000000/",
+          "published": "2024/6/6 19:00",
           "paid": false
         }
       ]

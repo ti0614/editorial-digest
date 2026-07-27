@@ -70,7 +70,7 @@
         {
           "title": "【高市新総裁】開けたリーダーに（１０月６日）",
           "link": "https://www.minpo.jp/articles/-/52327",
-          "published": "2025/10/06 09:20",
+          "published": "2025/10/6 9:20",
           "paid": false
         }
       ]
@@ -100,7 +100,14 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "持続可能な医療提供へ議論を　厳しい財務状況の東千葉メディカルセンター　【論説】",
+          "link": "https://www.chibanippo.co.jp/articles/1507243",
+          "published": "2025/10/6 5:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "新潟日報",
@@ -188,7 +195,7 @@
         {
           "title": "論説　給付付き税額控除　社会構造のゆがみ正せ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/871447",
-          "published": "2025/10/6 04:00",
+          "published": "2025/10/6 4:00",
           "paid": true
         }
       ]

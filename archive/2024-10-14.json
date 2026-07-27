@@ -59,7 +59,7 @@
         {
           "title": "【衆院選あす公示】福島の指針見極めたい（１０月１４日）",
           "link": "https://www.minpo.jp/articles/-/55118",
-          "published": "2024/10/14 09:28",
+          "published": "2024/10/14 9:28",
           "paid": false
         }
       ]
@@ -72,7 +72,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "水平リサイクル　脱炭素社会への一歩に",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1117547.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年10月14日(月)  10:50",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -82,7 +89,20 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "若い才能伸ばす機会に　県展で高校生が高い評価　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1288895",
+          "published": "2024/10/14 5:00",
+          "paid": true
+        },
+        {
+          "title": "徹底調査と再発防止を　いすみ鉄道脱線事故　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1288896",
+          "published": "2024/10/14 5:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "新潟日報",
@@ -130,7 +150,7 @@
         {
           "title": "論説　国スポの将来像　共同開催が改革の一歩",
           "link": "https://www.sanin-chuo.co.jp/articles/-/662450",
-          "published": "2024/10/14 04:00",
+          "published": "2024/10/14 4:00",
           "paid": true
         }
       ]

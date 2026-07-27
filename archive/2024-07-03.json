@@ -36,7 +36,7 @@
         {
           "title": "【大安場史跡公園】学びと観光　両立に期待（７月３日）",
           "link": "https://www.minpo.jp/articles/-/56053",
-          "published": "2024/07/03 08:50",
+          "published": "2024/7/3 8:50",
           "paid": false
         }
       ]
@@ -49,7 +49,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "電気・ガス補助　場当たり政治脱却せよ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1090850.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年7月3日(水)  10:30",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -107,7 +114,7 @@
         {
           "title": "論説　検事長の定年延長　法務・検察 自ら検証を",
           "link": "https://www.sanin-chuo.co.jp/articles/-/602860",
-          "published": "2024/7/3 04:00",
+          "published": "2024/7/3 4:00",
           "paid": true
         }
       ]
@@ -216,6 +223,52 @@
           "title": "＜主張＞ＪＡＸＡ情報流出　安保脅かす深刻な事態だ",
           "link": "https://www.sankei.com/article/20240703-SM6KZ3REWFPEDHPV4WAZ7GAANE/",
           "published": "2024/7/3 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "沖縄で再び米兵性暴力　人権侵害の放置許されぬ",
+          "link": "https://mainichi.jp/articles/20240703/ddm/005/070/120000c",
+          "published": "2024/7/3 02:00",
+          "paid": false
+        },
+        {
+          "title": "アニメ産業の将来　現場支える視点が必要だ",
+          "link": "https://mainichi.jp/articles/20240703/ddm/005/070/117000c",
+          "published": "2024/7/3 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］年金は甘い見通しに頼らず改革進めよ",
+          "link": "https://www.nikkei.com/article/DGXZQODK288AL0Y4A620C2000000/",
+          "published": "2024/7/3 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］国の責任断じた強制不妊判決",
+          "link": "https://www.nikkei.com/article/DGXZQODK023YB0S4A700C2000000/",
+          "published": "2024/7/3 19:01",
           "paid": false
         }
       ]

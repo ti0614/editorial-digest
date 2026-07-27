@@ -82,7 +82,7 @@
         {
           "title": "【西田敏行さん死去】郷土愛の深さ思う（１０月１８日）",
           "link": "https://www.minpo.jp/articles/-/55068",
-          "published": "2024/10/18 09:28",
+          "published": "2024/10/18 9:28",
           "paid": false
         }
       ]
@@ -112,7 +112,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "合成燃料　炭素へ商用化促進を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1118520.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年10月18日(金)  10:10",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -170,7 +177,7 @@
         {
           "title": "論説　衆院選 物価高・経済政策　次代へ重荷負わせるな",
           "link": "https://www.sanin-chuo.co.jp/articles/-/664402",
-          "published": "2024/10/18 04:00",
+          "published": "2024/10/18 4:00",
           "paid": true
         }
       ]

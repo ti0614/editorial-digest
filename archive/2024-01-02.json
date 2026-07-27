@@ -1,0 +1,28 @@
+{
+  "date": "2024-01-02",
+  "sources": [
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］大地震の二次災害を防ぎ救助と支援急げ",
+          "link": "https://www.nikkei.com/article/DGXZQODK020PU0S4A100C2000000/",
+          "published": "2024/1/2 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］皇室の将来見据えた継承策を",
+          "link": "https://www.nikkei.com/article/DGXZQODK020R40S4A100C2000000/",
+          "published": "2024/1/2 19:00",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

@@ -30,7 +30,7 @@
         {
           "title": "【震災１３年　高齢化への対応】実情見据えた支援を（３月１３日）",
           "link": "https://www.minpo.jp/articles/-/56671",
-          "published": "2024/03/13 08:51",
+          "published": "2024/3/13 8:51",
           "paid": false
         }
       ]
@@ -43,7 +43,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "政府の賃上げ要請　「失策」検証し戦略示せ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1063159.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年3月13日(水)  10:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -84,7 +91,7 @@
         {
           "title": "論説　夫婦別姓訴訟　怠慢はもう許されない",
           "link": "https://www.sanin-chuo.co.jp/articles/-/542662",
-          "published": "2024/3/13 04:00",
+          "published": "2024/3/13 4:00",
           "paid": true
         }
       ]
@@ -193,6 +200,52 @@
           "title": "＜主張＞千代田区汚職　「都心の利権構造」に迫れ",
           "link": "https://www.sankei.com/article/20240313-WK35MJRWP5NLNNIHH7TH3NDFLQ/",
           "published": "2024/3/13 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "オスプレイ停止解除　市民の安全が置き去りだ",
+          "link": "https://mainichi.jp/articles/20240313/ddm/005/070/103000c",
+          "published": "2024/3/13 02:01",
+          "paid": false
+        },
+        {
+          "title": "落語がある世界　庶民文化の裾野広げたい",
+          "link": "https://mainichi.jp/articles/20240313/ddm/005/070/102000c",
+          "published": "2024/3/13 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］賃上げ継続へ官民で構造改革を加速せよ",
+          "link": "https://www.nikkei.com/article/DGXZQODK1378Y0T10C24A3000000/",
+          "published": "2024/3/13 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］第五福竜丸70年 非核主導を",
+          "link": "https://www.nikkei.com/article/DGXZQODK135370T10C24A3000000/",
+          "published": "2024/3/13 19:00",
           "paid": false
         }
       ]

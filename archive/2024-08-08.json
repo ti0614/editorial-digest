@@ -36,7 +36,7 @@
         {
           "title": "【株価乱高下】冷静に技を磨く時（８月８日）",
           "link": "https://www.minpo.jp/articles/-/55746",
-          "published": "2024/08/08 08:51",
+          "published": "2024/8/8 8:51",
           "paid": false
         }
       ]
@@ -49,7 +49,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "横浜市教委の傍聴動員　組織体質、根本から正せ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1100934.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年8月8日(木)  10:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -107,7 +114,7 @@
         {
           "title": "論説　同床異夢の全国知事会　呉越同舟で人口対策を",
           "link": "https://www.sanin-chuo.co.jp/articles/-/624622",
-          "published": "2024/8/8 04:00",
+          "published": "2024/8/8 4:00",
           "paid": true
         }
       ]
@@ -216,6 +223,29 @@
           "title": "＜主張＞自民党と憲法改正　他党と協議の場を設けよ",
           "link": "https://www.sankei.com/article/20240808-OK5ZWIDIZFKCJMM5G36ZE5QJPE/",
           "published": "2024/8/8 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "急激な株安・円高　市場の警鐘に耳傾けたい",
+          "link": "https://mainichi.jp/articles/20240808/ddm/005/070/136000c",
+          "published": "2024/8/8 02:01",
+          "paid": false
+        },
+        {
+          "title": "中間貯蔵施設が稼働へ　原発政策の矛盾残るまま",
+          "link": "https://mainichi.jp/articles/20240808/ddm/005/070/135000c",
+          "published": "2024/8/8 02:01",
           "paid": false
         }
       ]

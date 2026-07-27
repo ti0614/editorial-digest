@@ -36,7 +36,7 @@
         {
           "title": "【若松の空き店舗増】にぎわいの創出が急務（６月２５日）",
           "link": "https://www.minpo.jp/articles/-/56093",
-          "published": "2024/06/25 08:52",
+          "published": "2024/6/25 8:52",
           "paid": false
         }
       ]
@@ -49,7 +49,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "「全中」規模縮小　影響把握し適切対応を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1088647.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年6月25日(火)  10:30",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -107,7 +114,7 @@
         {
           "title": "論説　骨太方針　政権の熱量を感じない",
           "link": "https://www.sanin-chuo.co.jp/articles/-/598192",
-          "published": "2024/6/25 04:00",
+          "published": "2024/6/25 4:00",
           "paid": true
         }
       ]
@@ -216,6 +223,52 @@
           "title": "＜主張＞電気・ガス代補助　必要な層に絞った支援を",
           "link": "https://www.sankei.com/article/20240625-IUCFM5MN2FN45O24WMG6WADGUU/",
           "published": "2024/6/25 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "介護保険料の上昇　持続可能な制度へ議論を",
+          "link": "https://mainichi.jp/articles/20240625/ddm/005/070/089000c",
+          "published": "2024/6/25 02:01",
+          "paid": false
+        },
+        {
+          "title": "JAXAから情報流出　サイバー防衛の甘さ露呈",
+          "link": "https://mainichi.jp/articles/20240625/ddm/005/070/086000c",
+          "published": "2024/6/25 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］弥縫のエネルギー補助は政治不信深める",
+          "link": "https://www.nikkei.com/article/DGXZQODK251M20V20C24A6000000/",
+          "published": "2024/6/25 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］報道の自由脅かす強制捜査",
+          "link": "https://www.nikkei.com/article/DGXZQODK252ZF0V20C24A6000000/",
+          "published": "2024/6/25 19:00",
           "paid": false
         }
       ]

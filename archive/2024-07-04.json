@@ -30,7 +30,7 @@
         {
           "title": "【県内で起業】挑戦を一体で応援（７月４日）",
           "link": "https://www.minpo.jp/articles/-/56048",
-          "published": "2024/07/04 08:52",
+          "published": "2024/7/4 8:52",
           "paid": false
         }
       ]
@@ -43,7 +43,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "米兵による性暴力　怒りと不安を共有する",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1091166.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年7月4日(木)  09:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -101,7 +108,7 @@
         {
           "title": "論説　強制不妊最高裁判決　謝罪と補償に取り組め",
           "link": "https://www.sanin-chuo.co.jp/articles/-/603480",
-          "published": "2024/7/4 04:00",
+          "published": "2024/7/4 4:00",
           "paid": true
         }
       ]
@@ -204,6 +211,46 @@
           "title": "＜主張＞年金財政が改善　改革の手綱を緩めるな　負担の議論逃げずに深めたい",
           "link": "https://www.sankei.com/article/20240704-KSXV6WIBGVPBTDHV7CGSUTNM4I/",
           "published": "2024/7/4 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "優生保護法に違憲判決　国は人権侵害認め救済を",
+          "link": "https://mainichi.jp/articles/20240704/ddm/005/070/085000c",
+          "published": "2024/7/4 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］中国に安心して行ける状況ではない",
+          "link": "https://www.nikkei.com/article/DGXZQODK0348R0T00C24A7000000/",
+          "published": "2024/7/4 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］沖縄の不信高めた政府の失態",
+          "link": "https://www.nikkei.com/article/DGXZQODK044HU0U4A700C2000000/",
+          "published": "2024/7/4 19:00",
           "paid": false
         }
       ]

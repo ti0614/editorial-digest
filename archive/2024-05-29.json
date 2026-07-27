@@ -36,7 +36,7 @@
         {
           "title": "【伝説のライブ５０年】活気と熱量を次代に（５月２９日）",
           "link": "https://www.minpo.jp/articles/-/56230",
-          "published": "2024/05/29 08:52",
+          "published": "2024/5/29 8:52",
           "paid": false
         }
       ]
@@ -49,7 +49,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "横浜大空襲　体験者の声に学ぶ日に",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1081535.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年5月29日(水)  10:30",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -107,7 +114,7 @@
         {
           "title": "論説　静岡知事選で自民敗北　真摯に民意 受け止めよ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/582886",
-          "published": "2024/5/29 04:00",
+          "published": "2024/5/29 4:00",
           "paid": true
         }
       ]
@@ -216,6 +223,52 @@
           "title": "＜主張＞日中韓ＦＴＡ　交渉を再開すべき環境か",
           "link": "https://www.sankei.com/article/20240529-KXCLT7JTVBPFVCR3YRWDOHB6GE/",
           "published": "2024/5/29 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "ラファの攻撃停止命令　順守はイスラエルの義務",
+          "link": "https://mainichi.jp/articles/20240529/ddm/005/070/113000c",
+          "published": "2024/5/29 02:00",
+          "paid": false
+        },
+        {
+          "title": "北朝鮮の「衛星」発射　監視の枠組み強化が急務",
+          "link": "https://mainichi.jp/articles/20240529/ddm/005/070/112000c",
+          "published": "2024/5/29 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］中国は過剰生産問題で真摯な対応を",
+          "link": "https://www.nikkei.com/article/DGXZQODK23A1E0T20C24A5000000/",
+          "published": "2024/5/29 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］企業は決然とカスハラ防げ",
+          "link": "https://www.nikkei.com/article/DGXZQODK297DY0Z20C24A5000000/",
+          "published": "2024/5/29 19:00",
           "paid": false
         }
       ]

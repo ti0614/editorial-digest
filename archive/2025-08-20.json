@@ -82,7 +82,7 @@
         {
           "title": "【新地の英語教育】主体的な学びの参考に（８月２０日）",
           "link": "https://www.minpo.jp/articles/-/53307",
-          "published": "2025/08/20 09:27",
+          "published": "2025/8/20 9:27",
           "paid": false
         }
       ]
@@ -194,7 +194,7 @@
         {
           "title": "論説　米ウクライナ首脳会談　対話と停戦努力加速を",
           "link": "https://www.sanin-chuo.co.jp/articles/-/842347",
-          "published": "2025/8/20 04:00",
+          "published": "2025/8/20 4:00",
           "paid": true
         }
       ]
@@ -333,6 +333,29 @@
           "link": "https://www.sankei.com/article/20250820-ZAGCVXWBNRLDXELBLMB45IGEHI/",
           "published": "2025/8/20 5:00",
           "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【北アで遭難相次ぐ】高温リスク考慮し計画を",
+          "link": "https://www.hokkoku.co.jp/articles/-/1841753",
+          "published": "2025/8/20 5:00",
+          "paid": true
+        },
+        {
+          "title": "社説【避暑シェルター】気軽に立ち寄れる場所に",
+          "link": "https://www.hokkoku.co.jp/articles/-/1841752",
+          "published": "2025/8/20 5:00",
+          "paid": true
         }
       ]
     }

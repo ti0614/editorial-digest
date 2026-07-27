@@ -60,7 +60,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "２０２５年社会展望　戦争する国にさせない",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1138087.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年1月5日(日)  10:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -118,7 +125,7 @@
         {
           "title": "論説　ＵＳスチール買収禁止　米製造業が弱体化する",
           "link": "https://www.sanin-chuo.co.jp/articles/-/707444",
-          "published": "2025/1/5 04:00",
+          "published": "2025/1/5 4:00",
           "paid": true
         }
       ]

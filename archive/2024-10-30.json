@@ -82,7 +82,7 @@
         {
           "title": "【二本松の菊人形】節目へ飛躍の構想を（１０月３０日）",
           "link": "https://www.minpo.jp/articles/-/54914",
-          "published": "2024/10/30 09:34",
+          "published": "2024/10/30 9:34",
           "paid": false
         }
       ]
@@ -112,7 +112,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "止まらぬ倒産増　効果的な政策が急務だ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1121762.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年10月30日(水)  10:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -170,7 +177,7 @@
         {
           "title": "論説　米大統領選投開票へ　分断の処方箋は見えず",
           "link": "https://www.sanin-chuo.co.jp/articles/-/671161",
-          "published": "2024/10/30 04:00",
+          "published": "2024/10/30 4:00",
           "paid": true
         }
       ]

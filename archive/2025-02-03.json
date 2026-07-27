@@ -70,7 +70,7 @@
         {
           "title": "【フレイル予防】県民運動に広げたい（２月３日）",
           "link": "https://www.minpo.jp/articles/-/54537",
-          "published": "2025/02/03 09:32",
+          "published": "2025/2/3 9:32",
           "paid": false
         }
       ]
@@ -83,7 +83,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "障害者雇用支援士　人材の質量確保に期待",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1145280.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年2月3日(月)  09:40",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -93,7 +100,20 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "イチローさん日米野球殿堂入り　先駆者の警鐘に耳傾けて　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1395767",
+          "published": "2025/2/3 5:00",
+          "paid": true
+        },
+        {
+          "title": "森林環境譲与税　自治体連携さらに拡大を　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1395769",
+          "published": "2025/2/3 5:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "新潟日報",
@@ -124,7 +144,7 @@
         {
           "title": "論説　再審制度見直し　迅速な救済に道を開け",
           "link": "https://www.sanin-chuo.co.jp/articles/-/723191",
-          "published": "2025/2/3 04:00",
+          "published": "2025/2/3 4:00",
           "paid": true
         }
       ]

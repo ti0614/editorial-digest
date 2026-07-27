@@ -76,7 +76,7 @@
         {
           "title": "【大麻取締法改正】犯罪抑止へ大きな一歩（１２月３０日）",
           "link": "https://www.minpo.jp/articles/-/54664",
-          "published": "2024/12/30 09:25",
+          "published": "2024/12/30 9:25",
           "paid": false
         }
       ]
@@ -89,7 +89,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "小田原の北条氏政館跡　丁寧な調査で解明期待",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1137289.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年12月30日(月)  09:50",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -99,7 +106,20 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "努力義務の意味を考えて　低い自転車ヘルメット着用率　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1321982",
+          "published": "2024/12/30 5:00",
+          "paid": true
+        },
+        {
+          "title": "水の質保証へ対応徹底を　ＰＦＡＳ検査・改善義務化　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1321981",
+          "published": "2024/12/30 5:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "新潟日報",
@@ -147,7 +167,7 @@
         {
           "title": "論説　容疑者取り調べ　立ち会いの制度化を",
           "link": "https://www.sanin-chuo.co.jp/articles/-/705563",
-          "published": "2024/12/30 04:00",
+          "published": "2024/12/30 4:00",
           "paid": true
         }
       ]

@@ -13,7 +13,7 @@
         {
           "title": "【書店と図書館】活字文化振興に連携を（１月１０日）",
           "link": "https://www.minpo.jp/articles/-/57062",
-          "published": "2024/01/10 08:51",
+          "published": "2024/1/10 8:51",
           "paid": false
         }
       ]
@@ -26,7 +26,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "羽田衝突事故　人的ミス補う安全策を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1048097.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年1月10日(水)  09:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -84,7 +91,7 @@
         {
           "title": "論説　２０２４外交・安保展望　問われる「平和」の理念",
           "link": "https://www.sanin-chuo.co.jp/articles/-/510626",
-          "published": "2024/1/10 04:00",
+          "published": "2024/1/10 4:00",
           "paid": true
         }
       ]
@@ -176,6 +183,63 @@
           "title": "＜主張＞蘋果日報への弾圧　言論封じの裁判許されぬ",
           "link": "https://www.sankei.com/article/20240110-LERB7BF2VFJSZBRUOTBMAENCP4/",
           "published": "2024/1/10 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "超える’24　五輪と平和の理念　国家のくびき脱する道を",
+          "link": "https://mainichi.jp/articles/20240110/ddm/005/070/086000c",
+          "published": "2024/1/10 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］人口危機に立ち向かう戦略策定を急げ",
+          "link": "https://www.nikkei.com/article/DGXZQODK098FH0Z00C24A1000000/",
+          "published": "2024/1/10 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］人的ミスの事故防ぐ仕組みを",
+          "link": "https://www.nikkei.com/article/DGXZQODK102A30Q4A110C2000000/",
+          "published": "2024/1/10 19:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【池田議員逮捕】徹底捜査で実態解明を",
+          "link": "https://www.kochinews.co.jp/article/detail/712406",
+          "published": "2024.01.10 08:00",
           "paid": false
         }
       ]

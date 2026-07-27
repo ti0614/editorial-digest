@@ -30,7 +30,7 @@
         {
           "title": "【石川町長逮捕】談合疑惑の徹底解明を（５月１日）",
           "link": "https://www.minpo.jp/articles/-/56390",
-          "published": "2024/05/01 08:51",
+          "published": "2024/5/1 8:51",
           "paid": false
         }
       ]
@@ -43,7 +43,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "止まらぬ円安　危機収束の責務果たせ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1074764.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年5月1日(水)  09:50",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -101,7 +108,7 @@
         {
           "title": "論説　米国務長官が訪中　危機管理は大国の責務",
           "link": "https://www.sanin-chuo.co.jp/articles/-/568052",
-          "published": "2024/5/1 04:00",
+          "published": "2024/5/1 4:00",
           "paid": true
         }
       ]
@@ -204,6 +211,52 @@
           "title": "＜主張＞天皇陛下即位５年　重きお務めに感謝したい　伝統守り男系継承を確実に",
           "link": "https://www.sankei.com/article/20240501-L4WCFGHRSJNANDAFAMJ3NFGCU4/",
           "published": "2024/5/1 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "高齢化時代の災害　暮らし支える連携強化を",
+          "link": "https://mainichi.jp/articles/20240501/ddm/005/070/100000c",
+          "published": "2024/5/1 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］製造業は内部告発に頼らぬ不正対策を",
+          "link": "https://www.nikkei.com/article/DGXZQODK0160F0R00C24A5000000/",
+          "published": "2024/5/1 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］環境と生産性両立する農業に",
+          "link": "https://www.nikkei.com/article/DGXZQODK013H20R00C24A5000000/",
+          "published": "2024/5/1 19:00",
+          "paid": false
+        },
+        {
+          "title": "［社説］EU拡大20年の教訓を平和と繁栄の力に",
+          "link": "https://www.nikkei.com/article/DGXZQODK301A00Q4A430C2000000/",
+          "published": "2024/5/1 0:00",
           "paid": false
         }
       ]

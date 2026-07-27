@@ -13,7 +13,7 @@
         {
           "title": "【中国の禁輸問題】会談を起点に解決急げ（１１月２２日）",
           "link": "https://www.minpo.jp/articles/-/57313",
-          "published": "2023/11/22 08:53",
+          "published": "2023/11/22 8:53",
           "paid": false
         }
       ]
@@ -26,7 +26,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "深刻な気温上昇　「未来図」変える行動を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1036672.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2023年11月22日(水)  10:50",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -84,7 +91,7 @@
         {
           "title": "論説　ＩＰＥＦ合意　果実を生む合意重ねよ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/485833",
-          "published": "2023/11/22 04:00",
+          "published": "2023/11/22 4:00",
           "paid": true
         }
       ]
@@ -153,6 +160,92 @@
           "title": "【社説】脳死と臓器提供　日頃から家族と語りたい",
           "link": "https://www.nishinippon.co.jp/item/1148606/",
           "published": "2023/11/22 06:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "関西ダブルVパレード　「政治宣伝」の場ではない",
+          "link": "https://mainichi.jp/articles/20231122/ddm/005/070/078000c",
+          "published": "2023/11/22 02:01",
+          "paid": false
+        },
+        {
+          "title": "芸術助成で最高裁判決　表現の萎縮招かぬ戒めに",
+          "link": "https://mainichi.jp/articles/20231122/ddm/005/070/079000c",
+          "published": "2023/11/22 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］未来志向のルールで通信市場の活性化を",
+          "link": "https://www.nikkei.com/article/DGXZQODK2246F0S3A121C2000000/",
+          "published": "2023/11/22 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］北朝鮮の偵察衛星は新たな脅威に",
+          "link": "https://www.nikkei.com/article/DGXZQOCD2259L0S3A121C2000000/",
+          "published": "2023/11/22 19:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【主張】補正予算審議入り　説得力ある言葉聞こえぬ",
+          "link": "https://www.sankei.com/article/20231122-2DDODUZMNFICLDJBG2LHOTLEFE/",
+          "published": "2023/11/22 5:00",
+          "paid": false
+        },
+        {
+          "title": "【主張】在職老齢年金　働き続ける人増やしたい",
+          "link": "https://www.sankei.com/article/20231122-T3WUGEPL4BLTXDBR4SBBJXIX4E/",
+          "published": "2023/11/22 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【大麻グミ問題】いたちごっこに歯止めを",
+          "link": "https://www.kochinews.co.jp/article/detail/698496",
+          "published": "2023.11.22 08:00",
           "paid": false
         }
       ]

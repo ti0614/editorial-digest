@@ -13,7 +13,7 @@
         {
           "title": "【池田衆院議員逮捕】政治不信極まる（１月８日）",
           "link": "https://www.minpo.jp/articles/-/57072",
-          "published": "2024/01/08 08:50",
+          "published": "2024/1/8 8:50",
           "paid": false
         }
       ]
@@ -26,7 +26,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "展望・相模原市政　市長の覚悟が問われる",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1047721.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年1月8日(月)  10:10",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -84,7 +91,7 @@
         {
           "title": "論説　池田議員逮捕　刑事責任追及の第一歩",
           "link": "https://www.sanin-chuo.co.jp/articles/-/509780",
-          "published": "2024/1/8 04:00",
+          "published": "2024/1/8 4:00",
           "paid": true
         }
       ]
@@ -159,6 +166,69 @@
           "title": "＜主張＞成人の日　先人たちの教えに学ぼう",
           "link": "https://www.sankei.com/article/20240108-3WPI7URZSZKDVNK22X64EVLUNQ/",
           "published": "2024/1/8 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "「裏金」で池田議員逮捕　政権揺るがす深刻な事態",
+          "link": "https://mainichi.jp/articles/20240108/ddm/005/070/043000c",
+          "published": "2024/1/8 02:00",
+          "paid": false
+        },
+        {
+          "title": "能登半島地震1週間　被災者守る態勢を早急に",
+          "link": "https://mainichi.jp/articles/20240108/ddm/005/070/042000c",
+          "published": "2024/1/8 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］構造的な人手不足に克つ大改革を",
+          "link": "https://www.nikkei.com/article/DGXZQODK285S10Y3A221C2000000/",
+          "published": "2024/1/8 19:00",
+          "paid": false
+        },
+        {
+          "title": "［社説］能登半島地震、避難の長期化に万全の支援を",
+          "link": "https://www.nikkei.com/article/DGXZQODK0712X0X00C24A1000000/",
+          "published": "2024/1/8 0:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【新年に　経済】停滞脱却への動きを強く",
+          "link": "https://www.kochinews.co.jp/article/detail/711978",
+          "published": "2024.01.08 08:00",
           "paid": false
         }
       ]

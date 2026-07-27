@@ -53,7 +53,7 @@
         {
           "title": "【動物愛護】パートナー意識深めて（９月１７日）",
           "link": "https://www.minpo.jp/articles/-/55436",
-          "published": "2024/09/17 09:21",
+          "published": "2024/9/17 9:21",
           "paid": false
         }
       ]
@@ -66,7 +66,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "横浜市教委の「傍聴動員」再発防止　組織風土改善に本腰を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1110604.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年9月17日(火)  09:40",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -124,7 +131,7 @@
         {
           "title": "論説　ＤＮＡ型抹消命令　憲法に沿う法整備急げ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/647028",
-          "published": "2024/9/17 04:00",
+          "published": "2024/9/17 4:00",
           "paid": true
         }
       ]
@@ -199,6 +206,29 @@
           "title": "＜主張＞埼玉県立高共学化　教委は推進方針撤回せよ",
           "link": "https://www.sankei.com/article/20240917-DFISDAZR3ZOCZDTKWVUVF6U7PE/",
           "published": "2024/9/17 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］人手不足に克つ柔軟な労働市場に変えよ",
+          "link": "https://www.nikkei.com/article/DGXZQODK174U20X10C24A9000000/",
+          "published": "2024/9/17 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］日本発エンタメ、世界射程に",
+          "link": "https://www.nikkei.com/article/DGXZQODK175PF0X10C24A9000000/",
+          "published": "2024/9/17 19:00",
           "paid": false
         }
       ]

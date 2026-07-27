@@ -82,7 +82,7 @@
         {
           "title": "【防災庁創設】福島県に本庁設置を（６月１６日）",
           "link": "https://www.minpo.jp/articles/-/53808",
-          "published": "2025/06/16 09:08",
+          "published": "2025/6/16 9:08",
           "paid": false
         }
       ]
@@ -112,7 +112,14 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "保存へ支援の輪拡大を　魅力ある千葉県内の建築物　【論説】",
+          "link": "https://www.chibanippo.co.jp/articles/1456051",
+          "published": "2025/6/16 5:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "新潟日報",
@@ -160,7 +167,7 @@
         {
           "title": "論説　年金改革法成立　拙速審議で熟議足りぬ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/800372",
-          "published": "2025/6/16 04:00",
+          "published": "2025/6/16 4:00",
           "paid": true
         }
       ]

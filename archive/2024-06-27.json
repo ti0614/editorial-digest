@@ -36,7 +36,7 @@
         {
           "title": "【核燃料の冷却停止】再発防止策の徹底を（６月２７日）",
           "link": "https://www.minpo.jp/articles/-/56084",
-          "published": "2024/06/27 08:51",
+          "published": "2024/6/27 8:51",
           "paid": false
         }
       ]
@@ -49,7 +49,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "デートＤＶ　多角的な施策で防止を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1089259.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年6月27日(木)  11:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -107,7 +114,7 @@
         {
           "title": "論説　地方創生１０年　一極集中是正に本腰を",
           "link": "https://www.sanin-chuo.co.jp/articles/-/599433",
-          "published": "2024/6/27 04:00",
+          "published": "2024/6/27 4:00",
           "paid": true
         }
       ]
@@ -210,6 +217,52 @@
           "title": "＜主張＞松本サリン３０年　想定外は、もはや、ない　重い反省と教訓を胸に刻む",
           "link": "https://www.sankei.com/article/20240627-RU7JEMKCJ5JLFHDY7HIEXHMRCE/",
           "published": "2024/6/27 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "証拠廃棄促す警察文書　「人権より組織」の非常識",
+          "link": "https://mainichi.jp/articles/20240627/ddm/005/070/107000c",
+          "published": "2024/6/27 02:01",
+          "paid": false
+        },
+        {
+          "title": "じもとHDの「国有化」　金融不安招かぬ処方箋を",
+          "link": "https://mainichi.jp/articles/20240627/ddm/005/070/105000c",
+          "published": "2024/6/27 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］株主総会の声を競争力の向上に生かせ",
+          "link": "https://www.nikkei.com/article/DGXZQOCD270U80X20C24A6000000/",
+          "published": "2024/6/27 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］先物でコメの供給の安定を",
+          "link": "https://www.nikkei.com/article/DGXZQODK233CR0T20C24A6000000/",
+          "published": "2024/6/27 19:00",
           "paid": false
         }
       ]

@@ -36,7 +36,7 @@
         {
           "title": "【医師確保】相談員の役割に期待（７月２０日）",
           "link": "https://www.minpo.jp/articles/-/55921",
-          "published": "2024/07/20 08:50",
+          "published": "2024/7/20 8:50",
           "paid": false
         }
       ]
@@ -49,7 +49,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "夏本番のリスク　酷暑の災害に備えよう",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1095479.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年7月20日(土)  09:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -107,7 +114,7 @@
         {
           "title": "論説　トランプ氏受諾演説　分断修復の本気度問う",
           "link": "https://www.sanin-chuo.co.jp/articles/-/612501",
-          "published": "2024/7/20 04:00",
+          "published": "2024/7/20 4:00",
           "paid": true
         }
       ]
@@ -216,6 +223,52 @@
           "title": "＜主張＞トランプ氏演説　対中政策にもっと言及を",
           "link": "https://www.sankei.com/article/20240720-TCGPNMNJKRLHDPWXFEDI6O7VTY/",
           "published": "2024/7/20 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "復権目指すトランプ氏　米国の分断広げぬ努力を",
+          "link": "https://mainichi.jp/articles/20240720/ddm/005/070/112000c",
+          "published": "2024/7/20 02:01",
+          "paid": false
+        },
+        {
+          "title": "中国共産党の3中全会　世界の懸念拭えぬままだ",
+          "link": "https://mainichi.jp/articles/20240720/ddm/005/070/109000c",
+          "published": "2024/7/20 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］SNSの偽情報対策は待ったなしだ",
+          "link": "https://www.nikkei.com/article/DGXZQODK1971Y0Z10C24A7000000/",
+          "published": "2024/7/20 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］官製ファンドの根深い陥穽",
+          "link": "https://www.nikkei.com/article/DGXZQODK199AF0Z10C24A7000000/",
+          "published": "2024/7/20 19:00",
           "paid": false
         }
       ]

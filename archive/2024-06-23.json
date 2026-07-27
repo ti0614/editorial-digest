@@ -32,7 +32,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "ジェンダー指数　格差解消へ責務果たせ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1088150.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年6月23日(日)  09:20",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -73,7 +80,7 @@
         {
           "title": "論説　きょう沖縄慰霊の日　非戦の決意　広く伝えよ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/597221",
-          "published": "2024/6/23 04:00",
+          "published": "2024/6/23 4:00",
           "paid": true
         }
       ]
@@ -182,6 +189,52 @@
           "title": "＜主張＞通常国会の閉幕　「国の根幹」進まなかった",
           "link": "https://www.sankei.com/article/20240623-U3XRSIZPX5NJ7OXR3P2VP5ZH5A/",
           "published": "2024/6/23 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "きょう沖縄慰霊の日　国は対話通じ痛み共有を",
+          "link": "https://mainichi.jp/articles/20240623/ddm/005/070/092000c",
+          "published": "2024/6/23 02:01",
+          "paid": false
+        },
+        {
+          "title": "鹿児島県警の捜査　報道の自由脅かす手法だ",
+          "link": "https://mainichi.jp/articles/20240623/ddm/005/070/089000c",
+          "published": "2024/6/23 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］女性の活躍阻む根本の改革が欠かせない",
+          "link": "https://www.nikkei.com/article/DGXZQODK206T00Q4A620C2000000/",
+          "published": "2024/6/23 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］国は沖縄と今こそ関係修復を",
+          "link": "https://www.nikkei.com/article/DGXZQODK21BM90R20C24A6000000/",
+          "published": "2024/6/23 19:00",
           "paid": false
         }
       ]

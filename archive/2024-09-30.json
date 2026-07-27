@@ -59,7 +59,7 @@
         {
           "title": "【只見線再開通２年】観光列車導入に期待（９月３０日）",
           "link": "https://www.minpo.jp/articles/-/55335",
-          "published": "2024/09/30 09:27",
+          "published": "2024/9/30 9:27",
           "paid": false
         }
       ]
@@ -72,7 +72,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "ｉＰＳ医療、連携して実用化促進を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1113915.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年9月30日(月)  11:10",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -82,7 +89,20 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "活動自粛より徹底貢献を　千葉市議による請願偽造問題　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1281992",
+          "published": "2024/9/30 5:00",
+          "paid": true
+        },
+        {
+          "title": "国民視点の活発論戦期待　自民総裁、立民代表決まる　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1281991",
+          "published": "2024/9/30 5:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "新潟日報",
@@ -130,7 +150,7 @@
         {
           "title": "論説　「被爆体験者」救済策　これが「合理的解決」か",
           "link": "https://www.sanin-chuo.co.jp/articles/-/654539",
-          "published": "2024/9/30 04:00",
+          "published": "2024/9/30 4:00",
           "paid": true
         }
       ]
@@ -222,6 +242,29 @@
           "title": "＜主張＞EV電池への投資　半導体の失敗を忘れずに",
           "link": "https://www.sankei.com/article/20240930-TP5KYLHEMRN5RKLPNEORCFG7IU/",
           "published": "2024/9/30 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］経済再生の道半ばで退任する岸田首相",
+          "link": "https://www.nikkei.com/article/DGXZQODK3069S0Q4A930C2000000/",
+          "published": "2024/9/30 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］よく考えコロナの定期接種を",
+          "link": "https://www.nikkei.com/article/DGXZQODK303LU0Q4A930C2000000/",
+          "published": "2024/9/30 19:00",
           "paid": false
         }
       ]

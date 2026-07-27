@@ -36,7 +36,7 @@
         {
           "title": "【ＳＤＧｓ未来博】実践につなげたい（８月９日）",
           "link": "https://www.minpo.jp/articles/-/55740",
-          "published": "2024/08/09 08:50",
+          "published": "2024/8/9 8:50",
           "paid": false
         }
       ]
@@ -49,7 +49,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "電動キックボード　ルール順守へ周知図れ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1101314.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年8月9日(金)  10:50",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -107,7 +114,7 @@
         {
           "title": "論説　夏の甲子園 朝夕２部制　選手ファースト追求を",
           "link": "https://www.sanin-chuo.co.jp/articles/-/625404",
-          "published": "2024/8/9 04:00",
+          "published": "2024/8/9 4:00",
           "paid": true
         }
       ]
@@ -216,6 +223,64 @@
           "title": "＜主張＞巨大地震臨時情報　「発生時の備え」再点検を",
           "link": "https://www.sankei.com/article/20240809-HNO2IBPJIFLAJJLUK45CII27WQ/",
           "published": "2024/8/9 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "米民主候補はハリス氏　多様性の価値示す論戦を",
+          "link": "https://mainichi.jp/articles/20240809/ddm/005/070/050000c",
+          "published": "2024/8/9 02:01",
+          "paid": false
+        },
+        {
+          "title": "皇位継承議論の先送り　許されない政治の怠慢だ",
+          "link": "https://mainichi.jp/articles/20240809/ddm/005/070/043000c",
+          "published": "2024/8/9 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］日銀の市場との対話は十分だったか",
+          "link": "https://www.nikkei.com/article/DGXZQODK0979Q0Z00C24A8000000/",
+          "published": "2024/8/9 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］ベトナム新書記長に安定望む",
+          "link": "https://www.nikkei.com/article/DGXZQODK084RG0Y4A800C2000000/",
+          "published": "2024/8/9 19:00",
+          "paid": false
+        },
+        {
+          "title": "［社説］南海トラフ地震に備え最大限の注意を",
+          "link": "https://www.nikkei.com/article/DGXZQODK089GT0Y4A800C2000000/",
+          "published": "2024/8/9 0:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］分断越え非核への道を確かに",
+          "link": "https://www.nikkei.com/article/DGXZQODK089QW0Y4A800C2000000/",
+          "published": "2024/8/9 0:00",
           "paid": false
         }
       ]

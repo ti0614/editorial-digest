@@ -13,7 +13,7 @@
         {
           "title": "【どか雪】被害防ぐ対策急げ（１２月８日）",
           "link": "https://www.minpo.jp/articles/-/57219",
-          "published": "2023/12/08 08:53",
+          "published": "2023/12/8 8:53",
           "paid": false
         }
       ]
@@ -26,7 +26,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "病児家族滞在施設　善意広がる拠点に期待",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1040721.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2023年12月8日(金)  10:50",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -84,7 +91,7 @@
         {
           "title": "論説　五輪招致巡る疑惑　曖昧にできぬ深い闇",
           "link": "https://www.sanin-chuo.co.jp/articles/-/494276",
-          "published": "2023/12/8 04:00",
+          "published": "2023/12/8 4:00",
           "paid": true
         }
       ]
@@ -176,6 +183,69 @@
           "title": "【主張】愛知県警の勾留死　留置管理の矜持はどこへ",
           "link": "https://www.sankei.com/article/20231208-VS6CILLG7NIG3GFS4VWMJB2OLM/",
           "published": "2023/12/8 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "ガザ全域に戦闘拡大　人道的破局の回避が急務",
+          "link": "https://mainichi.jp/articles/20231208/ddm/005/070/094000c",
+          "published": "2023/12/8 02:02",
+          "paid": false
+        },
+        {
+          "title": "国会議員の世襲制限　親の「かばん」継げぬよう",
+          "link": "https://mainichi.jp/articles/20231208/ddm/005/070/093000c",
+          "published": "2023/12/8 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］NTT法廃止を見据えた環境整備を早く",
+          "link": "https://www.nikkei.com/article/DGXZQODK086VY0Y3A201C2000000/",
+          "published": "2023/12/8 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］「核なき世界」実現へ手を尽くせ",
+          "link": "https://www.nikkei.com/article/DGXZQODK07BTW0X01C23A2000000/",
+          "published": "2023/12/8 19:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【ガザ戦闘２カ月】犠牲をこれ以上増やすな",
+          "link": "https://www.kochinews.co.jp/article/detail/702839",
+          "published": "2023.12.08 08:00",
           "paid": false
         }
       ]

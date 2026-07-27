@@ -72,7 +72,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "選抜甲子園　神奈川の「熱さ」見せて",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1143331.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年1月26日(日)  10:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -113,7 +120,7 @@
         {
           "title": "論説　日銀が追加利上げ　正常化の歩み止めるな",
           "link": "https://www.sanin-chuo.co.jp/articles/-/719046",
-          "published": "2025/1/26 04:00",
+          "published": "2025/1/26 4:00",
           "paid": true
         }
       ]

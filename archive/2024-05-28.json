@@ -36,7 +36,7 @@
         {
           "title": "【放射性廃棄物処分】議論の広がりに注目（５月２８日）",
           "link": "https://www.minpo.jp/articles/-/56234",
-          "published": "2024/05/28 08:51",
+          "published": "2024/5/28 8:51",
           "paid": false
         }
       ]
@@ -49,7 +49,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "防災気象情報の見直し　受け手の理解、最優先に",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1081212.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年5月28日(火)  10:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -107,7 +114,7 @@
         {
           "title": "論説　日中、日中韓会談　首脳往来の再開を急げ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/582205",
-          "published": "2024/5/28 04:00",
+          "published": "2024/5/28 4:00",
           "paid": true
         }
       ]
@@ -216,6 +223,58 @@
           "title": "＜主張＞静岡知事に鈴木氏　早急にリニア着工容認を",
           "link": "https://www.sankei.com/article/20240528-TI73VQUB7RLEJPI3DQHGSSZFXU/",
           "published": "2024/5/28 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "日中韓首脳会談が再開　対話の流れ加速させたい",
+          "link": "https://mainichi.jp/articles/20240528/ddm/005/070/018000c",
+          "published": "2024/5/28 02:00",
+          "paid": false
+        },
+        {
+          "title": "入管法の改正案　外国人の権利守れるのか",
+          "link": "https://mainichi.jp/articles/20240528/ddm/005/070/017000c",
+          "published": "2024/5/28 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］少額の個人株主に裾野広げ市場の発展を",
+          "link": "https://www.nikkei.com/article/DGXZQODK286010Y4A520C2000000/",
+          "published": "2024/5/28 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］米価抑制へ猛暑対策を全力で",
+          "link": "https://www.nikkei.com/article/DGXZQODK281ZF0Y4A520C2000000/",
+          "published": "2024/5/28 19:00",
+          "paid": false
+        },
+        {
+          "title": "［社説］日中韓の対話再開を地域の安定に生かせ",
+          "link": "https://www.nikkei.com/article/DGXZQODK2743J0X20C24A5000000/",
+          "published": "2024/5/28 0:54",
           "paid": false
         }
       ]

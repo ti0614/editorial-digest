@@ -76,7 +76,7 @@
         {
           "title": "【ラムサール条約】猪苗代湖保全の弾みに（１１月１６日）",
           "link": "https://www.minpo.jp/articles/-/54838",
-          "published": "2024/11/16 09:27",
+          "published": "2024/11/16 9:27",
           "paid": false
         }
       ]
@@ -106,7 +106,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "石破内閣に問われる防災　一歩踏み込んだ公助を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1126246.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年11月16日(土)  09:30",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -164,7 +171,7 @@
         {
           "title": "論説　ＪＲ西の決算と赤字路線　“不況宣伝”は通じない",
           "link": "https://www.sanin-chuo.co.jp/articles/-/680794",
-          "published": "2024/11/16 04:00",
+          "published": "2024/11/16 4:00",
           "paid": true
         }
       ]

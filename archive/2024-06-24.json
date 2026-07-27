@@ -30,7 +30,7 @@
         {
           "title": "【裁判員制度１５年】辞退者減らす工夫必要（６月２４日）",
           "link": "https://www.minpo.jp/articles/-/56097",
-          "published": "2024/06/24 08:52",
+          "published": "2024/6/24 8:52",
           "paid": false
         }
       ]
@@ -43,7 +43,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "水素エネルギー　課題解決へ技術革新を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1088344.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年6月24日(月)  10:10",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -53,7 +60,20 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "全県民が当事者意識を　八街児童死傷事故３年　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1241034",
+          "published": "2024/6/24 5:00",
+          "paid": true
+        },
+        {
+          "title": "円滑移駐へ安全最優先　オスプレイ木更津暫定配備完了　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1241037",
+          "published": "2024/6/24 5:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "新潟日報",
@@ -101,7 +121,7 @@
         {
           "title": "論説　国の指示権拡大　地方への統制強化招く",
           "link": "https://www.sanin-chuo.co.jp/articles/-/597616",
-          "published": "2024/6/24 04:00",
+          "published": "2024/6/24 4:00",
           "paid": true
         }
       ]
@@ -193,6 +213,52 @@
           "title": "＜主張＞骨太の方針　賃上げ定着へ改革徹底を",
           "link": "https://www.sankei.com/article/20240624-PYH4HW5E65KVDJRMGPU43SYVSY/",
           "published": "2024/6/24 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "国の指示権拡大　恣意的運用防ぐ手立てを",
+          "link": "https://mainichi.jp/articles/20240624/ddm/005/070/021000c",
+          "published": "2024/6/24 02:02",
+          "paid": false
+        },
+        {
+          "title": "日本型ライドシェア　地域の足守る議論さらに",
+          "link": "https://mainichi.jp/articles/20240624/ddm/005/070/019000c",
+          "published": "2024/6/24 02:02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］NVIDIA「世界首位」が映す構造転換",
+          "link": "https://www.nikkei.com/article/DGXZQODK246IH0U4A620C2000000/",
+          "published": "2024/6/24 19:30",
+          "paid": false
+        },
+        {
+          "title": "［社説］ジョージアは民主化堅持を",
+          "link": "https://www.nikkei.com/article/DGXZQODK0461O0U4A600C2000000/",
+          "published": "2024/6/24 19:20",
           "paid": false
         }
       ]

@@ -36,7 +36,7 @@
         {
           "title": "【国の指示権拡大】事前協議は必要だ（６月１１日）",
           "link": "https://www.minpo.jp/articles/-/56163",
-          "published": "2024/06/11 08:51",
+          "published": "2024/6/11 8:51",
           "paid": false
         }
       ]
@@ -49,7 +49,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "訪問介護報酬　担い手支え環境整えよ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1084794.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年6月11日(火)  10:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -107,7 +114,7 @@
         {
           "title": "論説　インド総選挙　民主主義尊ぶ国家を",
           "link": "https://www.sanin-chuo.co.jp/articles/-/590110",
-          "published": "2024/6/11 04:00",
+          "published": "2024/6/11 4:00",
           "paid": true
         }
       ]
@@ -216,6 +223,52 @@
           "title": "＜主張＞カスハラ　早急に従業員守る対策を",
           "link": "https://www.sankei.com/article/20240611-Y6EGDOGWQVPWVKKRQW2YW5LCBA/",
           "published": "2024/6/11 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "能動的サイバー防御　国民の権利を侵さぬよう",
+          "link": "https://mainichi.jp/articles/20240611/ddm/005/070/088000c",
+          "published": "2024/6/11 02:01",
+          "paid": false
+        },
+        {
+          "title": "3期目のモディ印首相　分断緩和へ寛容な姿勢を",
+          "link": "https://mainichi.jp/articles/20240611/ddm/005/070/087000c",
+          "published": "2024/6/11 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］企業は増える株主提案に結果で応えよ",
+          "link": "https://www.nikkei.com/article/DGXZQODK107WB0Q4A610C2000000/",
+          "published": "2024/6/11 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］健康食品は不断の安全対策を",
+          "link": "https://www.nikkei.com/article/DGXZQODK111N90R10C24A6000000/",
+          "published": "2024/6/11 19:00",
           "paid": false
         }
       ]

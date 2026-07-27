@@ -30,7 +30,7 @@
         {
           "title": "【アバター実証実験】訪日客接客の一手に（２月２７日）",
           "link": "https://www.minpo.jp/articles/-/56785",
-          "published": "2024/02/27 08:52",
+          "published": "2024/2/27 8:52",
           "paid": false
         }
       ]
@@ -43,7 +43,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "岸田首相の人権メッセージ　足元から有言実行せよ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1059568.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年2月27日(火)  10:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -101,7 +108,7 @@
         {
           "title": "論説　半導体新工場　補助金生かして復権を",
           "link": "https://www.sanin-chuo.co.jp/articles/-/534584",
-          "published": "2024/2/27 04:00",
+          "published": "2024/2/27 4:00",
           "paid": true
         }
       ]
@@ -216,6 +223,52 @@
           "title": "＜主張＞宮城野親方の降格　「元大横綱」を甘やかすな",
           "link": "https://www.sankei.com/article/20240227-WNSZQTGBAFKZDCR5OJIACO2ANQ/",
           "published": "2024/2/27 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "ウクライナ侵攻　中国の外交姿勢　大国の責任果たすべきだ",
+          "link": "https://mainichi.jp/articles/20240227/ddm/005/070/020000c",
+          "published": "2024/2/27 02:02",
+          "paid": false
+        },
+        {
+          "title": "森下NHK経営委員長　反省しないまま去るのか",
+          "link": "https://mainichi.jp/articles/20240227/ddm/005/070/019000c",
+          "published": "2024/2/27 02:02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］基本法改正を食料安保の強化へ生かせ",
+          "link": "https://www.nikkei.com/article/DGXZQODK275H40X20C24A2000000/",
+          "published": "2024/2/27 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］漫画ビジネスの健全な成長を",
+          "link": "https://www.nikkei.com/article/DGXZQOCD2718Y0X20C24A2000000/",
+          "published": "2024/2/27 19:00",
           "paid": false
         }
       ]

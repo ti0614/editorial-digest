@@ -36,7 +36,7 @@
         {
           "title": "【新紙幣あす発行】通貨の価値考える契機（７月２日）",
           "link": "https://www.minpo.jp/articles/-/56058",
-          "published": "2024/07/02 08:51",
+          "published": "2024/7/2 8:51",
           "paid": false
         }
       ]
@@ -49,7 +49,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "自民党総裁選　反省胸に政権構想競え",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1090550.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年7月2日(火)  10:05",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -107,7 +114,7 @@
         {
           "title": "論説　鹿児島県警　刑事司法の資格あるか",
           "link": "https://www.sanin-chuo.co.jp/articles/-/602234",
-          "published": "2024/7/2 04:00",
+          "published": "2024/7/2 4:00",
           "paid": true
         }
       ]
@@ -216,6 +223,52 @@
           "title": "＜主張＞藤井棋聖が永世位　更なる高みへの一里塚だ",
           "link": "https://www.sankei.com/article/20240702-TW6FTU2U3JNPRENZMOQ4O7E2BI/",
           "published": "2024/7/2 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "能登半島地震から半年　生活再建への支援強化を",
+          "link": "https://mainichi.jp/articles/20240702/ddm/005/070/081000c",
+          "published": "2024/7/2 02:00",
+          "paid": false
+        },
+        {
+          "title": "ハンセン病投薬「実験」　人権侵害の検証が不可欠",
+          "link": "https://mainichi.jp/articles/20240702/ddm/005/070/080000c",
+          "published": "2024/7/2 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］デジタル時代の新紙幣が問う現金の役割",
+          "link": "https://www.nikkei.com/article/DGXZQODK025TP0S4A700C2000000/",
+          "published": "2024/7/2 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］「選挙公営」を考える機会に",
+          "link": "https://www.nikkei.com/article/DGXZQODK028740S4A700C2000000/",
+          "published": "2024/7/2 19:00",
           "paid": false
         }
       ]

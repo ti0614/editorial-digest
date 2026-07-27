@@ -76,7 +76,7 @@
         {
           "title": "【ツールドふくしま】世界見据える舞台に（８月２３日）",
           "link": "https://www.minpo.jp/articles/-/53291",
-          "published": "2025/08/23 09:14",
+          "published": "2025/8/23 9:14",
           "paid": false
         }
       ]
@@ -188,7 +188,7 @@
         {
           "title": "論説　アフリカ開発会議　大陸の成長力取り込め",
           "link": "https://www.sanin-chuo.co.jp/articles/-/844526",
-          "published": "2025/8/23 04:00",
+          "published": "2025/8/23 4:00",
           "paid": true
         }
       ]
@@ -315,6 +315,29 @@
           "link": "https://www.sankei.com/article/20250823-J5H7YJZNO5KOZBTYZ3GUKGLIUE/",
           "published": "2025/8/23 5:00",
           "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【アフリカ開発会議】中国との差際立つ支援を",
+          "link": "https://www.hokkoku.co.jp/articles/-/1845179",
+          "published": "2025/8/23 5:00",
+          "paid": true
+        },
+        {
+          "title": "社説【北陸の最低賃金】地方の活力弱めぬように",
+          "link": "https://www.hokkoku.co.jp/articles/-/1845178",
+          "published": "2025/8/23 5:00",
+          "paid": true
         }
       ]
     }

@@ -70,7 +70,7 @@
         {
           "title": "【優しい社会の一歩に】手話言語条例（１２月１９日）",
           "link": "https://www.minpo.jp/articles/-/54711",
-          "published": "2024/12/19 09:00",
+          "published": "2024/12/19 9:00",
           "paid": false
         }
       ]
@@ -100,7 +100,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "１０３万円の壁　財源論も避けず議論を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1134655.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年12月19日(木)  09:50",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -141,7 +148,7 @@
         {
           "title": "論説　エネルギー基本計画　原発「依存度低減」なぜ外す",
           "link": "https://www.sanin-chuo.co.jp/articles/-/699270",
-          "published": "2024/12/19 04:00",
+          "published": "2024/12/19 4:00",
           "paid": true
         }
       ]

@@ -76,7 +76,7 @@
         {
           "title": "【演劇鑑賞会】縮小傾向に歯止めを（８月２５日）",
           "link": "https://www.minpo.jp/articles/-/53278",
-          "published": "2025/08/25 09:14",
+          "published": "2025/8/25 9:14",
           "paid": false
         }
       ]
@@ -106,7 +106,14 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "安全意識を持ち行動を　県内で海浜事故相次ぐ　【論説】",
+          "link": "https://www.chibanippo.co.jp/articles/1487155",
+          "published": "2025/8/25 5:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "新潟日報",
@@ -171,7 +178,7 @@
         {
           "title": "論説　保険証失効　医療現場の混乱回避を",
           "link": "https://www.sanin-chuo.co.jp/articles/-/845330",
-          "published": "2025/8/25 04:00",
+          "published": "2025/8/25 4:00",
           "paid": true
         }
       ]
@@ -281,6 +288,29 @@
           "link": "https://www.sankei.com/article/20250825-RQU64EFHK5O4ZMDJJJ7AWF57OE/",
           "published": "2025/8/25 5:00",
           "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【「２０２４年問題」】物流の効率化待ったなし",
+          "link": "https://www.hokkoku.co.jp/articles/-/1846526",
+          "published": "2025/8/25 5:00",
+          "paid": true
+        },
+        {
+          "title": "社説【震災学習ツアー】能登で学び考える機会に",
+          "link": "https://www.hokkoku.co.jp/articles/-/1846525",
+          "published": "2025/8/25 5:00",
+          "paid": true
         }
       ]
     }

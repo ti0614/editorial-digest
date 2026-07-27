@@ -13,7 +13,7 @@
         {
           "title": "【裏金事件刑事処分】決着とは到底いかない（１月２０日）",
           "link": "https://www.minpo.jp/articles/-/57006",
-          "published": "2024/01/20 08:51",
+          "published": "2024/1/20 8:51",
           "paid": false
         }
       ]
@@ -26,7 +26,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "自民３派立件　「金権政治」と決別せよ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1050747.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年1月20日(土)  09:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -84,7 +91,7 @@
         {
           "title": "論説　岸田派解散へ　実態と責任明確にせよ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/516104",
-          "published": "2024/1/20 04:00",
+          "published": "2024/1/20 4:00",
           "paid": true
         }
       ]
@@ -193,6 +200,52 @@
           "title": "＜主張＞派閥の解散　自民は政策本位で再建を",
           "link": "https://www.sankei.com/article/20240120-WVIN7AWMSBPSZLB7WI2VPD37SM/",
           "published": "2024/1/20 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "裏金事件で3派閥起訴　政治家の責任は免れない",
+          "link": "https://mainichi.jp/articles/20240120/ddm/005/070/073000c",
+          "published": "2024/1/20 02:01",
+          "paid": false
+        },
+        {
+          "title": "首相が「岸田派解散」　党全体で取り組めるのか",
+          "link": "https://mainichi.jp/articles/20240120/ddm/005/070/072000c",
+          "published": "2024/1/20 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］完璧な月着陸の成功目指し技術を磨け",
+          "link": "https://www.nikkei.com/article/DGXZQODK201060Q4A120C2000000/",
+          "published": "2024/1/20 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］新党首で共産党は変わるのか",
+          "link": "https://www.nikkei.com/article/DGXZQODK19A6O0Z10C24A1000000/",
+          "published": "2024/1/20 19:00",
           "paid": false
         }
       ]

@@ -116,7 +116,7 @@
         {
           "title": "【福島の熊被害】広報態勢の強化を（６月６日）",
           "link": "https://www.minpo.jp/articles/-/150014",
-          "published": "2026/06/06 11:00",
+          "published": "2026/6/6 11:00",
           "paid": true
         }
       ]
@@ -146,14 +146,7 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": [
-        {
-          "title": "中傷動画疑惑　首相答弁は説得力欠く",
-          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1278156.html",
-          "published": "社説｜                                    神奈川新聞｜\n                              2026年6月6日(土)  09:00",
-          "paid": true
-        }
-      ]
+      "items": []
     },
     {
       "name": "千葉日報",
@@ -251,7 +244,7 @@
         {
           "title": "論説　首相と中傷動画　疑惑払拭へ責任果たせ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/1017421",
-          "published": "2026/6/6 04:00",
+          "published": "2026/6/6 4:00",
           "paid": true
         }
       ]

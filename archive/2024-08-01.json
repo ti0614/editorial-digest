@@ -36,7 +36,7 @@
         {
           "title": "【応急仮設終了】意向調査を丁寧に（８月１日）",
           "link": "https://www.minpo.jp/articles/-/55802",
-          "published": "2024/08/01 08:50",
+          "published": "2024/8/1 8:50",
           "paid": false
         }
       ]
@@ -49,7 +49,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "自民議員詐欺容疑　「政治とカネ」底なしか",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1098895.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年8月1日(木)  10:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -107,7 +114,7 @@
         {
           "title": "論説　日銀が追加利上げ　金利正常化 明確にせよ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/620111",
-          "published": "2024/8/1 04:00",
+          "published": "2024/8/1 4:00",
           "paid": true
         }
       ]
@@ -216,6 +223,52 @@
           "title": "＜主張＞秘書給与の詐取　国民に対する背信行為だ",
           "link": "https://www.sankei.com/article/20240801-UR4YTIEHKRJNJLJLZHNI4LFRCQ/",
           "published": "2024/8/1 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "ブラジル、日系人に謝罪　歴史直視の大切さ示した",
+          "link": "https://mainichi.jp/articles/20240801/ddm/005/070/099000c",
+          "published": "2024/8/1 02:03",
+          "paid": false
+        },
+        {
+          "title": "日銀が追加利上げ　欠かせぬ暮らしへの配慮",
+          "link": "https://mainichi.jp/articles/20240801/ddm/005/070/100000c",
+          "published": "2024/8/1 02:02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］米利下げ検討でも市場急変の懸念は残る",
+          "link": "https://www.nikkei.com/article/DGXZQODK017M40R00C24A8000000/",
+          "published": "2024/8/1 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］疑念募るベネズエラ大統領選",
+          "link": "https://www.nikkei.com/article/DGXZQODK0172N0R00C24A8000000/",
+          "published": "2024/8/1 19:00",
           "paid": false
         }
       ]

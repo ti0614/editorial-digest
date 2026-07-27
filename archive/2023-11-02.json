@@ -13,7 +13,7 @@
         {
           "title": "【読書週間】本に親しむ場を各地に（１１月２日）",
           "link": "https://www.minpo.jp/articles/-/57475",
-          "published": "2023/11/02 09:01",
+          "published": "2023/11/2 9:01",
           "paid": false
         }
       ]
@@ -84,7 +84,7 @@
         {
           "title": "論説　法務副大臣が辞表　任命責任の自覚あるか",
           "link": "https://www.sanin-chuo.co.jp/articles/-/476031",
-          "published": "2023/11/2 04:00",
+          "published": "2023/11/2 4:00",
           "paid": true
         }
       ]
@@ -153,6 +153,75 @@
           "title": "【社説】金融緩和再修正　近づく出口丁寧に説明を",
           "link": "https://www.nishinippon.co.jp/item/1142436/",
           "published": "2023/11/02 06:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "柿沢副法相が辞任　首相は責任の重さ自覚を",
+          "link": "https://mainichi.jp/articles/20231102/ddm/005/070/104000c",
+          "published": "2023/11/2 02:01",
+          "paid": false
+        },
+        {
+          "title": "日大薬物事件で報告書　責任回避の体質あらわに",
+          "link": "https://mainichi.jp/articles/20231102/ddm/005/070/102000c",
+          "published": "2023/11/2 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］この経済対策では将来不安が増すだけだ",
+          "link": "https://www.nikkei.com/article/DGXZQODK0278H0S3A101C2000000/",
+          "published": "2023/11/2 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］米長期金利上昇の影響注視を",
+          "link": "https://www.nikkei.com/article/DGXZQODK0287I0S3A101C2000000/",
+          "published": "2023/11/2 19:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【主張】拳銃立てこもり　「結果良ければ」にするな",
+          "link": "https://www.sankei.com/article/20231102-SP3DDUYN3JKLPOOOLIHABHCWS4/",
+          "published": "2023/11/2 5:00",
+          "paid": false
+        },
+        {
+          "title": "【主張】日大薬物事件　再生への道は甚だ厳しい",
+          "link": "https://www.sankei.com/article/20231102-ST2B4XPO4NO2ZLWTRMXYK4TILM/",
+          "published": "2023/11/2 5:00",
           "paid": false
         }
       ]

@@ -36,7 +36,7 @@
         {
           "title": "【只見町ロケ映画】相互交流促進の力に（５月１０日）",
           "link": "https://www.minpo.jp/articles/-/56342",
-          "published": "2024/05/10 08:51",
+          "published": "2024/5/10 8:51",
           "paid": false
         }
       ]
@@ -49,7 +49,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "世界の軍事費　軍拡競争の愚行やめよ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1076694.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年5月10日(金)  09:39",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -107,7 +114,7 @@
         {
           "title": "論説　３月期決算　分配こそ時代の要請だ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/572464",
-          "published": "2024/5/10 04:00",
+          "published": "2024/5/10 4:00",
           "paid": true
         }
       ]
@@ -216,6 +223,52 @@
           "title": "＜主張＞感染症行動計画　失策直視し実効性高めよ",
           "link": "https://www.sankei.com/article/20240510-CSWRMOYEEJN2PNCTD4GFEKVROE/",
           "published": "2024/5/10 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "政府の基金見直し　無駄の温床一掃すべきだ",
+          "link": "https://mainichi.jp/articles/20240510/ddm/005/070/079000c",
+          "published": "2024/5/10 02:01",
+          "paid": false
+        },
+        {
+          "title": "欧州でポピュリズム拡大　「地球益」置き去り危ぶむ",
+          "link": "https://mainichi.jp/articles/20240510/ddm/005/070/077000c",
+          "published": "2024/5/10 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］「デジタル赤字」を稼ぐ力に転じる変革を",
+          "link": "https://www.nikkei.com/article/DGXZQODK0971U0Z00C24A5000000/",
+          "published": "2024/5/10 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］法廷で裏金の実態に迫れ",
+          "link": "https://www.nikkei.com/article/DGXZQODK1057S0Q4A510C2000000/",
+          "published": "2024/5/10 19:00",
           "paid": false
         }
       ]

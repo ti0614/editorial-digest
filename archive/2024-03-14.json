@@ -36,7 +36,7 @@
         {
           "title": "【田村市の人材育成】近隣にも事業広げて（３月１４日）",
           "link": "https://www.minpo.jp/articles/-/56663",
-          "published": "2024/03/14 08:51",
+          "published": "2024/3/14 8:51",
           "paid": false
         }
       ]
@@ -49,7 +49,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "地方自治法改正　国の権限強化は疑問だ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1063429.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年3月14日(木)  10:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -107,7 +114,7 @@
         {
           "title": "論説　春闘高額回答　息の長い賃上げが使命",
           "link": "https://www.sanin-chuo.co.jp/articles/-/543258",
-          "published": "2024/3/14 04:00",
+          "published": "2024/3/14 4:00",
           "paid": true
         }
       ]
@@ -216,6 +223,52 @@
           "title": "＜主張＞「カイロス」失敗　チャレンジの灯を消すな",
           "link": "https://www.sankei.com/article/20240314-KJSAQDKPIJOMFNXK2LTTXZ2W3Q/",
           "published": "2024/3/14 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "災害とデジタル技術　平時からの備えを万全に",
+          "link": "https://mainichi.jp/articles/20240314/ddm/005/070/102000c",
+          "published": "2024/3/14 02:01",
+          "paid": false
+        },
+        {
+          "title": "満額回答相次ぐ春闘　息切れせず中小へ波及を",
+          "link": "https://mainichi.jp/articles/20240314/ddm/005/070/105000c",
+          "published": "2024/3/14 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］この政倫審では裏金の実態解明に程遠い",
+          "link": "https://www.nikkei.com/article/DGXZQODK146MX0U4A310C2000000/",
+          "published": "2024/3/14 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］能登の被災地の子に息長い支援を",
+          "link": "https://www.nikkei.com/article/DGXZQODK1430I0U4A310C2000000/",
+          "published": "2024/3/14 19:00",
           "paid": false
         }
       ]

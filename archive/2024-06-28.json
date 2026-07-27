@@ -36,7 +36,7 @@
         {
           "title": "【国スポ改革】柔軟な発想で議論を（６月２８日）",
           "link": "https://www.minpo.jp/articles/-/56079",
-          "published": "2024/06/28 08:50",
+          "published": "2024/6/28 8:50",
           "paid": false
         }
       ]
@@ -49,7 +49,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "犯罪被害者給付金　支援のさらなる充実を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1089586.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年6月28日(金)  10:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -90,7 +97,7 @@
         {
           "title": "論説　電気・ガス代補助　迷走のツケは国民に",
           "link": "https://www.sanin-chuo.co.jp/articles/-/600096",
-          "published": "2024/6/28 04:00",
+          "published": "2024/6/28 4:00",
           "paid": true
         }
       ]
@@ -199,6 +206,52 @@
           "title": "＜主張＞元検事正「逮捕」　隠蔽と見られて仕方ない",
           "link": "https://www.sankei.com/article/20240628-XE644NP7WVPLVCLDGT5BGMHT24/",
           "published": "2024/6/28 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "ヤングケアラー支援法　孤立させぬ対策進めたい",
+          "link": "https://mainichi.jp/articles/20240628/ddm/005/070/046000c",
+          "published": "2024/6/28 02:01",
+          "paid": false
+        },
+        {
+          "title": "国際標準と産業競争力　戦略明確化し人材育成を",
+          "link": "https://mainichi.jp/articles/20240628/ddm/005/070/044000c",
+          "published": "2024/6/28 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］世界が不安を覚えた米大統領選の討論会",
+          "link": "https://www.nikkei.com/article/DGXZQODK2840Y0Y4A620C2000000/",
+          "published": "2024/6/28 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］劇症型溶連菌は正しく恐れよ",
+          "link": "https://www.nikkei.com/article/DGXZQODK27D8S0X20C24A6000000/",
+          "published": "2024/6/28 19:00",
           "paid": false
         }
       ]

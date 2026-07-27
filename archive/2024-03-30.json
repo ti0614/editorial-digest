@@ -36,7 +36,7 @@
         {
           "title": "【県の行政監査】苦言を活性化に生かせ（３月３０日）",
           "link": "https://www.minpo.jp/articles/-/56576",
-          "published": "2024/03/30 08:50",
+          "published": "2024/3/30 8:50",
           "paid": false
         }
       ]
@@ -49,7 +49,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "自治体予算　旧来施策から脱却せよ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1067327.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年3月30日(土)  09:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -107,7 +114,7 @@
         {
           "title": "論説　コロナ医療支援終了　次の感染症に備えを",
           "link": "https://www.sanin-chuo.co.jp/articles/-/551720",
-          "published": "2024/3/30 04:00",
+          "published": "2024/3/30 4:00",
           "paid": true
         }
       ]
@@ -216,6 +223,52 @@
           "title": "＜主張＞リニア開業延期　川勝知事の妨害許されぬ",
           "link": "https://www.sankei.com/article/20240330-TFGMS4IVG5JD3PXXE2SR7MHM5Q/",
           "published": "2024/3/30 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "自転車に「青切符」　安全利用につなげてこそ",
+          "link": "https://mainichi.jp/articles/20240330/ddm/005/070/119000c",
+          "published": "2024/3/30 02:01",
+          "paid": false
+        },
+        {
+          "title": "疑惑深まる自民裏金　森元首相は国会で説明を",
+          "link": "https://mainichi.jp/articles/20240330/ddm/005/070/121000c",
+          "published": "2024/3/30 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］TikTokの安保リスクに向き合え",
+          "link": "https://www.nikkei.com/article/DGXZQODK230HD0T20C24A3000000/",
+          "published": "2024/3/30 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］ガザ危機へ資金拠出の再開を",
+          "link": "https://www.nikkei.com/article/DGXZQOCD293YD0Z20C24A3000000/",
+          "published": "2024/3/30 19:00",
           "paid": false
         }
       ]

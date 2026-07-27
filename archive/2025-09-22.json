@@ -82,7 +82,7 @@
         {
           "title": "【総裁選きょう告示】福島復興の議論を（９月２２日）",
           "link": "https://www.minpo.jp/articles/-/52720",
-          "published": "2025/09/22 10:15",
+          "published": "2025/9/22 10:15",
           "paid": false
         }
       ]
@@ -112,7 +112,14 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "高まるニーズ、国が支援主導を　市原市のフリースクール運営費補助　【論説】",
+          "link": "https://www.chibanippo.co.jp/articles/1500824",
+          "published": "2025/9/22 5:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "新潟日報",
@@ -200,7 +207,7 @@
         {
           "title": "論説　プラザ合意４０年　国民にツケ、痛みは今も",
           "link": "https://www.sanin-chuo.co.jp/articles/-/862843",
-          "published": "2025/9/22 04:00",
+          "published": "2025/9/22 4:00",
           "paid": true
         }
       ]

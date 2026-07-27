@@ -53,7 +53,7 @@
         {
           "title": "【公共交通】観光に生かそう（８月１１日）",
           "link": "https://www.minpo.jp/articles/-/53349",
-          "published": "2025/08/11 09:40",
+          "published": "2025/8/11 9:40",
           "paid": false
         }
       ]
@@ -83,7 +83,14 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "千葉の戦禍を語り継ぐ　終戦８０年　【論説】",
+          "link": "https://www.chibanippo.co.jp/articles/1481585",
+          "published": "2025/8/11 5:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "新潟日報",
@@ -148,7 +155,7 @@
         {
           "title": "論説　空の安全、もう一度祈る　日航機墜落事故４０年",
           "link": "https://www.sanin-chuo.co.jp/articles/-/837582",
-          "published": "2025/8/11 04:00",
+          "published": "2025/8/11 4:00",
           "paid": true
         }
       ]
@@ -252,6 +259,29 @@
           "link": "https://www.sankei.com/article/20250811-D52YH7C4ONNRBGU3WBBXIITAZU/",
           "published": "2025/8/11 5:00",
           "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【豪新型艦の共同開発】中国の海洋進出の抑止に",
+          "link": "https://www.hokkoku.co.jp/articles/-/1834222",
+          "published": "2025/8/11 5:00",
+          "paid": true
+        },
+        {
+          "title": "社説【最低賃金の大幅増】前例ない中小支援策が必要",
+          "link": "https://www.hokkoku.co.jp/articles/-/1834221",
+          "published": "2025/8/11 5:00",
+          "paid": true
         }
       ]
     }

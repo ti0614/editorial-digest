@@ -82,7 +82,7 @@
         {
           "title": "【コメ価格高騰】消費者重視の農政を（３月３１日）",
           "link": "https://www.minpo.jp/articles/-/54259",
-          "published": "2025/03/31 09:22",
+          "published": "2025/3/31 9:22",
           "paid": false
         }
       ]
@@ -112,7 +112,20 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "自宅で生活、十分備蓄を　富士山噴火に伴う対策指針　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1420735",
+          "published": "2025/3/31 5:00",
+          "paid": true
+        },
+        {
+          "title": "大人も学べる観光施設に　変わる千葉市動物公園　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1420734",
+          "published": "2025/3/31 5:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "新潟日報",
@@ -143,7 +156,7 @@
         {
           "title": "論説　遅れる年金法案提出　責任政党の役割放棄だ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/755475",
-          "published": "2025/3/31 04:00",
+          "published": "2025/3/31 4:00",
           "paid": true
         }
       ]

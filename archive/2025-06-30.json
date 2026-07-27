@@ -82,7 +82,7 @@
         {
           "title": "【相双の製造業連携】地域産業の牽引役に（６月３０日）",
           "link": "https://www.minpo.jp/articles/-/53738",
-          "published": "2025/06/30 09:07",
+          "published": "2025/6/30 9:07",
           "paid": false
         }
       ]
@@ -112,7 +112,14 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "飲酒運転根絶へ無関心なくせ　八街児童５人死傷輪禍４年　【論説】",
+          "link": "https://www.chibanippo.co.jp/articles/1462350",
+          "published": "2025/6/30 5:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "新潟日報",
@@ -177,7 +184,7 @@
         {
           "title": "論説　ＮＡＴＯ防衛費５％　米国の言い値でいいか",
           "link": "https://www.sanin-chuo.co.jp/articles/-/809409",
-          "published": "2025/6/30 04:00",
+          "published": "2025/6/30 4:00",
           "paid": true
         }
       ]

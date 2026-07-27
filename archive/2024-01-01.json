@@ -13,7 +13,7 @@
         {
           "title": "【地方創生１０年】本県の地力高めて前へ（１月１日）",
           "link": "https://www.minpo.jp/articles/-/57107",
-          "published": "2024/01/01 08:51",
+          "published": "2024/1/1 8:51",
           "paid": false
         }
       ]
@@ -26,7 +26,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "２０２４年の年明けに　「４年ぶり」超えた先へ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1046258.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年1月1日(月)  09:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -67,7 +74,7 @@
         {
           "title": "論説　新年を迎えて　新しい力で政治変革を",
           "link": "https://www.sanin-chuo.co.jp/articles/-/505952",
-          "published": "2024/1/1 04:00",
+          "published": "2024/1/1 4:00",
           "paid": true
         }
       ]
@@ -153,6 +160,57 @@
           "title": "＜年のはじめに＞「内向き日本」では中国が嗤う　論説委員長　榊原智",
           "link": "https://www.sankei.com/article/20240101-J2TIJG7XYNMXTD3YNRNNL2ZRLU/",
           "published": "2024/1/1 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "超える’24　二つの戦争と世界　人類の危機克服に英知を",
+          "link": "https://mainichi.jp/articles/20240101/ddm/002/070/063000c",
+          "published": "2024/1/1 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］分断回避に対話の努力を続けよう",
+          "link": "https://www.nikkei.com/article/DGXZQODK251D40V21C23A2000000/",
+          "published": "2024/1/1 0:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【新年に　展望】「春の日差し」を社会に",
+          "link": "https://www.kochinews.co.jp/article/detail/710568",
+          "published": "2024.01.01 08:00",
           "paid": false
         }
       ]

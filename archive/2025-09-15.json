@@ -53,7 +53,7 @@
         {
           "title": "【議員なり手不足】民意の反映どうする（９月１５日）",
           "link": "https://www.minpo.jp/articles/-/52867",
-          "published": "2025/09/15 10:04",
+          "published": "2025/9/15 10:04",
           "paid": false
         }
       ]
@@ -83,7 +83,14 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "手口巧妙化、だまされないで　過去最悪の「電話de詐欺」　【論説】",
+          "link": "https://www.chibanippo.co.jp/articles/1497790",
+          "published": "2025/9/15 5:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "新潟日報",
@@ -171,7 +178,7 @@
         {
           "title": "論説　スマホ条例案　家庭内のルールが鍵だ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/858541",
-          "published": "2025/9/15 04:00",
+          "published": "2025/9/15 4:00",
           "paid": true
         }
       ]

@@ -82,7 +82,7 @@
         {
           "title": "【熊の緊急銃猟】郡山の知見共有を（４月１６日）",
           "link": "https://www.minpo.jp/articles/-/110330",
-          "published": "2026/04/16 12:00",
+          "published": "2026/4/16 12:00",
           "paid": true
         }
       ]
@@ -112,7 +112,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "熊本地震１０年　関連死対策を平時から",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1264940.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2026年4月16日(木)  09:50",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -210,7 +217,7 @@
         {
           "title": "論説　ハンガリー政権交代　ＥＵはこの機を逃すな",
           "link": "https://www.sanin-chuo.co.jp/articles/-/986953",
-          "published": "2026/4/16 04:00",
+          "published": "2026/4/16 4:00",
           "paid": true
         }
       ]

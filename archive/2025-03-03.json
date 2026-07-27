@@ -76,7 +76,7 @@
         {
           "title": "【震災１４年　移住受け入れ】住み続けたいまちに（３月３日）",
           "link": "https://www.minpo.jp/articles/-/54428",
-          "published": "2025/03/03 09:13",
+          "published": "2025/3/3 9:13",
           "paid": false
         }
       ]
@@ -106,7 +106,20 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "きめ細かな観光施策を期待　アロハガーデン閉園決定　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1408199",
+          "published": "2025/3/3 5:00",
+          "paid": true
+        },
+        {
+          "title": "民主主義の維持へ規制急務　横行する「２馬力選挙」　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1408198",
+          "published": "2025/3/3 5:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "新潟日報",
@@ -154,7 +167,7 @@
         {
           "title": "論説　出生数最少７２万人　縮む日本に向き合う時",
           "link": "https://www.sanin-chuo.co.jp/articles/-/738433",
-          "published": "2025/3/3 04:00",
+          "published": "2025/3/3 4:00",
           "paid": true
         }
       ]

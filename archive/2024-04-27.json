@@ -36,7 +36,7 @@
         {
           "title": "【相続登記義務化】円滑な実施へ周知を（４月２７日）",
           "link": "https://www.minpo.jp/articles/-/56414",
-          "published": "2024/04/27 08:51",
+          "published": "2024/4/27 8:51",
           "paid": false
         }
       ]
@@ -49,7 +49,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "横浜市営バス減便　地域の足守る独自策を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1074015.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年4月27日(土)  10:10",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -107,7 +114,7 @@
         {
           "title": "論説　衆院補選２８日投開票　地域の未来へ「一票」を",
           "link": "https://www.sanin-chuo.co.jp/articles/-/566345",
-          "published": "2024/4/27 04:00",
+          "published": "2024/4/27 4:00",
           "paid": true
         }
       ]
@@ -216,6 +223,52 @@
           "title": "＜主張＞政治改革特別委　規正法改正を確実に図れ",
           "link": "https://www.sankei.com/article/20240427-WGG7RFSJEVM25J26XOLITAWQGM/",
           "published": "2024/4/27 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "「国スポ」の存廃論議　開催意義を問い直す時だ",
+          "link": "https://mainichi.jp/articles/20240427/ddm/005/070/090000c",
+          "published": "2024/4/27 02:01",
+          "paid": false
+        },
+        {
+          "title": "ネットに広がる偽情報　社会全体で危機感共有を",
+          "link": "https://mainichi.jp/articles/20240427/ddm/005/070/089000c",
+          "published": "2024/4/27 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］米中はロシアの侵略とめる責任果たせ",
+          "link": "https://www.nikkei.com/article/DGXZQOCD2653B0W4A420C2000000/",
+          "published": "2024/4/27 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］金高騰が映す世界経済リスク",
+          "link": "https://www.nikkei.com/article/DGXZQODK26C9T0W4A420C2000000/",
+          "published": "2024/4/27 19:00",
           "paid": false
         }
       ]

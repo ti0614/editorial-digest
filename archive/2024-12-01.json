@@ -72,7 +72,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "百田尚樹氏の発言　人権を無視した暴言だ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1129932.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年12月1日(日)  10:10",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -130,7 +137,7 @@
         {
           "title": "論説　マイナ保険証一本化　置き去りは許されない",
           "link": "https://www.sanin-chuo.co.jp/articles/-/689217",
-          "published": "2024/12/1 04:00",
+          "published": "2024/12/1 4:00",
           "paid": true
         }
       ]

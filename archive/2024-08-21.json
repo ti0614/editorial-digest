@@ -36,7 +36,7 @@
         {
           "title": "【県森林環境税】負担と効果の検証を（８月２１日）",
           "link": "https://www.minpo.jp/articles/-/55672",
-          "published": "2024/08/21 08:50",
+          "published": "2024/8/21 8:50",
           "paid": false
         }
       ]
@@ -49,7 +49,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "最低賃金　継続的な底上げ目指せ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1104001.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年8月21日(水)  09:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -90,7 +97,7 @@
         {
           "title": "論説　自民党総裁選　政治改革の実行確約を",
           "link": "https://www.sanin-chuo.co.jp/articles/-/631512",
-          "published": "2024/8/21 04:00",
+          "published": "2024/8/21 4:00",
           "paid": true
         }
       ]
@@ -199,6 +206,52 @@
           "title": "＜主張＞尖閣を「中国領」　NHKは問題放送猛省を",
           "link": "https://www.sankei.com/article/20240821-XSL426HCA5LQZNPMIMA7BOMHPM/",
           "published": "2024/8/21 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "自民党の総裁選　「政治とカネ」忘れたのか",
+          "link": "https://mainichi.jp/articles/20240821/ddm/005/070/071000c",
+          "published": "2024/8/21 02:01",
+          "paid": false
+        },
+        {
+          "title": "遺族年金の見直し　社会変化に即した対応だ",
+          "link": "https://mainichi.jp/articles/20240821/ddm/005/070/068000c",
+          "published": "2024/8/21 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］「Amazon処方薬」が問う医療DXの遅れ",
+          "link": "https://www.nikkei.com/article/DGXZQODK204370Q4A820C2000000/",
+          "published": "2024/8/21 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］農地を守り安保強める計画に",
+          "link": "https://www.nikkei.com/article/DGXZQODK20BDH0Q4A820C2000000/",
+          "published": "2024/8/21 19:00",
           "paid": false
         }
       ]

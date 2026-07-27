@@ -30,7 +30,7 @@
         {
           "title": "【廃炉の人材育成】学びの裾野広げて（６月１９日）",
           "link": "https://www.minpo.jp/articles/-/56116",
-          "published": "2024/06/19 08:52",
+          "published": "2024/6/19 8:52",
           "paid": false
         }
       ]
@@ -43,7 +43,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "認証不正　経済への影響も注視を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1086981.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年6月19日(水)  10:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -101,7 +108,7 @@
         {
           "title": "論説　安倍派裏金事件　派閥幹部の説明 虚偽か",
           "link": "https://www.sanin-chuo.co.jp/articles/-/594784",
-          "published": "2024/6/19 04:00",
+          "published": "2024/6/19 4:00",
           "paid": true
         }
       ]
@@ -210,6 +217,52 @@
           "title": "＜主張＞東京都知事選　都民を守る政策競い合え",
           "link": "https://www.sankei.com/article/20240619-LZBJQBMNLZKBJKCGO2GRT6KS6A/",
           "published": "2024/6/19 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "欧州議会選で右派躍進　不寛容の広がり懸念する",
+          "link": "https://mainichi.jp/articles/20240619/ddm/005/070/086000c",
+          "published": "2024/6/19 02:01",
+          "paid": false
+        },
+        {
+          "title": "生殖補助医療の法整備　「出自知る権利」の尊重を",
+          "link": "https://mainichi.jp/articles/20240619/ddm/005/070/084000c",
+          "published": "2024/6/19 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］これでは政治資金の不正を根絶できない",
+          "link": "https://www.nikkei.com/article/DGXZQODK18AL70Y4A610C2000000/",
+          "published": "2024/6/19 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］生成AIはiPhoneを変えるか",
+          "link": "https://www.nikkei.com/article/DGXZQODK199BE0Z10C24A6000000/",
+          "published": "2024/6/19 19:00",
           "paid": false
         }
       ]

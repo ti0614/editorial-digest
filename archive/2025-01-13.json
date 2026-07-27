@@ -70,7 +70,7 @@
         {
           "title": "【教員の働き方改革】さらなる推進必要（１月１３日）",
           "link": "https://www.minpo.jp/articles/-/54614",
-          "published": "2025/01/13 10:04",
+          "published": "2025/1/13 10:04",
           "paid": false
         }
       ]
@@ -83,7 +83,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "リニア車両基地　丁寧な説明が不可欠だ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1139938.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年1月13日(月)  10:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -93,7 +100,20 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "資質向上、人材確保急げ　介護職員の高齢者虐待増加　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1351421",
+          "published": "2025/1/13 5:00",
+          "paid": true
+        },
+        {
+          "title": "ＳＮＳ活用で神経戦も　「選挙イヤー」幕開け　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1351420",
+          "published": "2025/1/13 5:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "新潟日報",
@@ -141,7 +161,7 @@
         {
           "title": "論説　大阪・関西万博まで３カ月　集客へ近県との連携を",
           "link": "https://www.sanin-chuo.co.jp/articles/-/711493",
-          "published": "2025/1/13 04:00",
+          "published": "2025/1/13 4:00",
           "paid": true
         }
       ]

@@ -30,7 +30,7 @@
         {
           "title": "【県産米輸出】欧州での足場強固に（７月２２日）",
           "link": "https://www.minpo.jp/articles/-/55908",
-          "published": "2024/07/22 08:53",
+          "published": "2024/7/22 8:53",
           "paid": false
         }
       ]
@@ -43,7 +43,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "強制不妊の違憲判決　社会への投げかけ深く",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1095842.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年7月22日(月)  09:50",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -53,7 +60,20 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "夏来園促す工夫継続を　千葉市動物公園、新たな取り組み　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1251977",
+          "published": "2024/7/22 5:00",
+          "paid": true
+        },
+        {
+          "title": "水辺では目離さないで　夏休み中の水難事故　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1251976",
+          "published": "2024/7/22 5:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "新潟日報",
@@ -101,7 +121,7 @@
         {
           "title": "論説　強制不妊の補償　全面解決へ万全を期せ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/613408",
-          "published": "2024/7/22 04:00",
+          "published": "2024/7/22 4:00",
           "paid": true
         }
       ]
@@ -193,6 +213,46 @@
           "title": "＜主張＞外国人の訪問介護　円滑な実施へ環境整えよ",
           "link": "https://www.sankei.com/article/20240722-SYYG7HIY6FJ2FE3I7KDJPCPV7E/",
           "published": "2024/7/22 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "露軍の小児病院攻撃　弱者脅かす蛮行の阻止を",
+          "link": "https://mainichi.jp/articles/20240722/ddm/005/070/008000c",
+          "published": "2024/7/22 02:01",
+          "paid": false
+        },
+        {
+          "title": "独居高齢者の住宅確保　安心できる仕組みが必要",
+          "link": "https://mainichi.jp/articles/20240722/ddm/005/070/007000c",
+          "published": "2024/7/22 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］バイデン米大統領撤退の影響を最小限に",
+          "link": "https://www.nikkei.com/article/DGXZQODK2267T0S4A720C2000000/",
+          "published": "2024/7/22 19:15",
           "paid": false
         }
       ]

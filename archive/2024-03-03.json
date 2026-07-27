@@ -26,7 +26,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "鈴木藤沢市政４期目　将来見据えて再始動を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1060807.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年3月3日(日)  09:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -84,7 +91,7 @@
         {
           "title": "論説・自民裏金の審査　「幕引き」は許されない",
           "link": "https://www.sanin-chuo.co.jp/articles/-/537437",
-          "published": "2024/3/3 04:00",
+          "published": "2024/3/3 4:00",
           "paid": true
         }
       ]
@@ -199,6 +206,52 @@
           "title": "＜主張＞出生数最少７５万人　首相はもっと危機感持て",
           "link": "https://www.sankei.com/article/20240303-ZHZUEU7MFNIPLK5QHXOIWCCZTE/",
           "published": "2024/3/3 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "子育て支援の財源　理解得る努力が足りない",
+          "link": "https://mainichi.jp/articles/20240303/ddm/005/070/053000c",
+          "published": "2024/3/3 02:00",
+          "paid": false
+        },
+        {
+          "title": "世界経済とG20　分断の悪影響を防がねば",
+          "link": "https://mainichi.jp/articles/20240303/ddm/005/070/051000c",
+          "published": "2024/3/3 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］「中堅企業」育て日本の成長力底上げを",
+          "link": "https://www.nikkei.com/article/DGXZQODK283KU0Y4A220C2000000/",
+          "published": "2024/3/3 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］ガザ避難民の逃げ場を守れ",
+          "link": "https://www.nikkei.com/article/DGXZQODK020YO0S4A300C2000000/",
+          "published": "2024/3/3 19:00",
           "paid": false
         }
       ]

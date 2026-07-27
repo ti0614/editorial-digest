@@ -82,7 +82,7 @@
         {
           "title": "【いわきの防災対策】産学官連携のモデルに（１２月５日）",
           "link": "https://www.minpo.jp/articles/-/54748",
-          "published": "2024/12/05 09:00",
+          "published": "2024/12/5 9:00",
           "paid": false
         }
       ]
@@ -95,7 +95,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "妊娠前の健康管理　男女で意識を高めたい",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1131006.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年12月5日(木)  10:10",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -153,7 +160,7 @@
         {
           "title": "論説　韓国で非常戒厳　民主国家の名に値せず",
           "link": "https://www.sanin-chuo.co.jp/articles/-/691538",
-          "published": "2024/12/5 04:00",
+          "published": "2024/12/5 4:00",
           "paid": true
         }
       ]

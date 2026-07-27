@@ -30,7 +30,7 @@
         {
           "title": "【消滅自治体】データを覆すには（４月２５日）",
           "link": "https://www.minpo.jp/articles/-/56425",
-          "published": "2024/04/25 08:51",
+          "published": "2024/4/25 8:51",
           "paid": false
         }
       ]
@@ -43,7 +43,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "小田原「清閑亭」問題　市民が納得する説明を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1073433.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年4月25日(木)  10:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -101,7 +108,7 @@
         {
           "title": "論説　当事者意識はあるのか　自民の政治改革案",
           "link": "https://www.sanin-chuo.co.jp/articles/-/565109",
-          "published": "2024/4/25 04:00",
+          "published": "2024/4/25 4:00",
           "paid": true
         }
       ]
@@ -204,6 +211,52 @@
           "title": "＜主張＞自治体４割消滅も　政府は長期人口目標示せ　都道府県の再編もあり得る",
           "link": "https://www.sankei.com/article/20240425-2MR2JRYFAZMIJOV4HKU66DLLTE/",
           "published": "2024/4/25 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "自民の規正法見直し案　改革の名に値せぬ弥縫策",
+          "link": "https://mainichi.jp/articles/20240425/ddm/005/070/096000c",
+          "published": "2024/4/25 02:01",
+          "paid": false
+        },
+        {
+          "title": "被災家屋の公費解体　円滑な実施へ環境整備を",
+          "link": "https://mainichi.jp/articles/20240425/ddm/005/070/095000c",
+          "published": "2024/4/25 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］人口減対策と地域の持続性確保は両輪で",
+          "link": "https://www.nikkei.com/article/DGXZQODK254PZ0V20C24A4000000/",
+          "published": "2024/4/25 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］小売りは消費の変化に賢く動け",
+          "link": "https://www.nikkei.com/article/DGXZQODK2387F0T20C24A4000000/",
+          "published": "2024/4/25 19:00",
           "paid": false
         }
       ]

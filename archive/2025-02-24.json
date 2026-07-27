@@ -76,7 +76,7 @@
         {
           "title": "【ウクライナ侵攻３年】置き去り許されない（２月２４日）",
           "link": "https://www.minpo.jp/articles/-/54456",
-          "published": "2025/02/24 09:36",
+          "published": "2025/2/24 9:36",
           "paid": false
         }
       ]
@@ -89,7 +89,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "ウクライナ開戦３年　侵攻を不問に付すのか",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1150590.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年2月24日(月)  09:41",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -99,7 +106,20 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "県発展へ活発論戦期待　知事選２７日告示　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1404585",
+          "published": "2025/2/24 5:00",
+          "paid": true
+        },
+        {
+          "title": "制約下でも子育て注力　千葉市２５年度当初予算案　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1404584",
+          "published": "2025/2/24 5:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "新潟日報",
@@ -147,7 +167,7 @@
         {
           "title": "論説　ウクライナ戦争３年　機運逃さず停戦実現を",
           "link": "https://www.sanin-chuo.co.jp/articles/-/734585",
-          "published": "2025/2/24 04:00",
+          "published": "2025/2/24 4:00",
           "paid": true
         }
       ]

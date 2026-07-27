@@ -36,7 +36,7 @@
         {
           "title": "【震災１３年　相双の農業再生】大区画で進展を（３月６日）",
           "link": "https://www.minpo.jp/articles/-/56738",
-          "published": "2024/03/06 08:51",
+          "published": "2024/3/6 8:51",
           "paid": false
         }
       ]
@@ -49,7 +49,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "子育て支援金　「負担ゼロ」虚飾やめよ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1061468.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年3月6日(水)  09:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -90,7 +97,7 @@
         {
           "title": "論説　中国の全人代開幕　市場の信頼回復は遠い",
           "link": "https://www.sanin-chuo.co.jp/articles/-/538871",
-          "published": "2024/3/6 04:00",
+          "published": "2024/3/6 4:00",
           "paid": true
         }
       ]
@@ -199,6 +206,52 @@
           "title": "＜主張＞育児・介護休業法　キャリアの継続を確実に",
           "link": "https://www.sankei.com/article/20240306-TCBRYJ3UMRNU3FGACVCVV7AHIY/",
           "published": "2024/3/6 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "「習1強」体制の全人代　透明性の後退を危惧する",
+          "link": "https://mainichi.jp/articles/20240306/ddm/005/070/112000c",
+          "published": "2024/3/6 02:01",
+          "paid": false
+        },
+        {
+          "title": "GX国債の発行　脱炭素社会につなげたい",
+          "link": "https://mainichi.jp/articles/20240306/ddm/005/070/111000c",
+          "published": "2024/3/6 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］再対決の大統領選が米国の閉塞感を映す",
+          "link": "https://www.nikkei.com/article/DGXZQODK064JK0W4A300C2000000/",
+          "published": "2024/3/6 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］大手企業は高い賃上げでけん引を",
+          "link": "https://www.nikkei.com/article/DGXZQODK065ZN0W4A300C2000000/",
+          "published": "2024/3/6 19:00",
           "paid": false
         }
       ]

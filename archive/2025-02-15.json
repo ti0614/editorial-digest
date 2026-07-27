@@ -76,7 +76,7 @@
         {
           "title": "【会津若松の除排雪】検証し態勢強化を（２月１５日）",
           "link": "https://www.minpo.jp/articles/-/54496",
-          "published": "2025/02/15 09:47",
+          "published": "2025/2/15 9:47",
           "paid": false
         }
       ]
@@ -106,7 +106,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "日産統合協議打ち切り　連携と自助努力両輪で",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1148496.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年2月15日(土)  09:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -164,7 +171,7 @@
         {
           "title": "論説　石破首相と大阪万博　「楽しい日本」の試金石",
           "link": "https://www.sanin-chuo.co.jp/articles/-/729856",
-          "published": "2025/2/15 04:00",
+          "published": "2025/2/15 4:00",
           "paid": true
         }
       ]

@@ -36,7 +36,7 @@
         {
           "title": "【転職なき移住】ワーケーションに期待（３月２３日）",
           "link": "https://www.minpo.jp/articles/-/56613",
-          "published": "2024/03/23 08:55",
+          "published": "2024/3/23 8:55",
           "paid": false
         }
       ]
@@ -49,7 +49,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "議員のパワハラ　実効性ある対策早急に",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1065521.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年3月23日(土)  10:10",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -107,7 +114,7 @@
         {
           "title": "論説・水俣病熊本訴訟判決　本格救済にかじを切れ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/547851",
-          "published": "2024/3/23 04:00",
+          "published": "2024/3/23 4:00",
           "paid": true
         }
       ]
@@ -216,6 +223,52 @@
           "title": "＜主張＞大谷の通訳解雇　混乱収拾へ真相の公表を",
           "link": "https://www.sankei.com/article/20240323-P4JISXRV3BI5BA7VUFHH2FAKAU/",
           "published": "2024/3/23 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "水俣病被害の判決　国は幅広い救済に動く時",
+          "link": "https://mainichi.jp/articles/20240323/ddm/005/070/146000c",
+          "published": "2024/3/23 02:01",
+          "paid": false
+        },
+        {
+          "title": "進む教科書デジタル化　深く学べる環境づくりを",
+          "link": "https://mainichi.jp/articles/20240323/ddm/005/070/145000c",
+          "published": "2024/3/23 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］安定的な資産形成につながる金融教育を",
+          "link": "https://www.nikkei.com/article/DGXZQODK226S50S4A320C2000000/",
+          "published": "2024/3/23 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］「法の支配」へ重責担う赤根氏",
+          "link": "https://www.nikkei.com/article/DGXZQODK215CL0R20C24A3000000/",
+          "published": "2024/3/23 19:00",
           "paid": false
         }
       ]

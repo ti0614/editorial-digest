@@ -36,7 +36,7 @@
         {
           "title": "【震災１３年　イノベ構想１０年】点から面への展開急務（３月５日）",
           "link": "https://www.minpo.jp/articles/-/56743",
-          "published": "2024/03/05 08:51",
+          "published": "2024/3/5 8:51",
           "paid": false
         }
       ]
@@ -49,7 +49,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "診療報酬の改定　医療の充実につなげよ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1061214.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年3月5日(火)  10:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -107,7 +114,7 @@
         {
           "title": "論説　旧統一教会巡る司法手続き　政府は情報の開示を",
           "link": "https://www.sanin-chuo.co.jp/articles/-/538293",
-          "published": "2024/3/5 04:00",
+          "published": "2024/3/5 4:00",
           "paid": true
         }
       ]
@@ -216,6 +223,52 @@
           "title": "＜主張＞「３・１１」を前に　避難の実行で風化を防げ",
           "link": "https://www.sankei.com/article/20240305-XRA3Z2OOZRIGHLF77WF3BNTUPM/",
           "published": "2024/3/5 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "「徴用工」決着から1年　日韓協力の裾野広げたい",
+          "link": "https://mainichi.jp/articles/20240305/ddm/005/070/057000c",
+          "published": "2024/3/5 02:01",
+          "paid": false
+        },
+        {
+          "title": "岸田首相と裏金国会　真相の解明はこれからだ",
+          "link": "https://mainichi.jp/articles/20240305/ddm/005/070/059000c",
+          "published": "2024/3/5 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］中国経済の再生に向けた道筋が見えない",
+          "link": "https://www.nikkei.com/article/DGXZQODK048BP0U4A300C2000000/",
+          "published": "2024/3/5 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］LINEは社会基盤の自覚を",
+          "link": "https://www.nikkei.com/article/DGXZQODK058NH0V00C24A3000000/",
+          "published": "2024/3/5 19:00",
           "paid": false
         }
       ]

@@ -66,7 +66,20 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "地域とのつながり支援を　身寄りのない高齢者が増加　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1429353",
+          "published": "2025/4/20 5:00",
+          "paid": true
+        },
+        {
+          "title": "房総活性化の起爆剤に　君津に千葉ロッテ２軍移転　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1429352",
+          "published": "2025/4/20 5:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "新潟日報",
@@ -114,7 +127,7 @@
         {
           "title": "論説　内密出産　国の責任で法整備急げ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/767404",
-          "published": "2025/4/20 04:00",
+          "published": "2025/4/20 4:00",
           "paid": true
         }
       ]

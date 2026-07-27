@@ -59,7 +59,7 @@
         {
           "title": "【カスハラ対策】社会全体で機運醸成を（９月２１日）",
           "link": "https://www.minpo.jp/articles/-/55410",
-          "published": "2024/09/21 09:23",
+          "published": "2024/9/21 9:23",
           "paid": false
         }
       ]
@@ -72,7 +72,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "大谷翔平選手「５０－５０」　驚異の偉業を称賛する",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1111773.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年9月21日(土)  10:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -130,7 +137,7 @@
         {
           "title": "論説　米４年半ぶり利下げ　日本への影響注視する",
           "link": "https://www.sanin-chuo.co.jp/articles/-/649776",
-          "published": "2024/9/21 04:00",
+          "published": "2024/9/21 4:00",
           "paid": true
         }
       ]
@@ -239,6 +246,29 @@
           "title": "＜主張＞新幹線の連結事故　「鉄道」の基本に立ち戻れ",
           "link": "https://www.sankei.com/article/20240921-S6ID5MFDVVNGRKPLOMG5WRVD2Y/",
           "published": "2024/9/21 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］中国は一刻も早く水産物輸入を再開せよ",
+          "link": "https://www.nikkei.com/article/DGXZQODK210T60R20C24A9000000/",
+          "published": "2024/9/21 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］世界驚かせた大谷翔平選手の偉業",
+          "link": "https://www.nikkei.com/article/DGXZQODK208440Q4A920C2000000/",
+          "published": "2024/9/21 19:00",
           "paid": false
         }
       ]

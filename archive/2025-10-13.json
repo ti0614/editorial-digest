@@ -76,7 +76,7 @@
         {
           "title": "【風評・風化対策】県民の発信力に期待（１０月１３日）",
           "link": "https://www.minpo.jp/articles/-/52160",
-          "published": "2025/10/13 09:11",
+          "published": "2025/10/13 9:11",
           "paid": false
         }
       ]
@@ -106,7 +106,14 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "昨季の猛威受け対策強化　鳥インフルエンザ　【論説】",
+          "link": "https://www.chibanippo.co.jp/articles/1510224",
+          "published": "2025/10/13 5:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "新潟日報",
@@ -194,7 +201,7 @@
         {
           "title": "論説　国スポへ機運高めたい　きょうはスポーツの日",
           "link": "https://www.sanin-chuo.co.jp/articles/-/875855",
-          "published": "2025/10/13 04:00",
+          "published": "2025/10/13 4:00",
           "paid": true
         }
       ]

@@ -76,7 +76,7 @@
         {
           "title": "【公共ライドシェア】新たな地域の足に（１０月７日）",
           "link": "https://www.minpo.jp/articles/-/55222",
-          "published": "2024/10/07 09:27",
+          "published": "2024/10/7 9:27",
           "paid": false
         }
       ]
@@ -89,7 +89,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "経済政策　希望持てる将来像示せ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1115715.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年10月7日(月)  10:25",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -99,7 +106,20 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "大型店に頼らぬ活性策必要　街から姿消す商業施設　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1285945",
+          "published": "2024/10/7 5:00",
+          "paid": true
+        },
+        {
+          "title": "政治不信解消、改革断行を　石破首相初の所信表明演説　【論説】",
+          "link": "https://www.chibanippo.co.jp/news/politics/1285946",
+          "published": "2024/10/7 5:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "新潟日報",
@@ -147,7 +167,7 @@
         {
           "title": "論説　公益通報制度　実効性の担保が急務だ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/658539",
-          "published": "2024/10/7 04:00",
+          "published": "2024/10/7 4:00",
           "paid": true
         }
       ]

@@ -82,7 +82,7 @@
         {
           "title": "【誰もが楽しめる旅】高齢者、障害者に優しく（１月２８日）",
           "link": "https://www.minpo.jp/articles/-/54564",
-          "published": "2025/01/28 09:00",
+          "published": "2025/1/28 9:00",
           "paid": false
         }
       ]
@@ -112,7 +112,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "海自と川重　なれ合い関係断ち切れ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1143733.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年1月28日(火)  10:30",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -170,7 +177,7 @@
         {
           "title": "論説　障害者の逸失利益　「同等」が当然の社会に",
           "link": "https://www.sanin-chuo.co.jp/articles/-/719998",
-          "published": "2025/1/28 04:00",
+          "published": "2025/1/28 4:00",
           "paid": true
         }
       ]

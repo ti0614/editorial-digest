@@ -32,7 +32,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "能登半島地震　公的支援の手緩めるな",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1056126.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年2月11日(日)  09:50",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -90,7 +97,7 @@
         {
           "title": "論説　トヨタ系の改革　不正のない車つくろう",
           "link": "https://www.sanin-chuo.co.jp/articles/-/527353",
-          "published": "2024/2/11 04:00",
+          "published": "2024/2/11 4:00",
           "paid": true
         }
       ]
@@ -199,6 +206,52 @@
           "title": "＜主張＞日伊首脳会談　外交安保で協力を深めよ　　",
           "link": "https://www.sankei.com/article/20240211-EV62MLQ6JJM3XEM2ZHD2XJJYPQ/",
           "published": "2024/2/11 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "経団連が夫婦別姓要望　自民党が壁を越える時だ",
+          "link": "https://mainichi.jp/articles/20240211/ddm/005/070/065000c",
+          "published": "2024/2/11 02:01",
+          "paid": false
+        },
+        {
+          "title": "生成AIの利用拡大　著作権侵害の歯止め必要",
+          "link": "https://mainichi.jp/articles/20240211/ddm/005/070/063000c",
+          "published": "2024/2/11 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］資産運用業は世界に伍する競争力つけよ",
+          "link": "https://www.nikkei.com/article/DGXZQODK099730Z00C24A2000000/",
+          "published": "2024/2/11 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］翁氏の政府税調は積極発信を",
+          "link": "https://www.nikkei.com/article/DGXZQODK087SH0Y4A200C2000000/",
+          "published": "2024/2/11 19:00",
           "paid": false
         }
       ]

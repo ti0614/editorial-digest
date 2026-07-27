@@ -36,7 +36,7 @@
         {
           "title": "【中堅企業】地域挙げて育成を（８月２日）",
           "link": "https://www.minpo.jp/articles/-/55792",
-          "published": "2024/08/02 08:50",
+          "published": "2024/8/2 8:50",
           "paid": false
         }
       ]
@@ -49,7 +49,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "利上げ　腰折れ懸念に手だてを",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1099218.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年8月2日(金)  10:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -90,7 +97,7 @@
         {
           "title": "論説　二極化する花火大会　高値定着の鍵は満足度",
           "link": "https://www.sanin-chuo.co.jp/articles/-/620861",
-          "published": "2024/8/2 04:00",
+          "published": "2024/8/2 4:00",
           "paid": true
         }
       ]
@@ -199,6 +206,52 @@
           "title": "＜主張＞ハマス幹部殺害　対立激化へ最大限警戒を",
           "link": "https://www.sankei.com/article/20240802-CQRNLGUMJRIVTEVWJFQ7LDGO6E/",
           "published": "2024/8/2 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "ハマス最高幹部の殺害　停戦の扉閉じてはならぬ",
+          "link": "https://mainichi.jp/articles/20240802/ddm/005/070/123000c",
+          "published": "2024/8/2 02:01",
+          "paid": false
+        },
+        {
+          "title": "最低賃金の上げ幅最大　継続可能な環境の整備を",
+          "link": "https://mainichi.jp/articles/20240802/ddm/005/070/124000c",
+          "published": "2024/8/2 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］ふるさと納税の膨張を改めるときだ",
+          "link": "https://www.nikkei.com/article/DGXZQODK027SN0S4A800C2000000/",
+          "published": "2024/8/2 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］トヨタは不正の膿を出し切れ",
+          "link": "https://www.nikkei.com/article/DGXZQODK0228R0S4A800C2000000/",
+          "published": "2024/8/2 19:00",
           "paid": false
         }
       ]

@@ -36,7 +36,7 @@
         {
           "title": "【ウクライナ支援】復興への理解深めたい（４月１２日）",
           "link": "https://www.minpo.jp/articles/-/56504",
-          "published": "2024/04/12 08:51",
+          "published": "2024/4/12 8:51",
           "paid": false
         }
       ]
@@ -49,7 +49,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "実質賃金減が最長に　再生に検証は不可欠",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1070219.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年4月12日(金)  10:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -90,7 +97,7 @@
         {
           "title": "論説　慎重な検討を　日米首脳会談同盟変容",
           "link": "https://www.sanin-chuo.co.jp/articles/-/558164",
-          "published": "2024/4/12 04:00",
+          "published": "2024/4/12 4:00",
           "paid": true
         }
       ]
@@ -199,6 +206,46 @@
           "title": "＜主張＞日米首脳会談　抑止力向上の合意実践を　首相の積極姿勢を評価する",
           "link": "https://www.sankei.com/article/20240412-YPNKYVLTCRIEJJ7K53GBD2KGM4/",
           "published": "2024/4/12 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "岸田・バイデン会談　問われる日本の外交戦略",
+          "link": "https://mainichi.jp/articles/20240412/ddm/005/070/067000c",
+          "published": "2024/4/12 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］与党大敗でも日韓協力の歩みを着実に",
+          "link": "https://www.nikkei.com/article/DGXZQODK12B890S4A410C2000000/",
+          "published": "2024/4/12 19:15",
+          "paid": false
+        },
+        {
+          "title": "［社説］米議会演説が問う日本の覚悟",
+          "link": "https://www.nikkei.com/article/DGXZQODK121OW0S4A410C2000000/",
+          "published": "2024/4/12 19:10",
           "paid": false
         }
       ]

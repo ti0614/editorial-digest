@@ -36,7 +36,7 @@
         {
           "title": "【円安加速】地方企業の芽を摘むな（３月２８日）",
           "link": "https://www.minpo.jp/articles/-/56588",
-          "published": "2024/03/28 08:51",
+          "published": "2024/3/28 8:51",
           "paid": false
         }
       ]
@@ -49,7 +49,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "プロ野球開幕　ＤｅＮＡ新人・度会隆輝選手に注目",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1066749.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年3月28日(木)  10:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -107,7 +114,7 @@
         {
           "title": "論説　紅こうじサプリ　被害把握し拡大防げ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/550496",
-          "published": "2024/3/28 04:00",
+          "published": "2024/3/28 4:00",
           "paid": true
         }
       ]
@@ -216,6 +223,52 @@
           "title": "＜主張＞紅麹サプリで被害　混乱拡大防ぐ情報開示を",
           "link": "https://www.sankei.com/article/20240328-SI2DWRJKNFI2XMPJMIZU6EQKHI/",
           "published": "2024/3/28 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "同性カップルの権利　保護する法整備を早急に",
+          "link": "https://mainichi.jp/articles/20240328/ddm/005/070/075000c",
+          "published": "2024/3/28 02:02",
+          "paid": false
+        },
+        {
+          "title": "紅麹サプリの健康被害　後手の対応が混乱広げた",
+          "link": "https://mainichi.jp/articles/20240328/ddm/005/070/074000c",
+          "published": "2024/3/28 02:02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］安全性を軽くみていた「紅麹」健康食品",
+          "link": "https://www.nikkei.com/article/DGXZQODK284IF0Y4A320C2000000/",
+          "published": "2024/3/28 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］オスプレイの不安拭う努力を",
+          "link": "https://www.nikkei.com/article/DGXZQODK27DF30X20C24A3000000/",
+          "published": "2024/3/28 19:00",
           "paid": false
         }
       ]

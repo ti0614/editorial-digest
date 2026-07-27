@@ -13,7 +13,7 @@
         {
           "title": "【若い世代の文学】創作を将来につなげて（１１月１０日）",
           "link": "https://www.minpo.jp/articles/-/57399",
-          "published": "2023/11/10 08:54",
+          "published": "2023/11/10 8:54",
           "paid": false
         }
       ]
@@ -84,7 +84,7 @@
         {
           "title": "論説　年内の衆院解散見送り　政権延命策は許されぬ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/479859",
-          "published": "2023/11/10 04:00",
+          "published": "2023/11/10 4:00",
           "paid": true
         }
       ]
@@ -153,6 +153,92 @@
           "title": "【社説】不評の経済対策　国民の冷めた目を直視せよ",
           "link": "https://www.nishinippon.co.jp/item/1144879/",
           "published": "2023/11/10 06:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "蛍光灯製造の全面禁止　脱水銀へLEDの拡大を",
+          "link": "https://mainichi.jp/articles/20231110/ddm/005/070/086000c",
+          "published": "2023/11/10 02:01",
+          "paid": false
+        },
+        {
+          "title": "ガザ巡るG7外相会合　人命守る道筋が見えない",
+          "link": "https://mainichi.jp/articles/20231110/ddm/005/070/088000c",
+          "published": "2023/11/10 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］ベンチャーに警鐘鳴らすウィーワーク破綻",
+          "link": "https://www.nikkei.com/article/DGXZQODK1011B0Q3A111C2000000/",
+          "published": "2023/11/10 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］教団は被害救済に向き合え",
+          "link": "https://www.nikkei.com/article/DGXZQODK099HO0Z01C23A1000000/",
+          "published": "2023/11/10 19:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【主張】香港人留学生有罪　日本の「自由」も侵すのか",
+          "link": "https://www.sankei.com/article/20231110-6A5XNV4AQFOIXAKKEPOC7Q7AYY/",
+          "published": "2023/11/10 5:00",
+          "paid": false
+        },
+        {
+          "title": "【主張】外国人実習見直し　不適切な就労の是正急げ",
+          "link": "https://www.sankei.com/article/20231110-Q3BGVFSYU5OSTL3YTPCSN7OPW4/",
+          "published": "2023/11/10 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【旧統一教会会見】提案は被害救済に遠い",
+          "link": "https://www.kochinews.co.jp/article/detail/695379",
+          "published": "2023.11.10 08:00",
           "paid": false
         }
       ]

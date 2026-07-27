@@ -13,7 +13,7 @@
         {
           "title": "【会津狂言】訪日客誘客の呼び水に（１２月９日）",
           "link": "https://www.minpo.jp/articles/-/57216",
-          "published": "2023/12/09 09:03",
+          "published": "2023/12/9 9:03",
           "paid": false
         }
       ]
@@ -26,7 +26,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "ガザ戦闘　「停戦」探る努力続けよ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1041041.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2023年12月9日(土)  09:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -84,7 +91,7 @@
         {
           "title": "論説　官房長官の裏金疑惑　進退決めるのは当然だ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/494930",
-          "published": "2023/12/9 04:00",
+          "published": "2023/12/9 4:00",
           "paid": true
         }
       ]
@@ -176,6 +183,63 @@
           "title": "【主張】糖尿病治療薬　不適切使用防ぐ仕組みを",
           "link": "https://www.sankei.com/article/20231209-R26PKEAWHFIRPMQZJP62FMWLBI/",
           "published": "2023/12/9 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "松野長官の裏金疑惑　これで職責果たせるのか",
+          "link": "https://mainichi.jp/articles/20231209/ddm/005/070/102000c",
+          "published": "2023/12/9 02:01",
+          "paid": false
+        },
+        {
+          "title": "米の全オスプレイ停止　調査徹底し情報の共有を",
+          "link": "https://mainichi.jp/articles/20231209/ddm/005/070/098000c",
+          "published": "2023/12/9 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］資産勘案など社会保障負担の改革急げ",
+          "link": "https://www.nikkei.com/article/DGXZQOCD074G50X01C23A2000000/",
+          "published": "2023/12/9 19:05",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【自民の裏金疑惑】場当たり対応が傷深める",
+          "link": "https://www.kochinews.co.jp/article/detail/703180",
+          "published": "2023.12.09 08:00",
           "paid": false
         }
       ]

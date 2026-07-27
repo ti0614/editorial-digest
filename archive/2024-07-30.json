@@ -36,7 +36,7 @@
         {
           "title": "【信夫山公園１５０年】県都の「宝」を次代に（７月３０日）",
           "link": "https://www.minpo.jp/articles/-/55824",
-          "published": "2024/07/30 08:51",
+          "published": "2024/7/30 8:51",
           "paid": false
         }
       ]
@@ -49,7 +49,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "自民党総裁選　「脱派閥」本気度を問う",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1098177.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年7月30日(火)  10:20",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -107,7 +114,7 @@
         {
           "title": "論説　日米核抑止協議　核なき世界と矛盾する",
           "link": "https://www.sanin-chuo.co.jp/articles/-/618644",
-          "published": "2024/7/30 04:00",
+          "published": "2024/7/30 4:00",
           "paid": true
         }
       ]
@@ -216,6 +223,52 @@
           "title": "＜主張＞日米２プラス２　核抑止強化の具体策示せ",
           "link": "https://www.sankei.com/article/20240730-TFLDXGVPYJLTXBMQQPSPNH5KUQ/",
           "published": "2024/7/30 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "佐渡金山が世界遺産に　日韓対話の重要性示した",
+          "link": "https://mainichi.jp/articles/20240730/ddm/005/070/098000c",
+          "published": "2024/7/30 02:00",
+          "paid": false
+        },
+        {
+          "title": "新型コロナ再流行　注意喚起する情報発信を",
+          "link": "https://mainichi.jp/articles/20240730/ddm/005/070/097000c",
+          "published": "2024/7/30 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］米大統領選で保護主義を競うのはやめよ",
+          "link": "https://www.nikkei.com/article/DGXZQODK249DA0U4A720C2000000/",
+          "published": "2024/7/30 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］小林製薬に健康扱う資格ない",
+          "link": "https://www.nikkei.com/article/DGXZQODK301Z50Q4A730C2000000/",
+          "published": "2024/7/30 19:00",
           "paid": false
         }
       ]

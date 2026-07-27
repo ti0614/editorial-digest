@@ -82,7 +82,7 @@
         {
           "title": "【給食費無償化】総合的見地から議論を（２月２０日）",
           "link": "https://www.minpo.jp/articles/-/54474",
-          "published": "2025/02/20 09:00",
+          "published": "2025/2/20 9:00",
           "paid": false
         }
       ]
@@ -112,7 +112,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "ＭＳＣ報告書　多極化への意識変革を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1149692.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年2月20日(木)  09:40",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -170,7 +177,7 @@
         {
           "title": "論説　核兵器禁止条約　参加こそが「橋渡し」だ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/732455",
-          "published": "2025/2/20 04:00",
+          "published": "2025/2/20 4:00",
           "paid": true
         }
       ]

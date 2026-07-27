@@ -76,7 +76,7 @@
         {
           "title": "【開成山体育施設】競技力向上に期待（１月２０日）",
           "link": "https://www.minpo.jp/articles/-/54592",
-          "published": "2025/01/20 09:29",
+          "published": "2025/1/20 9:29",
           "paid": false
         }
       ]
@@ -89,7 +89,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "企業・団体献金　政治改革の熱量を問う",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1141600.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年1月20日(月)  09:20",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -99,7 +106,20 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "年明け急増、厳重警戒を　千葉県内鳥インフルエンザ猛威　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1382805",
+          "published": "2025/1/20 5:00",
+          "paid": true
+        },
+        {
+          "title": "不安払拭へ対策迅速に　Ｘ不適切投稿、千葉大病院が調査　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1382804",
+          "published": "2025/1/20 5:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "新潟日報",
@@ -147,7 +167,7 @@
         {
           "title": "論説　川重と海自の癒着　組織のうみを出し切れ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/715228",
-          "published": "2025/1/20 04:00",
+          "published": "2025/1/20 4:00",
           "paid": true
         }
       ]

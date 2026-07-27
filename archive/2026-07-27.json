@@ -284,7 +284,7 @@
       "category": "社説",
       "tier": "regional",
       "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
-      "error": null,
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
       "items": [
@@ -338,7 +338,7 @@
       "category": "論説",
       "tier": "regional",
       "index_url": "https://www.chibanippo.co.jp/serial",
-      "error": null,
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
       "items": [
@@ -655,7 +655,7 @@
         {
           "title": "［社説］ジャングリア1年　集客増へ試練の2年目",
           "link": "https://www.okinawatimes.co.jp/articles/-/1888727",
-          "published": "2026年7月27日 04:01",
+          "published": "2026年7月27日",
           "paid": false
         }
       ]
@@ -672,7 +672,7 @@
         {
           "title": "＜社説＞知事選告示まで1カ月　未来示す具体的論戦を",
           "link": "https://ryukyushimpo.jp/editorial/entry-5405769.html",
-          "published": "2026/07/27 04:00",
+          "published": "2026/07/27",
           "paid": false
         }
       ]

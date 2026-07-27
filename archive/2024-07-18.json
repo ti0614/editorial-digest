@@ -30,7 +30,7 @@
         {
           "title": "【倒産増加】経営共同組織に活路を（７月１８日）",
           "link": "https://www.minpo.jp/articles/-/55950",
-          "published": "2024/07/18 08:50",
+          "published": "2024/7/18 8:50",
           "paid": false
         }
       ]
@@ -43,7 +43,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "川の水難事故　危険把握し準備入念に",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1094756.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年7月18日(木)  10:30",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -101,7 +108,7 @@
         {
           "title": "論説　芸備線の実証事業　木次線の行方にも影響",
           "link": "https://www.sanin-chuo.co.jp/articles/-/611116",
-          "published": "2024/7/18 04:00",
+          "published": "2024/7/18 4:00",
           "paid": true
         }
       ]
@@ -210,6 +217,52 @@
           "title": "＜主張＞古江メジャー制覇　仏の空に日の丸が舞った",
           "link": "https://www.sankei.com/article/20240718-IGU7SQMBSRKAFP5NIZBRD7MBEM/",
           "published": "2024/7/18 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "総選挙後のフランス　混迷の深まりを懸念する",
+          "link": "https://mainichi.jp/articles/20240718/ddm/005/070/133000c",
+          "published": "2024/7/18 02:00",
+          "paid": false
+        },
+        {
+          "title": "羽田事故の再発防止策　安全向上へ着実な実施を",
+          "link": "https://mainichi.jp/articles/20240718/ddm/005/070/128000c",
+          "published": "2024/7/18 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］YouTube選挙の利点と危うさ",
+          "link": "https://www.nikkei.com/article/DGXZQODK185660Y4A710C2000000/",
+          "published": "2024/7/18 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］災害級の暑さ前提に対策急げ",
+          "link": "https://www.nikkei.com/article/DGXZQOCD172G80X10C24A7000000/",
+          "published": "2024/7/18 19:00",
           "paid": false
         }
       ]

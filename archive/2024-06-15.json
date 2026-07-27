@@ -36,7 +36,7 @@
         {
           "title": "【国際バカロレア】復興の担い手育成を（６月１５日）",
           "link": "https://www.minpo.jp/articles/-/56140",
-          "published": "2024/06/15 08:50",
+          "published": "2024/6/15 8:50",
           "paid": false
         }
       ]
@@ -49,7 +49,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "改正入管難民法　共生社会とは相いれぬ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1086082.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年6月15日(土)  09:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -107,7 +114,7 @@
         {
           "title": "論説　日銀の国債買い入れ　正常化へ減額進めよ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/592673",
-          "published": "2024/6/15 04:00",
+          "published": "2024/6/15 4:00",
           "paid": true
         }
       ]
@@ -216,6 +223,52 @@
           "title": "＜主張＞五輪球技の活況　快挙にも兜の緒を締めよ",
           "link": "https://www.sankei.com/article/20240615-SSGE5JZQGVOFVFQZA25K32AH7M/",
           "published": "2024/6/15 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "出生率が過去最低　若者の不安解消が不可欠",
+          "link": "https://mainichi.jp/articles/20240615/ddm/005/070/134000c",
+          "published": "2024/6/15 02:00",
+          "paid": false
+        },
+        {
+          "title": "森林環境税の導入　保全に効果的な仕組みか",
+          "link": "https://mainichi.jp/articles/20240615/ddm/005/070/130000c",
+          "published": "2024/6/15 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］G7は複合危機への対処で結束保て",
+          "link": "https://www.nikkei.com/article/DGXZQODK149PY0U4A610C2000000/",
+          "published": "2024/6/15 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］国スポの意義を見直す好機に",
+          "link": "https://www.nikkei.com/article/DGXZQODK14A3W0U4A610C2000000/",
+          "published": "2024/6/15 19:00",
           "paid": false
         }
       ]

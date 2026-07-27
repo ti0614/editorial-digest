@@ -13,7 +13,7 @@
         {
           "title": "【自動運転バス】地方こそ本格導入図れ（１２月２９日）",
           "link": "https://www.minpo.jp/articles/-/57124",
-          "published": "2023/12/29 08:53",
+          "published": "2023/12/29 8:53",
           "paid": false
         }
       ]
@@ -26,7 +26,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "女性センター跡地　地元意向尊重し活用を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1045875.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2023年12月29日(金)  09:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -84,7 +91,7 @@
         {
           "title": "論説　柿沢議員逮捕　選挙とカネ語らぬまま",
           "link": "https://www.sanin-chuo.co.jp/articles/-/504907",
-          "published": "2023/12/29 04:00",
+          "published": "2023/12/29 4:00",
           "paid": true
         }
       ]
@@ -176,6 +183,63 @@
           "title": "【主張】柿沢議員を逮捕　徹底捜査で「買収」解明を",
           "link": "https://www.sankei.com/article/20231229-PFMIGZ6TXVKYHOCUDUHEPBJFQY/",
           "published": "2023/12/29 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "国が辺野古代執行　沖縄の声押しつぶす強権",
+          "link": "https://mainichi.jp/articles/20231229/ddm/005/070/073000c",
+          "published": "2023/12/29 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］株高が持続し家計に恩恵広げる市場に",
+          "link": "https://www.nikkei.com/article/DGXZQODK2916R0Z21C23A2000000/",
+          "published": "2023/12/29 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］習近平政権は台湾総統選への介入をやめよ",
+          "link": "https://www.nikkei.com/article/DGXZQODK282PN0Y3A221C2000000/",
+          "published": "2023/12/29 19:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【２０２３回顧（上）】国民感覚とずれる政治",
+          "link": "https://www.kochinews.co.jp/article/detail/710233",
+          "published": "2023.12.29 08:00",
           "paid": false
         }
       ]

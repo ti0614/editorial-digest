@@ -30,7 +30,7 @@
         {
           "title": "【新健康スローガン】総参加で達成目指そう（２月１５日）",
           "link": "https://www.minpo.jp/articles/-/56851",
-          "published": "2024/02/15 08:51",
+          "published": "2024/2/15 8:51",
           "paid": false
         }
       ]
@@ -43,7 +43,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "藤沢市長選　持続発展への進路示せ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1056904.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年2月15日(木)  10:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -101,7 +108,7 @@
         {
           "title": "論説　小澤征爾さん死去　名指揮者の生涯を糧に",
           "link": "https://www.sanin-chuo.co.jp/articles/-/528940",
-          "published": "2024/2/15 04:00",
+          "published": "2024/2/15 4:00",
           "paid": true
         }
       ]
@@ -210,6 +217,52 @@
           "title": "＜主張＞地下シェルター　数値目標掲げ整備進めよ",
           "link": "https://www.sankei.com/article/20240215-U4S7XYAZ7NLARJQI3LYO2TQ7XI/",
           "published": "2024/2/15 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "自民全議員の裏金調査　自浄能力のなさ露呈した",
+          "link": "https://mainichi.jp/articles/20240215/ddm/005/070/117000c",
+          "published": "2024/2/15 02:01",
+          "paid": false
+        },
+        {
+          "title": "中国の不動産不況　問題の先送りを懸念する",
+          "link": "https://mainichi.jp/articles/20240215/ddm/005/070/116000c",
+          "published": "2024/2/15 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］内需復調へ企業は賃上げと事業効率化を",
+          "link": "https://www.nikkei.com/article/DGXZQODK156BE0V10C24A2000000/",
+          "published": "2024/2/15 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］特殊詐欺の撲滅を総力戦で",
+          "link": "https://www.nikkei.com/article/DGXZQODK151GZ0V10C24A2000000/",
+          "published": "2024/2/15 19:00",
           "paid": false
         }
       ]

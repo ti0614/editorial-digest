@@ -82,7 +82,7 @@
         {
           "title": "【災害への備え】いわきの経験生かして（１０月１１日）",
           "link": "https://www.minpo.jp/articles/-/55169",
-          "published": "2024/10/11 09:29",
+          "published": "2024/10/11 9:29",
           "paid": false
         }
       ]
@@ -112,7 +112,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "ガザ戦闘１年　人道危機を見逃せない",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1116799.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年10月11日(金)  10:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -170,7 +177,7 @@
         {
           "title": "論説　袴田さん無罪確定　検察は猛省して検証を",
           "link": "https://www.sanin-chuo.co.jp/articles/-/660895",
-          "published": "2024/10/11 04:00",
+          "published": "2024/10/11 4:00",
           "paid": true
         }
       ]

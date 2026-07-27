@@ -13,7 +13,7 @@
         {
           "title": "【盛り土問題】無秩序搬入早期規制を（１２月２２日）",
           "link": "https://www.minpo.jp/articles/-/57160",
-          "published": "2023/12/22 08:51",
+          "published": "2023/12/22 8:51",
           "paid": false
         }
       ]
@@ -26,7 +26,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "与党税制大綱　負担増の議論逃げるな",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1044160.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2023年12月22日(金)  10:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -84,7 +91,7 @@
         {
           "title": "論説　ダイハツ不正　現地現物は見せかけか",
           "link": "https://www.sanin-chuo.co.jp/articles/-/501408",
-          "published": "2023/12/22 04:00",
+          "published": "2023/12/22 4:00",
           "paid": true
         }
       ]
@@ -176,6 +183,63 @@
           "title": "【主張】「徴用工」判決　協定と史実を無視するな",
           "link": "https://www.sankei.com/article/20231222-SVI6IYN6S5I35PD5G4EKGFNYL4/",
           "published": "2023/12/22 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "辺野古代執行の判決　国は強権発動避け対話を",
+          "link": "https://mainichi.jp/articles/20231222/ddm/005/070/108000c",
+          "published": "2023/12/22 02:01",
+          "paid": false
+        },
+        {
+          "title": "ダイハツ全車出荷停止　安全軽視の責任は重大だ",
+          "link": "https://mainichi.jp/articles/20231222/ddm/005/070/107000c",
+          "published": "2023/12/22 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］水膨れ予算に「平時」への道筋みえぬ",
+          "link": "https://www.nikkei.com/article/DGXZQODK221L00S3A221C2000000/",
+          "published": "2023/12/22 19:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【ダイハツ不正】自浄作用全く働かず",
+          "link": "https://www.kochinews.co.jp/article/detail/708491",
+          "published": "2023.12.22 08:00",
           "paid": false
         }
       ]

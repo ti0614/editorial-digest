@@ -13,7 +13,7 @@
         {
           "title": "【県人会サミット】活動深化の契機に（１１月１５日）",
           "link": "https://www.minpo.jp/articles/-/57362",
-          "published": "2023/11/15 08:50",
+          "published": "2023/11/15 8:50",
           "paid": false
         }
       ]
@@ -67,7 +67,7 @@
         {
           "title": "論説　政務三役の不祥事　信任に値する政権か",
           "link": "https://www.sanin-chuo.co.jp/articles/-/482130",
-          "published": "2023/11/15 04:00",
+          "published": "2023/11/15 4:00",
           "paid": true
         }
       ]
@@ -136,6 +136,92 @@
           "title": "【社説】川内原発延長へ　地元住民への説明尽くせ",
           "link": "https://www.nishinippon.co.jp/item/1146283/",
           "published": "2023/11/15 06:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "技能実習に代わる制度　権利守る仕組みは十分か",
+          "link": "https://mainichi.jp/articles/20231115/ddm/005/070/102000c",
+          "published": "2023/11/15 02:00",
+          "paid": false
+        },
+        {
+          "title": "国立大法人法の改正案　現場の声踏まえ再検討を",
+          "link": "https://mainichi.jp/articles/20231115/ddm/005/070/101000c",
+          "published": "2023/11/15 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］企業の賃上げと投資増の機運を絶やすな",
+          "link": "https://www.nikkei.com/article/DGXZQODK153CC0V11C23A1000000/",
+          "published": "2023/11/15 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］EU統合の理念、今に生かせ",
+          "link": "https://www.nikkei.com/article/DGXZQODK121QB0S3A111C2000000/",
+          "published": "2023/11/15 19:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【主張】日中首脳会談　懸案解決へ道筋をつけよ",
+          "link": "https://www.sankei.com/article/20231115-5K7PLJO7U5LQNNIPLOZEANZU3E/",
+          "published": "2023/11/15 5:00",
+          "paid": false
+        },
+        {
+          "title": "【主張】海自セクハラ　被害根絶し精強さを保て",
+          "link": "https://www.sankei.com/article/20231115-JDFRMV43OFN3PGAIQAITLD43AU/",
+          "published": "2023/11/15 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【国立科学博物館】問われる文化行政の姿勢",
+          "link": "https://www.kochinews.co.jp/article/detail/696526",
+          "published": "2023.11.15 08:00",
           "paid": false
         }
       ]

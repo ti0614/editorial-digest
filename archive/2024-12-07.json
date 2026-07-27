@@ -76,7 +76,7 @@
         {
           "title": "【困難女性支援法】市町村の体制整備急げ（１２月７日）",
           "link": "https://www.minpo.jp/articles/-/54743",
-          "published": "2024/12/07 09:00",
+          "published": "2024/12/7 9:00",
           "paid": false
         }
       ]
@@ -106,7 +106,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "昭和東南海地震８０年　「国難」への備えさらに",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1131604.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年12月7日(土)  09:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -164,7 +171,7 @@
         {
           "title": "論説　島根原発２号機きょう再稼働　安全最優先が大前提だ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/692845",
-          "published": "2024/12/7 04:00",
+          "published": "2024/12/7 4:00",
           "paid": true
         }
       ]

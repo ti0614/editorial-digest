@@ -82,7 +82,7 @@
         {
           "title": "【情報モラル教育】家庭で話し合いを（１２月２５日）",
           "link": "https://www.minpo.jp/articles/-/54690",
-          "published": "2024/12/25 09:28",
+          "published": "2024/12/25 9:28",
           "paid": false
         }
       ]
@@ -95,7 +95,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "ＰＦＡＳ　一刻も早く不安解消を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1136133.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年12月25日(水)  10:20",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -153,7 +160,7 @@
         {
           "title": "論説　臨時国会閉幕　再生の歩みを進めよ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/702666",
-          "published": "2024/12/25 04:00",
+          "published": "2024/12/25 4:00",
           "paid": true
         }
       ]

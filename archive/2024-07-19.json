@@ -36,7 +36,7 @@
         {
           "title": "【県警７０周年】強い警察体現を（７月１９日）",
           "link": "https://www.minpo.jp/articles/-/55936",
-          "published": "2024/07/19 08:54",
+          "published": "2024/7/19 8:54",
           "paid": false
         }
       ]
@@ -49,7 +49,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "政治家への暴力　民主主義堅持へ結束を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1095115.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年7月19日(金)  10:10",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -107,7 +114,7 @@
         {
           "title": "論説　感染症の政府行動計画　想定外への備え 怠るな",
           "link": "https://www.sanin-chuo.co.jp/articles/-/611766",
-          "published": "2024/7/19 04:00",
+          "published": "2024/7/19 4:00",
           "paid": true
         }
       ]
@@ -216,6 +223,52 @@
           "title": "＜主張＞香典疑惑　政治不信を加速させるな",
           "link": "https://www.sankei.com/article/20240719-NUHXI7ZQ65L4DAGHREUGKEIBII/",
           "published": "2024/7/19 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "都市対抗野球の開幕　一体感を生む熱戦に期待",
+          "link": "https://mainichi.jp/articles/20240719/ddm/005/070/142000c",
+          "published": "2024/7/19 02:01",
+          "paid": false
+        },
+        {
+          "title": "脅威強調する防衛白書　体制の立て直しが先決だ",
+          "link": "https://mainichi.jp/articles/20240719/ddm/005/070/143000c",
+          "published": "2024/7/19 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］米結束訴えるトランプ氏の決意を問う",
+          "link": "https://www.nikkei.com/article/DGXZQODK184BG0Y4A710C2000000/",
+          "published": "2024/7/19 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］中国不況を真剣に論じたのか",
+          "link": "https://www.nikkei.com/article/DGXZQOCD185P40Y4A710C2000000/",
+          "published": "2024/7/19 19:00",
           "paid": false
         }
       ]

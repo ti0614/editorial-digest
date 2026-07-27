@@ -82,7 +82,7 @@
         {
           "title": "【未成年の契約被害】自らを守る力も養おう（４月７日）",
           "link": "https://www.minpo.jp/articles/-/54221",
-          "published": "2025/04/07 09:11",
+          "published": "2025/4/7 9:11",
           "paid": false
         }
       ]
@@ -112,7 +112,20 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "命守る行動再確認して　南海トラフ地震被害想定　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1423588",
+          "published": "2025/4/7 5:00",
+          "paid": true
+        },
+        {
+          "title": "生き残りへ果敢に挑戦を　京成と新京成が合併　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1423589",
+          "published": "2025/4/7 5:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "新潟日報",
@@ -160,7 +173,7 @@
         {
           "title": "論説　南海トラフ地震の被害想定　事前防災に総力挙げよ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/759537",
-          "published": "2025/4/7 04:00",
+          "published": "2025/4/7 4:00",
           "paid": true
         }
       ]

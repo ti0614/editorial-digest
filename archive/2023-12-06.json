@@ -13,7 +13,7 @@
         {
           "title": "【ＳＤＧｓ折り返し】自分事の意識強めて（１２月６日）",
           "link": "https://www.minpo.jp/articles/-/57231",
-          "published": "2023/12/06 08:52",
+          "published": "2023/12/6 8:52",
           "paid": false
         }
       ]
@@ -26,7 +26,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "相模原市の人権条例案　差別根絶の意思を示せ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1040100.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2023年12月6日(水)  10:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -84,7 +91,7 @@
         {
           "title": "論説　生活保護減額で賠償判決　信頼するに足る制度か",
           "link": "https://www.sanin-chuo.co.jp/articles/-/493050",
-          "published": "2023/12/6 04:00",
+          "published": "2023/12/6 4:00",
           "paid": true
         }
       ]
@@ -176,6 +183,69 @@
           "title": "【主張】読解力向上　慢心せず教育改革進めよ",
           "link": "https://www.sankei.com/article/20231206-673RJ47V65IENNLW7F5JHDINQ4/",
           "published": "2023/12/6 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "教団財産の規制法案　被害の救済には不十分だ",
+          "link": "https://mainichi.jp/articles/20231206/ddm/005/070/101000c",
+          "published": "2023/12/6 02:01",
+          "paid": false
+        },
+        {
+          "title": "立憲の泉体制2年　最大野党の自覚あるのか",
+          "link": "https://mainichi.jp/articles/20231206/ddm/005/070/099000c",
+          "published": "2023/12/6 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］なし崩しのガソリン減税は筋が通らない",
+          "link": "https://www.nikkei.com/article/DGXZQODK060TW0W3A201C2000000/",
+          "published": "2023/12/6 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］習近平政権は「恒大問題」を先送りするな",
+          "link": "https://www.nikkei.com/article/DGXZQODK0588T0V01C23A2000000/",
+          "published": "2023/12/6 19:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【パーティー収入】裏金の疑念と向き合え",
+          "link": "https://www.kochinews.co.jp/article/detail/702206",
+          "published": "2023.12.06 08:00",
           "paid": false
         }
       ]

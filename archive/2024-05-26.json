@@ -32,7 +32,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "加藤小田原市政　「市民の信頼」忘れずに",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1080716.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年5月26日(日)  10:10",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -90,7 +97,7 @@
         {
           "title": "論説　オンライン立ち会い　智頭から全国へ拡大を",
           "link": "https://www.sanin-chuo.co.jp/articles/-/581180",
-          "published": "2024/5/26 04:00",
+          "published": "2024/5/26 4:00",
           "paid": true
         }
       ]
@@ -199,6 +206,52 @@
           "title": "＜主張＞マネロン摘発　「トクリュウ」の実態暴け",
           "link": "https://www.sankei.com/article/20240526-WKQLFM3C75N5JBP6NCBWLEM5RE/",
           "published": "2024/5/26 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "五輪の難民選手団　平和の尊さ伝える存在に",
+          "link": "https://mainichi.jp/articles/20240526/ddm/005/070/086000c",
+          "published": "2024/5/26 02:01",
+          "paid": false
+        },
+        {
+          "title": "欧州の対中戦略　秩序修復へ外交力発揮を",
+          "link": "https://mainichi.jp/articles/20240526/ddm/005/070/083000c",
+          "published": "2024/5/26 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］「金利ある世界」に家計は入念な備えを",
+          "link": "https://www.nikkei.com/article/DGXZQODK24CQ60U4A520C2000000/",
+          "published": "2024/5/26 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］水際対策で済まぬ難民問題",
+          "link": "https://www.nikkei.com/article/DGXZQODK248LN0U4A520C2000000/",
+          "published": "2024/5/26 19:00",
           "paid": false
         }
       ]

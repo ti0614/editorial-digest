@@ -30,7 +30,7 @@
         {
           "title": "【マイナス金利解除】県内企業、変革の時（３月２０日）",
           "link": "https://www.minpo.jp/articles/-/56632",
-          "published": "2024/03/20 08:53",
+          "published": "2024/3/20 8:53",
           "paid": false
         }
       ]
@@ -43,7 +43,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "横浜トリエンナーレ　現代美術の力、今こそ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1064767.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年3月20日(水)  10:10",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -101,7 +108,7 @@
         {
           "title": "論説　マイナス金利解除　正常化を着実に進めよ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/546197",
-          "published": "2024/3/20 04:00",
+          "published": "2024/3/20 4:00",
           "paid": true
         }
       ]
@@ -204,6 +211,46 @@
           "title": "＜主張＞大規模緩和を転換　脱停滞への重要な一歩だ　「金利ある世界」の対応万全に",
           "link": "https://www.sankei.com/article/20240320-X77W3LPTCVPX3IZXAYCCZVIXO4/",
           "published": "2024/3/20 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "異次元緩和の転換　国・企業はぬるま湯脱却を",
+          "link": "https://mainichi.jp/articles/20240320/ddm/005/070/101000c",
+          "published": "2024/3/20 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］官民挙げて物流の24年問題の克服を",
+          "link": "https://www.nikkei.com/article/DGXZQODK19DJU0Z10C24A3000000/",
+          "published": "2024/3/20 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］早急な議論を迫る同性婚判決",
+          "link": "https://www.nikkei.com/article/DGXZQODK189RO0Y4A310C2000000/",
+          "published": "2024/3/20 19:00",
           "paid": false
         }
       ]

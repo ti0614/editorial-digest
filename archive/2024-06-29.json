@@ -36,7 +36,7 @@
         {
           "title": "【盛り土問題】実効性さらに高めて（６月２９日）",
           "link": "https://www.minpo.jp/articles/-/56073",
-          "published": "2024/06/29 08:51",
+          "published": "2024/6/29 8:51",
           "paid": false
         }
       ]
@@ -49,7 +49,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "二宮町の新庁舎　将来見据え活発議論を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1089910.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年6月29日(土)  10:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -107,7 +114,7 @@
         {
           "title": "論説　米大統領選討論会　政治不信 払拭に努めよ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/600794",
-          "published": "2024/6/29 04:00",
+          "published": "2024/6/29 4:00",
           "paid": true
         }
       ]
@@ -216,6 +223,52 @@
           "title": "＜主張＞在沖米兵の事件　外務省の未伝達許されぬ",
           "link": "https://www.sankei.com/article/20240629-X5C5DP3EBZMGLALEPHAVMMHZJA/",
           "published": "2024/6/29 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "障害者ホームの不正　福祉食い物にした虐待だ",
+          "link": "https://mainichi.jp/articles/20240629/ddm/005/070/130000c",
+          "published": "2024/6/29 02:01",
+          "paid": false
+        },
+        {
+          "title": "富士登山の規制　安全と環境を守る契機に",
+          "link": "https://mainichi.jp/articles/20240629/ddm/005/070/129000c",
+          "published": "2024/6/29 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］国債の買い手確保と発行の抑制へ努力を",
+          "link": "https://www.nikkei.com/article/DGXZQODK288GR0Y4A620C2000000/",
+          "published": "2024/6/29 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］防災情報の周知で避難促せ",
+          "link": "https://www.nikkei.com/article/DGXZQODK267RK0W4A620C2000000/",
+          "published": "2024/6/29 19:00",
           "paid": false
         }
       ]

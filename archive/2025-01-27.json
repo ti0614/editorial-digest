@@ -82,7 +82,7 @@
         {
           "title": "【災害備蓄】品目の差解消を（１月２７日）",
           "link": "https://www.minpo.jp/articles/-/54567",
-          "published": "2025/01/27 09:28",
+          "published": "2025/1/27 9:28",
           "paid": false
         }
       ]
@@ -95,7 +95,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "横須賀署の駐在所員巡る不祥事　信頼回復へ活動重ねよ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1143475.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年1月27日(月)  09:40",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -105,7 +112,20 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "ＳＯＳ見逃さない体制築け　千葉県立高生徒自殺　【論説】",
+          "link": "https://www.chibanippo.co.jp/news/national/1392917",
+          "published": "2025/1/27 5:00",
+          "paid": true
+        },
+        {
+          "title": "地方創生２・０　地域商社、課題解決に光　【論説】",
+          "link": "https://www.chibanippo.co.jp/news/politics/1392919",
+          "published": "2025/1/27 5:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "新潟日報",
@@ -153,7 +173,7 @@
         {
           "title": "論説　年金制度改革　財源論は避けられない",
           "link": "https://www.sanin-chuo.co.jp/articles/-/719416",
-          "published": "2025/1/27 04:00",
+          "published": "2025/1/27 4:00",
           "paid": true
         }
       ]

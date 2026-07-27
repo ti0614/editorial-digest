@@ -82,7 +82,7 @@
         {
           "title": "【事業承継の連携】生産性、成長性高めて（１１月４日）",
           "link": "https://www.minpo.jp/articles/-/54886",
-          "published": "2024/11/04 09:26",
+          "published": "2024/11/4 9:26",
           "paid": false
         }
       ]
@@ -95,7 +95,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "航空機用再生燃料　官民連携で国産化急げ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1123094.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年11月4日(月)  09:40",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -105,7 +112,20 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "核兵器なき世界実現へ　被団協にノーベル平和賞　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1297526",
+          "published": "2024/11/4 5:00",
+          "paid": true
+        },
+        {
+          "title": "野党、政策明示し説明を　与党過半数割れ“綱渡り政権”に　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1297525",
+          "published": "2024/11/4 5:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "新潟日報",
@@ -153,7 +173,7 @@
         {
           "title": "論説　中国経済の不振　個人重んじ消費拡大を",
           "link": "https://www.sanin-chuo.co.jp/articles/-/674179",
-          "published": "2024/11/4 04:00",
+          "published": "2024/11/4 4:00",
           "paid": true
         }
       ]

@@ -70,7 +70,7 @@
         {
           "title": "【戦後８０年　沖縄慰霊の日】ともに未来考えたい（６月２３日）",
           "link": "https://www.minpo.jp/articles/-/53776",
-          "published": "2025/06/23 09:07",
+          "published": "2025/6/23 9:07",
           "paid": false
         }
       ]
@@ -100,7 +100,14 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "個人でできる予防怠るな　職場の熱中症対策が義務化　【論説】",
+          "link": "https://www.chibanippo.co.jp/articles/1458769",
+          "published": "2025/6/23 5:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "新潟日報",
@@ -131,7 +138,7 @@
         {
           "title": "論説　米国のイラン攻撃　強国の横暴を許すな",
           "link": "https://www.sanin-chuo.co.jp/articles/-/804739",
-          "published": "2025/6/23 04:00",
+          "published": "2025/6/23 4:00",
           "paid": true
         }
       ]

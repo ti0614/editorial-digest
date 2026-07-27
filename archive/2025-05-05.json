@@ -70,7 +70,7 @@
         {
           "title": "【少子化対策】女性の視点取り入れて（５月５日）",
           "link": "https://www.minpo.jp/articles/-/54051",
-          "published": "2025/05/05 09:24",
+          "published": "2025/5/5 9:24",
           "paid": false
         }
       ]
@@ -100,7 +100,14 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "活躍は民間、後進の手本に　県要職に女性就任　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1436887",
+          "published": "2025/5/5 5:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "新潟日報",
@@ -148,7 +155,7 @@
         {
           "title": "論説　未来をつくるみなさんへ　「ぐりとぐら」に学ぼう",
           "link": "https://www.sanin-chuo.co.jp/articles/-/775543",
-          "published": "2025/5/5 04:00",
+          "published": "2025/5/5 4:00",
           "paid": true
         }
       ]

@@ -70,7 +70,7 @@
         {
           "title": "【理系の学力】県民一丸で向上を（１月４日）",
           "link": "https://www.minpo.jp/articles/-/54652",
-          "published": "2025/01/04 09:28",
+          "published": "2025/1/4 9:28",
           "paid": false
         }
       ]
@@ -83,7 +83,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "２０２５年神奈川県政展望　県民目線で最適解探れ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1137961.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年1月4日(土)  10:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -141,7 +148,7 @@
         {
           "title": "論説　カーター元米大統領死去　平和の理想　継承しよう",
           "link": "https://www.sanin-chuo.co.jp/articles/-/707107",
-          "published": "2025/1/4 04:00",
+          "published": "2025/1/4 4:00",
           "paid": true
         }
       ]

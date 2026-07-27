@@ -59,7 +59,7 @@
         {
           "title": "【鶴ケ城の環境保全】きれいな堀を後世に（９月６日）",
           "link": "https://www.minpo.jp/articles/-/55574",
-          "published": "2024/09/06 09:23",
+          "published": "2024/9/6 9:23",
           "paid": false
         }
       ]
@@ -72,7 +72,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "路上ライブ　「自由」のあり方を問う",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1108101.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年9月6日(金)  10:20",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -130,7 +137,7 @@
         {
           "title": "論説　コメの品薄　混乱繰り返さぬ対策を",
           "link": "https://www.sanin-chuo.co.jp/articles/-/641062",
-          "published": "2024/9/6 04:00",
+          "published": "2024/9/6 4:00",
           "paid": true
         }
       ]
@@ -239,6 +246,29 @@
           "title": "＜主張＞テレグラムCEO　仏の本格捜査を注視せよ",
           "link": "https://www.sankei.com/article/20240906-LO5EHJQNFJOJZISOBGNQ5CE37A/",
           "published": "2024/9/6 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］後戻りしない日韓へ次の首相も努力を",
+          "link": "https://www.nikkei.com/article/DGXZQODK062EL0W4A900C2000000/",
+          "published": "2024/9/6 21:37",
+          "paid": false
+        },
+        {
+          "title": "［社説］ロシア撤退を引き出す好機に",
+          "link": "https://www.nikkei.com/article/DGXZQODK05AR60V00C24A9000000/",
+          "published": "2024/9/6 19:00",
           "paid": false
         }
       ]

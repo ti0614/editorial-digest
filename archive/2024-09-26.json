@@ -59,7 +59,7 @@
         {
           "title": "【ハワイアンズ】地域との共生に注目（９月２６日）",
           "link": "https://www.minpo.jp/articles/-/55364",
-          "published": "2024/09/26 09:26",
+          "published": "2024/9/26 9:26",
           "paid": false
         }
       ]
@@ -72,7 +72,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "公明党代表交代　原点を忘れず存在感を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1112931.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年9月26日(木)  09:40",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -130,7 +137,7 @@
         {
           "title": "論説　対ヒズボラ攻撃　危険な賭けは断念せよ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/652369",
-          "published": "2024/9/26 04:00",
+          "published": "2024/9/26 4:00",
           "paid": true
         }
       ]
@@ -239,6 +246,29 @@
           "title": "＜主張＞日本人児童刺殺　中国政府の態度は誤りだ",
           "link": "https://www.sankei.com/article/20240926-Z5CMF3YNN5N2DNEWG6VIYGEZSA/",
           "published": "2024/9/26 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］刑事司法のあり方問う袴田さん再審無罪",
+          "link": "https://www.nikkei.com/article/DGXZQODK2620C0W4A920C2000000/",
+          "published": "2024/9/26 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］危機対処へ安保理改革を急げ",
+          "link": "https://www.nikkei.com/article/DGXZQODK261GU0W4A920C2000000/",
+          "published": "2024/9/26 19:00",
           "paid": false
         }
       ]

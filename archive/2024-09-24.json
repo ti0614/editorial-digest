@@ -59,7 +59,7 @@
         {
           "title": "【立民代表に野田氏】存在感どう示す（９月２４日）",
           "link": "https://www.minpo.jp/articles/-/55383",
-          "published": "2024/09/24 09:34",
+          "published": "2024/9/24 9:34",
           "paid": false
         }
       ]
@@ -72,7 +72,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "立民新代表に野田佳彦氏　「経験」糧に活路を開け",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1112370.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年9月24日(火)  10:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -130,7 +137,7 @@
         {
           "title": "論説　立民新代表に野田氏　政権構想の具体化図れ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/651154",
-          "published": "2024/9/24 04:00",
+          "published": "2024/9/24 4:00",
           "paid": true
         }
       ]
@@ -239,6 +246,29 @@
           "title": "＜主張＞知床事故社長逮捕　再発防止に資する公判を",
           "link": "https://www.sankei.com/article/20240924-GMHEP7GGCRJSRAIATJ2JZWC2IM/",
           "published": "2024/9/24 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］中国は負の連鎖断ち切る具体的な行動を",
+          "link": "https://www.nikkei.com/article/DGXZQOCD247JT0U4A920C2000000/",
+          "published": "2024/9/24 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］ロシアの領空侵犯は重大な挑発だ",
+          "link": "https://www.nikkei.com/article/DGXZQODK243WM0U4A920C2000000/",
+          "published": "2024/9/24 19:00",
           "paid": false
         }
       ]

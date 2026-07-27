@@ -76,7 +76,7 @@
         {
           "title": "【ユースエール最多】若者定着へ裾野広げて（１１月６日）",
           "link": "https://www.minpo.jp/articles/-/54880",
-          "published": "2024/11/06 09:15",
+          "published": "2024/11/6 9:15",
           "paid": false
         }
       ]
@@ -106,7 +106,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "教員不足　政策転換待ったなしだ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1123551.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年11月6日(水)  09:50",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -164,7 +171,7 @@
         {
           "title": "論説　北朝鮮のロシア派兵　侵略加担の蛮行許すな",
           "link": "https://www.sanin-chuo.co.jp/articles/-/675156",
-          "published": "2024/11/6 04:00",
+          "published": "2024/11/6 4:00",
           "paid": true
         }
       ]

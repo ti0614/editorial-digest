@@ -76,7 +76,7 @@
         {
           "title": "【双葉地区教育構想】町村の連携強め成果を（１１月５日）",
           "link": "https://www.minpo.jp/articles/-/54884",
-          "published": "2024/11/05 09:26",
+          "published": "2024/11/5 9:26",
           "paid": false
         }
       ]
@@ -89,7 +89,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "ベイスターズ日本一　わが街のチーム誇ろう",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1123276.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年11月5日(火)  10:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -147,7 +154,7 @@
         {
           "title": "論説　再稼働の女川原発でトラブル　安全優先で仕切り直せ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/674562",
-          "published": "2024/11/5 04:00",
+          "published": "2024/11/5 4:00",
           "paid": true
         }
       ]

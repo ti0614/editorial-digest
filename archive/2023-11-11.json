@@ -13,7 +13,7 @@
         {
           "title": "【政府補正予算案】国民意識踏まえ熟議を（１１月１１日）",
           "link": "https://www.minpo.jp/articles/-/57390",
-          "published": "2023/11/11 08:52",
+          "published": "2023/11/11 8:52",
           "paid": false
         }
       ]
@@ -67,7 +67,7 @@
         {
           "title": "論説　コロナ特別融資　経営再生へ支援拡充を",
           "link": "https://www.sanin-chuo.co.jp/articles/-/480472",
-          "published": "2023/11/11 04:00",
+          "published": "2023/11/11 4:00",
           "paid": true
         }
       ]
@@ -136,6 +136,92 @@
           "title": "【社説】拉致被害者の奪還　粘り強く首脳会談目指せ",
           "link": "https://www.nishinippon.co.jp/item/1145237/",
           "published": "2023/11/11 06:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "公取委がグーグル調査　寡占打破する競争政策を",
+          "link": "https://mainichi.jp/articles/20231111/ddm/005/070/129000c",
+          "published": "2023/11/11 02:01",
+          "paid": false
+        },
+        {
+          "title": "岸田首相の政権運営　国民不在の迷走が深刻だ",
+          "link": "https://mainichi.jp/articles/20231111/ddm/005/070/130000c",
+          "published": "2023/11/11 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］米中は世界経済の安定へ緊張緩和を探れ",
+          "link": "https://www.nikkei.com/article/DGXZQODK106OT0Q3A111C2000000/",
+          "published": "2023/11/11 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］博物館への寄付続く仕組みを",
+          "link": "https://www.nikkei.com/article/DGXZQODK111CB0R11C23A1000000/",
+          "published": "2023/11/11 19:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【主張】少子化対策支援金　現役への負担偏重避けよ",
+          "link": "https://www.sankei.com/article/20231111-C6CVP7FL6RNEBJZ7QJBZ25AD4E/",
+          "published": "2023/11/11 5:00",
+          "paid": false
+        },
+        {
+          "title": "【主張】財務副大臣の滞納　首相は更迭をためらうな",
+          "link": "https://www.sankei.com/article/20231111-JG2VLZB2SBPB3LTSE4DNGOGZRA/",
+          "published": "2023/11/11 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【補正予算案】ちぐはぐ感が拭えない",
+          "link": "https://www.kochinews.co.jp/article/detail/695681",
+          "published": "2023.11.11 08:00",
           "paid": false
         }
       ]

@@ -13,7 +13,7 @@
         {
           "title": "【２０２３年回顧】好転の一歩を（１２月３０日）",
           "link": "https://www.minpo.jp/articles/-/57117",
-          "published": "2023/12/30 08:57",
+          "published": "2023/12/30 8:57",
           "paid": false
         }
       ]
@@ -26,7 +26,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "観光ＤＸ　人手不足の先に一手を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1046030.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2023年12月30日(土)  09:30",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -84,7 +91,7 @@
         {
           "title": "論説　検事の調べ「不適正」　裏取引の疑念拭えない",
           "link": "https://www.sanin-chuo.co.jp/articles/-/505311",
-          "published": "2023/12/30 04:00",
+          "published": "2023/12/30 4:00",
           "paid": true
         }
       ]
@@ -170,6 +177,69 @@
           "title": "【主張】回顧２０２３　政治への信頼が揺らいだ　危機に立ち向かう姿勢見たい",
           "link": "https://www.sankei.com/article/20231230-V34JUJNNEBI4JPH5MQCWBG43JM/",
           "published": "2023/12/30 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "柿沢議員を逮捕　「選挙とカネ」全容解明を",
+          "link": "https://mainichi.jp/articles/20231230/ddm/002/070/061000c",
+          "published": "2023/12/30 02:01",
+          "paid": false
+        },
+        {
+          "title": "損保大手に行政処分　悪質な慣行の根絶が急務",
+          "link": "https://mainichi.jp/articles/20231230/ddm/002/070/060000c",
+          "published": "2023/12/30 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］企業は米中分断リスクへの備えを急げ",
+          "link": "https://www.nikkei.com/article/DGXZQODK290WJ0Z21C23A2000000/",
+          "published": "2023/12/30 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］東京電力の原発稼働への説明責任は重い",
+          "link": "https://www.nikkei.com/article/DGXZQODK300EE0Q3A231C2000000/",
+          "published": "2023/12/30 19:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【２０２３回顧（下）】値上げ続き暮らし厳しく",
+          "link": "https://www.kochinews.co.jp/article/detail/710407",
+          "published": "2023.12.30 08:00",
           "paid": false
         }
       ]

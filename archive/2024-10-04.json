@@ -59,7 +59,7 @@
         {
           "title": "【相双発の新商品】官民でブランド化を（１０月４日）",
           "link": "https://www.minpo.jp/articles/-/55265",
-          "published": "2024/10/04 09:30",
+          "published": "2024/10/4 9:30",
           "paid": false
         }
       ]
@@ -89,7 +89,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "横浜駅周辺再開発　魅力的な「玄関口」期待",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1115062.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年10月4日(金)  09:20",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -147,7 +154,7 @@
         {
           "title": "論説　新政権と金融政策　正常化の流れ妨げるな",
           "link": "https://www.sanin-chuo.co.jp/articles/-/657087",
-          "published": "2024/10/4 04:00",
+          "published": "2024/10/4 4:00",
           "paid": true
         }
       ]
@@ -256,6 +263,29 @@
           "title": "＜主張＞ベネズエラ混迷　「民意」に沿わぬ居座りだ",
           "link": "https://www.sankei.com/article/20241004-TTDCFHONINIOLAEKNLKP3YZABA/",
           "published": "2024/10/4 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］石破首相の構想と決意が伝わってこない",
+          "link": "https://www.nikkei.com/article/DGXZQODK043TZ0U4A001C2000000/",
+          "published": "2024/10/4 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］米大統領選の混乱断固避けよ",
+          "link": "https://www.nikkei.com/article/DGXZQODK03CS70T01C24A0000000/",
+          "published": "2024/10/4 19:00",
           "paid": false
         }
       ]

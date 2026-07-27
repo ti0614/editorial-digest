@@ -82,7 +82,7 @@
         {
           "title": "【生活賃金】所得議論の新たな軸に（１２月１１日）",
           "link": "https://www.minpo.jp/articles/-/54732",
-          "published": "2024/12/11 09:25",
+          "published": "2024/12/11 9:25",
           "paid": false
         }
       ]
@@ -112,7 +112,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "平塚駅周辺構想　商業復活と多機能化を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1132512.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年12月11日(水)  09:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -170,7 +177,7 @@
         {
           "title": "論説　ノーベル平和賞授賞式　核兵器使用　許されない",
           "link": "https://www.sanin-chuo.co.jp/articles/-/694779",
-          "published": "2024/12/11 04:00",
+          "published": "2024/12/11 4:00",
           "paid": true
         }
       ]

@@ -70,7 +70,7 @@
         {
           "title": "【トランプ氏就任へ】日本の姿勢問われる（１月２１日）",
           "link": "https://www.minpo.jp/articles/-/54587",
-          "published": "2025/01/21 09:26",
+          "published": "2025/1/21 9:26",
           "paid": false
         }
       ]
@@ -100,7 +100,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "スタートアップ　成長へ経営感覚醸成を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1141862.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年1月21日(火)  09:20",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -158,7 +165,7 @@
         {
           "title": "論説　横綱照ノ富士が引退　「再起」の希望を与えた",
           "link": "https://www.sanin-chuo.co.jp/articles/-/715807",
-          "published": "2025/1/21 04:00",
+          "published": "2025/1/21 4:00",
           "paid": true
         }
       ]

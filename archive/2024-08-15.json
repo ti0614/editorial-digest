@@ -30,7 +30,7 @@
         {
           "title": "【岸田首相退陣表明】責任回避は許されない（８月１５日）",
           "link": "https://www.minpo.jp/articles/-/55701",
-          "published": "2024/08/15 08:50",
+          "published": "2024/8/15 8:50",
           "paid": false
         }
       ]
@@ -43,7 +43,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "終戦の日　「平和主義」今こそ形に",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1102724.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年8月15日(木)  09:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -84,7 +91,7 @@
         {
           "title": "論説　岸田首相退陣へ　信頼なき政権の末路だ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/628569",
-          "published": "2024/8/15 04:00",
+          "published": "2024/8/15 4:00",
           "paid": true
         }
       ]
@@ -193,6 +200,40 @@
           "title": "全ての御霊安らかなれ　靖国神社参拝は戦没者との約束だ　論説委員長　榊原智　",
           "link": "https://www.sankei.com/article/20240815-VSTWEVBTLBPBJEK457UC4LR4W4/",
           "published": "2024/8/15 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "岸田氏が総裁選不出馬　政治不信深めた末の退場",
+          "link": "https://mainichi.jp/articles/20240815/ddm/005/070/077000c",
+          "published": "2024/8/15 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］「さきの大戦」と呼ぶ意味を考えよう",
+          "link": "https://www.nikkei.com/article/DGXZQODK135QX0T10C24A8000000/",
+          "published": "2024/8/15 19:00",
           "paid": false
         }
       ]

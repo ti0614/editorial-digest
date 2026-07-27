@@ -36,7 +36,7 @@
         {
           "title": "【声楽アンサンブル】誰もが憧れる大会に（４月９日）",
           "link": "https://www.minpo.jp/articles/-/56517",
-          "published": "2024/04/09 08:52",
+          "published": "2024/4/9 8:52",
           "paid": false
         }
       ]
@@ -49,7 +49,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "後半国会　岸田首相の姿勢が問われる",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1069484.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年4月9日(火)  09:50",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -107,7 +114,7 @@
         {
           "title": "論説　取り調べと弁護士立ち会い　法制化へ課題解決を",
           "link": "https://www.sanin-chuo.co.jp/articles/-/556565",
-          "published": "2024/4/9 04:00",
+          "published": "2024/4/9 4:00",
           "paid": true
         }
       ]
@@ -216,6 +223,58 @@
           "title": "＜主張＞国会の党首討論　大局的見地から力を競え",
           "link": "https://www.sankei.com/article/20240409-H7TE2GE2RJLE5B7KACNLQUKE7U/",
           "published": "2024/4/9 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "「日本版DBS」の導入　子ども守る議論深めたい",
+          "link": "https://mainichi.jp/articles/20240409/ddm/005/070/050000c",
+          "published": "2024/4/9 02:00",
+          "paid": false
+        },
+        {
+          "title": "再び国策旅客機構想　失敗検証せず進む危うさ",
+          "link": "https://mainichi.jp/articles/20240409/ddm/005/070/049000c",
+          "published": "2024/4/9 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］米中は衝突回避へ対話継続を",
+          "link": "https://www.nikkei.com/article/DGXZQODK085J00Y4A400C2000000/",
+          "published": "2024/4/9 19:30",
+          "paid": false
+        },
+        {
+          "title": "［社説］安全と利用促進を両立するAIルールに",
+          "link": "https://www.nikkei.com/article/DGXZQODK098HR0Z00C24A4000000/",
+          "published": "2024/4/9 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］植田日銀は物価安定へのかじ取り丁寧に",
+          "link": "https://www.nikkei.com/article/DGXZQODK087YB0Y4A400C2000000/",
+          "published": "2024/4/9 0:00",
           "paid": false
         }
       ]

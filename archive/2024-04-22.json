@@ -36,7 +36,7 @@
         {
           "title": "【海自ヘリ墜落事故】訓練全般の検証を（４月２２日）",
           "link": "https://www.minpo.jp/articles/-/56444",
-          "published": "2024/04/22 08:51",
+          "published": "2024/4/22 8:51",
           "paid": false
         }
       ]
@@ -49,7 +49,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "藤沢「善行雑学大学」が２５周年　地域の学舎を次代へ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1072644.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年4月22日(月)  10:10",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -59,7 +66,20 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "運営改善考えるべき時　ジェフレディース伸び悩む観客数　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1216260",
+          "published": "2024/4/22 5:00",
+          "paid": true
+        },
+        {
+          "title": "見守り、介護の充実を　１人暮らし世帯５０年に４４％　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1216261",
+          "published": "2024/4/22 5:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "新潟日報",
@@ -90,7 +110,7 @@
         {
           "title": "論説　医療・介護費倍増の試算　厳しい未来、回避したい",
           "link": "https://www.sanin-chuo.co.jp/articles/-/563370",
-          "published": "2024/4/22 04:00",
+          "published": "2024/4/22 4:00",
           "paid": true
         }
       ]
@@ -148,6 +168,52 @@
           "title": "＜主張＞海自ヘリ墜落　捜索と原因究明に全力を",
           "link": "https://www.sankei.com/article/20240422-N7EZDVBVFBI6NIGW6DDYWST2DM/",
           "published": "2024/4/22 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "オスプレイ再開1カ月　不安放置では同盟損なう",
+          "link": "https://mainichi.jp/articles/20240422/ddm/005/070/014000c",
+          "published": "2024/4/22 02:00",
+          "paid": false
+        },
+        {
+          "title": "国の地方への指示権　拡大する必要性が見えぬ",
+          "link": "https://mainichi.jp/articles/20240422/ddm/005/070/012000c",
+          "published": "2024/4/22 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］企業価値の向上へCFOの責務は重い",
+          "link": "https://www.nikkei.com/article/DGXZQODK2271G0S4A420C2000000/",
+          "published": "2024/4/22 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］海自ヘリ事故の究明に全力を",
+          "link": "https://www.nikkei.com/article/DGXZQODK224HJ0S4A420C2000000/",
+          "published": "2024/4/22 19:00",
           "paid": false
         }
       ]

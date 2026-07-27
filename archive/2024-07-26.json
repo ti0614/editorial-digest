@@ -30,7 +30,7 @@
         {
           "title": "【パリ五輪開幕】世界の平和貢献願う（７月２６日）",
           "link": "https://www.minpo.jp/articles/-/55871",
-          "published": "2024/07/26 08:51",
+          "published": "2024/7/26 8:51",
           "paid": false
         }
       ]
@@ -43,7 +43,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "やまゆり園事件８年　当事者意識欠かせない",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1097040.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年7月26日(金)  09:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -101,7 +108,7 @@
         {
           "title": "論説　パリ五輪開幕　地元国スポへの弾みに",
           "link": "https://www.sanin-chuo.co.jp/articles/-/616250",
-          "published": "2024/7/26 04:00",
+          "published": "2024/7/26 4:00",
           "paid": true
         }
       ]
@@ -204,6 +211,52 @@
           "title": "＜主張＞パリ五輪開幕へ　サッカーの快勝に胸躍る　堂々と自国選手を応援しよう",
           "link": "https://www.sankei.com/article/20240726-4TXWDK2JOVNNHPGXPI7POXBOEI/",
           "published": "2024/7/26 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "強制不妊で首相謝罪　全面的な救済は国の責任",
+          "link": "https://mainichi.jp/articles/20240726/ddm/005/070/125000c",
+          "published": "2024/7/26 02:00",
+          "paid": false
+        },
+        {
+          "title": "パリ五輪が開幕へ　分断の世に平和の発信を",
+          "link": "https://mainichi.jp/articles/20240726/ddm/005/070/126000c",
+          "published": "2024/7/26 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］平和の祭典に破壊行為は許されない",
+          "link": "https://www.nikkei.com/article/DGXZQODK269VE0W4A720C2000000/",
+          "published": "2024/7/26 20:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］原子力規制委の「不適合」判断は重い",
+          "link": "https://www.nikkei.com/article/DGXZQODK26BBL0W4A720C2000000/",
+          "published": "2024/7/26 20:00",
           "paid": false
         }
       ]

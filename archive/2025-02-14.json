@@ -82,7 +82,7 @@
         {
           "title": "【政府機関の移転】県内誘致へ議論を（２月１４日）",
           "link": "https://www.minpo.jp/articles/-/54499",
-          "published": "2025/02/14 09:27",
+          "published": "2025/2/14 9:27",
           "paid": false
         }
       ]
@@ -112,7 +112,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "備蓄米放出　価格の安定化が急務だ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1148183.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年2月14日(金)  09:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -170,7 +177,7 @@
         {
           "title": "高額療養費制度　引き上げ幅を縮小せよ　論説",
           "link": "https://www.sanin-chuo.co.jp/articles/-/729171",
-          "published": "2025/2/14 04:00",
+          "published": "2025/2/14 4:00",
           "paid": true
         }
       ]

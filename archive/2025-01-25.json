@@ -82,7 +82,7 @@
         {
           "title": "【通常国会召集】内外課題真摯に議論を（１月２５日）",
           "link": "https://www.minpo.jp/articles/-/54574",
-          "published": "2025/01/25 09:29",
+          "published": "2025/1/25 9:29",
           "paid": false
         }
       ]
@@ -95,7 +95,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "施政方針演説　「楽しい日本」真意問う",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1143145.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年1月25日(土)  09:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -153,7 +160,7 @@
         {
           "title": "論説　施政方針演説　政治再生の期待湧かぬ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/718574",
-          "published": "2025/1/25 04:00",
+          "published": "2025/1/25 4:00",
           "paid": true
         }
       ]

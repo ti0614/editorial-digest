@@ -66,7 +66,20 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "組織挙げ、働き手守るべき　カスハラ対策　【論説】",
+          "link": "https://www.chibanippo.co.jp/news/local/1438745",
+          "published": "2025/5/11 5:00",
+          "paid": true
+        },
+        {
+          "title": "インフレ防ぐ精緻な運営を　先進国で利下げ加速も　【論説】",
+          "link": "https://www.chibanippo.co.jp/news/economics/1439039",
+          "published": "2025/5/11 5:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "新潟日報",
@@ -114,7 +127,7 @@
         {
           "title": "論説　西田氏沖縄発言　議員の暴論に猛省促す",
           "link": "https://www.sanin-chuo.co.jp/articles/-/778656",
-          "published": "2025/5/11 04:00",
+          "published": "2025/5/11 4:00",
           "paid": true
         }
       ]

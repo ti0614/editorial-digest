@@ -82,7 +82,7 @@
         {
           "title": "【大阪・関西万博】来県者増やす契機に（２月１９日）",
           "link": "https://www.minpo.jp/articles/-/54479",
-          "published": "2025/02/19 09:28",
+          "published": "2025/2/19 9:28",
           "paid": false
         }
       ]
@@ -112,7 +112,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "Ｊリーグ開幕　Ｊ１、神奈川４クラブに期待",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1149416.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年2月19日(水)  09:49",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -170,7 +177,7 @@
         {
           "title": "論説　長引く消費低迷　家計重視で経済運営を",
           "link": "https://www.sanin-chuo.co.jp/articles/-/731839",
-          "published": "2025/2/19 04:00",
+          "published": "2025/2/19 4:00",
           "paid": true
         }
       ]

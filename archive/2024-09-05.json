@@ -59,7 +59,7 @@
         {
           "title": "【歩きたくなる街】県内全域に広げよう（９月５日）",
           "link": "https://www.minpo.jp/articles/-/55587",
-          "published": "2024/09/05 09:25",
+          "published": "2024/9/5 9:25",
           "paid": false
         }
       ]
@@ -72,7 +72,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "伊勢原市長選挙　「新市政」への思い票に",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1107776.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年9月5日(木)  10:50",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -130,7 +137,7 @@
         {
           "title": "論説　現行保険証あと３カ月　廃止には無理がある",
           "link": "https://www.sanin-chuo.co.jp/articles/-/640445",
-          "published": "2024/9/5 04:00",
+          "published": "2024/9/5 4:00",
           "paid": true
         }
       ]
@@ -239,6 +246,29 @@
           "title": "＜主張＞男性育休3割超　取得しやすい環境整備を",
           "link": "https://www.sankei.com/article/20240905-YYNWOIX2V5IF3FZYROI5MJQS3M/",
           "published": "2024/9/5 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］AIの活用でロボット産業に革新起こせ",
+          "link": "https://www.nikkei.com/article/DGXZQODK051E80V00C24A9000000/",
+          "published": "2024/9/5 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］官民協働で「体験格差」縮小を",
+          "link": "https://www.nikkei.com/article/DGXZQODK0410A0U4A800C2000000/",
+          "published": "2024/9/5 19:00",
           "paid": false
         }
       ]

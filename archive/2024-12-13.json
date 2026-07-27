@@ -82,7 +82,7 @@
         {
           "title": "【補正予算衆院通過】熟議と公開なし得たか（１２月１３日）",
           "link": "https://www.minpo.jp/articles/-/54727",
-          "published": "2024/12/13 09:33",
+          "published": "2024/12/13 9:33",
           "paid": false
         }
       ]
@@ -112,7 +112,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "学校健診　正確さと人権の両立を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1133049.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年12月13日(金)  10:30",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -170,7 +177,7 @@
         {
           "title": "論説　補正予算案が衆院通過　「熟議」にはほど遠い",
           "link": "https://www.sanin-chuo.co.jp/articles/-/695995",
-          "published": "2024/12/13 04:00",
+          "published": "2024/12/13 4:00",
           "paid": true
         }
       ]

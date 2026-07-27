@@ -76,7 +76,7 @@
         {
           "title": "【２０２４衆院選　本県議員２人減】党派超え課題解決を（１０月２９日）",
           "link": "https://www.minpo.jp/articles/-/54923",
-          "published": "2024/10/29 09:30",
+          "published": "2024/10/29 9:30",
           "paid": false
         }
       ]
@@ -106,7 +106,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "箱根町長２期目へ　課題解決に真価発揮を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1121510.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年10月29日(火)  09:50",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -116,7 +123,14 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "政治の本質に立ち返れ　衆院選で自公与党大敗　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1294653",
+          "published": "2024/10/29 5:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "新潟日報",
@@ -164,7 +178,7 @@
         {
           "title": "論説　与党過半数割れ　民意に従い政治変えよ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/670571",
-          "published": "2024/10/29 04:00",
+          "published": "2024/10/29 4:00",
           "paid": true
         }
       ]

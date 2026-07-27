@@ -82,7 +82,7 @@
         {
           "title": "【飲酒運転撲滅】重罪適用へ法整備を（２月１日）",
           "link": "https://www.minpo.jp/articles/-/54547",
-          "published": "2025/02/01 09:38",
+          "published": "2025/2/1 9:38",
           "paid": false
         }
       ]
@@ -112,7 +112,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "キャンプイン　「奪首」目指して準備を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1144909.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年2月1日(土)  09:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -170,7 +177,7 @@
         {
           "title": "論説　森友文書不開示は違法　迅速かつ誠実に対応を",
           "link": "https://www.sanin-chuo.co.jp/articles/-/722390",
-          "published": "2025/2/1 04:00",
+          "published": "2025/2/1 4:00",
           "paid": true
         }
       ]

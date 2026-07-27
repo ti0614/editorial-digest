@@ -26,7 +26,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "「伊勢佐木町」１５０年　街づくりの思い未来へ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1078893.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年5月19日(日)  09:40",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -84,7 +91,7 @@
         {
           "title": "論説　松江のバス 共同経営検討　「広島モデル」が参考に",
           "link": "https://www.sanin-chuo.co.jp/articles/-/577213",
-          "published": "2024/5/19 04:00",
+          "published": "2024/5/19 4:00",
           "paid": true
         }
       ]
@@ -193,6 +200,52 @@
           "title": "＜主張＞中国の過剰生産　習氏は欧米の懸念直視を",
           "link": "https://www.sankei.com/article/20240519-KGSX6XYIVBIT7L45U572LUPVRA/",
           "published": "2024/5/19 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "離婚後共同親権の導入　子の利益を損なわぬよう",
+          "link": "https://mainichi.jp/articles/20240519/ddm/005/070/077000c",
+          "published": "2024/5/19 02:01",
+          "paid": false
+        },
+        {
+          "title": "習・プーチン会談　中国は停戦へ関与強化を",
+          "link": "https://mainichi.jp/articles/20240519/ddm/005/070/075000c",
+          "published": "2024/5/19 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］介護保険料の上昇抑制へ改革を急げ",
+          "link": "https://www.nikkei.com/article/DGXZQOCD16BDS0W4A510C2000000/",
+          "published": "2024/5/19 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］広く理解得る皇位継承議論を",
+          "link": "https://www.nikkei.com/article/DGXZQODK176XP0X10C24A5000000/",
+          "published": "2024/5/19 19:00",
           "paid": false
         }
       ]

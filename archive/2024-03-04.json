@@ -30,7 +30,7 @@
         {
           "title": "【震災１３年　福島空港台湾便】安定路線へもう一歩（３月４日）",
           "link": "https://www.minpo.jp/articles/-/56751",
-          "published": "2024/03/04 08:53",
+          "published": "2024/3/4 8:53",
           "paid": false
         }
       ]
@@ -43,7 +43,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "自衛隊の靖国参拝、平和憲法下に許されぬ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1060953.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年3月4日(月)  10:10",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -101,7 +108,7 @@
         {
           "title": "論説・成年後見見直し　早急に制度の安定図れ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/537790",
-          "published": "2024/3/4 04:00",
+          "published": "2024/3/4 4:00",
           "paid": true
         }
       ]
@@ -193,6 +200,52 @@
           "title": "＜主張＞「適格性評価」法案　機微情報の活用を円滑に",
           "link": "https://www.sankei.com/article/20240304-PW2OC3PTIVJLLNUT6B3W7DVKKI/",
           "published": "2024/3/4 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "成年後見制度の見直し　使い勝手のいい仕組みに",
+          "link": "https://mainichi.jp/articles/20240304/ddm/005/070/014000c",
+          "published": "2024/3/4 02:00",
+          "paid": false
+        },
+        {
+          "title": "名古屋・教委の金品授受　あしき慣行の背景調査を",
+          "link": "https://mainichi.jp/articles/20240304/ddm/005/070/012000c",
+          "published": "2024/3/4 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］企業は市場の規律と向き合い競争力磨け",
+          "link": "https://www.nikkei.com/article/DGXZQODK043ZG0U4A300C2000000/",
+          "published": "2024/3/4 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］パキスタンは分断の修復を",
+          "link": "https://www.nikkei.com/article/DGXZQODK045CS0U4A300C2000000/",
+          "published": "2024/3/4 19:00",
           "paid": false
         }
       ]

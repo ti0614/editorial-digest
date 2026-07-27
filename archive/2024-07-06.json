@@ -36,7 +36,7 @@
         {
           "title": "【インバウンド】被災地に導く仕掛けを（７月６日）",
           "link": "https://www.minpo.jp/articles/-/56039",
-          "published": "2024/07/06 08:52",
+          "published": "2024/7/6 8:52",
           "paid": false
         }
       ]
@@ -49,7 +49,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "レジ袋有料化４年　プラ削減へ意識変革を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1091759.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年7月6日(土)  10:15",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -107,7 +114,7 @@
         {
           "title": "論説　西日本豪雨から６年　命を守る早めの対応を",
           "link": "https://www.sanin-chuo.co.jp/articles/-/604753",
-          "published": "2024/7/6 04:00",
+          "published": "2024/7/6 4:00",
           "paid": true
         }
       ]
@@ -216,6 +223,52 @@
           "title": "＜主張＞旭川いじめ自殺　市教委と学校の責任重い",
           "link": "https://www.sankei.com/article/20240706-KBI32CHYPFL7DE72TFENWRRJPM/",
           "published": "2024/7/6 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "温室ガスの削減目標　50年ゼロへ明確な目標を",
+          "link": "https://mainichi.jp/articles/20240706/ddm/005/070/080000c",
+          "published": "2024/7/6 02:02",
+          "paid": false
+        },
+        {
+          "title": "「集団的自衛権」10年　緊張高めぬ外交足りない",
+          "link": "https://mainichi.jp/articles/20240706/ddm/005/070/082000c",
+          "published": "2024/7/6 02:02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］KADOKAWAへの攻撃を他山の石に",
+          "link": "https://www.nikkei.com/article/DGXZQODK04ED10U4A700C2000000/",
+          "published": "2024/7/6 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］イラン新体制は米欧と対話を",
+          "link": "https://www.nikkei.com/article/DGXZQODK061TX0W4A700C2000000/",
+          "published": "2024/7/6 19:00",
           "paid": false
         }
       ]

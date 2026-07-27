@@ -36,7 +36,7 @@
         {
           "title": "【南相馬の宇宙産業】国内拠点を目指して（５月８日）",
           "link": "https://www.minpo.jp/articles/-/56352",
-          "published": "2024/05/08 08:51",
+          "published": "2024/5/8 8:51",
           "paid": false
         }
       ]
@@ -49,7 +49,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "コロナ５類１年　平時こそ危機に備えを",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1076148.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年5月8日(水)  09:59",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -107,7 +114,7 @@
         {
           "title": "論説　韓国野党議員が竹島上陸　親日志向への影響懸念",
           "link": "https://www.sanin-chuo.co.jp/articles/-/571246",
-          "published": "2024/5/8 04:00",
+          "published": "2024/5/8 4:00",
           "paid": true
         }
       ]
@@ -216,6 +223,46 @@
           "title": "＜主張＞拉致被害者の救出　米国とともに圧力強めよ",
           "link": "https://www.sankei.com/article/20240508-GOUSKBRGCRLSJNEA2DO2OHCLIY/",
           "published": "2024/5/8 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "感染症と日本社会　危機に対応できる体制に",
+          "link": "https://mainichi.jp/articles/20240508/ddm/005/070/110000c",
+          "published": "2024/5/8 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］「プーチン帝国」の野望阻止へ強い結束を",
+          "link": "https://www.nikkei.com/article/DGXZQODK077B00X00C24A5000000/",
+          "published": "2024/5/8 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］固い鉄道運賃を柔らかく",
+          "link": "https://www.nikkei.com/article/DGXZQODK0322M0T00C24A5000000/",
+          "published": "2024/5/8 19:00",
           "paid": false
         }
       ]

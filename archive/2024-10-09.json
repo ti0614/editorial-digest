@@ -76,7 +76,7 @@
         {
           "title": "【次世代太陽電池】普及の可能性探って（１０月９日）",
           "link": "https://www.minpo.jp/articles/-/55194",
-          "published": "2024/10/09 09:26",
+          "published": "2024/10/9 9:26",
           "paid": false
         }
       ]
@@ -106,7 +106,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "ベイスターズＣＳへ　３年連続、経験に期待",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1116269.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年10月9日(水)  10:10",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -164,7 +171,7 @@
         {
           "title": "論説　Ｂリーグと地方創生　首都圏のクラブに対抗",
           "link": "https://www.sanin-chuo.co.jp/articles/-/659682",
-          "published": "2024/10/9 04:00",
+          "published": "2024/10/9 4:00",
           "paid": true
         }
       ]

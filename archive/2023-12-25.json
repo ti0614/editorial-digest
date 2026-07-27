@@ -13,7 +13,7 @@
         {
           "title": "【元自衛官有罪判決】ハラスメント根絶を（１２月２５日）",
           "link": "https://www.minpo.jp/articles/-/57146",
-          "published": "2023/12/25 08:50",
+          "published": "2023/12/25 8:50",
           "paid": false
         }
       ]
@@ -26,7 +26,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "防災気象情報　「シンプルさ」最優先に慎重な検討を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1044833.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2023年12月25日(月)  10:10",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -84,7 +91,7 @@
         {
           "title": "論説　こども未来戦略　検証と改善が不可欠だ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/502780",
-          "published": "2023/12/25 04:00",
+          "published": "2023/12/25 4:00",
           "paid": true
         }
       ]
@@ -159,6 +166,63 @@
           "title": "【主張】防衛装備品の輸出　平和維持へ一層の改革を",
           "link": "https://www.sankei.com/article/20231225-XR3TPN3P6VP5RODLEKNN35R3DA/",
           "published": "2023/12/25 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "裏金疑惑と自民党　腐敗体質と決別する時だ",
+          "link": "https://mainichi.jp/articles/20231225/ddm/005/070/016000c",
+          "published": "2023/12/25 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］ライドシェア解禁への環境整備を早く",
+          "link": "https://www.nikkei.com/article/DGXZQODK2552W0V21C23A2000000/",
+          "published": "2023/12/25 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］社会に貢献する学術会議に",
+          "link": "https://www.nikkei.com/article/DGXZQODK240DM0U3A221C2000000/",
+          "published": "2023/12/25 19:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【予土線の今後】幅広い視点で議論深めよ",
+          "link": "https://www.kochinews.co.jp/article/detail/709143",
+          "published": "2023.12.25 08:00",
           "paid": false
         }
       ]

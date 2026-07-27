@@ -59,7 +59,7 @@
         {
           "title": "【行員の処遇向上】県内企業のモデルに（９月１６日）",
           "link": "https://www.minpo.jp/articles/-/55448",
-          "published": "2024/09/16 09:25",
+          "published": "2024/9/16 9:25",
           "paid": false
         }
       ]
@@ -72,7 +72,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "横浜・山中市政３年　集大成へ推進力加速を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1110440.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年9月16日(月)  09:30",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -82,7 +89,20 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "支え合い住みやすい地域へ　高齢化と新しい認知症観　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1276204",
+          "published": "2024/9/16 5:00",
+          "paid": true
+        },
+        {
+          "title": "歯止めとなるルール必要　プロ野球写真・動画配信禁止へ　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1276202",
+          "published": "2024/9/16 5:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "新潟日報",
@@ -130,7 +150,7 @@
         {
           "title": "論説　強制不妊巡る和解合意　全面救済の道は険しい",
           "link": "https://www.sanin-chuo.co.jp/articles/-/646577",
-          "published": "2024/9/16 04:00",
+          "published": "2024/9/16 4:00",
           "paid": true
         }
       ]
@@ -222,6 +242,29 @@
           "title": "＜主張＞NHK「反日放送」　乗っ取りの対応甘すぎる",
           "link": "https://www.sankei.com/article/20240916-SWSR3ICSCBPMHFP3QXTMHQZPGA/",
           "published": "2024/9/16 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］負担の議論なくして安心も安全もない",
+          "link": "https://www.nikkei.com/article/DGXZQODK12BAU0S4A910C2000000/",
+          "published": "2024/9/16 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］日本語が学びやすい環境を",
+          "link": "https://www.nikkei.com/article/DGXZQODK161SS0W4A910C2000000/",
+          "published": "2024/9/16 19:00",
           "paid": false
         }
       ]

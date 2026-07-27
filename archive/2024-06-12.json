@@ -36,7 +36,7 @@
         {
           "title": "【ふるさと納税】存在感高める努力必要（６月１２日）",
           "link": "https://www.minpo.jp/articles/-/56158",
-          "published": "2024/06/12 08:51",
+          "published": "2024/6/12 8:51",
           "paid": false
         }
       ]
@@ -49,7 +49,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "政治資金規正法の参院審議　要諦先送りは許されぬ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1085073.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年6月12日(水)  10:30",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -107,7 +114,7 @@
         {
           "title": "論説　欧州議会選で反ＥＵ派伸長　「自国第一主義」脱却を",
           "link": "https://www.sanin-chuo.co.jp/articles/-/590708",
-          "published": "2024/6/12 04:00",
+          "published": "2024/6/12 4:00",
           "paid": true
         }
       ]
@@ -216,6 +223,52 @@
           "title": "＜主張＞ジョージア新法　民主化の「旗」を降ろすな",
           "link": "https://www.sankei.com/article/20240612-ZPUX5TXOJJJJVLTUOISKZS5ZCI/",
           "published": "2024/6/12 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "保護司の殺害事件　担い手支える対策が急務",
+          "link": "https://mainichi.jp/articles/20240612/ddm/005/070/082000c",
+          "published": "2024/6/12 02:01",
+          "paid": false
+        },
+        {
+          "title": "「セクシー田中さん」問題　原作軽視の体質改める時",
+          "link": "https://mainichi.jp/articles/20240612/ddm/005/070/081000c",
+          "published": "2024/6/12 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］主要国並みのサイバー防御で安全高めよ",
+          "link": "https://www.nikkei.com/article/DGXZQODK125KK0S4A610C2000000/",
+          "published": "2024/6/12 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］国産肥料で食料安保を確かに",
+          "link": "https://www.nikkei.com/article/DGXZQODK126TO0S4A610C2000000/",
+          "published": "2024/6/12 19:00",
           "paid": false
         }
       ]

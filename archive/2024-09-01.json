@@ -55,7 +55,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "防災の日　「空振り」覚悟で備えを",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1106776.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年9月1日(日)  09:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -96,7 +103,7 @@
         {
           "title": "論説　防災の日　今の備えで十分なのか",
           "link": "https://www.sanin-chuo.co.jp/articles/-/638225",
-          "published": "2024/9/1 04:00",
+          "published": "2024/9/1 4:00",
           "paid": true
         }
       ]
@@ -199,6 +206,29 @@
           "title": "＜主張＞防災の日　「複合」リスクの最小化を　激甚気象と巨大地震に備えよ",
           "link": "https://www.sankei.com/article/20240901-HO6FH5WIHVJ6NIUHF7X4MENDTE/",
           "published": "2024/9/1 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］若手が研究に専念できる時間を増やせ",
+          "link": "https://www.nikkei.com/article/DGXZQODK311590R30C24A8000000/",
+          "published": "2024/9/1 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］多様な技術で未来の通信網を",
+          "link": "https://www.nikkei.com/article/DGXZQODK30AQ70Q4A830C2000000/",
+          "published": "2024/9/1 19:00",
           "paid": false
         }
       ]

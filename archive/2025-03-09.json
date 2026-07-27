@@ -66,7 +66,20 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "有機農業の旗振り役期待　いすみ市オーガニックビレッジ宣言　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1410964",
+          "published": "2025/3/9 5:00",
+          "paid": true
+        },
+        {
+          "title": "安全確保へ積極的導入を　歩車分離信号の指針改定　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1410965",
+          "published": "2025/3/9 5:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "新潟日報",
@@ -114,7 +127,7 @@
         {
           "title": "論説　東電旧経営陣無罪　それでも責任免れない",
           "link": "https://www.sanin-chuo.co.jp/articles/-/742263",
-          "published": "2025/3/9 04:00",
+          "published": "2025/3/9 4:00",
           "paid": true
         }
       ]

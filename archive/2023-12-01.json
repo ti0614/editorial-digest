@@ -13,7 +13,7 @@
         {
           "title": "【県複合施設２５周年】利用低調、改善急務だ（１２月１日）",
           "link": "https://www.minpo.jp/articles/-/57263",
-          "published": "2023/12/01 08:52",
+          "published": "2023/12/1 8:52",
           "paid": false
         }
       ]
@@ -26,7 +26,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "オスプレイ墜落　配備見直しを要請せよ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1038952.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2023年12月1日(金)  10:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -84,7 +91,7 @@
         {
           "title": "論説　米軍オスプレイ墜落　政府は毅然と対処せよ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/490530",
-          "published": "2023/12/1 04:00",
+          "published": "2023/12/1 4:00",
           "paid": true
         }
       ]
@@ -153,6 +160,92 @@
           "title": "【社説】オスプレイ墜落　原因究明まで飛行やめよ",
           "link": "https://www.nishinippon.co.jp/item/1152142/",
           "published": "2023/12/01 06:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "米軍オスプレイの墜落　飛行停止し機体総点検を",
+          "link": "https://mainichi.jp/articles/20231201/ddm/005/070/091000c",
+          "published": "2023/12/1 02:01",
+          "paid": false
+        },
+        {
+          "title": "キッシンジャー氏死去　「現実外交」で秩序築いた",
+          "link": "https://mainichi.jp/articles/20231201/ddm/005/070/090000c",
+          "published": "2023/12/1 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］新規参入広げ資産運用に活気ある競争を",
+          "link": "https://www.nikkei.com/article/DGXZQODK0173O0R01C23A2000000/",
+          "published": "2023/12/1 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］オスプレイ事故の究明急げ",
+          "link": "https://www.nikkei.com/article/DGXZQOCD012GU0R01C23A2000000/",
+          "published": "2023/12/1 19:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【主張】米オスプレイ墜落　原因究明し抑止力を保て",
+          "link": "https://www.sankei.com/article/20231201-BSFBF4QENFJFRAVU7FJWM2JKGY/",
+          "published": "2023/12/1 5:00",
+          "paid": false
+        },
+        {
+          "title": "【主張】日大アメフト廃部　学生を守る気概ないのか",
+          "link": "https://www.sankei.com/article/20231201-S2BAWIS2PJILNE75OMUO3VRLQA/",
+          "published": "2023/12/1 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【オスプレイ墜落】原因の徹底究明が不可欠",
+          "link": "https://www.kochinews.co.jp/article/detail/701015",
+          "published": "2023.12.01 08:00",
           "paid": false
         }
       ]

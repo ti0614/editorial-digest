@@ -47,7 +47,7 @@
         {
           "title": "【問われる復興】長期課題の道筋を（１２月３１日）",
           "link": "https://www.minpo.jp/articles/-/54658",
-          "published": "2024/12/31 08:45",
+          "published": "2024/12/31 8:45",
           "paid": false
         }
       ]
@@ -60,7 +60,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "２０２４年の終わりに　「おかしい」言い続ける",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1137434.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年12月31日(火)  10:30",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -118,7 +125,7 @@
         {
           "title": "論説　能登半島地震あす１年　救援の態勢整備が必要",
           "link": "https://www.sanin-chuo.co.jp/articles/-/705938",
-          "published": "2024/12/31 04:00",
+          "published": "2024/12/31 4:00",
           "paid": true
         }
       ]

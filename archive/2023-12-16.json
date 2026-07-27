@@ -13,7 +13,7 @@
         {
           "title": "【廃炉の特許】地元企業に移転促進を（１２月１６日）",
           "link": "https://www.minpo.jp/articles/-/57191",
-          "published": "2023/12/16 08:51",
+          "published": "2023/12/16 8:51",
           "paid": false
         }
       ]
@@ -26,7 +26,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "南足柄ジビエ施設　早期再開へ市が主導を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1042769.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2023年12月16日(土)  09:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -67,7 +74,7 @@
         {
           "title": "論説　税制改正大綱　時代に合った改革か",
           "link": "https://www.sanin-chuo.co.jp/articles/-/498437",
-          "published": "2023/12/16 04:00",
+          "published": "2023/12/16 4:00",
           "paid": true
         }
       ]
@@ -159,6 +166,69 @@
           "title": "【主張】プーチン氏会見　侵略を正当化する茶番だ",
           "link": "https://www.sankei.com/article/20231216-B6JAYNHUEJIT7IUQ4Y7CKP7HDY/",
           "published": "2023/12/16 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "脱化石燃料の国際合意　実現に向け問われる行動",
+          "link": "https://mainichi.jp/articles/20231216/ddm/005/070/057000c",
+          "published": "2023/12/16 02:00",
+          "paid": false
+        },
+        {
+          "title": "税制改正と暮らし　不安に応える道筋見えぬ",
+          "link": "https://mainichi.jp/articles/20231216/ddm/005/070/056000c",
+          "published": "2023/12/16 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］首相の迷走が影落とす理念なき税制大綱",
+          "link": "https://www.nikkei.com/article/DGXZQODK15AJ40V11C23A2000000/",
+          "published": "2023/12/16 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］エジプトは民主化を進めよ",
+          "link": "https://www.nikkei.com/article/DGXZQODK160CG0W3A211C2000000/",
+          "published": "2023/12/16 19:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【与党税制大綱】方向性が定まらない",
+          "link": "https://www.kochinews.co.jp/article/detail/706637",
+          "published": "2023.12.16 08:00",
           "paid": false
         }
       ]

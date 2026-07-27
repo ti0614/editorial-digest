@@ -70,7 +70,7 @@
         {
           "title": "【戦後８０年　原爆の日】節目に核廃絶の道筋を（８月６日）",
           "link": "https://www.minpo.jp/articles/-/53373",
-          "published": "2025/08/06 09:11",
+          "published": "2025/8/6 9:11",
           "paid": false
         }
       ]
@@ -165,7 +165,7 @@
         {
           "title": "論説　広島・長崎原爆の日　過ち繰り返さぬ決意を",
           "link": "https://www.sanin-chuo.co.jp/articles/-/834315",
-          "published": "2025/8/6 04:00",
+          "published": "2025/8/6 4:00",
           "paid": true
         }
       ]
@@ -292,6 +292,29 @@
           "link": "https://www.sankei.com/article/20250806-4XSEKVGZENMSFK3LZMDI46TJ64/",
           "published": "2025/8/6 5:00",
           "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【警察ＯＢの災害支援】能登の知見も生かしたい",
+          "link": "https://www.hokkoku.co.jp/articles/-/1829135",
+          "published": "2025/8/6 5:00",
+          "paid": true
+        },
+        {
+          "title": "社説【被爆から８０年】体験の継承を抑止の力に",
+          "link": "https://www.hokkoku.co.jp/articles/-/1829134",
+          "published": "2025/8/6 5:00",
+          "paid": true
         }
       ]
     }

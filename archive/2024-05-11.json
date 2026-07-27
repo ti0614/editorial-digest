@@ -36,7 +36,7 @@
         {
           "title": "【外国人労働者急増】共生社会を目指して（５月１１日）",
           "link": "https://www.minpo.jp/articles/-/56338",
-          "published": "2024/05/11 08:51",
+          "published": "2024/5/11 8:51",
           "paid": false
         }
       ]
@@ -49,7 +49,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "小田原市長選　希望持てる政策論争を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1077007.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年5月11日(土)  09:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -107,7 +114,7 @@
         {
           "title": "論説　自公の政治改革案　既得権益に固執するな",
           "link": "https://www.sanin-chuo.co.jp/articles/-/573113",
-          "published": "2024/5/11 04:00",
+          "published": "2024/5/11 4:00",
           "paid": true
         }
       ]
@@ -216,6 +223,52 @@
           "title": "＜主張＞政治改革の与党案　議員の責任強化を確実に",
           "link": "https://www.sankei.com/article/20240511-ATVK327JMRI35M7XFJNR4TUTN4/",
           "published": "2024/5/11 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "政治資金巡る自公案　「公開」に値せぬまやかし",
+          "link": "https://mainichi.jp/articles/20240511/ddm/005/070/123000c",
+          "published": "2024/5/11 02:01",
+          "paid": false
+        },
+        {
+          "title": "ガザ休戦交渉の中断　ラファ侵攻は許されない",
+          "link": "https://mainichi.jp/articles/20240511/ddm/005/070/122000c",
+          "published": "2024/5/11 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］自動車産業は停滞の先を見据えた変革を",
+          "link": "https://www.nikkei.com/article/DGXZQODK10AS60Q4A510C2000000/",
+          "published": "2024/5/11 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］選挙乱す「影響力工作」許すな",
+          "link": "https://www.nikkei.com/article/DGXZQODK104IR0Q4A510C2000000/",
+          "published": "2024/5/11 19:00",
           "paid": false
         }
       ]

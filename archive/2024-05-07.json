@@ -36,7 +36,7 @@
         {
           "title": "【１００年フード認定】地域の宝を売り込んで（５月７日）",
           "link": "https://www.minpo.jp/articles/-/56356",
-          "published": "2024/05/07 08:51",
+          "published": "2024/5/7 8:51",
           "paid": false
         }
       ]
@@ -49,7 +49,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "消滅可能性自治体　住民奪い合い脱却せよ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1075906.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年5月7日(火)  10:02",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -107,7 +114,7 @@
         {
           "title": "論説　野党の課題　漁夫の利 与えぬ決断を",
           "link": "https://www.sanin-chuo.co.jp/articles/-/570712",
-          "published": "2024/5/7 04:00",
+          "published": "2024/5/7 4:00",
           "paid": true
         }
       ]
@@ -216,6 +223,46 @@
           "title": "＜主張＞ＳＮＳ詐欺「無策」　政府は規制をためらうな",
           "link": "https://www.sankei.com/article/20240507-PLT5ZFDVFJLE7HLR2H5R64TJ3Q/",
           "published": "2024/5/7 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "地域で暮らす外国人　「移民」の現実直視する時",
+          "link": "https://mainichi.jp/articles/20240507/ddm/005/070/052000c",
+          "published": "2024/5/7 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］取締役会はファンドと対話し価値向上を",
+          "link": "https://www.nikkei.com/article/DGXZQODK050O20V00C24A5000000/",
+          "published": "2024/5/7 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］南米と互恵関係を深めよ",
+          "link": "https://www.nikkei.com/article/DGXZQODK075TC0X00C24A5000000/",
+          "published": "2024/5/7 19:00",
           "paid": false
         }
       ]

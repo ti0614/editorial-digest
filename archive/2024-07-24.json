@@ -36,7 +36,7 @@
         {
           "title": "【インターハイ】真心込めて迎えよう（７月２４日）",
           "link": "https://www.minpo.jp/articles/-/55889",
-          "published": "2024/07/24 08:50",
+          "published": "2024/7/24 8:50",
           "paid": false
         }
       ]
@@ -49,7 +49,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "同性カップル住民票　同性婚の法制化を急げ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1096440.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年7月24日(水)  10:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -107,7 +114,7 @@
         {
           "title": "論説　兵庫知事巡る疑惑　いかに告発者を守るか",
           "link": "https://www.sanin-chuo.co.jp/articles/-/614747",
-          "published": "2024/7/24 04:00",
+          "published": "2024/7/24 4:00",
           "paid": true
         }
       ]
@@ -216,6 +223,52 @@
           "title": "＜主張＞島サミット閉幕　行動計画を着実に進めよ",
           "link": "https://www.sankei.com/article/20240724-Q2OPCBBPWJIXNKA4NR5XLQQG4Q/",
           "published": "2024/7/24 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "兵庫県知事の疑惑　告発者守らぬ体質検証を",
+          "link": "https://mainichi.jp/articles/20240724/ddm/005/070/106000c",
+          "published": "2024/7/24 02:00",
+          "paid": false
+        },
+        {
+          "title": "フーシ派拠点への攻撃　報復の連鎖は危機広げる",
+          "link": "https://mainichi.jp/articles/20240724/ddm/005/070/103000c",
+          "published": "2024/7/24 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］幅広く長い視野で使われるNISAに",
+          "link": "https://www.nikkei.com/article/DGXZQODK246GH0U4A720C2000000/",
+          "published": "2024/7/24 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］東海道新幹線ストップの教訓",
+          "link": "https://www.nikkei.com/article/DGXZQODK246IG0U4A720C2000000/",
+          "published": "2024/7/24 19:00",
           "paid": false
         }
       ]

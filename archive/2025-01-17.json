@@ -76,7 +76,7 @@
         {
           "title": "【阪神大震災３０年】関連死対策に注力を（１月１７日）",
           "link": "https://www.minpo.jp/articles/-/54601",
-          "published": "2025/01/17 09:27",
+          "published": "2025/1/17 9:27",
           "paid": false
         }
       ]
@@ -89,7 +89,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "阪神大震災３０年　生き延びる備え実践を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1140964.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年1月17日(金)  10:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -147,7 +154,7 @@
         {
           "title": "論説　阪神大震災から３０年　災害の教訓を生かそう",
           "link": "https://www.sanin-chuo.co.jp/articles/-/713747",
-          "published": "2025/1/17 04:00",
+          "published": "2025/1/17 4:00",
           "paid": true
         }
       ]

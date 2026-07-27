@@ -78,7 +78,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "石破内閣に問われる日米地位協定　見直しの「約束」果たせ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1126430.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年11月17日(日)  09:40",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -136,7 +143,7 @@
         {
           "title": "論説　１０６万円の壁　撤廃は時代の流れだ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/681244",
-          "published": "2024/11/17 04:00",
+          "published": "2024/11/17 4:00",
           "paid": true
         }
       ]

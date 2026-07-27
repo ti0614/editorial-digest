@@ -13,7 +13,7 @@
         {
           "title": "【内堀県政１０年】「挑戦」の真価問われる（１月５日）",
           "link": "https://www.minpo.jp/articles/-/57094",
-          "published": "2024/01/05 08:51",
+          "published": "2024/1/5 8:51",
           "paid": false
         }
       ]
@@ -26,7 +26,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "展望・県政　「県民目線」の成果注目",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1047142.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年1月5日(金)  10:05",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -84,7 +91,7 @@
         {
           "title": "論説　２０２４政局展望　迫る審判へ論議尽くせ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/508356",
-          "published": "2024/1/5 04:00",
+          "published": "2024/1/5 4:00",
           "paid": true
         }
       ]
@@ -170,6 +177,63 @@
           "title": "＜主張＞首相年頭会見　総力挙げて被災地を救え　政治改革で信頼取り戻したい",
           "link": "https://www.sankei.com/article/20240105-XUEC6G5GMBMUVK3IBT74XLO24Y/",
           "published": "2024/1/5 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "能登半島地震　総力挙げ命つなぐ支援を",
+          "link": "https://mainichi.jp/articles/20240105/ddm/005/070/070000c",
+          "published": "2024/1/5 02:01",
+          "paid": false
+        },
+        {
+          "title": "「政治とカネ」と首相　抜本改革の覚悟が見えぬ",
+          "link": "https://mainichi.jp/articles/20240105/ddm/005/070/069000c",
+          "published": "2024/1/5 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］｢金利ある経済｣へ変革を恐れるな",
+          "link": "https://www.nikkei.com/article/DGXZQODK288QT0Y3A221C2000000/",
+          "published": "2024/1/5 19:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【新年に　政治】国民の監視で緊張感を",
+          "link": "https://www.kochinews.co.jp/article/detail/711450",
+          "published": "2024.01.05 08:00",
           "paid": false
         }
       ]

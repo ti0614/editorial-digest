@@ -70,7 +70,7 @@
         {
           "title": "【相次ぐ入札ミス】危機感持って対応を（１１月１３日）",
           "link": "https://www.minpo.jp/articles/-/54854",
-          "published": "2024/11/13 09:30",
+          "published": "2024/11/13 9:30",
           "paid": false
         }
       ]
@@ -100,7 +100,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "石破内閣への注文　社会　説明しない政治改めよ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1125404.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年11月13日(水)  09:50",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -158,7 +165,7 @@
         {
           "title": "論説　公明、共産の不振　タブー排し再建論議を",
           "link": "https://www.sanin-chuo.co.jp/articles/-/678972",
-          "published": "2024/11/13 04:00",
+          "published": "2024/11/13 4:00",
           "paid": true
         }
       ]

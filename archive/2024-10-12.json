@@ -70,7 +70,7 @@
         {
           "title": "【若松乾杯条例１０年】地場産業振興の事例に（１０月１２日）",
           "link": "https://www.minpo.jp/articles/-/55163",
-          "published": "2024/10/12 09:30",
+          "published": "2024/10/12 9:30",
           "paid": false
         }
       ]
@@ -83,7 +83,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "被団協にノーベル賞　被爆者に「真の喜び」を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1117124.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年10月12日(土)  09:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -141,7 +148,7 @@
         {
           "title": "論説　被団協にノーベル平和賞　核なき世界の一里塚に",
           "link": "https://www.sanin-chuo.co.jp/articles/-/661558",
-          "published": "2024/10/12 04:00",
+          "published": "2024/10/12 4:00",
           "paid": true
         }
       ]

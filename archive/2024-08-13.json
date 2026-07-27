@@ -36,7 +36,7 @@
         {
           "title": "【ＮＩＥと原発事故】自分事で学び深めて（８月１３日）",
           "link": "https://www.minpo.jp/articles/-/55713",
-          "published": "2024/08/13 08:51",
+          "published": "2024/8/13 8:51",
           "paid": false
         }
       ]
@@ -49,7 +49,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "日本のアート　世界にもっと存在感を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1102224.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年8月13日(火)  10:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -107,7 +114,7 @@
         {
           "title": "論説　パリ五輪閉幕　「開かれた大会」の成果",
           "link": "https://www.sanin-chuo.co.jp/articles/-/627528",
-          "published": "2024/8/13 04:00",
+          "published": "2024/8/13 4:00",
           "paid": true
         }
       ]
@@ -210,6 +217,46 @@
           "title": "＜主張＞パリ五輪閉幕　大歓声の祝祭復活を喜ぶ　日本勢の躍進に心が躍った",
           "link": "https://www.sankei.com/article/20240813-V363V5MKU5KPPJ5PFKBID2LEOA/",
           "published": "2024/8/13 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "’24平和考　パリ五輪閉幕　祭典の理想求め続けたい",
+          "link": "https://mainichi.jp/articles/20240813/ddm/002/070/084000c",
+          "published": "2024/8/13 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］薬剤師との連携でリフィル処方広げよ",
+          "link": "https://www.nikkei.com/article/DGXZQOCD075GZ0X00C24A8000000/",
+          "published": "2024/8/13 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］長期・分散重視の金融教育を",
+          "link": "https://www.nikkei.com/article/DGXZQODK130EQ0T10C24A8000000/",
+          "published": "2024/8/13 19:00",
           "paid": false
         }
       ]

@@ -47,7 +47,7 @@
         {
           "title": "【佐渡世界遺産登録】会津との歴史に光を（８月２６日）",
           "link": "https://www.minpo.jp/articles/-/55643",
-          "published": "2024/08/26 08:51",
+          "published": "2024/8/26 8:51",
           "paid": false
         }
       ]
@@ -60,7 +60,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "台風警戒　増す危険度、備え不可欠",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1105113.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年8月26日(月)  10:20",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -70,7 +77,20 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "再発防止の取り組み急務　北千葉道汚職で検証報告書　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1266800",
+          "published": "2024/8/26 5:00",
+          "paid": true
+        },
+        {
+          "title": "幕張で五輪上回る熱気を　大規模国際大会「Ｘゲーム」　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1266801",
+          "published": "2024/8/26 5:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "新潟日報",
@@ -118,7 +138,7 @@
         {
           "title": "論説　猛暑・豪雨への対応　戦略的な対策が必要だ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/634109",
-          "published": "2024/8/26 04:00",
+          "published": "2024/8/26 4:00",
           "paid": true
         }
       ]
@@ -210,6 +230,29 @@
           "title": "＜主張＞セブン買収提案　日本企業に対する警鐘だ",
           "link": "https://www.sankei.com/article/20240826-OPQ5OTQL55PZXAP4BNF3K426UA/",
           "published": "2024/8/26 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］セブン&アイ買収提案が迫る企業価値の向上",
+          "link": "https://www.nikkei.com/article/DGXZQODK263HT0W4A820C2000000/",
+          "published": "2024/8/26 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］ヒズボラとの衝突激化回避を",
+          "link": "https://www.nikkei.com/article/DGXZQODK265XS0W4A820C2000000/",
+          "published": "2024/8/26 19:00",
           "paid": false
         }
       ]

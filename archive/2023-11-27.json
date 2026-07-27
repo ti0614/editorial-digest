@@ -13,7 +13,7 @@
         {
           "title": "【松江記念碑５周年】会津人の精神次世代に（１１月２７日）",
           "link": "https://www.minpo.jp/articles/-/57284",
-          "published": "2023/11/27 08:50",
+          "published": "2023/11/27 8:50",
           "paid": false
         }
       ]
@@ -26,7 +26,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "国立大法改正案　拙速審議に危うさ潜む",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1037801.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2023年11月27日(月)  09:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -67,7 +74,7 @@
         {
           "title": "論説　技能実習見直し　定着と共生につなげよ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/488210",
-          "published": "2023/11/27 04:00",
+          "published": "2023/11/27 4:00",
           "paid": true
         }
       ]
@@ -119,6 +126,92 @@
           "title": "【社説】派閥の政治資金　透明化へ「ザル法」見直せ",
           "link": "https://www.nishinippon.co.jp/item/1150414/",
           "published": "2023/11/27 06:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "教団財産の散逸防止　被害救済できる法整備を",
+          "link": "https://mainichi.jp/articles/20231127/ddm/005/070/008000c",
+          "published": "2023/11/27 02:01",
+          "paid": false
+        },
+        {
+          "title": "政府の基金見直し　安易に増やした責任重い",
+          "link": "https://mainichi.jp/articles/20231127/ddm/005/070/007000c",
+          "published": "2023/11/27 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］地域の安定へ日中韓首脳級会合を急げ",
+          "link": "https://www.nikkei.com/article/DGXZQOCD273QW0X21C23A1000000/",
+          "published": "2023/11/27 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］内閣支持率30%、まずは政権目標を明らかに",
+          "link": "https://www.nikkei.com/article/DGXZQODK274LO0X21C23A1000000/",
+          "published": "2023/11/27 19:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【主張】ガザ紛争　国内のテロ対策は万全か",
+          "link": "https://www.sankei.com/article/20231127-KILBXZPGBZMKNCHAKAZZCF2VYA/",
+          "published": "2023/11/27 5:00",
+          "paid": false
+        },
+        {
+          "title": "【主張】派閥の過少記載　自民は政治資金で襟正せ",
+          "link": "https://www.sankei.com/article/20231127-ZEJDI36EJVLIVE5EYDFYJ34KKU/",
+          "published": "2023/11/27 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【浜田知事再選】「成果」へ重くなる責任",
+          "link": "https://www.kochinews.co.jp/article/detail/699827",
+          "published": "2023.11.27 08:00",
           "paid": false
         }
       ]

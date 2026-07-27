@@ -30,7 +30,7 @@
         {
           "title": "【終戦７９年】世界の平和に思い寄せ（８月１６日）",
           "link": "https://www.minpo.jp/articles/-/55697",
-          "published": "2024/08/16 08:50",
+          "published": "2024/8/16 8:50",
           "paid": false
         }
       ]
@@ -43,7 +43,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "岸田政権に幕　引責評価は民意で示す",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1102998.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年8月16日(金)  09:40",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -101,7 +108,7 @@
         {
           "title": "論説　終戦の日　戦争の日常化に抗おう",
           "link": "https://www.sanin-chuo.co.jp/articles/-/629133",
-          "published": "2024/8/16 04:00",
+          "published": "2024/8/16 4:00",
           "paid": true
         }
       ]
@@ -210,6 +217,46 @@
           "title": "＜主張＞戦没者の遺骨　一柱でも多く帰国実現を",
           "link": "https://www.sankei.com/article/20240816-PXF6MTMP3ZM5RKMEZC372O2I64/",
           "published": "2024/8/16 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "’24平和考　終戦の日　暴力許さぬ世界の構築を",
+          "link": "https://mainichi.jp/articles/20240816/ddm/002/070/087000c",
+          "published": "2024/8/16 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］消費主導の経済回復を本格的な流れに",
+          "link": "https://www.nikkei.com/article/DGXZQODK163Y40W4A810C2000000/",
+          "published": "2024/8/16 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］南海トラフ臨時情報の検証と課題解決を",
+          "link": "https://www.nikkei.com/article/DGXZQOCD145W20U4A810C2000000/",
+          "published": "2024/8/16 19:00",
           "paid": false
         }
       ]

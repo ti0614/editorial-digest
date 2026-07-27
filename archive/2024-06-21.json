@@ -36,7 +36,7 @@
         {
           "title": "【郡山発酵まつり】連携広げる好機に（６月２１日）",
           "link": "https://www.minpo.jp/articles/-/56107",
-          "published": "2024/06/21 08:52",
+          "published": "2024/6/21 8:52",
           "paid": false
         }
       ]
@@ -49,7 +49,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "国会閉会　信を問わぬなら退陣を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1087664.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年6月21日(金)  10:50",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -107,7 +114,7 @@
         {
           "title": "論説　プーチン氏訪朝　ロ朝の脅しに動じるな",
           "link": "https://www.sanin-chuo.co.jp/articles/-/596057",
-          "published": "2024/6/21 04:00",
+          "published": "2024/6/21 4:00",
           "paid": true
         }
       ]
@@ -210,6 +217,52 @@
           "title": "＜主張＞露朝同盟の成立　日本への脅威が高まった　ウクライナ侵略加担許されぬ",
           "link": "https://www.sankei.com/article/20240621-7UOQPKA5MVNMPFMF5F2EEZ3H5U/",
           "published": "2024/6/21 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "東京都知事選の告示　首都の将来像競う論戦を",
+          "link": "https://mainichi.jp/articles/20240621/ddm/005/070/069000c",
+          "published": "2024/6/21 02:00",
+          "paid": false
+        },
+        {
+          "title": "露朝の軍事協力条約　秩序壊す「同盟」許されぬ",
+          "link": "https://mainichi.jp/articles/20240621/ddm/005/070/072000c",
+          "published": "2024/6/21 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］「骨太」の名に値する成長戦略示せたか",
+          "link": "https://www.nikkei.com/article/DGXZQODK212PR0R20C24A6000000/",
+          "published": "2024/6/21 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］対中関税の引き上げは慎重に",
+          "link": "https://www.nikkei.com/article/DGXZQODK1974V0Z10C24A6000000/",
+          "published": "2024/6/21 19:00",
           "paid": false
         }
       ]

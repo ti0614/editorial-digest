@@ -36,7 +36,7 @@
         {
           "title": "【東山盆踊り８０周年】持続可能性探る契機に（３月１６日）",
           "link": "https://www.minpo.jp/articles/-/56652",
-          "published": "2024/03/16 08:52",
+          "published": "2024/3/16 8:52",
           "paid": false
         }
       ]
@@ -49,7 +49,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "新基準バット　費用負担にも考慮必要",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1063965.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年3月16日(土)  10:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -107,7 +114,7 @@
         {
           "title": "論説　衆院補選告示まで１カ月　島根１区に注目集まる",
           "link": "https://www.sanin-chuo.co.jp/articles/-/544471",
-          "published": "2024/3/16 04:00",
+          "published": "2024/3/16 4:00",
           "paid": true
         }
       ]
@@ -216,6 +223,52 @@
           "title": "＜主張＞中国の海外闇警察　「スパイ天国」でいいのか",
           "link": "https://www.sankei.com/article/20240316-H4BDHEZJSJMAJPA4WOC6PFTEAA/",
           "published": "2024/3/16 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "同性間にも「婚姻の自由」　尊厳を守る画期的判決だ",
+          "link": "https://mainichi.jp/articles/20240316/ddm/005/070/128000c",
+          "published": "2024/3/16 02:00",
+          "paid": false
+        },
+        {
+          "title": "戦闘機輸出の自公合意　なし崩しで突き進むのか",
+          "link": "https://mainichi.jp/articles/20240316/ddm/005/070/127000c",
+          "published": "2024/3/16 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］次期戦闘機の輸出を国際協調と抑止力の強化に",
+          "link": "https://www.nikkei.com/article/DGXZQODK14C1N0U4A310C2000000/",
+          "published": "2024/3/16 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］あまりにお粗末なNTT西日本",
+          "link": "https://www.nikkei.com/article/DGXZQODK15ADJ0V10C24A3000000/",
+          "published": "2024/3/16 19:00",
           "paid": false
         }
       ]

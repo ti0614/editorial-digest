@@ -32,7 +32,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "神大平塚跡地　地元と共存共栄の道を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1086238.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年6月16日(日)  10:30",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -90,7 +97,7 @@
         {
           "title": "論説　旧文通費改革　先送りは許されない",
           "link": "https://www.sanin-chuo.co.jp/articles/-/593129",
-          "published": "2024/6/16 04:00",
+          "published": "2024/6/16 4:00",
           "paid": true
         }
       ]
@@ -199,6 +206,52 @@
           "title": "＜主張＞株主総会ピーク　企業価値向上図る契機に",
           "link": "https://www.sankei.com/article/20240616-PJ2NPWEBSRPR5BJN7BAADF67RY/",
           "published": "2024/6/16 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "二つの戦争とG7　結束保ち外交努力さらに",
+          "link": "https://mainichi.jp/articles/20240616/ddm/005/070/083000c",
+          "published": "2024/6/16 02:01",
+          "paid": false
+        },
+        {
+          "title": "日銀が国債購入減額へ　「正常化」へ丁寧な説明を",
+          "link": "https://mainichi.jp/articles/20240616/ddm/005/070/082000c",
+          "published": "2024/6/16 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］顧客の信頼損ねた三菱UFJは猛省を",
+          "link": "https://www.nikkei.com/article/DGXZQODK147H00U4A610C2000000/",
+          "published": "2024/6/16 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］クールジャパンは検証が先だ",
+          "link": "https://www.nikkei.com/article/DGXZQOCD150UF0V10C24A6000000/",
+          "published": "2024/6/16 19:00",
           "paid": false
         }
       ]

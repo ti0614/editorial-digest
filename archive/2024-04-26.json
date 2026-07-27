@@ -36,7 +36,7 @@
         {
           "title": "【集落の教科書】移住定住促進の一助に（４月２６日）",
           "link": "https://www.minpo.jp/articles/-/56419",
-          "published": "2024/04/26 08:51",
+          "published": "2024/4/26 8:51",
           "paid": false
         }
       ]
@@ -49,7 +49,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "政治改革特別委　不信払拭へ覚悟を示せ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1073714.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年4月26日(金)  10:10",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -107,7 +114,7 @@
         {
           "title": "論説・共同親権法案　ＤＶ排除へ議論深めよ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/565692",
-          "published": "2024/4/26 04:00",
+          "published": "2024/4/26 4:00",
           "paid": true
         }
       ]
@@ -216,6 +223,52 @@
           "title": "＜主張＞中国人教授不明　学問の自由を脅かすのか",
           "link": "https://www.sankei.com/article/20240426-WAWE3BNZHRL6VP6WQ2SR2FLQBY/",
           "published": "2024/4/26 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "内臓脂肪減らす薬　生活習慣の改善が前提だ",
+          "link": "https://mainichi.jp/articles/20240426/ddm/005/070/113000c",
+          "published": "2024/4/26 02:01",
+          "paid": false
+        },
+        {
+          "title": "沖縄の陸自訓練場撤回　住民軽視した当然の帰結",
+          "link": "https://mainichi.jp/articles/20240426/ddm/005/070/114000c",
+          "published": "2024/4/26 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］日銀は円安も注視し的確な政策運営探れ",
+          "link": "https://www.nikkei.com/article/DGXZQODK263TF0W4A420C2000000/",
+          "published": "2024/4/26 19:15",
+          "paid": false
+        },
+        {
+          "title": "［社説］教員の残業削減へ抜本改革を",
+          "link": "https://www.nikkei.com/article/DGXZQOCD2038O0Q4A420C2000000/",
+          "published": "2024/4/26 19:00",
           "paid": false
         }
       ]

@@ -76,7 +76,7 @@
         {
           "title": "【生活保護増加】地域の安全網構築を（１月１６日）",
           "link": "https://www.minpo.jp/articles/-/54604",
-          "published": "2025/01/16 09:27",
+          "published": "2025/1/16 9:27",
           "paid": false
         }
       ]
@@ -89,7 +89,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "止まらぬ物価高　庶民の困窮に向き合え",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1140677.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年1月16日(木)  10:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -147,7 +154,7 @@
         {
           "title": "論説　韓国大統領拘束　全容解明し混乱収めよ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/713084",
-          "published": "2025/1/16 04:00",
+          "published": "2025/1/16 4:00",
           "paid": true
         }
       ]

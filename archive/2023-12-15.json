@@ -13,7 +13,7 @@
         {
           "title": "【政治資金問題】徹底解明しかない（１２月１５日）",
           "link": "https://www.minpo.jp/articles/-/57194",
-          "published": "2023/12/15 08:50",
+          "published": "2023/12/15 8:50",
           "paid": false
         }
       ]
@@ -26,7 +26,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "４閣僚更迭　小手先では不信消えぬ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1042476.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2023年12月15日(金)  10:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -84,7 +91,7 @@
         {
           "title": "論説　裏金疑惑で閣僚更迭　責任回避の指弾免れぬ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/497830",
-          "published": "2023/12/15 04:00",
+          "published": "2023/12/15 4:00",
           "paid": true
         }
       ]
@@ -170,6 +177,69 @@
           "title": "【主張】閣僚・党幹部交代　安倍派排除で済む話か　国政の停滞あってはならぬ",
           "link": "https://www.sankei.com/article/20231215-LG5ZBUMFBRJIVOIHCDO4OWB7D4/",
           "published": "2023/12/15 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "安倍派の4閣僚交代　小手先では不信拭えない",
+          "link": "https://mainichi.jp/articles/20231215/ddm/005/070/024000c",
+          "published": "2023/12/15 02:01",
+          "paid": false
+        },
+        {
+          "title": "膨張する万博経費　身を切る努力が見えない",
+          "link": "https://mainichi.jp/articles/20231215/ddm/005/070/023000c",
+          "published": "2023/12/15 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］脱化石燃料の実現へ世界は一層の努力を",
+          "link": "https://www.nikkei.com/article/DGXZQODK137YY0T11C23A2000000/",
+          "published": "2023/12/15 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］マイナ保険証もっと便利に",
+          "link": "https://www.nikkei.com/article/DGXZQOCD1358B0T11C23A2000000/",
+          "published": "2023/12/15 19:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【裏金問題で人事】具体論欠く改革への道",
+          "link": "https://www.kochinews.co.jp/article/detail/704942",
+          "published": "2023.12.15 05:00",
           "paid": false
         }
       ]

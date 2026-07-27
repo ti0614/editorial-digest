@@ -54,6 +54,29 @@
           "paid": false
         }
       ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］医薬品不足の解消へ構造改革を急げ",
+          "link": "https://www.nikkei.com/article/DGXZQODK106O60Q3A111C2000000/",
+          "published": "2023/11/13 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］連続辞任は順送りのツケだ",
+          "link": "https://www.nikkei.com/article/DGXZQODK134DU0T11C23A1000000/",
+          "published": "2023/11/13 19:00",
+          "paid": false
+        }
+      ]
     }
   ]
 }

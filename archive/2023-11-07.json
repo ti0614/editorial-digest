@@ -13,7 +13,7 @@
         {
           "title": "【教職員の不祥事】「隙」の徹底究明を（１１月７日）",
           "link": "https://www.minpo.jp/articles/-/57422",
-          "published": "2023/11/07 08:52",
+          "published": "2023/11/7 8:52",
           "paid": false
         }
       ]
@@ -84,7 +84,7 @@
         {
           "title": "論説　東南アジアとの安保協力　中国との対話も不可欠",
           "link": "https://www.sanin-chuo.co.jp/articles/-/478266",
-          "published": "2023/11/7 04:00",
+          "published": "2023/11/7 4:00",
           "paid": true
         }
       ]
@@ -153,6 +153,92 @@
           "title": "【社説】ガザ大規模戦闘　停戦と人道支援を早急に",
           "link": "https://www.nishinippon.co.jp/item/1143864/",
           "published": "2023/11/07 06:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "ガザ戦闘開始1カ月　イスラエルは攻撃停止を",
+          "link": "https://mainichi.jp/articles/20231107/ddm/005/070/101000c",
+          "published": "2023/11/7 02:01",
+          "paid": false
+        },
+        {
+          "title": "阪神が38年ぶり日本一　地元活気づけた関西対決",
+          "link": "https://mainichi.jp/articles/20231107/ddm/005/070/100000c",
+          "published": "2023/11/7 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］ガザめぐる憎悪の悪循環を断ち切るには",
+          "link": "https://www.nikkei.com/article/DGXZQODK072CV0X01C23A1000000/",
+          "published": "2023/11/7 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］「健康経営」に感染症対策を",
+          "link": "https://www.nikkei.com/article/DGXZQODK063NZ0W3A101C2000000/",
+          "published": "2023/11/7 19:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【主張】阪神日本一　野球の魅力に感謝したい",
+          "link": "https://www.sankei.com/article/20231107-JCEXL6CGUVKELGID76KYXPP2GQ/",
+          "published": "2023/11/7 5:00",
+          "paid": false
+        },
+        {
+          "title": "【主張】少子化と国会審議　財源確保の説明不十分だ",
+          "link": "https://www.sankei.com/article/20231107-UTXGH5OCTRJ7NBUJFOBHHNIV6M/",
+          "published": "2023/11/7 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【ＡＩのルール】安心して利用できてこそ",
+          "link": "https://www.kochinews.co.jp/article/detail/694570",
+          "published": "2023.11.07 08:00",
           "paid": false
         }
       ]

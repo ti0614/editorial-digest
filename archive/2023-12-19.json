@@ -13,7 +13,7 @@
         {
           "title": "【南相馬の農業学校】就農者確保の拠点に（１２月１９日）",
           "link": "https://www.minpo.jp/articles/-/57176",
-          "published": "2023/12/19 08:52",
+          "published": "2023/12/19 8:52",
           "paid": false
         }
       ]
@@ -26,7 +26,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "ＰＦＯＡに発がん性　国が主体的に対処せよ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1043324.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2023年12月19日(火)  10:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -84,7 +91,7 @@
         {
           "title": "論説　日ＡＳＥＡＮ首脳会議　平和と安定築く努力を",
           "link": "https://www.sanin-chuo.co.jp/articles/-/499654",
-          "published": "2023/12/19 04:00",
+          "published": "2023/12/19 4:00",
           "paid": true
         }
       ]
@@ -176,6 +183,69 @@
           "title": "【主張】北ＩＣＢＭ発射　日本も拡大抑止強化図れ",
           "link": "https://www.sankei.com/article/20231219-ULOMAGRX4BLPHEMUSIUTUOJDWU/",
           "published": "2023/12/19 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "縮むウクライナ支援　団結の力が試されている",
+          "link": "https://mainichi.jp/articles/20231219/ddm/005/070/024000c",
+          "published": "2023/12/19 02:01",
+          "paid": false
+        },
+        {
+          "title": "北朝鮮のICBM発射　日米韓の連携強化さらに",
+          "link": "https://mainichi.jp/articles/20231219/ddm/005/070/023000c",
+          "published": "2023/12/19 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］グローバル企業への日鉄の決断と課題",
+          "link": "https://www.nikkei.com/article/DGXZQODK194XX0Z11C23A2000000/",
+          "published": "2023/12/19 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］派閥の病根あぶり出す捜査を",
+          "link": "https://www.nikkei.com/article/DGXZQODK193MS0Z11C23A2000000/",
+          "published": "2023/12/19 19:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【日ＡＳＥＡＮ】友好５０年の関係を強固に",
+          "link": "https://www.kochinews.co.jp/article/detail/707559",
+          "published": "2023.12.19 08:00",
           "paid": false
         }
       ]

@@ -70,7 +70,7 @@
         {
           "title": "【トランプ氏勝利】国際社会　対応問われる（１１月７日）",
           "link": "https://www.minpo.jp/articles/-/54876",
-          "published": "2024/11/07 09:29",
+          "published": "2024/11/7 9:29",
           "paid": false
         }
       ]
@@ -83,7 +83,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "衆院の女性最多　目標へ道のりまだ遠い",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1123858.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年11月7日(木)  10:20",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -141,7 +148,7 @@
         {
           "title": "論説　米次期大統領にトランプ氏　独善排し融和求めたい",
           "link": "https://www.sanin-chuo.co.jp/articles/-/675767",
-          "published": "2024/11/7 04:00",
+          "published": "2024/11/7 4:00",
           "paid": true
         }
       ]

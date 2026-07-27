@@ -72,7 +72,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "横浜・生見尾踏切　抜本的な対策が急務だ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1118991.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年10月20日(日)  10:30",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -130,7 +137,7 @@
         {
           "title": "論説　１０月は里親月間　知ることから始めよう",
           "link": "https://www.sanin-chuo.co.jp/articles/-/665466",
-          "published": "2024/10/20 04:00",
+          "published": "2024/10/20 4:00",
           "paid": true
         }
       ]

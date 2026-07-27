@@ -30,7 +30,7 @@
         {
           "title": "【欠席議員の報酬】住民の理解得る議論を（７月８日）",
           "link": "https://www.minpo.jp/articles/-/56028",
-          "published": "2024/07/08 08:51",
+          "published": "2024/7/8 8:51",
           "paid": false
         }
       ]
@@ -43,7 +43,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "路線価　官民で街の魅力向上へ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1092151.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年7月8日(月)  11:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -53,7 +60,20 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "時代に即した大会整備を　全中の実施競技縮小　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1246722",
+          "published": "2024/7/8 5:00",
+          "paid": true
+        },
+        {
+          "title": "飽食と無駄改善で節約も　食品ロス削減と物価高騰　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1246723",
+          "published": "2024/7/8 5:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "新潟日報",
@@ -101,7 +121,7 @@
         {
           "title": "論説　安倍元首相銃撃２年　政治不信の流れを切れ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/605601",
-          "published": "2024/7/8 04:00",
+          "published": "2024/7/8 4:00",
           "paid": true
         }
       ]
@@ -193,6 +213,52 @@
           "title": "＜主張＞小池都知事３選　「首都防衛」の公約実行を",
           "link": "https://www.sankei.com/article/20240708-WBXFBB7WDZMNJKKKMDTGHSZZ2Y/",
           "published": "2024/7/8 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "小池氏が都知事3選　おごらず課題の再点検を",
+          "link": "https://mainichi.jp/articles/20240708/ddm/005/070/009000c",
+          "published": "2024/7/8 02:01",
+          "paid": false
+        },
+        {
+          "title": "高まる株主の発言力　経営の変革につなげねば",
+          "link": "https://mainichi.jp/articles/20240708/ddm/005/070/008000c",
+          "published": "2024/7/8 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］フランス下院選挙後の政治不安の拡大を避けよ",
+          "link": "https://www.nikkei.com/article/DGXZQODK070XC0X00C24A7000000/",
+          "published": "2024/7/8 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］「夫婦別姓」の選択肢を今こそ",
+          "link": "https://www.nikkei.com/article/DGXZQODK04AUX0U4A700C2000000/",
+          "published": "2024/7/8 19:00",
           "paid": false
         }
       ]

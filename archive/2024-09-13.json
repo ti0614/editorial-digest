@@ -59,7 +59,7 @@
         {
           "title": "【自民総裁選告示】実行力見極めねば（９月１３日）",
           "link": "https://www.minpo.jp/articles/-/55501",
-          "published": "2024/09/13 09:30",
+          "published": "2024/9/13 9:30",
           "paid": false
         }
       ]
@@ -72,7 +72,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "自民総裁選　改革の本気度まず競え",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1109830.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年9月13日(金)  09:45",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -113,7 +120,7 @@
         {
           "title": "論説　自民総裁選告示　首相の資格 見極めたい",
           "link": "https://www.sanin-chuo.co.jp/articles/-/645016",
-          "published": "2024/9/13 04:00",
+          "published": "2024/9/13 4:00",
           "paid": true
         }
       ]
@@ -216,6 +223,29 @@
           "title": "＜主張＞自民総裁選告示　日本を守る政策競い合え　「夫婦別姓」には賛成できない",
           "link": "https://www.sankei.com/article/20240913-3EWZIUNIWVKNJGCH5AYNPRJ2LM/",
           "published": "2024/9/13 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］ネット広告業界の透明性向上が急務だ",
+          "link": "https://www.nikkei.com/article/DGXZQODK136SX0T10C24A9000000/",
+          "published": "2024/9/13 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］景気不安映すECB再利下げ",
+          "link": "https://www.nikkei.com/article/DGXZQODK1372P0T10C24A9000000/",
+          "published": "2024/9/13 19:00",
           "paid": false
         }
       ]

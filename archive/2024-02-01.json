@@ -13,7 +13,7 @@
         {
           "title": "【旧豊田貯水池活用】理解深める工夫が不足（２月１日）",
           "link": "https://www.minpo.jp/articles/-/56923",
-          "published": "2024/02/01 08:51",
+          "published": "2024/2/1 8:51",
           "paid": false
         }
       ]
@@ -26,7 +26,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "能登半島地震１カ月　命守る住まい増やそう",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1053731.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年2月1日(木)  10:10",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -84,7 +91,7 @@
         {
           "title": "論説　能登半島地震１カ月　復興の議論を始めよう",
           "link": "https://www.sanin-chuo.co.jp/articles/-/522248",
-          "published": "2024/2/1 04:00",
+          "published": "2024/2/1 4:00",
           "paid": true
         }
       ]
@@ -187,6 +194,52 @@
           "title": "＜主張＞能登地震１カ月　国民一体で被災者支援を　「複合」への備えを怠るまい",
           "link": "https://www.sankei.com/article/20240201-OLK5YBLRHFOMNLKSJEGG4OBULU/",
           "published": "2024/2/1 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "能登半島地震1カ月　生活再建の道筋示さねば",
+          "link": "https://mainichi.jp/articles/20240201/ddm/005/070/113000c",
+          "published": "2024/2/1 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］FRBは利下げ開始の見極めを入念に",
+          "link": "https://www.nikkei.com/article/DGXZQODK012990R00C24A2000000/",
+          "published": "2024/2/1 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］ロシアの「勝利」は容認できぬ",
+          "link": "https://www.nikkei.com/article/DGXZQODK012A90R00C24A2000000/",
+          "published": "2024/2/1 19:00",
+          "paid": false
+        },
+        {
+          "title": "［社説］能登半島地震1カ月　避難生活の質を高めるには",
+          "link": "https://www.nikkei.com/article/DGXZQODK3165L0R30C24A1000000/",
+          "published": "2024/2/1 0:00",
           "paid": false
         }
       ]

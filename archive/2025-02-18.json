@@ -82,7 +82,7 @@
         {
           "title": "【地方暮らし】仕事や学びの幅広げて（２月１８日）",
           "link": "https://www.minpo.jp/articles/-/54481",
-          "published": "2025/02/18 09:29",
+          "published": "2025/2/18 9:29",
           "paid": false
         }
       ]
@@ -112,7 +112,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "金属盗　被害防止へ規制強めよ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1149125.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年2月18日(火)  11:10",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -153,7 +160,7 @@
         {
           "title": "論説　米のウクライナ和平提案　侵略の利得を許すな",
           "link": "https://www.sanin-chuo.co.jp/articles/-/731244",
-          "published": "2025/2/18 04:00",
+          "published": "2025/2/18 4:00",
           "paid": true
         }
       ]

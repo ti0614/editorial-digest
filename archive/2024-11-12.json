@@ -76,7 +76,7 @@
         {
           "title": "【第２次石破内閣】熟議の国会へ転換を（１１月１２日）",
           "link": "https://www.minpo.jp/articles/-/54859",
-          "published": "2024/11/12 09:28",
+          "published": "2024/11/12 9:28",
           "paid": false
         }
       ]
@@ -106,7 +106,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "第２次石破内閣　与野党で建設的議論を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1125160.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年11月12日(火)  10:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -164,7 +171,7 @@
         {
           "title": "論説　石破首相を再選出　まず「裏金」にけじめを",
           "link": "https://www.sanin-chuo.co.jp/articles/-/678399",
-          "published": "2024/11/12 04:00",
+          "published": "2024/11/12 4:00",
           "paid": true
         }
       ]

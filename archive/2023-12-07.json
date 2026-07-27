@@ -13,7 +13,7 @@
         {
           "title": "【ゴッホ展】名画を学ぶ機会設けて（１２月７日）",
           "link": "https://www.minpo.jp/articles/-/57224",
-          "published": "2023/12/07 08:54",
+          "published": "2023/12/7 8:54",
           "paid": false
         }
       ]
@@ -26,7 +26,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "日大アメフト問題　根源はガバナンス不全",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1040383.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2023年12月7日(木)  10:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -84,7 +91,7 @@
         {
           "title": "論説　ＯＥＣＤ学習到達度調査　冷静に受け止めたい",
           "link": "https://www.sanin-chuo.co.jp/articles/-/493642",
-          "published": "2023/12/7 04:00",
+          "published": "2023/12/7 4:00",
           "paid": true
         }
       ]
@@ -176,6 +183,69 @@
           "title": "【主張】教団被害救済法案　財産把握し補償に万全を",
           "link": "https://www.sankei.com/article/20231207-M6WPD2J3XJP5PC6PEKFM2H3WHQ/",
           "published": "2023/12/7 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "国際学力調査で上位に　生きる力につなげてこそ",
+          "link": "https://mainichi.jp/articles/20231207/ddm/005/070/083000c",
+          "published": "2023/12/7 02:01",
+          "paid": false
+        },
+        {
+          "title": "愛知・警察署の勾留死　命軽んじた深刻さ直視を",
+          "link": "https://mainichi.jp/articles/20231207/ddm/005/070/084000c",
+          "published": "2023/12/7 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］ガザ危機のこれ以上の放置は許されない",
+          "link": "https://www.nikkei.com/article/DGXZQODK077BW0X01C23A2000000/",
+          "published": "2023/12/7 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］日大は悪弊断ち解体的再生を",
+          "link": "https://www.nikkei.com/article/DGXZQODK0755Z0X01C23A2000000/",
+          "published": "2023/12/7 19:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【被害者救済法案】実効性に課題が残る",
+          "link": "https://www.kochinews.co.jp/article/detail/702407",
+          "published": "2023.12.07 08:00",
           "paid": false
         }
       ]

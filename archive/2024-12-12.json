@@ -82,7 +82,7 @@
         {
           "title": "【インバウンド観光】体験型誘客に期待（１２月１２日）",
           "link": "https://www.minpo.jp/articles/-/54730",
-          "published": "2024/12/12 09:24",
+          "published": "2024/12/12 9:24",
           "paid": false
         }
       ]
@@ -112,7 +112,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "「危険運転」見直し　市民感覚に寄り添って",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1132788.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年12月12日(木)  10:30",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -170,7 +177,7 @@
         {
           "title": "論説　窮地の韓国大統領　混乱の収拾図る努力を",
           "link": "https://www.sanin-chuo.co.jp/articles/-/695389",
-          "published": "2024/12/12 04:00",
+          "published": "2024/12/12 4:00",
           "paid": true
         }
       ]

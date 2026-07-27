@@ -64,7 +64,7 @@
         {
           "title": "【福粕花】全国区のブランドに（１月６日）",
           "link": "https://www.minpo.jp/articles/-/54641",
-          "published": "2025/01/06 09:32",
+          "published": "2025/1/6 9:32",
           "paid": false
         }
       ]
@@ -77,7 +77,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "２０２５年経済展望　課題の解決通じ成長を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1138205.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年1月6日(月)  09:40",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -87,7 +94,20 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "次代へつなぐ使命認識を　節目の年　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1323487",
+          "published": "2025/1/6 5:00",
+          "paid": true
+        },
+        {
+          "title": "課題克服へ再挑戦に期待　「日本遺産」候補継続の鋸山　【論説】",
+          "link": "https://www.chibanippo.co.jp/news/local/1323486",
+          "published": "2025/1/6 5:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "新潟日報",
@@ -135,7 +155,7 @@
         {
           "title": "論説　政局展望　参院選で改めて審判を",
           "link": "https://www.sanin-chuo.co.jp/articles/-/707736",
-          "published": "2025/1/6 04:00",
+          "published": "2025/1/6 4:00",
           "paid": true
         }
       ]

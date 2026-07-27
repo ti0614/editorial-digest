@@ -36,7 +36,7 @@
         {
           "title": "【国道４９号防災対策】バイパス整備着実に（５月２５日）",
           "link": "https://www.minpo.jp/articles/-/56255",
-          "published": "2024/05/25 08:51",
+          "published": "2024/5/25 8:51",
           "paid": false
         }
       ]
@@ -49,7 +49,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "規正法審議　抜本改正が欠かせない",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1080538.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年5月25日(土)  09:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -107,7 +114,7 @@
         {
           "title": "論説　中国が台湾包囲し演習　威嚇は孤立化、招くだけ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/580718",
-          "published": "2024/5/25 04:00",
+          "published": "2024/5/25 4:00",
           "paid": true
         }
       ]
@@ -216,6 +223,52 @@
           "title": "＜主張＞自治体への指示権　「想定外」への備え必要だ",
           "link": "https://www.sankei.com/article/20240525-O3YA43ACLFOLFHMP5OBZISAGOM/",
           "published": "2024/5/25 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "台湾周辺で中国軍演習　威嚇は地域の安定損ねる",
+          "link": "https://mainichi.jp/articles/20240525/ddm/005/070/122000c",
+          "published": "2024/5/25 02:01",
+          "paid": false
+        },
+        {
+          "title": "定額減税のアピール　首相の露骨なご都合主義",
+          "link": "https://mainichi.jp/articles/20240525/ddm/005/070/120000c",
+          "published": "2024/5/25 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］脱炭素へ説得力ある成長戦略を描け",
+          "link": "https://www.nikkei.com/article/DGXZQODK248L50U4A520C2000000/",
+          "published": "2024/5/25 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］路線バス再生は知恵と技術で",
+          "link": "https://www.nikkei.com/article/DGXZQODK248DH0U4A520C2000000/",
+          "published": "2024/5/25 19:00",
           "paid": false
         }
       ]

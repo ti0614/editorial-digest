@@ -47,7 +47,7 @@
         {
           "title": "【自民総裁に石破氏】不信払拭への責任重い（９月２８日）",
           "link": "https://www.minpo.jp/articles/-/55353",
-          "published": "2024/09/28 09:28",
+          "published": "2024/9/28 9:28",
           "paid": false
         }
       ]
@@ -60,7 +60,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "自民新総裁に石破氏　「刷新」問われる実行力",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1113531.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年9月28日(土)  09:50",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -118,7 +125,7 @@
         {
           "title": "論説　自民新総裁に石破氏　本気で政治改革断行を",
           "link": "https://www.sanin-chuo.co.jp/articles/-/653665",
-          "published": "2024/9/28 04:00",
+          "published": "2024/9/28 4:00",
           "paid": true
         }
       ]
@@ -221,6 +228,29 @@
           "title": "＜主張＞自民総裁に石破氏　保守の精神踏まえ前進を　外交安保政策の継承が重要だ",
           "link": "https://www.sankei.com/article/20240928-ZQWPFHRUFBPALP3NUGABOBDVAI/",
           "published": "2024/9/28 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］日鉄のUSスチール買収審査は政治色を排して",
+          "link": "https://www.nikkei.com/article/DGXZQODK27BZ00X20C24A9000000/",
+          "published": "2024/9/28 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］ロシアの危うい核威嚇許すな",
+          "link": "https://www.nikkei.com/article/DGXZQODK2733S0X20C24A9000000/",
+          "published": "2024/9/28 19:00",
           "paid": false
         }
       ]

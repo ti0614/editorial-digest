@@ -32,7 +32,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "新鋭台頭の大相撲　横綱、大関陣は奮起を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1082655.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年6月2日(日)  11:10",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -90,7 +97,7 @@
         {
           "title": "論説　広島がＢリーグ制覇　スサマジに大きな刺激",
           "link": "https://www.sanin-chuo.co.jp/articles/-/585408",
-          "published": "2024/6/2 04:00",
+          "published": "2024/6/2 4:00",
           "paid": true
         }
       ]
@@ -199,6 +206,52 @@
           "title": "＜主張＞尖閣に中国海警船　防衛方針を転換すべきだ",
           "link": "https://www.sankei.com/article/20240602-L3MUSILRQVKW7JS4SPDUBTPHDA/",
           "published": "2024/6/2 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "能登地震の復興計画　地域持続へ知恵の結集を",
+          "link": "https://mainichi.jp/articles/20240602/ddm/005/070/057000c",
+          "published": "2024/6/2 02:01",
+          "paid": false
+        },
+        {
+          "title": "裁判員制度15年　司法参加の意義広めたい",
+          "link": "https://mainichi.jp/articles/20240602/ddm/005/070/056000c",
+          "published": "2024/6/2 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］データセンター投資を持続的成長の起点に",
+          "link": "https://www.nikkei.com/article/DGXZQODK319100R30C24A5000000/",
+          "published": "2024/6/2 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］円安対応の課題映す巨額介入",
+          "link": "https://www.nikkei.com/article/DGXZQODK31CBR0R30C24A5000000/",
+          "published": "2024/6/2 19:00",
           "paid": false
         }
       ]

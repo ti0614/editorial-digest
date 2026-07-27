@@ -30,7 +30,7 @@
         {
           "title": "【子育て支援】親子の夢育む施策を（５月４日）",
           "link": "https://www.minpo.jp/articles/-/56369",
-          "published": "2024/05/04 08:51",
+          "published": "2024/5/4 8:51",
           "paid": false
         }
       ]
@@ -43,7 +43,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "森林環境税　有効活用へ一層工夫を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1075416.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年5月4日(土)  09:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -101,7 +108,7 @@
         {
           "title": "論説　「消滅可能性」自治体公表　日本社会全体の問題だ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/569609",
-          "published": "2024/5/4 04:00",
+          "published": "2024/5/4 4:00",
           "paid": true
         }
       ]
@@ -210,6 +217,46 @@
           "title": "＜主張＞竹島に不法上陸　韓国野党の愚行非難する",
           "link": "https://www.sankei.com/article/20240504-TWSC7MVCFJK2VHLHO6PBD4N3DI/",
           "published": "2024/5/4 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "地球環境の三重危機　破局回避へ行動変えよう",
+          "link": "https://mainichi.jp/articles/20240504/ddm/005/070/038000c",
+          "published": "2024/5/4 02:02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］男性の子育てを後押しする職場改革を",
+          "link": "https://www.nikkei.com/article/DGXZQODK302650Q4A430C2000000/",
+          "published": "2024/5/4 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］米分断緩和へ大統領選公正に",
+          "link": "https://www.nikkei.com/article/DGXZQODK026B10S4A500C2000000/",
+          "published": "2024/5/4 19:00",
           "paid": false
         }
       ]

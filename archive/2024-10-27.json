@@ -55,7 +55,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "衆議院選挙きょう投開票　主体的な意思表示こそ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1120749.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年10月27日(日)  09:40",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -113,7 +120,7 @@
         {
           "title": "論説　緊張高まる朝鮮半島　硬軟混ぜた外交努力を",
           "link": "https://www.sanin-chuo.co.jp/articles/-/669315",
-          "published": "2024/10/27 04:00",
+          "published": "2024/10/27 4:00",
           "paid": true
         }
       ]

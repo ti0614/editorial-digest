@@ -76,7 +76,7 @@
         {
           "title": "【台湾輸入規制全廃】販路拡大の弾みに（９月６日）",
           "link": "https://www.minpo.jp/articles/-/53126",
-          "published": "2025/09/06 09:11",
+          "published": "2025/9/6 9:11",
           "paid": false
         }
       ]
@@ -188,7 +188,7 @@
         {
           "title": "論説　政治空白　停滞招いた責任は重い",
           "link": "https://www.sanin-chuo.co.jp/articles/-/853110",
-          "published": "2025/9/6 04:00",
+          "published": "2025/9/6 4:00",
           "paid": true
         }
       ]
@@ -309,6 +309,29 @@
           "link": "https://www.sankei.com/article/20250906-4V2ZT2OY7ZK6ZFGMLXQ3ZFPV7A/",
           "published": "2025/9/6 5:00",
           "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【自転車の「青切符」】ルールの運用広く周知を",
+          "link": "https://www.hokkoku.co.jp/articles/-/1858839",
+          "published": "2025/9/6 5:00",
+          "paid": true
+        },
+        {
+          "title": "社説【自動車関税１５％】日米交渉の成果を花道に",
+          "link": "https://www.hokkoku.co.jp/articles/-/1858838",
+          "published": "2025/9/6 5:00",
+          "paid": true
         }
       ]
     }

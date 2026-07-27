@@ -32,7 +32,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "コロナ支援終了　監視と警戒は怠れない",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1069713.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年4月10日(水)  09:45",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -90,7 +97,7 @@
         {
           "title": "論説　政治改革特別委　脱法行為も封じ込めよ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/557070",
-          "published": "2024/4/10 04:00",
+          "published": "2024/4/10 4:00",
           "paid": true
         }
       ]
@@ -199,6 +206,52 @@
           "title": "＜主張＞ガソリン補助延長　対象絞った支援に転換を",
           "link": "https://www.sankei.com/article/20240410-QSLVSS7C2FMS5OKBGOB4AUAWJQ/",
           "published": "2024/4/10 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "ガザでNGO職員殺害　人道危機の悪化懸念する",
+          "link": "https://mainichi.jp/articles/20240410/ddm/005/070/095000c",
+          "published": "2024/4/10 02:01",
+          "paid": false
+        },
+        {
+          "title": "皇族確保の政党間協議　もう先送りは許されない",
+          "link": "https://mainichi.jp/articles/20240410/ddm/005/070/094000c",
+          "published": "2024/4/10 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］過去最高の気温は地球からの警鐘だ",
+          "link": "https://www.nikkei.com/article/DGXZQOCD086C20Y4A400C2000000/",
+          "published": "2024/4/10 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］留学生に選ばれる大学めざせ",
+          "link": "https://www.nikkei.com/article/DGXZQOCD0985C0Z00C24A4000000/",
+          "published": "2024/4/10 19:00",
           "paid": false
         }
       ]

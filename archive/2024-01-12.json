@@ -13,7 +13,7 @@
         {
           "title": "【能登地震避難者】温かく迎えたい（１月１２日）",
           "link": "https://www.minpo.jp/articles/-/57047",
-          "published": "2024/01/12 08:51",
+          "published": "2024/1/12 8:51",
           "paid": false
         }
       ]
@@ -26,7 +26,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "展望・社会　希望を決して諦めない",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1048637.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年1月12日(金)  10:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -84,7 +91,7 @@
         {
           "title": "論説　自民政治刷新本部　覚悟も熱量も感じない",
           "link": "https://www.sanin-chuo.co.jp/articles/-/511762",
-          "published": "2024/1/12 04:00",
+          "published": "2024/1/12 4:00",
           "paid": true
         }
       ]
@@ -176,6 +183,69 @@
           "title": "＜主張＞自民刷新本部　抜本改革なしに未来ない",
           "link": "https://www.sankei.com/article/20240112-AWG5A3DSVJMJLIGYIV3XD2EGXU/",
           "published": "2024/1/12 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "自民の「政治刷新本部」　小手先で済ますつもりか",
+          "link": "https://mainichi.jp/articles/20240112/ddm/005/070/043000c",
+          "published": "2024/1/12 02:02",
+          "paid": false
+        },
+        {
+          "title": "航空機衝突の再発防止　ミス想定した安全対策を",
+          "link": "https://mainichi.jp/articles/20240112/ddm/005/070/041000c",
+          "published": "2024/1/12 02:02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］企業は年始の株高に応え一段の改革を",
+          "link": "https://www.nikkei.com/article/DGXZQODK127W40S4A110C2000000/",
+          "published": "2024/1/12 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］中東危機の拡散を回避せよ",
+          "link": "https://www.nikkei.com/article/DGXZQODK121FM0S4A110C2000000/",
+          "published": "2024/1/12 19:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【自民刷新本部】首相の本気度が試される",
+          "link": "https://www.kochinews.co.jp/article/detail/712965",
+          "published": "2024.01.12 08:00",
           "paid": false
         }
       ]

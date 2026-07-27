@@ -82,7 +82,7 @@
         {
           "title": "【被災地の住宅整備】国は柔軟な後押しを（７月２９日）",
           "link": "https://www.minpo.jp/articles/-/53416",
-          "published": "2025/07/29 09:15",
+          "published": "2025/7/29 9:15",
           "paid": false
         }
       ]
@@ -194,7 +194,7 @@
         {
           "title": "論説　自民両院懇談会　党改革の在り方議論を",
           "link": "https://www.sanin-chuo.co.jp/articles/-/829039",
-          "published": "2025/7/29 04:00",
+          "published": "2025/7/29 4:00",
           "paid": true
         }
       ]
@@ -321,6 +321,35 @@
           "link": "https://www.sankei.com/article/20250729-LWRLVT7QTNKJHP6ZEVWSMWUUCI/",
           "published": "2025/7/29 5:00",
           "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【両院議員懇談会】総会開催に応じるべき",
+          "link": "https://www.hokkoku.co.jp/articles/-/1821007",
+          "published": "2025/7/29 5:00",
+          "paid": true
+        },
+        {
+          "title": "社説【清水選手「世界新」】「９秒台」へ夢膨らむ快挙",
+          "link": "https://www.hokkoku.co.jp/articles/-/1821006",
+          "published": "2025/7/29 5:00",
+          "paid": true
+        },
+        {
+          "title": "社説【両院議員懇談会】総会開催要求に応じるべき",
+          "link": "https://www.hokkoku.co.jp/articles/-/1820966",
+          "published": "2025/7/29 5:00",
+          "paid": true
         }
       ]
     }

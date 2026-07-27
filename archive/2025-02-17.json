@@ -76,7 +76,7 @@
         {
           "title": "【高齢者の労災対策】身体の変化見据えて（２月１７日）",
           "link": "https://www.minpo.jp/articles/-/54486",
-          "published": "2025/02/17 09:28",
+          "published": "2025/2/17 9:28",
           "paid": false
         }
       ]
@@ -89,7 +89,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "子どもの自殺最多　多様性育むゆとりこそ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1148835.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年2月17日(月)  09:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -99,7 +106,20 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "有権者参加で慎重な議論を　選挙期間中のＳＮＳ対策　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1401670",
+          "published": "2025/2/17 5:00",
+          "paid": true
+        },
+        {
+          "title": "安心して頼れる教育現場に　小中高生の自殺最多　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1401669",
+          "published": "2025/2/17 5:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "新潟日報",
@@ -147,7 +167,7 @@
         {
           "title": "論説　中国のＡＩ　科学技術の実力、直視を",
           "link": "https://www.sanin-chuo.co.jp/articles/-/730681",
-          "published": "2025/2/17 04:00",
+          "published": "2025/2/17 4:00",
           "paid": true
         }
       ]

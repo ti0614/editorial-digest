@@ -82,7 +82,7 @@
         {
           "title": "【児童生徒の不登校】民間との連携強化を（１２月２日）",
           "link": "https://www.minpo.jp/articles/-/54760",
-          "published": "2024/12/02 09:27",
+          "published": "2024/12/2 9:27",
           "paid": false
         }
       ]
@@ -95,7 +95,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "厚木爆音訴訟　騒音解消への道筋示せ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1130120.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年12月2日(月)  10:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -105,7 +112,20 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "未整備市町村は早期制定を　犯罪被害者支援条例　【論説】",
+          "link": "https://www.chibanippo.co.jp/news/politics/1309711",
+          "published": "2024/12/2 5:00",
+          "paid": true
+        },
+        {
+          "title": "乱用防ぐルールづくり急げ　ＳＮＳと選挙　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1309712",
+          "published": "2024/12/2 5:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "新潟日報",
@@ -153,7 +173,7 @@
         {
           "title": "論説　米ロの対立激化　緊張緩和を模索せよ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/689634",
-          "published": "2024/12/2 04:00",
+          "published": "2024/12/2 4:00",
           "paid": true
         }
       ]

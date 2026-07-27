@@ -82,7 +82,7 @@
         {
           "title": "【除染土の工程表】国は緊張感を高めよ（２月２２日）",
           "link": "https://www.minpo.jp/articles/-/54466",
-          "published": "2025/02/22 09:29",
+          "published": "2025/2/22 9:29",
           "paid": false
         }
       ]
@@ -95,7 +95,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "高額療養費制度　患者に寄り添い議論を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1150256.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年2月22日(土)  09:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -153,7 +160,7 @@
         {
           "title": "論説　２０年目の「竹島の日」　最終目的は領土権確立",
           "link": "https://www.sanin-chuo.co.jp/articles/-/733729",
-          "published": "2025/2/22 04:00",
+          "published": "2025/2/22 4:00",
           "paid": true
         }
       ]

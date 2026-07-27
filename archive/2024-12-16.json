@@ -76,7 +76,7 @@
         {
           "title": "【次期総合戦略】危機感強め人口対策を（１２月１６日）",
           "link": "https://www.minpo.jp/articles/-/54719",
-          "published": "2024/12/16 09:29",
+          "published": "2024/12/16 9:29",
           "paid": false
         }
       ]
@@ -89,7 +89,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "ＣＯ２回収・貯留　官民連携で普及拡大を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1133783.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年12月16日(月)  09:49",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -99,7 +106,20 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "地域に寄り添う交通実現を　久留里線の廃止方針　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1315551",
+          "published": "2024/12/16 5:00",
+          "paid": true
+        },
+        {
+          "title": "防災力強化へ官民連携図れ　南海トラフ地震臨時情報　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1315550",
+          "published": "2024/12/16 5:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "新潟日報",

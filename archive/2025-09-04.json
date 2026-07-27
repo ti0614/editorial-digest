@@ -82,7 +82,7 @@
         {
           "title": "【最低賃金引き上げ】格差の縮小が重要だ（９月４日）",
           "link": "https://www.minpo.jp/articles/-/53165",
-          "published": "2025/09/04 09:10",
+          "published": "2025/9/4 9:10",
           "paid": false
         }
       ]
@@ -194,7 +194,7 @@
         {
           "title": "論説　サントリー新浪会長辞任　社会的責任果たせるか",
           "link": "https://www.sanin-chuo.co.jp/articles/-/851581",
-          "published": "2025/9/4 04:00",
+          "published": "2025/9/4 4:00",
           "paid": true
         }
       ]
@@ -327,6 +327,29 @@
           "link": "https://www.sankei.com/article/20250904-SLL4XSQYPFKMJBY6YVFLR5FOXY/",
           "published": "2025/9/4 5:00",
           "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【心の健康に文化の力】多様な出会いの機会を",
+          "link": "https://www.hokkoku.co.jp/articles/-/1856786",
+          "published": "2025/9/4 5:00",
+          "paid": true
+        },
+        {
+          "title": "社説【中国軍事パレード】経済苦境が結ぶ「三国同盟」",
+          "link": "https://www.hokkoku.co.jp/articles/-/1856785",
+          "published": "2025/9/4 5:00",
+          "paid": true
         }
       ]
     }

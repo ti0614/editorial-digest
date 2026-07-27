@@ -30,7 +30,7 @@
         {
           "title": "【原爆の日】次代への責任問われる（８月６日）",
           "link": "https://www.minpo.jp/articles/-/55761",
-          "published": "2024/08/06 08:50",
+          "published": "2024/8/6 8:50",
           "paid": false
         }
       ]
@@ -43,7 +43,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "原爆の日　核廃絶への針路今こそ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1100317.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年8月6日(火)  10:10",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -101,7 +108,7 @@
         {
           "title": "論説　株価最大の下げ　冷静に実体経済見たい",
           "link": "https://www.sanin-chuo.co.jp/articles/-/623257",
-          "published": "2024/8/6 04:00",
+          "published": "2024/8/6 4:00",
           "paid": true
         }
       ]
@@ -210,6 +217,46 @@
           "title": "＜主張＞原爆の日　平和式典で厳粛な祈りを",
           "link": "https://www.sankei.com/article/20240806-WJDHJJKMONIYREE5VZ6ECE5MVQ/",
           "published": "2024/8/6 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "’24平和考　原爆の日　核兵器に「ノー」をもっと",
+          "link": "https://mainichi.jp/articles/20240806/ddm/005/070/081000c",
+          "published": "2024/8/6 02:02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］グーグル敗訴は巨大IT独占の転機だ",
+          "link": "https://www.nikkei.com/article/DGXZQODK0691V0W4A800C2000000/",
+          "published": "2024/8/6 19:30",
+          "paid": false
+        },
+        {
+          "title": "［社説］バングラデシュ政変の早期収拾を",
+          "link": "https://www.nikkei.com/article/DGXZQODK065910W4A800C2000000/",
+          "published": "2024/8/6 19:25",
           "paid": false
         }
       ]

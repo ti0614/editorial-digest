@@ -13,7 +13,7 @@
         {
           "title": "【復興祈念公園】開所の前倒し検討を（１２月１２日）",
           "link": "https://www.minpo.jp/articles/-/57208",
-          "published": "2023/12/12 08:50",
+          "published": "2023/12/12 8:50",
           "paid": false
         }
       ]
@@ -26,7 +26,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "自民党「裏金」　説明せぬなら総辞職を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1041654.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2023年12月12日(火)  10:10",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -84,7 +91,7 @@
         {
           "title": "論説　大谷ドジャース移籍　重圧も柔らかな笑顔で",
           "link": "https://www.sanin-chuo.co.jp/articles/-/496107",
-          "published": "2023/12/12 04:00",
+          "published": "2023/12/12 4:00",
           "paid": true
         }
       ]
@@ -176,6 +183,69 @@
           "title": "【主張】周庭氏の亡命　中国当局の報復を許すな",
           "link": "https://www.sankei.com/article/20231212-V32VHMBQGBLARLCWNAGIWYP72Y/",
           "published": "2023/12/12 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "安倍派裏金疑惑の拡大　「発言控える」通用しない",
+          "link": "https://mainichi.jp/articles/20231212/ddm/005/070/050000c",
+          "published": "2023/12/12 02:01",
+          "paid": false
+        },
+        {
+          "title": "大谷選手ドジャースへ　「青き躍動」に新たな期待",
+          "link": "https://mainichi.jp/articles/20231212/ddm/005/070/049000c",
+          "published": "2023/12/12 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］侵略と独裁を正当化するプーチン氏出馬",
+          "link": "https://www.nikkei.com/article/DGXZQODK08BYK0Y3A201C2000000/",
+          "published": "2023/12/12 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］実質重視の企業統治改革を",
+          "link": "https://www.nikkei.com/article/DGXZQODK0316C0T01C23A2000000/",
+          "published": "2023/12/12 19:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【安倍派裏金疑惑】解明と説明責任を果たせ",
+          "link": "https://www.kochinews.co.jp/article/detail/703770",
+          "published": "2023.12.12 08:00",
           "paid": false
         }
       ]

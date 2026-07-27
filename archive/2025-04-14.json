@@ -82,7 +82,7 @@
         {
           "title": "【地銀の広域再編】県民本位で備えを（４月１４日）",
           "link": "https://www.minpo.jp/articles/-/54177",
-          "published": "2025/04/14 09:13",
+          "published": "2025/4/14 9:13",
           "paid": false
         }
       ]
@@ -112,7 +112,20 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "運行再開へ丁寧な説明を　いすみ鉄道脱線事故から半年　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1426466",
+          "published": "2025/4/14 5:00",
+          "paid": true
+        },
+        {
+          "title": "子ども守る体制見直して　児童虐待相談対応の増加　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1426467",
+          "published": "2025/4/14 5:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "新潟日報",
@@ -160,7 +173,7 @@
         {
           "title": "論説　マイナ免許証　何のための多機能化か",
           "link": "https://www.sanin-chuo.co.jp/articles/-/763575",
-          "published": "2025/4/14 04:00",
+          "published": "2025/4/14 4:00",
           "paid": true
         }
       ]

@@ -59,7 +59,7 @@
         {
           "title": "【いわきに国際拠点】若い人材定着に期待（８月２８日）",
           "link": "https://www.minpo.jp/articles/-/55632",
-          "published": "2024/08/28 08:52",
+          "published": "2024/8/28 8:52",
           "paid": false
         }
       ]
@@ -72,7 +72,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "横浜・中２いじめ自殺　抜本対策待ったなしだ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1105631.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年8月28日(水)  09:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -130,7 +137,7 @@
         {
           "title": "論説　中国軍初の領空侵犯　重大で危険な挑発行為",
           "link": "https://www.sanin-chuo.co.jp/articles/-/635353",
-          "published": "2024/8/28 04:00",
+          "published": "2024/8/28 4:00",
           "paid": true
         }
       ]
@@ -239,6 +246,29 @@
           "title": "＜主張＞中国軍機が初侵犯　「政治空白」を窺う挑発だ",
           "link": "https://www.sankei.com/article/20240828-EK6URUOLPRKARNS4ENJLD33TZA/",
           "published": "2024/8/28 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］偶発衝突もありうる中国軍機の領空侵犯",
+          "link": "https://www.nikkei.com/article/DGXZQOCD26A780W4A820C2000000/",
+          "published": "2024/8/28 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］共生社会の道探るパラ大会に",
+          "link": "https://www.nikkei.com/article/DGXZQODK285IK0Y4A820C2000000/",
+          "published": "2024/8/28 19:00",
           "paid": false
         }
       ]

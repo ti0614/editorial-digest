@@ -36,7 +36,7 @@
         {
           "title": "【規正法改正案】審議はこれからだ（６月１日）",
           "link": "https://www.minpo.jp/articles/-/56218",
-          "published": "2024/06/01 08:51",
+          "published": "2024/6/1 8:51",
           "paid": false
         }
       ]
@@ -49,7 +49,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "パリ五輪　問われる「平和の祭典」",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1082485.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年6月1日(土)  09:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -107,7 +114,7 @@
         {
           "title": "論説　規正法改正協議　実効性は確保できるか",
           "link": "https://www.sanin-chuo.co.jp/articles/-/584933",
-          "published": "2024/6/1 04:00",
+          "published": "2024/6/1 4:00",
           "paid": true
         }
       ]
@@ -210,6 +217,52 @@
           "title": "＜主張＞風水害に備える　「気象と防災の日」制定を　地球沸騰に向き合う契機に",
           "link": "https://www.sankei.com/article/20240601-3E2LHTZOIRMILL22GJ5VP7FQSY/",
           "published": "2024/6/1 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "規正法の自公維合意　改革に背を向ける茶番劇",
+          "link": "https://mainichi.jp/articles/20240601/ddm/005/070/097000c",
+          "published": "2024/6/1 02:00",
+          "paid": false
+        },
+        {
+          "title": "トランプ氏に有罪評決　選挙ゆがめた責任は重い",
+          "link": "https://mainichi.jp/articles/20240601/ddm/005/070/096000c",
+          "published": "2024/6/1 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］政治資金の透明化の議論はなお道半ばだ",
+          "link": "https://www.nikkei.com/article/DGXZQODK011I50R00C24A6000000/",
+          "published": "2024/6/1 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］実のある米中対話で衝突防げ",
+          "link": "https://www.nikkei.com/article/DGXZQODK317ZO0R30C24A5000000/",
+          "published": "2024/6/1 19:00",
           "paid": false
         }
       ]

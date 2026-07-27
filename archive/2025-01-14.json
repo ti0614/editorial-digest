@@ -76,7 +76,7 @@
         {
           "title": "【喜多方の太極拳】健康維持に一層活用を（１月１４日）",
           "link": "https://www.minpo.jp/articles/-/54608",
-          "published": "2025/01/14 09:26",
+          "published": "2025/1/14 9:26",
           "paid": false
         }
       ]
@@ -89,7 +89,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "行動する傍観者　「勇気の一歩」再認識を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1140112.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年1月14日(火)  09:50",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -147,7 +154,7 @@
         {
           "title": "論説　ＰＦＡＳ問題　不安解消へ対応を急げ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/711889",
-          "published": "2025/1/14 04:00",
+          "published": "2025/1/14 4:00",
           "paid": true
         }
       ]

@@ -36,7 +36,7 @@
         {
           "title": "【女子バレー郡山へ】まちづくりに生かせ（５月２日）",
           "link": "https://www.minpo.jp/articles/-/56384",
-          "published": "2024/05/02 08:51",
+          "published": "2024/5/2 8:51",
           "paid": false
         }
       ]
@@ -49,7 +49,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "物流「２０２４年問題」　消費者の心がけも大切",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1074987.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年5月2日(木)  11:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -90,7 +97,7 @@
         {
           "title": "論説　皇族数の確保　次の一歩へ議論加速を",
           "link": "https://www.sanin-chuo.co.jp/articles/-/568582",
-          "published": "2024/5/2 04:00",
+          "published": "2024/5/2 4:00",
           "paid": true
         }
       ]
@@ -199,6 +206,40 @@
           "title": "＜主張＞円安の進行　過度の変動に警戒解けぬ",
           "link": "https://www.sankei.com/article/20240502-TBJLCAYXGFPRNLP6HEKIWZTLJE/",
           "published": "2024/5/2 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "人口減少下の自治体　「消滅」せぬ地域づくりを",
+          "link": "https://mainichi.jp/articles/20240502/ddm/005/070/107000c",
+          "published": "2024/5/2 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］米国発の円安への対応は中長期の視点で",
+          "link": "https://www.nikkei.com/article/DGXZQODK024RQ0S4A500C2000000/",
+          "published": "2024/5/2 19:00",
           "paid": false
         }
       ]

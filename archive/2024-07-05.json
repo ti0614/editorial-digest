@@ -36,7 +36,7 @@
         {
           "title": "【会津芸文６０周年】福利厚生の役割に期待（７月５日）",
           "link": "https://www.minpo.jp/articles/-/56043",
-          "published": "2024/07/05 08:52",
+          "published": "2024/7/5 8:52",
           "paid": false
         }
       ]
@@ -49,7 +49,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "夏の高校野球　今年も新しい風に期待",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1091382.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年7月5日(金)  05:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -107,7 +114,7 @@
         {
           "title": "論説　年金財政検証　給付低下に歯止め必要",
           "link": "https://www.sanin-chuo.co.jp/articles/-/604101",
-          "published": "2024/7/5 04:00",
+          "published": "2024/7/5 4:00",
           "paid": true
         }
       ]
@@ -216,6 +223,52 @@
           "title": "＜主張＞中堅企業の支援　経済活性化につなげたい",
           "link": "https://www.sankei.com/article/20240705-U32MRKCIGFLE5O2IHH45FSA5XQ/",
           "published": "2024/7/5 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "欧州への移民急増　地球規模で取り組む時だ",
+          "link": "https://mainichi.jp/articles/20240705/ddm/005/070/108000c",
+          "published": "2024/7/5 02:01",
+          "paid": false
+        },
+        {
+          "title": "年金財政の点検　生活の安心支える改革を",
+          "link": "https://mainichi.jp/articles/20240705/ddm/005/070/109000c",
+          "published": "2024/7/5 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］英新政権は経済の再建と分断の修復を",
+          "link": "https://www.nikkei.com/article/DGXZQODK041NH0U4A700C2000000/",
+          "published": "2024/7/5 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］政権に問われる検察への介入",
+          "link": "https://www.nikkei.com/article/DGXZQODK0556E0V00C24A7000000/",
+          "published": "2024/7/5 19:00",
           "paid": false
         }
       ]

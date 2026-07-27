@@ -82,7 +82,7 @@
         {
           "title": "【いわき「ほこみち」】歩いて楽しむ駅前に（３月２４日）",
           "link": "https://www.minpo.jp/articles/-/54296",
-          "published": "2025/03/24 09:25",
+          "published": "2025/3/24 9:25",
           "paid": false
         }
       ]
@@ -112,7 +112,20 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "根深い自民の金権体質象徴　首相の商品券問題　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1417552",
+          "published": "2025/3/24 5:00",
+          "paid": true
+        },
+        {
+          "title": "“循環資源”として生かそう　深刻化する野生鳥獣　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1417551",
+          "published": "2025/3/24 5:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "新潟日報",
@@ -160,7 +173,7 @@
         {
           "title": "論説　ＩＯＣに女性会長　新風で五輪再生なるか",
           "link": "https://www.sanin-chuo.co.jp/articles/-/751051",
-          "published": "2025/3/24 04:00",
+          "published": "2025/3/24 4:00",
           "paid": true
         }
       ]

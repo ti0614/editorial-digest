@@ -78,7 +78,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "神奈川文化賞　地域や人を癒やす力に",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1122898.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年11月3日(日)  09:50",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -136,7 +143,7 @@
         {
           "title": "論説　女性差別撤廃委の勧告　生きづらさ解消しよう",
           "link": "https://www.sanin-chuo.co.jp/articles/-/673794",
-          "published": "2024/11/3 04:00",
+          "published": "2024/11/3 4:00",
           "paid": true
         }
       ]

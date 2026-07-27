@@ -36,7 +36,7 @@
         {
           "title": "【公衆電話】災害時の役割に注目（８月７日）",
           "link": "https://www.minpo.jp/articles/-/55754",
-          "published": "2024/08/07 08:53",
+          "published": "2024/8/7 8:53",
           "paid": false
         }
       ]
@@ -49,7 +49,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "マイナ保険証　円滑に移行できるのか",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1100632.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年8月7日(水)  11:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -107,7 +114,7 @@
         {
           "title": "論説　原爆の日　継承へ 次世代の力必要",
           "link": "https://www.sanin-chuo.co.jp/articles/-/623929",
-          "published": "2024/8/7 04:00",
+          "published": "2024/8/7 4:00",
           "paid": true
         }
       ]
@@ -210,6 +217,52 @@
           "title": "＜主張＞規制委の偏向審査　強引な幕引きは許されぬ　原電は敦賀稼働へ再申請を",
           "link": "https://www.sankei.com/article/20240807-V3IHAUD3B5NNNBV5AUV3CG3KFI/",
           "published": "2024/8/7 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "ふるさと納税1兆円超　規模縮小させる抜本策を",
+          "link": "https://mainichi.jp/articles/20240807/ddm/005/070/052000c",
+          "published": "2024/8/7 02:01",
+          "paid": false
+        },
+        {
+          "title": "変わる高校野球　持続可能な環境整えたい",
+          "link": "https://mainichi.jp/articles/20240807/ddm/005/070/048000c",
+          "published": "2024/8/7 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］民主党は米国覆う難題に処方箋を示せ",
+          "link": "https://www.nikkei.com/article/DGXZQODK0665U0W4A800C2000000/",
+          "published": "2024/8/7 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］夏のコロナの流行は侮れない",
+          "link": "https://www.nikkei.com/article/DGXZQODK071WR0X00C24A8000000/",
+          "published": "2024/8/7 19:00",
           "paid": false
         }
       ]

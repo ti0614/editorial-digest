@@ -82,7 +82,7 @@
         {
           "title": "【地方創生「庁」設置】一極集中是正も柱に（８月７日）",
           "link": "https://www.minpo.jp/articles/-/53366",
-          "published": "2025/08/07 09:20",
+          "published": "2025/8/7 9:20",
           "paid": false
         }
       ]
@@ -177,7 +177,7 @@
         {
           "title": "論説　最低賃金引き上げ　持続性と格差、不安残る",
           "link": "https://www.sanin-chuo.co.jp/articles/-/835018",
-          "published": "2025/8/7 04:00",
+          "published": "2025/8/7 4:00",
           "paid": true
         }
       ]
@@ -310,6 +310,41 @@
           "link": "https://www.sankei.com/article/20250807-UMIVG5IGJBILBFEMPMNTWBOIVI/",
           "published": "2025/8/7 5:00",
           "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【コメ増産へ】持続可能な産業への転機",
+          "link": "https://www.hokkoku.co.jp/articles/-/1830237",
+          "published": "2025/8/7 5:00",
+          "paid": true
+        },
+        {
+          "title": "社説【輪島塗支援】魅力に触れる場を広く厚く",
+          "link": "https://www.hokkoku.co.jp/articles/-/1830236",
+          "published": "2025/8/7 5:00",
+          "paid": true
+        },
+        {
+          "title": "社説【輪島塗支援】魅力に触れる場を広く",
+          "link": "https://www.hokkoku.co.jp/articles/-/1830220",
+          "published": "2025/8/7 5:00",
+          "paid": true
+        },
+        {
+          "title": "社説【コメ増産へ】持続可能な産業への転機に",
+          "link": "https://www.hokkoku.co.jp/articles/-/1830219",
+          "published": "2025/8/7 5:00",
+          "paid": true
         }
       ]
     }

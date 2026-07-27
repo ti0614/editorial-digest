@@ -13,7 +13,7 @@
         {
           "title": "【輸出クラスター】課題解決の基盤に（１２月２３日）",
           "link": "https://www.minpo.jp/articles/-/57157",
-          "published": "2023/12/23 08:52",
+          "published": "2023/12/23 8:52",
           "paid": false
         }
       ]
@@ -26,7 +26,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "逗子斜面崩落訴訟　当事者意識持ち対策を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1044554.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2023年12月23日(土)  10:15",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -84,7 +91,7 @@
         {
           "title": "論説　来年度予算案　財源なき膨張はやめよ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/502086",
-          "published": "2023/12/23 04:00",
+          "published": "2023/12/23 4:00",
           "paid": true
         }
       ]
@@ -176,6 +183,69 @@
           "title": "【主張】６年度予算案　歳出構造改革が不十分だ",
           "link": "https://www.sankei.com/article/20231223-YBYUKHBQXFLS7GORXDKDIOP4JU/",
           "published": "2023/12/23 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "医療・介護の報酬改定　ひずみ解消には不十分だ",
+          "link": "https://mainichi.jp/articles/20231223/ddm/005/070/105000c",
+          "published": "2023/12/23 02:02",
+          "paid": false
+        },
+        {
+          "title": "郵便の大幅値上げ案　一時しのぎで未来開けぬ",
+          "link": "https://mainichi.jp/articles/20231223/ddm/005/070/103000c",
+          "published": "2023/12/23 02:02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］この少子化対策で将来に希望が持てるか",
+          "link": "https://www.nikkei.com/article/DGXZQOCD224NO0S3A221C2000000/",
+          "published": "2023/12/23 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］遺憾な判決でも日韓を前に",
+          "link": "https://www.nikkei.com/article/DGXZQOCD225NC0S3A221C2000000/",
+          "published": "2023/12/23 19:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【２４年度予算案】歳出膨張に欠く財源論議",
+          "link": "https://www.kochinews.co.jp/article/detail/708832",
+          "published": "2023.12.23 08:00",
           "paid": false
         }
       ]

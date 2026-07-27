@@ -13,7 +13,7 @@
         {
           "title": "【地震と航空機事故】万全の対応求めたい（１月４日）",
           "link": "https://www.minpo.jp/articles/-/57097",
-          "published": "2024/01/04 08:49",
+          "published": "2024/1/4 8:49",
           "paid": false
         }
       ]
@@ -26,7 +26,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "展望・国政　主権者意識が問われる",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1046880.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年1月4日(木)  09:50",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -84,7 +91,7 @@
         {
           "title": "論説　日航・海保機が衝突炎上　通常あり得ない事故だ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/507785",
-          "published": "2024/1/4 04:00",
+          "published": "2024/1/4 4:00",
           "paid": true
         }
       ]
@@ -176,6 +183,63 @@
           "title": "＜主張＞教員の成り手不足　ブラックイメージ改革を",
           "link": "https://www.sankei.com/article/20240104-MOB7JTCCOVOAXNI5MHHN7WGNHM/",
           "published": "2024/1/4 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "政府の宇宙基金創設　和製スペースX作れるか",
+          "link": "https://mainichi.jp/articles/20240104/ddm/012/070/064000c",
+          "published": "2024/1/4 02:01",
+          "paid": false
+        },
+        {
+          "title": "羽田空港で衝突炎上　惨事招いた原因の解明を",
+          "link": "https://mainichi.jp/articles/20240104/ddm/012/070/065000c",
+          "published": "2024/1/4 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］対立乗り越え民主主義の強さ示せ",
+          "link": "https://www.nikkei.com/article/DGXZQODK282080Y3A221C2000000/",
+          "published": "2024/1/4 19:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【羽田空港の事故】あってはならない惨事だ",
+          "link": "https://www.kochinews.co.jp/article/detail/711179",
+          "published": "2024.01.04 08:00",
           "paid": false
         }
       ]

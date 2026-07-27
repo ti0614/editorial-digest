@@ -1,0 +1,34 @@
+{
+  "date": "2023-12-11",
+  "sources": [
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］岸田文雄首相は裏金の解明と是正に全力を尽くせ",
+          "link": "https://www.nikkei.com/article/DGXZQODK115UU0R11C23A2000000/",
+          "published": "2023/12/11 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］異常気象に耐えるコメ作りを",
+          "link": "https://www.nikkei.com/article/DGXZQODK1036F0Q3A211C2000000/",
+          "published": "2023/12/11 19:00",
+          "paid": false
+        },
+        {
+          "title": "［社説］空港の人手不足の克服を",
+          "link": "https://www.nikkei.com/article/DGXZQODK08D6U0Y3A201C2000000/",
+          "published": "2023/12/11 16:13",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

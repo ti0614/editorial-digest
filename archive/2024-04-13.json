@@ -36,7 +36,7 @@
         {
           "title": "【阿武隈川水害試算】危機意識高めて対策を（４月１３日）",
           "link": "https://www.minpo.jp/articles/-/56498",
-          "published": "2024/04/13 08:56",
+          "published": "2024/4/13 8:56",
           "paid": false
         }
       ]
@@ -49,7 +49,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "水源環境の保全再生　神奈川県民の理解促進が不可欠",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1070526.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年4月13日(土)  09:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -107,7 +114,7 @@
         {
           "title": "韓国総選挙関係改善　流れ止めるな　論説",
           "link": "https://www.sanin-chuo.co.jp/articles/-/558828",
-          "published": "2024/4/13 04:00",
+          "published": "2024/4/13 4:00",
           "paid": true
         }
       ]
@@ -216,6 +223,52 @@
           "title": "＜主張＞大谷の元通訳訴追　違法賭博の恐怖を物語る",
           "link": "https://www.sankei.com/article/20240413-RBWUVESFEVLMHMDL2RUE3TMPVE/",
           "published": "2024/4/13 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "日米比の安保協力　緊張緩和の努力も必要だ",
+          "link": "https://mainichi.jp/articles/20240413/ddm/005/070/121000c",
+          "published": "2024/4/13 02:01",
+          "paid": false
+        },
+        {
+          "title": "政治資金の制度見直し　徹底した透明化の議論を",
+          "link": "https://mainichi.jp/articles/20240413/ddm/005/070/120000c",
+          "published": "2024/4/13 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］ヨーカ堂の遅すぎた経営改革を教訓に",
+          "link": "https://www.nikkei.com/article/DGXZQODK125BS0S4A410C2000000/",
+          "published": "2024/4/13 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］知事辞任を機にリニアを前へ",
+          "link": "https://www.nikkei.com/article/DGXZQODK12EH00S4A410C2000000/",
+          "published": "2024/4/13 19:00",
           "paid": false
         }
       ]

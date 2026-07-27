@@ -42,7 +42,7 @@
         {
           "title": "【メタバース観光】新たな誘客の一手に（４月２日）",
           "link": "https://www.minpo.jp/articles/-/56560",
-          "published": "2024/04/02 08:51",
+          "published": "2024/4/2 8:51",
           "paid": false
         }
       ]
@@ -55,7 +55,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "日本版ＤＢＳ 実効性と人権の両立を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1067889.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年4月2日(火)  10:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -113,7 +120,7 @@
         {
           "title": "論説　宝塚パワハラ　組織風土変えられるか",
           "link": "https://www.sanin-chuo.co.jp/articles/-/553032",
-          "published": "2024/4/2 04:00",
+          "published": "2024/4/2 4:00",
           "paid": true
         }
       ]
@@ -222,6 +229,52 @@
           "title": "＜主張＞ライドシェア解禁　安全守りつつ定着目指せ",
           "link": "https://www.sankei.com/article/20240402-XVSD4C52IFOLPIEYRNUU45NWDI/",
           "published": "2024/4/2 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "会社登記の公開制限　公共性考え丁寧な議論を",
+          "link": "https://mainichi.jp/articles/20240402/ddm/005/070/072000c",
+          "published": "2024/4/2 02:01",
+          "paid": false
+        },
+        {
+          "title": "USスチール買収「反対」　米国益も損なう保護主義",
+          "link": "https://mainichi.jp/articles/20240402/ddm/005/070/073000c",
+          "published": "2024/4/2 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］イラン大使館空爆による衝突拡大を防げ",
+          "link": "https://www.nikkei.com/article/DGXZQODK022JD0S4A400C2000000/",
+          "published": "2024/4/2 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］北朝鮮の不正を隠す決議案否決",
+          "link": "https://www.nikkei.com/article/DGXZQODK022IZ0S4A400C2000000/",
+          "published": "2024/4/2 19:00",
           "paid": false
         }
       ]

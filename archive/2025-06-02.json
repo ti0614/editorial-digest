@@ -82,7 +82,7 @@
         {
           "title": "【綾瀬さんのガイド】ゴッホ展に新たな光（６月２日）",
           "link": "https://www.minpo.jp/articles/-/53888",
-          "published": "2025/06/02 09:14",
+          "published": "2025/6/2 9:14",
           "paid": false
         }
       ]
@@ -112,7 +112,14 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "「空と風」への備え万全に　ＺＯＺＯマリン移転構想　【論説】",
+          "link": "https://www.chibanippo.co.jp/articles/1449262",
+          "published": "2025/6/2 5:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "新潟日報",
@@ -160,7 +167,7 @@
         {
           "title": "論説　米政権とハーバード大対立　教育と自由の抑圧だ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/791767",
-          "published": "2025/6/2 04:00",
+          "published": "2025/6/2 4:00",
           "paid": true
         }
       ]

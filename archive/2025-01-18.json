@@ -76,7 +76,7 @@
         {
           "title": "【鈴木さん芥川賞】読書に親しむ好機に（１月１８日）",
           "link": "https://www.minpo.jp/articles/-/54598",
-          "published": "2025/01/18 09:23",
+          "published": "2025/1/18 9:23",
           "paid": false
         }
       ]
@@ -106,7 +106,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "公益通報者保護法　報復許さぬ方策徹底を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1141244.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年1月18日(土)  09:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -164,7 +171,7 @@
         {
           "title": "論説　ガザ停戦合意　人道危機からの回復を",
           "link": "https://www.sanin-chuo.co.jp/articles/-/714385",
-          "published": "2025/1/18 04:00",
+          "published": "2025/1/18 4:00",
           "paid": true
         }
       ]

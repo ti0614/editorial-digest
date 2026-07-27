@@ -70,7 +70,7 @@
         {
           "title": "【第５０回衆院選】政権選択へ意識高めて（１０月１６日）",
           "link": "https://www.minpo.jp/articles/-/55103",
-          "published": "2024/10/16 09:39",
+          "published": "2024/10/16 9:39",
           "paid": false
         }
       ]
@@ -100,7 +100,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "衆議院選挙公示　政権選択の意思示そう",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1117938.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年10月16日(水)  10:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -158,7 +165,7 @@
         {
           "title": "論説　衆院選公示　地域活性化の道筋示せ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/663243",
-          "published": "2024/10/16 04:00",
+          "published": "2024/10/16 4:00",
           "paid": true
         }
       ]

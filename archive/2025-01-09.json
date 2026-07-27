@@ -76,7 +76,7 @@
         {
           "title": "【手仕事の輪】にぎわいづくりに（１月９日）",
           "link": "https://www.minpo.jp/articles/-/54626",
-          "published": "2025/01/09 09:27",
+          "published": "2025/1/9 9:27",
           "paid": false
         }
       ]
@@ -106,7 +106,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "桐蔭学園連覇　ラグビーの魅力見せた",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1139067.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年1月9日(木)  09:40",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -164,7 +171,7 @@
         {
           "title": "論説　温室効果ガス削減目標　大排出国の責任放棄だ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/709541",
-          "published": "2025/1/9 04:00",
+          "published": "2025/1/9 4:00",
           "paid": true
         }
       ]

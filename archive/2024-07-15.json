@@ -30,7 +30,7 @@
         {
           "title": "【トランプ氏暗殺未遂】大統領選憂慮深まる（７月１５日）",
           "link": "https://www.minpo.jp/articles/-/55982",
-          "published": "2024/07/15 08:51",
+          "published": "2024/7/15 8:51",
           "paid": false
         }
       ]
@@ -43,7 +43,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "海の日　身近な自然から学ぼう",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1094054.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年7月15日(月)  11:10",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -53,7 +60,20 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "薄れる戦禍の記憶、後世へ　千葉空襲７９年　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1249365",
+          "published": "2024/7/15 5:00",
+          "paid": true
+        },
+        {
+          "title": "行政対応の徹底検証必要　船橋０歳児暴行死事件　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1249364",
+          "published": "2024/7/15 5:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "新潟日報",
@@ -101,7 +121,7 @@
         {
           "title": "論説　トランプ氏暗殺未遂　民主主義損なう凶行だ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/609628",
-          "published": "2024/7/15 04:00",
+          "published": "2024/7/15 4:00",
           "paid": true
         }
       ]
@@ -193,6 +213,29 @@
           "title": "＜主張＞海の日　恵みに感謝し守る決意を",
           "link": "https://www.sankei.com/article/20240715-G2U6AF63MJNIPMWD7FW2IXGG3Q/",
           "published": "2024/7/15 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "トランプ氏撃たれ負傷　分断深める暴力許されぬ",
+          "link": "https://mainichi.jp/articles/20240715/ddm/005/070/012000c",
+          "published": "2024/7/15 02:00",
+          "paid": false
+        },
+        {
+          "title": "物価高と最低賃金　生活底上げの道筋明示を",
+          "link": "https://mainichi.jp/articles/20240715/ddm/005/070/010000c",
+          "published": "2024/7/15 02:00",
           "paid": false
         }
       ]

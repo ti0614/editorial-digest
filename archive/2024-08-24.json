@@ -36,7 +36,7 @@
         {
           "title": "【知事会の人口戦略】先導的役割に期待（８月２４日）",
           "link": "https://www.minpo.jp/articles/-/55654",
-          "published": "2024/08/24 08:51",
+          "published": "2024/8/24 8:51",
           "paid": false
         }
       ]
@@ -49,7 +49,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "高校野球改革　地方大会重視の議論を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1104757.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年8月24日(土)  09:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -107,7 +114,7 @@
         {
           "title": "論説　夏の甲子園 大社快進撃　「公立も戦える」を実証",
           "link": "https://www.sanin-chuo.co.jp/articles/-/633296",
-          "published": "2024/8/24 04:00",
+          "published": "2024/8/24 4:00",
           "paid": true
         }
       ]
@@ -216,6 +223,52 @@
           "title": "＜主張＞処理水放出1年　中国は禁輸の即時撤廃を",
           "link": "https://www.sankei.com/article/20240824-OLGVMD2XMNK4TK3QSPJOMCGT3M/",
           "published": "2024/8/24 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "辺野古軟弱地盤で着工　無理な事業進める無責任",
+          "link": "https://mainichi.jp/articles/20240824/ddm/005/070/096000c",
+          "published": "2024/8/24 02:00",
+          "paid": false
+        },
+        {
+          "title": "処理水放出1年と中国　禁輸解除へ対話の強化を",
+          "link": "https://mainichi.jp/articles/20240824/ddm/005/070/095000c",
+          "published": "2024/8/24 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］利下げ「予告」のFRBは軟着陸へ万全を",
+          "link": "https://www.nikkei.com/article/DGXZQOCD241CR0U4A820C2000000/",
+          "published": "2024/8/24 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］デブリ採取を廃炉への一歩に",
+          "link": "https://www.nikkei.com/article/DGXZQODK238DW0T20C24A8000000/",
+          "published": "2024/8/24 19:00",
           "paid": false
         }
       ]

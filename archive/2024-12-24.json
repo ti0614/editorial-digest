@@ -82,7 +82,7 @@
         {
           "title": "【県産集成材】官民で利用拡大を（１２月２４日）",
           "link": "https://www.minpo.jp/articles/-/54694",
-          "published": "2024/12/24 09:24",
+          "published": "2024/12/24 9:24",
           "paid": false
         }
       ]
@@ -95,7 +95,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "エネルギー基本計画　「原発回帰」を再考せよ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1135855.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年12月24日(火)  11:20",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -153,7 +160,7 @@
         {
           "title": "論説　オスプレイ一時停止　安全運航に責任を持て",
           "link": "https://www.sanin-chuo.co.jp/articles/-/702048",
-          "published": "2024/12/24 04:00",
+          "published": "2024/12/24 4:00",
           "paid": true
         }
       ]

@@ -88,7 +88,7 @@
         {
           "title": "【芸術の秋】明日への活力に（９月２９日）",
           "link": "https://www.minpo.jp/articles/-/52552",
-          "published": "2025/09/29 10:05",
+          "published": "2025/9/29 10:05",
           "paid": false
         }
       ]
@@ -118,7 +118,14 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "早期再公募で事業推進を　銚子沖風力発電事業者撤退　【論説】",
+          "link": "https://www.chibanippo.co.jp/articles/1503809",
+          "published": "2025/9/29 5:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "新潟日報",
@@ -206,7 +213,7 @@
         {
           "title": "論説　ホームタウン事業撤回　草の根の交流閉ざすな",
           "link": "https://www.sanin-chuo.co.jp/articles/-/866939",
-          "published": "2025/9/29 04:00",
+          "published": "2025/9/29 4:00",
           "paid": true
         }
       ]

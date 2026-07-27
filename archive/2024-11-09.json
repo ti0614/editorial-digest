@@ -76,7 +76,7 @@
         {
           "title": "【親族なき高齢者】安心への支援充実を（１１月９日）",
           "link": "https://www.minpo.jp/articles/-/54867",
-          "published": "2024/11/09 09:28",
+          "published": "2024/11/9 9:28",
           "paid": false
         }
       ]
@@ -106,7 +106,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "アクアポニックス　技術結集し普及に期待",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1124496.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年11月9日(土)  09:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -164,7 +171,7 @@
         {
           "title": "論説　和田投手が現役引退　数々の栄光、島根の誇り",
           "link": "https://www.sanin-chuo.co.jp/articles/-/677041",
-          "published": "2024/11/9 04:00",
+          "published": "2024/11/9 4:00",
           "paid": true
         }
       ]

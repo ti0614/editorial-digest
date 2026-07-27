@@ -36,7 +36,7 @@
         {
           "title": "【災害廃棄物】いわき方式に注目（８月１２日）",
           "link": "https://www.minpo.jp/articles/-/55724",
-          "published": "2024/08/12 08:51",
+          "published": "2024/8/12 8:51",
           "paid": false
         }
       ]
@@ -49,7 +49,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "平和世論調査　非戦の意志は明らかだ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1102062.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年8月12日(月)  09:40",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -59,7 +66,20 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "歴史に学び、平和を胸に　地域の戦前・戦中・戦後　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1261617",
+          "published": "2024/8/12 5:00",
+          "paid": true
+        },
+        {
+          "title": "バランス取れた議論を　高校野球７回制検討　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1261618",
+          "published": "2024/8/12 5:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "新潟日報",
@@ -107,7 +127,7 @@
         {
           "title": "論説　米大統領選構図決まる　民主主義守る覚悟語れ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/627128",
-          "published": "2024/8/12 04:00",
+          "published": "2024/8/12 4:00",
           "paid": true
         }
       ]
@@ -199,6 +219,46 @@
           "title": "＜主張＞祭りと観光　伝統重んじ未来へ議論を",
           "link": "https://www.sankei.com/article/20240812-PD7HWEHTZNIYZFBDYWK47KOPAI/",
           "published": "2024/8/12 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "’24平和考　日中関係の将来像　互恵を安定につなげたい",
+          "link": "https://mainichi.jp/articles/20240812/ddm/005/070/008000c",
+          "published": "2024/8/12 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］祝祭と課題が交錯した「新時代」の五輪",
+          "link": "https://www.nikkei.com/article/DGXZQODK120LI0S4A810C2000000/",
+          "published": "2024/8/12 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］水のPFAS汚染で対策急げ",
+          "link": "https://www.nikkei.com/article/DGXZQOCD0878A0Y4A800C2000000/",
+          "published": "2024/8/12 19:00",
           "paid": false
         }
       ]

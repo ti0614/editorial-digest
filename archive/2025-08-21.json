@@ -76,7 +76,7 @@
         {
           "title": "【東京芸大との覚書】芸術力で須賀川活性化（８月２１日）",
           "link": "https://www.minpo.jp/articles/-/53304",
-          "published": "2025/08/21 09:28",
+          "published": "2025/8/21 9:28",
           "paid": false
         }
       ]
@@ -188,7 +188,7 @@
         {
           "title": "論説　急がれるクマ対策　生活圏への出没防止を",
           "link": "https://www.sanin-chuo.co.jp/articles/-/843099",
-          "published": "2025/8/21 04:00",
+          "published": "2025/8/21 4:00",
           "paid": true
         }
       ]
@@ -321,6 +321,29 @@
           "link": "https://www.sankei.com/article/20250821-IAY2NNWLKVJAZLC22RDWSVPZLU/",
           "published": "2025/8/21 5:00",
           "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【「安全の保証」協議】米国の関与を確実な形に",
+          "link": "https://www.hokkoku.co.jp/articles/-/1842842",
+          "published": "2025/8/21 5:00",
+          "paid": true
+        },
+        {
+          "title": "社説【ジャパンテント】「共生」の意味問い直す好機",
+          "link": "https://www.hokkoku.co.jp/articles/-/1842841",
+          "published": "2025/8/21 5:00",
+          "paid": true
         }
       ]
     }

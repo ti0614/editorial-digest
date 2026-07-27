@@ -36,7 +36,7 @@
         {
           "title": "【米・食味国際大会】県は主体的に参画を（４月１日）",
           "link": "https://www.minpo.jp/articles/-/56565",
-          "published": "2024/04/01 08:51",
+          "published": "2024/4/1 8:51",
           "paid": false
         }
       ]
@@ -49,7 +49,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "障害への「配慮」　警察活動も意識徹底を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1067626.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年4月1日(月)  09:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -59,7 +66,20 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "依然深刻、働き方改革を　教員の長時間労働　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1208613",
+          "published": "2024/4/1 5:00",
+          "paid": true
+        },
+        {
+          "title": "課題の解決へ官民一体で　２０２４年問題　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1208614",
+          "published": "2024/4/1 5:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "新潟日報",
@@ -107,7 +127,7 @@
         {
           "title": "論説　能登半島地震３カ月　新しい復興モデルを",
           "link": "https://www.sanin-chuo.co.jp/articles/-/552466",
-          "published": "2024/4/1 04:00",
+          "published": "2024/4/1 4:00",
           "paid": true
         }
       ]
@@ -193,6 +213,52 @@
           "title": "＜主張＞再エネ資料にロゴ　中国の影響力工作を疑え　河野担当相の責任は重大だ",
           "link": "https://www.sankei.com/article/20240401-OK3BL3MXVFNBDKYMXUGDBPMHLQ/",
           "published": "2024/4/1 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "金利の復活と銀行　経済再生に役割果たす時",
+          "link": "https://mainichi.jp/articles/20240401/ddm/005/070/012000c",
+          "published": "2024/4/1 02:00",
+          "paid": false
+        },
+        {
+          "title": "国家安全条例の施行　香港の価値損なう「中国化」",
+          "link": "https://mainichi.jp/articles/20240401/ddm/005/070/011000c",
+          "published": "2024/4/1 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］この試算で育児支援の議論は深まらない",
+          "link": "https://www.nikkei.com/article/DGXZQOCD294KN0Z20C24A3000000/",
+          "published": "2024/4/1 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］内需の好循環止めない投資を",
+          "link": "https://www.nikkei.com/article/DGXZQODK014SN0R00C24A4000000/",
+          "published": "2024/4/1 19:00",
           "paid": false
         }
       ]

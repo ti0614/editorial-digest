@@ -49,7 +49,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "あす特別国会　政治改革へ熟議重ねよ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1124711.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年11月10日(日)  09:45",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -59,7 +66,20 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "周知と正しい理解必要　自転車「ながら」「飲酒」厳罰化　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1299958",
+          "published": "2024/11/10 5:00",
+          "paid": true
+        },
+        {
+          "title": "命と財産守る自衛策を　首都圏で強盗相次ぐ　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1299957",
+          "published": "2024/11/10 5:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "新潟日報",
@@ -107,7 +127,7 @@
         {
           "title": "論説　自公国の政策協議　小手先の議論は避けよ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/677533",
-          "published": "2024/11/10 04:00",
+          "published": "2024/11/10 4:00",
           "paid": true
         }
       ]

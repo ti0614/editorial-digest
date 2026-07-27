@@ -32,7 +32,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "女性館長　登用で美術界に新風を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1091932.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年7月7日(日)  09:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -90,7 +97,7 @@
         {
           "title": "論説　英保守党大敗　英国病の再来回避せよ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/605224",
-          "published": "2024/7/7 04:00",
+          "published": "2024/7/7 4:00",
           "paid": true
         }
       ]
@@ -193,6 +200,52 @@
           "title": "＜主張＞安倍氏暗殺２年　自民は保守の矜持失うな　総裁選が再生の最後の機会だ",
           "link": "https://www.sankei.com/article/20240707-RUAPG33DLFJPHBVTAZEANN4QEM/",
           "published": "2024/7/7 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "急増するSNS詐欺　放置する事業者許されぬ",
+          "link": "https://mainichi.jp/articles/20240707/ddm/005/070/054000c",
+          "published": "2024/7/7 02:01",
+          "paid": false
+        },
+        {
+          "title": "国立競技場の民営化　市民が魅力感じる活用を",
+          "link": "https://mainichi.jp/articles/20240707/ddm/005/070/052000c",
+          "published": "2024/7/7 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］東京の持続性と競争力高める3期目に",
+          "link": "https://www.nikkei.com/article/DGXZQODK060EN0W4A700C2000000/",
+          "published": "2024/7/7 20:30",
+          "paid": false
+        },
+        {
+          "title": "［社説］障害者ホームの不正断ち切れ",
+          "link": "https://www.nikkei.com/article/DGXZQODK053EM0V00C24A7000000/",
+          "published": "2024/7/7 19:00",
           "paid": false
         }
       ]

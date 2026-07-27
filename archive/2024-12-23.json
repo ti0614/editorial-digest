@@ -76,7 +76,7 @@
         {
           "title": "【石川の地域商社】観光物産振興の手本（１２月２３日）",
           "link": "https://www.minpo.jp/articles/-/54699",
-          "published": "2024/12/23 09:43",
+          "published": "2024/12/23 9:43",
           "paid": false
         }
       ]
@@ -89,7 +89,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "水源環境保全施策　答えは森や河川にある",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1135607.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年12月23日(月)  11:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -99,7 +106,20 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "安全確認徹底、意識向上を　労災死亡事故、千葉県内で増加　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1318833",
+          "published": "2024/12/23 5:00",
+          "paid": true
+        },
+        {
+          "title": "町挙げて新特産品なるか　大多喜でローゼル栽培販売　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1318834",
+          "published": "2024/12/23 5:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "新潟日報",
@@ -147,7 +167,7 @@
         {
           "title": "論説　学力テストと知事会　指導改善に生かす策を",
           "link": "https://www.sanin-chuo.co.jp/articles/-/701475",
-          "published": "2024/12/23 04:00",
+          "published": "2024/12/23 4:00",
           "paid": true
         }
       ]

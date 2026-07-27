@@ -9,7 +9,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "江の島シャトルバス　観光活性へ定期運行を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1041218.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2023年12月10日(日)  10:10",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -67,7 +74,7 @@
         {
           "title": "論説　国立大法人法改正案　組織いじりより政策を",
           "link": "https://www.sanin-chuo.co.jp/articles/-/495327",
-          "published": "2023/12/10 04:00",
+          "published": "2023/12/10 4:00",
           "paid": true
         }
       ]
@@ -142,6 +149,46 @@
           "title": "【主張】松野氏更迭へ　後手の対応が混乱深めた",
           "link": "https://www.sankei.com/article/20231210-FESD6XI35VNCZJIIN67NACJ2DA/",
           "published": "2023/12/10 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "国の「指示権」拡充　地方との対等をゆがめる",
+          "link": "https://mainichi.jp/articles/20231210/ddm/005/070/048000c",
+          "published": "2023/12/10 02:00",
+          "paid": false
+        },
+        {
+          "title": "岸田首相の中東外交　戦略の明確化が不可欠だ",
+          "link": "https://mainichi.jp/articles/20231210/ddm/005/070/046000c",
+          "published": "2023/12/10 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【オスプレイ事故】政府は主体的に対応せよ",
+          "link": "https://www.kochinews.co.jp/article/detail/703376",
+          "published": "2023.12.10 08:00",
           "paid": false
         }
       ]

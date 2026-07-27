@@ -1,0 +1,28 @@
+{
+  "date": "2024-02-13",
+  "sources": [
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］脱炭素時代に向けコンビナートの再生を",
+          "link": "https://www.nikkei.com/article/DGXZQODK1352J0T10C24A2000000/",
+          "published": "2024/2/13 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］トランプ前米大統領のNATO発言を憂う",
+          "link": "https://www.nikkei.com/article/DGXZQODK134YB0T10C24A2000000/",
+          "published": "2024/2/13 19:00",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

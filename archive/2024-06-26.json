@@ -36,7 +36,7 @@
         {
           "title": "【新分野進出】二本松の動きに注目（６月２６日）",
           "link": "https://www.minpo.jp/articles/-/56090",
-          "published": "2024/06/26 08:52",
+          "published": "2024/6/26 8:52",
           "paid": false
         }
       ]
@@ -49,7 +49,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "骨太の方針　推進には総括が必要だ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1088941.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年6月26日(水)  10:30",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -107,7 +114,7 @@
         {
           "title": "論説　三菱ＵＦＪ処分　顧客軽視の責任は重大",
           "link": "https://www.sanin-chuo.co.jp/articles/-/598798",
-          "published": "2024/6/26 04:00",
+          "published": "2024/6/26 4:00",
           "paid": true
         }
       ]
@@ -216,6 +223,52 @@
           "title": "＜主張＞パリ五輪１カ月前　戦争と薬物を排す覚悟を",
           "link": "https://www.sankei.com/article/20240626-T47IPHKGU5ORVPSIA2YK2OX734/",
           "published": "2024/6/26 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "「全中大会」の競技削減　生徒の意欲そがぬ対応を",
+          "link": "https://mainichi.jp/articles/20240626/ddm/005/070/098000c",
+          "published": "2024/6/26 02:01",
+          "paid": false
+        },
+        {
+          "title": "岸田首相の経済対策　政権延命狙い矛盾あらわ",
+          "link": "https://mainichi.jp/articles/20240626/ddm/005/070/099000c",
+          "published": "2024/6/26 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］サイバー対策の甘さ露呈したJAXA",
+          "link": "https://www.nikkei.com/article/DGXZQODK2570A0V20C24A6000000/",
+          "published": "2024/6/26 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］日医会長は国民目線の改革を",
+          "link": "https://www.nikkei.com/article/DGXZQOCD2546B0V20C24A6000000/",
+          "published": "2024/6/26 19:00",
           "paid": false
         }
       ]

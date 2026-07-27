@@ -70,7 +70,7 @@
         {
           "title": "いわき駅前再開発　にぎわい生む工夫を（２月１２日）",
           "link": "https://www.minpo.jp/articles/-/54506",
-          "published": "2025/02/12 09:26",
+          "published": "2025/2/12 9:26",
           "paid": false
         }
       ]
@@ -83,7 +83,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "神奈川県予算案　効果的執行を徹底せよ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1147487.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年2月12日(水)  09:50",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -141,7 +148,7 @@
         {
           "title": "論説　政府備蓄米放出　米価安定へ農政改革を",
           "link": "https://www.sanin-chuo.co.jp/articles/-/727853",
-          "published": "2025/2/12 04:00",
+          "published": "2025/2/12 4:00",
           "paid": true
         }
       ]

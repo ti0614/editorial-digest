@@ -36,7 +36,7 @@
         {
           "title": "【衆院予算委】首相の姿勢問われる（２月６日）",
           "link": "https://www.minpo.jp/articles/-/56892",
-          "published": "2024/02/06 08:53",
+          "published": "2024/2/6 8:53",
           "paid": false
         }
       ]
@@ -49,7 +49,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "電動ボード観光実験　秦野の魅力発見に期待",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1054911.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年2月6日(火)  11:10",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -107,7 +114,7 @@
         {
           "title": "論説　米国の報復攻撃　なし崩しの介入拡大だ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/524746",
-          "published": "2024/2/6 04:00",
+          "published": "2024/2/6 4:00",
           "paid": true
         }
       ]
@@ -216,6 +223,52 @@
           "title": "＜主張＞米国の報復攻撃　イラン側の自制が重要だ",
           "link": "https://www.sankei.com/article/20240206-KNOT47V5QFJQPBPHYSASIPXPTM/",
           "published": "2024/2/6 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "米軍の報復攻撃　中東の戦火拡大を危ぶむ",
+          "link": "https://mainichi.jp/articles/20240206/ddm/005/070/098000c",
+          "published": "2024/2/6 02:01",
+          "paid": false
+        },
+        {
+          "title": "損保ジャパンに行政処分　企業風土を改めなければ",
+          "link": "https://mainichi.jp/articles/20240206/ddm/005/070/096000c",
+          "published": "2024/2/6 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］農水産物の輸出先を多様化しよう",
+          "link": "https://www.nikkei.com/article/DGXZQODK027W60S4A200C2000000/",
+          "published": "2024/2/6 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］G7議長国終えても続く重責",
+          "link": "https://www.nikkei.com/article/DGXZQODK062QM0W4A200C2000000/",
+          "published": "2024/2/6 19:00",
           "paid": false
         }
       ]

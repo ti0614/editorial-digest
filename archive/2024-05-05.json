@@ -32,7 +32,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "こどもの日　次代のためにも変革を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1075570.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年5月5日(日)  09:20",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -90,7 +97,7 @@
         {
           "title": "論説　未来を築く子どもたちへ　「憧れ」を大切に育てて",
           "link": "https://www.sanin-chuo.co.jp/articles/-/569981",
-          "published": "2024/5/5 04:00",
+          "published": "2024/5/5 4:00",
           "paid": true
         }
       ]
@@ -193,6 +200,40 @@
           "title": "＜主張＞こどもの日　考える楽しさを知ろう　本はいつでも「友達」だ",
           "link": "https://www.sankei.com/article/20240505-OXSQ7KXMOBJ3DHRI27WJXSKW6A/",
           "published": "2024/5/5 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "こどもまんなか社会　「未来」育む意識広げたい",
+          "link": "https://mainichi.jp/articles/20240505/ddm/005/070/073000c",
+          "published": "2024/5/5 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］脱炭素の大競争に挑むエネルギー戦略に",
+          "link": "https://www.nikkei.com/article/DGXZQOCD0158E0R00C24A5000000/",
+          "published": "2024/5/5 19:00",
           "paid": false
         }
       ]

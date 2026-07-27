@@ -36,7 +36,7 @@
         {
           "title": "【ヘルメット義務化】さらなる啓発が必要（４月３日）",
           "link": "https://www.minpo.jp/articles/-/56555",
-          "published": "2024/04/03 08:51",
+          "published": "2024/4/3 8:51",
           "paid": false
         }
       ]
@@ -49,7 +49,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "相鉄・東急新横浜線１年　街の活性化加速に期待",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1068157.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年4月3日(水)  09:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -90,7 +97,7 @@
         {
           "title": "論説　子育て支援　金負担増 隠し続けるのか",
           "link": "https://www.sanin-chuo.co.jp/articles/-/553607",
-          "published": "2024/4/3 04:00",
+          "published": "2024/4/3 4:00",
           "paid": true
         }
       ]
@@ -199,6 +206,52 @@
           "title": "＜主張＞翻訳本発売に脅迫　言論封じの暴挙許されぬ",
           "link": "https://www.sankei.com/article/20240403-UUEWIZDP5FIVBFRQC4OQS4X46M/",
           "published": "2024/4/3 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "挑発続ける北朝鮮　包囲網弱める露の身勝手",
+          "link": "https://mainichi.jp/articles/20240403/ddm/005/070/116000c",
+          "published": "2024/4/3 02:00",
+          "paid": false
+        },
+        {
+          "title": "北陸新幹線と地域交通　「住民の足」確保に知恵を",
+          "link": "https://mainichi.jp/articles/20240403/ddm/005/070/114000c",
+          "published": "2024/4/3 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］「賢い支出」で財政健全化と成長の両立を",
+          "link": "https://www.nikkei.com/article/DGXZQODK022V60S4A400C2000000/",
+          "published": "2024/4/3 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］電子ごみのリサイクル広げよ",
+          "link": "https://www.nikkei.com/article/DGXZQOCD285WT0Y4A320C2000000/",
+          "published": "2024/4/3 19:00",
           "paid": false
         }
       ]

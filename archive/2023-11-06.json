@@ -13,7 +13,7 @@
         {
           "title": "【二本松の菊人形】関わる人にも光を（１１月６日）",
           "link": "https://www.minpo.jp/articles/-/57435",
-          "published": "2023/11/06 08:49",
+          "published": "2023/11/6 8:49",
           "paid": false
         }
       ]
@@ -84,7 +84,7 @@
         {
           "title": "論説　ＥＵ発足３０年　統合の真価が問われる",
           "link": "https://www.sanin-chuo.co.jp/articles/-/477735",
-          "published": "2023/11/6 04:00",
+          "published": "2023/11/6 4:00",
           "paid": true
         }
       ]
@@ -136,6 +136,92 @@
           "title": "【社説】韓国最高裁判決　冷静に日韓のトゲ抜いた",
           "link": "https://www.nishinippon.co.jp/item/1143478/",
           "published": "2023/11/06 06:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "深刻化する薬不足　国は安定供給の処方箋を",
+          "link": "https://mainichi.jp/articles/20231106/ddm/005/070/015000c",
+          "published": "2023/11/6 02:00",
+          "paid": false
+        },
+        {
+          "title": "赤字ローカル線の存廃　住民本位の交通考えたい",
+          "link": "https://mainichi.jp/articles/20231106/ddm/005/070/013000c",
+          "published": "2023/11/6 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］日本とASEANは安保協力を着実に進めよ",
+          "link": "https://www.nikkei.com/article/DGXZQODK0649N0W3A101C2000000/",
+          "published": "2023/11/6 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］危険なロシアのCTBT撤回",
+          "link": "https://www.nikkei.com/article/DGXZQODK0644U0W3A101C2000000/",
+          "published": "2023/11/6 19:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【主張】「供述誘導」判決　この判断は合点がいかぬ",
+          "link": "https://www.sankei.com/article/20231106-QLHJM6K75JJ67KZWND4WH5CNY4/",
+          "published": "2023/11/6 5:00",
+          "paid": false
+        },
+        {
+          "title": "【主張】辺野古の代執行　知事は公益履き違えるな",
+          "link": "https://www.sankei.com/article/20231106-XMKVVSC5JBNAFKIYFIX5XFCR5M/",
+          "published": "2023/11/6 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【薬物事件対応】日大は責任を明確化せよ",
+          "link": "https://www.kochinews.co.jp/article/detail/694308",
+          "published": "2023.11.06 08:00",
           "paid": false
         }
       ]

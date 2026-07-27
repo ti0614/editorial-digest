@@ -82,7 +82,7 @@
         {
           "title": "【小名浜道路開通】地域特性磨く契機に（１２月２８日）",
           "link": "https://www.minpo.jp/articles/-/54672",
-          "published": "2024/12/28 09:26",
+          "published": "2024/12/28 9:26",
           "paid": false
         }
       ]
@@ -95,7 +95,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "ブロッコリー　安定供給や需要増期待",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1136991.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年12月28日(土)  10:05",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -153,7 +160,7 @@
         {
           "title": "論説　過去最大の予算案　放漫ぶり見過ごせない",
           "link": "https://www.sanin-chuo.co.jp/articles/-/704609",
-          "published": "2024/12/28 04:00",
+          "published": "2024/12/28 4:00",
           "paid": true
         }
       ]

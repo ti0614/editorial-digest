@@ -32,7 +32,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "国の指示権拡大　自治の本旨に逆行する",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1090081.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年6月30日(日)  10:20",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -90,7 +97,7 @@
         {
           "title": "論説　続く沖縄米兵事件　言語道断、猛省を促す",
           "link": "https://www.sanin-chuo.co.jp/articles/-/601229",
-          "published": "2024/6/30 04:00",
+          "published": "2024/6/30 4:00",
           "paid": true
         }
       ]
@@ -199,6 +206,52 @@
           "title": "＜主張＞暴漢から邦人守る　胡友平さんを哀悼したい",
           "link": "https://www.sankei.com/article/20240630-LWR4PEGGDZMBBJ62R2EL5LXNSA/",
           "published": "2024/6/30 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "検事長の定年延長　判決踏まえ政府は説明を",
+          "link": "https://mainichi.jp/articles/20240630/ddm/005/070/039000c",
+          "published": "2024/6/30 02:01",
+          "paid": false
+        },
+        {
+          "title": "米大統領選の討論会　中傷合戦では展望見えぬ",
+          "link": "https://mainichi.jp/articles/20240630/ddm/005/070/037000c",
+          "published": "2024/6/30 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］同盟強化の実績を次の10年につなげよ",
+          "link": "https://www.nikkei.com/article/DGXZQODK2857J0Y4A620C2000000/",
+          "published": "2024/6/30 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］能登の復旧に息の長い支援を",
+          "link": "https://www.nikkei.com/article/DGXZQODK28BAM0Y4A620C2000000/",
+          "published": "2024/6/30 19:00",
           "paid": false
         }
       ]

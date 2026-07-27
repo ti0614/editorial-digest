@@ -76,7 +76,7 @@
         {
           "title": "【県川柳賞・文学賞】若い感性さらに磨いて（１２月１４日）",
           "link": "https://www.minpo.jp/articles/-/54725",
-          "published": "2024/12/14 09:26",
+          "published": "2024/12/14 9:26",
           "paid": false
         }
       ]
@@ -106,7 +106,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "南極観測隊　地球環境の発信に期待",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1133437.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年12月14日(土)  09:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -164,7 +171,7 @@
         {
           "title": "論説　独仏政権の混迷　速やかに政治の安定を",
           "link": "https://www.sanin-chuo.co.jp/articles/-/696654",
-          "published": "2024/12/14 04:00",
+          "published": "2024/12/14 4:00",
           "paid": true
         }
       ]

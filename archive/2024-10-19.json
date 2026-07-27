@@ -76,7 +76,7 @@
         {
           "title": "【闇バイト強盗】警戒決して怠れない（１０月１９日）",
           "link": "https://www.minpo.jp/articles/-/55064",
-          "published": "2024/10/19 09:26",
+          "published": "2024/10/19 9:26",
           "paid": false
         }
       ]
@@ -106,7 +106,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "選択的夫婦別姓　未来志向で導入を急げ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1118793.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年10月19日(土)  09:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -164,7 +171,7 @@
         {
           "title": "論説　衆院選　外交安保　緊張緩和の戦略を示せ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/664996",
-          "published": "2024/10/19 04:00",
+          "published": "2024/10/19 4:00",
           "paid": true
         }
       ]

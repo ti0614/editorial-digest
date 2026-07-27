@@ -36,7 +36,7 @@
         {
           "title": "【１人暮らし高齢者】社会制度の総点検必要（４月２３日）",
           "link": "https://www.minpo.jp/articles/-/56438",
-          "published": "2024/04/23 08:51",
+          "published": "2024/4/23 8:51",
           "paid": false
         }
       ]
@@ -49,7 +49,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "飛び出し事故　子ども目線で予防策を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1072899.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年4月23日(火)  09:50",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -107,7 +114,7 @@
         {
           "title": "論説　海自ヘリ墜落　事故の背景も検証せよ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/563928",
-          "published": "2024/4/23 04:00",
+          "published": "2024/4/23 4:00",
           "paid": true
         }
       ]
@@ -216,6 +223,52 @@
           "title": "＜主張＞ウクライナ支援　米下院の議決を歓迎する",
           "link": "https://www.sankei.com/article/20240423-QF72KPQ2ONM5DE5R3IZKNU4DYI/",
           "published": "2024/4/23 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "海自ヘリ2機墜落　相次ぐ事故の原因究明を",
+          "link": "https://mainichi.jp/articles/20240423/ddm/005/070/105000c",
+          "published": "2024/4/23 02:01",
+          "paid": false
+        },
+        {
+          "title": "大阪万博まで1年　盛り上がらぬ理由直視を",
+          "link": "https://mainichi.jp/articles/20240423/ddm/005/070/104000c",
+          "published": "2024/4/23 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］自民党は政治資金の透明化と連座制から逃げるな",
+          "link": "https://www.nikkei.com/article/DGXZQODK22BR20S4A420C2000000/",
+          "published": "2024/4/23 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］健康食品は安心あってこそ",
+          "link": "https://www.nikkei.com/article/DGXZQODK231JR0T20C24A4000000/",
+          "published": "2024/4/23 19:00",
           "paid": false
         }
       ]

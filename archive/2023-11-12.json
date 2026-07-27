@@ -67,7 +67,7 @@
         {
           "title": "論説　新校名案に「打吹」　児童らの選択、尊重して",
           "link": "https://www.sanin-chuo.co.jp/articles/-/480863",
-          "published": "2023/11/12 04:00",
+          "published": "2023/11/12 4:00",
           "paid": true
         }
       ]
@@ -119,6 +119,69 @@
           "title": "【社説】若者の大麻乱用　「1回は大丈夫」ではない",
           "link": "https://www.nishinippon.co.jp/item/1145467/",
           "published": "2023/11/12 06:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "米中の核協議　対立管理へ欠かせぬ一歩",
+          "link": "https://mainichi.jp/articles/20231112/ddm/005/070/058000c",
+          "published": "2023/11/12 02:01",
+          "paid": false
+        },
+        {
+          "title": "ニュースを装う偽動画　AI悪用に感度高めたい",
+          "link": "https://mainichi.jp/articles/20231112/ddm/005/070/057000c",
+          "published": "2023/11/12 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【主張】皇室のご活動　「お出まし」増を喜びたい",
+          "link": "https://www.sankei.com/article/20231112-BXCLNVS6MRPBDBHNGJ2BFQB2FQ/",
+          "published": "2023/11/12 5:00",
+          "paid": false
+        },
+        {
+          "title": "【主張】米大統領選１年　３正面に向き合う論戦を",
+          "link": "https://www.sankei.com/article/20231112-XBALHYLUGZJHRIELD363ND7QM4/",
+          "published": "2023/11/12 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【武器輸出拡大】国民の前で議論せよ",
+          "link": "https://www.kochinews.co.jp/article/detail/695805",
+          "published": "2023.11.12 08:00",
           "paid": false
         }
       ]

@@ -30,7 +30,7 @@
         {
           "title": "【集団学童疎開８０年】相互交流の契機に（７月２５日）",
           "link": "https://www.minpo.jp/articles/-/55883",
-          "published": "2024/07/25 08:53",
+          "published": "2024/7/25 8:53",
           "paid": false
         }
       ]
@@ -43,7 +43,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "東海大相模優勝　レベルの高さを見せた",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1096756.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年7月25日(木)  10:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -101,7 +108,7 @@
         {
           "title": "論説　自民・立民の課題　政治の信頼回復が先決",
           "link": "https://www.sanin-chuo.co.jp/articles/-/615497",
-          "published": "2024/7/25 04:00",
+          "published": "2024/7/25 4:00",
           "paid": true
         }
       ]
@@ -204,6 +211,52 @@
           "title": "＜主張＞小林製薬　説明尽くす自覚が見えぬ",
           "link": "https://www.sankei.com/article/20240725-BG3YUZZK4JKQBKG5E5L5OZA2JY/",
           "published": "2024/7/25 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "高まる熱中症リスク　命を守る行動徹底したい",
+          "link": "https://mainichi.jp/articles/20240725/ddm/005/070/079000c",
+          "published": "2024/7/25 02:01",
+          "paid": false
+        },
+        {
+          "title": "小林製薬の紅麹報告書　健康扱う自覚欠けている",
+          "link": "https://mainichi.jp/articles/20240725/ddm/005/070/082000c",
+          "published": "2024/7/25 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］生産性高め最低賃金引き上げを進めよ",
+          "link": "https://www.nikkei.com/article/DGXZQODK2459Q0U4A720C2000000/",
+          "published": "2024/7/25 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］日鉄の世界戦略問う中国縮小",
+          "link": "https://www.nikkei.com/article/DGXZQODK256HV0V20C24A7000000/",
+          "published": "2024/7/25 19:00",
           "paid": false
         }
       ]

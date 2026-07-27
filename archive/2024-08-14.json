@@ -36,7 +36,7 @@
         {
           "title": "【産業の効率化】人手不足を技術で解決（８月１４日）",
           "link": "https://www.minpo.jp/articles/-/55707",
-          "published": "2024/08/14 08:52",
+          "published": "2024/8/14 8:52",
           "paid": false
         }
       ]
@@ -49,7 +49,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "新型コロナ　夏の感染拡大に注意を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1102426.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年8月14日(水)  10:40",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -107,7 +114,7 @@
         {
           "title": "論説　むつ中間貯蔵施設　本質的な解決 ほど遠い",
           "link": "https://www.sanin-chuo.co.jp/articles/-/627999",
-          "published": "2024/8/14 04:00",
+          "published": "2024/8/14 4:00",
           "paid": true
         }
       ]
@@ -216,6 +223,46 @@
           "title": "＜主張＞ＥＶで３社提携　世界で勝てる連合目指せ",
           "link": "https://www.sankei.com/article/20240814-IYETNMVFFRMFTA7GKMYXBISOCI/",
           "published": "2024/8/14 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "初の若者気候訴訟　大人も危機感共有する時",
+          "link": "https://mainichi.jp/articles/20240814/ddm/002/070/102000c",
+          "published": "2024/8/14 02:00",
+          "paid": false
+        },
+        {
+          "title": "川重の海自接待　癒着の実態解明が必要だ",
+          "link": "https://mainichi.jp/articles/20240814/ddm/002/070/101000c",
+          "published": "2024/8/14 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］岸田氏不出馬を信頼回復の契機に",
+          "link": "https://www.nikkei.com/article/DGXZQODK142RH0U4A810C2000000/",
+          "published": "2024/8/14 19:35",
           "paid": false
         }
       ]

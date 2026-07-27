@@ -82,7 +82,7 @@
         {
           "title": "【訓練型農場】産地活性化の起爆剤に（１月１１日）",
           "link": "https://www.minpo.jp/articles/-/54621",
-          "published": "2025/01/11 09:26",
+          "published": "2025/1/11 9:26",
           "paid": false
         }
       ]
@@ -112,7 +112,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "職場のパワハラ　実効性ある対策を急げ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1139602.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年1月11日(土)  09:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -153,7 +160,7 @@
         {
           "title": "論説　核兵器禁止条約　首相は会議参加決断を",
           "link": "https://www.sanin-chuo.co.jp/articles/-/710703",
-          "published": "2025/1/11 04:00",
+          "published": "2025/1/11 4:00",
           "paid": true
         }
       ]

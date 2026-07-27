@@ -36,7 +36,7 @@
         {
           "title": "【女性の視点生かして】災害への備え（２月２０日）",
           "link": "https://www.minpo.jp/articles/-/56819",
-          "published": "2024/02/20 08:52",
+          "published": "2024/2/20 8:52",
           "paid": false
         }
       ]
@@ -49,7 +49,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "相模原市人権条例　原点に立ち返り審議を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1058029.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年2月20日(火)  10:20",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -107,7 +114,7 @@
         {
           "title": "論説　ナワリヌイ氏死去　民主化の闘い諦めるな",
           "link": "https://www.sanin-chuo.co.jp/articles/-/531326",
-          "published": "2024/2/20 04:00",
+          "published": "2024/2/20 4:00",
           "paid": true
         }
       ]
@@ -216,6 +223,52 @@
           "title": "＜主張＞Ｈ３ロケット　安全保障にも資する礎に",
           "link": "https://www.sankei.com/article/20240220-SBCFQ4VTPRMCVADOSBLCKDV754/",
           "published": "2024/2/20 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "ナワリヌイ氏が獄中死　疑念拭えぬロシアの説明",
+          "link": "https://mainichi.jp/articles/20240220/ddm/005/070/086000c",
+          "published": "2024/2/20 02:01",
+          "paid": false
+        },
+        {
+          "title": "H3ロケットの成功　国際競争に挑む出発点だ",
+          "link": "https://mainichi.jp/articles/20240220/ddm/005/070/088000c",
+          "published": "2024/2/20 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］官民一体のウクライナ復興支援を息長く",
+          "link": "https://www.nikkei.com/article/DGXZQODK2019D0Q4A220C2000000/",
+          "published": "2024/2/20 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］日鉄のUSスチール買収を成功に導け",
+          "link": "https://www.nikkei.com/article/DGXZQODK16ABR0W4A210C2000000/",
+          "published": "2024/2/20 19:00",
           "paid": false
         }
       ]

@@ -82,7 +82,7 @@
         {
           "title": "【エネルギー計画案】事故の教訓忘れるな（１月１５日）",
           "link": "https://www.minpo.jp/articles/-/54606",
-          "published": "2025/01/15 09:26",
+          "published": "2025/1/15 9:26",
           "paid": false
         }
       ]
@@ -112,7 +112,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "教員の長時間労働　根本的な改革が急務だ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1140406.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年1月15日(水)  09:50",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -170,7 +177,7 @@
         {
           "title": "論説　石破外交２０２５年　米中両にらみの戦略を",
           "link": "https://www.sanin-chuo.co.jp/articles/-/712456",
-          "published": "2025/1/15 04:00",
+          "published": "2025/1/15 4:00",
           "paid": true
         }
       ]

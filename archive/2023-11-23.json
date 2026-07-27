@@ -13,7 +13,7 @@
         {
           "title": "【死亡事故増加】県民一丸で対策徹底を（１１月２３日）",
           "link": "https://www.minpo.jp/articles/-/57309",
-          "published": "2023/11/23 08:52",
+          "published": "2023/11/23 8:52",
           "paid": false
         }
       ]
@@ -26,7 +26,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "大麻グミ　いたちごっこ断ち切れ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1036950.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2023年11月23日(木)  09:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -84,7 +91,7 @@
         {
           "title": "論説　ガザへの戦闘休止　停戦への機運生かせ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/486438",
-          "published": "2023/11/23 04:00",
+          "published": "2023/11/23 4:00",
           "paid": true
         }
       ]
@@ -153,6 +160,92 @@
           "title": "【社説】相次ぐくら替え　参院の存在意義はどこに",
           "link": "https://www.nishinippon.co.jp/item/1149073/",
           "published": "2023/11/23 06:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "ガザ戦闘の一時休止　停戦への一歩にすべきだ",
+          "link": "https://mainichi.jp/articles/20231123/ddm/005/070/119000c",
+          "published": "2023/11/23 02:00",
+          "paid": false
+        },
+        {
+          "title": "北朝鮮「軍事衛星」発射　高まる脅威への対応急務",
+          "link": "https://mainichi.jp/articles/20231123/ddm/005/070/118000c",
+          "published": "2023/11/23 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］株式の非公開化には規律と戦略が要る",
+          "link": "https://www.nikkei.com/article/DGXZQODK21D630R21C23A1000000/",
+          "published": "2023/11/23 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］ガザ衝突を終わらせる一歩に",
+          "link": "https://www.nikkei.com/article/DGXZQODK230SL0T21C23A1000000/",
+          "published": "2023/11/23 19:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【主張】勤労感謝の日　働く喜びを再確認したい",
+          "link": "https://www.sankei.com/article/20231123-465TLK54JFKNPPWC66H3KENV2I/",
+          "published": "2023/11/23 5:00",
+          "paid": false
+        },
+        {
+          "title": "【主張】北の衛星「発射」　日米韓で備えを強化せよ　",
+          "link": "https://www.sankei.com/article/20231123-YXCLWT4BMJKPDFNNM7WYQ76Z2I/",
+          "published": "2023/11/23 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【北朝鮮軍事衛星】緊張を高める発射強行",
+          "link": "https://www.kochinews.co.jp/article/detail/698853",
+          "published": "2023.11.23 08:00",
           "paid": false
         }
       ]

@@ -13,7 +13,7 @@
         {
           "title": "【野馬追５月開催】円滑な移行で成功を（１１月９日）",
           "link": "https://www.minpo.jp/articles/-/57407",
-          "published": "2023/11/09 08:57",
+          "published": "2023/11/9 8:57",
           "paid": false
         }
       ]
@@ -84,7 +84,7 @@
         {
           "title": "論説・戦闘開始から１カ月　事態打開へＧ７結束を",
           "link": "https://www.sanin-chuo.co.jp/articles/-/479362",
-          "published": "2023/11/9 04:00",
+          "published": "2023/11/9 4:00",
           "paid": true
         }
       ]
@@ -153,6 +153,92 @@
           "title": "【社説】教団被害の救済　国会は法整備の議論急げ",
           "link": "https://www.nishinippon.co.jp/item/1144498/",
           "published": "2023/11/09 06:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "介護の人材不足　待遇の抜本的改善が急務",
+          "link": "https://mainichi.jp/articles/20231109/ddm/005/070/084000c",
+          "published": "2023/11/9 02:01",
+          "paid": false
+        },
+        {
+          "title": "福島の鉄くず横流し　住民の不安招かぬ対策を",
+          "link": "https://mainichi.jp/articles/20231109/ddm/005/070/082000c",
+          "published": "2023/11/9 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］G7はガザ戦闘休止へ具体的行動を急げ",
+          "link": "https://www.nikkei.com/article/DGXZQODK0927V0Z01C23A1000000/",
+          "published": "2023/11/9 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］税金の使い方がひどすぎる",
+          "link": "https://www.nikkei.com/article/DGXZQOCD072YO0X01C23A1000000/",
+          "published": "2023/11/9 19:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【主張】ライドシェア　安全確保前提に議論急げ",
+          "link": "https://www.sankei.com/article/20231109-DOX2YY756FLITCB2KUYJVHD34Y/",
+          "published": "2023/11/9 5:00",
+          "paid": false
+        },
+        {
+          "title": "【主張】Ｇ７外相会合　３正面で結束して行動を",
+          "link": "https://www.sankei.com/article/20231109-TSYLQXO5XJN4PFLNF6A74OFU4U/",
+          "published": "2023/11/9 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【ガザ戦闘１カ月】停戦へ足りない国際協調",
+          "link": "https://www.kochinews.co.jp/article/detail/695121",
+          "published": "2023.11.09 08:00",
           "paid": false
         }
       ]

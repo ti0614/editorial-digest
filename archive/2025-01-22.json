@@ -70,7 +70,7 @@
         {
           "title": "【政治に厳しい目を】基礎的財政収支",
           "link": "https://www.minpo.jp/articles/-/54585",
-          "published": "2025/01/22 09:34",
+          "published": "2025/1/22 9:34",
           "paid": false
         }
       ]
@@ -83,7 +83,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "トランプ氏就任　良識の行方を注視する",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1142217.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年1月22日(水)  09:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -141,7 +148,7 @@
         {
           "title": "論説　第２次トランプ政権　創造と挑戦の改革を",
           "link": "https://www.sanin-chuo.co.jp/articles/-/716548",
-          "published": "2025/1/22 04:00",
+          "published": "2025/1/22 4:00",
           "paid": true
         }
       ]

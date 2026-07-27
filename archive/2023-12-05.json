@@ -13,7 +13,7 @@
         {
           "title": "【人権週間】相談体制の充実を（１２月５日）",
           "link": "https://www.minpo.jp/articles/-/57237",
-          "published": "2023/12/05 08:49",
+          "published": "2023/12/5 8:49",
           "paid": false
         }
       ]
@@ -26,7 +26,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "政治資金　「ザル法」抜本改正せよ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1039826.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2023年12月5日(火)  10:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -84,7 +91,7 @@
         {
           "title": "論説　核兵器禁止条約会議　敵対視やめ対話進めよ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/492499",
-          "published": "2023/12/5 04:00",
+          "published": "2023/12/5 4:00",
           "paid": true
         }
       ]
@@ -176,6 +183,69 @@
           "title": "【主張】派閥の裏金疑惑　自ら実態を明らかにせよ　",
           "link": "https://www.sankei.com/article/20231205-LYR3YDFDORMJLGCIVYY5VUV47I/",
           "published": "2023/12/5 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "自民安倍派の裏金疑惑　政権幹部に説明を求める",
+          "link": "https://mainichi.jp/articles/20231205/ddm/005/070/093000c",
+          "published": "2023/12/5 02:00",
+          "paid": false
+        },
+        {
+          "title": "核兵器禁止条約と日本　被爆国の傍観許されない",
+          "link": "https://mainichi.jp/articles/20231205/ddm/005/070/092000c",
+          "published": "2023/12/5 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］自民は「派閥とカネ」の教訓を忘れたのか",
+          "link": "https://www.nikkei.com/article/DGXZQODK0537D0V01C23A2000000/",
+          "published": "2023/12/5 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］足並みの乱れ露呈した産油国",
+          "link": "https://www.nikkei.com/article/DGXZQODK054PZ0V01C23A2000000/",
+          "published": "2023/12/5 19:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【核兵器禁止会議】保有国をどう取り込むか",
+          "link": "https://www.kochinews.co.jp/article/detail/701922",
+          "published": "2023.12.05 08:00",
           "paid": false
         }
       ]

@@ -32,7 +32,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "ベルマーレ新球技場　「地域密着」議論深めて",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1093853.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年7月14日(日)  09:40",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -90,7 +97,7 @@
         {
           "title": "論説　教団の勝訴破棄　被害救済加速に生かせ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/609208",
-          "published": "2024/7/14 04:00",
+          "published": "2024/7/14 4:00",
           "paid": true
         }
       ]
@@ -199,6 +206,52 @@
           "title": "＜主張＞兵庫県知事の疑惑　「パワハラ」の真相究明を",
           "link": "https://www.sankei.com/article/20240714-FPRPN23D7JIJ3CIOJNUBSMS7XE/",
           "published": "2024/7/14 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "旧統一教会の念書無効　被害救済に道開く判決だ",
+          "link": "https://mainichi.jp/articles/20240714/ddm/005/070/102000c",
+          "published": "2024/7/14 02:01",
+          "paid": false
+        },
+        {
+          "title": "NATOとアジア　連携強化を外交のてこに",
+          "link": "https://mainichi.jp/articles/20240714/ddm/005/070/100000c",
+          "published": "2024/7/14 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］トランプ前米大統領銃撃は民主主義脅かす蛮行だ",
+          "link": "https://www.nikkei.com/article/DGXZQODK140H20U4A710C2000000/",
+          "published": "2024/7/14 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］旧統一教会の献金被害を救済する契機に",
+          "link": "https://www.nikkei.com/article/DGXZQODK129M80S4A710C2000000/",
+          "published": "2024/7/14 19:00",
           "paid": false
         }
       ]

@@ -13,7 +13,7 @@
         {
           "title": "【物流２０２４年問題】即効性ある対策を（１２月４日）",
           "link": "https://www.minpo.jp/articles/-/57244",
-          "published": "2023/12/04 09:10",
+          "published": "2023/12/4 9:10",
           "paid": false
         }
       ]
@@ -26,7 +26,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "連合の労働運動　賃上げ持続、実を挙げよ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1039556.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2023年12月4日(月)  09:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -84,7 +91,7 @@
         {
           "title": "論説　日大アメフト廃部へ　再生の道筋見通せない",
           "link": "https://www.sanin-chuo.co.jp/articles/-/491918",
-          "published": "2023/12/4 04:00",
+          "published": "2023/12/4 4:00",
           "paid": true
         }
       ]
@@ -159,6 +166,69 @@
           "title": "【主張】国と地方の役割　指示権を拡充し国民守れ",
           "link": "https://www.sankei.com/article/20231204-Z22ATFOTYVOQPACL6RDAYTG2PI/",
           "published": "2023/12/4 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "生活保護減額は「違法」　命綱軽視の姿勢改める時",
+          "link": "https://mainichi.jp/articles/20231204/ddm/005/070/014000c",
+          "published": "2023/12/4 02:00",
+          "paid": false
+        },
+        {
+          "title": "日大が改善計画提出　内紛続きで再生できるか",
+          "link": "https://mainichi.jp/articles/20231204/ddm/005/070/012000c",
+          "published": "2023/12/4 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］ウクライナ問題を埋没させず支援続けよ",
+          "link": "https://www.nikkei.com/article/DGXZQODK046HQ0U3A201C2000000/",
+          "published": "2023/12/4 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］日本版NSCは絶えず進化を",
+          "link": "https://www.nikkei.com/article/DGXZQODK041KP0U3A201C2000000/",
+          "published": "2023/12/4 19:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【技能実習廃止】選ばれる労働市場目指せ",
+          "link": "https://www.kochinews.co.jp/article/detail/701667",
+          "published": "2023.12.04 08:00",
           "paid": false
         }
       ]

@@ -13,7 +13,7 @@
         {
           "title": "【福島駅東口再開発】幅広い視点で見直しを（１２月１４日）",
           "link": "https://www.minpo.jp/articles/-/57197",
-          "published": "2023/12/14 08:52",
+          "published": "2023/12/14 8:52",
           "paid": false
         }
       ]
@@ -26,7 +26,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "国会閉会　「明日」は良くなるのか",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1042150.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2023年12月14日(木)  10:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -67,7 +74,7 @@
         {
           "title": "論説・マイナ総点検終了　保険証の廃止は強引だ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/497195",
-          "published": "2023/12/14 04:00",
+          "published": "2023/12/14 4:00",
           "paid": true
         }
       ]
@@ -159,6 +166,63 @@
           "title": "【主張】臨時国会閉幕　説明尽くさず信頼失った",
           "link": "https://www.sankei.com/article/20231214-CKYZLTFPYRLBHCYD5ZHRS7CHNQ/",
           "published": "2023/12/14 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "裏金疑惑と岸田首相　これでは国政任せられぬ",
+          "link": "https://mainichi.jp/articles/20231214/ddm/005/070/096000c",
+          "published": "2023/12/14 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］FRBの転換が生む環境変化に備えよ",
+          "link": "https://www.nikkei.com/article/DGXZQODK146CJ0U3A211C2000000/",
+          "published": "2023/12/14 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］「政治とカネ」の全容解明を",
+          "link": "https://www.nikkei.com/article/DGXZQODK144E30U3A211C2000000/",
+          "published": "2023/12/14 19:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【臨時国会閉幕】政治不信深めた責任重い",
+          "link": "https://www.kochinews.co.jp/article/detail/704348",
+          "published": "2023.12.14 08:00",
           "paid": false
         }
       ]

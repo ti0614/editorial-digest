@@ -36,7 +36,7 @@
         {
           "title": "【県職員官製談合】再発防止徹底を（８月１０日）",
           "link": "https://www.minpo.jp/articles/-/55735",
-          "published": "2024/08/10 08:50",
+          "published": "2024/8/10 8:50",
           "paid": false
         }
       ]
@@ -49,7 +49,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "巨大地震注意情報　「命守る行動」再確認を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1101676.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年8月10日(土)  09:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -107,7 +114,7 @@
         {
           "title": "論説　南海トラフ注意情報　防災力の向上に生かせ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/626192",
-          "published": "2024/8/10 04:00",
+          "published": "2024/8/10 4:00",
           "paid": true
         }
       ]
@@ -216,6 +223,46 @@
           "title": "＜主張＞グーグル敗訴　独善的行為に見直し迫る",
           "link": "https://www.sankei.com/article/20240810-WHF5JQVTLJNF7DXLIWSPTM5N24/",
           "published": "2024/8/10 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "南海トラフの注意情報　命守る備えの確認急ぐ時",
+          "link": "https://mainichi.jp/articles/20240810/ddm/005/070/092000c",
+          "published": "2024/8/10 02:01",
+          "paid": false
+        },
+        {
+          "title": "原爆式典と米欧大使　欠席判断は極めて遺憾だ",
+          "link": "https://mainichi.jp/articles/20240810/ddm/005/070/090000c",
+          "published": "2024/8/10 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］既成政党への不信ぬぐう党首選に",
+          "link": "https://www.nikkei.com/article/DGXZQODK09BR40Z00C24A8000000/",
+          "published": "2024/8/10 19:00",
           "paid": false
         }
       ]

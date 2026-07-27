@@ -76,7 +76,7 @@
         {
           "title": "【郡山市のＳＣ活動】市民の参加促進が必要（２月２５日）",
           "link": "https://www.minpo.jp/articles/-/54454",
-          "published": "2025/02/25 09:30",
+          "published": "2025/2/25 9:30",
           "paid": false
         }
       ]
@@ -89,7 +89,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "災害時の孤立対策　重層的な支援見いだせ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1150773.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年2月25日(火)  09:30",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -147,7 +154,7 @@
         {
           "title": "論説　立憲民主党大会　信任を得る国会論戦を",
           "link": "https://www.sanin-chuo.co.jp/articles/-/734974",
-          "published": "2025/2/25 04:00",
+          "published": "2025/2/25 4:00",
           "paid": true
         }
       ]

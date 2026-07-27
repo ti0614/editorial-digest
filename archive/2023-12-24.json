@@ -9,7 +9,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "大学無償化方針　小手先な策は効果薄い",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1044690.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2023年12月24日(日)  11:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -67,7 +74,7 @@
         {
           "title": "論説　山陰発　学校給食の無償化　安定供給体制の保障を",
           "link": "https://www.sanin-chuo.co.jp/articles/-/502462",
-          "published": "2023/12/24 04:00",
+          "published": "2023/12/24 4:00",
           "paid": true
         }
       ]
@@ -159,6 +166,69 @@
           "title": "【主張】政府の少子化戦略　効果見極めて政策推進を",
           "link": "https://www.sankei.com/article/20231224-YJGGUM26LFPWZJCFXMSLFDI7KA/",
           "published": "2023/12/24 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "110兆円超の予算案　「平時」に程遠い借金財政",
+          "link": "https://mainichi.jp/articles/20231224/ddm/005/070/074000c",
+          "published": "2023/12/24 02:01",
+          "paid": false
+        },
+        {
+          "title": "広島の原爆写真　伝え継ぐ「世界の記憶」に",
+          "link": "https://mainichi.jp/articles/20231224/ddm/005/070/072000c",
+          "published": "2023/12/24 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］自民は政治資金の透明化から逃げるな",
+          "link": "https://www.nikkei.com/article/DGXZQODK229QC0S3A221C2000000/",
+          "published": "2023/12/24 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］実効性あるAIルール整備を",
+          "link": "https://www.nikkei.com/article/DGXZQODK228M10S3A221C2000000/",
+          "published": "2023/12/24 19:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【辺野古代執行】民意と自治の軽視を危惧",
+          "link": "https://www.kochinews.co.jp/article/detail/709041",
+          "published": "2023.12.24 08:00",
           "paid": false
         }
       ]

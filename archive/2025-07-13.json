@@ -49,7 +49,14 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "市原市が新病院事業者候補公表　誘致は評価、救急に課題も　【論説】",
+          "link": "https://www.chibanippo.co.jp/articles/1468987",
+          "published": "2025/7/13 5:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "新潟日報",
@@ -114,7 +121,7 @@
         {
           "title": "論説　人口減少と地方　地域維持の戦略つくれ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/818884",
-          "published": "2025/7/13 04:00",
+          "published": "2025/7/13 4:00",
           "paid": true
         }
       ]

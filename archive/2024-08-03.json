@@ -36,7 +36,7 @@
         {
           "title": "【子育て相談支援】家庭センター設置急務（８月３日）",
           "link": "https://www.minpo.jp/articles/-/55786",
-          "published": "2024/08/03 08:51",
+          "published": "2024/8/3 8:51",
           "paid": false
         }
       ]
@@ -49,7 +49,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "平塚市の給食センター　有効稼働へ可能性探れ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1099558.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年8月3日(土)  09:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -107,7 +114,7 @@
         {
           "title": "論説　日本メダルラッシュ　「これぞ五輪」の醍醐味",
           "link": "https://www.sanin-chuo.co.jp/articles/-/621566",
-          "published": "2024/8/3 04:00",
+          "published": "2024/8/3 4:00",
           "paid": true
         }
       ]
@@ -216,6 +223,52 @@
           "title": "＜主張＞調査捕鯨の妨害　日本で裁判を受けさせよ",
           "link": "https://www.sankei.com/article/20240803-NMW6WH37JRJTVEQLKFEZCRTOLA/",
           "published": "2024/8/3 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "沖縄米兵事件と外務省　隠蔽の疑いがぬぐえない",
+          "link": "https://mainichi.jp/articles/20240803/ddm/005/070/108000c",
+          "published": "2024/8/3 02:02",
+          "paid": false
+        },
+        {
+          "title": "過労死防止法10年　減らぬ実態直視し対策を",
+          "link": "https://mainichi.jp/articles/20240803/ddm/005/070/106000c",
+          "published": "2024/8/3 02:02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］米大統領候補は政策を堂々と競い合え",
+          "link": "https://www.nikkei.com/article/DGXZQODK012JM0R00C24A8000000/",
+          "published": "2024/8/3 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］ビーチのビジネス利用広げよ",
+          "link": "https://www.nikkei.com/article/DGXZQODK021TG0S4A800C2000000/",
+          "published": "2024/8/3 19:00",
           "paid": false
         }
       ]

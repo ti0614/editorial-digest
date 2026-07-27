@@ -13,7 +13,7 @@
         {
           "title": "【首相施政方針】信頼取り戻す議論を（１月３１日）",
           "link": "https://www.minpo.jp/articles/-/56930",
-          "published": "2024/01/31 08:50",
+          "published": "2024/1/31 8:50",
           "paid": false
         }
       ]
@@ -26,7 +26,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "施政方針演説　「火の玉」の気概どこへ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1053428.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年1月31日(水)  09:50",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -84,7 +91,7 @@
         {
           "title": "論説　首相施政方針　脱派閥の決意は本物か",
           "link": "https://www.sanin-chuo.co.jp/articles/-/521641",
-          "published": "2024/1/31 04:00",
+          "published": "2024/1/31 4:00",
           "paid": true
         }
       ]
@@ -193,6 +200,46 @@
           "title": "＜主張＞普天間作業部会　危険性除去に県は協力を",
           "link": "https://www.sankei.com/article/20240131-MB5Q2ZD42ZPHZDI75IZAU7IXVY/",
           "published": "2024/1/31 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "国際司法裁の命令　ガザへの攻撃止める時だ",
+          "link": "https://mainichi.jp/articles/20240131/ddm/005/070/117000c",
+          "published": "2024/1/31 02:02",
+          "paid": false
+        },
+        {
+          "title": "首相の施政方針演説　「良くなる明日」が見えぬ",
+          "link": "https://mainichi.jp/articles/20240131/ddm/005/070/118000c",
+          "published": "2024/1/31 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］トヨタ主導でグループの不正を断ち切れ",
+          "link": "https://www.nikkei.com/article/DGXZQODK312AL0R30C24A1000000/",
+          "published": "2024/1/31 19:00",
           "paid": false
         }
       ]

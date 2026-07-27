@@ -72,7 +72,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "湘南オリーブ２０年　地域振興へ知恵絞ろう",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1117305.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年10月13日(日)  09:40",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -130,7 +137,7 @@
         {
           "title": "論説　石破首相が外交デビュー　重層的な対話重ねたい",
           "link": "https://www.sanin-chuo.co.jp/articles/-/662027",
-          "published": "2024/10/13 04:00",
+          "published": "2024/10/13 4:00",
           "paid": true
         }
       ]

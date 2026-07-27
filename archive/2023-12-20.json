@@ -13,7 +13,7 @@
         {
           "title": "【裏金疑惑強制捜査】政治不信の責任重い（１２月２０日）",
           "link": "https://www.minpo.jp/articles/-/57171",
-          "published": "2023/12/20 08:54",
+          "published": "2023/12/20 8:54",
           "paid": false
         }
       ]
@@ -26,7 +26,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "「裏金」強制捜査　威信懸け徹底解明せよ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1043583.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2023年12月20日(水)  11:10",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -84,7 +91,7 @@
         {
           "title": "論説　自民２派閥を強制捜査　幹部の関与解明を急げ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/500235",
-          "published": "2023/12/20 04:00",
+          "published": "2023/12/20 4:00",
           "paid": true
         }
       ]
@@ -176,6 +183,69 @@
           "title": "【主張】日ＡＳＥＡＮ５０年　自由の海へ連携を強めよ",
           "link": "https://www.sankei.com/article/20231220-GDPE5VTC7VMPJFVBHCCI47HU6M/",
           "published": "2023/12/20 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "派閥事務所を捜索　「裏金システム」の解明を",
+          "link": "https://mainichi.jp/articles/20231220/ddm/005/070/095000c",
+          "published": "2023/12/20 02:00",
+          "paid": false
+        },
+        {
+          "title": "香港の区議会選挙　中国式が招いた低投票率",
+          "link": "https://mainichi.jp/articles/20231220/ddm/005/070/094000c",
+          "published": "2023/12/20 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］医療介護の持続性に影落とす報酬改定",
+          "link": "https://www.nikkei.com/article/DGXZQODK161Q80W3A211C2000000/",
+          "published": "2023/12/20 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］日銀は出口に備え対話入念に",
+          "link": "https://www.nikkei.com/article/DGXZQODK206TY0Q3A221C2000000/",
+          "published": "2023/12/20 19:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【派閥強制捜査】政治家関与の解明を図れ",
+          "link": "https://www.kochinews.co.jp/article/detail/707879",
+          "published": "2023.12.20 05:00",
           "paid": false
         }
       ]

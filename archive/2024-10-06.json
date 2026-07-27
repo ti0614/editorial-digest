@@ -55,7 +55,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "袴田事件　救済と法整備が急務だ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1115503.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年10月6日(日)  09:40",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -96,7 +103,7 @@
         {
           "title": "論説　東大授業料値上げ　無償化の公約を果たせ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/658147",
-          "published": "2024/10/6 04:00",
+          "published": "2024/10/6 4:00",
           "paid": true
         }
       ]
@@ -205,6 +212,29 @@
           "title": "＜主張＞対露協力相の廃止　首相の判断を評価したい",
           "link": "https://www.sankei.com/article/20241006-WW4RIW63GVIWLARRTYIBZEWKXY/",
           "published": "2024/10/6 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］ガザからの際限ない戦火拡大を止めよ",
+          "link": "https://www.nikkei.com/article/DGXZQODK049F40U4A001C2000000/",
+          "published": "2024/10/6 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］着床前診断に公的なルールを",
+          "link": "https://www.nikkei.com/article/DGXZQODK0428X0U4A001C2000000/",
+          "published": "2024/10/6 19:00",
           "paid": false
         }
       ]

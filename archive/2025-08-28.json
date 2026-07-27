@@ -76,7 +76,7 @@
         {
           "title": "【成り済まし最悪】社会一丸で被害防止を（８月２８日）",
           "link": "https://www.minpo.jp/articles/-/53259",
-          "published": "2025/08/28 09:12",
+          "published": "2025/8/28 9:12",
           "paid": false
         }
       ]
@@ -154,7 +154,7 @@
         {
           "title": "論説　コメ政策転換　増産へ軟着陸を目指せ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/847329",
-          "published": "2025/8/28 04:00",
+          "published": "2025/8/28 4:00",
           "paid": true
         }
       ]
@@ -287,6 +287,29 @@
           "link": "https://www.sankei.com/article/20250828-RRR4FOPHTFMP7CGLPQNBK4ENUI/",
           "published": "2025/8/28 5:00",
           "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【万博で祭り披露】伝統引き継ぐ新たな力に",
+          "link": "https://www.hokkoku.co.jp/articles/-/1849712",
+          "published": "2025/8/28 5:00",
+          "paid": true
+        },
+        {
+          "title": "社説【維新議員に詐欺疑い】「政治とカネ」は野党にも",
+          "link": "https://www.hokkoku.co.jp/articles/-/1849711",
+          "published": "2025/8/28 5:00",
+          "paid": true
         }
       ]
     }

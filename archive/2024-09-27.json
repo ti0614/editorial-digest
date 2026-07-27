@@ -47,7 +47,7 @@
         {
           "title": "【新幹線連結外れ】原因究明と安全徹底を（９月２７日）",
           "link": "https://www.minpo.jp/articles/-/55357",
-          "published": "2024/09/27 08:54",
+          "published": "2024/9/27 8:54",
           "paid": false
         }
       ]
@@ -60,7 +60,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "被爆体験者　政治判断で全員救済を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1113229.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年9月27日(金)  10:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -118,7 +125,7 @@
         {
           "title": "論説　袴田さん再審無罪　冤罪救済に本腰入れよ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/653006",
-          "published": "2024/9/27 04:00",
+          "published": "2024/9/27 4:00",
           "paid": true
         }
       ]
@@ -227,6 +234,23 @@
           "title": "＜主張＞出直し知事選へ　兵庫県民の判断問われる",
           "link": "https://www.sankei.com/article/20240927-VVPFKBEB2JIG7AHOG7W5YUMZVE/",
           "published": "2024/9/27 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］石破新総裁は行動で信頼を取り戻せ",
+          "link": "https://www.nikkei.com/article/DGXZQODK275CB0X20C24A9000000/",
+          "published": "2024/9/27 19:00",
           "paid": false
         }
       ]

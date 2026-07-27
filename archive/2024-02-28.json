@@ -36,7 +36,7 @@
         {
           "title": "【こおりやま広域圏】試される課題解決力（２月２８日）",
           "link": "https://www.minpo.jp/articles/-/56781",
-          "published": "2024/02/28 08:51",
+          "published": "2024/2/28 8:51",
           "paid": false
         }
       ]
@@ -49,7 +49,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "映像文化　「発祥地」から飛躍期待",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1059788.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年2月28日(水)  10:10",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -107,7 +114,7 @@
         {
           "title": "論説　少子化対策法案　正面から負担増議論を",
           "link": "https://www.sanin-chuo.co.jp/articles/-/535123",
-          "published": "2024/2/28 04:00",
+          "published": "2024/2/28 4:00",
           "paid": true
         }
       ]
@@ -216,6 +223,52 @@
           "title": "＜主張＞桐島容疑者を送検　公安警察の敗北を悔やむ",
           "link": "https://www.sankei.com/article/20240228-BH7CC4UBWVMHFENHIR7DNFWC6I/",
           "published": "2024/2/28 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "減り続ける出生数　若者が希望持てる社会に",
+          "link": "https://mainichi.jp/articles/20240228/ddm/005/070/100000c",
+          "published": "2024/2/28 02:01",
+          "paid": false
+        },
+        {
+          "title": "ウクライナ侵攻　日本への避難者　自立の思い支える環境を",
+          "link": "https://mainichi.jp/articles/20240228/ddm/005/070/098000c",
+          "published": "2024/2/28 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］出生・婚姻減を招く社会構造に切り込め",
+          "link": "https://www.nikkei.com/article/DGXZQODK282H10Y4A220C2000000/",
+          "published": "2024/2/28 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］新卒採用のミスマッチ減らせ",
+          "link": "https://www.nikkei.com/article/DGXZQODK284BJ0Y4A220C2000000/",
+          "published": "2024/2/28 19:00",
           "paid": false
         }
       ]

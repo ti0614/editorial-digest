@@ -36,7 +36,7 @@
         {
           "title": "【スポーツ雪合戦】競技人口の拡大を（２月５日）",
           "link": "https://www.minpo.jp/articles/-/56898",
-          "published": "2024/02/05 08:50",
+          "published": "2024/2/5 8:50",
           "paid": false
         }
       ]
@@ -49,7 +49,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "人口減少　厳しい推計に危機感を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1054640.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年2月5日(月)  09:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -107,7 +114,7 @@
         {
           "title": "論説　ミャンマー政変３年　暴力停止の合意を守れ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/524237",
-          "published": "2024/2/5 04:00",
+          "published": "2024/2/5 4:00",
           "paid": true
         }
       ]
@@ -199,6 +206,52 @@
           "title": "＜主張＞朝鮮人追悼碑　政治利用で撤去は当然だ",
           "link": "https://www.sankei.com/article/20240205-WADQLVJMLBNGHEMUIVJDYRJVWM/",
           "published": "2024/2/5 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "離婚後の共同親権　子どもの幸せを最優先に",
+          "link": "https://mainichi.jp/articles/20240205/ddm/005/070/011000c",
+          "published": "2024/2/5 02:00",
+          "paid": false
+        },
+        {
+          "title": "持続可能な介護制度　賃上げだけでは不十分だ",
+          "link": "https://mainichi.jp/articles/20240205/ddm/005/070/010000c",
+          "published": "2024/2/5 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］株高の今こそ証券会社は信頼の向上を",
+          "link": "https://www.nikkei.com/article/DGXZQODK053XW0V00C24A2000000/",
+          "published": "2024/2/5 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］派閥幹部は説明責任を果たせ",
+          "link": "https://www.nikkei.com/article/DGXZQODK053PV0V00C24A2000000/",
+          "published": "2024/2/5 19:00",
           "paid": false
         }
       ]

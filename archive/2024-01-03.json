@@ -13,7 +13,7 @@
         {
           "title": "【産業振興】成功事例の水平展開を（１月３日）",
           "link": "https://www.minpo.jp/articles/-/57101",
-          "published": "2024/01/03 09:00",
+          "published": "2024/1/3 9:00",
           "paid": false
         }
       ]
@@ -26,7 +26,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "能登半島地震　命を守る備え再確認を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1046702.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年1月3日(水)  10:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -84,7 +91,7 @@
         {
           "title": "論説　能登半島で震度７　「救助と支援」に全力を",
           "link": "https://www.sanin-chuo.co.jp/articles/-/507246",
-          "published": "2024/1/3 04:00",
+          "published": "2024/1/3 4:00",
           "paid": true
         }
       ]
@@ -170,6 +177,63 @@
           "title": "＜主張＞能登半島地震　救命救助に全力尽くせ　国民一体で被災者を支えよう",
           "link": "https://www.sankei.com/article/20240103-4TLUJDWLFFJ5TIIM3B2XHW4RU4/",
           "published": "2024/1/3 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "能登半島で震度7　人命救助と支援を全力で",
+          "link": "https://mainichi.jp/articles/20240103/ddm/002/070/095000c",
+          "published": "2024/1/3 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］信じがたい航空機事故の原因究明を急げ",
+          "link": "https://www.nikkei.com/article/DGXZQODK030KY0T00C24A1000000/",
+          "published": "2024/1/3 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］EV化戦略に長期の視点を",
+          "link": "https://www.nikkei.com/article/DGXZQODK031CR0T00C24A1000000/",
+          "published": "2024/1/3 19:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【能登半島地震】救助、救援を急ぎたい",
+          "link": "https://www.kochinews.co.jp/article/detail/711020",
+          "published": "2024.01.03 08:00",
           "paid": false
         }
       ]

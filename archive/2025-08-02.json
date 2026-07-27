@@ -82,7 +82,7 @@
         {
           "title": "【戦後８０年　大切な８月】平和の誓い、改めて（８月２日）",
           "link": "https://www.minpo.jp/articles/-/53391",
-          "published": "2025/08/02 09:20",
+          "published": "2025/8/2 9:20",
           "paid": false
         }
       ]
@@ -194,7 +194,7 @@
         {
           "title": "論説　ガザの飢餓問題　支援食料の搬入認めよ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/832092",
-          "published": "2025/8/2 04:00",
+          "published": "2025/8/2 4:00",
           "paid": true
         }
       ]
@@ -321,6 +321,29 @@
           "link": "https://www.sankei.com/article/20250802-BUCZWVLA65KNXNO222RZKINLKU/",
           "published": "2025/8/2 5:00",
           "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【男女「共育」社会】男性育休、中身の充実を",
+          "link": "https://www.hokkoku.co.jp/articles/-/1825613",
+          "published": "2025/8/2 5:00",
+          "paid": true
+        },
+        {
+          "title": "社説【震災の検証報告】国、県の役割さらに重く",
+          "link": "https://www.hokkoku.co.jp/articles/-/1825612",
+          "published": "2025/8/2 5:00",
+          "paid": true
         }
       ]
     }

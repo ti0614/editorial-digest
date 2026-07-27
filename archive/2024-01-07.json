@@ -9,7 +9,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "展望・川崎市政　存立基盤を次世代にも",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1047567.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年1月7日(日)  09:50",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -67,7 +74,7 @@
         {
           "title": "論説　２０２４経済展望　内外のリスクに警戒を",
           "link": "https://www.sanin-chuo.co.jp/articles/-/509412",
-          "published": "2024/1/7 04:00",
+          "published": "2024/1/7 4:00",
           "paid": true
         }
       ]
@@ -153,6 +160,57 @@
           "title": "＜主張＞転換期の日本経済　力強い賃上げで好循環を　震災克服が成長の大前提だ",
           "link": "https://www.sankei.com/article/20240107-R3H3IXVPHRJH7F26FYE3BV7PZU/",
           "published": "2024/1/7 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "超える’24　「習1強」の中国　世界の分断深めぬ行動を",
+          "link": "https://mainichi.jp/articles/20240107/ddm/005/070/080000c",
+          "published": "2024/1/7 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］派閥裏金事件を徹底解明し政治不信の根を絶て",
+          "link": "https://www.nikkei.com/article/DGXZQODK0710C0X00C24A1000000/",
+          "published": "2024/1/7 19:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【あす成人の日】世代の垣根越え前進を",
+          "link": "https://www.kochinews.co.jp/article/detail/711844",
+          "published": "2024.01.07 08:00",
           "paid": false
         }
       ]

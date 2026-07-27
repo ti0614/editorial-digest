@@ -13,7 +13,7 @@
         {
           "title": "【日めくりの味】会津の映画文化醸成を（１１月１６日）",
           "link": "https://www.minpo.jp/articles/-/57355",
-          "published": "2023/11/16 09:00",
+          "published": "2023/11/16 9:00",
           "paid": false
         }
       ]
@@ -84,7 +84,7 @@
         {
           "title": "論説　イスラエルのガザ侵攻　病院を戦場にするな",
           "link": "https://www.sanin-chuo.co.jp/articles/-/482724",
-          "published": "2023/11/16 04:00",
+          "published": "2023/11/16 4:00",
           "paid": true
         }
       ]
@@ -153,6 +153,92 @@
           "title": "【社説】北朝鮮・帰還事業　「壮大な拉致」司法で裁け",
           "link": "https://www.nishinippon.co.jp/item/1146631/",
           "published": "2023/11/16 06:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "宝塚歌劇団員の急死　徹底した再調査が必要だ",
+          "link": "https://mainichi.jp/articles/20231116/ddm/005/070/086000c",
+          "published": "2023/11/16 02:01",
+          "paid": false
+        },
+        {
+          "title": "過去最悪のクマ被害　国は人命守る施策強化を",
+          "link": "https://mainichi.jp/articles/20231116/ddm/005/070/083000c",
+          "published": "2023/11/16 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］米中は衝突回避へ重層的に対話を続けよ",
+          "link": "https://www.nikkei.com/article/DGXZQOFE121OX0S3A111C2000000/",
+          "published": "2023/11/16 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］直らない補正予算の水膨れ",
+          "link": "https://www.nikkei.com/article/DGXZQODK166RG0W3A111C2000000/",
+          "published": "2023/11/16 19:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【主張】横田さん拉致４６年　怒りを「わがこと」として",
+          "link": "https://www.sankei.com/article/20231116-CBMBNDO43RNWLENRRGERAE5364/",
+          "published": "2023/11/16 5:00",
+          "paid": false
+        },
+        {
+          "title": "【主張】宝塚俳優の急死　旧弊を排し再検証必須だ",
+          "link": "https://www.sankei.com/article/20231116-XLJQJCCS35PJDN75O33QFYUJU4/",
+          "published": "2023/11/16 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【宝塚俳優急死】問題を矮小化してないか",
+          "link": "https://www.kochinews.co.jp/article/detail/696853",
+          "published": "2023.11.16 08:00",
           "paid": false
         }
       ]

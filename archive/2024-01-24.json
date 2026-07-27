@@ -13,7 +13,7 @@
         {
           "title": "【いわきの生活交通】バス廃止への対策急務（１月２４日）",
           "link": "https://www.minpo.jp/articles/-/56983",
-          "published": "2024/01/24 08:51",
+          "published": "2024/1/24 8:51",
           "paid": false
         }
       ]
@@ -26,7 +26,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "神奈川公立高入試のネット出願不具合　再発防止に全力を注げ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1051605.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年1月24日(水)  10:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -84,7 +91,7 @@
         {
           "title": "論説　年金額引き上げ　次世代に確かな給付を",
           "link": "https://www.sanin-chuo.co.jp/articles/-/517940",
-          "published": "2024/1/24 04:00",
+          "published": "2024/1/24 4:00",
           "paid": true
         }
       ]
@@ -193,6 +200,52 @@
           "title": "＜主張＞適格性評価制度　官民で機密を守る設計に",
           "link": "https://www.sankei.com/article/20240124-XUG3CK6JORO4RD3MUBFCBI4JXA/",
           "published": "2024/1/24 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "自民の政治改革案　派閥もカネも置き去りだ",
+          "link": "https://mainichi.jp/articles/20240124/ddm/005/070/077000c",
+          "published": "2024/1/24 02:00",
+          "paid": false
+        },
+        {
+          "title": "中東各地で高まる緊張　紛争の拡大回避に全力を",
+          "link": "https://mainichi.jp/articles/20240124/ddm/005/070/076000c",
+          "published": "2024/1/24 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］米共和党の「内向き志向」を憂慮する",
+          "link": "https://www.nikkei.com/article/DGXZQODK242CT0U4A120C2000000/",
+          "published": "2024/1/24 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］電力市場は不断の見直しを",
+          "link": "https://www.nikkei.com/article/DGXZQODK242D40U4A120C2000000/",
+          "published": "2024/1/24 19:00",
           "paid": false
         }
       ]

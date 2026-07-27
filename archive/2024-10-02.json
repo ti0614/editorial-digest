@@ -47,7 +47,7 @@
         {
           "title": "【石破内閣発足】指導力発揮できるか（１０月２日）",
           "link": "https://www.minpo.jp/articles/-/55310",
-          "published": "2024/10/02 09:21",
+          "published": "2024/10/2 9:21",
           "paid": false
         }
       ]
@@ -77,7 +77,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "石破内閣発足、「誠心誠意」を体現せよ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1114539.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年10月2日(水)  10:20",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -135,7 +142,7 @@
         {
           "title": "論説　石破内閣発足　信頼回復の覚悟感じぬ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/655849",
-          "published": "2024/10/2 04:00",
+          "published": "2024/10/2 4:00",
           "paid": true
         }
       ]
@@ -238,6 +245,29 @@
           "title": "＜主張＞石破新内閣　危機感持ち日本守り抜け　挙党体制築かぬままの船出か",
           "link": "https://www.sankei.com/article/20241002-EUMWOOOJIFNPPNZIZVO6JOJL7M/",
           "published": "2024/10/2 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］中東の両軍事大国は最大限の自制を",
+          "link": "https://www.nikkei.com/article/DGXZQODK026UZ0S4A001C2000000/",
+          "published": "2024/10/2 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］成長持続へ人手不足が心配だ",
+          "link": "https://www.nikkei.com/article/DGXZQODK0250J0S4A001C2000000/",
+          "published": "2024/10/2 19:00",
           "paid": false
         }
       ]

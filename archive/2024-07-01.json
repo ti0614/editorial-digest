@@ -30,7 +30,7 @@
         {
           "title": "【浜通り産業新戦略】スピード感を持て（７月１日）",
           "link": "https://www.minpo.jp/articles/-/56063",
-          "published": "2024/07/01 09:23",
+          "published": "2024/7/1 9:23",
           "paid": false
         }
       ]
@@ -43,7 +43,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "能登半島地震半年　早期復興へ復旧加速を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1090248.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年7月1日(月)  09:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -53,7 +60,20 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "実態踏まえ被害防げ　政府がＰＦＡＳ全国調査　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1243794",
+          "published": "2024/7/1 5:00",
+          "paid": true
+        },
+        {
+          "title": "恒久平和へ近道なし　地域で語り継ぐ戦後７９年　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1243793",
+          "published": "2024/7/1 5:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "新潟日報",
@@ -101,7 +121,7 @@
         {
           "title": "論説　能登半島地震から半年　復興の行方、注視したい",
           "link": "https://www.sanin-chuo.co.jp/articles/-/601592",
-          "published": "2024/7/1 04:00",
+          "published": "2024/7/1 4:00",
           "paid": true
         }
       ]
@@ -187,6 +207,52 @@
           "title": "＜主張＞能登地震から半年　教訓生かす連携を築こう　長期的な被災者支援が重要だ",
           "link": "https://www.sankei.com/article/20240701-OIN7HIAKTFIBNOXK7G72U3H2AU/",
           "published": "2024/7/1 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "三菱UFJに処分　顧客軽視の経営責任重い",
+          "link": "https://mainichi.jp/articles/20240701/ddm/005/070/010000c",
+          "published": "2024/7/1 02:00",
+          "paid": false
+        },
+        {
+          "title": "国安法施行4年の香港　締め付け強化を憂慮する",
+          "link": "https://mainichi.jp/articles/20240701/ddm/005/070/009000c",
+          "published": "2024/7/1 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］円安の影響を注視し内需の成長を盤石に",
+          "link": "https://www.nikkei.com/article/DGXZQOCD016VJ0R00C24A7000000/",
+          "published": "2024/7/1 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］令和の皇室外交をさらに前へ",
+          "link": "https://www.nikkei.com/article/DGXZQODK0143U0R00C24A7000000/",
+          "published": "2024/7/1 19:00",
           "paid": false
         }
       ]

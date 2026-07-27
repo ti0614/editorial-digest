@@ -30,7 +30,7 @@
         {
           "title": "【漁業の新規就業増】担い手確保へ後押しを（６月２２日）",
           "link": "https://www.minpo.jp/articles/-/56105",
-          "published": "2024/06/22 08:52",
+          "published": "2024/6/22 8:52",
           "paid": false
         }
       ]
@@ -43,7 +43,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "熱中症の季節、命守る知恵を広げよう",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1088003.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年6月22日(土)  11:10",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -101,7 +108,7 @@
         {
           "title": "論説　民撰議院設立建白書150年　後世に恥じない政治を",
           "link": "https://www.sanin-chuo.co.jp/articles/-/596787",
-          "published": "2024/6/22 04:00",
+          "published": "2024/6/22 4:00",
           "paid": true
         }
       ]
@@ -210,6 +217,52 @@
           "title": "＜主張＞梅雨入り　豪雨と猛暑から命を守れ",
           "link": "https://www.sankei.com/article/20240622-XWJQUSSIWRLZPKEMEJ2LGSMB4E/",
           "published": "2024/6/22 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "国会閉会と岸田首相　政権の機能不全あらわに",
+          "link": "https://mainichi.jp/articles/20240622/ddm/005/070/129000c",
+          "published": "2024/6/22 02:03",
+          "paid": false
+        },
+        {
+          "title": "金利ある世界と「骨太」　放漫財政への危機感欠く",
+          "link": "https://mainichi.jp/articles/20240622/ddm/005/070/128000c",
+          "published": "2024/6/22 02:03",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］「言論の府」の改革を置き去りにするな",
+          "link": "https://www.nikkei.com/article/DGXZQODK213SA0R20C24A6000000/",
+          "published": "2024/6/22 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］官民で航空燃料不足の克服を",
+          "link": "https://www.nikkei.com/article/DGXZQODK21B860R20C24A6000000/",
+          "published": "2024/6/22 19:00",
           "paid": false
         }
       ]

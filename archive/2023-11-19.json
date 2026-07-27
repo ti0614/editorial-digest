@@ -9,7 +9,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "男性の性暴力被害　政府が主体的に対策を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1035979.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2023年11月19日(日)  09:40",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -67,7 +74,7 @@
         {
           "title": "論説　「おろち号」ラストラン　路線存続へ資源結集を",
           "link": "https://www.sanin-chuo.co.jp/articles/-/484426",
-          "published": "2023/11/19 04:00",
+          "published": "2023/11/19 4:00",
           "paid": true
         }
       ]
@@ -136,6 +143,92 @@
           "title": "【社説】ガザ安保理決議　早期停戦へ具体的行動を",
           "link": "https://www.nishinippon.co.jp/item/1147694/",
           "published": "2023/11/19 06:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "日ASEAN協力50年　信頼に基づく関係強化を",
+          "link": "https://mainichi.jp/articles/20231119/ddm/005/070/081000c",
+          "published": "2023/11/19 02:02",
+          "paid": false
+        },
+        {
+          "title": "EUがメタの広告規制　「無料」の代価を考えたい",
+          "link": "https://mainichi.jp/articles/20231119/ddm/005/070/079000c",
+          "published": "2023/11/19 02:02",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］IPEFの存在意義が問われている",
+          "link": "https://www.nikkei.com/article/DGXZQODK182HK0Y3A111C2000000/",
+          "published": "2023/11/19 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］油断許さぬ大手行の好業績",
+          "link": "https://www.nikkei.com/article/DGXZQODK170WY0X11C23A1000000/",
+          "published": "2023/11/19 19:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【主張】ＩＰＥＦ首脳声明　残る「貿易」も交渉加速を",
+          "link": "https://www.sankei.com/article/20231119-V3DZKE5ZHNP3REJCG4YCSWPBN4/",
+          "published": "2023/11/19 5:00",
+          "paid": false
+        },
+        {
+          "title": "【主張】観光公害　住民の生活守る対策急げ",
+          "link": "https://www.sankei.com/article/20231119-XBUGZIL2TJPXJHPVYIFDE3SUCI/",
+          "published": "2023/11/19 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【大谷選手ＭＶＰ】際立つひたむきな努力",
+          "link": "https://www.kochinews.co.jp/article/detail/697694",
+          "published": "2023.11.19 05:00",
           "paid": false
         }
       ]

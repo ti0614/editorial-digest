@@ -95,7 +95,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "維新代表選　全国政党へ議論尽くせ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1128300.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年11月25日(月)  10:10",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -105,7 +112,20 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "選手が安心できる環境守れ　性的画像被害撲滅声明から４年　【論説】",
+          "link": "https://www.chibanippo.co.jp/news/national/1306192",
+          "published": "2024/11/25 5:00",
+          "paid": true
+        },
+        {
+          "title": "歴史と音色、より有効活用を　君津の文化資産「松本ピアノ」　【論説】",
+          "link": "https://www.chibanippo.co.jp/news/local/1306191",
+          "published": "2024/11/25 5:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "新潟日報",
@@ -153,7 +173,7 @@
         {
           "title": "論説　女性への暴力撤廃　まずは話してみよう",
           "link": "https://www.sanin-chuo.co.jp/articles/-/685531",
-          "published": "2024/11/25 04:00",
+          "published": "2024/11/25 4:00",
           "paid": true
         }
       ]

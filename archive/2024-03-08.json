@@ -36,7 +36,7 @@
         {
           "title": "【震災１３年　県芸術祭】文化を復興の力に（３月８日）",
           "link": "https://www.minpo.jp/articles/-/56724",
-          "published": "2024/03/08 08:51",
+          "published": "2024/3/8 8:51",
           "paid": false
         }
       ]
@@ -49,7 +49,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "国際女性デー　古い価値観捨て去ろう",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1061996.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年3月8日(金)  11:10",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -107,7 +114,7 @@
         {
           "title": "論説　福島事故とエネルギー政策　原発のリスク再認識を",
           "link": "https://www.sanin-chuo.co.jp/articles/-/540043",
-          "published": "2024/3/8 04:00",
+          "published": "2024/3/8 4:00",
           "paid": true
         }
       ]
@@ -216,6 +223,52 @@
           "title": "＜主張＞国際女性デー　能力発揮しやすい社会に",
           "link": "https://www.sankei.com/article/20240308-YCWFTTQAGVKL7KHK3REFRH2UDY/",
           "published": "2024/3/8 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "日産の支払い減額強要　許されぬ下請けへの圧迫",
+          "link": "https://mainichi.jp/articles/20240308/ddm/005/070/066000c",
+          "published": "2024/3/8 02:01",
+          "paid": false
+        },
+        {
+          "title": "茂木幹事長の政治資金　透明性損なう「脱法行為」",
+          "link": "https://mainichi.jp/articles/20240308/ddm/005/070/068000c",
+          "published": "2024/3/8 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］取引慣行に見直し迫る日産の下請法違反",
+          "link": "https://www.nikkei.com/article/DGXZQODK085G10Y4A300C2000000/",
+          "published": "2024/3/8 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］バイデン大統領の「米国第一」も心配だ",
+          "link": "https://www.nikkei.com/article/DGXZQODK082IO0Y4A300C2000000/",
+          "published": "2024/3/8 19:00",
           "paid": false
         }
       ]

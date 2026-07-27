@@ -76,7 +76,7 @@
         {
           "title": "【官民チーム１０年】「つなぐ」役目、徹底を（８月２９日）",
           "link": "https://www.minpo.jp/articles/-/53254",
-          "published": "2025/08/29 09:13",
+          "published": "2025/8/29 9:13",
           "paid": false
         }
       ]
@@ -188,7 +188,7 @@
         {
           "title": "論説　広がる宿泊税　使途を公表し透明化を",
           "link": "https://www.sanin-chuo.co.jp/articles/-/847994",
-          "published": "2025/8/29 04:00",
+          "published": "2025/8/29 4:00",
           "paid": true
         }
       ]
@@ -321,6 +321,29 @@
           "link": "https://www.sankei.com/article/20250829-YBLQX6BSXNNBDDQ3ORH25KC6XI/",
           "published": "2025/8/29 5:00",
           "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【過疎地に行政拠点】集いの場にも生かしたい",
+          "link": "https://www.hokkoku.co.jp/articles/-/1850837",
+          "published": "2025/8/29 5:00",
+          "paid": true
+        },
+        {
+          "title": "社説【介護施設で殺人】異変に気づく体制は十分か",
+          "link": "https://www.hokkoku.co.jp/articles/-/1850836",
+          "published": "2025/8/29 5:00",
+          "paid": true
         }
       ]
     }

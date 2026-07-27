@@ -13,7 +13,7 @@
         {
           "title": "【新ＮＩＳＡ】顧客に寄り添い対応を（１１月４日）",
           "link": "https://www.minpo.jp/articles/-/57460",
-          "published": "2023/11/04 08:53",
+          "published": "2023/11/4 8:53",
           "paid": false
         }
       ]
@@ -84,7 +84,7 @@
         {
           "title": "論説　日大アメフト部の薬物事件　再生への期待裏切った",
           "link": "https://www.sanin-chuo.co.jp/articles/-/477010",
-          "published": "2023/11/4 04:00",
+          "published": "2023/11/4 4:00",
           "paid": true
         }
       ]
@@ -153,6 +153,92 @@
           "title": "【社説】首相の任命責任　適材適所がうつろに響く",
           "link": "https://www.nishinippon.co.jp/item/1143035/",
           "published": "2023/11/04 06:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "糖尿病の呼称変更　社会の理解深める契機に",
+          "link": "https://mainichi.jp/articles/20231104/ddm/005/070/049000c",
+          "published": "2023/11/4 02:00",
+          "paid": false
+        },
+        {
+          "title": "ライドシェアの解禁　安全優先で日本型革新を",
+          "link": "https://mainichi.jp/articles/20231104/ddm/005/070/051000c",
+          "published": "2023/11/4 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］大統領選に左右されない日米関係を築け",
+          "link": "https://www.nikkei.com/article/DGXZQODK023150S3A101C2000000/",
+          "published": "2023/11/4 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］日大の統治不全は深刻だ",
+          "link": "https://www.nikkei.com/article/DGXZQODK029I50S3A101C2000000/",
+          "published": "2023/11/4 19:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "産経新聞",
+      "category": "主張",
+      "tier": "national",
+      "index_url": "https://www.sankei.com/column/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【主張】露の「スパイ」指定　クナーゼ氏の声を消すな",
+          "link": "https://www.sankei.com/article/20231104-DAL3NPF76JLABAUM5PFBST2RCU/",
+          "published": "2023/11/4 5:00",
+          "paid": false
+        },
+        {
+          "title": "【主張】脳死判定１０００例　移植が当たり前の医療に",
+          "link": "https://www.sankei.com/article/20231104-EQGJKX7NDVOSPPOBQYU3EOLBL4/",
+          "published": "2023/11/4 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【政務三役の辞任】党組織にも問題がある",
+          "link": "https://www.kochinews.co.jp/article/detail/693932",
+          "published": "2023.11.04 08:00",
           "paid": false
         }
       ]

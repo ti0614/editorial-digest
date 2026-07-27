@@ -36,7 +36,7 @@
         {
           "title": "【外国籍の児童生徒】日本語理解へ支援急務（５月２２日）",
           "link": "https://www.minpo.jp/articles/-/56275",
-          "published": "2024/05/22 08:51",
+          "published": "2024/5/22 8:51",
           "paid": false
         }
       ]
@@ -49,7 +49,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "環境省のマイク遮断　寄り添う意識、自覚せよ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1079678.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年5月22日(水)  10:30",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -107,7 +114,7 @@
         {
           "title": "論説　政治資金規正法審議入り　他党の主張 受け入れよ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/578809",
-          "published": "2024/5/22 04:00",
+          "published": "2024/5/22 4:00",
           "paid": true
         }
       ]
@@ -216,6 +223,52 @@
           "title": "＜主張＞強制起訴１５年　なぜ見直しをしないのか",
           "link": "https://www.sankei.com/article/20240522-UOV2LQ2YORKV5HZ3IDZYNECEXM/",
           "published": "2024/5/22 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "犯罪被害者の支援制度　実情踏まえ一層の充実を",
+          "link": "https://mainichi.jp/articles/20240522/ddm/005/070/115000c",
+          "published": "2024/5/22 02:01",
+          "paid": false
+        },
+        {
+          "title": "イラン大統領が墜落死　中東混乱への波及危ぶむ",
+          "link": "https://mainichi.jp/articles/20240522/ddm/005/070/116000c",
+          "published": "2024/5/22 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］政治資金の不正根絶へ実効ある法改正を",
+          "link": "https://www.nikkei.com/article/DGXZQODK2279M0S4A520C2000000/",
+          "published": "2024/5/22 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］再審制度の見直しが急務だ",
+          "link": "https://www.nikkei.com/article/DGXZQODK2244F0S4A520C2000000/",
+          "published": "2024/5/22 19:00",
           "paid": false
         }
       ]

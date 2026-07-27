@@ -36,7 +36,7 @@
         {
           "title": "【水道耐震化】相次ぐ災害へ備え急げ（６月１７日）",
           "link": "https://www.minpo.jp/articles/-/56126",
-          "published": "2024/06/17 08:52",
+          "published": "2024/6/17 8:52",
           "paid": false
         }
       ]
@@ -49,7 +49,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "リニア中央新幹線　誠実こそ推進の近道だ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1086387.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年6月17日(月)  09:40",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -59,7 +66,20 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "市民巻き込み魅力発信を　千葉市が「オオガハス行動計画」　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1238331",
+          "published": "2024/6/17 5:00",
+          "paid": true
+        },
+        {
+          "title": "シェルター活用、備え急げ　指定進む熱中症対策施設　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1238330",
+          "published": "2024/6/17 5:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "新潟日報",
@@ -90,7 +110,7 @@
         {
           "title": "論説　Ｇ７サミット　和平へ覚悟が試される",
           "link": "https://www.sanin-chuo.co.jp/articles/-/593540",
-          "published": "2024/6/17 04:00",
+          "published": "2024/6/17 4:00",
           "paid": true
         }
       ]
@@ -182,6 +202,52 @@
           "title": "＜主張＞世界平和サミット　ウクライナを支え続けよ",
           "link": "https://www.sankei.com/article/20240617-UF46EYXTMVNSDNC2HT6HO3OYJQ/",
           "published": "2024/6/17 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "能登半島地震の関連死　教訓踏まえ命守る対策を",
+          "link": "https://mainichi.jp/articles/20240617/ddm/005/070/018000c",
+          "published": "2024/6/17 02:01",
+          "paid": false
+        },
+        {
+          "title": "NHKがネット受信料　「公共」の意味が問われる",
+          "link": "https://mainichi.jp/articles/20240617/ddm/005/070/016000c",
+          "published": "2024/6/17 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］外国人材の意欲と安心高める育成就労を",
+          "link": "https://www.nikkei.com/article/DGXZQODK175CR0X10C24A6000000/",
+          "published": "2024/6/17 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］ウクライナ和平への第一歩に",
+          "link": "https://www.nikkei.com/article/DGXZQODK143800U4A610C2000000/",
+          "published": "2024/6/17 19:00",
           "paid": false
         }
       ]

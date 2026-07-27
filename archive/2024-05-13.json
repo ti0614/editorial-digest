@@ -1,0 +1,28 @@
+{
+  "date": "2024-05-13",
+  "sources": [
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］経済機密守る新制度は透明性高い運用を",
+          "link": "https://www.nikkei.com/article/DGXZQODK122EY0S4A510C2000000/",
+          "published": "2024/5/13 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］ラファ侵攻の惨禍を避けよ",
+          "link": "https://www.nikkei.com/article/DGXZQODK1352X0T10C24A5000000/",
+          "published": "2024/5/13 19:00",
+          "paid": false
+        }
+      ]
+    }
+  ]
+}

@@ -36,7 +36,7 @@
         {
           "title": "【衆院補選自民全敗】首相は民意に応えよ（４月２９日）",
           "link": "https://www.minpo.jp/articles/-/56402",
-          "published": "2024/04/29 08:52",
+          "published": "2024/4/29 8:52",
           "paid": false
         }
       ]
@@ -49,7 +49,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "国民スポーツ大会　時代に即し変革議論を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1074364.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年4月29日(月)  09:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -59,7 +66,20 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "地域格差踏まえ持続追求を　消滅可能性自治体４割　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1219230",
+          "published": "2024/4/29 5:00",
+          "paid": true
+        },
+        {
+          "title": "存続には慣例脱却不可欠　国体から国スポへ　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1219231",
+          "published": "2024/4/29 5:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "新潟日報",
@@ -107,7 +127,7 @@
         {
           "title": "論説　衆院島根１区は亀井氏　地域再生に全力尽くせ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/567139",
-          "published": "2024/4/29 04:00",
+          "published": "2024/4/29 4:00",
           "paid": true
         }
       ]
@@ -199,6 +219,52 @@
           "title": "＜主張＞衆院３補選　自民は「全敗」を直視せよ",
           "link": "https://www.sankei.com/article/20240429-I5VL6RFZXZN6ZCDIIQDH222BGA/",
           "published": "2024/4/29 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "衆院3補選で自民全敗　首相への不信任に等しい",
+          "link": "https://mainichi.jp/articles/20240429/ddm/005/070/008000c",
+          "published": "2024/4/29 02:01",
+          "paid": false
+        },
+        {
+          "title": "米国務長官の訪中　責任果たす対話の継続を",
+          "link": "https://mainichi.jp/articles/20240429/ddm/005/070/007000c",
+          "published": "2024/4/29 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］Google処分が映すデジタル規制の課題",
+          "link": "https://www.nikkei.com/article/DGXZQODK267WP0W4A420C2000000/",
+          "published": "2024/4/29 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］訪日客300万人を生かそう",
+          "link": "https://www.nikkei.com/article/DGXZQODK269K20W4A420C2000000/",
+          "published": "2024/4/29 19:00",
           "paid": false
         }
       ]

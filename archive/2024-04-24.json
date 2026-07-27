@@ -36,7 +36,7 @@
         {
           "title": "【いわきの休園基準】実効性のある運用を（４月２４日）",
           "link": "https://www.minpo.jp/articles/-/56432",
-          "published": "2024/04/24 08:50",
+          "published": "2024/4/24 8:50",
           "paid": false
         }
       ]
@@ -49,7 +49,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "「大東亜戦争」投稿　歴史認識深める契機に",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1073159.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年4月24日(水)  09:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -107,7 +114,7 @@
         {
           "title": "論説　米国のウクライナ支援　「政争の具」にするな",
           "link": "https://www.sanin-chuo.co.jp/articles/-/564540",
-          "published": "2024/4/24 04:00",
+          "published": "2024/4/24 4:00",
           "paid": true
         }
       ]
@@ -216,6 +223,52 @@
           "title": "＜主張＞戦略的互恵関係　誤解を招く「言葉遊び」だ",
           "link": "https://www.sankei.com/article/20240424-LQL5GKHOTNN5RLQFSOHVO4VKOY/",
           "published": "2024/4/24 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "公取委がグーグル処分　1強のゆがみ是正が急務",
+          "link": "https://mainichi.jp/articles/20240424/ddm/005/070/120000c",
+          "published": "2024/4/24 02:01",
+          "paid": false
+        },
+        {
+          "title": "中国と台湾新政権　緊張高めぬ取り組みこそ",
+          "link": "https://mainichi.jp/articles/20240424/ddm/005/070/119000c",
+          "published": "2024/4/24 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］国の基金は不断の見直しで無駄をなくせ",
+          "link": "https://www.nikkei.com/article/DGXZQODK236EX0T20C24A4000000/",
+          "published": "2024/4/24 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］停滞許されぬウクライナ支援",
+          "link": "https://www.nikkei.com/article/DGXZQODK2456V0U4A420C2000000/",
+          "published": "2024/4/24 19:00",
           "paid": false
         }
       ]

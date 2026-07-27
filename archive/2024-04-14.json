@@ -32,7 +32,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "横浜の農業　課題克服し未来の姿を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1070746.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年4月14日(日)  09:50",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -42,7 +49,20 @@
       "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "地域の実情考慮し運用を　日本版ライドシェア始動　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1213297",
+          "published": "2024/4/14 5:00",
+          "paid": true
+        },
+        {
+          "title": "「千葉モデル」確立に期待　県の「週休３日制」導入　【論説】",
+          "link": "https://www.chibanippo.co.jp/serial/1213298",
+          "published": "2024/4/14 5:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "新潟日報",
@@ -90,7 +110,7 @@
         {
           "title": "論説　大阪・関西万博まで１年　現実変える道を照らせ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/559170",
-          "published": "2024/4/14 04:00",
+          "published": "2024/4/14 4:00",
           "paid": true
         }
       ]
@@ -188,6 +208,29 @@
           "title": "＜主張＞韓国与党大敗　日米との結束を堅持せよ",
           "link": "https://www.sankei.com/article/20240414-J3TDJGRRVBORBG7H4TCQON3AIY/",
           "published": "2024/4/14 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "障害者への合理的配慮　社会全体で理解深めたい",
+          "link": "https://mainichi.jp/articles/20240414/ddm/005/070/086000c",
+          "published": "2024/4/14 02:02",
+          "paid": false
+        },
+        {
+          "title": "経産省の書店振興　本に親しむ空間どう守る",
+          "link": "https://mainichi.jp/articles/20240414/ddm/005/070/085000c",
+          "published": "2024/4/14 02:02",
           "paid": false
         }
       ]

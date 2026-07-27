@@ -82,7 +82,7 @@
         {
           "title": "【政府の経済対策】「賢い支出」考えたい（１１月２３日）",
           "link": "https://www.minpo.jp/articles/-/54795",
-          "published": "2024/11/23 09:16",
+          "published": "2024/11/23 9:16",
           "paid": false
         }
       ]
@@ -95,7 +95,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "マイナ保険証　公的保険の信頼損なう",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1127986.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年11月23日(土)  09:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -153,7 +160,7 @@
         {
           "title": "論説　大谷、３度目ＭＶＰ　常識外に挑んだ偉業",
           "link": "https://www.sanin-chuo.co.jp/articles/-/684682",
-          "published": "2024/11/23 04:00",
+          "published": "2024/11/23 4:00",
           "paid": true
         }
       ]

@@ -13,7 +13,7 @@
         {
           "title": "【サイバー犯罪被害】手口理解し自衛策を（１２月１３日）",
           "link": "https://www.minpo.jp/articles/-/57202",
-          "published": "2023/12/13 08:52",
+          "published": "2023/12/13 8:52",
           "paid": false
         }
       ]
@@ -26,7 +26,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "介護監禁事件判決　社会の理解を深めたい",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1041906.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2023年12月13日(水)  10:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -84,7 +91,7 @@
         {
           "title": "論説　安倍派閣僚一掃へ　政権存続に大きな疑義",
           "link": "https://www.sanin-chuo.co.jp/articles/-/496656",
-          "published": "2023/12/13 04:00",
+          "published": "2023/12/13 4:00",
           "paid": true
         }
       ]
@@ -176,6 +183,69 @@
           "title": "【主張】マイナ総点検　信頼回復に全力を挙げよ",
           "link": "https://www.sankei.com/article/20231213-6JS57EY5NZJQHPSFVTRZ5PGAJE/",
           "published": "2023/12/13 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "悪質ホストクラブ問題　売春生む商法許されない",
+          "link": "https://mainichi.jp/articles/20231213/ddm/005/070/073000c",
+          "published": "2023/12/13 02:01",
+          "paid": false
+        },
+        {
+          "title": "今年も党首討論ゼロ　やる気のなさが目に余る",
+          "link": "https://mainichi.jp/articles/20231213/ddm/005/070/072000c",
+          "published": "2023/12/13 02:01",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］疑惑の幕引きや政治停滞は許されない",
+          "link": "https://www.nikkei.com/article/DGXZQODK134CE0T11C23A2000000/",
+          "published": "2023/12/13 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］中小の景況改善に持続力を",
+          "link": "https://www.nikkei.com/article/DGXZQODK137280T11C23A2000000/",
+          "published": "2023/12/13 19:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【少子化対策】財源の安定性に懸念残る",
+          "link": "https://www.kochinews.co.jp/article/detail/704053",
+          "published": "2023.12.13 08:00",
           "paid": false
         }
       ]

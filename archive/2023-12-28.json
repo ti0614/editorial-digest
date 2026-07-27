@@ -13,7 +13,7 @@
         {
           "title": "【いわきの豪雨被害】再発防止の対策急務（１２月２８日）",
           "link": "https://www.minpo.jp/articles/-/57130",
-          "published": "2023/12/28 08:51",
+          "published": "2023/12/28 8:51",
           "paid": false
         }
       ]
@@ -26,7 +26,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "県営水道値上げ　丁寧な説明が欠かせぬ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1045582.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2023年12月28日(木)  10:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -84,7 +91,7 @@
         {
           "title": "論説　冤罪捜査に民事判決　まず謝罪、それからだ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/504372",
-          "published": "2023/12/28 04:00",
+          "published": "2023/12/28 4:00",
           "paid": true
         }
       ]
@@ -176,6 +183,69 @@
           "title": "【主張】公安に違法判決　輸出管理捜査を立て直せ",
           "link": "https://www.sankei.com/article/20231228-DDOKHKZ7I5ICZFAH3RCZCAEOS4/",
           "published": "2023/12/28 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "東京都と国に賠償命令　冤罪招く違法捜査を糾弾",
+          "link": "https://mainichi.jp/articles/20231228/ddm/005/070/107000c",
+          "published": "2023/12/28 02:00",
+          "paid": false
+        },
+        {
+          "title": "物価高騰下の春闘　持続的な賃上げの実現を",
+          "link": "https://mainichi.jp/articles/20231228/ddm/005/070/106000c",
+          "published": "2023/12/28 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］対話せず代執行に頼った国は反省せよ",
+          "link": "https://www.nikkei.com/article/DGXZQODK282LT0Y3A221C2000000/",
+          "published": "2023/12/28 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］買収事件招いた自民の責任",
+          "link": "https://www.nikkei.com/article/DGXZQODK281ZT0Y3A221C2000000/",
+          "published": "2023/12/28 19:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "高知新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "【学術会議改革】独立性が揺らぎかねない",
+          "link": "https://www.kochinews.co.jp/article/detail/709930",
+          "published": "2023.12.28 05:00",
           "paid": false
         }
       ]

@@ -59,7 +59,7 @@
         {
           "title": "【犯罪被害者支援】市町村で条例化進めて（８月２７日）",
           "link": "https://www.minpo.jp/articles/-/55639",
-          "published": "2024/08/27 08:51",
+          "published": "2024/8/27 8:51",
           "paid": false
         }
       ]
@@ -72,7 +72,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "止まらぬ詐欺被害　抜本対策が欠かせない",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1105368.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年8月27日(火)  10:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -130,7 +137,7 @@
         {
           "title": "論説　辺野古埋め立て　国策の強行 看過できぬ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/634697",
-          "published": "2024/8/27 04:00",
+          "published": "2024/8/27 4:00",
           "paid": true
         }
       ]
@@ -239,6 +246,29 @@
           "title": "＜主張＞教員「残業代」増　指導力の向上が不可欠だ",
           "link": "https://www.sankei.com/article/20240827-IUNXK4G57VKLDBJPRMPI44LI7Y/",
           "published": "2024/8/27 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］「デジタル赤字」を埋める新たな稼ぎ手を",
+          "link": "https://www.nikkei.com/article/DGXZQODK264MP0W4A820C2000000/",
+          "published": "2024/8/27 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］テレグラム逮捕劇が問う責任",
+          "link": "https://www.nikkei.com/article/DGXZQODK278EY0X20C24A8000000/",
+          "published": "2024/8/27 19:00",
           "paid": false
         }
       ]

@@ -82,7 +82,7 @@
         {
           "title": "【「応援団」発言】当事者意識はあるのか（９月１１日）",
           "link": "https://www.minpo.jp/articles/-/53006",
-          "published": "2025/09/11 09:12",
+          "published": "2025/9/11 9:12",
           "paid": false
         }
       ]
@@ -194,7 +194,7 @@
         {
           "title": "論説　イスラエルのカタール空爆　停戦努力踏みにじった",
           "link": "https://www.sanin-chuo.co.jp/articles/-/856125",
-          "published": "2025/9/11 04:00",
+          "published": "2025/9/11 4:00",
           "paid": true
         }
       ]
@@ -327,6 +327,29 @@
           "link": "https://www.sankei.com/article/20250911-OH76UYGPL5PZPDKFROTO72IDPU/",
           "published": "2025/9/11 5:00",
           "paid": false
+        }
+      ]
+    },
+    {
+      "name": "北國新聞",
+      "category": "社説",
+      "tier": "regional",
+      "index_url": "https://www.hokkoku.co.jp/category/editorial",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "社説【対米８０兆円投資】意図見抜き、波風立てず",
+          "link": "https://www.hokkoku.co.jp/articles/-/1863815",
+          "published": "2025/9/11 5:00",
+          "paid": true
+        },
+        {
+          "title": "社説【麦屋節交流】「兄弟の絆」再認識の好機",
+          "link": "https://www.hokkoku.co.jp/articles/-/1863814",
+          "published": "2025/9/11 5:00",
+          "paid": true
         }
       ]
     }

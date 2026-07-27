@@ -82,7 +82,7 @@
         {
           "title": "【骨髄バンク登録】教育機関と連携強化を（１２月３日）",
           "link": "https://www.minpo.jp/articles/-/54754",
-          "published": "2024/12/03 09:28",
+          "published": "2024/12/3 9:28",
           "paid": false
         }
       ]
@@ -112,7 +112,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "持続可能な航空燃料「ＳＡＦ」量産開始　原料確保へ意義発信を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1130408.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年12月3日(火)  10:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -170,7 +177,7 @@
         {
           "title": "論説　代表質問スタート　説得力ある論戦を望む",
           "link": "https://www.sanin-chuo.co.jp/articles/-/690244",
-          "published": "2024/12/3 04:00",
+          "published": "2024/12/3 4:00",
           "paid": true
         }
       ]

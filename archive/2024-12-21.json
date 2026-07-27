@@ -76,7 +76,7 @@
         {
           "title": "【与党税制大綱決定】政治決着には疑問残る（１２月２１日）",
           "link": "https://www.minpo.jp/articles/-/54706",
-          "published": "2024/12/21 09:26",
+          "published": "2024/12/21 9:26",
           "paid": false
         }
       ]
@@ -106,7 +106,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "認知症基本計画　早急に多角的な施策を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1135283.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年12月21日(土)  09:50",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -147,7 +154,7 @@
         {
           "title": "論説　不安払拭へ動機解明を　中学生殺傷事件",
           "link": "https://www.sanin-chuo.co.jp/articles/-/700615",
-          "published": "2024/12/21 04:00",
+          "published": "2024/12/21 4:00",
           "paid": true
         }
       ]

@@ -36,7 +36,7 @@
         {
           "title": "【改正案衆院通過】法の理念忘れてないか（６月７日）",
           "link": "https://www.minpo.jp/articles/-/56183",
-          "published": "2024/06/07 08:53",
+          "published": "2024/6/7 8:53",
           "paid": false
         }
       ]
@@ -49,7 +49,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "ＥＶ関連産業　独自技術基盤に成長を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1083938.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年6月7日(金)  10:45",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -107,7 +114,7 @@
         {
           "title": "論説　政治資金規正法が衆院通過　疑念残さぬ「熟議」を",
           "link": "https://www.sanin-chuo.co.jp/articles/-/588173",
-          "published": "2024/6/7 04:00",
+          "published": "2024/6/7 4:00",
           "paid": true
         }
       ]
@@ -216,6 +223,52 @@
           "title": "＜主張＞鹿児島県警　本部長は説明責任がある",
           "link": "https://www.sankei.com/article/20240607-SJS46MXKW5L55LSEMJ3UMB6LXE/",
           "published": "2024/6/7 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "日本女子ゴルフの躍進　世界の舞台で輝く若い力",
+          "link": "https://mainichi.jp/articles/20240607/ddm/005/070/107000c",
+          "published": "2024/6/7 02:00",
+          "paid": false
+        },
+        {
+          "title": "規正法案が衆院通過　不透明なカネの温存策だ",
+          "link": "https://mainichi.jp/articles/20240607/ddm/005/070/108000c",
+          "published": "2024/6/7 02:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］日本版ライドシェアは第一歩にすぎない",
+          "link": "https://www.nikkei.com/article/DGXZQODK075130X00C24A6000000/",
+          "published": "2024/6/7 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］利下げ後も難題残るECB",
+          "link": "https://www.nikkei.com/article/DGXZQODK077H40X00C24A6000000/",
+          "published": "2024/6/7 19:00",
           "paid": false
         }
       ]

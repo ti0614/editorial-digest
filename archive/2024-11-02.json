@@ -82,7 +82,7 @@
         {
           "title": "【赤べこの日制定】全会津で盛り上げを（１１月２日）",
           "link": "https://www.minpo.jp/articles/-/54903",
-          "published": "2024/11/02 09:24",
+          "published": "2024/11/2 9:24",
           "paid": false
         }
       ]
@@ -112,7 +112,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "闇バイトと広域強盗　「うまい話」まず疑って",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1122692.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年11月2日(土)  09:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -170,7 +177,7 @@
         {
           "title": "論説　闇バイト強盗　絶えず対策の見直しを",
           "link": "https://www.sanin-chuo.co.jp/articles/-/673186",
-          "published": "2024/11/2 04:00",
+          "published": "2024/11/2 4:00",
           "paid": true
         }
       ]

@@ -36,7 +36,7 @@
         {
           "title": "【産業廃棄物税】制度の課題検証を（７月１３日）",
           "link": "https://www.minpo.jp/articles/-/56007",
-          "published": "2024/07/13 08:51",
+          "published": "2024/7/13 8:51",
           "paid": false
         }
       ]
@@ -49,7 +49,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "空襲被害者救済法　もう放置は許されない",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1093662.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2024年7月13日(土)  09:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -107,7 +114,7 @@
         {
           "title": "論説　防衛省大規模処分　国を守る資格あるのか",
           "link": "https://www.sanin-chuo.co.jp/articles/-/608785",
-          "published": "2024/7/13 04:00",
+          "published": "2024/7/13 4:00",
           "paid": true
         }
       ]
@@ -216,6 +223,52 @@
           "title": "＜主張＞ＮＡＴＯ首脳会議　ウクライナ支援を確実に",
           "link": "https://www.sankei.com/article/20240713-VD5XJQDFKZLOLI55WYHX7LJBNQ/",
           "published": "2024/7/13 5:00",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "毎日新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://mainichi.jp/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "不祥事相次ぐ防衛省　国民の信頼大きく損ねた",
+          "link": "https://mainichi.jp/articles/20240713/ddm/005/070/075000c",
+          "published": "2024/7/13 02:04",
+          "paid": false
+        },
+        {
+          "title": "「コロナ後」の感染症　予期せぬ広がりに注意を",
+          "link": "https://mainichi.jp/articles/20240713/ddm/005/070/071000c",
+          "published": "2024/7/13 02:04",
+          "paid": false
+        }
+      ]
+    },
+    {
+      "name": "日本経済新聞",
+      "category": "社説",
+      "tier": "national",
+      "index_url": "https://www.nikkei.com/opinion/editorial/",
+      "error": null,
+      "skipped_by_robots": false,
+      "unavailable_reason": null,
+      "items": [
+        {
+          "title": "［社説］機関投資家は運用力高め要の役目果たせ",
+          "link": "https://www.nikkei.com/article/DGXZQODK12A480S4A710C2000000/",
+          "published": "2024/7/13 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］自治体の公益通報は十分か",
+          "link": "https://www.nikkei.com/article/DGXZQODK127VA0S4A710C2000000/",
+          "published": "2024/7/13 19:00",
           "paid": false
         }
       ]

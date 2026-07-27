@@ -43,7 +43,14 @@
       "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "サイバー防御法案　懸念の払拭が大前提だ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1150439.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2025年2月23日(日)  10:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "千葉日報",
@@ -101,7 +108,7 @@
         {
           "title": "論説　自公維協議　熟議欠いた３党合意だ",
           "link": "https://www.sanin-chuo.co.jp/articles/-/734191",
-          "published": "2025/2/23 04:00",
+          "published": "2025/2/23 4:00",
           "paid": true
         }
       ]
