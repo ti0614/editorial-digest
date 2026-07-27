@@ -1,4 +1,4 @@
-name: today.htmlをGitHub Pagesに公開
+name: 社説まとめサイトをGitHub Pagesに公開
 
 on:
   schedule:
