@@ -76,7 +76,7 @@ def process_source(
         html = fetch_html(index_url)
         items = extract_items(html, index_url, source, reference_date, window_days=window_days)
         if same_day_only:
-            # 当日版では対象外の記事のために個別ページへ追加アクセスしない
+            # today.htmlでは対象外の記事のために個別ページへ追加アクセスしない
             # よう、時刻補完(enrich_missing_times)の前に当日分へ絞り込む。
             items = [it for it in items if is_same_day(it.published, reference_date)]
         if fetch_times:

@@ -86,12 +86,12 @@ python main.py archive-page
   が`reference_date`を基準にすべて正規化し、素朴にパースした結果が未来日に
   なる場合は前年・前月に補正する。`within_window`（`check`/`today`の既定の
   直近日数フィルタ、`backfill_archive.py`は独自のウィンドウ幅で呼び出す）
-  と`is_same_day`（当日版用）はどちらもこのパーサーの上に構築されており、
+  と`is_same_day`（today.html用）はどちらもこのパーサーの上に構築されており、
   どちらも解釈できない日付は既定で除外せず含める方針 —— 記事を静かに
   取りこぼす方が、過剰に含めてしまうより悪いという判断。
 - **`render.py`** — 純粋なテンプレート化: `list[SourceResult]`を自己完結型の
   HTML文字列に変換する（インラインCSS/JS、外部CDN・Webフォント不使用）。
-  `render_today_html()`が当日版（`today.html`）を生成する —— セクションは
+  `render_today_html()`が`today.html`を生成する —— セクションは
   1つのみで日付ナビは無く、ある紙が0件でも失敗扱いにはしない（新聞社に
   よっては毎日社説を掲載するとは限らないため）。tier切替チップ・会員限定
   トグルは3種（national/block/regional）の表示/非表示を body classes +
@@ -115,10 +115,10 @@ digest.htmlの表示内容を機能的に包含する状態になったため、
 `render_html()`ごと削除した。同じ判断のもと`sources.yaml`/READMEにある紙単位の
 記載も1週間分を前提にしていた説明を`today`/`archive`基準に書き換えている。
 
-### 当日版の絞り込み
+### today.htmlの絞り込み
 
 `process_source()`は`same_day_only`フラグを取る。これを設定すると、基準日への
-絞り込みが`enrich_missing_times()`より*前*に行われるため、当日版では、
+絞り込みが`enrich_missing_times()`より*前*に行われるため、today.htmlでは、
 どのみち捨てられる古い記事のために記事個別ページへ余計なリクエストを送らずに
 済む —— この順序は正確性・リクエスト数の両方に関わる。
 

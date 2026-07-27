@@ -1,6 +1,6 @@
 """main.py が取得した結果 (SourceResult のリスト) から、モバイル向けの
-自己完結型Webページを生成するモジュール。`render_today_html()`が当日版
-(output/today.html)、`render_archive_html()`がアーカイブ検索
+自己完結型Webページを生成するモジュール。`render_today_html()`が本日分のみの
+ページ(output/today.html)、`render_archive_html()`がアーカイブ検索
 (output/archive.html)を生成する。いずれも`_render_page()`が組み立てる共通の
 ページ骨格（head/masthead/footer/script）を共有し、見出し・概要・ナビ・本文・
 フッター文言など異なる部分だけを差し替える。
@@ -150,7 +150,7 @@ a.article time {
 
 .empty-today { color: var(--ink-faint); font-size: 0.88rem; padding: 1.5rem 0.15rem; }
 
-.search-panel { background: var(--surface); border: 1px solid var(--rule); border-radius: 10px; padding: 0.9rem; }
+.search-panel { background: var(--surface); border: 1px solid var(--rule); border-radius: 10px; padding: 0.9rem; margin-top: 1rem; }
 .search-panel-label {
   display: flex; align-items: baseline; justify-content: space-between; gap: 0.5rem;
   font-size: 0.72rem; letter-spacing: 0.06em; color: var(--ink-faint); margin: 0 0 0.7rem;
@@ -737,7 +737,7 @@ def _render_page(
     crosslink_html: str, summary_html: str, nav_html: str, main_html: str, footer_html: str,
     script: str = _SCRIPT_TEMPLATE, scope_toggle_html: str | None = None,
 ) -> str:
-    """当日版・アーカイブ検索に共通のページ骨格（head/masthead/
+    """today.html・archive.htmlに共通のページ骨格（head/masthead/
     footer/script）を組み立てる。異なる部分（見出し・概要・ナビ・本文・フッター
     文言）は呼び出し側が文字列として渡す。scriptは既定でtier/会員限定トグルの
     共通スクリプトだが、アーカイブページのように動的読み込みが絡むページは
@@ -835,7 +835,7 @@ def render_today_html(results: list, run_date: date) -> str:
     footer_html = _render_footer(run_date, "（当日分のみ）")
 
     return _render_page(
-        title="社説まとめ 当日版",
+        title="社説まとめ",
         description="全国紙・地方紙の社説（オピニオン）を毎日まとめる非公式リンク集。"
                      "本日分のタイトル・リンク・日付のみを掲載し、本文は各紙サイトでご覧いただけます。",
         canonical_path="",
@@ -849,7 +849,7 @@ def render_today_html(results: list, run_date: date) -> str:
 def render_archive_html() -> str:
     """アーカイブ検索ページ (output/archive.html) を組み立てる。
 
-    当日版と異なり、記事データはビルド時に埋め込まない。
+    today.htmlと異なり、記事データはビルド時に埋め込まない。
     archive/index.json・archive/{date}.json（CIがコミットする日次スナップショット、
     main.py の write_json と同じ形式）をブラウザ側がfetchして検索・一覧表示する
     完全に静的なページなので、results は受け取らない。

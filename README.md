@@ -54,7 +54,7 @@ Artifacts・GitHub Pages など任意の静的ホスティングに公開して�
     維持される。
 - 直近7日分を日付ごとにグルーピングして表示。日付ピルをタップすると
   その日のセクションへジャンプします。
-- **`archive.html`** で過去分を横断検索できます。当日版（`today.html`）が
+- **`archive.html`** で過去分を横断検索できます。`today.html`が
   デプロイのたびに生成する日次スナップショットを `archive/{date}.json` として
   GitHub Pages公開用リポジトリに蓄積し、ブラウザ側でfetchしてタイトル
   キーワード検索・tier絞り込みできる仕組みです（サーバー側での検索処理は
@@ -170,7 +170,7 @@ python main.py check
 # 一部の新聞社だけ確認
 python main.py check --only 朝日新聞 毎日新聞
 
-# 当日分のみを取得して output/today.html（当日版サイト）と
+# 当日分のみを取得して output/today.html と
 # output/YYYY-MM-DD-today.json を生成
 python main.py today
 
@@ -182,7 +182,7 @@ python main.py today --only 朝日新聞 読売新聞 --date 2026-07-21
 python main.py archive-page
 ```
 
-生成された `output/today.html`（当日版）をブラウザで直接開くか、
+生成された `output/today.html` をブラウザで直接開くか、
 Claude Artifacts・GitHub Pages 等に公開してください。
 
 ある紙の掲載が0件でも取得失敗とはみなしません（発行が遅い時間帯の紙や、
@@ -233,7 +233,7 @@ Claude Artifacts・GitHub Pages 等に公開してください。
 
 ## 定期実行・GitHub Pages公開
 
-`.github/workflows/deploy-today.yml` で、当日版（`today.html`）を1日3回
+`.github/workflows/deploy-today.yml` で、`today.html` を1日3回
 （05:10 / 11:10 / 19:10 JST）自動生成し、GitHub Pagesに公開する設定を含めています
 （`workflow_dispatch` で手動実行も可能）。利用するには、リポジトリの
 **Settings > Pages > Build and deployment > Source** を「GitHub Actions」に
