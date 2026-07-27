@@ -1,7 +1,8 @@
 """各紙の published 表記（書式がバラバラ）を実日付に正規化するユーティリティ。
 
-main.py（取得・直近7日間フィルタ）と render.py（Webページの日付見出し
-グルーピング）の両方から共通で使う。
+main.py（取得時の絞り込み。checkは直近7日分、todayは当日分のみ）、
+backfill_archive.py（過去分バックフィルの独自ウィンドウでの絞り込み）、
+render.py（Webページの日付見出しグルーピング）から共通で使う。
 """
 from __future__ import annotations
 

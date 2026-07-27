@@ -203,6 +203,7 @@ Claude Artifacts・GitHub Pages 等に公開してください。
 | `extract.py` | 一覧ページのHTMLから記事(`Item`)を抽出し、不足する時刻を記事個別ページから補う |
 | `pubdate.py` | 各紙バラバラの日付表記を正規化・直近日数/当日フィルタする共通ロジック |
 | `render.py` | 取得結果からWebページ（`output/today.html` / `output/archive.html`）を組み立てるテンプレート |
+| `backfill_archive.py` | アーカイブ過去分の一回限りバックフィル用CLI。ページ送りに対応した紙は広いウィンドウで一覧を遡り、`archive/{date}.json`へ書き出す |
 | `sources.yaml` | 各紙のURL・CSSセレクタ・`tier`（national/regional）などの設定 |
 
 ## 新聞社を追加・修正する

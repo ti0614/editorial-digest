@@ -101,6 +101,17 @@ python main.py archive-page
   表示する完全に静的なページ（詳細は後述）。タイトル検索・日付絞り込み・
   tier切替・会員限定トグルの4条件を1つの検索パネルにまとめ、選択中の条件を
   ＋でつないだ要約バー（AND条件で絞り込めることの可視化）を表示する。
+- **`backfill_archive.py`** — アーカイブ過去分の一回限りバックフィル用CLI。
+  通常運用（`main.py today`）は当日分しか`archive/`に積み上がらないが、
+  各紙の一覧ページにはまだ2〜3週間〜数年分の記事が残っていることがあるため、
+  広いウィンドウ（`--window-days`）で全ソースを取得し記事の実日付ごとに
+  `archive/{date}.json`へ振り分けて書き出す。`sources.yaml`でページ送り設定
+  （`pagination_param`/`pagination_path_template`/`pagination_response_json_field`/
+  `pagination_json_url_template`の4方式）を持つ紙は、ウィンドウ分を使い切る
+  か一覧ページ自体の終端（404）に達するまで次ページを自動取得する。
+  `main.py`から`SourceResult`/`load_sources`/`process_source`/`write_json`/
+  `source_status_label`を再利用しており、通常パイプラインとJSON出力形式を
+  共有する。
 - **`build_archive_index.py`** — `archive/`配下にあるスナップショットJSONの
   ファイル名一覧から`archive/index.json`を再生成する小さなCLIスクリプト。
   CIが当日分を`archive/{date}.json`としてコミットした直後に実行する。
