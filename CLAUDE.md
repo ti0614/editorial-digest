@@ -28,12 +28,6 @@ python main.py check
 # 対象を新聞社名で絞り込んで確認
 python main.py check --only 朝日新聞 毎日新聞
 
-# 全ソースを取得し、output/digest.html（直近7日分）+ output/YYYY-MM-DD.json を生成
-python main.py run
-
-# 対象を絞る／基準日を上書きする場合も同様
-python main.py run --only 朝日新聞 読売新聞 --date 2026-07-21
-
 # 全ソースを取得し、output/today.html（当日分のみ）+
 # output/YYYY-MM-DD-today.json を生成
 python main.py today
@@ -70,7 +64,7 @@ python main.py archive-page
   記事個別ページでは「デジタルプラン等の会員登録が必要」と表示される紙がある
   （岐阜新聞で発生。北日本新聞など既存の`always_paid`紙と同じパターン）。
   一覧ページの見た目だけで無料と判断しないこと。
-- **`main.py`** — CLIエントリーポイント（`check` / `run` / `today` サブ
+- **`main.py`** — CLIエントリーポイント（`check` / `today` / `archive-page` サブ
   コマンド）。ソースを読み込み、`_iter_results`/`process_source`で1件ずつ処理し、
   JSONスナップショット＋HTMLを書き出す。`process_source`は1ソースの失敗を
   `SourceResult.error`に格納するだけで、実行全体は中断しない。ソース間では
@@ -83,34 +77,45 @@ python main.py archive-page
   UTF-8決め打ちで誤デコードするため、意図的に`urllib`ではなくこちらを使用。
 - **`extract.py`** — `extract_items()`が、`sources.yaml`のセレクタを使って
   1ソース分の一覧ページHTMLを`Item(title, link, published, paid)`にパースし、
-  その過程で`within_digest_window`（または当日モードでは`is_same_day`。後述）
+  その過程で`within_window`（または当日モードでは`is_same_day`。後述）
   で絞り込む。`enrich_missing_times()`は second pass で、一覧ページの日付に
   時刻が無い記事について、記事個別ページを取得して`<time>`タグや本文中の
   日付+時刻表記から時刻を補う。
 - **`pubdate.py`** — 日付パースの中核。各紙で日付表記がバラバラなため
   （「2026年7月22日」「7/22」「22日」「時刻のみ」等）、`parse_published_date()`
   が`reference_date`を基準にすべて正規化し、素朴にパースした結果が未来日に
-  なる場合は前年・前月に補正する。`within_digest_window`（週間ダイジェスト用）
+  なる場合は前年・前月に補正する。`within_window`（`check`/`today`の既定の
+  直近日数フィルタ、`backfill_archive.py`は独自のウィンドウ幅で呼び出す）
   と`is_same_day`（当日版用）はどちらもこのパーサーの上に構築されており、
   どちらも解釈できない日付は既定で除外せず含める方針 —— 記事を静かに
   取りこぼす方が、過剰に含めてしまうより悪いという判断。
 - **`render.py`** — 純粋なテンプレート化: `list[SourceResult]`を自己完結型の
   HTML文字列に変換する（インラインCSS/JS、外部CDN・Webフォント不使用）。
-  `render_html()`が週間ダイジェスト（`digest.html`）を生成し、記事を日付ごとに
-  グルーピングして日付ピルのナビと3種（national/block/regional）のtier切替
-  チップを付与する（body classes + localStorageでクライアント側に個別に
-  表示/非表示を保存）。`render_today_html()`が当日版（`today.html`）を生成する
-  —— セクションは1つのみで日付ナビは無く、週間ダイジェストと違い、ある紙が
-  0件でも失敗扱いにはしない（新聞社によっては毎日社説を掲載するとは限らない
-  ため）。`render_archive_html()`が横断検索用の`archive.html`を生成する ——
-  他の2つと違い記事データをビルド時に埋め込まず、`archive/index.json`・
-  `archive/{date}.json`をブラウザ側でfetchして検索・表示する完全に静的な
-  ページ（詳細は後述）。
+  `render_today_html()`が当日版（`today.html`）を生成する —— セクションは
+  1つのみで日付ナビは無く、ある紙が0件でも失敗扱いにはしない（新聞社に
+  よっては毎日社説を掲載するとは限らないため）。tier切替チップ・会員限定
+  トグルは3種（national/block/regional）の表示/非表示を body classes +
+  localStorageでクライアント側に保存する。`render_archive_html()`が横断
+  検索用の`archive.html`を生成する —— 記事データをビルド時に埋め込まず、
+  `archive/index.json`・`archive/{date}.json`をブラウザ側でfetchして検索・
+  表示する完全に静的なページ（詳細は後述）。タイトル検索・日付絞り込み・
+  tier切替・会員限定トグルの4条件を1つの検索パネルにまとめ、選択中の条件を
+  ＋でつないだ要約バー（AND条件で絞り込めることの可視化）を表示する。
 - **`build_archive_index.py`** — `archive/`配下にあるスナップショットJSONの
   ファイル名一覧から`archive/index.json`を再生成する小さなCLIスクリプト。
   CIが当日分を`archive/{date}.json`としてコミットした直後に実行する。
 
-### 当日版 vs 週間版
+### 週間ダイジェスト(digest.html)を廃止した理由
+
+かつて`main.py run`が直近1週間分をまとめた`output/digest.html`を生成していたが、
+実際にはデプロイワークフロー（`deploy-today.yml`）が一度も参照しておらず本番公開
+されたことが無かった。一方`archive.html`が日付ごとのグルーピング・tier切替・
+会員限定トグルという表示形式に加え複数年分の横断検索まで持つようになり、
+digest.htmlの表示内容を機能的に包含する状態になったため、`run`サブコマンドと
+`render_html()`ごと削除した。同じ判断のもと`sources.yaml`/READMEにある紙単位の
+記載も1週間分を前提にしていた説明を`today`/`archive`基準に書き換えている。
+
+### 当日版の絞り込み
 
 `process_source()`は`same_day_only`フラグを取る。これを設定すると、基準日への
 絞り込みが`enrich_missing_times()`より*前*に行われるため、当日版では、
@@ -119,7 +124,7 @@ python main.py archive-page
 
 ### アーカイブの永続化
 
-`output/`は`.gitignore`対象で、`main.py run`/`today`が生成するJSONスナップ
+`output/`は`.gitignore`対象で、`main.py today`が生成するJSONスナップ
 ショットはリポジトリに残らない（GitHub Pagesへのデプロイも毎回総入れ替え
 のため、CI実行が終わると前日以前のデータは消える）。横断検索用のアーカイブは
 これとは別に、CIワークフロー（`deploy-today.yml`）が`output/{date}-today.json`

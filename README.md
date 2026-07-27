@@ -1,7 +1,7 @@
 # 社説まとめツール (editorial-digest)
 
-新聞各社の社説（オピニオン）一覧ページを巡回し、直近1週間分のタイトル・
-リンク・日付をまとめた**Webページ（`output/digest.html`）を生成する**
+新聞各社の社説（オピニオン）一覧ページを巡回し、当日分のタイトル・
+リンク・日付をまとめた**Webページ（`output/today.html`）を生成する**
 ツールです。生成したHTMLはそのままブラウザで開けるほか、Claude
 Artifacts・GitHub Pages など任意の静的ホスティングに公開して、スマホの
 ブラウザなどから閲覧する使い方を想定しています。
@@ -170,30 +170,24 @@ python main.py check
 # 一部の新聞社だけ確認
 python main.py check --only 朝日新聞 毎日新聞
 
-# 全ソースを取得して output/digest.html（サイト本体）と
-# output/YYYY-MM-DD.json（生データのスナップショット）を生成
-python main.py run
-
-# 対象を絞る／基準日を指定する
-python main.py run --only 朝日新聞 読売新聞 --date 2026-07-21
-
 # 当日分のみを取得して output/today.html（当日版サイト）と
 # output/YYYY-MM-DD-today.json を生成
 python main.py today
 
-# today も --only / --date に対応
+# 対象を絞る／基準日を指定する
 python main.py today --only 朝日新聞 読売新聞 --date 2026-07-21
+
+# output/archive.html（アーカイブ検索ページの骨格）のみ生成する
+# （ソース取得は行わない。archive/配下のJSONはブラウザ側でfetchする）
+python main.py archive-page
 ```
 
-生成された `output/digest.html`（週間ダイジェスト）や `output/today.html`
-（当日版）をブラウザで直接開くか、Claude Artifacts・GitHub Pages 等に
-公開してください。
+生成された `output/today.html`（当日版）をブラウザで直接開くか、
+Claude Artifacts・GitHub Pages 等に公開してください。
 
-`today` は `run` と同じ巡回・抽出ロジックを使いますが、基準日と同じ日付の
-記事だけに絞り込んで表示します（`pubdate.py` の `is_same_day`）。ある紙の
-掲載が0件でも、`run` と異なり取得失敗とはみなしません（発行が遅い時間帯の
-紙や、その日は社説を掲載しない紙があり得るため）。「取得できなかった
-新聞社」欄には `robots.txt` 拒否・取得エラーが発生した紙のみを表示します。
+ある紙の掲載が0件でも取得失敗とはみなしません（発行が遅い時間帯の紙や、
+その日は社説を掲載しない紙があり得るため）。「取得できなかった新聞社」欄には
+`robots.txt` 拒否・取得エラーが発生した紙のみを表示します。
 
 ## ファイル構成
 
@@ -203,8 +197,8 @@ python main.py today --only 朝日新聞 読売新聞 --date 2026-07-21
 | `robots.py` | `robots.txt` の許可判定・`Crawl-delay` をオリジンごとに管理する `RobotsChecker` |
 | `fetch.py` | HTTP取得の薄いラッパー（User-Agent・タイムアウト・文字コード自動判定） |
 | `extract.py` | 一覧ページのHTMLから記事(`Item`)を抽出し、不足する時刻を記事個別ページから補う |
-| `pubdate.py` | 各紙バラバラの日付表記を正規化・直近7日間/当日フィルタする共通ロジック |
-| `render.py` | 取得結果からWebページ（`output/digest.html` / `output/today.html`）を組み立てるテンプレート |
+| `pubdate.py` | 各紙バラバラの日付表記を正規化・直近日数/当日フィルタする共通ロジック |
+| `render.py` | 取得結果からWebページ（`output/today.html` / `output/archive.html`）を組み立てるテンプレート |
 | `sources.yaml` | 各紙のURL・CSSセレクタ・`tier`（national/regional）などの設定 |
 
 ## 新聞社を追加・修正する
@@ -245,6 +239,3 @@ python main.py today --only 朝日新聞 読売新聞 --date 2026-07-21
 **Settings > Pages > Build and deployment > Source** を「GitHub Actions」に
 設定してください（これだけは手動での一度きりの設定が必要です）。
 
-週間ダイジェスト（`digest.html`）を定期公開したい場合は、同様の
-ワークフローを追加するか、既存のワークフローで `python main.py today` の
-代わりに `python main.py run` を呼び出すよう変更してください。

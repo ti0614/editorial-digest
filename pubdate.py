@@ -8,7 +8,7 @@ from __future__ import annotations
 import re
 from datetime import date, datetime, timedelta, timezone
 
-DIGEST_WINDOW_DAYS = 7  # 直近何日分の記事を対象とするか
+DEFAULT_WINDOW_DAYS = 7  # 直近何日分の記事を対象とするか（check/todayの既定値）
 JST = timezone(timedelta(hours=9))
 
 
@@ -101,8 +101,8 @@ def parse_published_date(published: str | None, reference_date: date) -> date | 
     return None
 
 
-def within_digest_window(published: str | None, reference_date: date, window_days: int = DIGEST_WINDOW_DAYS) -> bool:
-    """直近window_days日以内の記事かどうか判定する（既定はDIGEST_WINDOW_DAYS＝週間ダイジェスト用）。
+def within_window(published: str | None, reference_date: date, window_days: int = DEFAULT_WINDOW_DAYS) -> bool:
+    """直近window_days日以内の記事かどうか判定する（既定はDEFAULT_WINDOW_DAYS）。
 
     上限側には _FUTURE_TOLERANCE_DAYS 分の余裕を持たせている（スクレイピング
     実行時刻と各紙サイトのタイムゾーンのずれを吸収するため）。日付を解釈
@@ -121,7 +121,7 @@ def is_same_day(published: str | None, reference_date: date) -> bool:
     """reference_date当日（同日）の記事かどうか判定する（当日版サイト用）。
 
     日付を解釈できなかった場合は取りこぼしを避けるため対象に含める
-    （within_digest_window と同じ方針）。
+    （within_window と同じ方針）。
     """
     parsed = parse_published_date(published, reference_date)
     if parsed is None:

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-"""新聞各社の社説一覧ページを巡回し、直近1週間分のタイトル・リンク・日付を
-まとめたWebページ（output/digest.html）を生成するツール。
+"""新聞各社の社説一覧ページを巡回し、当日分のタイトル・リンク・日付を
+まとめたWebページ（output/today.html）を生成するツール。
 
 著作権・利用規約への配慮として、記事本文は取得・保存しない
 （タイトル・リンク・日付のみを収集する）。生成したHTMLはそのままブラウザで
@@ -9,9 +9,8 @@
 
 使い方:
     python main.py check          # 各ソースの疎通確認（取得件数/エラーを表示するだけ）
-    python main.py run            # 全ソースを取得し output/digest.html と digest.json を生成
-    python main.py run --only 朝日新聞 毎日新聞
     python main.py today          # 全ソースを取得し当日分のみの output/today.html を生成
+    python main.py today --only 朝日新聞 毎日新聞
 """
 from __future__ import annotations
 
@@ -29,7 +28,7 @@ import yaml
 import render
 from extract import Item, enrich_missing_times, extract_items
 from fetch import fetch_html
-from pubdate import DIGEST_WINDOW_DAYS, JST, is_same_day, today_jst
+from pubdate import DEFAULT_WINDOW_DAYS, JST, is_same_day, today_jst
 from robots import RobotsChecker
 
 SOURCES_FILE = Path(__file__).parent / "sources.yaml"
@@ -59,7 +58,7 @@ def load_sources(only: list[str] | None = None) -> list[dict]:
 
 def process_source(
     source: dict, reference_date: date, robots: RobotsChecker, fetch_times: bool = False,
-    same_day_only: bool = False, window_days: int = DIGEST_WINDOW_DAYS,
+    same_day_only: bool = False, window_days: int = DEFAULT_WINDOW_DAYS,
 ) -> SourceResult:
     name = source["name"]
     index_url = source["index_url"]
@@ -95,7 +94,7 @@ def process_source(
 
 def _iter_results(
     sources: list[dict], reference_date: date, robots: RobotsChecker, fetch_times: bool,
-    same_day_only: bool = False, window_days: int = DIGEST_WINDOW_DAYS,
+    same_day_only: bool = False, window_days: int = DEFAULT_WINDOW_DAYS,
 ) -> Iterator[SourceResult]:
     """全ソースを順に取得し、結果を1件ずつ返す。
 
@@ -129,40 +128,19 @@ def run_check(only: list[str] | None) -> int:
     return 1 if had_problem else 0
 
 
-def _fetch_and_write(
-    only: list[str] | None, run_date: date, *, same_day_only: bool,
-    json_suffix: str, html_filename: str, render_fn,
-) -> tuple[list[SourceResult], Path]:
-    """ソースを取得し、JSONスナップショットとHTMLを書き出す（run_digest/run_todayの共通処理）。"""
+def run_today(only: list[str] | None, run_date: date) -> int:
     sources = load_sources(only)
     robots = RobotsChecker()
-    results = list(_iter_results(sources, run_date, robots, fetch_times=True, same_day_only=same_day_only))
+    results = list(_iter_results(sources, run_date, robots, fetch_times=True, same_day_only=True))
 
     OUTPUT_DIR.mkdir(exist_ok=True)
-    json_path = OUTPUT_DIR / f"{run_date.isoformat()}{json_suffix}.json"
-    html_path = OUTPUT_DIR / html_filename
+    json_path = OUTPUT_DIR / f"{run_date.isoformat()}-today.json"
+    html_path = OUTPUT_DIR / "today.html"
 
     write_json(json_path, run_date, results)
     generated_at = datetime.now(JST)
-    html_path.write_text(render_fn(results, run_date, generated_at), encoding="utf-8")
-    return results, html_path
+    html_path.write_text(render.render_today_html(results, run_date, generated_at), encoding="utf-8")
 
-
-def run_digest(only: list[str] | None, run_date: date) -> int:
-    results, html_path = _fetch_and_write(
-        only, run_date, same_day_only=False,
-        json_suffix="", html_filename="digest.html", render_fn=render.render_html,
-    )
-    ok = sum(1 for r in results if not r.error and not r.skipped_by_robots and r.items)
-    print(f"{len(results)} 紙中 {ok} 紙を取得しました -> {html_path}")
-    return 0
-
-
-def run_today(only: list[str] | None, run_date: date) -> int:
-    results, html_path = _fetch_and_write(
-        only, run_date, same_day_only=True,
-        json_suffix="-today", html_filename="today.html", render_fn=render.render_today_html,
-    )
     total_items = sum(len(r.items) for r in results)
     ok = sum(1 for r in results if not r.error and not r.skipped_by_robots)
     print(f"{len(results)} 紙中 {ok} 紙を取得（本日分 {total_items} 件）-> {html_path}")
@@ -219,10 +197,6 @@ def main() -> int:
     check_p = sub.add_parser("check", help="各ソースの疎通確認のみ行う（ファイル出力なし）")
     _add_only_argument(check_p)
 
-    run_p = sub.add_parser("run", help="全ソースを取得し output/digest.html を生成する")
-    _add_only_argument(run_p)
-    _add_date_argument(run_p)
-
     today_p = sub.add_parser("today", help="全ソースを取得し当日分のみの output/today.html を生成する")
     _add_only_argument(today_p)
     _add_date_argument(today_p)
@@ -233,8 +207,6 @@ def main() -> int:
 
     if args.command == "check":
         return run_check(args.only)
-    if args.command == "run":
-        return run_digest(args.only, args.date)
     if args.command == "today":
         return run_today(args.only, args.date)
     if args.command == "archive-page":

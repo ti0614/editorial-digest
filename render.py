@@ -1,9 +1,9 @@
 """main.py が取得した結果 (SourceResult のリスト) から、モバイル向けの
-自己完結型Webページを生成するモジュール。`render_html()`が週間ダイジェスト
-(output/digest.html)、`render_today_html()`が当日版(output/today.html)を
-生成する。両者は`_render_page()`が組み立てる共通のページ骨格（head/masthead/
-footer/script）を共有し、見出し・概要・ナビ・本文・フッター文言など
-異なる部分だけを差し替える。
+自己完結型Webページを生成するモジュール。`render_today_html()`が当日版
+(output/today.html)、`render_archive_html()`がアーカイブ検索
+(output/archive.html)を生成する。いずれも`_render_page()`が組み立てる共通の
+ページ骨格（head/masthead/footer/script）を共有し、見出し・概要・ナビ・本文・
+フッター文言など異なる部分だけを差し替える。
 
 全国紙（tier: national）を既定表示、ブロック紙（tier: block）・地方紙
 （tier: regional）はページ内のチップボタンでそれぞれ独立に表示切り替え
@@ -100,21 +100,6 @@ button.paid-toggle[aria-pressed="true"] { background: var(--warn-soft); color: v
 button.paid-toggle:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 body.hide-paid li.paid-item { display: none; }
 
-nav.quicknav {
-  position: sticky; top: 0; z-index: 5; background: var(--bg);
-  border-bottom: 1px solid var(--rule); padding: 0.6rem 0; overflow-x: auto;
-  white-space: nowrap; -webkit-overflow-scrolling: touch; scrollbar-width: none;
-}
-nav.quicknav::-webkit-scrollbar { display: none; }
-nav.quicknav .pill-row { display: inline-flex; gap: 0.5rem; padding: 0 1.25rem; }
-.pill {
-  display: inline-flex; align-items: baseline; gap: 0.3rem; padding: 0.38rem 0.75rem;
-  border-radius: 999px; background: var(--surface); border: 1px solid var(--rule);
-  color: var(--ink); text-decoration: none; font-size: 0.82rem; flex: none;
-  font-variant-numeric: tabular-nums;
-}
-.pill-count { color: var(--ink-faint); font-size: 0.74rem; }
-
 main { padding: 0 1.25rem; }
 
 section.dategroup { padding: 1.6rem 0; border-bottom: 1px solid var(--rule); scroll-margin-top: 3.2rem; }
@@ -128,10 +113,6 @@ section.dategroup:last-child { border-bottom: none; }
 .date-head h2 .slash { color: var(--ink-faint); font-weight: 400; padding: 0 0.05rem; }
 .date-head h2 .wd { font-size: 0.95rem; color: var(--ink-faint); font-family: "Hiragino Sans","Yu Gothic",sans-serif; font-weight:400; }
 .date-count { font-size:0.78rem; color:var(--ink-faint); font-variant-numeric: tabular-nums; }
-.latest-flag {
-  font-size:0.7rem; color:var(--accent); border:1px solid var(--accent); border-radius:4px;
-  padding:0.02rem 0.4rem; letter-spacing:0.04em;
-}
 ul.article-list { list-style:none; margin:0.6rem 0 0; padding:0; }
 ul.article-list li { border-top:1px solid var(--rule); }
 ul.article-list li:first-child { border-top:none; }
@@ -236,8 +217,6 @@ _SCRIPT_TEMPLATE = """
       grandTotal += count;
       var countEl = sec.querySelector('.date-count');
       if (countEl) countEl.textContent = count + '件';
-      var pill = document.querySelector('.pill[href="#' + sec.id + '"] .pill-count');
-      if (pill) pill.textContent = count;
     });
     if (totalEl) totalEl.textContent = grandTotal;
   }
@@ -749,7 +728,7 @@ def _render_page(
     generated_at: datetime | None, script: str = _SCRIPT_TEMPLATE,
     scope_toggle_html: str | None = None,
 ) -> str:
-    """週間ダイジェスト・当日版・アーカイブ検索に共通のページ骨格（head/masthead/
+    """当日版・アーカイブ検索に共通のページ骨格（head/masthead/
     footer/script）を組み立てる。異なる部分（見出し・概要・ナビ・本文・フッター
     文言）は呼び出し側が文字列として渡す。scriptは既定でtier/会員限定トグルの
     共通スクリプトだが、アーカイブページのように動的読み込みが絡むページは
@@ -815,103 +794,13 @@ def _render_page(
 '''
 
 
-def _render_date_section(d: date, items: list[_FlatItem], max_date: date) -> tuple[str, str]:
-    """指定日のナビゲーションピルとセクションHTMLを組み立てて返す。
-
-    件数は既定表示である全国紙分のみを数える（他tierを表示した際の実際の
-    件数は、クライアント側のJS (updateCounts) が表示要素数から再計算する）。
-    """
-    anchor = f"d-{d.isoformat()}"
-    default_count = sum(1 for it in items if it.tier == "national")
-    pill = (
-        f'<a class="pill" href="#{anchor}">{d.month}/{d.day}'
-        f'<span class="pill-count">{default_count}</span></a>'
-    )
-
-    rows = "".join(_render_article_row(it) for it in items)
-    wd = WEEKDAY_JP[d.weekday()]
-    latest_flag = ' <span class="latest-flag">最新</span>' if d == max_date else ""
-    section = f'''
-<section class="dategroup" id="{anchor}">
-  <div class="date-head">
-    <h2>{d.month}<span class="slash">/</span>{d.day}<span class="wd">（{wd}）</span></h2>
-    <span class="date-count">{default_count}件</span>{latest_flag}
-  </div>
-  <ul class="article-list">{rows}</ul>
-</section>'''
-    return pill, section
-
-
-def render_html(results: list, run_date: date, generated_at: datetime | None = None) -> str:
-    """SourceResult のリストから週間ダイジェストHTMLを組み立てる。
-
-    results の各要素は main.py の SourceResult 互換（name / category / tier /
-    items / error / skipped_by_robots 属性を持つ）であればよい。items の各
-    要素も同様に title / link / published 属性を持つ Item 互換オブジェクト。
-    main.py 側で既に直近7日間へフィルタ済みである前提（ここでは日付ごとの
-    グルーピングのみ行い、再フィルタはしない）。tier は national / block /
-    regional の3種類（未知の値は regional 扱い）。
-    generated_at はページ生成時刻（JST想定）。省略時はヘッダーに時刻を表示しない。
-    """
-    items_flat = _flatten_items(results, run_date)
-    by_date = _group_by_date(items_flat)
-
-    if by_date:
-        max_date = max(by_date)
-        min_date = min(by_date)
-    else:
-        max_date = min_date = run_date
-
-    nav_pills = []
-    sections = []
-    for d in sorted(by_date, reverse=True):
-        pill, section = _render_date_section(d, by_date[d], max_date)
-        nav_pills.append(pill)
-        sections.append(section)
-
-    unavailable_names = [
-        r.name for r in results
-        if r.skipped_by_robots or r.error or not r.items
-    ]
-
-    unavailable_footer = (
-        f'<p>現在取得できていない新聞社：{_esc("・".join(unavailable_names))}（{len(unavailable_names)}紙）</p>'
-        if unavailable_names else ""
-    )
-
-    national_total = sum(1 for x in items_flat if x.tier == "national")
-    range_label = f"{min_date.month}/{min_date.day} 〜 {max_date.month}/{max_date.day}"
-
-    summary_html = _render_summary(f"{range_label}（過去1週間）", national_total)
-    nav_html = f'''
-  <nav class="quicknav" aria-label="日付へジャンプ">
-    <div class="pill-row">
-{"".join(nav_pills)}
-    </div>
-  </nav>
-'''
-    footer_html = _render_footer(run_date, "", unavailable_footer)
-
-    return _render_page(
-        title="社説まとめ 週間ダイジェスト",
-        description="全国紙・地方紙の社説（オピニオン）を直近1週間分まとめて掲載する非公式リンク集。"
-                     "タイトル・リンク・日付のみを収集し、本文は掲載していません。",
-        canonical_path="digest.html",
-        eyebrow="EDITORIAL DIGEST · WEEKLY",
-        heading="社説まとめ<br>週間ダイジェスト", summary_html=summary_html,
-        nav_html=nav_html, main_html="".join(sections), footer_html=footer_html,
-        generated_at=generated_at,
-    )
-
-
 def render_today_html(results: list, run_date: date, generated_at: datetime | None = None) -> str:
     """SourceResult のリストから run_date当日分のみのWebページ (output/today.html) を
     組み立てる。
 
     results の items は呼び出し側（main.py の run_today）で既に run_date
-    当日分のみに絞り込み済みである前提。週間ダイジェスト（render_html）と
-    異なり、ある紙が0件でも取得失敗とはみなさない（1日ごとに必ず社説が
-    掲載されるとは限らないため）。
+    当日分のみに絞り込み済みである前提。ある紙が0件でも取得失敗とはみなさない
+    （1日ごとに必ず社説が掲載されるとは限らないため）。
     """
     items_flat = _flatten_items(results, run_date)
     by_date = _group_by_date(items_flat)
@@ -951,7 +840,7 @@ def render_today_html(results: list, run_date: date, generated_at: datetime | No
 def render_archive_html(generated_at: datetime | None = None) -> str:
     """アーカイブ検索ページ (output/archive.html) を組み立てる。
 
-    週間ダイジェスト・当日版と異なり、記事データはビルド時に埋め込まない。
+    当日版と異なり、記事データはビルド時に埋め込まない。
     archive/index.json・archive/{date}.json（CIがコミットする日次スナップショット、
     main.py の write_json と同じ形式）をブラウザ側がfetchして検索・一覧表示する
     完全に静的なページなので、results は受け取らない。

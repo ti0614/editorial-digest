@@ -12,7 +12,7 @@ from urllib.parse import urljoin
 from bs4 import BeautifulSoup
 
 from fetch import fetch_html
-from pubdate import DIGEST_WINDOW_DAYS, JST, parse_published_date, parse_published_time, within_digest_window
+from pubdate import DEFAULT_WINDOW_DAYS, JST, parse_published_date, parse_published_time, within_window
 from robots import RobotsChecker
 
 # <time>タグが無いサイト向けのフォールバック: 本文中の「日付+時刻」表記
@@ -32,7 +32,7 @@ class Item:
 
 def extract_items(
     html: str, base_url: str, source: dict, reference_date: date,
-    window_days: int = DIGEST_WINDOW_DAYS,
+    window_days: int = DEFAULT_WINDOW_DAYS,
 ) -> list[Item]:
     soup = BeautifulSoup(html, "html.parser")
     nodes = soup.select(source["item_selector"])
@@ -62,7 +62,7 @@ def extract_items(
             continue
         link = urljoin(base_url, href)
         published = date_node.get_text(strip=True) if date_node is not None else None
-        if not within_digest_window(published, reference_date, window_days=window_days):
+        if not within_window(published, reference_date, window_days=window_days):
             continue
         if title in seen_titles:
             # 同じ紙の一覧内に同一見出しが複数URLで重複掲載されることがある
