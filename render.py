@@ -385,7 +385,22 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
     return section;
   }
 
+  function applySearchFilter() {
+    // 「さらに過去分を読み込む」や日付ジャンプで後から追加される記事にも
+    // 現在の検索クエリを適用する必要があるため、search-hideの付与は
+    // searchInputのinputイベントではなくここで毎回全件に対して行う
+    // （updateCountsはコンテンツ追加のたびに呼ばれるため、ここに置けば
+    // 新規追加分にも自動的に反映される）。
+    if (!searchInput) return;
+    var q = searchInput.value.trim().toLowerCase();
+    resultsEl.querySelectorAll('li.article-item').forEach(function (li) {
+      var match = !q || li.getAttribute('data-title').indexOf(q) !== -1;
+      li.classList.toggle('search-hide', !match);
+    });
+  }
+
   function updateCounts() {
+    applySearchFilter();
     var grandTotal = 0;
     resultsEl.querySelectorAll('section.dategroup').forEach(function (sec) {
       // 日付フィルタで除外中のセクションはhidden状態を保ったまま完全にスキップする
@@ -537,11 +552,6 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
 
   if (searchInput) {
     searchInput.addEventListener('input', function () {
-      var q = searchInput.value.trim().toLowerCase();
-      resultsEl.querySelectorAll('li.article-item').forEach(function (li) {
-        var match = !q || li.getAttribute('data-title').indexOf(q) !== -1;
-        li.classList.toggle('search-hide', !match);
-      });
       updateCounts();
     });
   }
