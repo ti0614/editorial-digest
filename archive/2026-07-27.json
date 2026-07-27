@@ -53,22 +53,9 @@
       "tier": "national",
       "index_url": "https://www.yomiuri.co.jp/editorial/",
       "error": null,
-      "skipped_by_robots": false,
+      "skipped_by_robots": true,
       "unavailable_reason": null,
-      "items": [
-        {
-          "title": "日本の北極政策　航路と資源の確保を戦略的に",
-          "link": "https://www.yomiuri.co.jp/editorial/20260726-GYT1T00189/",
-          "published": "2026/7/27 5:00",
-          "paid": false
-        },
-        {
-          "title": "山岳遭難最多　クマの出没情報に注意したい",
-          "link": "https://www.yomiuri.co.jp/editorial/20260726-GYT1T00188/",
-          "published": "2026/7/27 5:00",
-          "paid": false
-        }
-      ]
+      "items": []
     },
     {
       "name": "日本経済新聞",
@@ -113,7 +100,7 @@
       "unavailable_reason": null,
       "items": [
         {
-          "title": "〈社説〉週のはじめに考える　子供に説明できるか",
+          "title": "〈社説〉政治の「侵食」が目立ったW杯北中米大会…子どもの「なぜ？」に答えられるか",
           "link": "https://www.tokyo-np.co.jp/article/503966?rct=editorial",
           "published": "7月27日 07時43分",
           "paid": false
@@ -263,7 +250,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "【学校の女性管理職】拡充へ対策急げ（７月２７日）",
+          "link": "https://www.minpo.jp/articles/-/190388",
+          "published": "2026/7/27 11:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "岩手日報",
@@ -421,7 +415,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "２６春闘 県内高水準　中小賃上げ継続へ支援を",
+          "link": "https://www.fukuishimbun.co.jp/articles/-/2660476",
+          "published": "（2026年7月27日 午前7時30分）",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "山梨日日新聞",
