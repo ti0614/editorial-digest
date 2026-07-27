@@ -118,7 +118,7 @@ def within_window(published: str | None, reference_date: date, window_days: int 
 
 
 def is_same_day(published: str | None, reference_date: date) -> bool:
-    """reference_date当日（同日）の記事かどうか判定する（当日版サイト用）。
+    """reference_date当日（同日）の記事かどうか判定する（today.html用）。
 
     日付を解釈できなかった場合は取りこぼしを避けるため対象に含める
     （within_window と同じ方針）。

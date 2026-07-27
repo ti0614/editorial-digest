@@ -1,4 +1,4 @@
-name: 当日版をGitHub Pagesに公開
+name: today.htmlをGitHub Pagesに公開
 
 on:
   schedule:
