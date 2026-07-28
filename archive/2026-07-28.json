@@ -78,7 +78,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "［社説］熊本地震の余震を警戒し被災支援急げ",
+          "link": "https://www.nikkei.com/article/DGXZQODK286UU0Y6A720C2000000/",
+          "published": "2026/7/28 19:50",
+          "paid": false
+        },
+        {
+          "title": "［社説］ロッキード事件50年後の教訓",
+          "link": "https://www.nikkei.com/article/DGXZQODK2846K0Y6A720C2000000/",
+          "published": "2026/7/28 19:05",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "産経新聞",
@@ -197,7 +210,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "社説：相模原殺傷１０年　優生思想の根　問い続けねば",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1760101",
+          "published": "2026/7/28 16:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "神戸新聞",
