@@ -90,8 +90,8 @@
       "unavailable_reason": null,
       "items": [
         {
-          "title": "【主張】成田で土地収用　国際空港の整備を着実に",
-          "link": "https://www.sankei.com/article/20260728-XKGWIN6NMJORLKFXXQAQ5HENPI-2/",
+          "title": "＜主張＞成田で土地収用　国際空港の整備を着実に",
+          "link": "https://www.sankei.com/article/20260728-2ZH73ILHC5LR5OT6PB4FN25WPQ/",
           "published": "2026/7/28 5:01",
           "paid": false
         },
@@ -111,7 +111,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "〈社説〉内閣支持率下落　首相の独善への警鐘だ",
+          "link": "https://www.tokyo-np.co.jp/article/504188?rct=editorial",
+          "published": "7月28日 07時45分",
+          "paid": false
+        },
+        {
+          "title": "〈社説〉世界遺産登録　住民らの努力が実った",
+          "link": "https://www.tokyo-np.co.jp/article/504187?rct=editorial",
+          "published": "7月28日 07時45分",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "中日新聞",
@@ -231,7 +244,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "勝者なき政策に終止符を／トランプ関税",
+          "link": "https://www.toonippo.co.jp/articles/-/2326201",
+          "published": "9:00更新",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "秋田魁新報",
@@ -241,7 +261,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "社説：野菜増キャンペーン　食生活改善　機運高めよ",
+          "link": "https://www.sakigake.jp/news/article/20260728AK0005/",
+          "published": "2026/7/28 9:54",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "山形新聞",
@@ -251,7 +278,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "トランプ関税　勝者なき政策いつまで",
+          "link": "https://www.yamagata-np.jp/shasetsu/?par1=20260728.inc",
+          "published": "（7月28日更新）",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "福島民報",
@@ -261,7 +295,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "【会津若松の総計】「賢く縮む」に議論を（７月２８日）",
+          "link": "https://www.minpo.jp/articles/-/190906",
+          "published": "2026/7/28 11:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "岩手日報",
@@ -281,7 +322,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "【思川開発工期延長】水道供給計画策定急げ",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1392829",
+          "published": "8:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "神奈川新聞",
@@ -291,7 +339,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "横浜高校　甲子園で偉業を遂げよ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1292480.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2026年7月28日(火)  09:30",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "茨城新聞",
@@ -405,7 +460,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "特別国会が閉会　熟議と合意の原点に返れ",
+          "link": "https://www.fukuishimbun.co.jp/articles/-/2661219",
+          "published": "（2026年7月28日 午前7時30分）",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "山梨日日新聞",
@@ -482,7 +544,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "熱中症急増　子ども、高齢者に声かけを",
+          "link": "https://www.sanyonews.jp/article/1961727",
+          "published": "2026年7月28日 08:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "山陰中央新報",
@@ -492,7 +561,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "論説　トランプ関税　勝者なき政策に幕を",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/1049633",
+          "published": "2026/7/28 4:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "徳島新聞",
@@ -607,7 +683,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "やまゆり園事件１０年",
+          "link": "https://www.the-miyanichi.co.jp/column/syasetsu/948092.html",
+          "published": "2026.07.28｜社説 09:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "南日本新聞",
@@ -617,7 +700,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "［特別国会閉幕］言論の府の責務どこへ",
+          "link": "https://373news.com/lineup/syasetsu/",
+          "published": "2026年7月28日 付",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "沖縄タイムス",
