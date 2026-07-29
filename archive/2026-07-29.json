@@ -78,7 +78,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "［社説］最低賃金の引き上げを抑制しすぎるな",
+          "link": "https://www.nikkei.com/article/DGXZQODK295YT0Z20C26A7000000/",
+          "published": "2026/7/29 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］福岡県議会は疑惑の解明を",
+          "link": "https://www.nikkei.com/article/DGXZQODK2981H0Z20C26A7000000/",
+          "published": "2026/7/29 19:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "産経新聞",
@@ -197,7 +210,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "社説：熊本で震度７　１０年前教訓に人命救え",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1761593",
+          "published": "2026/7/29 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：飛鳥世界遺産　後世への継承を着実に",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1761592",
+          "published": "2026/7/29 16:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "神戸新聞",
@@ -390,7 +416,7 @@
       "category": "論説",
       "tier": "regional",
       "index_url": "https://www.chibanippo.co.jp/serial",
-      "error": null,
+      "error": "HTTPSConnectionPool(host='www.chibanippo.co.jp', port=443): Read timed out. (read timeout=15)",
       "skipped_by_robots": false,
       "unavailable_reason": null,
       "items": []
@@ -532,7 +558,7 @@
       "tier": "regional",
       "index_url": "https://wakayamashimpo.co.jp/",
       "error": null,
-      "skipped_by_robots": true,
+      "skipped_by_robots": false,
       "unavailable_reason": "社説だけをまとめた専用の一覧ページが見つからず、取得できていません。",
       "items": []
     },
