@@ -11,14 +11,14 @@
       "unavailable_reason": null,
       "items": [
         {
-          "title": "（社説）消費減税の判断　警鐘を聞き立ち止まれ",
-          "link": "https://www.asahi.com/articles/DA3S16515204.html?iref=pc_rensai_long_16_article",
+          "title": "（社説）防衛相の核発言　三原則を見直す布石か",
+          "link": "https://www.asahi.com/articles/DA3S16515203.html?iref=pc_rensai_long_16_article",
           "published": "2026年07月29日 05時00分",
           "paid": false
         },
         {
-          "title": "（社説）防衛相の核発言　三原則を見直す布石か",
-          "link": "https://www.asahi.com/articles/DA3S16515203.html?iref=pc_rensai_long_16_article",
+          "title": "（社説）消費減税の判断　警鐘を聞き立ち止まれ",
+          "link": "https://www.asahi.com/articles/DA3S16515204.html?iref=pc_rensai_long_16_article",
           "published": "2026年07月29日 05時00分",
           "paid": false
         }
@@ -111,7 +111,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "〈社説〉福岡県議会　疑惑の徹底解明を急げ",
+          "link": "https://www.tokyo-np.co.jp/article/504797?rct=editorial",
+          "published": "7月29日 08時26分",
+          "paid": false
+        },
+        {
+          "title": "〈社説〉佐渡島の金山　負の歴史に向き合う時",
+          "link": "https://www.tokyo-np.co.jp/article/504796?rct=editorial",
+          "published": "7月29日 08時25分",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "中日新聞",
@@ -231,7 +244,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "「意地」で押し通すのか／消費税減税　首相指示へ",
+          "link": "https://www.toonippo.co.jp/articles/-/2327849",
+          "published": "9:00更新",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "秋田魁新報",
@@ -241,7 +261,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "社説：熊本で震度７　被害者の救助に全力を",
+          "link": "https://www.sakigake.jp/news/article/20260729AK0005/",
+          "published": "2026/7/29 9:34",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "山形新聞",
@@ -251,7 +278,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "消費税減税　首相の意地に危うさも",
+          "link": "https://www.yamagata-np.jp/shasetsu/?par1=20260729.inc",
+          "published": "（7月29日更新）",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "福島民報",
@@ -261,7 +295,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "【震災１５年　川内村の復興検証】自己評価の継続を（７月２９日）",
+          "link": "https://www.minpo.jp/articles/-/191764",
+          "published": "2026/7/29 11:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "岩手日報",
@@ -281,7 +322,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "【子どもの自殺対策】リスクへの対応力向上を",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1393553",
+          "published": "8:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "神奈川新聞",
@@ -291,7 +339,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "ＩＣＣの危機　「法の支配」守る先頭に",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1292847.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2026年7月29日(水)  09:30",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "茨城新聞",
@@ -405,7 +460,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "かこさとし生誕１００年　子どもにエール　耳傾けて",
+          "link": "https://www.fukuishimbun.co.jp/articles/-/2662191",
+          "published": "（2026年7月29日 午前7時30分）",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "山梨日日新聞",
@@ -470,7 +532,7 @@
       "tier": "regional",
       "index_url": "https://wakayamashimpo.co.jp/",
       "error": null,
-      "skipped_by_robots": false,
+      "skipped_by_robots": true,
       "unavailable_reason": "社説だけをまとめた専用の一覧ページが見つからず、取得できていません。",
       "items": []
     },
@@ -482,7 +544,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "おでかけ社会へ　公共交通で子ども自立を",
+          "link": "https://www.sanyonews.jp/article/1962775",
+          "published": "2026年7月29日 08:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "山陰中央新報",
@@ -492,7 +561,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "論説　消費税減税　首相は意地で通すのか",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/1050663",
+          "published": "2026/7/29 4:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "徳島新聞",
@@ -504,7 +580,7 @@
       "unavailable_reason": null,
       "items": [
         {
-          "title": "【社説】米の新関税発動　経済脅かす愚策　撤回せよ",
+          "title": "【社説】米の新関税発動　経済脅かす愚策撤回せよ",
           "link": "https://www.topics.or.jp/articles/-/1470173",
           "published": "2026/7/29 5:00",
           "paid": true
@@ -613,7 +689,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "消費税減税",
+          "link": "https://www.the-miyanichi.co.jp/column/syasetsu/951473.html",
+          "published": "2026.07.29｜社説 09:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "南日本新聞",
@@ -623,7 +706,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "［相模原殺傷10年］排除でなく共生の道を",
+          "link": "https://373news.com/lineup/syasetsu/",
+          "published": "2026年7月29日 付",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "沖縄タイムス",
