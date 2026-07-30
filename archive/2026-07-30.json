@@ -60,7 +60,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "［社説］消費税減税は未来への責任放棄だ",
+          "link": "https://www.nikkei.com/article/DGXZQOCD283JY0Y6A720C2000000/",
+          "published": "2026/7/30 19:30",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "産経新聞",
@@ -179,7 +186,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "社説：京都市の給付策　「マイナ」で分けるのか",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1762497",
+          "published": "2026/7/30 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：「副首都」法成立　大阪ごり押しは改めよ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1762498",
+          "published": "2026/7/30 16:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "神戸新聞",
@@ -507,7 +527,7 @@
       "tier": "regional",
       "index_url": "https://wakayamashimpo.co.jp/",
       "error": null,
-      "skipped_by_robots": true,
+      "skipped_by_robots": false,
       "unavailable_reason": "社説だけをまとめた専用の一覧ページが見つからず、取得できていません。",
       "items": []
     },
