@@ -93,7 +93,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "〈社説〉熊本で震度7　助かった命を守りたい",
+          "link": "https://www.tokyo-np.co.jp/article/505158?rct=editorial",
+          "published": "7月30日 08時17分",
+          "paid": false
+        },
+        {
+          "title": "〈社説〉最低賃金の改定　増額の勢い維持せねば",
+          "link": "https://www.tokyo-np.co.jp/article/505157?rct=editorial",
+          "published": "7月30日 08時17分",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "中日新聞",
@@ -213,7 +226,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "二次被害の食い止めを／熊本地震再来",
+          "link": "https://www.toonippo.co.jp/articles/-/2328888",
+          "published": "9:19更新",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "秋田魁新報",
@@ -223,7 +243,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "社説：県教育庁の情報開示　後ろ向きな姿勢改めよ",
+          "link": "https://www.sakigake.jp/news/article/20260730AK0006/",
+          "published": "2026/7/30 9:19",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "山形新聞",
@@ -233,7 +260,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "熊本地震再び　二次被害、食い止めたい",
+          "link": "https://www.yamagata-np.jp/shasetsu/?par1=20260730.inc",
+          "published": "（7月30日更新）",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "福島民報",
@@ -243,7 +277,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "【熊本地震】猛暑下の支援、点検を（７月３０日）",
+          "link": "https://www.minpo.jp/articles/-/192587",
+          "published": "2026/7/30 11:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "岩手日報",
@@ -273,7 +314,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "はやぶさ２快挙　挑戦重ねた技術の成果",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1293161.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2026年7月30日(木)  09:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "茨城新聞",
@@ -387,7 +435,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "熊本で震度７　二次被害防止へ万全期せ",
+          "link": "https://www.fukuishimbun.co.jp/articles/-/2663049",
+          "published": "（2026年7月30日 午前7時30分）",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "山梨日日新聞",
@@ -452,7 +507,7 @@
       "tier": "regional",
       "index_url": "https://wakayamashimpo.co.jp/",
       "error": null,
-      "skipped_by_robots": false,
+      "skipped_by_robots": true,
       "unavailable_reason": "社説だけをまとめた専用の一覧ページが見つからず、取得できていません。",
       "items": []
     },
@@ -464,7 +519,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "熊本地震　救助と被災者支援を急げ",
+          "link": "https://www.sanyonews.jp/article/1963564",
+          "published": "2026年7月30日 08:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "山陰中央新報",
@@ -474,7 +536,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "論説　熊本地震再来　二次災害の食い止めを",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/1051458",
+          "published": "2026/7/30 4:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "徳島新聞",
@@ -589,7 +658,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "熊本地震再来",
+          "link": "https://www.the-miyanichi.co.jp/column/syasetsu/954617.html",
+          "published": "2026.07.30｜社説 08:22",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "南日本新聞",
@@ -599,7 +675,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "［熊本で震度７］総力挙げ被災者支援を",
+          "link": "https://373news.com/lineup/syasetsu/",
+          "published": "2026年7月30日 付",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "沖縄タイムス",
