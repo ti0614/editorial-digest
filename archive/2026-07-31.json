@@ -66,7 +66,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "［社説］政府と日銀は円安に真正面から向き合え",
+          "link": "https://www.nikkei.com/article/DGXZQODK315NS0R30C26A7000000/",
+          "published": "2026/7/31 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］猛暑下の避難支援を万全に",
+          "link": "https://www.nikkei.com/article/DGXZQODK312SU0R30C26A7000000/",
+          "published": "2026/7/31 19:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "産経新聞",
@@ -173,7 +186,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "社説：消費減税の指示　国益損なう「悲願」優先",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1763303",
+          "published": "2026/7/31 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：近畿高校総体　夏の大会見直す契機に",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1763294",
+          "published": "2026/7/31 16:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "神戸新聞",
@@ -501,7 +527,7 @@
       "tier": "regional",
       "index_url": "https://wakayamashimpo.co.jp/",
       "error": null,
-      "skipped_by_robots": false,
+      "skipped_by_robots": true,
       "unavailable_reason": "社説だけをまとめた専用の一覧ページが見つからず、取得できていません。",
       "items": []
     },
