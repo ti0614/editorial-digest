@@ -93,7 +93,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "〈社説〉食品消費税1％　財源棚上げする無責任",
+          "link": "https://www.tokyo-np.co.jp/article/505430?rct=editorial",
+          "published": "7月31日 07時50分",
+          "paid": false
+        },
+        {
+          "title": "〈社説〉陸自の情報収集　独立した調査が必要だ",
+          "link": "https://www.tokyo-np.co.jp/article/505429?rct=editorial",
+          "published": "7月31日 07時47分",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "中日新聞",
@@ -207,7 +220,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "徹底調査で真相解明を／福岡県議会疑惑",
+          "link": "https://www.toonippo.co.jp/articles/-/2329817",
+          "published": "9:00更新",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "秋田魁新報",
@@ -217,7 +237,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "社説：身寄りのない高齢者　社会で支える仕組みに",
+          "link": "https://www.sakigake.jp/news/article/20260731AK0003/",
+          "published": "2026/7/31 9:28",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "山形新聞",
@@ -227,7 +254,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "消費税減税を首相指示　国民会議は名ばかりか",
+          "link": "https://www.yamagata-np.jp/shasetsu/?par1=20260731.inc",
+          "published": "（7月31日更新）",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "福島民報",
@@ -237,7 +271,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "【震災１５年　災害関連死】知見生かし対策強化を（７月３１日）",
+          "link": "https://www.minpo.jp/articles/-/193479",
+          "published": "2026/7/31 11:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "岩手日報",
@@ -267,7 +308,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "全東信破産　飲食店の連鎖倒産防げ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1293489.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2026年7月31日(金)  09:20",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "茨城新聞",
@@ -381,7 +429,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "２０２８年ロス五輪　理念と尊厳　尊重できるか",
+          "link": "https://www.fukuishimbun.co.jp/articles/-/2664056",
+          "published": "（2026年7月31日 午前7時30分）",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "山梨日日新聞",
@@ -458,7 +513,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "首相が消費減税指示　課題は残されたままだ",
+          "link": "https://www.sanyonews.jp/article/1964315",
+          "published": "2026年7月31日 08:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "山陰中央新報",
@@ -468,7 +530,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "論説　消費税減税を首相指示　国民会議は何だったか",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/1052250",
+          "published": "2026/7/31 4:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "徳島新聞",
@@ -583,7 +652,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "消費税減税を首相指示",
+          "link": "https://www.the-miyanichi.co.jp/column/syasetsu/958055.html",
+          "published": "2026.07.31｜社説 09:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "南日本新聞",
@@ -593,7 +669,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "［食品消費減税］首相は納得いく説明を",
+          "link": "https://373news.com/lineup/syasetsu/",
+          "published": "2026年7月31日 付",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "沖縄タイムス",
