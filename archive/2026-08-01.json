@@ -111,7 +111,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "〈社説〉核抑止力の議論　非核三原則、揺るがすな",
+          "link": "https://www.tokyo-np.co.jp/article/505707?rct=editorial",
+          "published": "8月1日 07時35分",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "中日新聞",
@@ -194,12 +201,6 @@
           "link": "https://www.kobe-np.co.jp/opinion/202608/0020655862.shtml",
           "published": "8/1 05:10",
           "paid": false
-        },
-        {
-          "title": "＜針路21＞澤田雅浩さん　10年後の震度7／被害の「質」に目を向けよ",
-          "link": "https://www.kobe-np.co.jp/opinion/202608/0020655858.shtml",
-          "published": "8/1 05:10",
-          "paid": false
         }
       ]
     },
@@ -231,7 +232,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "狙いを注意深く分析せよ／中国、EEZで射撃演習",
+          "link": "https://www.toonippo.co.jp/articles/-/2330823",
+          "published": "9:19更新",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "秋田魁新報",
@@ -241,7 +249,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "社説：飲食料品消費税１％　財源を確保できるのか",
+          "link": "https://www.sakigake.jp/news/article/20260801AK0003/",
+          "published": "2026/8/1 9:30",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "山形新聞",
@@ -251,7 +266,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "福岡県議会疑惑　徹底調査で真相解明を",
+          "link": "https://www.yamagata-np.jp/shasetsu/?par1=20260801.inc",
+          "published": "（8月1日更新）",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "福島民報",
@@ -261,7 +283,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "【水の日に考える】健全な循環を次世代へ（８月１日）",
+          "link": "https://www.minpo.jp/articles/-/194487",
+          "published": "2026/8/1 11:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "岩手日報",
@@ -281,7 +310,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "【「交通空白」解消】地域、分野横断し連携を",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1395721",
+          "published": "8:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "神奈川新聞",
@@ -291,7 +327,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "横浜市長パワハラ　信頼を回復できるのか",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1293892.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2026年8月1日(土)  10:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "茨城新聞",
@@ -405,7 +448,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "戦争資料の保存と活用　「モノ」語りに耳傾けよう",
+          "link": "https://www.fukuishimbun.co.jp/articles/-/2665095",
+          "published": "（2026年8月1日 午前7時30分）",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "山梨日日新聞",
@@ -482,7 +532,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "広がる電子投票　実績重ね信頼を高めたい",
+          "link": "https://www.sanyonews.jp/article/1964931",
+          "published": "2026年8月1日 08:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "山陰中央新報",
@@ -492,7 +549,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "論説　最低賃金改定　賃上げを後退させるな",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/1053067",
+          "published": "2026/8/1 4:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "徳島新聞",
@@ -607,7 +671,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "トランプ関税",
+          "link": "https://www.the-miyanichi.co.jp/column/syasetsu/961343.html",
+          "published": "2026.08.01｜社説 10:05",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "南日本新聞",
@@ -617,7 +688,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "［中国の海洋進出］対話による関係改善を",
+          "link": "https://373news.com/lineup/syasetsu/",
+          "published": "2026年8月1日 付",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "沖縄タイムス",
