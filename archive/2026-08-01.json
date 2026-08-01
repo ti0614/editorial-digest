@@ -78,7 +78,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "［社説］米巨大IT企業のAI投資競争に留意を",
+          "link": "https://www.nikkei.com/article/DGXZQODK3164I0R30C26A7000000/",
+          "published": "2026/8/1 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］青天井の概算要求が問う節度",
+          "link": "https://www.nikkei.com/article/DGXZQODK319GF0R30C26A7000000/",
+          "published": "2026/8/1 19:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "産経新聞",
@@ -185,7 +198,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "社説：猛暑下の熊本地震　命守る対策で複合災害防げ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1764121",
+          "published": "2026/8/1 16:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "神戸新聞",
