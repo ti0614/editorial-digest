@@ -105,7 +105,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "〈社説〉週のはじめに考える　「国を守る」ための努力",
+          "link": "https://www.tokyo-np.co.jp/article/505940?rct=editorial",
+          "published": "8月2日 07時40分",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "中日新聞",
@@ -273,7 +280,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "先端技術で効果向上を　熱中症対策",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1294068.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2026年8月2日(日)  09:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "茨城新聞",
@@ -395,7 +409,7 @@
       "tier": "regional",
       "index_url": "https://www.sannichi.co.jp/news/ronsetsu",
       "error": null,
-      "skipped_by_robots": false,
+      "skipped_by_robots": true,
       "unavailable_reason": "サイトの自動アクセス防止の仕組みにより、記事を取得できません。",
       "items": []
     },
@@ -464,7 +478,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "米国の新関税　理不尽さに変わりはない",
+          "link": "https://www.sanyonews.jp/article/1964939",
+          "published": "2026年8月2日 08:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "山陰中央新報",
@@ -474,7 +495,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "論説　福岡県議会疑惑　徹底調査で真相解明を",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/1053565",
+          "published": "2026/8/2 4:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "徳島新聞",
@@ -599,7 +627,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "［マグロ資源管理］豊漁に応じ増枠を図れ",
+          "link": "https://373news.com/lineup/syasetsu/",
+          "published": "2026年8月2日 付",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "沖縄タイムス",
