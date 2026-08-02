@@ -72,7 +72,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "［社説］のれん会計は世界市場への意識忘れるな",
+          "link": "https://www.nikkei.com/article/DGXZQODK31C5O0R30C26A7000000/",
+          "published": "2026/8/2 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］米中間選挙で深まる分断政治",
+          "link": "https://www.nikkei.com/article/DGXZQODK3162E0R30C26A7000000/",
+          "published": "2026/8/2 19:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "産経新聞",
@@ -173,7 +186,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "社説：地方の「賢い縮小」　人口減適応へ地域で議論を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1764624",
+          "published": "2026/8/2 16:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "神戸新聞",
@@ -409,7 +429,7 @@
       "tier": "regional",
       "index_url": "https://www.sannichi.co.jp/news/ronsetsu",
       "error": null,
-      "skipped_by_robots": true,
+      "skipped_by_robots": false,
       "unavailable_reason": "サイトの自動アクセス防止の仕組みにより、記事を取得できません。",
       "items": []
     },
