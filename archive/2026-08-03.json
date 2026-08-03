@@ -11,14 +11,14 @@
       "unavailable_reason": null,
       "items": [
         {
-          "title": "（社説）情報強化第２弾　通信傍受拡大への懸念",
-          "link": "https://www.asahi.com/articles/DA3S16518467.html?iref=pc_rensai_long_16_article",
+          "title": "（社説）生態系の危機　回復へ責任ある行動を",
+          "link": "https://www.asahi.com/articles/DA3S16518468.html?iref=pc_rensai_long_16_article",
           "published": "2026年08月03日 05時00分",
           "paid": false
         },
         {
-          "title": "（社説）生態系の危機　回復へ責任ある行動を",
-          "link": "https://www.asahi.com/articles/DA3S16518468.html?iref=pc_rensai_long_16_article",
+          "title": "（社説）情報強化第２弾　通信傍受拡大への懸念",
+          "link": "https://www.asahi.com/articles/DA3S16518467.html?iref=pc_rensai_long_16_article",
           "published": "2026年08月03日 05時00分",
           "paid": false
         }
@@ -53,22 +53,9 @@
       "tier": "national",
       "index_url": "https://www.yomiuri.co.jp/editorial/",
       "error": null,
-      "skipped_by_robots": false,
+      "skipped_by_robots": true,
       "unavailable_reason": null,
-      "items": [
-        {
-          "title": "来年度予算編成　成長に資する分野見極めたい",
-          "link": "https://www.yomiuri.co.jp/editorial/20260802-GYT1T00244/",
-          "published": "2026/8/3 5:00",
-          "paid": false
-        },
-        {
-          "title": "子供とＳＮＳ　効果的な規制を実現するには",
-          "link": "https://www.yomiuri.co.jp/editorial/20260802-GYT1T00243/",
-          "published": "2026/8/3 5:00",
-          "paid": false
-        }
-      ]
+      "items": []
     },
     {
       "name": "日本経済新聞",
@@ -78,7 +65,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "［社説］日米協調介入を機に政策の規律を",
+          "link": "https://www.nikkei.com/article/DGXZQODK0379O0T00C26A8000000/",
+          "published": "2026/8/3 19:20",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "産経新聞",
@@ -157,7 +151,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "＜社説＞熊本地震1週間　猛暑から被災者守り抜け",
+          "link": "https://www.hokkaido-np.co.jp/article/1347379/",
+          "published": "2026年8月3日 20:00",
+          "paid": false
+        },
+        {
+          "title": "＜社説＞日米が為替介入　対症療法では変わらぬ",
+          "link": "https://www.hokkaido-np.co.jp/article/1347378/",
+          "published": "2026年8月3日 20:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "西日本新聞",
@@ -184,7 +191,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "社説：単身高齢者の支援　地域の体制拡充が不可欠だ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1765147",
+          "published": "2026/8/3 16:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "神戸新聞",
@@ -310,7 +324,7 @@
           "title": "沖縄知事選　「基地のくびき」解放を",
           "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1294242.html",
           "published": "社説｜                                    神奈川新聞｜\n                              2026年8月3日(月)  09:40",
-          "paid": false
+          "paid": true
         }
       ]
     },
