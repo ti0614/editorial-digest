@@ -11,14 +11,14 @@
       "unavailable_reason": null,
       "items": [
         {
-          "title": "（社説）生態系の危機　回復へ責任ある行動を",
-          "link": "https://www.asahi.com/articles/DA3S16518468.html?iref=pc_rensai_long_16_article",
+          "title": "（社説）情報強化第２弾　通信傍受拡大への懸念",
+          "link": "https://www.asahi.com/articles/DA3S16518467.html?iref=pc_rensai_long_16_article",
           "published": "2026年08月03日 05時00分",
           "paid": false
         },
         {
-          "title": "（社説）情報強化第２弾　通信傍受拡大への懸念",
-          "link": "https://www.asahi.com/articles/DA3S16518467.html?iref=pc_rensai_long_16_article",
+          "title": "（社説）生態系の危機　回復へ責任ある行動を",
+          "link": "https://www.asahi.com/articles/DA3S16518468.html?iref=pc_rensai_long_16_article",
           "published": "2026年08月03日 05時00分",
           "paid": false
         }
@@ -111,7 +111,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "〈社説〉相模原殺傷10年　共生の理念を忘れない",
+          "link": "https://www.tokyo-np.co.jp/article/506142?rct=editorial",
+          "published": "8月3日 07時32分",
+          "paid": false
+        },
+        {
+          "title": "〈社説〉国民投票法改正　課題が残されたままだ",
+          "link": "https://www.tokyo-np.co.jp/article/506141?rct=editorial",
+          "published": "8月3日 07時31分",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "中日新聞",
@@ -238,7 +251,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "コメ民間在庫量過去最大　需給見極め、対応柔軟に",
+          "link": "https://www.yamagata-np.jp/shasetsu/?par1=20260803.inc",
+          "published": "（8月3日更新）",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "福島民報",
@@ -248,7 +268,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "副首都関連法　大阪ありき許されない（８月３日）",
+          "link": "https://www.minpo.jp/articles/-/195760",
+          "published": "2026/8/3 11:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "岩手日報",
@@ -278,7 +305,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "沖縄知事選　「基地のくびき」解放を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1294242.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2026年8月3日(月)  09:40",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "茨城新聞",
@@ -325,7 +359,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "実効性ある抑止策を　止まらぬ教職員わいせつ　【論説】",
+          "link": "https://www.chibanippo.co.jp/articles/1648988",
+          "published": "2026/8/3 5:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "新潟日報",
@@ -392,7 +433,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "おおい・舟の通し合い　半島の伝統　次代に残そう",
+          "link": "https://www.fukuishimbun.co.jp/articles/-/2666212",
+          "published": "（2026年8月3日 午前7時30分）",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "山梨日日新聞",
@@ -469,7 +517,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "リニア着工容認　ＪＲは誠実に難工事臨め",
+          "link": "https://www.sanyonews.jp/article/1965045",
+          "published": "2026年8月3日 08:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "山陰中央新報",
@@ -479,7 +534,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "論説　中国がＥＥＺで射撃訓練　注意深く狙いの分析を",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/1054064",
+          "published": "2026/8/3 4:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "徳島新聞",
