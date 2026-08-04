@@ -11,14 +11,14 @@
       "unavailable_reason": null,
       "items": [
         {
-          "title": "（社説）日米協調介入　円安抑制は財政規律で",
-          "link": "https://www.asahi.com/articles/DA3S16519577.html?iref=pc_rensai_long_16_article",
+          "title": "（社説）中立公の合流　一致見いだす努力こそ",
+          "link": "https://www.asahi.com/articles/DA3S16519579.html?iref=pc_rensai_long_16_article",
           "published": "2026年08月04日 05時00分",
           "paid": false
         },
         {
-          "title": "（社説）中立公の合流　一致見いだす努力こそ",
-          "link": "https://www.asahi.com/articles/DA3S16519579.html?iref=pc_rensai_long_16_article",
+          "title": "（社説）日米協調介入　円安抑制は財政規律で",
+          "link": "https://www.asahi.com/articles/DA3S16519577.html?iref=pc_rensai_long_16_article",
           "published": "2026年08月04日 05時00分",
           "paid": false
         }
@@ -78,7 +78,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "［社説］熊本地震　長期化する避難生活にきめ細かな対策を",
+          "link": "https://www.nikkei.com/article/DGXZQODK046080U6A800C2000000/",
+          "published": "2026/8/4 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］防衛力は財源と意義を明確に",
+          "link": "https://www.nikkei.com/article/DGXZQODK042WO0U6A800C2000000/",
+          "published": "2026/8/4 19:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "産経新聞",
@@ -89,6 +102,12 @@
       "skipped_by_robots": false,
       "unavailable_reason": null,
       "items": [
+        {
+          "title": "教師不足を解消できるか　「鬼塚先生」に期待する文科省",
+          "link": "https://www.sankei.com/article/20260804-3JY7DJAGOZLZJARGWLMWMSBSY4/",
+          "published": "2026/8/4 15:00",
+          "paid": false
+        },
         {
           "title": "＜主張＞日米が協調介入　為替安定へ「責任」は重い",
           "link": "https://www.sankei.com/article/20260804-5H75THPSPBPZ5HIEIAEGFIILDI/",
@@ -157,7 +176,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "＜社説＞酷暑と甲子園　重大事故招かぬために",
+          "link": "https://www.hokkaido-np.co.jp/article/1348015/",
+          "published": "2026年8月4日 20:00",
+          "paid": false
+        },
+        {
+          "title": "＜社説＞高額療養費制度　患者目線で早急に検証を",
+          "link": "https://www.hokkaido-np.co.jp/article/1348013/",
+          "published": "2026年8月4日 20:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "西日本新聞",
@@ -184,7 +216,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "社説：弱い円と為替介入　構造的な問題の是正が必要",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1765779",
+          "published": "2026/8/4 16:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "神戸新聞",
