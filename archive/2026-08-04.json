@@ -11,14 +11,14 @@
       "unavailable_reason": null,
       "items": [
         {
-          "title": "（社説）中立公の合流　一致見いだす努力こそ",
-          "link": "https://www.asahi.com/articles/DA3S16519579.html?iref=pc_rensai_long_16_article",
+          "title": "（社説）日米協調介入　円安抑制は財政規律で",
+          "link": "https://www.asahi.com/articles/DA3S16519577.html?iref=pc_rensai_long_16_article",
           "published": "2026年08月04日 05時00分",
           "paid": false
         },
         {
-          "title": "（社説）日米協調介入　円安抑制は財政規律で",
-          "link": "https://www.asahi.com/articles/DA3S16519577.html?iref=pc_rensai_long_16_article",
+          "title": "（社説）中立公の合流　一致見いだす努力こそ",
+          "link": "https://www.asahi.com/articles/DA3S16519579.html?iref=pc_rensai_long_16_article",
           "published": "2026年08月04日 05時00分",
           "paid": false
         }
@@ -111,7 +111,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "〈社説〉日米協調介入　円安の構造転換せねば",
+          "link": "https://www.tokyo-np.co.jp/article/506360?rct=editorial",
+          "published": "8月4日 07時44分",
+          "paid": false
+        },
+        {
+          "title": "〈社説〉労災保険法改正　より安心して働くため",
+          "link": "https://www.tokyo-np.co.jp/article/506359?rct=editorial",
+          "published": "8月4日 07時42分",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "中日新聞",
@@ -218,7 +231,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "円安の原因　放置するな／日米が協調介入",
+          "link": "https://www.toonippo.co.jp/articles/-/2332723",
+          "published": "9:00更新",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "秋田魁新報",
@@ -228,7 +248,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "社説：再使用ロケット試験　能代で培う技術に期待",
+          "link": "https://www.sakigake.jp/news/article/20260804AK0002/",
+          "published": "2026/8/4 9:24",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "山形新聞",
@@ -238,7 +265,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "日米が協調介入　円安の原因を放置するな",
+          "link": "https://www.yamagata-np.jp/shasetsu/?par1=20260804.inc",
+          "published": "（8月4日更新）",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "福島民報",
@@ -248,7 +282,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "【公営住宅の空き戸】解消に柔軟な発想必要（８月４日）",
+          "link": "https://www.minpo.jp/articles/-/196559",
+          "published": "2026/8/4 11:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "岩手日報",
@@ -268,7 +309,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "【災害の支援路計画改定】「迷い」減らし実効確保を",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1397275",
+          "published": "8:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "神奈川新聞",
@@ -278,7 +326,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "熊本地震１週間　関連死抑止へ対応急げ",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1294530.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2026年8月4日(火)  09:50",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "茨城新聞",
@@ -398,7 +453,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "アスリートへの中傷　心傷つける許し難い行為",
+          "link": "https://www.fukuishimbun.co.jp/articles/-/2667114",
+          "published": "（2026年8月4日 午前7時30分）",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "山梨日日新聞",
@@ -475,7 +537,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "熊本地震１週間　避難所の環境改善急務だ",
+          "link": "https://www.sanyonews.jp/article/1966439",
+          "published": "2026年8月4日 08:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "山陰中央新報",
@@ -485,7 +554,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "論説　日米が協調介入　円安の原因放置するな",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/1054739",
+          "published": "2026/8/4 4:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "徳島新聞",
@@ -497,7 +573,7 @@
       "unavailable_reason": null,
       "items": [
         {
-          "title": "【社説】熊本地震1週間　関連死の続発　防ぎたい",
+          "title": "【社説】熊本地震１週間　関連死の続発防ぎたい",
           "link": "https://www.topics.or.jp/articles/-/1473410",
           "published": "2026/8/4 5:00",
           "paid": true
@@ -600,7 +676,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "最低賃金の改定",
+          "link": "https://www.the-miyanichi.co.jp/column/syasetsu/968048.html",
+          "published": "2026.08.04｜社説 09:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "南日本新聞",
@@ -610,7 +693,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "［熊本地震1週間］関連死防ぐ猛暑対策を",
+          "link": "https://373news.com/lineup/syasetsu/",
+          "published": "2026年8月4日 付",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "沖縄タイムス",
