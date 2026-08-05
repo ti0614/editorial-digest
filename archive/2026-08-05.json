@@ -78,7 +78,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "［社説］消費税減税の強行は将来に禍根を残す",
+          "link": "https://www.nikkei.com/article/DGXZQOCD048P60U6A800C2000000/",
+          "published": "2026/8/5 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］核廃絶へ希望紡ぐ取り組みを",
+          "link": "https://www.nikkei.com/article/DGXZQODK054PS0V00C26A8000000/",
+          "published": "2026/8/5 19:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "産経新聞",
@@ -157,7 +170,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "広島・長崎原爆忌　核の危機克服へ協調急務だ",
+          "link": "https://www.hokkaido-np.co.jp/article/1348738/",
+          "published": "2026年8月5日 20:01",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "西日本新聞",
@@ -184,7 +204,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "社説：辺野古転覆報告　命守る責任欠如明らか",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1766552",
+          "published": "2026/8/5 16:05",
+          "paid": false
+        },
+        {
+          "title": "社説：最賃目安の決定　底上げへの環境整備を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1766551",
+          "published": "2026/8/5 16:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "神戸新聞",
