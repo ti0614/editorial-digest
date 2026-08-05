@@ -111,7 +111,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "〈社説〉熊本被災地支援　要望をくみ取り円滑に",
+          "link": "https://www.tokyo-np.co.jp/article/506629?rct=editorial",
+          "published": "8月5日 08時22分",
+          "paid": false
+        },
+        {
+          "title": "〈社説〉国際情勢と白書　緊張緩和は「二の次」か",
+          "link": "https://www.tokyo-np.co.jp/article/506628?rct=editorial",
+          "published": "8月5日 08時22分",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "中日新聞",
@@ -218,7 +231,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "命つなぐ対策を万全に／熊本地震1週間",
+          "link": "https://www.toonippo.co.jp/articles/-/2333547",
+          "published": "9:00更新",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "秋田魁新報",
@@ -228,7 +248,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "社説：スポーツと熱中症　選手第一に対策講じよ",
+          "link": "https://www.sakigake.jp/news/article/20260805AK0003/",
+          "published": "2026/8/5 9:45",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "山形新聞",
@@ -238,7 +265,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "熊本地震１週間　命つなぐ対策を万全に",
+          "link": "https://www.yamagata-np.jp/shasetsu/?par1=20260805.inc",
+          "published": "（8月5日更新）",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "福島民報",
@@ -248,7 +282,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "【伊達のデータ農業】もうかる仕組み確立を（８月５日）",
+          "link": "https://www.minpo.jp/articles/-/197396",
+          "published": "2026/8/5 11:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "岩手日報",
@@ -268,7 +309,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "【大田原市の糖尿病対策】官学連携で課題解決を",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1397906",
+          "published": "8:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "神奈川新聞",
@@ -278,7 +326,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "外来カミキリ　地域全体で早期防除を",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1294808.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2026年8月5日(水)  09:20",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "茨城新聞",
@@ -392,7 +447,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "障害者差別解消へ　社会側の障壁除去したい",
+          "link": "https://www.fukuishimbun.co.jp/articles/-/2667976",
+          "published": "（2026年8月5日 午前7時30分）",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "山梨日日新聞",
@@ -469,7 +531,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "国選・当番弁護士　負担に見合う報酬検討を",
+          "link": "https://www.sanyonews.jp/article/1967129",
+          "published": "2026年8月5日 08:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "山陰中央新報",
@@ -479,7 +548,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "論説　熊本地震１週間　命つなぐ対策を万全に",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/1055489",
+          "published": "2026/8/5 4:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "徳島新聞",
@@ -594,7 +670,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "熊本地震１週間",
+          "link": "https://www.the-miyanichi.co.jp/column/syasetsu/970253.html",
+          "published": "2026.08.05｜社説 09:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "南日本新聞",
