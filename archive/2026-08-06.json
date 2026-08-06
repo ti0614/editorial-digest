@@ -60,7 +60,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "［社説］国産AIは「日の丸連合」の轍を踏むな",
+          "link": "https://www.nikkei.com/article/DGXZQODK284J80Y6A720C2000000/",
+          "published": "2026/8/6 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］新幹線の整備財源に大局観を",
+          "link": "https://www.nikkei.com/article/DGXZQODK065N70W6A800C2000000/",
+          "published": "2026/8/6 19:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "産経新聞",
@@ -127,7 +140,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "＜社説＞Jリーグ秋春制　地域密着の理念忘れずに",
+          "link": "https://www.hokkaido-np.co.jp/article/1349507/",
+          "published": "2026年8月6日 20:17",
+          "paid": false
+        },
+        {
+          "title": "＜社説＞防衛白書　戦争前提の姿勢危うい",
+          "link": "https://www.hokkaido-np.co.jp/article/1349432/",
+          "published": "2026年8月6日 20:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "西日本新聞",
@@ -154,7 +180,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "社説：８１年目の原爆の日　核依存でなく廃絶への道を",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1767224",
+          "published": "2026/8/6 16:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "神戸新聞",
