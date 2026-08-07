@@ -310,6 +310,7 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
   var allDates = [];
   var loadedCount = 0;
   var dateFilter = null;
+  var searchAllActive = false;
 
   function esc(s) {
     return String(s).replace(/[&<>"']/g, function (c) {
@@ -409,20 +410,31 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
     });
   }
 
+  function isVisible(li) {
+    // 記事の表示/非表示はCSSの4規則（search-hide・tier別・会員限定）だけで
+    // 決まるため、クラスから直接判定する。以前はoffsetParentで実測していたが、
+    // 全期間検索（Issue #57）で約1000日分・約2万件がDOMに載るようになり、
+    // 1件ごとの強制レイアウトが1打鍵ごとに効くようになった（実測で約44ms、
+    // クラス判定なら約6ms）ため、レイアウトを起こさない判定に置き換えた。
+    if (li.classList.contains('search-hide')) return false;
+    if (hidePaid && li.classList.contains('paid-item')) return false;
+    for (var i = 0; i < TIERS.length; i++) {
+      if (li.classList.contains('tier-' + TIERS[i])) {
+        return body.classList.contains('show-' + TIERS[i]);
+      }
+    }
+    return true;
+  }
+
   function updateCounts() {
     applySearchFilter();
     var grandTotal = 0;
     resultsEl.querySelectorAll('section.dategroup').forEach(function (sec) {
-      // 日付フィルタで除外中のセクションはhidden状態を保ったまま完全にスキップする
-      // （offsetParentベースの計測対象に含めない・以下のhidden解除もしない）。
+      // 日付フィルタで除外中のセクションはhidden状態を保ったまま完全にスキップする。
       if (sec.classList.contains('date-filtered-out')) { return; }
-      // offsetParentは祖先がhiddenだと常にnullになるため、計測前に一旦
-      // hiddenを解除しておく（そうしないと一度0件と判定されたセクションが
-      // 以後ずっと0件のまま隠れ続けてしまう）。
-      sec.hidden = false;
       var count = 0;
       sec.querySelectorAll('li.article-item').forEach(function (li) {
-        if (li.offsetParent !== null) count++;
+        if (isVisible(li)) count++;
       });
       grandTotal += count;
       var countEl = sec.querySelector('.date-count');
@@ -464,14 +476,21 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
   }
 """ + _TIER_PAID_TOGGLE_JS + r"""
   function finishLoading() {
-    statusEl.textContent = allDates.length ? 'すべて表示中' : 'まだアーカイブがありません。';
+    if (!allDates.length) {
+      statusEl.textContent = 'まだアーカイブがありません。';
+    } else if (searchInput && searchInput.value.trim()) {
+      // 検索中は、読み込み済みの分だけでなく全期間が対象になっていることを示す。
+      statusEl.textContent = '全期間（' + allDates.length + '日分）から検索中';
+    } else {
+      statusEl.textContent = 'すべて表示中';
+    }
     loadMoreBtn.hidden = true;
   }
 
-  function loadNextPage() {
+  function loadNextPage(onDone) {
     var batch = allDates.slice(loadedCount, loadedCount + PAGE_SIZE);
-    if (batch.length === 0) { finishLoading(); return; }
-    statusEl.textContent = '読み込み中…';
+    if (batch.length === 0) { finishLoading(); if (onDone) onDone(); return; }
+    if (!searchAllActive) { statusEl.textContent = '読み込み中…'; }
     loadMoreBtn.hidden = true;
     Promise.all(batch.map(function (d) {
       return fetch('archive/' + d + '.json').then(function (r) { return r.ok ? r.json() : null; })
@@ -489,16 +508,40 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
       if (dateFilter) {
         // 読み込み中に日付フィルタが設定された場合、新規追加分にも適用する。
         showOnlyDate(dateFilter);
+      } else {
+        updateCounts();
+        // 全期間読み込み中は、進捗表示とボタン制御をensureAllDatesLoaded側に任せる。
+        if (!searchAllActive) {
+          if (loadedCount >= allDates.length) {
+            finishLoading();
+          } else {
+            statusEl.textContent = loadedCount + '日分を表示中';
+            loadMoreBtn.hidden = false;
+          }
+        }
+      }
+      if (onDone) onDone();
+    });
+  }
+
+  // 記事データは archive/{date}.json と日付ごとに分かれており、初回は
+  // PAGE_SIZE日分しか取得しない。そのためタイトル検索を読み込み済みの分だけに
+  // 掛けると、まだ取得していない過去分に一致する記事があっても「0件」に
+  // 見えてしまう（Issue #57）。検索語が入力されたら残りの日付を裏で順に
+  // 取得し、検索が常に全期間を対象にするようにする。取得済みの日付はDOMに
+  // 残るので、この全期間読み込みは1回のページ表示につき一度きりで済む。
+  function ensureAllDatesLoaded() {
+    if (searchAllActive || loadedCount >= allDates.length) { return; }
+    searchAllActive = true;
+    (function step() {
+      if (loadedCount >= allDates.length) {
+        searchAllActive = false;
+        if (dateFilter) { showOnlyDate(dateFilter); } else { finishLoading(); }
         return;
       }
-      updateCounts();
-      if (loadedCount >= allDates.length) {
-        finishLoading();
-      } else {
-        statusEl.textContent = loadedCount + '日分を表示中';
-        loadMoreBtn.hidden = false;
-      }
-    });
+      statusEl.textContent = '全期間から検索中… ' + loadedCount + '/' + allDates.length + '日分';
+      loadNextPage(step);
+    })();
   }
 
   if (loadMoreBtn) {
@@ -506,8 +549,17 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
   }
 
   if (searchInput) {
+    var searchTimer = null;
     searchInput.addEventListener('input', function () {
       updateCounts();
+      if (searchTimer) { clearTimeout(searchTimer); }
+      if (!searchInput.value.trim()) {
+        // 検索語を消したら、全期間読み込み済みの旨の表示を通常状態へ戻す。
+        if (!searchAllActive && !dateFilter && loadedCount >= allDates.length) { finishLoading(); }
+        return;
+      }
+      // 1打鍵ごとに全期間読み込みを起動しないよう、入力が落ち着いてから始める。
+      searchTimer = setTimeout(ensureAllDatesLoaded, 300);
     });
   }
 
