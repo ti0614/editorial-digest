@@ -829,7 +829,6 @@ def render_archive_html() -> str:
         <button type="button" class="paid-toggle" id="paid-toggle" aria-pressed="false">会員限定記事: 表示中</button>
       </div>
     </div>
-    <p class="disclaimer">検索対象はタイトルのみです（本文は収集していないため検索できません）。</p>
     <div class="active-filters" id="active-filters"></div>
     <p class="archive-status" id="archive-status">読み込み中…</p>'''
 
