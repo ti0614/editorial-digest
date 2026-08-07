@@ -19,7 +19,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "イオンモール爆発事故　検証し想定外なくさねば",
+          "link": "https://mainichi.jp/articles/20260808/ddm/005/070/162000c",
+          "published": "2026/8/8 02:00",
+          "paid": false
+        },
+        {
+          "title": "「戦後最長」の景気拡大　生活上向かぬ原因直視を",
+          "link": "https://mainichi.jp/articles/20260808/ddm/005/070/161000c",
+          "published": "2026/8/8 02:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "読売新聞",
@@ -29,7 +42,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "熊本地震の支援　関連死を食い止める正念場だ",
+          "link": "https://www.yomiuri.co.jp/editorial/20260807-GYT1T00427/",
+          "published": "2026/8/8 5:00",
+          "paid": false
+        },
+        {
+          "title": "ミャンマー政権　弾圧やめてこそ「復帰」可能に",
+          "link": "https://www.yomiuri.co.jp/editorial/20260807-GYT1T00428/",
+          "published": "2026/8/8 5:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "日本経済新聞",
@@ -49,7 +75,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "＜主張＞FIFAの混乱　会長にレッドカード示せ",
+          "link": "https://www.sankei.com/article/20260808-EPBAMB3HIFLXPBP6A6RN2ZLIU4/",
+          "published": "2026/8/8 5:01",
+          "paid": false
+        },
+        {
+          "title": "＜主張＞「天安門」で処分　東大は国益第一で運営を",
+          "link": "https://www.sankei.com/article/20260808-IKZK2X6ZOROFVEGAQAEFEK4EA4/",
+          "published": "2026/8/8 5:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "東京新聞",
@@ -69,7 +108,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "能登から熊本へ　経験生かし「恩返し」を",
+          "link": "https://www.chunichi.co.jp/article/1293651?rct=editorial",
+          "published": "8月8日 05:05",
+          "paid": false
+        },
+        {
+          "title": "「いざなみ」超え　好景気実感には程遠い",
+          "link": "https://www.chunichi.co.jp/article/1293650?rct=editorial",
+          "published": "8月8日 05:05",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "北海道新聞",
@@ -109,7 +161,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "＜社説＞辺野古調査報告／安全軽視した責任は重い",
+          "link": "https://www.kobe-np.co.jp/opinion/202608/0020681868.shtml",
+          "published": "8/8 05:10",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "河北新報",
@@ -209,7 +268,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "【論説】防衛白書　抑止と対話、両立してこそ",
+          "link": "https://ibarakinews.jp/news/newsdetail.php?elem=ronsetu",
+          "published": "2026年8月8日(土)",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "上毛新聞",
@@ -259,7 +325,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "社説「スキヤキ」３５回の節目／価値共有し次代に継承",
+          "link": "https://webun.jp/articles/-/1071104",
+          "published": "05:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "北國新聞",
@@ -269,7 +342,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "社説【隆起海岸の宅地化】復興に資する活用さらに",
+          "link": "https://www.hokkoku.co.jp/articles/-/2194312",
+          "published": "2026/8/8 5:00",
+          "paid": true
+        },
+        {
+          "title": "社説【財務省人事】「減税つぶし」を問題視か",
+          "link": "https://www.hokkoku.co.jp/articles/-/2194311",
+          "published": "2026/8/8 5:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "福井新聞",
@@ -319,7 +405,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "ＩＣＣ解体論",
+          "link": "https://www.gifu-np.co.jp/articles/-/751028",
+          "published": "2026/8/8 5:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "奈良新聞",
@@ -369,7 +462,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "【社説】徳島ヴォルティス　J1復帰への気迫見たい",
+          "link": "https://www.topics.or.jp/articles/-/1475802",
+          "published": "2026/8/8 5:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "愛媛新聞",
@@ -379,7 +479,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "［社説］Ｊリーグ開幕　「秋春制」での県勢の活躍に期待",
+          "link": "https://www.ehime-np.co.jp/article/news202608080009",
+          "published": "（2026/8/8）",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "高知新聞",
@@ -389,7 +496,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "【防衛白書】危機に対処する財源は",
+          "link": "https://www.kochinews.co.jp/article/detail/1032991",
+          "published": "2026.08.08 05:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "日本海新聞",
@@ -419,7 +533,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "陸自の情報活動　目的と手法 第三者検証を",
+          "link": "https://kumanichi.com/articles/2023307",
+          "published": "2026年08月08日 05:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "大分合同新聞",
@@ -429,7 +550,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "消費税１％決定　国を誤る経済政策だ",
+          "link": "https://www.oita-press.co.jp/1042000000/2042002000/2026/08/JDC2026080702681",
+          "published": "2026年8月8日 03:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "宮崎日日新聞",
@@ -459,7 +587,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "［社説］防衛白書　軍事偏重の拡大色濃く",
+          "link": "https://www.okinawatimes.co.jp/articles/-/1898630",
+          "published": "2026年8月8日 04:01",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "琉球新報",
@@ -469,7 +604,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "＜社説＞2026年版防衛白書　「専守防衛」逸脱しないか",
+          "link": "https://ryukyushimpo.jp/editorial/entry-5442829.html",
+          "published": "2026/08/08 04:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "佐賀新聞",
