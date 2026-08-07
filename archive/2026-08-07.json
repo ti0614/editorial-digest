@@ -282,7 +282,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "【消費税減税】財源を早急に示せ（８月７日）",
+          "link": "https://www.minpo.jp/articles/-/199131",
+          "published": "2026/8/7 11:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "岩手日報",
@@ -317,7 +324,7 @@
       "tier": "regional",
       "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
       "error": null,
-      "skipped_by_robots": false,
+      "skipped_by_robots": true,
       "unavailable_reason": null,
       "items": []
     },
@@ -454,7 +461,7 @@
       "tier": "regional",
       "index_url": "https://www.sannichi.co.jp/news/ronsetsu",
       "error": null,
-      "skipped_by_robots": false,
+      "skipped_by_robots": true,
       "unavailable_reason": "サイトの自動アクセス防止の仕組みにより、記事を取得できません。",
       "items": []
     },
@@ -589,16 +596,9 @@
       "tier": "regional",
       "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
       "error": null,
-      "skipped_by_robots": false,
+      "skipped_by_robots": true,
       "unavailable_reason": null,
-      "items": [
-        {
-          "title": "【食品消費税１％】社会保障をどう維持する",
-          "link": "https://www.kochinews.co.jp/article/detail/1032753",
-          "published": "2026.08.07 05:00",
-          "paid": false
-        }
-      ]
+      "items": []
     },
     {
       "name": "日本海新聞",
@@ -626,16 +626,9 @@
       "tier": "regional",
       "index_url": "https://kumanichi.com/opinion/syasetsu",
       "error": null,
-      "skipped_by_robots": false,
+      "skipped_by_robots": true,
       "unavailable_reason": null,
-      "items": [
-        {
-          "title": "日米の協調介入　円安の原因直視し是正を",
-          "link": "https://kumanichi.com/articles/2022871",
-          "published": "2026年08月07日 05:00",
-          "paid": true
-        }
-      ]
+      "items": []
     },
     {
       "name": "大分合同新聞",
@@ -711,16 +704,9 @@
       "tier": "regional",
       "index_url": "https://ryukyushimpo.jp/editorial",
       "error": null,
-      "skipped_by_robots": false,
+      "skipped_by_robots": true,
       "unavailable_reason": null,
-      "items": [
-        {
-          "title": "＜社説＞全国学力テスト　SNS対策を急ぎたい",
-          "link": "https://ryukyushimpo.jp/editorial/entry-5439790.html",
-          "published": "2026/08/07 04:00",
-          "paid": false
-        }
-      ]
+      "items": []
     },
     {
       "name": "佐賀新聞",
