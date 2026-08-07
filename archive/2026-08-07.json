@@ -170,7 +170,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "道内最低賃金　持続的上昇へ方策強化を",
+          "link": "https://www.hokkaido-np.co.jp/article/1350181/",
+          "published": "2026年8月7日 20:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "西日本新聞",
