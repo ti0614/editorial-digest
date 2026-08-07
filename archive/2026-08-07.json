@@ -78,7 +78,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "［社説］永住厳格化で外国人の定着意欲をそぐな",
+          "link": "https://www.nikkei.com/article/DGXZQODK06AMJ0W6A800C2000000/",
+          "published": "2026/8/7 19:05",
+          "paid": false
+        },
+        {
+          "title": "［社説］夏山を安全に楽しむために",
+          "link": "https://www.nikkei.com/article/DGXZQODK073190X00C26A8000000/",
+          "published": "2026/8/7 19:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "産経新聞",
@@ -184,7 +197,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "社説：世界的な猛暑　地球の警告 深刻に直視せよ",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1767980",
+          "published": "2026/8/7 16:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "神戸新聞",
@@ -324,9 +344,16 @@
       "tier": "regional",
       "index_url": "https://www.kanaloco.jp/special/discourse/editorial/",
       "error": null,
-      "skipped_by_robots": true,
+      "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "Ｊリーグ開幕　「秋春制」の効果に注目",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1295444.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2026年8月7日(金)  10:30",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "茨城新聞",
@@ -461,7 +488,7 @@
       "tier": "regional",
       "index_url": "https://www.sannichi.co.jp/news/ronsetsu",
       "error": null,
-      "skipped_by_robots": true,
+      "skipped_by_robots": false,
       "unavailable_reason": "サイトの自動アクセス防止の仕組みにより、記事を取得できません。",
       "items": []
     },
@@ -596,9 +623,16 @@
       "tier": "regional",
       "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
       "error": null,
-      "skipped_by_robots": true,
+      "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "【食品消費税１％】社会保障をどう維持する",
+          "link": "https://www.kochinews.co.jp/article/detail/1032753",
+          "published": "2026.08.07 05:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "日本海新聞",
@@ -626,9 +660,16 @@
       "tier": "regional",
       "index_url": "https://kumanichi.com/opinion/syasetsu",
       "error": null,
-      "skipped_by_robots": true,
+      "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "日米の協調介入　円安の原因直視し是正を",
+          "link": "https://kumanichi.com/articles/2022871",
+          "published": "2026年08月07日 05:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "大分合同新聞",
@@ -704,9 +745,16 @@
       "tier": "regional",
       "index_url": "https://ryukyushimpo.jp/editorial",
       "error": null,
-      "skipped_by_robots": true,
+      "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "＜社説＞全国学力テスト　SNS対策を急ぎたい",
+          "link": "https://ryukyushimpo.jp/editorial/entry-5439790.html",
+          "published": "2026/08/07 04:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "佐賀新聞",
