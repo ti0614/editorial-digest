@@ -9,7 +9,20 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "（社説）防衛白書　安保と経済　結合危うい",
+          "link": "https://www.asahi.com/articles/DA3S16522756.html?iref=pc_rensai_long_16_article",
+          "published": "2026年08月08日 05時00分",
+          "paid": false
+        },
+        {
+          "title": "（社説）ヒトゲノム編集　残る課題　真摯に検討を",
+          "link": "https://www.asahi.com/articles/DA3S16522755.html?iref=pc_rensai_long_16_article",
+          "published": "2026年08月08日 05時00分",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "毎日新聞",
@@ -40,22 +53,9 @@
       "tier": "national",
       "index_url": "https://www.yomiuri.co.jp/editorial/",
       "error": null,
-      "skipped_by_robots": false,
+      "skipped_by_robots": true,
       "unavailable_reason": null,
-      "items": [
-        {
-          "title": "熊本地震の支援　関連死を食い止める正念場だ",
-          "link": "https://www.yomiuri.co.jp/editorial/20260807-GYT1T00427/",
-          "published": "2026/8/8 5:00",
-          "paid": false
-        },
-        {
-          "title": "ミャンマー政権　弾圧やめてこそ「復帰」可能に",
-          "link": "https://www.yomiuri.co.jp/editorial/20260807-GYT1T00428/",
-          "published": "2026/8/8 5:00",
-          "paid": false
-        }
-      ]
+      "items": []
     },
     {
       "name": "日本経済新聞",
@@ -98,7 +98,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "〈社説〉「いざなみ」超え　好景気実感には程遠い",
+          "link": "https://www.tokyo-np.co.jp/article/507370?rct=editorial",
+          "published": "8月8日 07時18分",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "中日新聞",
@@ -141,7 +148,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "【社説】骨太方針と市場　懸念打ち消す政策運営を",
+          "link": "https://www.nishinippon.co.jp/item/1525129/",
+          "published": "2026/08/08 06:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "京都新聞",
@@ -198,7 +212,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "抑止と対話の両立図れ／防衛白書",
+          "link": "https://www.toonippo.co.jp/articles/-/2336036",
+          "published": "9:00更新",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "秋田魁新報",
@@ -208,7 +229,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "社説：夏の感染症　子ども守る対策徹底を",
+          "link": "https://www.sakigake.jp/news/article/20260808AK0005/",
+          "published": "2026/8/8 10:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "山形新聞",
@@ -218,7 +246,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "ロッキード事件50年　検察の立て直しを急げ",
+          "link": "https://www.yamagata-np.jp/shasetsu/?par1=20260808.inc",
+          "published": "（8月8日更新）",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "福島民報",
@@ -228,7 +263,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "【防災庁】縦割り超え重責果たせ（８月８日）",
+          "link": "https://www.minpo.jp/articles/-/200041",
+          "published": "2026/8/8 11:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "岩手日報",
@@ -248,7 +290,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "【医学部の地域枠】国は地方の実情考慮せよ",
+          "link": "https://www.shimotsuke.co.jp/articles/-/1400031",
+          "published": "8:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "神奈川新聞",
@@ -258,7 +307,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "食育白書　生産現場の理解不可欠",
+          "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1295738.html",
+          "published": "社説｜                                    神奈川新聞｜\n                              2026年8月8日(土)  10:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "茨城新聞",
@@ -315,7 +371,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "高校野球　社会に合わせた変革進む",
+          "link": "https://www.niigata-nippo.co.jp/articles/-/884410",
+          "published": "2026/8/8 6:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "北日本新聞",
@@ -365,7 +428,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "永住許可厳格化　選ばれない国でいいのか",
+          "link": "https://www.fukuishimbun.co.jp/articles/-/2670759",
+          "published": "（2026年8月8日 午前7時30分）",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "山梨日日新聞",
@@ -442,7 +512,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "改正種苗法　農業知財守る体制を急げ",
+          "link": "https://www.sanyonews.jp/article/1969116",
+          "published": "2026年8月8日 08:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "山陰中央新報",
@@ -452,7 +529,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "論説　防衛白書　抑止と対話の両立を",
+          "link": "https://www.sanin-chuo.co.jp/articles/-/1057569",
+          "published": "2026/8/8 4:00",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "徳島新聞",
@@ -567,7 +651,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "消費減税を決定",
+          "link": "https://www.the-miyanichi.co.jp/column/syasetsu/978896.html",
+          "published": "2026.08.08｜社説 08:53",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "南日本新聞",
@@ -577,7 +668,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "［消費減税1％］将来の社会保障脅かす",
+          "link": "https://373news.com/lineup/syasetsu/",
+          "published": "2026年8月8日 付",
+          "paid": true
+        }
+      ]
     },
     {
       "name": "沖縄タイムス",
