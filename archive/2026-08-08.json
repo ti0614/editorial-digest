@@ -53,9 +53,22 @@
       "tier": "national",
       "index_url": "https://www.yomiuri.co.jp/editorial/",
       "error": null,
-      "skipped_by_robots": true,
+      "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "熊本地震の支援　関連死を食い止める正念場だ",
+          "link": "https://www.yomiuri.co.jp/editorial/20260807-GYT1T00427/",
+          "published": "2026/8/8 5:00",
+          "paid": false
+        },
+        {
+          "title": "ミャンマー政権　弾圧やめてこそ「復帰」可能に",
+          "link": "https://www.yomiuri.co.jp/editorial/20260807-GYT1T00428/",
+          "published": "2026/8/8 5:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "日本経済新聞",
@@ -65,7 +78,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "［社説］人類超す技術の統治は自らの手で",
+          "link": "https://www.nikkei.com/article/DGXZQODK048LL0U6A800C2000000/",
+          "published": "2026/8/8 19:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "産経新聞",
@@ -165,7 +185,14 @@
       "error": null,
       "skipped_by_robots": false,
       "unavailable_reason": null,
-      "items": []
+      "items": [
+        {
+          "title": "社説：国家情報会議　始動　監視社会の足場にするのか",
+          "link": "https://www.kyoto-np.co.jp/articles/-/1768727",
+          "published": "2026/8/8 16:00",
+          "paid": false
+        }
+      ]
     },
     {
       "name": "神戸新聞",
@@ -500,7 +527,7 @@
       "tier": "regional",
       "index_url": "https://wakayamashimpo.co.jp/",
       "error": null,
-      "skipped_by_robots": false,
+      "skipped_by_robots": true,
       "unavailable_reason": "社説だけをまとめた専用の一覧ページが見つからず、取得できていません。",
       "items": []
     },
