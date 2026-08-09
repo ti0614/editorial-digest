@@ -6128,14 +6128,14 @@
           "unavailable_reason": null,
           "items": [
             {
-              "title": "（社説）ガザ和平行程表　絵に描いた餅では困る",
-              "link": "https://www.asahi.com/articles/DA3S16523402.html?iref=pc_rensai_long_16_article",
+              "title": "（社説）横浜市長パワハラ　首長の資質　著しく欠く",
+              "link": "https://www.asahi.com/articles/DA3S16523401.html?iref=pc_rensai_long_16_article",
               "published": "2026年08月09日 05時00分",
               "paid": false
             },
             {
-              "title": "（社説）横浜市長パワハラ　首長の資質　著しく欠く",
-              "link": "https://www.asahi.com/articles/DA3S16523401.html?iref=pc_rensai_long_16_article",
+              "title": "（社説）ガザ和平行程表　絵に描いた餅では困る",
+              "link": "https://www.asahi.com/articles/DA3S16523402.html?iref=pc_rensai_long_16_article",
               "published": "2026年08月09日 05時00分",
               "paid": false
             }
@@ -6525,7 +6525,7 @@
           "tier": "regional",
           "index_url": "https://www.sannichi.co.jp/news/ronsetsu",
           "error": null,
-          "skipped_by_robots": true,
+          "skipped_by_robots": false,
           "unavailable_reason": "サイトの自動アクセス防止の仕組みにより、記事を取得できません。",
           "items": []
         },
@@ -6660,9 +6660,16 @@
           "tier": "regional",
           "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
           "error": null,
-          "skipped_by_robots": true,
+          "skipped_by_robots": false,
           "unavailable_reason": null,
-          "items": []
+          "items": [
+            {
+              "title": "【外国人永住許可】排除でなく共生の道を",
+              "link": "https://www.kochinews.co.jp/article/detail/1033325",
+              "published": "2026.08.09 05:00",
+              "paid": false
+            }
+          ]
         },
         {
           "name": "日本海新聞",
@@ -6690,9 +6697,16 @@
           "tier": "regional",
           "index_url": "https://kumanichi.com/opinion/syasetsu",
           "error": null,
-          "skipped_by_robots": true,
+          "skipped_by_robots": false,
           "unavailable_reason": null,
-          "items": []
+          "items": [
+            {
+              "title": "農業被害深刻　産地の維持へ支援手厚く",
+              "link": "https://kumanichi.com/articles/2023526",
+              "published": "2026年08月09日 05:00",
+              "paid": true
+            }
+          ]
         },
         {
           "name": "大分合同新聞",
@@ -6761,9 +6775,16 @@
           "tier": "regional",
           "index_url": "https://ryukyushimpo.jp/editorial",
           "error": null,
-          "skipped_by_robots": true,
+          "skipped_by_robots": false,
           "unavailable_reason": null,
-          "items": []
+          "items": [
+            {
+              "title": "＜社説＞永住許可要件厳格化　規制強化ではなく対話を",
+              "link": "https://ryukyushimpo.jp/editorial/entry-5445470.html",
+              "published": "2026/08/09 04:00",
+              "paid": false
+            }
+          ]
         },
         {
           "name": "佐賀新聞",
