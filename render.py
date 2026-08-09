@@ -158,11 +158,36 @@ a.article time {
 .field-row { margin: 0 0 0.6rem; }
 .field-row:last-child { margin-bottom: 0; }
 .field-caption { display:block; font-size: 0.7rem; color: var(--ink-faint); margin: 0 0 0.3rem; }
-.archive-search, .archive-date {
+.archive-date {
   width:100%; font: inherit; font-size:0.95rem; padding:0.6rem 0.75rem; border-radius:8px;
   border:1px solid var(--rule); background:var(--bg); color:var(--ink);
 }
-.archive-search:focus-visible, .archive-date:focus-visible { outline:2px solid var(--accent); outline-offset:2px; }
+.archive-date:focus-visible { outline:2px solid var(--accent); outline-offset:2px; }
+/* 入力欄そのものには枠を持たせず、チップと入力を束ねる箱に持たせる。
+   inputの中に要素は置けないため、入力欄に見える箱を作って中に並べている。 */
+.search-box {
+  display:flex; flex-wrap:wrap; align-items:center; gap:0.3rem;
+  padding:0.45rem 0.6rem; border-radius:8px; border:1px solid var(--rule);
+  background:var(--bg); cursor:text;
+}
+.search-box:focus-within { outline:2px solid var(--accent); outline-offset:2px; }
+.term-chips { display:contents; }
+.archive-search {
+  flex:1 1 5rem; min-width:5rem; font: inherit; font-size:0.95rem;
+  padding:0.15rem 0.15rem; border:none; background:transparent; color:var(--ink);
+}
+.archive-search:focus { outline:none; }
+.term-chip {
+  display:inline-flex; align-items:center; gap:0.25rem; font-size:0.82rem;
+  padding:0.1rem 0.2rem 0.1rem 0.5rem; border-radius:999px;
+  background:var(--accent); color:var(--surface); white-space:nowrap;
+}
+button.term-remove {
+  font: inherit; font-size:0.9em; line-height:1; padding:0 0.25rem; border:none;
+  border-radius:999px; background:transparent; color:var(--surface); cursor:pointer;
+}
+button.term-remove:hover { background: rgba(255,255,255,0.25); }
+button.term-remove:focus-visible { outline:2px solid var(--surface); outline-offset:1px; }
 .suggest-row { display:flex; flex-wrap:wrap; align-items:center; gap:0.35rem; margin-top:0.5rem; }
 .suggest-row[hidden] { display:none; }
 .suggest-label { font-size:0.7rem; color:var(--ink-faint); }
@@ -325,6 +350,8 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
   var yearSelect = document.getElementById('archive-year');
   var monthSelect = document.getElementById('archive-month');
   var suggestEl = document.getElementById('archive-suggest');
+  var searchBox = document.getElementById('search-box');
+  var termChipsEl = document.getElementById('term-chips');
   var loadMoreBtn = document.getElementById('load-more');
   var statusEl = document.getElementById('archive-status');
   var filtersEl = document.getElementById('active-filters');
@@ -851,17 +878,61 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
     return counts;
   }
 
+  // 足した語は入力欄の中にチップとして並べる。入力欄には打った語しか出ず、
+  // 足した語が要約バーにしか無いと「『高市』で検索しているのに『首相』の記事が
+  // 混ざる」ように見えるため、同じ場所に置いて対応関係を分かるようにする。
+  function renderTermChips() {
+    if (!termChipsEl) { return; }
+    termChipsEl.innerHTML = orTerms.map(function (w) {
+      return '<span class="term-chip">' + esc(w) +
+        '<button type="button" class="term-remove" data-word="' + esc(w) +
+        '" aria-label="' + esc(w) + 'を外す">×</button></span>';
+    }).join('');
+  }
+
+  function toggleTerm(w) {
+    var at = orTerms.indexOf(w);
+    if (at >= 0) { orTerms.splice(at, 1); } else { orTerms.push(w); }
+    renderTermChips();
+    updateCounts();
+    updateStatus();
+  }
+
+  if (termChipsEl) {
+    termChipsEl.addEventListener('click', function (ev) {
+      if (!ev.target.classList.contains('term-remove')) { return; }
+      toggleTerm(ev.target.getAttribute('data-word'));
+      searchInput.focus();
+    });
+  }
+
+  if (searchBox) {
+    // 箱のどこを押しても入力に移る（見た目が入力欄なので、余白を押して
+    // 反応しないと壊れて見える）。
+    searchBox.addEventListener('mousedown', function (ev) {
+      if (ev.target === searchBox || ev.target === termChipsEl) {
+        ev.preventDefault();
+        searchInput.focus();
+      }
+    });
+  }
+
+  if (searchInput) {
+    searchInput.addEventListener('keydown', function (ev) {
+      // 入力が空のままBackspaceを押したら直前のチップを外す。トークン入力では
+      // 期待される挙動で、無いと消し方が分からなくなる。
+      if (ev.key !== 'Backspace' || searchInput.value !== '' || !orTerms.length) { return; }
+      toggleTerm(orTerms[orTerms.length - 1]);
+    });
+  }
+
   if (suggestEl) {
     suggestEl.addEventListener('click', function (ev) {
       // 件数のspanを押した場合もあるので、チップ本体まで辿る。語はtextContentに
       // 件数が混ざるためdata-wordから取る。
       var chip = ev.target.closest ? ev.target.closest('.suggest-chip') : null;
       if (!chip) { return; }
-      var w = chip.getAttribute('data-word');
-      var at = orTerms.indexOf(w);
-      if (at >= 0) { orTerms.splice(at, 1); } else { orTerms.push(w); }
-      updateCounts();
-      updateStatus();
+      toggleTerm(chip.getAttribute('data-word'));
     });
   }
 
@@ -874,6 +945,7 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
     searchInput.addEventListener('input', function () {
       // 入力語を変えたら、前の語に対して足した候補は意味を失うので捨てる。
       orTerms = [];
+      renderTermChips();
       updateCounts();
       updateStatus();
       if (searchTimer) { clearTimeout(searchTimer); }
@@ -1176,7 +1248,10 @@ def render_archive_html() -> str:
       <p class="search-panel-label"><span>検索条件（すべて同時に絞り込みに使えます）</span></p>
       <div class="field-row">
         <span class="field-caption">タイトルで検索</span>
-        <input type="search" class="archive-search" id="archive-search" placeholder="例: 憲法、選挙" autocomplete="off" />
+        <div class="search-box" id="search-box">
+          <input type="text" class="archive-search" id="archive-search" placeholder="例: 憲法、選挙" autocomplete="off" />
+          <span class="term-chips" id="term-chips"></span>
+        </div>
         <div class="suggest-row" id="archive-suggest" hidden></div>
       </div>
       <div class="field-row">
