@@ -108,13 +108,6 @@ section.dategroup { padding: 1.6rem 0; border-bottom: 1px solid var(--rule); scr
 section.dategroup:last-child { border-bottom: none; }
 
 .date-head { display:flex; align-items:baseline; gap:0.6rem; margin-bottom:0.15rem; }
-/* archive.htmlの日付見出しは押すとその日だけに絞れる。today.htmlも同じ
-   .date-headを使うため、押せる見た目はclickableが付いたときだけにする。 */
-.date-head.clickable { cursor:pointer; }
-.date-head.clickable:hover h2, .date-head.clickable:focus-visible h2 { text-decoration: underline; }
-.date-head.clickable:focus-visible { outline:2px solid var(--accent); outline-offset:2px; border-radius:4px; }
-.dategroup.day-selected .date-head h2 { text-decoration: underline; }
-.date-head .day-hint { margin-left:auto; font-size:0.72rem; color:var(--ink-faint); }
 .date-head h2 {
   font-family: "Hiragino Mincho ProN","Yu Mincho","Noto Serif JP",serif;
   font-weight:600; font-size:1.5rem; margin:0; color:var(--accent); font-variant-numeric: tabular-nums;
@@ -332,7 +325,6 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
   var fetchedMonths = {};   // 期間指定で先に取った月を二重取得しないための記録
   var periodYear = '';      // 期間絞り込みの年（''なら未指定）
   var periodMonth = '';     // 同・月（年が未指定なら無効）
-  var dayFilter = null;     // 日付見出しのクリックで単日に絞る
   var searchAllActive = false;
 
   function esc(s) {
@@ -412,11 +404,9 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
     // どの年か判別できない（実際に2026-07-28の1件だけの薄いデータが先頭に
     // 表示され、2025年のデータと誤認されたことがある）。年を省略せず表示する。
     section.innerHTML =
-      '<div class="date-head clickable" role="button" tabindex="0" title="この日だけを表示">' +
-      '<h2><span class="yr">' + parts[0] + '</span><span class="slash">/</span>' + parseInt(parts[1], 10) + '<span class="slash">/</span>' + parseInt(parts[2], 10) +
+      '<div class="date-head"><h2><span class="yr">' + parts[0] + '</span><span class="slash">/</span>' + parseInt(parts[1], 10) + '<span class="slash">/</span>' + parseInt(parts[2], 10) +
       '<span class="wd">（' + weekdayOf(dateStr) + '）</span></h2>' +
-      '<span class="date-count">' + items.length + '件</span>' +
-      '<span class="day-hint">この日だけ表示</span></div>' +
+      '<span class="date-count">' + items.length + '件</span></div>' +
       '<ul class="article-list">' + items.map(renderRow).join('') + '</ul>';
     return section;
   }
@@ -483,12 +473,7 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
     if (q) {
       chipsHtml.push('<span class="filter-chip">タイトル「' + esc(q) + '」</span>');
     }
-    if (dayFilter) {
-      // アーカイブは複数年分をまたぐため、月日だけだと年があいまいになる
-      // （例:「7/26」が2024年なのか2026年なのか判別できない）。年を省略せず表示する。
-      var p = dayFilter.split('-');
-      chipsHtml.push('<span class="filter-chip">' + parseInt(p[0], 10) + '/' + parseInt(p[1], 10) + '/' + parseInt(p[2], 10) + '</span>');
-    } else if (periodYear) {
+    if (periodYear) {
       chipsHtml.push('<span class="filter-chip">' + periodLabel() + '</span>');
     }
     var selectedTiers = TIERS.filter(function (t) { return body.classList.contains('show-' + t); });
@@ -514,12 +499,6 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
       return;
     }
     loadMoreBtn.hidden = true;
-    if (dayFilter) {
-      var p = dayFilter.split('-');
-      statusEl.textContent = parseInt(p[0], 10) + '/' + parseInt(p[1], 10) + '/' + parseInt(p[2], 10) +
-        '（' + weekdayOf(dayFilter) + '）のみ表示中。もう一度見出しを押すと解除します。';
-      return;
-    }
     if (periodYear) {
       statusEl.textContent = periodLabel() + 'のみ表示中';
       return;
@@ -552,11 +531,9 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
 
   function inScope(dateStr) {
     // 表示範囲の決まり方。上から順に強い。
-    //   1. 日付見出しクリックによる単日絞り込み
-    //   2. 期間指定（年・年月）—— 検索と併用でき、「2020年の記事を検索」になる
-    //   3. 検索中は全期間（Issue #57。窓を掛けると過去のヒットが消えるため）
-    //   4. 既定は新しい方から DISPLAY_DAYS 日分の窓
-    if (dayFilter) { return dateStr === dayFilter; }
+    //   1. 期間指定（年・年月）—— 検索と併用でき、「2020年の記事を検索」になる
+    //   2. 検索中は全期間（Issue #57。窓を掛けると過去のヒットが消えるため）
+    //   3. 既定は新しい方から DISPLAY_DAYS 日分の窓
     var prefix = periodPrefix();
     if (prefix) { return dateStr.indexOf(prefix) === 0; }
     if (searchInput && searchInput.value.trim()) { return true; }
@@ -569,7 +546,6 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
       var out = !inScope(sec.id.slice(2));
       sec.classList.toggle('out-of-scope', out);
       if (out) { sec.hidden = true; }
-      sec.classList.toggle('day-selected', dayFilter === sec.id.slice(2));
     });
   }
 
@@ -693,7 +669,6 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
   }
 
   function applyPeriod() {
-    dayFilter = null;  // 期間を変えたら単日絞り込みは解除する
     var prefix = periodPrefix();
     var months = prefix
       ? allMonths.filter(function (m) { return m.indexOf(prefix) === 0; })
@@ -742,30 +717,6 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
       applyPeriod();
     });
   }
-
-  // 日付見出しを押すとその日だけに絞る（もう一度押すと解除）。特定日の読み比べは
-  // 期間指定では届かない粒度だが、日付を空欄から入力させるより、目の前にある
-  // 検索結果から辿らせる方が操作として自然なので見出し自体を操作対象にしている。
-  function toggleDayFilter(dateStr) {
-    dayFilter = (dayFilter === dateStr) ? null : dateStr;
-    updateCounts();
-    updateStatus();
-    if (dayFilter) { document.getElementById('d-' + dayFilter).scrollIntoView(); }
-  }
-
-  resultsEl.addEventListener('click', function (ev) {
-    var head = ev.target.closest ? ev.target.closest('.date-head') : null;
-    if (head && head.parentNode) { toggleDayFilter(head.parentNode.id.slice(2)); }
-  });
-
-  resultsEl.addEventListener('keydown', function (ev) {
-    if (ev.key !== 'Enter' && ev.key !== ' ') { return; }
-    var head = ev.target.closest ? ev.target.closest('.date-head') : null;
-    if (head && head.parentNode) {
-      ev.preventDefault();
-      toggleDayFilter(head.parentNode.id.slice(2));
-    }
-  });
 
   fetch('archive/index.json').then(function (r) { return r.json(); }).then(function (data) {
     allDates = (data.dates || []).slice().sort().reverse();
