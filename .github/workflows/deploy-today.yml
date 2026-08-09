@@ -34,7 +34,7 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           src=$(ls output/*-today.json)
-          fname="$(basename "$src" -today.json).json"
+          day="$(basename "$src" -today.json)"
           data_dir="$RUNNER_TEMP/data-branch"
           repo_url="https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
 
@@ -47,14 +47,14 @@ jobs:
           fi
 
           mkdir -p "$data_dir/archive"
-          cp "$src" "$data_dir/archive/$fname"
+          python append_archive_day.py "$data_dir/archive" "$src"
           python build_archive_index.py "$data_dir/archive"
 
           git -C "$data_dir" config user.name "github-actions[bot]"
           git -C "$data_dir" config user.email "github-actions[bot]@users.noreply.github.com"
           git -C "$data_dir" add archive/
           if ! git -C "$data_dir" diff --cached --quiet; then
-            git -C "$data_dir" commit -m "chore: アーカイブスナップショットを追加 ($fname)"
+            git -C "$data_dir" commit -m "chore: アーカイブスナップショットを追加 ($day)"
             git -C "$data_dir" push origin data
           fi
 
