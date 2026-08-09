@@ -6289,7 +6289,14 @@
           "error": null,
           "skipped_by_robots": false,
           "unavailable_reason": null,
-          "items": []
+          "items": [
+            {
+              "title": "社説：ドクターヘリ運休　安定運航へ抜本対策を急げ",
+              "link": "https://www.kyoto-np.co.jp/articles/-/1769290",
+              "published": "2026/8/9 16:00",
+              "paid": false
+            }
+          ]
         },
         {
           "name": "神戸新聞",
