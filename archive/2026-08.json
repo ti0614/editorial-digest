@@ -6128,14 +6128,14 @@
           "unavailable_reason": null,
           "items": [
             {
-              "title": "（社説）横浜市長パワハラ　首長の資質　著しく欠く",
-              "link": "https://www.asahi.com/articles/DA3S16523401.html?iref=pc_rensai_long_16_article",
+              "title": "（社説）ガザ和平行程表　絵に描いた餅では困る",
+              "link": "https://www.asahi.com/articles/DA3S16523402.html?iref=pc_rensai_long_16_article",
               "published": "2026年08月09日 05時00分",
               "paid": false
             },
             {
-              "title": "（社説）ガザ和平行程表　絵に描いた餅では困る",
-              "link": "https://www.asahi.com/articles/DA3S16523402.html?iref=pc_rensai_long_16_article",
+              "title": "（社説）横浜市長パワハラ　首長の資質　著しく欠く",
+              "link": "https://www.asahi.com/articles/DA3S16523401.html?iref=pc_rensai_long_16_article",
               "published": "2026年08月09日 05時00分",
               "paid": false
             }
@@ -6195,7 +6195,14 @@
           "error": null,
           "skipped_by_robots": false,
           "unavailable_reason": null,
-          "items": []
+          "items": [
+            {
+              "title": "［社説］未知なる経営革新で価値生み出せ（AIと生きる）",
+              "link": "https://www.nikkei.com/article/DGXZQODK051NZ0V00C26A8000000/",
+              "published": "2026/8/9 19:00",
+              "paid": false
+            }
+          ]
         },
         {
           "name": "産経新聞",
@@ -6589,7 +6596,7 @@
           "tier": "regional",
           "index_url": "https://wakayamashimpo.co.jp/",
           "error": null,
-          "skipped_by_robots": false,
+          "skipped_by_robots": true,
           "unavailable_reason": "社説だけをまとめた専用の一覧ページが見つからず、取得できていません。",
           "items": []
         },
