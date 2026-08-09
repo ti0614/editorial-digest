@@ -55,7 +55,7 @@ Artifacts・GitHub Pages など任意の静的ホスティングに公開して�
 - 当日分の社説のみを1つのセクションにまとめて表示します（複数日をまたぐ
   グルーピングや日付ナビは無く、過去分は次の`archive.html`で扱います）。
 - **`archive.html`** で過去分を横断検索できます。`today.html`が
-  デプロイのたびに生成する日次スナップショットを `archive/{date}.json` として
+  デプロイのたびに生成する日次スナップショットを月ごとに束ねた `archive/{YYYY-MM}.json` として
   GitHub Pages公開用リポジトリに蓄積し、ブラウザ側でfetchしてタイトル
   キーワード検索・tier絞り込みできる仕組みです（サーバー側での検索処理は
   無し）。日々の蓄積で少しずつ検索対象が増えていきます。**検索対象はタイトル
@@ -203,7 +203,10 @@ Claude Artifacts・GitHub Pages 等に公開してください。
 | `extract.py` | 一覧ページのHTMLから記事(`Item`)を抽出し、不足する時刻を記事個別ページから補う |
 | `pubdate.py` | 各紙バラバラの日付表記を正規化・直近日数/当日フィルタする共通ロジック |
 | `render.py` | 取得結果からWebページ（`output/today.html` / `output/archive.html`）を組み立てるテンプレート |
-| `backfill_archive.py` | アーカイブ過去分の一回限りバックフィル用CLI。ページ送りに対応した紙は広いウィンドウで一覧を遡り、`archive/{date}.json`へ書き出す |
+| `backfill_archive.py` | アーカイブ過去分の一回限りバックフィル用CLI。ページ送りに対応した紙は広いウィンドウで一覧を遡り、`archive/{YYYY-MM}.json`へ書き出す |
+| `archive_month.py` | 月別バンドル `archive/{YYYY-MM}.json` の読み書きを共通化した小モジュール |
+| `append_archive_day.py` | 日次スナップショットを該当月のバンドルへマージするCLI（CIが実行） |
+| `build_archive_index.py` | 月別バンドルから `archive/index.json`（月一覧・日付一覧）を再生成するCLI |
 | `sources.yaml` | 各紙のURL・CSSセレクタ・`tier`（national/regional）などの設定 |
 
 ## 新聞社を追加・修正する

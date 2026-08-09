@@ -4,7 +4,7 @@
 通常運用（main.py today）は直近1日分しか archive/ に積み上がらないが、
 各紙の一覧ページには通常2〜3週間分の記事がまだ残っている。このスクリプトは
 広いウィンドウ（BACKFILL_WINDOW_DAYS）で一度だけ全ソースを取得し、記事ごとの
-日付で archive/{date}.json 相当のJSONへ振り分けて書き出す。
+日付で archive/{YYYY-MM}.json（月別バンドル）へ振り分けて書き出す。
 
 一覧ページに実際に残っている範囲より過去には遡れない（本文を保存しない
 方針上、それ以上の情報源が無いため）。取得できるのは実行時点で各紙サイトが
@@ -36,7 +36,7 @@ XMLHttpRequest）が無いと通常のHTMLが返り、かつXHR応答は一覧�
     python backfill_archive.py                       # archive/ に書き出す
     python backfill_archive.py --only 朝日新聞 毎日新聞
     python backfill_archive.py --window-days 14
-    python backfill_archive.py --force                # 既存の日付ファイルも上書き
+    python backfill_archive.py --force                # 既に入っている日付も上書き
     python backfill_archive.py --only 朝日新聞 --window-days 1000 --max-pages 155
 """
 from __future__ import annotations
@@ -52,9 +52,10 @@ from urllib.parse import urljoin
 
 import requests
 
+from archive_month import iter_months, upsert_day
 from extract import Item, extract_items
 from fetch import fetch_html
-from main import SourceResult, load_sources, process_source, source_meta, source_status_label, write_json
+from main import SourceResult, load_sources, process_source, snapshot_payload, source_meta, source_status_label
 from pubdate import parse_iso8601_utc, parse_published_date, today_jst, within_window
 from robots import RobotsChecker
 
@@ -320,13 +321,19 @@ def main() -> int:
     by_date = _split_by_date(results, reference_date)
     args.archive_dir.mkdir(exist_ok=True)
 
+    # アーカイブは月別バンドル（archive/{YYYY-MM}.json）なので、既存判定は
+    # ファイルの有無ではなく、その日付が既にバンドルに入っているかで行う。
+    existing_dates = set()
+    for path in iter_months(args.archive_dir):
+        payload = json.loads(path.read_text(encoding="utf-8"))
+        existing_dates.update(day["date"] for day in payload.get("days") or [])
+
     written, skipped = 0, 0
     for d in sorted(by_date):
-        path = args.archive_dir / f"{d.isoformat()}.json"
-        if path.exists() and not args.force:
+        if d.isoformat() in existing_dates and not args.force:
             skipped += 1
             continue
-        write_json(path, d, by_date[d])
+        path = upsert_day(args.archive_dir, snapshot_payload(d, by_date[d]))
         written += 1
         total_items = sum(len(r.items) for r in by_date[d])
         print(f"{d.isoformat()}: {total_items} 件 -> {path}")

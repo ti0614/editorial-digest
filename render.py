@@ -284,7 +284,7 @@ _SCRIPT_TEMPLATE = """
 """
 
 # アーカイブ検索ページ専用のスクリプト。他の2ページと違いサーバー側で記事を
-# 埋め込まず、archive/index.json・archive/{date}.json をブラウザ側でfetchして
+# 埋め込まず、archive/index.json・archive/{YYYY-MM}.json をブラウザ側でfetchして
 # 組み立てる。tier/会員限定トグルは_TIER_PAID_TOGGLE_JSを共有するが、
 # 動的に追加されるセクションに対してupdateCountsを呼び直す必要があるため
 # updateCounts自体は独自実装になっている。
@@ -294,7 +294,9 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
   var DEFAULT_ON = { national: true, block: false, regional: false };
   var TIER_LABEL = { national: '全国紙', block: 'ブロック紙', regional: '地方紙' };
   var WEEKDAY_JP = ['月', '火', '水', '木', '金', '土', '日'];
-  var PAGE_SIZE = 30;
+  // 取得の単位は月。「当月分だけ」にすると月初に1日分しか出ないため、常に
+  // 新しい方から2ヶ月ぶん取る（月初でも28日分、月末でも62日分になる）。
+  var MONTHS_PER_PAGE = 2;
 
   var body = document.body;
   var totalEl = document.getElementById('total-count');
@@ -307,8 +309,10 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
   var chips = {};
   TIERS.forEach(function (t) { chips[t] = document.querySelector('.tier-chip[data-tier="' + t + '"]'); });
 
-  var allDates = [];
-  var loadedCount = 0;
+  var allMonths = [];       // 新しい順。取得とページ送りの単位。
+  var allDates = [];        // 新しい順。日付入力の上下限と「全◯日分」の表示に使う。
+  var loadedMonths = 0;     // allMonthsの先頭から何ヶ月ぶん取得したか
+  var fetchedMonths = {};   // 日付絞り込みで先に取った月を二重取得しないための記録
   var dateFilter = null;
   var searchAllActive = false;
 
@@ -487,24 +491,47 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
     loadMoreBtn.hidden = true;
   }
 
+  function renderedDayCount() {
+    return resultsEl.querySelectorAll('section.dategroup').length;
+  }
+
+  function fetchMonth(month) {
+    if (fetchedMonths[month]) { return Promise.resolve(null); }
+    return fetch('archive/' + month + '.json')
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .catch(function () { return null; });
+  }
+
+  function insertSection(dateStr, section) {
+    // 画面は日付の新しい順。通常は末尾追加で足りるが、日付絞り込みで先に
+    // 取得した月が混ざると順序が崩れるため、崩れる場合だけ位置を探して挿す。
+    var last = resultsEl.lastElementChild;
+    if (!last || last.id.slice(2) > dateStr) { resultsEl.appendChild(section); return; }
+    var secs = resultsEl.children;
+    for (var i = 0; i < secs.length; i++) {
+      if (secs[i].id.slice(2) < dateStr) { resultsEl.insertBefore(section, secs[i]); return; }
+    }
+    resultsEl.appendChild(section);
+  }
+
+  function renderMonth(data) {
+    if (!data) { return; }
+    fetchedMonths[data.month] = true;
+    // 月別ファイルのdaysは日付の昇順で入っているため、新しい順に積むよう逆順で回す。
+    (data.days || []).slice().reverse().forEach(function (day) {
+      if (document.getElementById('d-' + day.date)) { return; }
+      insertSection(day.date, renderSection(day.date, flattenDateData(day)));
+    });
+  }
+
   function loadNextPage(onDone) {
-    var batch = allDates.slice(loadedCount, loadedCount + PAGE_SIZE);
+    var batch = allMonths.slice(loadedMonths, loadedMonths + MONTHS_PER_PAGE);
     if (batch.length === 0) { finishLoading(); if (onDone) onDone(); return; }
     if (!searchAllActive) { statusEl.textContent = '読み込み中…'; }
     loadMoreBtn.hidden = true;
-    Promise.all(batch.map(function (d) {
-      return fetch('archive/' + d + '.json').then(function (r) { return r.ok ? r.json() : null; })
-        .then(function (data) { return data ? { date: d, items: flattenDateData(data) } : null; })
-        .catch(function () { return null; });
-    })).then(function (results) {
-      results.forEach(function (r) {
-        // 日付フィルタによる直接取得で既にレンダリング済みの日付は
-        // 重複して追加しない。
-        if (r && !document.getElementById('d-' + r.date)) {
-          resultsEl.appendChild(renderSection(r.date, r.items));
-        }
-      });
-      loadedCount += batch.length;
+    Promise.all(batch.map(fetchMonth)).then(function (results) {
+      results.forEach(renderMonth);
+      loadedMonths += batch.length;
       if (dateFilter) {
         // 読み込み中に日付フィルタが設定された場合、新規追加分にも適用する。
         showOnlyDate(dateFilter);
@@ -512,10 +539,10 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
         updateCounts();
         // 全期間読み込み中は、進捗表示とボタン制御をensureAllDatesLoaded側に任せる。
         if (!searchAllActive) {
-          if (loadedCount >= allDates.length) {
+          if (loadedMonths >= allMonths.length) {
             finishLoading();
           } else {
-            statusEl.textContent = loadedCount + '日分を表示中';
+            statusEl.textContent = renderedDayCount() + '日分を表示中';
             loadMoreBtn.hidden = false;
           }
         }
@@ -524,24 +551,34 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
     });
   }
 
-  // 記事データは archive/{date}.json と日付ごとに分かれており、初回は
-  // PAGE_SIZE日分しか取得しない。そのためタイトル検索を読み込み済みの分だけに
-  // 掛けると、まだ取得していない過去分に一致する記事があっても「0件」に
-  // 見えてしまう（Issue #57）。検索語が入力されたら残りの日付を裏で順に
-  // 取得し、検索が常に全期間を対象にするようにする。取得済みの日付はDOMに
-  // 残るので、この全期間読み込みは1回のページ表示につき一度きりで済む。
+  // タイトル検索は読み込み済みの記事にしか掛からないため、残りの月を取得して
+  // おかないと、過去に一致する記事があっても「0件」に見えてしまう（Issue #57）。
+  // 取得済みの月はDOMに残るので、この全期間読み込みは1回のページ表示につき
+  // 一度きりで済む。
   function ensureAllDatesLoaded() {
-    if (searchAllActive || loadedCount >= allDates.length) { return; }
+    if (searchAllActive || loadedMonths >= allMonths.length) { return; }
     searchAllActive = true;
     (function step() {
-      if (loadedCount >= allDates.length) {
+      if (loadedMonths >= allMonths.length) {
         searchAllActive = false;
         if (dateFilter) { showOnlyDate(dateFilter); } else { finishLoading(); }
         return;
       }
-      statusEl.textContent = '全期間から検索中… ' + loadedCount + '/' + allDates.length + '日分';
+      statusEl.textContent = '全期間を読み込み中… ' + loadedMonths + '/' + allMonths.length + 'ヶ月分';
       loadNextPage(step);
     })();
+  }
+
+  // 初回表示を描いた直後に、残りの月を裏で取得しておく（Issue #66）。初回描画
+  // より後に走るので最初に見える画面の速さは変わらず、そのうえで検索時の待ちが
+  // 無くなる。ただし通信量は全期間ぶんに増えるため、データセーバー有効時と
+  // 極端に遅い回線では見送り、従来どおり検索語が入ってから取得する。
+  function prefetchAllMonths() {
+    var conn = navigator.connection;
+    if (conn && (conn.saveData || conn.effectiveType === '2g' || conn.effectiveType === 'slow-2g')) {
+      return;
+    }
+    ensureAllDatesLoaded();
   }
 
   if (loadMoreBtn) {
@@ -553,21 +590,23 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
     searchInput.addEventListener('input', function () {
       updateCounts();
       if (searchTimer) { clearTimeout(searchTimer); }
-      if (!searchInput.value.trim()) {
-        // 検索語を消したら、全期間読み込み済みの旨の表示を通常状態へ戻す。
-        if (!searchAllActive && !dateFilter && loadedCount >= allDates.length) { finishLoading(); }
-        return;
+      if (!searchAllActive && !dateFilter && loadedMonths >= allMonths.length) {
+        // 全期間が揃っているなら、あとは検索中かどうかで文言を切り替えるだけ。
+        // 先読み（prefetchAllMonths）が効いていると検索開始時点で既にこの状態
+        // なので、ここを通さないと「すべて表示中」のままになる。
+        finishLoading();
       }
+      if (!searchInput.value.trim()) { return; }
       // 1打鍵ごとに全期間読み込みを起動しないよう、入力が落ち着いてから始める。
       searchTimer = setTimeout(ensureAllDatesLoaded, 300);
     });
   }
 
   function updateLoadMoreVisibility() {
-    if (loadedCount >= allDates.length) {
+    if (loadedMonths >= allMonths.length) {
       loadMoreBtn.hidden = true;
     } else {
-      statusEl.textContent = loadedCount + '日分を表示中';
+      statusEl.textContent = renderedDayCount() + '日分を表示中';
       loadMoreBtn.hidden = false;
     }
   }
@@ -580,7 +619,7 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
         sec.classList.remove('date-filtered-out');
       });
       updateCounts();
-      if (loadedCount >= allDates.length) { finishLoading(); } else { updateLoadMoreVisibility(); }
+      if (loadedMonths >= allMonths.length) { finishLoading(); } else { updateLoadMoreVisibility(); }
       return;
     }
 
@@ -590,19 +629,21 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
       return;
     }
 
+    var month = dateFilter.slice(0, 7);
     statusEl.textContent = '読み込み中…';
     loadMoreBtn.hidden = true;
-    fetch('archive/' + dateFilter + '.json').then(function (r) { return r.ok ? r.json() : null; })
-      .then(function (data) {
-        if (dateFilter !== dateStr) { return; } // 取得中に別の日付へ変更された
-        if (data && !document.getElementById('d-' + dateFilter)) {
-          resultsEl.appendChild(renderSection(dateFilter, flattenDateData(data)));
-        }
-        showOnlyDate(dateFilter);
-      })
-      .catch(function () {
+    fetchMonth(month).then(function (data) {
+      if (dateFilter !== dateStr) { return; } // 取得中に別の日付へ変更された
+      if (data) {
+        renderMonth(data);
+      } else if (!fetchedMonths[month]) {
+        // 取得済みの月ならdataはnullでも構わない（その日に社説が無かっただけ）。
+        // 未取得のままnullなら取得自体に失敗している。
         statusEl.textContent = 'この日付のデータを読み込めませんでした。';
-      });
+        return;
+      }
+      showOnlyDate(dateFilter);
+    });
   }
 
   function showOnlyDate(dateStr) {
@@ -625,11 +666,12 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
 
   fetch('archive/index.json').then(function (r) { return r.json(); }).then(function (data) {
     allDates = (data.dates || []).slice().sort().reverse();
+    allMonths = (data.months || []).slice().sort().reverse();
     if (dateFilterInput && allDates.length) {
       dateFilterInput.min = allDates[allDates.length - 1];
       dateFilterInput.max = allDates[0];
     }
-    loadNextPage();
+    loadNextPage(prefetchAllMonths);
   }).catch(function () {
     statusEl.textContent = 'アーカイブの読み込みに失敗しました。時間をおいて再度お試しください。';
   });
@@ -855,9 +897,10 @@ def render_archive_html() -> str:
     """アーカイブ検索ページ (output/archive.html) を組み立てる。
 
     today.htmlと異なり、記事データはビルド時に埋め込まない。
-    archive/index.json・archive/{date}.json（CIがコミットする日次スナップショット、
-    main.py の write_json と同じ形式）をブラウザ側がfetchして検索・一覧表示する
-    完全に静的なページなので、results は受け取らない。
+    archive/index.json・archive/{YYYY-MM}.json（CIがコミットする日次スナップ
+    ショットを月ごとに束ねたもの。1日分の形式は main.py の snapshot_payload と
+    同じ）をブラウザ側がfetchして検索・一覧表示する完全に静的なページなので、
+    results は受け取らない。
     """
     scope_toggle_html = f'''
     <div class="search-panel">

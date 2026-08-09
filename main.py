@@ -164,8 +164,9 @@ def run_archive_page() -> int:
     return 0
 
 
-def write_json(path: Path, run_date: date, results: list[SourceResult]) -> None:
-    payload = {
+def snapshot_payload(run_date: date, results: list[SourceResult]) -> dict:
+    """1日分のスナップショット（archive/{YYYY-MM}.json の days 要素と同じ形）を組み立てる。"""
+    return {
         "date": run_date.isoformat(),
         "sources": [
             {
@@ -181,6 +182,10 @@ def write_json(path: Path, run_date: date, results: list[SourceResult]) -> None:
             for r in results
         ],
     }
+
+
+def write_json(path: Path, run_date: date, results: list[SourceResult]) -> None:
+    payload = snapshot_payload(run_date, results)
     path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
 
 

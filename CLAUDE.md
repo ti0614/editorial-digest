@@ -97,7 +97,7 @@ python main.py archive-page
   トグルは3種（national/block/regional）の表示/非表示を body classes +
   localStorageでクライアント側に保存する。`render_archive_html()`が横断
   検索用の`archive.html`を生成する —— 記事データをビルド時に埋め込まず、
-  `archive/index.json`・`archive/{date}.json`をブラウザ側でfetchして検索・
+  `archive/index.json`・`archive/{YYYY-MM}.json`をブラウザ側でfetchして検索・
   表示する完全に静的なページ（詳細は後述）。タイトル検索・日付絞り込み・
   tier切替・会員限定トグルの4条件を1つの検索パネルにまとめ、選択中の条件を
   ＋でつないだ要約バー（AND条件で絞り込めることの可視化）を表示する。
@@ -105,16 +105,26 @@ python main.py archive-page
   通常運用（`main.py today`）は当日分しか`archive/`に積み上がらないが、
   各紙の一覧ページにはまだ2〜3週間〜数年分の記事が残っていることがあるため、
   広いウィンドウ（`--window-days`）で全ソースを取得し記事の実日付ごとに
-  `archive/{date}.json`へ振り分けて書き出す。`sources.yaml`でページ送り設定
+  `archive/{YYYY-MM}.json`へ振り分けて書き出す。`sources.yaml`でページ送り設定
   （`pagination_param`/`pagination_path_template`/`pagination_response_json_field`/
   `pagination_json_url_template`の4方式）を持つ紙は、ウィンドウ分を使い切る
   か一覧ページ自体の終端（404）に達するまで次ページを自動取得する。
-  `main.py`から`SourceResult`/`load_sources`/`process_source`/`write_json`/
+  `main.py`から`SourceResult`/`load_sources`/`process_source`/`snapshot_payload`/
   `source_status_label`を再利用しており、通常パイプラインとJSON出力形式を
   共有する。
-- **`build_archive_index.py`** — `archive/`配下にあるスナップショットJSONの
-  ファイル名一覧から`archive/index.json`を再生成する小さなCLIスクリプト。
-  CIが当日分を`archive/{date}.json`としてコミットした直後に実行する。
+- **`archive_month.py`** — 月別バンドル（`archive/{YYYY-MM}.json`）の読み書きを
+  まとめた小さなモジュール。`upsert_day()`が1日分のスナップショットを該当月へ
+  入れる（同じ日付は置き換え）。`build_archive_index.py`・`append_archive_day.py`・
+  `backfill_archive.py`・`migrate_archive_monthly.py`が共有する。
+- **`append_archive_day.py`** — `main.py today`の出力（`output/{date}-today.json`）を
+  該当月のバンドルへマージするCLI。CIが`data`ブランチのチェックアウトに対して
+  実行する。アーカイブが日別ファイルだった頃はコピー1回で済んでいたが、月別
+  バンドルでは既存ファイルを読んで差し替える必要があるためスクリプトにしている。
+- **`build_archive_index.py`** — `archive/`配下の月別バンドルの中身から
+  `archive/index.json`（`{"months": [...], "dates": [...]}`）を再生成する小さな
+  CLIスクリプト。CIが当日分をバンドルへマージした直後に実行する。
+- **`migrate_archive_monthly.py`** — 日別`archive/{date}.json`を月別バンドルへ
+  変換した一回限りの移行CLI（実行済み）。`--apply`無しなら検証のみ行う。
 
 ### 週間ダイジェスト(digest.html)を廃止した理由
 
@@ -139,13 +149,25 @@ digest.htmlの表示内容を機能的に包含する状態になったため、
 ショットはリポジトリに残らない（GitHub Pagesへのデプロイも毎回総入れ替え
 のため、CI実行が終わると前日以前のデータは消える）。横断検索用のアーカイブは
 これとは別に、CIワークフロー（`deploy-today.yml`）が`output/{date}-today.json`
-を`archive/{date}.json`としてコピーし、専用の**`data`ブランチ**にコミット・
-pushすることで永続化している。`main`はコード用ブランチとして
-PRレビュー必須のルールセット保護がかかっているが、`data`はそのルールセットの
-対象外（`main`のみ対象）なので、bypass設定を一切追加せずにCIから直接push
-できる。デプロイのたびに`data`ブランチの`archive/`一式を`_site/archive`へ
-コピーしてGitHub Pagesに公開する（`build_archive_index.py`がその都度
-`archive/index.json`＝日付一覧を再生成する）。
+を`append_archive_day.py`で`archive/{YYYY-MM}.json`へマージし、専用の
+**`data`ブランチ**にコミット・pushすることで永続化している。`main`はコード用
+ブランチとしてPRレビュー必須のルールセット保護がかかっているが、`data`は
+そのルールセットの対象外（`main`のみ対象）なので、bypass設定を一切追加せずに
+CIから直接pushできる。デプロイのたびに`data`ブランチの`archive/`一式を
+`_site/archive`へコピーしてGitHub Pagesに公開する（`build_archive_index.py`が
+その都度`archive/index.json`＝月一覧と日付一覧を再生成する）。
+
+アーカイブは以前`archive/{date}.json`と1日1ファイルで持っていたが、全期間検索
+（`archive.html`が検索時に全日付を読み込む）が日数分のリクエストを要する構造
+だった。gzipは圧縮窓が広いほど繰り返しを潰せるため、月ごとに束ねるだけで各紙の
+メタ情報の重複がほぼ消える —— 実データ1012日分で **1012リクエスト・gzip 2.22MB
+→ 34リクエスト・gzip 1.06MB** になった。年別や単一ファイルにしても転送量は
+月別とほとんど変わらない一方、日次CIが書き換えるファイルが肥大化するため月別に
+している。ファイル内は`indent=2`のまま保持している —— 1行に潰せばさらに1割ほど
+縮むが、`data`ブランチはCIが毎日コミットするため、差分が毎回ファイル全体の
+置き換えになりその日何が増えたか読めなくなる方が損失が大きいと判断した。
+表示に使われていないフィールド（`index_url`・`category`・`error`等）も、その日
+その紙が取得に失敗したかの記録として残している。
 
 ### コードに組み込まれたコンプライアンス方針
 
