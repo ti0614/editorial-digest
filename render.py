@@ -108,6 +108,13 @@ section.dategroup { padding: 1.6rem 0; border-bottom: 1px solid var(--rule); scr
 section.dategroup:last-child { border-bottom: none; }
 
 .date-head { display:flex; align-items:baseline; gap:0.6rem; margin-bottom:0.15rem; }
+/* archive.htmlの日付見出しは押すとその日だけに絞れる。today.htmlも同じ
+   .date-headを使うため、押せる見た目はclickableが付いたときだけにする。 */
+.date-head.clickable { cursor:pointer; }
+.date-head.clickable:hover h2, .date-head.clickable:focus-visible h2 { text-decoration: underline; }
+.date-head.clickable:focus-visible { outline:2px solid var(--accent); outline-offset:2px; border-radius:4px; }
+.dategroup.day-selected .date-head h2 { text-decoration: underline; }
+.date-head .day-hint { margin-left:auto; font-size:0.72rem; color:var(--ink-faint); }
 .date-head h2 {
   font-family: "Hiragino Mincho ProN","Yu Mincho","Noto Serif JP",serif;
   font-weight:600; font-size:1.5rem; margin:0; color:var(--accent); font-variant-numeric: tabular-nums;
@@ -163,6 +170,9 @@ a.article time {
   border:1px solid var(--rule); background:var(--bg); color:var(--ink);
 }
 .archive-search:focus-visible, .archive-date:focus-visible { outline:2px solid var(--accent); outline-offset:2px; }
+.period-selects { display:flex; gap:0.5rem; }
+.period-selects select { flex:1 1 0; }
+.period-selects select:disabled { color: var(--ink-faint); }
 .archive-status { font-size:0.8rem; color:var(--ink-faint); margin:0.9rem 0 1rem; }
 
 .active-filters {
@@ -307,7 +317,8 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
   var totalEl = document.getElementById('total-count');
   var resultsEl = document.getElementById('archive-results');
   var searchInput = document.getElementById('archive-search');
-  var dateFilterInput = document.getElementById('archive-date-filter');
+  var yearSelect = document.getElementById('archive-year');
+  var monthSelect = document.getElementById('archive-month');
   var loadMoreBtn = document.getElementById('load-more');
   var statusEl = document.getElementById('archive-status');
   var filtersEl = document.getElementById('active-filters');
@@ -315,11 +326,13 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
   TIERS.forEach(function (t) { chips[t] = document.querySelector('.tier-chip[data-tier="' + t + '"]'); });
 
   var allMonths = [];       // 新しい順。取得とページ送りの単位。
-  var allDates = [];        // 新しい順。日付入力の上下限と「全◯日分」の表示に使う。
+  var allDates = [];        // 新しい順。「全◯日分」の表示と表示日数の窓に使う。
   var loadedMonths = 0;     // allMonthsの先頭から何ヶ月ぶん取得したか
   var shownDays = DISPLAY_DAYS;  // 新しい方から何日分を表示するか（取得済みの日数とは別）
-  var fetchedMonths = {};   // 日付絞り込みで先に取った月を二重取得しないための記録
-  var dateFilter = null;
+  var fetchedMonths = {};   // 期間指定で先に取った月を二重取得しないための記録
+  var periodYear = '';      // 期間絞り込みの年（''なら未指定）
+  var periodMonth = '';     // 同・月（年が未指定なら無効）
+  var dayFilter = null;     // 日付見出しのクリックで単日に絞る
   var searchAllActive = false;
 
   function esc(s) {
@@ -399,9 +412,11 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
     // どの年か判別できない（実際に2026-07-28の1件だけの薄いデータが先頭に
     // 表示され、2025年のデータと誤認されたことがある）。年を省略せず表示する。
     section.innerHTML =
-      '<div class="date-head"><h2><span class="yr">' + parts[0] + '</span><span class="slash">/</span>' + parseInt(parts[1], 10) + '<span class="slash">/</span>' + parseInt(parts[2], 10) +
+      '<div class="date-head clickable" role="button" tabindex="0" title="この日だけを表示">' +
+      '<h2><span class="yr">' + parts[0] + '</span><span class="slash">/</span>' + parseInt(parts[1], 10) + '<span class="slash">/</span>' + parseInt(parts[2], 10) +
       '<span class="wd">（' + weekdayOf(dateStr) + '）</span></h2>' +
-      '<span class="date-count">' + items.length + '件</span></div>' +
+      '<span class="date-count">' + items.length + '件</span>' +
+      '<span class="day-hint">この日だけ表示</span></div>' +
       '<ul class="article-list">' + items.map(renderRow).join('') + '</ul>';
     return section;
   }
@@ -438,12 +453,12 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
 
   function updateCounts() {
     applySearchFilter();
-    applyDisplayWindow();
+    applyScope();
     var grandTotal = 0;
     resultsEl.querySelectorAll('section.dategroup').forEach(function (sec) {
-      // 日付フィルタ・表示日数の窓で除外中のセクションは、hidden状態を保ったまま
-      // 完全にスキップする（件数にも数えない）。
-      if (sec.classList.contains('date-filtered-out') || sec.classList.contains('beyond-window')) { return; }
+      // 表示範囲の外のセクションは、hidden状態を保ったまま完全にスキップする
+      // （件数にも数えない）。
+      if (sec.classList.contains('out-of-scope')) { return; }
       var count = 0;
       sec.querySelectorAll('li.article-item').forEach(function (li) {
         if (isVisible(li)) count++;
@@ -468,11 +483,13 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
     if (q) {
       chipsHtml.push('<span class="filter-chip">タイトル「' + esc(q) + '」</span>');
     }
-    if (dateFilter) {
+    if (dayFilter) {
       // アーカイブは複数年分をまたぐため、月日だけだと年があいまいになる
       // （例:「7/26」が2024年なのか2026年なのか判別できない）。年を省略せず表示する。
-      var p = dateFilter.split('-');
+      var p = dayFilter.split('-');
       chipsHtml.push('<span class="filter-chip">' + parseInt(p[0], 10) + '/' + parseInt(p[1], 10) + '/' + parseInt(p[2], 10) + '</span>');
+    } else if (periodYear) {
+      chipsHtml.push('<span class="filter-chip">' + periodLabel() + '</span>');
     }
     var selectedTiers = TIERS.filter(function (t) { return body.classList.contains('show-' + t); });
     if (selectedTiers.length === 0) {
@@ -496,13 +513,22 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
       loadMoreBtn.hidden = true;
       return;
     }
-    if (dateFilter) { return; }  // 文言はshowOnlyDateが持つ
+    loadMoreBtn.hidden = true;
+    if (dayFilter) {
+      var p = dayFilter.split('-');
+      statusEl.textContent = parseInt(p[0], 10) + '/' + parseInt(p[1], 10) + '/' + parseInt(p[2], 10) +
+        '（' + weekdayOf(dayFilter) + '）のみ表示中。もう一度見出しを押すと解除します。';
+      return;
+    }
+    if (periodYear) {
+      statusEl.textContent = periodLabel() + 'のみ表示中';
+      return;
+    }
     if (searchInput && searchInput.value.trim()) {
       // 検索は読み込み済みの記事にしか掛からないため、全期間が揃ったかどうかを示す。
       statusEl.textContent = loadedMonths >= allMonths.length
         ? '全期間（' + allDates.length + '日分）から検索中'
         : '全期間を読み込み中… ' + loadedMonths + '/' + allMonths.length + 'ヶ月分';
-      loadMoreBtn.hidden = true;
       return;
     }
     var shown = shownDayCount();
@@ -514,18 +540,36 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
     return Math.min(shownDays, allDates.length);
   }
 
-  function applyDisplayWindow() {
-    // 全期間を先読みしても、既定の表示は新しい方から DISPLAY_DAYS 日分に留める
-    // （全部見せると縦に長くなりすぎてスクロールで遡れないため）。検索中と
-    // 日付絞り込み中は窓を外す —— 検索は全期間が対象で、日付絞り込みは
-    // 窓の外の1日を名指しで選ぶ操作なので、窓を掛けると何も出なくなる。
-    var searching = searchInput && searchInput.value.trim();
-    var limit = (!searching && !dateFilter && allDates.length)
-      ? allDates[shownDayCount() - 1] : null;
+  function periodLabel() {
+    if (!periodYear) { return ''; }
+    return periodYear + '年' + (periodMonth ? parseInt(periodMonth, 10) + '月' : '');
+  }
+
+  function periodPrefix() {
+    if (!periodYear) { return ''; }
+    return periodMonth ? periodYear + '-' + periodMonth : periodYear;
+  }
+
+  function inScope(dateStr) {
+    // 表示範囲の決まり方。上から順に強い。
+    //   1. 日付見出しクリックによる単日絞り込み
+    //   2. 期間指定（年・年月）—— 検索と併用でき、「2020年の記事を検索」になる
+    //   3. 検索中は全期間（Issue #57。窓を掛けると過去のヒットが消えるため）
+    //   4. 既定は新しい方から DISPLAY_DAYS 日分の窓
+    if (dayFilter) { return dateStr === dayFilter; }
+    var prefix = periodPrefix();
+    if (prefix) { return dateStr.indexOf(prefix) === 0; }
+    if (searchInput && searchInput.value.trim()) { return true; }
+    var limit = allDates.length ? allDates[shownDayCount() - 1] : null;
+    return !limit || dateStr >= limit;
+  }
+
+  function applyScope() {
     resultsEl.querySelectorAll('section.dategroup').forEach(function (sec) {
-      var beyond = !!limit && sec.id.slice(2) < limit;
-      sec.classList.toggle('beyond-window', beyond);
-      if (beyond) { sec.hidden = true; }
+      var out = !inScope(sec.id.slice(2));
+      sec.classList.toggle('out-of-scope', out);
+      if (out) { sec.hidden = true; }
+      sec.classList.toggle('day-selected', dayFilter === sec.id.slice(2));
     });
   }
 
@@ -537,7 +581,7 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
   }
 
   function insertSection(dateStr, section) {
-    // 画面は日付の新しい順。通常は末尾追加で足りるが、日付絞り込みで先に
+    // 画面は日付の新しい順。通常は末尾追加で足りるが、期間指定で先に
     // 取得した月が混ざると順序が崩れるため、崩れる場合だけ位置を探して挿す。
     var last = resultsEl.lastElementChild;
     if (!last || last.id.slice(2) > dateStr) { resultsEl.appendChild(section); return; }
@@ -564,13 +608,21 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
     Promise.all(batch.map(fetchMonth)).then(function (results) {
       results.forEach(renderMonth);
       loadedMonths += batch.length;
-      if (dateFilter) {
-        // 読み込み中に日付フィルタが設定された場合、新規追加分にも適用する。
-        showOnlyDate(dateFilter);
-      } else {
-        updateCounts();
-        updateStatus();
-      }
+      updateCounts();
+      updateStatus();
+      if (onDone) onDone();
+    });
+  }
+
+  // 指定した月をまとめて取得する（期間絞り込み用）。loadNextPageが新しい月から
+  // 順に辿るのに対し、こちらは選ばれた年・月だけを名指しで取りに行く。
+  function loadMonths(months, onDone) {
+    var pending = months.filter(function (m) { return !fetchedMonths[m]; });
+    if (!pending.length) { if (onDone) onDone(); return; }
+    statusEl.textContent = '読み込み中…';
+    loadMoreBtn.hidden = true;
+    Promise.all(pending.map(fetchMonth)).then(function (results) {
+      results.forEach(renderMonth);
       if (onDone) onDone();
     });
   }
@@ -604,7 +656,8 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
     (function step() {
       if (loadedMonths >= allMonths.length) {
         searchAllActive = false;
-        if (dateFilter) { showOnlyDate(dateFilter); } else { updateStatus(); }
+        updateCounts();
+        updateStatus();
         return;
       }
       loadNextPage(step);
@@ -639,66 +692,85 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
     });
   }
 
-  function applyDateFilter(dateStr) {
-    dateFilter = dateStr || null;
+  function applyPeriod() {
+    dayFilter = null;  // 期間を変えたら単日絞り込みは解除する
+    var prefix = periodPrefix();
+    var months = prefix
+      ? allMonths.filter(function (m) { return m.indexOf(prefix) === 0; })
+      : [];
+    loadMonths(months, function () { updateCounts(); updateStatus(); });
+  }
 
-    if (!dateFilter) {
-      resultsEl.querySelectorAll('section.dategroup').forEach(function (sec) {
-        sec.classList.remove('date-filtered-out');
-      });
-      updateCounts();
-      updateStatus();
-      return;
-    }
+  function populateMonthOptions() {
+    if (!monthSelect) { return; }
+    // 年を選んでいないと月だけ指定しても意味が無いので選べなくする。データのある
+    // 月だけを並べ、選んだのに0件という行き止まりを作らない。
+    var months = periodYear
+      ? allMonths.filter(function (m) { return m.slice(0, 4) === periodYear; })
+          .map(function (m) { return m.slice(5); }).sort()
+      : [];
+    monthSelect.disabled = !periodYear;
+    monthSelect.innerHTML = '<option value="">すべての月</option>' +
+      months.map(function (m) { return '<option value="' + m + '">' + parseInt(m, 10) + '月</option>'; }).join('');
+    if (months.indexOf(periodMonth) < 0) { periodMonth = ''; }
+    monthSelect.value = periodMonth;
+  }
 
-    var existing = document.getElementById('d-' + dateFilter);
-    if (existing) {
-      showOnlyDate(dateFilter);
-      return;
-    }
+  function populateYearOptions() {
+    if (!yearSelect) { return; }
+    var years = [];
+    allMonths.forEach(function (m) {
+      var y = m.slice(0, 4);
+      if (years.indexOf(y) < 0) { years.push(y); }
+    });
+    yearSelect.innerHTML = '<option value="">すべての年</option>' +
+      years.map(function (y) { return '<option value="' + y + '">' + y + '年</option>'; }).join('');
+    populateMonthOptions();
+  }
 
-    var month = dateFilter.slice(0, 7);
-    statusEl.textContent = '読み込み中…';
-    loadMoreBtn.hidden = true;
-    fetchMonth(month).then(function (data) {
-      if (dateFilter !== dateStr) { return; } // 取得中に別の日付へ変更された
-      if (data) {
-        renderMonth(data);
-      } else if (!fetchedMonths[month]) {
-        // 取得済みの月ならdataはnullでも構わない（その日に社説が無かっただけ）。
-        // 未取得のままnullなら取得自体に失敗している。
-        statusEl.textContent = 'この日付のデータを読み込めませんでした。';
-        return;
-      }
-      showOnlyDate(dateFilter);
+  if (yearSelect) {
+    yearSelect.addEventListener('change', function () {
+      periodYear = yearSelect.value;
+      populateMonthOptions();
+      applyPeriod();
     });
   }
 
-  function showOnlyDate(dateStr) {
-    resultsEl.querySelectorAll('section.dategroup').forEach(function (sec) {
-      var match = sec.id === 'd-' + dateStr;
-      sec.classList.toggle('date-filtered-out', !match);
-      sec.hidden = !match;
+  if (monthSelect) {
+    monthSelect.addEventListener('change', function () {
+      periodMonth = monthSelect.value;
+      applyPeriod();
     });
+  }
+
+  // 日付見出しを押すとその日だけに絞る（もう一度押すと解除）。特定日の読み比べは
+  // 期間指定では届かない粒度だが、日付を空欄から入力させるより、目の前にある
+  // 検索結果から辿らせる方が操作として自然なので見出し自体を操作対象にしている。
+  function toggleDayFilter(dateStr) {
+    dayFilter = (dayFilter === dateStr) ? null : dateStr;
     updateCounts();
-    loadMoreBtn.hidden = true;
-    var parts = dateStr.split('-');
-    statusEl.textContent = parseInt(parts[1], 10) + '/' + parseInt(parts[2], 10) + '（' + weekdayOf(dateStr) + '）のみ表示中';
+    updateStatus();
+    if (dayFilter) { document.getElementById('d-' + dayFilter).scrollIntoView(); }
   }
 
-  if (dateFilterInput) {
-    dateFilterInput.addEventListener('change', function () {
-      applyDateFilter(dateFilterInput.value);
-    });
-  }
+  resultsEl.addEventListener('click', function (ev) {
+    var head = ev.target.closest ? ev.target.closest('.date-head') : null;
+    if (head && head.parentNode) { toggleDayFilter(head.parentNode.id.slice(2)); }
+  });
+
+  resultsEl.addEventListener('keydown', function (ev) {
+    if (ev.key !== 'Enter' && ev.key !== ' ') { return; }
+    var head = ev.target.closest ? ev.target.closest('.date-head') : null;
+    if (head && head.parentNode) {
+      ev.preventDefault();
+      toggleDayFilter(head.parentNode.id.slice(2));
+    }
+  });
 
   fetch('archive/index.json').then(function (r) { return r.json(); }).then(function (data) {
     allDates = (data.dates || []).slice().sort().reverse();
     allMonths = (data.months || []).slice().sort().reverse();
-    if (dateFilterInput && allDates.length) {
-      dateFilterInput.min = allDates[allDates.length - 1];
-      dateFilterInput.max = allDates[0];
-    }
+    populateYearOptions();
     loadNextPage(prefetchAllMonths);
   }).catch(function () {
     statusEl.textContent = 'アーカイブの読み込みに失敗しました。時間をおいて再度お試しください。';
@@ -938,8 +1010,11 @@ def render_archive_html() -> str:
         <input type="search" class="archive-search" id="archive-search" placeholder="例: 憲法、選挙" autocomplete="off" />
       </div>
       <div class="field-row">
-        <span class="field-caption">日付で絞り込み</span>
-        <input type="date" class="archive-date" id="archive-date-filter" aria-label="日付で絞り込み" />
+        <span class="field-caption">期間で絞り込み</span>
+        <div class="period-selects">
+          <select class="archive-date" id="archive-year" aria-label="年で絞り込み"><option value="">すべての年</option></select>
+          <select class="archive-date" id="archive-month" aria-label="月で絞り込み" disabled><option value="">すべての月</option></select>
+        </div>
       </div>
       <div class="field-row">
         <span class="field-caption">表示する範囲（複数選択可）</span>
