@@ -171,6 +171,9 @@ button.suggest-chip {
   border:1px solid var(--rule); background:transparent; color:var(--accent); cursor:pointer;
 }
 button.suggest-chip:hover { background: var(--accent-soft); }
+button.suggest-chip[aria-pressed="true"] { background: var(--accent); color: var(--surface); border-color: var(--accent); }
+.suggest-count { margin-left:0.3rem; font-size:0.9em; color:var(--ink-faint); font-variant-numeric: tabular-nums; }
+button.suggest-chip[aria-pressed="true"] .suggest-count { color: var(--accent-soft); }
 button.suggest-chip:focus-visible { outline:2px solid var(--accent); outline-offset:2px; }
 .period-selects { display:flex; gap:0.5rem; }
 .period-selects select { flex:1 1 0; }
@@ -333,6 +336,7 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
   var loadedMonths = 0;     // allMonthsの先頭から何ヶ月ぶん取得したか
   var shownDays = DISPLAY_DAYS;  // 新しい方から何日分を表示するか（取得済みの日数とは別）
   var fetchedMonths = {};   // 期間指定で先に取った月を二重取得しないための記録
+  var orTerms = [];         // 提案チップで足した語（入力語とORで結ぶ）
   var periodYear = '';      // 期間絞り込みの年（''なら未指定）
   var periodMonth = '';     // 同・月（年が未指定なら無効）
   var searchAllActive = false;
@@ -428,11 +432,35 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
     // （updateCountsはコンテンツ追加のたびに呼ばれるため、ここに置けば
     // 新規追加分にも自動的に反映される）。
     if (!searchInput) return;
-    var q = searchInput.value.trim().toLowerCase();
+    var terms = searchTerms();
     resultsEl.querySelectorAll('li.article-item').forEach(function (li) {
-      var match = !q || li.getAttribute('data-title').indexOf(q) !== -1;
+      var title = li.getAttribute('data-title');
+      var match = !terms.length || terms.some(function (t) { return title.indexOf(t) !== -1; });
       li.classList.toggle('search-hide', !match);
     });
+  }
+
+  // 入力した語と、提案チップで足した語。OR（どれかを含めばヒット）で扱う。
+  // 「高市」で検索しても、名前を出さず「首相」とだけ書いた社説は引っかからない。
+  // どちらが旬の話題かを機械が判断できない以上、無関係な記事（別の国の首相等）が
+  // 混ざるとしても候補を広く出す —— 静かに取りこぼす方が、過剰に含めるより悪い
+  // という日付解釈と同じ方針。何を足したかは要約バーに出して取り消せるようにする。
+  function searchTerms() {
+    if (!searchInput) { return []; }
+    var q = searchInput.value.trim().toLowerCase();
+    return q ? [q].concat(orTerms) : [];
+  }
+
+  // 検索語以外の条件（tier・会員限定）を通るか。提案チップの件数も同じ条件で
+  // 数えるため、isVisibleから切り出して共有する。
+  function passesTierPaid(li) {
+    if (hidePaid && li.classList.contains('paid-item')) return false;
+    for (var i = 0; i < TIERS.length; i++) {
+      if (li.classList.contains('tier-' + TIERS[i])) {
+        return body.classList.contains('show-' + TIERS[i]);
+      }
+    }
+    return true;
   }
 
   function isVisible(li) {
@@ -442,13 +470,7 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
     // 1件ごとの強制レイアウトが1打鍵ごとに効くようになった（実測で約44ms、
     // クラス判定なら約6ms）ため、レイアウトを起こさない判定に置き換えた。
     if (li.classList.contains('search-hide')) return false;
-    if (hidePaid && li.classList.contains('paid-item')) return false;
-    for (var i = 0; i < TIERS.length; i++) {
-      if (li.classList.contains('tier-' + TIERS[i])) {
-        return body.classList.contains('show-' + TIERS[i]);
-      }
-    }
-    return true;
+    return passesTierPaid(li);
   }
 
   function updateCounts() {
@@ -470,6 +492,10 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
     });
     if (totalEl) totalEl.textContent = grandTotal;
     renderActiveFilters(grandTotal);
+    // 提案チップの件数もtier・会員限定・期間の影響を受けるため、ここで一緒に
+    // 描き直す。個別のハンドラに任せると、tierを切り替えたときだけ件数が
+    // 古いまま残る、といった取りこぼしが出る。
+    renderSuggestions();
   }
 
   function renderActiveFilters(total) {
@@ -481,7 +507,9 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
     var chipsHtml = [];
     var q = searchInput ? searchInput.value.trim() : '';
     if (q) {
-      chipsHtml.push('<span class="filter-chip">タイトル「' + esc(q) + '」</span>');
+      // 提案チップで足した語はORなので「または」でつなぐ。＋（AND）と混同させない。
+      var label = orTerms.length ? [q].concat(orTerms).join('」または「') : q;
+      chipsHtml.push('<span class="filter-chip">タイトル「' + esc(label) + '」</span>');
     }
     if (periodYear) {
       chipsHtml.push('<span class="filter-chip">' + periodLabel() + '</span>');
@@ -676,7 +704,7 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
   var GRAM_STOP = { '社説': 1, '主張': 1, '論説': 1, '日報': 1, '新聞': 1 };
   var GRAM_CHUNK = 2000;
   var gramIndex = null;     // gram -> 全タイトル中の出現件数
-  var gramTitles = null;    // 索引を作った時点のタイトル
+  var gramItems = null;     // 索引を作った時点の記事（タイトルと絞り込みに使う属性）
   var gramBuilding = false;
 
   function gramsOf(text, out) {
@@ -702,19 +730,31 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
   function buildGramIndex() {
     if (gramIndex || gramBuilding || loadedMonths < allMonths.length) { return; }
     gramBuilding = true;
-    gramTitles = [];
-    resultsEl.querySelectorAll('li.article-item').forEach(function (li) {
-      gramTitles.push(li.getAttribute('data-title'));
+    // 提案チップの件数も同じ配列から数える。DOMを1件ずつ読むと約2万件の
+    // getAttributeで打鍵ごとに数百msかかるため、属性もここで写し取っておく。
+    gramItems = [];
+    resultsEl.querySelectorAll('section.dategroup').forEach(function (sec) {
+      var date = sec.id.slice(2);
+      sec.querySelectorAll('li.article-item').forEach(function (li) {
+        var tier = 'regional';
+        for (var i = 0; i < TIERS.length; i++) {
+          if (li.classList.contains('tier-' + TIERS[i])) { tier = TIERS[i]; break; }
+        }
+        gramItems.push({
+          t: li.getAttribute('data-title'), d: date, tier: tier,
+          paid: li.classList.contains('paid-item'),
+        });
+      });
     });
     var index = new Map();
     var pos = 0;
     (function step() {
-      var end = Math.min(pos + GRAM_CHUNK, gramTitles.length);
+      var end = Math.min(pos + GRAM_CHUNK, gramItems.length);
       for (; pos < end; pos++) {
-        var set = gramsOf(gramTitles[pos], Object.create(null));
+        var set = gramsOf(gramItems[pos].t, Object.create(null));
         for (var g in set) { index.set(g, (index.get(g) || 0) + 1); }
       }
-      if (pos < gramTitles.length) { setTimeout(step, 0); return; }
+      if (pos < gramItems.length) { setTimeout(step, 0); return; }
       gramIndex = index;
       gramBuilding = false;
       renderSuggestions();
@@ -724,8 +764,8 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
   function suggestionsFor(q) {
     var hit = new Map();
     var n = 0;
-    for (var i = 0; i < gramTitles.length; i++) {
-      var t = gramTitles[i];
+    for (var i = 0; i < gramItems.length; i++) {
+      var t = gramItems[i].t;
       if (t.indexOf(q) < 0) { continue; }
       n++;
       // 検索語の部分をマスクしてから切り出す。そうしないと隣接する文字を
@@ -735,7 +775,7 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
     }
     if (n < 5) { return []; }
     var min = Math.max(3, n * 0.05);
-    var total = gramTitles.length;
+    var total = gramItems.length;
     var scored = [];
     hit.forEach(function (c, g) {
       if (c < min || g.indexOf(q) >= 0 || q.indexOf(g) >= 0) { return; }
@@ -777,21 +817,51 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
       suggestEl.hidden = !gramBuilding;
       return;
     }
+    // 候補は入力語だけから求める。足した語で作り直すとチップの並びが押すたびに
+    // 変わり、続けて選べなくなるため。
     var words = suggestionsFor(q);
+    orTerms.forEach(function (t) { if (words.indexOf(t) < 0) { words.push(t); } });
     if (!words.length) { suggestEl.innerHTML = ''; suggestEl.hidden = true; return; }
-    suggestEl.innerHTML = '<span class="suggest-label">この語と一緒に出てくる語:</span>' +
-      words.map(function (w) {
-        return '<button type="button" class="suggest-chip">' + esc(w) + '</button>';
+    var counts = countInScope(words);
+    suggestEl.innerHTML = '<span class="suggest-label">一緒に出てくる語（押すと検索に足す）:</span>' +
+      words.map(function (w, i) {
+        var on = orTerms.indexOf(w) >= 0;
+        return '<button type="button" class="suggest-chip" data-word="' + esc(w) +
+          '" aria-pressed="' + (on ? 'true' : 'false') + '">' +
+          esc(w) + '<span class="suggest-count">' + counts[i] + '</span></button>';
       }).join('');
     suggestEl.hidden = false;
   }
 
+  // 各候補語が何件に当たるかを、検索語以外の条件（tier・会員限定・期間）を
+  // 通した上で数える。要約バーに出る件数と桁が揃っていないと、押した結果が
+  // 予想できずかえって混乱するため、同じ絞り込みを通す。
+  function countInScope(words) {
+    var counts = words.map(function () { return 0; });
+    if (!gramItems) { return counts; }
+    for (var i = 0; i < gramItems.length; i++) {
+      var it = gramItems[i];
+      if (hidePaid && it.paid) { continue; }
+      if (!body.classList.contains('show-' + it.tier)) { continue; }
+      if (!inScope(it.d)) { continue; }
+      for (var j = 0; j < words.length; j++) {
+        if (it.t.indexOf(words[j]) >= 0) { counts[j]++; }
+      }
+    }
+    return counts;
+  }
+
   if (suggestEl) {
     suggestEl.addEventListener('click', function (ev) {
-      if (!ev.target.classList.contains('suggest-chip')) { return; }
-      searchInput.value = ev.target.textContent;
-      searchInput.dispatchEvent(new Event('input'));
-      searchInput.focus();
+      // 件数のspanを押した場合もあるので、チップ本体まで辿る。語はtextContentに
+      // 件数が混ざるためdata-wordから取る。
+      var chip = ev.target.closest ? ev.target.closest('.suggest-chip') : null;
+      if (!chip) { return; }
+      var w = chip.getAttribute('data-word');
+      var at = orTerms.indexOf(w);
+      if (at >= 0) { orTerms.splice(at, 1); } else { orTerms.push(w); }
+      updateCounts();
+      updateStatus();
     });
   }
 
@@ -802,11 +872,10 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
   if (searchInput) {
     var searchTimer = null;
     searchInput.addEventListener('input', function () {
+      // 入力語を変えたら、前の語に対して足した候補は意味を失うので捨てる。
+      orTerms = [];
       updateCounts();
       updateStatus();
-      // 提案の描画は打鍵ごとに即時。索引さえできていれば数十msで、遅延させると
-      // 1つ前のクエリの提案が残って見える。重いのは索引の構築だけ。
-      renderSuggestions();
       if (searchTimer) { clearTimeout(searchTimer); }
       if (!searchInput.value.trim()) { return; }
       // 1打鍵ごとに全期間読み込みや索引構築を起動しないよう、入力が落ち着いてから。
