@@ -297,6 +297,11 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
   // 取得の単位は月。「当月分だけ」にすると月初に1日分しか出ないため、常に
   // 新しい方から2ヶ月ぶん取る（月初でも28日分、月末でも62日分になる）。
   var MONTHS_PER_PAGE = 2;
+  // 表示の単位は日。取得と切り離してあり、既定では新しい方から7日分だけ見せて
+  // 「さらに過去分を表示」で7日ずつ伸ばす。読み逃しのキャッチアップ（旅行・
+  // 連休で数日空けた分を読み返す）が遡って読む主な動機で、それ以上遡る調べもの
+  // 用途は検索欄と日付絞り込みが担うため、既定は1週間で足りるという判断。
+  var DISPLAY_DAYS = 7;
 
   var body = document.body;
   var totalEl = document.getElementById('total-count');
@@ -312,6 +317,7 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
   var allMonths = [];       // 新しい順。取得とページ送りの単位。
   var allDates = [];        // 新しい順。日付入力の上下限と「全◯日分」の表示に使う。
   var loadedMonths = 0;     // allMonthsの先頭から何ヶ月ぶん取得したか
+  var shownDays = DISPLAY_DAYS;  // 新しい方から何日分を表示するか（取得済みの日数とは別）
   var fetchedMonths = {};   // 日付絞り込みで先に取った月を二重取得しないための記録
   var dateFilter = null;
   var searchAllActive = false;
@@ -401,7 +407,7 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
   }
 
   function applySearchFilter() {
-    // 「さらに過去分を読み込む」や日付ジャンプで後から追加される記事にも
+    // 「さらに過去分を表示」や日付ジャンプで後から追加される記事にも
     // 現在の検索クエリを適用する必要があるため、search-hideの付与は
     // searchInputのinputイベントではなくここで毎回全件に対して行う
     // （updateCountsはコンテンツ追加のたびに呼ばれるため、ここに置けば
@@ -432,10 +438,12 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
 
   function updateCounts() {
     applySearchFilter();
+    applyDisplayWindow();
     var grandTotal = 0;
     resultsEl.querySelectorAll('section.dategroup').forEach(function (sec) {
-      // 日付フィルタで除外中のセクションはhidden状態を保ったまま完全にスキップする。
-      if (sec.classList.contains('date-filtered-out')) { return; }
+      // 日付フィルタ・表示日数の窓で除外中のセクションは、hidden状態を保ったまま
+      // 完全にスキップする（件数にも数えない）。
+      if (sec.classList.contains('date-filtered-out') || sec.classList.contains('beyond-window')) { return; }
       var count = 0;
       sec.querySelectorAll('li.article-item').forEach(function (li) {
         if (isVisible(li)) count++;
@@ -479,20 +487,46 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
       '<span class="filter-result-count">' + total + '件</span>';
   }
 """ + _TIER_PAID_TOGGLE_JS + r"""
-  function finishLoading() {
+  // ステータス行と「さらに過去分を表示」の出し分けはここに集約する。読み込みは
+  // 月単位、表示は日単位、検索は全期間と粒度が3つあるため、各所で個別に文言を
+  // 書き換えると噛み合わなくなる。
+  function updateStatus() {
     if (!allDates.length) {
       statusEl.textContent = 'まだアーカイブがありません。';
-    } else if (searchInput && searchInput.value.trim()) {
-      // 検索中は、読み込み済みの分だけでなく全期間が対象になっていることを示す。
-      statusEl.textContent = '全期間（' + allDates.length + '日分）から検索中';
-    } else {
-      statusEl.textContent = 'すべて表示中';
+      loadMoreBtn.hidden = true;
+      return;
     }
-    loadMoreBtn.hidden = true;
+    if (dateFilter) { return; }  // 文言はshowOnlyDateが持つ
+    if (searchInput && searchInput.value.trim()) {
+      // 検索は読み込み済みの記事にしか掛からないため、全期間が揃ったかどうかを示す。
+      statusEl.textContent = loadedMonths >= allMonths.length
+        ? '全期間（' + allDates.length + '日分）から検索中'
+        : '全期間を読み込み中… ' + loadedMonths + '/' + allMonths.length + 'ヶ月分';
+      loadMoreBtn.hidden = true;
+      return;
+    }
+    var shown = shownDayCount();
+    statusEl.textContent = shown >= allDates.length ? 'すべて表示中' : shown + '日分を表示中';
+    loadMoreBtn.hidden = shown >= allDates.length;
   }
 
-  function renderedDayCount() {
-    return resultsEl.querySelectorAll('section.dategroup').length;
+  function shownDayCount() {
+    return Math.min(shownDays, allDates.length);
+  }
+
+  function applyDisplayWindow() {
+    // 全期間を先読みしても、既定の表示は新しい方から DISPLAY_DAYS 日分に留める
+    // （全部見せると縦に長くなりすぎてスクロールで遡れないため）。検索中と
+    // 日付絞り込み中は窓を外す —— 検索は全期間が対象で、日付絞り込みは
+    // 窓の外の1日を名指しで選ぶ操作なので、窓を掛けると何も出なくなる。
+    var searching = searchInput && searchInput.value.trim();
+    var limit = (!searching && !dateFilter && allDates.length)
+      ? allDates[shownDayCount() - 1] : null;
+    resultsEl.querySelectorAll('section.dategroup').forEach(function (sec) {
+      var beyond = !!limit && sec.id.slice(2) < limit;
+      sec.classList.toggle('beyond-window', beyond);
+      if (beyond) { sec.hidden = true; }
+    });
   }
 
   function fetchMonth(month) {
@@ -526,9 +560,7 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
 
   function loadNextPage(onDone) {
     var batch = allMonths.slice(loadedMonths, loadedMonths + MONTHS_PER_PAGE);
-    if (batch.length === 0) { finishLoading(); if (onDone) onDone(); return; }
-    if (!searchAllActive) { statusEl.textContent = '読み込み中…'; }
-    loadMoreBtn.hidden = true;
+    if (batch.length === 0) { if (onDone) onDone(); return; }
     Promise.all(batch.map(fetchMonth)).then(function (results) {
       results.forEach(renderMonth);
       loadedMonths += batch.length;
@@ -537,34 +569,44 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
         showOnlyDate(dateFilter);
       } else {
         updateCounts();
-        // 全期間読み込み中は、進捗表示とボタン制御をensureAllDatesLoaded側に任せる。
-        if (!searchAllActive) {
-          if (loadedMonths >= allMonths.length) {
-            finishLoading();
-          } else {
-            statusEl.textContent = renderedDayCount() + '日分を表示中';
-            loadMoreBtn.hidden = false;
-          }
-        }
+        updateStatus();
       }
       if (onDone) onDone();
     });
   }
 
+  // 表示日数の窓を広げるのに必要な月がまだ読めていなければ取得する。先読みが
+  // 効いていれば常に読み込み済みなので、実際に走るのは先読みを見送った場合だけ。
+  function ensureMonthsForWindow(onDone) {
+    var oldest = allDates[shownDayCount() - 1];
+    var needed = allMonths.indexOf(oldest.slice(0, 7)) + 1;
+    if (needed <= loadedMonths || loadedMonths >= allMonths.length) {
+      if (onDone) onDone();
+      return;
+    }
+    statusEl.textContent = '読み込み中…';
+    loadNextPage(function () { ensureMonthsForWindow(onDone); });
+  }
+
+  function showMoreDays() {
+    shownDays += DISPLAY_DAYS;
+    ensureMonthsForWindow(function () { updateCounts(); updateStatus(); });
+  }
+
   // タイトル検索は読み込み済みの記事にしか掛からないため、残りの月を取得して
   // おかないと、過去に一致する記事があっても「0件」に見えてしまう（Issue #57）。
   // 取得済みの月はDOMに残るので、この全期間読み込みは1回のページ表示につき
-  // 一度きりで済む。
+  // 一度きりで済む。表示日数の窓とは独立で、ここで取得しても既定の表示は
+  // DISPLAY_DAYS日分のままにする。
   function ensureAllDatesLoaded() {
     if (searchAllActive || loadedMonths >= allMonths.length) { return; }
     searchAllActive = true;
     (function step() {
       if (loadedMonths >= allMonths.length) {
         searchAllActive = false;
-        if (dateFilter) { showOnlyDate(dateFilter); } else { finishLoading(); }
+        if (dateFilter) { showOnlyDate(dateFilter); } else { updateStatus(); }
         return;
       }
-      statusEl.textContent = '全期間を読み込み中… ' + loadedMonths + '/' + allMonths.length + 'ヶ月分';
       loadNextPage(step);
     })();
   }
@@ -582,33 +624,19 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
   }
 
   if (loadMoreBtn) {
-    loadMoreBtn.addEventListener('click', function () { loadNextPage(); });
+    loadMoreBtn.addEventListener('click', function () { showMoreDays(); });
   }
 
   if (searchInput) {
     var searchTimer = null;
     searchInput.addEventListener('input', function () {
       updateCounts();
+      updateStatus();
       if (searchTimer) { clearTimeout(searchTimer); }
-      if (!searchAllActive && !dateFilter && loadedMonths >= allMonths.length) {
-        // 全期間が揃っているなら、あとは検索中かどうかで文言を切り替えるだけ。
-        // 先読み（prefetchAllMonths）が効いていると検索開始時点で既にこの状態
-        // なので、ここを通さないと「すべて表示中」のままになる。
-        finishLoading();
-      }
       if (!searchInput.value.trim()) { return; }
       // 1打鍵ごとに全期間読み込みを起動しないよう、入力が落ち着いてから始める。
       searchTimer = setTimeout(ensureAllDatesLoaded, 300);
     });
-  }
-
-  function updateLoadMoreVisibility() {
-    if (loadedMonths >= allMonths.length) {
-      loadMoreBtn.hidden = true;
-    } else {
-      statusEl.textContent = renderedDayCount() + '日分を表示中';
-      loadMoreBtn.hidden = false;
-    }
   }
 
   function applyDateFilter(dateStr) {
@@ -619,7 +647,7 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
         sec.classList.remove('date-filtered-out');
       });
       updateCounts();
-      if (loadedMonths >= allMonths.length) { finishLoading(); } else { updateLoadMoreVisibility(); }
+      updateStatus();
       return;
     }
 
@@ -929,7 +957,7 @@ def render_archive_html() -> str:
 
     main_html = '''
 <div id="archive-results"></div>
-<button type="button" class="load-more" id="load-more" hidden>さらに過去分を読み込む</button>'''
+<button type="button" class="load-more" id="load-more" hidden>さらに過去分を表示</button>'''
 
     summary_html = (
         '    <p class="summary">過去の社説を横断検索・表示中 <strong id="total-count">0</strong>件</p>\n'
