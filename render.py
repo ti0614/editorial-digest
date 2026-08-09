@@ -163,6 +163,15 @@ a.article time {
   border:1px solid var(--rule); background:var(--bg); color:var(--ink);
 }
 .archive-search:focus-visible, .archive-date:focus-visible { outline:2px solid var(--accent); outline-offset:2px; }
+.suggest-row { display:flex; flex-wrap:wrap; align-items:center; gap:0.35rem; margin-top:0.5rem; }
+.suggest-row[hidden] { display:none; }
+.suggest-label { font-size:0.7rem; color:var(--ink-faint); }
+button.suggest-chip {
+  font: inherit; font-size:0.78rem; padding:0.15rem 0.55rem; border-radius:999px;
+  border:1px solid var(--rule); background:transparent; color:var(--accent); cursor:pointer;
+}
+button.suggest-chip:hover { background: var(--accent-soft); }
+button.suggest-chip:focus-visible { outline:2px solid var(--accent); outline-offset:2px; }
 .period-selects { display:flex; gap:0.5rem; }
 .period-selects select { flex:1 1 0; }
 .period-selects select:disabled { color: var(--ink-faint); }
@@ -312,6 +321,7 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
   var searchInput = document.getElementById('archive-search');
   var yearSelect = document.getElementById('archive-year');
   var monthSelect = document.getElementById('archive-month');
+  var suggestEl = document.getElementById('archive-suggest');
   var loadMoreBtn = document.getElementById('load-more');
   var statusEl = document.getElementById('archive-status');
   var filtersEl = document.getElementById('active-filters');
@@ -634,6 +644,7 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
         searchAllActive = false;
         updateCounts();
         updateStatus();
+        buildGramIndex();
         return;
       }
       loadNextPage(step);
@@ -652,6 +663,138 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
     ensureAllDatesLoaded();
   }
 
+  // ---- 関連語の提案 ----
+  // 検索語を含むタイトルの中に不釣り合いに多く同居している語を出す。社説は
+  // 人名を出さず「首相」「政権」とだけ書くことが多く、人名で検索すると当人を
+  // 論じた社説の多くが漏れる。別名表を持つと政治的事実を手で書いて維持する
+  // ことになるため、代わりに「こういう語でも探せる」と示すだけに留める。
+  // 語の切り出しは形態素解析器を使わず、漢字の連なりの2〜4文字n-gramと
+  // カタカナ語（丸ごと1語）で代用する。語の境界を知らないので「再稼」の
+  // ような途中で切れた断片が混じるが、提案なので実害は小さいと判断した。
+  var GRAM_KANJI = /[一-鿿]{2,}/g;
+  var GRAM_KATA = /[゠-ヿー]{2,}/g;
+  var GRAM_STOP = { '社説': 1, '主張': 1, '論説': 1, '日報': 1, '新聞': 1 };
+  var GRAM_CHUNK = 2000;
+  var gramIndex = null;     // gram -> 全タイトル中の出現件数
+  var gramTitles = null;    // 索引を作った時点のタイトル
+  var gramBuilding = false;
+
+  function gramsOf(text, out) {
+    var m;
+    GRAM_KATA.lastIndex = 0;
+    while ((m = GRAM_KATA.exec(text))) { if (!GRAM_STOP[m[0]]) { out[m[0]] = 1; } }
+    GRAM_KANJI.lastIndex = 0;
+    while ((m = GRAM_KANJI.exec(text))) {
+      var run = m[0];
+      for (var n = 2; n <= 4; n++) {
+        for (var i = 0; i + n <= run.length; i++) {
+          var g = run.substr(i, n);
+          if (!GRAM_STOP[g]) { out[g] = 1; }
+        }
+      }
+    }
+    return out;
+  }
+
+  // 索引の構築は約2万件を1周するため、低速端末では2秒以上かかる。まとめて
+  // 回すと画面が固まるので、GRAM_CHUNK件ずつ処理して制御を返す。全期間が
+  // 揃ってから作る（途中で作ると読み込み済みの分だけの偏った統計になる）。
+  function buildGramIndex() {
+    if (gramIndex || gramBuilding || loadedMonths < allMonths.length) { return; }
+    gramBuilding = true;
+    gramTitles = [];
+    resultsEl.querySelectorAll('li.article-item').forEach(function (li) {
+      gramTitles.push(li.getAttribute('data-title'));
+    });
+    var index = new Map();
+    var pos = 0;
+    (function step() {
+      var end = Math.min(pos + GRAM_CHUNK, gramTitles.length);
+      for (; pos < end; pos++) {
+        var set = gramsOf(gramTitles[pos], Object.create(null));
+        for (var g in set) { index.set(g, (index.get(g) || 0) + 1); }
+      }
+      if (pos < gramTitles.length) { setTimeout(step, 0); return; }
+      gramIndex = index;
+      gramBuilding = false;
+      renderSuggestions();
+    })();
+  }
+
+  function suggestionsFor(q) {
+    var hit = new Map();
+    var n = 0;
+    for (var i = 0; i < gramTitles.length; i++) {
+      var t = gramTitles[i];
+      if (t.indexOf(q) < 0) { continue; }
+      n++;
+      // 検索語の部分をマスクしてから切り出す。そうしないと隣接する文字を
+      // 巻き込んだ断片（「高市」+「政権」→「市政権」）が上位に来る。
+      var set = gramsOf(t.split(q).join('　'), Object.create(null));
+      for (var g in set) { hit.set(g, (hit.get(g) || 0) + 1); }
+    }
+    if (n < 5) { return []; }
+    var min = Math.max(3, n * 0.05);
+    var total = gramTitles.length;
+    var scored = [];
+    hit.forEach(function (c, g) {
+      if (c < min || g.indexOf(q) >= 0 || q.indexOf(g) >= 0) { return; }
+      // ヒット集合内での出現率が全体での出現率より高いほど上に来る。
+      scored.push([c * ((c / n) / (gramIndex.get(g) / total)), g]);
+    });
+    scored.sort(function (a, b) { return b[0] - a[0]; });
+    var kept = [];
+    for (var j = 0; j < scored.length && kept.length < 6; j++) {
+      var g = maximalGram(scored[j][1], hit);
+      var dup = kept.some(function (k) { return g.indexOf(k) >= 0 || k.indexOf(g) >= 0; });
+      if (!dup) { kept.push(g); }
+    }
+    return kept;
+  }
+
+  // n-gramは語の境界を知らないため「再稼働」から「再稼」、「内閣発足」から
+  // 「閣発足」といった途中で切れた断片が出る。ある語を含むより長い語がほぼ
+  // 同じ件数で存在するなら、短い方は長い方の一部を切り出しただけとみなして
+  // 長い方に寄せる。辞書無しで断片をかなり減らせる。
+  function maximalGram(gram, hit) {
+    var base = hit.get(gram);
+    var best = gram;
+    hit.forEach(function (c, other) {
+      if (other.length > best.length && other.indexOf(gram) >= 0 && c >= base * 0.8) {
+        best = other;
+      }
+    });
+    return best;
+  }
+
+  function renderSuggestions() {
+    if (!suggestEl || !searchInput) { return; }
+    var q = searchInput.value.trim().toLowerCase();
+    if (!q) { suggestEl.innerHTML = ''; suggestEl.hidden = true; return; }
+    if (!gramIndex) {
+      suggestEl.innerHTML = gramBuilding
+        ? '<span class="suggest-label">関連する語を集計中…</span>' : '';
+      suggestEl.hidden = !gramBuilding;
+      return;
+    }
+    var words = suggestionsFor(q);
+    if (!words.length) { suggestEl.innerHTML = ''; suggestEl.hidden = true; return; }
+    suggestEl.innerHTML = '<span class="suggest-label">この語と一緒に出てくる語:</span>' +
+      words.map(function (w) {
+        return '<button type="button" class="suggest-chip">' + esc(w) + '</button>';
+      }).join('');
+    suggestEl.hidden = false;
+  }
+
+  if (suggestEl) {
+    suggestEl.addEventListener('click', function (ev) {
+      if (!ev.target.classList.contains('suggest-chip')) { return; }
+      searchInput.value = ev.target.textContent;
+      searchInput.dispatchEvent(new Event('input'));
+      searchInput.focus();
+    });
+  }
+
   if (loadMoreBtn) {
     loadMoreBtn.addEventListener('click', function () { showMoreDays(); });
   }
@@ -661,10 +804,16 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
     searchInput.addEventListener('input', function () {
       updateCounts();
       updateStatus();
+      // 提案の描画は打鍵ごとに即時。索引さえできていれば数十msで、遅延させると
+      // 1つ前のクエリの提案が残って見える。重いのは索引の構築だけ。
+      renderSuggestions();
       if (searchTimer) { clearTimeout(searchTimer); }
       if (!searchInput.value.trim()) { return; }
-      // 1打鍵ごとに全期間読み込みを起動しないよう、入力が落ち着いてから始める。
-      searchTimer = setTimeout(ensureAllDatesLoaded, 300);
+      // 1打鍵ごとに全期間読み込みや索引構築を起動しないよう、入力が落ち着いてから。
+      searchTimer = setTimeout(function () {
+        ensureAllDatesLoaded();
+        buildGramIndex();
+      }, 300);
     });
   }
 
@@ -959,6 +1108,7 @@ def render_archive_html() -> str:
       <div class="field-row">
         <span class="field-caption">タイトルで検索</span>
         <input type="search" class="archive-search" id="archive-search" placeholder="例: 憲法、選挙" autocomplete="off" />
+        <div class="suggest-row" id="archive-suggest" hidden></div>
       </div>
       <div class="field-row">
         <span class="field-caption">期間で絞り込み</span>
