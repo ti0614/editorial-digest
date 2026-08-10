@@ -1053,6 +1053,14 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
   }
 
   if (suggestEl) {
+    // mousedownの時点でpreventDefaultし、入力欄からフォーカスを外さない
+    // ようにする。外すと入力欄のblurが先に発火して確定処理(commitPending)が
+    // 走り、それが呼ぶrenderSuggestions()が提案欄を丸ごと再描画してしまう
+    // ——押している最中のチップ自体がDOMから消え、後続のclickが届かず
+    // 選んだ語が追加されない、という不具合になっていた。
+    suggestEl.addEventListener('mousedown', function (ev) {
+      if (ev.target.closest && ev.target.closest('.suggest-chip')) { ev.preventDefault(); }
+    });
     suggestEl.addEventListener('click', function (ev) {
       var chip = ev.target.closest ? ev.target.closest('.suggest-chip') : null;
       if (!chip) { return; }
