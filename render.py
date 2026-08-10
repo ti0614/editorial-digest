@@ -157,6 +157,15 @@ a.article time {
 }
 .field-row { margin: 0 0 0.6rem; }
 .field-row:last-child { margin-bottom: 0; }
+/* 期間・tier・会員限定は既定で折りたたむ（実験）。タイトル検索だけを常に見せ、
+   詳細な絞り込みは開いた人だけがコストを払う形にする。 */
+.advanced-filters { margin-top: 0.6rem; }
+.advanced-filters summary {
+  font-size: 0.78rem; color: var(--accent); cursor: pointer; list-style: revert;
+  padding: 0.2rem 0;
+}
+.advanced-filters summary::marker { color: var(--ink-faint); }
+.advanced-filters[open] summary { margin-bottom: 0.6rem; color: var(--ink-muted); }
 .field-caption { display:block; font-size: 0.7rem; color: var(--ink-faint); margin: 0 0 0.3rem; }
 .archive-date {
   width:100%; font: inherit; font-size:0.95rem; padding:0.6rem 0.75rem; border-radius:8px;
@@ -1342,23 +1351,26 @@ def render_archive_html() -> str:
         </div>
         <div class="suggest-row" id="archive-suggest" hidden></div>
       </div>
-      <div class="field-row">
-        <span class="field-caption">期間で絞り込み</span>
-        <div class="period-selects">
-          <select class="archive-date" id="archive-year" aria-label="年で絞り込み"><option value="">すべての年</option></select>
-          <select class="archive-date" id="archive-month" aria-label="月で絞り込み" disabled><option value="">すべての月</option></select>
+      <details class="advanced-filters">
+        <summary>詳細な絞り込み（期間・紙の種類・会員限定）</summary>
+        <div class="field-row">
+          <span class="field-caption">期間で絞り込み</span>
+          <div class="period-selects">
+            <select class="archive-date" id="archive-year" aria-label="年で絞り込み"><option value="">すべての年</option></select>
+            <select class="archive-date" id="archive-month" aria-label="月で絞り込み" disabled><option value="">すべての月</option></select>
+          </div>
         </div>
-      </div>
-      <div class="field-row">
-        <span class="field-caption">表示する範囲（複数選択可）</span>
-        <div class="tier-chips">
+        <div class="field-row">
+          <span class="field-caption">表示する範囲（複数選択可）</span>
+          <div class="tier-chips">
 {_render_tier_chips()}
+          </div>
         </div>
-      </div>
-      <div class="field-row">
-        <span class="field-caption">会員限定記事</span>
-        <button type="button" class="paid-toggle" id="paid-toggle" aria-pressed="false">会員限定記事: 表示中</button>
-      </div>
+        <div class="field-row">
+          <span class="field-caption">会員限定記事</span>
+          <button type="button" class="paid-toggle" id="paid-toggle" aria-pressed="false">会員限定記事: 表示中</button>
+        </div>
+      </details>
     </div>
     <div class="active-filters" id="active-filters"></div>
     <p class="archive-status" id="archive-status">読み込み中…</p>'''
