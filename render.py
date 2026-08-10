@@ -196,9 +196,6 @@ button.suggest-chip {
   border:1px solid var(--rule); background:transparent; color:var(--accent); cursor:pointer;
 }
 button.suggest-chip:hover { background: var(--accent-soft); }
-button.suggest-chip[aria-pressed="true"] { background: var(--accent); color: var(--surface); border-color: var(--accent); }
-.suggest-count { margin-left:0.3rem; font-size:0.9em; color:var(--ink-faint); font-variant-numeric: tabular-nums; }
-button.suggest-chip[aria-pressed="true"] .suggest-count { color: var(--accent-soft); }
 button.suggest-chip:focus-visible { outline:2px solid var(--accent); outline-offset:2px; }
 .period-selects { display:flex; gap:0.5rem; }
 .period-selects select { flex:1 1 0; }
@@ -874,31 +871,14 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
     // 出さない。クリックすると確定側に移ってこの列から消える、という動きになる。
     var words = suggestionsFor(qs);
     if (!words.length) { suggestEl.innerHTML = ''; suggestEl.hidden = true; return; }
-    var counts = countInScope(words);
+    // 件数は出さない。tier・会員限定・期間を通した後の件数を表示していたが、
+    // その条件がぱっと見で分からず、何の数字か伝わらないという指摘があった。
+    // 押せば要約バーの合計がすぐ更新されるので、気に入らなければ押し直せばよい。
     suggestEl.innerHTML = '<span class="suggest-label">一緒に出てくる語（押すと検索に足す）:</span>' +
-      words.map(function (w, i) {
-        return '<button type="button" class="suggest-chip" data-word="' + esc(w) + '">' +
-          esc(w) + '<span class="suggest-count">' + counts[i] + '</span></button>';
+      words.map(function (w) {
+        return '<button type="button" class="suggest-chip" data-word="' + esc(w) + '">' + esc(w) + '</button>';
       }).join('');
     suggestEl.hidden = false;
-  }
-
-  // 各候補語が何件に当たるかを、検索語以外の条件（tier・会員限定・期間）を
-  // 通した上で数える。要約バーに出る件数と桁が揃っていないと、押した結果が
-  // 予想できずかえって混乱するため、同じ絞り込みを通す。
-  function countInScope(words) {
-    var counts = words.map(function () { return 0; });
-    if (!gramItems) { return counts; }
-    for (var i = 0; i < gramItems.length; i++) {
-      var it = gramItems[i];
-      if (hidePaid && it.paid) { continue; }
-      if (!body.classList.contains('show-' + it.tier)) { continue; }
-      if (!inScope(it.d)) { continue; }
-      for (var j = 0; j < words.length; j++) {
-        if (it.t.indexOf(words[j]) >= 0) { counts[j]++; }
-      }
-    }
-    return counts;
   }
 
   // 確定した検索語（打ってEnterした語・提案から押した語のどちらも同格）は
@@ -954,13 +934,26 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
   }
 
   if (searchInput) {
+    // 入力中の語をチップとして確定する。Enterと、入力欄からフォーカスが
+    // 外れた（blur）タイミングの両方から呼ぶ。スマホではEnterキーが押しにくい
+    // 端末・IMEがあり、フォーカスを外す操作（他のチップやセレクトを触る、
+    // 画面の別の場所をタップする）の方が確実に行えるため。
+    function commitPending() {
+      if (!searchInput.value.trim()) { return; }
+      addTerm(searchInput.value);
+      searchInput.value = '';
+      afterTermsChanged();
+    }
+
     searchInput.addEventListener('keydown', function (ev) {
       if (ev.key === 'Enter') {
-        // 打った語自体もチップとして確定する。入力は空に戻す。
+        // 日本語入力の変換候補を確定するEnterもここに来る（isComposing:
+        // true）。ここで拾うと変換途中の文字列がそのままチップになって
+        // しまうため無視する。変換確定後、続けてEnterを押せば通常どおり
+        // 確定できる。
+        if (ev.isComposing) { return; }
         ev.preventDefault();
-        addTerm(searchInput.value);
-        searchInput.value = '';
-        afterTermsChanged();
+        commitPending();
         return;
       }
       // 入力が空のままBackspaceを押したら直前のチップを外す。トークン入力では
@@ -969,6 +962,8 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
         removeTerm(terms[terms.length - 1]);
       }
     });
+
+    searchInput.addEventListener('blur', commitPending);
   }
 
   if (suggestEl) {
