@@ -948,7 +948,7 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
       // のに「集計中…」を出すと、何を待っているのか伝わらず不自然なため。
       var trend = trendIndex ? trendingWords() : [];
       if (!trend.length) { suggestEl.innerHTML = ''; suggestEl.hidden = true; return; }
-      renderChipButtons('最近よく出ている語（押すと検索に使う）:', trend);
+      renderChipButtons('最近よく出ている語:', trend);
       return;
     }
     if (!gramIndex) {
@@ -964,7 +964,7 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
     // 件数は出さない。tier・会員限定・期間を通した後の件数を表示していたが、
     // その条件がぱっと見で分からず、何の数字か伝わらないという指摘があった。
     // 押せば要約バーの合計がすぐ更新されるので、気に入らなければ押し直せばよい。
-    renderChipButtons('一緒に出てくる語（押すと検索に足す）:', words);
+    renderChipButtons('関連語:', words);
   }
 
   // 確定した検索語（打ってEnterした語・提案から押した語のどちらも同格）は
@@ -1373,7 +1373,7 @@ def render_archive_html() -> str:
     """
     scope_toggle_html = f'''
     <div class="search-panel">
-      <p class="search-panel-label"><span>検索条件（すべて同時に絞り込みに使えます）</span></p>
+      <p class="search-panel-label"><span>検索条件</span></p>
       <div class="field-row">
         <span class="field-caption">タイトルで検索</span>
         <div class="search-box" id="search-box">
