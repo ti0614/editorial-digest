@@ -948,7 +948,7 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
       // のに「集計中…」を出すと、何を待っているのか伝わらず不自然なため。
       var trend = trendIndex ? trendingWords() : [];
       if (!trend.length) { suggestEl.innerHTML = ''; suggestEl.hidden = true; return; }
-      renderChipButtons('最近よく出ている語:', trend);
+      renderChipButtons('トレンド:', trend);
       return;
     }
     if (!gramIndex) {
