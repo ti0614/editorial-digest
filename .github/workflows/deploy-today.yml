@@ -4,7 +4,12 @@ on:
   schedule:
     # 05:10 JST と 11:10 JST と 19:10 JST（cronはUTC指定）
     - cron: "10 2,10,20 * * *"
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      skip_scrape:
+        description: "各紙の再取得をせず、既存データからarchive.htmlのみ再生成して公開する（today.htmlは公開中のものを再利用）"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -27,14 +32,14 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      - run: python main.py today
+      - name: 各紙を巡回して当日分を取得
+        if: ${{ github.event.inputs.skip_scrape != 'true' }}
+        run: python main.py today
 
-      - name: アーカイブスナップショットをdataブランチに保存
+      - name: dataブランチをチェックアウト
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          src=$(ls output/*-today.json)
-          day="$(basename "$src" -today.json)"
           data_dir="$RUNNER_TEMP/data-branch"
           repo_url="https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
 
@@ -45,20 +50,37 @@ jobs:
             git -C "$data_dir" checkout --orphan data
             git -C "$data_dir" rm -rf . > /dev/null
           fi
-
           mkdir -p "$data_dir/archive"
-          python append_archive_day.py "$data_dir/archive" "$src"
-          python build_archive_index.py "$data_dir/archive"
-
-          git -C "$data_dir" config user.name "github-actions[bot]"
-          git -C "$data_dir" config user.email "github-actions[bot]@users.noreply.github.com"
-          git -C "$data_dir" add archive/
-          if ! git -C "$data_dir" diff --cached --quiet; then
-            git -C "$data_dir" commit -m "chore: アーカイブスナップショットを追加 ($day)"
-            git -C "$data_dir" push origin data
-          fi
 
           echo "DATA_DIR=$data_dir" >> "$GITHUB_ENV"
+
+      # skip_scrape時はoutput/*-today.jsonが存在しないため、当日分の追記自体を
+      # 行わない（archive/はdataブランチの既存データのまま、archive.htmlだけを
+      # 現在のコードで再生成する）。
+      - name: 当日分をアーカイブへマージ
+        if: ${{ github.event.inputs.skip_scrape != 'true' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          src=$(ls output/*-today.json)
+          day="$(basename "$src" -today.json)"
+          python append_archive_day.py "$DATA_DIR/archive" "$src"
+          python build_archive_index.py "$DATA_DIR/archive"
+
+          git -C "$DATA_DIR" config user.name "github-actions[bot]"
+          git -C "$DATA_DIR" config user.email "github-actions[bot]@users.noreply.github.com"
+          git -C "$DATA_DIR" add archive/
+          if ! git -C "$DATA_DIR" diff --cached --quiet; then
+            git -C "$DATA_DIR" commit -m "chore: アーカイブスナップショットを追加 ($day)"
+            git -C "$DATA_DIR" push origin data
+          fi
+
+      # 各紙を再取得しない代わりに、公開中のtoday.htmlをそのまま使い回す。
+      - name: 公開中のtoday.htmlを再利用
+        if: ${{ github.event.inputs.skip_scrape == 'true' }}
+        run: |
+          mkdir -p output
+          curl -fsSL https://ti0614.github.io/editorial-digest/ -o output/today.html
 
       - run: python main.py archive-page
 
