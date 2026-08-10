@@ -6833,7 +6833,20 @@
           "error": null,
           "skipped_by_robots": false,
           "unavailable_reason": null,
-          "items": []
+          "items": [
+            {
+              "title": "（社説）ＮＨＫと性被害　内向き体質改めるには",
+              "link": "https://www.asahi.com/articles/DA3S16523554.html?iref=pc_rensai_long_16_article",
+              "published": "2026年08月10日 05時00分",
+              "paid": false
+            },
+            {
+              "title": "（社説）被爆者の訴え　次代への継承　広げたい",
+              "link": "https://www.asahi.com/articles/DA3S16523553.html?iref=pc_rensai_long_16_article",
+              "published": "2026年08月10日 05時00分",
+              "paid": false
+            }
+          ]
         },
         {
           "name": "毎日新聞",
@@ -6922,7 +6935,20 @@
           "error": null,
           "skipped_by_robots": false,
           "unavailable_reason": null,
-          "items": []
+          "items": [
+            {
+              "title": "〈社説〉米中間選挙　対立を煽らぬ政治こそ",
+              "link": "https://www.tokyo-np.co.jp/article/507723?rct=editorial",
+              "published": "8月10日 07時36分",
+              "paid": false
+            },
+            {
+              "title": "〈社説〉中国の軽EV　本家・日本勢も奮起を",
+              "link": "https://www.tokyo-np.co.jp/article/507722?rct=editorial",
+              "published": "8月10日 07時34分",
+              "paid": false
+            }
+          ]
         },
         {
           "name": "中日新聞",
@@ -6965,7 +6991,14 @@
           "error": null,
           "skipped_by_robots": false,
           "unavailable_reason": null,
-          "items": []
+          "items": [
+            {
+              "title": "【社説】SNSと子ども　安心につながる規制こそ",
+              "link": "https://www.nishinippon.co.jp/item/1525547/",
+              "published": "2026/08/10 06:00",
+              "paid": false
+            }
+          ]
         },
         {
           "name": "京都新聞",
@@ -7042,7 +7075,14 @@
           "error": null,
           "skipped_by_robots": false,
           "unavailable_reason": null,
-          "items": []
+          "items": [
+            {
+              "title": "置賜豪雨から４年　再度災害起きぬ改良を",
+              "link": "https://www.yamagata-np.jp/shasetsu/?par1=20260810.inc",
+              "published": "（8月10日更新）",
+              "paid": true
+            }
+          ]
         },
         {
           "name": "福島民報",
@@ -7052,7 +7092,14 @@
           "error": null,
           "skipped_by_robots": false,
           "unavailable_reason": null,
-          "items": []
+          "items": [
+            {
+              "title": "【猪苗代湖の水質】改善へ向け総力を（８月１０日）",
+              "link": "https://www.minpo.jp/articles/-/201297",
+              "published": "2026/8/10 11:00",
+              "paid": true
+            }
+          ]
         },
         {
           "name": "岩手日報",
@@ -7082,7 +7129,14 @@
           "error": null,
           "skipped_by_robots": false,
           "unavailable_reason": null,
-          "items": []
+          "items": [
+            {
+              "title": "やまゆり園事件　教訓を得られているか",
+              "link": "https://www.kanaloco.jp/special/discourse/editorial/article-1296049.html",
+              "published": "社説｜                                    神奈川新聞｜\n                              2026年8月10日(月)  09:20",
+              "paid": true
+            }
+          ]
         },
         {
           "name": "茨城新聞",
@@ -7146,7 +7200,14 @@
           "error": null,
           "skipped_by_robots": false,
           "unavailable_reason": null,
-          "items": []
+          "items": [
+            {
+              "title": "ＮＨＫ職員性被害　人権を守る意識はどこに",
+              "link": "https://www.niigata-nippo.co.jp/articles/-/885093",
+              "published": "2026/8/10 6:00",
+              "paid": false
+            }
+          ]
         },
         {
           "name": "北日本新聞",
@@ -7196,7 +7257,14 @@
           "error": null,
           "skipped_by_robots": false,
           "unavailable_reason": null,
-          "items": []
+          "items": [
+            {
+              "title": "美浜・シジミ漁獲量激減　地道な対策の継続不可欠",
+              "link": "https://www.fukuishimbun.co.jp/articles/-/2671816",
+              "published": "（2026年8月10日 午前7時30分）",
+              "paid": false
+            }
+          ]
         },
         {
           "name": "山梨日日新聞",
@@ -7261,7 +7329,7 @@
           "tier": "regional",
           "index_url": "https://wakayamashimpo.co.jp/",
           "error": null,
-          "skipped_by_robots": true,
+          "skipped_by_robots": false,
           "unavailable_reason": "社説だけをまとめた専用の一覧ページが見つからず、取得できていません。",
           "items": []
         },
@@ -7273,7 +7341,14 @@
           "error": null,
           "skipped_by_robots": false,
           "unavailable_reason": null,
-          "items": []
+          "items": [
+            {
+              "title": "増える「老老介護」　支え手への支えもさらに",
+              "link": "https://www.sanyonews.jp/article/1969917",
+              "published": "2026年8月10日 08:00",
+              "paid": false
+            }
+          ]
         },
         {
           "name": "山陰中央新報",
@@ -7283,7 +7358,14 @@
           "error": null,
           "skipped_by_robots": false,
           "unavailable_reason": null,
-          "items": []
+          "items": [
+            {
+              "title": "論説　ＩＣＣ解体論　不当な圧力に屈するな",
+              "link": "https://www.sanin-chuo.co.jp/articles/-/1058509",
+              "published": "2026/8/10 4:00",
+              "paid": true
+            }
+          ]
         },
         {
           "name": "徳島新聞",
@@ -7318,9 +7400,16 @@
           "tier": "regional",
           "index_url": "https://www.kochinews.co.jp/tag/detail/editorial",
           "error": null,
-          "skipped_by_robots": true,
+          "skipped_by_robots": false,
           "unavailable_reason": null,
-          "items": []
+          "items": [
+            {
+              "title": "【最低賃金】生活と経営の両立を",
+              "link": "https://www.kochinews.co.jp/article/detail/1033528",
+              "published": "2026.08.10 05:00",
+              "paid": false
+            }
+          ]
         },
         {
           "name": "日本海新聞",
