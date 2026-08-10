@@ -857,10 +857,60 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
     return best;
   }
 
+  // 検索欄が空のとき、代わりに直近7日分で不釣り合いに多く出ている語を出す
+  // （既定の表示日数DISPLAY_DAYSと単位を揃える）。「共起」ではなく「最近の
+  // 頻度」を見る点が一緒に出てくる語の提案とは異なるが、仕組み（全体との
+  // 出現率の比＝リフトで選び、maximalGramで断片を寄せる）は同じ。
+  function trendingWords() {
+    if (!gramIndex || !allDates.length) { return []; }
+    var cutoff = allDates[Math.min(6, allDates.length - 1)];
+    var hit = new Map();
+    var n = 0;
+    for (var i = 0; i < gramItems.length; i++) {
+      if (gramItems[i].d < cutoff) { continue; }
+      n++;
+      var set = gramsOf(gramItems[i].t, Object.create(null));
+      for (var g in set) { hit.set(g, (hit.get(g) || 0) + 1); }
+    }
+    if (n < 5) { return []; }
+    var min = Math.max(3, n * 0.05);
+    var total = gramItems.length;
+    var scored = [];
+    hit.forEach(function (c, g) {
+      if (c < min) { return; }
+      scored.push([c * ((c / n) / (gramIndex.get(g) / total)), g]);
+    });
+    scored.sort(function (a, b) { return b[0] - a[0]; });
+    var kept = [];
+    for (var j = 0; j < scored.length && kept.length < 6; j++) {
+      var g = maximalGram(scored[j][1], hit);
+      var dup = kept.some(function (k) { return g.indexOf(k) >= 0 || k.indexOf(g) >= 0; });
+      if (!dup) { kept.push(g); }
+    }
+    kept.sort(function (a, b) { return (hit.get(b) || 0) - (hit.get(a) || 0); });
+    return kept;
+  }
+
+  function renderChipButtons(label, words) {
+    suggestEl.innerHTML = '<span class="suggest-label">' + label + '</span>' +
+      words.map(function (w) {
+        return '<button type="button" class="suggest-chip" data-word="' + esc(w) + '">' + esc(w) + '</button>';
+      }).join('');
+    suggestEl.hidden = false;
+  }
+
   function renderSuggestions() {
     if (!suggestEl || !searchInput) { return; }
     var qs = searchTerms();
-    if (!qs.length) { suggestEl.innerHTML = ''; suggestEl.hidden = true; return; }
+    if (!qs.length) {
+      // 索引がまだ無い（データセーバー等で先読みを見送った、または構築中）
+      // 場合は何も出さない。検索していないのに「集計中…」を出すと、何を
+      // 待っているのか伝わらず不自然なため。
+      var trend = gramIndex ? trendingWords() : [];
+      if (!trend.length) { suggestEl.innerHTML = ''; suggestEl.hidden = true; return; }
+      renderChipButtons('最近よく出ている語（押すと検索に使う）:', trend);
+      return;
+    }
     if (!gramIndex) {
       suggestEl.innerHTML = gramBuilding
         ? '<span class="suggest-label">関連する語を集計中…</span>' : '';
@@ -874,11 +924,7 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
     // 件数は出さない。tier・会員限定・期間を通した後の件数を表示していたが、
     // その条件がぱっと見で分からず、何の数字か伝わらないという指摘があった。
     // 押せば要約バーの合計がすぐ更新されるので、気に入らなければ押し直せばよい。
-    suggestEl.innerHTML = '<span class="suggest-label">一緒に出てくる語（押すと検索に足す）:</span>' +
-      words.map(function (w) {
-        return '<button type="button" class="suggest-chip" data-word="' + esc(w) + '">' + esc(w) + '</button>';
-      }).join('');
-    suggestEl.hidden = false;
+    renderChipButtons('一緒に出てくる語（押すと検索に足す）:', words);
   }
 
   // 確定した検索語（打ってEnterした語・提案から押した語のどちらも同格）は
