@@ -746,6 +746,9 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
   var gramIndex = null;     // gram -> 全タイトル中の出現件数
   var gramItems = null;     // 索引を作った時点の記事（タイトルと絞り込みに使う属性）
   var gramBuilding = false;
+  var trendIndex = null;    // トレンド語専用の軽量索引（初回読み込み分のみ、後述）
+  var trendItems = null;
+  var trendBuilding = false;
 
   function gramsOf(text, out) {
     var m;
@@ -866,28 +869,57 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
     return best;
   }
 
+  // トレンド語専用の索引。共起語の索引（gramIndex）は全期間が揃うまで作らない
+  // （Issue #57で全期間検索が要件のため）が、トレンド語は「直近7日分で目立つ語」
+  // でしかなく、全期間を母数にしてもほぼ結果が変わらないことを実データで確認
+  // 済み（60日・約1900件を母数にした場合と全期間・約19600件を母数にした場合で
+  // 上位語がほぼ一致）。そのため専用の軽量索引を、初回読み込み分（最初の
+  // MONTHS_PER_PAGEヶ月）が揃った時点で即座に作り、以後は全期間の読み込みが
+  // 進んでも作り直さない —— 表示を待たせないことが目的なので、作り直しで
+  // 語の並びが後から変わる方が体験として悪いと判断した。
+  function buildTrendIndex() {
+    if (trendIndex || trendBuilding) { return; }
+    trendBuilding = true;
+    trendItems = [];
+    resultsEl.querySelectorAll('section.dategroup').forEach(function (sec) {
+      var date = sec.id.slice(2);
+      sec.querySelectorAll('li.article-item').forEach(function (li) {
+        trendItems.push({ t: li.getAttribute('data-title'), d: date });
+      });
+    });
+    var index = new Map();
+    for (var i = 0; i < trendItems.length; i++) {
+      var set = gramsOf(trendItems[i].t, Object.create(null));
+      for (var g in set) { index.set(g, (index.get(g) || 0) + 1); }
+    }
+    trendIndex = index;
+    trendBuilding = false;
+    renderSuggestions();
+  }
+
   // 検索欄が空のとき、代わりに直近7日分で不釣り合いに多く出ている語を出す
   // （既定の表示日数DISPLAY_DAYSと単位を揃える）。「共起」ではなく「最近の
   // 頻度」を見る点が一緒に出てくる語の提案とは異なるが、仕組み（全体との
-  // 出現率の比＝リフトで選び、maximalGramで断片を寄せる）は同じ。
+  // 出現率の比＝リフトで選び、maximalGramで断片を寄せる）は同じ。母数は
+  // gramItems/gramIndexではなくtrendItems/trendIndex（上のbuildTrendIndex参照）。
   function trendingWords() {
-    if (!gramIndex || !allDates.length) { return []; }
+    if (!trendIndex || !allDates.length) { return []; }
     var cutoff = allDates[Math.min(6, allDates.length - 1)];
     var hit = new Map();
     var n = 0;
-    for (var i = 0; i < gramItems.length; i++) {
-      if (gramItems[i].d < cutoff) { continue; }
+    for (var i = 0; i < trendItems.length; i++) {
+      if (trendItems[i].d < cutoff) { continue; }
       n++;
-      var set = gramsOf(gramItems[i].t, Object.create(null));
+      var set = gramsOf(trendItems[i].t, Object.create(null));
       for (var g in set) { hit.set(g, (hit.get(g) || 0) + 1); }
     }
     if (n < 5) { return []; }
     var min = Math.max(3, n * 0.05);
-    var total = gramItems.length;
+    var total = trendItems.length;
     var scored = [];
     hit.forEach(function (c, g) {
       if (c < min) { return; }
-      scored.push([c * ((c / n) / (gramIndex.get(g) / total)), g]);
+      scored.push([c * ((c / n) / (trendIndex.get(g) / total)), g]);
     });
     scored.sort(function (a, b) { return b[0] - a[0]; });
     var kept = [];
@@ -912,10 +944,9 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
     if (!suggestEl || !searchInput) { return; }
     var qs = searchTerms();
     if (!qs.length) {
-      // 索引がまだ無い（データセーバー等で先読みを見送った、または構築中）
-      // 場合は何も出さない。検索していないのに「集計中…」を出すと、何を
-      // 待っているのか伝わらず不自然なため。
-      var trend = gramIndex ? trendingWords() : [];
+      // 索引がまだ無い（初回読み込み中）場合は何も出さない。検索していない
+      // のに「集計中…」を出すと、何を待っているのか伝わらず不自然なため。
+      var trend = trendIndex ? trendingWords() : [];
       if (!trend.length) { suggestEl.innerHTML = ''; suggestEl.hidden = true; return; }
       renderChipButtons('最近よく出ている語（押すと検索に使う）:', trend);
       return;
@@ -1109,7 +1140,7 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
     allDates = (data.dates || []).slice().sort().reverse();
     allMonths = (data.months || []).slice().sort().reverse();
     populateYearOptions();
-    loadNextPage(prefetchAllMonths);
+    loadNextPage(function () { buildTrendIndex(); prefetchAllMonths(); });
   }).catch(function () {
     statusEl.textContent = 'アーカイブの読み込みに失敗しました。時間をおいて再度お試しください。';
   });
