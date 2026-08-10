@@ -1291,8 +1291,8 @@ def render_archive_html() -> str:
       <div class="field-row">
         <span class="field-caption">タイトルで検索</span>
         <div class="search-box" id="search-box">
-          <input type="text" class="archive-search" id="archive-search" placeholder="例: 憲法（Enterで複数語を追加）" autocomplete="off" />
           <span class="term-chips" id="term-chips"></span>
+          <input type="text" class="archive-search" id="archive-search" placeholder="例: 憲法（Enterで複数語を追加）" autocomplete="off" />
         </div>
         <div class="suggest-row" id="archive-suggest" hidden></div>
       </div>
