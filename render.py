@@ -545,8 +545,10 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
     var chipsHtml = [];
     var allTerms = searchTerms();
     if (allTerms.length) {
-      // 確定した語（チップ）＋入力中の語はORなので「または」でつなぐ。＋（AND）と混同させない。
-      chipsHtml.push('<span class="filter-chip">タイトル「' + esc(allTerms.join('」または「')) + '」</span>');
+      // 確定した語（チップ）＋入力中の語はORだが、表示範囲（tier）のOR表示と
+      // 同じく「・」でつなぐ。「または「」」を語ごとに繰り返すと語数が増える
+      // たびに長くなりすぎるため。
+      chipsHtml.push('<span class="filter-chip">タイトル「' + esc(allTerms.join('・')) + '」</span>');
     }
     if (periodYear) {
       chipsHtml.push('<span class="filter-chip">' + periodLabel() + '</span>');
@@ -1001,10 +1003,17 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
   }
 
   if (termChipsEl) {
+    // 提案チップと同じ理由（mousedownで入力欄がblurすると、打ちかけの語の
+    // 確定処理がチップを再描画し、押している最中の×ボタン自体が消えて
+    // clickが届かなくなる）で、×ボタンのmousedownでもフォーカスを外させない。
+    termChipsEl.addEventListener('mousedown', function (ev) {
+      if (ev.target.classList.contains('term-remove')) { ev.preventDefault(); }
+    });
     termChipsEl.addEventListener('click', function (ev) {
       if (!ev.target.classList.contains('term-remove')) { return; }
       removeTerm(ev.target.getAttribute('data-word'));
-      searchInput.focus();
+      // 入力欄にフォーカスしない。スマホでは外すたびにソフトキーボードが
+      // 開いてしまい鬱陶しいため。
     });
   }
 
