@@ -1054,13 +1054,12 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
 
   if (suggestEl) {
     suggestEl.addEventListener('click', function (ev) {
-      // 件数のspanを押した場合もあるので、チップ本体まで辿る。語はtextContentに
-      // 件数が混ざるためdata-wordから取る。
       var chip = ev.target.closest ? ev.target.closest('.suggest-chip') : null;
       if (!chip) { return; }
       addTerm(chip.getAttribute('data-word'));
       afterTermsChanged();
-      searchInput.focus();
+      // 入力欄にフォーカスしない。スマホでは選ぶたびにソフトキーボードが
+      // 開いてしまい鬱陶しいため、あえてチップ側にフォーカスを残す。
     });
   }
 
