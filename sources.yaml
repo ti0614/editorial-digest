@@ -37,6 +37,15 @@
 #                 個別ページを開くと必ず「ニュースプラン」会員登録が必要な
 #                 サイトで使用。
 #   verified    : false の場合、実機未検証（要確認）であることを示す
+#
+# unverified_placeholder: 専用一覧ページが見つからない・アクセス自体が
+#   ブロックされている等、実機確認できていない紙が共通して使う仮のセレクタ
+#   （動作未検証のプレースホルダー。実サイトに合わせた調整は行っていない）。
+_unverified_placeholder: &unverified_placeholder
+  item_selector: "li.article"
+  title_selector: "span.title"
+  link_selector: "a"
+  date_selector: "span.date"
 
 sources:
   # ---- 全国紙（主要5紙） ----
@@ -255,10 +264,7 @@ sources:
     category: 社説
     tier: regional
     index_url: https://www.iwate-np.co.jp/
-    item_selector: "li.article"
-    title_selector: "span.title"
-    link_selector: "a"
-    date_selector: "span.date"
+    <<: *unverified_placeholder
     verified: false
     note: "岩手県。社説・論説の専用一覧ページを発見できなかった（要調査）。ホームページ内にも社説へのリンクが見当たらず、/article/category/{editorial,syasetsu,ronsetsu,column,opinion} 等の候補URLもすべて404。"
 
@@ -304,10 +310,7 @@ sources:
     category: 社説
     tier: regional
     index_url: https://www.jomo-news.co.jp/
-    item_selector: "li.article"
-    title_selector: "span.title"
-    link_selector: "a"
-    date_selector: "span.date"
+    <<: *unverified_placeholder
     verified: false
     note: "群馬県。社説の専用一覧ページを発見できなかった（要調査）。ホームページ内に社説・論説へのリンクが見当たらず、候補URL（/category/editorial 等）もすべて404。"
 
@@ -315,10 +318,7 @@ sources:
     category: 社説
     tier: regional
     index_url: https://www.saitama-np.co.jp/
-    item_selector: "li.article"
-    title_selector: "span.title"
-    link_selector: "a"
-    date_selector: "span.date"
+    <<: *unverified_placeholder
     verified: false
     note: "埼玉県。ホームページ内に「社説」「論説」の文言が一切見当たらず、専用ページを特定できなかった（2026-07-22再調査でも変わらず、対象ページ自体が見つからない）。"
 
@@ -389,10 +389,7 @@ sources:
     category: 論説
     tier: regional
     index_url: https://www.sannichi.co.jp/news/ronsetsu
-    item_selector: "li.article"
-    title_selector: "span.title"
-    link_selector: "a"
-    date_selector: "span.date"
+    <<: *unverified_placeholder
     verified: false
     note: "山梨県。AWS WAF（x-amzn-waf-action: challenge）によりbotアクセスがブロックされ、通常のHTTPリクエストではページを取得できない（要JS実行環境。2026-07-22再確認でも変わらずブロックされた）。ブラウザ自動化なしでの回避は行っていない。"
 
@@ -400,10 +397,7 @@ sources:
     category: 社説
     tier: regional
     index_url: https://www.shinmai.co.jp/top/opinion
-    item_selector: "li.article"
-    title_selector: "span.title"
-    link_selector: "a"
-    date_selector: "span.date"
+    <<: *unverified_placeholder
     verified: false
     note: "長野県。ページ内に「オピニオン」一覧の入り口はあるものの、記事データがNext.jsのハイドレーション用JSON（__APOLLO_STATE__）に埋め込まれており、静的HTML上にCSSセレクタで拾えるタイトル・リンクが存在しない（JSON解析による別実装が技術的には可能）。"
 
@@ -415,10 +409,7 @@ sources:
     category: 社説
     tier: regional
     index_url: https://www.at-s.com/
-    item_selector: "li.article"
-    title_selector: "span.title"
-    link_selector: "a"
-    date_selector: "span.date"
+    <<: *unverified_placeholder
     verified: false
     note: "静岡県。デジタル版「アットエス」。ボット判定ページ（Human Verification、HTTP 405）が返り、通常のHTTPリクエストではトップページすら取得できない（要JS実行環境。2026-07-22再確認でも変わらずブロックされた）。ブラウザ自動化なしでの回避は行っていない。"
 
@@ -441,10 +432,7 @@ sources:
     category: 社説
     tier: regional
     index_url: https://www.nara-np.co.jp/news/col.html
-    item_selector: "li.article"
-    title_selector: "span.title"
-    link_selector: "a"
-    date_selector: "span.date"
+    <<: *unverified_placeholder
     verified: false
     note: "奈良県。「コラム・その他」という雑多なカテゴリはあるが、社説に相当する専用の論説コラムが見当たらない（そもそも社説形式を持たない可能性がある）。"
 
@@ -452,10 +440,7 @@ sources:
     category: 社説
     tier: regional
     index_url: https://wakayamashimpo.co.jp/
-    item_selector: "li.article"
-    title_selector: "span.title"
-    link_selector: "a"
-    date_selector: "span.date"
+    <<: *unverified_placeholder
     verified: false
     note: "和歌山県（北部）。ホームページ内・Web検索のいずれでも社説・コラムの専用一覧ページを発見できなかった（2026-07-22再調査でも変わらず。カテゴリは「がんばってます」「特集」「社会」等の連載・ニュース分類のみで社説・論説に相当するものが無い）。"
 
@@ -524,10 +509,7 @@ sources:
     category: 論説
     tier: regional
     index_url: "https://www.nnn.co.jp/list/%E3%82%B3%E3%83%A9%E3%83%A0%E3%83%BB%E8%AB%96%E8%AA%AC"
-    item_selector: "li.article"
-    title_selector: "span.title"
-    link_selector: "a"
-    date_selector: "span.date"
+    <<: *unverified_placeholder
     verified: false
     note: "鳥取県。このURLは「コラム・論説」混在ページで、短文コラム（海潮音・山陰抄等）と論説記事が同居しているが、他紙のような「社説」等の一貫した接頭辞が無く、タイトル文字列だけでは論説記事のみを安全に判別できなかった。なお大阪日日新聞の後継事業（週刊版）もこの日本海新聞グループが運営している。"
 
@@ -535,10 +517,7 @@ sources:
     category: 社説
     tier: regional
     index_url: https://www.shikoku-np.co.jp/
-    item_selector: "li.article"
-    title_selector: "span.title"
-    link_selector: "a"
-    date_selector: "span.date"
+    <<: *unverified_placeholder
     verified: false
     note: "香川県。ホームページ内に社説・論説へのリンクが見当たらず、候補URLもすべてトップページと同一の骨組みだけを返す実質404で、専用ページを特定できなかった。"
 
@@ -620,10 +599,7 @@ sources:
     category: 社説
     tier: regional
     index_url: https://www.saga-s.co.jp/feature/opinion
-    item_selector: "li.article"
-    title_selector: "span.title"
-    link_selector: "a"
-    date_selector: "span.date"
+    <<: *unverified_placeholder
     verified: false
     note: "佐賀県。このURLは「オピニオン」混在ページで、記者コラム（記者日記等）や連載（有明抄）と社説相当の記事が同居しているが、他紙のような一貫した接頭辞が無く、タイトル文字列だけでは安全に判別できなかった。"
 
@@ -631,9 +607,6 @@ sources:
     category: 時評
     tier: regional
     index_url: https://www.nagasaki-np.co.jp/feature/nagasaki-jihyo/
-    item_selector: "li.article"
-    title_selector: "span.title"
-    link_selector: "a"
-    date_selector: "span.date"
+    <<: *unverified_placeholder
     verified: false
     note: "長崎県。論説コラムの呼称は「ながさき時評」。記事一覧がJavaScriptのAJAX呼び出し（getKiji、/api/nor/get_nor_data.php）で取得・描画される方式のため、静的HTMLには記事データが含まれておらずCSSセレクタでは取得できない（APIを直接叩けば技術的には取得可能なことを2026-07-22に確認したが、実装は見送った）。"
