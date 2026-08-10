@@ -363,7 +363,7 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
   var loadedMonths = 0;     // allMonthsの先頭から何ヶ月ぶん取得したか
   var shownDays = DISPLAY_DAYS;  // 新しい方から何日分を表示するか（取得済みの日数とは別）
   var fetchedMonths = {};   // 期間指定で先に取った月を二重取得しないための記録
-  var orTerms = [];         // 提案チップで足した語（入力語とORで結ぶ）
+  var terms = [];           // 確定した検索語（すべて対等にORで結ぶ）
   var periodYear = '';      // 期間絞り込みの年（''なら未指定）
   var periodMonth = '';     // 同・月（年が未指定なら無効）
   var searchAllActive = false;
@@ -472,10 +472,15 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
   // どちらが旬の話題かを機械が判断できない以上、無関係な記事（別の国の首相等）が
   // 混ざるとしても候補を広く出す —— 静かに取りこぼす方が、過剰に含めるより悪い
   // という日付解釈と同じ方針。何を足したかは要約バーに出して取り消せるようにする。
+  function pendingTerm() {
+    return searchInput ? searchInput.value.trim().toLowerCase() : '';
+  }
+
+  // 確定した語＋入力中の語。入力中の語も即座に効かせる（Enterを押すまで
+  // 結果が変わらないと、この画面の逐次絞り込みの操作感から外れるため）。
   function searchTerms() {
-    if (!searchInput) { return []; }
-    var q = searchInput.value.trim().toLowerCase();
-    return q ? [q].concat(orTerms) : [];
+    var q = pendingTerm();
+    return q ? terms.concat([q]) : terms.slice();
   }
 
   // 検索語以外の条件（tier・会員限定）を通るか。提案チップの件数も同じ条件で
@@ -532,11 +537,10 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
     // 地方紙のみと同様に選択中のtierは常にそのまま示す（0個選択時は「選択なし」）。
     if (!filtersEl) return;
     var chipsHtml = [];
-    var q = searchInput ? searchInput.value.trim() : '';
-    if (q) {
-      // 提案チップで足した語はORなので「または」でつなぐ。＋（AND）と混同させない。
-      var label = orTerms.length ? [q].concat(orTerms).join('」または「') : q;
-      chipsHtml.push('<span class="filter-chip">タイトル「' + esc(label) + '」</span>');
+    var allTerms = searchTerms();
+    if (allTerms.length) {
+      // 確定した語（チップ）＋入力中の語はORなので「または」でつなぐ。＋（AND）と混同させない。
+      chipsHtml.push('<span class="filter-chip">タイトル「' + esc(allTerms.join('」または「')) + '」</span>');
     }
     if (periodYear) {
       chipsHtml.push('<span class="filter-chip">' + periodLabel() + '</span>');
@@ -568,7 +572,7 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
       statusEl.textContent = periodLabel() + 'のみ表示中';
       return;
     }
-    if (searchInput && searchInput.value.trim()) {
+    if (searchTerms().length) {
       // 検索は読み込み済みの記事にしか掛からないため、全期間が揃ったかどうかを示す。
       statusEl.textContent = loadedMonths >= allMonths.length
         ? '全期間（' + allDates.length + '日分）から検索中'
@@ -601,7 +605,10 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
     //   3. 既定は新しい方から DISPLAY_DAYS 日分の窓
     var prefix = periodPrefix();
     if (prefix) { return dateStr.indexOf(prefix) === 0; }
-    if (searchInput && searchInput.value.trim()) { return true; }
+    // 確定済みチップ（terms）だけの状態でも「検索中」に含める。入力欄の文字
+    // だけで判定すると、Enterで確定して入力欄を空にした途端に「検索していない」
+    // 扱いになり、既定の直近7日分の窓が復活して結果が消えてしまう。
+    if (searchTerms().length) { return true; }
     var limit = allDates.length ? allDates[shownDayCount() - 1] : null;
     return !limit || dateStr >= limit;
   }
@@ -788,16 +795,31 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
     })();
   }
 
-  function suggestionsFor(q) {
+  // qsは現在有効な検索語すべて（確定済みチップ＋入力中の語）。どれか1つでも
+  // 含むタイトルをヒット集合とし（OR）、その中で全体に比べて不釣り合いに
+  // 多く同居している語を選ぶ。選抜はリフト（出現率の比）で行う —— 単純な
+  // 出現数で選ぶと「表明」「責任」「政治」のようなどの社説にも出る一般語が
+  // 上位に来てしまうことを実データで確認済み。選んだ後の並びだけ出現数の
+  // 多い順にする（数字を見て降順になっている方が直感的なため）。
+  function suggestionsFor(qs) {
+    if (!qs.length) { return []; }
     var hit = new Map();
     var n = 0;
     for (var i = 0; i < gramItems.length; i++) {
       var t = gramItems[i].t;
-      if (t.indexOf(q) < 0) { continue; }
+      var hitAny = false;
+      var masked = t;
+      for (var k = 0; k < qs.length; k++) {
+        if (t.indexOf(qs[k]) >= 0) {
+          hitAny = true;
+          // 検索語の部分をマスクしてから切り出す。そうしないと隣接する文字を
+          // 巻き込んだ断片（「高市」+「政権」→「市政権」）が上位に来る。
+          masked = masked.split(qs[k]).join('　');
+        }
+      }
+      if (!hitAny) { continue; }
       n++;
-      // 検索語の部分をマスクしてから切り出す。そうしないと隣接する文字を
-      // 巻き込んだ断片（「高市」+「政権」→「市政権」）が上位に来る。
-      var set = gramsOf(t.split(q).join('　'), Object.create(null));
+      var set = gramsOf(masked, Object.create(null));
       for (var g in set) { hit.set(g, (hit.get(g) || 0) + 1); }
     }
     if (n < 5) { return []; }
@@ -805,7 +827,9 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
     var total = gramItems.length;
     var scored = [];
     hit.forEach(function (c, g) {
-      if (c < min || g.indexOf(q) >= 0 || q.indexOf(g) >= 0) { return; }
+      if (c < min) { return; }
+      var overlaps = qs.some(function (q) { return g.indexOf(q) >= 0 || q.indexOf(g) >= 0; });
+      if (overlaps) { return; }
       // ヒット集合内での出現率が全体での出現率より高いほど上に来る。
       scored.push([c * ((c / n) / (gramIndex.get(g) / total)), g]);
     });
@@ -816,6 +840,8 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
       var dup = kept.some(function (k) { return g.indexOf(k) >= 0 || k.indexOf(g) >= 0; });
       if (!dup) { kept.push(g); }
     }
+    // 選抜はリフト順のまま、表示だけ出現数の多い順に並べ替える。
+    kept.sort(function (a, b) { return (hit.get(b) || 0) - (hit.get(a) || 0); });
     return kept;
   }
 
@@ -836,25 +862,22 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
 
   function renderSuggestions() {
     if (!suggestEl || !searchInput) { return; }
-    var q = searchInput.value.trim().toLowerCase();
-    if (!q) { suggestEl.innerHTML = ''; suggestEl.hidden = true; return; }
+    var qs = searchTerms();
+    if (!qs.length) { suggestEl.innerHTML = ''; suggestEl.hidden = true; return; }
     if (!gramIndex) {
       suggestEl.innerHTML = gramBuilding
         ? '<span class="suggest-label">関連する語を集計中…</span>' : '';
       suggestEl.hidden = !gramBuilding;
       return;
     }
-    // 候補は入力語だけから求める。足した語で作り直すとチップの並びが押すたびに
-    // 変わり、続けて選べなくなるため。
-    var words = suggestionsFor(q);
-    orTerms.forEach(function (t) { if (words.indexOf(t) < 0) { words.push(t); } });
+    // 確定済みの語は自分のチップ（term-chip）を既に持っているので、提案の列には
+    // 出さない。クリックすると確定側に移ってこの列から消える、という動きになる。
+    var words = suggestionsFor(qs);
     if (!words.length) { suggestEl.innerHTML = ''; suggestEl.hidden = true; return; }
     var counts = countInScope(words);
     suggestEl.innerHTML = '<span class="suggest-label">一緒に出てくる語（押すと検索に足す）:</span>' +
       words.map(function (w, i) {
-        var on = orTerms.indexOf(w) >= 0;
-        return '<button type="button" class="suggest-chip" data-word="' + esc(w) +
-          '" aria-pressed="' + (on ? 'true' : 'false') + '">' +
+        return '<button type="button" class="suggest-chip" data-word="' + esc(w) + '">' +
           esc(w) + '<span class="suggest-count">' + counts[i] + '</span></button>';
       }).join('');
     suggestEl.hidden = false;
@@ -878,30 +901,43 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
     return counts;
   }
 
-  // 足した語は入力欄の中にチップとして並べる。入力欄には打った語しか出ず、
-  // 足した語が要約バーにしか無いと「『高市』で検索しているのに『首相』の記事が
-  // 混ざる」ように見えるため、同じ場所に置いて対応関係を分かるようにする。
+  // 確定した検索語（打ってEnterした語・提案から押した語のどちらも同格）は
+  // 入力欄の中にチップとして並べる。トークン入力の定番どおりチップを先、
+  // 次に打ちかけの語を続ける並びにしている。
   function renderTermChips() {
     if (!termChipsEl) { return; }
-    termChipsEl.innerHTML = orTerms.map(function (w) {
+    termChipsEl.innerHTML = terms.map(function (w) {
       return '<span class="term-chip">' + esc(w) +
         '<button type="button" class="term-remove" data-word="' + esc(w) +
         '" aria-label="' + esc(w) + 'を外す">×</button></span>';
     }).join('');
   }
 
-  function toggleTerm(w) {
-    var at = orTerms.indexOf(w);
-    if (at >= 0) { orTerms.splice(at, 1); } else { orTerms.push(w); }
+  function addTerm(w) {
+    w = w.trim().toLowerCase();
+    if (w && terms.indexOf(w) < 0) { terms.push(w); }
+  }
+
+  function removeTerm(w) {
+    var at = terms.indexOf(w);
+    if (at >= 0) { terms.splice(at, 1); }
+    afterTermsChanged();
+  }
+
+  function afterTermsChanged() {
     renderTermChips();
     updateCounts();
     updateStatus();
+    if (searchTerms().length) {
+      ensureAllDatesLoaded();
+      buildGramIndex();
+    }
   }
 
   if (termChipsEl) {
     termChipsEl.addEventListener('click', function (ev) {
       if (!ev.target.classList.contains('term-remove')) { return; }
-      toggleTerm(ev.target.getAttribute('data-word'));
+      removeTerm(ev.target.getAttribute('data-word'));
       searchInput.focus();
     });
   }
@@ -919,10 +955,19 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
 
   if (searchInput) {
     searchInput.addEventListener('keydown', function (ev) {
+      if (ev.key === 'Enter') {
+        // 打った語自体もチップとして確定する。入力は空に戻す。
+        ev.preventDefault();
+        addTerm(searchInput.value);
+        searchInput.value = '';
+        afterTermsChanged();
+        return;
+      }
       // 入力が空のままBackspaceを押したら直前のチップを外す。トークン入力では
       // 期待される挙動で、無いと消し方が分からなくなる。
-      if (ev.key !== 'Backspace' || searchInput.value !== '' || !orTerms.length) { return; }
-      toggleTerm(orTerms[orTerms.length - 1]);
+      if (ev.key === 'Backspace' && searchInput.value === '' && terms.length) {
+        removeTerm(terms[terms.length - 1]);
+      }
     });
   }
 
@@ -932,7 +977,9 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
       // 件数が混ざるためdata-wordから取る。
       var chip = ev.target.closest ? ev.target.closest('.suggest-chip') : null;
       if (!chip) { return; }
-      toggleTerm(chip.getAttribute('data-word'));
+      addTerm(chip.getAttribute('data-word'));
+      afterTermsChanged();
+      searchInput.focus();
     });
   }
 
@@ -943,9 +990,9 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
   if (searchInput) {
     var searchTimer = null;
     searchInput.addEventListener('input', function () {
-      // 入力語を変えたら、前の語に対して足した候補は意味を失うので捨てる。
-      orTerms = [];
-      renderTermChips();
+      // 打ちかけの語も即座に効かせる（searchTerms()が拾う）。確定済みチップは
+      // 打ち直しても消さない —— 打った語自体が対等なチップになった以上、
+      // 「新しい語を打ち始めたら前のチップが消える」動きは驚きになるため。
       updateCounts();
       updateStatus();
       if (searchTimer) { clearTimeout(searchTimer); }
@@ -1249,7 +1296,7 @@ def render_archive_html() -> str:
       <div class="field-row">
         <span class="field-caption">タイトルで検索</span>
         <div class="search-box" id="search-box">
-          <input type="text" class="archive-search" id="archive-search" placeholder="例: 憲法、選挙" autocomplete="off" />
+          <input type="text" class="archive-search" id="archive-search" placeholder="例: 憲法（Enterで複数語を追加）" autocomplete="off" />
           <span class="term-chips" id="term-chips"></span>
         </div>
         <div class="suggest-row" id="archive-suggest" hidden></div>
