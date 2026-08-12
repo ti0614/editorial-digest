@@ -39,7 +39,6 @@ OUTPUT_DIR = Path(__file__).parent / "output"
 class SourceResult:
     name: str
     category: str
-    tier: str
     index_url: str
     items: list[Item] = field(default_factory=list)
     error: str | None = None
@@ -57,13 +56,12 @@ def load_sources(only: list[str] | None = None) -> list[dict]:
 
 
 def source_meta(source: dict) -> dict:
-    """sources.yamlの1エントリから、SourceResultに常に必要な5フィールドを
+    """sources.yamlの1エントリから、SourceResultに常に必要な4フィールドを
     取り出す。main.py・backfill_archive.pyの両方から使う（後者は`main`から
     import）。"""
     return dict(
         name=source["name"],
         category=source.get("category", "社説"),
-        tier=source.get("tier", "regional"),
         index_url=source["index_url"],
         unavailable_reason=source.get("unavailable_reason"),
     )
@@ -172,7 +170,6 @@ def snapshot_payload(run_date: date, results: list[SourceResult]) -> dict:
             {
                 "name": r.name,
                 "category": r.category,
-                "tier": r.tier,
                 "index_url": r.index_url,
                 "error": r.error,
                 "skipped_by_robots": r.skipped_by_robots,
