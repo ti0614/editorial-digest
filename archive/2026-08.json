@@ -1145,7 +1145,6 @@
         {
           "name": "朝日新聞",
           "category": "社説",
-          "tier": "national",
           "index_url": "https://www.asahi.com/rensai/list.html?id=16",
           "error": null,
           "skipped_by_robots": false,
@@ -1155,7 +1154,6 @@
         {
           "name": "毎日新聞",
           "category": "社説",
-          "tier": "national",
           "index_url": "https://mainichi.jp/editorial/",
           "error": null,
           "skipped_by_robots": false,
@@ -1165,17 +1163,15 @@
         {
           "name": "読売新聞",
           "category": "社説",
-          "tier": "national",
           "index_url": "https://www.yomiuri.co.jp/editorial/",
           "error": null,
-          "skipped_by_robots": true,
+          "skipped_by_robots": false,
           "unavailable_reason": null,
           "items": []
         },
         {
           "name": "日本経済新聞",
           "category": "社説",
-          "tier": "national",
           "index_url": "https://www.nikkei.com/opinion/editorial/",
           "error": null,
           "skipped_by_robots": false,
@@ -1185,7 +1181,6 @@
         {
           "name": "産経新聞",
           "category": "主張",
-          "tier": "national",
           "index_url": "https://www.sankei.com/column/editorial/",
           "error": null,
           "skipped_by_robots": false,
