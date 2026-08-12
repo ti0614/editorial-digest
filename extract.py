@@ -50,7 +50,6 @@ class Item:
     title: str
     link: str
     published: str | None
-    paid: bool = False
 
 
 def extract_items(
@@ -92,11 +91,7 @@ def extract_items(
             # （例: 北國新聞は同じ社説が別記事IDで2件並ぶ）。先勝ちで1件に絞る。
             continue
         seen_titles.add(title)
-        if source.get("always_paid"):
-            paid = True
-        else:
-            paid = bool(source.get("paid_selector")) and node.select_one(source["paid_selector"]) is not None
-        items.append(Item(title=title, link=link, published=published, paid=paid))
+        items.append(Item(title=title, link=link, published=published))
     return items
 
 

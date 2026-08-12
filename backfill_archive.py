@@ -246,7 +246,7 @@ def _fetch_json_items_with_pagination(
                             published = f"{dt.year}/{dt.month}/{dt.day} {dt.hour}:{dt.minute:02d}"
                     if not within_window(published, reference_date, window_days=window_days):
                         continue
-                    page_items.append(Item(title=title, link=link, published=published, paid=False))
+                    page_items.append(Item(title=title, link=link, published=published))
                 if not elements:
                     break
             new_items = [it for it in page_items if it.title not in seen_titles]
@@ -282,7 +282,7 @@ def _split_by_date(results: list[SourceResult], reference_date: date) -> dict[da
     for d in all_dates:
         by_date[d] = [
             SourceResult(
-                name=r.name, category=r.category, tier=r.tier, index_url=r.index_url,
+                name=r.name, category=r.category, index_url=r.index_url,
                 items=buckets_by_source[r.name].get(d, []),
                 error=r.error, skipped_by_robots=r.skipped_by_robots,
                 unavailable_reason=r.unavailable_reason,
