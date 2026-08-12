@@ -5,9 +5,8 @@
 ページ骨格（head/masthead/footer/script）を共有し、見出し・概要・ナビ・本文・
 フッター文言など異なる部分だけを差し替える。
 
-全国紙（tier: national）を既定表示、ブロック紙（tier: block）・地方紙
-（tier: regional）はページ内のチップボタンでそれぞれ独立に表示切り替え
-できる構成。外部CDN・Webフォントは使わず自己完結。
+対象は全国紙5紙のみで恒久固定（tier切替・会員限定トグルは廃止済み）。
+フラットな記事一覧を表示するだけの構成。外部CDN・Webフォントは使わず自己完結。
 """
 from __future__ import annotations
 
@@ -19,8 +18,6 @@ from datetime import date
 from pubdate import parse_published_date, parse_published_time
 
 WEEKDAY_JP = ["月", "火", "水", "木", "金", "土", "日"]
-TIERS = ["national", "block", "regional"]
-TIER_LABEL = {"national": "全国紙", "block": "ブロック紙", "regional": "地方紙"}
 CONTACT_EMAIL = "t.iizuka188@gmail.com"
 SITE_URL = "https://ti0614.github.io/editorial-digest/"
 
@@ -72,36 +69,6 @@ h1 {
 .summary strong { color: var(--ink); font-variant-numeric: tabular-nums; }
 .disclaimer { font-size:0.82rem; color:var(--ink-faint); margin:0 0 1rem; line-height:1.6; }
 
-.scope-toggle {
-  background: var(--surface); border: 1px solid var(--rule); border-radius: 10px;
-  padding: 0.7rem 0.9rem;
-}
-.scope-toggle .scope-label {
-  display: block; font-size: 0.72rem; letter-spacing: 0.06em; color: var(--ink-faint);
-  margin: 0 0 0.55rem;
-}
-.tier-chips { display: flex; gap: 0.5rem; flex-wrap: wrap; }
-button.tier-chip {
-  flex: 1 1 auto; font: inherit; font-size: 0.82rem; font-weight: 600;
-  padding: 0.5rem 0.7rem; border-radius: 8px; border: 1px solid var(--accent);
-  background: transparent; color: var(--accent); cursor: pointer;
-  white-space: nowrap; display: inline-flex; align-items: baseline; justify-content: center; gap: 0.35rem;
-}
-button.tier-chip:hover { background: var(--accent-soft); }
-button.tier-chip[aria-pressed="true"] { background: var(--accent); color: var(--surface); }
-button.tier-chip:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
-
-button.paid-toggle {
-  width: 100%; font: inherit; font-size: 0.82rem; font-weight: 600;
-  padding: 0.55rem 0.7rem; border-radius: 8px; border: 1px solid var(--rule);
-  background: transparent; color: var(--ink-muted); cursor: pointer;
-}
-.scope-toggle button.paid-toggle { margin-top: 0.6rem; }
-button.paid-toggle:hover { background: var(--warn-soft); }
-button.paid-toggle[aria-pressed="true"] { background: var(--warn-soft); color: var(--warn); border-color: var(--warn); }
-button.paid-toggle:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
-body.hide-paid li.paid-item { display: none; }
-
 main { padding: 0 1.25rem; }
 
 section.dategroup { padding: 1.6rem 0; border-bottom: 1px solid var(--rule); scroll-margin-top: 3.2rem; }
@@ -119,9 +86,6 @@ section.dategroup:last-child { border-bottom: none; }
 ul.article-list { list-style:none; margin:0.6rem 0 0; padding:0; }
 ul.article-list li { border-top:1px solid var(--rule); }
 ul.article-list li:first-child { border-top:none; }
-body:not(.show-national) li.tier-national { display: none; }
-body:not(.show-block) li.tier-block { display: none; }
-body:not(.show-regional) li.tier-regional { display: none; }
 
 a.article {
   display:flex; justify-content:space-between; align-items:flex-start; gap:0.9rem;
@@ -134,14 +98,7 @@ a.article:focus-visible { outline:2px solid var(--accent); outline-offset:2px; b
   font-size:0.72rem; color:var(--accent); background:var(--accent-soft);
   border-radius:4px; padding:0.05rem 0.4rem; width:fit-content; letter-spacing:0.02em;
 }
-.src-tag-block { color: var(--accent); background: transparent; border: 1px solid var(--accent); }
-.src-tag-regional { color: var(--ink-muted); background: transparent; border: 1px solid var(--rule); }
 .article-title { font-size:0.98rem; line-height:1.55; }
-.paid-badge {
-  font-size:0.68rem; color: var(--warn); border: 1px solid var(--warn); border-radius: 4px;
-  padding: 0 0.3rem; margin-left: 0.4rem; letter-spacing: 0.02em; white-space: nowrap;
-  vertical-align: 0.1em;
-}
 a.article time {
   flex:none; font-size:0.76rem; color:var(--ink-faint); font-variant-numeric: tabular-nums;
   white-space:nowrap; padding-top:0.2rem;
@@ -157,7 +114,7 @@ a.article time {
 }
 .field-row { margin: 0 0 0.6rem; }
 .field-row:last-child { margin-bottom: 0; }
-/* 期間・tier・会員限定は既定で折りたたむ（実験）。タイトル検索だけを常に見せ、
+/* 期間は既定で折りたたむ（実験）。タイトル検索だけを常に見せ、
    詳細な絞り込みは開いた人だけがコストを払う形にする。 */
 .advanced-filters { margin-top: 0.6rem; }
 .advanced-filters summary {
@@ -239,106 +196,15 @@ html { scroll-behavior: smooth; }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 """
 
-# today.html・archive.html共通のtier切替・会員限定トグルのJSロジック
-# （activeTiers/apply/applyAll・localStorage初期化・クリックハンドラ登録、
-# 会員限定トグルの同等の一式）。呼び出し側のIIFE内で TIERS/DEFAULT_ON/body/
-# chips/updateCounts が既に定義済みであることを前提に、その途中に埋め込む
-# 断片であり、これ単体では完結しない。
-_TIER_PAID_TOGGLE_JS = """
-  function activeTiers() {
-    var active = {};
-    TIERS.forEach(function (t) { active[t] = body.classList.contains('show-' + t); });
-    return active;
-  }
-
-  function apply(tier, on) {
-    body.classList.toggle('show-' + tier, on);
-    if (chips[tier]) chips[tier].setAttribute('aria-pressed', on ? 'true' : 'false');
-  }
-
-  function applyAll(state) {
-    TIERS.forEach(function (t) { apply(t, !!state[t]); });
-    updateCounts();
-    try { localStorage.setItem('editorial-digest-tiers', JSON.stringify(state)); } catch (e) {}
-  }
-
-  var initialTiers = DEFAULT_ON;
-  try {
-    var savedTiers = localStorage.getItem('editorial-digest-tiers');
-    if (savedTiers) initialTiers = JSON.parse(savedTiers);
-  } catch (e) {}
-  applyAll(initialTiers);
-
-  TIERS.forEach(function (t) {
-    if (!chips[t]) return;
-    chips[t].addEventListener('click', function () {
-      var state = activeTiers();
-      state[t] = !state[t];
-      applyAll(state);
-    });
-  });
-
-  var paidToggle = document.getElementById('paid-toggle');
-  var hidePaid = false;
-  function applyPaidToggle() {
-    body.classList.toggle('hide-paid', hidePaid);
-    if (paidToggle) {
-      paidToggle.setAttribute('aria-pressed', hidePaid ? 'true' : 'false');
-      paidToggle.textContent = hidePaid ? '会員限定記事: 非表示中' : '会員限定記事: 表示中';
-    }
-    updateCounts();
-    try { localStorage.setItem('editorial-digest-hide-paid', hidePaid ? '1' : '0'); } catch (e) {}
-  }
-  try {
-    hidePaid = localStorage.getItem('editorial-digest-hide-paid') === '1';
-  } catch (e) {}
-  applyPaidToggle();
-  if (paidToggle) {
-    paidToggle.addEventListener('click', function () {
-      hidePaid = !hidePaid;
-      applyPaidToggle();
-    });
-  }
-"""
-
-_SCRIPT_TEMPLATE = """
-(function () {
-  var TIERS = ['national', 'block', 'regional'];
-  var DEFAULT_ON = { national: true, block: false, regional: false };
-  var body = document.body;
-  var totalEl = document.getElementById('total-count');
-  var chips = {};
-  TIERS.forEach(function (t) {
-    chips[t] = document.querySelector('.tier-chip[data-tier="' + t + '"]');
-  });
-
-  function updateCounts() {
-    var grandTotal = 0;
-    document.querySelectorAll('section.dategroup').forEach(function (sec) {
-      var count = 0;
-      sec.querySelectorAll('li.article-item').forEach(function (li) {
-        if (li.offsetParent !== null) count++;
-      });
-      grandTotal += count;
-      var countEl = sec.querySelector('.date-count');
-      if (countEl) countEl.textContent = count + '件';
-    });
-    if (totalEl) totalEl.textContent = grandTotal;
-  }
-""" + _TIER_PAID_TOGGLE_JS + """
-})();
-"""
+# today.htmlは記事の表示/非表示を切り替える手段が無く（tier切替・会員限定
+# トグルは廃止済み）、total-countもPython側で計算した静的な値をそのまま
+# 埋め込むため、クライアント側のJSは不要。
 
 # アーカイブ検索ページ専用のスクリプト。他の2ページと違いサーバー側で記事を
 # 埋め込まず、archive/index.json・archive/{YYYY-MM}.json をブラウザ側でfetchして
-# 組み立てる。tier/会員限定トグルは_TIER_PAID_TOGGLE_JSを共有するが、
-# 動的に追加されるセクションに対してupdateCountsを呼び直す必要があるため
-# updateCounts自体は独自実装になっている。
+# 組み立てる。
 _ARCHIVE_SCRIPT_TEMPLATE = r"""
 (function () {
-  var TIERS = ['national', 'block', 'regional'];
-  var DEFAULT_ON = { national: true, block: false, regional: false };
-  var TIER_LABEL = { national: '全国紙', block: 'ブロック紙', regional: '地方紙' };
   var WEEKDAY_JP = ['月', '火', '水', '木', '金', '土', '日'];
   // 取得の単位は月。「当月分だけ」にすると月初に1日分しか出ないため、常に
   // 新しい方から2ヶ月ぶん取る（月初でも28日分、月末でも62日分になる）。
@@ -361,8 +227,6 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
   var loadMoreBtn = document.getElementById('load-more');
   var statusEl = document.getElementById('archive-status');
   var filtersEl = document.getElementById('active-filters');
-  var chips = {};
-  TIERS.forEach(function (t) { chips[t] = document.querySelector('.tier-chip[data-tier="' + t + '"]'); });
 
   var allMonths = [];       // 新しい順。取得とページ送りの単位。
   var allDates = [];        // 新しい順。「全◯日分」の表示と表示日数の窓に使う。
@@ -400,20 +264,13 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
     return WEEKDAY_JP[(d.getUTCDay() + 6) % 7];
   }
 
-  function tierTagClass(tier) {
-    if (tier === 'block') return 'src-tag src-tag-block';
-    if (tier === 'regional') return 'src-tag src-tag-regional';
-    return 'src-tag';
-  }
-
   function flattenDateData(data) {
     var out = [];
     (data.sources || []).forEach(function (src) {
-      var tier = TIERS.indexOf(src.tier) >= 0 ? src.tier : 'regional';
       (src.items || []).forEach(function (it) {
         out.push({
-          name: src.name, tier: tier, title: it.title, link: it.link,
-          time: extractTime(it.published), paid: !!it.paid,
+          name: src.name, title: it.title, link: it.link,
+          time: extractTime(it.published),
         });
       });
     });
@@ -422,12 +279,10 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
 
   function renderRow(it) {
     var timeHtml = it.time ? '<time>' + it.time + '</time>' : '';
-    var paidHtml = it.paid ? '<span class="paid-badge">会員限定</span>' : '';
-    var paidClass = it.paid ? ' paid-item' : '';
-    return '<li class="article-item tier-' + it.tier + paidClass + '" data-title="' + esc(it.title.toLowerCase()) + '">' +
+    return '<li class="article-item" data-title="' + esc(it.title.toLowerCase()) + '">' +
       '<a class="article" href="' + esc(it.link) + '" target="_blank" rel="noopener noreferrer">' +
-      '<span class="article-main"><span class="' + tierTagClass(it.tier) + '">' + esc(it.name) + '</span>' +
-      '<span class="article-title">' + esc(it.title) + paidHtml + '</span></span>' + timeHtml + '</a></li>';
+      '<span class="article-main"><span class="src-tag">' + esc(it.name) + '</span>' +
+      '<span class="article-title">' + esc(it.title) + '</span></span>' + timeHtml + '</a></li>';
   }
 
   function sortByTimeDesc(items) {
@@ -489,26 +344,13 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
     return q ? terms.concat([q]) : terms.slice();
   }
 
-  // 検索語以外の条件（tier・会員限定）を通るか。提案チップの件数も同じ条件で
-  // 数えるため、isVisibleから切り出して共有する。
-  function passesTierPaid(li) {
-    if (hidePaid && li.classList.contains('paid-item')) return false;
-    for (var i = 0; i < TIERS.length; i++) {
-      if (li.classList.contains('tier-' + TIERS[i])) {
-        return body.classList.contains('show-' + TIERS[i]);
-      }
-    }
-    return true;
-  }
-
   function isVisible(li) {
-    // 記事の表示/非表示はCSSの4規則（search-hide・tier別・会員限定）だけで
-    // 決まるため、クラスから直接判定する。以前はoffsetParentで実測していたが、
-    // 全期間検索（Issue #57）で約1000日分・約2万件がDOMに載るようになり、
-    // 1件ごとの強制レイアウトが1打鍵ごとに効くようになった（実測で約44ms、
-    // クラス判定なら約6ms）ため、レイアウトを起こさない判定に置き換えた。
-    if (li.classList.contains('search-hide')) return false;
-    return passesTierPaid(li);
+    // 記事の表示/非表示はsearch-hideクラスの有無だけで決まるため、クラスから
+    // 直接判定する。以前はoffsetParentで実測していたが、全期間検索
+    // （Issue #57）で約1000日分・約2万件がDOMに載るようになり、1件ごとの
+    // 強制レイアウトが1打鍵ごとに効くようになった（実測で約44ms、クラス判定
+    // なら約6ms）ため、レイアウトを起こさない判定に置き換えた。
+    return !li.classList.contains('search-hide');
   }
 
   function updateCounts() {
@@ -530,42 +372,28 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
     });
     if (totalEl) totalEl.textContent = grandTotal;
     renderActiveFilters(grandTotal);
-    // 提案チップの件数もtier・会員限定・期間の影響を受けるため、ここで一緒に
-    // 描き直す。個別のハンドラに任せると、tierを切り替えたときだけ件数が
-    // 古いまま残る、といった取りこぼしが出る。
+    // 提案チップの件数も期間の影響を受けるため、ここで一緒に描き直す。
     renderSuggestions();
   }
 
   function renderActiveFilters(total) {
-    // 上部の検索条件パネルと同じ並び順（タイトル→日付→表示する範囲→会員限定）で
-    // アクティブな条件を＋でつないだ要約を表示し、AND条件で絞り込めることを
-    // 可視化する。全国紙のみを「既定表示」として特別扱いせず、ブロック紙のみ・
-    // 地方紙のみと同様に選択中のtierは常にそのまま示す（0個選択時は「選択なし」）。
+    // 上部の検索条件パネルと同じ並び順（タイトル→期間）で、アクティブな条件を
+    // ＋でつないだ要約を表示し、AND条件で絞り込めることを可視化する。
     if (!filtersEl) return;
     var chipsHtml = [];
     var allTerms = searchTerms();
     if (allTerms.length) {
-      // 確定した語（チップ）＋入力中の語はORだが、表示範囲（tier）のOR表示と
-      // 同じく「・」でつなぐ。「または「」」を語ごとに繰り返すと語数が増える
-      // たびに長くなりすぎるため。
+      // 確定した語（チップ）＋入力中の語はORだが「・」でつなぐ。「または」を
+      // 語ごとに繰り返すと語数が増えるたびに長くなりすぎるため。
       chipsHtml.push('<span class="filter-chip">タイトル「' + esc(allTerms.join('・')) + '」</span>');
     }
     if (periodYear) {
       chipsHtml.push('<span class="filter-chip">' + periodLabel() + '</span>');
     }
-    var selectedTiers = TIERS.filter(function (t) { return body.classList.contains('show-' + t); });
-    if (selectedTiers.length === 0) {
-      chipsHtml.push('<span class="filter-chip is-exclude">表示範囲: 選択なし</span>');
-    } else {
-      chipsHtml.push('<span class="filter-chip">' + selectedTiers.map(function (t) { return TIER_LABEL[t]; }).join('・') + '</span>');
-    }
-    if (hidePaid) {
-      chipsHtml.push('<span class="filter-chip is-exclude">会員限定を除く</span>');
-    }
     filtersEl.innerHTML = chipsHtml.join('<span class="filter-join">＋</span>') +
       '<span class="filter-result-count">' + total + '件</span>';
   }
-""" + _TIER_PAID_TOGGLE_JS + r"""
+
   // ステータス行と「さらに過去分を表示」の出し分けはここに集約する。読み込みは
   // 月単位、表示は日単位、検索は全期間と粒度が3つあるため、各所で個別に文言を
   // 書き換えると噛み合わなくなる。
@@ -781,14 +609,7 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
     resultsEl.querySelectorAll('section.dategroup').forEach(function (sec) {
       var date = sec.id.slice(2);
       sec.querySelectorAll('li.article-item').forEach(function (li) {
-        var tier = 'regional';
-        for (var i = 0; i < TIERS.length; i++) {
-          if (li.classList.contains('tier-' + TIERS[i])) { tier = TIERS[i]; break; }
-        }
-        gramItems.push({
-          t: li.getAttribute('data-title'), d: date, tier: tier,
-          paid: li.classList.contains('paid-item'),
-        });
+        gramItems.push({ t: li.getAttribute('data-title'), d: date });
       });
     });
     var index = new Map();
@@ -963,8 +784,8 @@ _ARCHIVE_SCRIPT_TEMPLATE = r"""
     // 出さない。クリックすると確定側に移ってこの列から消える、という動きになる。
     var words = suggestionsFor(qs);
     if (!words.length) { suggestEl.innerHTML = ''; suggestEl.hidden = true; return; }
-    // 件数は出さない。tier・会員限定・期間を通した後の件数を表示していたが、
-    // その条件がぱっと見で分からず、何の数字か伝わらないという指摘があった。
+    // 件数は出さない。期間を通した後の件数を表示していたが、その条件が
+    // ぱっと見で分からず、何の数字か伝わらないという指摘があった。
     // 押せば要約バーの合計がすぐ更新されるので、気に入らなければ押し直せばよい。
     renderChipButtons('関連語:', words);
   }
@@ -1168,31 +989,23 @@ def _esc(s: str) -> str:
     return html.escape(s, quote=True)
 
 
-def _normalize_tier(tier: str) -> str:
-    return tier if tier in TIERS else "regional"
-
-
 @dataclass
 class _FlatItem:
     name: str
-    tier: str
     title: str
     link: str
     time: str | None
     date: date
-    paid: bool
 
 
 def _flatten_items(results: list, run_date: date) -> list[_FlatItem]:
     flat = []
     for r in results:
-        tier = _normalize_tier(r.tier)
         for it in r.items:
             flat.append(_FlatItem(
-                name=r.name, tier=tier, title=it.title, link=it.link,
+                name=r.name, title=it.title, link=it.link,
                 time=parse_published_time(it.published),
                 date=parse_published_date(it.published, run_date) or run_date,
-                paid=getattr(it, "paid", False),
             ))
     return flat
 
@@ -1216,28 +1029,15 @@ def _group_by_date(items_flat: list[_FlatItem]) -> dict[date, list[_FlatItem]]:
     return by_date
 
 
-_TAG_CLASS = {"national": "src-tag", "block": "src-tag src-tag-block", "regional": "src-tag src-tag-regional"}
-
-
 def _render_article_row(item: _FlatItem) -> str:
     title = _esc(item.title)
     link = _esc(item.link)
     src = _esc(item.name)
     time_html = f'<time>{item.time}</time>' if item.time else ""
-    paid_html = '<span class="paid-badge">会員限定</span>' if item.paid else ""
-    paid_class = " paid-item" if item.paid else ""
     return (
-        f'<li class="article-item tier-{item.tier}{paid_class}"><a class="article" href="{link}" target="_blank" rel="noopener noreferrer">'
-        f'<span class="article-main"><span class="{_TAG_CLASS[item.tier]}">{src}</span>'
-        f'<span class="article-title">{title}{paid_html}</span></span>{time_html}</a></li>'
-    )
-
-
-def _render_tier_chips() -> str:
-    return "".join(
-        f'<button type="button" class="tier-chip" data-tier="{t}" aria-pressed="{"true" if t == "national" else "false"}">'
-        f'{TIER_LABEL[t]}</button>'
-        for t in TIERS
+        f'<li class="article-item"><a class="article" href="{link}" target="_blank" rel="noopener noreferrer">'
+        f'<span class="article-main"><span class="src-tag">{src}</span>'
+        f'<span class="article-title">{title}</span></span>{time_html}</a></li>'
     )
 
 
@@ -1253,8 +1053,8 @@ def _render_footer(note: str = "", run_date: date | None = None) -> str:
     return (
         f'    <p>社説まとめツールが自動生成{date_part}。'
         '個人利用目的の非公式リンク集で、著作権は各社に帰属します。</p>\n'
-        '    <p>内容の正確性は保証しません（記事削除等でリンク切れの場合あり）。「会員限定」表示も参考情報です。</p>\n'
-        '    <p>一部の新聞社は、サイト側の意向により対象外としています。</p>\n'
+        '    <p>内容の正確性は保証しません（記事削除等でリンク切れの場合あり）。</p>\n'
+        '    <p>対象は全国紙5紙（朝日・毎日・読売・日経・産経）のみです。</p>\n'
         f'    <p>ご連絡・削除のご依頼は <a href="mailto:{CONTACT_EMAIL}">{CONTACT_EMAIL}</a> まで。</p>'
     )
 
@@ -1266,31 +1066,20 @@ def _render_crosslink(href: str, label: str) -> str:
 def _render_page(
     *, title: str, description: str, canonical_path: str, eyebrow: str, heading: str,
     crosslink_html: str, summary_html: str, main_html: str, footer_html: str,
-    script: str = _SCRIPT_TEMPLATE, scope_toggle_html: str | None = None,
+    script: str = "", scope_toggle_html: str = "",
 ) -> str:
     """today.html・archive.htmlに共通のページ骨格（head/masthead/
     footer/script）を組み立てる。異なる部分（見出し・概要・本文・フッター
-    文言）は呼び出し側が文字列として渡す。scriptは既定でtier/会員限定トグルの
-    共通スクリプトだが、アーカイブページのように動的読み込みが絡むページは
-    独自のスクリプトに差し替える。scope_toggle_htmlも既定はtier/会員限定トグルの
-    共通ヘッダーブロックだが、アーカイブページはタイトル検索・日付絞り込みも
-    含めた1つの検索パネルを渡す——today.htmlのtier/会員限定トグルと同様、
-    ヘッダー内に置くことでheader.mastheadのborder-bottomが記事一覧の直前
-    （main_htmlの先頭）に来るようにするため。
+    文言）は呼び出し側が文字列として渡す。scriptは空文字なら`<script>`タグ
+    自体を出さない（today.htmlはクライアント側の動的な状態を持たないため）。
+    scope_toggle_htmlはアーカイブページのようにヘッダー内に検索パネルを
+    置きたいページだけが渡す——ヘッダー内に置くことでheader.mastheadの
+    border-bottomが記事一覧の直前（main_htmlの先頭）に来るようにするため。
     """
-    if scope_toggle_html is None:
-        scope_toggle_html = (
-            '    <div class="scope-toggle">\n'
-            '      <span class="scope-label">表示する範囲</span>\n'
-            '      <div class="tier-chips">\n'
-            f'{_render_tier_chips()}\n'
-            '      </div>\n'
-            '      <button type="button" class="paid-toggle" id="paid-toggle" aria-pressed="false">会員限定記事: 表示中</button>\n'
-            '    </div>'
-        )
     canonical_url = f"{SITE_URL}{canonical_path}"
     desc_attr = _esc(description)
     title_attr = _esc(title)
+    script_html = f'<script>{script}</script>' if script else ""
     return f'''<!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -1328,8 +1117,7 @@ def _render_page(
 {footer_html}
   </footer>
 </div>
-
-<script>{script}</script>
+{script_html}
 </body>
 </html>
 '''
@@ -1347,7 +1135,7 @@ def render_today_html(results: list, run_date: date) -> str:
     by_date = _group_by_date(items_flat)
     items_today = by_date.get(run_date, [])
 
-    national_total = sum(1 for x in items_today if x.tier == "national")
+    total = len(items_today)
     wd = WEEKDAY_JP[run_date.weekday()]
     date_label = f"{run_date.month}/{run_date.day}（{wd}）"
 
@@ -1363,12 +1151,12 @@ def render_today_html(results: list, run_date: date) -> str:
   {empty_html}
 </section>'''
 
-    summary_html = _render_summary(date_label, national_total)
+    summary_html = _render_summary(date_label, total)
     footer_html = _render_footer("（当日分のみ）", run_date)
 
     return _render_page(
         title="社説まとめ",
-        description="全国紙・地方紙の社説（オピニオン）を毎日まとめる非公式リンク集。"
+        description="全国紙5紙の社説（オピニオン）を毎日まとめる非公式リンク集。"
                      "本日分のタイトル・リンク・日付のみを掲載し、本文は各紙サイトでご覧いただけます。",
         canonical_path="",
         eyebrow="EDITORIAL DIGEST · TODAY",
@@ -1399,23 +1187,13 @@ def render_archive_html() -> str:
         <div class="suggest-row" id="archive-suggest" hidden></div>
       </div>
       <details class="advanced-filters">
-        <summary>詳細な絞り込み（期間・紙の種類・会員限定）</summary>
+        <summary>詳細な絞り込み（期間）</summary>
         <div class="field-row">
           <span class="field-caption">期間で絞り込み</span>
           <div class="period-selects">
             <select class="archive-date" id="archive-year" aria-label="年で絞り込み"><option value="">すべての年</option></select>
             <select class="archive-date" id="archive-month" aria-label="月で絞り込み" disabled><option value="">すべての月</option></select>
           </div>
-        </div>
-        <div class="field-row">
-          <span class="field-caption">表示する範囲（複数選択可）</span>
-          <div class="tier-chips">
-{_render_tier_chips()}
-          </div>
-        </div>
-        <div class="field-row">
-          <span class="field-caption">会員限定記事</span>
-          <button type="button" class="paid-toggle" id="paid-toggle" aria-pressed="false">会員限定記事: 表示中</button>
         </div>
       </details>
     </div>
@@ -1434,7 +1212,7 @@ def render_archive_html() -> str:
 
     return _render_page(
         title="社説まとめ アーカイブ検索",
-        description="全国紙・地方紙の社説（オピニオン）を過去分まで横断検索できる非公式アーカイブ。"
+        description="全国紙5紙の社説（オピニオン）を過去分まで横断検索できる非公式アーカイブ。"
                      "タイトル・リンク・日付のみを収集し、本文は掲載していません。",
         canonical_path="archive.html",
         eyebrow="EDITORIAL DIGEST · ARCHIVE",
