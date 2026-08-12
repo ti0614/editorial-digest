@@ -1,20 +1,19 @@
-# 各紙の社説（オピニオン）一覧ページの設定
+# 各紙の社説（オピニオン）一覧ページの設定。
+#
+# 対象は全国紙5紙（朝日・毎日・読売・日経・産経）のみで恒久的に固定している。
+# 以前はブロック紙・地方紙も収録し、tier（national/block/regional）フィールドで
+# 区別していたが、2026-08-12にtier概念ごと廃止した（経緯は CLAUDE.md 参照）。
+# 旧構成一式（tier・paid_selector・always_paid を含む全エントリ）は
+# archive/all-tiers-sources ブランチにそのまま残っており、参照できる。
 #
 # 2026-07-21: ネットワークアクセス可能な環境で実際の各紙HTMLを取得し、
 # URL・CSSセレクタを実機確認・修正済み（verified: true の項目）。
 # ただしニュースサイトはリニューアルでHTML構造が変わることがあるため、
 # 定期的に `python main.py check` で疎通確認することを推奨します。
 #
-# 2026-08-12: 対象を全国紙5紙（tier: national）のみに絞った。以前収録して
-# いたブロック紙・地方紙のエントリは archive/all-tiers-sources ブランチに
-# そのまま残してあり、必要ならそこから該当エントリをコピーして戻せる。
-#
 # 各項目の意味:
 #   name        : 新聞社名（表示用）
 #   category    : この社の論説コラムの呼称（社説 / 主張 など）
-#   tier        : national（全国紙）/ block（ブロック紙、複数県にまたがる
-#                 広域紙）/ regional（地方紙、都道府県紙）。生成するWebページ
-#                 で3種類の表示切り替えに使う。省略時は regional 扱い。
 #   index_url   : 社説一覧ページのURL
 #   item_selector  : 一覧ページ内の「記事1件」を指すCSSセレクタ
 #   title_selector : item_selector の中でタイトルを含む要素（省略時はitem自体のテキスト）
@@ -28,25 +27,11 @@
 #   title_strip_pattern : タイトルから正規表現にマッチした部分を除去する（任意）。
 #                 全文検索結果はタイトルに「社説　」という接頭辞や「〈2026 7.26〉」
 #                 のような日付が埋め込まれていることがあり、他紙と表記を揃えるために使う。
-#   paid_selector : item内に存在すれば「会員限定記事」とみなす要素（任意、
-#                 CSSセレクタ）。各紙が使っている鍵アイコン等のクラスを指定する。
-#                 2026-07-22時点で verified: true の全紙について実機確認済み
-#                 （7紙で会員限定マークを発見、それ以外は未検出＝無料と判断）。
-#                 verified: false の紙（記事を取得できていない紙）は
-#                 未調査のまま。今後サイト側の仕様変更で再調査が必要になる
-#                 可能性がある。
-#   always_paid   : true にすると、一覧ページ側に鍵アイコン等の目印が無くても
-#                 その紙の記事は常に会員限定として扱う（任意）。北日本新聞
-#                 （webun）のように、一覧ページには目印が一切無いが、記事
-#                 個別ページを開くと必ず「ニュースプラン」会員登録が必要な
-#                 サイトで使用。
 #   verified    : false の場合、実機未検証（要確認）であることを示す
 
 sources:
-  # ---- 全国紙（主要5紙） ----
   - name: 朝日新聞
     category: 社説
-    tier: national
     index_url: https://www.asahi.com/rensai/list.html?id=16
     item_selector: "li:has(h3)"
     title_selector: "h3"
@@ -58,7 +43,6 @@ sources:
 
   - name: 毎日新聞
     category: 社説
-    tier: national
     index_url: https://mainichi.jp/editorial/
     item_selector: "ul.articlelist li"
     title_selector: "h3.articlelist-title"
@@ -72,7 +56,6 @@ sources:
 
   - name: 読売新聞
     category: 社説
-    tier: national
     index_url: https://www.yomiuri.co.jp/editorial/
     item_selector: "div.list div.item"
     title_selector: "h3.title"
@@ -87,7 +70,6 @@ sources:
 
   - name: 日本経済新聞
     category: 社説
-    tier: national
     index_url: https://www.nikkei.com/opinion/editorial/
     item_selector: "article"
     title_selector: "h2"
@@ -99,7 +81,6 @@ sources:
 
   - name: 産経新聞
     category: 主張
-    tier: national
     index_url: https://www.sankei.com/column/editorial/
     item_selector: "div.col-container.col-12 article.storycard"
     title_selector: "h3.headline"
